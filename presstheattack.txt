@@ -4137,7 +4137,7 @@ $cookie=/unique_id/,domain=twitch.tv
 .zone_injection.$important
 .zone_injection^$important
 .zone_injection_$important
-@@||vk.com/js/api/openapi.js^
+@@||vkontakte.ru/js/api/openapi.js$script
 /0.gif^$important
 /0.html^$important
 /s.gif^$important
@@ -4232,7 +4232,6 @@ _baner_$important
 1xbet$important
 1xstavka$important
 2ch.hk###plashque
-@@||an.yandex.ru^$image,domain=www.kinopoisk.ru
 @@||api-maps.yandex.*^$script,xmlhttprequest,subdocument,1p
 @@||cloud-api.yandex.*^$script,xmlhttprequest,subdocument,1p
 @@||facebook.com/common/referer_frame.php$subdocument,domain=facebook.com|facebookcorewwwi.onion
@@ -8361,7 +8360,6 @@ youtube.com##.ytd-popup-container.style-scope.dropdown-content
 ||amazon-adsystem.com^$important
 ||amazonaws.com/homad-global-configs.schneevonmorgen.com
 ||amazonaws.com/ki.js/$important
-||an.yandex.ru^
 ||api.twitch.tv/*/channels/*/extensions$xmlhttprequest,domain=twitch.tv,important
 ||assets.adobedtm.com^$important
 ||atdmt.com^$important
