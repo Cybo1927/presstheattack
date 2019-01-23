@@ -1,6 +1,6 @@
 ![Adblock Plus 3.1]
 ! Title: Press the Attack
-! Last modified: 23 Jan 2019 11:15
+! Last modified: 23 Jan 2019 15:05
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -1437,6 +1437,10 @@ $cookie=/unique_id/,domain=twitch.tv
 -googlesyndication.$important
 -googlesyndication^$important
 -googlesyndication_$important
+-googletag-$important
+-googletag.$important
+-googletag^$important
+-googletag_$important
 -googletagmanager-$important
 -googletagmanager.$important
 -googletagmanager^$important
@@ -3421,6 +3425,10 @@ $cookie=/unique_id/,domain=twitch.tv
 .googlesyndication.$important
 .googlesyndication^$important
 .googlesyndication_$important
+.googletag-$important
+.googletag.$important
+.googletag^$important
+.googletag_$important
 .googletagmanager-$important
 .googletagmanager.$important
 .googletagmanager^$important
@@ -4134,6 +4142,7 @@ $cookie=/unique_id/,domain=twitch.tv
 /advert2.js$important
 /advert3.js$important
 /akam/10/$important
+/amzn_ads.js$important
 /banners*.swf$important
 /banners/468$important
 /banners/*.gif$important
@@ -4142,12 +4151,12 @@ $cookie=/unique_id/,domain=twitch.tv
 /cleardot.*^$domain=~drive.google.com|~mail.google.com
 /count.json^$important
 /dear_code/*/goclick?t=*&ref=$important
-/fp2.js^$important
-/ga.js^$important
+/fp2.js$important
+/ga.js$important
 /gads.*^$important
 /google(\-analytics|syndication|tagmanager|adservices|tagservices)\.(com|ru|net)/$important
 /google-conversion.html^$important
-/gpt.js^$important
+/gpt.js$important
 /graph\.(facebook|instagram)\.com/$important
 /i.gif$important
 /ima3.js$important
@@ -4155,11 +4164,11 @@ $cookie=/unique_id/,domain=twitch.tv
 /imp.php$important
 /log.gif^$important
 /p.*^$important
-/ph-functions.js^$important
-/ph-tracking.js^$important
-/popups.js^$important
+/ph-functions.js$important
+/ph-tracking.js$important
+/popups.js$important
 /prum.*^$important
-/pubfig.min.js^$important
+/pubfig.min.js$important
 /publishertag.*$script,important
 /px.*^$important
 /pxl.*^$important
@@ -4843,7 +4852,7 @@ $cookie=/unique_id/,domain=twitch.tv
 ^adv9_$important
 ^adv-
 ^adv.
-^adv^$domain=~mail.google.com
+^adv^$domain=~mail.google.com|~livejournal.com
 ^adv_
 ^adv_keywords-$important
 ^adv_keywords.$important
@@ -5494,6 +5503,10 @@ $cookie=/unique_id/,domain=twitch.tv
 ^googlesyndication.$important
 ^googlesyndication^$important
 ^googlesyndication_$important
+^googletag-$important
+^googletag.$important
+^googletag^$important
+^googletag_$important
 ^googletagmanager-$important
 ^googletagmanager.$important
 ^googletagmanager^$important
@@ -7490,6 +7503,10 @@ _googlesyndication-$important
 _googlesyndication.$important
 _googlesyndication^$important
 _googlesyndication_$important
+_googletag-$important
+_googletag.$important
+_googletag^$important
+_googletag_$important
 _googletagmanager-$important
 _googletagmanager.$important
 _googletagmanager^$important
