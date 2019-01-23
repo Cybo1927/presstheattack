@@ -1,6 +1,6 @@
 ![Adblock Plus 3.1]
 ! Title: Press the Attack
-! Last modified: 23 Jan 2019 10:19
+! Last modified: 23 Jan 2019 11:10
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -16,6 +16,19 @@
 ###ab_top:not(:root):not(body):not(input)
 /akam/10/$important
 -loader_adv-$important
+/log.gif^$important
+/count.json^$important
+|http*://logger.*^$important
+|http*://statistics.*^$important
+|http*://stats.*^$important
+|http*://track.*^$important
+|http*://tracker.*^$important
+|http*://tracking.*^$important
+|http*://tracking2.*^$important
+|http*://analytic.*^$important
+|http*://analytics.*^$important
+|http*://analytics1.*^$important
+|http*://anon-stats.**^$important
 ||play.google.*/log^$important
 @@||connect.facebook.net^
 @@||connect.ok.ru
