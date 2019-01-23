@@ -1,6 +1,6 @@
 ![Adblock Plus 3.1]
 ! Title: Press the Attack
-! Last modified: 23 Jan 2019 15:05
+! Last modified: 23 Jan 2019 17:47
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -15,6 +15,10 @@
 ###ab_right:not(:root):not(body):not(input)
 ###ab_top:not(:root):not(body):not(input)
 ###ad-footer:not(:root):not(body):not(input)
+||events.reddit.com^$important
+/pixel.png$important
+/pixel.gif$important
+yandex.ru,yandex.ua,yandex.by,kinopoisk.ru##+js(cookie-remover.js, /blcrm|bltsr|yabs|adb|cmtchd|crookie|kpunk|is_adblock|abp|yp|ys/)
 ###ad-tower:not(:root):not(body):not(input)
 ###adBlockerContainer:not(:root):not(body):not(input)
 ###ads:not(:root):not(body):not(input)
