@@ -1,6 +1,6 @@
 ![Adblock Plus 3.1]
 ! Title: Press the Attack
-! Last modified: 27 Jan 2019 17:05
+! Last modified: 27 Jan 2019 18:35
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -17,6 +17,23 @@
 -docreferrer^$important
 -docreferrer_$important
 .docreferrer-$important
+-phpads-$important
+@@||githubusercontent.com^$image
+-phpads.$important
+-phpads^$important
+-phpads_$important
+.phpads-$important
+.phpads.$important
+.phpads^$important
+.phpads_$important
+^phpads-$important
+^phpads.$important
+^phpads^$important
+^phpads_$important
+_phpads-$important
+_phpads.$important
+_phpads^$important
+_phpads_$important
 .docreferrer.$important
 .docreferrer^$important
 .docreferrer_$important
@@ -370,6 +387,22 @@ $cookie=/unique_id/,domain=twitch.tv
 -ad2-
 -ad2.
 -ad2^
+-affiliation-$important
+-affiliation.$important
+-affiliation^$important
+-affiliation_$important
+.affiliation-$important
+.affiliation.$important
+.affiliation^$important
+.affiliation_$important
+^affiliation-$important
+^affiliation.$important
+^affiliation^$important
+^affiliation_$important
+_affiliation-$important
+_affiliation.$important
+_affiliation^$important
+_affiliation_$important
 -ad2_
 -ad3-
 -ad3.
@@ -8659,6 +8692,22 @@ youtube.com##.ytd-popup-container.style-scope.dropdown-content
 ||media-amazon.com^*/zergnet-$domain=imdb.com,important
 ||mediametrics.ru^$important
 ||microad.net^$important
+-adfetch-$important
+-adfetch.$important
+-adfetch^$important
+-adfetch_$important
+.adfetch-$important
+.adfetch.$important
+.adfetch^$important
+.adfetch_$important
+^adfetch-$important
+^adfetch.$important
+^adfetch^$important
+^adfetch_$important
+_adfetch-$important
+_adfetch.$important
+_adfetch^$important
+_adfetch_$important
 ||microsoft.com/library/svy/$important
 ||mms.cnn.com^$important
 ||msecnd.net/scripts/jsll$important
@@ -8675,6 +8724,8 @@ youtube.com##.ytd-popup-container.style-scope.dropdown-content
 ||postrelease.com^$important
 ||push-ad.com^$important
 ||r3.mail.ru^$important
+||r2.mail.ru^$important
+||r1.mail.ru^$important
 ||r.mail.ru^$important
 ||radar.cedexis.com^$important
 ||radar.imgsmail.ru^$important
