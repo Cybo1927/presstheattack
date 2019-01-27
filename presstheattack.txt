@@ -1,6 +1,6 @@
 ![Adblock Plus 3.1]
 ! Title: Press the Attack
-! Last modified: 27 Jan 2019 17:04
+! Last modified: 27 Jan 2019 17:05
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -12,6 +12,54 @@
 ###ab_banner:not(:root):not(body):not(input)
 ###ab_bottom:not(:root):not(body):not(input)
 ###ab_left:not(:root):not(body):not(input)
+-docreferrer-$important
+-docreferrer.$important
+-docreferrer^$important
+-docreferrer_$important
+.docreferrer-$important
+.docreferrer.$important
+.docreferrer^$important
+.docreferrer_$important
+^docreferrer-$important
+^docreferrer.$important
+^docreferrer^$important
+^docreferrer_$important
+_docreferrer-$important
+_docreferrer.$important
+_docreferrer^$important
+_docreferrer_$important
+-getrecommandedads-$important
+-getrecommandedads.$important
+-getrecommandedads^$important
+-getrecommandedads_$important
+.getrecommandedads-$important
+.getrecommandedads.$important
+.getrecommandedads^$important
+.getrecommandedads_$important
+^getrecommandedads-$important
+^getrecommandedads.$important
+^getrecommandedads^$important
+^getrecommandedads_$important
+_getrecommandedads-$important
+_getrecommandedads.$important
+_getrecommandedads^$important
+_getrecommandedads_$important
+-gettrendingads-$important
+-gettrendingads.$important
+-gettrendingads^$important
+-gettrendingads_$important
+.gettrendingads-$important
+.gettrendingads.$important
+.gettrendingads^$important
+.gettrendingads_$important
+^gettrendingads-$important
+^gettrendingads.$important
+^gettrendingads^$important
+^gettrendingads_$important
+_gettrendingads-$important
+_gettrendingads.$important
+_gettrendingads^$important
+_gettrendingads_$important
 ###ab_right:not(:root):not(body):not(input)
 ###ab_top:not(:root):not(body):not(input)
 ||r0.mail.ru^$important
