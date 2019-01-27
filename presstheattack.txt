@@ -1,6 +1,6 @@
 ![Adblock Plus 3.1]
 ! Title: Press the Attack
-! Last modified: 27 Jan 2019 22:05
+! Last modified: 28 Jan 2019 00:10
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -12,6 +12,23 @@
 ###ab_banner:not(:root):not(body):not(input)
 ###ab_bottom:not(:root):not(body):not(input)
 ###ab_left:not(:root):not(body):not(input)
+/fingerprintjs[1-9]/$important
+-fingerprintjs-$important
+-fingerprintjs.$important
+-fingerprintjs^$important
+-fingerprintjs_$important
+.fingerprintjs-$important
+.fingerprintjs.$important
+.fingerprintjs^$important
+.fingerprintjs_$important
+^fingerprintjs-$important
+^fingerprintjs.$important
+^fingerprintjs^$important
+^fingerprintjs_$important
+_fingerprintjs-$important
+_fingerprintjs.$important
+_fingerprintjs^$important
+_fingerprintjs_$important
 -docreferrer-$important
 -docreferrer.$important
 -docreferrer^$important
