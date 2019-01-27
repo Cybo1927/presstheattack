@@ -1,6 +1,6 @@
 ![Adblock Plus 3.1]
 ! Title: Press the Attack
-! Last modified: 27 Jan 2019 18:43
+! Last modified: 27 Jan 2019 22:05
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -1564,10 +1564,6 @@ _adcycle_$important
 -feedads.$important
 -feedads^$important
 -feedads_$important
--fingerprint2-
--fingerprint2.
--fingerprint2^
--fingerprint2_
 -fingerprint-
 -fingerprint.
 -fingerprint^
@@ -3552,10 +3548,6 @@ _adcycle_$important
 .feedads.$important
 .feedads^$important
 .feedads_$important
-.fingerprint2-
-.fingerprint2.
-.fingerprint2^
-.fingerprint2_
 .fingerprint-
 .fingerprint.
 .fingerprint^
@@ -5774,10 +5766,6 @@ _adswrappers_$important
 ^feedads.$important
 ^feedads^$important
 ^feedads_$important
-^fingerprint2-
-^fingerprint2.
-^fingerprint2^
-^fingerprint2_
 ^fingerprint-
 ^fingerprint.
 ^fingerprint^
@@ -7775,10 +7763,6 @@ _feedads-$important
 _feedads.$important
 _feedads^$important
 _feedads_$important
-_fingerprint2-
-_fingerprint2.
-_fingerprint2^
-_fingerprint2_
 _fingerprint-
 _fingerprint.
 _fingerprint^
@@ -8811,11 +8795,62 @@ youtube.com##.ytd-popup-container.style-scope.dropdown-content
 ||collector.githubapp.com^$important
 ||da-ads.com^$important
 ||dapxl.com^$important
+||bs.yandex.ru^$important
+-AdsPixel-$important
+-AdsPixel.$important
+-AdsPixel^$important
+-AdsPixel_$important
+.AdsPixel-$important
+.AdsPixel.$important
+.AdsPixel^$important
+.AdsPixel_$important
+^AdsPixel-$important
+^AdsPixel.$important
+^AdsPixel^$important
+^AdsPixel_$important
+_AdsPixel-$important
+_AdsPixel.$important
+_AdsPixel^$important
+_AdsPixel_$important
+-AdPreferences-$important
+-AdPreferences.$important
+-AdPreferences^$important
+-AdPreferences_$important
+.AdPreferences-$important
+.AdPreferences.$important
+.AdPreferences^$important
+.AdPreferences_$important
+^AdPreferences-$important
+^AdPreferences.$important
+^AdPreferences^$important
+^AdPreferences_$important
+_AdPreferences-$important
+_AdPreferences.$important
+_AdPreferences^$important
+_AdPreferences_$important
+-AdPageMessage-$important
+-AdPageMessage.$important
+-AdPageMessage^$important
+-AdPageMessage_$important
+.AdPageMessage-$important
+.AdPageMessage.$important
+.AdPageMessage^$important
+.AdPageMessage_$important
+^AdPageMessage-$important
+^AdPageMessage.$important
+^AdPageMessage^$important
+^AdPageMessage_$important
+_AdPageMessage-$important
+_AdPageMessage.$important
+_AdPageMessage^$important
+_AdPageMessage_$important
+/g.gif$important
 ||demdex.net^$important
 ||directadvert.ru^$important
 ||doubleclick.net^$important
 ||doublepimp.com^$important
 ||duckduckgo.com/t/$important
+/fingerprint[1-9]/$important
 ||duckduckgo.com/y.js$important
 ||et.nytimes.com^$important
 ||facebook.com/common/scribe_endpoint.php^$important
@@ -8879,7 +8914,6 @@ _adfetch_$important
 ||pipe.aria.microsoft.com/collector/$important
 ||placehold.it^$important
 ||play.google.*/log^$important
-||polyfill.twitchsvc.net^$important
 ||popads.net^$important
 ||postrelease.com^$important
 ||push-ad.com^$important
