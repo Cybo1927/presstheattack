@@ -6127,7 +6127,7 @@ $cookie=/unique_id/,domain=twitch.tv
 ^random_banner_
 ^ref-$domain=~github.com
 ^ref.$important
-^ref^$important
+^ref^$domain=~github.com
 ^ref_$important
 ^refer-$important
 ^refer.$important
