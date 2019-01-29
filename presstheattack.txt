@@ -1,6 +1,6 @@
 ![Adblock Plus 3.1]
 ! Title: Press the Attack
-! Last modified: 29 Jan 2019 00:55
+! Last modified: 29 Jan 2019 14:21
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -8836,7 +8836,6 @@ youtube.com##.ytd-popup-container.style-scope.dropdown-content
 |http*://tracking2.*^$important
 |http*://tracking.*^$important
 |http*://yads.*^$important
-||1l-hit.mail.ru^$important
 ||2mdn.net^$important
 ||3g2upl4pq6kufc4m.onion/t/$important
 ||3g2upl4pq6kufc4m.onion/y.js$important
@@ -8932,19 +8931,46 @@ youtube.com##.ytd-popup-container.style-scope.dropdown-content
 ||popmyads.com^$important
 ||postrelease.com^$important
 ||push-ad.com^$important
-||r0.mail.ru^$important
-||r1.mail.ru^$important
-||r2.mail.ru^$important
-||r3.mail.ru^$important
-||r.mail.ru^$important
 ||radar.cedexis.com^$important
 ||radar.imgsmail.ru^$important
+/^https?:\/\/(1l\-hit|r|rs|top\-fwz|vk\.go|reklama)[0-9]?\.mail\.ru\D/$important
+-analyticator-$important
+-analyticator.$important
+-analyticator^$important
+-analyticator_$important
+.analyticator-$important
+.analyticator.$important
+.analyticator^$important
+.analyticator_$important
+^analyticator-$important
+^analyticator.$important
+^analyticator^$important
+^analyticator_$important
+_analyticator-$important
+_analyticator.$important
+_analyticator^$important
+_analyticator_$important
+-remarketing-$important
+-remarketing.$important
+-remarketing^$important
+-remarketing_$important
+.remarketing-$important
+.remarketing.$important
+.remarketing^$important
+.remarketing_$important
+^remarketing-$important
+^remarketing.$important
+^remarketing^$important
+^remarketing_$important
+_remarketing-$important
+_remarketing.$important
+_remarketing^$important
+_remarketing_$important
 ||recreativ.ru^$important
 ||redditmedia.com/gtm/jail^$important
 ||redditstatic.com/moat^$important
 ||referrer.disqus.com^$important
 ||roistat.com^$important
-||rs.mail.ru^$important
 ||rubiconproject.com^$important
 ||s.360.cn^$important
 ||scontent.xx.fbcdn23dssr3jqnq.onion/hads-ak-prn*/*.png$important
@@ -8960,14 +8986,12 @@ youtube.com##.ytd-popup-container.style-scope.dropdown-content
 ||summerhamster.com^$important
 ||tns-counter.ru^$important
 ||top100.ru^$important
-||top-fwz1.mail.ru^$important
 ||top.list.ru^$important
 ||trafficfactory.biz^$important
 ||twitchcdn.net/v1.js$important
 ||twitter.com/i/jot^$important
 ||udc.yahoo.com^$important
 ||visualwebsiteoptimizer.com^$important
-||vk.go.mail.ru^$important
 ||vortex.data.microsoft.com^$important
 ||whos.amung.us^$important
 ||yadro.ru^$important
