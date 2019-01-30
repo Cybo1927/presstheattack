@@ -1,6 +1,6 @@
 ![Adblock Plus 3.1]
 ! Title: Press the Attack
-! Last modified: 30 Jan 2019 00:05
+! Last modified: 30 Jan 2019 14:05
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -5938,7 +5938,7 @@ $cookie=/unique_id/,domain=twitch.tv
 ^log-type.$important
 ^log-type^$important
 ^log-type_$important
-^log.$domain=~docviewer.yandex.ru
+^log.$domain=~docviewer.yandex.ru|~twitter.com
 ^log.type-$important
 ^log.type.$important
 ^log.type^$important
@@ -8052,7 +8052,7 @@ _log-type-$important
 _log-type.$important
 _log-type^$important
 _log-type_$important
-_log.
+_log.$domain=~twitter.com
 _log.type-$important
 _log.type.$important
 _log.type^$important
@@ -8777,7 +8777,7 @@ yandex.ru,yandex.by,yandex.ua,~mail.yandex.ru##+js(set-constant.js, Math.random,
 yandex.ru,yandex.ua,yandex.by##.content__main + :last-child
 yandex.ru,yandex.ua,yandex.by##.heap_direction_column.heap.container__line.container__heap.container
 yandex.ru,yandex.ua,yandex.by##.media-infinity-footer__content
-yandex.ru,yandex.ua,yandex.by,kinopoisk.ru##+js(cookie-remover.js, /blcrm|bltsr|yabs|adb|cmtchd|crookie|kpunk|is_adblock|abp|yp|ys/)
+yandex.ru,yandex.ua,yandex.by,kinopoisk.ru##+js(cookie-remover.js, /^blcrm|^bltsr|^yabs|^adb|^cmtchd|^crookie|^kpunk|^is_adblock|^abp|^yp|^ys/)
 yandex.ru,yandex.ua,yandex.by,yandex.com##.serp-footer__main
 yandex.ua,yandex.ru,yandex.by##.font-regular.i-bem.media-grid_theme_white.media-grid_visible_no.media-grid
 yandex.ua,yandex.ru,yandex.by##.rows__row_last.rows__row.row
@@ -8926,6 +8926,7 @@ youtube.com##.ytd-popup-container.style-scope.dropdown-content
 ||owebmoney.ru^$important
 ||pipe.aria.microsoft.com/collector/$important
 ||placehold.it^$important
+/^https?:\/\/(www\.)?facebook\.[a-z]+\/tr(\?|\/\?)/$important
 /^https?:\/\/[\w.]+google\.[a-z]+/log\?/$important
 ||popads.net^$important
 ||popmyads.com^$important
