@@ -1,6 +1,6 @@
 ![Adblock Plus 3.1]
 ! Title: Press the Attack
-! Last modified: 30 Jan 2019 16:25
+! Last modified: 30 Jan 2019 17:13
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -32,6 +32,22 @@
 ###topads:not(:root):not(body):not(input)
 ##*[class="-ad-"]
 ##*[class="-ad."]
+-ljcounter-$important
+-ljcounter.$important
+-ljcounter^$important
+-ljcounter_$important
+.ljcounter-$important
+.ljcounter.$important
+.ljcounter^$important
+.ljcounter_$important
+^ljcounter-$important
+^ljcounter.$important
+^ljcounter^$important
+^ljcounter_$important
+_ljcounter-$important
+_ljcounter.$important
+_ljcounter^$important
+_ljcounter_$important
 -ad_slot-$important
 -ad_slot.$important
 -ad_slot^$important
@@ -1620,7 +1636,7 @@ music.yandex.ua,music.yandex.ru,music.yandex.by##.sidebar__under
 -kill-adblock_$important
 -landing-
 -landing.$domain=~yandex.ru|~yandex.ua|~yandex.by
--landing^
+-landing^$domain=~last.fm
 -landing_
 -landingpage-
 -landingpage.
@@ -2161,6 +2177,24 @@ music.yandex.ua,music.yandex.ru,music.yandex.by##.sidebar__under
 -tracker-
 -tracker.
 -tracker^
+-telemetry-$important
+||platform.linkedin.com^$important
+||linkedin.com^*/track$important
+-telemetry.$important
+-telemetry^$important
+-telemetry_$important
+.telemetry-$important
+.telemetry.$important
+.telemetry^$important
+.telemetry_$important
+^telemetry-$important
+^telemetry.$important
+^telemetry^$important
+^telemetry_$important
+_telemetry-$important
+_telemetry.$important
+_telemetry^$important
+_telemetry_$important
 -tracker_
 -tracking-$domain=~yahoo.com
 -tracking.
@@ -5475,7 +5509,12 @@ music.yandex.ua,music.yandex.ru,music.yandex.by##.sidebar__under
 ^bannerid^$important
 ^bannerid_$important
 ^banners-
-^banners.
+||cbsi.com^$important
+||agkn.com^$important
+||betrad.com^$important
+||media.net^$important
+||moatads.com^$important
+^banners.$domain=~livejournal.com
 ^banners^
 ^banners_
 ^bcn-
