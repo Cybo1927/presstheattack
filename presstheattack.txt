@@ -1,6 +1,6 @@
 ![Adblock Plus 3.1]
 ! Title: Press the Attack
-! Last modified: 30 Jan 2019 17:50
+! Last modified: 30 Jan 2019 19:48
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -1940,6 +1940,22 @@ $cookie=/unique_id/,domain=twitch.tv
 -rum.$third-party
 -rum^$third-party
 -rum_$third-party
+-session-id-$important
+-session-id.$important
+-session-id^$important
+-session-id_$important
+-session.id-$important
+-session.id.$important
+-session.id^$important
+-session.id_$important
+-session^id-$important
+-session^id.$important
+-session^id^$important
+-session^id_$important
+-session_id-$important
+-session_id.$important
+-session_id^$important
+-session_id_$important
 -shopzilla-$important
 -shopzilla.$important
 -shopzilla^$important
@@ -4092,6 +4108,22 @@ $cookie=/unique_id/,domain=twitch.tv
 .rum.$third-party
 .rum^$third-party
 .rum_$third-party
+.session-id-$important
+.session-id.$important
+.session-id^$important
+.session-id_$important
+.session.id-$important
+.session.id.$important
+.session.id^$important
+.session.id_$important
+.session^id-$important
+.session^id.$important
+.session^id^$important
+.session^id_$important
+.session_id-$important
+.session_id.$important
+.session_id^$important
+.session_id_$important
 .shopzilla-$important
 .shopzilla.$important
 .shopzilla^$important
@@ -6347,6 +6379,22 @@ $cookie=/unique_id/,domain=twitch.tv
 ^rum.$third-party
 ^rum^$third-party
 ^rum_$third-party
+^session-id-$important
+^session-id.$important
+^session-id^$important
+^session-id_$important
+^session.id-$important
+^session.id.$important
+^session.id^$important
+^session.id_$important
+^session^id-$important
+^session^id.$important
+^session^id^$important
+^session^id_$important
+^session_id-$important
+^session_id.$important
+^session_id^$important
+^session_id_$important
 ^shopzilla-$important
 ^shopzilla.$important
 ^shopzilla^$important
@@ -8509,6 +8557,22 @@ _rum-$third-party
 _rum.$third-party
 _rum^$third-party
 _rum_$third-party
+_session-id-$important
+_session-id.$important
+_session-id^$important
+_session-id_$important
+_session.id-$important
+_session.id.$important
+_session.id^$important
+_session.id_$important
+_session^id-$important
+_session^id.$important
+_session^id^$important
+_session^id_$important
+_session_id-$important
+_session_id.$important
+_session_id^$important
+_session_id_$important
 _shopzilla-$important
 _shopzilla.$important
 _shopzilla^$important
@@ -8934,7 +8998,6 @@ yandex.ru,yandex.by,yandex.ua,~mail.yandex.ru##+js(set-constant.js, Math.random,
 yandex.ru,yandex.ua,yandex.by,kinopoisk.ru##+js(cookie-remover.js, /^blcrm|^bltsr|^yabs|^adb|^cmtchd|^crookie|^kpunk|^is_adblock|^abp|^yp|^ys/)
 yandex.ua.yandex.ru,yandex.by##.rows__row_last.rows__row.row
 youtube.com##.html5-endscreen
-youtube.com##.ytd-popup-container.style-scope.dropdown-content
 |http*://ad0.*^$important
 |http*://ad1.*^$important
 |http*://ad2.*^$important
