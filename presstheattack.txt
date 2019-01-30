@@ -1,6 +1,6 @@
 ![Adblock Plus 3.1]
 ! Title: Press the Attack
-! Last modified: 30 Jan 2019 15:15
+! Last modified: 30 Jan 2019 16:25
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -32,6 +32,38 @@
 ###topads:not(:root):not(body):not(input)
 ##*[class="-ad-"]
 ##*[class="-ad."]
+-ad_slot-$important
+-ad_slot.$important
+-ad_slot^$important
+-ad_slot_$important
+.ad_slot-$important
+.ad_slot.$important
+.ad_slot^$important
+.ad_slot_$important
+^ad_slot-$important
+^ad_slot.$important
+^ad_slot^$important
+^ad_slot_$important
+_ad_slot-$important
+_ad_slot.$important
+_ad_slot^$important
+_ad_slot_$important
+-ad_block_slot-$important
+-ad_block_slot.$important
+-ad_block_slot^$important
+-ad_block_slot_$important
+.ad_block_slot-$important
+.ad_block_slot.$important
+.ad_block_slot^$important
+.ad_block_slot_$important
+^ad_block_slot-$important
+^ad_block_slot.$important
+^ad_block_slot^$important
+^ad_block_slot_$important
+_ad_block_slot-$important
+_ad_block_slot.$important
+_ad_block_slot^$important
+_ad_block_slot_$important
 ##*[class="-ad_"]
 ##*[class="-ads-"]
 ##*[class="-ads."]
