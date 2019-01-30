@@ -1,6 +1,6 @@
 ![Adblock Plus 3.1]
 ! Title: Press the Attack
-! Last modified: 30 Jan 2019 14:22
+! Last modified: 30 Jan 2019 15:15
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -105,7 +105,6 @@
 ##.vertical-ads:not(:root):not(body):not(input)
 ##.video-ads:not(:root):not(body):not(input)
 ##.wall_marked_as_ads:not(:root):not(body):not(input)
-##.yabrowser-promo
 ##a[href*="/refer/"]>img
 ##a[href*="BannerId"]>img
 ##a[href*="bit.ly"]>img
@@ -133,9 +132,26 @@
 $cookie=/act|s|t|p|testcookie/,domain=ok.ru|mail.ru
 $cookie=/blcrm|bltsr|yabs|adb|cmtchd|crookie|kpunk|is_adblock|abp|yp|ys/,domain=yandex.ru|yandex.ua|yandex.by|kinopoisk.ru|avito.ru
 $cookie=/unique_id/,domain=twitch.tv
-&action=js_stats&$important
+-js_stats-$important
+-js_stats.$important
+-js_stats^$important
+-js_stats_$important
+.js_stats-$important
+.js_stats.$important
+.js_stats^$important
+.js_stats_$important
+^js_stats-$important
+^js_stats.$important
+^js_stats^$important
+^js_stats_$important
+_js_stats-$important
+_js_stats.$important
+_js_stats^$important
+_js_stats_$important
 -0pixel-$important
 -0pixel.$important
+yandex.ua.yandex.ru,yandex.by##.rows__row_last.rows__row.row
+music.yandex.ua,music.yandex.ru,music.yandex.by##.sidebar__under
 -0pixel^$important
 -0pixel_$important
 -AdPageMessage-$important
