@@ -1,6 +1,6 @@
 ![Adblock Plus 3.1]
 ! Title: Press the Attack
-! Last modified: February 2 2019, 22:57
+! Last modified: February 3 2019, 22:57
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -15,6 +15,7 @@
 ###ab_right:not(:root):not(body):not(input)
 ###ab_top:not(:root):not(body):not(input)
 ###ad-footer:not(:root):not(body):not(input)
+###ad-header-mobile:not(:root):not(body):not(input)
 ###ad-tower:not(:root):not(body):not(input)
 ###adBlockerContainer:not(:root):not(body):not(input)
 ###ads:not(:root):not(body):not(input)
@@ -31,6 +32,7 @@
 ###rek_blocker:not(:root):not(body):not(input)
 ###rightads:not(:root):not(body):not(input)
 ###topads:not(:root):not(body):not(input)
+###yandex_rtb:not(:root):not(body):not(input)
 ##*[class="-ad-"]
 ##*[class="-ad."]
 ##*[class="-ad_"]
@@ -133,6 +135,8 @@
 $cookie=/act|s|t|p|testcookie/,domain=ok.ru|mail.ru
 $cookie=/blcrm|bltsr|yabs|adb|cmtchd|crookie|kpunk|is_adblock|abp|yp|ys/,domain=yandex.ru|yandex.ua|yandex.by|kinopoisk.ru|avito.ru
 $cookie=/unique_id/,domain=twitch.tv
+*$font,first-party,important
+*$font,third-party,important
 -0pixel-$important
 -0pixel.$important
 -0pixel^$important
@@ -4594,6 +4598,7 @@ $cookie=/unique_id/,domain=twitch.tv
 /zz.gif^$important
 1xbet$important
 1xstavka$important
+2ch.hk###mobile-plashque
 2ch.hk###plashque
 @@||api-maps.yandex.*^$script,xmlhttprequest,subdocument,1p
 @@||cloud-api.yandex.*^$script,xmlhttprequest,subdocument,1p
@@ -6103,11 +6108,6 @@ $cookie=/unique_id/,domain=twitch.tv
 ^link-box.$important
 ^link-box^$important
 ^link-box_$important
-*$font,first-party,important
-*$font,third-party,important
-2ch.hk###mobile-plashque
-###ad-header-mobile:not(:root):not(body):not(input)
-###yandex_rtb:not(:root):not(body):not(input)
 ^link.box-$important
 ^link.box.$important
 ^link.box^$important
