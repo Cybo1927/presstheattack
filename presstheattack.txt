@@ -1,6 +1,6 @@
 ![Adblock Plus 3.1]
 ! Title: Press the Attack
-! Last modified: February 4 2019, 16:56
+! Last modified: February 5 2019, 02:10
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -12,6 +12,7 @@
 ###ab_banner:not(:root):not(body):not(input)
 ###ab_bottom:not(:root):not(body):not(input)
 ###ab_left:not(:root):not(body):not(input)
+##a[title*="AdChoices"]
 ###ab_right:not(:root):not(body):not(input)
 ###ab_top:not(:root):not(body):not(input)
 ###ad-footer:not(:root):not(body):not(input)
@@ -6375,14 +6376,14 @@ $cookie=/unique_id/,domain=twitch.tv
 ^referer.frame.$important
 ^referer.frame^$important
 ^referer.frame_$important
-^referer^$important
+^referer^$domain=~facebook.com
 ^referer^frame-$important
 ^referer^frame.$important
 ^referer^frame^$important
 ^referer^frame_$important
-^referer_$important
+^referer_$domain=~facebook.com
 ^referer_frame-$important
-^referer_frame.$important
+^referer_frame.$domain=~facebook.com
 ^referer_frame^$important
 ^referer_frame_$important
 ^referrer-$important
