@@ -1,9 +1,10 @@
 ![Adblock Plus 3.1]
 ! Title: Press the Attack
-! Last modified: February 5 2019, 03:11
+! Last modified: February 5 2019, 03:28
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
+! Wiki: https://github.com/bogachenko/presstheattack/wiki
 !
 ! Please report any unblocked tracking or problems
 ! in the forums (https://github.com/bogachenko/presstheattack/issues)
