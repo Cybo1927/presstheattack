@@ -13,7 +13,7 @@ For more information, see the MIT license.
 Author: Bogachenko Vyacheslav <https://github.com/bogachenko>
 Email: bogachenkove@gmail.com
 Github: https://github.com/bogachenko/presstheattack/
-Last modified: January 1, 2019
+Last modified: February 7, 2019
 License: MIT <https://github.com/bogachenko/presstheattack/blob/master/LICENSE.md>
 Problem reports: https://github.com/bogachenko/presstheattack/issues
 Title: README.md
@@ -30,7 +30,7 @@ Download the entire Press the Attack project at https://github.com/bogachenko/pr
 
 Filter list for ad blocking, tracking, mining, and more.
 
-This project has an MIT license (see [License](https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md)) and created it [Bogachenko Vyacheslav](https://github.com/bogachenko)
+## About the project
 
 The overall goal of the project is to block ads and reduce traffic from the domains and sites You visit.
 The term "advertising" is not defined in this project, because apart from the obvious advertising, I also block banners and tips that I think create useless traffic.
@@ -51,6 +51,9 @@ Despite this, I will do everything possible to maintain compatibility with Adblo
 ## Usage
 
 To start using click on the link [SUBSCRIBE](https://subscribe.adblockplus.org/?location=https%3A%2F%2Fraw.githubusercontent.com%2Fbogachenko%2Fpresstheattack%2Fmaster%2Fpresstheattack.txt&title=Press%20the%20Attack) or add it manually `https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt`
+
+## License
+This project has an MIT license (see [License](https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md)).
 
 ## Documentation
 

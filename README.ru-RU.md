@@ -13,7 +13,7 @@ For more information, see the MIT license.
 Author: Bogachenko Vyacheslav <https://github.com/bogachenko>
 Email: bogachenkove@gmail.com
 Github: https://github.com/bogachenko/presstheattack/
-Last modified: January 1, 2019
+Last modified: February 7, 2019
 License: MIT <https://github.com/bogachenko/presstheattack/blob/master/LICENSE.md>
 Problem reports: https://github.com/bogachenko/presstheattack/issues
 Title: README.ru-RU.md
@@ -30,7 +30,7 @@ Download the entire Press the Attack project at https://github.com/bogachenko/pr
 
 Список фильтров для блокировки объявлений, отслеживания, майнинга и многого другого.
 
-Этот проект имеет лицензию MIT (посмотреть [Лицензию](https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md)) и создал его [Богаченко Вячеслав](https://github.com/bogachenko).
+## O проекте
 
 Общая цель проекта это блокировка рекламы и снижение трафика с доменов и сайтов, которые Вы посещаете.
 Термин "реклама" в этом проекте не определен, потому что помимо очевидной рекламы, Я также блокирую баннеры и подсказки, которые, как Я думаю, создают бесполезный трафик.
@@ -51,6 +51,9 @@ Download the entire Press the Attack project at https://github.com/bogachenko/pr
 ## Использование
 
 Чтобы начать использовать нажмите на ссылку [ПОДПИСАТЬСЯ](https://subscribe.adblockplus.org/?location=https%3A%2F%2Fraw.githubusercontent.com%2Fbogachenko%2Fpresstheattack%2Fmaster%2Fpresstheattack.txt&title=Press%20the%20Attack) или добавьте его вручную `https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt`
+
+## Лицензия
+Этот проект имеет лицензию MIT (посмотреть [Лицензию](https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md)).
 
 ## Документация
 
