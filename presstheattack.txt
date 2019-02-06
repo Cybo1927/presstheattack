@@ -1,6 +1,6 @@
 ![Adblock Plus 3.1]
 ! Title: Press the Attack
-! Last modified: February 6 2019, 22:17
+! Last modified: February 6 2019, 22:30
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -24,27 +24,6 @@
 ##[class$="-adcontainer."]:not(html):not(body)
 ##[class$="-adcontainer_"]:not(html):not(body)
 ##[class$="-adfox-"]:not(html):not(body)
-##a[href*="bit.ly"]>img
-||bit.ly^
-##a[href*="clck.ru"]>img
-||clck.ru^
-##a[href*="goo.gl"]>img
-||goo.gl^
-##a[href*="vk.cc"]>img
-||vk.cc^
-twitch.tv##a[href*=".gg"]
-##a[href*="?partner="]
-##a[href*="/refer/"]
-##a[href*="cutter.li"]>img
-||cutter.li^
-twitch.tv##a[href*="/go/"]>img
-twitch.tv##a[href*="/buy/"]>img
-##a[href*="banner"]>img
-twitch.tv##a[href*="poker"]>img
-##a[href*="vsemayki"]>img
-##a[href*="/rurefer/"]
-##a[href*="/enrefer/"]
-twitch.tv##a[href*="casino"]
 ##[class$="-adfox."]:not(html):not(body)
 ##[class$="-adfox_"]:not(html):not(body)
 ##[class$="-adframe-"]:not(html):not(body)
@@ -3167,6 +3146,17 @@ twitch.tv##a[href*="casino"]
 ##[id^="_yandex_rtb-"]:not(html):not(body)
 ##[id^="_yandex_rtb."]:not(html):not(body)
 ##[id^="_yandex_rtb_"]:not(html):not(body)
+##a[href*="/enrefer/"]>img
+##a[href*="/refer/"]>img
+##a[href*="/rurefer/"]>img
+##a[href*="?partner="]>img
+##a[href*="banner"]>img
+##a[href*="bit.ly"]>img
+##a[href*="clck.ru"]>img
+##a[href*="cutter.li"]>img
+##a[href*="goo.gl"]>img
+##a[href*="vk.cc"]>img
+##a[href*="vsemayki"]>img
 ##a[href^="http://ad.doubleclick.net/"]
 ##a[href^="http://pubads.g.doubleclick.net/"]
 ##a[href^="http://top.mail.ru/jump"]
@@ -12843,6 +12833,15 @@ twitch.tv##.tw-inline-flex.tw-align-items-center > .tw-tooltip-wrapper.tw-inline
 twitch.tv##.tw-inline-flex.tw-c-text-live.channel-info-bar__viewers-wrapper > .tw-tooltip-wrapper.tw-inline-flex > .tw-stat > .tw-stat__icon > .tw-inline-flex.tw-icon.tw-align-items-center
 twitch.tv##.tw-mg-t-2 > .tw-mg-b-2
 twitch.tv##.tw-relative.chat-rules
+twitch.tv##a[href*=".gg"]>img
+twitch.tv##a[href*="/buy/"]>img
+twitch.tv##a[href*="/go/"]>img
+twitch.tv##a[href*="casino"]>img
+twitch.tv##a[href*="dotapl.us"]>img
+twitch.tv##a[href*="dxracer-europe.com"]>img
+twitch.tv##a[href*="gg.bet"]>img
+twitch.tv##a[href*="gosu.ai"]>img
+twitch.tv##a[href*="poker"]>img
 twitch.tv##main.tw-flex > div[class]:not([data-test-selector]) > div[data-test-selector="test_selector_prime_tracking_button_wrapper"]
 twitter.com##[data-focusable="true"]:has-text(/Promoted|Gesponsert|Реклама/)
 vk.com##.audio_promo
@@ -12948,16 +12947,19 @@ youtube.com##.html5-endscreen
 ||betrad.com^$important
 ||bgclck.me^$important
 ||bing.com/fd/ls^$important
+||bit.ly^
 ||bounceexchange.com^$important
 ||branch.io^$important
 ||bugsnag.com^$important
 ||casalemedia.com^$important
 ||cbsi.com^$important
 ||chartbeat.com^$important
+||clck.ru^
 ||clicktale.net^$important
 ||clksite.com^$important
 ||collector.githubapp.com^$important
 ||cookielaw.org^$important
+||cutter.li^
 ||da-ads.com^$important
 ||dapxl.com^$important
 ||demdex.net^$important
@@ -12982,6 +12984,7 @@ youtube.com##.html5-endscreen
 ||github.com/_private/browser/stats^$important
 ||go-mpulse.net^$important
 ||go-tds-site.com^$important
+||goo.gl^
 ||goo.gl^$third-party
 ||google.*/viewerimpressions^$important
 ||google.com/js/bg/$important
@@ -13062,6 +13065,7 @@ youtube.com##.html5-endscreen
 ||udc.yahoo.com^$important
 ||usabilla.com^$important
 ||visualwebsiteoptimizer.com^$important
+||vk.cc^
 ||vortex.data.microsoft.com^$important
 ||weborama.fr^$important
 ||whos.amung.us^$important
