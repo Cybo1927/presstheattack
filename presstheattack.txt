@@ -1,6 +1,6 @@
 ![Adblock Plus 3.1]
 ! Title: Press the Attack
-! Last modified: February 5 2019, 17:28
+! Last modified: February 5 2019, 17:38
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -1667,6 +1667,10 @@ $cookie=/unique_id/,domain=twitch.tv
 -js_token.$important
 -js_token^$important
 -js_token_$important
+-jsredir-
+-jsredir.
+-jsredir^
+-jsredir_
 -kill-adblock-$important
 -kill-adblock.$important
 -kill-adblock^$important
@@ -3931,6 +3935,10 @@ $cookie=/unique_id/,domain=twitch.tv
 .js_token.$important
 .js_token^$important
 .js_token_$important
+.jsredir-
+.jsredir.
+.jsredir^
+.jsredir_
 .kill-adblock-$important
 .kill-adblock.$important
 .kill-adblock^$important
@@ -4004,7 +4012,7 @@ $cookie=/unique_id/,domain=twitch.tv
 .log-type.$important
 .log-type^$important
 .log-type_$important
-.log.
+.log.$domain=~github.com
 .log.type-$important
 .log.type.$important
 .log.type^$important
@@ -6297,6 +6305,10 @@ $cookie=/unique_id/,domain=twitch.tv
 ^js_token.$important
 ^js_token^$important
 ^js_token_$important
+^jsredir-
+^jsredir.
+^jsredir^
+^jsredir_
 ^kill-adblock-$important
 ^kill-adblock.$important
 ^kill-adblock^$important
@@ -8572,6 +8584,10 @@ _js_token-$important
 _js_token.$important
 _js_token^$important
 _js_token_$important
+_jsredir-
+_jsredir.
+_jsredir^
+_jsredir_
 _kill-adblock-$important
 _kill-adblock.$important
 _kill-adblock^$important
