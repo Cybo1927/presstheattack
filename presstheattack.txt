@@ -1,6 +1,6 @@
 ![Adblock Plus 3.1]
 ! Title: Press the Attack
-! Last modified: February 6 2019, 04:05
+! Last modified: February 6 2019, 04:08
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -11,12 +11,6 @@
 ! or via e-mail (bogachenkove@gmail.com).
 
 ##.AD:not(:root):not(body):not(input)
-||taboola.com^$important
-||outbrain.com^$important
-disk.yandex.ru,disk.yandex.ua,disk.yandex.by##.yaplus
-disk.yandex.ru,disk.yandex.ua,disk.yandex.by##.software-header-product_win.software-header-product.hover-dropdown
-music.yandex.ru,music.yandex.ua,music.yandex.by##.multi-auth__plus
-news.yandex.ru,news.yandex.ua,news.yandex.by##.yaplus
 ##.ADS:not(:root):not(body):not(input)
 ##.ad:not(:root):not(body):not(input)
 ##.ads:not(:root):not(body):not(input)
@@ -12369,6 +12363,8 @@ _zone_injection-$important
 _zone_injection.$important
 _zone_injection^$important
 _zone_injection_$important
+disk.yandex.ru,disk.yandex.ua,disk.yandex.by##.software-header-product_win.software-header-product.hover-dropdown
+disk.yandex.ru,disk.yandex.ua,disk.yandex.by##.yaplus
 duckduckgo.com,3g2upl4pq6kufc4m.onion##.badge-link.ddg-extension-hide:style(display: none!important;)
 duckduckgo.com,3g2upl4pq6kufc4m.onion##.header__label.showcase.header--aside__item
 duckduckgo.com,3g2upl4pq6kufc4m.onion##.js-header-aside.is-hidden:style(display: block!important;)
@@ -12388,8 +12384,10 @@ kinopoisk.ru##[href*="https://www.kinopoisk.ru/"]
 m.vk.com##.feedAssistance_importContacts.feedAssistance.wall_item
 m.vk.com##.feedBlocks__articles.feedBlocks__container.wall_item
 m.youtube.com##.mealbar-promo-renderer
+music.yandex.ru,music.yandex.ua,music.yandex.by##.multi-auth__plus
 music.yandex.ua,music.yandex.ru,music.yandex.by##.sidebar__under
 news.yandex.ru,news.yandex.ua,news.yandex.by##+js(setTimeout-defuser.js, AdvManager)
+news.yandex.ru,news.yandex.ua,news.yandex.by##.yaplus
 outlook.live.com##div#app > div.ms-fabric > div:last-child > div:first-child > div:first-child > div[data-min-width][data-max-width][style^="width:"]~div:last-child
 pornhub.com###age-verification-container
 pornhub.com###age-verification-wrapper
@@ -12608,6 +12606,7 @@ youtube.com##.html5-endscreen
 ||newrelic.com^$important
 ||omtrdc.net^$important
 ||optimizely.com^$important
+||outbrain.com^$important
 ||outwitch.com^$important
 ||owebmoney.ru^$important
 ||pipe.aria.microsoft.com/collector/$important
@@ -12638,6 +12637,7 @@ youtube.com##.html5-endscreen
 ||static.twitchcdn.net/config/manifest.json$important
 ||stats.wp.com^$important
 ||summerhamster.com^$important
+||taboola.com^$important
 ||tns-counter.ru^$important
 ||top100.ru^$important
 ||top.list.ru^$important
