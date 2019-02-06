@@ -1,6 +1,6 @@
 ![Adblock Plus 3.1]
 ! Title: Press the Attack
-! Last modified: February 6 2019, 03:45
+! Last modified: February 6 2019, 03:55
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -11,6 +11,9 @@
 ! or via e-mail (bogachenkove@gmail.com).
 
 ##.AD:not(:root):not(body):not(input)
+||taboola.com^$important
+||outbrain.com^$important
+music.yandex.ru,music.yandex.ua,music.yandex.by##.multi-auth__plus
 ##.ADS:not(:root):not(body):not(input)
 ##.ad:not(:root):not(body):not(input)
 ##.ads:not(:root):not(body):not(input)
