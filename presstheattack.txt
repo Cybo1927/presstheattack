@@ -1,6 +1,7 @@
 ![Adblock Plus 3.1]
+! Checksum: SceFF28xZEk3BQKEXy8ziw
 ! Title: Press the Attack
-! Last modified: February 7 2019, 02:00
+! Last modified: February 7 2019, 08:15
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
