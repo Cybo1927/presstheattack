@@ -1,6 +1,6 @@
 ![Adblock Plus 3.1]
 ! Title: Press the Attack
-! Last modified: February 6 2019, 04:08
+! Last modified: February 6 2019, 06:08
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -7790,6 +7790,7 @@ $cookie=/unique_id/,domain=twitch.tv
 /s.gif^$important
 /s.png^$important
 /snow.js$script
+/spacer.gif$important
 /stat.*^$image,object,script,subdocument,important
 /view.*^$important
 /x.gif$important
@@ -12525,6 +12526,7 @@ youtube.com##.html5-endscreen
 ||admob.com^$important
 ||adnxs.com^$important
 ||adriver.ru^$important
+||ads-twitter.com^$important
 ||adsafeprotected.com^$important
 ||adswrapme.click^$important
 ||afisha.yandex.ru^$xmlhttprequest,important
@@ -12539,16 +12541,20 @@ youtube.com##.html5-endscreen
 ||bats.video.yahoo.com^$important
 ||beap-bc.yahoo.com^$important
 ||beap.gemini.yahoo.com^$important
+||beemray.com^$important
 ||betrad.com^$important
 ||bgclck.me^$important
 ||bing.com/fd/ls^$important
+||bounceexchange.com^$important
 ||branch.io^$important
 ||bugsnag.com^$important
 ||casalemedia.com^$important
 ||cbsi.com^$important
+||chartbeat.com^$important
 ||clicktale.net^$important
 ||clksite.com^$important
 ||collector.githubapp.com^$important
+||cookielaw.org^$important
 ||da-ads.com^$important
 ||dapxl.com^$important
 ||demdex.net^$important
@@ -12569,6 +12575,7 @@ youtube.com##.html5-endscreen
 ||franecki.net/js/lib.js$important
 ||gamescarousel.com^$third-party
 ||gemius.pl^$important
+||gigya.com^$important
 ||github.com/_private/browser/stats^$important
 ||go-mpulse.net^$important
 ||go-tds-site.com^$important
@@ -12617,6 +12624,7 @@ youtube.com##.html5-endscreen
 ||postrelease.com^$important
 ||pr-cy.ru^$important
 ||push-ad.com^$important
+||quantserve.com^$important
 ||radar.cedexis.com^$important
 ||recreativ.ru^$important
 ||redditmedia.com/gtm/jail^$important
@@ -12631,6 +12639,7 @@ youtube.com##.html5-endscreen
 ||scontent.xx.fbcdn.net/hads-ak-prn*/*.png$important
 ||scorecardresearch.com^$important
 ||scrubswim.com^$important
+||sharethrough.com^$important
 ||ssp.rambler.ru^$important
 ||statcounter.com^$important
 ||static.hotjar.com^$important
@@ -12646,6 +12655,7 @@ youtube.com##.html5-endscreen
 ||twitchcdn.net/v1.js$important
 ||twitter.com/i/jot^$important
 ||udc.yahoo.com^$important
+||usabilla.com^$important
 ||visualwebsiteoptimizer.com^$important
 ||vortex.data.microsoft.com^$important
 ||weborama.fr^$important
