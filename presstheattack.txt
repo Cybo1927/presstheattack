@@ -1,6 +1,6 @@
 ![Adblock Plus 3.1]
 ! Title: Press the Attack
-! Last modified: February 5 2019, 03:28
+! Last modified: February 5 2019, 17:28
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -163,6 +163,10 @@ $cookie=/unique_id/,domain=twitch.tv
 -AffiliateUserId.$important
 -AffiliateUserId^$important
 -AffiliateUserId_$important
+-abDetector-$important
+-abDetector.$important
+-abDetector^$important
+-abDetector_$important
 -ad0-
 -ad0.
 -ad0^
@@ -307,6 +311,10 @@ $cookie=/unique_id/,domain=twitch.tv
 -adblock-checker.$important
 -adblock-checker^$important
 -adblock-checker_$important
+-adblockcheck-$important
+-adblockcheck.$important
+-adblockcheck^$important
+-adblockcheck_$important
 -adblockerlayer-$important
 -adblockerlayer.$important
 -adblockerlayer^$important
@@ -1911,6 +1919,22 @@ $cookie=/unique_id/,domain=twitch.tv
 -quantcast.$important
 -quantcast^$important
 -quantcast_$important
+-quit-hogging-$important
+-quit-hogging.$important
+-quit-hogging^$important
+-quit-hogging_$important
+-quit.hogging-$important
+-quit.hogging.$important
+-quit.hogging^$important
+-quit.hogging_$important
+-quit^hogging-$important
+-quit^hogging.$important
+-quit^hogging^$important
+-quit^hogging_$important
+-quit_hogging-$important
+-quit_hogging.$important
+-quit_hogging^$important
+-quit_hogging_$important
 -random_banner-
 -random_banner.
 -random_banner^
@@ -2403,6 +2427,10 @@ $cookie=/unique_id/,domain=twitch.tv
 .AffiliateUserId.$important
 .AffiliateUserId^$important
 .AffiliateUserId_$important
+.abDetector-$important
+.abDetector.$important
+.abDetector^$important
+.abDetector_$important
 .ad0-
 .ad0.
 .ad0^
@@ -2547,6 +2575,10 @@ $cookie=/unique_id/,domain=twitch.tv
 .adblock-checker.$important
 .adblock-checker^$important
 .adblock-checker_$important
+.adblockcheck-$important
+.adblockcheck.$important
+.adblockcheck^$important
+.adblockcheck_$important
 .adblockerlayer-$important
 .adblockerlayer.$important
 .adblockerlayer^$important
@@ -4151,6 +4183,22 @@ $cookie=/unique_id/,domain=twitch.tv
 .quantcast.$important
 .quantcast^$important
 .quantcast_$important
+.quit-hogging-$important
+.quit-hogging.$important
+.quit-hogging^$important
+.quit-hogging_$important
+.quit.hogging-$important
+.quit.hogging.$important
+.quit.hogging^$important
+.quit.hogging_$important
+.quit^hogging-$important
+.quit^hogging.$important
+.quit^hogging^$important
+.quit^hogging_$important
+.quit_hogging-$important
+.quit_hogging.$important
+.quit_hogging^$important
+.quit_hogging_$important
 .random_banner-
 .random_banner.
 .random_banner^
@@ -4743,6 +4791,10 @@ $cookie=/unique_id/,domain=twitch.tv
 ^AffiliateUserId.$important
 ^AffiliateUserId^$important
 ^AffiliateUserId_$important
+^abDetector-$important
+^abDetector.$important
+^abDetector^$important
+^abDetector_$important
 ^ad0-
 ^ad0.
 ^ad0^
@@ -4887,6 +4939,10 @@ $cookie=/unique_id/,domain=twitch.tv
 ^adblock-checker.$important
 ^adblock-checker^$important
 ^adblock-checker_$important
+^adblockcheck-$important
+^adblockcheck.$important
+^adblockcheck^$important
+^adblockcheck_$important
 ^adblockerlayer-$important
 ^adblockerlayer.$important
 ^adblockerlayer^$important
@@ -6494,6 +6550,22 @@ $cookie=/unique_id/,domain=twitch.tv
 ^quantcast.$important
 ^quantcast^$important
 ^quantcast_$important
+^quit-hogging-$important
+^quit-hogging.$important
+^quit-hogging^$important
+^quit-hogging_$important
+^quit.hogging-$important
+^quit.hogging.$important
+^quit.hogging^$important
+^quit.hogging_$important
+^quit^hogging-$important
+^quit^hogging.$important
+^quit^hogging^$important
+^quit^hogging_$important
+^quit_hogging-$important
+^quit_hogging.$important
+^quit_hogging^$important
+^quit_hogging_$important
 ^random_banner-
 ^random_banner.
 ^random_banner^
@@ -6996,6 +7068,10 @@ _AffiliateUserId-$important
 _AffiliateUserId.$important
 _AffiliateUserId^$important
 _AffiliateUserId_$important
+_abDetector-$important
+_abDetector.$important
+_abDetector^$important
+_abDetector_$important
 _ad0-
 _ad0.
 _ad0^
@@ -7140,6 +7216,10 @@ _adblock-checker-$important
 _adblock-checker.$important
 _adblock-checker^$important
 _adblock-checker_$important
+_adblockcheck-$important
+_adblockcheck.$important
+_adblockcheck^$important
+_adblockcheck_$important
 _adblockerlayer-$important
 _adblockerlayer.$important
 _adblockerlayer^$important
@@ -8744,6 +8824,22 @@ _quantcast-$important
 _quantcast.$important
 _quantcast^$important
 _quantcast_$important
+_quit-hogging-$important
+_quit-hogging.$important
+_quit-hogging^$important
+_quit-hogging_$important
+_quit.hogging-$important
+_quit.hogging.$important
+_quit.hogging^$important
+_quit.hogging_$important
+_quit^hogging-$important
+_quit^hogging.$important
+_quit^hogging^$important
+_quit^hogging_$important
+_quit_hogging-$important
+_quit_hogging.$important
+_quit_hogging^$important
+_quit_hogging_$important
 _random_banner-
 _random_banner.
 _random_banner^
