@@ -1,6 +1,6 @@
 ![Adblock Plus 3.1]
 ! Title: Press the Attack
-! Last modified: February 6 2019, 22:55
+! Last modified: February 6 2019, 23:05
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -24,13 +24,8 @@
 ##[class$="-adcontainer."]:not(html):not(body)
 ##[class$="-adcontainer_"]:not(html):not(body)
 ##[class$="-adfox-"]:not(html):not(body)
-twitch.tv##a[href*="bet4.pm"]>img
-twitch.tv##a[href*="upskill.ru"]>img
-twitch.tv##a[href*="/promo/"]>img
 ##[class$="-adfox."]:not(html):not(body)
 ##[class$="-adfox_"]:not(html):not(body)
-twitch.tv##a[href*="/joinchat/"]>img
-twitch.tv##a[href*="/shop/"]>img
 ##[class$="-adframe-"]:not(html):not(body)
 ##[class$="-adframe-"]:not(html):not(body)
 ##[class$="-adframe."]:not(html):not(body)
@@ -12841,12 +12836,20 @@ twitch.tv##.tw-relative.chat-rules
 twitch.tv##a[href*=".gg"]>img
 twitch.tv##a[href*="/buy/"]>img
 twitch.tv##a[href*="/go/"]>img
+twitch.tv##a[href*="/joinchat/"]>img
+twitch.tv##a[href*="/promo/"]>img
+twitch.tv##a[href*="/shop/"]>img
+twitch.tv##a[href*="?br="]>img
+twitch.tv##a[href*="bet4.pm"]>img
+twitch.tv##a[href*="betsdota2.com"]>img
 twitch.tv##a[href*="casino"]>img
 twitch.tv##a[href*="dotapl.us"]>img
 twitch.tv##a[href*="dxracer-europe.com"]>img
 twitch.tv##a[href*="gg.bet"]>img
 twitch.tv##a[href*="gosu.ai"]>img
+twitch.tv##a[href*="noblechairs.com"]>img
 twitch.tv##a[href*="poker"]>img
+twitch.tv##a[href*="upskill.ru"]>img
 twitch.tv##main.tw-flex > div[class]:not([data-test-selector]) > div[data-test-selector="test_selector_prime_tracking_button_wrapper"]
 twitter.com##[data-focusable="true"]:has-text(/Promoted|Gesponsert|Реклама/)
 vk.com##.audio_promo
