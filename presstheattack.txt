@@ -1,6 +1,6 @@
 ![Adblock Plus 3.1]
 ! Title: Press the Attack
-! Last modified: February 5 2019, 19:15
+! Last modified: February 5 2019, 19:24
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -23,12 +23,12 @@
 ##[class$="ads."]:not(html):not(body)
 ##[class$="ads_"]:not(html):not(body)
 ##[class^="-ad"]:not(html):not(body)
-##[class^=".ad"]:not(html):not(body)
-##[class^="_ad"]:not(html):not(body)
-##[class^="ad"]:not(html):not(body)
 ##[class^="-ads"]:not(html):not(body)
+##[class^=".ad"]:not(html):not(body)
 ##[class^=".ads"]:not(html):not(body)
+##[class^="_ad"]:not(html):not(body)
 ##[class^="_ads"]:not(html):not(body)
+##[class^="ad"]:not(html):not(body)
 ##[class^="ads"]:not(html):not(body)
 ##[id$="ad"]:not(html):not(body)
 ##[id$="ad-"]:not(html):not(body)
@@ -39,12 +39,12 @@
 ##[id$="ads."]:not(html):not(body)
 ##[id$="ads_"]:not(html):not(body)
 ##[id^="-ad"]:not(html):not(body)
-##[id^=".ad"]:not(html):not(body)
-##[id^="_ad"]:not(html):not(body)
-##[id^="ad"]:not(html):not(body)
 ##[id^="-ads"]:not(html):not(body)
+##[id^=".ad"]:not(html):not(body)
 ##[id^=".ads"]:not(html):not(body)
+##[id^="_ad"]:not(html):not(body)
 ##[id^="_ads"]:not(html):not(body)
+##[id^="ad"]:not(html):not(body)
 ##[id^="ads"]:not(html):not(body)
 ##a[href*="/refer/"]>img
 ##a[href*="BannerId"]>img
