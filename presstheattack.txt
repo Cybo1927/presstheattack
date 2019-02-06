@@ -1,6 +1,6 @@
 ![Adblock Plus 3.1]
 ! Title: Press the Attack
-! Last modified: February 6 2019, 21:35
+! Last modified: February 6 2019, 21:40
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -12803,9 +12803,18 @@ _zone_injection-$important
 _zone_injection.$important
 _zone_injection^$important
 _zone_injection_$important
-disk.yandex.ru,disk.yandex.ua,disk.yandex.by##.software-header-product_win.software-header-product.hover-dropdown, .yaplus
-duckduckgo.com,3g2upl4pq6kufc4m.onion##.badge-link.ddg-extension-hide:style(display: none!important;), .header__label.showcase.header--aside__item, .js-header-aside.is-hidden:style(display: block!important;), .onboarding-ed, .serp__bottom-right, .social.header--aside__item, .tag-home, #pagelet_growth_expanding_cta
-freebitco.in##.open.reveal-modal, .reveal-modal-bg
+disk.yandex.ru,disk.yandex.ua,disk.yandex.by##.software-header-product_win.software-header-product.hover-dropdown
+disk.yandex.ru,disk.yandex.ua,disk.yandex.by##.yaplus
+duckduckgo.com,3g2upl4pq6kufc4m.onion##.badge-link.ddg-extension-hide:style(display: none!important;)
+duckduckgo.com,3g2upl4pq6kufc4m.onion##.header__label.showcase.header--aside__item
+duckduckgo.com,3g2upl4pq6kufc4m.onion##.js-header-aside.is-hidden:style(display: block!important;)
+duckduckgo.com,3g2upl4pq6kufc4m.onion##.onboarding-ed
+duckduckgo.com,3g2upl4pq6kufc4m.onion##.serp__bottom-right
+duckduckgo.com,3g2upl4pq6kufc4m.onion##.social.header--aside__item
+duckduckgo.com,3g2upl4pq6kufc4m.onion##.tag-home
+facebook.com,3g2upl4pq6kufc4m.onion###pagelet_growth_expanding_cta
+freebitco.in##.open.reveal-modal
+freebitco.in##.reveal-modal-bg
 ggbet$image,important
 kinopoisk.ru##+js(setInterval-defuser.js, (), 500)
 kinopoisk.ru##[data-type="teaserspec"]
@@ -12815,13 +12824,20 @@ kinopoisk.ru##div[style="height: 210px; left: 0px; position: absolute; top: 110p
 m.vk.com##.feedAssistance_importContacts.feedAssistance.wall_item
 m.vk.com##.feedBlocks__articles.feedBlocks__container.wall_item
 m.youtube.com##.mealbar-promo-renderer
-music.yandex.ru,music.yandex.ua,music.yandex.by##.multi-auth__plus, .sidebar__under
+music.yandex.ru,music.yandex.ua,music.yandex.by##.multi-auth__plus
+music.yandex.ua,music.yandex.ru,music.yandex.by##.sidebar__under
 news.yandex.ru,news.yandex.ua,news.yandex.by##+js(setTimeout-defuser.js, AdvManager)
 news.yandex.ru,news.yandex.ua,news.yandex.by##.yaplus
 outlook.live.com##div#app > div.ms-fabric > div:last-child > div:first-child > div:first-child > div[data-min-width][data-max-width][style^="width:"]~div:last-child
-pornhub.com###age-verification-container, #age-verification-wrapper
+pornhub.com###age-verification-container
+pornhub.com###age-verification-wrapper
 translate.yandex.ru,translate.yandex.ua,translate.yandex.by##.button_icon_collections.button_icon.button
 twitch.tv##+js(twitch-videoad.js)
+twitch.tv##.tw-inline-flex.tw-align-items-center > .tw-tooltip-wrapper.tw-inline-flex > .tw-stat > .tw-stat__icon
+twitch.tv##.tw-inline-flex.tw-c-text-live.channel-info-bar__viewers-wrapper > .tw-tooltip-wrapper.tw-inline-flex > .tw-stat > .tw-stat__icon > .tw-inline-flex.tw-icon.tw-align-items-center
+twitch.tv##.tw-mg-t-2 > .tw-mg-b-2
+twitch.tv##.tw-relative.chat-rules
+twitch.tv##main.tw-flex > div[class]:not([data-test-selector]) > div[data-test-selector="test_selector_prime_tracking_button_wrapper"]
 twitter.com##[data-focusable="true"]:has-text(/Promoted|Gesponsert|Реклама/)
 vk.com##.audio_promo
 vk.com##aside[aria-label="Актуальные новости"]
