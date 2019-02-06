@@ -1,6 +1,6 @@
 ![Adblock Plus 3.1]
 ! Title: Press the Attack
-! Last modified: February 5 2019, 22:38
+! Last modified: February 5 2019, 22:42
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2064,10 +2064,10 @@ $cookie=/unique_id/,domain=twitch.tv
 -readcounter.$important
 -readcounter^$important
 -readcounter_$important
--ref-$important
--ref.$important
--ref^$important
--ref_$important
+-ref-
+-ref.
+-ref^
+-ref_
 -refer-$important
 -refer.$important
 -refer^$important
@@ -4328,10 +4328,10 @@ $cookie=/unique_id/,domain=twitch.tv
 .readcounter.$important
 .readcounter^$important
 .readcounter_$important
-.ref-$important
-.ref.$important
-.ref^$important
-.ref_$important
+.ref-
+.ref.
+.ref^
+.ref_
 .refer-$important
 .refer.$important
 .refer^$important
@@ -6696,9 +6696,9 @@ $cookie=/unique_id/,domain=twitch.tv
 ^readcounter^$important
 ^readcounter_$important
 ^ref-$domain=~github.com
-^ref.$important
+^ref.
 ^ref^$domain=~github.com
-^ref_$important
+^ref_
 ^refer-$important
 ^refer.$important
 ^refer^$important
@@ -8969,10 +8969,10 @@ _readcounter-$important
 _readcounter.$important
 _readcounter^$important
 _readcounter_$important
-_ref-$important
-_ref.$important
+_ref-
+_ref.
 _ref^$domain=~vk.com
-_ref_$important
+_ref_
 _refer-$important
 _refer.$important
 _refer^$important
