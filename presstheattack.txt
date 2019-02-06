@@ -1,6 +1,6 @@
 ![Adblock Plus 3.1]
 ! Title: Press the Attack
-! Last modified: February 5 2019, 18:55
+! Last modified: February 5 2019, 19:10
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -10,35 +10,34 @@
 ! in the forums (https://github.com/bogachenko/presstheattack/issues)
 ! or via e-mail (bogachenkove@gmail.com).
 
-##[id$="ad-"]:not(html):not(body)
-##[id$="ad."]:not(html):not(body)
-##[id$="ad"]:not(html):not(body)
-##[id$="ad_"]:not(html):not(body)
-##[id^="_ad"]:not(html):not(body)
-##[id^="-ad"]:not(html):not(body)
-##[id^=".ad"]:not(html):not(body)
-##[id^="ad"]:not(html):not(body)
-##[class$="ad-"]:not(html):not(body)
-##[class$="ad."]:not(html):not(body)
-##[class$="ad"]:not(html):not(body)
-##[class$="ad_"]:not(html):not(body)
-##[class^="_ad"]:not(html):not(body)
-##[class^="-ad"]:not(html):not(body)
-##[class^=".ad"]:not(html):not(body)
-##[class^="ad"]:not(html):not(body)
-##[id$="ads-"]:not(html):not(body)
-##[id$="ads."]:not(html):not(body)
-##[id$="ads"]:not(html):not(body)
-##[id$="ads_"]:not(html):not(body)
-##[class$="ads-"]:not(html):not(body)
-##[class$="ads."]:not(html):not(body)
-##[class$="ads"]:not(html):not(body)
-##[class$="ads_"]:not(html):not(body)
+##.AD:not(:root):not(body):not(input)
+##.ADS:not(:root):not(body):not(input)
 ##.ad:not(:root):not(body):not(input)
 ##.ads:not(:root):not(body):not(input)
-##.ADS:not(:root):not(body):not(input)
-##.AD:not(:root):not(body):not(input)
-twitch.tv##main.tw-flex > div[class]:not([data-test-selector]) > div[data-test-selector="test_selector_prime_tracking_button_wrapper"]
+##[class$="ad"]:not(html):not(body)
+##[class$="ad-"]:not(html):not(body)
+##[class$="ad."]:not(html):not(body)
+##[class$="ad_"]:not(html):not(body)
+##[class$="ads"]:not(html):not(body)
+##[class$="ads-"]:not(html):not(body)
+##[class$="ads."]:not(html):not(body)
+##[class$="ads_"]:not(html):not(body)
+##[class^="-ad"]:not(html):not(body)
+##[class^=".ad"]:not(html):not(body)
+##[class^="_ad"]:not(html):not(body)
+##[class^="ad"]:not(html):not(body)
+##[id$="ad"]:not(html):not(body)
+##[id$="ad-"]:not(html):not(body)
+##[id$="ad."]:not(html):not(body)
+##[id$="ad_"]:not(html):not(body)
+##[id$="ads"]:not(html):not(body)
+##[id$="ads-"]:not(html):not(body)
+##[id$="ads."]:not(html):not(body)
+##[id$="ads_"]:not(html):not(body)
+##[id^="-ad"]:not(html):not(body)
+##[id^=".ad"]:not(html):not(body)
+##[id^="_ad"]:not(html):not(body)
+##[id^="ad"]:not(html):not(body)
 ##a[href*="/refer/"]>img
 ##a[href*="BannerId"]>img
 ##a[href*="bit.ly"]>img
@@ -9327,6 +9326,7 @@ twitch.tv##a[href*="redirect"]>img
 twitch.tv##a[href*="secretlab"]
 twitch.tv##a[href*="shortme."]
 twitch.tv##a[href*="swaper.one"]
+twitch.tv##main.tw-flex > div[class]:not([data-test-selector]) > div[data-test-selector="test_selector_prime_tracking_button_wrapper"]
 twitter.com##[data-focusable="true"]:has-text(/Promoted|Gesponsert|Реклама/)
 vk.com##.audio_promo
 vk.com##aside[aria-label="Актуальные новости"]
