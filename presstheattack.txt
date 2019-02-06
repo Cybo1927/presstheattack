@@ -1,6 +1,6 @@
 ![Adblock Plus 3.1]
 ! Title: Press the Attack
-! Last modified: February 6 2019, 21:28
+! Last modified: February 6 2019, 21:35
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -3210,16 +3210,6 @@ _advert_$important
 ##[id^="_yandex_rtb-"]:not(html):not(body)
 ##[id^="_yandex_rtb."]:not(html):not(body)
 ##[id^="_yandex_rtb_"]:not(html):not(body)
-##a[href*="/refer/"]>img
-##a[href*="BannerId"]>img
-##a[href*="bit.ly"]>img
-##a[href*="casino"]
-##a[href*="goo.gl"]>img
-##a[href*="hcrd.ru"]>img
-##a[href*="megafon"]>img
-##a[href*="poker"]
-##a[href*="vk.cc"]>img
-##a[href*="vsemayki"]>img
 ##a[href^="http://ad.doubleclick.net/"]
 ##a[href^="http://pubads.g.doubleclick.net/"]
 ##a[href^="http://top.mail.ru/jump"]
@@ -3230,9 +3220,20 @@ _advert_$important
 ##div[aria-label="Реклама"]
 ##div[data-subscript="Advertising"]
 ##div[data-subscript="Реклама"]
+##iframe[width="104"][height="464"]
+##iframe[width="200"][height="240"]
+##iframe[width="200"][height="300"]
+##iframe[width="210"][height="237"]
+##iframe[width="240"][height="300"]
+##iframe[width="240"][height="350"]
+##iframe[width="240"][height="400"]
 ##iframe[width="300"][height="250"]
 ##iframe[width="468"][height="60"]
+##iframe[width="600"][height="100"]
+##iframe[width="600"][height="90"]
 ##iframe[width="728"][height="90"]
+##iframe[width="780"][height="120"]
+##iframe[width="980"][height="90"]
 ##img[src*="counter.yadro.ru"]
 ##img[width="88"][height="31"]
 ##img[width="728"][height="90"]
@@ -12802,18 +12803,9 @@ _zone_injection-$important
 _zone_injection.$important
 _zone_injection^$important
 _zone_injection_$important
-disk.yandex.ru,disk.yandex.ua,disk.yandex.by##.software-header-product_win.software-header-product.hover-dropdown
-disk.yandex.ru,disk.yandex.ua,disk.yandex.by##.yaplus
-duckduckgo.com,3g2upl4pq6kufc4m.onion##.badge-link.ddg-extension-hide:style(display: none!important;)
-duckduckgo.com,3g2upl4pq6kufc4m.onion##.header__label.showcase.header--aside__item
-duckduckgo.com,3g2upl4pq6kufc4m.onion##.js-header-aside.is-hidden:style(display: block!important;)
-duckduckgo.com,3g2upl4pq6kufc4m.onion##.onboarding-ed
-duckduckgo.com,3g2upl4pq6kufc4m.onion##.serp__bottom-right
-duckduckgo.com,3g2upl4pq6kufc4m.onion##.social.header--aside__item
-duckduckgo.com,3g2upl4pq6kufc4m.onion##.tag-home
-facebook.com,3g2upl4pq6kufc4m.onion###pagelet_growth_expanding_cta
-freebitco.in##.open.reveal-modal
-freebitco.in##.reveal-modal-bg
+disk.yandex.ru,disk.yandex.ua,disk.yandex.by##.software-header-product_win.software-header-product.hover-dropdown, .yaplus
+duckduckgo.com,3g2upl4pq6kufc4m.onion##.badge-link.ddg-extension-hide:style(display: none!important;), .header__label.showcase.header--aside__item, .js-header-aside.is-hidden:style(display: block!important;), .onboarding-ed, .serp__bottom-right, .social.header--aside__item, .tag-home, #pagelet_growth_expanding_cta
+freebitco.in##.open.reveal-modal, .reveal-modal-bg
 ggbet$image,important
 kinopoisk.ru##+js(setInterval-defuser.js, (), 500)
 kinopoisk.ru##[data-type="teaserspec"]
@@ -12823,63 +12815,13 @@ kinopoisk.ru##div[style="height: 210px; left: 0px; position: absolute; top: 110p
 m.vk.com##.feedAssistance_importContacts.feedAssistance.wall_item
 m.vk.com##.feedBlocks__articles.feedBlocks__container.wall_item
 m.youtube.com##.mealbar-promo-renderer
-music.yandex.ru,music.yandex.ua,music.yandex.by##.multi-auth__plus
-music.yandex.ua,music.yandex.ru,music.yandex.by##.sidebar__under
+music.yandex.ru,music.yandex.ua,music.yandex.by##.multi-auth__plus, .sidebar__under
 news.yandex.ru,news.yandex.ua,news.yandex.by##+js(setTimeout-defuser.js, AdvManager)
 news.yandex.ru,news.yandex.ua,news.yandex.by##.yaplus
 outlook.live.com##div#app > div.ms-fabric > div:last-child > div:first-child > div:first-child > div[data-min-width][data-max-width][style^="width:"]~div:last-child
-pornhub.com###age-verification-container
-pornhub.com###age-verification-wrapper
+pornhub.com###age-verification-container, #age-verification-wrapper
 translate.yandex.ru,translate.yandex.ua,translate.yandex.by##.button_icon_collections.button_icon.button
 twitch.tv##+js(twitch-videoad.js)
-twitch.tv##.tw-inline-flex.tw-align-items-center > .tw-tooltip-wrapper.tw-inline-flex > .tw-stat > .tw-stat__icon
-twitch.tv##.tw-inline-flex.tw-c-text-live.channel-info-bar__viewers-wrapper > .tw-tooltip-wrapper.tw-inline-flex > .tw-stat > .tw-stat__icon > .tw-inline-flex.tw-icon.tw-align-items-center
-twitch.tv##.tw-mg-t-2 > .tw-mg-b-2
-twitch.tv##.tw-relative.chat-rules
-twitch.tv##a[href*=".gg"]
-twitch.tv##a[href*=".online"]
-twitch.tv##a[href*="//a.co"]>img
-twitch.tv##a[href*="/buy/"]>img
-twitch.tv##a[href*="/esports/?tag="]
-twitch.tv##a[href*="/shop/"]
-twitch.tv##a[href*="?partner="]
-twitch.tv##a[href*="anylvl"]
-twitch.tv##a[href*="arozzi."]
-twitch.tv##a[href*="aser"]
-twitch.tv##a[href*="atributika"]
-twitch.tv##a[href*="banner"]>img
-twitch.tv##a[href*="bet4"]>img
-twitch.tv##a[href*="betsdota"]>img
-twitch.tv##a[href*="campaign"]
-twitch.tv##a[href*="clck.ru"]>img
-twitch.tv##a[href*="click.ru"]>img
-twitch.tv##a[href*="clife.ru"]
-twitch.tv##a[href*="col.vg"]
-twitch.tv##a[href*="concert"]
-twitch.tv##a[href*="cutter.li"]
-twitch.tv##a[href*="dotapl"]
-twitch.tv##a[href*="dxracer-europe"]
-twitch.tv##a[href*="esbet.fun"]
-twitch.tv##a[href*="g2a.com"]
-twitch.tv##a[href*="go-tds-site.com"]
-twitch.tv##a[href*="goodgame.pm"]
-twitch.tv##a[href*="gosu.ai"]>img
-twitch.tv##a[href*="i.try.games"]
-twitch.tv##a[href*="invasion.ru"]
-twitch.tv##a[href*="is.gd"]
-twitch.tv##a[href*="kfcmalaysia"]
-twitch.tv##a[href*="l1l.pw"]
-twitch.tv##a[href*="loto.ru"]
-twitch.tv##a[href*="monsterenergy"]
-twitch.tv##a[href*="mybestcontent.ru"]>img
-twitch.tv##a[href*="opseat.com"]
-twitch.tv##a[href*="papajohns"]
-twitch.tv##a[href*="predator"]
-twitch.tv##a[href*="redirect"]>img
-twitch.tv##a[href*="secretlab"]
-twitch.tv##a[href*="shortme."]
-twitch.tv##a[href*="swaper.one"]
-twitch.tv##main.tw-flex > div[class]:not([data-test-selector]) > div[data-test-selector="test_selector_prime_tracking_button_wrapper"]
 twitter.com##[data-focusable="true"]:has-text(/Promoted|Gesponsert|Реклама/)
 vk.com##.audio_promo
 vk.com##aside[aria-label="Актуальные новости"]
