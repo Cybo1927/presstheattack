@@ -1,6 +1,6 @@
 ![Adblock Plus 3.1]
 ! Title: Press the Attack
-! Last modified: February 6 2019, 21:20
+! Last modified: February 6 2019, 21:28
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -9963,7 +9963,7 @@ $cookie=/unique_id/,domain=twitch.tv
 ^readcounter_$important
 ^ref-$domain=~github.com
 ^ref.
-^ref^$domain=~github.com
+^ref^$domain=~github.com|~yandex.ru|~yandex.ua|~yandex.by
 ^ref_
 ^refer-$important
 ^refer.$important
@@ -12884,7 +12884,7 @@ twitter.com##[data-focusable="true"]:has-text(/Promoted|Gesponsert|Реклам�
 vk.com##.audio_promo
 vk.com##aside[aria-label="Актуальные новости"]
 whoer.net,2ip.ru,novinky.cz,auto.ru##+js(cookie-remover.js)
-wikipedia.org###sitenotice
+wikipedia.org###siteNotice
 yandex.ru,yandex.by,yandex.ua##.tooltip_shown_yes.popup2_visible_yes.popup2_direction_right-center.popup2_js_inited.tooltip-api_js_inited.tooltip_js_inited.i-bem.chat-tooltip__content.tooltip-api_theme_promo.tooltip-api.tooltip_align_center.tooltip_view_classic.tooltip_tone_default.tooltip_size_m.tooltip_theme_promo.tooltip.popup2_theme_normal.popup2_view_classic.popup2_autoclosable_no.popup2_hiding_yes.popup2_target_anchor.popup2
 /cnn-analytics.min.js$important
 ||s.media-imdb.com^$important
