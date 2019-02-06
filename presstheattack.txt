@@ -1,6 +1,6 @@
 ![Adblock Plus 3.1]
 ! Title: Press the Attack
-! Last modified: February 6 2019, 19:25
+! Last modified: February 6 2019, 21:20
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -4368,10 +4368,10 @@ $cookie=/unique_id/,domain=twitch.tv
 -bcn.
 -bcn^
 -bcn_
--beacon-$important
--beacon.$important
--beacon^$important
--beacon_$important
+-beacon-
+-beacon.
+-beacon^
+-beacon_
 -bidmatching-$important
 -bidmatching.$important
 -bidmatching^$important
@@ -6728,10 +6728,10 @@ $cookie=/unique_id/,domain=twitch.tv
 .bcn.
 .bcn^
 .bcn_
-.beacon-$important
-.beacon.$important
-.beacon^$important
-.beacon_$important
+.beacon-
+.beacon.
+.beacon^
+.beacon_
 .bidmatching-$important
 .bidmatching.$important
 .bidmatching^$important
@@ -9183,10 +9183,10 @@ $cookie=/unique_id/,domain=twitch.tv
 ^bcn.
 ^bcn^
 ^bcn_
-^beacon-$important
-^beacon.$important
-^beacon^$important
-^beacon_$important
+^beacon-
+^beacon.
+^beacon^
+^beacon_
 ^bidmatching-$important
 ^bidmatching.$important
 ^bidmatching^$important
@@ -11550,10 +11550,10 @@ _bcn-
 _bcn.
 _bcn^
 _bcn_
-_beacon-$important
-_beacon.$important
-_beacon^$important
-_beacon_$important
+_beacon-
+_beacon.
+_beacon^
+_beacon_$domain=~wikipedia.org
 _bidmatching-$important
 _bidmatching.$important
 _bidmatching^$important
