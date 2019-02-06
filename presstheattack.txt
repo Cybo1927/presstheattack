@@ -1,6 +1,6 @@
 ![Adblock Plus 3.1]
 ! Title: Press the Attack
-! Last modified: February 5 2019, 19:10
+! Last modified: February 5 2019, 19:15
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -1469,12 +1469,8 @@ $cookie=/unique_id/,domain=twitch.tv
 -google^pixel^$important
 -google^pixel_$important
 -google_pixel-$important
--google_pixel-$important
--google_pixel.$important
 -google_pixel.$important
 -google_pixel^$important
--google_pixel^$important
--google_pixel_$important
 -google_pixel_$important
 -googlead-$important
 -googlead.$important
@@ -3737,12 +3733,8 @@ $cookie=/unique_id/,domain=twitch.tv
 .google^pixel^$important
 .google^pixel_$important
 .google_pixel-$important
-.google_pixel-$important
-.google_pixel.$important
 .google_pixel.$important
 .google_pixel^$important
-.google_pixel^$important
-.google_pixel_$important
 .google_pixel_$important
 .googlead-$important
 .googlead.$important
@@ -6106,12 +6098,8 @@ $cookie=/unique_id/,domain=twitch.tv
 ^google^pixel^$important
 ^google^pixel_$important
 ^google_pixel-$important
-^google_pixel-$important
-^google_pixel.$important
 ^google_pixel.$important
 ^google_pixel^$important
-^google_pixel^$important
-^google_pixel_$important
 ^google_pixel_$important
 ^googlead-$important
 ^googlead.$important
@@ -8386,12 +8374,8 @@ _google^pixel.$important
 _google^pixel^$important
 _google^pixel_$important
 _google_pixel-$important
-_google_pixel-$important
-_google_pixel.$important
 _google_pixel.$important
 _google_pixel^$important
-_google_pixel^$important
-_google_pixel_$important
 _google_pixel_$important
 _googlead-$important
 _googlead.$important
