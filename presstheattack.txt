@@ -1,6 +1,6 @@
 ![Adblock Plus 3.1]
 ! Title: Press the Attack
-! Last modified: February 6 2019, 19:04
+! Last modified: February 6 2019, 19:25
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -1494,6 +1494,22 @@
 ##[div*=".yandex_rtb."]:not(html):not(body)
 ##[div*=".yandex_rtb_"]:not(html):not(body)
 ##[div*="_ad-"]:not(html):not(body)
+-adcentric-$important
+-adcentric.$important
+-adcentric^$important
+-adcentric_$important
+.adcentric-$important
+.adcentric.$important
+.adcentric^$important
+.adcentric_$important
+_adcentric-$important
+_adcentric.$important
+_adcentric^$important
+_adcentric_$important
+^adcentric-$important
+^adcentric.$important
+^adcentric^$important
+^adcentric_$important
 ##[div*="_ad."]:not(html):not(body)
 ##[div*="_ad_"]:not(html):not(body)
 ##[div*="_adbanner-"]:not(html):not(body)
@@ -1514,6 +1530,22 @@
 ##[div*="_ads-"]:not(html):not(body)
 ##[div*="_ads."]:not(html):not(body)
 ##[div*="_ads_"]:not(html):not(body)
+-adbanner-$important
+-adbanner.$important
+-adbanner^$important
+-adbanner_$important
+.adbanner-$important
+.adbanner.$important
+.adbanner^$important
+.adbanner_$important
+_adbanner-$important
+_adbanner.$important
+_adbanner^$important
+_adbanner_$important
+^adbanner-$important
+^adbanner.$important
+^adbanner^$important
+^adbanner_$important
 ##[div*="_adsbygoogle-"]:not(html):not(body)
 ##[div*="_adsbygoogle."]:not(html):not(body)
 ##[div*="_adsbygoogle_"]:not(html):not(body)
@@ -1545,6 +1577,22 @@
 ##[div*="_audio-advert."]:not(html):not(body)
 ##[div*="_audio-advert_"]:not(html):not(body)
 ##[div*="_dfp-"]:not(html):not(body)
+-adver-$important
+-adver.$important
+-adver^$important
+-adver_$important
+.adver-$important
+.adver.$important
+.adver^$important
+.adver_$important
+_adver-$important
+_adver.$important
+_adver^$important
+_adver_$important
+^adver-$important
+^adver.$important
+^adver^$important
+^adver_$important
 ##[div*="_dfp."]:not(html):not(body)
 ##[div*="_dfp_"]:not(html):not(body)
 ##[div*="_directadvert-"]:not(html):not(body)
@@ -2776,6 +2824,22 @@
 ##[id=".iframeBanner_"]:not(html):not(body)
 ##[id=".reklama-"]:not(html):not(body)
 ##[id=".reklama."]:not(html):not(body)
+-advert-$important
+-advert.$important
+-advert^$important
+-advert_$important
+.advert-$important
+.advert.$important
+.advert^$important
+.advert_$important
+_advert-$important
+_advert.$important
+_advert^$important
+_advert_$important
+^advert-$important
+^advert.$important
+^advert^$important
+^advert_$important
 ##[id=".reklama_"]:not(html):not(body)
 ##[id=".reklame-"]:not(html):not(body)
 ##[id=".reklame."]:not(html):not(body)
@@ -11817,6 +11881,22 @@ _getbanner_$important
 _getrecommandedads-$important
 _getrecommandedads.$important
 _getrecommandedads^$important
+-advertisements-$important
+-advertisements.$important
+-advertisements^$important
+-advertisements_$important
+.advertisements-$important
+.advertisements.$important
+.advertisements^$important
+.advertisements_$important
+_advertisements-$important
+_advertisements.$important
+_advertisements^$important
+_advertisements_$important
+^advertisements-$important
+^advertisements.$important
+^advertisements^$important
+^advertisements_$important
 _getrecommandedads_$important
 _getsponsor-$important
 _getsponsor.$important
