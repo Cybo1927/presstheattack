@@ -1,6 +1,6 @@
 ![Adblock Plus 3.1]
 ! Title: Press the Attack
-! Last modified: February 6 2019, 17:37
+! Last modified: February 6 2019, 17:40
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -3184,6 +3184,18 @@ $cookie=/unique_id/,domain=twitch.tv
 -0pixel.$important
 -0pixel^$important
 -0pixel_$important
+-300x250-
+-300x250.
+-300x250/
+-300x250_
+-468x60-
+-468x60.
+-468x60/
+-468x60_
+-728x90-
+-728x90.
+-728x90/
+-728x90_
 -AdPageMessage-$important
 -AdPageMessage.$important
 -AdPageMessage^$important
@@ -5452,6 +5464,18 @@ $cookie=/unique_id/,domain=twitch.tv
 .0pixel.$important
 .0pixel^$important
 .0pixel_$important
+.300x250-
+.300x250.
+.300x250/
+.300x250_
+.468x60-
+.468x60.
+.468x60/
+.468x60_
+.728x90-
+.728x90.
+.728x90/
+.728x90_
 .AdPageMessage-$important
 .AdPageMessage.$important
 .AdPageMessage^$important
@@ -7725,11 +7749,10 @@ $cookie=/unique_id/,domain=twitch.tv
 /300x250.
 /300x250/
 /300x250_
-/468_60.
-/468_60_
+/468x60-
 /468x60.
+/468x60/
 /468x60_
-/728_90.
 /728x90-
 /728x90.
 /728x90/
@@ -10100,11 +10123,23 @@ _0pixel^$important
 _0pixel_$important
 _240x400_$image
 _300_250.
+_300x250-
+_300x250.
+_300x250/
+_300x250_
 _468_60.
+_468x60-
 _468x60.
+_468x60.
+_468x60/
+_468x60_
 _468x60_
 _728_90.
+_728x90-
 _728x90.
+_728x90.
+_728x90/
+_728x90_
 _728x90_
 _728x95.
 _728x95_
