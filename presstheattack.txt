@@ -1,16 +1,17 @@
-﻿[Adblock Plus 3.1]
-! Checksum: BAi69VeBFGdpPir1vUm5YQ
+﻿[Adblock Plus 2.0]
+! Checksum: 47JkBPIwaApjJdr2SiqQnw
 ! Title: Press the Attack
-! Last modified: 2019-02-08 02:04
-! Version: 201902080204
+! Last modified: 2019-02-08 02:18
+! Version: 201902080218
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki
 !
-! Please report any unblocked tracking or problems
-! in the forums (https://github.com/bogachenko/presstheattack/issues)
-! or via e-mail (bogachenkove@gmail.com).
+! Please report incorrect blocking in any way convenient for you:
+! E-mail (bogachenkove@gmail.com).
+! GitHub issues: https://github.com/bogachenko/presstheattack/issues
+! GitHub pull requests: https://github.com/bogachenko/presstheattack/pulls
 
 ##.AD:not(:root):not(body):not(input)
 ##.ADS:not(:root):not(body):not(input)
