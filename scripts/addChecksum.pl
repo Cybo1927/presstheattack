@@ -35,7 +35,7 @@ foreach my $file (@ARGV) {
   my @months = qw(January February March April May June July August September October November December);
   my ($sec,$min,$hour,$mday,$mon,$year,$wday,$yday,$isdst) = localtime();
   $year += 1900;
-  my $todaysdate = "$mday $months[$mon] $year";
+  my $todaysdate = "$months[$mon] $mday $year, $hour:$min:$sec";
   $data =~ s/(^.*!.*Updated:\s*)(.*)\s*$/$1$todaysdate/gmi;
   $checksumData = $data;
   $checksumData =~ s/\r//g;
