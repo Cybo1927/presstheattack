@@ -11,7 +11,7 @@ my $strDateTime = $time->strftime("%F %R JST\(UTC%z\)");
 my $strVersion = $time->strftime("%Y%m%d%H%M");
 die "[ERR] Failed to Generate DateTime String!" unless $strDateTime;
 die "[ERR] Failed to Generate Version String!"  unless $strVersion;
-$data =~ s/^.*!\s*Last\s+modified[\s\-:]+([\w\+\/=]+).*$/! Updated: $strDateTime/gmi;
+$data =~ s/^.*!\s*Last\s+modified[\s\-:]+([\w\+\/=]+).*$/! Last modified: $strDateTime/gmi;
 $data =~ s/^.*!\s*Version[\s\-:]+([\w\+\/=]+).*$/! Version: $strVersion/gmi;
 writeFile($file, $data);
 sub readFile
