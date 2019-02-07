@@ -7,7 +7,7 @@ die "Usage: $^X $0 subscription.txt\n" unless @ARGV;
 my $file = $ARGV[0];
 my $data = readFile($file);
 my $time    = localtime();
-my $strDateTime = $time->strftime("%F %R JST\(UTC%z\)");
+my $strDateTime = $time->strftime("%F %R");
 my $strVersion = $time->strftime("%Y%m%d%H%M");
 die "[ERR] Failed to Generate DateTime String!" unless $strDateTime;
 die "[ERR] Failed to Generate Version String!"  unless $strVersion;
