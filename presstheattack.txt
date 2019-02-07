@@ -1,7 +1,7 @@
 ![Adblock Plus 3.1]
-! Checksum: LMEWyEA0vYmluN6MvlISIA
+! Checksum: MXGXkVq7V8kJ5H9W09tVcw
 ! Title: Press the Attack
-! Updated: February 7 2019, 23:45:50
+! Updated: February 8 2019, 0:9:10
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -12745,8 +12745,6 @@ twitch.tv##a[href*="noblechairs.com"]>img
 twitch.tv##a[href*="poker"]>img
 twitch.tv##a[href*="upskill.ru"]>img
 twitch.tv##main.tw-flex > div[class]:not([data-test-selector]) > div[data-test-selector="test_selector_prime_tracking_button_wrapper"]
-twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/)
-twitter.com##[data-focusable="true"]:has-text(/Promoted|Gesponsert|Реклама/)
 vk.com##.audio_promo
 vk.com##aside[aria-label="Актуальные новости"]
 whoer.net,2ip.ru,novinky.cz,auto.ru##+js(cookie-remover.js)
