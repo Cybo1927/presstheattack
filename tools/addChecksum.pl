@@ -16,7 +16,6 @@ writeFile($file, $data);
 sub readFile
 {
   my $file = shift;
-
   open(local *FILE, "<", $file) || die "Could not read file '$file'";
   binmode(FILE);
   local $/;

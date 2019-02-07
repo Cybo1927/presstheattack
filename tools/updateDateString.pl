@@ -22,7 +22,6 @@ sub readFile
   local $/;
   my $result = <FILE>;
   close(FILE);
-
   return $result;
 }
 sub writeFile
