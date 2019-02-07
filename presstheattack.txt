@@ -1,6 +1,6 @@
 ![Adblock Plus 3.1]
 ! Title: Press the Attack
-! Last modified: February 6 2019, 18:32
+! Last modified: February 6 2019, 18:58
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -12806,6 +12806,8 @@ vk.com##aside[aria-label="Актуальные новости"]
 whoer.net,2ip.ru,novinky.cz,auto.ru##+js(cookie-remover.js)
 wikipedia.org###sitenotice
 yandex.ru,yandex.by,yandex.ua##.tooltip_shown_yes.popup2_visible_yes.popup2_direction_right-center.popup2_js_inited.tooltip-api_js_inited.tooltip_js_inited.i-bem.chat-tooltip__content.tooltip-api_theme_promo.tooltip-api.tooltip_align_center.tooltip_view_classic.tooltip_tone_default.tooltip_size_m.tooltip_theme_promo.tooltip.popup2_theme_normal.popup2_view_classic.popup2_autoclosable_no.popup2_hiding_yes.popup2_target_anchor.popup2
+/cnn-analytics.min.js$important
+||s.media-imdb.com^$important
 yandex.ru,yandex.by,yandex.ua,~mail.yandex.ru##+js(set-constant.js, Math.random, trueFunc)
 yandex.ru,yandex.ua,yandex.bu##.media-grid_js_inited.font-regular.i-bem.media-grid_theme_white.media-grid_visible_yes.media-grid
 yandex.ru,yandex.ua,yandex.by##.yaplus_js_inited.i-bem.yaplus_available_yes.yaplus
@@ -13027,6 +13029,7 @@ youtube.com##.html5-endscreen
 ||yandex.ru/maps/api/branding^$xmlhttprequest,important
 ||yastatic.net/*/atom.js|$important
 ||yastatic.net^$popup,important
+||github.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.github.com *.githubassets.com *.githubusercontent.com *.s3.amazonaws.com,important
 ||yimg.com/rq/darla/$domain=yahoo.com,important
 ||youtube.com/api/stats/$important
 ||youtube.com/get_midroll_info^$important
