@@ -1,8 +1,8 @@
 ﻿[Adblock Plus 2.0]
-! Checksum: UX6+vRhz0h8X7fafhSiW1g
+! Checksum: xPTWzDDkcFrJXwkO2LvfCw
 ! Title: Press the Attack
-! Last modified: 2019-02-10 06:41
-! Version: 201902100641
+! Last modified: 2019-02-10 07:07
+! Version: 201902100707
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -3345,7 +3345,6 @@ $cookie=/unique_id/,domain=twitch.tv
 -ad24.$important
 -ad24^$important
 -ad24_$important
--ad-$domain=~github.com
 -ad-boxes-$important
 -ad-boxes.$important
 -ad-boxes^$important
@@ -3358,7 +3357,6 @@ $cookie=/unique_id/,domain=twitch.tv
 -ad-type.
 -ad-type^
 -ad-type_
--ad.
 -ad.boxes-$important
 -ad.boxes.$important
 -ad.boxes^$important
@@ -3371,7 +3369,6 @@ $cookie=/unique_id/,domain=twitch.tv
 -ad.type.
 -ad.type^
 -ad.type_
--ad^$domain=~yahoo.com
 -ad^boxes-$important
 -ad^boxes.$important
 -ad^boxes^$important
@@ -3384,7 +3381,6 @@ $cookie=/unique_id/,domain=twitch.tv
 -ad^type.
 -ad^type^
 -ad^type_
--ad_$domain=~yahoo.com
 -ad_banner-$important
 -ad_banner.$important
 -ad_banner^$important
@@ -3661,7 +3657,6 @@ $cookie=/unique_id/,domain=twitch.tv
 -ads9.$important
 -ads9^$important
 -ads9_$important
--ads-$domain=~yahoo.com|~github.com|~yandex.ru|~yandex.ua|~yandex.by
 -ads-banner-$important
 -ads-banner.$important
 -ads-banner^$important
@@ -3702,7 +3697,6 @@ $cookie=/unique_id/,domain=twitch.tv
 -ads-widget.$important
 -ads-widget^$important
 -ads-widget_$important
--ads.$domain=~yahoo.com
 -ads.boxes-$important
 -ads.boxes.$important
 -ads.boxes^$important
@@ -3711,7 +3705,6 @@ $cookie=/unique_id/,domain=twitch.tv
 -ads.gif.$important
 -ads.gif^$important
 -ads.gif_$important
--ads^$domain=~yahoo.com
 -ads^boxes-$important
 -ads^boxes.$important
 -ads^boxes^$important
@@ -3720,7 +3713,6 @@ $cookie=/unique_id/,domain=twitch.tv
 -ads^gif.$important
 -ads^gif^$important
 -ads^gif_$important
--ads_$domain=~yahoo.com
 -ads_boxes-$important
 -ads_boxes.$important
 -ads_boxes^$important
@@ -5721,7 +5713,6 @@ $cookie=/unique_id/,domain=twitch.tv
 .ad24.$important
 .ad24^$important
 .ad24_$important
-.ad-
 .ad-boxes-$important
 .ad-boxes.$important
 .ad-boxes^$important
@@ -5734,7 +5725,6 @@ $cookie=/unique_id/,domain=twitch.tv
 .ad-type.
 .ad-type^
 .ad-type_
-.ad.
 .ad.boxes-$important
 .ad.boxes.$important
 .ad.boxes^$important
@@ -5747,7 +5737,6 @@ $cookie=/unique_id/,domain=twitch.tv
 .ad.type.
 .ad.type^
 .ad.type_
-.ad^
 .ad^boxes-$important
 .ad^boxes.$important
 .ad^boxes^$important
@@ -5760,7 +5749,6 @@ $cookie=/unique_id/,domain=twitch.tv
 .ad^type.
 .ad^type^
 .ad^type_
-.ad_
 .ad_banner-$important
 .ad_banner.$important
 .ad_banner^$important
@@ -6037,7 +6025,6 @@ $cookie=/unique_id/,domain=twitch.tv
 .ads9.$important
 .ads9^$important
 .ads9_$important
-.ads-
 .ads-banner-$important
 .ads-banner.$important
 .ads-banner^$important
@@ -6078,7 +6065,6 @@ $cookie=/unique_id/,domain=twitch.tv
 .ads-widget.$important
 .ads-widget^$important
 .ads-widget_$important
-.ads.
 .ads.boxes-$important
 .ads.boxes.$important
 .ads.boxes^$important
@@ -6087,7 +6073,6 @@ $cookie=/unique_id/,domain=twitch.tv
 .ads.gif.$important
 .ads.gif^$important
 .ads.gif_$important
-.ads^
 .ads^boxes-$important
 .ads^boxes.$important
 .ads^boxes^$important
@@ -6096,7 +6081,6 @@ $cookie=/unique_id/,domain=twitch.tv
 .ads^gif.$important
 .ads^gif^$important
 .ads^gif_$important
-.ads_
 .ads_boxes-$important
 .ads_boxes.$important
 .ads_boxes^$important
@@ -8196,7 +8180,6 @@ $cookie=/unique_id/,domain=twitch.tv
 ^ad24.$important
 ^ad24^$important
 ^ad24_$important
-^ad-$domain=~yahoo.com|~github.com
 ^ad-boxes-$important
 ^ad-boxes.$important
 ^ad-boxes^$important
@@ -8209,7 +8192,6 @@ $cookie=/unique_id/,domain=twitch.tv
 ^ad-type.
 ^ad-type^
 ^ad-type_
-^ad.
 ^ad.boxes-$important
 ^ad.boxes.$important
 ^ad.boxes^$important
@@ -8222,7 +8204,6 @@ $cookie=/unique_id/,domain=twitch.tv
 ^ad.type.
 ^ad.type^
 ^ad.type_
-^ad^$domain=~mail.google.com|~yahoo.com
 ^ad^boxes-$important
 ^ad^boxes.$important
 ^ad^boxes^$important
@@ -8235,7 +8216,6 @@ $cookie=/unique_id/,domain=twitch.tv
 ^ad^type.
 ^ad^type^
 ^ad^type_
-^ad_$domain=~yahoo.com
 ^ad_banner-$important
 ^ad_banner.$important
 ^ad_banner^$important
@@ -8512,7 +8492,6 @@ $cookie=/unique_id/,domain=twitch.tv
 ^ads9.$important
 ^ads9^$important
 ^ads9_$important
-^ads-$domain=~yahoo.com
 ^ads-banner-$important
 ^ads-banner.$important
 ^ads-banner^$important
@@ -8553,7 +8532,6 @@ $cookie=/unique_id/,domain=twitch.tv
 ^ads-widget.$important
 ^ads-widget^$important
 ^ads-widget_$important
-^ads.
 ^ads.boxes-$important
 ^ads.boxes.$important
 ^ads.boxes^$important
@@ -8562,7 +8540,6 @@ $cookie=/unique_id/,domain=twitch.tv
 ^ads.gif.$important
 ^ads.gif^$important
 ^ads.gif_$important
-^ads^$domain=~yahoo.com|~google.ad|~google.ae|~google.al|~google.am|~google.as|~google.at|~google.az|~google.ba|~google.be|~google.bf|~google.bg|~google.bi|~google.bj|~google.bs|~google.bt|~google.by|~google.ca|~google.cat|~google.cd|~google.cf|~google.cg|~google.ch|~google.ci|~google.cl|~google.cm|~google.cn|~google.co.ao|~google.co.bw|~google.co.ck|~google.co.cr|~google.co.id|~google.co.il|~google.co.in|~google.co.jp|~google.co.ke|~google.co.kr|~google.co.ls|~google.co.ma|~google.co.mz|~google.co.nz|~google.co.th|~google.co.tz|~google.co.ug|~google.co.uk|~google.co.uz|~google.co.ve|~google.co.vi|~google.co.za|~google.co.zm|~google.co.zw|~google.com|~google.com.af|~google.com.ag|~google.com.ai|~google.com.ar|~google.com.au|~google.com.bd|~google.com.bh|~google.com.bn|~google.com.bo|~google.com.br|~google.com.bz|~google.com.co|~google.com.cu|~google.com.cy|~google.com.do|~google.com.ec|~google.com.eg|~google.com.et|~google.com.fj|~google.com.gh|~google.com.gi|~google.com.gt|~google.com.hk|~google.com.jm|~google.com.kh|~google.com.kw|~google.com.lb|~google.com.ly|~google.com.mm|~google.com.mt|~google.com.mx|~google.com.my|~google.com.na|~google.com.nf|~google.com.ng|~google.com.ni|~google.com.np|~google.com.om|~google.com.pa|~google.com.pe|~google.com.pg|~google.com.ph|~google.com.pk|~google.com.pr|~google.com.py|~google.com.qa|~google.com.sa|~google.com.sb|~google.com.sg|~google.com.sl|~google.com.sv|~google.com.tj|~google.com.tr|~google.com.tw|~google.com.ua|~google.com.uy|~google.com.vc|~google.com.vn|~google.cv|~google.cz|~google.de|~google.dj|~google.dk|~google.dm|~google.dz|~google.ee|~google.es|~google.fi|~google.fm|~google.fr|~google.ga|~google.ge|~google.gg|~google.gl|~google.gm|~google.gp|~google.gr|~google.gy|~google.hn|~google.hr|~google.ht|~google.hu|~google.ie|~google.im|~google.iq|~google.is|~google.it|~google.je|~google.jo|~google.kg|~google.ki|~google.kz|~google.la|~google.li|~google.lk|~google.lt|~google.lu|~google.lv|~google.md|~google.me|~google.mg|~google.mk|~google.ml|~google.mn|~google.ms|~google.mu|~google.mv|~google.mw|~google.ne|~google.nl|~google.no|~google.nr|~google.nu|~google.pl|~google.pn|~google.ps|~google.pt|~google.ro|~google.rs|~google.ru|~google.rw|~google.sc|~google.se|~google.sh|~google.si|~google.sk|~google.sm|~google.sn|~google.so|~google.sr|~google.st|~google.td|~google.tg|~google.tk|~google.tl|~google.tm|~google.tn|~google.to|~google.tt|~google.vg|~google.vu|~google.ws
 ^ads^boxes-$important
 ^ads^boxes.$important
 ^ads^boxes^$important
@@ -8571,7 +8548,6 @@ $cookie=/unique_id/,domain=twitch.tv
 ^ads^gif.$important
 ^ads^gif^$important
 ^ads^gif_$important
-^ads_$domain=~yahoo.com|~vk.com
 ^ads_boxes-$important
 ^ads_boxes.$important
 ^ads_boxes^$important
@@ -10579,7 +10555,6 @@ _ad24-$important
 _ad24.$important
 _ad24^$important
 _ad24_$important
-_ad-$domain=~yahoo.com
 _ad-boxes-$important
 _ad-boxes.$important
 _ad-boxes^$important
@@ -10592,7 +10567,6 @@ _ad-type-
 _ad-type.
 _ad-type^
 _ad-type_
-_ad.
 _ad.boxes-$important
 _ad.boxes.$important
 _ad.boxes^$important
@@ -10605,7 +10579,6 @@ _ad.type-
 _ad.type.
 _ad.type^
 _ad.type_
-_ad^$domain=~yahoo.com
 _ad^boxes-$important
 _ad^boxes.$important
 _ad^boxes^$important
@@ -10618,7 +10591,6 @@ _ad^type-
 _ad^type.
 _ad^type^
 _ad^type_
-_ad_
 _ad_banner-$important
 _ad_banner.$important
 _ad_banner^$important
@@ -10895,7 +10867,6 @@ _ads9-$important
 _ads9.$important
 _ads9^$important
 _ads9_$important
-_ads-$domain=~yahoo.com
 _ads-banner-$important
 _ads-banner.$important
 _ads-banner^$important
@@ -10936,7 +10907,6 @@ _ads-widget-$important
 _ads-widget.$important
 _ads-widget^$important
 _ads-widget_$important
-_ads.
 _ads.boxes-$important
 _ads.boxes.$important
 _ads.boxes^$important
@@ -10945,7 +10915,6 @@ _ads.gif-$important
 _ads.gif.$important
 _ads.gif^$important
 _ads.gif_$important
-_ads^$domain=~yahoo.com
 _ads^boxes-$important
 _ads^boxes.$important
 _ads^boxes^$important
@@ -10954,7 +10923,6 @@ _ads^gif-$important
 _ads^gif.$important
 _ads^gif^$important
 _ads^gif_$important
-_ads_
 _ads_boxes-$important
 _ads_boxes.$important
 _ads_boxes^$important
