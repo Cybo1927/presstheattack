@@ -1,8 +1,8 @@
 ﻿[Adblock Plus 2.0]
-! Checksum: jqWFjabVuor22MTvPNqMtw
+! Checksum: 06DybRgguGLGr6QlBwni9A
 ! Title: Press the Attack
-! Last modified: 2019-02-09 20:20
-! Version: 201902092020
+! Last modified: 2019-02-09 20:27
+! Version: 201902092027
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -17,21 +17,14 @@
 ##.ADS:not(:root):not(body):not(input)
 ##.ad:not(:root):not(body):not(input)
 ##.ads:not(:root):not(body):not(input)
-##[class$="-ad-"]:not(html):not(body)
-##[class$="-ad."]:not(html):not(body)
-##.text_ads:not(:root):not(body):not(input)
-##.text_ad:not(:root):not(body):not(input)
-##.textAd:not(:root):not(body):not(input)
-##.text-ads:not(:root):not(body):not(input)
 ##.text-ad-links:not(:root):not(body):not(input)
 ##.text-ad:not(:root):not(body):not(input)
-||1dmp.io^$important
-||news.yandex.*$script,1p,important
-xvideos.com##+js(xvideos.com.js)
-xvideos.com##+js(abort-on-property-write.js, openpop)
-xvideos.com##+js(nowebrtc.js)
-xvideos.com##+js(window.open-defuser.js)
-||xvideos.com/in.php^$important
+##.text-ads:not(:root):not(body):not(input)
+##.textAd:not(:root):not(body):not(input)
+##.text_ad:not(:root):not(body):not(input)
+##.text_ads:not(:root):not(body):not(input)
+##[class$="-ad-"]:not(html):not(body)
+##[class$="-ad."]:not(html):not(body)
 ##[class$="-ad_"]:not(html):not(body)
 ##[class$="-adbanner-"]:not(html):not(body)
 ##[class$="-adbanner."]:not(html):not(body)
@@ -4964,10 +4957,10 @@ $cookie=/unique_id/,domain=twitch.tv
 -popupclick.$important
 -popupclick^$important
 -popupclick_$important
--ppc-$important
--ppc.$important
--ppc^$important
--ppc_$important
+-ppc-
+-ppc.
+-ppc^
+-ppc_
 -ppv-
 -ppv.
 -ppv^
@@ -7340,10 +7333,10 @@ $cookie=/unique_id/,domain=twitch.tv
 .popupclick.$important
 .popupclick^$important
 .popupclick_$important
-.ppc-$important
-.ppc.$important
-.ppc^$important
-.ppc_$important
+.ppc-
+.ppc.
+.ppc^
+.ppc_
 .ppv-
 .ppv.
 .ppv^
@@ -9815,10 +9808,10 @@ $cookie=/unique_id/,domain=twitch.tv
 ^popupclick.$important
 ^popupclick^$important
 ^popupclick_$important
-^ppc-$important
-^ppc.$important
-^ppc^$important
-^ppc_$important
+^ppc-
+^ppc.
+^ppc^
+^ppc_
 ^ppv-
 ^ppv.
 ^ppv^
@@ -12196,10 +12189,10 @@ _popupclick-$important
 _popupclick.$important
 _popupclick^$important
 _popupclick_$important
-_ppc-$important
-_ppc.$important
-_ppc^$important
-_ppc_$important
+_ppc-
+_ppc.
+_ppc^
+_ppc_
 _ppv-
 _ppv.
 _ppv^
@@ -12764,6 +12757,10 @@ vk.com##.audio_promo
 vk.com##aside[aria-label="Актуальные новости"]
 whoer.net,2ip.ru,novinky.cz,auto.ru##+js(cookie-remover.js)
 wikipedia.org###siteNotice
+xvideos.com##+js(abort-on-property-write.js, openpop)
+xvideos.com##+js(nowebrtc.js)
+xvideos.com##+js(window.open-defuser.js)
+xvideos.com##+js(xvideos.com.js)
 yandex.ru,yandex.by,yandex.ua##.tooltip_shown_yes.popup2_visible_yes.popup2_direction_right-center.popup2_js_inited.tooltip-api_js_inited.tooltip_js_inited.i-bem.chat-tooltip__content.tooltip-api_theme_promo.tooltip-api.tooltip_align_center.tooltip_view_classic.tooltip_tone_default.tooltip_size_m.tooltip_theme_promo.tooltip.popup2_theme_normal.popup2_view_classic.popup2_autoclosable_no.popup2_hiding_yes.popup2_target_anchor.popup2
 yandex.ru,yandex.by,yandex.ua,~mail.yandex.ru##+js(set-constant.js, Math.random, trueFunc)
 yandex.ru,yandex.ua,yandex.bu##.media-grid_js_inited.font-regular.i-bem.media-grid_theme_white.media-grid_visible_yes.media-grid
@@ -12824,6 +12821,7 @@ youtube.com##.html5-endscreen
 |http*://tracking2.*^$important
 |http*://tracking.*^$important
 |http*://yads.*^$important
+||1dmp.io^$important
 ||2ch.hk/banners/$image,important
 ||2ch.hk/images/$media,image,important
 ||2ch.hk/js/snowstorm.js$script,important
@@ -12933,6 +12931,7 @@ youtube.com##.html5-endscreen
 ||mradx.net^$important
 ||msecnd.net/scripts/jsll$important
 ||newrelic.com^$important
+||news.yandex.*$script,1p,important
 ||omtrdc.net^$important
 ||optimizely.com^$important
 ||outbrain.com^$important
@@ -12984,6 +12983,7 @@ youtube.com##.html5-endscreen
 ||vortex.data.microsoft.com^$important
 ||weborama.fr^$important
 ||whos.amung.us^$important
+||xvideos.com/in.php^$important
 ||yadro.ru^$important
 ||yahoo.com/pageview^$important
 ||yandex.*/*/yandcache.js|$important
