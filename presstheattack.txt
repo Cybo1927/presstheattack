@@ -1,8 +1,8 @@
 ﻿[Adblock Plus 2.0]
-! Checksum: 2t+OJJ6RxMDB/K/2t/FEPQ
+! Checksum: HHe4LVYetFM1JqbOZVo/vQ
 ! Title: Press the Attack
-! Last modified: 2019-02-10 08:34
-! Version: 201902100834
+! Last modified: 2019-02-10 08:46
+! Version: 201902100846
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -261,6 +261,10 @@ $cookie=/unique_id/,domain=twitch.tv
 -pagead.$important
 -pagead^$important
 -pagead_$important
+-pixel-
+-pixel.
+-pixel^
+-pixel_
 -ptracking-$important
 -ptracking.$important
 -ptracking^$important
@@ -297,6 +301,10 @@ $cookie=/unique_id/,domain=twitch.tv
 .pagead.$important
 .pagead^$important
 .pagead_$important
+.pixel-
+.pixel.
+.pixel^
+.pixel_
 .ptracking-$important
 .ptracking.$important
 .ptracking^$important
@@ -326,6 +334,7 @@ $cookie=/unique_id/,domain=twitch.tv
 /endscreen$domain=youtube.com
 /log[\W|_](type|event|entry)/$important
 @@||*.ttvnw.net^$xmlhttprequest,domain=twitch.tv
+@@||vk.com/al_feed.php^
 ^adinfo-$important
 ^adinfo.$important
 ^adinfo^$important
@@ -354,6 +363,10 @@ $cookie=/unique_id/,domain=twitch.tv
 ^pagead.$important
 ^pagead^$important
 ^pagead_$important
+^pixel-
+^pixel.
+^pixel^
+^pixel_
 ^ptracking-$important
 ^ptracking.$important
 ^ptracking^$important
@@ -390,6 +403,10 @@ _pagead-$important
 _pagead.$important
 _pagead^$important
 _pagead_$important
+_pixel-
+_pixel.
+_pixel^
+_pixel_
 _ptracking-$important
 _ptracking.$important
 _ptracking^$important
@@ -423,34 +440,66 @@ yandex.ru,yandex.ua,yandex.by,kinopoisk.ru##+js(cookie-remover.js, /blcrm|bltsr|
 |http:*-ad.
 |http:*-ad^
 |http:*-ad_
+|http:*-ads-
+|http:*-ads.
+|http:*-ads^
+|http:*-ads_
 |http:*.ad-
 |http:*.ad.
 |http:*.ad^
 |http:*.ad_
+|http:*.ads-
+|http:*.ads.
+|http:*.ads^
+|http:*.ads_
 |http:*^ad-
 |http:*^ad.
 |http:*^ad^
 |http:*^ad_
+|http:*^ads-
+|http:*^ads.
+|http:*^ads^
+|http:*^ads_
 |http:*_ad-
 |http:*_ad.
 |http:*_ad^
 |http:*_ad_
+|http:*_ads-
+|http:*_ads.
+|http:*_ads^
+|http:*_ads_
 |https:*-ad-
 |https:*-ad.
 |https:*-ad^
 |https:*-ad_
+|https:*-ads-
+|https:*-ads.
+|https:*-ads^
+|https:*-ads_
 |https:*.ad-
 |https:*.ad.
 |https:*.ad^
 |https:*.ad_
+|https:*.ads-
+|https:*.ads.
+|https:*.ads^
+|https:*.ads_
 |https:*^ad-
 |https:*^ad.
 |https:*^ad^
 |https:*^ad_
+|https:*^ads-
+|https:*^ads.
+|https:*^ads^
+|https:*^ads_
 |https:*_ad-
 |https:*_ad.
 |https:*_ad^
 |https:*_ad_
+|https:*_ads-
+|https:*_ads.
+|https:*_ads^
+|https:*_ads_
 ||2ch.hk/banners/$image
 ||2ch.hk/images/$media,image
 ||2ch.hk/js/snowstorm.js$script
@@ -458,8 +507,13 @@ yandex.ru,yandex.ua,yandex.by,kinopoisk.ru##+js(cookie-remover.js, /blcrm|bltsr|
 ||2ch.hk/makaba/templates/js/tracker.js|
 ||adfox.ru^$important
 ||amazon-adsystem.com^$important
+||atdmt.com^$important
+||mradx.net^$important
+||scorecardresearch.com^$important
 ||tns-counter.ru^$important
 ||twitch.tv^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' *.jtvnw.net *.ttvnw.net *.twitchcdn.net *.twitch.tv *.facebook.com *.facebook.net recaptcha.net *.google.com *.gstatic.com blob: wss:,important
+||vk.com/js/lib/px.js^$important
+||yadro.ru^$important
 ||youtube.com/api/stats/qoe^$important
 ||youtube.com/get_midroll*^$important
 ||youtube.com/ptracking^$important
