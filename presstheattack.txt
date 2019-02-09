@@ -1,8 +1,8 @@
 ﻿[Adblock Plus 2.0]
-! Checksum: 7PUDSIvS9e63mvEqNlkKIw
+! Checksum: P+0WqsaY9tz7kP68mN0sBQ
 ! Title: Press the Attack
-! Last modified: 2019-02-10 08:15
-! Version: 201902100815
+! Last modified: 2019-02-10 08:30
+! Version: 201902100830
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -237,6 +237,22 @@ $cookie=/unique_id/,domain=twitch.tv
 -adinfo.$important
 -adinfo^$important
 -adinfo_$important
+-banner-ad-$important
+-banner-ad.$important
+-banner-ad^$important
+-banner-ad_$important
+-banner.ad-$important
+-banner.ad.$important
+-banner.ad^$important
+-banner.ad_$important
+-banner^ad-$important
+-banner^ad.$important
+-banner^ad^$important
+-banner^ad_$important
+-banner_ad-$important
+-banner_ad.$important
+-banner_ad^$important
+-banner_ad_$important
 -clck-$important
 -clck.$important
 -clck^$important
@@ -253,6 +269,22 @@ $cookie=/unique_id/,domain=twitch.tv
 .adinfo.$important
 .adinfo^$important
 .adinfo_$important
+.banner-ad-$important
+.banner-ad.$important
+.banner-ad^$important
+.banner-ad_$important
+.banner.ad-$important
+.banner.ad.$important
+.banner.ad^$important
+.banner.ad_$important
+.banner^ad-$important
+.banner^ad.$important
+.banner^ad^$important
+.banner^ad_$important
+.banner_ad-$important
+.banner_ad.$important
+.banner_ad^$important
+.banner_ad_$important
 .clck-$important
 .clck.$important
 .clck^$important
@@ -290,6 +322,22 @@ $cookie=/unique_id/,domain=twitch.tv
 ^adinfo.$important
 ^adinfo^$important
 ^adinfo_$important
+^banner-ad-$important
+^banner-ad.$important
+^banner-ad^$important
+^banner-ad_$important
+^banner.ad-$important
+^banner.ad.$important
+^banner.ad^$important
+^banner.ad_$important
+^banner^ad-$important
+^banner^ad.$important
+^banner^ad^$important
+^banner^ad_$important
+^banner_ad-$important
+^banner_ad.$important
+^banner_ad^$important
+^banner_ad_$important
 ^clck-$important
 ^clck.$important
 ^clck^$important
@@ -306,6 +354,22 @@ _adinfo-$important
 _adinfo.$important
 _adinfo^$important
 _adinfo_$important
+_banner-ad-$important
+_banner-ad.$important
+_banner-ad^$important
+_banner-ad_$important
+_banner.ad-$important
+_banner.ad.$important
+_banner.ad^$important
+_banner.ad_$important
+_banner^ad-$important
+_banner^ad.$important
+_banner^ad^$important
+_banner^ad_$important
+_banner_ad-$important
+_banner_ad.$important
+_banner_ad^$important
+_banner_ad_$important
 _clck-$important
 _clck.$important
 _clck^$important
@@ -318,6 +382,7 @@ _ptracking-$important
 _ptracking.$important
 _ptracking^$important
 _ptracking_$important
+music.yandex.ru,music.yandex.ua,music.yandex.by##.sidebar__under
 twitch.tv##+js(twitch-videoad.js)
 twitch.tv##a[href*=".gg"]>img
 twitch.tv##a[href*="/buy/"]>img
@@ -336,11 +401,46 @@ twitch.tv##a[href*="gosu.ai"]>img
 twitch.tv##a[href*="noblechairs.com"]>img
 twitch.tv##a[href*="poker"]>img
 twitch.tv##a[href*="upskill.ru"]>img
+yandex.ru,yandex.by,yandex.ua,~mail.yandex.ru,~mail.yandex.ua,~mail.yandex.by##+js(set-constant.js, Math.random, trueFunc)
+yandex.ru,yandex.ua,yandex.by,kinopoisk.ru##+js(cookie-remover.js, /^blcrm|^bltsr|^yabs|^adb|^cmtchd|^crookie|^kpunk|^is_adblock|^abp|^yp|^ys/)
+|http:*-ad-
+|http:*-ad.
+|http:*-ad^
+|http:*-ad_
+|http:*.ad-
+|http:*.ad.
+|http:*.ad^
+|http:*.ad_
+|http:*^ad-
+|http:*^ad.
+|http:*^ad^
+|http:*^ad_
+|http:*_ad-
+|http:*_ad.
+|http:*_ad^
+|http:*_ad_
+|https:*-ad-
+|https:*-ad.
+|https:*-ad^
+|https:*-ad_
+|https:*.ad-
+|https:*.ad.
+|https:*.ad^
+|https:*.ad_
+|https:*^ad-
+|https:*^ad.
+|https:*^ad^
+|https:*^ad_
+|https:*_ad-
+|https:*_ad.
+|https:*_ad^
+|https:*_ad_
 ||2ch.hk/banners/$image
 ||2ch.hk/images/$media,image
 ||2ch.hk/js/snowstorm.js$script
 ||2ch.hk/makaba/templates/js/c.gif$image
 ||2ch.hk/makaba/templates/js/tracker.js|
+||adfox.ru^$important
 ||amazon-adsystem.com^$important
 ||tns-counter.ru^$important
 ||twitch.tv^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' *.jtvnw.net *.ttvnw.net *.twitchcdn.net *.twitch.tv *.facebook.com *.facebook.net recaptcha.net *.google.com *.gstatic.com blob: wss:,important
