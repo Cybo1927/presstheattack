@@ -1,8 +1,8 @@
 ﻿[Adblock Plus 2.0]
-! Checksum: HHe4LVYetFM1JqbOZVo/vQ
+! Checksum: pgGvyLDwEYl2AhKzlCfXcQ
 ! Title: Press the Attack
-! Last modified: 2019-02-10 08:46
-! Version: 201902100846
+! Last modified: 2019-02-10 08:57
+! Version: 201902100857
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -265,6 +265,10 @@ $cookie=/unique_id/,domain=twitch.tv
 -pixel.
 -pixel^
 -pixel_
+-promo-
+-promo.
+-promo^
+-promo_
 -ptracking-$important
 -ptracking.$important
 -ptracking^$important
@@ -305,6 +309,10 @@ $cookie=/unique_id/,domain=twitch.tv
 .pixel.
 .pixel^
 .pixel_
+.promo-
+.promo.
+.promo^
+.promo_
 .ptracking-$important
 .ptracking.$important
 .ptracking^$important
@@ -367,6 +375,10 @@ $cookie=/unique_id/,domain=twitch.tv
 ^pixel.
 ^pixel^
 ^pixel_
+^promo-
+^promo.
+^promo^
+^promo_
 ^ptracking-$important
 ^ptracking.$important
 ^ptracking^$important
@@ -407,6 +419,10 @@ _pixel-
 _pixel.
 _pixel^
 _pixel_
+_promo-
+_promo.
+_promo^
+_promo_
 _ptracking-$important
 _ptracking.$important
 _ptracking^$important
@@ -468,6 +484,8 @@ yandex.ru,yandex.ua,yandex.by,kinopoisk.ru##+js(cookie-remover.js, /blcrm|bltsr|
 |http:*_ads.
 |http:*_ads^
 |http:*_ads_
+|http://stat.*^$important
+|http://stats.*^$important
 |https:*-ad-
 |https:*-ad.
 |https:*-ad^
@@ -500,6 +518,8 @@ yandex.ru,yandex.ua,yandex.by,kinopoisk.ru##+js(cookie-remover.js, /blcrm|bltsr|
 |https:*_ads.
 |https:*_ads^
 |https:*_ads_
+|https://stat.*^$important
+|https://stats.*^$important
 ||2ch.hk/banners/$image
 ||2ch.hk/images/$media,image
 ||2ch.hk/js/snowstorm.js$script
@@ -513,6 +533,7 @@ yandex.ru,yandex.ua,yandex.by,kinopoisk.ru##+js(cookie-remover.js, /blcrm|bltsr|
 ||tns-counter.ru^$important
 ||twitch.tv^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' *.jtvnw.net *.ttvnw.net *.twitchcdn.net *.twitch.tv *.facebook.com *.facebook.net recaptcha.net *.google.com *.gstatic.com blob: wss:,important
 ||vk.com/js/lib/px.js^$important
+||vk.com/rtrg^$important
 ||yadro.ru^$important
 ||youtube.com/api/stats/qoe^$important
 ||youtube.com/get_midroll*^$important
