@@ -1,8 +1,8 @@
 ﻿[Adblock Plus 2.0]
-! Checksum: vrndUc05WK7KjQGCQUMNdA
+! Checksum: Y7ru7Od6ZRX4M66saiSjGg
 ! Title: Press the Attack
-! Last modified: 2019-02-10 09:33
-! Version: 201902100933
+! Last modified: 2019-02-10 09:57
+! Version: 201902100957
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -233,10 +233,18 @@ $cookie=/act|s|t|p|testcookie/,domain=ok.ru|mail.ru
 $cookie=/blcrm|bltsr|yabs|adb|cmtchd|crookie|kpunk|is_adblock|abp|yp|ys/,domain=yandex.ru|yandex.ua|yandex.by|kinopoisk.ru|avito.ru
 $cookie=/unique_id/,domain=twitch.tv
 *$font,important
+-adfox-$important
+-adfox.$important
+-adfox^$important
+-adfox_$important
 -adinfo-$important
 -adinfo.$important
 -adinfo^$important
 -adinfo_$important
+-advert-$important
+-advert.$important
+-advert^$important
+-advert_$important
 -banner-ad-$important
 -banner-ad.$important
 -banner-ad^$important
@@ -285,10 +293,18 @@ $cookie=/unique_id/,domain=twitch.tv
 -teaser.
 -teaser^
 -teaser_
+.adfox-$important
+.adfox.$important
+.adfox^$important
+.adfox_$important
 .adinfo-$important
 .adinfo.$important
 .adinfo^$important
 .adinfo_$important
+.advert-$important
+.advert.$important
+.advert^$important
+.advert_$important
 .banner-ad-$important
 .banner-ad.$important
 .banner-ad^$important
@@ -360,10 +376,18 @@ $cookie=/unique_id/,domain=twitch.tv
 @@||*.ttvnw.net^$xmlhttprequest,domain=twitch.tv
 @@||googlevideo.com^*?*&ip=$domain=youtube.com
 @@||vk.com/al_feed.php^
+^adfox-$important
+^adfox.$important
+^adfox^$important
+^adfox_$important
 ^adinfo-$important
 ^adinfo.$important
 ^adinfo^$important
 ^adinfo_$important
+^advert-$important
+^advert.$important
+^advert^$important
+^advert_$important
 ^banner-ad-$important
 ^banner-ad.$important
 ^banner-ad^$important
@@ -412,10 +436,18 @@ $cookie=/unique_id/,domain=twitch.tv
 ^teaser.
 ^teaser^
 ^teaser_
+_adfox-$important
+_adfox.$important
+_adfox^$important
+_adfox_$important
 _adinfo-$important
 _adinfo.$important
 _adinfo^$important
 _adinfo_$important
+_advert-$important
+_advert.$important
+_advert^$important
+_advert_$important
 _banner-ad-$important
 _banner-ad.$important
 _banner-ad^$important
@@ -569,10 +601,12 @@ yandex.ua,yandex.ru,yandex.by##.media-grid_js_inited.font-regular.i-bem.media-gr
 ||atdmt.com^$important
 ||duckduckgo.com/t/$important
 ||gamescarousel.com^$third-party
+||gemius.pl^$important
 ||mradx.net^$important
 ||news.yandex.*^$first-party,script,important
 ||scorecardresearch.com^$important
 ||tns-counter.ru^$important
+||top100.ru^$third-party
 ||twitch.tv^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' *.jtvnw.net *.ttvnw.net *.twitchcdn.net *.twitch.tv *.facebook.com *.facebook.net recaptcha.net *.google.com *.gstatic.com blob: wss:,important
 ||vk.com/js/lib/px.js^$important
 ||vk.com/rtrg^$important
