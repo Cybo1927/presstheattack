@@ -1,8 +1,8 @@
 ﻿[Adblock Plus 2.0]
-! Checksum: KiQ+IZ7jKxS8wZeBr9L3aA
+! Checksum: 7PUDSIvS9e63mvEqNlkKIw
 ! Title: Press the Attack
-! Last modified: 2019-02-10 08:02
-! Version: 201902100802
+! Last modified: 2019-02-10 08:15
+! Version: 201902100815
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -237,6 +237,10 @@ $cookie=/unique_id/,domain=twitch.tv
 -adinfo.$important
 -adinfo^$important
 -adinfo_$important
+-clck-$important
+-clck.$important
+-clck^$important
+-clck_$important
 -pagead-$important
 -pagead.$important
 -pagead^$important
@@ -249,6 +253,10 @@ $cookie=/unique_id/,domain=twitch.tv
 .adinfo.$important
 .adinfo^$important
 .adinfo_$important
+.clck-$important
+.clck.$important
+.clck^$important
+.clck_$important
 .pagead-$important
 .pagead.$important
 .pagead^$important
@@ -276,12 +284,16 @@ $cookie=/unique_id/,domain=twitch.tv
 /^https?:\/\/yastatic\.net\/[^\s]{500,}/$domain=~vh.yandex.ru
 /annotations$domain=youtube.com
 /endscreen$domain=youtube.com
-/log\_(event|entry)/$important
+/log[\W|_](type|event|entry)/$important
 @@||*.ttvnw.net^$xmlhttprequest,domain=twitch.tv
 ^adinfo-$important
 ^adinfo.$important
 ^adinfo^$important
 ^adinfo_$important
+^clck-$important
+^clck.$important
+^clck^$important
+^clck_$important
 ^pagead-$important
 ^pagead.$important
 ^pagead^$important
@@ -294,6 +306,10 @@ _adinfo-$important
 _adinfo.$important
 _adinfo^$important
 _adinfo_$important
+_clck-$important
+_clck.$important
+_clck^$important
+_clck_$important
 _pagead-$important
 _pagead.$important
 _pagead^$important
@@ -326,8 +342,9 @@ twitch.tv##a[href*="upskill.ru"]>img
 ||2ch.hk/makaba/templates/js/c.gif$image
 ||2ch.hk/makaba/templates/js/tracker.js|
 ||amazon-adsystem.com^$important
+||tns-counter.ru^$important
 ||twitch.tv^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' *.jtvnw.net *.ttvnw.net *.twitchcdn.net *.twitch.tv *.facebook.com *.facebook.net recaptcha.net *.google.com *.gstatic.com blob: wss:,important
 ||youtube.com/api/stats/qoe^$important
-||youtube.com/get_midroll^$important
+||youtube.com/get_midroll*^$important
 ||youtube.com/ptracking^$important
 ||youtube.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.ggpht.com *.googlevideo.com *.ytimg.com *.googleusercontent.com www.youtube.com,important
