@@ -1,8 +1,8 @@
 ﻿[Adblock Plus 2.0]
-! Checksum: VRwUx6bEbWMh4h4wDgFCow
+! Checksum: kxBV1+X2j6QhCy6wZA4RJg
 ! Title: Press the Attack
-! Last modified: 2019-02-10 09:19
-! Version: 201902100919
+! Last modified: 2019-02-10 09:23
+! Version: 201902100923
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -330,8 +330,12 @@ $cookie=/unique_id/,domain=twitch.tv
 .teaser^
 .teaser_
 yandex.ua,yandex.ru,yandex.by##.media-grid_js_inited.font-regular.i-bem.media-grid_theme_white.media-grid_visible_yes.media-grid
-|https:*?*&ip=$third-party,important
+|https:*?*&ip=$third-party
+|https:*?ip=$third-party
+|http:*?*&ip=$third-party
+|http:*?ip=$third-party
 ||duckduckgo.com/t/$important
+||yastatic.net/daas/atom.js
 /ping.gif^$important
 /(gen|client|csi|generate)\_204/$important
 /^https?:\/\/(1l\-hit|r|rs|top\-fwz|vk\.go|reklama|ad|ads|stats|stat|recostream\.go)[0-9]?\.(radar\.imgs)?mail\.ru/$important
