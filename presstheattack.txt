@@ -1,8 +1,8 @@
 ﻿[Adblock Plus 2.0]
-! Checksum: 06DybRgguGLGr6QlBwni9A
+! Checksum: XLQvcJ17YuSdDXI5XaMxvw
 ! Title: Press the Attack
-! Last modified: 2019-02-09 20:27
-! Version: 201902092027
+! Last modified: 2019-02-09 23:01
+! Version: 201902092301
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -12867,6 +12867,7 @@ youtube.com##.html5-endscreen
 ||bugsnag.com^$important
 ||casalemedia.com^$important
 ||cbsi.com^$important
+||cc.swiftype.com^$important
 ||chartbeat.com^$important
 ||clck.ru^
 ||clicktale.net^$important
@@ -12901,7 +12902,6 @@ youtube.com##.html5-endscreen
 ||goo.gl^
 ||goo.gl^$third-party
 ||google.*/viewerimpressions^$important
-||google.com/js/bg/$important
 ||hotlog.ru^$important
 ||ima3vpaid.appspot.com^$important
 ||imrworldwide.com^$important
