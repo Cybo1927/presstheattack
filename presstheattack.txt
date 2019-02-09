@@ -1,8 +1,8 @@
 ﻿[Adblock Plus 2.0]
-! Checksum: 47JkBPIwaApjJdr2SiqQnw
+! Checksum: TRaNM/cbOlFUYU5ksI6IhQ
 ! Title: Press the Attack
-! Last modified: 2019-02-08 02:18
-! Version: 201902080218
+! Last modified: 2019-02-09 11:52
+! Version: 201902091152
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -9195,7 +9195,7 @@ $cookie=/unique_id/,domain=twitch.tv
 ^count^type.$important
 ^count^type^$domain=~github.com
 ^count^type_$important
-^count_
+^count_$domain=~translate.yandex.com
 ^count_type-$important
 ^count_type.$important
 ^count_type^$important
@@ -12755,7 +12755,7 @@ yandex.ru,yandex.by,yandex.ua##.tooltip_shown_yes.popup2_visible_yes.popup2_dire
 yandex.ru,yandex.by,yandex.ua,~mail.yandex.ru##+js(set-constant.js, Math.random, trueFunc)
 yandex.ru,yandex.ua,yandex.bu##.media-grid_js_inited.font-regular.i-bem.media-grid_theme_white.media-grid_visible_yes.media-grid
 yandex.ru,yandex.ua,yandex.by##.yaplus_js_inited.i-bem.yaplus_available_yes.yaplus
-yandex.ru,yandex.ua,yandex.by,kinopoisk.ru##+js(cookie-remover.js, /^blcrm|^bltsr|^yabs|^adb|^cmtchd|^crookie|^kpunk|^is_adblock|^abp|^yp|^ys/)
+yandex.ru,yandex.ua,yandex.by,kinopoisk.ru##+js(cookie-remover.js, /blcrm|bltsr|yabs|adb|cmtchd|crookie|kpunk|is_adblock|abp|yp|ys|mcBaGDt/)
 yandex.ua.yandex.ru,yandex.by##.rows__row_last.rows__row.row
 youtube.com##.html5-endscreen
 |http*://ad0.*^$important
