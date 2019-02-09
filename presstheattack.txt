@@ -1,8 +1,8 @@
 ﻿[Adblock Plus 2.0]
-! Checksum: zafHPiKZTMP+3VDaOdazkg
+! Checksum: Jed3YXiGVoZE2wvvgkgdDA
 ! Title: Press the Attack
-! Last modified: 2019-02-10 07:15
-! Version: 201902100715
+! Last modified: 2019-02-10 07:20
+! Version: 201902100720
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -33,3 +33,33 @@ $cookie=/unique_id/,domain=twitch.tv
 /^https?:\/\/tv\.yandex\.(by|ru|ua)/[^\s]{300,}/$subdocument,xmlhttprequest,important
 /^https?:\/\/yandex\.(by|ru|ua)/images/(?!(search\?rpt=\imageview)|(search\?callback\=jQuery)|(search\?exp_flags=)|(search\?serpid=)|(touch/search?))[^\s]{80,}/$subdocument,~third-party,xmlhttprequest,important
 /^https?:\/\/yastatic\.net\/[^\s]{500,}/$domain=~vh.yandex.ru
+twitch.tv##+js(twitch-videoad.js)
+twitch.tv##.tw-inline-flex.tw-align-items-center > .tw-tooltip-wrapper.tw-inline-flex > .tw-stat > .tw-stat__icon
+twitch.tv##.tw-inline-flex.tw-c-text-live.channel-info-bar__viewers-wrapper > .tw-tooltip-wrapper.tw-inline-flex > .tw-stat > .tw-stat__icon > .tw-inline-flex.tw-icon.tw-align-items-center
+twitch.tv##.tw-mg-t-2 > .tw-mg-b-2
+twitch.tv##.tw-relative.chat-rules
+twitch.tv##a[href*=".gg"]>img
+twitch.tv##a[href*="/buy/"]>img
+twitch.tv##a[href*="/go/"]>img
+twitch.tv##a[href*="/joinchat/"]>img
+twitch.tv##a[href*="/promo/"]>img
+twitch.tv##a[href*="/shop/"]>img
+twitch.tv##a[href*="?br="]>img
+twitch.tv##a[href*="bet4.pm"]>img
+twitch.tv##a[href*="betsdota2.com"]>img
+twitch.tv##a[href*="casino"]>img
+twitch.tv##a[href*="dotapl.us"]>img
+twitch.tv##a[href*="dxracer-europe.com"]>img
+twitch.tv##a[href*="gg.bet"]>img
+twitch.tv##a[href*="gosu.ai"]>img
+twitch.tv##a[href*="noblechairs.com"]>img
+twitch.tv##a[href*="poker"]>img
+twitch.tv##a[href*="upskill.ru"]>img
+||2ch.hk/banners/$image,important
+||2ch.hk/images/$media,image,important
+||2ch.hk/js/snowstorm.js$script,important
+||2ch.hk/makaba/templates/js/c.gif$image,important
+||2ch.hk/makaba/templates/js/tracker.js$important
+||amazon-adsystem.com^$important
+||twitch.tv^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' *.jtvnw.net *.ttvnw.net *.twitchcdn.net *.twitch.tv *.facebook.com *.facebook.net recaptcha.net *.google.com *.gstatic.com blob: wss:,important
+||youtube.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.ggpht.com *.googlevideo.com *.ytimg.com *.googleusercontent.com www.youtube.com,important
