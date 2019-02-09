@@ -1,8 +1,8 @@
 ﻿[Adblock Plus 2.0]
-! Checksum: pgGvyLDwEYl2AhKzlCfXcQ
+! Checksum: qL0iY00n8o+8l9WsEw0omA
 ! Title: Press the Attack
-! Last modified: 2019-02-10 08:57
-! Version: 201902100857
+! Last modified: 2019-02-10 09:09
+! Version: 201902100909
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -269,6 +269,10 @@ $cookie=/unique_id/,domain=twitch.tv
 -promo.
 -promo^
 -promo_
+-promoted-$important
+-promoted.$important
+-promoted^$important
+-promoted_$important
 -ptracking-$important
 -ptracking.$important
 -ptracking^$important
@@ -313,6 +317,10 @@ $cookie=/unique_id/,domain=twitch.tv
 .promo.
 .promo^
 .promo_
+.promoted-$important
+.promoted.$important
+.promoted^$important
+.promoted_$important
 .ptracking-$important
 .ptracking.$important
 .ptracking^$important
@@ -379,6 +387,10 @@ $cookie=/unique_id/,domain=twitch.tv
 ^promo.
 ^promo^
 ^promo_
+^promoted-$important
+^promoted.$important
+^promoted^$important
+^promoted_$important
 ^ptracking-$important
 ^ptracking.$important
 ^ptracking^$important
@@ -423,6 +435,10 @@ _promo-
 _promo.
 _promo^
 _promo_
+_promoted-$important
+_promoted.$important
+_promoted^$important
+_promoted_$important
 _ptracking-$important
 _ptracking.$important
 _ptracking^$important
@@ -520,14 +536,16 @@ yandex.ru,yandex.ua,yandex.by,kinopoisk.ru##+js(cookie-remover.js, /blcrm|bltsr|
 |https:*_ads_
 |https://stat.*^$important
 |https://stats.*^$important
-||2ch.hk/banners/$image
-||2ch.hk/images/$media,image
-||2ch.hk/js/snowstorm.js$script
-||2ch.hk/makaba/templates/js/c.gif$image
-||2ch.hk/makaba/templates/js/tracker.js|
+||2ch.hk/banners/
+||2ch.hk/images/
+||2ch.hk/js/snowstorm.js
+||2ch.hk/makaba/templates/js/c.gif
+||2ch.hk^*/tracker.js
 ||adfox.ru^$important
 ||amazon-adsystem.com^$important
+||analytics.twitter.com^$important
 ||atdmt.com^$important
+||gamescarousel.com^$third-party
 ||mradx.net^$important
 ||scorecardresearch.com^$important
 ||tns-counter.ru^$important
