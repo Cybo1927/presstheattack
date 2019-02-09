@@ -1,8 +1,8 @@
 ﻿[Adblock Plus 2.0]
-! Checksum: TRaNM/cbOlFUYU5ksI6IhQ
+! Checksum: jqWFjabVuor22MTvPNqMtw
 ! Title: Press the Attack
-! Last modified: 2019-02-09 11:52
-! Version: 201902091152
+! Last modified: 2019-02-09 20:20
+! Version: 201902092020
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -19,6 +19,19 @@
 ##.ads:not(:root):not(body):not(input)
 ##[class$="-ad-"]:not(html):not(body)
 ##[class$="-ad."]:not(html):not(body)
+##.text_ads:not(:root):not(body):not(input)
+##.text_ad:not(:root):not(body):not(input)
+##.textAd:not(:root):not(body):not(input)
+##.text-ads:not(:root):not(body):not(input)
+##.text-ad-links:not(:root):not(body):not(input)
+##.text-ad:not(:root):not(body):not(input)
+||1dmp.io^$important
+||news.yandex.*$script,1p,important
+xvideos.com##+js(xvideos.com.js)
+xvideos.com##+js(abort-on-property-write.js, openpop)
+xvideos.com##+js(nowebrtc.js)
+xvideos.com##+js(window.open-defuser.js)
+||xvideos.com/in.php^$important
 ##[class$="-ad_"]:not(html):not(body)
 ##[class$="-adbanner-"]:not(html):not(body)
 ##[class$="-adbanner."]:not(html):not(body)
