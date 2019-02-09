@@ -1,8 +1,8 @@
 ﻿[Adblock Plus 2.0]
-! Checksum: P+0WqsaY9tz7kP68mN0sBQ
+! Checksum: 2t+OJJ6RxMDB/K/2t/FEPQ
 ! Title: Press the Attack
-! Last modified: 2019-02-10 08:30
-! Version: 201902100830
+! Last modified: 2019-02-10 08:34
+! Version: 201902100834
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -265,6 +265,10 @@ $cookie=/unique_id/,domain=twitch.tv
 -ptracking.$important
 -ptracking^$important
 -ptracking_$important
+-teaser-
+-teaser.
+-teaser^
+-teaser_
 .adinfo-$important
 .adinfo.$important
 .adinfo^$important
@@ -297,6 +301,10 @@ $cookie=/unique_id/,domain=twitch.tv
 .ptracking.$important
 .ptracking^$important
 .ptracking_$important
+.teaser-
+.teaser.
+.teaser^
+.teaser_
 /(\W|_)[0-9]*(backlinks?|evercookie|marketgid|openx|outbrain|popunders?|prebid|publicidad|upsell|zone[-_]?id)[0-9]*(\W|_)/$image
 /(gen|client|csi|generate)\_204/$important
 /^https?:\/\/(1l\-hit|r|rs|top\-fwz|vk\.go|reklama|ad|ads|stats|stat|recostream\.go)[0-9]?\.(radar\.imgs)?mail\.ru/$important
@@ -350,6 +358,10 @@ $cookie=/unique_id/,domain=twitch.tv
 ^ptracking.$important
 ^ptracking^$important
 ^ptracking_$important
+^teaser-
+^teaser.
+^teaser^
+^teaser_
 _adinfo-$important
 _adinfo.$important
 _adinfo^$important
@@ -382,6 +394,10 @@ _ptracking-$important
 _ptracking.$important
 _ptracking^$important
 _ptracking_$important
+_teaser-
+_teaser.
+_teaser^
+_teaser_
 music.yandex.ru,music.yandex.ua,music.yandex.by##.sidebar__under
 twitch.tv##+js(twitch-videoad.js)
 twitch.tv##a[href*=".gg"]>img
@@ -402,7 +418,7 @@ twitch.tv##a[href*="noblechairs.com"]>img
 twitch.tv##a[href*="poker"]>img
 twitch.tv##a[href*="upskill.ru"]>img
 yandex.ru,yandex.by,yandex.ua,~mail.yandex.ru,~mail.yandex.ua,~mail.yandex.by##+js(set-constant.js, Math.random, trueFunc)
-yandex.ru,yandex.ua,yandex.by,kinopoisk.ru##+js(cookie-remover.js, /^blcrm|^bltsr|^yabs|^adb|^cmtchd|^crookie|^kpunk|^is_adblock|^abp|^yp|^ys/)
+yandex.ru,yandex.ua,yandex.by,kinopoisk.ru##+js(cookie-remover.js, /blcrm|bltsr|yabs|adb|cmtchd|crookie|kpunk|is_adblock|abp|yp|ys|mcBaGDt/)
 |http:*-ad-
 |http:*-ad.
 |http:*-ad^
