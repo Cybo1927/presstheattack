@@ -23,9 +23,13 @@
 
 ## Download the entire Press the Attack project at https://github.com/bogachenko/presstheattack/archive/master.zip
 
+date=$(date '+%H:%M:%S %Z %Y-%m-%d')
+echo "Getting started in:" $date
 git pull
 perl ./addChecksum.pl ../presstheattack.txt
 perl ./updateDateString.pl ../presstheattack.txt
 git status
 git commit -a -m "Update presstheattack.txt"
 git push
+echo "Work completed in:" $date
+read -n 1 -s -r -p "Press any key to exit." 
