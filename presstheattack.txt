@@ -1,8 +1,8 @@
 ﻿[Adblock Plus 2.0]
-! Checksum: s/ZNmh9XU0Org1VVEgnGcw
+! Checksum: 8v/ti6sK9hcWcFc54/oQOw
 ! Title: Press the Attack
-! Last modified: 2019-02-11 05:17
-! Version: 201902110517
+! Last modified: 2019-02-11 05:47
+! Version: 201902110547
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -13,6 +13,10 @@
 ! GitHub issues: https://github.com/bogachenko/presstheattack/issues
 ! GitHub pull requests: https://github.com/bogachenko/presstheattack/pulls
 
+##.AD:not(:root):not(body):not(input)
+##.ADS:not(:root):not(body):not(input)
+##.ad:not(:root):not(body):not(input)
+##.ads:not(:root):not(body):not(input)
 ##.adsbygoogle:not(html):not(body)
 ##[class$="-ad-"]:not(html):not(body)
 ##[class$="-ad."]:not(html):not(body)
@@ -286,6 +290,14 @@ $font,important
 -pixel.
 -pixel^
 -pixel_
+-ppc-
+-ppc.
+-ppc^
+-ppc_
+-ppv-
+-ppv.
+-ppv^
+-ppv_
 -promo-
 -promo.
 -promo^
@@ -358,6 +370,14 @@ $font,important
 .pixel.
 .pixel^
 .pixel_
+.ppc-
+.ppc.
+.ppc^
+.ppc_
+.ppv-
+.ppv.
+.ppv^
+.ppv_
 .promo-
 .promo.
 .promo^
@@ -467,6 +487,14 @@ $font,important
 ^pixel.
 ^pixel^
 ^pixel_
+^ppc-
+^ppc.
+^ppc^
+^ppc_
+^ppv-
+^ppv.
+^ppv^
+^ppv_
 ^promo-
 ^promo.
 ^promo^
@@ -539,6 +567,14 @@ _pixel-
 _pixel.
 _pixel^
 _pixel_
+_ppc-
+_ppc.
+_ppc^
+_ppc_
+_ppv-
+_ppv.
+_ppv^
+_ppv_
 _promo-
 _promo.
 _promo^
@@ -775,6 +811,8 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||newrelic.com^$important
 ||news.yandex.*^$first-party,script,important
 ||rutarget.ru^$important
+||scontent.xx.fbcdn23dssr3jqnq.onion/hads-ak-prn*/*.png$important
+||scontent.xx.fbcdn.net/hads-ak-prn*/*.png$important
 ||scorecardresearch.com^$important
 ||ssp.rambler.ru^$important
 ||tns-counter.ru^$important
