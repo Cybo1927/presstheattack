@@ -1,8 +1,8 @@
 ﻿[Adblock Plus 2.0]
-! Checksum: D+MKK8G6JUS/d0gtlY3jiQ
+! Checksum: FES15lYFwmd6GZNkKwcKYQ
 ! Title: Press the Attack
-! Last modified: 2019-02-11 06:00
-! Version: 201902110600
+! Last modified: 2019-02-11 06:06
+! Version: 201902110606
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -286,6 +286,14 @@ $font,important
 -pagead.
 -pagead^
 -pagead_
+-phpads-
+-phpads.
+-phpads^
+-phpads_
+-ping-
+-ping.
+-ping^
+-ping_
 -pixel-
 -pixel.
 -pixel^
@@ -310,6 +318,14 @@ $font,important
 -ptracking.
 -ptracking^
 -ptracking_
+-sponsor-
+-sponsor.
+-sponsor^
+-sponsor_
+-sponsored-
+-sponsored.
+-sponsored^
+-sponsored_
 -tag-users-
 -tag-users.
 -tag-users^
@@ -366,6 +382,14 @@ $font,important
 .pagead.
 .pagead^
 .pagead_
+.phpads-
+.phpads.
+.phpads^
+.phpads_
+.ping-
+.ping.
+.ping^
+.ping_
 .pixel-
 .pixel.
 .pixel^
@@ -390,6 +414,14 @@ $font,important
 .ptracking.
 .ptracking^
 .ptracking_
+.sponsor-
+.sponsor.
+.sponsor^
+.sponsor_
+.sponsored-
+.sponsored.
+.sponsored^
+.sponsored_
 .tag-users-
 .tag-users.
 .tag-users^
@@ -492,6 +524,14 @@ $font,important
 ^pagead.
 ^pagead^
 ^pagead_
+^phpads-
+^phpads.
+^phpads^
+^phpads_
+^ping-
+^ping.
+^ping^
+^ping_
 ^pixel-
 ^pixel.
 ^pixel^
@@ -516,6 +556,14 @@ $font,important
 ^ptracking.
 ^ptracking^
 ^ptracking_
+^sponsor-
+^sponsor.
+^sponsor^
+^sponsor_
+^sponsored-
+^sponsored.
+^sponsored^
+^sponsored_
 ^tag-users-
 ^tag-users.
 ^tag-users^
@@ -572,6 +620,14 @@ _pagead-
 _pagead.
 _pagead^
 _pagead_
+_phpads-
+_phpads.
+_phpads^
+_phpads_
+_ping-
+_ping.
+_ping^
+_ping_
 _pixel-
 _pixel.
 _pixel^
@@ -596,6 +652,14 @@ _ptracking-
 _ptracking.
 _ptracking^
 _ptracking_
+_sponsor-
+_sponsor.
+_sponsor^
+_sponsor_
+_sponsored-
+_sponsored.
+_sponsored^
+_sponsored_
 _tag-users-
 _tag-users.
 _tag-users^
@@ -640,6 +704,14 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http:*-adv.
 |http:*-adv^
 |http:*-adv_
+|http:*-metrics-
+|http:*-metrics.
+|http:*-metrics^
+|http:*-metrics_
+|http:*-metrika-
+|http:*-metrika.
+|http:*-metrika^
+|http:*-metrika_
 |http:*-stat-
 |http:*-stat.
 |http:*-stat^
@@ -660,6 +732,14 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http:*.adv.
 |http:*.adv^
 |http:*.adv_
+|http:*.metrics-
+|http:*.metrics.
+|http:*.metrics^
+|http:*.metrics_
+|http:*.metrika-
+|http:*.metrika.
+|http:*.metrika^
+|http:*.metrika_
 |http:*.stat-
 |http:*.stat.
 |http:*.stat^
@@ -682,6 +762,14 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http:*^adv.
 |http:*^adv^
 |http:*^adv_
+|http:*^metrics-
+|http:*^metrics.
+|http:*^metrics^
+|http:*^metrics_
+|http:*^metrika-
+|http:*^metrika.
+|http:*^metrika^
+|http:*^metrika_
 |http:*^stat-
 |http:*^stat.
 |http:*^stat^
@@ -702,6 +790,14 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http:*_adv.
 |http:*_adv^
 |http:*_adv_
+|http:*_metrics-
+|http:*_metrics.
+|http:*_metrics^
+|http:*_metrics_
+|http:*_metrika-
+|http:*_metrika.
+|http:*_metrika^
+|http:*_metrika_
 |http:*_stat-
 |http:*_stat.
 |http:*_stat^
@@ -724,6 +820,14 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |https:*-adv.
 |https:*-adv^
 |https:*-adv_
+|https:*-metrics-
+|https:*-metrics.
+|https:*-metrics^
+|https:*-metrics_
+|https:*-metrika-
+|https:*-metrika.
+|https:*-metrika^
+|https:*-metrika_
 |https:*-stat-
 |https:*-stat.
 |https:*-stat^
@@ -744,6 +848,14 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |https:*.adv.
 |https:*.adv^
 |https:*.adv_
+|https:*.metrics-
+|https:*.metrics.
+|https:*.metrics^
+|https:*.metrics_
+|https:*.metrika-
+|https:*.metrika.
+|https:*.metrika^
+|https:*.metrika_
 |https:*.stat-
 |https:*.stat.
 |https:*.stat^
@@ -766,6 +878,14 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |https:*^adv.
 |https:*^adv^
 |https:*^adv_
+|https:*^metrics-
+|https:*^metrics.
+|https:*^metrics^
+|https:*^metrics_
+|https:*^metrika-
+|https:*^metrika.
+|https:*^metrika^
+|https:*^metrika_
 |https:*^stat-
 |https:*^stat.
 |https:*^stat^
@@ -786,6 +906,14 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |https:*_adv.
 |https:*_adv^
 |https:*_adv_
+|https:*_metrics-
+|https:*_metrics.
+|https:*_metrics^
+|https:*_metrics_
+|https:*_metrika-
+|https:*_metrika.
+|https:*_metrika^
+|https:*_metrika_
 |https:*_stat-
 |https:*_stat.
 |https:*_stat^
