@@ -1,17 +1,19 @@
 ﻿[Adblock Plus 2.0]
-! Checksum: FES15lYFwmd6GZNkKwcKYQ
+! Checksum: HkzHbx39ZKM8iG/M1Q0fQg
 ! Title: Press the Attack
-! Last modified: 2019-02-11 06:06
-! Version: 201902110606
+! Last modified: 2019-02-11 10:12
+! Version: 201902111012
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
-! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki
+! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
+! In no event shall this list, or the list author be liable for any indirect, direct, punitive, special, incidental, or consequential damages whatsoever.
+! By downloading or viewing, or using this list, you are accepting these terms and the license.
 !
 ! Please report incorrect blocking in any way convenient for you:
-! E-mail (bogachenkove@gmail.com).
-! GitHub issues: https://github.com/bogachenko/presstheattack/issues
-! GitHub pull requests: https://github.com/bogachenko/presstheattack/pulls
+! E-mail - bogachenkove@gmail.com
+! GitHub issues - https://github.com/bogachenko/presstheattack/issues
+! GitHub pull requests - https://github.com/bogachenko/presstheattack/pulls
 
 ##.AD:not(:root):not(body):not(input)
 ##.ADS:not(:root):not(body):not(input)
@@ -461,6 +463,8 @@ $font,important
 /endscreen$domain=youtube.com
 /ga.js^$script,important
 /gads.*^$important
+/gpt.js$script,important
+/gtm.js$script,important
 /ima3.js^$script,important
 /invoke.js$important
 /log[\W|_](type|event|entry)/$important
@@ -950,13 +954,16 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||mail.yandex.*$1p,script,important
 ||mail.yandex.*/monitoring_liza.txt$important
 ||mradx.net^$important
+||navdmp.com^$important
 ||newrelic.com^$important
 ||news.yandex.*^$first-party,script,important
+||quantserve.com^$important
 ||rutarget.ru^$important
 ||scontent.xx.fbcdn23dssr3jqnq.onion/hads-ak-prn*/*.png$important
 ||scontent.xx.fbcdn.net/hads-ak-prn*/*.png$important
 ||scorecardresearch.com^$important
 ||ssp.rambler.ru^$important
+||taboola.com^$important
 ||tns-counter.ru^$important
 ||top100.ru/top100/top100.js$script
 ||twitch.tv^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' *.jtvnw.net *.ttvnw.net *.twitchcdn.net *.twitch.tv *.facebook.com *.facebook.net recaptcha.net *.google.com *.gstatic.com blob: wss:,important
