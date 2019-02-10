@@ -21,7 +21,7 @@
 ## URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/tools/building.sh
 ## Wiki: https://github.com/bogachenko/presstheattack/wiki
 
-Download the entire Press the Attack project at https://github.com/bogachenko/presstheattack/archive/master.zip
+## Download the entire Press the Attack project at https://github.com/bogachenko/presstheattack/archive/master.zip
 
 git pull
 perl ./addChecksum.pl ../presstheattack.txt
