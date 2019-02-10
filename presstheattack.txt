@@ -1,8 +1,8 @@
 ﻿[Adblock Plus 2.0]
-! Checksum: XekjcxAFV51MW4bt+vu6jA
+! Checksum: yUIKaLWLhI4jeB7bNE0b1Q
 ! Title: Press the Attack
-! Last modified: 2019-02-10 23:21
-! Version: 201902102321
+! Last modified: 2019-02-10 23:30
+! Version: 201902102330
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -556,6 +556,14 @@ yandex.by,yandex.ru,yandex.ua##.media-grid_js_inited.font-regular.i-bem.media-gr
 |http:*-ads.
 |http:*-ads^
 |http:*-ads_
+|http:*-stat-
+|http:*-stat.
+|http:*-stat^
+|http:*-stat_
+|http:*-stats-
+|http:*-stats.
+|http:*-stats^
+|http:*-stats_
 |http:*.ad-
 |http:*.ad.
 |http:*.ad^
@@ -564,6 +572,14 @@ yandex.by,yandex.ru,yandex.ua##.media-grid_js_inited.font-regular.i-bem.media-gr
 |http:*.ads.
 |http:*.ads^
 |http:*.ads_
+|http:*.stat-
+|http:*.stat.
+|http:*.stat^
+|http:*.stat_
+|http:*.stats-
+|http:*.stats.
+|http:*.stats^
+|http:*.stats_
 |http:*?*&ip=$third-party
 |http:*?ip=$third-party
 |http:*^ad-
@@ -574,6 +590,14 @@ yandex.by,yandex.ru,yandex.ua##.media-grid_js_inited.font-regular.i-bem.media-gr
 |http:*^ads.
 |http:*^ads^
 |http:*^ads_
+|http:*^stat-
+|http:*^stat.
+|http:*^stat^
+|http:*^stat_
+|http:*^stats-
+|http:*^stats.
+|http:*^stats^
+|http:*^stats_
 |http:*_ad-
 |http:*_ad.
 |http:*_ad^
@@ -582,6 +606,14 @@ yandex.by,yandex.ru,yandex.ua##.media-grid_js_inited.font-regular.i-bem.media-gr
 |http:*_ads.
 |http:*_ads^
 |http:*_ads_
+|http:*_stat-
+|http:*_stat.
+|http:*_stat^
+|http:*_stat_
+|http:*_stats-
+|http:*_stats.
+|http:*_stats^
+|http:*_stats_
 |http://stat.*^
 |http://stats.*^
 |https:*-ad-
@@ -592,6 +624,14 @@ yandex.by,yandex.ru,yandex.ua##.media-grid_js_inited.font-regular.i-bem.media-gr
 |https:*-ads.
 |https:*-ads^
 |https:*-ads_
+|https:*-stat-
+|https:*-stat.
+|https:*-stat^
+|https:*-stat_
+|https:*-stats-
+|https:*-stats.
+|https:*-stats^
+|https:*-stats_
 |https:*.ad-
 |https:*.ad.
 |https:*.ad^
@@ -600,6 +640,14 @@ yandex.by,yandex.ru,yandex.ua##.media-grid_js_inited.font-regular.i-bem.media-gr
 |https:*.ads.
 |https:*.ads^
 |https:*.ads_
+|https:*.stat-
+|https:*.stat.
+|https:*.stat^
+|https:*.stat_
+|https:*.stats-
+|https:*.stats.
+|https:*.stats^
+|https:*.stats_
 |https:*?*&ip=$third-party
 |https:*?ip=$third-party
 |https:*^ad-
@@ -610,6 +658,14 @@ yandex.by,yandex.ru,yandex.ua##.media-grid_js_inited.font-regular.i-bem.media-gr
 |https:*^ads.
 |https:*^ads^
 |https:*^ads_
+|https:*^stat-
+|https:*^stat.
+|https:*^stat^
+|https:*^stat_
+|https:*^stats-
+|https:*^stats.
+|https:*^stats^
+|https:*^stats_
 |https:*_ad-
 |https:*_ad.
 |https:*_ad^
@@ -618,6 +674,14 @@ yandex.by,yandex.ru,yandex.ua##.media-grid_js_inited.font-regular.i-bem.media-gr
 |https:*_ads.
 |https:*_ads^
 |https:*_ads_
+|https:*_stat-
+|https:*_stat.
+|https:*_stat^
+|https:*_stat_
+|https:*_stats-
+|https:*_stats.
+|https:*_stats^
+|https:*_stats_
 |https://stat.*^
 |https://stats.*^
 ||2ch.hk/banners/
@@ -626,6 +690,7 @@ yandex.by,yandex.ru,yandex.ua##.media-grid_js_inited.font-regular.i-bem.media-gr
 ||2ch.hk/makaba/templates/js/c.gif
 ||2ch.hk^*/tracker.js
 ||adfox.ru^$important
+||admixer.net^$important
 ||amazon-adsystem.com^$important
 ||analytics.twitter.com^$important
 ||api.twitch.tv/*/channels/*/extensions^
@@ -634,10 +699,11 @@ yandex.by,yandex.ru,yandex.ua##.media-grid_js_inited.font-regular.i-bem.media-gr
 ||gamescarousel.com^$third-party
 ||gemius.pl^$important
 ||mradx.net^$important
+||newrelic.com^$important
 ||news.yandex.*^$first-party,script,important
 ||scorecardresearch.com^$important
 ||tns-counter.ru^$important
-||top100.ru^$third-party
+||top100.ru/top100/top100.js$script
 ||twitch.tv^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' *.jtvnw.net *.ttvnw.net *.twitchcdn.net *.twitch.tv *.facebook.com *.facebook.net recaptcha.net *.google.com *.gstatic.com blob: wss:,important
 ||vk.com/js/lib/px.js^$important
 ||vk.com/rtrg^$important
