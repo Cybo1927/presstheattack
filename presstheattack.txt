@@ -1,8 +1,8 @@
 ﻿[Adblock Plus 2.0]
-! Checksum: LoQ0VTwzBumLlo3O+O/4Ig
+! Checksum: wtwt9QbTxcAuyGhLDb84iw
 ! Title: Press the Attack
-! Last modified: 2019-02-10 11:02
-! Version: 201902101102
+! Last modified: 2019-02-10 23:14
+! Version: 201902102314
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -245,6 +245,10 @@ $font,important
 -advert.$important
 -advert^$important
 -advert_$important
+-advertisement-$important
+-advertisement.$important
+-advertisement^$important
+-advertisement_$important
 -banner-ad-$important
 -banner-ad.$important
 -banner-ad^$important
@@ -261,6 +265,10 @@ $font,important
 -banner_ad.$important
 -banner_ad^$important
 -banner_ad_$important
+-banners-
+-banners.
+-banners^
+-banners_
 -clck-$important
 -clck.$important
 -clck^$important
@@ -305,6 +313,10 @@ $font,important
 .advert.$important
 .advert^$important
 .advert_$important
+.advertisement-$important
+.advertisement.$important
+.advertisement^$important
+.advertisement_$important
 .banner-ad-$important
 .banner-ad.$important
 .banner-ad^$important
@@ -321,6 +333,10 @@ $font,important
 .banner_ad.$important
 .banner_ad^$important
 .banner_ad_$important
+.banners-
+.banners.
+.banners^
+.banners_
 .clck-$important
 .clck.$important
 .clck^$important
@@ -388,6 +404,10 @@ $font,important
 ^advert.$important
 ^advert^$important
 ^advert_$important
+^advertisement-$important
+^advertisement.$important
+^advertisement^$important
+^advertisement_$important
 ^banner-ad-$important
 ^banner-ad.$important
 ^banner-ad^$important
@@ -404,6 +424,10 @@ $font,important
 ^banner_ad.$important
 ^banner_ad^$important
 ^banner_ad_$important
+^banners-
+^banners.
+^banners^
+^banners_
 ^clck-$important
 ^clck.$important
 ^clck^$important
@@ -448,6 +472,10 @@ _advert-$important
 _advert.$important
 _advert^$important
 _advert_$important
+_advertisement-$important
+_advertisement.$important
+_advertisement^$important
+_advertisement_$important
 _banner-ad-$important
 _banner-ad.$important
 _banner-ad^$important
@@ -464,6 +492,10 @@ _banner_ad-$important
 _banner_ad.$important
 _banner_ad^$important
 _banner_ad_$important
+_banners-
+_banners.
+_banners^
+_banners_
 _clck-$important
 _clck.$important
 _clck^$important
@@ -597,6 +629,7 @@ yandex.by,yandex.ru,yandex.ua##.media-grid_js_inited.font-regular.i-bem.media-gr
 ||adfox.ru^$important
 ||amazon-adsystem.com^$important
 ||analytics.twitter.com^$important
+||api.twitch.tv/*/channels/*/extensions^
 ||atdmt.com^$important
 ||duckduckgo.com/t/$important
 ||gamescarousel.com^$third-party
