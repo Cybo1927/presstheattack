@@ -11,8 +11,6 @@
 ## WE ARE NOT RESPONSIBLE FOR ANY DAMAGES DUE TO THE USE OF THIS PROJECT OR ITS PARTS.
 ## For more information, see the MIT license.
 ##
-## Author: Bogachenko Vyacheslav <https://github.com/bogachenko>
-## Email: bogachenkove@gmail.com
 ## Github: https://github.com/bogachenko/presstheattack/
 ## Last modified: February 11, 2019
 ## License: MIT <https://github.com/bogachenko/presstheattack/blob/master/LICENSE.md>
@@ -20,7 +18,7 @@
 ## Title: building.sh
 ## URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/tools/building.sh
 ## Wiki: https://github.com/bogachenko/presstheattack/wiki
-
+##
 ## Download the entire Press the Attack project at https://github.com/bogachenko/presstheattack/archive/master.zip
 
 date=$(date '+%H:%M:%S %Z %Y-%m-%d')
