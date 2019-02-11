@@ -1,8 +1,8 @@
 ﻿[Adblock Plus 2.0]
-! Checksum: RUJCCXRuAGphxzFHuZAMcA
+! Checksum: RLk4V2oe6K6jbtnjD6wThQ
 ! Title: Press the Attack
-! Last modified: 2019-02-11, 11:22:26
-! Version: 20190211112226
+! Last modified: 2019-02-11, 12:29:05
+! Version: 20190211122905
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki
@@ -16,8 +16,8 @@
 ! GitHub pull requests - https://github.com/bogachenko/presstheattack/pulls
 
 ##.AD:not(:root):not(body):not(input)
-##.ADS:not(:root):not(body):not(input)
 ##.ad:not(:root):not(body):not(input)
+##.ADS:not(:root):not(body):not(input)
 ##.ads:not(:root):not(body):not(input)
 ##.adsbygoogle:not(html):not(body)
 ##[class$="-ad-"]:not(html):not(body)
@@ -432,9 +432,9 @@ $font,important
 .teaser.
 .teaser^
 .teaser_
+/(gen|client|csi|generate|stream)\_204/$important
 /1x1.*^$important
 /2x2.*^$important
-/(gen|client|csi|generate|stream)\_204/$important
 /\/0\.(jpg|png|jpeg|gif|apng|html)/$important
 /\/1\.(jpg|png|jpeg|gif|apng|html)/$important
 /\/a\.(jpg|png|jpeg|gif|apng|html)/$important
@@ -959,8 +959,8 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||news.yandex.*^$first-party,script,important
 ||quantserve.com^$important
 ||rutarget.ru^$important
-||scontent.xx.fbcdn23dssr3jqnq.onion/hads-ak-prn*/*.png$important
 ||scontent.xx.fbcdn.net/hads-ak-prn*/*.png$important
+||scontent.xx.fbcdn23dssr3jqnq.onion/hads-ak-prn*/*.png$important
 ||scorecardresearch.com^$important
 ||ssp.rambler.ru^$important
 ||taboola.com^$important
