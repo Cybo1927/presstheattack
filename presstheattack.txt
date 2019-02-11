@@ -1,8 +1,8 @@
 ﻿[Adblock Plus 2.0]
-! Checksum: xFHMEbgfdc5n9nZpkrL0+w
+! Checksum: xy0HkgGqymY69/zlQi9b5A
 ! Title: Press the Attack
-! Last modified: 2019-02-11, 14:04:33
-! Version: 20190211140433
+! Last modified: 2019-02-11, 22:21:46
+! Version: 20190211222146
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki
@@ -476,6 +476,7 @@ $font,important
 /ima3.js^$script,important
 /invoke.js$important
 /log[\W|_](type|event|entry)/$important
+/ph-tracking.js$script,important
 /ping.gif^$important
 /piwik.js$script,important
 /pixel\.(jpg|png|jpeg|gif)/$important
@@ -713,6 +714,10 @@ twitch.tv##a[href*="gosu.ai"]>img
 twitch.tv##a[href*="noblechairs.com"]>img
 twitch.tv##a[href*="poker"]>img
 twitch.tv##a[href*="upskill.ru"]>img
+xvideos.com##+js(abort-on-property-write.js, openpop)
+xvideos.com##+js(nowebrtc.js)
+xvideos.com##+js(window.open-defuser.js)
+xvideos.com##+js(xvideos.com.js)
 yandex.by,yandex.ru,yandex.ua##.media-grid_js_inited.font-regular.i-bem.media-grid_theme_white.media-grid_visible_yes.media-grid
 yandex.ru,yandex.ua,yandex.by##+js(abort-on-property-read.js, Element.prototype.attachShadow)
 yandex.ru,yandex.ua,yandex.by##.yaplus
@@ -967,6 +972,7 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||digitaltarget.ru^$important
 ||doubleclick.net^$important
 ||doublepimp.com^$important
+||doublepimpssl.com^$important
 ||duckduckgo.com/t/$important
 ||duckduckgo.com/y.js$important
 ||gamescarousel.com^$third-party
@@ -988,6 +994,8 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||taboola.com^$important
 ||tns-counter.ru^$important
 ||top100.ru/top100/top100.js$script
+||trafficfactory.biz^$important
+||trafficjunky.net^$important
 ||twitch.tv^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' *.jtvnw.net *.ttvnw.net *.twitchcdn.net *.twitch.tv *.facebook.com *.facebook.net recaptcha.net *.google.com *.gstatic.com blob: wss:,important
 ||vk.cc^
 ||vk.com/js/lib/px.js^$important
