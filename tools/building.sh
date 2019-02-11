@@ -24,6 +24,7 @@
 date=$(date '+%H:%M:%S %Z %Y-%m-%d')
 echo "Getting started in:" $date
 git pull
+perl ./sorting.pl ../presstheattack.txt
 perl ./addChecksum.pl ../presstheattack.txt
 perl ./updateDateString.pl ../presstheattack.txt
 git status
