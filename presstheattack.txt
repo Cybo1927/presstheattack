@@ -1,8 +1,8 @@
 ﻿[Adblock Plus 2.0]
-! Checksum: AUfGlQ2l2aPoOsNhNYl4Sw
+! Checksum: yvpPPd9HRyzWDuoajgSVdA
 ! Title: Press the Attack
-! Last modified: 2019-02-11, 13:15:08
-! Version: 20190211131508
+! Last modified: 2019-02-11, 13:23:59
+! Version: 20190211132359
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki
@@ -284,6 +284,10 @@ $font,important
 -clck.
 -clck^
 -clck_
+-dfp-$script
+-dfp.$script
+-dfp^$script
+-dfp_$script
 -pagead-
 -pagead.
 -pagead^
@@ -380,6 +384,10 @@ $font,important
 .clck.
 .clck^
 .clck_
+.dfp-$script
+.dfp.$script
+.dfp^$script
+.dfp_$script
 .pagead-
 .pagead.
 .pagead^
@@ -525,6 +533,10 @@ $font,important
 ^clck.
 ^clck^
 ^clck_
+^dfp-$script
+^dfp.$script
+^dfp^$script
+^dfp_$script
 ^pagead-
 ^pagead.
 ^pagead^
@@ -621,6 +633,10 @@ _clck-
 _clck.
 _clck^
 _clck_
+_dfp-$script
+_dfp.$script
+_dfp^$script
+_dfp_$script
 _pagead-
 _pagead.
 _pagead^
@@ -673,8 +689,9 @@ _teaser-
 _teaser.
 _teaser^
 _teaser_
+kinopoisk.ru##+js(abort-on-property-read.js, advBlock)
 kinopoisk.ru##+js(setInterval-defuser.js, (), 500)
-kinopoisk.ru,yandex.by,yandex.ru,yandex.ua##+js(cookie-remover.js, /^blcrm|^bltsr|yabs|adb|cmtchd|crookie|kpunk|is_adblock|abp|yp|ys|mcBaGDt/)
+kinopoisk.ru,yandex.by,yandex.ru,yandex.ua##+js(cookie-remover.js, /^blcrm|^bltsr|yabs|adb|^cmtchd|^crookie|^kpunk|is_adblock|abp|yp|ys|mcBaGDt/)
 music.yandex.by,music.yandex.ru,music.yandex.ua##.sidebar__under
 twitch.tv##+js(twitch-videoad.js)
 twitch.tv##a[href*=".gg"]>img
