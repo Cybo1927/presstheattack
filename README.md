@@ -10,10 +10,8 @@ and is provided "AS IS", WITHOUT ANY WARRANTY, EXPRESSLY EXPRESSED OR IMPLIED.
 WE ARE NOT RESPONSIBLE FOR ANY DAMAGES DUE TO THE USE OF THIS PROJECT OR ITS PARTS.
 For more information, see the MIT license.
 
-Author: Bogachenko Vyacheslav <https://github.com/bogachenko>
-Email: bogachenkove@gmail.com
 Github: https://github.com/bogachenko/presstheattack/
-Last modified: February 7, 2019
+Last modified: February 11, 2019
 License: MIT <https://github.com/bogachenko/presstheattack/blob/master/LICENSE.md>
 Problem reports: https://github.com/bogachenko/presstheattack/issues
 Title: README.md
