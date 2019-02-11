@@ -1,8 +1,8 @@
 ﻿[Adblock Plus 2.0]
-! Checksum: XKhtWEeop3H/eOS73Cvyjw
+! Checksum: xFHMEbgfdc5n9nZpkrL0+w
 ! Title: Press the Attack
-! Last modified: 2019-02-11, 13:33:09
-! Version: 20190211133309
+! Last modified: 2019-02-11, 14:04:33
+! Version: 20190211140433
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki
@@ -455,7 +455,7 @@ $font,important
 /^https?:\/\/[\w.]+google(\-analytics|syndication|tagmanager|adservices|tagservices)\.(com|ru|net)/$important
 /^https?:\/\/[\w.]+google\.[a-z]+/log\?/$important
 /^https?:\/\/[\w.]?(client\-event\-reporter|countess|mp|polyfill|sentinel|spade|trowel|fan)\.+twitch(svc)?\.(net|tv|com)/$important
-/^https?:\/\/[\w\.]?(an|awaps|awsync|appmetrica|bs|direct|grade\.market|informer|kiks|main\.zdevx|mc|web\-metrica|yabs|zen|browser\-updater)\.+yandex\.(ru|com|net|ua|by|kz|com\.tr|uz|com)/$important
+/^https?:\/\/[\w\.]?(an|awaps|awsync|appmetrica|bs|direct|grade\.market|informer|kiks|clck|main\.zdevx|mc|web\-metrica|yabs|zen|browser\-updater)\.+yandex\.(ru|com|net|ua|by|kz|com\.tr|uz|com)/$important
 /^https?:\/\/[\w\.]?(id|adservice|mobilecrashreporting|imasdk|metric|csi|tagmanager)\.+g(static)?oogle(apis)?\.(ad|ae|al|am|as|at|az|ba|be|bf|bg|bi|bj|bs|bt|by|ca|cat|cd|cf|cg|ch|ci|cl|cm|cn|co.ao|co.bw|co.ck|co.cr|co.id|co.il|co.in|co.jp|co.ke|co.kr|co.ls|co.ma|co.mz|co.nz|co.th|co.tz|co.ug|co.uk|co.uz|co.ve|co.vi|co.za|co.zm|co.zw|com|com.af|com.ag|com.ai|com.ar|com.au|com.bd|com.bh|com.bn|com.bo|com.br|com.bz|com.co|com.cu|com.cy|com.do|com.ec|com.eg|com.et|com.fj|com.gh|com.gi|com.gt|com.hk|com.jm|com.kh|com.kw|com.lb|com.ly|com.mm|com.mt|com.mx|com.my|com.na|com.nf|com.ng|com.ni|com.np|com.om|com.pa|com.pe|com.pg|com.ph|com.pk|com.pr|com.py|com.qa|com.sa|com.sb|com.sg|com.sl|com.sv|com.tj|com.tr|com.tw|com.ua|com.uy|com.vc|com.vn|cv|cz|de|dj|dk|dm|dz|ee|es|fi|fm|fr|ga|ge|gg|gl|gm|gp|gr|gy|hn|hr|ht|hu|ie|im|iq|is|it|je|jo|kg|ki|kz|la|li|lk|lt|lu|lv|md|me|mg|mk|ml|mn|ms|mu|mv|mw|ne|nl|no|nr|nu|pl|pn|ps|pt|ro|rs|ru|rw|sc|se|sh|si|sk|sm|sn|so|sr|st|td|tg|tk|tl|tm|tn|to|tt|vg|vu|ws)/$important
 /^https?:\/\/contentbooster\.me+\/(?!manifest)[a-z0-9]{5,45}/$xmlhttprequest,important
 /^https?:\/\/graph\.(facebook|instagram)\.com/$important
@@ -487,9 +487,9 @@ $font,important
 2ch.hk###plashque
 @@||githubusercontent.com^$image
 @@||googlevideo.com^*?*&ip=$domain=youtube.com
+@@||strm.yandex.*^
 @@||ttvnw.net^$xmlhttprequest,domain=twitch.tv
 @@||vk.com/al_feed.php^
-@@||yandex.ru/*/master.m3u8^
 @@||yastatic.net/yandex-video-player-iframe-api-bundles^
 ^ad-sdk-$important
 ^ad-sdk.$important
@@ -693,7 +693,7 @@ _teaser^
 _teaser_
 kinopoisk.ru##+js(abort-on-property-read.js, advBlock)
 kinopoisk.ru##+js(setInterval-defuser.js, (), 500)
-kinopoisk.ru,yandex.by,yandex.ru,yandex.ua##+js(cookie-remover.js, /^blcrm|^bltsr|yabs|adb|^cmtchd|^crookie|^kpunk|is_adblock|abp|yp|ys|mcBaGDt/)
+kinopoisk.ru,yandex.by,yandex.ru,yandex.ua##+js(cookie-remover.js, /^blcrm|^bltsr|yabs|adb|^cmtchd|^crookie|^kpunk|is_adblock|abp|yp|ys|^mcBaGDt/)
 music.yandex.by,music.yandex.ru,music.yandex.ua##.sidebar__under
 twitch.tv##+js(twitch-videoad.js)
 twitch.tv##a[href*=".gg"]>img
@@ -984,6 +984,7 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||scontent.xx.fbcdn23dssr3jqnq.onion/hads-ak-prn*/*.png$important
 ||scorecardresearch.com^$important
 ||ssp.rambler.ru^$important
+||static-mon.yandex.net/static/main.js
 ||taboola.com^$important
 ||tns-counter.ru^$important
 ||top100.ru/top100/top100.js$script
