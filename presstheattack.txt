@@ -1,8 +1,8 @@
 ﻿[Adblock Plus 2.0]
-! Checksum: 7YLVjW9j0qhWD1Tkclshjg
+! Checksum: ACpxXvCFbGvRcNCASgjf7Q
 ! Title: Press the Attack
-! Last modified: 2019-02-12,  6:42:30
-! Version: 20190212064230
+! Last modified: 2019-02-12,  8:22:47
+! Version: 20190212082247
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki
@@ -340,6 +340,10 @@ $font,important
 -teaser.
 -teaser^
 -teaser_
+-yandex-metrica-watch-$important
+-yandex-metrica-watch.$important
+-yandex-metrica-watch^$important
+-yandex-metrica-watch_$important
 .ad-sdk-$important
 .ad-sdk.$important
 .ad-sdk^$important
@@ -440,6 +444,10 @@ $font,important
 .teaser.
 .teaser^
 .teaser_
+.yandex-metrica-watch-$important
+.yandex-metrica-watch.$important
+.yandex-metrica-watch^$important
+.yandex-metrica-watch_$important
 /(gen|client|csi|generate|stream)\_204/$important
 /1x1.*^$important
 /2x2.*^$important
@@ -594,6 +602,10 @@ $font,important
 ^teaser.
 ^teaser^
 ^teaser_
+^yandex-metrica-watch-$important
+^yandex-metrica-watch.$important
+^yandex-metrica-watch^$important
+^yandex-metrica-watch_$important
 _ad-sdk-$important
 _ad-sdk.$important
 _ad-sdk^$important
@@ -694,6 +706,10 @@ _teaser-
 _teaser.
 _teaser^
 _teaser_
+_yandex-metrica-watch-$important
+_yandex-metrica-watch.$important
+_yandex-metrica-watch^$important
+_yandex-metrica-watch_$important
 kinopoisk.ru##+js(abort-on-property-read.js, advBlock)
 kinopoisk.ru##+js(setInterval-defuser.js, (), 500)
 kinopoisk.ru,yandex.by,yandex.ru,yandex.ua##+js(cookie-remover.js, /^blcrm|^bltsr|yabs|adb|^cmtchd|^crookie|^kpunk|is_adblock|abp|yp|ys|^mcBaGDt/)
@@ -722,6 +738,7 @@ xvideos.com##+js(window.open-defuser.js)
 xvideos.com##+js(xvideos.com.js)
 yandex.by,yandex.ru,yandex.ua##.media-grid_js_inited.font-regular.i-bem.media-grid_theme_white.media-grid_visible_yes.media-grid
 yandex.ru,yandex.ua,yandex.by##+js(abort-on-property-read.js, Element.prototype.attachShadow)
+yandex.ru,yandex.ua,yandex.by##.home-link_intense-blue_yes.desk-notif-card_login-plus.home-link
 yandex.ru,yandex.ua,yandex.by##.media-grid__media-content
 yandex.ru,yandex.ua,yandex.by##.media-infinity-footer__content_visible_yes.media-infinity-footer__content
 yandex.ru,yandex.ua,yandex.by##.yaplus
@@ -963,6 +980,7 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||2ch.hk/js/snowstorm.js
 ||2ch.hk/makaba/templates/js/c.gif
 ||2ch.hk^*/tracker.js
+||adbetnet.com^$important
 ||adfox.ru^$important
 ||admixer.net^$important
 ||adsafeprotected.com^$important
@@ -971,6 +989,7 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||api.twitch.tv/*/channels/*/extensions^
 ||atdmt.com^$important
 ||bat.bing.com^$important
+||cdn.jsdelivr.net^$important
 ||clck.ru^
 ||cutter.li^
 ||digitaltarget.ru^$important
@@ -994,6 +1013,7 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||scontent.xx.fbcdn23dssr3jqnq.onion/hads-ak-prn*/*.png$important
 ||scorecardresearch.com^$important
 ||ssp.rambler.ru^$important
+||stat.pladform.ru^$important
 ||static-mon.yandex.net/static/main.js
 ||taboola.com^$important
 ||tns-counter.ru^$important
@@ -1001,11 +1021,13 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||trafficfactory.biz^$important
 ||trafficjunky.net^$important
 ||twitch.tv^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' *.jtvnw.net *.ttvnw.net *.twitchcdn.net *.twitch.tv *.facebook.com *.facebook.net recaptcha.net *.google.com *.gstatic.com blob: wss:,important
+||vk-portal.net^$important
 ||vk.cc^
 ||vk.com/js/lib/px.js^$important
 ||vk.com/rtrg^$important
 ||weborama.fr^$important
 ||yadro.ru^$important
+||yandex.*/clck/$important
 ||yandex.ru/pogoda/*$inline-script,first-party
 ||yandex.st^$domain=~yandex.ru|~yandex.ua|~yandex.by
 ||yastatic.net/daas/atom.js
