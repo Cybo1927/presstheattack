@@ -1,8 +1,8 @@
 ﻿[Adblock Plus 2.0]
-! Checksum: yvpPPd9HRyzWDuoajgSVdA
+! Checksum: XKhtWEeop3H/eOS73Cvyjw
 ! Title: Press the Attack
-! Last modified: 2019-02-11, 13:23:59
-! Version: 20190211132359
+! Last modified: 2019-02-11, 13:33:09
+! Version: 20190211133309
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki
@@ -252,6 +252,10 @@ $font,important
 -adinfo.
 -adinfo^
 -adinfo_
+-adsid-
+-adsid.
+-adsid^
+-adsid_
 -advert-
 -advert.
 -advert^
@@ -284,10 +288,6 @@ $font,important
 -clck.
 -clck^
 -clck_
--dfp-$script
--dfp.$script
--dfp^$script
--dfp_$script
 -pagead-
 -pagead.
 -pagead^
@@ -352,6 +352,10 @@ $font,important
 .adinfo.
 .adinfo^
 .adinfo_
+.adsid-
+.adsid.
+.adsid^
+.adsid_
 .advert-
 .advert.
 .advert^
@@ -384,10 +388,6 @@ $font,important
 .clck.
 .clck^
 .clck_
-.dfp-$script
-.dfp.$script
-.dfp^$script
-.dfp_$script
 .pagead-
 .pagead.
 .pagead^
@@ -489,6 +489,8 @@ $font,important
 @@||googlevideo.com^*?*&ip=$domain=youtube.com
 @@||ttvnw.net^$xmlhttprequest,domain=twitch.tv
 @@||vk.com/al_feed.php^
+@@||yandex.ru/*/master.m3u8^
+@@||yastatic.net/yandex-video-player-iframe-api-bundles^
 ^ad-sdk-$important
 ^ad-sdk.$important
 ^ad-sdk^$important
@@ -501,6 +503,10 @@ $font,important
 ^adinfo.
 ^adinfo^
 ^adinfo_
+^adsid-
+^adsid.
+^adsid^
+^adsid_
 ^advert-
 ^advert.
 ^advert^
@@ -533,10 +539,6 @@ $font,important
 ^clck.
 ^clck^
 ^clck_
-^dfp-$script
-^dfp.$script
-^dfp^$script
-^dfp_$script
 ^pagead-
 ^pagead.
 ^pagead^
@@ -601,6 +603,10 @@ _adinfo-
 _adinfo.
 _adinfo^
 _adinfo_
+_adsid-
+_adsid.
+_adsid^
+_adsid_
 _advert-
 _advert.
 _advert^
@@ -633,10 +639,6 @@ _clck-
 _clck.
 _clck^
 _clck_
-_dfp-$script
-_dfp.$script
-_dfp^$script
-_dfp_$script
 _pagead-
 _pagead.
 _pagead^
