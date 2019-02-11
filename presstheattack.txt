@@ -1,8 +1,8 @@
 ﻿[Adblock Plus 2.0]
-! Checksum: ACpxXvCFbGvRcNCASgjf7Q
+! Checksum: evOhdY/4x0Vr8duWPfqubg
 ! Title: Press the Attack
-! Last modified: 2019-02-12,  8:22:47
-! Version: 20190212082247
+! Last modified: 2019-02-12,  8:39:57
+! Version: 20190212083957
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki
@@ -244,6 +244,10 @@ $font,important
 -ad-sdk.$important
 -ad-sdk^$important
 -ad-sdk_$important
+-adclick-$important
+-adclick.$important
+-adclick^$important
+-adclick_$important
 -adfox-
 -adfox.
 -adfox^
@@ -264,6 +268,10 @@ $font,important
 -advertisement.
 -advertisement^
 -advertisement_
+-analytics-$important
+-analytics.$important
+-analytics^$important
+-analytics_$important
 -banner-ad-
 -banner-ad.
 -banner-ad^
@@ -284,10 +292,14 @@ $font,important
 -banners.
 -banners^
 -banners_
--clck-
--clck.
--clck^
--clck_
+-clck-$important
+-clck.$important
+-clck^$important
+-clck_$important
+-doubleclick-$important
+-doubleclick.$important
+-doubleclick^$important
+-doubleclick_$important
 -pagead-
 -pagead.
 -pagead^
@@ -340,6 +352,18 @@ $font,important
 -teaser.
 -teaser^
 -teaser_
+-track-$important
+-track.$important
+-track^$important
+-track_$important
+-tracker-$important
+-tracker.$important
+-tracker^$important
+-tracker_$important
+-tracking-$important
+-tracking.$important
+-tracking^$important
+-tracking_$important
 -yandex-metrica-watch-$important
 -yandex-metrica-watch.$important
 -yandex-metrica-watch^$important
@@ -348,6 +372,10 @@ $font,important
 .ad-sdk.$important
 .ad-sdk^$important
 .ad-sdk_$important
+.adclick-$important
+.adclick.$important
+.adclick^$important
+.adclick_$important
 .adfox-
 .adfox.
 .adfox^
@@ -368,6 +396,10 @@ $font,important
 .advertisement.
 .advertisement^
 .advertisement_
+.analytics-$important
+.analytics.$domain=~gitlab.com
+.analytics^$important
+.analytics_$important
 .banner-ad-
 .banner-ad.
 .banner-ad^
@@ -388,10 +420,14 @@ $font,important
 .banners.
 .banners^
 .banners_
-.clck-
-.clck.
-.clck^
-.clck_
+.clck-$important
+.clck.$important
+.clck^$important
+.clck_$important
+.doubleclick-$important
+.doubleclick.$important
+.doubleclick^$important
+.doubleclick_$important
 .pagead-
 .pagead.
 .pagead^
@@ -444,6 +480,18 @@ $font,important
 .teaser.
 .teaser^
 .teaser_
+.track-$important
+.track.$important
+.track^$important
+.track_$important
+.tracker-$important
+.tracker.$important
+.tracker^$important
+.tracker_$important
+.tracking-$important
+.tracking.$important
+.tracking^$important
+.tracking_$important
 .yandex-metrica-watch-$important
 .yandex-metrica-watch.$important
 .yandex-metrica-watch^$important
@@ -485,6 +533,7 @@ $font,important
 /ima3.js^$script,important
 /invoke.js^$script,important
 /log[\W|_](type|event|entry)/$important
+/ph-functions.js$script,important
 /ph-tracking.js^$script,important
 /ping.gif^$important
 /piwik.js^$script,important
@@ -506,6 +555,10 @@ $font,important
 ^ad-sdk.$important
 ^ad-sdk^$important
 ^ad-sdk_$important
+^adclick-$important
+^adclick.$important
+^adclick^$important
+^adclick_$important
 ^adfox-
 ^adfox.
 ^adfox^
@@ -526,6 +579,10 @@ $font,important
 ^advertisement.
 ^advertisement^
 ^advertisement_
+^analytics-$important
+^analytics.$important
+^analytics^$important
+^analytics_$important
 ^banner-ad-
 ^banner-ad.
 ^banner-ad^
@@ -546,10 +603,14 @@ $font,important
 ^banners.
 ^banners^
 ^banners_
-^clck-
-^clck.
-^clck^
-^clck_
+^clck-$important
+^clck.$important
+^clck^$important
+^clck_$important
+^doubleclick-$important
+^doubleclick.$important
+^doubleclick^$important
+^doubleclick_$important
 ^pagead-
 ^pagead.
 ^pagead^
@@ -602,6 +663,18 @@ $font,important
 ^teaser.
 ^teaser^
 ^teaser_
+^track-$important
+^track.$important
+^track^$important
+^track_$important
+^tracker-$important
+^tracker.$important
+^tracker^$important
+^tracker_$important
+^tracking-$important
+^tracking.$important
+^tracking^$important
+^tracking_$important
 ^yandex-metrica-watch-$important
 ^yandex-metrica-watch.$important
 ^yandex-metrica-watch^$important
@@ -610,6 +683,10 @@ _ad-sdk-$important
 _ad-sdk.$important
 _ad-sdk^$important
 _ad-sdk_$important
+_adclick-$important
+_adclick.$important
+_adclick^$important
+_adclick_$important
 _adfox-
 _adfox.
 _adfox^
@@ -630,6 +707,10 @@ _advertisement-
 _advertisement.
 _advertisement^
 _advertisement_
+_analytics-$important
+_analytics.$important
+_analytics^$important
+_analytics_$important
 _banner-ad-
 _banner-ad.
 _banner-ad^
@@ -650,10 +731,14 @@ _banners-
 _banners.
 _banners^
 _banners_
-_clck-
-_clck.
-_clck^
-_clck_
+_clck-$important
+_clck.$important
+_clck^$important
+_clck_$important
+_doubleclick-$important
+_doubleclick.$important
+_doubleclick^$important
+_doubleclick_$important
 _pagead-
 _pagead.
 _pagead^
@@ -706,6 +791,18 @@ _teaser-
 _teaser.
 _teaser^
 _teaser_
+_track-$important
+_track.$important
+_track^$important
+_track_$important
+_tracker-$important
+_tracker.$important
+_tracker^$important
+_tracker_$important
+_tracking-$important
+_tracking.$important
+_tracking^$important
+_tracking_$important
 _yandex-metrica-watch-$important
 _yandex-metrica-watch.$important
 _yandex-metrica-watch^$important
@@ -985,7 +1082,7 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||admixer.net^$important
 ||adsafeprotected.com^$important
 ||amazon-adsystem.com^$important
-||analytics.twitter.com^$important
+||analytics.*^$important
 ||api.twitch.tv/*/channels/*/extensions^
 ||atdmt.com^$important
 ||bat.bing.com^$important
