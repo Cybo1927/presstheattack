@@ -1,5 +1,9 @@
 #!/usr/bin/perl
 
+## ALL RIGHTS TO THIS SCRIPT BELONG TO HIS CREATOR
+## The authorship of the script belongs to k2jp <https://github.com/k2jp>
+## The script is borrowed from here https://github.com/k2jp/abp-japanese-filters
+
 ## This file is part of the Press the Attack project,
 ## Copyright (c) 2019 Bogachenko Vyacheslav
 ##
