@@ -1,8 +1,8 @@
 ﻿[Adblock Plus 2.0]
-! Checksum: seRFq4zENvvkdeBMM0VNLA
+! Checksum: dI1JbzXpSbi4vqzkizLS7g
 ! Title: Press the Attack
-! Last modified: 2019-02-11, 23:06:51
-! Version: 20190211230651
+! Last modified: 2019-02-11, 23:33:24
+! Version: 20190211233324
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki
@@ -464,7 +464,7 @@ $font,important
 /^https?:\/\/tv\.yandex\.(by|ru|ua)/[^\s]{300,}/$subdocument,xmlhttprequest,important
 /^https?:\/\/yandex\.(by|ru|ua)/images/(?!(search\?rpt=\imageview)|(search\?callback\=jQuery)|(search\?exp_flags=)|(search\?serpid=)|(touch/search?))[^\s]{80,}/$subdocument,~third-party,xmlhttprequest,important
 /^https?:\/\/yastatic\.net\/[^\s]{500,}/$domain=~vh.yandex.ru
-/ads.js$script,important
+/ads.js^$script,important
 /adsdk.js^$script,important
 /analytics.js^$script,important
 /annotations$domain=youtube.com
@@ -472,15 +472,14 @@ $font,important
 /endscreen$domain=youtube.com
 /ga.js^$script,important
 /gads.*^$important
-/gpt.js$script,important
-/gpt.js$script,important
-/gtm.js$script,important
+/gpt.js^$script,important
+/gtm.js^$script,important
 /ima3.js^$script,important
-/invoke.js$important
+/invoke.js^$script,important
 /log[\W|_](type|event|entry)/$important
-/ph-tracking.js$script,important
+/ph-tracking.js^$script,important
 /ping.gif^$important
-/piwik.js$script,important
+/piwik.js^$script,important
 /pixel\.(jpg|png|jpeg|gif)/$important
 /snow.js$script
 /spacer.gif$important
