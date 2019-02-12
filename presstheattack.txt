@@ -1,8 +1,8 @@
 ﻿[Adblock Plus 2.0]
-! Checksum: qb7maNgtzn0vuZ1nEdj7XQ
+! Checksum: Kt1MbDTRlSAUOs0ePpGn7g
 ! Title: Press the Attack
-! Last modified: 2019-02-12, 23:31:25
-! Version: 20190212233125
+! Last modified: 2019-02-13,  3:55:48
+! Version: 20190213035548
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki
@@ -1481,22 +1481,33 @@ kinopoisk.ru##+js(setInterval-defuser.js, (), 500)
 kinopoisk.ru,yandex.by,yandex.ru,yandex.ua##+js(cookie-remover.js, /^blcrm|^bltsr|yabs|adb|^cmtchd|^crookie|^kpunk|is_adblock|abp|yp|ys|^mcBaGDt/)
 music.yandex.by,music.yandex.ru,music.yandex.ua##.sidebar__under
 twitch.tv##+js(twitch-videoad.js)
+twitch.tv##a[href*=".com/ad/"]>img
 twitch.tv##a[href*=".gg"]>img
+twitch.tv##a[href*=".net/ad/"]>img
+twitch.tv##a[href*=".org/ad/"]>img
+twitch.tv##a[href*=".ru/ad/"]>img
 twitch.tv##a[href*="/buy/"]>img
 twitch.tv##a[href*="/go/"]>img
 twitch.tv##a[href*="/joinchat/"]>img
 twitch.tv##a[href*="/promo/"]>img
 twitch.tv##a[href*="/shop/"]>img
 twitch.tv##a[href*="?br="]>img
+twitch.tv##a[href*="atributika"]>img
 twitch.tv##a[href*="bet4.pm"]>img
 twitch.tv##a[href*="betsdota2.com"]>img
+twitch.tv##a[href*="campaign"]>img
 twitch.tv##a[href*="casino"]>img
 twitch.tv##a[href*="dotapl.us"]>img
 twitch.tv##a[href*="dxracer-europe.com"]>img
+twitch.tv##a[href*="fragstore.ru"]>img
+twitch.tv##a[href*="g2a.com"]>img
 twitch.tv##a[href*="gg.bet"]>img
 twitch.tv##a[href*="gosu.ai"]>img
+twitch.tv##a[href*="megafon.ru"]>img
+twitch.tv##a[href*="mybestcontent.ru"]>img
 twitch.tv##a[href*="noblechairs.com"]>img
 twitch.tv##a[href*="poker"]>img
+twitch.tv##a[href*="suveniry"]>img
 twitch.tv##a[href*="upskill.ru"]>img
 xvideos.com##+js(abort-on-property-write.js, openpop)
 xvideos.com##+js(nowebrtc.js)
@@ -1768,6 +1779,7 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||gamescarousel.com^$third-party
 ||gemius.pl^$important
 ||goo.gl^
+||googletagmanager.com/gtm.js$script,important
 ||imasdk.googleapis.com/js/sdkloader/ima3.js^$script,important
 ||mail.yandex.*$1p,script,important
 ||mail.yandex.*/monitoring_liza.txt$important
