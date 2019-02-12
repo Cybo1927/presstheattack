@@ -11,7 +11,7 @@ WE ARE NOT RESPONSIBLE FOR ANY DAMAGES DUE TO THE USE OF THIS PROJECT OR ITS PAR
 For more information, see the MIT license.
 
 Github: https://github.com/bogachenko/presstheattack/
-Last modified: February 11, 2019
+Last modified: February 13, 2019
 License: MIT <https://github.com/bogachenko/presstheattack/blob/master/LICENSE.md>
 Problem reports: https://github.com/bogachenko/presstheattack/issues
 Title: README.ru-RU.md
@@ -44,7 +44,7 @@ Download the entire Press the Attack project at https://github.com/bogachenko/pr
 
 Пожалуйста, обратите внимание, что Я в основном использую uBlock Origin. Я подчеркиваю это, потому что каждый браузер и плагин немного отличаются друг от друга. Этот список фильтров написан для этого плагина, и если Вы используете иной плагин для блокировки рекламы, производительность и правильная работа не гарантируется.
 
-Несмотря на это, Я буду делать все возможное, чтобы поддерживать совместимость с Adblock Plus и другими известными плагинами для блокировки рекламы. И Вы можете мне помочь, если у вас возникают проблемы с использованием таких плагинов, не стесняйтесь поднимать эти [вопросы](https://github.com/bogachenko/presstheattack/issues).
+Почти все сетевые фильтры здесь помечены как "important" и поэтому расширения, такие как Adblock Plus и другие, заносят их в белый список или вообще не читают из-за ограничений в синтаксисе фильтров и других причин, которые меня не беспокоят.
 
 ## Использование
 
@@ -59,4 +59,6 @@ Download the entire Press the Attack project at https://github.com/bogachenko/pr
 
 ## Вклад
 
-Если вы хотите стать частью этого проекта, отлично, я принимаю любые просьбы о дополнительных правилах, и я с нетерпением жду вашего PR.
+Я уверен, что некоторые из фильтров здесь сломают некоторые сайты. Пожалуйста, будьте осторожны и проверьте сетевой журнал запросов (логгер) uBlock Origin, чтобы увидеть, что фильтруется, и закомментировать любой проблемный фильтр или Вы можете использовать флаг "badfilter".
+
+Если вы хотите стать частью этого проекта, отлично, я принимаю любые просьбы о дополнительных правилах. Смело создайте "Pull request".

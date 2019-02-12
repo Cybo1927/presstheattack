@@ -11,7 +11,7 @@ WE ARE NOT RESPONSIBLE FOR ANY DAMAGES DUE TO THE USE OF THIS PROJECT OR ITS PAR
 For more information, see the MIT license.
 
 Github: https://github.com/bogachenko/presstheattack/
-Last modified: February 11, 2019
+Last modified: February 13, 2019
 License: MIT <https://github.com/bogachenko/presstheattack/blob/master/LICENSE.md>
 Problem reports: https://github.com/bogachenko/presstheattack/issues
 Title: README.md
@@ -44,7 +44,7 @@ However, if you find that any of the rules are breaking the site, disable it and
 
 Please note that I mainly use uBlock Origin. I emphasize this because each browser and plugin is slightly different from each other. This filter list is written for this plugin, and if you use a different plugin to block ads, performance and correct operation is not guaranteed.
 
-Despite this, I will do everything possible to maintain compatibility with Adblock Plus and other well-known plug-ins for ad blocking. And You can help me if You have problems using such plugins, feel free to raise these [questions](https://github.com/bogachenko/presstheattack/issues).
+Almost all network filters here are marked as "important" and therefore extensions such as Adblock Plus and others put them on a white list or not read at all due to limitations in the filter syntax and other reasons that do not bother me.
 
 ## Usage
 
@@ -59,4 +59,6 @@ For acquaintance and the detailed description of the project with its documentat
 
 ## Contributions
 
-If you want to be part of this project, fine, I accept any requests for additional rules, and I look forward to your PR.
+I'm sure some of the filters here will break some sites. Please be careful and check the network request log (logger) of uBlock Origin to see what is being filtered and comment out any problem filter or you can use the "badfilter" flag.
+
+If you want to be part of this project, fine, I accept any requests for additional rules. Feel free to create "Pull request".
