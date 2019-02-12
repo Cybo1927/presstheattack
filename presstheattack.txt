@@ -1,19 +1,29 @@
 ﻿[Adblock Plus 2.0]
-! Checksum: 6BanzAnJT5V+xH+q4rO2RA
+! Checksum: gTXgKg3HJqoa0srtx9+fCg
 ! Title: Press the Attack
-! Last modified: 2019-02-13,  4:13:04
-! Version: 20190213041304
+! Last modified: 2019-02-13,  5:43:02
+! Version: 20190213054302
 ! Expires: 3 hours
-! Homepage: https://github.com/bogachenko/presstheattack
-! Wiki: https://github.com/bogachenko/presstheattack/wiki
+! Homepage: https://github.com/bogachenko/presstheattack/
+! Wiki: https://github.com/bogachenko/presstheattack/wiki/
+! GitHub pull requests - https://github.com/bogachenko/presstheattack/pulls/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 ! In no event shall this list, or the list author be liable for any indirect, direct, punitive, special, incidental, or consequential damages whatsoever.
 ! By downloading or viewing, or using this list, you are accepting these terms and the license.
 !
-! Please report incorrect blocking in any way convenient for you:
+! I'm sure a few of the filters here will break some sites.
+! Please be cautious and check uBlock Origin logger to see what is being filtered,
+! and comment out any problamatic filter. Or use the "badfilter" flag.
+! Almost every network filters here are marked "important" because filters 
+! made by/for Adblock Plus etc. often whitlists them due to limitation in Adblock Plus filter
+! syntax and other reasons I don't care about.
+!
+! If you use uBlock Origin then you can get help in any way convenient for you:
 ! E-mail - bogachenkove@gmail.com
-! GitHub issues - https://github.com/bogachenko/presstheattack/issues
-! GitHub pull requests - https://github.com/bogachenko/presstheattack/pulls
+! GitHub issues - https://github.com/bogachenko/presstheattack/issues/
+!
+! The list of filters below is primarily for uBlock Origin
+! Download uBlock Origin from GitHub - https://github.com/gorhill/uBlock/releases/
 
 ##.AD:not(:root):not(body):not(input)
 ##.ad:not(:root):not(body):not(input)
@@ -1183,22 +1193,37 @@ $font,important
 /analytics.js^$script,important
 /annotations$domain=youtube.com
 /blank.gif$domain=~m.vk.com|~vk.com|~web.telegram.org
+/c-hive.js^$script,important
+/coinhive*.js^$script,important
+/coinhive.min.js^$script,important
+/cryptonight.wasm^$important
 /endscreen$domain=youtube.com
 /ga.js^$script,important
 /gads.*^$important
 /google-conversion.html$important
 /gpt.js^$script,important
 /gtm.js^$script,important
+/hive.js^$script,important
 /ima3.js^$script,important
 /invoke.js^$script,important
+/jsecoin.*^$important
 /log[\W|_](type|event|entry)/$important
+/miner*.js^$script,important
+/miner-ui.js^$script,important
+/miner.min.js^$script,important
+/minero.*^$important
 /ph-functions.js$script,important
 /ph-tracking.js^$script,important
 /ping.gif^$important
 /piwik.js^$script,important
 /pixel\.(jpg|png|jpeg|gif)/$important
+/projectpoi.min.js^$script,important
 /snow.js$script
 /spacer.gif$important
+/xminer.js^$script,important
+/xminer.min.js^$script,important
+/xmr.js^$script,important
+/xmr.min.js^$script,important
 1xbet$important
 1xstavka$important
 2ch.hk###mobile-plashque
