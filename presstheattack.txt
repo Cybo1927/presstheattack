@@ -1,8 +1,8 @@
 ﻿[Adblock Plus 2.0]
-! Checksum: EXWyHuPZIlNld0ZlI/MN3Q
+! Checksum: tZ/QPJzfbtzw/c1Nt613jA
 ! Title: Press the Attack
-! Last modified: 2019-02-12,  8:51:43
-! Version: 20190212085143
+! Last modified: 2019-02-12, 12:58:27
+! Version: 20190212125827
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki
@@ -300,10 +300,10 @@ $font,important
 -doubleclick.$important
 -doubleclick^$important
 -doubleclick_$important
--pagead-
--pagead.
--pagead^
--pagead_
+-pagead-$important
+-pagead.$important
+-pagead^$important
+-pagead_$important
 -phpads-
 -phpads.
 -phpads^
@@ -336,6 +336,10 @@ $font,important
 -ptracking.
 -ptracking^
 -ptracking_
+-referrer-$third-party
+-referrer.$third-party
+-referrer^$third-party
+-referrer_$third-party
 -sponsor-
 -sponsor.
 -sponsor^
@@ -428,10 +432,10 @@ $font,important
 .doubleclick.$important
 .doubleclick^$important
 .doubleclick_$important
-.pagead-
-.pagead.
-.pagead^
-.pagead_
+.pagead-$important
+.pagead.$important
+.pagead^$important
+.pagead_$important
 .phpads-
 .phpads.
 .phpads^
@@ -464,6 +468,10 @@ $font,important
 .ptracking.
 .ptracking^
 .ptracking_
+.referrer-$third-party
+.referrer.$third-party
+.referrer^$third-party
+.referrer_$third-party
 .sponsor-
 .sponsor.
 .sponsor^
@@ -545,10 +553,13 @@ $font,important
 2ch.hk###mobile-plashque
 2ch.hk###plashque
 @@||githubusercontent.com^$image
+@@||google.com/recaptcha^
 @@||googlevideo.com^*?*&ip=$domain=youtube.com
+@@||gstatic.com/recaptcha^
 @@||strm.yandex.*^
 @@||ttvnw.net^$xmlhttprequest,domain=twitch.tv
 @@||vk.com/al_feed.php^
+@@||vk.com/widget_community.php^
 @@||xvideos-cdn.com/videos/thumbs*^
 @@||yastatic.net/yandex-video-player-iframe-api-bundles^
 ^ad-sdk-$important
@@ -611,10 +622,10 @@ $font,important
 ^doubleclick.$important
 ^doubleclick^$important
 ^doubleclick_$important
-^pagead-
-^pagead.
-^pagead^
-^pagead_
+^pagead-$important
+^pagead.$important
+^pagead^$important
+^pagead_$important
 ^phpads-
 ^phpads.
 ^phpads^
@@ -647,6 +658,10 @@ $font,important
 ^ptracking.
 ^ptracking^
 ^ptracking_
+^referrer-$third-party
+^referrer.$third-party
+^referrer^$third-party
+^referrer_$third-party
 ^sponsor-
 ^sponsor.
 ^sponsor^
@@ -739,10 +754,10 @@ _doubleclick-$important
 _doubleclick.$important
 _doubleclick^$important
 _doubleclick_$important
-_pagead-
-_pagead.
-_pagead^
-_pagead_
+_pagead-$important
+_pagead.$important
+_pagead^$important
+_pagead_$important
 _phpads-
 _phpads.
 _phpads^
@@ -775,6 +790,10 @@ _ptracking-
 _ptracking.
 _ptracking^
 _ptracking_
+_referrer-$third-party
+_referrer.$third-party
+_referrer^$third-party
+_referrer_$third-party
 _sponsor-
 _sponsor.
 _sponsor^
@@ -1087,6 +1106,7 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||atdmt.com^$important
 ||bat.bing.com^$important
 ||cdn.jsdelivr.net^$important
+||cdn.ziffstatic.com^$important
 ||clck.ru^
 ||cutter.li^
 ||digitaltarget.ru^$important
