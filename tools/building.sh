@@ -12,7 +12,7 @@
 ## For more information, see the MIT license.
 ##
 ## Github: https://github.com/bogachenko/presstheattack/
-## Last modified: February 11, 2019
+## Last modified: February 12, 2019
 ## License: MIT <https://github.com/bogachenko/presstheattack/blob/master/LICENSE.md>
 ## Problem reports: https://github.com/bogachenko/presstheattack/issues
 ## Title: building.sh
@@ -21,8 +21,6 @@
 ##
 ## Download the entire Press the Attack project at https://github.com/bogachenko/presstheattack/archive/master.zip
 
-date=$(date '+%H:%M:%S %Z %Y-%m-%d')
-echo "Getting started in:" $date
 git pull
 perl ./sorting.pl ../presstheattack.txt
 perl ./addChecksum.pl ../presstheattack.txt
@@ -30,5 +28,4 @@ perl ./updateDateString.pl ../presstheattack.txt
 git status
 git commit -a -m "Update presstheattack.txt"
 git push
-echo "Work completed in:" $date
 read -n 1 -s -r -p "Press any key to exit." 
