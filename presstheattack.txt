@@ -1,8 +1,8 @@
 ﻿[Adblock Plus 2.0]
-! Checksum: tZ/QPJzfbtzw/c1Nt613jA
+! Checksum: P1AVql+5I00e25rOr0N5Eg
 ! Title: Press the Attack
-! Last modified: 2019-02-12, 12:58:27
-! Version: 20190212125827
+! Last modified: 2019-02-12, 16:41:24
+! Version: 20190212164124
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki
@@ -529,7 +529,9 @@ $font,important
 /^https?:\/\/yandex\.(by|ru|ua)/images/(?!(search\?rpt=\imageview)|(search\?callback\=jQuery)|(search\?exp_flags=)|(search\?serpid=)|(touch/search?))[^\s]{80,}/$subdocument,~third-party,xmlhttprequest,important
 /^https?:\/\/yastatic\.net\/[^\s]{500,}/$domain=~vh.yandex.ru
 /ads.js^$script,important
+/adsbygoogle.js^$script,important
 /adsdk.js^$script,important
+/advert.js^$script,important
 /analytics.js^$script,important
 /annotations$domain=youtube.com
 /blank.gif$domain=~m.vk.com|~vk.com|~web.telegram.org
@@ -1118,17 +1120,22 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||gamescarousel.com^$third-party
 ||gemius.pl^$important
 ||goo.gl^
+||imasdk.googleapis.com/js/sdkloader/ima3.js^$script,important
 ||mail.yandex.*$1p,script,important
 ||mail.yandex.*/monitoring_liza.txt$important
+||mc.yandex.ru/metrika/tag.js^$script,important
+||mc.yandex.ru/metrika/watch.js^$script,important
 ||mradx.net^$important
 ||navdmp.com^$important
 ||newrelic.com^$important
 ||news.yandex.*^$first-party,script,important
+||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js^$script,important
 ||quantserve.com^$important
 ||rutarget.ru^$important
 ||scontent.xx.fbcdn.net/hads-ak-prn*/*.png$important
 ||scontent.xx.fbcdn23dssr3jqnq.onion/hads-ak-prn*/*.png$important
 ||scorecardresearch.com^$important
+||ssl.google-analytics.com/ga.js^$script,important
 ||ssp.rambler.ru^$important
 ||stat.pladform.ru^$important
 ||static-mon.yandex.net/static/main.js
@@ -1143,6 +1150,8 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||vk.com/js/lib/px.js^$important
 ||vk.com/rtrg^$important
 ||weborama.fr^$important
+||www.google-analytics.com/analytics.js^$script,important
+||www.googletagservices.com/tag/js/gpt.js^$script,important
 ||yadro.ru^$important
 ||yandex.*/clck/$important
 ||yandex.ru/pogoda/*$inline-script,first-party
