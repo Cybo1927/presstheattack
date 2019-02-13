@@ -1,8 +1,8 @@
 ﻿[Adblock Plus 2.0]
-! Checksum: 5h6KfasZcUTAFgky6ifMqw
+! Checksum: Jxjr/Nb+Kvk2paMCsyXCBQ
 ! Title: Press the Attack
-! Last modified: 2019-02-14,  5:37:16
-! Version: 20190214053716
+! Last modified: 2019-02-14,  5:55:02
+! Version: 20190214055502
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
@@ -1225,6 +1225,7 @@ $font,important
 /blank.gif$domain=~m.vk.com|~vk.com|~web.telegram.org
 /c-hive.js^$script,important
 /cleardot.gif$important
+/cleardot.gif^$domain=~drive.google.com
 /coinhive*.js^$script,important
 /coinhive.min.js^$script,important
 /crlt.js*^$script,important
