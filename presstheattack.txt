@@ -1,8 +1,8 @@
 ﻿[Adblock Plus 2.0]
-! Checksum: yt8qdErv+wvHeEB2MCEqnw
+! Checksum: AuIaQ9ZaCnupAHVEAL4XbA
 ! Title: Press the Attack
-! Last modified: 2019-02-14,  3:20:00
-! Version: 20190214032000
+! Last modified: 2019-02-14,  3:31:56
+! Version: 20190214033156
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
@@ -10,6 +10,10 @@
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 ! In no event shall this list, or the list author be liable for any indirect, direct, punitive, special, incidental, or consequential damages whatsoever.
 ! By downloading or viewing, or using this list, you are accepting these terms and the license.
+!
+! When creating this filter lists were used:
+! https://github.com/xd4rker/MinerBlock
+! https://github.com/k2jp/abp-japanese-filters
 !
 ! I'm sure a few of the filters here will break some sites.
 ! Please be cautious and check uBlock Origin logger to see what is being filtered,
@@ -897,22 +901,8 @@ $cookie=/act|s|t|p|testcookie/,domain=mail.ru|ok.ru
 $cookie=/blcrm|bltsr|yabs|adb|cmtchd|crookie|kpunk|is_adblock|abp|yp|ys/,domain=avito.ru|kinopoisk.ru|yandex.by|yandex.ru|yandex.ua
 $cookie=/unique_id/,domain=twitch.tv
 $font,important
-*://*/*?perfekt=wss://*^$important
-*://*/*?proxy=ws://*^$important
-*://*/*?proxy=wss://*^$important
-*://*/*bitrix/js/main/core/core_loader.js*^$important
-*://*/*bitrix/js/main/core/core_tasker.js*^$important
-*://*/*cn-asmjs.min.js*^$important
-*://*/*coinhive.min.js*^$important
-*://*/*cryptonight.wasm^$important
-*://*/*deepMiner.js^$important
-*://*/*deepMiner.min.js^$important
-*://*/*gridcash.js*^$important
-*://*/*lib/crlt.js*^$important
-*://*/*lib/crypta.js*^$important
-*://*/*miner.js*^$important
-*://*/*monero-miner.js*^$important
-*://*/*n.2.1.js*^$important
+*://*/*bitrix/js/main/core/core_loader.js*^$script,important
+*://*/*bitrix/js/main/core/core_tasker.js*^$script,important
 *://*/*n.2.1.l*.js*^$important
 *://*/*plugins/aj-cryptominer*^$important
 *://*/*plugins/ajcryptominer*^$important
@@ -1191,6 +1181,17 @@ $font,important
 .yandex-metrica-watch^$important
 .yandex-metrica-watch_$important
 /(gen|client|csi|generate|stream)\_204/$important
+/*?perfekt=wss://*^$important
+/*?proxy=ws://*^$important
+/*?proxy=wss://*^$important
+/*cn-asmjs.min.js*^$script,important
+/*coinhive.min.js*^$script,important
+/*cryptonight.wasm^$important
+/*deepMiner.js^$script,important
+/*deepMiner.min.js^$script,important
+/*gridcash.js*^$script,important
+/*miner.js*^$script,important
+/*n.2.1.js*^$script,important
 /1x1.*^$important
 /2x2.*^$important
 /\/0\.(jpg|png|jpeg|gif|apng|html)/$important
@@ -1226,6 +1227,8 @@ $font,important
 /cleardot.gif$important
 /coinhive*.js^$script,important
 /coinhive.min.js^$script,important
+/crlt.js*^$script,important
+/crypta.js*^$script,important
 /cryptonight.wasm^$important
 /endscreen$domain=youtube.com
 /ga.js^$script,important
