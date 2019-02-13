@@ -1,8 +1,8 @@
 ﻿[Adblock Plus 2.0]
-! Checksum: Jxjr/Nb+Kvk2paMCsyXCBQ
+! Checksum: 1Ac4wKKP3Fgt1Ri3xun/cw
 ! Title: Press the Attack
-! Last modified: 2019-02-14,  5:55:02
-! Version: 20190214055502
+! Last modified: 2019-02-14,  8:28:30
+! Version: 20190214082830
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
@@ -1539,6 +1539,7 @@ _yandex-metrica-watch^$important
 _yandex-metrica-watch_$important
 GGBET$image
 kinopoisk.ru##+js(abort-on-property-read.js, advBlock)
+kinopoisk.ru##+js(abort-on-property-read.js, Element.prototype.attachShadow)
 kinopoisk.ru##+js(setInterval-defuser.js, (), 500)
 kinopoisk.ru,yandex.by,yandex.ru,yandex.ua##+js(cookie-remover.js, /^blcrm|^bltsr|yabs|adb|^cmtchd|^crookie|^kpunk|is_adblock|abp|yp|ys|^mcBaGDt/)
 mail.ru##.i-clearfix.feed-generic__container
@@ -1575,6 +1576,7 @@ twitch.tv##a[href*="noblechairs.com"]>img
 twitch.tv##a[href*="poker"]>img
 twitch.tv##a[href*="suveniry"]>img
 twitch.tv##a[href*="upskill.ru"]>img
+twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/):xpath(..)
 xvideos.com##+js(abort-on-property-write.js, openpop)
 xvideos.com##+js(nowebrtc.js)
 xvideos.com##+js(window.open-defuser.js)
