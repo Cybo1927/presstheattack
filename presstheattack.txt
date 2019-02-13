@@ -1,8 +1,8 @@
 ﻿[Adblock Plus 2.0]
-! Checksum: m0uUmgsWDkxUpRl2rCBkzw
+! Checksum: yt8qdErv+wvHeEB2MCEqnw
 ! Title: Press the Attack
-! Last modified: 2019-02-14,  2:01:04
-! Version: 20190214020104
+! Last modified: 2019-02-14,  3:20:00
+! Version: 20190214032000
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
@@ -28,7 +28,6 @@
 ##.AD:not(:root):not(body):not(input)
 ##.ad:not(:root):not(body):not(input)
 ##.ADS:not(:root):not(body):not(input)
-##.ads:not(:root):not(body):not(input)
 ##.adsbygoogle:not(html):not(body)
 ##[class$="-ad-"]:not(html):not(body)
 ##[class$="-ad."]:not(html):not(body)
@@ -898,6 +897,35 @@ $cookie=/act|s|t|p|testcookie/,domain=mail.ru|ok.ru
 $cookie=/blcrm|bltsr|yabs|adb|cmtchd|crookie|kpunk|is_adblock|abp|yp|ys/,domain=avito.ru|kinopoisk.ru|yandex.by|yandex.ru|yandex.ua
 $cookie=/unique_id/,domain=twitch.tv
 $font,important
+*://*/*?perfekt=wss://*^$important
+*://*/*?proxy=ws://*^$important
+*://*/*?proxy=wss://*^$important
+*://*/*bitrix/js/main/core/core_loader.js*^$important
+*://*/*bitrix/js/main/core/core_tasker.js*^$important
+*://*/*cn-asmjs.min.js*^$important
+*://*/*coinhive.min.js*^$important
+*://*/*cryptonight.wasm^$important
+*://*/*deepMiner.js^$important
+*://*/*deepMiner.min.js^$important
+*://*/*gridcash.js*^$important
+*://*/*lib/crlt.js*^$important
+*://*/*lib/crypta.js*^$important
+*://*/*miner.js*^$important
+*://*/*monero-miner.js*^$important
+*://*/*n.2.1.js*^$important
+*://*/*n.2.1.l*.js*^$important
+*://*/*plugins/aj-cryptominer*^$important
+*://*/*plugins/ajcryptominer*^$important
+*://*/*plugins/wp-monero-miner-pro*^$important
+*://*/*pool/direct.js*^$important
+*://*/*static/js/tpb.js*^$important
+*://*/*vbb/me0w.js*^$important
+*://*/*wasmminer.js*^$important
+*://*/*wasmminer.wasm*^$important
+*://*/*webmr.js*^$important
+*://*/*webmr4.js*^$important
+*://*/*webxmr.js*^$important
+*://*/*worker-asmjs.min.js*^$important
 -ad-sdk-$important
 -ad-sdk.$important
 -ad-sdk^$important
@@ -1195,6 +1223,7 @@ $font,important
 /annotations$domain=youtube.com
 /blank.gif$domain=~m.vk.com|~vk.com|~web.telegram.org
 /c-hive.js^$script,important
+/cleardot.gif$important
 /coinhive*.js^$script,important
 /coinhive.min.js^$script,important
 /cryptonight.wasm^$important
@@ -1990,4 +2019,5 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||youtube.com/get_midroll*^$important
 ||youtube.com/ptracking^$important
 ||youtube.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.ggpht.com *.googlevideo.com *.ytimg.com *.googleusercontent.com www.youtube.com,important
+~mail.google.com##.ads:not(:root):not(body):not(input)
 ~mail.yandex.by,~mail.yandex.ru,~mail.yandex.ua,yandex.by,yandex.ru,yandex.ua##+js(set-constant.js, math.random, trueFunc)
