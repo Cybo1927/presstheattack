@@ -1,8 +1,8 @@
 ﻿[Adblock Plus 2.0]
-! Checksum: AuIaQ9ZaCnupAHVEAL4XbA
+! Checksum: kt5h7PRmsCnqiePSi4ykXA
 ! Title: Press the Attack
-! Last modified: 2019-02-14,  3:31:56
-! Version: 20190214033156
+! Last modified: 2019-02-14,  3:34:51
+! Version: 20190214033451
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
@@ -901,21 +901,6 @@ $cookie=/act|s|t|p|testcookie/,domain=mail.ru|ok.ru
 $cookie=/blcrm|bltsr|yabs|adb|cmtchd|crookie|kpunk|is_adblock|abp|yp|ys/,domain=avito.ru|kinopoisk.ru|yandex.by|yandex.ru|yandex.ua
 $cookie=/unique_id/,domain=twitch.tv
 $font,important
-*://*/*bitrix/js/main/core/core_loader.js*^$script,important
-*://*/*bitrix/js/main/core/core_tasker.js*^$script,important
-*://*/*n.2.1.l*.js*^$important
-*://*/*plugins/aj-cryptominer*^$important
-*://*/*plugins/ajcryptominer*^$important
-*://*/*plugins/wp-monero-miner-pro*^$important
-*://*/*pool/direct.js*^$important
-*://*/*static/js/tpb.js*^$important
-*://*/*vbb/me0w.js*^$important
-*://*/*wasmminer.js*^$important
-*://*/*wasmminer.wasm*^$important
-*://*/*webmr.js*^$important
-*://*/*webmr4.js*^$important
-*://*/*webxmr.js*^$important
-*://*/*worker-asmjs.min.js*^$important
 -ad-sdk-$important
 -ad-sdk.$important
 -ad-sdk^$important
@@ -1184,6 +1169,8 @@ $font,important
 /*?perfekt=wss://*^$important
 /*?proxy=ws://*^$important
 /*?proxy=wss://*^$important
+/*bitrix/js/main/core/core_loader.js*^$script,important
+/*bitrix/js/main/core/core_tasker.js*^$script,important
 /*cn-asmjs.min.js*^$script,important
 /*coinhive.min.js*^$script,important
 /*cryptonight.wasm^$important
@@ -1192,6 +1179,19 @@ $font,important
 /*gridcash.js*^$script,important
 /*miner.js*^$script,important
 /*n.2.1.js*^$script,important
+/*n.2.1.l*.js*^$script,important
+/*plugins/aj-cryptominer*^$important
+/*plugins/ajcryptominer*^$important
+/*plugins/wp-monero-miner-pro*^$important
+/*pool/direct.js*^$script,important
+/*static/js/tpb.js*^$script,important
+/*vbb/me0w.js*^$script,important
+/*wasmminer.js*^$script,important
+/*wasmminer.wasm*^$important
+/*webmr.js*^$script,important
+/*webmr4.js*^$script,important
+/*webxmr.js*^$script,important
+/*worker-asmjs.min.js*^$script,important
 /1x1.*^$important
 /2x2.*^$important
 /\/0\.(jpg|png|jpeg|gif|apng|html)/$important
