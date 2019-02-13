@@ -1,8 +1,8 @@
 ﻿[Adblock Plus 2.0]
-! Checksum: CjDsUD49eSc7XvrOpYlb9w
+! Checksum: 5syKqVD7DAkWWVjCIi6S2g
 ! Title: Press the Attack
-! Last modified: 2019-02-13, 23:02:08
-! Version: 20190213230208
+! Last modified: 2019-02-14,  0:33:48
+! Version: 20190214003348
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
@@ -1421,7 +1421,7 @@ _banner_ad^
 _banner_ad_
 _banners-
 _banners.
-_banners^
+_banners^$domain=~twitter.com
 _banners_
 _clck-$important
 _clck.$important
@@ -1507,6 +1507,7 @@ GGBET$image
 kinopoisk.ru##+js(abort-on-property-read.js, advBlock)
 kinopoisk.ru##+js(setInterval-defuser.js, (), 500)
 kinopoisk.ru,yandex.by,yandex.ru,yandex.ua##+js(cookie-remover.js, /^blcrm|^bltsr|yabs|adb|^cmtchd|^crookie|^kpunk|is_adblock|abp|yp|ys|^mcBaGDt/)
+mail.ru##.i-clearfix.feed-generic__container
 music.yandex.by,music.yandex.ru,music.yandex.ua##.sidebar__under
 translate.yandex.ru,translate.yandex.ua,translate.yandex.by##.button_icon_collections.button_icon.button
 twitch.tv##+js(twitch-videoad.js)
@@ -1567,6 +1568,10 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http:*-advert.$important
 |http:*-advert^$important
 |http:*-advert_$important
+|http:*-clicktag-$important
+|http:*-clicktag.$important
+|http:*-clicktag^$important
+|http:*-clicktag_$important
 |http:*-dclk-
 |http:*-dclk.
 |http:*-dclk^
@@ -1607,6 +1612,10 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http:*.advert.$important
 |http:*.advert^$important
 |http:*.advert_$important
+|http:*.clicktag-$important
+|http:*.clicktag.$important
+|http:*.clicktag^$important
+|http:*.clicktag_$important
 |http:*.dclk-
 |http:*.dclk.
 |http:*.dclk^
@@ -1649,6 +1658,10 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http:*^advert.$important
 |http:*^advert^$important
 |http:*^advert_$important
+|http:*^clicktag-$important
+|http:*^clicktag.$important
+|http:*^clicktag^$important
+|http:*^clicktag_$important
 |http:*^dclk-
 |http:*^dclk.
 |http:*^dclk^
@@ -1689,6 +1702,10 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http:*_advert.$important
 |http:*_advert^$important
 |http:*_advert_$important
+|http:*_clicktag-$important
+|http:*_clicktag.$important
+|http:*_clicktag^$important
+|http:*_clicktag_$important
 |http:*_dclk-
 |http:*_dclk.
 |http:*_dclk^
@@ -1731,6 +1748,10 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |https:*-advert.$important
 |https:*-advert^$important
 |https:*-advert_$important
+|https:*-clicktag-$important
+|https:*-clicktag.$important
+|https:*-clicktag^$important
+|https:*-clicktag_$important
 |https:*-dclk-
 |https:*-dclk.
 |https:*-dclk^
@@ -1771,6 +1792,10 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |https:*.advert.$important
 |https:*.advert^$important
 |https:*.advert_$important
+|https:*.clicktag-$important
+|https:*.clicktag.$important
+|https:*.clicktag^$important
+|https:*.clicktag_$important
 |https:*.dclk-
 |https:*.dclk.
 |https:*.dclk^
@@ -1813,6 +1838,10 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |https:*^advert.$important
 |https:*^advert^$important
 |https:*^advert_$important
+|https:*^clicktag-$important
+|https:*^clicktag.$important
+|https:*^clicktag^$important
+|https:*^clicktag_$important
 |https:*^dclk-
 |https:*^dclk.
 |https:*^dclk^
@@ -1853,6 +1882,10 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |https:*_advert.$important
 |https:*_advert^$important
 |https:*_advert_$important
+|https:*_clicktag-$important
+|https:*_clicktag.$important
+|https:*_clicktag^$important
+|https:*_clicktag_$important
 |https:*_dclk-
 |https:*_dclk.
 |https:*_dclk^
@@ -1931,12 +1964,15 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||ssp.rambler.ru^$important
 ||stat.pladform.ru^$important
 ||static-mon.yandex.net/static/main.js
+||syndication.twitter.com^$important
 ||taboola.com^$important
 ||tns-counter.ru^$important
 ||top100.ru/top100/top100.js$script
 ||trafficfactory.biz^$important
 ||trafficjunky.net^$important
 ||twitch.tv^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' *.jtvnw.net *.ttvnw.net *.twitchcdn.net *.twitch.tv *.facebook.com *.facebook.net recaptcha.net *.google.com *.gstatic.com blob: wss:,important
+||twitter.com/*/recommendations^
+||twitter.com/*/toast_poll$important
 ||vk-portal.net^$important
 ||vk.cc^
 ||vk.com/js/lib/px.js^$important
