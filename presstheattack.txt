@@ -1,8 +1,8 @@
 ﻿[Adblock Plus 2.0]
-! Checksum: FRwnE1UwN3XJJcAAXp5m5w
+! Checksum: CjDsUD49eSc7XvrOpYlb9w
 ! Title: Press the Attack
-! Last modified: 2019-02-13,  8:50:06
-! Version: 20190213085006
+! Last modified: 2019-02-13, 23:02:08
+! Version: 20190213230208
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
@@ -1508,6 +1508,7 @@ kinopoisk.ru##+js(abort-on-property-read.js, advBlock)
 kinopoisk.ru##+js(setInterval-defuser.js, (), 500)
 kinopoisk.ru,yandex.by,yandex.ru,yandex.ua##+js(cookie-remover.js, /^blcrm|^bltsr|yabs|adb|^cmtchd|^crookie|^kpunk|is_adblock|abp|yp|ys|^mcBaGDt/)
 music.yandex.by,music.yandex.ru,music.yandex.ua##.sidebar__under
+translate.yandex.ru,translate.yandex.ua,translate.yandex.by##.button_icon_collections.button_icon.button
 twitch.tv##+js(twitch-videoad.js)
 twitch.tv##a[href*=".com/ad/"]>img
 twitch.tv##a[href*=".gg"]>img
@@ -1523,6 +1524,7 @@ twitch.tv##a[href*="?br="]>img
 twitch.tv##a[href*="atributika"]>img
 twitch.tv##a[href*="bet4.pm"]>img
 twitch.tv##a[href*="betsdota2.com"]>img
+twitch.tv##a[href*="bit.ly"]>img
 twitch.tv##a[href*="campaign"]>img
 twitch.tv##a[href*="casino"]>img
 twitch.tv##a[href*="dotapl.us"]>img
