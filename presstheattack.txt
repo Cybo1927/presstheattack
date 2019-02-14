@@ -1,8 +1,8 @@
 ﻿[Adblock Plus 2.0]
-! Checksum: MSHnA1laD69vSieBx8vncQ
+! Checksum: 8VoNIU1t9pej5jLmBki+IA
 ! Title: Press the Attack
-! Last modified: 2019-02-14, 12:18:25
-! Version: 20190214121825
+! Last modified: 2019-02-14, 12:53:57
+! Version: 20190214125357
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
@@ -1257,6 +1257,8 @@ $font,important
 /snow.js^$script
 /spacer.gif^$important
 /sparechange.js*^$script,important
+/watch_ua.js^$important
+/xgemius.js^$important
 /xminer.js^$script,important
 /xminer.min.js^$script,important
 /xmr.js^$script,important
@@ -1595,6 +1597,10 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http:*-ad.
 |http:*-ad^
 |http:*-ad_
+|http:*-adriver-$important
+|http:*-adriver.$important
+|http:*-adriver^$important
+|http:*-adriver_$important
 |http:*-ads-
 |http:*-ads.
 |http:*-ads^
@@ -1639,6 +1645,10 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http:*.ad.
 |http:*.ad^
 |http:*.ad_
+|http:*.adriver-$important
+|http:*.adriver.$important
+|http:*.adriver^$important
+|http:*.adriver_$important
 |http:*.ads-
 |http:*.ads.
 |http:*.ads^
@@ -1685,6 +1695,10 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http:*^ad.
 |http:*^ad^
 |http:*^ad_
+|http:*^adriver-$important
+|http:*^adriver.$important
+|http:*^adriver^$important
+|http:*^adriver_$important
 |http:*^ads-
 |http:*^ads.
 |http:*^ads^
@@ -1729,6 +1743,10 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http:*_ad.
 |http:*_ad^
 |http:*_ad_
+|http:*_adriver-$important
+|http:*_adriver.$important
+|http:*_adriver^$important
+|http:*_adriver_$important
 |http:*_ads-
 |http:*_ads.
 |http:*_ads^
@@ -1775,6 +1793,10 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |https:*-ad.
 |https:*-ad^
 |https:*-ad_
+|https:*-adriver-$important
+|https:*-adriver.$important
+|https:*-adriver^$important
+|https:*-adriver_$important
 |https:*-ads-
 |https:*-ads.
 |https:*-ads^
@@ -1819,6 +1841,10 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |https:*.ad.
 |https:*.ad^
 |https:*.ad_
+|https:*.adriver-$important
+|https:*.adriver.$important
+|https:*.adriver^$important
+|https:*.adriver_$important
 |https:*.ads-
 |https:*.ads.
 |https:*.ads^
@@ -1865,6 +1891,10 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |https:*^ad.
 |https:*^ad^
 |https:*^ad_
+|https:*^adriver-$important
+|https:*^adriver.$important
+|https:*^adriver^$important
+|https:*^adriver_$important
 |https:*^ads-
 |https:*^ads.
 |https:*^ads^
@@ -1909,6 +1939,10 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |https:*_ad.
 |https:*_ad^
 |https:*_ad_
+|https:*_adriver-$important
+|https:*_adriver.$important
+|https:*_adriver^$important
+|https:*_adriver_$important
 |https:*_ads-
 |https:*_ads.
 |https:*_ads^
@@ -1996,6 +2030,7 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||newrelic.com^$important
 ||news.yandex.*^$first-party,script,important
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js^$script,important
+||piguiqproxy.com^$important
 ||quantserve.com^$important
 ||reddit.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.reddit.com *.redditmedia.com *.redditstatic.com reddit-uploaded-media.s3-accelerate.amazonaws.com,important
 ||redditmedia.com/gtm/jail^$important
@@ -2035,5 +2070,6 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||youtube.com/get_midroll*^$important
 ||youtube.com/ptracking^$important
 ||youtube.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.ggpht.com *.googlevideo.com *.ytimg.com *.googleusercontent.com www.youtube.com,important
+||zmctrack.net^$important
 ~mail.google.com##.ads:not(:root):not(body):not(input)
 ~mail.yandex.by,~mail.yandex.ru,~mail.yandex.ua,yandex.by,yandex.ru,yandex.ua##+js(set-constant.js, math.random, trueFunc)
