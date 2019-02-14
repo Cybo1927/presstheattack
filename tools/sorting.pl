@@ -1,9 +1,5 @@
 #!/usr/bin/perl
 
-## ALL RIGHTS TO THIS SCRIPT BELONG TO HIS CREATOR
-## The authorship of the script belongs to Fanboynz <https://github.com/ryanbr>
-## The script is borrowed from here https://github.com/ryanbr/fanboy-adblock
-
 ## This file is part of the Press the Attack project,
 ## Copyright (c) 2019 Bogachenko Vyacheslav
 ##
