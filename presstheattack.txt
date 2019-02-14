@@ -1,8 +1,8 @@
 ﻿[Adblock Plus 2.0]
-! Checksum: 1Ac4wKKP3Fgt1Ri3xun/cw
+! Checksum: lmgcB6hqE9ORgTYy7rn/Og
 ! Title: Press the Attack
-! Last modified: 2019-02-14,  8:28:30
-! Version: 20190214082830
+! Last modified: 2019-02-14, 11:46:09
+! Version: 20190214114609
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
@@ -1222,6 +1222,7 @@ $font,important
 /advert.js^$script,important
 /analytics.js^$script,important
 /annotations$domain=youtube.com
+/apstag.js^$script,important
 /blank.gif$domain=~m.vk.com|~vk.com|~web.telegram.org
 /c-hive.js^$script,important
 /cleardot.gif$important
@@ -1232,7 +1233,10 @@ $font,important
 /crypta.js*^$script,important
 /cryptonight.wasm^$important
 /endscreen$domain=youtube.com
+/ga-lite.js^$script,important
 /ga.js^$script,important
+/ga_lite.js^$script,important
+/ga_setup.js^$script,important
 /gads.*^$important
 /google-conversion.html$important
 /gpt.js^$script,important
@@ -1246,6 +1250,8 @@ $font,important
 /miner-ui.js^$script,important
 /miner.min.js^$script,important
 /minero.*^$important
+/moatad.js^$script,important
+/moatframe.js^$script,important
 /ph-functions.js$script,important
 /ph-tracking.js^$script,important
 /ping.gif^$important
@@ -1953,6 +1959,7 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||2ch.hk/js/snowstorm.js
 ||2ch.hk/makaba/templates/js/c.gif
 ||2ch.hk^*/tracker.js
+||aaxads.com^$important
 ||adbetnet.com^$important
 ||adfox.ru^$important
 ||admixer.net^$important
@@ -1987,12 +1994,16 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||mail.yandex.*/monitoring_liza.txt$important
 ||mc.yandex.ru/metrika/tag.js^$script,important
 ||mc.yandex.ru/metrika/watch.js^$script,important
+||moatads.com^$important
 ||mradx.net^$important
 ||navdmp.com^$important
 ||newrelic.com^$important
 ||news.yandex.*^$first-party,script,important
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js^$script,important
 ||quantserve.com^$important
+||reddit.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.reddit.com *.redditmedia.com *.redditstatic.com reddit-uploaded-media.s3-accelerate.amazonaws.com,important
+||redditmedia.com/gtm/jail^$important
+||redditstatic.com/moat^$important
 ||rutarget.ru^$important
 ||scontent.xx.fbcdn.net/hads-ak-prn*/*.png$important
 ||scontent.xx.fbcdn23dssr3jqnq.onion/hads-ak-prn*/*.png$important
