@@ -1,8 +1,8 @@
 ﻿[Adblock Plus 2.0]
-! Checksum: TF2TEpYLGTxrMjxWb+eZWg
+! Checksum: vpJCZ5YSNRhnRMCU4wWkLQ
 ! Title: Press the Attack
-! Last modified: 2019-02-14, 11:50:20
-! Version: 20190214115020
+! Last modified: 2019-02-14, 11:51:15
+! Version: 20190214115115
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
@@ -1546,6 +1546,7 @@ kinopoisk.ru##+js(setInterval-defuser.js, (), 500)
 kinopoisk.ru,yandex.by,yandex.ru,yandex.ua##+js(cookie-remover.js, /^blcrm|^bltsr|yabs|adb|^cmtchd|^crookie|^kpunk|is_adblock|abp|yp|ys|^mcBaGDt/)
 mail.ru##.i-clearfix.feed-generic__container
 music.yandex.by,music.yandex.ru,music.yandex.ua##.sidebar__under
+rambler.ru##^script:has-text((Number,)
 translate.yandex.ru,translate.yandex.ua,translate.yandex.by##.button_icon_collections.button_icon.button
 twitch.tv##+js(twitch-videoad.js)
 twitch.tv##a[href*=".com/ad/"]>img
