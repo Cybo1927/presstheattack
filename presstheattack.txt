@@ -1,8 +1,8 @@
 ﻿[Adblock Plus 2.0]
-! Checksum: vfFz7L0TVSJ0UX+0IheUBw
+! Checksum: XobrqLpRTRzsSFPrf7h4bA
 ! Title: Press the Attack
-! Last modified: 2019-02-16,  9:12:33
-! Version: 20190216091233
+! Last modified: 2019-02-16,  9:52:19
+! Version: 20190216095219
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
@@ -1884,6 +1884,14 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http*:*-metrica.$important
 |http*:*-metrica^$important
 |http*:*-metrica_$important
+|http*:*-metrics-$important
+|http*:*-metrics.$important
+|http*:*-metrics^$important
+|http*:*-metrics_$important
+|http*:*-metrika-$important
+|http*:*-metrika.$important
+|http*:*-metrika^$important
+|http*:*-metrika_$important
 |http*:*-pagead-$important
 |http*:*-pagead.$important
 |http*:*-pagead^$important
@@ -1924,6 +1932,18 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http*:*-referrer.$third-party
 |http*:*-referrer^$third-party
 |http*:*-referrer_$third-party
+|http*:*-reklam-$important
+|http*:*-reklam.$important
+|http*:*-reklam^$important
+|http*:*-reklam_$important
+|http*:*-reklama-$important
+|http*:*-reklama.$important
+|http*:*-reklama^$important
+|http*:*-reklama_$important
+|http*:*-reklamer-$important
+|http*:*-reklamer.$important
+|http*:*-reklamer^$important
+|http*:*-reklamer_$important
 |http*:*-sponsor-
 |http*:*-sponsor.
 |http*:*-sponsor^
@@ -1948,10 +1968,18 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http*:*-track.
 |http*:*-track^
 |http*:*-track_
+|http*:*-tracker-
+|http*:*-tracker.
+|http*:*-tracker^
+|http*:*-tracker_
 |http*:*-tracking-$important
 |http*:*-tracking.$important
 |http*:*-tracking^$important
 |http*:*-tracking_$important
+|http*:*-webstats-$important
+|http*:*-webstats.$important
+|http*:*-webstats^$important
+|http*:*-webstats_$important
 |http*:*.ad-sdk-$important
 |http*:*.ad-sdk.$important
 |http*:*.ad-sdk^$important
@@ -2008,6 +2036,14 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http*:*.metrica.$important
 |http*:*.metrica^$important
 |http*:*.metrica_$important
+|http*:*.metrics-$important
+|http*:*.metrics.$important
+|http*:*.metrics^$important
+|http*:*.metrics_$important
+|http*:*.metrika-$important
+|http*:*.metrika.$important
+|http*:*.metrika^$important
+|http*:*.metrika_$important
 |http*:*.pagead-$important
 |http*:*.pagead.$important
 |http*:*.pagead^$important
@@ -2048,6 +2084,18 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http*:*.referrer.$third-party
 |http*:*.referrer^$third-party
 |http*:*.referrer_$third-party
+|http*:*.reklam-$important
+|http*:*.reklam.$important
+|http*:*.reklam^$important
+|http*:*.reklam_$important
+|http*:*.reklama-$important
+|http*:*.reklama.$important
+|http*:*.reklama^$important
+|http*:*.reklama_$important
+|http*:*.reklamer-$important
+|http*:*.reklamer.$important
+|http*:*.reklamer^$important
+|http*:*.reklamer_$important
 |http*:*.sponsor-
 |http*:*.sponsor.
 |http*:*.sponsor^
@@ -2072,10 +2120,18 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http*:*.track.
 |http*:*.track^
 |http*:*.track_
+|http*:*.tracker-
+|http*:*.tracker.
+|http*:*.tracker^
+|http*:*.tracker_
 |http*:*.tracking-$important
 |http*:*.tracking.$important
 |http*:*.tracking^$important
 |http*:*.tracking_$important
+|http*:*.webstats-$important
+|http*:*.webstats.$important
+|http*:*.webstats^$important
+|http*:*.webstats_$important
 |http*:*?*&ip=$third-party
 |http*:*?ip=$third-party
 |http*:*^ad-sdk-$important
@@ -2134,6 +2190,14 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http*:*^metrica.$important
 |http*:*^metrica^$important
 |http*:*^metrica_$important
+|http*:*^metrics-$important
+|http*:*^metrics.$important
+|http*:*^metrics^$important
+|http*:*^metrics_$important
+|http*:*^metrika-$important
+|http*:*^metrika.$important
+|http*:*^metrika^$important
+|http*:*^metrika_$important
 |http*:*^pagead-$important
 |http*:*^pagead.$important
 |http*:*^pagead^$important
@@ -2174,6 +2238,18 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http*:*^referrer.$third-party
 |http*:*^referrer^$third-party
 |http*:*^referrer_$third-party
+|http*:*^reklam-$important
+|http*:*^reklam.$important
+|http*:*^reklam^$important
+|http*:*^reklam_$important
+|http*:*^reklama-$important
+|http*:*^reklama.$important
+|http*:*^reklama^$important
+|http*:*^reklama_$important
+|http*:*^reklamer-$important
+|http*:*^reklamer.$important
+|http*:*^reklamer^$important
+|http*:*^reklamer_$important
 |http*:*^sponsor-
 |http*:*^sponsor.
 |http*:*^sponsor^
@@ -2198,10 +2274,18 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http*:*^track.
 |http*:*^track^
 |http*:*^track_
+|http*:*^tracker-
+|http*:*^tracker.
+|http*:*^tracker^
+|http*:*^tracker_
 |http*:*^tracking-$important
 |http*:*^tracking.$important
 |http*:*^tracking^$important
 |http*:*^tracking_$important
+|http*:*^webstats-$important
+|http*:*^webstats.$important
+|http*:*^webstats^$important
+|http*:*^webstats_$important
 |http*:*_ad-sdk-$important
 |http*:*_ad-sdk.$important
 |http*:*_ad-sdk^$important
@@ -2258,6 +2342,14 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http*:*_metrica.$important
 |http*:*_metrica^$important
 |http*:*_metrica_$important
+|http*:*_metrics-$important
+|http*:*_metrics.$important
+|http*:*_metrics^$important
+|http*:*_metrics_$important
+|http*:*_metrika-$important
+|http*:*_metrika.$important
+|http*:*_metrika^$important
+|http*:*_metrika_$important
 |http*:*_pagead-$important
 |http*:*_pagead.$important
 |http*:*_pagead^$important
@@ -2298,6 +2390,18 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http*:*_referrer.$third-party
 |http*:*_referrer^$third-party
 |http*:*_referrer_$third-party
+|http*:*_reklam-$important
+|http*:*_reklam.$important
+|http*:*_reklam^$important
+|http*:*_reklam_$important
+|http*:*_reklama-$important
+|http*:*_reklama.$important
+|http*:*_reklama^$important
+|http*:*_reklama_$important
+|http*:*_reklamer-$important
+|http*:*_reklamer.$important
+|http*:*_reklamer^$important
+|http*:*_reklamer_$important
 |http*:*_sponsor-
 |http*:*_sponsor.
 |http*:*_sponsor^
@@ -2322,10 +2426,18 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http*:*_track.
 |http*:*_track^
 |http*:*_track_
+|http*:*_tracker-
+|http*:*_tracker.
+|http*:*_tracker^
+|http*:*_tracker_
 |http*:*_tracking-$important
 |http*:*_tracking.$important
 |http*:*_tracking^$important
 |http*:*_tracking_$important
+|http*:*_webstats-$important
+|http*:*_webstats.$important
+|http*:*_webstats^$important
+|http*:*_webstats_$important
 ||1-1ads.com^$important
 ||2ch.hk/images/
 ||2ch.hk/js/snowstorm.js
