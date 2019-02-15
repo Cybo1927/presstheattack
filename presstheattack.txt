@@ -1,8 +1,8 @@
 ﻿[Adblock Plus 2.0]
-! Checksum: 3l8DQLcecrBmitZPnsc67g
+! Checksum: yWAAn6eyg09ZB4BlBDlL8g
 ! Title: Press the Attack
-! Last modified: 2019-02-15, 17:21:38
-! Version: 20190215172138
+! Last modified: 2019-02-16,  5:00:55
+! Version: 20190216050055
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
@@ -2333,15 +2333,18 @@ twitch.tv##a[href*="dotapl.us"]>img
 twitch.tv##a[href*="dxracer-europe.com"]>img
 twitch.tv##a[href*="fragstore.ru"]>img
 twitch.tv##a[href*="g2a.com"]>img
+twitch.tv##a[href*="garnitura"]>img
 twitch.tv##a[href*="gg.bet"]>img
 twitch.tv##a[href*="goodgame.pm"]>img
 twitch.tv##a[href*="gosu.ai"]>img
+twitch.tv##a[href*="invasion.ru"]>img
 twitch.tv##a[href*="megafon.ru"]>img
 twitch.tv##a[href*="mybestcontent.ru"]>img
 twitch.tv##a[href*="noblechairs.com"]>img
 twitch.tv##a[href*="poker"]>img
 twitch.tv##a[href*="suveniry"]>img
 twitch.tv##a[href*="upskill.ru"]>img
+twitch.tv##a[href*="vk.cc"]>img
 twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/):xpath(..)
 xvideos.com##+js(abort-on-property-write.js, openpop)
 xvideos.com##+js(nowebrtc.js)
@@ -2821,6 +2824,7 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||twitter.com/*/recommendations^
 ||twitter.com/*/toast_poll$important
 ||vk-portal.net^$important
+||vk.cc^
 ||vk.cc^
 ||vk.com/js/lib/px.js^$important
 ||vk.com/rtrg^$important
