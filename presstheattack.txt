@@ -1,8 +1,8 @@
 ﻿[Adblock Plus 2.0]
-! Checksum: j8/tQIs/pfba5kos9rUsnQ
+! Checksum: 5ntWZl3gs/CScPrmFchvTA
 ! Title: Press the Attack
-! Last modified: 2019-02-14, 16:23:42
-! Version: 20190214162342
+! Last modified: 2019-02-15, 12:25:43
+! Version: 20190215122543
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
@@ -2305,9 +2305,12 @@ kinopoisk.ru##+js(setInterval-defuser.js, (), 500)
 kinopoisk.ru,yandex.by,yandex.ru,yandex.ua##+js(cookie-remover.js, /^blcrm|^bltsr|yabs|adb|^cmtchd|^crookie|^kpunk|is_adblock|abp|yp|ys|^mcBaGDt/)
 mail.ru##.i-clearfix.feed-generic__container
 music.yandex.by,music.yandex.ru,music.yandex.ua##.sidebar__under
+rambler.ru##+js(set-constant.js, Math.random, trueFunc)
 rambler.ru##^script:has-text((Number,)
 translate.yandex.ru,translate.yandex.ua,translate.yandex.by##.button_icon_collections.button_icon.button
 twitch.tv##+js(twitch-videoad.js)
+twitch.tv##a[href*="&BannerId="]>img
+twitch.tv##a[href*="&bonus="]>img
 twitch.tv##a[href*=".com/ad/"]>img
 twitch.tv##a[href*=".gg"]>img
 twitch.tv##a[href*=".net/ad/"]>img
@@ -2318,6 +2321,7 @@ twitch.tv##a[href*="/go/"]>img
 twitch.tv##a[href*="/joinchat/"]>img
 twitch.tv##a[href*="/promo/"]>img
 twitch.tv##a[href*="/shop/"]>img
+twitch.tv##a[href*="?AffiliateUserId="]>img
 twitch.tv##a[href*="?br="]>img
 twitch.tv##a[href*="atributika"]>img
 twitch.tv##a[href*="bet4.pm"]>img
