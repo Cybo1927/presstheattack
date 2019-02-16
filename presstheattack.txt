@@ -1,8 +1,8 @@
 ﻿[Adblock Plus 2.0]
-! Checksum: 2NAipTgl1azT0SIZz6iGtQ
+! Checksum: iLInQeNVEKDPY2iuCrkwdA
 ! Title: Press the Attack
-! Last modified: 2019-02-17,  5:34:06
-! Version: 20190217053406
+! Last modified: 2019-02-17,  8:26:16
+! Version: 20190217082616
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
@@ -1763,6 +1763,7 @@ $inline-font,important
 1xstavka$important
 2ch.hk###mobile-plashque
 2ch.hk###plashque
+@@||api-maps.yandex.ru^
 @@||githubusercontent.com^$image
 @@||google.com/recaptcha^
 @@||googlevideo.com^*?*&ip=$third-party
@@ -1772,6 +1773,7 @@ $inline-font,important
 @@||ttvnw.net^$xmlhttprequest,domain=twitch.tv
 @@||vk.com/al_feed.php^
 @@||vk.com/widget_community.php^
+@@||yandex.*/search^
 @@||yastatic.net/yandex-video-player-iframe-api-bundles^
 GGBET$image
 kinopoisk.ru##+js(abort-on-property-read.js, advBlock)
@@ -2537,7 +2539,7 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http*:*_getad_$important
 |http*:*_log-
 |http*:*_log.
-|http*:*_log^
+|http*:*_log^$domain=~github.com
 |http*:*_log_
 |http*:*_logs-
 |http*:*_logs.
