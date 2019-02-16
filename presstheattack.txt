@@ -1,8 +1,8 @@
 ﻿[Adblock Plus 2.0]
-! Checksum: wHFWS+N7fkCjJR24KTytwg
+! Checksum: 9Ixe3McZqbdJciVy/k36fQ
 ! Title: Press the Attack
-! Last modified: 2019-02-16, 10:45:02
-! Version: 20190216104502
+! Last modified: 2019-02-16, 14:38:58
+! Version: 20190216143858
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
@@ -1711,6 +1711,7 @@ $font,important
 /advert.js^$script,important
 /analytics.js^$script,important
 /annotations$domain=youtube.com
+/antiadb.js^$script,important
 /apstag.js^$script,important
 /blank.gif$domain=~m.vk.com|~vk.com|~web.telegram.org
 /c-hive.js^$script,important
@@ -1802,6 +1803,7 @@ twitch.tv##a[href*="betsdota2.com"]>img
 twitch.tv##a[href*="bit.ly"]>img
 twitch.tv##a[href*="campaign"]>img
 twitch.tv##a[href*="casino"]>img
+twitch.tv##a[href*="clck.ru"]>img
 twitch.tv##a[href*="dotapl.us"]>img
 twitch.tv##a[href*="dxracer-europe.com"]>img
 twitch.tv##a[href*="fragstore.ru"]>img
@@ -2604,6 +2606,7 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||cdn.jsdelivr.net^$important
 ||cdn.ziffstatic.com^$important
 ||clck.ru^
+||collector.githubapp.com^$important
 ||cryptonoter.com/processor.js*^$script,important
 ||cutter.li^
 ||digitaltarget.ru^$important
@@ -2615,6 +2618,7 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||duckduckgo.com/y.js$important
 ||gamescarousel.com^$third-party
 ||gemius.pl^$important
+||github.com/_private/browser/stats^$important
 ||goo.gl^
 ||google-analytics.com/analytics.js$script,important
 ||google-analytics.com/ga.js$script,important
@@ -2647,6 +2651,7 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||ssl.google-analytics.com/ga.js^$script,important
 ||ssp.rambler.ru^$important
 ||stat.pladform.ru^$important
+||statcounter.com^$important
 ||static-mon.yandex.net/static/main.js^$script,important
 ||syndication.twitter.com^$important
 ||taboola.com^$important
