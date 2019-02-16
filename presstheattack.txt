@@ -1,8 +1,8 @@
 ﻿[Adblock Plus 2.0]
-! Checksum: 9Ixe3McZqbdJciVy/k36fQ
+! Checksum: KZvr7emZ6gXbWmb34F2qOQ
 ! Title: Press the Attack
-! Last modified: 2019-02-16, 14:38:58
-! Version: 20190216143858
+! Last modified: 2019-02-16, 14:43:16
+! Version: 20190216144316
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
@@ -1742,7 +1742,7 @@ $font,important
 /minero.*^$important
 /moatad.js^$script,important
 /moatframe.js^$script,important
-/ph-functions.js$script,important
+/ph-functions.js^$script,important
 /ph-tracking.js^$script,important
 /ping.gif^$important
 /piwik.js^$script,important
@@ -2610,7 +2610,7 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||cryptonoter.com/processor.js*^$script,important
 ||cutter.li^
 ||digitaltarget.ru^$important
-||doubleclick.net/instream/ad_status.js$script,important
+||doubleclick.net/instream/ad_status.js^$script,important
 ||doubleclick.net^$important
 ||doublepimp.com^$important
 ||doublepimpssl.com^$important
@@ -2620,10 +2620,10 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||gemius.pl^$important
 ||github.com/_private/browser/stats^$important
 ||goo.gl^
-||google-analytics.com/analytics.js$script,important
-||google-analytics.com/ga.js$script,important
-||google-analytics.com/plugins/ga/inpage_linkid.js$script,important
-||googletagmanager.com/gtm.js$script,important
+||google-analytics.com/analytics.js^$script,important
+||google-analytics.com/ga.js^$script,important
+||google-analytics.com/plugins/ga/inpage_linkid.js^$script,important
+||googletagmanager.com/gtm.js^$script,important
 ||gostats.com^$important
 ||harvest.surge.sh/h.js*^$script,important
 ||hostingcloud.win^$important
@@ -2646,7 +2646,7 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||rutarget.ru^$important
 ||scontent.xx.fbcdn.net/hads-ak-prn*/*.png$important
 ||scontent.xx.fbcdn23dssr3jqnq.onion/hads-ak-prn*/*.png$important
-||scorecardresearch.com/beacon.js$script,important
+||scorecardresearch.com/beacon.js^$script,important
 ||scorecardresearch.com^$important
 ||ssl.google-analytics.com/ga.js^$script,important
 ||ssp.rambler.ru^$important
@@ -2656,7 +2656,7 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||syndication.twitter.com^$important
 ||taboola.com^$important
 ||tns-counter.ru^$important
-||top100.ru/top100/top100.js$script,important
+||top100.ru/top100/top100.js^$script,important
 ||trafficfactory.biz^$important
 ||trafficjunky.net^$important
 ||twitch.tv^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' *.jtvnw.net *.ttvnw.net *.twitchcdn.net *.twitch.tv *.facebook.com *.facebook.net recaptcha.net *.google.com *.gstatic.com blob: wss:,important
