@@ -1,8 +1,8 @@
 ﻿[Adblock Plus 2.0]
-! Checksum: KZvr7emZ6gXbWmb34F2qOQ
+! Checksum: TSQHIVnYHCdo6i+IiIr3pA
 ! Title: Press the Attack
-! Last modified: 2019-02-16, 14:43:16
-! Version: 20190216144316
+! Last modified: 2019-02-16, 16:44:25
+! Version: 20190216164425
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
@@ -1892,6 +1892,10 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http*:*-banners.
 |http*:*-banners^
 |http*:*-banners_
+|http*:*-beacon-$important
+|http*:*-beacon.$important
+|http*:*-beacon^$important
+|http*:*-beacon_$important
 |http*:*-clck-
 |http*:*-clck.
 |http*:*-clck^
@@ -1932,6 +1936,10 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http*:*-pagead.$important
 |http*:*-pagead^$important
 |http*:*-pagead_$important
+|http*:*-partners-
+|http*:*-partners.
+|http*:*-partners^
+|http*:*-partners_
 |http*:*-phpads-$important
 |http*:*-phpads.$important
 |http*:*-phpads^$important
@@ -2004,7 +2012,7 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http*:*-teaser.$important
 |http*:*-teaser^$important
 |http*:*-teaser_$important
-|http*:*-track-
+|http*:*-track-$domain=~music.yandex.ua|~music.yandex.ru|~music.yandex.by
 |http*:*-track.
 |http*:*-track^
 |http*:*-track_
@@ -2080,6 +2088,10 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http*:*.banners.
 |http*:*.banners^
 |http*:*.banners_
+|http*:*.beacon-$important
+|http*:*.beacon.$important
+|http*:*.beacon^$important
+|http*:*.beacon_$important
 |http*:*.clck-
 |http*:*.clck.
 |http*:*.clck^
@@ -2120,6 +2132,10 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http*:*.pagead.$important
 |http*:*.pagead^$important
 |http*:*.pagead_$important
+|http*:*.partners-
+|http*:*.partners.
+|http*:*.partners^
+|http*:*.partners_
 |http*:*.phpads-$important
 |http*:*.phpads.$important
 |http*:*.phpads^$important
@@ -2270,6 +2286,10 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http*:*^banners.
 |http*:*^banners^
 |http*:*^banners_
+|http*:*^beacon-$important
+|http*:*^beacon.$important
+|http*:*^beacon^$important
+|http*:*^beacon_$important
 |http*:*^clck-
 |http*:*^clck.
 |http*:*^clck^
@@ -2310,6 +2330,10 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http*:*^pagead.$important
 |http*:*^pagead^$important
 |http*:*^pagead_$important
+|http*:*^partners-
+|http*:*^partners.
+|http*:*^partners^
+|http*:*^partners_
 |http*:*^phpads-$important
 |http*:*^phpads.$important
 |http*:*^phpads^$important
@@ -2382,9 +2406,9 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http*:*^teaser.$important
 |http*:*^teaser^$important
 |http*:*^teaser_$important
-|http*:*^track-
-|http*:*^track.
-|http*:*^track^
+|http*:*^track-$domain=~music.yandex.ua|~music.yandex.ru|~music.yandex.by
+|http*:*^track.$domain=~music.yandex.ua|~music.yandex.ru|~music.yandex.by
+|http*:*^track^$domain=~music.yandex.ua|~music.yandex.ru|~music.yandex.by
 |http*:*^track_
 |http*:*^tracker-
 |http*:*^tracker.
@@ -2458,6 +2482,10 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http*:*_banners.
 |http*:*_banners^
 |http*:*_banners_
+|http*:*_beacon-$important
+|http*:*_beacon.$important
+|http*:*_beacon^$important
+|http*:*_beacon_$important
 |http*:*_clck-
 |http*:*_clck.
 |http*:*_clck^
@@ -2498,6 +2526,10 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http*:*_pagead.$important
 |http*:*_pagead^$important
 |http*:*_pagead_$important
+|http*:*_partners-
+|http*:*_partners.
+|http*:*_partners^
+|http*:*_partners_
 |http*:*_phpads-$important
 |http*:*_phpads.$important
 |http*:*_phpads^$important
