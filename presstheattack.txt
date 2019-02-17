@@ -1,8 +1,8 @@
 ﻿[Adblock Plus 2.0]
-! Checksum: iLInQeNVEKDPY2iuCrkwdA
+! Checksum: e1PPw1ohK9c3jttsYpXcmQ
 ! Title: Press the Attack
-! Last modified: 2019-02-17,  8:26:16
-! Version: 20190217082616
+! Last modified: 2019-02-17, 11:24:40
+! Version: 20190217112440
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
@@ -25,7 +25,6 @@
 ! The list of filters below is primarily for uBlock Origin
 ! Download uBlock Origin from GitHub - https://github.com/gorhill/uBlock/releases/
 
-##.AD:not(:root):not(body):not(input)
 ##.ad:not(:root):not(body):not(input)
 ##.ADS:not(:root):not(body):not(input)
 ##.adsbygoogle:not(html):not(body)
@@ -1750,6 +1749,7 @@ $inline-font,important
 /pixel\.(jpg|png|jpeg|gif)/$important
 /projectpoi.min.js^$script,important
 /raven.js^$script,important
+/referrer.js^$script
 /snow.js^$script
 /spacer.gif^$important
 /sparechange.js*^$script,important
@@ -1899,6 +1899,10 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http*:*-beacon.$important
 |http*:*-beacon^$important
 |http*:*-beacon_$important
+|http*:*-campaign-
+|http*:*-campaign.
+|http*:*-campaign^
+|http*:*-campaign_
 |http*:*-clck-
 |http*:*-clck.
 |http*:*-clck^
@@ -2103,6 +2107,10 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http*:*.beacon.$important
 |http*:*.beacon^$important
 |http*:*.beacon_$important
+|http*:*.campaign-
+|http*:*.campaign.
+|http*:*.campaign^
+|http*:*.campaign_
 |http*:*.clck-
 |http*:*.clck.
 |http*:*.clck^
@@ -2309,6 +2317,10 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http*:*^beacon.$important
 |http*:*^beacon^$important
 |http*:*^beacon_$important
+|http*:*^campaign-
+|http*:*^campaign.
+|http*:*^campaign^
+|http*:*^campaign_
 |http*:*^clck-
 |http*:*^clck.
 |http*:*^clck^
@@ -2513,6 +2525,10 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http*:*_beacon.$important
 |http*:*_beacon^$important
 |http*:*_beacon_$important
+|http*:*_campaign-
+|http*:*_campaign.
+|http*:*_campaign^
+|http*:*_campaign_
 |http*:*_clck-
 |http*:*_clck.
 |http*:*_clck^
