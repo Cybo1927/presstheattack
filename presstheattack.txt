@@ -1,8 +1,8 @@
 ﻿[Adblock Plus 2.0]
-! Checksum: S+x6MDTr/IPZiSlJ0nWrNw
+! Checksum: Ucp3F99wzgBEBeoiNkqU1Q
 ! Title: Press the Attack
-! Last modified: 2019-02-17, 18:04:26
-! Version: 20190217180426
+! Last modified: 2019-02-18,  8:42:58
+! Version: 20190218084258
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
@@ -1653,6 +1653,14 @@ $cookie=/blcrm|bltsr|yabs|adb|cmtchd|crookie|kpunk|is_adblock|abp|yp|ys/,domain=
 $cookie=/unique_id/,domain=twitch.tv
 $font,important
 $inline-font,important
+-clicksor-
+-clicksor.
+-clicksor^
+-clicksor_
+.clicksor-
+.clicksor.
+.clicksor^
+.clicksor_
 /(gen|client|csi|generate|stream)\_204/$important
 /*?perfekt=wss://*^$important
 /*?proxy=ws://*^$important
@@ -1749,10 +1757,13 @@ $inline-font,important
 /pixel\.(jpg|png|jpeg|gif)/$important
 /projectpoi.min.js^$script,important
 /raven.js^$script,important
+/referdetect.js^$script,important
 /referrer.js^$script
+/s_code.js^$script,important
 /snow.js^$script
 /spacer.gif^$important
 /sparechange.js*^$script,important
+/visit.gif^$important
 /watch_ua.js^$important
 /xgemius.js^$important
 /xminer.js^$script,important
@@ -1773,6 +1784,14 @@ $inline-font,important
 @@||ttvnw.net^$xmlhttprequest,domain=twitch.tv
 @@||vk.com/al_feed.php^
 @@||yastatic.net/yandex-video-player-iframe-api-bundles^
+^clicksor-
+^clicksor.
+^clicksor^
+^clicksor_
+_clicksor-
+_clicksor.
+_clicksor^
+_clicksor_
 GGBET$image
 kinopoisk.ru##+js(abort-on-property-read.js, advBlock)
 kinopoisk.ru##+js(abort-on-property-read.js, Element.prototype.attachShadow)
@@ -1854,6 +1873,10 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http*:*-adinfo.$important
 |http*:*-adinfo^$important
 |http*:*-adinfo_$important
+|http*:*-admanager-$important
+|http*:*-admanager.$important
+|http*:*-admanager^$important
+|http*:*-admanager_$important
 |http*:*-ads-$domain=~yandex.ru|~yandex.ua|~yandex.by
 |http*:*-ads.
 |http*:*-ads^
@@ -1862,6 +1885,10 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http*:*-adsid.
 |http*:*-adsid^
 |http*:*-adsid_
+|http*:*-adstart-$important
+|http*:*-adstart.$important
+|http*:*-adstart^$important
+|http*:*-adstart_$important
 |http*:*-advert-$important
 |http*:*-advert.$important
 |http*:*-advert^$important
@@ -1986,6 +2013,14 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http*:*-ptracking.$important
 |http*:*-ptracking^$important
 |http*:*-ptracking_$important
+|http*:*-reclama-$important
+|http*:*-reclama.$important
+|http*:*-reclama^$important
+|http*:*-reclama_$important
+|http*:*-refer-$third-party
+|http*:*-refer.$third-party
+|http*:*-refer^$third-party
+|http*:*-refer_$third-party
 |http*:*-referer-$third-party
 |http*:*-referer.$third-party
 |http*:*-referer^$third-party
@@ -2062,6 +2097,10 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http*:*.adinfo.$important
 |http*:*.adinfo^$important
 |http*:*.adinfo_$important
+|http*:*.admanager-$important
+|http*:*.admanager.$important
+|http*:*.admanager^$important
+|http*:*.admanager_$important
 |http*:*.ads-
 |http*:*.ads.
 |http*:*.ads^
@@ -2070,6 +2109,10 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http*:*.adsid.
 |http*:*.adsid^
 |http*:*.adsid_
+|http*:*.adstart-$important
+|http*:*.adstart.$important
+|http*:*.adstart^$important
+|http*:*.adstart_$important
 |http*:*.advert-$important
 |http*:*.advert.$important
 |http*:*.advert^$important
@@ -2194,6 +2237,14 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http*:*.ptracking.$important
 |http*:*.ptracking^$important
 |http*:*.ptracking_$important
+|http*:*.reclama-$important
+|http*:*.reclama.$important
+|http*:*.reclama^$important
+|http*:*.reclama_$important
+|http*:*.refer-$third-party
+|http*:*.refer.$third-party
+|http*:*.refer^$third-party
+|http*:*.refer_$third-party
 |http*:*.referer-$third-party
 |http*:*.referer.$third-party
 |http*:*.referer^$third-party
@@ -2272,6 +2323,10 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http*:*^adinfo.$important
 |http*:*^adinfo^$important
 |http*:*^adinfo_$important
+|http*:*^admanager-$important
+|http*:*^admanager.$important
+|http*:*^admanager^$important
+|http*:*^admanager_$important
 |http*:*^ads-
 |http*:*^ads.
 |http*:*^ads^
@@ -2280,6 +2335,10 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http*:*^adsid.
 |http*:*^adsid^
 |http*:*^adsid_
+|http*:*^adstart-$important
+|http*:*^adstart.$important
+|http*:*^adstart^$important
+|http*:*^adstart_$important
 |http*:*^advert-$important
 |http*:*^advert.$important
 |http*:*^advert^$important
@@ -2404,6 +2463,14 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http*:*^ptracking.$important
 |http*:*^ptracking^$important
 |http*:*^ptracking_$important
+|http*:*^reclama-$important
+|http*:*^reclama.$important
+|http*:*^reclama^$important
+|http*:*^reclama_$important
+|http*:*^refer-$third-party
+|http*:*^refer.$third-party
+|http*:*^refer^$third-party
+|http*:*^refer_$third-party
 |http*:*^referer-$third-party
 |http*:*^referer.$third-party
 |http*:*^referer^$third-party
@@ -2480,6 +2547,10 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http*:*_adinfo.$important
 |http*:*_adinfo^$important
 |http*:*_adinfo_$important
+|http*:*_admanager-$important
+|http*:*_admanager.$important
+|http*:*_admanager^$important
+|http*:*_admanager_$important
 |http*:*_ads-
 |http*:*_ads.
 |http*:*_ads^
@@ -2488,6 +2559,10 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http*:*_adsid.
 |http*:*_adsid^
 |http*:*_adsid_
+|http*:*_adstart-$important
+|http*:*_adstart.$important
+|http*:*_adstart^$important
+|http*:*_adstart_$important
 |http*:*_advert-$important
 |http*:*_advert.$important
 |http*:*_advert^$important
@@ -2612,6 +2687,14 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http*:*_ptracking.$important
 |http*:*_ptracking^$important
 |http*:*_ptracking_$important
+|http*:*_reclama-$important
+|http*:*_reclama.$important
+|http*:*_reclama^$important
+|http*:*_reclama_$important
+|http*:*_refer-$third-party
+|http*:*_refer.$third-party
+|http*:*_refer^$third-party
+|http*:*_refer_$third-party
 |http*:*_referer-$third-party
 |http*:*_referer.$third-party
 |http*:*_referer^$third-party
