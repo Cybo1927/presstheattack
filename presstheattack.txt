@@ -1,8 +1,8 @@
 ﻿[Adblock Plus 2.0]
-! Checksum: Ucp3F99wzgBEBeoiNkqU1Q
+! Checksum: OTz1Zb2ONg+SFG6jrTgISA
 ! Title: Press the Attack
-! Last modified: 2019-02-18,  8:42:58
-! Version: 20190218084258
+! Last modified: 2019-02-18,  8:51:06
+! Version: 20190218085106
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
@@ -1901,10 +1901,18 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http*:*-adview.$important
 |http*:*-adview^$important
 |http*:*-adview_$important
+|http*:*-affiliate-$important
+|http*:*-affiliate.$important
+|http*:*-affiliate^$important
+|http*:*-affiliate_$important
 |http*:*-affiliates-$important
 |http*:*-affiliates.$important
 |http*:*-affiliates^$important
 |http*:*-affiliates_$important
+|http*:*-affiliation-$important
+|http*:*-affiliation.$important
+|http*:*-affiliation^$important
+|http*:*-affiliation_$important
 |http*:*-analytics-$important
 |http*:*-analytics.$important
 |http*:*-analytics^$important
@@ -2125,10 +2133,18 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http*:*.adview.$important
 |http*:*.adview^$important
 |http*:*.adview_$important
+|http*:*.affiliate-$important
+|http*:*.affiliate.$important
+|http*:*.affiliate^$important
+|http*:*.affiliate_$important
 |http*:*.affiliates-$important
 |http*:*.affiliates.$important
 |http*:*.affiliates^$important
 |http*:*.affiliates_$important
+|http*:*.affiliation-$important
+|http*:*.affiliation.$important
+|http*:*.affiliation^$important
+|http*:*.affiliation_$important
 |http*:*.analytics-$important
 |http*:*.analytics.$important
 |http*:*.analytics^$important
@@ -2351,10 +2367,18 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http*:*^adview.$important
 |http*:*^adview^$important
 |http*:*^adview_$important
+|http*:*^affiliate-$important
+|http*:*^affiliate.$important
+|http*:*^affiliate^$important
+|http*:*^affiliate_$important
 |http*:*^affiliates-$important
 |http*:*^affiliates.$important
 |http*:*^affiliates^$important
 |http*:*^affiliates_$important
+|http*:*^affiliation-$important
+|http*:*^affiliation.$important
+|http*:*^affiliation^$important
+|http*:*^affiliation_$important
 |http*:*^analytics-$important
 |http*:*^analytics.$important
 |http*:*^analytics^$important
@@ -2575,10 +2599,18 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http*:*_adview.$important
 |http*:*_adview^$important
 |http*:*_adview_$important
+|http*:*_affiliate-$important
+|http*:*_affiliate.$important
+|http*:*_affiliate^$important
+|http*:*_affiliate_$important
 |http*:*_affiliates-$important
 |http*:*_affiliates.$important
 |http*:*_affiliates^$important
 |http*:*_affiliates_$important
+|http*:*_affiliation-$important
+|http*:*_affiliation.$important
+|http*:*_affiliation^$important
+|http*:*_affiliation_$important
 |http*:*_analytics-$important
 |http*:*_analytics.$important
 |http*:*_analytics^$important
@@ -2793,7 +2825,7 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||harvest.surge.sh/h.js*^$script,important
 ||hostingcloud.win^$important
 ||imasdk.googleapis.com/js/sdkloader/ima3.js^$script,important
-||mail.yandex.*$1p,script,important
+||mail.yandex.*$first-party,script,important
 ||mail.yandex.*/monitoring_liza.txt$important
 ||mc.yandex.ru/metrika/tag.js^$script,important
 ||mc.yandex.ru/metrika/watch.js^$script,important
