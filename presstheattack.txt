@@ -1,8 +1,8 @@
 ﻿[Adblock Plus 2.0]
-! Checksum: e1PPw1ohK9c3jttsYpXcmQ
+! Checksum: S+x6MDTr/IPZiSlJ0nWrNw
 ! Title: Press the Attack
-! Last modified: 2019-02-17, 11:24:40
-! Version: 20190217112440
+! Last modified: 2019-02-17, 18:04:26
+! Version: 20190217180426
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
@@ -1772,8 +1772,6 @@ $inline-font,important
 @@||strm.yandex.*^
 @@||ttvnw.net^$xmlhttprequest,domain=twitch.tv
 @@||vk.com/al_feed.php^
-@@||vk.com/widget_community.php^
-@@||yandex.*/search^
 @@||yastatic.net/yandex-video-player-iframe-api-bundles^
 GGBET$image
 kinopoisk.ru##+js(abort-on-property-read.js, advBlock)
@@ -1828,6 +1826,7 @@ xvideos.com##+js(abort-on-property-write.js, openpop)
 xvideos.com##+js(nowebrtc.js)
 xvideos.com##+js(window.open-defuser.js)
 xvideos.com##+js(xvideos.com.js)
+xvideos.com##.x-message-info.x-message
 yandex.by,yandex.ru,yandex.ua##.media-grid_js_inited.font-regular.i-bem.media-grid_theme_white.media-grid_visible_yes.media-grid
 yandex.ru,yandex.ua,yandex.by##+js(abort-on-property-read.js, Element.prototype.attachShadow)
 yandex.ru,yandex.ua,yandex.by##.home-link_intense-blue_yes.desk-notif-card_login-plus.home-link
