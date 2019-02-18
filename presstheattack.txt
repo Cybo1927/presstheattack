@@ -1,8 +1,8 @@
 ﻿[Adblock Plus 2.0]
-! Checksum: vrm2zVKVFCRC9OBtYrgYrA
+! Checksum: mVxHq1zxEW/OaVBq0OpizQ
 ! Title: Press the Attack
-! Last modified: 2019-02-18, 21:10:09
-! Version: 20190218211009
+! Last modified: 2019-02-19,  7:48:04
+! Version: 20190219074804
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
@@ -1724,7 +1724,7 @@ $inline-font,important
 /annotations$domain=youtube.com
 /antiadb.js^$script,important
 /apstag.js^$script,important
-/blank.gif$domain=~m.vk.com|~vk.com|~web.telegram.org
+/blank.gif^$domain=~m.vk.com|~vk.com|~web.telegram.org
 /c-hive.js^$script,important
 /c.gif^$important
 /cleardot.gif^$domain=~drive.google.com
@@ -1740,14 +1740,14 @@ $inline-font,important
 /ga_lite.js^$script,important
 /ga_setup.js^$script,important
 /gads.js^$script,important
-/google-conversion.html$important
+/google-conversion.html^$important
 /gpt.js^$script,important
 /gtm.js^$script,important
 /hive.js^$script,important
 /ima3.js^$script,important
 /invoke.js^$script,important
 /jsecoin.*^$important
-/log[\W|_](type|event|entry)/$important
+/log[\W|_]?(type|event|entry)/$important
 /miner*.js^$script,important
 /miner-ui.js^$script,important
 /miner.min.js^$script,important
