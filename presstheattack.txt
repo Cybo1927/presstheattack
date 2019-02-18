@@ -1,8 +1,8 @@
 ﻿[Adblock Plus 2.0]
-! Checksum: Xf4lnAhw/QF+OXvmUZt4Vw
+! Checksum: Wduubzv+6F1dSXKNq+SVfw
 ! Title: Press the Attack
-! Last modified: 2019-02-19,  9:35:13
-! Version: 20190219093513
+! Last modified: 2019-02-19, 10:26:31
+! Version: 20190219102631
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
@@ -2052,7 +2052,6 @@ $inline-font,important
 /1x1.*^$important
 /2x2.*^$important
 /\/0\.(jpg|png|jpeg|gif|apng|html)/$important
-/\/1\.(jpg|png|jpeg|gif|apng|html)/$important
 /\/a\.(jpg|png|jpeg|gif|apng|html)/$important
 /\/advert[1-9]?\.js/$important,script
 /\/fingerprint[1-9]?\.js/$important,script
@@ -2147,6 +2146,7 @@ $inline-font,important
 @@||strm.yandex.*^
 @@||ttvnw.net^$xmlhttprequest,domain=twitch.tv
 @@||vk.com/al_feed.php^
+@@||vk.com/widget_community.php^
 @@||yastatic.net/yandex-video-player-iframe-api-bundles^
 ^clicksor-
 ^clicksor.
@@ -2226,6 +2226,10 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http*:*-ad.
 |http*:*-ad^
 |http*:*-ad_
+|http*:*-adbetnet-$important
+|http*:*-adbetnet.$important
+|http*:*-adbetnet^$important
+|http*:*-adbetnet_$important
 |http*:*-adclick-$important
 |http*:*-adclick.$important
 |http*:*-adclick^$important
@@ -2462,6 +2466,10 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http*:*.ad.
 |http*:*.ad^
 |http*:*.ad_
+|http*:*.adbetnet-$important
+|http*:*.adbetnet.$important
+|http*:*.adbetnet^$important
+|http*:*.adbetnet_$important
 |http*:*.adclick-$important
 |http*:*.adclick.$important
 |http*:*.adclick^$important
@@ -2700,6 +2708,10 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http*:*^ad.
 |http*:*^ad^
 |http*:*^ad_
+|http*:*^adbetnet-$important
+|http*:*^adbetnet.$important
+|http*:*^adbetnet^$important
+|http*:*^adbetnet_$important
 |http*:*^adclick-$important
 |http*:*^adclick.$important
 |http*:*^adclick^$important
@@ -2936,6 +2948,10 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http*:*_ad.
 |http*:*_ad^
 |http*:*_ad_
+|http*:*_adbetnet-$important
+|http*:*_adbetnet.$important
+|http*:*_adbetnet^$important
+|http*:*_adbetnet_$important
 |http*:*_adclick-$important
 |http*:*_adclick.$important
 |http*:*_adclick^$important
@@ -3176,6 +3192,8 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||adfox.ru^$important
 ||admixer.net^$important
 ||adsafeprotected.com^$important
+||adswrapme.click^$important
+||advertserve.com^$important
 ||amazon-adsystem.com^$important
 ||amung.us^$important
 ||analytics.*^$important
@@ -3199,6 +3217,7 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||gamescarousel.com^$third-party
 ||gemius.pl^$important
 ||github.com/_private/browser/stats^$important
+||gnezdo.ru^$important
 ||goo.gl^
 ||google-analytics.com/analytics.js^$important,script
 ||google-analytics.com/ga.js^$important,script
@@ -3209,6 +3228,7 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||harvest.surge.sh/h.js*^$important,script
 ||hostingcloud.win^$important
 ||imasdk.googleapis.com/js/sdkloader/ima3.js^$important,script
+||mail.ru/share_count^$important
 ||mail.yandex.*$first-party,script,important
 ||mail.yandex.*/monitoring_liza.txt$important
 ||mc.yandex.ru/metrika/tag.js^$important,script
@@ -3223,6 +3243,7 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||popcash.net^$important
 ||protovid.com^$important
 ||quantserve.com^$important
+||recreativ.ru^$important
 ||reddit.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.reddit.com *.redditmedia.com *.redditstatic.com reddit-uploaded-media.s3-accelerate.amazonaws.com,important
 ||redditmedia.com/gtm/jail^$important
 ||redditstatic.com/moat^$important
@@ -3247,6 +3268,7 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||twitter.com/*/recommendations^
 ||twitter.com/*/toast_poll$important
 ||v0hs81ev3vepjr.ru^$important
+||vadideo.com^$important
 ||vk-portal.net^$important
 ||vk.cc^
 ||vk.com/js/lib/px.js^$important,script
