@@ -1,8 +1,8 @@
 ﻿[Adblock Plus 2.0]
-! Checksum: Wduubzv+6F1dSXKNq+SVfw
+! Checksum: 8O5/iwZ1SdWZImjVLufBdA
 ! Title: Press the Attack
-! Last modified: 2019-02-19, 10:26:31
-! Version: 20190219102631
+! Last modified: 2019-02-19, 21:11:04
+! Version: 20190219211104
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
@@ -127,7 +127,6 @@
 ##[class$="_yandex_rtb-"]:not(html):not(body)
 ##[class$="_yandex_rtb."]:not(html):not(body)
 ##[class$="_yandex_rtb_"]:not(html):not(body)
-##[class*="-ad-"]:not(html):not(body)
 ##[class*="-ad."]:not(html):not(body)
 ##[class*="-ad_"]:not(html):not(body)
 ##[class*="-adfox-"]:not(html):not(body)
@@ -2195,6 +2194,7 @@ twitch.tv##a[href*="fragstore.ru"] > img
 twitch.tv##a[href*="g2a.com"] > img
 twitch.tv##a[href*="garnitura"] > img
 twitch.tv##a[href*="gg.bet"] > img
+twitch.tv##a[href*="goo.gl"] > img
 twitch.tv##a[href*="goodgame.pm"] > img
 twitch.tv##a[href*="gosu.ai"] > img
 twitch.tv##a[href*="invasion.ru"] > img
@@ -3289,6 +3289,7 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||youtube.com/ptracking^$important
 ||youtube.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.ggpht.com *.googlevideo.com *.ytimg.com *.googleusercontent.com www.youtube.com,important
 ||zmctrack.net^$important
+~addons.mozilla.org##[class*="-ad-"]:not(html):not(body)
 ~mail.google.com##.AD:not(:root):not(body):not(input)
 ~mail.google.com##.ads:not(:root):not(body):not(input)
 ~mail.yandex.by,~mail.yandex.ru,~mail.yandex.ua,yandex.by,yandex.ru,yandex.ua##+js(set-constant.js, math.random, trueFunc)
