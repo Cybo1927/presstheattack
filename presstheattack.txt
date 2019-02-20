@@ -1,8 +1,8 @@
 ﻿[Adblock Plus 2.0]
-! Checksum: D8hkryKdaWxsg4m0e4LrvA
+! Checksum: xdw0Ys1Gd35ZuwOi4Yp4rA
 ! Title: Press the Attack
-! Last modified: 2019-02-20, 18:07:59
-! Version: 20190220180759
+! Last modified: 2019-02-20, 18:27:52
+! Version: 20190220182752
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
@@ -2017,7 +2017,7 @@ $inline-font,important
 */ad.js^$important,script
 */adblock.js^$important,script
 */adframe.js^$important,script
-*/ads.gif^$important
+*/ads.gif^$image,important,redirect=1x1-transparent.gif
 */ads.js^$important,script
 */adsbygoogle.js^$important,script
 */adsdk.js^$important,script
@@ -2026,13 +2026,13 @@ $inline-font,important
 */antiadb.js^$important,script
 */apstag.js^$important,script
 */authedminer.js^$important,script
-*/blank.gif^$important,redirect=1x1-transparent.gif
+*/blank.gif^$image,important,redirect=1x1-transparent.gif
 */browsermine.js^$important,script
 */c-hive.js^$important,script
-*/c.gif^$important
+*/c.gif^$image,important,redirect=1x1-transparent.gif
 */c.js^$important,script
 */c.wasm^$important,script
-*/cleardot.gif^$important,redirect=1x1-transparent.gif
+*/cleardot.gif^$image,important,redirect=1x1-transparent.gif
 */cloudcoins.js^$important,script
 */cloudcoins.min.js^$important,script
 */coinblind.js^$important,script
@@ -3216,6 +3216,38 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http*:*_webstats.$important
 |http*:*_webstats^$important
 |http*:*_webstats_$important
+|http:*-rek-
+|http:*-rek.
+|http:*-rek^
+|http:*-rek_
+|http:*.rek-
+|http:*.rek.
+|http:*.rek^
+|http:*.rek_
+|http:*^rek-
+|http:*^rek.
+|http:*^rek^
+|http:*^rek_
+|http:*_rek-
+|http:*_rek.
+|http:*_rek^
+|http:*_rek_
+|https:*-rek-
+|https:*-rek.
+|https:*-rek^
+|https:*-rek_
+|https:*.rek-
+|https:*.rek.
+|https:*.rek^
+|https:*.rek_
+|https:*^rek-
+|https:*^rek.
+|https:*^rek^
+|https:*^rek_
+|https:*_rek-
+|https:*_rek.
+|https:*_rek^
+|https:*_rek_
 ||1-1ads.com^$important
 ||28f77rd30e.ru^$important
 ||2ch.hk/images/
@@ -3266,6 +3298,7 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||news.yandex.*^$first-party,script,important
 ||phncdn.com^$important
 ||piguiqproxy.com^$important
+||pipe.aria.microsoft.com/collector^$xmlhttprequest,important
 ||popcash.net^$important
 ||protovid.com^$important
 ||quantserve.com^$important
