@@ -1,8 +1,8 @@
 ﻿[Adblock Plus 2.0]
-! Checksum: wNOZyilGIHsLNV4ucdcHtw
+! Checksum: wwfJvrl/xEEKWGl5mVlOAQ
 ! Title: Press the Attack
-! Last modified: 2019-02-20, 14:53:31
-! Version: 20190220145331
+! Last modified: 2019-02-20, 14:58:23
+! Version: 20190220145823
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
@@ -2026,15 +2026,13 @@ $inline-font,important
 */antiadb.js^$important,script
 */apstag.js^$important,script
 */authedminer.js^$important,script
-*/blank.gif^$image,redirect=1x1-transparent.gif
-*/blank.gif^$xmlhttprequest,redirect=1x1-transparent.gif
+*/blank.gif^$important,redirect=1x1-transparent.gif
 */browsermine.js^$important,script
 */c-hive.js^$important,script
 */c.gif^$important
 */c.js^$important,script
 */c.wasm^$important,script
-*/cleardot.gif^$image,redirect=1x1-transparent.gif
-*/cleardot.gif^$xmlhttprequest,redirect=1x1-transparent.gif
+*/cleardot.gif^$important,redirect=1x1-transparent.gif
 */cloudcoins.js^$important,script
 */cloudcoins.min.js^$important,script
 */coinblind.js^$important,script
@@ -2322,10 +2320,10 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http*:*-affiliation.$important
 |http*:*-affiliation^$important
 |http*:*-affiliation_$important
-|http*:*-analytics-$important
-|http*:*-analytics.$important
-|http*:*-analytics^$important
-|http*:*-analytics_$important
+|http*:*-analytics-
+|http*:*-analytics.
+|http*:*-analytics^
+|http*:*-analytics_
 |http*:*-banner-$domain=~twitch.tv
 |http*:*-banner-ad-$important
 |http*:*-banner-ad.$important
@@ -2562,10 +2560,10 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http*:*.affiliation.$important
 |http*:*.affiliation^$important
 |http*:*.affiliation_$important
-|http*:*.analytics-$important
-|http*:*.analytics.$important
-|http*:*.analytics^$important
-|http*:*.analytics_$important
+|http*:*.analytics-
+|http*:*.analytics.
+|http*:*.analytics^
+|http*:*.analytics_
 |http*:*.banner-
 |http*:*.banner-ad-$important
 |http*:*.banner-ad.$important
@@ -2804,10 +2802,10 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http*:*^affiliation.$important
 |http*:*^affiliation^$important
 |http*:*^affiliation_$important
-|http*:*^analytics-$important
-|http*:*^analytics.$important
-|http*:*^analytics^$important
-|http*:*^analytics_$important
+|http*:*^analytics-
+|http*:*^analytics.
+|http*:*^analytics^
+|http*:*^analytics_
 |http*:*^banner-
 |http*:*^banner-ad-$important
 |http*:*^banner-ad.$important
@@ -3044,10 +3042,10 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http*:*_affiliation.$important
 |http*:*_affiliation^$important
 |http*:*_affiliation_$important
-|http*:*_analytics-$important
-|http*:*_analytics.$important
-|http*:*_analytics^$important
-|http*:*_analytics_$important
+|http*:*_analytics-
+|http*:*_analytics.
+|http*:*_analytics^
+|http*:*_analytics_
 |http*:*_banner-$domain=~twitch.tv
 |http*:*_banner-ad-$important
 |http*:*_banner-ad.$important
