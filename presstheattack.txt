@@ -1,8 +1,8 @@
 ﻿[Adblock Plus 2.0]
-! Checksum: xhNv9TM8164IKf7FtqrO/Q
+! Checksum: sQwp+mZ2a6C+NhQePTjKOg
 ! Title: Press the Attack
-! Last modified: 2019-02-20, 18:45:29
-! Version: 20190220184529
+! Last modified: 2019-02-20, 18:52:09
+! Version: 20190220185209
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
@@ -2011,11 +2011,33 @@
 $cookie=/act|s|t|p|testcookie/,domain=mail.ru|ok.ru
 $cookie=/blcrm|bltsr|yabs|adb|cmtchd|crookie|kpunk|is_adblock|abp|yp|ys|mcBaGDt/,domain=avito.ru|kinopoisk.ru|yandex.by|yandex.ru|yandex.ua
 $cookie=/unique_id/,domain=twitch.tv
-$font,important
-$inline-font,important
-*-pixel.gif$image,important,redirect=1x1-transparent.gif
-*.pixel.gif$image,important,redirect=1x1-transparent.gif
-*/ad.gif$important
+*$font,important
+*$inline-font,important
+*/*?perfekt=wss://*^$important
+*/*?proxy=ws://*^$important
+*/*?proxy=wss://*^$important
+*/*bitrix/js/main/core/core_loader.js$important,script
+*/*bitrix/js/main/core/core_tasker.js$important,script
+*/*cn-asmjs.min.js$important,script
+*/*coinhive.min.js$important,script
+*/*cryptonight.wasm$important
+*/*deepMiner.js$important,script
+*/*deepMiner.min.js$important,script
+*/*gridcash.js$important,script
+*/*miner.js$important,script
+*/*n.2.1.js$important,script
+*/*n.2.1.l*.js$important,script
+*/*pixel.gif$image,important,redirect=1x1-transparent.gif
+*/*pool/direct.js$important,script
+*/*static/js/tpb.js$important,script
+*/*vbb/me0w.js$important,script
+*/*wasmminer.js$important,script
+*/*wasmminer.wasm*^$important
+*/*webmr.js$important,script
+*/*webmr4.js$important,script
+*/*webxmr.js$important,script
+*/*worker-asmjs.min.js$important,script
+*/ad.gif$image,important,redirect=1x1-transparent.gif
 */ad.js$important,script
 */adblock.js$important,script
 */adframe.js$important,script
@@ -2049,7 +2071,7 @@ $inline-font,important
 */deepMiner.js$important,script
 */deepMiner.min.js$important,script
 */dprocessor.js$important,script
-*/empty.gif$important
+*/empty.gif$image,important,redirect=1x1-transparent.gif
 */endscreen$domain=youtube.com
 */ga-lite.js$important,script
 */ga.js$important,script
@@ -2062,7 +2084,7 @@ $inline-font,important
 */hive.js$important,script
 */ima3.js$important,script
 */invoke.js$important,script
-*/jsecoin.*^$important
+*/jsecoin.js$important,script
 */log[\W|_]?(type|event|entry)/$important
 */miner*.js$important,script
 */miner-ui.js$important,script
@@ -2077,9 +2099,8 @@ $inline-font,important
 */obfus.min.js$important,script
 */ph-functions.js$important,script
 */ph-tracking.js$important,script
-*/ping.gif$important
+*/ping.gif$image,important,redirect=1x1-transparent.gif
 */piwik.js$important,script
-*/pixel.gif$image,important,redirect=1x1-transparent.gif
 */processor.js$important,script
 */projectpoi.min.js$important,script
 */raven.js$important,script
@@ -2089,12 +2110,12 @@ $inline-font,important
 */safelinkconverter.js$important,script
 */showads.js$important,script
 */snow.js$script
-*/spacer.gif$important
+*/spacer.gif$image,important,redirect=1x1-transparent.gif
 */sparechange.js$important,script
 */streambeam-jw.js$important,script
 */streambeam-video.js$important,script
 */videojs.ads.js$important,script
-*/visit.gif$important
+*/visit.gif$image,important,redirect=1x1-transparent.gif
 */watch_ua.js$important
 */webcoin.js$important,script
 */webcoin.min.js$important,script
@@ -2106,7 +2127,6 @@ $inline-font,important
 */xmr-monero.js$important,script
 */xmr.js$important,script
 */xmr.min.js$important,script
-*_pixel.gif$image,important,redirect=1x1-transparent.gif
 -clicksor-
 -clicksor.
 -clicksor^
@@ -2116,32 +2136,6 @@ $inline-font,important
 .clicksor^
 .clicksor_
 /(gen|client|csi|generate|stream)\_?204/$important
-/*?perfekt=wss://*^$important
-/*?proxy=ws://*^$important
-/*?proxy=wss://*^$important
-/*bitrix/js/main/core/core_loader.js$important,script
-/*bitrix/js/main/core/core_tasker.js$important,script
-/*cn-asmjs.min.js$important,script
-/*coinhive.min.js$important,script
-/*cryptonight.wasm$important
-/*deepMiner.js$important,script
-/*deepMiner.min.js$important,script
-/*gridcash.js$important,script
-/*miner.js$important,script
-/*n.2.1.js$important,script
-/*n.2.1.l*.js$important,script
-/*plugins/aj-cryptominer*^$important
-/*plugins/ajcryptominer*^$important
-/*plugins/wp-monero-miner-pro*^$important
-/*pool/direct.js$important,script
-/*static/js/tpb.js$important,script
-/*vbb/me0w.js$important,script
-/*wasmminer.js$important,script
-/*wasmminer.wasm*^$important
-/*webmr.js$important,script
-/*webmr4.js$important,script
-/*webxmr.js$important,script
-/*worker-asmjs.min.js$important,script
 /1x1.*^$important
 /2x2.*^$important
 /\/0\.(jpg|png|jpeg|gif|apng)/$important
