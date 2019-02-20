@@ -1,8 +1,8 @@
 ﻿[Adblock Plus 2.0]
-! Checksum: CRMqWhhMXzIIRQjI60VFrw
+! Checksum: qiz+aORdAVgSneMFNr7+vg
 ! Title: Press the Attack
-! Last modified: 2019-02-20, 20:05:20
-! Version: 20190220200520
+! Last modified: 2019-02-20, 20:24:50
+! Version: 20190220202450
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
@@ -2044,17 +2044,12 @@ $cookie=/unique_id/,domain=twitch.tv
 */coinblind.js$important,script
 */coinhive*.js$important,script
 */coinhive.min.js$important,script
-*/coinhive.min.js$important,script
 */coinlab.js$important,script
 */crlt.js$important,script
 */crypta.js$important,script
-*/crypta.js$important,script
 */cryptocpu.js$important,script
 */cryptonight.wasm$important
-*/cryptonight.wasm$important
 */deepMiner.js$important,script
-*/deepMiner.js$important,script
-*/deepMiner.min.js$important,script
 */deepMiner.min.js$important,script
 */dprocessor.js$important,script
 */empty.gif$image,important,redirect=1x1-transparent.gif
@@ -2075,7 +2070,6 @@ $cookie=/unique_id/,domain=twitch.tv
 */miner*.js$important,script
 */miner-ui.js$important,script
 */miner.full.js$important,script
-*/miner.js$important,script
 */miner.js$important,script
 */miner.min.js$important,script
 */minera.js$important,script
@@ -2110,7 +2104,6 @@ $cookie=/unique_id/,domain=twitch.tv
 */webcoin.js$important,script
 */webcoin.min.js$important,script
 */webmr.js$important,script
-*/webxmr.js$important,script
 */webxmr.js$important,script
 */worker-asmjs.min.js$important,script
 */xgemius.js$important
@@ -2188,6 +2181,7 @@ kinopoisk.ru##+js(abort-on-property-read.js, advBlock)
 kinopoisk.ru##+js(abort-on-property-read.js, Element.prototype.attachShadow)
 kinopoisk.ru##+js(setInterval-defuser.js, (), 500)
 kinopoisk.ru,yandex.by,yandex.ru,yandex.ua##+js(cookie-remover.js, /^blcrm|^bltsr|yabs|adb|^cmtchd|^crookie|^kpunk|is_adblock|abp|yp|ys|^mcBaGDt/)
+m.vk.com##.feedAssistance_importContacts.feedAssistance.wall_item
 mail.ru##.i-clearfix.feed-generic__container
 music.yandex.by,music.yandex.ru,music.yandex.ua##.sidebar__under
 rambler.ru##+js(set-constant.js, Math.random, trueFunc)
@@ -3263,6 +3257,12 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||github.com/_private/browser/stats^$important
 ||gnezdo.ru^$important
 ||goo.gl^
+||google-analytics.com/analytics.js$important,script,redirect=google-analytics.com/analytics.js
+||google-analytics.com/cx/api.js$important,script,redirect=google-analytics.com/cx/api.js
+||google-analytics.com/ga.js$important,script,redirect=google-analytics.com/ga.js
+||googlesyndication.com/pagead/js/adsbygoogle.js$important,script,redirect=googlesyndication.com/adsbygoogle.js
+||googletagmanager.com/gtm.js$important,script,redirect=googletagmanager.com/gtm.js
+||googletagservices.com/tag/js/gpt.js$important,script,redirect=googletagservices.com/gpt.js
 ||gostats.com^$important
 ||harvest.surge.sh/h.js$important,script
 ||hostingcloud.win^$important
