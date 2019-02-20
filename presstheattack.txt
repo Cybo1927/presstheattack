@@ -1,8 +1,8 @@
 ﻿[Adblock Plus 2.0]
-! Checksum: qkbESNdNjofa8uo/Qppxsg
+! Checksum: CRMqWhhMXzIIRQjI60VFrw
 ! Title: Press the Attack
-! Last modified: 2019-02-20, 19:53:18
-! Version: 20190220195318
+! Last modified: 2019-02-20, 20:05:20
+! Version: 20190220200520
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
@@ -2013,6 +2013,8 @@ $cookie=/blcrm|bltsr|yabs|adb|cmtchd|crookie|kpunk|is_adblock|abp|yp|ys|mcBaGDt/
 $cookie=/unique_id/,domain=twitch.tv
 *$font,important
 *$inline-font,important
+*/*pixel.gif$image,important,redirect=1x1-transparent.gif
+*/*pixel.png$image,important,redirect=1x1-transparent.gif
 */1x1.*^$important
 */2x2.*^$important
 */ad.gif$image,important,redirect=1x1-transparent.gif
@@ -2153,7 +2155,6 @@ $cookie=/unique_id/,domain=twitch.tv
 /^https?:\/\/yastatic\.net\/[^\s]{500,}/$domain=~vh.yandex.ru
 /log[\W|_]?(type|event|entry)/$important
 /me[0-9]{1}w\.js/$important,script
-/pixel\.(png|gif)/$image,important,redirect=1x1-transparent.gif
 /webmr[0-9]{1,2}\.js/$important,script
 1xbet$image,important
 1xstavka$image,important
