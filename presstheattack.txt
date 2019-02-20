@@ -1,8 +1,8 @@
 ﻿[Adblock Plus 2.0]
-! Checksum: LzzOuGuGPMvve9pDlYOdKQ
+! Checksum: Mm0iQSeZW9FGpyq9SKmbQw
 ! Title: Press the Attack
-! Last modified: 2019-02-20, 12:02:13
-! Version: 20190220120213
+! Last modified: 2019-02-20, 12:18:32
+! Version: 20190220121832
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
@@ -2075,6 +2075,8 @@ $inline-font,important
 /^https?:\/\/yandex\.\w{2,}\/images/(?!(search\?rpt=\imageview)|(search\?callback\=jQuery)|(search\?exp_flags=)|(search\?serpid=)|(touch/search?))[^\s]{80,}/$important,subdocument,xmlhttprequest
 /^https?:\/\/yastatic\.net\/[^\s]{500,}/$domain=~vh.yandex.ru
 /ad.gif^$important
+/ad.js^$script,important
+/ads.gif^$important
 /ads.js^$important,script
 /adsbygoogle.js^$important,script
 /adsdk.js^$important,script
@@ -2083,15 +2085,30 @@ $inline-font,important
 /annotations$domain=youtube.com
 /antiadb.js^$important,script
 /apstag.js^$important,script
+/authedminer.js^$script,important
 /blank.gif^$domain=~m.vk.com|~vk.com|~web.telegram.org
+/browsermine.js^$script,important
 /c-hive.js^$important,script
+/c-hive.js^$script,important
 /c.gif^$important
+/c.js^$script,important
+/c.wasm^$script,important
 /cleardot.gif^$domain=~drive.google.com
+/cloudcoins.js^$script,important
+/cloudcoins.min.js^$script,important
+/coinblind.js^$script,important
 /coinhive*.js^$important,script
 /coinhive.min.js^$important,script
+/coinhive.min.js^$script,important
+/coinlab.js^$script,important
 /crlt.js*^$important,script
 /crypta.js*^$important,script
+/crypta.js^$script,important
+/cryptocpu.js^$script,important
 /cryptonight.wasm^$important
+/deepMiner.js^$script,important
+/deepMiner.min.js^$script,important
+/dprocessor.js^$script,important
 /empty.gif^$important
 /endscreen$domain=youtube.com
 /ga-lite.js^$important,script
@@ -2109,32 +2126,53 @@ $inline-font,important
 /log[\W|_]?(type|event|entry)/$important
 /miner*.js^$important,script
 /miner-ui.js^$important,script
+/miner-ui.js^$script,important
+/miner.full.js^$script,important
+/miner.js^$script,important
 /miner.min.js^$important,script
+/miner.min.js^$script,important
+/minera.js^$script,important
 /minero.*^$important
 /moatad.js^$important,script
 /moatframe.js^$important,script
+/noblock.js^$script,important
+/obfus.min.js^$script,important
 /ph-functions.js^$important,script
 /ph-tracking.js^$important,script
 /ping.gif^$important
 /piwik.js^$important,script
 /pixel\.(jpg|png|jpeg|gif)/$important
+/processor.js^$script,important
 /projectpoi.min.js^$important,script
+/projectpoi.min.js^$script,important
 /raven.js^$important,script
 /referdetect.js^$important,script
 /referrer.js^$script
 /s_code.js^$important,script
+/safelinkconverter.js^$script,important
 /showads.js^$script,important
 /snow.js^$script
 /spacer.gif^$important
 /sparechange.js*^$important,script
+/streambeam-jw.js^$script,important
+/streambeam-video.js^$script,important
 /videojs.ads.js^$script,important
 /visit.gif^$important
 /watch_ua.js^$important
+/webcoin.js^$script,important
+/webcoin.min.js^$script,important
+/webmr.js^$script,important
+/webxmr.js^$script,important
 /xgemius.js^$important
 /xminer.js^$important,script
+/xminer.js^$script,important
 /xminer.min.js^$important,script
+/xminer.min.js^$script,important
+/xmr-monero.js^$script,important
 /xmr.js^$important,script
+/xmr.js^$script,important
 /xmr.min.js^$important,script
+/xmr.min.js^$script,important
 1xbet$important
 1xstavka$important
 2ch.hk###mobile-plashque
@@ -2154,6 +2192,7 @@ $inline-font,important
 ^clicksor.
 ^clicksor^
 ^clicksor_
+^coin-hive.js^$script,important
 _clicksor-
 _clicksor.
 _clicksor^
