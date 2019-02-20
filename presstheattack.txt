@@ -1,8 +1,8 @@
 ﻿[Adblock Plus 2.0]
-! Checksum: GdubMSpKBkY7OlsAXGkX1w
+! Checksum: qkbESNdNjofa8uo/Qppxsg
 ! Title: Press the Attack
-! Last modified: 2019-02-20, 19:30:51
-! Version: 20190220193051
+! Last modified: 2019-02-20, 19:53:18
+! Version: 20190220195318
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
@@ -2038,6 +2038,7 @@ $cookie=/unique_id/,domain=twitch.tv
 */cloudcoins.js$important,script
 */cloudcoins.min.js$important,script
 */cn-asmjs.min.js$important,script
+*/coin-hive.js$important,script
 */coinblind.js$important,script
 */coinhive*.js$important,script
 */coinhive.min.js$important,script
@@ -2085,7 +2086,6 @@ $cookie=/unique_id/,domain=twitch.tv
 */ph-tracking.js$important,script
 */ping.gif$image,important,redirect=1x1-transparent.gif
 */piwik.js$important,script
-*/pixel.gif$image,important,redirect=1x1-transparent.gif
 */processor.js$important,script
 */projectpoi.min.js$important,script
 */raven.js$important,script
@@ -2153,6 +2153,7 @@ $cookie=/unique_id/,domain=twitch.tv
 /^https?:\/\/yastatic\.net\/[^\s]{500,}/$domain=~vh.yandex.ru
 /log[\W|_]?(type|event|entry)/$important
 /me[0-9]{1}w\.js/$important,script
+/pixel\.(png|gif)/$image,important,redirect=1x1-transparent.gif
 /webmr[0-9]{1,2}\.js/$important,script
 1xbet$image,important
 1xstavka$image,important
@@ -2177,7 +2178,6 @@ $cookie=/unique_id/,domain=twitch.tv
 ^clicksor.
 ^clicksor^
 ^clicksor_
-^coin-hive.js$important,script
 _clicksor-
 _clicksor.
 _clicksor^
