@@ -1,8 +1,8 @@
 ﻿[Adblock Plus 2.0]
-! Checksum: nkUXxuNhuzMdYPYoShDiCQ
+! Checksum: D8hkryKdaWxsg4m0e4LrvA
 ! Title: Press the Attack
-! Last modified: 2019-02-20, 18:00:31
-! Version: 20190220180031
+! Last modified: 2019-02-20, 18:07:59
+! Version: 20190220180759
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
@@ -2015,6 +2015,7 @@ $font,important
 $inline-font,important
 */ad.gif^$important
 */ad.js^$important,script
+*/adblock.js^$important,script
 */adframe.js^$important,script
 */ads.gif^$important
 */ads.js^$important,script
@@ -2157,7 +2158,7 @@ $inline-font,important
 /^https?:\/\/[\w\.]?(id|adservice|mobilecrashreporting|imasdk|tagmanager)\.google(apis)?\.\w{2,}/$important
 /^https?:\/\/[^\s]+\.radar\.imgsmail\.ru/$important
 /^https?:\/\/[a-z0-9]{1,}adserv\.com/$important
-/^https?:\/\/c[1-9{1}]?\./$important
+/^https?:\/\/c[0-9{1,2}]?\./$important
 /^https?:\/\/cdn[0-9]?\.rocks\/[^\s]{30,}\.js/$important,script
 /^https?:\/\/contentbooster\.me+\/(?!manifest)[a-z0-9]{5,45}/$important,xmlhttprequest
 /^https?:\/\/graph\.(facebook|instagram)\.com/$important
@@ -2165,7 +2166,6 @@ $inline-font,important
 /^https?:\/\/tv\.yandex\.\w{2,}\/[^\s]{300,}/$important,subdocument,xmlhttprequest
 /^https?:\/\/yandex\.\w{2,}\/images/(?!(search\?rpt=\imageview)|(search\?callback\=jQuery)|(search\?exp_flags=)|(search\?serpid=)|(touch/search?))[^\s]{80,}/$important,subdocument,xmlhttprequest
 /^https?:\/\/yastatic\.net\/[^\s]{500,}/$domain=~vh.yandex.ru
-/adblock.js$important,script
 1xbet$important
 1xstavka$important
 2ch.hk###mobile-plashque
