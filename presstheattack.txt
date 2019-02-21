@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ubDtvBZKZCJF8e9LTfooyg
+! Checksum: KjXC0ZRoMjkJ/DPqIllOew
 ! Title: Press the Attack
-! Last modified: 2019-02-21, 13:16:27
-! Version: 20190221131627
+! Last modified: 2019-02-21, 13:21:03
+! Version: 20190221132103
 ! Expires: 1 hour
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
@@ -3314,11 +3314,11 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||xhamsterpremium.com^$third-party
 ||yabs.yandex.ru^$image,important,redirect=1x1-transparent.gif
 ||yadro.ru^$important
+||yandex.*/clck/$image,important,redirect=1x1-transparent.gif
 ||yandex.*/clck/$important
-||yandex.ru/clck/$image,important,redirect=1x1-transparent.gif
-||yandex.ru/clck/$script,important,redirect=noopjs
-||yandex.ru/clck/$xmlhttprequest,important,redirect=nooptext
-||yandex.ru/pogoda/*$inline-script,first-party
+||yandex.*/clck/$script,important,redirect=noopjs
+||yandex.*/clck/$xmlhttprequest,important,redirect=nooptext
+||yandex.*/pogoda/$inline-script,first-party
 ||yandex.st^$domain=~yandex.by|~yandex.ru|~yandex.ua
 ||yastatic.net/*/*.gif$image,important,redirect=1x1-transparent.gif
 ||yastatic.net/daas/atom.js$important,script
