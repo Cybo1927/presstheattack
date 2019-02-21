@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: r50ZZcUSM00GRhAyI05oKg
+! Checksum: A3qilJC1DmfBp81YFa+jBQ
 ! Title: Press the Attack
-! Last modified: 2019-02-21, 22:10:14
-! Version: 20190221221014
+! Last modified: 2019-02-21, 22:16:47
+! Version: 20190221221647
 ! Expires: 1 hour
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
@@ -2808,12 +2808,14 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http*://*^analytics^
 |http*://*^analytics_
 |http*://*^banner-
+|http*://*^banner-$domain=~reddit.com
 |http*://*^banner-ad-$important
 |http*://*^banner-ad.$important
 |http*://*^banner-ad^$important
 |http*://*^banner-ad_$important
 |http*://*^banner.
 |http*://*^banner^
+|http*://*^banner^$domain=~reddit.com
 |http*://*^banner_
 |http*://*^banners-
 |http*://*^banners.
@@ -3290,6 +3292,7 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||protovid.com^$important
 ||quantserve.com^$important
 ||recreativ.ru^$important
+||reddit.com/timings/$important
 ||reddit.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.reddit.com *.redditmedia.com *.redditstatic.com reddit-uploaded-media.s3-accelerate.amazonaws.com,important
 ||redditmedia.com/gtm/jail^$important
 ||redditstatic.com/moat^$important
@@ -3316,6 +3319,7 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||vk.cc^
 ||vk.com/js/lib/px.js$important,script
 ||vk.com/rtrg^$important
+||web.telegram.org/*/PhotoThumbConversation.gif$image,important,redirect=1x1-transparent.gif,domain=telegram.org
 ||weborama.fr^$important
 ||xhamsterpremium.com^$third-party
 ||yabs.yandex.by^$image,important,redirect=1x1-transparent.gif
