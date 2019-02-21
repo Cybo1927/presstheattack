@@ -1,16 +1,16 @@
 ﻿[Adblock Plus 2.0]
-! Checksum: QcD03U65ZnokpQo9wlvsmg
+! Checksum: ANRbr4gQ49JpkdARkBwtCQ
 ! Title: Press the Attack
-! Last modified: 2019-02-21, 13:03:10
-! Version: 20190221130310
-! Expires: 3 hours
+! Last modified: 2019-02-21, 13:14:18
+! Version: 20190221131418
+! Expires: 1 hour
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! GitHub pull requests - https://github.com/bogachenko/presstheattack/pulls/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 ! In no event shall this list, or the list author be liable for any indirect, direct, punitive, special, incidental, or consequential damages whatsoever.
 ! By downloading or viewing, or using this list, you are accepting these terms and the license.
-
+!
 ! I'm sure a few of the filters here will break some sites.
 ! Please be cautious and check uBlock Origin logger to see what is being filtered,
 ! and comment out any problamatic filter. Or use the "badfilter" flag.
