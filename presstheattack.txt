@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: owg3IcGnlcXCR5qNvnJtJg
+! Checksum: 5mBQan8RJQ/ntCtseqQWUw
 ! Title: Press the Attack
-! Last modified: 2019-02-21, 13:25:15
-! Version: 20190221132515
+! Last modified: 2019-02-21, 14:52:32
+! Version: 20190221145232
 ! Expires: 1 hour
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
@@ -2080,6 +2080,7 @@
 */obfus.min.js$important,script
 */ph-functions.js$important,script
 */ph-tracking.js$important,script
+*/pic.gif$image,important,redirect=1x1-transparent.gif
 */ping.gif$image,important,redirect=1x1-transparent.gif
 */piwik.js$important,script
 */processor.js$important,script
@@ -2106,6 +2107,7 @@
 */webmr.js$important,script
 */webxmr.js$important,script
 */worker-asmjs.min.js$important,script
+*/x.gif$image,important,redirect=1x1-transparent.gif
 */xgemius.js$important
 */xminer.js$important,script
 */xminer.min.js$important,script
@@ -2160,7 +2162,8 @@
 @@||fbsbx.com/captcha/recaptcha^
 @@||githubusercontent.com^$image
 @@||google.com/recaptcha^
-@@||googlevideo.com^*?*&ip=$third-party
+@@||googlevideo.com/*?*&ip=$third-party
+@@||googlevideo.com/*?ip=$third-party
 @@||gstatic.com/recaptcha^
 @@||img-*.xvideos-cdn.com/videos/thumbs*/ad/
 @@||strm.yandex.*^
@@ -3239,6 +3242,7 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||analytics.*^$important
 ||api.twitch.tv/*/channels/*/extensions^
 ||atdmt.com^$important
+||awaps.yandex.net^$image,important,redirect=1x1-transparent.gif
 ||awaps.yandex.net^$subdocument,important,redirect=noopframe
 ||bat.bing.com^$important
 ||cdn.jsdelivr.net^$important
@@ -3268,6 +3272,7 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||gostats.com^$important
 ||harvest.surge.sh/h.js$important,script
 ||hostingcloud.win^$important
+||kiks.yandex.ru^$image,important,redirect=1x1-transparent.gif
 ||mail.ru/share_count^$important
 ||mail.yandex.*/monitoring_liza.txt$important
 ||mail.yandex.*^$first-party,script,important
@@ -3277,6 +3282,7 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||navdmp.com^$important
 ||newrelic.com^$important
 ||news.yandex.*^$first-party,script,important
+||pagead2.googlesyndication.com/pagead/show_ads.js$script,important,redirect=noopjs
 ||phncdn.com^$important
 ||piguiqproxy.com^$important
 ||pipe.aria.microsoft.com/collector^$xmlhttprequest,important
@@ -3312,7 +3318,9 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||vk.com/rtrg^$important
 ||weborama.fr^$important
 ||xhamsterpremium.com^$third-party
+||yabs.yandex.by^$image,important,redirect=1x1-transparent.gif
 ||yabs.yandex.ru^$image,important,redirect=1x1-transparent.gif
+||yabs.yandex.ua^$image,important,redirect=1x1-transparent.gif
 ||yadro.ru^$important
 ||yandex.*/clck/$important
 ||yandex.*/pogoda/$inline-script,first-party
