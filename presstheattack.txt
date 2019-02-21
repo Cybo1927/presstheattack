@@ -1,8 +1,8 @@
 ﻿[Adblock Plus 2.0]
-! Checksum: r4Hh8QFQe/6phMwHvJ7UIQ
+! Checksum: qwveHSM9baRMu6w5scMuaw
 ! Title: Press the Attack
-! Last modified: 2019-02-21, 12:14:29
-! Version: 20190221121429
+! Last modified: 2019-02-21, 12:29:24
+! Version: 20190221122924
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
@@ -2008,8 +2008,7 @@
 ##div[id^="_yandex_rtb."]:not(html):not(body)
 ##div[id^="_yandex_rtb_"]:not(html):not(body)
 ##img[src*="counter.yadro.ru"]
-$cookie=/act|s|t|p|testcookie/,domain=mail.ru|ok.ru
-$cookie=/blcrm|bltsr|yabs|adb|cmtchd|crookie|kpunk|is_adblock|abp|yp|ys|mcBaGDt/,domain=avito.ru|kinopoisk.ru|yandex.by|yandex.ru|yandex.ua
+$cookie=/blcrm|bltsr|yabs|adequate/,domain=yandex.by|yandex.ru|yandex.ua
 $cookie=/unique_id/,domain=twitch.tv
 *$font,important
 *$inline-font,important
@@ -2179,8 +2178,8 @@ _clicksor_
 GGBET$image
 kinopoisk.ru##+js(abort-on-property-read.js, advBlock)
 kinopoisk.ru##+js(abort-on-property-read.js, Element.prototype.attachShadow)
+kinopoisk.ru##+js(cookie-remover.js, /^blcrm|^bltsr|^cmtchd|^crookie|^kpunk)
 kinopoisk.ru##+js(setInterval-defuser.js, (), 500)
-kinopoisk.ru,yandex.by,yandex.ru,yandex.ua##+js(cookie-remover.js, /^blcrm|^bltsr|yabs|adb|^cmtchd|^crookie|^kpunk|is_adblock|abp|yp|ys|^mcBaGDt/)
 m.vk.com##.feedAssistance_importContacts.feedAssistance.wall_item
 mail.ru##.i-clearfix.feed-generic__container
 music.yandex.by,music.yandex.ru,music.yandex.ua##.sidebar__under
@@ -2188,6 +2187,7 @@ rambler.ru##+js(set-constant.js, Math.random, trueFunc)
 rambler.ru##^script:has-text((Number,)
 reddit.com##.onboardingbar.subscribebar.infobar
 translate.yandex.ru,translate.yandex.ua,translate.yandex.by##.button_icon_collections.button_icon.button
+twitch.tv##+js(cookie-remover.js, /^unique_id/)
 twitch.tv##+js(twitch-videoad.js)
 twitch.tv##a[href*="&BannerId="] > img
 twitch.tv##a[href*="&bonus="] > img
@@ -2234,6 +2234,7 @@ xvideos.com##+js(nowebrtc.js)
 xvideos.com##+js(window.open-defuser.js)
 xvideos.com##.x-message-info.x-message
 xvideos.com,xnxx.com##+js(xvideos.com.js)
+yandex.by,yandex.ru,yandex.ua##+js(cookie-remover.js, /^blcrm|^bltsr|^yabs|^adequate/)
 yandex.by,yandex.ru,yandex.ua##.media-grid_js_inited.font-regular.i-bem.media-grid_theme_white.media-grid_visible_yes.media-grid
 yandex.ru,yandex.ua,yandex.by##+js(abort-on-property-read.js, Element.prototype.attachShadow)
 yandex.ru,yandex.ua,yandex.by##.home-link_intense-blue_yes.desk-notif-card_login-plus.home-link
@@ -3313,6 +3314,9 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||yabs.yandex.ru/$image,important,redirect=1x1-transparent.gif
 ||yadro.ru^$important
 ||yandex.*/clck/$important
+||yandex.ru/clck/$image,important,redirect=1x1-transparent.gif
+||yandex.ru/clck/$script,important,redirect=noopjs
+||yandex.ru/clck/$xmlhttprequest,important,redirect=nooptext
 ||yandex.ru/pogoda/*$inline-script,first-party
 ||yandex.st^$domain=~yandex.by|~yandex.ru|~yandex.ua
 ||yastatic.net/*/*.gif$image,important,redirect=1x1-transparent.gif
