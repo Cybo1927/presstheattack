@@ -1,12 +1,11 @@
-﻿[Adblock Plus 2.0]
-! Checksum: ANRbr4gQ49JpkdARkBwtCQ
+[Adblock Plus 2.0]
+! Checksum: ubDtvBZKZCJF8e9LTfooyg
 ! Title: Press the Attack
-! Last modified: 2019-02-21, 13:14:18
-! Version: 20190221131418
+! Last modified: 2019-02-21, 13:16:27
+! Version: 20190221131627
 ! Expires: 1 hour
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
-! GitHub pull requests - https://github.com/bogachenko/presstheattack/pulls/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 ! In no event shall this list, or the list author be liable for any indirect, direct, punitive, special, incidental, or consequential damages whatsoever.
 ! By downloading or viewing, or using this list, you are accepting these terms and the license.
@@ -21,6 +20,7 @@
 ! If you use uBlock Origin then you can get help in any way convenient for you:
 ! E-mail - bogachenkove@gmail.com
 ! GitHub issues - https://github.com/bogachenko/presstheattack/issues/
+! GitHub pull requests - https://github.com/bogachenko/presstheattack/pulls/
 !
 ! The list of filters below is primarily for uBlock Origin
 ! Download uBlock Origin from GitHub - https://github.com/gorhill/uBlock/releases/
