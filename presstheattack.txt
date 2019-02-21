@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 9E4QXwn7uWiPmsKY8GOClg
+! Checksum: r50ZZcUSM00GRhAyI05oKg
 ! Title: Press the Attack
-! Last modified: 2019-02-21, 15:10:40
-! Version: 20190221151040
+! Last modified: 2019-02-21, 22:10:14
+! Version: 20190221221014
 ! Expires: 1 hour
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
@@ -2853,7 +2853,7 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http*://*^getad_$important
 |http*://*^log-
 |http*://*^log.
-|http*://*^log^$domain=~travis-ci.org
+|http*://*^log^$domain=~travis-ci.org|~travis-ci.com
 |http*://*^log_
 |http*://*^logs-
 |http*://*^logs.
