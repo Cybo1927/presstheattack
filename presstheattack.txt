@@ -1,8 +1,8 @@
 ﻿[Adblock Plus 2.0]
-! Checksum: qwveHSM9baRMu6w5scMuaw
+! Checksum: 2E7HcME2hfWYpL6K37BoIQ
 ! Title: Press the Attack
-! Last modified: 2019-02-21, 12:29:24
-! Version: 20190221122924
+! Last modified: 2019-02-21, 12:54:13
+! Version: 20190221125413
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
@@ -2008,14 +2008,15 @@
 ##div[id^="_yandex_rtb."]:not(html):not(body)
 ##div[id^="_yandex_rtb_"]:not(html):not(body)
 ##img[src*="counter.yadro.ru"]
-$cookie=/blcrm|bltsr|yabs|adequate/,domain=yandex.by|yandex.ru|yandex.ua
-$cookie=/unique_id/,domain=twitch.tv
+*$cookie=/blcrm|bltsr|yabs|adequate/,domain=yandex.by|yandex.ru|yandex.ua
 *$font,important
 *$inline-font,important
 */*pixel.gif$image,important,redirect=1x1-transparent.gif
 */*pixel.png$image,important,redirect=1x1-transparent.gif
-*/1x1.*^$important
-*/2x2.*^$important
+*/1x1.gif$image,important,redirect=1x1-transparent.gif
+*/2x2.png$image,important,redirect=2x2-transparent.png
+*/32x32.png$image,important,redirect=32x32-transparent.png
+*/3x2.png$image,important,redirect=3x2-transparent.png
 */ad.gif$image,important,redirect=1x1-transparent.gif
 */ad.js$important,script
 */adblock.js$important,script
@@ -2187,7 +2188,6 @@ rambler.ru##+js(set-constant.js, Math.random, trueFunc)
 rambler.ru##^script:has-text((Number,)
 reddit.com##.onboardingbar.subscribebar.infobar
 translate.yandex.ru,translate.yandex.ua,translate.yandex.by##.button_icon_collections.button_icon.button
-twitch.tv##+js(cookie-remover.js, /^unique_id/)
 twitch.tv##+js(twitch-videoad.js)
 twitch.tv##a[href*="&BannerId="] > img
 twitch.tv##a[href*="&bonus="] > img
@@ -2836,7 +2836,7 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http*://*^counted.
 |http*://*^counted^
 |http*://*^counted_
-|http*://*^counter-
+|http*://*^counter-$domain=twitch.tv
 |http*://*^counter.
 |http*://*^counter^
 |http*://*^counter_
