@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: btE7hFvPl7cbHbcpPS5emg
+! Checksum: 3MG7X9WHr/an9bNupc8D1w
 ! Title: Press the Attack
-! Last modified: 2019-02-22, 13:09:40
-! Version: 20190222130940
+! Last modified: 2019-02-22, 17:45:13
+! Version: 20190222174513
 ! Expires: 1 hour
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
@@ -43,6 +43,9 @@
 ##[class$="-ads-"]:not(html):not(body)
 ##[class$="-ads."]:not(html):not(body)
 ##[class$="-ads_"]:not(html):not(body)
+##[class$="-AdServer-"]:not(html):not(body)
+##[class$="-AdServer."]:not(html):not(body)
+##[class$="-AdServer_"]:not(html):not(body)
 ##[class$="-campaignId-"]:not(html):not(body)
 ##[class$="-campaignId."]:not(html):not(body)
 ##[class$="-campaignId_"]:not(html):not(body)
@@ -79,6 +82,9 @@
 ##[class$=".ads-"]:not(html):not(body)
 ##[class$=".ads."]:not(html):not(body)
 ##[class$=".ads_"]:not(html):not(body)
+##[class$=".AdServer-"]:not(html):not(body)
+##[class$=".AdServer."]:not(html):not(body)
+##[class$=".AdServer_"]:not(html):not(body)
 ##[class$=".campaignId-"]:not(html):not(body)
 ##[class$=".campaignId."]:not(html):not(body)
 ##[class$=".campaignId_"]:not(html):not(body)
@@ -115,6 +121,9 @@
 ##[class$="_ads-"]:not(html):not(body)
 ##[class$="_ads."]:not(html):not(body)
 ##[class$="_ads_"]:not(html):not(body)
+##[class$="_AdServer-"]:not(html):not(body)
+##[class$="_AdServer."]:not(html):not(body)
+##[class$="_AdServer_"]:not(html):not(body)
 ##[class$="_campaignId-"]:not(html):not(body)
 ##[class$="_campaignId."]:not(html):not(body)
 ##[class$="_campaignId_"]:not(html):not(body)
@@ -150,6 +159,9 @@
 ##[class*="-ads-"]:not(html):not(body)
 ##[class*="-ads."]:not(html):not(body)
 ##[class*="-ads_"]:not(html):not(body)
+##[class*="-AdServer-"]:not(html):not(body)
+##[class*="-AdServer."]:not(html):not(body)
+##[class*="-AdServer_"]:not(html):not(body)
 ##[class*="-campaignId-"]:not(html):not(body)
 ##[class*="-campaignId."]:not(html):not(body)
 ##[class*="-campaignId_"]:not(html):not(body)
@@ -186,6 +198,9 @@
 ##[class*=".ads-"]:not(html):not(body)
 ##[class*=".ads."]:not(html):not(body)
 ##[class*=".ads_"]:not(html):not(body)
+##[class*=".AdServer-"]:not(html):not(body)
+##[class*=".AdServer."]:not(html):not(body)
+##[class*=".AdServer_"]:not(html):not(body)
 ##[class*=".campaignId-"]:not(html):not(body)
 ##[class*=".campaignId."]:not(html):not(body)
 ##[class*=".campaignId_"]:not(html):not(body)
@@ -222,6 +237,9 @@
 ##[class*="_ads-"]:not(html):not(body)
 ##[class*="_ads."]:not(html):not(body)
 ##[class*="_ads_"]:not(html):not(body)
+##[class*="_AdServer-"]:not(html):not(body)
+##[class*="_AdServer."]:not(html):not(body)
+##[class*="_AdServer_"]:not(html):not(body)
 ##[class*="_campaignId-"]:not(html):not(body)
 ##[class*="_campaignId."]:not(html):not(body)
 ##[class*="_campaignId_"]:not(html):not(body)
@@ -258,6 +276,9 @@
 ##[class="-ads-"]:not(html):not(body)
 ##[class="-ads."]:not(html):not(body)
 ##[class="-ads_"]:not(html):not(body)
+##[class="-AdServer-"]:not(html):not(body)
+##[class="-AdServer."]:not(html):not(body)
+##[class="-AdServer_"]:not(html):not(body)
 ##[class="-campaignId-"]:not(html):not(body)
 ##[class="-campaignId."]:not(html):not(body)
 ##[class="-campaignId_"]:not(html):not(body)
@@ -294,6 +315,9 @@
 ##[class=".ads-"]:not(html):not(body)
 ##[class=".ads."]:not(html):not(body)
 ##[class=".ads_"]:not(html):not(body)
+##[class=".AdServer-"]:not(html):not(body)
+##[class=".AdServer."]:not(html):not(body)
+##[class=".AdServer_"]:not(html):not(body)
 ##[class=".campaignId-"]:not(html):not(body)
 ##[class=".campaignId."]:not(html):not(body)
 ##[class=".campaignId_"]:not(html):not(body)
@@ -330,6 +354,9 @@
 ##[class="_ads-"]:not(html):not(body)
 ##[class="_ads."]:not(html):not(body)
 ##[class="_ads_"]:not(html):not(body)
+##[class="_AdServer-"]:not(html):not(body)
+##[class="_AdServer."]:not(html):not(body)
+##[class="_AdServer_"]:not(html):not(body)
 ##[class="_campaignId-"]:not(html):not(body)
 ##[class="_campaignId."]:not(html):not(body)
 ##[class="_campaignId_"]:not(html):not(body)
@@ -366,6 +393,9 @@
 ##[class^="-ads-"]:not(html):not(body)
 ##[class^="-ads."]:not(html):not(body)
 ##[class^="-ads_"]:not(html):not(body)
+##[class^="-AdServer-"]:not(html):not(body)
+##[class^="-AdServer."]:not(html):not(body)
+##[class^="-AdServer_"]:not(html):not(body)
 ##[class^="-campaignId-"]:not(html):not(body)
 ##[class^="-campaignId."]:not(html):not(body)
 ##[class^="-campaignId_"]:not(html):not(body)
@@ -402,6 +432,9 @@
 ##[class^=".ads-"]:not(html):not(body)
 ##[class^=".ads."]:not(html):not(body)
 ##[class^=".ads_"]:not(html):not(body)
+##[class^=".AdServer-"]:not(html):not(body)
+##[class^=".AdServer."]:not(html):not(body)
+##[class^=".AdServer_"]:not(html):not(body)
 ##[class^=".campaignId-"]:not(html):not(body)
 ##[class^=".campaignId."]:not(html):not(body)
 ##[class^=".campaignId_"]:not(html):not(body)
@@ -438,6 +471,9 @@
 ##[class^="_ads-"]:not(html):not(body)
 ##[class^="_ads."]:not(html):not(body)
 ##[class^="_ads_"]:not(html):not(body)
+##[class^="_AdServer-"]:not(html):not(body)
+##[class^="_AdServer."]:not(html):not(body)
+##[class^="_AdServer_"]:not(html):not(body)
 ##[class^="_campaignId-"]:not(html):not(body)
 ##[class^="_campaignId."]:not(html):not(body)
 ##[class^="_campaignId_"]:not(html):not(body)
@@ -474,6 +510,9 @@
 ##[div$="-ads-"]:not(html):not(body)
 ##[div$="-ads."]:not(html):not(body)
 ##[div$="-ads_"]:not(html):not(body)
+##[div$="-AdServer-"]:not(html):not(body)
+##[div$="-AdServer."]:not(html):not(body)
+##[div$="-AdServer_"]:not(html):not(body)
 ##[div$="-campaignId-"]:not(html):not(body)
 ##[div$="-campaignId."]:not(html):not(body)
 ##[div$="-campaignId_"]:not(html):not(body)
@@ -510,6 +549,9 @@
 ##[div$=".ads-"]:not(html):not(body)
 ##[div$=".ads."]:not(html):not(body)
 ##[div$=".ads_"]:not(html):not(body)
+##[div$=".AdServer-"]:not(html):not(body)
+##[div$=".AdServer."]:not(html):not(body)
+##[div$=".AdServer_"]:not(html):not(body)
 ##[div$=".campaignId-"]:not(html):not(body)
 ##[div$=".campaignId."]:not(html):not(body)
 ##[div$=".campaignId_"]:not(html):not(body)
@@ -546,6 +588,9 @@
 ##[div$="_ads-"]:not(html):not(body)
 ##[div$="_ads."]:not(html):not(body)
 ##[div$="_ads_"]:not(html):not(body)
+##[div$="_AdServer-"]:not(html):not(body)
+##[div$="_AdServer."]:not(html):not(body)
+##[div$="_AdServer_"]:not(html):not(body)
 ##[div$="_campaignId-"]:not(html):not(body)
 ##[div$="_campaignId."]:not(html):not(body)
 ##[div$="_campaignId_"]:not(html):not(body)
@@ -582,6 +627,9 @@
 ##[div*="-ads-"]:not(html):not(body)
 ##[div*="-ads."]:not(html):not(body)
 ##[div*="-ads_"]:not(html):not(body)
+##[div*="-AdServer-"]:not(html):not(body)
+##[div*="-AdServer."]:not(html):not(body)
+##[div*="-AdServer_"]:not(html):not(body)
 ##[div*="-campaignId-"]:not(html):not(body)
 ##[div*="-campaignId."]:not(html):not(body)
 ##[div*="-campaignId_"]:not(html):not(body)
@@ -618,6 +666,9 @@
 ##[div*=".ads-"]:not(html):not(body)
 ##[div*=".ads."]:not(html):not(body)
 ##[div*=".ads_"]:not(html):not(body)
+##[div*=".AdServer-"]:not(html):not(body)
+##[div*=".AdServer."]:not(html):not(body)
+##[div*=".AdServer_"]:not(html):not(body)
 ##[div*=".campaignId-"]:not(html):not(body)
 ##[div*=".campaignId."]:not(html):not(body)
 ##[div*=".campaignId_"]:not(html):not(body)
@@ -654,6 +705,9 @@
 ##[div*="_ads-"]:not(html):not(body)
 ##[div*="_ads."]:not(html):not(body)
 ##[div*="_ads_"]:not(html):not(body)
+##[div*="_AdServer-"]:not(html):not(body)
+##[div*="_AdServer."]:not(html):not(body)
+##[div*="_AdServer_"]:not(html):not(body)
 ##[div*="_campaignId-"]:not(html):not(body)
 ##[div*="_campaignId."]:not(html):not(body)
 ##[div*="_campaignId_"]:not(html):not(body)
@@ -690,6 +744,9 @@
 ##[div="-ads-"]:not(html):not(body)
 ##[div="-ads."]:not(html):not(body)
 ##[div="-ads_"]:not(html):not(body)
+##[div="-AdServer-"]:not(html):not(body)
+##[div="-AdServer."]:not(html):not(body)
+##[div="-AdServer_"]:not(html):not(body)
 ##[div="-campaignId-"]:not(html):not(body)
 ##[div="-campaignId."]:not(html):not(body)
 ##[div="-campaignId_"]:not(html):not(body)
@@ -726,6 +783,9 @@
 ##[div=".ads-"]:not(html):not(body)
 ##[div=".ads."]:not(html):not(body)
 ##[div=".ads_"]:not(html):not(body)
+##[div=".AdServer-"]:not(html):not(body)
+##[div=".AdServer."]:not(html):not(body)
+##[div=".AdServer_"]:not(html):not(body)
 ##[div=".campaignId-"]:not(html):not(body)
 ##[div=".campaignId."]:not(html):not(body)
 ##[div=".campaignId_"]:not(html):not(body)
@@ -762,6 +822,9 @@
 ##[div="_ads-"]:not(html):not(body)
 ##[div="_ads."]:not(html):not(body)
 ##[div="_ads_"]:not(html):not(body)
+##[div="_AdServer-"]:not(html):not(body)
+##[div="_AdServer."]:not(html):not(body)
+##[div="_AdServer_"]:not(html):not(body)
 ##[div="_campaignId-"]:not(html):not(body)
 ##[div="_campaignId."]:not(html):not(body)
 ##[div="_campaignId_"]:not(html):not(body)
@@ -798,6 +861,9 @@
 ##[div^="-ads-"]:not(html):not(body)
 ##[div^="-ads."]:not(html):not(body)
 ##[div^="-ads_"]:not(html):not(body)
+##[div^="-AdServer-"]:not(html):not(body)
+##[div^="-AdServer."]:not(html):not(body)
+##[div^="-AdServer_"]:not(html):not(body)
 ##[div^="-campaignId-"]:not(html):not(body)
 ##[div^="-campaignId."]:not(html):not(body)
 ##[div^="-campaignId_"]:not(html):not(body)
@@ -834,6 +900,9 @@
 ##[div^=".ads-"]:not(html):not(body)
 ##[div^=".ads."]:not(html):not(body)
 ##[div^=".ads_"]:not(html):not(body)
+##[div^=".AdServer-"]:not(html):not(body)
+##[div^=".AdServer."]:not(html):not(body)
+##[div^=".AdServer_"]:not(html):not(body)
 ##[div^=".campaignId-"]:not(html):not(body)
 ##[div^=".campaignId."]:not(html):not(body)
 ##[div^=".campaignId_"]:not(html):not(body)
@@ -870,6 +939,9 @@
 ##[div^="_ads-"]:not(html):not(body)
 ##[div^="_ads."]:not(html):not(body)
 ##[div^="_ads_"]:not(html):not(body)
+##[div^="_AdServer-"]:not(html):not(body)
+##[div^="_AdServer."]:not(html):not(body)
+##[div^="_AdServer_"]:not(html):not(body)
 ##[div^="_campaignId-"]:not(html):not(body)
 ##[div^="_campaignId."]:not(html):not(body)
 ##[div^="_campaignId_"]:not(html):not(body)
@@ -906,6 +978,9 @@
 ##[id$="-ads-"]:not(html):not(body)
 ##[id$="-ads."]:not(html):not(body)
 ##[id$="-ads_"]:not(html):not(body)
+##[id$="-AdServer-"]:not(html):not(body)
+##[id$="-AdServer."]:not(html):not(body)
+##[id$="-AdServer_"]:not(html):not(body)
 ##[id$="-campaignId-"]:not(html):not(body)
 ##[id$="-campaignId."]:not(html):not(body)
 ##[id$="-campaignId_"]:not(html):not(body)
@@ -942,6 +1017,9 @@
 ##[id$=".ads-"]:not(html):not(body)
 ##[id$=".ads."]:not(html):not(body)
 ##[id$=".ads_"]:not(html):not(body)
+##[id$=".AdServer-"]:not(html):not(body)
+##[id$=".AdServer."]:not(html):not(body)
+##[id$=".AdServer_"]:not(html):not(body)
 ##[id$=".campaignId-"]:not(html):not(body)
 ##[id$=".campaignId."]:not(html):not(body)
 ##[id$=".campaignId_"]:not(html):not(body)
@@ -978,6 +1056,9 @@
 ##[id$="_ads-"]:not(html):not(body)
 ##[id$="_ads."]:not(html):not(body)
 ##[id$="_ads_"]:not(html):not(body)
+##[id$="_AdServer-"]:not(html):not(body)
+##[id$="_AdServer."]:not(html):not(body)
+##[id$="_AdServer_"]:not(html):not(body)
 ##[id$="_campaignId-"]:not(html):not(body)
 ##[id$="_campaignId."]:not(html):not(body)
 ##[id$="_campaignId_"]:not(html):not(body)
@@ -1014,6 +1095,9 @@
 ##[id*="-ads-"]:not(html):not(body)
 ##[id*="-ads."]:not(html):not(body)
 ##[id*="-ads_"]:not(html):not(body)
+##[id*="-AdServer-"]:not(html):not(body)
+##[id*="-AdServer."]:not(html):not(body)
+##[id*="-AdServer_"]:not(html):not(body)
 ##[id*="-campaignId-"]:not(html):not(body)
 ##[id*="-campaignId."]:not(html):not(body)
 ##[id*="-campaignId_"]:not(html):not(body)
@@ -1050,6 +1134,9 @@
 ##[id*=".ads-"]:not(html):not(body)
 ##[id*=".ads."]:not(html):not(body)
 ##[id*=".ads_"]:not(html):not(body)
+##[id*=".AdServer-"]:not(html):not(body)
+##[id*=".AdServer."]:not(html):not(body)
+##[id*=".AdServer_"]:not(html):not(body)
 ##[id*=".campaignId-"]:not(html):not(body)
 ##[id*=".campaignId."]:not(html):not(body)
 ##[id*=".campaignId_"]:not(html):not(body)
@@ -1086,6 +1173,9 @@
 ##[id*="_ads-"]:not(html):not(body)
 ##[id*="_ads."]:not(html):not(body)
 ##[id*="_ads_"]:not(html):not(body)
+##[id*="_AdServer-"]:not(html):not(body)
+##[id*="_AdServer."]:not(html):not(body)
+##[id*="_AdServer_"]:not(html):not(body)
 ##[id*="_campaignId-"]:not(html):not(body)
 ##[id*="_campaignId."]:not(html):not(body)
 ##[id*="_campaignId_"]:not(html):not(body)
@@ -1122,6 +1212,9 @@
 ##[id="-ads-"]:not(html):not(body)
 ##[id="-ads."]:not(html):not(body)
 ##[id="-ads_"]:not(html):not(body)
+##[id="-AdServer-"]:not(html):not(body)
+##[id="-AdServer."]:not(html):not(body)
+##[id="-AdServer_"]:not(html):not(body)
 ##[id="-campaignId-"]:not(html):not(body)
 ##[id="-campaignId."]:not(html):not(body)
 ##[id="-campaignId_"]:not(html):not(body)
@@ -1158,6 +1251,9 @@
 ##[id=".ads-"]:not(html):not(body)
 ##[id=".ads."]:not(html):not(body)
 ##[id=".ads_"]:not(html):not(body)
+##[id=".AdServer-"]:not(html):not(body)
+##[id=".AdServer."]:not(html):not(body)
+##[id=".AdServer_"]:not(html):not(body)
 ##[id=".campaignId-"]:not(html):not(body)
 ##[id=".campaignId."]:not(html):not(body)
 ##[id=".campaignId_"]:not(html):not(body)
@@ -1194,6 +1290,9 @@
 ##[id="_ads-"]:not(html):not(body)
 ##[id="_ads."]:not(html):not(body)
 ##[id="_ads_"]:not(html):not(body)
+##[id="_AdServer-"]:not(html):not(body)
+##[id="_AdServer."]:not(html):not(body)
+##[id="_AdServer_"]:not(html):not(body)
 ##[id="_campaignId-"]:not(html):not(body)
 ##[id="_campaignId."]:not(html):not(body)
 ##[id="_campaignId_"]:not(html):not(body)
@@ -1230,6 +1329,9 @@
 ##[id^="-ads-"]:not(html):not(body)
 ##[id^="-ads."]:not(html):not(body)
 ##[id^="-ads_"]:not(html):not(body)
+##[id^="-AdServer-"]:not(html):not(body)
+##[id^="-AdServer."]:not(html):not(body)
+##[id^="-AdServer_"]:not(html):not(body)
 ##[id^="-campaignId-"]:not(html):not(body)
 ##[id^="-campaignId."]:not(html):not(body)
 ##[id^="-campaignId_"]:not(html):not(body)
@@ -1266,6 +1368,9 @@
 ##[id^=".ads-"]:not(html):not(body)
 ##[id^=".ads."]:not(html):not(body)
 ##[id^=".ads_"]:not(html):not(body)
+##[id^=".AdServer-"]:not(html):not(body)
+##[id^=".AdServer."]:not(html):not(body)
+##[id^=".AdServer_"]:not(html):not(body)
 ##[id^=".campaignId-"]:not(html):not(body)
 ##[id^=".campaignId."]:not(html):not(body)
 ##[id^=".campaignId_"]:not(html):not(body)
@@ -1302,6 +1407,9 @@
 ##[id^="_ads-"]:not(html):not(body)
 ##[id^="_ads."]:not(html):not(body)
 ##[id^="_ads_"]:not(html):not(body)
+##[id^="_AdServer-"]:not(html):not(body)
+##[id^="_AdServer."]:not(html):not(body)
+##[id^="_AdServer_"]:not(html):not(body)
 ##[id^="_campaignId-"]:not(html):not(body)
 ##[id^="_campaignId."]:not(html):not(body)
 ##[id^="_campaignId_"]:not(html):not(body)
@@ -1338,6 +1446,9 @@
 ##div[class$="-ads-"]:not(html):not(body)
 ##div[class$="-ads."]:not(html):not(body)
 ##div[class$="-ads_"]:not(html):not(body)
+##div[class$="-AdServer-"]:not(html):not(body)
+##div[class$="-AdServer."]:not(html):not(body)
+##div[class$="-AdServer_"]:not(html):not(body)
 ##div[class$="-campaignId-"]:not(html):not(body)
 ##div[class$="-campaignId."]:not(html):not(body)
 ##div[class$="-campaignId_"]:not(html):not(body)
@@ -1374,6 +1485,9 @@
 ##div[class$=".ads-"]:not(html):not(body)
 ##div[class$=".ads."]:not(html):not(body)
 ##div[class$=".ads_"]:not(html):not(body)
+##div[class$=".AdServer-"]:not(html):not(body)
+##div[class$=".AdServer."]:not(html):not(body)
+##div[class$=".AdServer_"]:not(html):not(body)
 ##div[class$=".campaignId-"]:not(html):not(body)
 ##div[class$=".campaignId."]:not(html):not(body)
 ##div[class$=".campaignId_"]:not(html):not(body)
@@ -1410,6 +1524,9 @@
 ##div[class$="_ads-"]:not(html):not(body)
 ##div[class$="_ads."]:not(html):not(body)
 ##div[class$="_ads_"]:not(html):not(body)
+##div[class$="_AdServer-"]:not(html):not(body)
+##div[class$="_AdServer."]:not(html):not(body)
+##div[class$="_AdServer_"]:not(html):not(body)
 ##div[class$="_campaignId-"]:not(html):not(body)
 ##div[class$="_campaignId."]:not(html):not(body)
 ##div[class$="_campaignId_"]:not(html):not(body)
@@ -1446,6 +1563,9 @@
 ##div[class*="-ads-"]:not(html):not(body)
 ##div[class*="-ads."]:not(html):not(body)
 ##div[class*="-ads_"]:not(html):not(body)
+##div[class*="-AdServer-"]:not(html):not(body)
+##div[class*="-AdServer."]:not(html):not(body)
+##div[class*="-AdServer_"]:not(html):not(body)
 ##div[class*="-campaignId-"]:not(html):not(body)
 ##div[class*="-campaignId."]:not(html):not(body)
 ##div[class*="-campaignId_"]:not(html):not(body)
@@ -1482,6 +1602,9 @@
 ##div[class*=".ads-"]:not(html):not(body)
 ##div[class*=".ads."]:not(html):not(body)
 ##div[class*=".ads_"]:not(html):not(body)
+##div[class*=".AdServer-"]:not(html):not(body)
+##div[class*=".AdServer."]:not(html):not(body)
+##div[class*=".AdServer_"]:not(html):not(body)
 ##div[class*=".campaignId-"]:not(html):not(body)
 ##div[class*=".campaignId."]:not(html):not(body)
 ##div[class*=".campaignId_"]:not(html):not(body)
@@ -1518,6 +1641,9 @@
 ##div[class*="_ads-"]:not(html):not(body)
 ##div[class*="_ads."]:not(html):not(body)
 ##div[class*="_ads_"]:not(html):not(body)
+##div[class*="_AdServer-"]:not(html):not(body)
+##div[class*="_AdServer."]:not(html):not(body)
+##div[class*="_AdServer_"]:not(html):not(body)
 ##div[class*="_campaignId-"]:not(html):not(body)
 ##div[class*="_campaignId."]:not(html):not(body)
 ##div[class*="_campaignId_"]:not(html):not(body)
@@ -1554,6 +1680,9 @@
 ##div[class="-ads-"]:not(html):not(body)
 ##div[class="-ads."]:not(html):not(body)
 ##div[class="-ads_"]:not(html):not(body)
+##div[class="-AdServer-"]:not(html):not(body)
+##div[class="-AdServer."]:not(html):not(body)
+##div[class="-AdServer_"]:not(html):not(body)
 ##div[class="-campaignId-"]:not(html):not(body)
 ##div[class="-campaignId."]:not(html):not(body)
 ##div[class="-campaignId_"]:not(html):not(body)
@@ -1590,6 +1719,9 @@
 ##div[class=".ads-"]:not(html):not(body)
 ##div[class=".ads."]:not(html):not(body)
 ##div[class=".ads_"]:not(html):not(body)
+##div[class=".AdServer-"]:not(html):not(body)
+##div[class=".AdServer."]:not(html):not(body)
+##div[class=".AdServer_"]:not(html):not(body)
 ##div[class=".campaignId-"]:not(html):not(body)
 ##div[class=".campaignId."]:not(html):not(body)
 ##div[class=".campaignId_"]:not(html):not(body)
@@ -1626,6 +1758,9 @@
 ##div[class="_ads-"]:not(html):not(body)
 ##div[class="_ads."]:not(html):not(body)
 ##div[class="_ads_"]:not(html):not(body)
+##div[class="_AdServer-"]:not(html):not(body)
+##div[class="_AdServer."]:not(html):not(body)
+##div[class="_AdServer_"]:not(html):not(body)
 ##div[class="_campaignId-"]:not(html):not(body)
 ##div[class="_campaignId."]:not(html):not(body)
 ##div[class="_campaignId_"]:not(html):not(body)
@@ -1662,6 +1797,9 @@
 ##div[class^="-ads-"]:not(html):not(body)
 ##div[class^="-ads."]:not(html):not(body)
 ##div[class^="-ads_"]:not(html):not(body)
+##div[class^="-AdServer-"]:not(html):not(body)
+##div[class^="-AdServer."]:not(html):not(body)
+##div[class^="-AdServer_"]:not(html):not(body)
 ##div[class^="-campaignId-"]:not(html):not(body)
 ##div[class^="-campaignId."]:not(html):not(body)
 ##div[class^="-campaignId_"]:not(html):not(body)
@@ -1698,6 +1836,9 @@
 ##div[class^=".ads-"]:not(html):not(body)
 ##div[class^=".ads."]:not(html):not(body)
 ##div[class^=".ads_"]:not(html):not(body)
+##div[class^=".AdServer-"]:not(html):not(body)
+##div[class^=".AdServer."]:not(html):not(body)
+##div[class^=".AdServer_"]:not(html):not(body)
 ##div[class^=".campaignId-"]:not(html):not(body)
 ##div[class^=".campaignId."]:not(html):not(body)
 ##div[class^=".campaignId_"]:not(html):not(body)
@@ -1734,6 +1875,9 @@
 ##div[class^="_ads-"]:not(html):not(body)
 ##div[class^="_ads."]:not(html):not(body)
 ##div[class^="_ads_"]:not(html):not(body)
+##div[class^="_AdServer-"]:not(html):not(body)
+##div[class^="_AdServer."]:not(html):not(body)
+##div[class^="_AdServer_"]:not(html):not(body)
 ##div[class^="_campaignId-"]:not(html):not(body)
 ##div[class^="_campaignId."]:not(html):not(body)
 ##div[class^="_campaignId_"]:not(html):not(body)
@@ -1770,6 +1914,9 @@
 ##div[id$="-ads-"]:not(html):not(body)
 ##div[id$="-ads."]:not(html):not(body)
 ##div[id$="-ads_"]:not(html):not(body)
+##div[id$="-AdServer-"]:not(html):not(body)
+##div[id$="-AdServer."]:not(html):not(body)
+##div[id$="-AdServer_"]:not(html):not(body)
 ##div[id$="-campaignId-"]:not(html):not(body)
 ##div[id$="-campaignId."]:not(html):not(body)
 ##div[id$="-campaignId_"]:not(html):not(body)
@@ -1806,6 +1953,9 @@
 ##div[id$=".ads-"]:not(html):not(body)
 ##div[id$=".ads."]:not(html):not(body)
 ##div[id$=".ads_"]:not(html):not(body)
+##div[id$=".AdServer-"]:not(html):not(body)
+##div[id$=".AdServer."]:not(html):not(body)
+##div[id$=".AdServer_"]:not(html):not(body)
 ##div[id$=".campaignId-"]:not(html):not(body)
 ##div[id$=".campaignId."]:not(html):not(body)
 ##div[id$=".campaignId_"]:not(html):not(body)
@@ -1842,6 +1992,9 @@
 ##div[id$="_ads-"]:not(html):not(body)
 ##div[id$="_ads."]:not(html):not(body)
 ##div[id$="_ads_"]:not(html):not(body)
+##div[id$="_AdServer-"]:not(html):not(body)
+##div[id$="_AdServer."]:not(html):not(body)
+##div[id$="_AdServer_"]:not(html):not(body)
 ##div[id$="_campaignId-"]:not(html):not(body)
 ##div[id$="_campaignId."]:not(html):not(body)
 ##div[id$="_campaignId_"]:not(html):not(body)
@@ -1878,6 +2031,9 @@
 ##div[id*="-ads-"]:not(html):not(body)
 ##div[id*="-ads."]:not(html):not(body)
 ##div[id*="-ads_"]:not(html):not(body)
+##div[id*="-AdServer-"]:not(html):not(body)
+##div[id*="-AdServer."]:not(html):not(body)
+##div[id*="-AdServer_"]:not(html):not(body)
 ##div[id*="-campaignId-"]:not(html):not(body)
 ##div[id*="-campaignId."]:not(html):not(body)
 ##div[id*="-campaignId_"]:not(html):not(body)
@@ -1914,6 +2070,9 @@
 ##div[id*=".ads-"]:not(html):not(body)
 ##div[id*=".ads."]:not(html):not(body)
 ##div[id*=".ads_"]:not(html):not(body)
+##div[id*=".AdServer-"]:not(html):not(body)
+##div[id*=".AdServer."]:not(html):not(body)
+##div[id*=".AdServer_"]:not(html):not(body)
 ##div[id*=".campaignId-"]:not(html):not(body)
 ##div[id*=".campaignId."]:not(html):not(body)
 ##div[id*=".campaignId_"]:not(html):not(body)
@@ -1950,6 +2109,9 @@
 ##div[id*="_ads-"]:not(html):not(body)
 ##div[id*="_ads."]:not(html):not(body)
 ##div[id*="_ads_"]:not(html):not(body)
+##div[id*="_AdServer-"]:not(html):not(body)
+##div[id*="_AdServer."]:not(html):not(body)
+##div[id*="_AdServer_"]:not(html):not(body)
 ##div[id*="_campaignId-"]:not(html):not(body)
 ##div[id*="_campaignId."]:not(html):not(body)
 ##div[id*="_campaignId_"]:not(html):not(body)
@@ -1986,6 +2148,9 @@
 ##div[id="-ads-"]:not(html):not(body)
 ##div[id="-ads."]:not(html):not(body)
 ##div[id="-ads_"]:not(html):not(body)
+##div[id="-AdServer-"]:not(html):not(body)
+##div[id="-AdServer."]:not(html):not(body)
+##div[id="-AdServer_"]:not(html):not(body)
 ##div[id="-campaignId-"]:not(html):not(body)
 ##div[id="-campaignId."]:not(html):not(body)
 ##div[id="-campaignId_"]:not(html):not(body)
@@ -2022,6 +2187,9 @@
 ##div[id=".ads-"]:not(html):not(body)
 ##div[id=".ads."]:not(html):not(body)
 ##div[id=".ads_"]:not(html):not(body)
+##div[id=".AdServer-"]:not(html):not(body)
+##div[id=".AdServer."]:not(html):not(body)
+##div[id=".AdServer_"]:not(html):not(body)
 ##div[id=".campaignId-"]:not(html):not(body)
 ##div[id=".campaignId."]:not(html):not(body)
 ##div[id=".campaignId_"]:not(html):not(body)
@@ -2058,6 +2226,9 @@
 ##div[id="_ads-"]:not(html):not(body)
 ##div[id="_ads."]:not(html):not(body)
 ##div[id="_ads_"]:not(html):not(body)
+##div[id="_AdServer-"]:not(html):not(body)
+##div[id="_AdServer."]:not(html):not(body)
+##div[id="_AdServer_"]:not(html):not(body)
 ##div[id="_campaignId-"]:not(html):not(body)
 ##div[id="_campaignId."]:not(html):not(body)
 ##div[id="_campaignId_"]:not(html):not(body)
@@ -2094,6 +2265,9 @@
 ##div[id^="-ads-"]:not(html):not(body)
 ##div[id^="-ads."]:not(html):not(body)
 ##div[id^="-ads_"]:not(html):not(body)
+##div[id^="-AdServer-"]:not(html):not(body)
+##div[id^="-AdServer."]:not(html):not(body)
+##div[id^="-AdServer_"]:not(html):not(body)
 ##div[id^="-campaignId-"]:not(html):not(body)
 ##div[id^="-campaignId."]:not(html):not(body)
 ##div[id^="-campaignId_"]:not(html):not(body)
@@ -2130,6 +2304,9 @@
 ##div[id^=".ads-"]:not(html):not(body)
 ##div[id^=".ads."]:not(html):not(body)
 ##div[id^=".ads_"]:not(html):not(body)
+##div[id^=".AdServer-"]:not(html):not(body)
+##div[id^=".AdServer."]:not(html):not(body)
+##div[id^=".AdServer_"]:not(html):not(body)
 ##div[id^=".campaignId-"]:not(html):not(body)
 ##div[id^=".campaignId."]:not(html):not(body)
 ##div[id^=".campaignId_"]:not(html):not(body)
@@ -2166,6 +2343,9 @@
 ##div[id^="_ads-"]:not(html):not(body)
 ##div[id^="_ads."]:not(html):not(body)
 ##div[id^="_ads_"]:not(html):not(body)
+##div[id^="_AdServer-"]:not(html):not(body)
+##div[id^="_AdServer."]:not(html):not(body)
+##div[id^="_AdServer_"]:not(html):not(body)
 ##div[id^="_campaignId-"]:not(html):not(body)
 ##div[id^="_campaignId."]:not(html):not(body)
 ##div[id^="_campaignId_"]:not(html):not(body)
@@ -2428,6 +2608,22 @@ yandex.ru,yandex.ua,yandex.by##.media-grid__media-content
 yandex.ru,yandex.ua,yandex.by##.media-infinity-footer__content_visible_yes.media-infinity-footer__content
 yandex.ru,yandex.ua,yandex.by##.yaplus
 yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
+|http*:*-AdServer-$important
+|http*:*-AdServer.$important
+|http*:*-AdServer^$important
+|http*:*-AdServer_$important
+|http*:*.AdServer-$important
+|http*:*.AdServer.$important
+|http*:*.AdServer^$important
+|http*:*.AdServer_$important
+|http*:*^AdServer-$important
+|http*:*^AdServer.$important
+|http*:*^AdServer^$important
+|http*:*^AdServer_$important
+|http*:*_AdServer-$important
+|http*:*_AdServer.$important
+|http*:*_AdServer^$important
+|http*:*_AdServer_$important
 |http*://*-ad-
 |http*://*-ad-sdk-$important
 |http*://*-ad-sdk.$important
@@ -3412,13 +3608,18 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||2ch.hk/js/snowstorm.js
 ||2ch.hk/makaba/templates/js/c.gif
 ||2ch.hk^*/tracker.js
+||3lift.com^$important
 ||aaxads.com^$important
 ||adbetnet.com^$important
 ||adcdnx.com^$important
 ||adfox.ru^$important
 ||admixer.net^$important
+||adnxs.com^$important
 ||adsafeprotected.com^$important
 ||adswrapme.click^$important
+||adsymptotic.com^$important
+||adtechus.com^$important
+||advertising.com^$important
 ||advertserve.com^$important
 ||amazon-adsystem.com^$important
 ||amung.us^$important
@@ -3428,10 +3629,14 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||awaps.yandex.net^$image,important,redirect=1x1-transparent.gif
 ||awaps.yandex.net^$subdocument,important,redirect=noopframe
 ||bat.bing.com^$important
+||casalemedia.com^$important
 ||cdn.jsdelivr.net^$important
 ||cdn.ziffstatic.com^$important
+||clarium.global.ssl.fastly.net^$important
 ||clck.ru^
 ||collector.githubapp.com^$important
+||criteo.com^$important
+||criteo.net^$important
 ||cryptonoter.com/processor.js$important,script
 ||cutter.li^
 ||digitaltarget.ru^$important
@@ -3455,8 +3660,10 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||gostats.com^$important
 ||harvest.surge.sh/h.js$important,script
 ||hostingcloud.win^$important
+||indexww.com^$important
 ||justicejudo.com^$important
 ||kiks.yandex.ru^$image,important,redirect=1x1-transparent.gif
+||lijit.com^$important
 ||mail.ru/share_count^$important
 ||mail.yandex.*/monitoring_liza.txt$important
 ||mail.yandex.*^$first-party,script,important
@@ -3466,6 +3673,7 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||navdmp.com^$important
 ||newrelic.com^$important
 ||news.yandex.*^$first-party,script,important
+||openx.net^$important
 ||pagead2.googlesyndication.com/pagead/show_ads.js$script,important,redirect=noopjs
 ||phncdn.com^$important
 ||piguiqproxy.com^$important
@@ -3473,27 +3681,33 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||popcash.net^$important
 ||postrelease.com^$important
 ||protovid.com^$important
+||pubmatic.com^$important
 ||quantserve.com^$important
 ||recreativ.ru^$important
 ||reddit.com/timings/$important
 ||reddit.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.reddit.com *.redditmedia.com *.redditstatic.com reddit-uploaded-media.s3-accelerate.amazonaws.com,important
 ||redditmedia.com/gtm/jail^$important
 ||redditstatic.com/moat^$important
+||rubiconproject.com^$important
 ||rutarget.ru^$important
 ||scontent.xx.fbcdn.net/hads-ak-prn*/*.png$image,important
 ||scontent.xx.fbcdn23dssr3jqnq.onion/hads-ak-prn*/*.png$image,important
 ||scorecardresearch.com/beacon.js$script,important,redirect=scorecardresearch.com/beacon.js
 ||scorecardresearch.com^$important
+||scroll.com^$important
 ||sharethrough.com^$important
+||sonobi.com^$important
 ||ssp.rambler.ru^$important
 ||stat.pladform.ru^$important
 ||statcounter.com^$important
 ||syndication.twitter.com^$important
 ||taboola.com^$important
+||tags.tiqcdn.com^$important
 ||tns-counter.ru^$important
 ||top100.ru/top100/top100.js$important,script
 ||trafficfactory.biz^$important
 ||trafficjunky.net^$important
+||try.abtasty.com^$important
 ||tsyndicate.com^$important
 ||twitch.tv^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' *.jtvnw.net *.ttvnw.net *.twitchcdn.net *.twitch.tv *.facebook.com *.facebook.net recaptcha.net *.google.com *.gstatic.com blob: wss:,important
 ||twitter.com/*/recommendations^
