@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Ts/ZArUHa0l/ZMWpdftxfQ
+! Checksum: w31ENA9f4NJ6l8FfAB4YKw
 ! Title: Press the Attack
-! Last modified: 2019-02-22, 17:55:59
-! Version: 20190222175559
+! Last modified: 2019-02-22, 19:49:41
+! Version: 20190222194941
 ! Expires: 1 hour
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
@@ -2513,6 +2513,8 @@
 /log[\W|_]?(type|event|entry)/$important
 /me[0-9]{1}w\.js/$important,script
 /p.js$script,important
+/pv.gif$image,important,redirect=1x1-transparent.gif
+/pv?fe=*&elg=$important
 /webmr[0-9]{1,2}\.js/$important,script
 1xbet$image,important
 1xstavka$image,important
@@ -2608,22 +2610,54 @@ yandex.ru,yandex.ua,yandex.by##.media-grid__media-content
 yandex.ru,yandex.ua,yandex.by##.media-infinity-footer__content_visible_yes.media-infinity-footer__content
 yandex.ru,yandex.ua,yandex.by##.yaplus
 yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
+|http*:*-adlog-
+|http*:*-adlog.
+|http*:*-adlog^
+|http*:*-adlog_
 |http*:*-AdServer-$important
 |http*:*-AdServer.$important
 |http*:*-AdServer^$important
 |http*:*-AdServer_$important
+|http*:*-tcheck-
+|http*:*-tcheck.
+|http*:*-tcheck^
+|http*:*-tcheck_
+|http*:*.adlog-
+|http*:*.adlog.
+|http*:*.adlog^
+|http*:*.adlog_
 |http*:*.AdServer-$important
 |http*:*.AdServer.$important
 |http*:*.AdServer^$important
 |http*:*.AdServer_$important
+|http*:*.tcheck-
+|http*:*.tcheck.
+|http*:*.tcheck^
+|http*:*.tcheck_
+|http*:*^adlog-
+|http*:*^adlog.
+|http*:*^adlog^
+|http*:*^adlog_
 |http*:*^AdServer-$important
 |http*:*^AdServer.$important
 |http*:*^AdServer^$important
 |http*:*^AdServer_$important
+|http*:*^tcheck-
+|http*:*^tcheck.
+|http*:*^tcheck^
+|http*:*^tcheck_
+|http*:*_adlog-
+|http*:*_adlog.
+|http*:*_adlog^
+|http*:*_adlog_
 |http*:*_AdServer-$important
 |http*:*_AdServer.$important
 |http*:*_AdServer^$important
 |http*:*_AdServer_$important
+|http*:*_tcheck-
+|http*:*_tcheck.
+|http*:*_tcheck^
+|http*:*_tcheck_
 |http*://*-ad-
 |http*://*-ad-sdk-$important
 |http*://*-ad-sdk.$important
@@ -3616,6 +3650,8 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||adfox.ru^$important
 ||admixer.net^$important
 ||adnxs.com^$important
+||adobedtm.com^$important
+||ads-twitter.com^$important
 ||adsafeprotected.com^$important
 ||adswrapme.click^$important
 ||adsymptotic.com^$important
@@ -3623,6 +3659,7 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||advertising.com^$important
 ||advertserve.com^$important
 ||amazon-adsystem.com^$important
+||amplify.outbrain.com/cp/obtp.js$script,important
 ||amung.us^$important
 ||analytics.*^$important
 ||api.twitch.tv/*/channels/*/extensions^
@@ -3631,12 +3668,15 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||awaps.yandex.net^$subdocument,important,redirect=noopframe
 ||bat.bing.com^$important
 ||bidswitch.net^$important
+||bounceexchange.com^$important
 ||casalemedia.com^$important
 ||cdn.jsdelivr.net^$important
 ||cdn.ziffstatic.com^$important
+||chartbeat.com^$important
 ||clarium.global.ssl.fastly.net^$important
 ||clck.ru^
 ||collector.githubapp.com^$important
+||cookielaw.org^$important
 ||criteo.*^$important
 ||cryptonoter.com/processor.js$important,script
 ||cutter.li^
@@ -3662,16 +3702,21 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||gostats.com^$important
 ||harvest.surge.sh/h.js$important,script
 ||hostingcloud.win^$important
+||ibillboard.com^$important
 ||indexww.com^$important
 ||justicejudo.com^$important
 ||kiks.yandex.ru^$image,important,redirect=1x1-transparent.gif
+||ligatus.com^$important
 ||lijit.com^$important
+||log.*^$important
 ||mail.ru/share_count^$important
 ||mail.yandex.*/monitoring_liza.txt$important
 ||mail.yandex.*^$first-party,script,important
 ||mc.yandex.ru/metrika/tag.js$script,important,redirect=noopjs
 ||mc.yandex.ru/metrika/watch.js$script,important,redirect=noopjs
+||mms.cnn.com^
 ||moatads.com^$important
+||mookie1.com^$important
 ||navdmp.com^$important
 ||newrelic.com^$important
 ||news.yandex.*^$first-party,script,important
@@ -3681,8 +3726,10 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||phncdn.com^$important
 ||piguiqproxy.com^$important
 ||pipe.aria.microsoft.com/collector^$xmlhttprequest,important
+||plista.com^$important
 ||popcash.net^$important
 ||postrelease.com^$important
+||proofpoint.com^$important
 ||protovid.com^$important
 ||pubmatic.com^$important
 ||quantserve.com^$important
@@ -3703,9 +3750,11 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||ssp.rambler.ru^$important
 ||stat.pladform.ru^$important
 ||statcounter.com^$important
+||summerhamster.com^$important
 ||syndication.twitter.com^$important
 ||taboola.com^$important
 ||tags.tiqcdn.com^$important
+||tcheck.outbrainimg.com^$important
 ||theadex.com^$important
 ||tns-counter.ru^$important
 ||top100.ru/top100/top100.js$important,script
