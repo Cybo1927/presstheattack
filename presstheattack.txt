@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: w31ENA9f4NJ6l8FfAB4YKw
+! Checksum: tJ5ok/qkFv1dA8LOwIIaJg
 ! Title: Press the Attack
-! Last modified: 2019-02-22, 19:49:41
-! Version: 20190222194941
+! Last modified: 2019-02-22, 21:22:10
+! Version: 20190222212210
 ! Expires: 1 hour
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
@@ -2618,10 +2618,26 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http*:*-AdServer.$important
 |http*:*-AdServer^$important
 |http*:*-AdServer_$important
+|http*:*-adsnippet-$important
+|http*:*-adsnippet.$important
+|http*:*-adsnippet^$important
+|http*:*-adsnippet_$important
+|http*:*-counter-
+|http*:*-counter.
+|http*:*-counter^
+|http*:*-counter_
+|http*:*-showads-$important
+|http*:*-showads.$important
+|http*:*-showads^$important
+|http*:*-showads_$important
 |http*:*-tcheck-
 |http*:*-tcheck.
 |http*:*-tcheck^
 |http*:*-tcheck_
+|http*:*-uedata-
+|http*:*-uedata.
+|http*:*-uedata^
+|http*:*-uedata_
 |http*:*.adlog-
 |http*:*.adlog.
 |http*:*.adlog^
@@ -2630,10 +2646,26 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http*:*.AdServer.$important
 |http*:*.AdServer^$important
 |http*:*.AdServer_$important
+|http*:*.adsnippet-$important
+|http*:*.adsnippet.$important
+|http*:*.adsnippet^$important
+|http*:*.adsnippet_$important
+|http*:*.counter-
+|http*:*.counter.
+|http*:*.counter^
+|http*:*.counter_
+|http*:*.showads-$important
+|http*:*.showads.$important
+|http*:*.showads^$important
+|http*:*.showads_$important
 |http*:*.tcheck-
 |http*:*.tcheck.
 |http*:*.tcheck^
 |http*:*.tcheck_
+|http*:*.uedata-
+|http*:*.uedata.
+|http*:*.uedata^
+|http*:*.uedata_
 |http*:*^adlog-
 |http*:*^adlog.
 |http*:*^adlog^
@@ -2642,10 +2674,26 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http*:*^AdServer.$important
 |http*:*^AdServer^$important
 |http*:*^AdServer_$important
+|http*:*^adsnippet-$important
+|http*:*^adsnippet.$important
+|http*:*^adsnippet^$important
+|http*:*^adsnippet_$important
+|http*:*^counter-
+|http*:*^counter.
+|http*:*^counter^
+|http*:*^counter_
+|http*:*^showads-$important
+|http*:*^showads.$important
+|http*:*^showads^$important
+|http*:*^showads_$important
 |http*:*^tcheck-
 |http*:*^tcheck.
 |http*:*^tcheck^
 |http*:*^tcheck_
+|http*:*^uedata-
+|http*:*^uedata.
+|http*:*^uedata^
+|http*:*^uedata_
 |http*:*_adlog-
 |http*:*_adlog.
 |http*:*_adlog^
@@ -2654,10 +2702,26 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http*:*_AdServer.$important
 |http*:*_AdServer^$important
 |http*:*_AdServer_$important
+|http*:*_adsnippet-$important
+|http*:*_adsnippet.$important
+|http*:*_adsnippet^$important
+|http*:*_adsnippet_$important
+|http*:*_counter-
+|http*:*_counter.
+|http*:*_counter^
+|http*:*_counter_
+|http*:*_showads-$important
+|http*:*_showads.$important
+|http*:*_showads^$important
+|http*:*_showads_$important
 |http*:*_tcheck-
 |http*:*_tcheck.
 |http*:*_tcheck^
 |http*:*_tcheck_
+|http*:*_uedata-
+|http*:*_uedata.
+|http*:*_uedata^
+|http*:*_uedata_
 |http*://*-ad-
 |http*://*-ad-sdk-$important
 |http*://*-ad-sdk.$important
@@ -3640,7 +3704,6 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||28f77rd30e.ru^$important
 ||2ch.hk/images/
 ||2ch.hk/js/snowstorm.js
-||2ch.hk/makaba/templates/js/c.gif
 ||2ch.hk^*/tracker.js
 ||3lift.com^$important
 ||aaxads.com^$important
@@ -3659,6 +3722,7 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||advertising.com^$important
 ||advertserve.com^$important
 ||amazon-adsystem.com^$important
+||amazon.*/*/record-impressions^$important
 ||amplify.outbrain.com/cp/obtp.js$script,important
 ||amung.us^$important
 ||analytics.*^$important
@@ -3688,6 +3752,7 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||duckduckgo.com/y.js$important
 ||f53mbcg4ak.ru^$important
 ||facebook.com/connect/ping^$subdocument,important,redirect=noopframe
+||fls-*.amazon.*%$important
 ||gamescarousel.com^$third-party
 ||gemius.pl^$important
 ||github.com/_private/browser/stats^$important
@@ -3723,7 +3788,6 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||nuggad.net^$important
 ||openx.net^$important
 ||pagead2.googlesyndication.com/pagead/show_ads.js$script,important,redirect=noopjs
-||phncdn.com^$important
 ||piguiqproxy.com^$important
 ||pipe.aria.microsoft.com/collector^$xmlhttprequest,important
 ||plista.com^$important
@@ -3740,8 +3804,8 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||redditstatic.com/moat^$important
 ||rubiconproject.com^$important
 ||rutarget.ru^$important
-||scontent.xx.fbcdn.net/hads-ak-prn*/*.png$image,important
-||scontent.xx.fbcdn23dssr3jqnq.onion/hads-ak-prn*/*.png$image,important
+||scontent.xx.fbcdn.net/hads-ak-prn*/*.png$image,important,redirect=1x1-transparent.gif
+||scontent.xx.fbcdn23dssr3jqnq.onion/hads-ak-prn*/*.png$image,important,redirect=1x1-transparent.gif
 ||scorecardresearch.com/beacon.js$script,important,redirect=scorecardresearch.com/beacon.js
 ||scorecardresearch.com^$important
 ||scroll.com^$important
