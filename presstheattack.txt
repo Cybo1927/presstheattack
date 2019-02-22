@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 3MG7X9WHr/an9bNupc8D1w
+! Checksum: Ts/ZArUHa0l/ZMWpdftxfQ
 ! Title: Press the Attack
-! Last modified: 2019-02-22, 17:45:13
-! Version: 20190222174513
+! Last modified: 2019-02-22, 17:55:59
+! Version: 20190222175559
 ! Expires: 1 hour
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
@@ -2374,9 +2374,9 @@
 */*pixel.gif$image,important,redirect=1x1-transparent.gif
 */*pixel.png$image,important,redirect=1x1-transparent.gif
 */0.gif$image,important,redirect=1x1-transparent.gif
-*/0.jpg$image,important,redirect=1x1-transparent.gif
 */0.png$image,important,redirect=1x1-transparent.gif
 */1x1.gif$image,important,redirect=1x1-transparent.gif
+*/1x1.png$image,important,redirect=1x1-transparent.gif
 */2x2.png$image,important,redirect=2x2-transparent.png
 */32x32.png$image,important,redirect=32x32-transparent.png
 */3x2.png$image,important,redirect=3x2-transparent.png
@@ -3610,6 +3610,7 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||2ch.hk^*/tracker.js
 ||3lift.com^$important
 ||aaxads.com^$important
+||adalliance.io^$important
 ||adbetnet.com^$important
 ||adcdnx.com^$important
 ||adfox.ru^$important
@@ -3629,14 +3630,14 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||awaps.yandex.net^$image,important,redirect=1x1-transparent.gif
 ||awaps.yandex.net^$subdocument,important,redirect=noopframe
 ||bat.bing.com^$important
+||bidswitch.net^$important
 ||casalemedia.com^$important
 ||cdn.jsdelivr.net^$important
 ||cdn.ziffstatic.com^$important
 ||clarium.global.ssl.fastly.net^$important
 ||clck.ru^
 ||collector.githubapp.com^$important
-||criteo.com^$important
-||criteo.net^$important
+||criteo.*^$important
 ||cryptonoter.com/processor.js$important,script
 ||cutter.li^
 ||digitaltarget.ru^$important
@@ -3646,6 +3647,7 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||duckduckgo.com/t/$important
 ||duckduckgo.com/y.js$important
 ||f53mbcg4ak.ru^$important
+||facebook.com/connect/ping^$subdocument,important,redirect=noopframe
 ||gamescarousel.com^$third-party
 ||gemius.pl^$important
 ||github.com/_private/browser/stats^$important
@@ -3673,6 +3675,7 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||navdmp.com^$important
 ||newrelic.com^$important
 ||news.yandex.*^$first-party,script,important
+||nuggad.net^$important
 ||openx.net^$important
 ||pagead2.googlesyndication.com/pagead/show_ads.js$script,important,redirect=noopjs
 ||phncdn.com^$important
@@ -3703,6 +3706,7 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||syndication.twitter.com^$important
 ||taboola.com^$important
 ||tags.tiqcdn.com^$important
+||theadex.com^$important
 ||tns-counter.ru^$important
 ||top100.ru/top100/top100.js$important,script
 ||trafficfactory.biz^$important
@@ -3712,6 +3716,7 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||twitch.tv^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' *.jtvnw.net *.ttvnw.net *.twitchcdn.net *.twitch.tv *.facebook.com *.facebook.net recaptcha.net *.google.com *.gstatic.com blob: wss:,important
 ||twitter.com/*/recommendations^
 ||twitter.com/*/toast_poll$important
+||urbanairship.com^$important
 ||v0hs81ev3vepjr.ru^$important
 ||vadideo.com^$important
 ||vk-portal.net^$important

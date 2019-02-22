@@ -1,7 +1,6 @@
 #!/bin/bash
 
 git pull
-perl ./ValidateChecksum.pl ../presstheattack.txt
 perl ./Sorting.pl ../presstheattack.txt
 perl ./AddChecksum.pl ../presstheattack.txt
 perl ./UpdateDateString.pl ../presstheattack.txt
