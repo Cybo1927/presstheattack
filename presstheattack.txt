@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 2DZTV6O7URA3qwRF59iNog
+! Checksum: ChDp92sbWmAOUkEf3vApwA
 ! Title: Press the Attack
-! Last modified: 2019-02-23, 23:07:01
-! Version: 20190223230701
+! Last modified: 2019-02-24,  1:32:49
+! Version: 20190224013249
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
@@ -2593,7 +2593,7 @@ $important,inline-font
 /^https?:\/\/(www\.)?(client\-event\-reporter|countess|mp|polyfill|sentinel|spade|trowel|fan)\.+twitch(svc)?\.\w{2,}/$important
 /^https?:\/\/(www\.)?facebook\.\w{3,}\/tr\D/$important
 /^https?:\/\/[\w.]+google(\-analytics|syndication|tagmanager|adservices|tagservices)\.\w{2,}/$important
-/^https?:\/\/[\w.]+google\.\w{2,}\/log\?/$image,important,xmlhttprequest
+/^https?:\/\/[\w.]+google\.\w{2,}\/log\?/$important,xmlhttprequest,image/^https?:\/\/news\.yandex\.\w{2,}\/[^\s]{300,}/$important,subdocument,xmlhttprequest
 /^https?:\/\/[\w\.]?(an|awaps|awsync|appmetrica|bs|direct|grade\.market|informer|kiks|clck|main\.zdevx|mc|web\-metrica|yabs|zen|browser\-updater|bs\-meta)\.+yandex\.\w{2,}/$important
 /^https?:\/\/[\w\.]?(id|adservice|mobilecrashreporting|imasdk|tagmanager)\.google(apis)?\.\w{2,}/$important
 /^https?:\/\/[^\s]+\.radar\.imgsmail\.ru/$important
@@ -2602,7 +2602,6 @@ $important,inline-font
 /^https?:\/\/cdn[0-9]?\.rocks\/[^\s]{30,}\.js/$important,script
 /^https?:\/\/contentbooster\.me+\/(?!manifest)[a-z0-9]{5,45}/$important,xmlhttprequest
 /^https?:\/\/graph\.(facebook|instagram)\.com/$important
-/^https?:\/\/news\.yandex\.\w{2,}\/[^\s]{300,}/$important,subdocument,xmlhttprequest
 /^https?:\/\/tv\.yandex\.\w{2,}\/[^\s]{300,}/$important,subdocument,xmlhttprequest
 /^https?:\/\/yandex\.\w{2,}\/images/(?!(search\?rpt=\imageview)|(search\?callback\=jQuery)|(search\?exp_flags=)|(search\?serpid=)|(touch/search?))[^\s]{80,}/$important,subdocument,xmlhttprequest
 /^https?:\/\/yastatic\.net\/[^\s]{500,}/$domain=~vh.yandex.ru

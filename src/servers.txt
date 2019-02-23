@@ -12,8 +12,8 @@
 /^https?:\/\/graph\.(facebook|instagram)\.com/$important
 /^https?:\/\/yastatic\.net\/[^\s]{500,}/$domain=~vh.yandex.ru
 ||1-1ads.com^$important
-||3lift.com^$important
 ||28f77rd30e.ru^$important
+||3lift.com^$important
 ||aaxads.com^$important
 ||adalliance.io^$important
 ||adbetnet.com^$important
