@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: MtVJbh1oPv3yXzVGhnWSrw
+! Checksum: 9YKj4x3J3o44TGJJRsBheA
 ! Title: Press the Attack
-! Last modified: 2019-02-23, 19:30:22
-! Version: 20190223193022
+! Last modified: 2019-02-23, 19:41:16
+! Version: 20190223194116
 ! Expires: 1 hour
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
@@ -2552,28 +2552,29 @@
 $font,important
 $important,inline-font
 *$cookie=/blcrm|bltsr|yabs|adequate/,domain=yandex.by|yandex.ru|yandex.ua
-*/*pixel.gif$image,important,redirect=1x1-transparent.gif
-*/*pixel.png$image,important,redirect=1x1-transparent.gif
-*/0.gif$image,important,redirect=1x1-transparent.gif
-*/0.png$image,important,redirect=1x1-transparent.gif
-*/1x1.gif$image,important,redirect=1x1-transparent.gif
-*/1x1.png$image,important,redirect=1x1-transparent.gif
-*/2x2.png$image,important,redirect=2x2-transparent.png
-*/32x32.png$image,important,redirect=32x32-transparent.png
-*/3x2.png$image,important,redirect=3x2-transparent.png
-*/a.gif$image,important,redirect=1x1-transparent.gif
-*/ad.gif$image,important,redirect=1x1-transparent.gif
-*/ads.gif$image,important,redirect=1x1-transparent.gif
-*/blank.gif$image,important,redirect=1x1-transparent.gif
-*/c.gif$image,important,redirect=1x1-transparent.gif
-*/cleardot.gif$image,important,redirect=1x1-transparent.gif
-*/empty.gif$image,important,redirect=1x1-transparent.gif
-*/i.gif$image,important,redirect=1x1-transparent.gif
-*/pic.gif$image,important,redirect=1x1-transparent.gif
-*/ping.gif$image,important,redirect=1x1-transparent.gif
-*/spacer.gif$image,important,redirect=1x1-transparent.gif
-*/visit.gif$image,important,redirect=1x1-transparent.gif
-*/x.gif$image,important,redirect=1x1-transparent.gif
+*/*pixel.gif$important,image,redirect=1x1-transparent.gif
+*/*pixel.png$important,image,redirect=1x1-transparent.gif
+*/0.gif$important,image,redirect=1x1-transparent.gif
+*/0.png$important,image,redirect=1x1-transparent.gif
+*/1x1.gif$important,image,redirect=1x1-transparent.gif
+*/1x1.png$important,image,redirect=1x1-transparent.gif
+*/2x2.png$important,image,redirect=2x2-transparent.png
+*/32x32.png$important,image,redirect=32x32-transparent.png
+*/3x2.png$important,image,redirect=3x2-transparent.png
+*/a.gif$important,image,redirect=1x1-transparent.gif
+*/ad.gif$important,image,redirect=1x1-transparent.gif
+*/ads.gif$important,image,redirect=1x1-transparent.gif
+*/blank.gif$important,image,redirect=1x1-transparent.gif
+*/c.gif$important,image,redirect=1x1-transparent.gif
+*/cleardot.gif$important,image,redirect=1x1-transparent.gif
+*/empty.gif$important,image,redirect=1x1-transparent.gif
+*/i.gif$important,image,redirect=1x1-transparent.gif
+*/pic.gif$important,image,redirect=1x1-transparent.gif
+*/ping.gif$important,image,redirect=1x1-transparent.gif
+*/pv.gif$important,image,redirect=1x1-transparent.gif
+*/spacer.gif$important,image,redirect=1x1-transparent.gif
+*/visit.gif$important,image,redirect=1x1-transparent.gif
+*/x.gif$important,image,redirect=1x1-transparent.gif
 -clicksor-
 -clicksor.
 -clicksor^
@@ -2671,7 +2672,6 @@ $important,inline-font
 /piwik.js$important,script
 /processor.js$important,script
 /projectpoi.min.js$important,script
-/pv.gif$image,important,redirect=1x1-transparent.gif
 /pv?fe=*&elg=$important
 /raven.js$important,script
 /referdetect.js$important,script
@@ -2788,14 +2788,14 @@ xvideos.com##+js(nowebrtc.js)
 xvideos.com##+js(window.open-defuser.js)
 xvideos.com##.x-message-info.x-message
 xvideos.com,xnxx.com##+js(xvideos.com.js)
+yandex.by,yandex.ru,yandex.ua##+js(abort-on-property-read.js, Element.prototype.attachShadow)
 yandex.by,yandex.ru,yandex.ua##+js(cookie-remover.js, /^blcrm|^bltsr|^yabs|^adequate/)
 yandex.by,yandex.ru,yandex.ua##.home-link_intense-blue_yes.desk-notif-card_login-plus.home-link
 yandex.by,yandex.ru,yandex.ua##.media-grid__media-content
 yandex.by,yandex.ru,yandex.ua##.media-grid_js_inited.font-regular.i-bem.media-grid_theme_white.media-grid_visible_yes.media-grid
 yandex.by,yandex.ru,yandex.ua##.media-infinity-footer__content_visible_yes.media-infinity-footer__content
 yandex.by,yandex.ru,yandex.ua##.yaplus
-yandex.ru,yandex.ua,yandex.by##+js(abort-on-property-read.js, Element.prototype.attachShadow)
-yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
+yandex.by,yandex.ru,yandex.ua##^script:has-text(AdvManager)
 |http*:*-adlog-
 |http*:*-adlog.
 |http*:*-adlog^
@@ -4057,8 +4057,8 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||analytics.*^$important
 ||api.twitch.tv/*/channels/*/extensions^$xmlhttprequest
 ||atdmt.com^$important
-||awaps.yandex.net^$image,important,redirect=1x1-transparent.gif
-||awaps.yandex.net^$subdocument,important,redirect=noopframe
+||awaps.yandex.net^$important,image,redirect=1x1-transparent.gif
+||awaps.yandex.net^$important,subdocument,redirect=noopframe
 ||bat.bing.com^$important
 ||bidswitch.net^$important
 ||bounceexchange.com^$important
@@ -4082,7 +4082,7 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||duckduckgo.com/t/$image,important
 ||duckduckgo.com/y.js$important,script
 ||f53mbcg4ak.ru^$important
-||facebook.com/connect/ping^$subdocument,important,redirect=noopframe
+||facebook.com/connect/ping^$important,subdocument,redirect=noopframe
 ||fls-*.amazon.*%$important
 ||gamescarousel.com^$third-party
 ||gemius.pl^$important
@@ -4093,7 +4093,7 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||google-analytics.com/cx/api.js$important,script,redirect=google-analytics.com/cx/api.js
 ||google-analytics.com/ga.js$important,script,redirect=google-analytics.com/ga.js
 ||googlesyndication.com/pagead/js/adsbygoogle.js$important,script,redirect=googlesyndication.com/adsbygoogle.js
-||googletagmanager.com/gtag/js$script,important,redirect=noopjs
+||googletagmanager.com/gtag/js$important,script,redirect=noopjs
 ||googletagmanager.com/gtm.js$important,script,redirect=googletagmanager.com/gtm.js
 ||googletagservices.com/tag/js/gpt.js$important,script,redirect=googletagservices.com/gpt.js
 ||gostats.com^$important
@@ -4105,15 +4105,15 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||indexww.com^$important
 ||ioam.de^$important
 ||justicejudo.com^$important
-||kiks.yandex.ru^$image,important,redirect=1x1-transparent.gif
+||kiks.yandex.ru^$important,image,redirect=1x1-transparent.gif
 ||ligatus.com^$important
 ||lijit.com^$important
 ||log.*^$important
 ||mail.ru/share_count^$important
 ||mail.yandex.*/monitoring_liza.txt$image,important
 ||mail.yandex.*^$first-party,important,script
-||mc.yandex.ru/metrika/tag.js$script,important,redirect=noopjs
-||mc.yandex.ru/metrika/watch.js$script,important,redirect=noopjs
+||mc.yandex.ru/metrika/tag.js$important,script,redirect=noopjs
+||mc.yandex.ru/metrika/watch.js$important,script,redirect=noopjs
 ||mms.cnn.com^$important
 ||moatads.com^$important
 ||mookie1.com^$important
@@ -4123,7 +4123,7 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||nuggad.net^$important
 ||onthe.io^$important
 ||openx.net^$important
-||pagead2.googlesyndication.com/pagead/show_ads.js$script,important,redirect=noopjs
+||pagead2.googlesyndication.com/pagead/show_ads.js$important,script,redirect=noopjs
 ||piguiqproxy.com^$important
 ||pipe.aria.microsoft.com/collector^$important,xmlhttprequest
 ||plista.com^$important
@@ -4141,9 +4141,9 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||redditstatic.com/moat^$important
 ||rubiconproject.com^$important
 ||rutarget.ru^$important
-||scontent.xx.fbcdn.net/hads-ak-prn*/*.png$image,important,redirect=1x1-transparent.gif
-||scontent.xx.fbcdn23dssr3jqnq.onion/hads-ak-prn*/*.png$image,important,redirect=1x1-transparent.gif
-||scorecardresearch.com/beacon.js$script,important,redirect=scorecardresearch.com/beacon.js
+||scontent.xx.fbcdn.net/hads-ak-prn*/*.png$important,image,redirect=1x1-transparent.gif
+||scontent.xx.fbcdn23dssr3jqnq.onion/hads-ak-prn*/*.png$important,image,redirect=1x1-transparent.gif
+||scorecardresearch.com/beacon.js$important,script,redirect=scorecardresearch.com/beacon.js
 ||scorecardresearch.com^$important
 ||scroll.com^$important
 ||sharethrough.com^$important
@@ -4168,7 +4168,7 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||twitch.tv^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' *.jtvnw.net *.ttvnw.net *.twitchcdn.net *.twitch.tv *.facebook.com *.facebook.net recaptcha.net *.google.com *.gstatic.com blob: wss:,important
 ||twitter.com/*/recommendations^
 ||twitter.com/*/toast_poll$important
-||twitter.com/oct.js$script,important
+||twitter.com/oct.js$important,script
 ||unrulymedia.com^$important
 ||urbanairship.com^$important
 ||v0hs81ev3vepjr.ru^$important
@@ -4178,26 +4178,26 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||vk.com/js/lib/px.js$important,script
 ||vk.com/rtrg^$image,important
 ||vtracy.de^$important
-||web.telegram.org/*/PhotoThumbConversation.gif$image,important,redirect=1x1-transparent.gif,domain=telegram.org
+||web.telegram.org/*/PhotoThumbConversation.gif$important,image,redirect=1x1-transparent.gif,domain=telegram.org
 ||weborama.fr^$important
 ||xhamsterpremium.com^$important,third-party
-||yabs.yandex.by^$image,important,redirect=1x1-transparent.gif
-||yabs.yandex.ru^$image,important,redirect=1x1-transparent.gif
-||yabs.yandex.ua^$image,important,redirect=1x1-transparent.gif
+||yabs.yandex.by^$important,image,redirect=1x1-transparent.gif
+||yabs.yandex.ru^$important,image,redirect=1x1-transparent.gif
+||yabs.yandex.ua^$important,image,redirect=1x1-transparent.gif
 ||yadro.ru^$important
 ||yandex.*/clck/$important
 ||yandex.*/pogoda/$first-party,inline-script
-||yandex.by/clck/$image,important,redirect=1x1-transparent.gif
-||yandex.by/clck/$script,important,redirect=noopjs
-||yandex.by/clck/$xmlhttprequest,important,redirect=nooptext
-||yandex.ru/clck/$image,important,redirect=1x1-transparent.gif
-||yandex.ru/clck/$script,important,redirect=noopjs
-||yandex.ru/clck/$xmlhttprequest,important,redirect=nooptext
+||yandex.by/clck/$important,image,redirect=1x1-transparent.gif
+||yandex.by/clck/$important,script,redirect=noopjs
+||yandex.by/clck/$important,xmlhttprequest,redirect=nooptext
+||yandex.ru/clck/$important,image,redirect=1x1-transparent.gif
+||yandex.ru/clck/$important,script,redirect=noopjs
+||yandex.ru/clck/$important,xmlhttprequest,redirect=nooptext
 ||yandex.st^$domain=~yandex.by|~yandex.ru|~yandex.ua
-||yandex.ua/clck/$image,important,redirect=1x1-transparent.gif
-||yandex.ua/clck/$script,important,redirect=noopjs
-||yandex.ua/clck/$xmlhttprequest,important,redirect=nooptext
-||yastatic.net/*/*.gif$image,important,redirect=1x1-transparent.gif
+||yandex.ua/clck/$important,image,redirect=1x1-transparent.gif
+||yandex.ua/clck/$important,script,redirect=noopjs
+||yandex.ua/clck/$important,xmlhttprequest,redirect=nooptext
+||yastatic.net/*/*.gif$important,image,redirect=1x1-transparent.gif
 ||yastatic.net/daas/atom.js$important,script
 ||yastatic.net^$important,popup
 ||ybnj57w4m7.ru^$important

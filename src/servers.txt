@@ -114,6 +114,7 @@
 ||weborama.fr^$important
 ||xhamsterpremium.com^$third-party,important
 ||yadro.ru^$important
+||yandex.st^$domain=~yandex.by|~yandex.ru|~yandex.ua
 ||ybnj57w4m7.ru^$important
 ||youtube.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.ggpht.com *.googlevideo.com *.ytimg.com *.googleusercontent.com www.youtube.com,important
 ||zmctrack.net^$important
