@@ -17,21 +17,7 @@ then
 else
      echo "Directory already exists"  
 fi
-echo 'Number of filters:'
-wc -l ../src/combined.txt
-wc -l ../src/cookies.txt
-wc -l ../src/dom.txt
-wc -l ../src/fonts.txt
-wc -l ../src/frame.txt
-wc -l ../src/images.txt
-wc -l ../src/other.txt
-wc -l ../src/popups.txt
-wc -l ../src/resources.txt
-wc -l ../src/scripts.txt
-wc -l ../src/servers.txt
-wc -l ../src/whitelist.txt
-wc -l ../src/xmlhttprequest.txt
-sleep 3
+
 echo 'Before adding to the main list, I will sort it for better convenience.'
 perl ./Sorting.pl ../src/combined.txt
 perl ./Sorting.pl ../src/cookies.txt
@@ -49,6 +35,7 @@ perl ./Sorting.pl ../src/xmlhttprequest.txt
 sleep .1
 echo 'Sorting completed'
 sleep .5
+
 echo 'Creating a header for the list...'
 sleep .5
 cat > $TEMP/headers.txt <<EOF
@@ -81,6 +68,7 @@ cat > $TEMP/headers.txt <<EOF
 ! Download uBlock Origin from GitHub - https://github.com/gorhill/uBlock/releases/
 
 EOF
+
 cp ../src/combined.txt $TEMP/sort/
 cp ../src/cookies.txt $TEMP/dontsort/
 cp ../src/dom.txt $TEMP/sort/
@@ -94,6 +82,7 @@ cp ../src/scripts.txt $TEMP/sort/
 cp ../src/servers.txt $TEMP/sort/
 cp ../src/whitelist.txt $TEMP/sort/
 cp ../src/xmlhttprequest.txt $TEMP/sort/
+
 python ./FOP.py $TEMP/sort/
 sort --output=$TEMP/filterlist.txt $TEMP/sort/combined.txt $TEMP/dontsort/cookies.txt $TEMP/sort/dom.txt $TEMP/sort/fonts.txt $TEMP/sort/frame.txt $TEMP/sort/images.txt $TEMP/sort/other.txt $TEMP/sort/popups.txt $TEMP/dontsort/resources.txt $TEMP/sort/scripts.txt $TEMP/sort/servers.txt $TEMP/sort/whitelist.txt $TEMP/sort/xmlhttprequest.txt
 cat $TEMP/headers.txt $TEMP/filterlist.txt > ../presstheattack.txt
