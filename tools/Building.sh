@@ -21,6 +21,7 @@ fi
 
 echo 'Before adding to the main list, I will sort it for better convenience.'
 perl ./Sorting.pl $SRC/combined.txt $SRC/dom.txt $SRC/fonts.txt $SRC/frame.txt $SRC/images.txt $SRC/other.txt $SRC/popups.txt $SRC/resources.txt $SRC/scripts.txt $SRC/servers.txt $SRC/whitelist.txt $SRC/xmlhttprequest.txt
+sleep 3
 
 echo 'Creating a header for the list...'
 sleep .5
@@ -55,6 +56,7 @@ cat > $TEMP/headers.txt <<EOF
 
 EOF
 
+echo 'Now I will copy the filters to a temporary folder...'
 cp ../src/combined.txt $TEMP/sort/
 cp ../src/dom.txt $TEMP/sort/
 cp ../src/fonts.txt $TEMP/sort/
@@ -67,10 +69,17 @@ cp ../src/scripts.txt $TEMP/sort/
 cp ../src/servers.txt $TEMP/sort/
 cp ../src/whitelist.txt $TEMP/sort/
 cp ../src/xmlhttprequest.txt $TEMP/sort/
+sleep .5
+
 python ./FOP.py $TEMP/sort/
 sort --output=$TEMP/filterlist.txt $TEMP/sort/combined.txt $TEMP/sort/dom.txt $TEMP/sort/fonts.txt $TEMP/sort/frame.txt $TEMP/sort/images.txt $TEMP/sort/other.txt $TEMP/sort/popups.txt $TEMP/dontsort/resources.txt $TEMP/sort/scripts.txt $TEMP/sort/servers.txt $TEMP/sort/whitelist.txt $TEMP/sort/xmlhttprequest.txt
 cat $TEMP/headers.txt $TEMP/filterlist.txt > ../presstheattack.txt
+
+echo 'Delete temporary files and folders...'
+sleep .5
 rm -rf $TEMP
+sleep .1
+echo 'Deletion complete!'
 
 git pull
 perl ./Sorting.pl ../presstheattack.txt
