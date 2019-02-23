@@ -1,12 +1,12 @@
 */0.gif$image,important,redirect=1x1-transparent.gif
+*/*pixel.gif$image,important,redirect=1x1-transparent.gif
+*/*pixel.png$image,important,redirect=1x1-transparent.gif
 */0.png$image,important,redirect=1x1-transparent.gif
 */1x1.gif$image,important,redirect=1x1-transparent.gif
 */1x1.png$image,important,redirect=1x1-transparent.gif
 */2x2.png$image,important,redirect=2x2-transparent.png
-*/3x2.png$image,important,redirect=3x2-transparent.png
 */32x32.png$image,important,redirect=32x32-transparent.png
-*/*pixel.gif$image,important,redirect=1x1-transparent.gif
-*/*pixel.png$image,important,redirect=1x1-transparent.gif
+*/3x2.png$image,important,redirect=3x2-transparent.png
 */a.gif$image,important,redirect=1x1-transparent.gif
 */ad.gif$image,important,redirect=1x1-transparent.gif
 */ads.gif$image,important,redirect=1x1-transparent.gif
@@ -21,8 +21,8 @@
 */visit.gif$image,important,redirect=1x1-transparent.gif
 */x.gif$image,important,redirect=1x1-transparent.gif
 /pv.gif$image,important,redirect=1x1-transparent.gif
-kinopoisk.ru##+js(abort-on-property-read.js, Element.prototype.attachShadow)
 kinopoisk.ru##+js(abort-on-property-read.js, advBlock)
+kinopoisk.ru##+js(abort-on-property-read.js, Element.prototype.attachShadow)
 kinopoisk.ru##+js(cookie-remover.js, /^blcrm|^bltsr|^cmtchd|^crookie|^kpunk)
 kinopoisk.ru##+js(setInterval-defuser.js, (), 500)
 rambler.ru##+js(set-constant.js, Math.random, trueFunc)
@@ -50,8 +50,8 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||mc.yandex.ru/metrika/tag.js$script,important,redirect=noopjs
 ||mc.yandex.ru/metrika/watch.js$script,important,redirect=noopjs
 ||pagead2.googlesyndication.com/pagead/show_ads.js$script,important,redirect=noopjs
-||scontent.xx.fbcdn23dssr3jqnq.onion/hads-ak-prn*/*.png$image,important,redirect=1x1-transparent.gif
 ||scontent.xx.fbcdn.net/hads-ak-prn*/*.png$image,important,redirect=1x1-transparent.gif
+||scontent.xx.fbcdn23dssr3jqnq.onion/hads-ak-prn*/*.png$image,important,redirect=1x1-transparent.gif
 ||scorecardresearch.com/beacon.js$script,important,redirect=scorecardresearch.com/beacon.js
 ||top100.ru/top100/top100.js$important,script
 ||twitter.com/oct.js$script,important
