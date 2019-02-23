@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Y1HRxEULzuGvFsFp6dcPGw
+! Checksum: 2DZTV6O7URA3qwRF59iNog
 ! Title: Press the Attack
-! Last modified: 2019-02-23, 22:37:13
-! Version: 20190223223713
+! Last modified: 2019-02-23, 23:07:01
+! Version: 20190223230701
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
@@ -2582,7 +2582,7 @@ $important,inline-font
 .clicksor.
 .clicksor^
 .clicksor_
-/(gen|client|csi|generate|stream)\_?204/$image,important,xmlhttprequest
+/(player|gen|client|csi|generate|stream)\_?204/$image,important,xmlhttprequest
 /\/([^\s]{4})?tag\.min\.([a-z0-9]{30,}\.)?js/$important,script
 /\/advert[0-9]?\.js/$important,script
 /\/fingerprint[0-9]?\.js/$important,script
@@ -2593,7 +2593,7 @@ $important,inline-font
 /^https?:\/\/(www\.)?(client\-event\-reporter|countess|mp|polyfill|sentinel|spade|trowel|fan)\.+twitch(svc)?\.\w{2,}/$important
 /^https?:\/\/(www\.)?facebook\.\w{3,}\/tr\D/$important
 /^https?:\/\/[\w.]+google(\-analytics|syndication|tagmanager|adservices|tagservices)\.\w{2,}/$important
-/^https?:\/\/[\w.]+google\.\w{2,}\/log\?/$important,xmlhttprequest
+/^https?:\/\/[\w.]+google\.\w{2,}\/log\?/$image,important,xmlhttprequest
 /^https?:\/\/[\w\.]?(an|awaps|awsync|appmetrica|bs|direct|grade\.market|informer|kiks|clck|main\.zdevx|mc|web\-metrica|yabs|zen|browser\-updater|bs\-meta)\.+yandex\.\w{2,}/$important
 /^https?:\/\/[\w\.]?(id|adservice|mobilecrashreporting|imasdk|tagmanager)\.google(apis)?\.\w{2,}/$important
 /^https?:\/\/[^\s]+\.radar\.imgsmail\.ru/$important
@@ -2614,7 +2614,7 @@ $important,inline-font
 /adsdk.js$important,script
 /advertising.js$important,script
 /analytics.js$important,script
-/annotations$domain=youtube.com
+/annotations_module.js$script,domain=youtube.com
 /antiadb.js$important,script
 /apstag.js$important,script
 /authedminer.js$important,script
@@ -4184,7 +4184,6 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(AdvManager)
 ||yabs.yandex.ru^$important,image,redirect=1x1-transparent.gif
 ||yabs.yandex.ua^$important,image,redirect=1x1-transparent.gif
 ||yadro.ru^$important
-||yandex.*/clck/$important
 ||yandex.*/pogoda/$first-party,inline-script
 ||yandex.by/clck/$important,image,redirect=1x1-transparent.gif
 ||yandex.by/clck/$important,script,redirect=noopjs
@@ -4202,7 +4201,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(AdvManager)
 ||ybnj57w4m7.ru^$important
 ||yimg.com/wi/ytc.js$important,script
 ||youtube.com/api/stats^$image,important,xmlhttprequest
-||youtube.com/get_midroll*^$important
+||youtube.com/get_midroll*^xmlhttprequest,$important
 ||youtube.com/ptracking^$important
 ||youtube.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.ggpht.com *.googlevideo.com *.ytimg.com *.googleusercontent.com www.youtube.com
 ||zmctrack.net^$important

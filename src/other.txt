@@ -1263,6 +1263,4 @@ _clicksor_
 ||tags.*^$important
 ||twitter.com/*/recommendations^
 ||twitter.com/*/toast_poll$important
-||yandex.*/clck/$important
-||youtube.com/get_midroll*^$important
 ||youtube.com/ptracking^$important

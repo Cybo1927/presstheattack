@@ -6,7 +6,7 @@
 */adsdk.js$important,script
 */advertising.js$script,important
 */analytics.js$important,script
-*/annotations$domain=youtube.com
+*/annotations_module.js$script,domain=youtube.com
 */antiadb.js$important,script
 */apstag.js$important,script
 */authedminer.js$important,script
