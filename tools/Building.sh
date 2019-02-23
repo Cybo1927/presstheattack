@@ -1,11 +1,85 @@
 #!/bin/bash
 
-git pull
+
+## in process
+
+TEMP='../src/tmp/'
+
+echo 'In order to collect all the filters in one list, we need a temporary folder.'
+if [ ! -d $TEMP ]
+then
+	echo 'Creates a temporary folder "temp".'
+	mkdir $TEMP
+	mkdir $TEMP/{sort,dontsort}/
+	sleep .5
+	echo 'Folder created.'
+else
+     echo "Directory already exists"  
+fi
+
+echo 'Number of filters'
+
+wc -l ../src/cookie.txt
+wc -l ../src/dom.txt
+wc -l ../src/domain.txt
+wc -l ../src/frame.txt
+wc -l ../src/image.txt
+wc -l ../src/other.txt
+wc -l ../src/script.txt
+wc -l ../src/scriptinject.txt
+wc -l ../src/whitelist.txt
+
+cat > $TEMP/dontsort/headers.txt <<EOF
+[Adblock Plus 2.0]
+! Checksum: 0000000000000000000000
+! Title: Press the Attack
+! Last modified: 0000-00-00, 00:00:00
+! Version: 00000000000000
+! Expires: 1 hour
+! Homepage: https://github.com/bogachenko/presstheattack/
+! Wiki: https://github.com/bogachenko/presstheattack/wiki/
+! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
+! In no event shall this list, or the list author be liable for any indirect, direct,
+! punitive, special, incidental, or consequential damages whatsoever.
+! By downloading or viewing, or using this list, you are accepting these terms and the license.
+!
+! I'm sure a few of the filters here will break some sites.
+! Please be cautious and check uBlock Origin logger to see what is being filtered,
+! and comment out any problamatic filter. Or use the "badfilter" flag.
+! Almost all network filters here are marked as "important" and therefore extensions
+! such as Adblock Plus or others put them on a white list or not read at all due to limitations
+! in the filter syntax and other reasons that do not bother me.
+!
+! If you use uBlock Origin then you can get help in any way convenient for you:
+! E-mail - bogachenkove@gmail.com
+! GitHub issues - https://github.com/bogachenko/presstheattack/issues/
+! GitHub pull requests - https://github.com/bogachenko/presstheattack/pulls/
+!
+! The list of filters below is primarily for uBlock Origin
+! Download uBlock Origin from GitHub - https://github.com/gorhill/uBlock/releases/
+
+EOF
+
+!cp ../src/cookie.txt $TEMP/dontsort/
+!cp ../src/dom.txt $TEMP/sort/
+cp ../src/domain.txt $TEMP/sort/
+cp ../src/frame.txt $TEMP/dontsort/
+cp ../src/image.txt $TEMP/dontsort/
+cp ../src/other.txt $TEMP/sort/
+cp ../src/script.txt $TEMP/sort/
+!cp ../src/scriptinject.txt $TEMP/dontsort/
+!cp ../src/whitelist.txt $TEMP/sort/
+
+#sort --output=$TEMP/filterlist.txt -u ../src/cookie.txt ../src/dom.txt ../src/domain.txt ../src/frame.txt ../src/image.txt ../src/other.txt ../src/script.txt ../src/scriptinject.txt ../src/whitelist.txt ../src/xhr.txt
+#cat $TEMP/headers.txt $TEMP/filterlist.txt > ../presstheattack.txt
+#rm -rf $TEMP
+#git pull
 perl ./Sorting.pl ../presstheattack.txt
 perl ./UpdateDateString.pl ../presstheattack.txt
 perl ./AddChecksum.pl ../presstheattack.txt
-git status
-git commit -a -m "Update presstheattack.txt"
-git push
+#git status
+#git commit -a -m "Update presstheattack.txt"
+#git push
+sleep .5
 echo "Upload finished"
 read -n 1 -s -r -p "Press any key to exit." 
