@@ -19,10 +19,6 @@ else
      echo "Directory already exists"  
 fi
 
-echo 'Before adding to the main list, I will sort it for better convenience.'
-perl ./Sorting.pl $SRC/combined.txt $SRC/dom.txt $SRC/fonts.txt $SRC/frame.txt $SRC/images.txt $SRC/other.txt $SRC/popups.txt $SRC/resources.txt $SRC/scripts.txt $SRC/servers.txt $SRC/whitelist.txt $SRC/xmlhttprequest.txt
-sleep 3
-
 echo 'Creating a header for the list...'
 sleep .5
 cat > $TEMP/headers.txt <<EOF
