@@ -1,10 +1,11 @@
 #!/bin/bash
 
-
-## in process
+# Homepage: https://github.com/bogachenko/presstheattack
+# Description: A slightly ugly script that collects filters.
+#			   There are probably better ways to do this, but for now my little assistant is doing his job.
+# License: MIT
 
 TEMP='../src/tmp/'
-
 echo 'In order to collect all the filters in one list, we need a temporary folder.'
 if [ ! -d $TEMP ]
 then
@@ -16,20 +17,22 @@ then
 else
      echo "Directory already exists"  
 fi
-
 echo 'Number of filters'
-
-wc -l ../src/cookie.txt
+wc -l ../src/combined.txt
+wc -l ../src/cookies.txt
 wc -l ../src/dom.txt
-wc -l ../src/domain.txt
+wc -l ../src/fonts.txt
 wc -l ../src/frame.txt
-wc -l ../src/image.txt
+wc -l ../src/images.txt
 wc -l ../src/other.txt
-wc -l ../src/script.txt
-wc -l ../src/scriptinject.txt
+wc -l ../src/popups.txt
+wc -l ../src/resources.txt
+wc -l ../src/scripts.txt
+wc -l ../src/servers.txt
 wc -l ../src/whitelist.txt
-
-cat > $TEMP/dontsort/headers.txt <<EOF
+wc -l ../src/xmlhttprequest.txt
+sleep 3
+cat > $TEMP/headers.txt <<EOF
 [Adblock Plus 2.0]
 ! Checksum: 0000000000000000000000
 ! Title: Press the Attack
@@ -59,27 +62,30 @@ cat > $TEMP/dontsort/headers.txt <<EOF
 ! Download uBlock Origin from GitHub - https://github.com/gorhill/uBlock/releases/
 
 EOF
-
-!cp ../src/cookie.txt $TEMP/dontsort/
-!cp ../src/dom.txt $TEMP/sort/
-cp ../src/domain.txt $TEMP/sort/
-cp ../src/frame.txt $TEMP/dontsort/
-cp ../src/image.txt $TEMP/dontsort/
+cp ../src/combined.txt $TEMP/sort/
+cp ../src/cookies.txt $TEMP/dontsort/
+cp ../src/dom.txt $TEMP/sort/
+cp ../src/fonts.txt $TEMP/sort/
+cp ../src/frame.txt $TEMP/sort/
+cp ../src/images.txt $TEMP/sort/
 cp ../src/other.txt $TEMP/sort/
-cp ../src/script.txt $TEMP/sort/
-!cp ../src/scriptinject.txt $TEMP/dontsort/
-!cp ../src/whitelist.txt $TEMP/sort/
-
-#sort --output=$TEMP/filterlist.txt -u ../src/cookie.txt ../src/dom.txt ../src/domain.txt ../src/frame.txt ../src/image.txt ../src/other.txt ../src/script.txt ../src/scriptinject.txt ../src/whitelist.txt ../src/xhr.txt
-#cat $TEMP/headers.txt $TEMP/filterlist.txt > ../presstheattack.txt
-#rm -rf $TEMP
-#git pull
+cp ../src/popups.txt $TEMP/sort/
+cp ../src/resources.txt $TEMP/dontsort/
+cp ../src/scripts.txt $TEMP/sort/
+cp ../src/servers.txt $TEMP/sort/
+cp ../src/whitelist.txt $TEMP/sort/
+cp ../src/xmlhttprequest.txt $TEMP/sort/
+python ./FOP.py $TEMP/sort/
+sort --output=$TEMP/filterlist.txt $TEMP/sort/combined.txt $TEMP/dontsort/cookies.txt $TEMP/sort/dom.txt $TEMP/sort/fonts.txt $TEMP/sort/frame.txt $TEMP/sort/images.txt $TEMP/sort/other.txt $TEMP/sort/popups.txt $TEMP/dontsort/resources.txt $TEMP/sort/scripts.txt $TEMP/sort/servers.txt $TEMP/sort/whitelist.txt $TEMP/sort/xmlhttprequest.txt
+cat $TEMP/headers.txt $TEMP/filterlist.txt > ../presstheattack.txt
+rm -rf $TEMP
+git pull
 perl ./Sorting.pl ../presstheattack.txt
 perl ./UpdateDateString.pl ../presstheattack.txt
 perl ./AddChecksum.pl ../presstheattack.txt
-#git status
-#git commit -a -m "Update presstheattack.txt"
-#git push
+git status
+git commit -a -m 'Update presstheattack.txt'
+git push
 sleep .5
-echo "Upload finished"
-read -n 1 -s -r -p "Press any key to exit." 
+echo 'Upload finished'
+read -n 1 -s -r -p 'Press any key to exit.'

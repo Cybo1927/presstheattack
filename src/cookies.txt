@@ -1,0 +1,1 @@
+*$cookie=/blcrm|bltsr|yabs|adequate/,domain=yandex.by|yandex.ru|yandex.ua

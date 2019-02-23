@@ -51,8 +51,7 @@ BLANKPATTERN = re.compile(r"^\s*$")
 COMMITPATTERN = re.compile(r"^(A|M|P)\:\s(\((.+)\)\s)?(.*)$")
 
 # List the files that should not be sorted, either because they have a special sorting system or because they are not filter files
-IGNORE = ("CC-BY-SA.txt", "easytest.txt", "GPL.txt", "MPL.txt",
-          "enhancedstats-addon.txt", "fanboy-tracking", "firefox-regional", "other")
+IGNORE = ()
 
 # uBlock Origin options
 KNOWNOPTIONS = ("csp", "document", "font", "genericblock", "generichide", "image", "popup", "first-party", "script", "stylesheet", "subdocument", "third-party", "websocket", "xmlhttprequest", "important", "1p", "3p", "inline-script", "inline-font", "xhr")

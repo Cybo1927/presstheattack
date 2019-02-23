@@ -1,0 +1,74 @@
+*/0.gif$image,important,redirect=1x1-transparent.gif
+*/0.png$image,important,redirect=1x1-transparent.gif
+*/1x1.gif$image,important,redirect=1x1-transparent.gif
+*/1x1.png$image,important,redirect=1x1-transparent.gif
+*/2x2.png$image,important,redirect=2x2-transparent.png
+*/3x2.png$image,important,redirect=3x2-transparent.png
+*/32x32.png$image,important,redirect=32x32-transparent.png
+*/*pixel.gif$image,important,redirect=1x1-transparent.gif
+*/*pixel.png$image,important,redirect=1x1-transparent.gif
+*/a.gif$image,important,redirect=1x1-transparent.gif
+*/ad.gif$image,important,redirect=1x1-transparent.gif
+*/ads.gif$image,important,redirect=1x1-transparent.gif
+*/blank.gif$image,important,redirect=1x1-transparent.gif
+*/c.gif$image,important,redirect=1x1-transparent.gif
+*/cleardot.gif$image,important,redirect=1x1-transparent.gif
+*/empty.gif$image,important,redirect=1x1-transparent.gif
+*/i.gif$image,important,redirect=1x1-transparent.gif
+*/pic.gif$image,important,redirect=1x1-transparent.gif
+*/ping.gif$image,important,redirect=1x1-transparent.gif
+*/spacer.gif$image,important,redirect=1x1-transparent.gif
+*/visit.gif$image,important,redirect=1x1-transparent.gif
+*/x.gif$image,important,redirect=1x1-transparent.gif
+/pv.gif$image,important,redirect=1x1-transparent.gif
+kinopoisk.ru##+js(abort-on-property-read.js, Element.prototype.attachShadow)
+kinopoisk.ru##+js(abort-on-property-read.js, advBlock)
+kinopoisk.ru##+js(cookie-remover.js, /^blcrm|^bltsr|^cmtchd|^crookie|^kpunk)
+kinopoisk.ru##+js(setInterval-defuser.js, (), 500)
+rambler.ru##+js(set-constant.js, Math.random, trueFunc)
+rambler.ru##^script:has-text((Number,)
+twitch.tv##+js(twitch-videoad.js)
+twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/):xpath(..)
+xvideos.com##+js(abort-on-property-write.js, openpop)
+xvideos.com##+js(nowebrtc.js)
+xvideos.com##+js(window.open-defuser.js)
+xvideos.com,xnxx.com##+js(xvideos.com.js)
+yandex.by,yandex.ru,yandex.ua##+js(cookie-remover.js, /^blcrm|^bltsr|^yabs|^adequate/)
+yandex.ru,yandex.ua,yandex.by##+js(abort-on-property-read.js, Element.prototype.attachShadow)
+yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
+||awaps.yandex.net^$image,important,redirect=1x1-transparent.gif
+||awaps.yandex.net^$subdocument,important,redirect=noopframe
+||facebook.com/connect/ping^$subdocument,important,redirect=noopframe
+||google-analytics.com/analytics.js$important,script,redirect=google-analytics.com/analytics.js
+||google-analytics.com/cx/api.js$important,script,redirect=google-analytics.com/cx/api.js
+||google-analytics.com/ga.js$important,script,redirect=google-analytics.com/ga.js
+||googlesyndication.com/pagead/js/adsbygoogle.js$important,script,redirect=googlesyndication.com/adsbygoogle.js
+||googletagmanager.com/gtag/js$script,important,redirect=noopjs
+||googletagmanager.com/gtm.js$important,script,redirect=googletagmanager.com/gtm.js
+||googletagservices.com/tag/js/gpt.js$important,script,redirect=googletagservices.com/gpt.js
+||kiks.yandex.ru^$image,important,redirect=1x1-transparent.gif
+||mc.yandex.ru/metrika/tag.js$script,important,redirect=noopjs
+||mc.yandex.ru/metrika/watch.js$script,important,redirect=noopjs
+||pagead2.googlesyndication.com/pagead/show_ads.js$script,important,redirect=noopjs
+||scontent.xx.fbcdn23dssr3jqnq.onion/hads-ak-prn*/*.png$image,important,redirect=1x1-transparent.gif
+||scontent.xx.fbcdn.net/hads-ak-prn*/*.png$image,important,redirect=1x1-transparent.gif
+||scorecardresearch.com/beacon.js$script,important,redirect=scorecardresearch.com/beacon.js
+||top100.ru/top100/top100.js$important,script
+||twitter.com/oct.js$script,important
+||vk.com/js/lib/px.js$important,script
+||web.telegram.org/*/PhotoThumbConversation.gif$image,important,redirect=1x1-transparent.gif,domain=telegram.org
+||yabs.yandex.by^$image,important,redirect=1x1-transparent.gif
+||yabs.yandex.ru^$image,important,redirect=1x1-transparent.gif
+||yabs.yandex.ua^$image,important,redirect=1x1-transparent.gif
+||yandex.by/clck/$image,important,redirect=1x1-transparent.gif
+||yandex.by/clck/$script,important,redirect=noopjs
+||yandex.by/clck/$xmlhttprequest,important,redirect=nooptext
+||yandex.ru/clck/$image,important,redirect=1x1-transparent.gif
+||yandex.ru/clck/$script,important,redirect=noopjs
+||yandex.ru/clck/$xmlhttprequest,important,redirect=nooptext
+||yandex.st^$domain=~yandex.by|~yandex.ru|~yandex.ua
+||yandex.ua/clck/$image,important,redirect=1x1-transparent.gif
+||yandex.ua/clck/$script,important,redirect=noopjs
+||yandex.ua/clck/$xmlhttprequest,important,redirect=nooptext
+||yastatic.net/*/*.gif$image,important,redirect=1x1-transparent.gif
+~mail.yandex.by,~mail.yandex.ru,~mail.yandex.ua,yandex.by,yandex.ru,yandex.ua##+js(set-constant.js, math.random, trueFunc)

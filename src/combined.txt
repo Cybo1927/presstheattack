@@ -1,0 +1,5 @@
+/^https?:\/\/news\.yandex\.\w{2,}\/[^\s]{300,}/$important,subdocument,xmlhttprequest
+/^https?:\/\/tv\.yandex\.\w{2,}\/[^\s]{300,}/$important,subdocument,xmlhttprequest
+/^https?:\/\/yandex\.\w{2,}\/images/(?!(search\?rpt=\imageview)|(search\?callback\=jQuery)|(search\?exp_flags=)|(search\?serpid=)|(touch/search?))[^\s]{80,}/$important,subdocument,xmlhttprequest
+/(gen|client|csi|generate|stream)\_?204/$important,image,xmlhttprequest
+/log[\W|_]?(type|event|entry)/$important,image,xmlhttprequest

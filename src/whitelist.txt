@@ -1,0 +1,13 @@
+@@||api-maps.yandex.ru^
+@@||fbsbx.com/captcha/recaptcha^
+@@||githubusercontent.com^$image
+@@||google.com/recaptcha^
+@@||googlevideo.com/*?*&ip=$third-party
+@@||googlevideo.com/*?ip=$third-party
+@@||gstatic.com/recaptcha^
+@@||img-*.xvideos-cdn.com/videos/thumbs*/ad/
+@@||strm.yandex.*^
+@@||ttvnw.net^$xmlhttprequest,domain=twitch.tv
+@@||vk.com/al_feed.php^
+@@||vk.com/widget_community.php^
+@@||yastatic.net/yandex-video-player-iframe-api-bundles^

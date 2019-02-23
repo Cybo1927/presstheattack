@@ -1,0 +1,7 @@
+1xbet$image,important
+1xstavka$image,important
+GGBET$image
+||2ch.hk/images/$image
+||vk.com/rtrg^$important,image
+||mail.yandex.*/monitoring_liza.txt$image,important
+||duckduckgo.com/t/$important,image
