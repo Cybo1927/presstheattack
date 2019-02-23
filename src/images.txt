@@ -2,6 +2,6 @@
 1xstavka$image,important
 GGBET$image
 ||2ch.hk/images/$image
-||duckduckgo.com/t/$important,image
+||collector.githubapp.com^$important,image||duckduckgo.com/t/$important,image
 ||mail.yandex.*/monitoring_liza.txt$image,important
 ||vk.com/rtrg^$important,image

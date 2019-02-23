@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: +rTzSKyBSU5dCu4yykLwQA
+! Checksum: qH5oMf7q7Rgmw7BeAOOH5A
 ! Title: Press the Attack
-! Last modified: 2019-02-23, 20:51:48
-! Version: 20190223205148
+! Last modified: 2019-02-23, 22:35:42
+! Version: 20190223223542
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
@@ -2637,7 +2637,7 @@ $important,inline-font
 /deepMiner.js$important,script
 /deepMiner.min.js$important,script
 /dprocessor.js$important,script
-/endscreen$domain=youtube.com
+/endscreen.js$script,domain=youtube.com
 /ga-lite.js$important,script
 /ga.js$important,script
 /ga_lite.js$important,script
@@ -3645,7 +3645,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(AdvManager)
 |http*://*^counted.
 |http*://*^counted^
 |http*://*^counted_
-|http*://*^counter-$domain=twitch.tv
+|http*://*^counter-$domain=~twitch.tv
 |http*://*^counter.
 |http*://*^counter^
 |http*://*^counter_
@@ -4067,7 +4067,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(AdvManager)
 ||chartbeat.com^$important
 ||clarium.global.ssl.fastly.net^$important
 ||clck.ru^
-||collector.githubapp.com^$important
+||collector.githubapp.com^$important,image||duckduckgo.com/t/$image,important
 ||connect.facebook.net^
 ||connect.ok.ru^
 ||cookielaw.org^$important
@@ -4078,7 +4078,6 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(AdvManager)
 ||doubleclick.net^$important
 ||doublepimp.com^$important
 ||doublepimpssl.com^$important
-||duckduckgo.com/t/$image,important
 ||duckduckgo.com/y.js$important,script
 ||f53mbcg4ak.ru^$important
 ||facebook.com/connect/ping^$important,subdocument,redirect=noopframe
@@ -4135,7 +4134,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(AdvManager)
 ||quora.com/qevents.js$important,script
 ||recreativ.ru^$important
 ||reddit.com/timings/$important,xmlhttprequest
-||reddit.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.reddit.com *.redditmedia.com *.redditstatic.com reddit-uploaded-media.s3-accelerate.amazonaws.com,important
+||reddit.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.reddit.com *.redditmedia.com *.redditstatic.com reddit-uploaded-media.s3-accelerate.amazonaws.com
 ||redditmedia.com/gtm/jail^$important,subdocument
 ||redditstatic.com/moat^$important
 ||rubiconproject.com^$important
@@ -4164,7 +4163,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(AdvManager)
 ||trafficjunky.net^$important
 ||try.abtasty.com^$important
 ||tsyndicate.com^$important
-||twitch.tv^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' *.jtvnw.net *.ttvnw.net *.twitchcdn.net *.twitch.tv *.facebook.com *.facebook.net recaptcha.net *.google.com *.gstatic.com blob: wss:,important
+||twitch.tv^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' *.jtvnw.net *.ttvnw.net *.twitchcdn.net *.twitch.tv *.facebook.com *.facebook.net recaptcha.net *.google.com *.gstatic.com blob: wss:
 ||twitter.com/*/recommendations^
 ||twitter.com/*/toast_poll$important
 ||twitter.com/oct.js$important,script
@@ -4201,10 +4200,10 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(AdvManager)
 ||yastatic.net^$important,popup
 ||ybnj57w4m7.ru^$important
 ||yimg.com/wi/ytc.js$important,script
-||youtube.com/api/stats^$important
+||youtube.com/api/stats^$image,important,xmlhttprequest
 ||youtube.com/get_midroll*^$important
 ||youtube.com/ptracking^$important
-||youtube.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.ggpht.com *.googlevideo.com *.ytimg.com *.googleusercontent.com www.youtube.com,important
+||youtube.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.ggpht.com *.googlevideo.com *.ytimg.com *.googleusercontent.com www.youtube.com
 ||zmctrack.net^$important
 ||zqtk.net^$important
 ~addons.mozilla.org##[class*="-ad-"]:not(html):not(body)

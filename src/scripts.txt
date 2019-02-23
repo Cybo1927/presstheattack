@@ -29,7 +29,7 @@
 */deepMiner.js$important,script
 */deepMiner.min.js$important,script
 */dprocessor.js$important,script
-*/endscreen$domain=youtube.com
+*/endscreen.js$script,domain=youtube.com
 */ga-lite.js$important,script
 */ga.js$important,script
 */ga_lite.js$important,script

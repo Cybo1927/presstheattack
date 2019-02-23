@@ -868,7 +868,7 @@ _clicksor_
 |http*://*^counted.
 |http*://*^counted^
 |http*://*^counted_
-|http*://*^counter-$domain=twitch.tv
+|http*://*^counter-$domain=~twitch.tv
 |http*://*^counter.
 |http*://*^counter^
 |http*://*^counter_
@@ -1264,6 +1264,5 @@ _clicksor_
 ||twitter.com/*/recommendations^
 ||twitter.com/*/toast_poll$important
 ||yandex.*/clck/$important
-||youtube.com/api/stats^$important
 ||youtube.com/get_midroll*^$important
 ||youtube.com/ptracking^$important

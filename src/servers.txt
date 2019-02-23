@@ -41,7 +41,6 @@
 ||chartbeat.com^$important
 ||clarium.global.ssl.fastly.net^$important
 ||clck.ru^
-||collector.githubapp.com^$important
 ||connect.facebook.net^
 ||connect.ok.ru^
 ||cookielaw.org^$important
@@ -83,7 +82,7 @@
 ||pubmatic.com^$important
 ||quantserve.com^$important
 ||recreativ.ru^$important
-||reddit.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.reddit.com *.redditmedia.com *.redditstatic.com reddit-uploaded-media.s3-accelerate.amazonaws.com,important
+||reddit.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.reddit.com *.redditmedia.com *.redditstatic.com reddit-uploaded-media.s3-accelerate.amazonaws.com
 ||rubiconproject.com^$important
 ||rutarget.ru^$important
 ||scorecardresearch.com^$important
@@ -103,7 +102,7 @@
 ||trafficjunky.net^$important
 ||try.abtasty.com^$important
 ||tsyndicate.com^$important
-||twitch.tv^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' *.jtvnw.net *.ttvnw.net *.twitchcdn.net *.twitch.tv *.facebook.com *.facebook.net recaptcha.net *.google.com *.gstatic.com blob: wss:,important
+||twitch.tv^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' *.jtvnw.net *.ttvnw.net *.twitchcdn.net *.twitch.tv *.facebook.com *.facebook.net recaptcha.net *.google.com *.gstatic.com blob: wss:
 ||unrulymedia.com^$important
 ||urbanairship.com^$important
 ||v0hs81ev3vepjr.ru^$important
@@ -116,6 +115,6 @@
 ||yadro.ru^$important
 ||yandex.st^$domain=~yandex.by|~yandex.ru|~yandex.ua
 ||ybnj57w4m7.ru^$important
-||youtube.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.ggpht.com *.googlevideo.com *.ytimg.com *.googleusercontent.com www.youtube.com,important
+||youtube.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.ggpht.com *.googlevideo.com *.ytimg.com *.googleusercontent.com www.youtube.com
 ||zmctrack.net^$important
 ||zqtk.net^$important
