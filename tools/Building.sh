@@ -17,23 +17,6 @@ else
      echo "Directory already exists"  
 fi
 
-echo 'Before adding to the main list, I will sort it for better convenience.'
-perl ./Sorting.pl ../src/combined.txt
-perl ./Sorting.pl ../src/dom.txt
-perl ./Sorting.pl ../src/fonts.txt
-perl ./Sorting.pl ../src/frame.txt
-perl ./Sorting.pl ../src/images.txt
-perl ./Sorting.pl ../src/other.txt
-perl ./Sorting.pl ../src/popups.txt
-perl ./Sorting.pl ../src/resources.txt
-perl ./Sorting.pl ../src/scripts.txt
-perl ./Sorting.pl ../src/servers.txt
-perl ./Sorting.pl ../src/whitelist.txt
-perl ./Sorting.pl ../src/xmlhttprequest.txt
-sleep .1
-echo 'Sorting completed'
-sleep .5
-
 echo 'Creating a header for the list...'
 sleep .5
 cat > $TEMP/headers.txt <<EOF
