@@ -1,8 +1,7 @@
 #!/bin/bash
 
 # Homepage: https://github.com/bogachenko/presstheattack
-# Description: A slightly ugly script that collects filters.
-#			   There are probably better ways to do this, but for now my little assistant is doing his job.
+# Description: A slightly ugly script that collects filters. There are probably better ways to do this, but for now my little assistant is doing his job.
 # License: MIT
 
 TEMP='../src/tmp/'
@@ -20,7 +19,6 @@ fi
 
 echo 'Before adding to the main list, I will sort it for better convenience.'
 perl ./Sorting.pl ../src/combined.txt
-perl ./Sorting.pl ../src/cookies.txt
 perl ./Sorting.pl ../src/dom.txt
 perl ./Sorting.pl ../src/fonts.txt
 perl ./Sorting.pl ../src/frame.txt
@@ -70,7 +68,6 @@ cat > $TEMP/headers.txt <<EOF
 EOF
 
 cp ../src/combined.txt $TEMP/sort/
-cp ../src/cookies.txt $TEMP/dontsort/
 cp ../src/dom.txt $TEMP/sort/
 cp ../src/fonts.txt $TEMP/sort/
 cp ../src/frame.txt $TEMP/sort/
@@ -84,7 +81,7 @@ cp ../src/whitelist.txt $TEMP/sort/
 cp ../src/xmlhttprequest.txt $TEMP/sort/
 
 python ./FOP.py $TEMP/sort/
-sort --output=$TEMP/filterlist.txt $TEMP/sort/combined.txt $TEMP/dontsort/cookies.txt $TEMP/sort/dom.txt $TEMP/sort/fonts.txt $TEMP/sort/frame.txt $TEMP/sort/images.txt $TEMP/sort/other.txt $TEMP/sort/popups.txt $TEMP/dontsort/resources.txt $TEMP/sort/scripts.txt $TEMP/sort/servers.txt $TEMP/sort/whitelist.txt $TEMP/sort/xmlhttprequest.txt
+sort --output=$TEMP/filterlist.txt $TEMP/sort/combined.txt $TEMP/sort/dom.txt $TEMP/sort/fonts.txt $TEMP/sort/frame.txt $TEMP/sort/images.txt $TEMP/sort/other.txt $TEMP/sort/popups.txt $TEMP/dontsort/resources.txt $TEMP/sort/scripts.txt $TEMP/sort/servers.txt $TEMP/sort/whitelist.txt $TEMP/sort/xmlhttprequest.txt
 cat $TEMP/headers.txt $TEMP/filterlist.txt > ../presstheattack.txt
 rm -rf $TEMP
 git pull
