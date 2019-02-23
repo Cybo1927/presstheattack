@@ -2,8 +2,8 @@
 
 git pull
 perl ./Sorting.pl ../presstheattack.txt
-perl ./AddChecksum.pl ../presstheattack.txt
 perl ./UpdateDateString.pl ../presstheattack.txt
+perl ./AddChecksum.pl ../presstheattack.txt
 git status
 git commit -a -m "Update presstheattack.txt"
 git push
