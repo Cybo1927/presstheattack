@@ -42,7 +42,7 @@ cat > $TEMP/headers.txt <<EOF
 ! Title: Press the Attack
 ! Last modified: 0000-00-00, 00:00:00
 ! Version: 00000000000000
-! Expires: 1 hour
+! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
