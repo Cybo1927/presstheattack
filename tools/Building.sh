@@ -5,6 +5,8 @@
 # License: MIT
 
 TEMP='../src/tmp/'
+SRC='../src/'
+
 echo 'In order to collect all the filters in one list, we need a temporary folders.'
 if [ ! -d $TEMP ]
 then
@@ -16,6 +18,9 @@ then
 else
      echo "Directory already exists"  
 fi
+
+echo 'Before adding to the main list, I will sort it for better convenience.'
+perl ./Sorting.pl $SRC/combined.txt $SRC/dom.txt $SRC/fonts.txt $SRC/frame.txt $SRC/images.txt $SRC/other.txt $SRC/popups.txt $SRC/resources.txt $SRC/scripts.txt $SRC/servers.txt $SRC/whitelist.txt $SRC/xmlhttprequest.txt
 
 echo 'Creating a header for the list...'
 sleep .5
@@ -62,18 +67,18 @@ cp ../src/scripts.txt $TEMP/sort/
 cp ../src/servers.txt $TEMP/sort/
 cp ../src/whitelist.txt $TEMP/sort/
 cp ../src/xmlhttprequest.txt $TEMP/sort/
-
 python ./FOP.py $TEMP/sort/
 sort --output=$TEMP/filterlist.txt $TEMP/sort/combined.txt $TEMP/sort/dom.txt $TEMP/sort/fonts.txt $TEMP/sort/frame.txt $TEMP/sort/images.txt $TEMP/sort/other.txt $TEMP/sort/popups.txt $TEMP/dontsort/resources.txt $TEMP/sort/scripts.txt $TEMP/sort/servers.txt $TEMP/sort/whitelist.txt $TEMP/sort/xmlhttprequest.txt
 cat $TEMP/headers.txt $TEMP/filterlist.txt > ../presstheattack.txt
 rm -rf $TEMP
+
 git pull
 perl ./Sorting.pl ../presstheattack.txt
 perl ./UpdateDateString.pl ../presstheattack.txt
 perl ./AddChecksum.pl ../presstheattack.txt
 git status
 git commit -a -m 'Update presstheattack.txt'
-git push
+git push origin master
 sleep .5
 echo 'Upload finished'
 read -n 1 -s -r -p 'Press any key to exit.'
