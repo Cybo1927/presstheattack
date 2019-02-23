@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 4U6fdA+ecc3g9IR0eajLYQ
+! Checksum: dBWFP1FvkNZc6+oEOfUcTw
 ! Title: Press the Attack
-! Last modified: 2019-02-22, 21:22:28
-! Version: 20190222212228
+! Last modified: 2019-02-23, 12:31:42
+! Version: 20190223123142
 ! Expires: 1 hour
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
@@ -2626,6 +2626,22 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http*:*-counter.
 |http*:*-counter^
 |http*:*-counter_
+|http*:*-show-ads-$important
+|http*:*-show-ads.$important
+|http*:*-show-ads^$important
+|http*:*-show-ads_$important
+|http*:*-show.ads-$important
+|http*:*-show.ads.$important
+|http*:*-show.ads^$important
+|http*:*-show.ads_$important
+|http*:*-show^ads-$important
+|http*:*-show^ads.$important
+|http*:*-show^ads^$important
+|http*:*-show^ads_$important
+|http*:*-show_ads-$important
+|http*:*-show_ads.$important
+|http*:*-show_ads^$important
+|http*:*-show_ads_$important
 |http*:*-showads-$important
 |http*:*-showads.$important
 |http*:*-showads^$important
@@ -2638,6 +2654,22 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http*:*-uedata.
 |http*:*-uedata^
 |http*:*-uedata_
+|http*:*-vip-analytics-$important
+|http*:*-vip-analytics.$important
+|http*:*-vip-analytics^$important
+|http*:*-vip-analytics_$important
+|http*:*-vip.analytics-$important
+|http*:*-vip.analytics.$important
+|http*:*-vip.analytics^$important
+|http*:*-vip.analytics_$important
+|http*:*-vip^analytics-$important
+|http*:*-vip^analytics.$important
+|http*:*-vip^analytics^$important
+|http*:*-vip^analytics_$important
+|http*:*-vip_analytics-$important
+|http*:*-vip_analytics.$important
+|http*:*-vip_analytics^$important
+|http*:*-vip_analytics_$important
 |http*:*.adlog-
 |http*:*.adlog.
 |http*:*.adlog^
@@ -2654,6 +2686,22 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http*:*.counter.
 |http*:*.counter^
 |http*:*.counter_
+|http*:*.show-ads-$important
+|http*:*.show-ads.$important
+|http*:*.show-ads^$important
+|http*:*.show-ads_$important
+|http*:*.show.ads-$important
+|http*:*.show.ads.$important
+|http*:*.show.ads^$important
+|http*:*.show.ads_$important
+|http*:*.show^ads-$important
+|http*:*.show^ads.$important
+|http*:*.show^ads^$important
+|http*:*.show^ads_$important
+|http*:*.show_ads-$important
+|http*:*.show_ads.$important
+|http*:*.show_ads^$important
+|http*:*.show_ads_$important
 |http*:*.showads-$important
 |http*:*.showads.$important
 |http*:*.showads^$important
@@ -2666,6 +2714,22 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http*:*.uedata.
 |http*:*.uedata^
 |http*:*.uedata_
+|http*:*.vip-analytics-$important
+|http*:*.vip-analytics.$important
+|http*:*.vip-analytics^$important
+|http*:*.vip-analytics_$important
+|http*:*.vip.analytics-$important
+|http*:*.vip.analytics.$important
+|http*:*.vip.analytics^$important
+|http*:*.vip.analytics_$important
+|http*:*.vip^analytics-$important
+|http*:*.vip^analytics.$important
+|http*:*.vip^analytics^$important
+|http*:*.vip^analytics_$important
+|http*:*.vip_analytics-$important
+|http*:*.vip_analytics.$important
+|http*:*.vip_analytics^$important
+|http*:*.vip_analytics_$important
 |http*:*^adlog-
 |http*:*^adlog.
 |http*:*^adlog^
@@ -2682,6 +2746,22 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http*:*^counter.
 |http*:*^counter^
 |http*:*^counter_
+|http*:*^show-ads-$important
+|http*:*^show-ads.$important
+|http*:*^show-ads^$important
+|http*:*^show-ads_$important
+|http*:*^show.ads-$important
+|http*:*^show.ads.$important
+|http*:*^show.ads^$important
+|http*:*^show.ads_$important
+|http*:*^show^ads-$important
+|http*:*^show^ads.$important
+|http*:*^show^ads^$important
+|http*:*^show^ads_$important
+|http*:*^show_ads-$important
+|http*:*^show_ads.$important
+|http*:*^show_ads^$important
+|http*:*^show_ads_$important
 |http*:*^showads-$important
 |http*:*^showads.$important
 |http*:*^showads^$important
@@ -2694,6 +2774,22 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http*:*^uedata.
 |http*:*^uedata^
 |http*:*^uedata_
+|http*:*^vip-analytics-$important
+|http*:*^vip-analytics.$important
+|http*:*^vip-analytics^$important
+|http*:*^vip-analytics_$important
+|http*:*^vip.analytics-$important
+|http*:*^vip.analytics.$important
+|http*:*^vip.analytics^$important
+|http*:*^vip.analytics_$important
+|http*:*^vip^analytics-$important
+|http*:*^vip^analytics.$important
+|http*:*^vip^analytics^$important
+|http*:*^vip^analytics_$important
+|http*:*^vip_analytics-$important
+|http*:*^vip_analytics.$important
+|http*:*^vip_analytics^$important
+|http*:*^vip_analytics_$important
 |http*:*_adlog-
 |http*:*_adlog.
 |http*:*_adlog^
@@ -2710,6 +2806,22 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http*:*_counter.
 |http*:*_counter^
 |http*:*_counter_
+|http*:*_show-ads-$important
+|http*:*_show-ads.$important
+|http*:*_show-ads^$important
+|http*:*_show-ads_$important
+|http*:*_show.ads-$important
+|http*:*_show.ads.$important
+|http*:*_show.ads^$important
+|http*:*_show.ads_$important
+|http*:*_show^ads-$important
+|http*:*_show^ads.$important
+|http*:*_show^ads^$important
+|http*:*_show^ads_$important
+|http*:*_show_ads-$important
+|http*:*_show_ads.$important
+|http*:*_show_ads^$important
+|http*:*_show_ads_$important
 |http*:*_showads-$important
 |http*:*_showads.$important
 |http*:*_showads^$important
@@ -2722,6 +2834,22 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http*:*_uedata.
 |http*:*_uedata^
 |http*:*_uedata_
+|http*:*_vip-analytics-$important
+|http*:*_vip-analytics.$important
+|http*:*_vip-analytics^$important
+|http*:*_vip-analytics_$important
+|http*:*_vip.analytics-$important
+|http*:*_vip.analytics.$important
+|http*:*_vip.analytics^$important
+|http*:*_vip.analytics_$important
+|http*:*_vip^analytics-$important
+|http*:*_vip^analytics.$important
+|http*:*_vip^analytics^$important
+|http*:*_vip^analytics_$important
+|http*:*_vip_analytics-$important
+|http*:*_vip_analytics.$important
+|http*:*_vip_analytics^$important
+|http*:*_vip_analytics_$important
 |http*://*-ad-
 |http*://*-ad-sdk-$important
 |http*://*-ad-sdk.$important
@@ -3740,6 +3868,8 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||clarium.global.ssl.fastly.net^$important
 ||clck.ru^
 ||collector.githubapp.com^$important
+||connect.facebook.net^
+||connect.ok.ru^
 ||cookielaw.org^$important
 ||criteo.*^$important
 ||cryptonoter.com/processor.js$important,script
@@ -3797,6 +3927,7 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||protovid.com^$important
 ||pubmatic.com^$important
 ||quantserve.com^$important
+||quora.com/qevents.js^$important
 ||recreativ.ru^$important
 ||reddit.com/timings/$important
 ||reddit.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.reddit.com *.redditmedia.com *.redditstatic.com reddit-uploaded-media.s3-accelerate.amazonaws.com,important
@@ -3814,9 +3945,11 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||ssp.rambler.ru^$important
 ||stat.pladform.ru^$important
 ||statcounter.com^$important
+||stats.wp.com^$important
 ||summerhamster.com^$important
 ||syndication.twitter.com^$important
 ||taboola.com^$important
+||tags.newscgp.com^$important
 ||tags.tiqcdn.com^$important
 ||tcheck.outbrainimg.com^$important
 ||theadex.com^$important
@@ -3829,6 +3962,7 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||twitch.tv^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' *.jtvnw.net *.ttvnw.net *.twitchcdn.net *.twitch.tv *.facebook.com *.facebook.net recaptcha.net *.google.com *.gstatic.com blob: wss:,important
 ||twitter.com/*/recommendations^
 ||twitter.com/*/toast_poll$important
+||unrulymedia.com^$important
 ||urbanairship.com^$important
 ||v0hs81ev3vepjr.ru^$important
 ||vadideo.com^$important
@@ -3864,6 +3998,7 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||youtube.com/ptracking^$important
 ||youtube.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.ggpht.com *.googlevideo.com *.ytimg.com *.googleusercontent.com www.youtube.com,important
 ||zmctrack.net^$important
+||zqtk.net^$important
 ~addons.mozilla.org##[class*="-ad-"]:not(html):not(body)
 ~mail.google.com##.AD:not(:root):not(body):not(input)
 ~mail.google.com##.ads:not(:root):not(body):not(input)
