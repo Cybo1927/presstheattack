@@ -6,18 +6,18 @@
 # License: MIT
 
 TEMP='../src/tmp/'
-echo 'In order to collect all the filters in one list, we need a temporary folder.'
+echo 'In order to collect all the filters in one list, we need a temporary folders.'
 if [ ! -d $TEMP ]
 then
-	echo 'Creates a temporary folder "temp".'
+	echo 'Creating temporary folders...'
 	mkdir $TEMP
 	mkdir $TEMP/{sort,dontsort}/
 	sleep .5
-	echo 'Folder created.'
+	echo 'Folders created!'
 else
      echo "Directory already exists"  
 fi
-echo 'Number of filters'
+echo 'Number of filters:'
 wc -l ../src/combined.txt
 wc -l ../src/cookies.txt
 wc -l ../src/dom.txt
@@ -32,6 +32,25 @@ wc -l ../src/servers.txt
 wc -l ../src/whitelist.txt
 wc -l ../src/xmlhttprequest.txt
 sleep 3
+echo 'Before adding to the main list, I will sort it for better convenience.'
+perl ./Sorting.pl ../src/combined.txt
+perl ./Sorting.pl ../src/cookies.txt
+perl ./Sorting.pl ../src/dom.txt
+perl ./Sorting.pl ../src/fonts.txt
+perl ./Sorting.pl ../src/frame.txt
+perl ./Sorting.pl ../src/images.txt
+perl ./Sorting.pl ../src/other.txt
+perl ./Sorting.pl ../src/popups.txt
+perl ./Sorting.pl ../src/resources.txt
+perl ./Sorting.pl ../src/scripts.txt
+perl ./Sorting.pl ../src/servers.txt
+perl ./Sorting.pl ../src/whitelist.txt
+perl ./Sorting.pl ../src/xmlhttprequest.txt
+sleep .1
+echo 'Sorting completed'
+sleep .5
+echo 'Creating a header for the list...'
+sleep .5
 cat > $TEMP/headers.txt <<EOF
 [Adblock Plus 2.0]
 ! Checksum: 0000000000000000000000
