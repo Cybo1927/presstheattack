@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 9YKj4x3J3o44TGJJRsBheA
+! Checksum: IsKv8QwGUPQrLLI74C5yHA
 ! Title: Press the Attack
-! Last modified: 2019-02-23, 19:41:16
-! Version: 20190223194116
+! Last modified: 2019-02-23, 20:49:23
+! Version: 20190223204923
 ! Expires: 1 hour
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
@@ -2551,7 +2551,6 @@
 ##img[src*="counter.yadro.ru"]
 $font,important
 $important,inline-font
-*$cookie=/blcrm|bltsr|yabs|adequate/,domain=yandex.by|yandex.ru|yandex.ua
 */*pixel.gif$important,image,redirect=1x1-transparent.gif
 */*pixel.png$important,image,redirect=1x1-transparent.gif
 */0.gif$important,image,redirect=1x1-transparent.gif
