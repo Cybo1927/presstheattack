@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: dBWFP1FvkNZc6+oEOfUcTw
+! Checksum: 81/ElIXCwS53uxYNzkchNg
 ! Title: Press the Attack
-! Last modified: 2019-02-23, 12:31:42
-! Version: 20190223123142
+! Last modified: 2019-02-23, 12:57:17
+! Version: 20190223125717
 ! Expires: 1 hour
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
@@ -2389,6 +2389,7 @@
 */ads.js$important,script
 */adsbygoogle.js$important,script
 */adsdk.js$important,script
+*/advertising.js$script,important
 */analytics.js$important,script
 */annotations$domain=youtube.com
 */antiadb.js$important,script
@@ -2457,11 +2458,13 @@
 */safelinkconverter.js$important,script
 */showads.js$important,script
 */snow.js$script
+*/snowstorm.js$script
 */spacer.gif$image,important,redirect=1x1-transparent.gif
 */sparechange.js$important,script
 */static/js/tpb.js$important,script
 */streambeam-jw.js$important,script
 */streambeam-video.js$important,script
+*/tracker.js$script,important
 */videojs.ads.js$important,script
 */visit.gif$image,important,redirect=1x1-transparent.gif
 */wasmminer.js$important,script
@@ -2488,6 +2491,7 @@
 .clicksor^
 .clicksor_
 /(gen|client|csi|generate|stream)\_?204/$important
+/\/([^\s]{4})?tag\.min\.([a-z0-9]{30,}\.)?js/$important,script
 /\/advert[0-9]?\.js/$important,script
 /\/fingerprint[0-9]?\.js/$important,script
 /\/fp[0-9]?\.js/$important,script
@@ -2626,6 +2630,10 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http*:*-counter.
 |http*:*-counter^
 |http*:*-counter_
+|http*:*-gscounters-$important
+|http*:*-gscounters.$important
+|http*:*-gscounters^$important
+|http*:*-gscounters_$important
 |http*:*-show-ads-$important
 |http*:*-show-ads.$important
 |http*:*-show-ads^$important
@@ -2686,6 +2694,10 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http*:*.counter.
 |http*:*.counter^
 |http*:*.counter_
+|http*:*.gscounters-$important
+|http*:*.gscounters.$important
+|http*:*.gscounters^$important
+|http*:*.gscounters_$important
 |http*:*.show-ads-$important
 |http*:*.show-ads.$important
 |http*:*.show-ads^$important
@@ -2746,6 +2758,10 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http*:*^counter.
 |http*:*^counter^
 |http*:*^counter_
+|http*:*^gscounters-$important
+|http*:*^gscounters.$important
+|http*:*^gscounters^$important
+|http*:*^gscounters_$important
 |http*:*^show-ads-$important
 |http*:*^show-ads.$important
 |http*:*^show-ads^$important
@@ -2806,6 +2822,10 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 |http*:*_counter.
 |http*:*_counter^
 |http*:*_counter_
+|http*:*_gscounters-$important
+|http*:*_gscounters.$important
+|http*:*_gscounters^$important
+|http*:*_gscounters_$important
 |http*:*_show-ads-$important
 |http*:*_show-ads.$important
 |http*:*_show-ads^$important
@@ -3831,8 +3851,6 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||1-1ads.com^$important
 ||28f77rd30e.ru^$important
 ||2ch.hk/images/
-||2ch.hk/js/snowstorm.js
-||2ch.hk^*/tracker.js
 ||3lift.com^$important
 ||aaxads.com^$important
 ||adalliance.io^$important
@@ -3879,7 +3897,7 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||doublepimp.com^$important
 ||doublepimpssl.com^$important
 ||duckduckgo.com/t/$important
-||duckduckgo.com/y.js$important
+||duckduckgo.com/y.js$script,important
 ||f53mbcg4ak.ru^$important
 ||facebook.com/connect/ping^$subdocument,important,redirect=noopframe
 ||fls-*.amazon.*%$important
@@ -3895,10 +3913,12 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||googletagmanager.com/gtm.js$important,script,redirect=googletagmanager.com/gtm.js
 ||googletagservices.com/tag/js/gpt.js$important,script,redirect=googletagservices.com/gpt.js
 ||gostats.com^$important
+||grapeshot.co.uk^$important
 ||harvest.surge.sh/h.js$important,script
 ||hostingcloud.win^$important
 ||ibillboard.com^$important
 ||indexww.com^$important
+||ioam.de^$important
 ||justicejudo.com^$important
 ||kiks.yandex.ru^$image,important,redirect=1x1-transparent.gif
 ||ligatus.com^$important
@@ -3909,13 +3929,14 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||mail.yandex.*^$first-party,script,important
 ||mc.yandex.ru/metrika/tag.js$script,important,redirect=noopjs
 ||mc.yandex.ru/metrika/watch.js$script,important,redirect=noopjs
-||mms.cnn.com^
+||mms.cnn.com^$important
 ||moatads.com^$important
 ||mookie1.com^$important
 ||navdmp.com^$important
 ||newrelic.com^$important
 ||news.yandex.*^$first-party,script,important
 ||nuggad.net^$important
+||onthe.io^$important
 ||openx.net^$important
 ||pagead2.googlesyndication.com/pagead/show_ads.js$script,important,redirect=noopjs
 ||piguiqproxy.com^$important
@@ -3943,14 +3964,13 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||sharethrough.com^$important
 ||sonobi.com^$important
 ||ssp.rambler.ru^$important
-||stat.pladform.ru^$important
+||stat.*^$important
 ||statcounter.com^$important
-||stats.wp.com^$important
+||stats.*^$important
 ||summerhamster.com^$important
 ||syndication.twitter.com^$important
 ||taboola.com^$important
-||tags.newscgp.com^$important
-||tags.tiqcdn.com^$important
+||tags.*^$important
 ||tcheck.outbrainimg.com^$important
 ||theadex.com^$important
 ||tns-counter.ru^$important
@@ -3962,6 +3982,7 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||twitch.tv^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' *.jtvnw.net *.ttvnw.net *.twitchcdn.net *.twitch.tv *.facebook.com *.facebook.net recaptcha.net *.google.com *.gstatic.com blob: wss:,important
 ||twitter.com/*/recommendations^
 ||twitter.com/*/toast_poll$important
+||twitter.com/oct.js$script,important
 ||unrulymedia.com^$important
 ||urbanairship.com^$important
 ||v0hs81ev3vepjr.ru^$important
@@ -3972,7 +3993,7 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(AdvManager)
 ||vk.com/rtrg^$important
 ||web.telegram.org/*/PhotoThumbConversation.gif$image,important,redirect=1x1-transparent.gif,domain=telegram.org
 ||weborama.fr^$important
-||xhamsterpremium.com^$third-party
+||xhamsterpremium.com^$third-party,important
 ||yabs.yandex.by^$image,important,redirect=1x1-transparent.gif
 ||yabs.yandex.ru^$image,important,redirect=1x1-transparent.gif
 ||yabs.yandex.ua^$image,important,redirect=1x1-transparent.gif
