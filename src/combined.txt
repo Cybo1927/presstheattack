@@ -1,4 +1,4 @@
-/(player|gen|client|csi|generate|stream)\_?204/$important,image,xmlhttprequest
+/(player|gen|client|csi|generate|stream|log)\_?204/$important,image,xmlhttprequest
 /^https?:\/\/[\w.]+google\.\w{2,}\/log\?/$important,xmlhttprequest,image
 /^https?:\/\/news\.yandex\.\w{2,}\/[^\s]{300,}/$important,subdocument,xmlhttprequest
 /^https?:\/\/tv\.yandex\.\w{2,}\/[^\s]{300,}/$important,subdocument,xmlhttprequest

@@ -94,6 +94,7 @@
 /\/fingerprint[0-9]?\.js/$important,script
 /\/fp[0-9]?\.js/$important,script
 /^https?:\/\/cdn[0-9]?\.rocks\/[^\s]{30,}\.js/$important,script
+/glp?r=*&rw=*&rh=*&ww=*&wh=$important,script
 /me[0-9]{1}w\.js/$important,script
 /p.js$important,script
 /webmr[0-9]{1,2}\.js/$important,script

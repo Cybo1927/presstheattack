@@ -1,5 +1,6 @@
 1xbet$important,image
 1xstavka$important,image
+@@/pin-opened-ad.svg$image
 GGBET$image
 ||2ch.hk/images/$image
 ||collector.githubapp.com^$important,image

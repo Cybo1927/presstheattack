@@ -18,7 +18,9 @@
 */pic.gif$important,image,redirect=1x1-transparent.gif
 */ping.gif$important,image,redirect=1x1-transparent.gif
 */pv.gif$important,image,redirect=1x1-transparent.gif
+*/px.gif$important,image,redirect=1x1-transparent.gif
 */spacer.gif$important,image,redirect=1x1-transparent.gif
+*/track-user.png$important,image,redirect=1x1-transparent.gif
 */visit.gif$important,image,redirect=1x1-transparent.gif
 */x.gif$important,image,redirect=1x1-transparent.gif
 kinopoisk.ru##+js(abort-on-property-read.js, Element.prototype.attachShadow)
