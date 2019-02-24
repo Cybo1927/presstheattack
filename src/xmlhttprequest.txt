@@ -3,4 +3,4 @@
 ||github.com/_private/browser/stats^$important,xmlhttprequest
 ||pipe.aria.microsoft.com/collector^$xmlhttprequest,important
 ||reddit.com/timings/$xmlhttprequest,important
-||youtube.com/get_midroll*^xmlhttprequest,$important
+||youtube.com/get_midroll_info^xmlhttprequest,$important

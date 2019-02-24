@@ -118,3 +118,4 @@
 ||youtube.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.ggpht.com *.googlevideo.com *.ytimg.com *.googleusercontent.com www.youtube.com
 ||zmctrack.net^$important
 ||zqtk.net^$important
+||relap.io^$important

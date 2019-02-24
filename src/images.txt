@@ -1,8 +1,9 @@
-1xbet$image,important
-1xstavka$image,important
+1xbet$important,image
+1xstavka$important,image
 GGBET$image
 ||2ch.hk/images/$image
 ||collector.githubapp.com^$important,image
 ||duckduckgo.com/t/$important,image
-||mail.yandex.*/monitoring_liza.txt$image,important
+||mail.yandex.*/monitoring_liza.txt$important,image
 ||vk.com/rtrg^$important,image
+||youtube.com/ptracking^$important,image

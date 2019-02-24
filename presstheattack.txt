@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: x6+RwYVU3vgisRcgJHeOVg
+! Checksum: VH4VKQoxtxcugpZ+i3hCJQ
 ! Title: Press the Attack
-! Last modified: 2019-02-24,  1:34:34
-! Version: 20190224013434
+! Last modified: 2019-02-24, 15:26:23
+! Version: 20190224152623
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
@@ -4138,6 +4138,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(AdvManager)
 ||reddit.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.reddit.com *.redditmedia.com *.redditstatic.com reddit-uploaded-media.s3-accelerate.amazonaws.com
 ||redditmedia.com/gtm/jail^$important,subdocument
 ||redditstatic.com/moat^$important
+||relap.io^$important
 ||rubiconproject.com^$important
 ||rutarget.ru^$important
 ||scontent.xx.fbcdn.net/hads-ak-prn*/*.png$important,image,redirect=1x1-transparent.gif
@@ -4201,8 +4202,8 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(AdvManager)
 ||ybnj57w4m7.ru^$important
 ||yimg.com/wi/ytc.js$important,script
 ||youtube.com/api/stats^$image,important,xmlhttprequest
-||youtube.com/get_midroll*^xmlhttprequest,$important
-||youtube.com/ptracking^$important
+||youtube.com/get_midroll_info^xmlhttprequest,$important
+||youtube.com/ptracking^$image,important
 ||youtube.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.ggpht.com *.googlevideo.com *.ytimg.com *.googleusercontent.com www.youtube.com
 ||zmctrack.net^$important
 ||zqtk.net^$important

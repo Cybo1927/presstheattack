@@ -1263,4 +1263,3 @@ _clicksor_
 ||tags.*^$important
 ||twitter.com/*/recommendations^
 ||twitter.com/*/toast_poll$important
-||youtube.com/ptracking^$important
