@@ -1022,7 +1022,7 @@
 |http*:*_banner_
 |http*:*_banners-
 |http*:*_banners.
-|http*:*_banners^
+|http*:*_banners^$domain=~twitter.com
 |http*:*_banners_
 |http*:*_beacon-$important
 |http*:*_beacon.$important
@@ -1245,5 +1245,3 @@
 ||stat.*^$important
 ||stats.*^$important
 ||tags.*^$important
-||twitter.com/*/recommendations^
-||twitter.com/*/toast_poll$important

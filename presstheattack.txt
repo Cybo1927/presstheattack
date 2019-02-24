@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: SnCp9zjAb54KVjtvj3D2yg
+! Checksum: 2TPAPy9TlDtcmK2s1O13fQ
 ! Title: Press the Attack
-! Last modified: 2019-02-24, 15:42:19
-! Version: 20190224154219
+! Last modified: 2019-02-24, 23:07:50
+! Version: 20190224230750
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
@@ -3799,7 +3799,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(AdvManager)
 |http*:*_banner_
 |http*:*_banners-
 |http*:*_banners.
-|http*:*_banners^
+|http*:*_banners^$domain=~twitter.com
 |http*:*_banners_
 |http*:*_beacon-$important
 |http*:*_beacon.$important
@@ -4150,8 +4150,8 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(AdvManager)
 ||try.abtasty.com^$important
 ||tsyndicate.com^$important
 ||twitch.tv^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' *.jtvnw.net *.ttvnw.net *.twitchcdn.net *.twitch.tv *.facebook.com *.facebook.net recaptcha.net *.google.com *.gstatic.com blob: wss:
-||twitter.com/*/recommendations^
-||twitter.com/*/toast_poll$important
+||twitter.com/*/recommendations^$xmlhttprequest
+||twitter.com/*/toast_poll$important,xmlhttprequest
 ||twitter.com/oct.js$important,script
 ||unrulymedia.com^$important
 ||urbanairship.com^$important

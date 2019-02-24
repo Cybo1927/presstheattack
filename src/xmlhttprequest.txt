@@ -3,4 +3,6 @@
 ||github.com/_private/browser/stats^$important,xmlhttprequest
 ||pipe.aria.microsoft.com/collector^$important,xmlhttprequest
 ||reddit.com/timings/$important,xmlhttprequest
+||twitter.com/*/recommendations^$xmlhttprequest
+||twitter.com/*/toast_poll$important,xmlhttprequest
 ||youtube.com/get_midroll_info^$important,xmlhttprequest
