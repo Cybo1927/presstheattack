@@ -12,8 +12,8 @@
 /^https?:\/\/graph\.(facebook|instagram)\.com/$important
 /^https?:\/\/yastatic\.net\/[^\s]{500,}/$domain=~vh.yandex.ru
 ||1-1ads.com^$important
-||28f77rd30e.ru^$important
 ||3lift.com^$important
+||28f77rd30e.ru^$important
 ||aaxads.com^$important
 ||adalliance.io^$important
 ||adbetnet.com^$important
@@ -83,6 +83,7 @@
 ||quantserve.com^$important
 ||recreativ.ru^$important
 ||reddit.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.reddit.com *.redditmedia.com *.redditstatic.com reddit-uploaded-media.s3-accelerate.amazonaws.com
+||relap.io^$important
 ||rubiconproject.com^$important
 ||rutarget.ru^$important
 ||scorecardresearch.com^$important
@@ -118,4 +119,3 @@
 ||youtube.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.ggpht.com *.googlevideo.com *.ytimg.com *.googleusercontent.com www.youtube.com
 ||zmctrack.net^$important
 ||zqtk.net^$important
-||relap.io^$important
