@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 2TPAPy9TlDtcmK2s1O13fQ
+! Checksum: 6CmWi5dmvqgsqKlzjOcQ0w
 ! Title: Press the Attack
-! Last modified: 2019-02-24, 23:07:50
-! Version: 20190224230750
+! Last modified: 2019-02-24, 23:17:46
+! Version: 20190224231746
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
@@ -2843,6 +2843,10 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(AdvManager)
 |http*:*-advertisement.$important
 |http*:*-advertisement^$important
 |http*:*-advertisement_$important
+|http*:*-advertiser-$important
+|http*:*-advertiser.$important
+|http*:*-advertiser^$important
+|http*:*-advertiser_$important
 |http*:*-adview-$important
 |http*:*-adview.$important
 |http*:*-adview^$important
@@ -3151,6 +3155,10 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(AdvManager)
 |http*:*.advertisement.$important
 |http*:*.advertisement^$important
 |http*:*.advertisement_$important
+|http*:*.advertiser-$important
+|http*:*.advertiser.$important
+|http*:*.advertiser^$important
+|http*:*.advertiser_$important
 |http*:*.adview-$important
 |http*:*.adview.$important
 |http*:*.adview^$important
@@ -3461,6 +3469,10 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(AdvManager)
 |http*:*^advertisement.$important
 |http*:*^advertisement^$important
 |http*:*^advertisement_$important
+|http*:*^advertiser-$important
+|http*:*^advertiser.$important
+|http*:*^advertiser^$important
+|http*:*^advertiser_$important
 |http*:*^adview-$important
 |http*:*^adview.$important
 |http*:*^adview^$important
@@ -3769,6 +3781,10 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(AdvManager)
 |http*:*_advertisement.$important
 |http*:*_advertisement^$important
 |http*:*_advertisement_$important
+|http*:*_advertiser-$important
+|http*:*_advertiser.$important
+|http*:*_advertiser^$important
+|http*:*_advertiser_$important
 |http*:*_adview-$important
 |http*:*_adview.$important
 |http*:*_adview^$important
@@ -4151,7 +4167,8 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(AdvManager)
 ||tsyndicate.com^$important
 ||twitch.tv^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' *.jtvnw.net *.ttvnw.net *.twitchcdn.net *.twitch.tv *.facebook.com *.facebook.net recaptcha.net *.google.com *.gstatic.com blob: wss:
 ||twitter.com/*/recommendations^$xmlhttprequest
-||twitter.com/*/toast_poll$important,xmlhttprequest
+||twitter.com/*/toast_poll^$important,xmlhttprequest
+||twitter.com/i/jot^$important,xmlhttprequest
 ||twitter.com/oct.js$important,script
 ||unrulymedia.com^$important
 ||urbanairship.com^$important
