@@ -6,6 +6,8 @@
 
 TEMP='../src/tmp/'
 SRC='../src/'
+DATE=$(date '+%Y-%m-%d %H:%M:%S')
+VERSION=$(date '+%Y%m%d%H%M%S')
 
 echo 'In order to collect all the filters in one list, we need a temporary folders.'
 if [ ! -d $TEMP ]
@@ -63,8 +65,8 @@ cat > $TEMP/headers.txt <<EOF
 [Adblock Plus 2.0]
 ! Checksum: 0000000000000000000000
 ! Title: Press the Attack
-! Last modified: 0000-00-00, 00:00:00
-! Version: 00000000000000
+! Last modified: ${DATE}
+! Version: ${VERSION}
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
@@ -100,7 +102,6 @@ echo 'Deletion complete!'
 
 #git pull
 perl ./Sorting.pl ../presstheattack.txt
-perl ./UpdateDateString.pl ../presstheattack.txt
 perl ./AddChecksum.pl ../presstheattack.txt
 #git status
 #git commit -a -m 'Update presstheattack.txt'
