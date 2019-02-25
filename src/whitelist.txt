@@ -1,5 +1,5 @@
 @@/pin-opened-ad.svg$image
-@@||api-maps.yandex.ru^
+@@||api-maps.yandex.*^$script
 @@||fbsbx.com/captcha/recaptcha^
 @@||githubusercontent.com^$image
 @@||google.com/recaptcha^
