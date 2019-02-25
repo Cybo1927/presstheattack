@@ -1,6 +1,7 @@
 */ad.js$important,script
 */adblock.js$important,script
 */adframe.js$important,script
+*/adriver.*.js$script,important
 */ads.js$important,script
 */adsbygoogle.js$important,script
 */adsdk.js$important,script
@@ -44,6 +45,7 @@
 */ima3.js$important,script
 */invoke.js$important,script
 */jsecoin.js$important,script
+*/log.js$script,important
 */miner*.js$important,script
 */miner-ui.js$important,script
 */miner.full.js$important,script
