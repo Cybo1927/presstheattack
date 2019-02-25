@@ -5,3 +5,4 @@
 /^https?:\/\/yandex\.\w{2,}\/images/(?!(search\?rpt=\imageview)|(search\?callback\=jQuery)|(search\?exp_flags=)|(search\?serpid=)|(touch/search?))[^\s]{80,}/$important,subdocument,xmlhttprequest
 /log[\W|_]?(type|event|entry)/$important,image,xmlhttprequest
 ||youtube.com/api/stats^$important,image,xmlhttprequest
+/b/ss/*&ce=utf-8&$important,image,script

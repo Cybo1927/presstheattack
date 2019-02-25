@@ -5,6 +5,7 @@
 */ads.js$important,script
 */adsbygoogle.js$important,script
 */adsdk.js$important,script
+*/comscore.*.js$important,script
 */advertising.js$important,script
 */analytics.js$important,script
 */annotations_module.js$script,domain=youtube.com
