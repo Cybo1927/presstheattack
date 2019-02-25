@@ -4,6 +4,10 @@
 */adriver.*.js$important,script
 */ads.js$important,script
 */adsbygoogle.js$important,script
+*/*ping.js$important,script
+*/xads.js$important,script
+*/yads.js$important,script
+||msecnd.net/scripts/jsll-*.js$important,script
 */adsdk.js$important,script
 */advertising.js$important,script
 */analytics.js$important,script

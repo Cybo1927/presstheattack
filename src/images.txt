@@ -5,5 +5,7 @@ GGBET$image
 ||collector.githubapp.com^$important,image
 ||duckduckgo.com/t/$important,image
 ||mail.yandex.*/monitoring_liza.txt$important,image
+||rover.ebay.*/roverimp/*&trknvp=$important,image
 ||vk.com/rtrg^$important,image
+||yahoo.co.jp/b?p=$important,image
 ||youtube.com/ptracking^$important,image

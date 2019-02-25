@@ -23,6 +23,7 @@
 */track-user.png$important,image,redirect=1x1-transparent.gif
 */visit.gif$important,image,redirect=1x1-transparent.gif
 */x.gif$important,image,redirect=1x1-transparent.gif
+*/z.gif$important,image,redirect=1x1-transparent.gif
 kinopoisk.ru##+js(abort-on-property-read.js, Element.prototype.attachShadow)
 kinopoisk.ru##+js(abort-on-property-read.js, advBlock)
 kinopoisk.ru##+js(cookie-remover.js, /^blcrm|^bltsr|^cmtchd|^crookie|^kpunk)
