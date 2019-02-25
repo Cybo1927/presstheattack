@@ -54,7 +54,7 @@ COMMITPATTERN = re.compile(r"^(A|M|P)\:\s(\((.+)\)\s)?(.*)$")
 IGNORE = ()
 
 # uBlock Origin options
-KNOWNOPTIONS = ("csp", "document", "font", "genericblock", "generichide", "image", "popup", "first-party", "script", "stylesheet", "subdocument", "third-party", "websocket", "xmlhttprequest", "important", "1p", "3p", "inline-script", "inline-font", "xhr")
+KNOWNOPTIONS = ("csp", "document", "font", "genericblock", "generichide", "image", "popup", "first-party", "script", "stylesheet", "subdocument", "third-party", "websocket", "xmlhttprequest", "important", "1p", "3p", "inline-script", "inline-font", "xhr", "redirect=1x1-transparent.gif", "redirect=32x32-transparent.png", "redirect=3x2-transparent.png", "redirect=2x2-transparent.png", "redirect=noopframe", "redirect=noopjs", "redirect=nooptext")
 
 # List the supported revision control system commands
 REPODEF = collections.namedtuple("repodef", "name, directory, locationoption, repodirectoryoption, checkchanges, difference, commit, pull, push")
