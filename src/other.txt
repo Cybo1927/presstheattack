@@ -179,6 +179,10 @@
 |http*:*-metrika.$important
 |http*:*-metrika^$important
 |http*:*-metrika_$important
+|http*:*-mtrcs-$important
+|http*:*-mtrcs.$important
+|http*:*-mtrcs^$important
+|http*:*-mtrcs_$important
 |http*:*-owa-analytics-$important
 |http*:*-owa-analytics.$important
 |http*:*-owa-analytics^$important
@@ -523,6 +527,10 @@
 |http*:*.metrika.$important
 |http*:*.metrika^$important
 |http*:*.metrika_$important
+|http*:*.mtrcs-$important
+|http*:*.mtrcs.$important
+|http*:*.mtrcs^$important
+|http*:*.mtrcs_$important
 |http*:*.owa-analytics-$important
 |http*:*.owa-analytics.$important
 |http*:*.owa-analytics^$important
@@ -869,6 +877,10 @@
 |http*:*^metrika.$important
 |http*:*^metrika^$important
 |http*:*^metrika_$important
+|http*:*^mtrcs-$important
+|http*:*^mtrcs.$important
+|http*:*^mtrcs^$important
+|http*:*^mtrcs_$important
 |http*:*^owa-analytics-$important
 |http*:*^owa-analytics.$important
 |http*:*^owa-analytics^$important
@@ -1213,6 +1225,10 @@
 |http*:*_metrika.$important
 |http*:*_metrika^$important
 |http*:*_metrika_$important
+|http*:*_mtrcs-$important
+|http*:*_mtrcs.$important
+|http*:*_mtrcs^$important
+|http*:*_mtrcs_$important
 |http*:*_owa-analytics-$important
 |http*:*_owa-analytics.$important
 |http*:*_owa-analytics^$important

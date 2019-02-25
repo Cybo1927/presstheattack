@@ -8,7 +8,7 @@
 /^https?:\/\/[\w\.]?(an|awaps|awsync|appmetrica|bs|direct|grade\.market|informer|kiks|clck|main\.zdevx|mc|web\-metrica|yabs|zen|browser\-updater|bs\-meta)\.+yandex\.\w{2,}/$important
 /^https?:\/\/[^\s]+\.radar\.imgsmail\.ru/$important
 /^https?:\/\/[a-z0-9]{1,}adserv\.com/$important
-/^https?:\/\/c[0-9{1,2}]?\./$important
+/^https?:\/\/c([0-9]{1,2})?\./$important
 /^https?:\/\/collector[0-9]\.xhamster.com/$important
 /^https?:\/\/graph\.(facebook|instagram)\.com/$important
 /^https?:\/\/yastatic\.net\/[^\s]{500,}/$domain=~vh.yandex.ru
@@ -35,7 +35,9 @@
 ||adtechus.com^$important
 ||advertising.com^$important
 ||advertserve.com^$important
+||agkn.com^$important
 ||amazon-adsystem.com^$important
+||amplifypixel.outbrain.com^$important
 ||amplitude.com^$important
 ||amung.us^$important
 ||atdmt.com^$important
@@ -53,6 +55,7 @@
 ||connect.facebook.net^
 ||connect.ok.ru^
 ||cookielaw.org^$important
+||criteo.net^$important
 ||crwdcntrl.net^$important
 ||cutter.li^
 ||digitaltarget.ru^$important
@@ -85,6 +88,7 @@
 ||ligatus.com^$important
 ||lijit.com^$important
 ||logql.yahoo.co.jp^$important
+||meetrics.net^$important
 ||mms.cnn.com^$important
 ||moatads.com^$important
 ||mookie1.com^$important
@@ -113,13 +117,16 @@
 ||rutarget.ru^$important
 ||scorecardresearch.com^$important
 ||scroll.com^$important
+||seedtag.com^$important
 ||sharethrough.com^$important
+||smartadserver.com^$important
 ||sonobi.com^$important
 ||ssp.rambler.ru^$important
 ||statcounter.com^$important
 ||summerhamster.com^$important
 ||syndication.twitter.com^$important
 ||taboola.com^$important
+||tag.*^$important
 ||tagcommander.com^$important
 ||tcheck.outbrainimg.com^$important
 ||theadex.com^$important

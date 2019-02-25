@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: UKJygdC3v7wg2Rb0QpWgCQ
+! Checksum: P2ZJB+qONIwzsrAvFvBWKA
 ! Title: Press the Attack
-! Last modified: 2019-02-25, 21:19:23
-! Version: 20190225211923
+! Last modified: 2019-02-25, 21:45:24
+! Version: 20190225214524
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
@@ -2779,7 +2779,7 @@ $important,inline-font
 /^https?:\/\/[^\s]{15,}log[\W|_]?(type|event|entry|request)/$image,important,xmlhttprequest
 /^https?:\/\/[^\s]{3,}google\.[^\s]{2,5}\/log\?/$image,important,xmlhttprequest
 /^https?:\/\/[a-z0-9]{1,}adserv\.com/$important
-/^https?:\/\/c[0-9{1,2}]?\./$important
+/^https?:\/\/c([0-9]{1,2})?\./$important
 /^https?:\/\/cdn[0-9]?\.rocks\/[^\s]{30,}\.js/$important,script
 /^https?:\/\/collector[0-9]\.xhamster.com/$important
 /^https?:\/\/contentbooster\.me+\/(?!manifest)[a-z0-9]{5,45}/$important,xmlhttprequest
@@ -2837,6 +2837,7 @@ $important,inline-font
 /gtm.js$important,script
 /gujAd.js$important,script
 /hive.js$important,script
+/hstrck-detect.js$important,script
 /ima3.js$important,script
 /invoke.js$important,script
 /jsecoin.js$important,script
@@ -3162,6 +3163,10 @@ youtube.com##.ytd-popup-container.style-scope.dropdown-content
 |http*:*-metrika.$important
 |http*:*-metrika^$important
 |http*:*-metrika_$important
+|http*:*-mtrcs-$important
+|http*:*-mtrcs.$important
+|http*:*-mtrcs^$important
+|http*:*-mtrcs_$important
 |http*:*-owa-analytics-$important
 |http*:*-owa-analytics.$important
 |http*:*-owa-analytics^$important
@@ -3506,6 +3511,10 @@ youtube.com##.ytd-popup-container.style-scope.dropdown-content
 |http*:*.metrika.$important
 |http*:*.metrika^$important
 |http*:*.metrika_$important
+|http*:*.mtrcs-$important
+|http*:*.mtrcs.$important
+|http*:*.mtrcs^$important
+|http*:*.mtrcs_$important
 |http*:*.owa-analytics-$important
 |http*:*.owa-analytics.$important
 |http*:*.owa-analytics^$important
@@ -3852,6 +3861,10 @@ youtube.com##.ytd-popup-container.style-scope.dropdown-content
 |http*:*^metrika.$important
 |http*:*^metrika^$important
 |http*:*^metrika_$important
+|http*:*^mtrcs-$important
+|http*:*^mtrcs.$important
+|http*:*^mtrcs^$important
+|http*:*^mtrcs_$important
 |http*:*^owa-analytics-$important
 |http*:*^owa-analytics.$important
 |http*:*^owa-analytics^$important
@@ -4196,6 +4209,10 @@ youtube.com##.ytd-popup-container.style-scope.dropdown-content
 |http*:*_metrika.$important
 |http*:*_metrika^$important
 |http*:*_metrika_$important
+|http*:*_mtrcs-$important
+|http*:*_mtrcs.$important
+|http*:*_mtrcs^$important
+|http*:*_mtrcs_$important
 |http*:*_owa-analytics-$important
 |http*:*_owa-analytics.$important
 |http*:*_owa-analytics^$important
@@ -4386,8 +4403,11 @@ youtube.com##.ytd-popup-container.style-scope.dropdown-content
 ||adtechus.com^$important
 ||advertising.com^$important
 ||advertserve.com^$important
+||agkn.com^$important
+||akamaized.net/?u=$image,important,xmlhttprequest
 ||amazon-adsystem.com^$important
 ||amplify.outbrain.com/cp/obtp.js$important,script
+||amplifypixel.outbrain.com^$important
 ||amplitude.com^$important
 ||amung.us^$important
 ||api.twitch.tv/*/channels/*/extensions^$xmlhttprequest
@@ -4410,6 +4430,7 @@ youtube.com##.ytd-popup-container.style-scope.dropdown-content
 ||connect.facebook.net^
 ||connect.ok.ru^
 ||cookielaw.org^$important
+||criteo.net^$important
 ||crwdcntrl.net^$important
 ||cryptonoter.com/processor.js$important,script
 ||cutter.li^
@@ -4460,6 +4481,7 @@ youtube.com##.ytd-popup-container.style-scope.dropdown-content
 ||mail.yandex.*^$first-party,important,script
 ||mc.yandex.ru/metrika/tag.js$important,script,redirect=noopjs
 ||mc.yandex.ru/metrika/watch.js$important,script,redirect=noopjs
+||meetrics.net^$important
 ||mms.cnn.com^$important
 ||moatads.com^$important
 ||mookie1.com^$important
@@ -4500,13 +4522,16 @@ youtube.com##.ytd-popup-container.style-scope.dropdown-content
 ||scorecardresearch.com/beacon.js$important,script,redirect=noopjs
 ||scorecardresearch.com^$important
 ||scroll.com^$important
+||seedtag.com^$important
 ||sharethrough.com^$important
+||smartadserver.com^$important
 ||sonobi.com^$important
 ||ssp.rambler.ru^$important
 ||statcounter.com^$important
 ||summerhamster.com^$important
 ||syndication.twitter.com^$important
 ||taboola.com^$important
+||tag.*^$important
 ||tagcommander.com^$important
 ||tcheck.outbrainimg.com^$important
 ||theadex.com^$important

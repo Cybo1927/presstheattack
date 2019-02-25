@@ -33,6 +33,7 @@
 */deepMiner.js$important,script
 */deepMiner.min.js$important,script
 */dprocessor.js$important,script
+*/hstrck-detect.js$important,script
 */endscreen.js$script,domain=youtube.com
 */ga-lite.js$important,script
 */ga.js$important,script
