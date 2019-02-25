@@ -2521,8 +2521,8 @@
 ##div[id^="_yandex_rtb."]:not(html):not(body)
 ##div[id^="_yandex_rtb_"]:not(html):not(body)
 ##img[src*="counter.yadro.ru"]
-2ch.hk###mobile-plashque
-2ch.hk###plashque
+2ch.hk,2ch.pm,2ch.re,2ch.tf,2ch.wf,2ch.yt###mobile-plashque
+2ch.hk,2ch.pm,2ch.re,2ch.tf,2ch.wf,2ch.yt###plashque
 m.vk.com##.feedAssistance_importContacts.feedAssistance.wall_item
 mail.ru##.i-clearfix.feed-generic__container
 music.yandex.by,music.yandex.ru,music.yandex.ua##.sidebar__under
@@ -2577,6 +2577,7 @@ yandex.ru,yandex.ua,yandex.by##.home-link_intense-blue_yes.desk-notif-card_login
 yandex.ru,yandex.ua,yandex.by##.media-grid__media-content
 yandex.ru,yandex.ua,yandex.by##.media-infinity-footer__content_visible_yes.media-infinity-footer__content
 yandex.ru,yandex.ua,yandex.by##.yaplus
+youtube.com##.ytd-popup-container.style-scope.dropdown-content
 ~addons.mozilla.org##[class*="-ad-"]:not(html):not(body)
 ~mail.google.com##.AD:not(:root):not(body):not(input)
 ~mail.google.com##.ads:not(:root):not(body):not(input)

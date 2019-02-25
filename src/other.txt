@@ -147,7 +147,7 @@
 |http*:*-gscounters^$important
 |http*:*-gscounters_$important
 |http*:*-log-
-|http*:*-log.
+|http*:*-log.$domain=~video.online-convert.com
 |http*:*-log^
 |http*:*-log_
 |http*:*-logs-

@@ -1,8 +1,7 @@
+/^https?:\/\/2ch\.(hk|pm|re|tf|wf|yt)\/images/$image
 1xbet$important,image
 1xstavka$important,image
-@@/pin-opened-ad.svg$image
 GGBET$image
-||2ch.hk/images/$image
 ||collector.githubapp.com^$important,image
 ||duckduckgo.com/t/$important,image
 ||mail.yandex.*/monitoring_liza.txt$important,image

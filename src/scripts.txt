@@ -58,6 +58,7 @@
 */obfus.min.js$important,script
 */ph-functions.js$important,script
 */ph-tracking.js$important,script
+*/piwik-*.js$important,script
 */piwik.js$important,script
 */processor.js$important,script
 */projectpoi.min.js$important,script
@@ -83,7 +84,7 @@
 */webmr.js$important,script
 */webxmr.js$important,script
 */worker-asmjs.min.js$important,script
-*/xgemius.js$important
+*/xgemius.js$important,script
 */xminer.js$important,script
 */xminer.min.js$important,script
 */xmr-monero.js$important,script

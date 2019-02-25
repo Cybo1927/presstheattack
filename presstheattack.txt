@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: b/OAmAwv5/SKDhx1sOH+6A
+! Checksum: MTiTCe2VrcXBhJ5DxfCKxg
 ! Title: Press the Attack
-! Last modified: 2019-02-25,  1:40:21
-! Version: 20190225014021
+! Last modified: 2019-02-25, 13:29:13
+! Version: 20190225132913
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
@@ -2586,6 +2586,7 @@ $important,inline-font
 /^https?:\/\/(metric|csi)\.gstatic\.com/$important
 /^https?:\/\/(www\.)?(client\-event\-reporter|countess|mp|polyfill|sentinel|spade|trowel|fan)\.+twitch(svc)?\.\w{2,}/$important
 /^https?:\/\/(www\.)?facebook\.\w{3,}\/tr\D/$important
+/^https?:\/\/2ch\.(hk|pm|re|tf|wf|yt)\/images/$image
 /^https?:\/\/[\w.]+google(\-analytics|syndication|tagmanager|adservices|tagservices)\.\w{2,}/$important
 /^https?:\/\/[\w.]+google\.\w{2,}\/log\?/$image,important,xmlhttprequest
 /^https?:\/\/[\w\.]?(an|awaps|awsync|appmetrica|bs|direct|grade\.market|informer|kiks|clck|main\.zdevx|mc|web\-metrica|yabs|zen|browser\-updater|bs\-meta)\.+yandex\.\w{2,}/$important
@@ -2663,6 +2664,7 @@ $important,inline-font
 /p.js$important,script
 /ph-functions.js$important,script
 /ph-tracking.js$important,script
+/piwik-*.js$important,script
 /piwik.js$important,script
 /processor.js$important,script
 /projectpoi.min.js$important,script
@@ -2690,7 +2692,7 @@ $important,inline-font
 /webmr[0-9]{1,2}\.js/$important,script
 /webxmr.js$important,script
 /worker-asmjs.min.js$important,script
-/xgemius.js$important
+/xgemius.js$important,script
 /xminer.js$important,script
 /xminer.min.js$important,script
 /xmr-monero.js$important,script
@@ -2698,8 +2700,8 @@ $important,inline-font
 /xmr.min.js$important,script
 1xbet$image,important
 1xstavka$image,important
-2ch.hk###mobile-plashque
-2ch.hk###plashque
+2ch.hk,2ch.pm,2ch.re,2ch.tf,2ch.wf,2ch.yt###mobile-plashque
+2ch.hk,2ch.pm,2ch.re,2ch.tf,2ch.wf,2ch.yt###plashque
 ?perfekt=wss://*^$important
 ?proxy=ws://*^$important
 ?proxy=wss://*^$important
@@ -2787,6 +2789,7 @@ yandex.by,yandex.ru,yandex.ua##.media-grid_js_inited.font-regular.i-bem.media-gr
 yandex.by,yandex.ru,yandex.ua##.media-infinity-footer__content_visible_yes.media-infinity-footer__content
 yandex.by,yandex.ru,yandex.ua##.yaplus
 yandex.by,yandex.ru,yandex.ua##^script:has-text(AdvManager)
+youtube.com##.ytd-popup-container.style-scope.dropdown-content
 |http*:*-ad-
 |http*:*-ad-sdk-$important
 |http*:*-ad-sdk.$important
@@ -2932,7 +2935,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(AdvManager)
 |http*:*-gscounters^$important
 |http*:*-gscounters_$important
 |http*:*-log-
-|http*:*-log.
+|http*:*-log.$domain=~video.online-convert.com
 |http*:*-log^
 |http*:*-log_
 |http*:*-logs-
@@ -4055,7 +4058,6 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(AdvManager)
 |http*:*_webstats_$important
 ||1-1ads.com^$important
 ||28f77rd30e.ru^$important
-||2ch.hk/images/$image
 ||3lift.com^$important
 ||aaxads.com^$important
 ||adalliance.io^$important

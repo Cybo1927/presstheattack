@@ -1,3 +1,4 @@
+@@/pin-opened-ad.svg$image
 @@||api-maps.yandex.ru^
 @@||fbsbx.com/captcha/recaptcha^
 @@||githubusercontent.com^$image
