@@ -12,12 +12,50 @@ if [ ! -d $TEMP ]
 then
 	echo 'Creating temporary folders...'
 	mkdir $TEMP
-	mkdir $TEMP/{sort,dontsort}/
 	sleep .5
 	echo 'Folders created!'
 else
      echo "Directory already exists"  
 fi
+
+echo 'Now I will copy the filters to a temporary folder...'
+sleep 3
+cp $SRC/combined.txt $TEMP
+cp $SRC/dom.txt $TEMP
+cp $SRC/frame.txt $TEMP
+cp $SRC/images.txt $TEMP
+cp $SRC/other.txt $TEMP
+cp $SRC/popups.txt $TEMP
+cp $SRC/resources.txt $TEMP
+cp $SRC/scripts.txt $TEMP
+cp $SRC/servers.txt $TEMP
+cp $SRC/whitelist.txt $TEMP
+cp $SRC/xmlhttprequest.txt $TEMP
+sleep .5
+
+echo 'Error correction in progress...'
+sleep 3
+python ./FOP.py $TEMP
+sed -i "s/## + js/##+js/g" $TEMP/resources.txt
+sed -i "s/math.random/Math.random/g" $TEMP/resources.txt
+sed -i "s/element.prototype/Element.prototype/g" $TEMP/resources.txt
+
+echo 'Copying the corrected filters to the "src" folder...'
+sleep 3
+cp $TEMP/combined.txt $SRC
+cp $TEMP/dom.txt $SRC
+cp $TEMP/frame.txt $SRC
+cp $TEMP/images.txt $SRC
+cp $TEMP/other.txt $SRC
+cp $TEMP/popups.txt $SRC
+cp $TEMP/resources.txt $SRC
+cp $TEMP/scripts.txt $SRC
+cp $TEMP/servers.txt $SRC
+cp $TEMP/whitelist.txt $SRC
+cp $TEMP/xmlhttprequest.txt $SRC
+sleep .5
+
+sort --output=$TEMP/filterlist.txt $TEMP/combined.txt $TEMP/dom.txt $TEMP/frame.txt $TEMP/images.txt $TEMP/other.txt $TEMP/popups.txt $TEMP/resources.txt $TEMP/scripts.txt $TEMP/servers.txt $TEMP/whitelist.txt $TEMP/xmlhttprequest.txt
 
 echo 'Creating a header for the list...'
 sleep .5
@@ -52,23 +90,6 @@ cat > $TEMP/headers.txt <<EOF
 
 EOF
 
-echo 'Now I will copy the filters to a temporary folder...'
-cp ../src/combined.txt $TEMP/sort/
-cp ../src/dom.txt $TEMP/sort/
-cp ../src/fonts.txt $TEMP/sort/
-cp ../src/frame.txt $TEMP/sort/
-cp ../src/images.txt $TEMP/sort/
-cp ../src/other.txt $TEMP/sort/
-cp ../src/popups.txt $TEMP/sort/
-cp ../src/resources.txt $TEMP/dontsort/
-cp ../src/scripts.txt $TEMP/sort/
-cp ../src/servers.txt $TEMP/sort/
-cp ../src/whitelist.txt $TEMP/sort/
-cp ../src/xmlhttprequest.txt $TEMP/sort/
-sleep .5
-
-python ./FOP.py $TEMP/sort/
-sort --output=$TEMP/filterlist.txt $TEMP/sort/combined.txt $TEMP/sort/dom.txt $TEMP/sort/fonts.txt $TEMP/sort/frame.txt $TEMP/sort/images.txt $TEMP/sort/other.txt $TEMP/sort/popups.txt $TEMP/dontsort/resources.txt $TEMP/sort/scripts.txt $TEMP/sort/servers.txt $TEMP/sort/whitelist.txt $TEMP/sort/xmlhttprequest.txt
 cat $TEMP/headers.txt $TEMP/filterlist.txt > ../presstheattack.txt
 
 echo 'Delete temporary files and folders...'
@@ -77,13 +98,13 @@ rm -rf $TEMP
 sleep .1
 echo 'Deletion complete!'
 
-git pull
+#git pull
 perl ./Sorting.pl ../presstheattack.txt
 perl ./UpdateDateString.pl ../presstheattack.txt
 perl ./AddChecksum.pl ../presstheattack.txt
-git status
-git commit -a -m 'Update presstheattack.txt'
-git push origin master
+#git status
+#git commit -a -m 'Update presstheattack.txt'
+#git push origin master
 sleep .5
 echo 'Upload finished'
 read -n 1 -s -r -p 'Press any key to exit.'
