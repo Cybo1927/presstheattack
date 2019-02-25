@@ -1,13 +1,10 @@
+*/*ping.js$important,script
 */ad.js$important,script
 */adblock.js$important,script
 */adframe.js$important,script
 */adriver.*.js$important,script
 */ads.js$important,script
 */adsbygoogle.js$important,script
-*/*ping.js$important,script
-*/xads.js$important,script
-*/yads.js$important,script
-||msecnd.net/scripts/jsll-*.js$important,script
 */adsdk.js$important,script
 */advertising.js$important,script
 */analytics.js$important,script
@@ -32,6 +29,7 @@
 */crypta.js$important,script
 */cryptocpu.js$important,script
 */cryptonight.wasm$important,script
+*/dc_performance.js$important,script
 */deepMiner.js$important,script
 */deepMiner.min.js$important,script
 */dprocessor.js$important,script
@@ -43,7 +41,9 @@
 */gads.js$important,script
 */gpt.js$important,script
 */gridcash.js$important,script
+*/*-gtm.js$important,script
 */gtm.js$important,script
+*/*_gtm.js$important,script
 */gujAd.js$important,script
 */hive.js$important,script
 */ima3.js$important,script
@@ -68,6 +68,7 @@
 */piwik.js$important,script
 */processor.js$important,script
 */projectpoi.min.js$important,script
+*/px.js$important,script
 */raven.js$important,script
 */referdetect.js$important,script
 */referrer.js$script,script
@@ -90,12 +91,14 @@
 */webmr.js$important,script
 */webxmr.js$important,script
 */worker-asmjs.min.js$important,script
+*/xads.js$important,script
 */xgemius.js$important,script
 */xminer.js$important,script
 */xminer.min.js$important,script
 */xmr-monero.js$important,script
 */xmr.js$important,script
 */xmr.min.js$important,script
+*/yads.js$important,script
 /\/([^\s]{4})?tag\.min\.([a-z0-9]{30,}\.)?js/$important,script
 /\/advert[0-9]?\.js/$important,script
 /\/fingerprint[0-9]?\.js/$important,script
@@ -110,6 +113,7 @@
 ||duckduckgo.com/y.js$important,script
 ||harvest.surge.sh/h.js$important,script
 ||mail.yandex.*^$important,first-party,script
+||msecnd.net/scripts/jsll-*.js$important,script
 ||news.yandex.*^$important,first-party,script
 ||quora.com/qevents.js$important,script
 ||redditstatic.com/moat^$important,script

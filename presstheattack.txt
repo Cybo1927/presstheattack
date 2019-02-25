@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: A8X/u2pftnf6BnPkwP89tg
+! Checksum: UKJygdC3v7wg2Rb0QpWgCQ
 ! Title: Press the Attack
-! Last modified: 2019-02-25, 20:18:18
-! Version: 20190225201818
+! Last modified: 2019-02-25, 21:19:23
+! Version: 20190225211923
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
@@ -2748,6 +2748,7 @@ $important,inline-font
 */cleardot.gif$important,image,redirect=1x1-transparent.gif
 */empty.gif$important,image,redirect=1x1-transparent.gif
 */i.gif$important,image,redirect=1x1-transparent.gif
+*/lumbar.gif$important,image,redirect=1x1-transparent.gif
 */pic.gif$important,image,redirect=1x1-transparent.gif
 */ping.gif$important,image,redirect=1x1-transparent.gif
 */pv.gif$important,image,redirect=1x1-transparent.gif
@@ -2757,6 +2758,8 @@ $important,inline-font
 */visit.gif$important,image,redirect=1x1-transparent.gif
 */x.gif$important,image,redirect=1x1-transparent.gif
 */z.gif$important,image,redirect=1x1-transparent.gif
+/*-gtm.js$important,script
+/*_gtm.js$important,script
 /*ping.js$important,script
 /\/([^\s]{4})?tag\.min\.([a-z0-9]{30,}\.)?js/$important,script
 /\/advert[0-9]?\.js/$important,script
@@ -2817,6 +2820,7 @@ $important,inline-font
 /crypta.js$important,script
 /cryptocpu.js$important,script
 /cryptonight.wasm$important,script
+/dc_performance.js$important,script
 /deepMiner.js$important,script
 /deepMiner.min.js$important,script
 /dprocessor.js$important,script
@@ -2857,6 +2861,7 @@ $important,inline-font
 /processor.js$important,script
 /projectpoi.min.js$important,script
 /pv?fe=*&elg=$important
+/px.js$important,script
 /raven.js$important,script
 /referdetect.js$important,script
 /referrer.js$script
@@ -3001,6 +3006,10 @@ youtube.com##.ytd-popup-container.style-scope.dropdown-content
 |http*:*-adfox.$important
 |http*:*-adfox^$important
 |http*:*-adfox_$important
+|http*:*-adfserve-$important
+|http*:*-adfserve.$important
+|http*:*-adfserve^$important
+|http*:*-adfserve_$important
 |http*:*-adinfo-
 |http*:*-adinfo.
 |http*:*-adinfo^
@@ -3341,6 +3350,10 @@ youtube.com##.ytd-popup-container.style-scope.dropdown-content
 |http*:*.adfox.$important
 |http*:*.adfox^$important
 |http*:*.adfox_$important
+|http*:*.adfserve-$important
+|http*:*.adfserve.$important
+|http*:*.adfserve^$important
+|http*:*.adfserve_$important
 |http*:*.adinfo-
 |http*:*.adinfo.
 |http*:*.adinfo^
@@ -3683,6 +3696,10 @@ youtube.com##.ytd-popup-container.style-scope.dropdown-content
 |http*:*^adfox.$important
 |http*:*^adfox^$important
 |http*:*^adfox_$important
+|http*:*^adfserve-$important
+|http*:*^adfserve.$important
+|http*:*^adfserve^$important
+|http*:*^adfserve_$important
 |http*:*^adinfo-
 |http*:*^adinfo.
 |http*:*^adinfo^
@@ -4023,6 +4040,10 @@ youtube.com##.ytd-popup-container.style-scope.dropdown-content
 |http*:*_adfox.$important
 |http*:*_adfox^$important
 |http*:*_adfox_$important
+|http*:*_adfserve-$important
+|http*:*_adfserve.$important
+|http*:*_adfserve^$important
+|http*:*_adfserve_$important
 |http*:*_adinfo-
 |http*:*_adinfo.
 |http*:*_adinfo^
@@ -4351,7 +4372,10 @@ youtube.com##.ytd-popup-container.style-scope.dropdown-content
 ||adbetclickin.pink^$important
 ||adbetnet.com^$important
 ||adcdnx.com^$important
+||adclear.net^$important
+||adform.net^$important
 ||adfox.ru^$important
+||adition.com^$important
 ||admixer.net^$important
 ||adnxs.com^$important
 ||adobedtm.com^$important
@@ -4362,12 +4386,10 @@ youtube.com##.ytd-popup-container.style-scope.dropdown-content
 ||adtechus.com^$important
 ||advertising.com^$important
 ||advertserve.com^$important
-||akamaized.net/?u=$important
 ||amazon-adsystem.com^$important
-||amazon.*/*/record-impressions^$important
 ||amplify.outbrain.com/cp/obtp.js$important,script
+||amplitude.com^$important
 ||amung.us^$important
-||analytics.*^$important
 ||api.twitch.tv/*/channels/*/extensions^$xmlhttprequest
 ||atdmt.com^$important
 ||atwola.com^$important
@@ -4375,6 +4397,7 @@ youtube.com##.ytd-popup-container.style-scope.dropdown-content
 ||awaps.yandex.net^$important,subdocument,redirect=noopframe
 ||bat.bing.com^$important
 ||bidswitch.net^$important
+||bing.com/fd/ls/$image,important,xmlhttprequest
 ||bounceexchange.com^$important
 ||casalemedia.com^$important
 ||cdn.jsdelivr.net^$important
@@ -4387,7 +4410,7 @@ youtube.com##.ytd-popup-container.style-scope.dropdown-content
 ||connect.facebook.net^
 ||connect.ok.ru^
 ||cookielaw.org^$important
-||criteo.*^$important
+||crwdcntrl.net^$important
 ||cryptonoter.com/processor.js$important,script
 ||cutter.li^
 ||digitaltarget.ru^$important
@@ -4397,6 +4420,8 @@ youtube.com##.ytd-popup-container.style-scope.dropdown-content
 ||doublepimpssl.com^$important
 ||duckduckgo.com/t/$image,important
 ||duckduckgo.com/y.js$important,script
+||edigitalsurvey.com^$important
+||emetriq.de^$important
 ||ensighten.com^$important
 ||events.reddit.com^$important
 ||f53mbcg4ak.ru^$important
@@ -4408,13 +4433,13 @@ youtube.com##.ytd-popup-container.style-scope.dropdown-content
 ||github.com/_private/browser/stats^$important,xmlhttprequest
 ||gnezdo.ru^$important
 ||goo.gl^
-||google-analytics.com/analytics.js$important,script,redirect=google-analytics.com/analytics.js
-||google-analytics.com/cx/api.js$important,script,redirect=google-analytics.com/cx/api.js
-||google-analytics.com/ga.js$important,script,redirect=google-analytics.com/ga.js
-||googlesyndication.com/pagead/js/adsbygoogle.js$important,script,redirect=googlesyndication.com/adsbygoogle.js
+||google-analytics.com/analytics.js$important,script,redirect=noopjs
+||google-analytics.com/cx/api.js$important,script,redirect=noopjs
+||google-analytics.com/ga.js$important,script,redirect=noopjs
+||googlesyndication.com/pagead/js/adsbygoogle.js$important,script,redirect=noopjs
 ||googletagmanager.com/gtag/js$important,script,redirect=noopjs
-||googletagmanager.com/gtm.js$important,script,redirect=googletagmanager.com/gtm.js
-||googletagservices.com/tag/js/gpt.js$important,script,redirect=googletagservices.com/gpt.js
+||googletagmanager.com/gtm.js$important,script,redirect=noopjs
+||googletagservices.com/tag/js/gpt.js$important,script,redirect=noopjs
 ||gostats.com^$important
 ||grapeshot.co.uk^$important
 ||harvest.surge.sh/h.js$important,script
@@ -4427,11 +4452,10 @@ youtube.com##.ytd-popup-container.style-scope.dropdown-content
 ||ioam.de^$important
 ||justicejudo.com^$important
 ||kiks.yandex.ru^$important,image,redirect=1x1-transparent.gif
+||lcs.naver.com^$important
 ||ligatus.com^$important
 ||lijit.com^$important
-||log.*^$important
 ||logql.yahoo.co.jp^$important
-||mail.ru/share_count^$important
 ||mail.yandex.*/monitoring_liza.txt$image,important
 ||mail.yandex.*^$first-party,important,script
 ||mc.yandex.ru/metrika/tag.js$important,script,redirect=noopjs
@@ -4443,10 +4467,14 @@ youtube.com##.ytd-popup-container.style-scope.dropdown-content
 ||navdmp.com^$important
 ||newrelic.com^$important
 ||news.yandex.*^$first-party,important,script
+||nil.naver.com^$important
 ||nuggad.net^$important
 ||onthe.io^$important
 ||openx.net^$important
+||ophan.theguardian.com^$important
+||p.imgur.com^$important
 ||pagead2.googlesyndication.com/pagead/show_ads.js$important,script,redirect=noopjs
+||pb.m.naver.com^$important
 ||piguiqproxy.com^$important
 ||pipe.aria.microsoft.com/collector^$important,xmlhttprequest
 ||plista.com^$important
@@ -4469,20 +4497,17 @@ youtube.com##.ytd-popup-container.style-scope.dropdown-content
 ||rutarget.ru^$important
 ||scontent.xx.fbcdn.net/hads-ak-prn*/*.png$important,image,redirect=1x1-transparent.gif
 ||scontent.xx.fbcdn23dssr3jqnq.onion/hads-ak-prn*/*.png$important,image,redirect=1x1-transparent.gif
-||scorecardresearch.com/beacon.js$important,script,redirect=scorecardresearch.com/beacon.js
+||scorecardresearch.com/beacon.js$important,script,redirect=noopjs
 ||scorecardresearch.com^$important
 ||scroll.com^$important
 ||sharethrough.com^$important
 ||sonobi.com^$important
 ||ssp.rambler.ru^$important
-||stat.*^$important
 ||statcounter.com^$important
-||stats.*^$important
 ||summerhamster.com^$important
 ||syndication.twitter.com^$important
 ||taboola.com^$important
 ||tagcommander.com^$important
-||tags.*^$important
 ||tcheck.outbrainimg.com^$important
 ||theadex.com^$important
 ||tns-counter.ru^$important
@@ -4501,6 +4526,7 @@ youtube.com##.ytd-popup-container.style-scope.dropdown-content
 ||urbanairship.com^$important
 ||v0hs81ev3vepjr.ru^$important
 ||vadideo.com^$important
+||veta.naver.com^$important
 ||vk-portal.net^$important
 ||vk.cc^
 ||vk.com/js/lib/px.js$important,script
@@ -4529,6 +4555,7 @@ youtube.com##.ytd-popup-container.style-scope.dropdown-content
 ||yastatic.net/daas/atom.js$important,script
 ||yastatic.net^$important,popup
 ||ybnj57w4m7.ru^$important
+||yieldlab.net^$important
 ||yimg.com/wi/ytc.js$important,script
 ||youtube.com/api/stats^$image,important,xmlhttprequest
 ||youtube.com/get_midroll_info^$important,xmlhttprequest

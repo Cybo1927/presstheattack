@@ -23,6 +23,10 @@
 |http*:*-adfox.$important
 |http*:*-adfox^$important
 |http*:*-adfox_$important
+|http*:*-adfserve-$important
+|http*:*-adfserve.$important
+|http*:*-adfserve^$important
+|http*:*-adfserve_$important
 |http*:*-adinfo-
 |http*:*-adinfo.
 |http*:*-adinfo^
@@ -363,6 +367,10 @@
 |http*:*.adfox.$important
 |http*:*.adfox^$important
 |http*:*.adfox_$important
+|http*:*.adfserve-$important
+|http*:*.adfserve.$important
+|http*:*.adfserve^$important
+|http*:*.adfserve_$important
 |http*:*.adinfo-
 |http*:*.adinfo.
 |http*:*.adinfo^
@@ -705,6 +713,10 @@
 |http*:*^adfox.$important
 |http*:*^adfox^$important
 |http*:*^adfox_$important
+|http*:*^adfserve-$important
+|http*:*^adfserve.$important
+|http*:*^adfserve^$important
+|http*:*^adfserve_$important
 |http*:*^adinfo-
 |http*:*^adinfo.
 |http*:*^adinfo^
@@ -1045,6 +1057,10 @@
 |http*:*_adfox.$important
 |http*:*_adfox^$important
 |http*:*_adfox_$important
+|http*:*_adfserve-$important
+|http*:*_adfserve.$important
+|http*:*_adfserve^$important
+|http*:*_adfserve_$important
 |http*:*_adinfo-
 |http*:*_adinfo.
 |http*:*_adinfo^
@@ -1365,12 +1381,3 @@
 |http*:*_webstats.$important
 |http*:*_webstats^$important
 |http*:*_webstats_$important
-||akamaized.net/?u=$important
-||amazon.*/*/record-impressions^$important
-||analytics.*^$important
-||criteo.*^$important
-||log.*^$important
-||mail.ru/share_count^$important
-||stat.*^$important
-||stats.*^$important
-||tags.*^$important
