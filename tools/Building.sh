@@ -63,7 +63,6 @@ echo 'Creating a header for the list...'
 sleep .5
 cat > $TEMP/headers.txt <<EOF
 [Adblock Plus 2.0]
-! Checksum: 0000000000000000000000
 ! Title: Press the Attack
 ! Last modified: ${DATE}
 ! Version: ${VERSION}
@@ -102,7 +101,6 @@ echo 'Deletion complete!'
 
 #git pull
 perl ./Sorting.pl ../presstheattack.txt
-perl ./AddChecksum.pl ../presstheattack.txt
 #git status
 #git commit -a -m 'Update presstheattack.txt'
 #git push origin master
