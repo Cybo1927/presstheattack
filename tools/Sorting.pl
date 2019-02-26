@@ -31,5 +31,4 @@ foreach my $filename (@ARGV) {
     close $fhout;
     close $fh;
     move($filetobecopied, $newfile);
-
 }
