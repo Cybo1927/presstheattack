@@ -17,11 +17,18 @@ then
 	sleep .5
 	echo 'Folders created!'
 else
-     echo "Directory already exists"  
+     echo 'Directory already exists'  
 fi
 
+python ./FOP.py $SRC
+echo 'Error correction in progress...'
+sleep .5
+sed -i "s/## + js/##+js/g" $SRC/resources.txt
+sed -i "s/math.random/Math.random/g" $SRC/resources.txt
+sed -i "s/element.prototype/Element.prototype/g" $SRC/resources.txt
+
+sleep .5
 echo 'Now I will copy the filters to a temporary folder...'
-sleep 3
 cp $SRC/combined.txt $TEMP
 cp $SRC/dom.txt $TEMP
 cp $SRC/frame.txt $TEMP
@@ -35,38 +42,18 @@ cp $SRC/whitelist.txt $TEMP
 cp $SRC/xmlhttprequest.txt $TEMP
 sleep .5
 
-echo 'Error correction in progress...'
-sleep 3
-python ./FOP.py $TEMP
-sed -i "s/## + js/##+js/g" $TEMP/resources.txt
-sed -i "s/math.random/Math.random/g" $TEMP/resources.txt
-sed -i "s/element.prototype/Element.prototype/g" $TEMP/resources.txt
-
-echo 'Copying the corrected filters to the "src" folder...'
-sleep 3
-cp $TEMP/combined.txt $SRC
-cp $TEMP/dom.txt $SRC
-cp $TEMP/frame.txt $SRC
-cp $TEMP/images.txt $SRC
-cp $TEMP/other.txt $SRC
-cp $TEMP/popups.txt $SRC
-cp $TEMP/resources.txt $SRC
-cp $TEMP/scripts.txt $SRC
-cp $TEMP/servers.txt $SRC
-cp $TEMP/whitelist.txt $SRC
-cp $TEMP/xmlhttprequest.txt $SRC
-sleep .5
-
 sort --output=$TEMP/filterlist.txt $TEMP/combined.txt $TEMP/dom.txt $TEMP/frame.txt $TEMP/images.txt $TEMP/other.txt $TEMP/popups.txt $TEMP/resources.txt $TEMP/scripts.txt $TEMP/servers.txt $TEMP/whitelist.txt $TEMP/xmlhttprequest.txt
 
 echo 'Creating a header for the list...'
 sleep .5
+LINES=$(grep -c '' $TEMP/filterlist.txt)
 cat > $TEMP/headers.txt <<EOF
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Last modified: ${DATE}
 ! Version: ${VERSION}
 ! Expires: 3 hours
+! Number of filters: ${LINES}
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -99,11 +86,23 @@ rm -rf $TEMP
 sleep .1
 echo 'Deletion complete!'
 
-#git pull
 perl ./Sorting.pl ../presstheattack.txt
-#git status
-#git commit -a -m 'Update presstheattack.txt'
-#git push origin master
+
+echo 'Do you want to send modified files to Git (y/N)?'
+select yn in "Yes" "No"; do
+	case $yn in
+		Yes )
+		git pull
+		git status
+		git commit -a -m 'Update presstheattack.txt'
+		git push origin master;
+		break
+		;;
+		No ) exit
+		;;
+    esac
+done
+
 sleep .5
 echo 'Upload finished'
 read -n 1 -s -r -p 'Press any key to exit.'
