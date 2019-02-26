@@ -78,6 +78,7 @@ cat > $TEMP/headers.txt <<EOF
 
 EOF
 
+perl ./Sorting.pl $TEMP/filterlist.txt
 cat $TEMP/headers.txt $TEMP/filterlist.txt > ../presstheattack.txt
 
 echo 'Delete temporary files and folders...'
@@ -85,8 +86,6 @@ sleep .5
 rm -rf $TEMP
 sleep .1
 echo 'Deletion complete!'
-
-perl ./Sorting.pl ../presstheattack.txt
 
 echo 'Do you want to send modified files to Git (y/N)?'
 select yn in "Yes" "No"; do
@@ -98,7 +97,8 @@ select yn in "Yes" "No"; do
 		git push origin master;
 		break
 		;;
-		No ) exit
+		No )
+		exit
 		;;
     esac
 done
