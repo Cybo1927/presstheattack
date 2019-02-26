@@ -16,7 +16,6 @@ reddit.com##.onboardingbar.subscribebar.infobar
 music.yandex.by,music.yandex.ru,music.yandex.ua##.sidebar__under
 xvideos.com##.x-message-info.x-message
 yandex.by,yandex.ru,yandex.ua##.yaplus
-youtube.com##.ytd-popup-container.style-scope.dropdown-content
 ##[class$="-AdServer-"]:not(html):not(body)
 ##[class$="-AdServer."]:not(html):not(body)
 ##[class$="-AdServer_"]:not(html):not(body)
