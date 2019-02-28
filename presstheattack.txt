@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
-! Last modified: 2019-02-28 19:31:11
-! Version: 20190228193111
+! Last modified: 2019-02-28 21:11:42
+! Version: 20190228211142
 ! Expires: 3 hours
 ! Number of filters: 4581
 ! Homepage: https://github.com/bogachenko/presstheattack/
@@ -2781,7 +2781,7 @@
 @@||yastatic.net/yandex-video-player-iframe-api-bundles^
 GGBET$image
 kinopoisk.ru##+js(abort-on-property-read.js, advBlock)
-kinopoisk.ru##+js(cookie-remover.js, /blcrm|bltsr|cmtchd|crookie|kpunk|user_country|user-geo-region-id|user-geo-country-id|yandex_plus_metrika_cookie)
+kinopoisk.ru##+js(cookie-remover.js, /blcrm|bltsr|cmtchd|crookie|kpunk|yandex_plus_metrika_cookie)
 kinopoisk.ru##+js(setInterval-defuser.js, (), 500)
 kinopoisk.ru,yandex.by,yandex.ru,yandex.ua##+js(abort-on-property-read.js, Element.prototype.attachShadow)
 m.vk.com##.feedAssistance_importContacts.feedAssistance.wall_item
