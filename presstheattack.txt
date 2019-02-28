@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
-! Last modified: 2019-02-28 19:23:18
-! Version: 20190228192318
+! Last modified: 2019-02-28 19:31:11
+! Version: 20190228193111
 ! Expires: 3 hours
 ! Number of filters: 4581
 ! Homepage: https://github.com/bogachenko/presstheattack/
@@ -2781,7 +2781,7 @@
 @@||yastatic.net/yandex-video-player-iframe-api-bundles^
 GGBET$image
 kinopoisk.ru##+js(abort-on-property-read.js, advBlock)
-kinopoisk.ru##+js(cookie-remover.js, /^blcrm|^bltsr|^cmtchd|^crookie|^kpunk)
+kinopoisk.ru##+js(cookie-remover.js, /blcrm|bltsr|cmtchd|crookie|kpunk|user_country|user-geo-region-id|user-geo-country-id|yandex_plus_metrika_cookie)
 kinopoisk.ru##+js(setInterval-defuser.js, (), 500)
 kinopoisk.ru,yandex.by,yandex.ru,yandex.ua##+js(abort-on-property-read.js, Element.prototype.attachShadow)
 m.vk.com##.feedAssistance_importContacts.feedAssistance.wall_item
@@ -2840,7 +2840,7 @@ xvideos.com##+js(abort-on-property-write.js, openpop)
 xvideos.com##+js(nowebrtc.js)
 xvideos.com##+js(window.open-defuser.js)
 xvideos.com##.x-message-info.x-message
-yandex.by,yandex.ru,yandex.ua##+js(cookie-remover.js, /(L|yp|ys|yc|zm|yabs-sid|my|mda|spravka|blcrm|bltsr|yabs)/)
+yandex.by,yandex.ru,yandex.ua##+js(cookie-remover.js, /L|yp|ys|yc|zm|yabs-sid|my|mda|spravka|blcrm|bltsr|yabs/)
 yandex.by,yandex.ru,yandex.ua##.home-link_intense-blue_yes.desk-notif-card_login-plus.home-link
 yandex.by,yandex.ru,yandex.ua##.media-grid__media-content
 yandex.by,yandex.ru,yandex.ua##.media-grid_js_inited.font-regular.i-bem.media-grid_theme_white.media-grid_visible_yes.media-grid
