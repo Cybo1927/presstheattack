@@ -302,6 +302,10 @@
 |http*:*-tag-users.$important
 |http*:*-tag-users^$important
 |http*:*-tag-users_$important
+|http*:*-tagmanager-$important
+|http*:*-tagmanager.$important
+|http*:*-tagmanager^$important
+|http*:*-tagmanager_$important
 |http*:*-tcheck-
 |http*:*-tcheck.
 |http*:*-tcheck^
@@ -650,6 +654,10 @@
 |http*:*.tag-users.$important
 |http*:*.tag-users^$important
 |http*:*.tag-users_$important
+|http*:*.tagmanager-$important
+|http*:*.tagmanager.$important
+|http*:*.tagmanager^$important
+|http*:*.tagmanager_$important
 |http*:*.tcheck-
 |http*:*.tcheck.
 |http*:*.tcheck^
@@ -695,6 +703,7 @@
 |http*:*.webstats^$important
 |http*:*.webstats_$important
 |http*:*/google-conversion.html$document,important
+|http*:*/in.php?p=$important
 |http*:*/pv?fe=*&elg=$important
 |http*:*?*&ip=$third-party
 |http*:*?ip=$third-party
@@ -1005,6 +1014,10 @@
 |http*:*^tag-users.$important
 |http*:*^tag-users^$important
 |http*:*^tag-users_$important
+|http*:*^tagmanager-$important
+|http*:*^tagmanager.$important
+|http*:*^tagmanager^$important
+|http*:*^tagmanager_$important
 |http*:*^tcheck-
 |http*:*^tcheck.
 |http*:*^tcheck^
@@ -1353,6 +1366,10 @@
 |http*:*_tag-users.$important
 |http*:*_tag-users^$important
 |http*:*_tag-users_$important
+|http*:*_tagmanager-$important
+|http*:*_tagmanager.$important
+|http*:*_tagmanager^$important
+|http*:*_tagmanager_$important
 |http*:*_tcheck-
 |http*:*_tcheck.
 |http*:*_tcheck^

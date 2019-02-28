@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
-! Last modified: 2019-02-26 23:26:11
-! Version: 20190226232611
+! Last modified: 2019-02-28 19:23:18
+! Version: 20190228192318
 ! Expires: 3 hours
-! Number of filters: 4562
+! Number of filters: 4581
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2840,7 +2840,7 @@ xvideos.com##+js(abort-on-property-write.js, openpop)
 xvideos.com##+js(nowebrtc.js)
 xvideos.com##+js(window.open-defuser.js)
 xvideos.com##.x-message-info.x-message
-yandex.by,yandex.ru,yandex.ua##+js(cookie-remover.js, /^blcrm|^bltsr|^yabs|^adequate/)
+yandex.by,yandex.ru,yandex.ua##+js(cookie-remover.js, /(L|yp|ys|yc|zm|yabs-sid|my|mda|spravka|blcrm|bltsr|yabs)/)
 yandex.by,yandex.ru,yandex.ua##.home-link_intense-blue_yes.desk-notif-card_login-plus.home-link
 yandex.by,yandex.ru,yandex.ua##.media-grid__media-content
 yandex.by,yandex.ru,yandex.ua##.media-grid_js_inited.font-regular.i-bem.media-grid_theme_white.media-grid_visible_yes.media-grid
@@ -3151,6 +3151,10 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(AdvManager)
 |http*:*-tag-users.$important
 |http*:*-tag-users^$important
 |http*:*-tag-users_$important
+|http*:*-tagmanager-$important
+|http*:*-tagmanager.$important
+|http*:*-tagmanager^$important
+|http*:*-tagmanager_$important
 |http*:*-tcheck-
 |http*:*-tcheck.
 |http*:*-tcheck^
@@ -3499,6 +3503,10 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(AdvManager)
 |http*:*.tag-users.$important
 |http*:*.tag-users^$important
 |http*:*.tag-users_$important
+|http*:*.tagmanager-$important
+|http*:*.tagmanager.$important
+|http*:*.tagmanager^$important
+|http*:*.tagmanager_$important
 |http*:*.tcheck-
 |http*:*.tcheck.
 |http*:*.tcheck^
@@ -3612,6 +3620,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(AdvManager)
 |http*:*/hstrck-detect.js$important,script
 |http*:*/i.gif$image,important,redirect=1x1-transparent.gif
 |http*:*/ima3.js$important,script
+|http*:*/in.php?p=$important
 |http*:*/invoke.js$important,script
 |http*:*/jsecoin.js$important,script
 |http*:*/log.js$important,script
@@ -3634,6 +3643,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(AdvManager)
 |http*:*/ping.gif$image,important,redirect=1x1-transparent.gif
 |http*:*/piwik-*.js$important,script
 |http*:*/piwik.js$important,script
+|http*:*/pptm.js$important,script
 |http*:*/processor.js$important,script
 |http*:*/projectpoi.min.js$important,script
 |http*:*/pv.gif$image,important,redirect=1x1-transparent.gif
@@ -3984,6 +3994,10 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(AdvManager)
 |http*:*^tag-users.$important
 |http*:*^tag-users^$important
 |http*:*^tag-users_$important
+|http*:*^tagmanager-$important
+|http*:*^tagmanager.$important
+|http*:*^tagmanager^$important
+|http*:*^tagmanager_$important
 |http*:*^tcheck-
 |http*:*^tcheck.
 |http*:*^tcheck^
@@ -4332,6 +4346,10 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(AdvManager)
 |http*:*_tag-users.$important
 |http*:*_tag-users^$important
 |http*:*_tag-users_$important
+|http*:*_tagmanager-$important
+|http*:*_tagmanager.$important
+|http*:*_tagmanager^$important
+|http*:*_tagmanager_$important
 |http*:*_tcheck-
 |http*:*_tcheck.
 |http*:*_tcheck^
@@ -4523,6 +4541,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(AdvManager)
 ||sonobi.com^$important
 ||ssp.rambler.ru^$important
 ||statcounter.com^$important
+||stats.wp.com^$important
 ||summerhamster.com^$important
 ||syndication.twitter.com^$important
 ||taboola.com^$important

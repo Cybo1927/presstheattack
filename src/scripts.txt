@@ -75,6 +75,7 @@
 |http*:*/ph-tracking.js$important,script
 |http*:*/piwik-*.js$important,script
 |http*:*/piwik.js$important,script
+|http*:*/pptm.js$important,script
 |http*:*/processor.js$important,script
 |http*:*/projectpoi.min.js$important,script
 |http*:*/px.js$important,script
