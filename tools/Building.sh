@@ -14,35 +14,29 @@ if [ ! -d $TEMP ]
 then
 	echo 'Creating temporary folders...'
 	mkdir $TEMP
+	mkdir $TEMP/{sort,dontsort}/
 	sleep .5
 	echo 'Folders created!'
 else
      echo 'Directory already exists'  
 fi
 
-python ./FOP.py $SRC
-echo 'Error correction in progress...'
 sleep .5
-sed -i "s/## + js/##+js/g" $SRC/resources.txt
-sed -i "s/math.random/Math.random/g" $SRC/resources.txt
-sed -i "s/element.prototype/Element.prototype/g" $SRC/resources.txt
 
-sleep .5
 echo 'Now I will copy the filters to a temporary folder...'
-cp $SRC/combined.txt $TEMP
-cp $SRC/dom.txt $TEMP
-cp $SRC/frame.txt $TEMP
-cp $SRC/images.txt $TEMP
-cp $SRC/other.txt $TEMP
-cp $SRC/popups.txt $TEMP
-cp $SRC/resources.txt $TEMP
-cp $SRC/scripts.txt $TEMP
-cp $SRC/servers.txt $TEMP
-cp $SRC/whitelist.txt $TEMP
-cp $SRC/xmlhttprequest.txt $TEMP
+cp $SRC/combined.txt $TEMP/sort/
+cp $SRC/dom.txt $TEMP/sort/
+cp $SRC/frame.txt $TEMP/sort/
+cp $SRC/images.txt $TEMP/sort/
+cp $SRC/other.txt $TEMP/sort/
+cp $SRC/popups.txt $TEMP/sort/
+cp $SRC/resources.txt $TEMP/dontsort/
+cp $SRC/scripts.txt $TEMP/sort/
+cp $SRC/servers.txt $TEMP/sort/
+cp $SRC/whitelist.txt $TEMP/sort/
+cp $SRC/xmlhttprequest.txt $TEMP/sort/
 sleep .5
-
-sort --output=$TEMP/filterlist.txt $TEMP/combined.txt $TEMP/dom.txt $TEMP/frame.txt $TEMP/images.txt $TEMP/other.txt $TEMP/popups.txt $TEMP/resources.txt $TEMP/scripts.txt $TEMP/servers.txt $TEMP/whitelist.txt $TEMP/xmlhttprequest.txt
+python ./FOP.py $TEMP/sort/
 
 echo 'Creating a header for the list...'
 sleep .5
@@ -77,6 +71,8 @@ cat > $TEMP/headers.txt <<EOF
 ! Download uBlock Origin from GitHub - https://github.com/gorhill/uBlock/releases/
 
 EOF
+
+sort --output=$TEMP/filterlist.txt $TEMP/sort/combined.txt $TEMP/sort/dom.txt $TEMP/sort/frame.txt $TEMP/sort/images.txt $TEMP/sort/other.txt $TEMP/sort/popups.txt $TEMP/dontsort/resources.txt $TEMP/sort/scripts.txt $TEMP/sort/servers.txt $TEMP/sort/whitelist.txt $TEMP/sort/xmlhttprequest.txt
 
 perl ./Sorting.pl $TEMP/filterlist.txt
 cat $TEMP/headers.txt $TEMP/filterlist.txt > ../presstheattack.txt
