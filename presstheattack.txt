@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
-! Last modified: 2019-02-28 21:11:42
-! Version: 20190228211142
+! Last modified: 2019-03-03 20:01:30
+! Version: 20190303200130
 ! Expires: 3 hours
-! Number of filters: 4581
+! Number of filters: 4582
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2729,6 +2729,15 @@
 ##div[id^="_yandex_rtb."]:not(html):not(body)
 ##div[id^="_yandex_rtb_"]:not(html):not(body)
 ##img[src*="counter.yadro.ru"]
+/*pixel.gif$image,important,redirect=1x1-transparent.gif
+/*pixel.png$image,important,redirect=1x1-transparent.gif
+/0.gif$image,important,redirect=1x1-transparent.gif
+/0.png$image,important,redirect=1x1-transparent.gif
+/1x1.gif$image,important,redirect=1x1-transparent.gif
+/1x1.png$image,important,redirect=1x1-transparent.gif
+/2x2.png$image,important,redirect=2x2-transparent.png
+/32x32.png$image,important,redirect=32x32-transparent.png
+/3x2.png$image,important,redirect=3x2-transparent.png
 /\/([^\s]{4})?tag\.min\.([a-z0-9]{30,}\.)?js/$important,script
 /\/advert[0-9]?\.js/$important,script
 /\/fingerprint[0-9]?\.js/$important,script
@@ -2757,9 +2766,27 @@
 /^https?:\/\/yandex\.[^\s]{2,5}\/images/(?!(search\?rpt=\imageview)|(search\?callback\=jQuery)|(search\?exp_flags=)|(search\?serpid=)|(touch/search?))[^\s]{80,}/$important,subdocument,xmlhttprequest
 /^https?:\/\/yastatic\.net\/[^\s]{500,}/$domain=~vh.yandex.ru
 /^https?:\/\/zmctrack\.(com|net)/$important
+/a.gif$image,important,redirect=1x1-transparent.gif
+/ad.gif$image,important,redirect=1x1-transparent.gif
+/ads.gif$image,important,redirect=1x1-transparent.gif
 /b/ss/*&ce=utf-8&$image,important,script
+/blank.gif$image,important,redirect=1x1-transparent.gif
+/c.gif$image,important,redirect=1x1-transparent.gif
+/cleardot.gif$image,important,redirect=1x1-transparent.gif
+/empty.gif$image,important,redirect=1x1-transparent.gif
+/i.gif$image,important,redirect=1x1-transparent.gif
+/lumbar.gif$image,important,redirect=1x1-transparent.gif
 /me[0-9]{1}w\.js/$important,script
+/pic.gif$image,important,redirect=1x1-transparent.gif
+/ping.gif$image,important,redirect=1x1-transparent.gif
+/pv.gif$image,important,redirect=1x1-transparent.gif
+/px.gif$image,important,redirect=1x1-transparent.gif
+/spacer.gif$image,important,redirect=1x1-transparent.gif
+/track-user.png$image,important,redirect=1x1-transparent.gif
+/visit.gif$image,important,redirect=1x1-transparent.gif
 /webmr[0-9]{1,2}\.js/$important,script
+/x.gif$image,important,redirect=1x1-transparent.gif
+/z.gif$image,important,redirect=1x1-transparent.gif
 1xbet$image,important
 1xstavka$image,important
 2ch.hk,2ch.pm,2ch.re,2ch.tf,2ch.wf,2ch.yt###mobile-plashque
@@ -3554,22 +3581,11 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(AdvManager)
 |http*:*/*-gtm.js$important,script
 |http*:*/*_gtm.js$important,script
 |http*:*/*ping.js$important,script
-|http*:*/*pixel.gif$image,important,redirect=1x1-transparent.gif
-|http*:*/*pixel.png$image,important,redirect=1x1-transparent.gif
-|http*:*/0.gif$image,important,redirect=1x1-transparent.gif
-|http*:*/0.png$image,important,redirect=1x1-transparent.gif
-|http*:*/1x1.gif$image,important,redirect=1x1-transparent.gif
-|http*:*/1x1.png$image,important,redirect=1x1-transparent.gif
-|http*:*/2x2.png$image,important,redirect=2x2-transparent.png
-|http*:*/32x32.png$image,important,redirect=32x32-transparent.png
-|http*:*/3x2.png$image,important,redirect=3x2-transparent.png
-|http*:*/a.gif$image,important,redirect=1x1-transparent.gif
-|http*:*/ad.gif$image,important,redirect=1x1-transparent.gif
 |http*:*/ad.js$important,script
 |http*:*/adblock.js$important,script
+|http*:*/adblockr.javascript$important,script
 |http*:*/adframe.js$important,script
 |http*:*/adriver.*.js$important,script
-|http*:*/ads.gif$image,important,redirect=1x1-transparent.gif
 |http*:*/ads.js$important,script
 |http*:*/adsbygoogle.js$important,script
 |http*:*/adsdk.js$important,script
@@ -3579,13 +3595,10 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(AdvManager)
 |http*:*/antiadb.js$important,script
 |http*:*/apstag.js$important,script
 |http*:*/authedminer.js$important,script
-|http*:*/blank.gif$image,important,redirect=1x1-transparent.gif
 |http*:*/browsermine.js$important,script
 |http*:*/c-hive.js$important,script
-|http*:*/c.gif$image,important,redirect=1x1-transparent.gif
 |http*:*/c.js$important,script
 |http*:*/c.wasm$important,script
-|http*:*/cleardot.gif$image,important,redirect=1x1-transparent.gif
 |http*:*/cloudcoins.js$important,script
 |http*:*/cloudcoins.min.js$important,script
 |http*:*/cn-asmjs.min.js$important,script
@@ -3603,7 +3616,6 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(AdvManager)
 |http*:*/deepMiner.js$important,script
 |http*:*/deepMiner.min.js$important,script
 |http*:*/dprocessor.js$important,script
-|http*:*/empty.gif$image,important,redirect=1x1-transparent.gif
 |http*:*/endscreen.js$script,domain=youtube.com
 |http*:*/ga-lite.js$important,script
 |http*:*/ga.js$important,script
@@ -3618,13 +3630,11 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(AdvManager)
 |http*:*/gujAd.js$important,script
 |http*:*/hive.js$important,script
 |http*:*/hstrck-detect.js$important,script
-|http*:*/i.gif$image,important,redirect=1x1-transparent.gif
 |http*:*/ima3.js$important,script
 |http*:*/in.php?p=$important
 |http*:*/invoke.js$important,script
 |http*:*/jsecoin.js$important,script
 |http*:*/log.js$important,script
-|http*:*/lumbar.gif$image,important,redirect=1x1-transparent.gif
 |http*:*/miner*.js$important,script
 |http*:*/miner-ui.js$important,script
 |http*:*/miner.full.js$important,script
@@ -3639,16 +3649,12 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(AdvManager)
 |http*:*/p.js$important,script
 |http*:*/ph-functions.js$important,script
 |http*:*/ph-tracking.js$important,script
-|http*:*/pic.gif$image,important,redirect=1x1-transparent.gif
-|http*:*/ping.gif$image,important,redirect=1x1-transparent.gif
 |http*:*/piwik-*.js$important,script
 |http*:*/piwik.js$important,script
 |http*:*/pptm.js$important,script
 |http*:*/processor.js$important,script
 |http*:*/projectpoi.min.js$important,script
-|http*:*/pv.gif$image,important,redirect=1x1-transparent.gif
 |http*:*/pv?fe=*&elg=$important
-|http*:*/px.gif$image,important,redirect=1x1-transparent.gif
 |http*:*/px.js$important,script
 |http*:*/raven.js$important,script
 |http*:*/referdetect.js$important,script
@@ -3658,15 +3664,12 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(AdvManager)
 |http*:*/showads.js$important,script
 |http*:*/snow.js$important,script
 |http*:*/snowstorm.js$important,script
-|http*:*/spacer.gif$image,important,redirect=1x1-transparent.gif
 |http*:*/sparechange.js$important,script
 |http*:*/static/js/tpb.js$important,script
 |http*:*/streambeam-jw.js$important,script
 |http*:*/streambeam-video.js$important,script
-|http*:*/track-user.png$image,important,redirect=1x1-transparent.gif
 |http*:*/tracker.js$important,script
 |http*:*/videojs.ads.js$important,script
-|http*:*/visit.gif$image,important,redirect=1x1-transparent.gif
 |http*:*/wasmminer.js$important,script
 |http*:*/wasmminer.wasm$important,script
 |http*:*/watch_ua.js$important,script
@@ -3675,7 +3678,6 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(AdvManager)
 |http*:*/webmr.js$important,script
 |http*:*/webxmr.js$important,script
 |http*:*/worker-asmjs.min.js$important,script
-|http*:*/x.gif$image,important,redirect=1x1-transparent.gif
 |http*:*/xads.js$important,script
 |http*:*/xgemius.js$important,script
 |http*:*/xminer.js$important,script
@@ -3684,7 +3686,6 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(AdvManager)
 |http*:*/xmr.js$important,script
 |http*:*/xmr.min.js$important,script
 |http*:*/yads.js$important,script
-|http*:*/z.gif$image,important,redirect=1x1-transparent.gif
 |http*:*?*&ip=$third-party
 |http*:*?ip=$third-party
 |http*:*?perfekt=wss://*^$important
