@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
-! Last modified: 2019-03-03 20:17:06
-! Version: 20190303201706
+! Last modified: 2019-03-03 20:19:08
+! Version: 20190303201908
 ! Expires: 3 hours
-! Number of filters: 
+! Number of filters: 4582
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
