@@ -1378,7 +1378,7 @@
 |http*:*_teaser.
 |http*:*_teaser^
 |http*:*_teaser_
-|http*:*_track-
+|http*:*_track-$domain=~music.yandex.by|~music.yandex.ru|~music.yandex.ua
 |http*:*_track.
 |http*:*_track^
 |http*:*_track_
