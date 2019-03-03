@@ -38,6 +38,8 @@ cp $SRC/xmlhttprequest.txt $TEMP/sort/
 sleep .5
 python ./FOP.py $TEMP/sort/
 
+sort --output=$TEMP/filterlist.txt $TEMP/sort/combined.txt $TEMP/sort/dom.txt $TEMP/sort/frame.txt $TEMP/sort/images.txt $TEMP/sort/other.txt $TEMP/sort/popups.txt $TEMP/dontsort/resources.txt $TEMP/sort/scripts.txt $TEMP/sort/servers.txt $TEMP/sort/whitelist.txt $TEMP/sort/xmlhttprequest.txt
+
 echo 'Creating a header for the list...'
 sleep .5
 LINES=$(grep -c '' $TEMP/filterlist.txt)
@@ -71,8 +73,6 @@ cat > $TEMP/headers.txt <<EOF
 ! Download uBlock Origin from GitHub - https://github.com/gorhill/uBlock/releases/
 
 EOF
-
-sort --output=$TEMP/filterlist.txt $TEMP/sort/combined.txt $TEMP/sort/dom.txt $TEMP/sort/frame.txt $TEMP/sort/images.txt $TEMP/sort/other.txt $TEMP/sort/popups.txt $TEMP/dontsort/resources.txt $TEMP/sort/scripts.txt $TEMP/sort/servers.txt $TEMP/sort/whitelist.txt $TEMP/sort/xmlhttprequest.txt
 
 perl ./Sorting.pl $TEMP/filterlist.txt
 cat $TEMP/headers.txt $TEMP/filterlist.txt > ../presstheattack.txt
