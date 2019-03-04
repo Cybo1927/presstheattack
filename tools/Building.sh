@@ -17,12 +17,13 @@ then
 	sleep .5
 	echo 'Folder created!'
 else
-	echo 'Directory already exists'  
+echo 'Directory already exists'  
 fi
 
 sleep .5
 
 python ./FOP.py $SRC
+
 cp $SRC/combined.txt $TEMP
 cp $SRC/dom.txt $TEMP
 cp $SRC/frame.txt $TEMP
