@@ -11,6 +11,8 @@
 |http*:*/ad.js$important,script
 |http*:*/adblock.js$important,script
 |http*:*/adblockr.javascript$important,script
+|http*:*/async-ads.js$script,important
+|http*:*/dfp.js$script,important
 |http*:*/adframe.js$important,script
 |http*:*/adriver.*.js$important,script
 |http*:*/ads.js$important,script

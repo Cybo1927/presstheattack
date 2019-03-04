@@ -1,23 +1,12 @@
-kinopoisk.ru##+js(abort-on-property-read.js, advBlock)
-kinopoisk.ru,yandex.by,yandex.ru,yandex.ua##+js(abort-on-property-read.js, Element.prototype.attachShadow)
-xvideos.com##+js(abort-on-property-write.js, openpop)
-yandex.by,yandex.ru,yandex.ua##+js(cookie-remover.js, /L|yp|ys|yc|zm|yabs-sid|my|mda|spravka|blcrm|bltsr|yabs/)
-kinopoisk.ru##+js(cookie-remover.js, /blcrm|bltsr|cmtchd|crookie|kpunk|yandex_plus_metrika_cookie)
-xvideos.com##+js(nowebrtc.js)
-~mail.yandex.by,~mail.yandex.ru,~mail.yandex.ua,rambler.ru,yandex.by,yandex.ru,yandex.ua##+js(set-constant.js, Math.random, trueFunc)
-kinopoisk.ru##+js(setInterval-defuser.js, (), 500)
-twitch.tv##+js(twitch-videoad.js)
-xvideos.com##+js(window.open-defuser.js)
-xnxx.com,xvideos.com##+js(xvideos.com.js)
-*/*pixel.gif$image,important,redirect=1x1-transparent.gif
-*/*pixel.png$image,important,redirect=1x1-transparent.gif
 */0.gif$image,important,redirect=1x1-transparent.gif
 */0.png$image,important,redirect=1x1-transparent.gif
 */1x1.gif$image,important,redirect=1x1-transparent.gif
 */1x1.png$image,important,redirect=1x1-transparent.gif
 */2x2.png$image,important,redirect=2x2-transparent.png
-*/32x32.png$image,important,redirect=32x32-transparent.png
 */3x2.png$image,important,redirect=3x2-transparent.png
+*/32x32.png$image,important,redirect=32x32-transparent.png
+*/*pixel.gif$image,important,redirect=1x1-transparent.gif
+*/*pixel.png$image,important,redirect=1x1-transparent.gif
 */a.gif$image,important,redirect=1x1-transparent.gif
 */ad.gif$image,important,redirect=1x1-transparent.gif
 */ads.gif$image,important,redirect=1x1-transparent.gif
@@ -36,9 +25,25 @@ xnxx.com,xvideos.com##+js(xvideos.com.js)
 */visit.gif$image,important,redirect=1x1-transparent.gif
 */x.gif$image,important,redirect=1x1-transparent.gif
 */z.gif$image,important,redirect=1x1-transparent.gif
-twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/):xpath(..)
+kinopoisk.ru##+js(abort-on-property-read.js, advBlock)
+kinopoisk.ru##+js(cookie-remover.js, /blcrm|bltsr|cmtchd|crookie|kpunk|yandex_plus_metrika_cookie)
+kinopoisk.ru##+js(setInterval-defuser.js, (), 500)
+kinopoisk.ru##^script:has-text(DOMContentLoaded)
+kinopoisk.ru##^script:has-text(advBlock)
+kinopoisk.ru##^script:has-text(window.Metrika)
+kinopoisk.ru,yandex.by,yandex.ru,yandex.ua##+js(abort-on-property-read.js, Element.prototype.attachShadow)
 rambler.ru##^script:has-text((Number,)
+twitch.tv##+js(twitch-videoad.js)
+twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/):xpath(..)
+xnxx.com,xvideos.com##+js(xvideos.com.js)
+xvideos.com##+js(abort-on-property-write.js, openpop)
+xvideos.com##+js(nowebrtc.js)
+xvideos.com##+js(window.open-defuser.js)
+yandex.by,yandex.ru,yandex.ua##+js(cookie-remover.js, /L|yp|ys|yc|zm|yabs-sid|my|mda|spravka|blcrm|bltsr|yabs/)
 yandex.by,yandex.ru,yandex.ua##^script:has-text(AdvManager)
+yandex.ru,yandex.ua,yandex.by##^script:has-text(defaultMetrikaCounter)
+yandex.ru,yandex.ua,yandex.by##^script:has-text(devicePixelRatio)
+yandex.ru,yandex.ua,yandex.by##^script:has-text(fingerprint)
 ||awaps.yandex.net^$image,important,redirect=1x1-transparent.gif
 ||awaps.yandex.net^$important,redirect=noopframe,subdocument
 ||facebook.com/connect/ping^$important,redirect=noopframe,subdocument
@@ -53,8 +58,8 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(AdvManager)
 ||mc.yandex.ru/metrika/tag.js$important,redirect=noopjs,script
 ||mc.yandex.ru/metrika/watch.js$important,redirect=noopjs,script
 ||pagead2.googlesyndication.com/pagead/show_ads.js$important,redirect=noopjs,script
-||scontent.xx.fbcdn.net/hads-ak-prn*/*.png$image,important,redirect=1x1-transparent.gif
 ||scontent.xx.fbcdn23dssr3jqnq.onion/hads-ak-prn*/*.png$image,important,redirect=1x1-transparent.gif
+||scontent.xx.fbcdn.net/hads-ak-prn*/*.png$image,important,redirect=1x1-transparent.gif
 ||scorecardresearch.com/beacon.js$important,redirect=noopjs,script
 ||web.telegram.org/*/PhotoThumbConversation.gif$image,important,redirect=1x1-transparent.gif,domain=telegram.org
 ||yabs.yandex.by^$image,important,redirect=1x1-transparent.gif
@@ -70,3 +75,4 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(AdvManager)
 ||yandex.ua/clck/$important,redirect=noopjs,script
 ||yandex.ua/clck/$important,redirect=nooptext,xmlhttprequest
 ||yastatic.net/*/*.gif$image,important,redirect=1x1-transparent.gif
+~mail.yandex.by,~mail.yandex.ru,~mail.yandex.ua,rambler.ru,yandex.by,yandex.ru,yandex.ua##+js(set-constant.js, Math.random, trueFunc)
