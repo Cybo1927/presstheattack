@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
-! Last modified: 2019-03-05 01:36:17
-! Version: 20190305013617
+! Last modified: 2019-03-05 03:31:10
+! Version: 20190305033110
 ! Expires: 3 hours
-! Number of filters: 4596
+! Number of filters: 4601
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2747,6 +2747,7 @@
 */empty.gif$image,important,redirect=1x1-transparent.gif
 */i.gif$image,important,redirect=1x1-transparent.gif
 */lumbar.gif$image,important,redirect=1x1-transparent.gif
+*/p.gif$image,important,redirect=1x1-transparent.gif
 */pic.gif$image,important,redirect=1x1-transparent.gif
 */ping.gif$image,important,redirect=1x1-transparent.gif
 */ping^$important,redirect=noopframe,subdocument
@@ -2803,6 +2804,9 @@
 @@||strm.yandex.net^$xmlhttprequest
 @@||strm.yandex.ru^$xmlhttprequest
 @@||ttvnw.net^$xmlhttprequest,domain=twitch.tv
+@@||vk.com/widget_auth.php^$subdocument
+@@||vk.com/widget_comments.php^$subdocument
+@@||vk.com/widget_community.php^$subdocument
 @@||yandex.st/swfobject/*^$script
 @@||yastatic.net/yandex-video-player-iframe-api-bundles^$subdocument
 GGBET$image
@@ -4444,8 +4448,12 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(navigator.sendBeacon)
 ||amplifypixel.outbrain.com^$important
 ||amplitude.com^$important
 ||amung.us^$important
+||an.yandex.by^$image,important,redirect=1x1-transparent.gif
+||an.yandex.by^$xmlhttprequest,important,redirect=nooptext
 ||an.yandex.ru^$image,important,redirect=1x1-transparent.gif
 ||an.yandex.ru^$xmlhttprequest,important,redirect=nooptext
+||an.yandex.ua^$image,important,redirect=1x1-transparent.gif
+||an.yandex.ua^$xmlhttprequest,important,redirect=nooptext
 ||api.twitch.tv/*/channels/*/extensions^$xmlhttprequest
 ||atdmt.com^$important
 ||atwola.com^$important
@@ -4599,9 +4607,6 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(navigator.sendBeacon)
 ||yabs.yandex.ua^$image,important,redirect=1x1-transparent.gif
 ||yadro.ru^$important
 ||yahoo.co.jp/b?p=$image,important
-||yandex.*/clck/*$image,important,redirect=1x1-transparent.gif
-||yandex.*/clck/*$important,redirect=noopjs,script
-||yandex.*/clck/*$important,redirect=nooptext,xmlhttprequest
 ||yandex.*/pogoda/$first-party,important,inline-script
 ||yandex.st^$domain=~yandex.by|~yandex.ru|~yandex.ua
 ||yastatic.net/*/*.gif$image,important,redirect=1x1-transparent.gif

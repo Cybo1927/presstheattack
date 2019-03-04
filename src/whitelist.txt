@@ -8,5 +8,8 @@
 @@||strm.yandex.net^$xmlhttprequest
 @@||strm.yandex.ru^$xmlhttprequest
 @@||ttvnw.net^$xmlhttprequest,domain=twitch.tv
+@@||vk.com/widget_auth.php^$subdocument
+@@||vk.com/widget_comments.php^$subdocument
+@@||vk.com/widget_community.php^$subdocument
 @@||yandex.st/swfobject/*^$script
 @@||yastatic.net/yandex-video-player-iframe-api-bundles^$subdocument

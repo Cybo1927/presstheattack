@@ -16,6 +16,7 @@
 */empty.gif$image,important,redirect=1x1-transparent.gif
 */i.gif$image,important,redirect=1x1-transparent.gif
 */lumbar.gif$image,important,redirect=1x1-transparent.gif
+*/p.gif$image,important,redirect=1x1-transparent.gif
 */pic.gif$image,important,redirect=1x1-transparent.gif
 */ping.gif$image,important,redirect=1x1-transparent.gif
 */ping^$important,redirect=noopframe,subdocument
@@ -46,8 +47,12 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(defaultMetrikaCounter)
 yandex.by,yandex.ru,yandex.ua##^script:has-text(devicePixelRatio)
 yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 yandex.ru,yandex.ua,yandex.by##^script:has-text(navigator.sendBeacon)
+||an.yandex.by^$image,important,redirect=1x1-transparent.gif
+||an.yandex.by^$xmlhttprequest,important,redirect=nooptext
 ||an.yandex.ru^$image,important,redirect=1x1-transparent.gif
 ||an.yandex.ru^$xmlhttprequest,important,redirect=nooptext
+||an.yandex.ua^$image,important,redirect=1x1-transparent.gif
+||an.yandex.ua^$xmlhttprequest,important,redirect=nooptext
 ||awaps.yandex.net^$image,important,redirect=1x1-transparent.gif
 ||awaps.yandex.net^$important,redirect=noopframe,subdocument
 ||awsync.yandex.ru^$important,redirect=noopframe,subdocument
@@ -67,8 +72,5 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(navigator.sendBeacon)
 ||yabs.yandex.by^$image,important,redirect=1x1-transparent.gif
 ||yabs.yandex.ru^$image,important,redirect=1x1-transparent.gif
 ||yabs.yandex.ua^$image,important,redirect=1x1-transparent.gif
-||yandex.*/clck/*$image,important,redirect=1x1-transparent.gif
-||yandex.*/clck/*$important,redirect=noopjs,script
-||yandex.*/clck/*$important,redirect=nooptext,xmlhttprequest
 ||yastatic.net/*/*.gif$image,important,redirect=1x1-transparent.gif
 ~mail.yandex.by,~mail.yandex.ru,~mail.yandex.ua,rambler.ru,yandex.by,yandex.ru,yandex.ua##+js(set-constant.js, Math.random, trueFunc)
