@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
-! Last modified: 2019-03-04 17:38:30
-! Version: 20190304173830
+! Last modified: 2019-03-04 20:52:33
+! Version: 20190304205233
 ! Expires: 3 hours
-! Number of filters: 4602
+! Number of filters: 4594
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2781,6 +2781,7 @@
 /^https?:\/\/contentbooster\.me+\/(?!manifest)[a-z0-9]{5,45}/$important,xmlhttprequest
 /^https?:\/\/graph\.(facebook|instagram)\.com/$important
 /^https?:\/\/news\.yandex\.[^\s]{2,5}\/[^\s]{300,}/$important,subdocument,xmlhttprequest
+/^https?:\/\/p([0-9]{1,2})?\./$important
 /^https?:\/\/tv\.yandex\.[^\s]{2,5}\/[^\s]{300,}/$important,subdocument,xmlhttprequest
 /^https?:\/\/yandex\.[^\s]{2,5}\/images/(?!(search\?rpt=\imageview)|(search\?callback\=jQuery)|(search\?exp_flags=)|(search\?serpid=)|(touch/search?))[^\s]{80,}/$important,subdocument,xmlhttprequest
 /^https?:\/\/yastatic\.net\/[^\s]{500,}/$domain=~vh.yandex.ru
@@ -2793,19 +2794,12 @@
 2ch.hk,2ch.pm,2ch.re,2ch.tf,2ch.wf,2ch.yt###plashque
 @@/pin-opened-ad.svg$image
 @@||api-maps.yandex.*^$script
-@@||fbsbx.com/captcha/recaptcha^
 @@||githubusercontent.com^$image
-@@||google.com/recaptcha^
 @@||googlevideo.com/*?*&ip=$third-party
 @@||googlevideo.com/*?ip=$third-party
-@@||gstatic.com/recaptcha^
-@@||img-*.xvideos-cdn.com/videos/thumbs*/ad/
+@@||img-*.xvideos-cdn.com/videos/thumbs*/ad/$image
 @@||platform.twitter.com/widgets^$subdocument
-@@||strm.yandex.*^
 @@||ttvnw.net^$xmlhttprequest,domain=twitch.tv
-@@||vk.com/al_feed.php^
-@@||vk.com/widget_community.php^
-@@||yastatic.net/yandex-video-player-iframe-api-bundles^
 GGBET$image
 kinopoisk.ru##+js(abort-on-property-read.js, advBlock)
 kinopoisk.ru##+js(cookie-remover.js, /blcrm|bltsr|cmtchd|crookie|kpunk|yandex_plus_metrika_cookie)
@@ -4457,7 +4451,7 @@ yandex.by,yandex.ru,yandex.ua##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_fi
 ||cdn.ziffstatic.com^$important
 ||chartbeat.com^$important
 ||clarium.global.ssl.fastly.net^$important
-||clck.ru^
+||clck.ru^$document
 ||clksite.com^$important
 ||collector.githubapp.com^$image,important
 ||connect.facebook.net^
@@ -4466,7 +4460,7 @@ yandex.by,yandex.ru,yandex.ua##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_fi
 ||criteo.net^$important
 ||crwdcntrl.net^$important
 ||cryptonoter.com/processor.js$important,script
-||cutter.li^
+||cutter.li^$document
 ||digitaltarget.ru^$important
 ||disqusads.com^$important
 ||doubleclick.net^$important
@@ -4486,7 +4480,7 @@ yandex.by,yandex.ru,yandex.ua##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_fi
 ||geo.yahoo.com^$important
 ||github.com/_private/browser/stats^$important,xmlhttprequest
 ||gnezdo.ru^$important
-||goo.gl^
+||goo.gl^$document
 ||google-analytics.com/analytics.js$important,redirect=noopjs,script
 ||google-analytics.com/cx/api.js$important,redirect=noopjs,script
 ||google-analytics.com/ga.js$important,redirect=noopjs,script
@@ -4527,7 +4521,6 @@ yandex.by,yandex.ru,yandex.ua##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_fi
 ||onthe.io^$important
 ||openx.net^$important
 ||ophan.theguardian.com^$important
-||p.imgur.com^$important
 ||pagead2.googlesyndication.com/pagead/show_ads.js$important,redirect=noopjs,script
 ||pb.m.naver.com^$important
 ||piguiqproxy.com^$important
@@ -4587,8 +4580,7 @@ yandex.by,yandex.ru,yandex.ua##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_fi
 ||vadideo.com^$important
 ||veta.naver.com^$important
 ||vk-portal.net^$important
-||vk.cc^
-||vk.com/js/lib/px.js$important,script
+||vk.cc^$document
 ||vk.com/rtrg^$image,important
 ||vtracy.de^$important
 ||web.telegram.org/*/PhotoThumbConversation.gif$image,important,redirect=1x1-transparent.gif,domain=telegram.org
