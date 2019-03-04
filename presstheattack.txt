@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
-! Last modified: 2019-03-05 05:05:02
-! Version: 20190305050502
+! Last modified: 2019-03-05 05:28:10
+! Version: 20190305052810
 ! Expires: 3 hours
-! Number of filters: 4604
+! Number of filters: 4608
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2881,8 +2881,8 @@ yandex.by,yandex.ru,yandex.ua##.home-link_intense-blue_yes.desk-notif-card_login
 yandex.by,yandex.ru,yandex.ua##.media-grid__media-content
 yandex.by,yandex.ru,yandex.ua##.media-grid_js_inited.font-regular.i-bem.media-grid_theme_white.media-grid_visible_yes.media-grid
 yandex.by,yandex.ru,yandex.ua##.media-infinity-footer__content_visible_yes.media-infinity-footer__content
-yandex.by,yandex.ru,yandex.ua##.yaplus
 yandex.by,yandex.ru,yandex.ua##:xpath(//a[@class='home-link home-link_intense-blue_yes'])
+yandex.by,yandex.ru,yandex.ua##:xpath(//a[@class='link link_theme_normal yaplus__link i-bem'][contains(.,'Будьте в Плюсе')])
 yandex.by,yandex.ru,yandex.ua##:xpath(//div[@class='container container__heap container__line heap heap_direction_column'])
 yandex.by,yandex.ru,yandex.ua##^script:has-text(AdvManager)
 yandex.by,yandex.ru,yandex.ua##^script:has-text(defaultMetrikaCounter)
@@ -3123,7 +3123,7 @@ yandex.by,yandex.ru,yandex.ua##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_fi
 |http*:*-ppv^
 |http*:*-ppv_
 |http*:*-promo-
-|http*:*-promo.
+|http*:*-promo.$domain=~yandex.by|~yandex.ru|~yandex.ua
 |http*:*-promo^
 |http*:*-promo_
 |http*:*-promoted-
@@ -4452,10 +4452,13 @@ yandex.by,yandex.ru,yandex.ua##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_fi
 ||amplitude.com^$important
 ||amung.us^$important
 ||an.yandex.by^$image,important,redirect=1x1-transparent.gif
+||an.yandex.by^$xmlhttprequest,important,redirect=noopjs
 ||an.yandex.by^$xmlhttprequest,important,redirect=nooptext
 ||an.yandex.ru^$image,important,redirect=1x1-transparent.gif
+||an.yandex.ru^$xmlhttprequest,important,redirect=noopjs
 ||an.yandex.ru^$xmlhttprequest,important,redirect=nooptext
 ||an.yandex.ua^$image,important,redirect=1x1-transparent.gif
+||an.yandex.ua^$xmlhttprequest,important,redirect=noopjs
 ||an.yandex.ua^$xmlhttprequest,important,redirect=nooptext
 ||api.twitch.tv/*/channels/*/extensions^$xmlhttprequest
 ||atdmt.com^$important
@@ -4611,6 +4614,7 @@ yandex.by,yandex.ru,yandex.ua##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_fi
 ||yadro.ru^$important
 ||yahoo.co.jp/b?p=$image,important
 ||yandex.*/pogoda/$first-party,important,inline-script
+||yandex.net/get-direct$image,important,redirect=1x1-transparent.gif
 ||yandex.st^$domain=~yandex.by|~yandex.ru|~yandex.ua
 ||yastatic.net/*/*.gif$image,important,redirect=1x1-transparent.gif
 ||yastatic.net/*/zen-lib/$important,script,xmlhttprequest,stylesheet

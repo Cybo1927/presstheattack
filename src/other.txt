@@ -223,7 +223,7 @@
 |http*:*-ppv^
 |http*:*-ppv_
 |http*:*-promo-
-|http*:*-promo.
+|http*:*-promo.$domain=~yandex.by|~yandex.ru|~yandex.ua
 |http*:*-promo^
 |http*:*-promo_
 |http*:*-promoted-

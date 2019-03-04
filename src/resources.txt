@@ -43,16 +43,20 @@ xvideos.com##+js(nowebrtc.js)
 xvideos.com##+js(window.open-defuser.js)
 yandex.by,yandex.ru,yandex.ua##+js(cookie-remover.js, /L|yp|ys|yc|zm|yabs-sid|my|mda|spravka|blcrm|bltsr|yabs/)
 yandex.by,yandex.ru,yandex.ua##:xpath(//a[@class='home-link home-link_intense-blue_yes'])
+yandex.by,yandex.ru,yandex.ua##:xpath(//a[@class='link link_theme_normal yaplus__link i-bem'][contains(.,'Будьте в Плюсе')])
 yandex.by,yandex.ru,yandex.ua##:xpath(//div[@class='container container__heap container__line heap heap_direction_column'])
 yandex.by,yandex.ru,yandex.ua##^script:has-text(AdvManager)
 yandex.by,yandex.ru,yandex.ua##^script:has-text(defaultMetrikaCounter)
 yandex.by,yandex.ru,yandex.ua##^script:has-text(devicePixelRatio)
 yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||an.yandex.by^$image,important,redirect=1x1-transparent.gif
+||an.yandex.by^$xmlhttprequest,important,redirect=noopjs
 ||an.yandex.by^$xmlhttprequest,important,redirect=nooptext
 ||an.yandex.ru^$image,important,redirect=1x1-transparent.gif
+||an.yandex.ru^$xmlhttprequest,important,redirect=noopjs
 ||an.yandex.ru^$xmlhttprequest,important,redirect=nooptext
 ||an.yandex.ua^$image,important,redirect=1x1-transparent.gif
+||an.yandex.ua^$xmlhttprequest,important,redirect=noopjs
 ||an.yandex.ua^$xmlhttprequest,important,redirect=nooptext
 ||awaps.yandex.net^$image,important,redirect=1x1-transparent.gif
 ||awaps.yandex.net^$important,redirect=noopframe,subdocument
@@ -73,5 +77,6 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||yabs.yandex.by^$image,important,redirect=1x1-transparent.gif
 ||yabs.yandex.ru^$image,important,redirect=1x1-transparent.gif
 ||yabs.yandex.ua^$image,important,redirect=1x1-transparent.gif
+||yandex.net/get-direct$image,important,redirect=1x1-transparent.gif
 ||yastatic.net/*/*.gif$image,important,redirect=1x1-transparent.gif
 ~mail.yandex.by,~mail.yandex.ru,~mail.yandex.ua,rambler.ru,yandex.by,yandex.ru,yandex.ua##+js(set-constant.js, Math.random, trueFunc)
