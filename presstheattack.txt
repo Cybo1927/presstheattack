@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
-! Last modified: 2019-03-04 20:52:33
-! Version: 20190304205233
+! Last modified: 2019-03-04 21:24:27
+! Version: 20190304212427
 ! Expires: 3 hours
-! Number of filters: 4594
+! Number of filters: 4595
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2749,6 +2749,7 @@
 */lumbar.gif$image,important,redirect=1x1-transparent.gif
 */pic.gif$image,important,redirect=1x1-transparent.gif
 */ping.gif$image,important,redirect=1x1-transparent.gif
+*/ping^$important,redirect=noopframe,subdocument
 */pv.gif$image,important,redirect=1x1-transparent.gif
 */px.gif$image,important,redirect=1x1-transparent.gif
 */spacer.gif$image,important,redirect=1x1-transparent.gif
@@ -2779,7 +2780,7 @@
 /^https?:\/\/cdn[0-9]?\.rocks\/[^\s]{30,}\.js/$important,script
 /^https?:\/\/collector[0-9]\.xhamster.com/$important
 /^https?:\/\/contentbooster\.me+\/(?!manifest)[a-z0-9]{5,45}/$important,xmlhttprequest
-/^https?:\/\/graph\.(facebook|instagram)\.com/$important
+/^https?:\/\/graph\.(facebook|instagram)\.com/$important,script
 /^https?:\/\/news\.yandex\.[^\s]{2,5}\/[^\s]{300,}/$important,subdocument,xmlhttprequest
 /^https?:\/\/p([0-9]{1,2})?\./$important
 /^https?:\/\/tv\.yandex\.[^\s]{2,5}\/[^\s]{300,}/$important,subdocument,xmlhttprequest
@@ -2799,7 +2800,11 @@
 @@||googlevideo.com/*?ip=$third-party
 @@||img-*.xvideos-cdn.com/videos/thumbs*/ad/$image
 @@||platform.twitter.com/widgets^$subdocument
+@@||strm.yandex.net^$xmlhttprequest
+@@||strm.yandex.ru^$xmlhttprequest
 @@||ttvnw.net^$xmlhttprequest,domain=twitch.tv
+@@||yandex.st/swfobject^$script
+@@||yastatic.net/yandex-video-player-iframe-api-bundles^$subdocument
 GGBET$image
 kinopoisk.ru##+js(abort-on-property-read.js, advBlock)
 kinopoisk.ru##+js(cookie-remover.js, /blcrm|bltsr|cmtchd|crookie|kpunk|yandex_plus_metrika_cookie)
@@ -2815,6 +2820,7 @@ music.yandex.by,music.yandex.ru,music.yandex.ua##.sidebar__under
 rambler.ru##^script:has-text((Number,)
 reddit.com##.onboardingbar.subscribebar.infobar
 translate.yandex.by,translate.yandex.ru,translate.yandex.ua##.button_icon_collections.button_icon.button
+tv.yandex.ru,tv.yandex.ua,tv.yandex.by##:xpath(//div[@class='grid-chunk__column-box'])
 twitch.tv##+js(twitch-videoad.js)
 twitch.tv##a[href*="&BannerId="] > img
 twitch.tv##a[href*="&bonus="] > img
@@ -2884,6 +2890,7 @@ yandex.by,yandex.ru,yandex.ua##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_fi
 yandex.by,yandex.ru,yandex.ua##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_firefox.i-ua_browser_desktop.i-ua_platform_windows.utilityfocus > body.logged.b-page_infinity-zen_yes.i-ua.i-bem.b-page.b-page_desk-notif_default.b-page_arrow-middle_yes.b-page_media-footer-collapsed_no.b-page_hide-media-footer_full.b-page_media-footer-lifted_no.i-ua_platform_other.i-ua_js_inited > div.container.rows > div.row.rows__row.rows__row_last > div.col.footer > div.media-grid.media-grid_visible_yes.media-grid_theme_white.i-bem.font-regular.media-grid_js_inited > div.media-grid__media-content > div.media-grid__row > div.i-bem.infinity-zen.media-service.infinity-zen_js_inited > div.media-service__header.media-service__header_align_center
 yandex.by,yandex.ru,yandex.ua##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_firefox.i-ua_browser_desktop.i-ua_platform_windows.utilityfocus > body.logged.b-page_infinity-zen_yes.i-ua.i-bem.b-page.b-page_desk-notif_default.b-page_arrow-middle_yes.b-page_media-footer-collapsed_no.b-page_hide-media-footer_full.b-page_media-footer-lifted_no.i-ua_platform_other.i-ua_js_inited > div.container.rows > div.row.rows__row.rows__row_last > div.col.footer > div.media-grid.media-grid_visible_yes.media-grid_theme_white.i-bem.font-regular.media-grid_js_inited > div.media-grid__media-content > div.media-grid__row > div.i-bem.infinity-zen.media-service.infinity-zen_js_inited > div.media-service__header.media-service__header_align_center > a.media-promo.media-service__title-info[href^="https://browser.yandex.ru/desktop/zen/"]
 yandex.by,yandex.ru,yandex.ua##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_firefox.i-ua_browser_desktop.i-ua_platform_windows.utilityfocus > body.logged.b-page_infinity-zen_yes.i-ua.i-bem.b-page.b-page_desk-notif_default.b-page_arrow-middle_yes.b-page_media-footer-collapsed_no.b-page_hide-media-footer_full.b-page_media-footer-lifted_no.i-ua_platform_other.i-ua_js_inited > div.container.rows > div.row.rows__row.rows__row_last > div.col.footer > div.media-grid.media-grid_visible_yes.media-grid_theme_white.i-bem.font-regular.media-grid_js_inited > div.media-infinity-footer__content.media-infinity-footer__content_visible_yes
+yandex.ru,yandex.ua,yandex.by##^script:has-text(navigator.sendBeacon)
 |http*:*-ad-
 |http*:*-ad-sdk-$important
 |http*:*-ad-sdk.$important
@@ -4437,11 +4444,13 @@ yandex.by,yandex.ru,yandex.ua##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_fi
 ||amplifypixel.outbrain.com^$important
 ||amplitude.com^$important
 ||amung.us^$important
+||an.yandex.ru^$xmlhttprequest,important,redirect=nooptext
 ||api.twitch.tv/*/channels/*/extensions^$xmlhttprequest
 ||atdmt.com^$important
 ||atwola.com^$important
 ||awaps.yandex.net^$image,important,redirect=1x1-transparent.gif
 ||awaps.yandex.net^$important,redirect=noopframe,subdocument
+||awsync.yandex.ru^$important,redirect=noopframe,subdocument
 ||bat.bing.com^$important
 ||bidswitch.net^$important
 ||bing.com/fd/ls/$image,important,xmlhttprequest
@@ -4473,7 +4482,6 @@ yandex.by,yandex.ru,yandex.ua##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_fi
 ||ensighten.com^$important
 ||events.reddit.com^$important
 ||f53mbcg4ak.ru^$important
-||facebook.com/connect/ping^$important,redirect=noopframe,subdocument
 ||fls-*.amazon.*%$important
 ||gamescarousel.com^$third-party
 ||gemius.pl^$important
@@ -4481,13 +4489,11 @@ yandex.by,yandex.ru,yandex.ua##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_fi
 ||github.com/_private/browser/stats^$important,xmlhttprequest
 ||gnezdo.ru^$important
 ||goo.gl^$document
-||google-analytics.com/analytics.js$important,redirect=noopjs,script
-||google-analytics.com/cx/api.js$important,redirect=noopjs,script
-||google-analytics.com/ga.js$important,redirect=noopjs,script
-||googlesyndication.com/pagead/js/adsbygoogle.js$important,redirect=noopjs,script
-||googletagmanager.com/gtag/js$important,redirect=noopjs,script
-||googletagmanager.com/gtm.js$important,redirect=noopjs,script
-||googletagservices.com/tag/js/gpt.js$important,redirect=noopjs,script
+||google-analytics.com^$important,redirect=noopjs,script
+||googleadservices.com^$important,redirect=noopjs,script
+||googlesyndication.com^$important,redirect=noopjs,script
+||googletagmanager.com^$important,redirect=noopjs,script
+||googletagservices.com^$important,redirect=noopjs,script
 ||gostats.com^$important
 ||grapeshot.co.uk^$important
 ||harvest.surge.sh/h.js$important,script
@@ -4506,8 +4512,8 @@ yandex.by,yandex.ru,yandex.ua##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_fi
 ||logql.yahoo.co.jp^$important
 ||mail.yandex.*/monitoring_liza.txt$image,important
 ||mail.yandex.*^$first-party,important,script
-||mc.yandex.ru/metrika/tag.js$important,redirect=noopjs,script
-||mc.yandex.ru/metrika/watch.js$important,redirect=noopjs,script
+||mc.yandex.ru^$important,image,redirect=1x1-transparent.gif
+||mc.yandex.ru^$important,redirect=noopjs,script
 ||meetrics.net^$important
 ||mms.cnn.com^$important
 ||moatads.com^$important
@@ -4554,6 +4560,7 @@ yandex.by,yandex.ru,yandex.ua##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_fi
 ||sonobi.com^$important
 ||ssp.rambler.ru^$important
 ||statcounter.com^$important
+||static-mon.yandex.net/static/main.js$important,script
 ||stats.wp.com^$important
 ||summerhamster.com^$important
 ||syndication.twitter.com^$important
@@ -4591,17 +4598,11 @@ yandex.by,yandex.ru,yandex.ua##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_fi
 ||yabs.yandex.ua^$image,important,redirect=1x1-transparent.gif
 ||yadro.ru^$important
 ||yahoo.co.jp/b?p=$image,important
+||yandex.*/clck/*$image,important,redirect=1x1-transparent.gif
+||yandex.*/clck/*$important,redirect=noopjs,script
+||yandex.*/clck/*$important,redirect=nooptext,xmlhttprequest
 ||yandex.*/pogoda/$first-party,important,inline-script
-||yandex.by/clck/$image,important,redirect=1x1-transparent.gif
-||yandex.by/clck/$important,redirect=noopjs,script
-||yandex.by/clck/$important,redirect=nooptext,xmlhttprequest
-||yandex.ru/clck/$image,important,redirect=1x1-transparent.gif
-||yandex.ru/clck/$important,redirect=noopjs,script
-||yandex.ru/clck/$important,redirect=nooptext,xmlhttprequest
 ||yandex.st^$domain=~yandex.by|~yandex.ru|~yandex.ua
-||yandex.ua/clck/$image,important,redirect=1x1-transparent.gif
-||yandex.ua/clck/$important,redirect=noopjs,script
-||yandex.ua/clck/$important,redirect=nooptext,xmlhttprequest
 ||yastatic.net/*/*.gif$image,important,redirect=1x1-transparent.gif
 ||yastatic.net/*/zen-lib/$important,script,xmlhttprequest
 ||yastatic.net/daas/atom.js$important,script

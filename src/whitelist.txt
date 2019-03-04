@@ -5,4 +5,8 @@
 @@||googlevideo.com/*?ip=$third-party
 @@||img-*.xvideos-cdn.com/videos/thumbs*/ad/$image
 @@||platform.twitter.com/widgets^$subdocument
+@@||strm.yandex.net^$xmlhttprequest
+@@||strm.yandex.ru^$xmlhttprequest
 @@||ttvnw.net^$xmlhttprequest,domain=twitch.tv
+@@||yandex.st/swfobject^$script
+@@||yastatic.net/yandex-video-player-iframe-api-bundles^$subdocument

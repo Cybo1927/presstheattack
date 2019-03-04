@@ -18,6 +18,7 @@
 */lumbar.gif$image,important,redirect=1x1-transparent.gif
 */pic.gif$image,important,redirect=1x1-transparent.gif
 */ping.gif$image,important,redirect=1x1-transparent.gif
+*/ping^$important,redirect=noopframe,subdocument
 */pv.gif$image,important,redirect=1x1-transparent.gif
 */px.gif$image,important,redirect=1x1-transparent.gif
 */spacer.gif$image,important,redirect=1x1-transparent.gif
@@ -33,6 +34,7 @@ kinopoisk.ru##^script:has-text(advBlock)
 kinopoisk.ru##^script:has-text(window.Metrika)
 kinopoisk.ru,yandex.by,yandex.ru,yandex.ua##+js(abort-on-property-read.js, Element.prototype.attachShadow)
 rambler.ru##^script:has-text((Number,)
+tv.yandex.ru,tv.yandex.ua,tv.yandex.by##:xpath(//div[@class='grid-chunk__column-box'])
 twitch.tv##+js(twitch-videoad.js)
 twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/):xpath(..)
 xnxx.com,xvideos.com##+js(xvideos.com.js)
@@ -43,19 +45,19 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(AdvManager)
 yandex.by,yandex.ru,yandex.ua##^script:has-text(defaultMetrikaCounter)
 yandex.by,yandex.ru,yandex.ua##^script:has-text(devicePixelRatio)
 yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
+yandex.ru,yandex.ua,yandex.by##^script:has-text(navigator.sendBeacon)
+||an.yandex.ru^$xmlhttprequest,important,redirect=nooptext
 ||awaps.yandex.net^$image,important,redirect=1x1-transparent.gif
 ||awaps.yandex.net^$important,redirect=noopframe,subdocument
-||facebook.com/connect/ping^$important,redirect=noopframe,subdocument
-||google-analytics.com/analytics.js$important,redirect=noopjs,script
-||google-analytics.com/cx/api.js$important,redirect=noopjs,script
-||google-analytics.com/ga.js$important,redirect=noopjs,script
-||googlesyndication.com/pagead/js/adsbygoogle.js$important,redirect=noopjs,script
-||googletagmanager.com/gtag/js$important,redirect=noopjs,script
-||googletagmanager.com/gtm.js$important,redirect=noopjs,script
-||googletagservices.com/tag/js/gpt.js$important,redirect=noopjs,script
+||awsync.yandex.ru^$important,redirect=noopframe,subdocument
+||google-analytics.com^$important,redirect=noopjs,script
+||googleadservices.com^$important,redirect=noopjs,script
+||googlesyndication.com^$important,redirect=noopjs,script
+||googletagmanager.com^$important,redirect=noopjs,script
+||googletagservices.com^$important,redirect=noopjs,script
 ||kiks.yandex.ru^$image,important,redirect=1x1-transparent.gif
-||mc.yandex.ru/metrika/tag.js$important,redirect=noopjs,script
-||mc.yandex.ru/metrika/watch.js$important,redirect=noopjs,script
+||mc.yandex.ru^$important,image,redirect=1x1-transparent.gif
+||mc.yandex.ru^$important,redirect=noopjs,script
 ||pagead2.googlesyndication.com/pagead/show_ads.js$important,redirect=noopjs,script
 ||scontent.xx.fbcdn23dssr3jqnq.onion/hads-ak-prn*/*.png$image,important,redirect=1x1-transparent.gif
 ||scontent.xx.fbcdn.net/hads-ak-prn*/*.png$image,important,redirect=1x1-transparent.gif
@@ -64,14 +66,8 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||yabs.yandex.by^$image,important,redirect=1x1-transparent.gif
 ||yabs.yandex.ru^$image,important,redirect=1x1-transparent.gif
 ||yabs.yandex.ua^$image,important,redirect=1x1-transparent.gif
-||yandex.by/clck/$image,important,redirect=1x1-transparent.gif
-||yandex.by/clck/$important,redirect=noopjs,script
-||yandex.by/clck/$important,redirect=nooptext,xmlhttprequest
-||yandex.ru/clck/$image,important,redirect=1x1-transparent.gif
-||yandex.ru/clck/$important,redirect=noopjs,script
-||yandex.ru/clck/$important,redirect=nooptext,xmlhttprequest
-||yandex.ua/clck/$image,important,redirect=1x1-transparent.gif
-||yandex.ua/clck/$important,redirect=noopjs,script
-||yandex.ua/clck/$important,redirect=nooptext,xmlhttprequest
+||yandex.*/clck/*$image,important,redirect=1x1-transparent.gif
+||yandex.*/clck/*$important,redirect=noopjs,script
+||yandex.*/clck/*$important,redirect=nooptext,xmlhttprequest
 ||yastatic.net/*/*.gif$image,important,redirect=1x1-transparent.gif
 ~mail.yandex.by,~mail.yandex.ru,~mail.yandex.ua,rambler.ru,yandex.by,yandex.ru,yandex.ua##+js(set-constant.js, Math.random, trueFunc)

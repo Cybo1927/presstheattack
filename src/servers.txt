@@ -10,7 +10,6 @@
 /^https?:\/\/[a-z0-9]{1,}adserv\.com/$important
 /^https?:\/\/c([0-9]{1,2})?\./$important
 /^https?:\/\/collector[0-9]\.xhamster.com/$important
-/^https?:\/\/graph\.(facebook|instagram)\.com/$important
 /^https?:\/\/p([0-9]{1,2})?\./$important
 /^https?:\/\/yastatic\.net\/[^\s]{500,}/$domain=~vh.yandex.ru
 /^https?:\/\/zmctrack\.(com|net)/$important

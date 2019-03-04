@@ -3,6 +3,7 @@
 /\/fingerprint[0-9]?\.js/$important,script
 /\/fp[0-9]?\.js/$important,script
 /^https?:\/\/cdn[0-9]?\.rocks\/[^\s]{30,}\.js/$important,script
+/^https?:\/\/graph\.(facebook|instagram)\.com/$important,script
 /me[0-9]{1}w\.js/$important,script
 /webmr[0-9]{1,2}\.js/$important,script
 |http*:*/*-gtm.js$important,script
@@ -121,6 +122,7 @@
 ||news.yandex.*^$first-party,important,script
 ||quora.com/qevents.js$important,script
 ||redditstatic.com/moat^$important,script
+||static-mon.yandex.net/static/main.js$important,script
 ||top100.ru/top100/top100.js$important,script
 ||twitter.com/oct.js$important,script
 ||yandex.*/pogoda/$first-party,important,inline-script
