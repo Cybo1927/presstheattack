@@ -47,6 +47,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(devicePixelRatio)
 yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 yandex.ru,yandex.ua,yandex.by##^script:has-text(navigator.sendBeacon)
 ||an.yandex.ru^$xmlhttprequest,important,redirect=nooptext
+||an.yandex.ru^$image,important,redirect=1x1-transparent.gif
 ||awaps.yandex.net^$image,important,redirect=1x1-transparent.gif
 ||awaps.yandex.net^$important,redirect=noopframe,subdocument
 ||awsync.yandex.ru^$important,redirect=noopframe,subdocument

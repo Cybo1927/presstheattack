@@ -52,8 +52,8 @@
 ||clarium.global.ssl.fastly.net^$important
 ||clck.ru^$document
 ||clksite.com^$important
-||connect.facebook.net^
-||connect.ok.ru^
+||connect.facebook.net^$document
+||connect.ok.ru^$document
 ||cookielaw.org^$important
 ||criteo.net^$important
 ||crwdcntrl.net^$important
@@ -126,7 +126,6 @@
 ||summerhamster.com^$important
 ||syndication.twitter.com^$important
 ||taboola.com^$important
-||tag.*^$important
 ||tagcommander.com^$important
 ||tcheck.outbrainimg.com^$important
 ||theadex.com^$important

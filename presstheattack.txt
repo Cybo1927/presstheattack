@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
-! Last modified: 2019-03-04 21:24:27
-! Version: 20190304212427
+! Last modified: 2019-03-04 21:36:01
+! Version: 20190304213601
 ! Expires: 3 hours
-! Number of filters: 4595
+! Number of filters: 4596
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2803,7 +2803,7 @@
 @@||strm.yandex.net^$xmlhttprequest
 @@||strm.yandex.ru^$xmlhttprequest
 @@||ttvnw.net^$xmlhttprequest,domain=twitch.tv
-@@||yandex.st/swfobject^$script
+@@||yandex.st/swfobject/*^$script
 @@||yastatic.net/yandex-video-player-iframe-api-bundles^$subdocument
 GGBET$image
 kinopoisk.ru##+js(abort-on-property-read.js, advBlock)
@@ -4444,6 +4444,7 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(navigator.sendBeacon)
 ||amplifypixel.outbrain.com^$important
 ||amplitude.com^$important
 ||amung.us^$important
+||an.yandex.ru^$image,important,redirect=1x1-transparent.gif
 ||an.yandex.ru^$xmlhttprequest,important,redirect=nooptext
 ||api.twitch.tv/*/channels/*/extensions^$xmlhttprequest
 ||atdmt.com^$important
@@ -4463,8 +4464,8 @@ yandex.ru,yandex.ua,yandex.by##^script:has-text(navigator.sendBeacon)
 ||clck.ru^$document
 ||clksite.com^$important
 ||collector.githubapp.com^$image,important
-||connect.facebook.net^
-||connect.ok.ru^
+||connect.facebook.net^$document
+||connect.ok.ru^$document
 ||cookielaw.org^$important
 ||criteo.net^$important
 ||crwdcntrl.net^$important

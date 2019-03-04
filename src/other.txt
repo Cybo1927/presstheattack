@@ -1414,3 +1414,4 @@
 |http*:*_webstats.$important
 |http*:*_webstats^$important
 |http*:*_webstats_$important
+||tag.*^$important
