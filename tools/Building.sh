@@ -12,11 +12,10 @@ VERSION=$(date '+%Y%m%d%H%M%S')
 echo 'In order to collect all the filters in one list, we need a temporary folders.'
 if [ ! -d $TEMP ]
 then
-	echo 'Creating temporary folders...'
+	echo 'Creating temporary folder...'
 	mkdir $TEMP
-	mkdir $TEMP/{sort,dontsort}/
 	sleep .5
-	echo 'Folders created!'
+	echo 'Folder created!'
 else
      echo 'Directory already exists'  
 fi
@@ -24,21 +23,21 @@ fi
 sleep .5
 
 echo 'Now I will copy the filters to a temporary folder...'
-cp $SRC/combined.txt $TEMP/sort/
-cp $SRC/dom.txt $TEMP/sort/
-cp $SRC/frame.txt $TEMP/sort/
-cp $SRC/images.txt $TEMP/sort/
-cp $SRC/other.txt $TEMP/sort/
-cp $SRC/popups.txt $TEMP/sort/
-cp $SRC/resources.txt $TEMP/dontsort/
-cp $SRC/scripts.txt $TEMP/sort/
-cp $SRC/servers.txt $TEMP/sort/
-cp $SRC/whitelist.txt $TEMP/sort/
-cp $SRC/xmlhttprequest.txt $TEMP/sort/
+cp $SRC/combined.txt $TEMP
+cp $SRC/dom.txt $TEMP
+cp $SRC/frame.txt $TEMP
+cp $SRC/images.txt $TEMP
+cp $SRC/other.txt $TEMP
+cp $SRC/popups.txt $TEMP
+cp $SRC/resources.txt $TEMP
+cp $SRC/scripts.txt $TEMP
+cp $SRC/servers.txt $TEMP
+cp $SRC/whitelist.txt $TEMP
+cp $SRC/xmlhttprequest.txt $TEMP
 sleep .5
-python ./FOP.py $TEMP/sort/
+python ./FOP.py $TEMP
 
-sort --output=$TEMP/filterlist.txt $TEMP/sort/combined.txt $TEMP/sort/dom.txt $TEMP/sort/frame.txt $TEMP/sort/images.txt $TEMP/sort/other.txt $TEMP/sort/popups.txt $TEMP/dontsort/resources.txt $TEMP/sort/scripts.txt $TEMP/sort/servers.txt $TEMP/sort/whitelist.txt $TEMP/sort/xmlhttprequest.txt
+sort --output=$TEMP/filterlist.txt $TEMP/combined.txt $TEMP/dom.txt $TEMP/frame.txt $TEMP/images.txt $TEMP/other.txt $TEMP/popups.txt $TEMP/resources.txt $TEMP/scripts.txt $TEMP/servers.txt $TEMP/whitelist.txt $TEMP/xmlhttprequest.txt
 
 echo 'Creating a header for the list...'
 sleep .5
