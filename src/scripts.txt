@@ -123,7 +123,6 @@
 ||redditstatic.com/moat^$important,script
 ||top100.ru/top100/top100.js$important,script
 ||twitter.com/oct.js$important,script
-||vk.com/js/lib/px.js$important,script
 ||yandex.*/pogoda/$first-party,important,inline-script
 ||yastatic.net/daas/atom.js$important,script
 ||yimg.com/wi/ytc.js$important,script

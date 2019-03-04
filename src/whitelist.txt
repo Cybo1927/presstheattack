@@ -1,15 +1,8 @@
 @@/pin-opened-ad.svg$image
 @@||api-maps.yandex.*^$script
-@@||fbsbx.com/captcha/recaptcha^
 @@||githubusercontent.com^$image
-@@||google.com/recaptcha^
 @@||googlevideo.com/*?*&ip=$third-party
 @@||googlevideo.com/*?ip=$third-party
-@@||gstatic.com/recaptcha^
-@@||img-*.xvideos-cdn.com/videos/thumbs*/ad/
+@@||img-*.xvideos-cdn.com/videos/thumbs*/ad/$image
 @@||platform.twitter.com/widgets^$subdocument
-@@||strm.yandex.*^
 @@||ttvnw.net^$xmlhttprequest,domain=twitch.tv
-@@||vk.com/al_feed.php^
-@@||vk.com/widget_community.php^
-@@||yastatic.net/yandex-video-player-iframe-api-bundles^

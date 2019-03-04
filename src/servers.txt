@@ -9,6 +9,7 @@
 /^https?:\/\/[^\s]+\.radar\.imgsmail\.ru/$important
 /^https?:\/\/[a-z0-9]{1,}adserv\.com/$important
 /^https?:\/\/c([0-9]{1,2})?\./$important
+/^https?:\/\/p([0-9]{1,2})?\./$important
 /^https?:\/\/collector[0-9]\.xhamster.com/$important
 /^https?:\/\/graph\.(facebook|instagram)\.com/$important
 /^https?:\/\/yastatic\.net\/[^\s]{500,}/$domain=~vh.yandex.ru
@@ -50,14 +51,14 @@
 ||cdn.ziffstatic.com^$important
 ||chartbeat.com^$important
 ||clarium.global.ssl.fastly.net^$important
-||clck.ru^
+||clck.ru^$document
 ||clksite.com^$important
 ||connect.facebook.net^
 ||connect.ok.ru^
 ||cookielaw.org^$important
 ||criteo.net^$important
 ||crwdcntrl.net^$important
-||cutter.li^
+||cutter.li^$document
 ||digitaltarget.ru^$important
 ||disqusads.com^$important
 ||doubleclick.net^$important
@@ -73,7 +74,7 @@
 ||gemius.pl^$important
 ||geo.yahoo.com^$important
 ||gnezdo.ru^$important
-||goo.gl^
+||goo.gl^$document
 ||gostats.com^$important
 ||grapeshot.co.uk^$important
 ||histats.com^$important
@@ -99,7 +100,6 @@
 ||onthe.io^$important
 ||openx.net^$important
 ||ophan.theguardian.com^$important
-||p.imgur.com^$important
 ||pb.m.naver.com^$important
 ||piguiqproxy.com^$important
 ||plista.com^$important
@@ -144,7 +144,7 @@
 ||vadideo.com^$important
 ||veta.naver.com^$important
 ||vk-portal.net^$important
-||vk.cc^
+||vk.cc^$document
 ||vtracy.de^$important
 ||weborama.fr^$important
 ||xhamsterpremium.com^$important,third-party
