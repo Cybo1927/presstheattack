@@ -19,7 +19,7 @@ TREESELECTOR = re.compile(r"(\\.|[^\+\>\~\\\ \t])\s*([\+\>\~\ \t])\s*(\D)")
 UNICODESELECTOR = re.compile(r"\\[0-9a-fA-F]{1,6}\s[a-zA-Z]*[A-Z]")
 BLANKPATTERN = re.compile(r"^\s*$")
 COMMITPATTERN = re.compile(r"^(A|M|P)\:\s(\((.+)\)\s)?(.*)$")
-IGNORE = ("resources.txt")
+IGNORE = ()
 KNOWNOPTIONS = ("csp", "document", "font", "genericblock", "generichide", "image", "popup", "first-party", "script", "stylesheet", "subdocument", "third-party", "websocket", "xmlhttprequest", "important", "1p", "3p", "inline-script", "inline-font", "xhr", "redirect=1x1-transparent.gif", "redirect=32x32-transparent.png", "redirect=3x2-transparent.png", "redirect=2x2-transparent.png", "redirect=noopframe", "redirect=noopjs", "redirect=nooptext")
 REPODEF = collections.namedtuple("repodef", "name, directory, locationoption, repodirectoryoption, checkchanges, difference, commit, pull, push")
 GIT = REPODEF(["git"], "./.git/", "--work-tree=", "--git-dir=", ["status", "-s", "--untracked-files=no"], ["diff"], ["commit", "-a", "-m"], ["pull"], ["push"])
@@ -260,7 +260,7 @@ def removeunnecessarywildcards (filtertext):
     if filtertext[0:2] == "@@":
         whitelist = True
         filtertext = filtertext[2:]
-    while len(filtertext) > 1 and filtertext[0] == "*" and not filtertext[1] == "|" and not filtertext[1] == "!":
+    while len(filtertext) > 1 and filtertext[1] == "*" and not filtertext[1] == "|" and not filtertext[1] == "!":
         filtertext = filtertext[1:]
         hadStar = True
     while len(filtertext) > 1 and filtertext[-1] == "*" and not filtertext[-2] == "|" and not filtertext[-2] == " ": 
