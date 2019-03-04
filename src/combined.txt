@@ -7,5 +7,5 @@
 |http*:*/b/ss/*&ce=utf-8&$image,important,script
 ||akamaized.net/?u=$image,important,xmlhttprequest
 ||bing.com/fd/ls/$image,important,xmlhttprequest
-||yastatic.net/*/zen-lib/$important,script,xmlhttprequest
+||yastatic.net/*/zen-lib/$important,script,xmlhttprequest,stylesheet
 ||youtube.com/api/stats^$image,important,xmlhttprequest
