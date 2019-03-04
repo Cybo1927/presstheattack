@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
-! Last modified: 2019-03-05 05:28:10
-! Version: 20190305052810
+! Last modified: 2019-03-05 05:48:22
+! Version: 20190305054822
 ! Expires: 3 hours
-! Number of filters: 4608
+! Number of filters: 4610
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -3945,7 +3945,7 @@ yandex.by,yandex.ru,yandex.ua##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_fi
 |http*:*^promo-
 |http*:*^promo.
 |http*:*^promo^
-|http*:*^promo_
+|http*:*^promo_$domain=~vk.com
 |http*:*^promoted-
 |http*:*^promoted.
 |http*:*^promoted^
@@ -4184,7 +4184,7 @@ yandex.by,yandex.ru,yandex.ua##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_fi
 |http*:*_banner_
 |http*:*_banners-
 |http*:*_banners.
-|http*:*_banners^$domain=~twitter.com
+|http*:*_banners^$domain=~twitter.com|~market.yandex.ru|~market.yandex.ua|~market.yandex.by
 |http*:*_banners_
 |http*:*_beacon-$important
 |http*:*_beacon.$important
@@ -4521,6 +4521,7 @@ yandex.by,yandex.ru,yandex.ua##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_fi
 ||ioam.de^$important
 ||justicejudo.com^$important
 ||kiks.yandex.ru^$image,important,redirect=1x1-transparent.gif
+||kiks.yandex.ru^$important,redirect=noopframe,subdocument
 ||lcs.naver.com^$important
 ||ligatus.com^$important
 ||lijit.com^$important
@@ -4615,6 +4616,7 @@ yandex.by,yandex.ru,yandex.ua##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_fi
 ||yahoo.co.jp/b?p=$image,important
 ||yandex.*/pogoda/$first-party,important,inline-script
 ||yandex.net/get-direct$image,important,redirect=1x1-transparent.gif
+||yandex.ru/portal/ntp/banner$important,redirect=noopframe,subdocument
 ||yandex.st^$domain=~yandex.by|~yandex.ru|~yandex.ua
 ||yastatic.net/*/*.gif$image,important,redirect=1x1-transparent.gif
 ||yastatic.net/*/zen-lib/$important,script,xmlhttprequest,stylesheet

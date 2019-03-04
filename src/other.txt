@@ -937,7 +937,7 @@
 |http*:*^promo-
 |http*:*^promo.
 |http*:*^promo^
-|http*:*^promo_
+|http*:*^promo_$domain=~vk.com
 |http*:*^promoted-
 |http*:*^promoted.
 |http*:*^promoted^
@@ -1176,7 +1176,7 @@
 |http*:*_banner_
 |http*:*_banners-
 |http*:*_banners.
-|http*:*_banners^$domain=~twitter.com
+|http*:*_banners^$domain=~twitter.com|~market.yandex.ru|~market.yandex.ua|~market.yandex.by
 |http*:*_banners_
 |http*:*_beacon-$important
 |http*:*_beacon.$important

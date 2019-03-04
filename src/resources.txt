@@ -67,6 +67,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||googletagmanager.com^$important,redirect=noopjs,script
 ||googletagservices.com^$important,redirect=noopjs,script
 ||kiks.yandex.ru^$image,important,redirect=1x1-transparent.gif
+||kiks.yandex.ru^$important,redirect=noopframe,subdocument
 ||mc.yandex.ru^$important,image,redirect=1x1-transparent.gif
 ||mc.yandex.ru^$important,redirect=noopjs,script
 ||pagead2.googlesyndication.com/pagead/show_ads.js$important,redirect=noopjs,script
@@ -78,5 +79,6 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||yabs.yandex.ru^$image,important,redirect=1x1-transparent.gif
 ||yabs.yandex.ua^$image,important,redirect=1x1-transparent.gif
 ||yandex.net/get-direct$image,important,redirect=1x1-transparent.gif
+||yandex.ru/portal/ntp/banner$important,redirect=noopframe,subdocument
 ||yastatic.net/*/*.gif$image,important,redirect=1x1-transparent.gif
 ~mail.yandex.by,~mail.yandex.ru,~mail.yandex.ua,rambler.ru,yandex.by,yandex.ru,yandex.ua##+js(set-constant.js, Math.random, trueFunc)
