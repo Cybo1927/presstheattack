@@ -36,14 +36,13 @@ rambler.ru##^script:has-text((Number,)
 twitch.tv##+js(twitch-videoad.js)
 twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/):xpath(..)
 xnxx.com,xvideos.com##+js(xvideos.com.js)
-xvideos.com##+js(abort-on-property-write.js, openpop)
 xvideos.com##+js(nowebrtc.js)
 xvideos.com##+js(window.open-defuser.js)
 yandex.by,yandex.ru,yandex.ua##+js(cookie-remover.js, /L|yp|ys|yc|zm|yabs-sid|my|mda|spravka|blcrm|bltsr|yabs/)
 yandex.by,yandex.ru,yandex.ua##^script:has-text(AdvManager)
-yandex.ru,yandex.ua,yandex.by##^script:has-text(defaultMetrikaCounter)
-yandex.ru,yandex.ua,yandex.by##^script:has-text(devicePixelRatio)
-yandex.ru,yandex.ua,yandex.by##^script:has-text(fingerprint)
+yandex.by,yandex.ru,yandex.ua##^script:has-text(defaultMetrikaCounter)
+yandex.by,yandex.ru,yandex.ua##^script:has-text(devicePixelRatio)
+yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||awaps.yandex.net^$image,important,redirect=1x1-transparent.gif
 ||awaps.yandex.net^$important,redirect=noopframe,subdocument
 ||facebook.com/connect/ping^$important,redirect=noopframe,subdocument
