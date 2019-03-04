@@ -4,8 +4,8 @@
 /^https?:\/\/news\.yandex\.[^\s]{2,5}\/[^\s]{300,}/$important,subdocument,xmlhttprequest
 /^https?:\/\/tv\.yandex\.[^\s]{2,5}\/[^\s]{300,}/$important,subdocument,xmlhttprequest
 /^https?:\/\/yandex\.[^\s]{2,5}\/images/(?!(search\?rpt=\imageview)|(search\?callback\=jQuery)|(search\?exp_flags=)|(search\?serpid=)|(touch/search?))[^\s]{80,}/$important,subdocument,xmlhttprequest
-||yastatic.net/*/zen-lib/$important,script,xmlhttprequest
 |http*:*/b/ss/*&ce=utf-8&$image,important,script
 ||akamaized.net/?u=$image,important,xmlhttprequest
 ||bing.com/fd/ls/$image,important,xmlhttprequest
+||yastatic.net/*/zen-lib/$important,script,xmlhttprequest
 ||youtube.com/api/stats^$image,important,xmlhttprequest
