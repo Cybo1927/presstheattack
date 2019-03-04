@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-VERSION = 3.9
+VERSION = 4.0
 import collections, filecmp, os, re, subprocess, sys
 MAJORREQUIRED = 3
 MINORREQUIRED = 1
@@ -9,7 +9,7 @@ if sys.version_info < (MAJORREQUIRED, MINORREQUIRED):
 from urllib.parse import urlparse
 ELEMENTDOMAINPATTERN = re.compile(r"^([^\/\*\|\@\"\!]*?)#\@?#")
 FILTERDOMAINPATTERN = re.compile(r"(?:\$|\,)domain\=([^\,\s]+)$")
-ELEMENTPATTERN = re.compile(r"^([^\/\*\|\@\"\!]*?)(#\@?#?)([^{}]+)$")
+ELEMENTPATTERN = re.compile(r"^([^\/\*\|\@\"\!]*?)(script:inject\(|#\+js\()(#\@?#?)([^{}]+)$")
 OPTIONPATTERN = re.compile(r"^(.*)\$(~?[\w\-]+(?:=[^,\s]+)?(?:,~?[\w\-]+(?:=[^,\s]+)?)*)$")
 SELECTORPATTERN = re.compile(r"(?<=[\s\[@])([a-zA-Z]*[A-Z][a-zA-Z0-9]*)((?=([\[\]\^\*\$=:@#\.]))|(?=(\s(?:[+>~]|\*|[a-zA-Z][a-zA-Z0-9]*[\[:@\s#\.]|[#\.][a-zA-Z][a-zA-Z0-9]*))))")
 PSEUDOPATTERN = re.compile(r"(\:[a-zA-Z\-]*[A-Z][a-zA-Z\-]*)(?=([\(\:\@\s]))")
@@ -19,13 +19,12 @@ TREESELECTOR = re.compile(r"(\\.|[^\+\>\~\\\ \t])\s*([\+\>\~\ \t])\s*(\D)")
 UNICODESELECTOR = re.compile(r"\\[0-9a-fA-F]{1,6}\s[a-zA-Z]*[A-Z]")
 BLANKPATTERN = re.compile(r"^\s*$")
 COMMITPATTERN = re.compile(r"^(A|M|P)\:\s(\((.+)\)\s)?(.*)$")
-IGNORE = ("resources.txt")
+IGNORE = ()
 KNOWNOPTIONS = ("csp", "document", "font", "genericblock", "generichide", "image", "popup", "first-party", "script", "stylesheet", "subdocument", "third-party", "websocket", "xmlhttprequest", "important", "1p", "3p", "inline-script", "inline-font", "xhr", "redirect=1x1-transparent.gif", "redirect=32x32-transparent.png", "redirect=3x2-transparent.png", "redirect=2x2-transparent.png", "redirect=noopframe", "redirect=noopjs", "redirect=nooptext")
 REPODEF = collections.namedtuple("repodef", "name, directory, locationoption, repodirectoryoption, checkchanges, difference, commit, pull, push")
 GIT = REPODEF(["git"], "./.git/", "--work-tree=", "--git-dir=", ["status", "-s", "--untracked-files=no"], ["diff"], ["commit", "-a", "-m"], ["pull"], ["push"])
 HG = REPODEF(["hg"], "./.hg/", "-R", None, ["stat", "-q"], ["diff"], ["commit", "-m"], ["pull"], ["push"])
 REPOTYPES = (GIT, HG)
-
 def start ():
     greeting = "FOP (Filter Orderer and Preener) version {version}".format(version = VERSION)
     characters = len(str(greeting))
