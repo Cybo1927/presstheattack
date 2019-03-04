@@ -46,7 +46,6 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(AdvManager)
 yandex.by,yandex.ru,yandex.ua##^script:has-text(defaultMetrikaCounter)
 yandex.by,yandex.ru,yandex.ua##^script:has-text(devicePixelRatio)
 yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
-yandex.ru,yandex.ua,yandex.by##^script:has-text(navigator.sendBeacon)
 ||an.yandex.by^$image,important,redirect=1x1-transparent.gif
 ||an.yandex.by^$xmlhttprequest,important,redirect=nooptext
 ||an.yandex.ru^$image,important,redirect=1x1-transparent.gif

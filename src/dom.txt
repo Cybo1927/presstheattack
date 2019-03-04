@@ -2700,7 +2700,9 @@
 ##div[id^="_yandex_rtb-"]:not(html):not(body)
 ##div[id^="_yandex_rtb."]:not(html):not(body)
 ##div[id^="_yandex_rtb_"]:not(html):not(body)
+##iframe[width="728"][height="90"]
 ##img[src*="counter.yadro.ru"]
+##img[width="88"][height="31"]
 2ch.hk,2ch.pm,2ch.re,2ch.tf,2ch.wf,2ch.yt###mobile-plashque
 2ch.hk,2ch.pm,2ch.re,2ch.tf,2ch.wf,2ch.yt###plashque
 m.vk.com##.feedAssistance_importContacts.feedAssistance.wall_item
