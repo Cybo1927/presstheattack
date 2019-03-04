@@ -17,25 +17,24 @@ then
 	sleep .5
 	echo 'Folder created!'
 else
-     echo 'Directory already exists'  
+	echo 'Directory already exists'  
 fi
 
 sleep .5
 
-echo 'Now I will copy the filters to a temporary folder...'
+python ./FOP.py $SRC
 cp $SRC/combined.txt $TEMP
 cp $SRC/dom.txt $TEMP
 cp $SRC/frame.txt $TEMP
 cp $SRC/images.txt $TEMP
 cp $SRC/other.txt $TEMP
-cp $SRC/popups.txt $TEMP
 cp $SRC/resources.txt $TEMP
+cp $SRC/popups.txt $TEMP
 cp $SRC/scripts.txt $TEMP
 cp $SRC/servers.txt $TEMP
 cp $SRC/whitelist.txt $TEMP
 cp $SRC/xmlhttprequest.txt $TEMP
 sleep .5
-python ./FOP.py $TEMP
 
 sort --output=$TEMP/filterlist.txt $TEMP/combined.txt $TEMP/dom.txt $TEMP/frame.txt $TEMP/images.txt $TEMP/other.txt $TEMP/popups.txt $TEMP/resources.txt $TEMP/scripts.txt $TEMP/servers.txt $TEMP/whitelist.txt $TEMP/xmlhttprequest.txt
 
@@ -76,7 +75,7 @@ EOF
 perl ./Sorting.pl $TEMP/filterlist.txt
 cat $TEMP/headers.txt $TEMP/filterlist.txt > ../presstheattack.txt
 
-echo 'Delete temporary files and folders...'
+echo 'Delete temporary files...'
 sleep .5
 rm -rf $TEMP
 sleep .1
