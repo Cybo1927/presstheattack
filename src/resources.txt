@@ -78,6 +78,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||googlesyndication.com^$important,redirect=noopjs,script
 ||googletagmanager.com^$important,redirect=noopjs,script
 ||googletagservices.com^$important,redirect=noopjs,script
+||imasdk.googleapis.com^$important,redirect=noopjs,script
 ||kiks.yandex.ru^$image,important,redirect=1x1-transparent.gif
 ||kiks.yandex.ru^$important,redirect=noopframe,subdocument
 ||mc.yandex.ru^$important,image,redirect=1x1-transparent.gif
