@@ -102,6 +102,10 @@
 |http*:*-analytics.
 |http*:*-analytics^
 |http*:*-analytics_
+|http*:*-baners-
+|http*:*-baners.
+|http*:*-baners^
+|http*:*-baners_
 |http*:*-banner-$domain=~twitch.tv
 |http*:*-banner-ad-$important
 |http*:*-banner-ad.$important
@@ -454,6 +458,10 @@
 |http*:*.analytics.
 |http*:*.analytics^
 |http*:*.analytics_
+|http*:*.baners-
+|http*:*.baners.
+|http*:*.baners^
+|http*:*.baners_
 |http*:*.banner-
 |http*:*.banner-ad-$important
 |http*:*.banner-ad.$important
@@ -814,6 +822,10 @@
 |http*:*^analytics.
 |http*:*^analytics^
 |http*:*^analytics_
+|http*:*^baners-
+|http*:*^baners.
+|http*:*^baners^
+|http*:*^baners_
 |http*:*^banner-$domain=~reddit.com
 |http*:*^banner-ad-$important
 |http*:*^banner-ad.$important
@@ -1166,6 +1178,10 @@
 |http*:*_analytics.
 |http*:*_analytics^
 |http*:*_analytics_
+|http*:*_baners-
+|http*:*_baners.
+|http*:*_baners^
+|http*:*_baners_
 |http*:*_banner-$domain=~twitch.tv
 |http*:*_banner-ad-$important
 |http*:*_banner-ad.$important
@@ -1414,4 +1430,6 @@
 |http*:*_webstats.$important
 |http*:*_webstats^$important
 |http*:*_webstats_$important
+||counter.*^$important
+||informers.*^$important
 ||tag.*^$important

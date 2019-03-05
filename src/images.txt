@@ -1,7 +1,11 @@
+/\/banner[0-9]{1,2}?\.gif/$image,important
 /^https?:\/\/2ch\.(hk|pm|re|tf|wf|yt)\/images/$image
 1xbet$image,important
 1xstavka$image,important
 GGBET$image
+|http*:*/*100x100*.gif$image,important
+|http*:*/*468x60*.gif$image,important
+|http*:*/*88x31*.gif$image,important
 ||collector.githubapp.com^$image,important
 ||duckduckgo.com/t/$image,important
 ||mail.yandex.*/monitoring_liza.txt$image,important

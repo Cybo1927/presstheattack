@@ -1,11 +1,11 @@
 /\/([^\s]{4})?tag\.min\.([a-z0-9]{30,}\.)?js/$important,script
 /\/advert[0-9]?\.js/$important,script
-/\/fingerprint[0-9]?\.js/$important,script
-/\/fp[0-9]?\.js/$important,script
-/^https?:\/\/cdn[0-9]?\.rocks\/[^\s]{30,}\.js/$important,script
+/\/fingerprint[0-9]{1,2}?\.js/$important,script
+/\/fp[0-9]{1,2}?\.js/$important,script
+/^https?:\/\/cdn[0-9]{1,2}?\.rocks\/[^\s]{30,}\.js/$important,script
 /^https?:\/\/graph\.(facebook|instagram)\.com/$important,script
 /me[0-9]{1}w\.js/$important,script
-/webmr[0-9]{1,2}\.js/$important,script
+/webmr[0-9]{1,2}?\.js/$important,script
 |http*:*/*-gtm.js$important,script
 |http*:*/*_gtm.js$important,script
 |http*:*/*ping.js$important,script
@@ -96,6 +96,7 @@
 |http*:*/streambeam-jw.js$important,script
 |http*:*/streambeam-video.js$important,script
 |http*:*/tracker.js$important,script
+|http*:*/uutils.fcg^$script,important
 |http*:*/videojs.ads.js$important,script
 |http*:*/wasmminer.js$important,script
 |http*:*/wasmminer.wasm$important,script
@@ -124,6 +125,7 @@
 ||redditstatic.com/moat^$important,script
 ||top100.ru/top100/top100.js$important,script
 ||twitter.com/oct.js$important,script
+||ucoz.org/?*%21*%$script,important
 ||yandex.*/pogoda/$first-party,important,inline-script
 ||yastatic.net/daas/atom.js$important,script
 ||yimg.com/wi/ytc.js$important,script
