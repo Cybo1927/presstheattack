@@ -7,7 +7,7 @@
 /^https?:\/\/(www\.)?facebook\.\w{3,}\/tr\D/$important
 /^https?:\/\/[\w\.]?(an|awaps|awsync|appmetrica|bs|direct|grade\.market|informer|kiks|clck|main\.zdevx|mc|web\-metrica|yabs|zen|browser\-updater|bs\-meta)\.+yandex\.\w{2,}/$important
 /^https?:\/\/[a-z0-9]{1,}adserv\.com/$important
-/^https?:\/\/collector[0-9]{1,2}\.xhamster.com/$important
+/^https?:\/\/collector[0-9]{1,2}\.xhamster\.[a-z]{3}/$important
 /^https?:\/\/yastatic\.net\/[^\s]{500,}/$domain=~vh.yandex.ru
 /^https?:\/\/zmctrack\.(com|net)/$important
 ||1-1ads.com^$important
@@ -47,7 +47,6 @@
 ||bidswitch.net^$important
 ||bounceexchange.com^$important
 ||casalemedia.com^$important
-||cdn.jsdelivr.net^$important
 ||cdn.ziffstatic.com^$important
 ||chartbeat.com^$important
 ||clarium.global.ssl.fastly.net^$important
@@ -153,7 +152,7 @@
 ||vk.cc^$document
 ||vtracy.de^$important
 ||weborama.fr^$important
-||xhamsterpremium.com^$important,third-party
+||xhamsterpremium.*^$important,third-party
 ||yadro.ru^$important
 ||yandex.st^$domain=~yandex.by|~yandex.ru|~yandex.ua
 ||ybnj57w4m7.ru^$important
