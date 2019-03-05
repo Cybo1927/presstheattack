@@ -44,7 +44,6 @@ xvideos.com##+js(window.open-defuser.js)
 yandex.by,yandex.ru,yandex.ua##+js(cookie-remover.js, /L|yp|ys|yc|zm|yabs-sid|my|mda|spravka|blcrm|bltsr|yabs/)
 yandex.by,yandex.ru,yandex.ua##:xpath(//a[@class='home-link home-link_intense-blue_yes'])
 yandex.by,yandex.ru,yandex.ua##:xpath(//a[@class='link link_theme_normal yaplus__link i-bem'][contains(.,'Будьте в Плюсе')])
-yandex.by,yandex.ru,yandex.ua##:xpath(//div[@class='container container__heap container__line heap heap_direction_column'])
 yandex.by,yandex.ru,yandex.ua##^script:has-text(AdvManager)
 yandex.by,yandex.ru,yandex.ua##^script:has-text(defaultMetrikaCounter)
 yandex.by,yandex.ru,yandex.ua##^script:has-text(devicePixelRatio)
@@ -53,14 +52,22 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||an.yandex.by^$xmlhttprequest,important,redirect=noopjs
 ||an.yandex.by^$xmlhttprequest,important,redirect=nooptext
 ||an.yandex.ru^$image,important,redirect=1x1-transparent.gif
-||an.yandex.ru^$xmlhttprequest,important,redirect=noopjs
+||an.yandex.ru^$script,important,redirect=noopjs
 ||an.yandex.ru^$xmlhttprequest,important,redirect=nooptext
 ||an.yandex.ua^$image,important,redirect=1x1-transparent.gif
 ||an.yandex.ua^$xmlhttprequest,important,redirect=noopjs
 ||an.yandex.ua^$xmlhttprequest,important,redirect=nooptext
+||awaps.yandex.by^$image,important,redirect=1x1-transparent.gif
+||awaps.yandex.by^$important,redirect=noopframe,subdocument
 ||awaps.yandex.net^$image,important,redirect=1x1-transparent.gif
 ||awaps.yandex.net^$important,redirect=noopframe,subdocument
+||awaps.yandex.ru^$image,important,redirect=1x1-transparent.gif
+||awaps.yandex.ru^$important,redirect=noopframe,subdocument
+||awaps.yandex.ua^$image,important,redirect=1x1-transparent.gif
+||awaps.yandex.ua^$important,redirect=noopframe,subdocument
+||awsync.yandex.by^$important,redirect=noopframe,subdocument
 ||awsync.yandex.ru^$important,redirect=noopframe,subdocument
+||awsync.yandex.ua^$important,redirect=noopframe,subdocument
 ||google-analytics.com^$important,redirect=noopjs,script
 ||googleadservices.com^$important,redirect=noopjs,script
 ||googlesyndication.com^$important,redirect=noopjs,script
@@ -74,6 +81,8 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||scontent.xx.fbcdn.net/hads-ak-prn*/*.png$image,important,redirect=1x1-transparent.gif
 ||scontent.xx.fbcdn23dssr3jqnq.onion/hads-ak-prn*/*.png$image,important,redirect=1x1-transparent.gif
 ||scorecardresearch.com/beacon.js$important,redirect=noopjs,script
+||static-mon.yandex.net/static/main.js$script,redirect=noopjs,important
+||static-mon.yandex.net/static/main.js$xmlhttprequest,redirect=nooptext,important
 ||web.telegram.org/*/PhotoThumbConversation.gif$image,important,redirect=1x1-transparent.gif,domain=telegram.org
 ||yabs.yandex.by^$image,important,redirect=1x1-transparent.gif
 ||yabs.yandex.ru^$image,important,redirect=1x1-transparent.gif

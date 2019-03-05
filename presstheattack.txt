@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
-! Last modified: 2019-03-05 16:17:21
-! Version: 20190305161721
+! Last modified: 2019-03-05 17:05:46
+! Version: 20190305170546
 ! Expires: 3 hours
-! Number of filters: 4610
+! Number of filters: 4620
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -1648,6 +1648,7 @@
 ##[id^="_yandex_rtb-"]:not(html):not(body)
 ##[id^="_yandex_rtb."]:not(html):not(body)
 ##[id^="_yandex_rtb_"]:not(html):not(body)
+##a[href*="//ads.adfox.ru/"]
 ##div[class$="-ad-"]:not(html):not(body)
 ##div[class$="-ad."]:not(html):not(body)
 ##div[class$="-ad_"]:not(html):not(body)
@@ -2883,7 +2884,6 @@ yandex.by,yandex.ru,yandex.ua##.media-grid_js_inited.font-regular.i-bem.media-gr
 yandex.by,yandex.ru,yandex.ua##.media-infinity-footer__content_visible_yes.media-infinity-footer__content
 yandex.by,yandex.ru,yandex.ua##:xpath(//a[@class='home-link home-link_intense-blue_yes'])
 yandex.by,yandex.ru,yandex.ua##:xpath(//a[@class='link link_theme_normal yaplus__link i-bem'][contains(.,'Будьте в Плюсе')])
-yandex.by,yandex.ru,yandex.ua##:xpath(//div[@class='container container__heap container__line heap heap_direction_column'])
 yandex.by,yandex.ru,yandex.ua##^script:has-text(AdvManager)
 yandex.by,yandex.ru,yandex.ua##^script:has-text(defaultMetrikaCounter)
 yandex.by,yandex.ru,yandex.ua##^script:has-text(devicePixelRatio)
@@ -4437,6 +4437,7 @@ yandex.by,yandex.ru,yandex.ua##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_fi
 ||admixer.net^$important
 ||adnxs.com^$important
 ||adobedtm.com^$important
+||adriver.ru^$important
 ||ads-twitter.com^$important
 ||adsafeprotected.com^$important
 ||adswrapme.click^$important
@@ -4455,7 +4456,7 @@ yandex.by,yandex.ru,yandex.ua##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_fi
 ||an.yandex.by^$xmlhttprequest,important,redirect=noopjs
 ||an.yandex.by^$xmlhttprequest,important,redirect=nooptext
 ||an.yandex.ru^$image,important,redirect=1x1-transparent.gif
-||an.yandex.ru^$xmlhttprequest,important,redirect=noopjs
+||an.yandex.ru^$script,important,redirect=noopjs
 ||an.yandex.ru^$xmlhttprequest,important,redirect=nooptext
 ||an.yandex.ua^$image,important,redirect=1x1-transparent.gif
 ||an.yandex.ua^$xmlhttprequest,important,redirect=noopjs
@@ -4463,9 +4464,17 @@ yandex.by,yandex.ru,yandex.ua##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_fi
 ||api.twitch.tv/*/channels/*/extensions^$xmlhttprequest
 ||atdmt.com^$important
 ||atwola.com^$important
+||awaps.yandex.by^$image,important,redirect=1x1-transparent.gif
+||awaps.yandex.by^$important,redirect=noopframe,subdocument
 ||awaps.yandex.net^$image,important,redirect=1x1-transparent.gif
 ||awaps.yandex.net^$important,redirect=noopframe,subdocument
+||awaps.yandex.ru^$image,important,redirect=1x1-transparent.gif
+||awaps.yandex.ru^$important,redirect=noopframe,subdocument
+||awaps.yandex.ua^$image,important,redirect=1x1-transparent.gif
+||awaps.yandex.ua^$important,redirect=noopframe,subdocument
+||awsync.yandex.by^$important,redirect=noopframe,subdocument
 ||awsync.yandex.ru^$important,redirect=noopframe,subdocument
+||awsync.yandex.ua^$important,redirect=noopframe,subdocument
 ||bat.bing.com^$important
 ||bidswitch.net^$important
 ||bing.com/fd/ls/$image,important,xmlhttprequest
@@ -4576,7 +4585,8 @@ yandex.by,yandex.ru,yandex.ua##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_fi
 ||sonobi.com^$important
 ||ssp.rambler.ru^$important
 ||statcounter.com^$important
-||static-mon.yandex.net/static/main.js$important,script
+||static-mon.yandex.net/static/main.js$script,redirect=noopjs,important
+||static-mon.yandex.net/static/main.js$xmlhttprequest,redirect=nooptext,important
 ||stats.wp.com^$important
 ||summerhamster.com^$important
 ||syndication.twitter.com^$important

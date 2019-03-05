@@ -122,7 +122,6 @@
 ||news.yandex.*^$first-party,important,script
 ||quora.com/qevents.js$important,script
 ||redditstatic.com/moat^$important,script
-||static-mon.yandex.net/static/main.js$important,script
 ||top100.ru/top100/top100.js$important,script
 ||twitter.com/oct.js$important,script
 ||yandex.*/pogoda/$first-party,important,inline-script

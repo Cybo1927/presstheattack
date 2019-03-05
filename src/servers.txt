@@ -28,6 +28,7 @@
 ||admixer.net^$important
 ||adnxs.com^$important
 ||adobedtm.com^$important
+||adriver.ru^$important
 ||ads-twitter.com^$important
 ||adsafeprotected.com^$important
 ||adswrapme.click^$important

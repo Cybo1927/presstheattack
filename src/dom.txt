@@ -1644,6 +1644,7 @@ twitch.tv##a[href*=".gg"] > img
 twitch.tv##a[href*=".net/ad/"] > img
 twitch.tv##a[href*=".org/ad/"] > img
 twitch.tv##a[href*=".ru/ad/"] > img
+##a[href*="//ads.adfox.ru/"]
 twitch.tv##a[href*="/buy/"] > img
 twitch.tv##a[href*="/go/"] > img
 twitch.tv##a[href*="/joinchat/"] > img
