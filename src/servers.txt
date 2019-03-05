@@ -104,6 +104,7 @@
 ||nil.naver.com^$important
 ||nuggad.net^$important
 ||onthe.io^$important
+||openstat.net^$important
 ||openx.net^$important
 ||ophan.theguardian.com^$important
 ||pb.m.naver.com^$important

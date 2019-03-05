@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
-! Last modified: 2019-03-05 22:07:06
-! Version: 20190305220706
+! Last modified: 2019-03-06 01:07:36
+! Version: 20190306010736
 ! Expires: 3 hours
-! Number of filters: 4713
+! Number of filters: 4746
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -3063,6 +3063,10 @@ yandex.by,yandex.ru,yandex.ua##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_fi
 |http*:*-getad.$important
 |http*:*-getad^$important
 |http*:*-getad_$important
+|http*:*-grstat-$important
+|http*:*-grstat.$important
+|http*:*-grstat^$important
+|http*:*-grstat_$important
 |http*:*-gscounters-$important
 |http*:*-gscounters.$important
 |http*:*-gscounters^$important
@@ -3211,6 +3215,10 @@ yandex.by,yandex.ru,yandex.ua##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_fi
 |http*:*-showads.$important
 |http*:*-showads^$important
 |http*:*-showads_$important
+|http*:*-showpxt-$important
+|http*:*-showpxt.$important
+|http*:*-showpxt^$important
+|http*:*-showpxt_$important
 |http*:*-sponsor-
 |http*:*-sponsor.
 |http*:*-sponsor^
@@ -3247,10 +3255,10 @@ yandex.by,yandex.ru,yandex.ua##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_fi
 |http*:*-tracker.
 |http*:*-tracker^
 |http*:*-tracker_
-|http*:*-tracking-$important
-|http*:*-tracking.$important
-|http*:*-tracking^$important
-|http*:*-tracking_$important
+|http*:*-tracking-
+|http*:*-tracking.
+|http*:*-tracking^
+|http*:*-tracking_
 |http*:*-uedata-
 |http*:*-uedata.
 |http*:*-uedata^
@@ -3431,6 +3439,10 @@ yandex.by,yandex.ru,yandex.ua##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_fi
 |http*:*.getad.$important
 |http*:*.getad^$important
 |http*:*.getad_$important
+|http*:*.grstat-$important
+|http*:*.grstat.$important
+|http*:*.grstat^$important
+|http*:*.grstat_$important
 |http*:*.gscounters-$important
 |http*:*.gscounters.$important
 |http*:*.gscounters^$important
@@ -3579,6 +3591,10 @@ yandex.by,yandex.ru,yandex.ua##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_fi
 |http*:*.showads.$important
 |http*:*.showads^$important
 |http*:*.showads_$important
+|http*:*.showpxt-$important
+|http*:*.showpxt.$important
+|http*:*.showpxt^$important
+|http*:*.showpxt_$important
 |http*:*.sponsor-
 |http*:*.sponsor.
 |http*:*.sponsor^
@@ -3612,13 +3628,13 @@ yandex.by,yandex.ru,yandex.ua##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_fi
 |http*:*.track^
 |http*:*.track_
 |http*:*.tracker-
-|http*:*.tracker.
+|http*:*.tracker.$domain=~fandom.com
 |http*:*.tracker^
 |http*:*.tracker_
-|http*:*.tracking-$important
-|http*:*.tracking.$important
-|http*:*.tracking^$important
-|http*:*.tracking_$important
+|http*:*.tracking-
+|http*:*.tracking.
+|http*:*.tracking^
+|http*:*.tracking_
 |http*:*.uedata-
 |http*:*.uedata.
 |http*:*.uedata^
@@ -3920,6 +3936,10 @@ yandex.by,yandex.ru,yandex.ua##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_fi
 |http*:*^getad.$important
 |http*:*^getad^$important
 |http*:*^getad_$important
+|http*:*^grstat-$important
+|http*:*^grstat.$important
+|http*:*^grstat^$important
+|http*:*^grstat_$important
 |http*:*^gscounters-$important
 |http*:*^gscounters.$important
 |http*:*^gscounters^$important
@@ -4006,7 +4026,7 @@ yandex.by,yandex.ru,yandex.ua##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_fi
 |http*:*^ppv_
 |http*:*^promo-
 |http*:*^promo.
-|http*:*^promo^
+|http*:*^promo^$domain=~mail.ru
 |http*:*^promo_$domain=~vk.com
 |http*:*^promoted-
 |http*:*^promoted.
@@ -4068,6 +4088,10 @@ yandex.by,yandex.ru,yandex.ua##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_fi
 |http*:*^showads.$important
 |http*:*^showads^$important
 |http*:*^showads_$important
+|http*:*^showpxt-$important
+|http*:*^showpxt.$important
+|http*:*^showpxt^$important
+|http*:*^showpxt_$important
 |http*:*^sponsor-
 |http*:*^sponsor.
 |http*:*^sponsor^
@@ -4104,10 +4128,10 @@ yandex.by,yandex.ru,yandex.ua##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_fi
 |http*:*^tracker.
 |http*:*^tracker^
 |http*:*^tracker_
-|http*:*^tracking-$important
-|http*:*^tracking.$important
-|http*:*^tracking^$important
-|http*:*^tracking_$important
+|http*:*^tracking-
+|http*:*^tracking.
+|http*:*^tracking^
+|http*:*^tracking_$domain=~fandom.com
 |http*:*^uedata-
 |http*:*^uedata.
 |http*:*^uedata^
@@ -4288,6 +4312,10 @@ yandex.by,yandex.ru,yandex.ua##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_fi
 |http*:*_getad.$important
 |http*:*_getad^$important
 |http*:*_getad_$important
+|http*:*_grstat-$important
+|http*:*_grstat.$important
+|http*:*_grstat^$important
+|http*:*_grstat_$important
 |http*:*_gscounters-$important
 |http*:*_gscounters.$important
 |http*:*_gscounters^$important
@@ -4436,6 +4464,10 @@ yandex.by,yandex.ru,yandex.ua##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_fi
 |http*:*_showads.$important
 |http*:*_showads^$important
 |http*:*_showads_$important
+|http*:*_showpxt-$important
+|http*:*_showpxt.$important
+|http*:*_showpxt^$important
+|http*:*_showpxt_$important
 |http*:*_sponsor-
 |http*:*_sponsor.
 |http*:*_sponsor^
@@ -4472,10 +4504,10 @@ yandex.by,yandex.ru,yandex.ua##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_fi
 |http*:*_tracker.
 |http*:*_tracker^
 |http*:*_tracker_
-|http*:*_tracking-$important
-|http*:*_tracking.$important
-|http*:*_tracking^$important
-|http*:*_tracking_$important
+|http*:*_tracking-
+|http*:*_tracking.
+|http*:*_tracking^
+|http*:*_tracking_$domain=~fandom.com
 |http*:*_uedata-
 |http*:*_uedata.
 |http*:*_uedata^
@@ -4642,6 +4674,7 @@ yandex.by,yandex.ru,yandex.ua##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_fi
 ||nil.naver.com^$important
 ||nuggad.net^$important
 ||onthe.io^$important
+||openstat.net^$important
 ||openx.net^$important
 ||ophan.theguardian.com^$important
 ||pagead2.googlesyndication.com/pagead/show_ads.js$important,redirect=noopjs,script
