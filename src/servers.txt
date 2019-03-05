@@ -22,6 +22,7 @@
 ||adform.net^$important
 ||adfox.ru^$important
 ||adition.com^$important
+||admitad.com^$important
 ||admixer.net^$important
 ||adnxs.com^$important
 ||adobedtm.com^$important
@@ -34,6 +35,7 @@
 ||advertising.com^$important
 ||advertserve.com^$important
 ||advideo.ru^$important
+||adwidgets.ru^$important
 ||agkn.com^$important
 ||amazon-adsystem.com^$important
 ||amplifypixel.outbrain.com^$important
@@ -59,6 +61,7 @@
 ||crwdcntrl.net^$important
 ||cutter.li^$document
 ||cy-pr.com^$important
+||demdex.net^$important
 ||digitaltarget.ru^$important
 ||disqusads.com^$important
 ||doubleclick.net^$important
@@ -102,10 +105,12 @@
 ||newrelic.com^$important
 ||nil.naver.com^$important
 ||nuggad.net^$important
+||omtrdc.net^$important
 ||onthe.io^$important
 ||openstat.net^$important
 ||openx.net^$important
 ||ophan.theguardian.com^$important
+||optimizely.com^$important
 ||pb.m.naver.com^$important
 ||piguiqproxy.com^$important
 ||plista.com^$important
@@ -151,6 +156,7 @@
 ||vk-portal.net^$important
 ||vk.cc^$document
 ||vtracy.de^$important
+||webmasterplan.com^$important
 ||weborama.fr^$important
 ||xhamsterpremium.*^$important,third-party
 ||yadro.ru^$important

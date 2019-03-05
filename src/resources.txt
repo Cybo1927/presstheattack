@@ -26,6 +26,7 @@
 */ping^$important,redirect=noopframe,subdocument
 */pv.gif$image,important,redirect=1x1-transparent.gif
 */px.gif$image,important,redirect=1x1-transparent.gif
+*/s.gif$image,important,redirect=1x1-transparent.gif
 */spacer.gif$image,important,redirect=1x1-transparent.gif
 */track-user.png$image,important,redirect=1x1-transparent.gif
 */visit.gif$image,important,redirect=1x1-transparent.gif

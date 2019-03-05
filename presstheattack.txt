@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
-! Last modified: 2019-03-06 02:15:59
-! Version: 20190306021559
+! Last modified: 2019-03-06 02:55:12
+! Version: 20190306025512
 ! Expires: 3 hours
-! Number of filters: 4745
+! Number of filters: 4769
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2764,6 +2764,7 @@
 */ping^$important,redirect=noopframe,subdocument
 */pv.gif$image,important,redirect=1x1-transparent.gif
 */px.gif$image,important,redirect=1x1-transparent.gif
+*/s.gif$image,important,redirect=1x1-transparent.gif
 */spacer.gif$image,important,redirect=1x1-transparent.gif
 */track-user.png$image,important,redirect=1x1-transparent.gif
 */visit.gif$image,important,redirect=1x1-transparent.gif
@@ -2792,7 +2793,7 @@
 /^https?:\/\/cdn[0-9]{1,2}?\.rocks\/[^\s]{30,}\.js/$important,script
 /^https?:\/\/collector[0-9]{1,2}\.xhamster\.[a-z]{3}/$important
 /^https?:\/\/contentbooster\.me+\/(?!manifest)[a-z0-9]{5,45}/$important,xmlhttprequest
-/^https?:\/\/graph\.(facebook|instagram)\.com/$important,script
+/^https?:\/\/graph\.(facebook|instagram)\.com/$important,script,image
 /^https?:\/\/news\.yandex\.[^\s]{2,5}\/[^\s]{300,}/$important,subdocument,xmlhttprequest
 /^https?:\/\/p([0-9]{1,2})?\./$important
 /^https?:\/\/s3\.amazonaws\.com\/.*[a-f0-9\/]{50,}/$third-party,xmlhttprequest,domain=~amazon.com
@@ -2975,6 +2976,10 @@ yandex.by,yandex.ru,yandex.ua##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_fi
 |http*:*-adtest.$important
 |http*:*-adtest^$important
 |http*:*-adtest_$important
+|http*:*-adv-
+|http*:*-adv.
+|http*:*-adv^
+|http*:*-adv_
 |http*:*-advert-$important
 |http*:*-advert.$important
 |http*:*-advert^$important
@@ -3351,6 +3356,10 @@ yandex.by,yandex.ru,yandex.ua##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_fi
 |http*:*.adtest.$important
 |http*:*.adtest^$important
 |http*:*.adtest_$important
+|http*:*.adv-
+|http*:*.adv.
+|http*:*.adv^
+|http*:*.adv_
 |http*:*.advert-$important
 |http*:*.advert.$important
 |http*:*.advert^$important
@@ -3671,6 +3680,7 @@ yandex.by,yandex.ru,yandex.ua##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_fi
 |http*:*/adbp.js$important,script
 |http*:*/adframe.js$important,script
 |http*:*/adriver.*.js$important,script
+|http*:*/adrum.js^$important,script
 |http*:*/ads.js$important,script
 |http*:*/adsbygoogle.js$important,script
 |http*:*/adsdk.js$important,script
@@ -3848,6 +3858,10 @@ yandex.by,yandex.ru,yandex.ua##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_fi
 |http*:*^adtest.$important
 |http*:*^adtest^$important
 |http*:*^adtest_$important
+|http*:*^adv-
+|http*:*^adv.
+|http*:*^adv^
+|http*:*^adv_
 |http*:*^advert-$important
 |http*:*^advert.$important
 |http*:*^advert^$important
@@ -4224,6 +4238,10 @@ yandex.by,yandex.ru,yandex.ua##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_fi
 |http*:*_adtest.$important
 |http*:*_adtest^$important
 |http*:*_adtest_$important
+|http*:*_adv-
+|http*:*_adv.
+|http*:*_adv^
+|http*:*_adv_
 |http*:*_advert-$important
 |http*:*_advert.$important
 |http*:*_advert^$important
@@ -4544,6 +4562,7 @@ yandex.by,yandex.ru,yandex.ua##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_fi
 ||adform.net^$important
 ||adfox.ru^$important
 ||adition.com^$important
+||admitad.com^$important
 ||admixer.net^$important
 ||adnxs.com^$important
 ||adobedtm.com^$important
@@ -4556,6 +4575,7 @@ yandex.by,yandex.ru,yandex.ua##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_fi
 ||advertising.com^$important
 ||advertserve.com^$important
 ||advideo.ru^$important
+||adwidgets.ru^$important
 ||agkn.com^$important
 ||akamaized.net/?u=$image,important,xmlhttprequest
 ||amazon-adsystem.com^$important
@@ -4609,6 +4629,7 @@ yandex.by,yandex.ru,yandex.ua##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_fi
 ||cryptonoter.com/processor.js$important,script
 ||cutter.li^$document
 ||cy-pr.com^$important
+||demdex.net^$important
 ||digitaltarget.ru^$important
 ||disqusads.com^$important
 ||doubleclick.net^$important
@@ -4672,10 +4693,12 @@ yandex.by,yandex.ru,yandex.ua##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_fi
 ||news.yandex.*^$first-party,important,script
 ||nil.naver.com^$important
 ||nuggad.net^$important
+||omtrdc.net^$important
 ||onthe.io^$important
 ||openstat.net^$important
 ||openx.net^$important
 ||ophan.theguardian.com^$important
+||optimizely.com^$important
 ||pagead2.googlesyndication.com/pagead/show_ads.js$important,redirect=noopjs,script
 ||pb.m.naver.com^$important
 ||piguiqproxy.com^$important
@@ -4742,6 +4765,7 @@ yandex.by,yandex.ru,yandex.ua##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_fi
 ||vk.com/rtrg^$image,important
 ||vtracy.de^$important
 ||web.telegram.org/*/PhotoThumbConversation.gif$image,important,redirect=1x1-transparent.gif,domain=telegram.org
+||webmasterplan.com^$important
 ||weborama.fr^$important
 ||xhamsterpremium.*^$important,third-party
 ||yabs.yandex.by^$image,important,redirect=1x1-transparent.gif

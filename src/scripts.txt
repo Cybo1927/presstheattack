@@ -3,7 +3,6 @@
 /\/fingerprint([0-9]{1,2})?\.js/$important,script
 /\/fp([0-9]{1,2})?\.js/$important,script
 /^https?:\/\/cdn[0-9]{1,2}?\.rocks\/[^\s]{30,}\.js/$important,script
-/^https?:\/\/graph\.(facebook|instagram)\.com/$important,script
 /me([0-9]{1})?w\.js/$important,script
 /webmr([0-9]{1,2})?\.js/$important,script
 |http*:*/*-gtm.js$important,script
@@ -15,6 +14,7 @@
 |http*:*/adbp.js$important,script
 |http*:*/adframe.js$important,script
 |http*:*/adriver.*.js$important,script
+|http*:*/adrum.js^$important,script
 |http*:*/ads.js$important,script
 |http*:*/adsbygoogle.js$important,script
 |http*:*/adsdk.js$important,script
