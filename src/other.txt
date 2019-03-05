@@ -1,3 +1,5 @@
+/^https?:\/\/c([0-9]{1,2})?\./$important
+/^https?:\/\/p([0-9]{1,2})?\./$important
 |http*:*-ad-
 |http*:*-ad-sdk-$important
 |http*:*-ad-sdk.$important

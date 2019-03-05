@@ -1,11 +1,11 @@
 /\/([^\s]{4})?tag\.min\.([a-z0-9]{30,}\.)?js/$important,script
-/\/advert[0-9]?\.js/$important,script
-/\/fingerprint[0-9]{1,2}?\.js/$important,script
-/\/fp[0-9]{1,2}?\.js/$important,script
+/\/advert([0-9]{1,2})?\.js/$important,script
+/\/fingerprint([0-9]{1,2})?\.js/$important,script
+/\/fp([0-9]{1,2})?\.js/$important,script
 /^https?:\/\/cdn[0-9]{1,2}?\.rocks\/[^\s]{30,}\.js/$important,script
 /^https?:\/\/graph\.(facebook|instagram)\.com/$important,script
-/me[0-9]{1}w\.js/$important,script
-/webmr[0-9]{1,2}?\.js/$important,script
+/me([0-9]{1})?w\.js/$important,script
+/webmr([0-9]{1,2})?\.js/$important,script
 |http*:*/*-gtm.js$important,script
 |http*:*/*_gtm.js$important,script
 |http*:*/*ping.js$important,script
@@ -118,6 +118,7 @@
 ||cryptonoter.com/processor.js$important,script
 ||duckduckgo.com/y.js$important,script
 ||harvest.surge.sh/h.js$important,script
+||mail.ru/share_count^$script,important
 ||mail.yandex.*^$first-party,important,script
 ||msecnd.net/scripts/jsll-*.js$important,script
 ||news.yandex.*^$first-party,important,script

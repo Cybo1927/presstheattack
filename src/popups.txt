@@ -1,2 +1,2 @@
-/^https?:\/\/(1l\-hit|r|rs|top\-fwz|vk\.go|reklama|ad|ads|recostream\.go)[0-9]?\.mail\.ru/$important,popup
+/^https?:\/\/(1l\-hit|r|rs|top\-fwz|vk\.go|reklama|ad|ads|recostream\.go|top)[0-9]{1,2}?\.mail\.ru/$important,popup
 ||yastatic.net^$important,popup
