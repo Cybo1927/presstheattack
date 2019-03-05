@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
-! Last modified: 2019-03-06 02:55:12
-! Version: 20190306025512
+! Last modified: 2019-03-06 03:53:56
+! Version: 20190306035356
 ! Expires: 3 hours
-! Number of filters: 4769
+! Number of filters: 4772
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2789,11 +2789,13 @@
 /^https?:\/\/[^\s]{15,}log[\W|_]?(type|event|entry|request)/$image,important,xmlhttprequest
 /^https?:\/\/[^\s]{3,}google\.[^\s]{2,5}\/log\?/$image,important,xmlhttprequest
 /^https?:\/\/[a-z0-9]{1,}adserv\.com/$important
+/^https?:\/\/analytics[0-9]{1,2}?\./$important
 /^https?:\/\/c([0-9]{1,2})?\./$important
 /^https?:\/\/cdn[0-9]{1,2}?\.rocks\/[^\s]{30,}\.js/$important,script
 /^https?:\/\/collector[0-9]{1,2}\.xhamster\.[a-z]{3}/$important
 /^https?:\/\/contentbooster\.me+\/(?!manifest)[a-z0-9]{5,45}/$important,xmlhttprequest
 /^https?:\/\/graph\.(facebook|instagram)\.com/$important,script,image
+/^https?:\/\/log[0-9]{1,2}?\./$important
 /^https?:\/\/news\.yandex\.[^\s]{2,5}\/[^\s]{300,}/$important,subdocument,xmlhttprequest
 /^https?:\/\/p([0-9]{1,2})?\./$important
 /^https?:\/\/s3\.amazonaws\.com\/.*[a-f0-9\/]{50,}/$third-party,xmlhttprequest,domain=~amazon.com
@@ -4640,6 +4642,7 @@ yandex.by,yandex.ru,yandex.ua##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_fi
 ||edigitalsurvey.com^$important
 ||emetriq.de^$important
 ||ensighten.com^$important
+||etahub.com^$important
 ||events.reddit.com^$important
 ||f53mbcg4ak.ru^$important
 ||fls-*.amazon.*%$important

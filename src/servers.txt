@@ -70,6 +70,7 @@
 ||edigitalsurvey.com^$important
 ||emetriq.de^$important
 ||ensighten.com^$important
+||etahub.com^$important
 ||events.reddit.com^$important
 ||f53mbcg4ak.ru^$important
 ||fls-*.amazon.*%$important
