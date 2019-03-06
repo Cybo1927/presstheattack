@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
-! Last modified: 2019-03-07 06:53:01
-! Version: 20190307065301
+! Last modified: 2019-03-07 06:57:47
+! Version: 20190307065747
 ! Expires: 3 hours
 ! Number of filters: 4835
 ! Homepage: https://github.com/bogachenko/presstheattack/
@@ -2792,6 +2792,7 @@
 */x.png$image,important,redirect=1x1-transparent.gif
 */z.gif$image,important,redirect=1x1-transparent.gif
 */z.png$image,important,redirect=1x1-transparent.gif
+/2ch\.(hk|pm|re|tf|wf|yt)\/images/$image
 /\/([^\s]{4})?tag\.min\.([a-z0-9]{30,}\.)?js/$important,script
 /\/advert([0-9]{1,2})?\.js/$important,script
 /\/banner[0-9]{1,2}?\.gif/$image,important
@@ -2806,7 +2807,6 @@
 /^https?:\/\/(metric|csi)\.gstatic\.com/$important
 /^https?:\/\/(www\.)?(client\-event\-reporter|countess|mp|polyfill|sentinel|spade|trowel|fan)\.+twitch(svc)?\.\w{2,}/$important
 /^https?:\/\/(www\.)?facebook\.\w{3,}\/tr\D/$important
-/^https?:\/\/2ch\.(hk|pm|re|tf|wf|yt)\/images/$image
 /^https?:\/\/[^\s]{15,}(player|gen|client|csi|generate|stream|log)\_?204/$image,important,xmlhttprequest
 /^https?:\/\/[^\s]{15,}log[\W|_]?(type|event|entry|request)/$image,important,xmlhttprequest
 /^https?:\/\/[^\s]{3,}google\.[^\s]{2,5}\/log\?/$image,important,xmlhttprequest
@@ -2820,7 +2820,7 @@
 /^https?:\/\/log[0-9]{1,2}?\./$important
 /^https?:\/\/news\.yandex\.[^\s]{2,5}\/[^\s]{300,}/$important,subdocument,xmlhttprequest
 /^https?:\/\/p([0-9]{1,2})?\./$important
-/^https?:\/\/s3\.amazonaws\.com\/.*[a-f0-9\/]{50,}/$third-party,xmlhttprequest,domain=~amazon.com
+/^https?:\/\/s3\.amazonaws\.com\/.*[a-f0-9\/]{50,}/$third-party,important,xmlhttprequest,domain=~amazon.com
 /^https?:\/\/tv\.yandex\.[^\s]{2,5}\/[^\s]{300,}/$important,subdocument,xmlhttprequest
 /^https?:\/\/yandex\.[^\s]{2,5}\/images/(?!(search\?rpt=\imageview)|(search\?callback\=jQuery)|(search\?exp_flags=)|(search\?serpid=)|(touch/search?))[^\s]{80,}/$important,subdocument,xmlhttprequest
 /^https?:\/\/yastatic\.net\/[^\s]{500,}/$domain=~vh.yandex.ru
@@ -3082,7 +3082,7 @@ yandex.by,yandex.ru,yandex.ua##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_fi
 |http*:*-clicksor.
 |http*:*-clicksor^
 |http*:*-clicksor_
-|http*:*-coin-hive.js$script,important
+|http*:*-coin-hive.js$important,script
 |http*:*-counted-
 |http*:*-counted.
 |http*:*-counted^
@@ -3733,11 +3733,11 @@ yandex.by,yandex.ru,yandex.ua##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_fi
 |http*:*/antiadb.js$important,script
 |http*:*/apstag.js$important,script
 |http*:*/async-ads.js$important,script
-|http*:*/authedmine.min.js$script,important
+|http*:*/authedmine.min.js$important,script
 |http*:*/authedminer.js$important,script
 |http*:*/b/ss/*&ce=utf-8&$image,important,script
 |http*:*/banner/*.gif$image,important
-|http*:*/bitcoincore/?ref=$script,important
+|http*:*/bitcoincore/?ref=$important,script
 |http*:*/browsermine.js$important,script
 |http*:*/c-hive.js$important,script
 |http*:*/c.js$important,script
@@ -3751,7 +3751,7 @@ yandex.by,yandex.ru,yandex.ua##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_fi
 |http*:*/coinhive.min.js$important,script
 |http*:*/coinlab.js$important,script
 |http*:*/comscore.*.js$important,script
-|http*:*/count.json$script,important
+|http*:*/count.json$important,script
 |http*:*/crlt.js$important,script
 |http*:*/crypta.js$important,script
 |http*:*/cryptocpu.js$important,script
@@ -3814,7 +3814,7 @@ yandex.by,yandex.ru,yandex.ua##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_fi
 |http*:*/streambeam-jw.js$important,script
 |http*:*/streambeam-video.js$important,script
 |http*:*/tracker.js$important,script
-|http*:*/uutils.fcg^$script,important
+|http*:*/uutils.fcg^$important,script
 |http*:*/videojs.ads.js$important,script
 |http*:*/wasmminer.js$important,script
 |http*:*/wasmminer.wasm$important,script
@@ -4743,7 +4743,7 @@ yandex.by,yandex.ru,yandex.ua##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_fi
 ||lijit.com^$important
 ||logql.yahoo.co.jp^$important
 ||logxp.ru^$important
-||mail.ru/share_count^$script,important
+||mail.ru/share_count^$important,script
 ||mail.yandex.*/monitoring_liza.txt$image,important
 ||mail.yandex.*^$first-party,important,script
 ||mc.yandex.ru^$important,image,redirect=1x1-transparent.gif
@@ -4819,7 +4819,7 @@ yandex.by,yandex.ru,yandex.ua##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_fi
 ||twitter.com/*/toast_poll^$important,xmlhttprequest
 ||twitter.com/i/jot^$important,xmlhttprequest
 ||twitter.com/oct.js$important,script
-||ucoz.org/?*%21*%$script,important
+||ucoz.org/?*%21*%$important,script
 ||udc.yahoo.com^$important
 ||unrulymedia.com^$important
 ||urbanairship.com^$important
