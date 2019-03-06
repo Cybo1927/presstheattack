@@ -87,6 +87,10 @@
 |http*:*-advertiser.$important
 |http*:*-advertiser^$important
 |http*:*-advertiser_$important
+|http*:*-advertising-$important
+|http*:*-advertising.$important
+|http*:*-advertising^$important
+|http*:*-advertising_$important
 |http*:*-adview-$important
 |http*:*-adview.$important
 |http*:*-adview^$important
@@ -471,6 +475,10 @@
 |http*:*.advertiser.$important
 |http*:*.advertiser^$important
 |http*:*.advertiser_$important
+|http*:*.advertising-$important
+|http*:*.advertising.$important
+|http*:*.advertising^$important
+|http*:*.advertising_$important
 |http*:*.adview-$important
 |http*:*.adview.$important
 |http*:*.adview^$important
@@ -863,6 +871,10 @@
 |http*:*^advertiser.$important
 |http*:*^advertiser^$important
 |http*:*^advertiser_$important
+|http*:*^advertising-$important
+|http*:*^advertising.$important
+|http*:*^advertising^$important
+|http*:*^advertising_$important
 |http*:*^adview-$important
 |http*:*^adview.$important
 |http*:*^adview^$important
@@ -1247,6 +1259,10 @@
 |http*:*_advertiser.$important
 |http*:*_advertiser^$important
 |http*:*_advertiser_$important
+|http*:*_advertising-$important
+|http*:*_advertising.$important
+|http*:*_advertising^$important
+|http*:*_advertising_$important
 |http*:*_adview-$important
 |http*:*_adview.$important
 |http*:*_adview^$important

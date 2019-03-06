@@ -54,6 +54,7 @@
 */x.png$image,important,redirect=1x1-transparent.gif
 */z.gif$image,important,redirect=1x1-transparent.gif
 */z.png$image,important,redirect=1x1-transparent.gif
+google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 kinopoisk.ru##+js(abort-on-property-read.js, advBlock)
 kinopoisk.ru##+js(cookie-remover.js, /blcrm|bltsr|cmtchd|crookie|kpunk|yandex_plus_metrika_cookie)
 kinopoisk.ru##+js(setInterval-defuser.js, (), 500)

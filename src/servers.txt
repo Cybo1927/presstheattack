@@ -135,7 +135,7 @@
 ||sonobi.com^$important
 ||ssp.rambler.ru^$important
 ||statcounter.com^$important
-||stats.wp.com^$important
+||stats.*^$important
 ||summerhamster.com^$important
 ||syndication.twitter.com^$important
 ||taboola.com^$important

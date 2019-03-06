@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
-! Last modified: 2019-03-06 23:02:34
-! Version: 20190306230234
+! Last modified: 2019-03-07 06:47:51
+! Version: 20190307064751
 ! Expires: 3 hours
-! Number of filters: 4813
+! Number of filters: 4835
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2848,6 +2848,7 @@
 @@||yandex.st/swfobject/*^$script
 @@||yastatic.net/yandex-video-player-iframe-api-bundles^$subdocument
 GGBET$image
+google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 kinopoisk.ru##+js(abort-on-property-read.js, advBlock)
 kinopoisk.ru##+js(cookie-remover.js, /blcrm|bltsr|cmtchd|crookie|kpunk|yandex_plus_metrika_cookie)
 kinopoisk.ru##+js(setInterval-defuser.js, (), 500)
@@ -3017,6 +3018,10 @@ yandex.by,yandex.ru,yandex.ua##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_fi
 |http*:*-advertiser.$important
 |http*:*-advertiser^$important
 |http*:*-advertiser_$important
+|http*:*-advertising-$important
+|http*:*-advertising.$important
+|http*:*-advertising^$important
+|http*:*-advertising_$important
 |http*:*-adview-$important
 |http*:*-adview.$important
 |http*:*-adview^$important
@@ -3077,6 +3082,7 @@ yandex.by,yandex.ru,yandex.ua##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_fi
 |http*:*-clicksor.
 |http*:*-clicksor^
 |http*:*-clicksor_
+|http*:*-coin-hive.js$script,important
 |http*:*-counted-
 |http*:*-counted.
 |http*:*-counted^
@@ -3401,6 +3407,10 @@ yandex.by,yandex.ru,yandex.ua##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_fi
 |http*:*.advertiser.$important
 |http*:*.advertiser^$important
 |http*:*.advertiser_$important
+|http*:*.advertising-$important
+|http*:*.advertising.$important
+|http*:*.advertising^$important
+|http*:*.advertising_$important
 |http*:*.adview-$important
 |http*:*.adview.$important
 |http*:*.adview^$important
@@ -3723,8 +3733,11 @@ yandex.by,yandex.ru,yandex.ua##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_fi
 |http*:*/antiadb.js$important,script
 |http*:*/apstag.js$important,script
 |http*:*/async-ads.js$important,script
+|http*:*/authedmine.min.js$script,important
 |http*:*/authedminer.js$important,script
 |http*:*/b/ss/*&ce=utf-8&$image,important,script
+|http*:*/banner/*.gif$image,important
+|http*:*/bitcoincore/?ref=$script,important
 |http*:*/browsermine.js$important,script
 |http*:*/c-hive.js$important,script
 |http*:*/c.js$important,script
@@ -3738,6 +3751,7 @@ yandex.by,yandex.ru,yandex.ua##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_fi
 |http*:*/coinhive.min.js$important,script
 |http*:*/coinlab.js$important,script
 |http*:*/comscore.*.js$important,script
+|http*:*/count.json$script,important
 |http*:*/crlt.js$important,script
 |http*:*/crypta.js$important,script
 |http*:*/cryptocpu.js$important,script
@@ -3909,6 +3923,10 @@ yandex.by,yandex.ru,yandex.ua##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_fi
 |http*:*^advertiser.$important
 |http*:*^advertiser^$important
 |http*:*^advertiser_$important
+|http*:*^advertising-$important
+|http*:*^advertising.$important
+|http*:*^advertising^$important
+|http*:*^advertising_$important
 |http*:*^adview-$important
 |http*:*^adview.$important
 |http*:*^adview^$important
@@ -4293,6 +4311,10 @@ yandex.by,yandex.ru,yandex.ua##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_fi
 |http*:*_advertiser.$important
 |http*:*_advertiser^$important
 |http*:*_advertiser_$important
+|http*:*_advertising-$important
+|http*:*_advertising.$important
+|http*:*_advertising^$important
+|http*:*_advertising_$important
 |http*:*_adview-$important
 |http*:*_adview.$important
 |http*:*_adview^$important
@@ -4778,7 +4800,7 @@ yandex.by,yandex.ru,yandex.ua##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_fi
 ||statcounter.com^$important
 ||static-mon.yandex.net/static/main.js$script,redirect=noopjs,important
 ||static-mon.yandex.net/static/main.js$xmlhttprequest,redirect=nooptext,important
-||stats.wp.com^$important
+||stats.*^$important
 ||summerhamster.com^$important
 ||syndication.twitter.com^$important
 ||taboola.com^$important

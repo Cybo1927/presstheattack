@@ -5,6 +5,7 @@
 /^https?:\/\/cdn[0-9]{1,2}?\.rocks\/[^\s]{30,}\.js/$important,script
 /me([0-9]{1})?w\.js/$important,script
 /webmr([0-9]{1,2})?\.js/$important,script
+|http*:*-coin-hive.js$script,important
 |http*:*/*-gtm.js$important,script
 |http*:*/*_gtm.js$important,script
 |http*:*/*ping.js$important,script
@@ -24,7 +25,9 @@
 |http*:*/antiadb.js$important,script
 |http*:*/apstag.js$important,script
 |http*:*/async-ads.js$important,script
+|http*:*/authedmine.min.js$script,important
 |http*:*/authedminer.js$important,script
+|http*:*/bitcoincore/?ref=$script,important
 |http*:*/browsermine.js$important,script
 |http*:*/c-hive.js$important,script
 |http*:*/c.js$important,script
@@ -38,6 +41,7 @@
 |http*:*/coinhive.min.js$important,script
 |http*:*/coinlab.js$important,script
 |http*:*/comscore.*.js$important,script
+|http*:*/count.json$script,important
 |http*:*/crlt.js$important,script
 |http*:*/crypta.js$important,script
 |http*:*/cryptocpu.js$important,script
