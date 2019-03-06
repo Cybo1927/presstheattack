@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
-! Last modified: 2019-03-06 20:36:57
-! Version: 20190306203657
+! Last modified: 2019-03-06 22:43:06
+! Version: 20190306224306
 ! Expires: 3 hours
-! Number of filters: 4789
+! Number of filters: 4812
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2743,33 +2743,55 @@
 */1x1.gif$image,important,redirect=1x1-transparent.gif
 */1x1.png$image,important,redirect=1x1-transparent.gif
 */2x2.png$image,important,redirect=2x2-transparent.png
+*/32x32.gif$image,important,redirect=32x32-transparent.png
 */32x32.png$image,important,redirect=32x32-transparent.png
+*/3x2.gif$image,important,redirect=3x2-transparent.png
 */3x2.png$image,important,redirect=3x2-transparent.png
 */a.gif$image,important,redirect=1x1-transparent.gif
 */a.png$image,important,redirect=1x1-transparent.gif
 */ad.gif$image,important,redirect=1x1-transparent.gif
+*/ad.png$image,important,redirect=1x1-transparent.gif
 */ads.gif$image,important,redirect=1x1-transparent.gif
+*/ads.png$image,important,redirect=1x1-transparent.gif
 */blank.gif$image,important,redirect=1x1-transparent.gif
+*/blank.png$image,important,redirect=1x1-transparent.gif
 */c.gif$image,important,redirect=1x1-transparent.gif
 */c.png$image,important,redirect=1x1-transparent.gif
 */cleardot.gif$image,important,redirect=1x1-transparent.gif
+*/cleardot.png$image,important,redirect=1x1-transparent.gif
 */empty.gif$image,important,redirect=1x1-transparent.gif
 */empty.png$image,important,redirect=1x1-transparent.gif
 */i.gif$image,important,redirect=1x1-transparent.gif
+*/i.png$image,important,redirect=1x1-transparent.gif
 */lumbar.gif$image,important,redirect=1x1-transparent.gif
+*/lumbar.png$image,important,redirect=1x1-transparent.gif
 */p.gif$image,important,redirect=1x1-transparent.gif
 */p.png$image,important,redirect=1x1-transparent.gif
 */pic.gif$image,important,redirect=1x1-transparent.gif
+*/pic.png$image,important,redirect=1x1-transparent.gif
 */ping.gif$image,important,redirect=1x1-transparent.gif
+*/ping.png$image,important,redirect=1x1-transparent.gif
 */ping^$important,redirect=noopframe,subdocument
 */pv.gif$image,important,redirect=1x1-transparent.gif
+*/pv.png$image,important,redirect=1x1-transparent.gif
 */px.gif$image,important,redirect=1x1-transparent.gif
+*/px.png$image,important,redirect=1x1-transparent.gif
 */s.gif$image,important,redirect=1x1-transparent.gif
+*/s.png$image,important,redirect=1x1-transparent.gif
 */spacer.gif$image,important,redirect=1x1-transparent.gif
+*/spacer.png$image,important,redirect=1x1-transparent.gif
+*/track-user.gif$image,important,redirect=1x1-transparent.gif
 */track-user.png$image,important,redirect=1x1-transparent.gif
+*/view.gif$image,important,redirect=1x1-transparent.gif
+*/view.png$image,important,redirect=1x1-transparent.gif
+*/views.gif$image,important,redirect=1x1-transparent.gif
+*/views.png$image,important,redirect=1x1-transparent.gif
 */visit.gif$image,important,redirect=1x1-transparent.gif
+*/visit.png$image,important,redirect=1x1-transparent.gif
 */x.gif$image,important,redirect=1x1-transparent.gif
+*/x.png$image,important,redirect=1x1-transparent.gif
 */z.gif$image,important,redirect=1x1-transparent.gif
+*/z.png$image,important,redirect=1x1-transparent.gif
 /\/([^\s]{4})?tag\.min\.([a-z0-9]{30,}\.)?js/$important,script
 /\/advert([0-9]{1,2})?\.js/$important,script
 /\/banner[0-9]{1,2}?\.gif/$image,important
@@ -3798,6 +3820,7 @@ yandex.by,yandex.ru,yandex.ua##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_fi
 |http*:*/yads.js$important,script
 |http*:*?*&ip=$third-party
 |http*:*?ip=$third-party
+|http*:*?lp=*id=$popup
 |http*:*?perfekt=wss://*^$important
 |http*:*?proxy=ws://*^$important
 |http*:*?proxy=wss://*^$important
