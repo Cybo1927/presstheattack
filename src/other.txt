@@ -170,6 +170,10 @@
 |http*:*-gscounters.$important
 |http*:*-gscounters^$important
 |http*:*-gscounters_$important
+|http*:*-gstat-
+|http*:*-gstat.
+|http*:*-gstat^
+|http*:*-gstat_
 |http*:*-js-stats-$important
 |http*:*-js-stats.$important
 |http*:*-js-stats^$important
@@ -550,6 +554,10 @@
 |http*:*.gscounters.$important
 |http*:*.gscounters^$important
 |http*:*.gscounters_$important
+|http*:*.gstat-
+|http*:*.gstat.
+|http*:*.gstat^
+|http*:*.gstat_
 |http*:*.js-stats-$important
 |http*:*.js-stats.$important
 |http*:*.js-stats^$important
@@ -632,7 +640,7 @@
 |http*:*.ppv_
 |http*:*.promo-
 |http*:*.promo.
-|http*:*.promo^
+|http*:*.promo^$domain=~mail.ru
 |http*:*.promo_
 |http*:*.promoted-
 |http*:*.promoted.
@@ -938,6 +946,10 @@
 |http*:*^gscounters.$important
 |http*:*^gscounters^$important
 |http*:*^gscounters_$important
+|http*:*^gstat-
+|http*:*^gstat.
+|http*:*^gstat^
+|http*:*^gstat_
 |http*:*^js-stats-$important
 |http*:*^js-stats.$important
 |http*:*^js-stats^$important
@@ -1019,7 +1031,7 @@
 |http*:*^ppv^
 |http*:*^ppv_
 |http*:*^promo-
-|http*:*^promo.
+|http*:*^promo.$domain=~mail.ru
 |http*:*^promo^$domain=~mail.ru
 |http*:*^promo_$domain=~vk.com
 |http*:*^promoted-
@@ -1318,6 +1330,10 @@
 |http*:*_gscounters.$important
 |http*:*_gscounters^$important
 |http*:*_gscounters_$important
+|http*:*_gstat-
+|http*:*_gstat.
+|http*:*_gstat^
+|http*:*_gstat_
 |http*:*_js-stats-$important
 |http*:*_js-stats.$important
 |http*:*_js-stats^$important
