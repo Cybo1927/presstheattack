@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
-! Last modified: 2019-03-06 22:43:06
-! Version: 20190306224306
+! Last modified: 2019-03-06 23:02:34
+! Version: 20190306230234
 ! Expires: 3 hours
-! Number of filters: 4812
+! Number of filters: 4813
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -3819,6 +3819,7 @@ yandex.by,yandex.ru,yandex.ua##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_fi
 |http*:*/xmr.min.js$important,script
 |http*:*/yads.js$important,script
 |http*:*?*&ip=$third-party
+|http*:*?*&lp=*id=$popup
 |http*:*?ip=$third-party
 |http*:*?lp=*id=$popup
 |http*:*?perfekt=wss://*^$important
