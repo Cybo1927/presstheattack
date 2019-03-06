@@ -22,10 +22,6 @@ fi
 
 sleep .5
 
-python ./FOP.py $SRC
-sed -i "s/## + js/##+js/g" $SRC/resources.txt
-sed -i "s/math.random/Math.random/g" $SRC/resources.txt
-sed -i "s/element.prototype/Element.prototype/g" $SRC/resources.txt
 cp $SRC/combined.txt $TEMP
 cp $SRC/dom.txt $TEMP
 cp $SRC/frame.txt $TEMP
