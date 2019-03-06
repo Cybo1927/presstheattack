@@ -5,7 +5,7 @@
 /^https?:\/\/cdn[0-9]{1,2}?\.rocks\/[^\s]{30,}\.js/$important,script
 /me([0-9]{1})?w\.js/$important,script
 /webmr([0-9]{1,2})?\.js/$important,script
-|http*:*-coin-hive.js$script,important
+|http*:*-coin-hive.js$important,script
 |http*:*/*-gtm.js$important,script
 |http*:*/*_gtm.js$important,script
 |http*:*/*ping.js$important,script
@@ -25,9 +25,9 @@
 |http*:*/antiadb.js$important,script
 |http*:*/apstag.js$important,script
 |http*:*/async-ads.js$important,script
-|http*:*/authedmine.min.js$script,important
+|http*:*/authedmine.min.js$important,script
 |http*:*/authedminer.js$important,script
-|http*:*/bitcoincore/?ref=$script,important
+|http*:*/bitcoincore/?ref=$important,script
 |http*:*/browsermine.js$important,script
 |http*:*/c-hive.js$important,script
 |http*:*/c.js$important,script
@@ -41,7 +41,7 @@
 |http*:*/coinhive.min.js$important,script
 |http*:*/coinlab.js$important,script
 |http*:*/comscore.*.js$important,script
-|http*:*/count.json$script,important
+|http*:*/count.json$important,script
 |http*:*/crlt.js$important,script
 |http*:*/crypta.js$important,script
 |http*:*/cryptocpu.js$important,script
@@ -101,7 +101,7 @@
 |http*:*/streambeam-jw.js$important,script
 |http*:*/streambeam-video.js$important,script
 |http*:*/tracker.js$important,script
-|http*:*/uutils.fcg^$script,important
+|http*:*/uutils.fcg^$important,script
 |http*:*/videojs.ads.js$important,script
 |http*:*/wasmminer.js$important,script
 |http*:*/wasmminer.wasm$important,script
@@ -123,7 +123,7 @@
 ||cryptonoter.com/processor.js$important,script
 ||duckduckgo.com/y.js$important,script
 ||harvest.surge.sh/h.js$important,script
-||mail.ru/share_count^$script,important
+||mail.ru/share_count^$important,script
 ||mail.yandex.*^$first-party,important,script
 ||msecnd.net/scripts/jsll-*.js$important,script
 ||news.yandex.*^$first-party,important,script
@@ -131,7 +131,7 @@
 ||redditstatic.com/moat^$important,script
 ||top100.ru/top100/top100.js$important,script
 ||twitter.com/oct.js$important,script
-||ucoz.org/?*%21*%$script,important
+||ucoz.org/?*%21*%$important,script
 ||yandex.*/pogoda/$first-party,important,inline-script
 ||yastatic.net/daas/atom.js$important,script
 ||yimg.com/wi/ytc.js$important,script

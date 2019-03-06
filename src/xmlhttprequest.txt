@@ -1,5 +1,5 @@
 /^https?:\/\/contentbooster\.me+\/(?!manifest)[a-z0-9]{5,45}/$important,xmlhttprequest
-/^https?:\/\/s3\.amazonaws\.com\/.*[a-f0-9\/]{50,}/$third-party,xmlhttprequest,domain=~amazon.com
+/^https?:\/\/s3\.amazonaws\.com\/.*[a-f0-9\/]{50,}/$third-party,important,xmlhttprequest,domain=~amazon.com
 ||api.twitch.tv/*/channels/*/extensions^$xmlhttprequest
 ||github.com/_private/browser/stats^$important,xmlhttprequest
 ||pipe.aria.microsoft.com/collector^$important,xmlhttprequest
