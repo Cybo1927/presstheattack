@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
-! Last modified: 2019-03-07 22:07:49
-! Version: 20190307220749
+! Last modified: 2019-03-08 03:23:34
+! Version: 20190308032334
 ! Expires: 3 hours
-! Number of filters: 4853
+! Number of filters: 4857
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2761,6 +2761,8 @@
 */cleardot.png$image,important,redirect=1x1-transparent.gif
 */empty.gif$image,important,redirect=1x1-transparent.gif
 */empty.png$image,important,redirect=1x1-transparent.gif
+*/event.gif$image,important,redirect=1x1-transparent.gif
+*/event.png$image,important,redirect=1x1-transparent.gif
 */i.gif$image,important,redirect=1x1-transparent.gif
 */i.png$image,important,redirect=1x1-transparent.gif
 */lumbar.gif$image,important,redirect=1x1-transparent.gif
@@ -2780,6 +2782,8 @@
 */s.png$image,important,redirect=1x1-transparent.gif
 */spacer.gif$image,important,redirect=1x1-transparent.gif
 */spacer.png$image,important,redirect=1x1-transparent.gif
+*/stat.gif$image,important,redirect=1x1-transparent.gif
+*/stat.png$image,important,redirect=1x1-transparent.gif
 */track-user.gif$image,important,redirect=1x1-transparent.gif
 */track-user.png$image,important,redirect=1x1-transparent.gif
 */view.gif$image,important,redirect=1x1-transparent.gif
@@ -2799,7 +2803,7 @@
 /\/fp([0-9]{1,2})?\.js/$important,script
 /^https?:\/\/(([0-9]{1,2})?l\-hit|([0-9]{1,2})?l-view|r([0-9]{1,2})?|rs|top\-fwz([0-9]{1,2})?|vk\.go|reklama|ad|ads|recostream\.go|[^\s]{10,}\.top|mediator|[^\s]{3,}\.radar|g?stat|top)\.(imgs)?mail\.ru/$important
 /^https?:\/\/(([0-9]{1,2})?l\-hit|([0-9]{1,2})?l-view|r([0-9]{1,2})?|rs|top\-fwz([0-9]{1,2})?|vk\.go|reklama|ad|ads|recostream\.go|[^\s]{10,}\.top|mediator|[^\s]{3,}\.radar|g?stat|top)\.(imgs)?mail\.ru/$important,popup
-/^https?:\/\/([^\s]{1,})?(88|468|100|728|120|125|234|250|392|400|470)(\-|x|\_)(40|72|250|31|60|100|31|90|80|240|600|125)([^\s]{1,})?\.(png|gif|jpe?g)/$image
+/^https?:\/\/([^\s]{1,})?(88|468|100|728|120|125|234|250|392|400|470|75)(\-|x|\_)(75|40|72|250|31|60|100|31|90|80|240|600|125)([^\s]{1,})?\.(png|gif|jpe?g)/$image
 /^https?:\/\/([^\s]{2,}\.)?(id|adservice|mobilecrashreporting|imasdk|tagmanager)\.google(apis)?\.\w{2,}/$important
 /^https?:\/\/([^\s]{2,}\.)?google(\-analytics|syndication|tagmanager|adservices|tagservices)\.\w{2,}/$important
 /^https?:\/\/(an|awaps|awsync|appmetrica|bs|direct|grade\.market|informer|kiks|clck|main\.zdevx|mc|web\-metrica|yabs|zen|browser\-updater|bs\-meta)\.yandex\.\w{2,}/$important

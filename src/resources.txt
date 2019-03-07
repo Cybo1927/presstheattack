@@ -13,6 +13,8 @@
 */a.png$image,important,redirect=1x1-transparent.gif
 */ad.gif$image,important,redirect=1x1-transparent.gif
 */ad.png$image,important,redirect=1x1-transparent.gif
+*/stat.gif$image,important,redirect=1x1-transparent.gif
+*/stat.png$image,important,redirect=1x1-transparent.gif
 */ads.gif$image,important,redirect=1x1-transparent.gif
 */ads.png$image,important,redirect=1x1-transparent.gif
 */blank.gif$image,important,redirect=1x1-transparent.gif
@@ -20,6 +22,8 @@
 */c.gif$image,important,redirect=1x1-transparent.gif
 */c.png$image,important,redirect=1x1-transparent.gif
 */cleardot.gif$image,important,redirect=1x1-transparent.gif
+*/event.gif$image,important,redirect=1x1-transparent.gif
+*/event.png$image,important,redirect=1x1-transparent.gif
 */cleardot.png$image,important,redirect=1x1-transparent.gif
 */empty.gif$image,important,redirect=1x1-transparent.gif
 */empty.png$image,important,redirect=1x1-transparent.gif
