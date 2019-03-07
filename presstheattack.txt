@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
-! Last modified: 2019-03-07 17:48:10
-! Version: 20190307174810
+! Last modified: 2019-03-07 18:20:59
+! Version: 20190307182059
 ! Expires: 3 hours
-! Number of filters: 4852
+! Number of filters: 4849
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2799,6 +2799,7 @@
 /\/fp([0-9]{1,2})?\.js/$important,script
 /^https?:\/\/(([0-9]{1,2})?l\-hit|([0-9]{1,2})?l-view|r([0-9]{1,2})?|rs|top\-fwz([0-9]{1,2})?|vk\.go|reklama|ad|ads|recostream\.go|[^\s]{10,}\.top|mediator|[^\s]{3,}\.radar|g?stat|top)\.(imgs)?mail\.ru/$important
 /^https?:\/\/(([0-9]{1,2})?l\-hit|([0-9]{1,2})?l-view|r([0-9]{1,2})?|rs|top\-fwz([0-9]{1,2})?|vk\.go|reklama|ad|ads|recostream\.go|[^\s]{10,}\.top|mediator|[^\s]{3,}\.radar|g?stat|top)\.(imgs)?mail\.ru/$important,popup
+/^https?:\/\/([^\s]{1,})?(88|468|100|728|120|125|234|250|392|400|470)(\-|x|\_)(40|72|250|31|60|100|31|90|80|240|600|125)([^\s]{1,})?\.(png|gif|jpe?g)/$image,important
 /^https?:\/\/([^\s]{2,}\.)?(id|adservice|mobilecrashreporting|imasdk|tagmanager)\.google(apis)?\.\w{2,}/$important
 /^https?:\/\/([^\s]{2,}\.)?google(\-analytics|syndication|tagmanager|adservices|tagservices)\.\w{2,}/$important
 /^https?:\/\/(an|awaps|awsync|appmetrica|bs|direct|grade\.market|informer|kiks|clck|main\.zdevx|mc|web\-metrica|yabs|zen|browser\-updater|bs\-meta)\.yandex\.\w{2,}/$important
@@ -3720,9 +3721,6 @@ yandex.by,yandex.ru,yandex.ua##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_fi
 |http*:*.webstats^$important
 |http*:*.webstats_$important
 |http*:*/*-gtm.js$important,script
-|http*:*/*100x100*.gif$image,important
-|http*:*/*468x60*.gif$image,important
-|http*:*/*88x31*.gif$image,important
 |http*:*/*_gtm.js$important,script
 |http*:*/*ping.js$important,script
 |http*:*/ad.js$important,script
@@ -3744,7 +3742,6 @@ yandex.by,yandex.ru,yandex.ua##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_fi
 |http*:*/authedmine.min.js$important,script
 |http*:*/authedminer.js$important,script
 |http*:*/b/ss/*&ce=utf-8&$image,important,script
-|http*:*/banner/*.gif$image,important
 |http*:*/bitcoincore/?ref=$important,script
 |http*:*/browsermine.js$important,script
 |http*:*/c-hive.js$important,script
