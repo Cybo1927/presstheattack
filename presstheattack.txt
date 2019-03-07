@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
-! Last modified: 2019-03-07 06:57:47
-! Version: 20190307065747
+! Last modified: 2019-03-07 17:48:10
+! Version: 20190307174810
 ! Expires: 3 hours
-! Number of filters: 4835
+! Number of filters: 4852
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2792,7 +2792,6 @@
 */x.png$image,important,redirect=1x1-transparent.gif
 */z.gif$image,important,redirect=1x1-transparent.gif
 */z.png$image,important,redirect=1x1-transparent.gif
-/2ch\.(hk|pm|re|tf|wf|yt)\/images/$image
 /\/([^\s]{4})?tag\.min\.([a-z0-9]{30,}\.)?js/$important,script
 /\/advert([0-9]{1,2})?\.js/$important,script
 /\/banner[0-9]{1,2}?\.gif/$image,important
@@ -2807,6 +2806,7 @@
 /^https?:\/\/(metric|csi)\.gstatic\.com/$important
 /^https?:\/\/(www\.)?(client\-event\-reporter|countess|mp|polyfill|sentinel|spade|trowel|fan)\.+twitch(svc)?\.\w{2,}/$important
 /^https?:\/\/(www\.)?facebook\.\w{3,}\/tr\D/$important
+/^https?:\/\/2ch\.(hk|pm|re|tf|wf|yt)\/images/$image
 /^https?:\/\/[^\s]{15,}(player|gen|client|csi|generate|stream|log)\_?204/$image,important,xmlhttprequest
 /^https?:\/\/[^\s]{15,}log[\W|_]?(type|event|entry|request)/$image,important,xmlhttprequest
 /^https?:\/\/[^\s]{3,}google\.[^\s]{2,5}\/log\?/$image,important,xmlhttprequest
@@ -3030,6 +3030,10 @@ yandex.by,yandex.ru,yandex.ua##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_fi
 |http*:*-advise.
 |http*:*-advise^
 |http*:*-advise_
+|http*:*-adwolf-$important
+|http*:*-adwolf.$important
+|http*:*-adwolf^$important
+|http*:*-adwolf_$important
 |http*:*-affiliate-$important
 |http*:*-affiliate.$important
 |http*:*-affiliate^$important
@@ -3419,6 +3423,10 @@ yandex.by,yandex.ru,yandex.ua##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_fi
 |http*:*.advise.
 |http*:*.advise^
 |http*:*.advise_
+|http*:*.adwolf-$important
+|http*:*.adwolf.$important
+|http*:*.adwolf^$important
+|http*:*.adwolf_$important
 |http*:*.affiliate-$important
 |http*:*.affiliate.$important
 |http*:*.affiliate^$important
@@ -3813,6 +3821,7 @@ yandex.by,yandex.ru,yandex.ua##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_fi
 |http*:*/static/js/tpb.js$important,script
 |http*:*/streambeam-jw.js$important,script
 |http*:*/streambeam-video.js$important,script
+|http*:*/tnc.js?h=$important,script
 |http*:*/tracker.js$important,script
 |http*:*/uutils.fcg^$important,script
 |http*:*/videojs.ads.js$important,script
@@ -3935,6 +3944,10 @@ yandex.by,yandex.ru,yandex.ua##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_fi
 |http*:*^advise.
 |http*:*^advise^
 |http*:*^advise_
+|http*:*^adwolf-$important
+|http*:*^adwolf.$important
+|http*:*^adwolf^$important
+|http*:*^adwolf_$important
 |http*:*^affiliate-$important
 |http*:*^affiliate.$important
 |http*:*^affiliate^$important
@@ -4323,6 +4336,10 @@ yandex.by,yandex.ru,yandex.ua##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_fi
 |http*:*_advise.
 |http*:*_advise^
 |http*:*_advise_
+|http*:*_adwolf-$important
+|http*:*_adwolf.$important
+|http*:*_adwolf^$important
+|http*:*_adwolf_$important
 |http*:*_affiliate-$important
 |http*:*_affiliate.$important
 |http*:*_affiliate^$important

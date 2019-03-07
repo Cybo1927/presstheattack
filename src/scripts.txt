@@ -18,6 +18,7 @@
 |http*:*/adrum.js^$important,script
 |http*:*/ads.js$important,script
 |http*:*/adsbygoogle.js$important,script
+|http*:*/tnc.js?h=$important,script
 |http*:*/adsdk.js$important,script
 |http*:*/advertising.js$important,script
 |http*:*/analytics.js$important,script

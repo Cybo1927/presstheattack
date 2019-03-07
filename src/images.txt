@@ -1,5 +1,5 @@
 /\/banner[0-9]{1,2}?\.gif/$image,important
-/2ch\.(hk|pm|re|tf|wf|yt)\/images/$image
+/^https?:\/\/2ch\.(hk|pm|re|tf|wf|yt)\/images/$image
 1xbet$image,important
 1xstavka$image,important
 GGBET$image
