@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
-! Last modified: 2019-03-07 18:20:59
-! Version: 20190307182059
+! Last modified: 2019-03-07 18:43:05
+! Version: 20190307184305
 ! Expires: 3 hours
-! Number of filters: 4849
+! Number of filters: 4852
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2817,7 +2817,7 @@
 /^https?:\/\/cdn[0-9]{1,2}?\.rocks\/[^\s]{30,}\.js/$important,script
 /^https?:\/\/collector[0-9]{1,2}\.xhamster\.[a-z]{3}/$important
 /^https?:\/\/contentbooster\.me+\/(?!manifest)[a-z0-9]{5,45}/$important,xmlhttprequest
-/^https?:\/\/graph\.(facebook|instagram)\.com/$important,script,image
+/^https?:\/\/graph\.(facebook|instagram)\.com/$important,script,image,xmlhttprequest
 /^https?:\/\/log[0-9]{1,2}?\./$important
 /^https?:\/\/news\.yandex\.[^\s]{2,5}\/[^\s]{300,}/$important,subdocument,xmlhttprequest
 /^https?:\/\/p([0-9]{1,2})?\./$important
@@ -3742,6 +3742,7 @@ yandex.by,yandex.ru,yandex.ua##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_fi
 |http*:*/authedmine.min.js$important,script
 |http*:*/authedminer.js$important,script
 |http*:*/b/ss/*&ce=utf-8&$image,important,script
+|http*:*/banner/*.gif$image,important
 |http*:*/bitcoincore/?ref=$important,script
 |http*:*/browsermine.js$important,script
 |http*:*/c-hive.js$important,script
@@ -4645,12 +4646,14 @@ yandex.by,yandex.ru,yandex.ua##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_fi
 ||admixer.net^$important
 ||adnxs.com^$important
 ||adobedtm.com^$important
+||adpartner.*^$important
 ||adriver.ru^$important
 ||ads-twitter.com^$important
 ||adsafeprotected.com^$important
 ||adswrapme.click^$important
 ||adsymptotic.com^$important
 ||adtechus.com^$important
+||adtelligent.com^$important
 ||advertising.com^$important
 ||advertserve.com^$important
 ||advideo.ru^$important
