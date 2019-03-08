@@ -1161,7 +1161,7 @@
 |http*:*^track_
 |http*:*^tracker-
 |http*:*^tracker.
-|http*:*^tracker^
+|http*:*^tracker^$domain=~fandom.com
 |http*:*^tracker_
 |http*:*^tracking-
 |http*:*^tracking.

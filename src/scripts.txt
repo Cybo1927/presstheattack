@@ -15,6 +15,7 @@
 |http*:*/adbp.js$important,script
 |http*:*/adframe.js$important,script
 |http*:*/adriver.*.js$important,script
+||amazonaws.com/ki.js$script,important
 |http*:*/adrum.js^$important,script
 |http*:*/ads.js$important,script
 |http*:*/adsbygoogle.js$important,script
