@@ -14,6 +14,7 @@
 |http*:*/adblockr.javascript$important,script
 |http*:*/adbp.js$important,script
 |http*:*/adframe.js$important,script
+|http*:*/prum.$script,important
 |http*:*/adriver.*.js$important,script
 ||amazonaws.com/ki.js$script,important
 |http*:*/adrum.js^$important,script
