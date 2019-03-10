@@ -17,6 +17,9 @@
 */stat.png$image,important,redirect=1x1-transparent.gif
 */ads.gif$image,important,redirect=1x1-transparent.gif
 */ads.png$image,important,redirect=1x1-transparent.gif
+||yandex.ru/portal/*$image,important,redirect=1x1-transparent.gif
+||yandex.ru/portal/*$important,redirect=noopframe,subdocument
+||yastatic.net/*/react-with-dom.min.js$script,important
 */blank.gif$image,important,redirect=1x1-transparent.gif
 */blank.png$image,important,redirect=1x1-transparent.gif
 */c.gif$image,important,redirect=1x1-transparent.gif
