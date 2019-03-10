@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
-! Last modified: 2019-03-10 23:15:53
-! Version: 20190310231553
+! Last modified: 2019-03-10 23:30:05
+! Version: 20190310233005
 ! Expires: 3 hours
 ! Number of filters: 4925
 ! Homepage: https://github.com/bogachenko/presstheattack/
@@ -2801,8 +2801,8 @@
 /\/banner[0-9]{1,2}?\.gif/$image,important
 /\/fingerprint([0-9]{1,2})?\.js/$important,script
 /\/fp([0-9]{1,2})?\.js/$important,script
-/^https?:\/\/(([0-9]{1,2})?l\-hit|([0-9]{1,2})?l-view|r([0-9]{1,2})?|rs|top\-fwz([0-9]{1,2})?|vk\.go|reklama|ad|ads|recostream\.go|[^\s]{10,}\.top|mediator|[^\s]{3,}\.radar|g?stat|top)\.(imgs)?mail\.ru/$important,popup
 /^https?:\/\/(([0-9]{1,2})?l\-hit|([0-9]{1,2})?l-view|r([0-9]{1,2})?|rs|top\-fwz([0-9]{1,2})?|vk\.go|reklama|ad|ads|recostream\.go|[^\s]{10,}\.top|mediator|[^\s]{3,}\.radar|g?stat|top|xray)\.(imgs)?mail\.ru/$important
+/^https?:\/\/(([0-9]{1,2})?l\-hit|([0-9]{1,2})?l-view|r([0-9]{1,2})?|rs|top\-fwz([0-9]{1,2})?|vk\.go|reklama|ad|ads|recostream\.go|[^\s]{10,}\.top|mediator|[^\s]{3,}\.radar|g?stat|top|xray)\.(imgs)?mail\.ru/$important,popup
 /^https?:\/\/([^\s]{1,})?(88|468|100|728|120|125|234|250|392|400|470|75)(\-|x|\_)(75|40|72|250|31|60|100|31|90|80|240|600|125)([^\s]{1,})?\.(png|gif|jpe?g)/$image
 /^https?:\/\/([^\s]{2,}\.)?(id|adservice|mobilecrashreporting|imasdk|tagmanager)\.google(apis)?\.\w{2,}/$important
 /^https?:\/\/([^\s]{2,}\.)?google(\-analytics|syndication|tagmanager|adservices|tagservices)\.\w{2,}/$important
