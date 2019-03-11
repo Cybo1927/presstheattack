@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
-! Last modified: 2019-03-10 23:30:05
-! Version: 20190310233005
+! Last modified: 2019-03-11 19:42:19
+! Version: 20190311194219
 ! Expires: 3 hours
-! Number of filters: 4925
+! Number of filters: 4940
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2987,7 +2987,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*-adv-
 |http*:*-adv.
 |http*:*-adv^
-|http*:*-adv_
+|http*:*-adv_$domain=~yandex.ru|~yandex.ua|~yandex.by
 |http*:*-advert-$important
 |http*:*-advert.$important
 |http*:*-advert^$important
@@ -3285,6 +3285,10 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*-teaser.$domain=~urbia.de
 |http*:*-teaser^
 |http*:*-teaser_
+|http*:*-tizers-
+|http*:*-tizers.
+|http*:*-tizers^
+|http*:*-tizers_
 |http*:*-track-$domain=~music.yandex.by|~music.yandex.ru|~music.yandex.ua
 |http*:*-track.
 |http*:*-track^
@@ -3531,7 +3535,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*.jstatphp_$important
 |http*:*.log-
 |http*:*.log.
-|http*:*.log^
+|http*:*.log^$domain=~lgtm.com
 |http*:*.log_
 |http*:*.logpopup-$important
 |http*:*.logpopup.$important
@@ -3697,6 +3701,10 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*.teaser.
 |http*:*.teaser^
 |http*:*.teaser_
+|http*:*.tizers-
+|http*:*.tizers.
+|http*:*.tizers^
+|http*:*.tizers_
 |http*:*.track-
 |http*:*.track.
 |http*:*.track^
@@ -4237,6 +4245,10 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*^teaser.
 |http*:*^teaser^$domain=~urbia.de
 |http*:*^teaser_
+|http*:*^tizers-
+|http*:*^tizers.
+|http*:*^tizers^
+|http*:*^tizers_
 |http*:*^track-$domain=~music.yandex.by|~music.yandex.ru|~music.yandex.ua
 |http*:*^track.$domain=~music.yandex.by|~music.yandex.ru|~music.yandex.ua
 |http*:*^track^$domain=~ivi.tv|~music.yandex.by|~music.yandex.ru|~music.yandex.ua
@@ -4649,6 +4661,10 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*_teaser.
 |http*:*_teaser^
 |http*:*_teaser_
+|http*:*_tizers-
+|http*:*_tizers.
+|http*:*_tizers^
+|http*:*_tizers_
 |http*:*_track-$domain=~music.yandex.by|~music.yandex.ru|~music.yandex.ua
 |http*:*_track.
 |http*:*_track^
@@ -4933,7 +4949,6 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||yandex.ru/portal/ntp/banner$important,redirect=noopframe,subdocument
 ||yandex.st^$domain=~yandex.by|~yandex.ru|~yandex.ua
 ||yastatic.net/*/*.gif$image,important,redirect=1x1-transparent.gif
-||yastatic.net/*/react-with-dom.min.js$script,important
 ||yastatic.net/*/zen-lib/$important,script,xmlhttprequest,stylesheet
 ||yastatic.net/daas/atom.js$important,script
 ||yastatic.net^$important,popup
