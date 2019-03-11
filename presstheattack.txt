@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
-! Last modified: 2019-03-11 19:42:19
-! Version: 20190311194219
+! Last modified: 2019-03-12 02:19:55
+! Version: 20190312021955
 ! Expires: 3 hours
-! Number of filters: 4940
+! Number of filters: 4942
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2826,7 +2826,7 @@
 /^https?:\/\/news\.yandex\.[^\s]{2,5}\/[^\s]{300,}/$important,subdocument,xmlhttprequest
 /^https?:\/\/p([0-9]{1,2})?\./$important
 /^https?:\/\/s3\.amazonaws\.com\/.*[a-f0-9\/]{50,}/$third-party,important,xmlhttprequest,domain=~amazon.com
-/^https?:\/\/tv\.yandex\.[^\s]{2,5}\/[^\s]{300,}/$important,subdocument,xmlhttprequest
+/^https?:\/\/tv\.yandex\.[^\s]{2,5}\/[^\s]{270,}/$important,xmlhttprequest,image,subdocument
 /^https?:\/\/yandex\.[^\s]{2,5}\/images/(?!(search\?rpt=\imageview)|(search\?callback\=jQuery)|(search\?exp_flags=)|(search\?serpid=)|(touch/search?))[^\s]{80,}/$important,subdocument,xmlhttprequest
 /^https?:\/\/yastatic\.net\/[^\s]{500,}/$domain=~vh.yandex.ru
 /^https?:\/\/zmctrack\.(com|net)/$important
@@ -2904,6 +2904,7 @@ twitch.tv##a[href*="mercedes-benz.com"] > img
 twitch.tv##a[href*="mybestcontent.ru"] > img
 twitch.tv##a[href*="noblechairs.com"] > img
 twitch.tv##a[href*="poker"] > img
+twitch.tv##a[href*="streamfest.ru"] > img
 twitch.tv##a[href*="suveniry"] > img
 twitch.tv##a[href*="upskill.ru"] > img
 twitch.tv##a[href*="vk.cc"] > img
@@ -2916,6 +2917,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(AdvManager)
 yandex.by,yandex.ru,yandex.ua##^script:has-text(defaultMetrikaCounter)
 yandex.by,yandex.ru,yandex.ua##^script:has-text(devicePixelRatio)
 yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
+yandex.ru##+js(abort-on-property-read.js, IntersectionObserver)
 |http*:*-ad-
 |http*:*-ad-sdk-$important
 |http*:*-ad-sdk.$important

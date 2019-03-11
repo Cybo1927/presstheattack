@@ -4,11 +4,11 @@
 @@||googlevideo.com/*?*&ip=$third-party
 @@||googlevideo.com/*?ip=$third-party
 @@||img-*.xvideos-cdn.com/videos/thumbs*/ad/$image
+@@||jtvnw.net^$image,domain=twitch.tv
 @@||platform.twitter.com/widgets^$subdocument
 @@||strm.yandex.net^$xmlhttprequest
 @@||strm.yandex.ru^$xmlhttprequest
 @@||ttvnw.net^$xmlhttprequest,domain=twitch.tv
-@@||jtvnw.net^$image,domain=twitch.tv
 @@||vk.com/widget_auth.php^$subdocument
 @@||vk.com/widget_comments.php^$subdocument
 @@||vk.com/widget_community.php^$subdocument

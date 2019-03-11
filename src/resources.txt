@@ -1,34 +1,30 @@
-*/*pixel.gif$image,important,redirect=1x1-transparent.gif
-*/*pixel.png$image,important,redirect=1x1-transparent.gif
 */0.gif$image,important,redirect=1x1-transparent.gif
 */0.png$image,important,redirect=1x1-transparent.gif
 */1x1.gif$image,important,redirect=1x1-transparent.gif
 */1x1.png$image,important,redirect=1x1-transparent.gif
 */2x2.png$image,important,redirect=2x2-transparent.png
-*/32x32.gif$image,important,redirect=32x32-transparent.png
-*/32x32.png$image,important,redirect=32x32-transparent.png
 */3x2.gif$image,important,redirect=3x2-transparent.png
 */3x2.png$image,important,redirect=3x2-transparent.png
+*/32x32.gif$image,important,redirect=32x32-transparent.png
+*/32x32.png$image,important,redirect=32x32-transparent.png
+*/*pixel.gif$image,important,redirect=1x1-transparent.gif
+*/*pixel.png$image,important,redirect=1x1-transparent.gif
 */a.gif$image,important,redirect=1x1-transparent.gif
 */a.png$image,important,redirect=1x1-transparent.gif
 */ad.gif$image,important,redirect=1x1-transparent.gif
 */ad.png$image,important,redirect=1x1-transparent.gif
-*/stat.gif$image,important,redirect=1x1-transparent.gif
-*/stat.png$image,important,redirect=1x1-transparent.gif
 */ads.gif$image,important,redirect=1x1-transparent.gif
 */ads.png$image,important,redirect=1x1-transparent.gif
-||yandex.ru/portal/*$image,important,redirect=1x1-transparent.gif
-||yandex.ru/portal/*$important,redirect=noopframe,subdocument
 */blank.gif$image,important,redirect=1x1-transparent.gif
 */blank.png$image,important,redirect=1x1-transparent.gif
 */c.gif$image,important,redirect=1x1-transparent.gif
 */c.png$image,important,redirect=1x1-transparent.gif
 */cleardot.gif$image,important,redirect=1x1-transparent.gif
-*/event.gif$image,important,redirect=1x1-transparent.gif
-*/event.png$image,important,redirect=1x1-transparent.gif
 */cleardot.png$image,important,redirect=1x1-transparent.gif
 */empty.gif$image,important,redirect=1x1-transparent.gif
 */empty.png$image,important,redirect=1x1-transparent.gif
+*/event.gif$image,important,redirect=1x1-transparent.gif
+*/event.png$image,important,redirect=1x1-transparent.gif
 */i.gif$image,important,redirect=1x1-transparent.gif
 */i.png$image,important,redirect=1x1-transparent.gif
 */lumbar.gif$image,important,redirect=1x1-transparent.gif
@@ -48,6 +44,8 @@
 */s.png$image,important,redirect=1x1-transparent.gif
 */spacer.gif$image,important,redirect=1x1-transparent.gif
 */spacer.png$image,important,redirect=1x1-transparent.gif
+*/stat.gif$image,important,redirect=1x1-transparent.gif
+*/stat.png$image,important,redirect=1x1-transparent.gif
 */track-user.gif$image,important,redirect=1x1-transparent.gif
 */track-user.png$image,important,redirect=1x1-transparent.gif
 */view.gif$image,important,redirect=1x1-transparent.gif
@@ -64,8 +62,8 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 kinopoisk.ru##+js(abort-on-property-read.js, advBlock)
 kinopoisk.ru##+js(cookie-remover.js, /blcrm|bltsr|cmtchd|crookie|kpunk|yandex_plus_metrika_cookie)
 kinopoisk.ru##+js(setInterval-defuser.js, (), 500)
-kinopoisk.ru##^script:has-text(advBlock)
 kinopoisk.ru##^script:has-text(DOMContentLoaded)
+kinopoisk.ru##^script:has-text(advBlock)
 kinopoisk.ru##^script:has-text(window.Metrika)
 kinopoisk.ru,yandex.by,yandex.ru,yandex.ua##+js(abort-on-property-read.js, Element.prototype.attachShadow)
 rambler.ru##^script:has-text((Number,)
@@ -79,6 +77,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(AdvManager)
 yandex.by,yandex.ru,yandex.ua##^script:has-text(defaultMetrikaCounter)
 yandex.by,yandex.ru,yandex.ua##^script:has-text(devicePixelRatio)
 yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
+yandex.ru##+js(abort-on-property-read.js, IntersectionObserver)
 ||an.yandex.by^$image,important,redirect=1x1-transparent.gif
 ||an.yandex.by^$xmlhttprequest,important,redirect=noopjs
 ||an.yandex.by^$xmlhttprequest,important,redirect=nooptext
@@ -111,8 +110,8 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||mc.yandex.ru^$important,image,redirect=1x1-transparent.gif
 ||mc.yandex.ru^$important,redirect=noopjs,script
 ||pagead2.googlesyndication.com/pagead/show_ads.js$important,redirect=noopjs,script
-||scontent.xx.fbcdn.net/hads-ak-prn*/*.png$image,important,redirect=1x1-transparent.gif
 ||scontent.xx.fbcdn23dssr3jqnq.onion/hads-ak-prn*/*.png$image,important,redirect=1x1-transparent.gif
+||scontent.xx.fbcdn.net/hads-ak-prn*/*.png$image,important,redirect=1x1-transparent.gif
 ||scorecardresearch.com/beacon.js$important,redirect=noopjs,script
 ||static-mon.yandex.net/static/main.js$script,redirect=noopjs,important
 ||static-mon.yandex.net/static/main.js$xmlhttprequest,redirect=nooptext,important
@@ -121,6 +120,8 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||yabs.yandex.ru^$image,important,redirect=1x1-transparent.gif
 ||yabs.yandex.ua^$image,important,redirect=1x1-transparent.gif
 ||yandex.net/get-direct$image,important,redirect=1x1-transparent.gif
+||yandex.ru/portal/*$image,important,redirect=1x1-transparent.gif
+||yandex.ru/portal/*$important,redirect=noopframe,subdocument
 ||yandex.ru/portal/ntp/banner$important,redirect=noopframe,subdocument
 ||yastatic.net/*/*.gif$image,important,redirect=1x1-transparent.gif
 ~mail.yandex.by,~mail.yandex.ru,~mail.yandex.ua,rambler.ru,yandex.by,yandex.ru,yandex.ua##+js(set-constant.js, Math.random, trueFunc)
