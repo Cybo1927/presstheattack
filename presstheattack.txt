@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
-! Last modified: 2019-03-12 19:57:01
-! Version: 20190312195701
+! Last modified: 2019-03-12 21:40:14
+! Version: 20190312214014
 ! Expires: 3 hours
 ! Number of filters: 5013
 ! Homepage: https://github.com/bogachenko/presstheattack/
@@ -4819,13 +4819,13 @@ yandex.ru##+js(abort-on-property-read.js, IntersectionObserver)
 ||amplitude.com^$important
 ||amung.us^$important
 ||an.yandex.by^$image,important,redirect=1x1-transparent.gif
-||an.yandex.by^$xmlhttprequest,important,redirect=noopjs
+||an.yandex.by^$script,important,redirect=noopjs
 ||an.yandex.by^$xmlhttprequest,important,redirect=nooptext
 ||an.yandex.ru^$image,important,redirect=1x1-transparent.gif
 ||an.yandex.ru^$script,important,redirect=noopjs
 ||an.yandex.ru^$xmlhttprequest,important,redirect=nooptext
 ||an.yandex.ua^$image,important,redirect=1x1-transparent.gif
-||an.yandex.ua^$xmlhttprequest,important,redirect=noopjs
+||an.yandex.ua^$script,important,redirect=noopjs
 ||an.yandex.ua^$xmlhttprequest,important,redirect=nooptext
 ||api.twitch.tv/*/channels/*/extensions^$xmlhttprequest
 ||atdmt.com^$important
@@ -5031,7 +5031,7 @@ yandex.ru##+js(abort-on-property-read.js, IntersectionObserver)
 ||youtube.com/api/stats^$image,important,xmlhttprequest
 ||youtube.com/get_midroll_info^$important,xmlhttprequest
 ||youtube.com/ptracking^$image,important
-||youtube.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.ggpht.com *.googlevideo.com *.ytimg.com *.googleusercontent.com www.youtube.com *.google.com
+||youtube.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.ggpht.com *.googlevideo.com *.ytimg.com *.googleusercontent.com www.youtube.com *.google.com *.gstatic.com
 ||ys3e965d.top^$important
 ||zmctrack.net^$important
 ||zqtk.net^$important

@@ -79,13 +79,13 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(devicePixelRatio)
 yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 yandex.ru##+js(abort-on-property-read.js, IntersectionObserver)
 ||an.yandex.by^$image,important,redirect=1x1-transparent.gif
-||an.yandex.by^$xmlhttprequest,important,redirect=noopjs
+||an.yandex.by^$script,important,redirect=noopjs
 ||an.yandex.by^$xmlhttprequest,important,redirect=nooptext
 ||an.yandex.ru^$image,important,redirect=1x1-transparent.gif
 ||an.yandex.ru^$script,important,redirect=noopjs
 ||an.yandex.ru^$xmlhttprequest,important,redirect=nooptext
 ||an.yandex.ua^$image,important,redirect=1x1-transparent.gif
-||an.yandex.ua^$xmlhttprequest,important,redirect=noopjs
+||an.yandex.ua^$script,important,redirect=noopjs
 ||an.yandex.ua^$xmlhttprequest,important,redirect=nooptext
 ||awaps.yandex.by^$image,important,redirect=1x1-transparent.gif
 ||awaps.yandex.by^$important,redirect=noopframe,subdocument
