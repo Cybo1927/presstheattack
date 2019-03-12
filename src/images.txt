@@ -76,5 +76,5 @@ GGBET$image
 ||yandex.net/get-direct$image,important
 ||yandex.net/images/film_background/*$image,domain=kinopoisk.ru
 ||yandex.ru/portal/*$image,important
-||yastatic.net/*/*.gif$image,important
+||yastatic.net/*.gif$image,important
 ||youtube.com/ptracking^$image,important

@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
-! Last modified: 2019-03-13 03:07:07
-! Version: 20190313030707
+! Last modified: 2019-03-13 03:30:49
+! Version: 20190313033050
 ! Expires: 3 hours
-! Number of filters: 5014
+! Number of filters: 5016
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2795,6 +2795,7 @@
 @@||yastatic.net/yandex-video-player-iframe-api-bundles^$subdocument
 GGBET$image
 google.*##+js(remove-attr.js, ping, div[class] > a[ping])
+kinopoisk.ru##+js(abort-on-property-read.js, advBlock)
 kinopoisk.ru##+js(cookie-remover.js, /^blcrm|^bltsr|^cmtchd|^crookie|^kpunk|^yandex_plus_metrika_cookie)
 kinopoisk.ru##^script:has-text(window.Metrika)
 rambler.ru##^script:has-text((Number,)
@@ -2847,6 +2848,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 xnxx.com,xvideos.com##+js(xvideos.com.js)
 xvideos.com##+js(nowebrtc.js)
 xvideos.com,xhamster.*##+js(window.open-defuser.js)
+yandex.by,yandex.ru,yandex.ua##+js(abort-on-property-read.js, advBlock)
 yandex.by,yandex.ru,yandex.ua##+js(cookie-remover.js, /yp|ys|yc|zm|yabs-sid|my|mda|spravka|^blcrm|^bltsr|^yabs|^YvUVZgzQ/)
 yandex.by,yandex.ru,yandex.ua##^script:has-text(AdvManager)
 yandex.by,yandex.ru,yandex.ua##^script:has-text(defaultMetrikaCounter)
@@ -5022,7 +5024,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||yandex.ru/portal/*$important,redirect=noopframe,subdocument
 ||yandex.ru/portal/ntp/banner$important,redirect=noopframe,subdocument
 ||yandex.st^$domain=~yandex.by|~yandex.ru|~yandex.ua
-||yastatic.net/*/*.gif$image,important
+||yastatic.net/*.gif$image,important
 ||yastatic.net/*/zen-lib/$important,script,xmlhttprequest,stylesheet
 ||yastatic.net/daas/atom.js$important,script
 ||yastatic.net^$important,popup
