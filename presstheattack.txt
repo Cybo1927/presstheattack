@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
-! Last modified: 2019-03-12 21:40:14
-! Version: 20190312214014
+! Last modified: 2019-03-12 23:41:43
+! Version: 20190312234143
 ! Expires: 3 hours
-! Number of filters: 5013
+! Number of filters: 5032
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2803,7 +2803,7 @@
 /\/fp([0-9]{1,2})?\.js/$important,script
 /^https?:\/\/(([0-9]{1,2})?l\-hit|([0-9]{1,2})?l-view|r([0-9]{1,2})?|rs|top\-fwz([0-9]{1,2})?|vk\.go|reklama|ad|ads|recostream\.go|[^\s]{10,}\.top|mediator|[^\s]{3,}\.radar|g?stat|top|xray)\.(imgs)?mail\.ru/$important
 /^https?:\/\/(([0-9]{1,2})?l\-hit|([0-9]{1,2})?l-view|r([0-9]{1,2})?|rs|top\-fwz([0-9]{1,2})?|vk\.go|reklama|ad|ads|recostream\.go|[^\s]{10,}\.top|mediator|[^\s]{3,}\.radar|g?stat|top|xray)\.(imgs)?mail\.ru/$important,popup
-/^https?:\/\/([^\s]{1,})?(88|468|100|728|120|125|234|250|392|400|470|75)(\-|x|\_)(75|40|72|250|31|60|100|31|90|80|240|600|125)([^\s]{1,})?\.(png|gif|jpe?g)/$image
+/^https?:\/\/([^\s]{1,})?(88|468|100|728|120|125|234|250|392|400|470|75)(\-|x|\_)(75|40|72|250|31|60|100|90|80|240|600|125)([^\s]{1,})?\.(png|gif|jpe?g)/$image,domain=~twitter.com
 /^https?:\/\/([^\s]{2,}\.)?(id|adservice|mobilecrashreporting|imasdk|tagmanager)\.google(apis)?\.\w{2,}/$important
 /^https?:\/\/([^\s]{2,}\.)?google(\-analytics|syndication|tagmanager|adservices|tagservices)\.\w{2,}/$important
 /^https?:\/\/(an|awaps|awsync|appmetrica|bs|direct|grade\.market|informer|kiks|clck|main\.zdevx|mc|web\-metrica|yabs|zen|browser\-updater|bs\-meta)\.yandex\.\w{2,}/$important
@@ -3077,6 +3077,10 @@ yandex.ru##+js(abort-on-property-read.js, IntersectionObserver)
 |http*:*-clicksor.
 |http*:*-clicksor^
 |http*:*-clicksor_
+|http*:*-clickunder-$important
+|http*:*-clickunder.$important
+|http*:*-clickunder^$important
+|http*:*-clickunder_$important
 |http*:*-clk-
 |http*:*-clk.
 |http*:*-clk^
@@ -3510,6 +3514,10 @@ yandex.ru##+js(abort-on-property-read.js, IntersectionObserver)
 |http*:*.clicksor.
 |http*:*.clicksor^
 |http*:*.clicksor_
+|http*:*.clickunder-$important
+|http*:*.clickunder.$important
+|http*:*.clickunder^$important
+|http*:*.clickunder_$important
 |http*:*.clk-
 |http*:*.clk.
 |http*:*.clk^
@@ -3813,6 +3821,7 @@ yandex.ru##+js(abort-on-property-read.js, IntersectionObserver)
 |http*:*/cloudcoins.js$important,script
 |http*:*/cloudcoins.min.js$important,script
 |http*:*/cn-asmjs.min.js$important,script
+|http*:*/code/bshow.php?$third-party,important
 |http*:*/coin-hive.js$important,script
 |http*:*/coinblind.js$important,script
 |http*:*/coinhive*.js$important,script
@@ -4073,6 +4082,10 @@ yandex.ru##+js(abort-on-property-read.js, IntersectionObserver)
 |http*:*^clicksor.
 |http*:*^clicksor^
 |http*:*^clicksor_
+|http*:*^clickunder-$important
+|http*:*^clickunder.$important
+|http*:*^clickunder^$important
+|http*:*^clickunder_$important
 |http*:*^clk-
 |http*:*^clk.
 |http*:*^clk^
@@ -4505,6 +4518,10 @@ yandex.ru##+js(abort-on-property-read.js, IntersectionObserver)
 |http*:*_clicksor.
 |http*:*_clicksor^
 |http*:*_clicksor_
+|http*:*_clickunder-$important
+|http*:*_clickunder.$important
+|http*:*_clickunder^$important
+|http*:*_clickunder_$important
 |http*:*_clk-
 |http*:*_clk.
 |http*:*_clk^
@@ -4908,6 +4925,7 @@ yandex.ru##+js(abort-on-property-read.js, IntersectionObserver)
 ||informers.*^$important
 ||ioam.de^$important
 ||ipinfo.io^$important
+||iwanttodeliver.com^$important
 ||justicejudo.com^$important
 ||kiks.yandex.ru^$image,important,redirect=1x1-transparent.gif
 ||kiks.yandex.ru^$important,redirect=noopframe,subdocument
@@ -5010,6 +5028,7 @@ yandex.ru##+js(abort-on-property-read.js, IntersectionObserver)
 ||webmasterplan.com^$important
 ||weborama.fr^$important
 ||xhamsterpremium.*^$important,third-party
+||xvideos.com/in.php^$important
 ||yabs.yandex.by^$image,important,redirect=1x1-transparent.gif
 ||yabs.yandex.ru^$image,important,redirect=1x1-transparent.gif
 ||yabs.yandex.ua^$image,important,redirect=1x1-transparent.gif

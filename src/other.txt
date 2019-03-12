@@ -1726,3 +1726,4 @@
 ||counter.*^$important
 ||informers.*^$important
 ||tag.*^$important
+||xvideos.com/in.php^$important
