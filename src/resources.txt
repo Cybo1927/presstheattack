@@ -1,20 +1,29 @@
 */ping^$important,redirect=noopframe,subdocument
 google.*##+js(remove-attr.js, ping, div[class] > a[ping])
+kinopoisk.ru##+js(abort-on-property-read.js, advBlock)
 kinopoisk.ru##+js(cookie-remover.js, /^blcrm|^bltsr|^cmtchd|^crookie|^kpunk|^yandex_plus_metrika_cookie)
 kinopoisk.ru##^script:has-text(window.Metrika)
-kinopoisk.ru##+js(abort-on-property-read.js, advBlock)
 rambler.ru##^script:has-text((Number,)
+tv.yandex.by##:xpath(/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/div[1]/section[1]/div[1]/div[22]/div[1]/div[1])
+tv.yandex.by##:xpath(/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/div[1]/section[1]/div[1]/div[23])
+tv.yandex.by##:xpath(/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/div[1]/section[2]/div[1]/div[1])
+tv.yandex.ru##:xpath(/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/div[1]/section[1]/div[1]/div[22]/div[1]/div[1])
+tv.yandex.ru##:xpath(/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/div[1]/section[1]/div[1]/div[23])
+tv.yandex.ru##:xpath(/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/div[1]/section[1]/div[2]/div[22]/div[1]/div[1])
+tv.yandex.ru##:xpath(/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/div[1]/section[2]/div[1]/div[1])
+tv.yandex.ua##:xpath(/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/div[1]/section[1]/div[1]/div[15])
+tv.yandex.ua##:xpath(/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/div[1]/section[1]/div[1]/div[15]/div[1]/div[1]/div[1])
 twitch.tv##+js(twitch-videoad.js)
 twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/):xpath(..)
 xnxx.com,xvideos.com##+js(xvideos.com.js)
 xvideos.com##+js(nowebrtc.js)
 xvideos.com,xhamster.*##+js(window.open-defuser.js)
+yandex.by,yandex.ru,yandex.ua##+js(abort-on-property-read.js, advBlock)
 yandex.by,yandex.ru,yandex.ua##+js(cookie-remover.js, /yp|ys|yc|zm|yabs-sid|my|mda|spravka|^blcrm|^bltsr|^yabs|^YvUVZgzQ/)
 yandex.by,yandex.ru,yandex.ua##^script:has-text(AdvManager)
 yandex.by,yandex.ru,yandex.ua##^script:has-text(defaultMetrikaCounter)
 yandex.by,yandex.ru,yandex.ua##^script:has-text(devicePixelRatio)
 yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
-yandex.by,yandex.ru,yandex.ua##+js(abort-on-property-read.js, advBlock)
 ||an.yandex.by^$script,important,redirect=noopjs
 ||an.yandex.by^$xmlhttprequest,important,redirect=nooptext
 ||an.yandex.ru^$script,important,redirect=noopjs
@@ -40,6 +49,4 @@ yandex.by,yandex.ru,yandex.ua##+js(abort-on-property-read.js, advBlock)
 ||scorecardresearch.com/beacon.js$important,redirect=noopjs,script
 ||static-mon.yandex.net/static/main.js$script,redirect=noopjs,important
 ||static-mon.yandex.net/static/main.js$xmlhttprequest,redirect=nooptext,important
-||yandex.ru/portal/*$important,redirect=noopframe,subdocument
-||yandex.ru/portal/ntp/banner$important,redirect=noopframe,subdocument
 ~mail.yandex.by,~mail.yandex.ru,~mail.yandex.ua,rambler.ru,yandex.by,yandex.ru,yandex.ua##+js(set-constant.js, Math.random, trueFunc)
