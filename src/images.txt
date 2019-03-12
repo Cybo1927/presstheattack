@@ -68,7 +68,13 @@ GGBET$image
 ||duckduckgo.com/t/$image,important
 ||mail.yandex.*/monitoring_liza.txt$image,important
 ||rover.ebay.*/roverimp/*&trknvp=$image,important
+||scontent.xx.fbcdn23dssr3jqnq.onion/hads-ak-prn*/*.png$image,important
+||scontent.xx.fbcdn.net/hads-ak-prn*/*.png$image,important
 ||vk.com/rtrg^$image,important
+||web.telegram.org/*/PhotoThumbConversation.gif$image,important,domain=telegram.org
 ||yahoo.co.jp/b?p=$image,important
+||yandex.net/get-direct$image,important
 ||yandex.net/images/film_background/*$image,domain=kinopoisk.ru
+||yandex.ru/portal/*$image,important
+||yastatic.net/*/*.gif$image,important
 ||youtube.com/ptracking^$image,important

@@ -55,15 +55,15 @@
 ||cdn.ziffstatic.com^$important
 ||chartbeat.com^$important
 ||clarium.global.ssl.fastly.net^$important
-||clck.ru^$document
+||clck.ru^
 ||clksite.com^$important
-||connect.facebook.net^$document
-||connect.ok.ru^$document
+||connect.facebook.net^
+||connect.ok.ru^
 ||cookielaw.org^$important
 ||cpaevent.ru^$important
 ||criteo.net^$important
 ||crwdcntrl.net^$important
-||cutter.li^$document
+||cutter.li^
 ||cy-pr.com^$important
 ||demdex.net^$important
 ||digitaltarget.ru^$important
@@ -82,7 +82,7 @@
 ||gemius.pl^$important
 ||geo.yahoo.com^$important
 ||gnezdo.ru^$important
-||goo.gl^$document
+||goo.gl^
 ||gostats.com^$important
 ||gostats.ru^$important
 ||grapeshot.co.uk^$important
@@ -163,7 +163,7 @@
 ||vadideo.com^$important
 ||veta.naver.com^$important
 ||vk-portal.net^$important
-||vk.cc^$document
+||vk.cc^
 ||vtracy.de^$important
 ||webmasterplan.com^$important
 ||weborama.fr^$important

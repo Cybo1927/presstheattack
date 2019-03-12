@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
-! Last modified: 2019-03-13 02:47:48
-! Version: 20190313024748
+! Last modified: 2019-03-13 03:07:07
+! Version: 20190313030707
 ! Expires: 3 hours
-! Number of filters: 5020
+! Number of filters: 5014
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2795,6 +2795,8 @@
 @@||yastatic.net/yandex-video-player-iframe-api-bundles^$subdocument
 GGBET$image
 google.*##+js(remove-attr.js, ping, div[class] > a[ping])
+kinopoisk.ru##+js(cookie-remover.js, /^blcrm|^bltsr|^cmtchd|^crookie|^kpunk|^yandex_plus_metrika_cookie)
+kinopoisk.ru##^script:has-text(window.Metrika)
 rambler.ru##^script:has-text((Number,)
 twitch.tv##+js(twitch-videoad.js)
 twitch.tv##a[href*="&BannerId="] > img
@@ -2845,6 +2847,11 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 xnxx.com,xvideos.com##+js(xvideos.com.js)
 xvideos.com##+js(nowebrtc.js)
 xvideos.com,xhamster.*##+js(window.open-defuser.js)
+yandex.by,yandex.ru,yandex.ua##+js(cookie-remover.js, /yp|ys|yc|zm|yabs-sid|my|mda|spravka|^blcrm|^bltsr|^yabs|^YvUVZgzQ/)
+yandex.by,yandex.ru,yandex.ua##^script:has-text(AdvManager)
+yandex.by,yandex.ru,yandex.ua##^script:has-text(defaultMetrikaCounter)
+yandex.by,yandex.ru,yandex.ua##^script:has-text(devicePixelRatio)
+yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*-ad-
 |http*:*-ad-sdk-$important
 |http*:*-ad-sdk.$important
@@ -4822,25 +4829,18 @@ xvideos.com,xhamster.*##+js(window.open-defuser.js)
 ||amplifypixel.outbrain.com^$important
 ||amplitude.com^$important
 ||amung.us^$important
-||an.yandex.by^$image,important,redirect=1x1-transparent.gif
 ||an.yandex.by^$script,important,redirect=noopjs
 ||an.yandex.by^$xmlhttprequest,important,redirect=nooptext
-||an.yandex.ru^$image,important,redirect=1x1-transparent.gif
 ||an.yandex.ru^$script,important,redirect=noopjs
 ||an.yandex.ru^$xmlhttprequest,important,redirect=nooptext
-||an.yandex.ua^$image,important,redirect=1x1-transparent.gif
 ||an.yandex.ua^$script,important,redirect=noopjs
 ||an.yandex.ua^$xmlhttprequest,important,redirect=nooptext
 ||api.twitch.tv/*/channels/*/extensions^$xmlhttprequest
 ||atdmt.com^$important
 ||atwola.com^$important
-||awaps.yandex.by^$image,important,redirect=1x1-transparent.gif
 ||awaps.yandex.by^$important,redirect=noopframe,subdocument
-||awaps.yandex.net^$image,important,redirect=1x1-transparent.gif
 ||awaps.yandex.net^$important,redirect=noopframe,subdocument
-||awaps.yandex.ru^$image,important,redirect=1x1-transparent.gif
 ||awaps.yandex.ru^$important,redirect=noopframe,subdocument
-||awaps.yandex.ua^$image,important,redirect=1x1-transparent.gif
 ||awaps.yandex.ua^$important,redirect=noopframe,subdocument
 ||awsync.yandex.by^$important,redirect=noopframe,subdocument
 ||awsync.yandex.ru^$important,redirect=noopframe,subdocument
@@ -4852,23 +4852,22 @@ xvideos.com,xhamster.*##+js(window.open-defuser.js)
 ||bidswitch.net^$important
 ||bing.com/fd/ls/$image,important,xmlhttprequest
 ||bounceexchange.com^$important
-||bs.yandex.ru^$image,important,redirect=1x1-transparent.gif
 ||casalemedia.com^$important
 ||cdn.ziffstatic.com^$important
 ||chartbeat.com^$important
 ||clarium.global.ssl.fastly.net^$important
-||clck.ru^$document
+||clck.ru^
 ||clksite.com^$important
 ||collector.githubapp.com^$image,important
-||connect.facebook.net^$document
-||connect.ok.ru^$document
+||connect.facebook.net^
+||connect.ok.ru^
 ||cookielaw.org^$important
 ||counter.*^$important
 ||cpaevent.ru^$important
 ||criteo.net^$important
 ||crwdcntrl.net^$important
 ||cryptonoter.com/processor.js$important,script
-||cutter.li^$document
+||cutter.li^
 ||cy-pr.com^$important
 ||demdex.net^$important
 ||digitaltarget.ru^$important
@@ -4890,7 +4889,7 @@ xvideos.com,xhamster.*##+js(window.open-defuser.js)
 ||geo.yahoo.com^$important
 ||github.com/_private/browser/stats^$important,xmlhttprequest
 ||gnezdo.ru^$important
-||goo.gl^$document
+||goo.gl^
 ||google-analytics.com^$important,redirect=noopjs,script
 ||google.com^*/viewerimpressions^$important,xmlhttprequest
 ||googleadservices.com^$important,redirect=noopjs,script
@@ -4914,7 +4913,6 @@ xvideos.com,xhamster.*##+js(window.open-defuser.js)
 ||ipinfo.io^$important
 ||iwanttodeliver.com^$important
 ||justicejudo.com^$important
-||kiks.yandex.ru^$image,important,redirect=1x1-transparent.gif
 ||kiks.yandex.ru^$important,redirect=noopframe,subdocument
 ||lcs.naver.com^$important
 ||ligatus.com^$important
@@ -4925,7 +4923,6 @@ xvideos.com,xhamster.*##+js(window.open-defuser.js)
 ||mail.ru^$third-party
 ||mail.yandex.*/monitoring_liza.txt$image,important
 ||mail.yandex.*^$first-party,important,script
-||mc.yandex.ru^$important,image,redirect=1x1-transparent.gif
 ||mc.yandex.ru^$important,redirect=noopjs,script
 ||mediatoday.ru^$important
 ||meetrics.net^$important
@@ -4966,8 +4963,8 @@ xvideos.com,xhamster.*##+js(window.open-defuser.js)
 ||rover.ebay.*/roverimp/*&trknvp=$image,important
 ||rubiconproject.com^$important
 ||rutarget.ru^$important
-||scontent.xx.fbcdn.net/hads-ak-prn*/*.png$image,important,redirect=1x1-transparent.gif
-||scontent.xx.fbcdn23dssr3jqnq.onion/hads-ak-prn*/*.png$image,important,redirect=1x1-transparent.gif
+||scontent.xx.fbcdn.net/hads-ak-prn*/*.png$image,important
+||scontent.xx.fbcdn23dssr3jqnq.onion/hads-ak-prn*/*.png$image,important
 ||scorecardresearch.com/beacon.js$important,redirect=noopjs,script
 ||scorecardresearch.com^$important
 ||scroll.com^$important
@@ -5008,27 +5005,24 @@ xvideos.com,xhamster.*##+js(window.open-defuser.js)
 ||vadideo.com^$important
 ||veta.naver.com^$important
 ||vk-portal.net^$important
-||vk.cc^$document
+||vk.cc^
 ||vk.com/rtrg^$image,important
 ||vtracy.de^$important
-||web.telegram.org/*/PhotoThumbConversation.gif$image,important,redirect=1x1-transparent.gif,domain=telegram.org
+||web.telegram.org/*/PhotoThumbConversation.gif$image,important,domain=telegram.org
 ||webmasterplan.com^$important
 ||weborama.fr^$important
 ||xhamsterpremium.*^$important,third-party
 ||xvideos.com/in.php^$important
-||yabs.yandex.by^$image,important,redirect=1x1-transparent.gif
-||yabs.yandex.ru^$image,important,redirect=1x1-transparent.gif
-||yabs.yandex.ua^$image,important,redirect=1x1-transparent.gif
 ||yadro.ru^$important
 ||yahoo.co.jp/b?p=$image,important
 ||yandex.*/pogoda/$first-party,important,inline-script
-||yandex.net/get-direct$image,important,redirect=1x1-transparent.gif
+||yandex.net/get-direct$image,important
 ||yandex.net/images/film_background/*$image,domain=kinopoisk.ru
-||yandex.ru/portal/*$image,important,redirect=1x1-transparent.gif
+||yandex.ru/portal/*$image,important
 ||yandex.ru/portal/*$important,redirect=noopframe,subdocument
 ||yandex.ru/portal/ntp/banner$important,redirect=noopframe,subdocument
 ||yandex.st^$domain=~yandex.by|~yandex.ru|~yandex.ua
-||yastatic.net/*/*.gif$image,important,redirect=1x1-transparent.gif
+||yastatic.net/*/*.gif$image,important
 ||yastatic.net/*/zen-lib/$important,script,xmlhttprequest,stylesheet
 ||yastatic.net/daas/atom.js$important,script
 ||yastatic.net^$important,popup
