@@ -162,6 +162,10 @@
 |http*:*-clicksor.
 |http*:*-clicksor^
 |http*:*-clicksor_
+|http*:*-clickunder-$important
+|http*:*-clickunder.$important
+|http*:*-clickunder^$important
+|http*:*-clickunder_$important
 |http*:*-clk-
 |http*:*-clk.
 |http*:*-clk^
@@ -590,6 +594,10 @@
 |http*:*.clicksor.
 |http*:*.clicksor^
 |http*:*.clicksor_
+|http*:*.clickunder-$important
+|http*:*.clickunder.$important
+|http*:*.clickunder^$important
+|http*:*.clickunder_$important
 |http*:*.clk-
 |http*:*.clk.
 |http*:*.clk^
@@ -858,6 +866,7 @@
 |http*:*.yads.
 |http*:*.yads^
 |http*:*.yads_
+|http*:*/code/bshow.php?$third-party,important
 |http*:*/google-conversion.html$document,important
 |http*:*/in.php?p=$important
 |http*:*/pv?fe=*&elg=$important
@@ -1026,6 +1035,10 @@
 |http*:*^clicksor.
 |http*:*^clicksor^
 |http*:*^clicksor_
+|http*:*^clickunder-$important
+|http*:*^clickunder.$important
+|http*:*^clickunder^$important
+|http*:*^clickunder_$important
 |http*:*^clk-
 |http*:*^clk.
 |http*:*^clk^
@@ -1454,6 +1467,10 @@
 |http*:*_clicksor.
 |http*:*_clicksor^
 |http*:*_clicksor_
+|http*:*_clickunder-$important
+|http*:*_clickunder.$important
+|http*:*_clickunder^$important
+|http*:*_clickunder_$important
 |http*:*_clk-
 |http*:*_clk.
 |http*:*_clk^
