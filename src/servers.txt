@@ -171,7 +171,7 @@
 ||yandex.st^$domain=~yandex.by|~yandex.ru|~yandex.ua
 ||ybnj57w4m7.ru^$important
 ||yieldlab.net^$important
-||youtube.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.ggpht.com *.googlevideo.com *.ytimg.com *.googleusercontent.com www.youtube.com
+||youtube.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.ggpht.com *.googlevideo.com *.ytimg.com *.googleusercontent.com www.youtube.com *.google.com
 ||ys3e965d.top^$important
 ||zmctrack.net^$important
 ||zqtk.net^$important

@@ -6,6 +6,9 @@
 /^https?:\/\/tv\.yandex\.[^\s]{2,5}\/[^\s]{270,}/$important,xmlhttprequest,image,subdocument
 /^https?:\/\/yandex\.[^\s]{2,5}\/images/(?!(search\?rpt=\imageview)|(search\?callback\=jQuery)|(search\?exp_flags=)|(search\?serpid=)|(touch/search?))[^\s]{80,}/$important,subdocument,xmlhttprequest
 |http*:*/b/ss/*&ce=utf-8&$image,important,script
+|http*:*/dtm/*/satellitelib$important,script,xmlhttprequest
+|http*:*/site=*/size=*/viewid=$image,important,xmlhttprequest,script
+|http*:*?_siteid=$important,script,xmlhttprequest
 ||akamaized.net/?u=$image,important,xmlhttprequest
 ||bing.com/fd/ls/$image,important,xmlhttprequest
 ||yastatic.net/*/zen-lib/$important,script,xmlhttprequest,stylesheet

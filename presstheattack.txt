@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
-! Last modified: 2019-03-12 02:19:55
-! Version: 20190312021955
+! Last modified: 2019-03-12 19:57:01
+! Version: 20190312195701
 ! Expires: 3 hours
-! Number of filters: 4942
+! Number of filters: 5013
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2836,7 +2836,6 @@
 1xstavka$image,important
 2ch.hk,2ch.pm,2ch.re,2ch.tf,2ch.wf,2ch.yt###mobile-plashque
 2ch.hk,2ch.pm,2ch.re,2ch.tf,2ch.wf,2ch.yt###plashque
-?_siteid=$important
 @@/pin-opened-ad.svg$image
 @@||api-maps.yandex.*^$script
 @@||githubusercontent.com^$image
@@ -3006,6 +3005,10 @@ yandex.ru##+js(abort-on-property-read.js, IntersectionObserver)
 |http*:*-advertising.$important
 |http*:*-advertising^$important
 |http*:*-advertising_$important
+|http*:*-advertisment-$important
+|http*:*-advertisment.$important
+|http*:*-advertisment^$important
+|http*:*-advertisment_$important
 |http*:*-adview-$important
 |http*:*-adview.$important
 |http*:*-adview^$important
@@ -3066,10 +3069,18 @@ yandex.ru##+js(abort-on-property-read.js, IntersectionObserver)
 |http*:*-click.
 |http*:*-click^
 |http*:*-click_
+|http*:*-clicker-$important
+|http*:*-clicker.$important
+|http*:*-clicker^$important
+|http*:*-clicker_$important
 |http*:*-clicksor-
 |http*:*-clicksor.
 |http*:*-clicksor^
 |http*:*-clicksor_
+|http*:*-clk-
+|http*:*-clk.
+|http*:*-clk^
+|http*:*-clk_
 |http*:*-coin-hive.js$important,script
 |http*:*-counted-
 |http*:*-counted.
@@ -3295,6 +3306,10 @@ yandex.ru##+js(abort-on-property-read.js, IntersectionObserver)
 |http*:*-track.
 |http*:*-track^
 |http*:*-track_
+|http*:*-trackad-$important
+|http*:*-trackad.$important
+|http*:*-trackad^$important
+|http*:*-trackad_$important
 |http*:*-tracker-
 |http*:*-tracker.
 |http*:*-tracker^
@@ -3423,6 +3438,10 @@ yandex.ru##+js(abort-on-property-read.js, IntersectionObserver)
 |http*:*.advertising.$important
 |http*:*.advertising^$important
 |http*:*.advertising_$important
+|http*:*.advertisment-$important
+|http*:*.advertisment.$important
+|http*:*.advertisment^$important
+|http*:*.advertisment_$important
 |http*:*.adview-$important
 |http*:*.adview.$important
 |http*:*.adview^$important
@@ -3483,10 +3502,18 @@ yandex.ru##+js(abort-on-property-read.js, IntersectionObserver)
 |http*:*.click.
 |http*:*.click^
 |http*:*.click_
+|http*:*.clicker-$important
+|http*:*.clicker.$important
+|http*:*.clicker^$important
+|http*:*.clicker_$important
 |http*:*.clicksor-
 |http*:*.clicksor.
 |http*:*.clicksor^
 |http*:*.clicksor_
+|http*:*.clk-
+|http*:*.clk.
+|http*:*.clk^
+|http*:*.clk_
 |http*:*.counted-
 |http*:*.counted.
 |http*:*.counted^
@@ -3711,6 +3738,10 @@ yandex.ru##+js(abort-on-property-read.js, IntersectionObserver)
 |http*:*.track.
 |http*:*.track^
 |http*:*.track_
+|http*:*.trackad-$important
+|http*:*.trackad.$important
+|http*:*.trackad^$important
+|http*:*.trackad_$important
 |http*:*.tracker-
 |http*:*.tracker.$domain=~fandom.com
 |http*:*.tracker^
@@ -3798,6 +3829,7 @@ yandex.ru##+js(abort-on-property-read.js, IntersectionObserver)
 |http*:*/deepMiner.min.js$important,script
 |http*:*/dfp.js$important,script
 |http*:*/dprocessor.js$important,script
+|http*:*/dtm/*/satellitelib$important,script,xmlhttprequest
 |http*:*/endscreen.js$script,domain=youtube.com
 |http*:*/ga-lite.js$important,script
 |http*:*/ga.js$important,script
@@ -3845,6 +3877,7 @@ yandex.ru##+js(abort-on-property-read.js, IntersectionObserver)
 |http*:*/s_code.js$important,script
 |http*:*/safelinkconverter.js$important,script
 |http*:*/showads.js$important,script
+|http*:*/site=*/size=*/viewid=$image,important,xmlhttprequest,script
 |http*:*/snow.js$important,script
 |http*:*/snowstorm.js$important,script
 |http*:*/sparechange.js$important,script
@@ -3874,6 +3907,7 @@ yandex.ru##+js(abort-on-property-read.js, IntersectionObserver)
 |http*:*/yads.js$important,script
 |http*:*?*&ip=$third-party
 |http*:*?*&lp=*id=$popup
+|http*:*?_siteid=$important,script,xmlhttprequest
 |http*:*?ip=$third-party
 |http*:*?lp=*id=$popup
 |http*:*?perfekt=wss://*^$important
@@ -3967,6 +4001,10 @@ yandex.ru##+js(abort-on-property-read.js, IntersectionObserver)
 |http*:*^advertising.$important
 |http*:*^advertising^$important
 |http*:*^advertising_$important
+|http*:*^advertisment-$important
+|http*:*^advertisment.$important
+|http*:*^advertisment^$important
+|http*:*^advertisment_$important
 |http*:*^adview-$important
 |http*:*^adview.$important
 |http*:*^adview^$important
@@ -4027,10 +4065,18 @@ yandex.ru##+js(abort-on-property-read.js, IntersectionObserver)
 |http*:*^click.
 |http*:*^click^
 |http*:*^click_
+|http*:*^clicker-$important
+|http*:*^clicker.$important
+|http*:*^clicker^$important
+|http*:*^clicker_$important
 |http*:*^clicksor-
 |http*:*^clicksor.
 |http*:*^clicksor^
 |http*:*^clicksor_
+|http*:*^clk-
+|http*:*^clk.
+|http*:*^clk^
+|http*:*^clk_
 |http*:*^counted-
 |http*:*^counted.
 |http*:*^counted^
@@ -4255,6 +4301,10 @@ yandex.ru##+js(abort-on-property-read.js, IntersectionObserver)
 |http*:*^track.$domain=~music.yandex.by|~music.yandex.ru|~music.yandex.ua
 |http*:*^track^$domain=~ivi.tv|~music.yandex.by|~music.yandex.ru|~music.yandex.ua
 |http*:*^track_
+|http*:*^trackad-$important
+|http*:*^trackad.$important
+|http*:*^trackad^$important
+|http*:*^trackad_$important
 |http*:*^tracker-
 |http*:*^tracker.
 |http*:*^tracker^$domain=~fandom.com
@@ -4383,6 +4433,10 @@ yandex.ru##+js(abort-on-property-read.js, IntersectionObserver)
 |http*:*_advertising.$important
 |http*:*_advertising^$important
 |http*:*_advertising_$important
+|http*:*_advertisment-$important
+|http*:*_advertisment.$important
+|http*:*_advertisment^$important
+|http*:*_advertisment_$important
 |http*:*_adview-$important
 |http*:*_adview.$important
 |http*:*_adview^$important
@@ -4443,10 +4497,18 @@ yandex.ru##+js(abort-on-property-read.js, IntersectionObserver)
 |http*:*_click.
 |http*:*_click^
 |http*:*_click_
+|http*:*_clicker-$important
+|http*:*_clicker.$important
+|http*:*_clicker^$important
+|http*:*_clicker_$important
 |http*:*_clicksor-
 |http*:*_clicksor.
 |http*:*_clicksor^
 |http*:*_clicksor_
+|http*:*_clk-
+|http*:*_clk.
+|http*:*_clk^
+|http*:*_clk_
 |http*:*_counted-
 |http*:*_counted.
 |http*:*_counted^
@@ -4671,6 +4733,10 @@ yandex.ru##+js(abort-on-property-read.js, IntersectionObserver)
 |http*:*_track.
 |http*:*_track^
 |http*:*_track_
+|http*:*_trackad-$important
+|http*:*_trackad.$important
+|http*:*_trackad^$important
+|http*:*_trackad_$important
 |http*:*_tracker-
 |http*:*_tracker.
 |http*:*_tracker^
@@ -4711,6 +4777,11 @@ yandex.ru##+js(abort-on-property-read.js, IntersectionObserver)
 |http*:*_yads.
 |http*:*_yads^
 |http*:*_yads_
+|http*:*google-tracker.js$important,script
+|http*:*google.tracker.js$important,script
+|http*:*google^tracker.js$important,script
+|http*:*google_tracker.js$important,script
+|http*://delivery.$third-party
 ||1-1ads.com^$important
 ||28f77rd30e.ru^$important
 ||3lift.com^$important
@@ -4960,7 +5031,7 @@ yandex.ru##+js(abort-on-property-read.js, IntersectionObserver)
 ||youtube.com/api/stats^$image,important,xmlhttprequest
 ||youtube.com/get_midroll_info^$important,xmlhttprequest
 ||youtube.com/ptracking^$image,important
-||youtube.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.ggpht.com *.googlevideo.com *.ytimg.com *.googleusercontent.com www.youtube.com
+||youtube.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.ggpht.com *.googlevideo.com *.ytimg.com *.googleusercontent.com www.youtube.com *.google.com
 ||ys3e965d.top^$important
 ||zmctrack.net^$important
 ||zqtk.net^$important
