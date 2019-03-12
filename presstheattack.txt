@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
-! Last modified: 2019-03-12 23:49:47
-! Version: 20190312234947
+! Last modified: 2019-03-13 02:22:21
+! Version: 20190313022221
 ! Expires: 3 hours
-! Number of filters: 5032
+! Number of filters: 5020
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2854,13 +2854,6 @@
 @@||yastatic.net/yandex-video-player-iframe-api-bundles^$subdocument
 GGBET$image
 google.*##+js(remove-attr.js, ping, div[class] > a[ping])
-kinopoisk.ru##+js(abort-on-property-read.js, advBlock)
-kinopoisk.ru##+js(cookie-remover.js, /blcrm|bltsr|cmtchd|crookie|kpunk|yandex_plus_metrika_cookie)
-kinopoisk.ru##+js(setInterval-defuser.js, (), 500)
-kinopoisk.ru##^script:has-text(advBlock)
-kinopoisk.ru##^script:has-text(DOMContentLoaded)
-kinopoisk.ru##^script:has-text(window.Metrika)
-kinopoisk.ru,yandex.by,yandex.ru,yandex.ua##+js(abort-on-property-read.js, Element.prototype.attachShadow)
 rambler.ru##^script:has-text((Number,)
 twitch.tv##+js(twitch-videoad.js)
 twitch.tv##a[href*="&BannerId="] > img
@@ -2911,12 +2904,6 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 xnxx.com,xvideos.com##+js(xvideos.com.js)
 xvideos.com##+js(nowebrtc.js)
 xvideos.com,xhamster.*##+js(window.open-defuser.js)
-yandex.by,yandex.ru,yandex.ua##+js(cookie-remover.js, /L|yp|ys|yc|zm|yabs-sid|my|mda|spravka|blcrm|bltsr|yabs/)
-yandex.by,yandex.ru,yandex.ua##^script:has-text(AdvManager)
-yandex.by,yandex.ru,yandex.ua##^script:has-text(defaultMetrikaCounter)
-yandex.by,yandex.ru,yandex.ua##^script:has-text(devicePixelRatio)
-yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
-yandex.ru##+js(abort-on-property-read.js, IntersectionObserver)
 |http*:*-ad-
 |http*:*-ad-sdk-$important
 |http*:*-ad-sdk.$important
@@ -4212,7 +4199,7 @@ yandex.ru##+js(abort-on-property-read.js, IntersectionObserver)
 |http*:*^ppv_
 |http*:*^promo-
 |http*:*^promo.$domain=~mail.ru
-|http*:*^promo^$domain=~mail.ru|~ntv.ru
+|http*:*^promo^$domain=~mail.ru|~ntv.ru|~kinopoisk.ru
 |http*:*^promo_$domain=~vk.com
 |http*:*^promoted-
 |http*:*^promoted.
@@ -5036,6 +5023,7 @@ yandex.ru##+js(abort-on-property-read.js, IntersectionObserver)
 ||yahoo.co.jp/b?p=$image,important
 ||yandex.*/pogoda/$first-party,important,inline-script
 ||yandex.net/get-direct$image,important,redirect=1x1-transparent.gif
+||yandex.net/images/film_background/*$image,domain=kinopoisk.ru
 ||yandex.ru/portal/*$image,important,redirect=1x1-transparent.gif
 ||yandex.ru/portal/*$important,redirect=noopframe,subdocument
 ||yandex.ru/portal/ntp/banner$important,redirect=noopframe,subdocument

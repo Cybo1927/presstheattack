@@ -59,25 +59,12 @@
 */z.gif$image,important,redirect=1x1-transparent.gif
 */z.png$image,important,redirect=1x1-transparent.gif
 google.*##+js(remove-attr.js, ping, div[class] > a[ping])
-kinopoisk.ru##+js(abort-on-property-read.js, advBlock)
-kinopoisk.ru##+js(cookie-remover.js, /blcrm|bltsr|cmtchd|crookie|kpunk|yandex_plus_metrika_cookie)
-kinopoisk.ru##+js(setInterval-defuser.js, (), 500)
-kinopoisk.ru##^script:has-text(DOMContentLoaded)
-kinopoisk.ru##^script:has-text(advBlock)
-kinopoisk.ru##^script:has-text(window.Metrika)
-kinopoisk.ru,yandex.by,yandex.ru,yandex.ua##+js(abort-on-property-read.js, Element.prototype.attachShadow)
 rambler.ru##^script:has-text((Number,)
 twitch.tv##+js(twitch-videoad.js)
 twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/):xpath(..)
 xnxx.com,xvideos.com##+js(xvideos.com.js)
 xvideos.com##+js(nowebrtc.js)
 xvideos.com,xhamster.*##+js(window.open-defuser.js)
-yandex.by,yandex.ru,yandex.ua##+js(cookie-remover.js, /L|yp|ys|yc|zm|yabs-sid|my|mda|spravka|blcrm|bltsr|yabs/)
-yandex.by,yandex.ru,yandex.ua##^script:has-text(AdvManager)
-yandex.by,yandex.ru,yandex.ua##^script:has-text(defaultMetrikaCounter)
-yandex.by,yandex.ru,yandex.ua##^script:has-text(devicePixelRatio)
-yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
-yandex.ru##+js(abort-on-property-read.js, IntersectionObserver)
 ||an.yandex.by^$image,important,redirect=1x1-transparent.gif
 ||an.yandex.by^$script,important,redirect=noopjs
 ||an.yandex.by^$xmlhttprequest,important,redirect=nooptext

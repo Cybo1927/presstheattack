@@ -12,3 +12,4 @@ GGBET$image
 ||vk.com/rtrg^$image,important
 ||yahoo.co.jp/b?p=$image,important
 ||youtube.com/ptracking^$image,important
+||yandex.net/images/film_background/*$image,domain=kinopoisk.ru

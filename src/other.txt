@@ -1165,7 +1165,7 @@
 |http*:*^ppv_
 |http*:*^promo-
 |http*:*^promo.$domain=~mail.ru
-|http*:*^promo^$domain=~mail.ru|~ntv.ru
+|http*:*^promo^$domain=~mail.ru|~ntv.ru|~kinopoisk.ru
 |http*:*^promo_$domain=~vk.com
 |http*:*^promoted-
 |http*:*^promoted.
