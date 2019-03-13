@@ -11,6 +11,7 @@
 /^https?:\/\/yastatic\.net\/[^\s]{500,}/$domain=~vh.yandex.ru
 /^https?:\/\/zmctrack\.(com|net)/$important
 ||1-1ads.com^$important
+||2mdn.net^$important
 ||3lift.com^$important
 ||28f77rd30e.ru^$important
 ||aaxads.com^$important
@@ -157,6 +158,7 @@
 ||tsyndicate.com^$important
 ||twitch.tv^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' *.jtvnw.net *.ttvnw.net *.twitchcdn.net *.twitch.tv *.facebook.com *.facebook.net recaptcha.net *.google.com *.gstatic.com *.algolia.net blob: wss:
 ||udc.yahoo.com^$important
+||uimserv.net^$important
 ||unrulymedia.com^$important
 ||urbanairship.com^$important
 ||v0hs81ev3vepjr.ru^$important

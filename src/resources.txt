@@ -1,3 +1,4 @@
+*/VisitorAPI.js$script,redirect=noopjs
 */ping^$important,redirect=noopframe,subdocument
 google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 kinopoisk.ru##+js(abort-on-property-read.js, advBlock)

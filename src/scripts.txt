@@ -22,12 +22,14 @@
 |http*:*/adblockr.javascript$important,script
 |http*:*/adbp.js$important,script
 |http*:*/adframe.js$important,script
+|http*:*/adition.*js$script,important
 |http*:*/adriver.*.js$important,script
 |http*:*/adrum.js^$important,script
 |http*:*/ads.js$important,script
 |http*:*/adsbygoogle.js$important,script
 |http*:*/adsdk.js$important,script
 |http*:*/advertising.js$important,script
+|http*:*/akam/10/*$script,important
 |http*:*/analytics.js$important,script
 |http*:*/annotations_module.js$script,domain=youtube.com
 |http*:*/antiadb.js$important,script
