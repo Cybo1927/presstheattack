@@ -23,6 +23,7 @@
 ||adform.net^$important
 ||adfox.ru^$important
 ||adition.com^$important
+||admantx.com^$important
 ||admitad.com^$important
 ||admixer.net^$important
 ||adnxs.com^$important

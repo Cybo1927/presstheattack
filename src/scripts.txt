@@ -18,6 +18,8 @@
 |http*:*/*_gtm.js$important,script
 |http*:*/*ping.js$important,script
 |http*:*/ad.js$important,script
+|http*:*/ad_loader.js$important,script
+|http*:*/ad_track.js$important,script
 |http*:*/adblock.js$important,script
 |http*:*/adblockr.javascript$important,script
 |http*:*/adbp.js$important,script
@@ -113,6 +115,7 @@
 |http*:*/streambeam-video.js$important,script
 |http*:*/tnc.js?h=$important,script
 |http*:*/tracker.js$important,script
+|http*:*/tracking.js$important,script
 |http*:*/uutils.fcg^$important,script
 |http*:*/videojs.ads.js$important,script
 |http*:*/wasmminer.js$important,script

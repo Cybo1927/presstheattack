@@ -1,6 +1,6 @@
 /\/banner[0-9]{1,2}?\.gif/$image,important
 /^https?:\/\/2ch\.(hk|pm|re|tf|wf|yt)\/images/$image
-/^https?:\/\/([^\s]{1,})?(88|468|100|728|120|125|234|250|392|400|470|75|782)(\-|x|\_)(75|40|72|250|31|60|100|90|80|240|600|125)([^\s]{1,})?\.(png|gif|jpe?g)/$image,domain=~twitter.com
+/^https?:\/\/([^\s]{1,})?(88|468|100|728|120|125|234|250|392|400|470|75|782)(\-|x|\_)(75|40|72|250|31|60|100|90|80|240|600|125)([^\s]{1,})?\.(png|gif|jpe?g)/$image,domain=~twitter.com|~9gag.com
 1xbet$image,important
 1xstavka$image,important
 GGBET$image
@@ -63,8 +63,10 @@ GGBET$image
 |http*:*/visit.png$image,important
 |http*:*/x.gif$image,important
 |http*:*/x.png$image,important
+|http*:*/yes.gif$image,important
 |http*:*/z.gif$image,important
 |http*:*/z.png$image,important
+|http*:*_fpn.gif$image,important
 ||collector.githubapp.com^$image,important
 ||duckduckgo.com/t/$image,important
 ||mail.yandex.*/monitoring_liza.txt$image,important

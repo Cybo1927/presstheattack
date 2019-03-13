@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
-! Last modified: 2019-03-14 02:21:43
-! Version: 20190314022143
+! Last modified: 2019-03-14 02:40:45
+! Version: 20190314024045
 ! Expires: 3 hours
-! Number of filters: 5164
+! Number of filters: 5187
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2745,7 +2745,7 @@
 /\/fp([0-9]{1,2})?\.js/$important,script
 /^https?:\/\/(([0-9]{1,2})?l\-hit|([0-9]{1,2})?l-view|r([0-9]{1,2})?|rs|top\-fwz([0-9]{1,2})?|vk\.go|reklama|ad|ads|recostream\.go|[^\s]{10,}\.top|mediator|[^\s]{3,}\.radar|g?stat|top|xray)\.(imgs)?mail\.ru/$important
 /^https?:\/\/(([0-9]{1,2})?l\-hit|([0-9]{1,2})?l-view|r([0-9]{1,2})?|rs|top\-fwz([0-9]{1,2})?|vk\.go|reklama|ad|ads|recostream\.go|[^\s]{10,}\.top|mediator|[^\s]{3,}\.radar|g?stat|top|xray)\.(imgs)?mail\.ru/$important,popup
-/^https?:\/\/([^\s]{1,})?(88|468|100|728|120|125|234|250|392|400|470|75|782)(\-|x|\_)(75|40|72|250|31|60|100|90|80|240|600|125)([^\s]{1,})?\.(png|gif|jpe?g)/$image,domain=~twitter.com
+/^https?:\/\/([^\s]{1,})?(88|468|100|728|120|125|234|250|392|400|470|75|782)(\-|x|\_)(75|40|72|250|31|60|100|90|80|240|600|125)([^\s]{1,})?\.(png|gif|jpe?g)/$image,domain=~twitter.com|~9gag.com
 /^https?:\/\/([^\s]{2,}\.)?(id|adservice|mobilecrashreporting|imasdk|tagmanager)\.google(apis)?\.\w{2,}/$important
 /^https?:\/\/([^\s]{2,}\.)?google(\-analytics|syndication|tagmanager|adservices|tagservices)\.\w{2,}/$important
 /^https?:\/\/(an|awaps|awsync|appmetrica|bs|direct|grade\.market|informer|kiks|clck|main\.zdevx|mc|web\-metrica|yabs|zen|browser\-updater|bs\-meta)\.yandex\.\w{2,}/$important
@@ -2919,6 +2919,10 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*-admanager.$important
 |http*:*-admanager^$important
 |http*:*-admanager_$important
+|http*:*-admantx-$important
+|http*:*-admantx.$important
+|http*:*-admantx^$important
+|http*:*-admantx_$important
 |http*:*-ads-$domain=~github.com|~yandex.by|~yandex.ru|~yandex.ua
 |http*:*-ads-slot-$important
 |http*:*-ads-slot.$important
@@ -3388,6 +3392,10 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*.admanager.$important
 |http*:*.admanager^$important
 |http*:*.admanager_$important
+|http*:*.admantx-$important
+|http*:*.admantx.$important
+|http*:*.admantx^$important
+|http*:*.admantx_$important
 |http*:*.ads-
 |http*:*.ads-slot-$important
 |http*:*.ads-slot.$important
@@ -3823,6 +3831,8 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/ad.gif$image,important
 |http*:*/ad.js$important,script
 |http*:*/ad.png$image,important
+|http*:*/ad_loader.js$important,script
+|http*:*/ad_track.js$important,script
 |http*:*/adblock.js$important,script
 |http*:*/adblockr.javascript$important,script
 |http*:*/adbp.js$important,script
@@ -3963,6 +3973,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/track-user.gif$image,important
 |http*:*/track-user.png$image,important
 |http*:*/tracker.js$important,script
+|http*:*/tracking.js$important,script
 |http*:*/uutils.fcg^$important,script
 |http*:*/videojs.ads.js$important,script
 |http*:*/view.gif$image,important
@@ -3990,6 +4001,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/xmr.min.js$important,script
 |http*:*/yads-async.js$script,important
 |http*:*/yads.js$important,script
+|http*:*/yes.gif$image,important
 |http*:*/z.gif$image,important
 |http*:*/z.png$image,important
 |http*:*?*&ip=$third-party
@@ -4052,6 +4064,10 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*^admanager.$important
 |http*:*^admanager^$important
 |http*:*^admanager_$important
+|http*:*^admantx-$important
+|http*:*^admantx.$important
+|http*:*^admantx^$important
+|http*:*^admantx_$important
 |http*:*^ads-
 |http*:*^ads-slot-$important
 |http*:*^ads-slot.$important
@@ -4520,6 +4536,10 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*_admanager.$important
 |http*:*_admanager^$important
 |http*:*_admanager_$important
+|http*:*_admantx-$important
+|http*:*_admantx.$important
+|http*:*_admantx^$important
+|http*:*_admantx_$important
 |http*:*_ads-
 |http*:*_ads-slot-$important
 |http*:*_ads-slot.$important
@@ -4684,6 +4704,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*_doubleclick.$important
 |http*:*_doubleclick^$important
 |http*:*_doubleclick_$important
+|http*:*_fpn.gif$image,important
 |http*:*_getad-$important
 |http*:*_getad.$important
 |http*:*_getad^$important
@@ -4940,8 +4961,12 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*google.tracker.js$important,script
 |http*:*google^tracker.js$important,script
 |http*:*google_tracker.js$important,script
-|http*://://smetrics.*^$important
+|http*://counter.*^$important
 |http*://delivery.*^$third-party
+|http*://geoservice.*^$important
+|http*://informers.*^$important
+|http*://smetrics.*^$important
+|http*://tag.*^$important
 ||1-1ads.com^$important
 ||28f77rd30e.ru^$important
 ||2mdn.net^$important
@@ -4955,6 +4980,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||adform.net^$important
 ||adfox.ru^$important
 ||adition.com^$important
+||admantx.com^$important
 ||admitad.com^$important
 ||admixer.net^$important
 ||adnxs.com^$important
@@ -5012,7 +5038,6 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||connect.facebook.net^
 ||connect.ok.ru^
 ||cookielaw.org^$important
-||counter.*^$important
 ||cpaevent.ru^$important
 ||criteo.net^$important
 ||crwdcntrl.net^$important
@@ -5058,7 +5083,6 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||imasdk.googleapis.com^$important,redirect=noopjs,script
 ||imrworldwide.com^$important
 ||indexww.com^$important
-||informers.*^$important
 ||ioam.de^$important
 ||ipinfo.io^$important
 ||iwanttodeliver.com^$important
@@ -5132,7 +5156,6 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||sync.rambler.ru^$important
 ||syndication.twitter.com^$important
 ||taboola.com^$important
-||tag.*^$important
 ||tagcommander.com^$important
 ||target.smi2.net^$important
 ||tcheck.outbrainimg.com^$important
