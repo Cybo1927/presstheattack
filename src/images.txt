@@ -48,8 +48,6 @@ GGBET$image
 |http*:*/px.png$image,important
 |http*:*/s.gif$image,important
 |http*:*/s.png$image,important
-|http*:*/spacer.gif$image,important
-|http*:*/spacer.png$image,important
 |http*:*/stat.gif$image,important
 |http*:*/stat.png$image,important
 |http*:*/track-user.gif$image,important

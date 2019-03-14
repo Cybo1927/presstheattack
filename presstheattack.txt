@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
-! Last modified: 2019-03-15 10:35:17
-! Version: 20190315103517
+! Last modified: 2019-03-15 10:45:23
+! Version: 20190315104523
 ! Expires: 3 hours
 ! Number of filters: 5221
 ! Homepage: https://github.com/bogachenko/presstheattack/
@@ -2742,6 +2742,8 @@
 */cleardot.png$image,important,redirect=1x1-transparent.gif
 */cleardot.png$xmlhttprequest,redirect=nooptext,important
 */ping^$important,redirect=noopframe,subdocument
+*/spacer.gif$image,redirect=1x1-transparent.gif
+*/spacer.png$image,redirect=1x1-transparent.gif
 */visitor.js$script,redirect=noopjs
 */visitorapi.js$script,redirect=noopjs
 /\/([^\s]{4})?tag\.min\.([a-z0-9]{30,}\.)?js/$important,script
@@ -3981,8 +3983,6 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/site=*/size=*/viewid=$image,important,xmlhttprequest,script
 |http*:*/snow.js$important,script
 |http*:*/snowstorm.js$important,script
-|http*:*/spacer.gif$image,important
-|http*:*/spacer.png$image,important
 |http*:*/sparechange.js$important,script
 |http*:*/stat.gif$image,important
 |http*:*/stat.png$image,important

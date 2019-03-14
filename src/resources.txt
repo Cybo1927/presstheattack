@@ -3,6 +3,8 @@
 */cleardot.png$image,important,redirect=1x1-transparent.gif
 */cleardot.png$xmlhttprequest,redirect=nooptext,important
 */ping^$important,redirect=noopframe,subdocument
+*/spacer.gif$image,redirect=1x1-transparent.gif
+*/spacer.png$image,redirect=1x1-transparent.gif
 */visitor.js$script,redirect=noopjs
 */visitorapi.js$script,redirect=noopjs
 google.*##+js(remove-attr.js, ping, div[class] > a[ping])
