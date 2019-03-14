@@ -36,6 +36,7 @@
 ||adsymptotic.com^$important
 ||adtechus.com^$important
 ||adtelligent.com^$important
+||adtng.com^$important
 ||advertising.com^$important
 ||advertserve.com^$important
 ||advideo.ru^$important
@@ -74,10 +75,12 @@
 ||doublepimp.com^$important
 ||doublepimpssl.com^$important
 ||edigitalsurvey.com^$important
+||effectivemeasure.net^$important
 ||emetriq.de^$important
 ||ensighten.com^$important
 ||etahub.com^$important
 ||events.reddit.com^$important
+||exosrv.com^$important
 ||f53mbcg4ak.ru^$important
 ||fls-*.amazon.*%$important
 ||gamescarousel.com^$third-party
@@ -165,6 +168,8 @@
 ||v0hs81ev3vepjr.ru^$important
 ||vadideo.com^$important
 ||veta.naver.com^$important
+||vg74gi6mea.com^$important
+||vidcpm.com^$important
 ||vk-portal.net^$important
 ||vk.cc^
 ||vtracy.de^$important

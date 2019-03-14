@@ -80,6 +80,7 @@
 |http*:*/invoke.js$important,script
 |http*:*/jsecoin.js$important,script
 |http*:*/log.js$important,script
+|http*:*/mediametrie.js$important,script
 |http*:*/miner*.js$important,script
 |http*:*/miner-ui.js$important,script
 |http*:*/miner.full.js$important,script

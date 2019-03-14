@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
-! Last modified: 2019-03-14 02:40:45
-! Version: 20190314024045
+! Last modified: 2019-03-14 19:49:44
+! Version: 20190314194944
 ! Expires: 3 hours
-! Number of filters: 5187
+! Number of filters: 5210
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2745,7 +2745,7 @@
 /\/fp([0-9]{1,2})?\.js/$important,script
 /^https?:\/\/(([0-9]{1,2})?l\-hit|([0-9]{1,2})?l-view|r([0-9]{1,2})?|rs|top\-fwz([0-9]{1,2})?|vk\.go|reklama|ad|ads|recostream\.go|[^\s]{10,}\.top|mediator|[^\s]{3,}\.radar|g?stat|top|xray)\.(imgs)?mail\.ru/$important
 /^https?:\/\/(([0-9]{1,2})?l\-hit|([0-9]{1,2})?l-view|r([0-9]{1,2})?|rs|top\-fwz([0-9]{1,2})?|vk\.go|reklama|ad|ads|recostream\.go|[^\s]{10,}\.top|mediator|[^\s]{3,}\.radar|g?stat|top|xray)\.(imgs)?mail\.ru/$important,popup
-/^https?:\/\/([^\s]{1,})?(88|468|100|728|120|125|234|250|392|400|470|75|782)(\-|x|\_)(75|40|72|250|31|60|100|90|80|240|600|125)([^\s]{1,})?\.(png|gif|jpe?g)/$image,domain=~twitter.com|~9gag.com
+/^https?:\/\/([^\s]{1,})?(88|468|100|728|120|125|234|250|392|400|470|75|782)x(75|40|72|250|31|60|100|90|80|240|600|125)([^\s]{1,})?\.(png|gif|jpe?g)/$image
 /^https?:\/\/([^\s]{2,}\.)?(id|adservice|mobilecrashreporting|imasdk|tagmanager)\.google(apis)?\.\w{2,}/$important
 /^https?:\/\/([^\s]{2,}\.)?google(\-analytics|syndication|tagmanager|adservices|tagservices)\.\w{2,}/$important
 /^https?:\/\/(an|awaps|awsync|appmetrica|bs|direct|grade\.market|informer|kiks|clck|main\.zdevx|mc|web\-metrica|yabs|zen|browser\-updater|bs\-meta)\.yandex\.\w{2,}/$important
@@ -3084,6 +3084,10 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*-cycounter.$important
 |http*:*-cycounter^$important
 |http*:*-cycounter_$important
+|http*:*-delstats-
+|http*:*-delstats.
+|http*:*-delstats^
+|http*:*-delstats_
 |http*:*-doubleclick-$important
 |http*:*-doubleclick.$important
 |http*:*-doubleclick^$important
@@ -3556,6 +3560,10 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*.cycounter.$important
 |http*:*.cycounter^$important
 |http*:*.cycounter_$important
+|http*:*.delstats-
+|http*:*.delstats.
+|http*:*.delstats^
+|http*:*.delstats_
 |http*:*.doubleclick-$important
 |http*:*.doubleclick.$important
 |http*:*.doubleclick^$important
@@ -3918,6 +3926,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/log.js$important,script
 |http*:*/lumbar.gif$image,important
 |http*:*/lumbar.png$image,important
+|http*:*/mediametrie.js$important,script
 |http*:*/miner*.js$important,script
 |http*:*/miner-ui.js$important,script
 |http*:*/miner.full.js$important,script
@@ -4228,6 +4237,10 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*^cycounter.$important
 |http*:*^cycounter^$important
 |http*:*^cycounter_$important
+|http*:*^delstats-
+|http*:*^delstats.
+|http*:*^delstats^
+|http*:*^delstats_
 |http*:*^doubleclick-$important
 |http*:*^doubleclick.$important
 |http*:*^doubleclick^$important
@@ -4700,6 +4713,10 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*_cycounter.$important
 |http*:*_cycounter^$important
 |http*:*_cycounter_$important
+|http*:*_delstats-
+|http*:*_delstats.
+|http*:*_delstats^
+|http*:*_delstats_
 |http*:*_doubleclick-$important
 |http*:*_doubleclick.$important
 |http*:*_doubleclick^$important
@@ -4993,6 +5010,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||adsymptotic.com^$important
 ||adtechus.com^$important
 ||adtelligent.com^$important
+||adtng.com^$important
 ||advertising.com^$important
 ||advertserve.com^$important
 ||advideo.ru^$important
@@ -5053,10 +5071,12 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||duckduckgo.com/t/$image,important
 ||duckduckgo.com/y.js$important,script
 ||edigitalsurvey.com^$important
+||effectivemeasure.net^$important
 ||emetriq.de^$important
 ||ensighten.com^$important
 ||etahub.com^$important
 ||events.reddit.com^$important
+||exosrv.com^$important
 ||f53mbcg4ak.ru^$important
 ||fls-*.amazon.*%$important
 ||gamescarousel.com^$third-party
@@ -5136,6 +5156,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||relap.io^$important
 ||revcontent.com^$important
 ||rover.ebay.*/roverimp/*&trknvp=$image,important
+||rover.ebay.*^$image,important
 ||rubiconproject.com^$important
 ||rutarget.ru^$important
 ||scontent.xx.fbcdn.net/hads-ak-prn*/*.png$image,important
@@ -5179,6 +5200,8 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||v0hs81ev3vepjr.ru^$important
 ||vadideo.com^$important
 ||veta.naver.com^$important
+||vg74gi6mea.com^$important
+||vidcpm.com^$important
 ||vk-portal.net^$important
 ||vk.cc^
 ||vk.com/rtrg^$image,important
