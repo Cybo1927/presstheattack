@@ -1,4 +1,9 @@
+*/cleardot.gif$image,important,redirect=1x1-transparent.gif
+*/cleardot.gif$xmlhttprequest,redirect=nooptext,important
+*/cleardot.png$image,important,redirect=1x1-transparent.gif
+*/cleardot.png$xmlhttprequest,redirect=nooptext,important
 */ping^$important,redirect=noopframe,subdocument
+*/visitor.js$script,redirect=noopjs
 */visitorapi.js$script,redirect=noopjs
 google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 kinopoisk.ru##+js(abort-on-property-read.js, advBlock)
@@ -18,6 +23,7 @@ tv.yandex.ua##:xpath(/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/div[1]/sectio
 tv.yandex.ua##:xpath(/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/div[1]/section[1]/div[1]/div[15])
 tv.yandex.ua##:xpath(/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/div[1]/section[1]/div[1]/div[15]/div[1]/div[1]/div[1])
 twitch.tv##+js(twitch-videoad.js)
+twitter.com##[data-focusable="true"]:has-text(/Promoted|Gesponsert|Реклама/):not(:xpath(//div[contains(text(),'Реклама в Твиттере')]))
 twitter.com##[data-testid="trend"]:has-text(/Promoted|Gesponsert|Реклама/):xpath(..)
 twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/):xpath(..)
 xnxx.com,xvideos.com##+js(xvideos.com.js)

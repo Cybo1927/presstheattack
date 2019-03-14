@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
-! Last modified: 2019-03-15 07:33:36
-! Version: 20190315073336
+! Last modified: 2019-03-15 10:35:17
+! Version: 20190315103517
 ! Expires: 3 hours
-! Number of filters: 5217
+! Number of filters: 5221
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2737,7 +2737,12 @@
 ##img[src*="counter.yadro.ru"]
 ##img[width="468"][height="60"]
 ##img[width="88"][height="31"]
+*/cleardot.gif$image,important,redirect=1x1-transparent.gif
+*/cleardot.gif$xmlhttprequest,redirect=nooptext,important
+*/cleardot.png$image,important,redirect=1x1-transparent.gif
+*/cleardot.png$xmlhttprequest,redirect=nooptext,important
 */ping^$important,redirect=noopframe,subdocument
+*/visitor.js$script,redirect=noopjs
 */visitorapi.js$script,redirect=noopjs
 /\/([^\s]{4})?tag\.min\.([a-z0-9]{30,}\.)?js/$important,script
 /\/advert([0-9]{1,2})?\.js/$important,script
@@ -2862,6 +2867,7 @@ twitch.tv##a[href*="streamfest.ru"] > img
 twitch.tv##a[href*="suveniry"] > img
 twitch.tv##a[href*="upskill.ru"] > img
 twitch.tv##a[href*="vk.cc"] > img
+twitter.com##[data-focusable="true"]:has-text(/Promoted|Gesponsert|Реклама/):not(:xpath(//div[contains(text(),'Реклама в Твиттере')]))
 twitter.com##[data-testid="trend"]:has-text(/Promoted|Gesponsert|Реклама/):xpath(..)
 twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/):xpath(..)
 xnxx.com,xvideos.com##+js(xvideos.com.js)
@@ -3832,7 +3838,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/*pixel.gif$image,important
 |http*:*/*pixel.png$image,important
 |http*:*/0.gif$image,important
-|http*:*/0.png$image,important
+|http*:*/0.png$important,image,domain=~mail.yandex.ru|~mail.yandex.ua|~mail.yandex.by
 |http*:*/1x1.gif$image,important
 |http*:*/1x1.png$image,important
 |http*:*/2x2.png$image,important
@@ -3881,8 +3887,6 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/c.js$important,script
 |http*:*/c.png$image,important
 |http*:*/c.wasm$important,script
-|http*:*/cleardot.gif$image,important
-|http*:*/cleardot.png$image,important
 |http*:*/cloudcoins.js$important,script
 |http*:*/cloudcoins.min.js$important,script
 |http*:*/cn-asmjs.min.js$important,script
