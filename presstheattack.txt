@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
-! Last modified: 2019-03-14 19:49:44
-! Version: 20190314194944
+! Last modified: 2019-03-14 20:29:38
+! Version: 20190314202938
 ! Expires: 3 hours
-! Number of filters: 5210
+! Number of filters: 5211
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2745,7 +2745,7 @@
 /\/fp([0-9]{1,2})?\.js/$important,script
 /^https?:\/\/(([0-9]{1,2})?l\-hit|([0-9]{1,2})?l-view|r([0-9]{1,2})?|rs|top\-fwz([0-9]{1,2})?|vk\.go|reklama|ad|ads|recostream\.go|[^\s]{10,}\.top|mediator|[^\s]{3,}\.radar|g?stat|top|xray)\.(imgs)?mail\.ru/$important
 /^https?:\/\/(([0-9]{1,2})?l\-hit|([0-9]{1,2})?l-view|r([0-9]{1,2})?|rs|top\-fwz([0-9]{1,2})?|vk\.go|reklama|ad|ads|recostream\.go|[^\s]{10,}\.top|mediator|[^\s]{3,}\.radar|g?stat|top|xray)\.(imgs)?mail\.ru/$important,popup
-/^https?:\/\/([^\s]{1,})?(88|468|100|728|120|125|234|250|392|400|470|75|782)x(75|40|72|250|31|60|100|90|80|240|600|125)([^\s]{1,})?\.(png|gif|jpe?g)/$image
+/^https?:\/\/([^\s]{1,})?(88|468|100|728|120|125|234|250|392|400|470|75|782)x(75|40|72|250|31|60|100|90|80|240|600|125)([^\s]{1,})?\.(png|gif|jpe?g)/$image,domain=~twitter.com|~9gag.com
 /^https?:\/\/([^\s]{2,}\.)?(id|adservice|mobilecrashreporting|imasdk|tagmanager)\.google(apis)?\.\w{2,}/$important
 /^https?:\/\/([^\s]{2,}\.)?google(\-analytics|syndication|tagmanager|adservices|tagservices)\.\w{2,}/$important
 /^https?:\/\/(an|awaps|awsync|appmetrica|bs|direct|grade\.market|informer|kiks|clck|main\.zdevx|mc|web\-metrica|yabs|zen|browser\-updater|bs\-meta)\.yandex\.\w{2,}/$important
@@ -2857,6 +2857,7 @@ twitch.tv##a[href*="streamfest.ru"] > img
 twitch.tv##a[href*="suveniry"] > img
 twitch.tv##a[href*="upskill.ru"] > img
 twitch.tv##a[href*="vk.cc"] > img
+twitter.com##[data-testid="trend"]:has-text(/Promoted|Gesponsert|Реклама/):xpath(..)
 twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/):xpath(..)
 xnxx.com,xvideos.com##+js(xvideos.com.js)
 xvideos.com##+js(nowebrtc.js)
@@ -4683,7 +4684,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*_clck_
 |http*:*_click-
 |http*:*_click.
-|http*:*_click^
+|http*:*_click^$domain=~twitter.com
 |http*:*_click_
 |http*:*_clicker-$important
 |http*:*_clicker.$important

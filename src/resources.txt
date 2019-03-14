@@ -15,6 +15,7 @@ tv.yandex.ru##:xpath(/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/div[1]/sectio
 tv.yandex.ua##:xpath(/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/div[1]/section[1]/div[1]/div[15])
 tv.yandex.ua##:xpath(/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/div[1]/section[1]/div[1]/div[15]/div[1]/div[1]/div[1])
 twitch.tv##+js(twitch-videoad.js)
+twitter.com##[data-testid="trend"]:has-text(/Promoted|Gesponsert|Реклама/):xpath(..)
 twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/):xpath(..)
 xnxx.com,xvideos.com##+js(xvideos.com.js)
 xvideos.com##+js(nowebrtc.js)

@@ -1616,7 +1616,7 @@
 |http*:*_clck_
 |http*:*_click-
 |http*:*_click.
-|http*:*_click^
+|http*:*_click^$domain=~twitter.com
 |http*:*_click_
 |http*:*_clicker-$important
 |http*:*_clicker.$important
