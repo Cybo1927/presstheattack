@@ -1,6 +1,7 @@
 ##.ADS:not(:root):not(body):not(input)
 ##.ad:not(:root):not(body):not(input)
 ##.adsbygoogle:not(html):not(body)
+##.js-ads-block:not(html):not(body)
 ##[class$="-AdServer-"]:not(html):not(body)
 ##[class$="-AdServer."]:not(html):not(body)
 ##[class$="-AdServer_"]:not(html):not(body)

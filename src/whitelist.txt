@@ -1,4 +1,5 @@
-@@/pin-opened-ad.svg$image
+@@||*/pin-opened-ad.svg$image
+@@||*/spacer.gif$image,domain=www.kinopoisk.ru
 @@||api-maps.yandex.*^$script
 @@||githubusercontent.com^$image
 @@||googlevideo.com/*?*&ip=$third-party

@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
-! Last modified: 2019-03-14 20:29:38
-! Version: 20190314202938
+! Last modified: 2019-03-15 07:33:36
+! Version: 20190315073336
 ! Expires: 3 hours
-! Number of filters: 5211
+! Number of filters: 5217
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -29,6 +29,7 @@
 ##.ad:not(:root):not(body):not(input)
 ##.ADS:not(:root):not(body):not(input)
 ##.adsbygoogle:not(html):not(body)
+##.js-ads-block:not(html):not(body)
 ##[class$="-ad-"]:not(html):not(body)
 ##[class$="-ad."]:not(html):not(body)
 ##[class$="-ad_"]:not(html):not(body)
@@ -2737,7 +2738,7 @@
 ##img[width="468"][height="60"]
 ##img[width="88"][height="31"]
 */ping^$important,redirect=noopframe,subdocument
-*/VisitorAPI.js$script,redirect=noopjs
+*/visitorapi.js$script,redirect=noopjs
 /\/([^\s]{4})?tag\.min\.([a-z0-9]{30,}\.)?js/$important,script
 /\/advert([0-9]{1,2})?\.js/$important,script
 /\/banner[0-9]{1,2}?\.gif/$image,important
@@ -2781,7 +2782,8 @@
 ?partner=$third-party
 ?partner_id=$third-party
 ?PartnerID=$third-party
-@@/pin-opened-ad.svg$image
+@@||*/pin-opened-ad.svg$image
+@@||*/spacer.gif$image,domain=www.kinopoisk.ru
 @@||api-maps.yandex.*^$script
 @@||githubusercontent.com^$image
 @@||googlevideo.com/*?*&ip=$third-party
@@ -2805,13 +2807,16 @@ kinopoisk.ru##^script:has-text(window.Metrika)
 rambler.ru##^script:has-text((Number,)
 tv.yandex.by##:xpath(/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/div[1]/section[1]/div[1]/div[22]/div[1]/div[1])
 tv.yandex.by##:xpath(/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/div[1]/section[1]/div[1]/div[23])
+tv.yandex.by##:xpath(/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/div[1]/section[1]/div[1]/div[8])
 tv.yandex.by##:xpath(/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/div[1]/section[2]/div[1]/div[1])
 tv.yandex.ru##:xpath(/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/div[1]/section[1]/div[1]/div[22]/div[1]/div[1])
 tv.yandex.ru##:xpath(/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/div[1]/section[1]/div[1]/div[23])
+tv.yandex.ru##:xpath(/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/div[1]/section[1]/div[1]/div[8])
 tv.yandex.ru##:xpath(/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/div[1]/section[1]/div[2]/div[22]/div[1]/div[1])
 tv.yandex.ru##:xpath(/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/div[1]/section[2]/div[1]/div[1])
 tv.yandex.ua##:xpath(/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/div[1]/section[1]/div[1]/div[15])
 tv.yandex.ua##:xpath(/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/div[1]/section[1]/div[1]/div[15]/div[1]/div[1]/div[1])
+tv.yandex.ua##:xpath(/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/div[1]/section[1]/div[1]/div[8])
 twitch.tv##+js(twitch-videoad.js)
 twitch.tv##a[href*="&BannerId="] > img
 twitch.tv##a[href*="&bonus="] > img
@@ -3866,6 +3871,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/authedminer.js$important,script
 |http*:*/b/ss/*&ce=utf-8&$image,important,script
 |http*:*/banner/*.gif$image,important
+|http*:*/banners/*.gif$image,important
 |http*:*/bitcoincore/?ref=$important,script
 |http*:*/blank.gif$image,important
 |http*:*/blank.png$image,important
