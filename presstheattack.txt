@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
-! Last modified: 2019-03-15 10:45:23
-! Version: 20190315104523
+! Last modified: 2019-03-15 14:32:41
+! Version: 20190315143241
 ! Expires: 3 hours
-! Number of filters: 5221
+! Number of filters: 5223
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2749,7 +2749,7 @@
 /\/([^\s]{4})?tag\.min\.([a-z0-9]{30,}\.)?js/$important,script
 /\/advert([0-9]{1,2})?\.js/$important,script
 /\/banner[0-9]{1,2}?\.gif/$image,important
-/\/fingerprint([0-9]{1,2})?\.js/$important,script
+/\/fingerprint([0-9]{1,2})?(\.min)?\.js/$important,script,xmlhttprequest
 /\/fp([0-9]{1,2})?\.js/$important,script
 /^https?:\/\/(([0-9]{1,2})?l\-hit|([0-9]{1,2})?l-view|r([0-9]{1,2})?|rs|top\-fwz([0-9]{1,2})?|vk\.go|reklama|ad|ads|recostream\.go|[^\s]{10,}\.top|mediator|[^\s]{3,}\.radar|g?stat|top|xray)\.(imgs)?mail\.ru/$important
 /^https?:\/\/(([0-9]{1,2})?l\-hit|([0-9]{1,2})?l-view|r([0-9]{1,2})?|rs|top\-fwz([0-9]{1,2})?|vk\.go|reklama|ad|ads|recostream\.go|[^\s]{10,}\.top|mediator|[^\s]{3,}\.radar|g?stat|top|xray)\.(imgs)?mail\.ru/$important,popup
@@ -5076,6 +5076,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||demdex.net^$important
 ||digitaltarget.ru^$important
 ||disqusads.com^$important
+||doubleclick.net/instream/ad_status.js$script,redirect=doubleclick.net/instream/ad_status.js,important
 ||doubleclick.net^$important
 ||doublepimp.com^$important
 ||doublepimpssl.com^$important
@@ -5096,12 +5097,15 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||github.com/_private/browser/stats^$important,xmlhttprequest
 ||gnezdo.ru^$important
 ||goo.gl^
-||google-analytics.com^$important,redirect=noopjs,script
+||google-analytics.com/analytics.js$script,redirect=google-analytics.com/analytics.js,important
+||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js,important
+||google-analytics.com/ga.js$script,redirect=google-analytics.com/ga.js,important
+||google-analytics.com/plugins/ga/inpage_linkid.js$script,redirect=google-analytics.com/inpage_linkid.js,important
 ||google.com^*/viewerimpressions^$important,xmlhttprequest
-||googleadservices.com^$important,redirect=noopjs,script
-||googlesyndication.com^$important,redirect=noopjs,script
-||googletagmanager.com^$important,redirect=noopjs,script
-||googletagservices.com^$important,redirect=noopjs,script
+||googlesyndication.com/pagead/js/adsbygoogle.js$important,script,redirect=googlesyndication.com/adsbygoogle.js
+||googlesyndication.com/pagead/show_ads.js$script,redirect=noopjs
+||googletagmanager.com/gtm.js$script,redirect=googletagmanager.com/gtm.js,important
+||googletagservices.com/tag/js/gpt.js$script,redirect=googletagservices.com/gpt.js,important
 ||gostats.com^$important
 ||gostats.ru^$important
 ||grapeshot.co.uk^$important
@@ -5111,7 +5115,6 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||hotjar.com^$important
 ||hotlog.ru^$important
 ||ibillboard.com^$important
-||imasdk.googleapis.com^$important,redirect=noopjs,script
 ||imrworldwide.com^$important
 ||indexww.com^$important
 ||ioam.de^$important
@@ -5147,7 +5150,6 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||openx.net^$important
 ||ophan.theguardian.com^$important
 ||optimizely.com^$important
-||pagead2.googlesyndication.com/pagead/show_ads.js$important,redirect=noopjs,script
 ||pb.m.naver.com^$important
 ||piguiqproxy.com^$important
 ||pipe.aria.microsoft.com/collector^$important,xmlhttprequest
@@ -5172,7 +5174,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||rutarget.ru^$important
 ||scontent.xx.fbcdn.net/hads-ak-prn*/*.png$image,important
 ||scontent.xx.fbcdn23dssr3jqnq.onion/hads-ak-prn*/*.png$image,important
-||scorecardresearch.com/beacon.js$important,redirect=noopjs,script
+||scorecardresearch.com/beacon.js$script,redirect=scorecardresearch.com/beacon.js,important
 ||scorecardresearch.com^$important
 ||scroll.com^$important
 ||seedtag.com^$important

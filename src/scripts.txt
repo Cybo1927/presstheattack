@@ -1,6 +1,5 @@
 /\/([^\s]{4})?tag\.min\.([a-z0-9]{30,}\.)?js/$important,script
 /\/advert([0-9]{1,2})?\.js/$important,script
-/\/fingerprint([0-9]{1,2})?\.js/$important,script
 /\/fp([0-9]{1,2})?\.js/$important,script
 /^https?:\/\/cdn[0-9]{1,2}?\.rocks\/[^\s]{30,}\.js/$important,script
 /me([0-9]{1})?w\.js/$important,script

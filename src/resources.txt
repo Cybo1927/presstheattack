@@ -7,6 +7,7 @@
 */spacer.png$image,redirect=1x1-transparent.gif
 */visitor.js$script,redirect=noopjs
 */visitorapi.js$script,redirect=noopjs
+/\/fingerprint([0-9]{1,2})?(\.min)?\.js/$important,script,xmlhttprequest
 google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 kinopoisk.ru##+js(abort-on-property-read.js, advBlock)
 kinopoisk.ru##+js(cookie-remover.js, /^blcrm|^bltsr|^cmtchd|^crookie|^kpunk|^yandex_plus_metrika_cookie)
@@ -50,16 +51,18 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||awsync.yandex.by^$important,redirect=noopframe,subdocument
 ||awsync.yandex.ru^$important,redirect=noopframe,subdocument
 ||awsync.yandex.ua^$important,redirect=noopframe,subdocument
-||google-analytics.com^$important,redirect=noopjs,script
-||googleadservices.com^$important,redirect=noopjs,script
-||googlesyndication.com^$important,redirect=noopjs,script
-||googletagmanager.com^$important,redirect=noopjs,script
-||googletagservices.com^$important,redirect=noopjs,script
-||imasdk.googleapis.com^$important,redirect=noopjs,script
+||doubleclick.net/instream/ad_status.js$script,redirect=doubleclick.net/instream/ad_status.js,important
+||google-analytics.com/analytics.js$script,redirect=google-analytics.com/analytics.js,important
+||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js,important
+||google-analytics.com/ga.js$script,redirect=google-analytics.com/ga.js,important
+||google-analytics.com/plugins/ga/inpage_linkid.js$script,redirect=google-analytics.com/inpage_linkid.js,important
+||googlesyndication.com/pagead/js/adsbygoogle.js$important,script,redirect=googlesyndication.com/adsbygoogle.js
+||googlesyndication.com/pagead/show_ads.js$script,redirect=noopjs
+||googletagmanager.com/gtm.js$script,redirect=googletagmanager.com/gtm.js,important
+||googletagservices.com/tag/js/gpt.js$script,redirect=googletagservices.com/gpt.js,important
 ||kiks.yandex.ru^$important,redirect=noopframe,subdocument
 ||mc.yandex.ru^$important,redirect=noopjs,script
-||pagead2.googlesyndication.com/pagead/show_ads.js$important,redirect=noopjs,script
-||scorecardresearch.com/beacon.js$important,redirect=noopjs,script
+||scorecardresearch.com/beacon.js$script,redirect=scorecardresearch.com/beacon.js,important
 ||static-mon.yandex.net/static/main.js$script,redirect=noopjs,important
 ||static-mon.yandex.net/static/main.js$xmlhttprequest,redirect=nooptext,important
 ~mail.yandex.by,~mail.yandex.ru,~mail.yandex.ua,rambler.ru,yandex.by,yandex.ru,yandex.ua##+js(set-constant.js, Math.random, trueFunc)
