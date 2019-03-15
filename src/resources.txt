@@ -13,6 +13,7 @@ kinopoisk.ru##+js(abort-on-property-read.js, advBlock)
 kinopoisk.ru##+js(cookie-remover.js, /^blcrm|^bltsr|^cmtchd|^crookie|^kpunk|^yandex_plus_metrika_cookie)
 kinopoisk.ru##^script:has-text(window.Metrika)
 rambler.ru##^script:has-text((Number,)
+reddit.com##:xpath(/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[3]/div[1])
 tv.yandex.by##:xpath(/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/div[1]/section[1]/div[1]/div[8])
 tv.yandex.by##:xpath(/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/div[1]/section[1]/div[1]/div[22]/div[1]/div[1])
 tv.yandex.by##:xpath(/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/div[1]/section[1]/div[1]/div[23])
@@ -60,6 +61,8 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||googlesyndication.com/pagead/show_ads.js$script,redirect=noopjs
 ||googletagmanager.com/gtm.js$script,redirect=googletagmanager.com/gtm.js,important
 ||googletagservices.com/tag/js/gpt.js$script,redirect=googletagservices.com/gpt.js,important
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=noopjs,important
+||imasdk.googleapis.com/js/sdkloader/ima3_debug.js$script,redirect=noopjs,important
 ||kiks.yandex.ru^$important,redirect=noopframe,subdocument
 ||mc.yandex.ru^$important,redirect=noopjs,script
 ||scorecardresearch.com/beacon.js$script,redirect=scorecardresearch.com/beacon.js,important

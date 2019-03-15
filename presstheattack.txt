@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
-! Last modified: 2019-03-15 14:32:41
-! Version: 20190315143241
+! Last modified: 2019-03-16 00:32:42
+! Version: 20190316003242
 ! Expires: 3 hours
-! Number of filters: 5223
+! Number of filters: 5226
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2812,6 +2812,7 @@ kinopoisk.ru##+js(abort-on-property-read.js, advBlock)
 kinopoisk.ru##+js(cookie-remover.js, /^blcrm|^bltsr|^cmtchd|^crookie|^kpunk|^yandex_plus_metrika_cookie)
 kinopoisk.ru##^script:has-text(window.Metrika)
 rambler.ru##^script:has-text((Number,)
+reddit.com##:xpath(/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[3]/div[1])
 tv.yandex.by##:xpath(/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/div[1]/section[1]/div[1]/div[22]/div[1]/div[1])
 tv.yandex.by##:xpath(/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/div[1]/section[1]/div[1]/div[23])
 tv.yandex.by##:xpath(/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/div[1]/section[1]/div[1]/div[8])
@@ -3046,7 +3047,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*-banner-ad.$important
 |http*:*-banner-ad^$important
 |http*:*-banner-ad_$important
-|http*:*-banner.
+|http*:*-banner.$domain=~reddit.com
 |http*:*-banner^
 |http*:*-banner_
 |http*:*-banners-
@@ -3282,7 +3283,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*-sponsor.
 |http*:*-sponsor^
 |http*:*-sponsor_
-|http*:*-sponsored-
+|http*:*-sponsored-$domain=~reddit.com
 |http*:*-sponsored.
 |http*:*-sponsored^
 |http*:*-sponsored_
@@ -5115,6 +5116,8 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||hotjar.com^$important
 ||hotlog.ru^$important
 ||ibillboard.com^$important
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=noopjs,important
+||imasdk.googleapis.com/js/sdkloader/ima3_debug.js$script,redirect=noopjs,important
 ||imrworldwide.com^$important
 ||indexww.com^$important
 ||ioam.de^$important
@@ -5163,7 +5166,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||quora.com/qevents.js$important,script
 ||recreativ.ru^$important
 ||reddit.com/timings/$important,xmlhttprequest
-||reddit.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.reddit.com *.redditmedia.com *.redditstatic.com reddit-uploaded-media.s3-accelerate.amazonaws.com
+||reddit.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.reddit.com *.redditmedia.com *.redditstatic.com reddit-uploaded-media.s3-accelerate.amazonaws.com *.redd.it
 ||redditmedia.com/gtm/jail^$important,subdocument
 ||redditstatic.com/moat^$important,script
 ||relap.io^$important

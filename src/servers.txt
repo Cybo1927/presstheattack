@@ -133,7 +133,7 @@
 ||pubmatic.com^$important
 ||quantserve.com^$important
 ||recreativ.ru^$important
-||reddit.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.reddit.com *.redditmedia.com *.redditstatic.com reddit-uploaded-media.s3-accelerate.amazonaws.com
+||reddit.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.reddit.com *.redditmedia.com *.redditstatic.com reddit-uploaded-media.s3-accelerate.amazonaws.com *.redd.it
 ||relap.io^$important
 ||revcontent.com^$important
 ||rubiconproject.com^$important

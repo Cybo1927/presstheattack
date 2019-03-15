@@ -170,7 +170,7 @@
 |http*:*-banner-ad.$important
 |http*:*-banner-ad^$important
 |http*:*-banner-ad_$important
-|http*:*-banner.
+|http*:*-banner.$domain=~reddit.com
 |http*:*-banner^
 |http*:*-banner_
 |http*:*-banners-
@@ -405,7 +405,7 @@
 |http*:*-sponsor.
 |http*:*-sponsor^
 |http*:*-sponsor_
-|http*:*-sponsored-
+|http*:*-sponsored-$domain=~reddit.com
 |http*:*-sponsored.
 |http*:*-sponsored^
 |http*:*-sponsored_
