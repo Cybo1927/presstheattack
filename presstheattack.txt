@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
-! Last modified: 2019-03-16 04:19:45
-! Version: 20190316041945
+! Last modified: 2019-03-18 04:00:53
+! Version: 20190318040053
 ! Expires: 3 hours
-! Number of filters: 5258
+! Number of filters: 5281
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -3203,6 +3203,10 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*-pixel.
 |http*:*-pixel^
 |http*:*-pixel_
+|http*:*-popunders-$important
+|http*:*-popunders.$important
+|http*:*-popunders^$important
+|http*:*-popunders_$important
 |http*:*-ppc-
 |http*:*-ppc.
 |http*:*-ppc^
@@ -3687,6 +3691,10 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*.pixel.
 |http*:*.pixel^
 |http*:*.pixel_
+|http*:*.popunders-$important
+|http*:*.popunders.$important
+|http*:*.popunders^$important
+|http*:*.popunders_$important
 |http*:*.ppc-
 |http*:*.ppc.
 |http*:*.ppc^
@@ -3942,6 +3950,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/glp?r=*&rw=*&rh=*&ww=*&wh=$important,script
 |http*:*/google-conversion.html$document,important
 |http*:*/gpt.js$important,script
+|http*:*/greenoaks.gif$image,important
 |http*:*/gridcash.js$important,script
 |http*:*/gtm.js$important,script
 |http*:*/gujAd.js$important,script
@@ -4006,6 +4015,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/static/js/tpb.js$important,script
 |http*:*/streambeam-jw.js$important,script
 |http*:*/streambeam-video.js$important,script
+|http*:*/sync.gif$image,important
 |http*:*/tnc.js?h=$important,script
 |http*:*/track-user.gif$image,important
 |http*:*/track-user.png$image,important
@@ -4017,6 +4027,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/view.png$image,important
 |http*:*/views.gif$image,important
 |http*:*/views.png$image,important
+|http*:*/visibilityStat.js$important,script
 |http*:*/visit.gif$image,important
 |http*:*/visit.png$image,important
 |http*:*/wasmminer.js$important,script
@@ -4369,6 +4380,10 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*^pixel.
 |http*:*^pixel^
 |http*:*^pixel_
+|http*:*^popunders-$important
+|http*:*^popunders.$important
+|http*:*^popunders^$important
+|http*:*^popunders_$important
 |http*:*^ppc-
 |http*:*^ppc.
 |http*:*^ppc^
@@ -4854,6 +4869,10 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*_pixel.
 |http*:*_pixel^
 |http*:*_pixel_
+|http*:*_popunders-$important
+|http*:*_popunders.$important
+|http*:*_popunders^$important
+|http*:*_popunders_$important
 |http*:*_ppc-
 |http*:*_ppc.
 |http*:*_ppc^
@@ -5028,6 +5047,8 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*://informers.*^$important
 |http*://smetrics.*^$important
 |http*://tag.*^$important
+|http*://xml*/click^$important
+|http*://xml*/redirect^$important
 ||1-1ads.com^$important
 ||28f77rd30e.ru^$important
 ||2mdn.net^$important
@@ -5169,6 +5190,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||mc.yandex.ru^$important,redirect=noopjs,script
 ||mediatoday.ru^$important
 ||meetrics.net^$important
+||mellowads.com^$important
 ||microsoft.com/collect/*$script,xmlhttprequest,important
 ||mms.cnn.com^$important
 ||moatads.com^$important
@@ -5231,6 +5253,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||theadex.com^$important
 ||tns-counter.ru^$important
 ||top100.ru/top100/top100.js$important,script
+||torrentz2.*^$csp=script-src 'self' 'unsafe-inline'
 ||trafficfactory.biz^$important
 ||trafficjunky.net^$important
 ||try.abtasty.com^$important

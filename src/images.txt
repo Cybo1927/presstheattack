@@ -32,6 +32,7 @@ GGBET$image
 |http*:*/event.gif$image,important
 |http*:*/event.png$image,important
 |http*:*/fpn.gif$image,important
+|http*:*/greenoaks.gif$image,important
 |http*:*/i.gif$image,important
 |http*:*/i.png$image,important
 |http*:*/lumbar.gif$image,important
@@ -50,6 +51,7 @@ GGBET$image
 |http*:*/s.png$image,important
 |http*:*/stat.gif$image,important
 |http*:*/stat.png$image,important
+|http*:*/sync.gif$image,important
 |http*:*/track-user.gif$image,important
 |http*:*/track-user.png$image,important
 |http*:*/view.gif$image,important

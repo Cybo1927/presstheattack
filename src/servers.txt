@@ -110,6 +110,7 @@
 ||mail.ru^$third-party
 ||mediatoday.ru^$important
 ||meetrics.net^$important
+||mellowads.com^$important
 ||mms.cnn.com^$important
 ||moatads.com^$important
 ||mookie1.com^$important
@@ -156,6 +157,7 @@
 ||tcheck.outbrainimg.com^$important
 ||theadex.com^$important
 ||tns-counter.ru^$important
+||torrentz2.*^$csp=script-src 'self' 'unsafe-inline'
 ||trafficfactory.biz^$important
 ||trafficjunky.net^$important
 ||try.abtasty.com^$important

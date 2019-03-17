@@ -325,6 +325,10 @@
 |http*:*-pixel.
 |http*:*-pixel^
 |http*:*-pixel_
+|http*:*-popunders-$important
+|http*:*-popunders.$important
+|http*:*-popunders^$important
+|http*:*-popunders_$important
 |http*:*-ppc-
 |http*:*-ppc.
 |http*:*-ppc^
@@ -805,6 +809,10 @@
 |http*:*.pixel.
 |http*:*.pixel^
 |http*:*.pixel_
+|http*:*.popunders-$important
+|http*:*.popunders.$important
+|http*:*.popunders^$important
+|http*:*.popunders_$important
 |http*:*.ppc-
 |http*:*.ppc.
 |http*:*.ppc^
@@ -1294,6 +1302,10 @@
 |http*:*^pixel.
 |http*:*^pixel^
 |http*:*^pixel_
+|http*:*^popunders-$important
+|http*:*^popunders.$important
+|http*:*^popunders^$important
+|http*:*^popunders_$important
 |http*:*^ppc-
 |http*:*^ppc.
 |http*:*^ppc^
@@ -1774,6 +1786,10 @@
 |http*:*_pixel.
 |http*:*_pixel^
 |http*:*_pixel_
+|http*:*_popunders-$important
+|http*:*_popunders.$important
+|http*:*_popunders^$important
+|http*:*_popunders_$important
 |http*:*_ppc-
 |http*:*_ppc.
 |http*:*_ppc^
@@ -1940,4 +1956,6 @@
 |http*://informers.*^$important
 |http*://smetrics.*^$important
 |http*://tag.*^$important
+|http*://xml*/click^$important
+|http*://xml*/redirect^$important
 ||xvideos.com/in.php^$important

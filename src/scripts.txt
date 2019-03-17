@@ -118,6 +118,7 @@
 |http*:*/tracking.js$important,script
 |http*:*/uutils.fcg^$important,script
 |http*:*/videojs.ads.js$important,script
+|http*:*/visibilityStat.js$important,script
 |http*:*/wasmminer.js$important,script
 |http*:*/wasmminer.wasm$important,script
 |http*:*/watch_ua.js$important,script
