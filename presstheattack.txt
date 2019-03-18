@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
-! Last modified: 2019-03-19 05:03:16
-! Version: 20190319050316
+! Last modified: 2019-03-19 07:24:01
+! Version: 20190319072401
 ! Expires: 3 hours
-! Number of filters: 5394
+! Number of filters: 5430
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2751,10 +2751,10 @@
 /\/banner[0-9]{1,2}?\.gif/$image,important
 /\/fingerprint([0-9]{1,2})?(\.min)?\.js/$important,script,xmlhttprequest
 /\/fp([0-9]{1,2})?\.js/$important,script
-/\/popunder([0-9]{1,2})?\./$script,xmlhttprequest,important
+/\/popunder([0-9]{1,2})?\./$script,xmlhttprequest,popup,important
 /^https?:\/\/(([0-9]{1,2})?l\-hit|([0-9]{1,2})?l-view|r([0-9]{1,2})?|rs|top\-fwz([0-9]{1,2})?|vk\.go|reklama|ad|ads|recostream\.go|[^\s]{10,}\.top|mediator|[^\s]{3,}\.radar|g?stat|top|xray)\.(imgs)?mail\.ru/$important
 /^https?:\/\/(([0-9]{1,2})?l\-hit|([0-9]{1,2})?l-view|r([0-9]{1,2})?|rs|top\-fwz([0-9]{1,2})?|vk\.go|reklama|ad|ads|recostream\.go|[^\s]{10,}\.top|mediator|[^\s]{3,}\.radar|g?stat|top|xray)\.(imgs)?mail\.ru/$important,popup
-/^https?:\/\/([^\s]{1,})?(88|468|100|728|120|125|234|250|392|400|470|75|782)x(75|40|72|250|31|60|100|90|80|240|600|125)([^\s]{1,})?\.(png|gif|jpe?g)/$image,domain=~twitter.com|~9gag.com
+/^https?:\/\/([^\s]{1,})?(88|468|100|728|120|125|234|250|392|400|470|75|782|300)x(75|40|72|250|31|60|100|90|80|240|600|125)([^\s]{1,})?\.(png|gif|jpe?g)/$image,domain=~twitter.com|~9gag.com
 /^https?:\/\/([^\s]{2,}\.)?(id|adservice|mobilecrashreporting|imasdk|tagmanager)\.google(apis)?\.\w{2,}/$important
 /^https?:\/\/([^\s]{2,}\.)?google(\-analytics|syndication|tagmanager|adservices|tagservices)\.\w{2,}/$important
 /^https?:\/\/(an|awaps|awsync|appmetrica|bs|direct|grade\.market|informer|kiks|clck|main\.zdevx|mc|web\-metrica|yabs|zen|browser\-updater|bs\-meta)\.yandex\.\w{2,}/$important
@@ -3063,6 +3063,10 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*-beacon.$important
 |http*:*-beacon^$important
 |http*:*-beacon_$important
+|http*:*-bipixel-
+|http*:*-bipixel.
+|http*:*-bipixel^
+|http*:*-bipixel_
 |http*:*-campaign-
 |http*:*-campaign.
 |http*:*-campaign^
@@ -3172,6 +3176,10 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*-logs.
 |http*:*-logs^
 |http*:*-logs_
+|http*:*-MetaAdServer-$important
+|http*:*-MetaAdServer.$important
+|http*:*-MetaAdServer^$important
+|http*:*-MetaAdServer_$important
 |http*:*-metrica-$important
 |http*:*-metrica.$important
 |http*:*-metrica^$important
@@ -3576,6 +3584,10 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*.beacon.$important
 |http*:*.beacon^$important
 |http*:*.beacon_$important
+|http*:*.bipixel-
+|http*:*.bipixel.
+|http*:*.bipixel^
+|http*:*.bipixel_
 |http*:*.campaign-
 |http*:*.campaign.
 |http*:*.campaign^
@@ -3684,6 +3696,10 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*.logs.
 |http*:*.logs^
 |http*:*.logs_
+|http*:*.MetaAdServer-$important
+|http*:*.MetaAdServer.$important
+|http*:*.MetaAdServer^$important
+|http*:*.MetaAdServer_$important
 |http*:*.metrica-$important
 |http*:*.metrica.$important
 |http*:*.metrica^$important
@@ -3958,6 +3974,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/banners/*.gif$image,important
 |http*:*/bens/vinos.js$important,script
 |http*:*/bitcoincore/?ref=$important,script
+|http*:*/bk-coretag.js$important,script
 |http*:*/blank.gif$image,important
 |http*:*/blank.png$image,important
 |http*:*/browsermine.js$important,script
@@ -4010,6 +4027,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/hive.js$important,script
 |http*:*/hstrck-detect.js$important,script
 |http*:*/i.gif$image,important
+|http*:*/i.gif$image,important
 |http*:*/i.png$image,important
 |http*:*/ima3.js$important,script
 |http*:*/imp.gif$image,important
@@ -4059,6 +4077,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/raven.js$important,script
 |http*:*/referdetect.js$important,script
 |http*:*/referrer.js$important,script
+|http*:*/remove_ads.$image,script,xmlhttprequest,important
 |http*:*/s.gif$image,important
 |http*:*/s.png$image,important
 |http*:*/s_code.js$important,script
@@ -4301,6 +4320,10 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*^beacon.$important
 |http*:*^beacon^$important
 |http*:*^beacon_$important
+|http*:*^bipixel-
+|http*:*^bipixel.
+|http*:*^bipixel^
+|http*:*^bipixel_
 |http*:*^campaign-
 |http*:*^campaign.
 |http*:*^campaign^
@@ -4409,6 +4432,10 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*^logs.
 |http*:*^logs^
 |http*:*^logs_
+|http*:*^MetaAdServer-$important
+|http*:*^MetaAdServer.$important
+|http*:*^MetaAdServer^$important
+|http*:*^MetaAdServer_$important
 |http*:*^metrica-$important
 |http*:*^metrica.$important
 |http*:*^metrica^$important
@@ -4813,6 +4840,10 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*_beacon.$important
 |http*:*_beacon^$important
 |http*:*_beacon_$important
+|http*:*_bipixel-
+|http*:*_bipixel.
+|http*:*_bipixel^
+|http*:*_bipixel_
 |http*:*_campaign-
 |http*:*_campaign.
 |http*:*_campaign^
@@ -4922,6 +4953,10 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*_logs.
 |http*:*_logs^
 |http*:*_logs_
+|http*:*_MetaAdServer-$important
+|http*:*_MetaAdServer.$important
+|http*:*_MetaAdServer^$important
+|http*:*_MetaAdServer_$important
 |http*:*_metrica-$important
 |http*:*_metrica.$important
 |http*:*_metrica^$important
@@ -5154,6 +5189,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*://delivery.*^$third-party
 |http*://geoservice.*^$important
 |http*://informers.*^$important
+|http*://px.*^$important
 |http*://smetrics.*^$important
 |http*://tag.*^$important
 |http*://xml*/click^$important

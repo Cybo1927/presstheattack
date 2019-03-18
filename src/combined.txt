@@ -1,4 +1,4 @@
-/\/popunder([0-9]{1,2})?\./$script,xmlhttprequest,important
+/\/popunder([0-9]{1,2})?\./$script,xmlhttprequest,popup,important
 /^https?:\/\/[^\s]{3,}google\.[^\s]{2,5}\/log\?/$image,important,xmlhttprequest
 /^https?:\/\/[^\s]{15,}(player|gen|client|csi|generate|stream|log)\_?204/$image,important,xmlhttprequest
 /^https?:\/\/[^\s]{15,}log[\W|_]?(type|event|entry|request)/$image,important,xmlhttprequest
@@ -18,3 +18,4 @@
 ||microsoft.com/collect/*$script,xmlhttprequest,important
 ||yastatic.net/*/zen-lib/$important,script,xmlhttprequest,stylesheet
 ||youtube.com/api/stats^$image,important,xmlhttprequest
+|http*:*/remove_ads.$image,script,xmlhttprequest,important

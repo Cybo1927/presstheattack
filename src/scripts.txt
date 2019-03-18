@@ -20,6 +20,7 @@
 |http*:*/nielsen.js$important,script
 |http*:*/utrack.js$important,script
 |http*:*/accip_script.js$important,script
+|http*:*/bk-coretag.js$important,script
 |http*:*/bens/vinos.js$important,script
 |http*:*/mormont.js$important,script
 |http*:*/ad.js$important,script

@@ -1,6 +1,6 @@
 /\/banner[0-9]{1,2}?\.gif/$image,important
 /^https?:\/\/2ch\.(hk|pm|re|tf|wf|yt)\/images/$image
-/^https?:\/\/([^\s]{1,})?(88|468|100|728|120|125|234|250|392|400|470|75|782)x(75|40|72|250|31|60|100|90|80|240|600|125)([^\s]{1,})?\.(png|gif|jpe?g)/$image,domain=~twitter.com|~9gag.com
+/^https?:\/\/([^\s]{1,})?(88|468|100|728|120|125|234|250|392|400|470|75|782|300)x(75|40|72|250|31|60|100|90|80|240|600|125)([^\s]{1,})?\.(png|gif|jpe?g)/$image,domain=~twitter.com|~9gag.com
 1xbet$image,important
 1xstavka$image,important
 GGBET$image
@@ -13,6 +13,7 @@ GGBET$image
 |http*:*/3x2.png$image,important
 |http*:*/32x32.gif$image,important
 |http*:*/32x32.png$image,important
+|http*:*/i.gif$image,important
 |http*:*/*pixel.gif$image,important
 |http*:*/*pixel.png$image,important
 |http*:*/a.gif$image,important
