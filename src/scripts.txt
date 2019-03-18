@@ -16,6 +16,12 @@
 |http*:*/*-gtm.js$important,script
 |http*:*/*_gtm.js$important,script
 |http*:*/*ping.js$important,script
+|http*:*/ados.js$important,script
+|http*:*/nielsen.js$important,script
+|http*:*/utrack.js$important,script
+|http*:*/accip_script.js$important,script
+|http*:*/bens/vinos.js$important,script
+|http*:*/mormont.js$important,script
 |http*:*/ad.js$important,script
 |http*:*/ad_loader.js$important,script
 |http*:*/ad_track.js$important,script

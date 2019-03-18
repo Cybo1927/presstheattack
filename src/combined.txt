@@ -1,3 +1,4 @@
+/\/popunder([0-9]{1,2})?\./$script,xmlhttprequest,important
 /^https?:\/\/[^\s]{3,}google\.[^\s]{2,5}\/log\?/$image,important,xmlhttprequest
 /^https?:\/\/[^\s]{15,}(player|gen|client|csi|generate|stream|log)\_?204/$image,important,xmlhttprequest
 /^https?:\/\/[^\s]{15,}log[\W|_]?(type|event|entry|request)/$image,important,xmlhttprequest
@@ -10,6 +11,7 @@
 |http*:*/dtm/*/satellitelib$important,script,xmlhttprequest
 |http*:*/events-collector.*$script,xmlhttprequest,important
 |http*:*/site=*/size=*/viewid=$image,important,xmlhttprequest,script
+|http*:*/stat?event=$script,xmlhttprequest,important
 |http*:*?_siteid=$important,script,xmlhttprequest
 ||akamaized.net/?u=$image,important,xmlhttprequest
 ||bing.com/fd/ls/$image,important,xmlhttprequest
