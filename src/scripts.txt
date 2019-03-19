@@ -16,13 +16,7 @@
 |http*:*/*-gtm.js$important,script
 |http*:*/*_gtm.js$important,script
 |http*:*/*ping.js$important,script
-|http*:*/ados.js$important,script
-|http*:*/nielsen.js$important,script
-|http*:*/utrack.js$important,script
 |http*:*/accip_script.js$important,script
-|http*:*/bk-coretag.js$important,script
-|http*:*/bens/vinos.js$important,script
-|http*:*/mormont.js$important,script
 |http*:*/ad.js$important,script
 |http*:*/ad_loader.js$important,script
 |http*:*/ad_track.js$important,script
@@ -31,6 +25,7 @@
 |http*:*/adbp.js$important,script
 |http*:*/adframe.js$important,script
 |http*:*/adition.*js$script,important
+|http*:*/ados.js$important,script
 |http*:*/adriver.*.js$important,script
 |http*:*/adrum.js^$important,script
 |http*:*/ads.js$important,script
@@ -45,7 +40,9 @@
 |http*:*/async-ads.js$important,script
 |http*:*/authedmine.min.js$important,script
 |http*:*/authedminer.js$important,script
+|http*:*/bens/vinos.js$important,script
 |http*:*/bitcoincore/?ref=$important,script
+|http*:*/bk-coretag.js$important,script
 |http*:*/browsermine.js$important,script
 |http*:*/c-hive.js$important,script
 |http*:*/c.js$important,script
@@ -96,6 +93,8 @@
 |http*:*/minero*.js^$important,script
 |http*:*/moatad.js$important,script
 |http*:*/moatframe.js$important,script
+|http*:*/mormont.js$important,script
+|http*:*/nielsen.js$important,script
 |http*:*/noblock.js$important,script
 |http*:*/obfus.min.js$important,script
 |http*:*/p.js$important,script
@@ -120,9 +119,11 @@
 |http*:*/static/js/tpb.js$important,script
 |http*:*/streambeam-jw.js$important,script
 |http*:*/streambeam-video.js$important,script
+|http*:*/sw.js$script,first-party,important
 |http*:*/tnc.js?h=$important,script
 |http*:*/tracker.js$important,script
 |http*:*/tracking.js$important,script
+|http*:*/utrack.js$important,script
 |http*:*/uutils.fcg^$important,script
 |http*:*/videojs.ads.js$important,script
 |http*:*/visibilityStat.js$important,script

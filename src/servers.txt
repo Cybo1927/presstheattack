@@ -7,7 +7,6 @@
 /^https?:\/\/(www\.)?(client\-event\-reporter|countess|mp|polyfill|sentinel|spade|trowel|fan)\.+twitch(svc)?\.\w{2,}/$important
 /^https?:\/\/(www\.)?facebook\.\w{3,}\/tr\D/$important
 /^https?:\/\/[a-z0-9]{1,2}?adserv\.com/$important
-/^https?:\/\/collector[0-9]{1,2}\.xhamster\.[a-z]{3}/$important
 /^https?:\/\/yastatic\.net\/[^\s]{500,}/$domain=~vh.yandex.ru
 /^https?:\/\/zmctrack\.(com|net)/$important
 ||1-1ads.com^$important
@@ -22,6 +21,7 @@
 ||adclear.net^$important
 ||adform.net^$important
 ||adfox.ru^$important
+||adglare.net^$important
 ||adition.com^$important
 ||adlightning.com^$important
 ||admantx.com^$important

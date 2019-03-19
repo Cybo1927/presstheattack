@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
-! Last modified: 2019-03-19 07:24:01
-! Version: 20190319072401
+! Last modified: 2019-03-19 14:43:14
+! Version: 20190319144314
 ! Expires: 3 hours
-! Number of filters: 5430
+! Number of filters: 5433
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2770,7 +2770,7 @@
 /^https?:\/\/analytics[0-9]{1,2}?\./$important
 /^https?:\/\/c([0-9]{1,2})?\./$important
 /^https?:\/\/cdn[0-9]{1,2}?\.rocks\/[^\s]{30,}\.js/$important,script
-/^https?:\/\/collector[0-9]{1,2}\.xhamster\.[a-z]{3}/$important
+/^https?:\/\/collector([0-9]{1,2})?\.xhamster\.[a-z]{3}/$script,xmlhttprequest,important
 /^https?:\/\/contentbooster\.me+\/(?!manifest)[a-z0-9]{5,45}/$important,xmlhttprequest
 /^https?:\/\/graph\.(facebook|instagram)\.com/$important,script,image,xmlhttprequest
 /^https?:\/\/log[0-9]{1,2}?\./$important
@@ -3740,6 +3740,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*.partners.
 |http*:*.partners^
 |http*:*.partners_
+|http*:*.php?zoneid=$script,xmlhttprequest,important
 |http*:*.phpads-$important
 |http*:*.phpads.$important
 |http*:*.phpads^$important
@@ -4093,6 +4094,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/static/js/tpb.js$important,script
 |http*:*/streambeam-jw.js$important,script
 |http*:*/streambeam-video.js$important,script
+|http*:*/sw.js$script,first-party,important
 |http*:*/sync.gif$image,important
 |http*:*/tnc.js?h=$important,script
 |http*:*/track-user.gif$image,important
@@ -5206,6 +5208,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||adclear.net^$important
 ||adform.net^$important
 ||adfox.ru^$important
+||adglare.net^$important
 ||adition.com^$important
 ||adlightning.com^$important
 ||admantx.com^$important
