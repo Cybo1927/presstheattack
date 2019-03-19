@@ -1,6 +1,7 @@
 /\/([^\s]{4})?tag\.min\.([a-z0-9]{30,}\.)?js/$important,script
 /\/advert([0-9]{1,2})?\.js/$important,script
 /\/fp([0-9]{1,2})?\.js/$important,script
+/^https?:\/\/([a-z0-9]{8,10}\.)?[a-z0-9]{5,14}\.(com|bid|online|top|club)\/([a-z0-9]{2}\/){3}[a-f0-9]{32}\.js$/$third-party,script,domain=hpjav.tv,important
 /^https?:\/\/cdn[0-9]{1,2}?\.rocks\/[^\s]{30,}\.js/$important,script
 /me([0-9]{1})?w\.js/$important,script
 /webmr([0-9]{1,2})?\.js/$important,script
@@ -24,7 +25,7 @@
 |http*:*/adblockr.javascript$important,script
 |http*:*/adbp.js$important,script
 |http*:*/adframe.js$important,script
-|http*:*/adition.*js$script,important
+|http*:*/adition.*js$important,script
 |http*:*/ados.js$important,script
 |http*:*/adriver.*.js$important,script
 |http*:*/adrum.js^$important,script
@@ -32,7 +33,7 @@
 |http*:*/adsbygoogle.js$important,script
 |http*:*/adsdk.js$important,script
 |http*:*/advertising.js$important,script
-|http*:*/akam/10/*$script,important
+|http*:*/akam/10/*$important,script
 |http*:*/analytics.js$important,script
 |http*:*/annotations_module.js$script,domain=youtube.com
 |http*:*/antiadb.js$important,script
@@ -79,6 +80,7 @@
 |http*:*/gujAd.js$important,script
 |http*:*/hive.js$important,script
 |http*:*/hstrck-detect.js$important,script
+|http*:*/ht.js?site^$important,script
 |http*:*/ima3.js$important,script
 |http*:*/invoke.js$important,script
 |http*:*/jsecoin.js$important,script
@@ -94,6 +96,7 @@
 |http*:*/moatad.js$important,script
 |http*:*/moatframe.js$important,script
 |http*:*/mormont.js$important,script
+|http*:*/nativeads.js$important,script
 |http*:*/nielsen.js$important,script
 |http*:*/noblock.js$important,script
 |http*:*/obfus.min.js$important,script
@@ -105,7 +108,7 @@
 |http*:*/pptm.js$important,script
 |http*:*/processor.js$important,script
 |http*:*/projectpoi.min.js$important,script
-|http*:*/prum.$script,important
+|http*:*/prum.$important,script
 |http*:*/px.js$important,script
 |http*:*/raven.js$important,script
 |http*:*/referdetect.js$important,script
@@ -142,7 +145,7 @@
 |http*:*/xmr-monero.js$important,script
 |http*:*/xmr.js$important,script
 |http*:*/xmr.min.js$important,script
-|http*:*/yads-async.js$script,important
+|http*:*/yads-async.js$important,script
 |http*:*/yads.js$important,script
 |http*:*^vast-$script
 |http*:*^vast.$script
@@ -156,7 +159,7 @@
 |http*:*google.tracker.js$important,script
 |http*:*google^tracker.js$important,script
 |http*:*google_tracker.js$important,script
-||amazonaws.com/ki.js$script,important
+||amazonaws.com/ki.js$important,script
 ||amplify.outbrain.com/cp/obtp.js$important,script
 ||cryptonoter.com/processor.js$important,script
 ||duckduckgo.com/y.js$important,script

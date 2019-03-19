@@ -2711,6 +2711,7 @@
 ##img[width="468"][height="60"]
 2ch.hk,2ch.pm,2ch.re,2ch.tf,2ch.wf,2ch.yt###mobile-plashque
 2ch.hk,2ch.pm,2ch.re,2ch.tf,2ch.wf,2ch.yt###plashque
+reddit.com##.onboardingbar-body
 twitch.tv##a[href*="&BannerId="] > img
 twitch.tv##a[href*="&bonus="] > img
 twitch.tv##a[href*=".click"] > img
