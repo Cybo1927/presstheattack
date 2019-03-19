@@ -7,6 +7,7 @@
 /^https?:\/\/news\.yandex\.[^\s]{2,5}\/[^\s]{300,}/$important,subdocument,xmlhttprequest
 /^https?:\/\/tv\.yandex\.[^\s]{2,5}\/[^\s]{270,}/$important,xmlhttprequest,image,subdocument
 /^https?:\/\/yandex\.[^\s]{2,5}\/images/(?!(search\?rpt=\imageview)|(search\?callback\=jQuery)|(search\?exp_flags=)|(search\?serpid=)|(touch/search?))[^\s]{80,}/$important,subdocument,xmlhttprequest
+http*:*/fbpixel.$important,script,xmlhttprequest,image
 |http*:*.php?zoneid=$script,xmlhttprequest,important
 |http*:*/amp.gif$image,xmlhttprequest,important
 |http*:*/b/ss/*&ce=utf-8&$image,important,script
@@ -17,7 +18,7 @@
 |http*:*/stat?event=$script,xmlhttprequest,important
 |http*:*?_siteid=$important,script,xmlhttprequest
 ||akamaized.net/?u=$image,important,xmlhttprequest
-||bing.com/fd/ls/$image,important,xmlhttprequest
+||bing.com/fd/ls/*$image,important,xmlhttprequest
 ||microsoft.com/collect/*$script,xmlhttprequest,important
-||yastatic.net/*/zen-lib/$important,script,xmlhttprequest,stylesheet
+||yastatic.net/*/zen-lib/*$important,script,xmlhttprequest,stylesheet
 ||youtube.com/api/stats^$image,important,xmlhttprequest

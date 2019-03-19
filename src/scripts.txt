@@ -116,6 +116,7 @@
 |http*:*/s_code.js$important,script
 |http*:*/safelinkconverter.js$important,script
 |http*:*/showads.js$important,script
+|http*:*/smarttag.js$script,important
 |http*:*/snow.js$important,script
 |http*:*/snowstorm.js$important,script
 |http*:*/sparechange.js$important,script

@@ -104,6 +104,7 @@
 ||ipinfo.io^$important
 ||iwanttodeliver.com^$important
 ||justicejudo.com^$important
+||keywee.co^$important
 ||lcs.naver.com^$important
 ||ligatus.com^$important
 ||lijit.com^$important

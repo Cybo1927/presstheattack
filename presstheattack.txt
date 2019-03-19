@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
-! Last modified: 2019-03-19 22:11:00
-! Version: 20190319221100
+! Last modified: 2019-03-20 09:44:34
+! Version: 20190320094434
 ! Expires: 3 hours
-! Number of filters: 5435
+! Number of filters: 5422
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2810,24 +2810,12 @@
 @@||yastatic.net/yandex-video-player-iframe-api-bundles^$subdocument
 GGBET$image
 google.*##+js(remove-attr.js, ping, div[class] > a[ping])
+http*:*/fbpixel.$important,script,xmlhttprequest,image
 kinopoisk.ru##+js(abort-on-property-read.js, advBlock)
 kinopoisk.ru##+js(cookie-remover.js, /^blcrm|^bltsr|^cmtchd|^crookie|^kpunk|^yandex_plus_metrika_cookie)
 kinopoisk.ru##^script:has-text(window.Metrika)
 rambler.ru##^script:has-text((Number,)
 reddit.com##.onboardingbar-body
-reddit.com##:xpath(/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[3]/div[1][contains(.,'Trending today')])
-tv.yandex.by##:xpath(/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/div[1]/section[1]/div[1]/div[22]/div[1]/div[1])
-tv.yandex.by##:xpath(/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/div[1]/section[1]/div[1]/div[23])
-tv.yandex.by##:xpath(/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/div[1]/section[1]/div[1]/div[8])
-tv.yandex.by##:xpath(/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/div[1]/section[2]/div[1]/div[1])
-tv.yandex.ru##:xpath(/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/div[1]/section[1]/div[1]/div[22]/div[1]/div[1])
-tv.yandex.ru##:xpath(/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/div[1]/section[1]/div[1]/div[23])
-tv.yandex.ru##:xpath(/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/div[1]/section[1]/div[1]/div[8])
-tv.yandex.ru##:xpath(/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/div[1]/section[1]/div[2]/div[22]/div[1]/div[1])
-tv.yandex.ru##:xpath(/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/div[1]/section[2]/div[1]/div[1])
-tv.yandex.ua##:xpath(/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/div[1]/section[1]/div[1]/div[15])
-tv.yandex.ua##:xpath(/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/div[1]/section[1]/div[1]/div[15]/div[1]/div[1]/div[1])
-tv.yandex.ua##:xpath(/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/div[1]/section[1]/div[1]/div[8])
 twitch.tv##+js(twitch-videoad.js)
 twitch.tv##a[href*="&BannerId="] > img
 twitch.tv##a[href*="&bonus="] > img
@@ -2876,9 +2864,6 @@ twitch.tv##a[href*="vk.cc"] > img
 twitter.com##[data-focusable="true"]:has-text(/Promoted|Gesponsert|Реклама/):not(:xpath(//div[contains(text(),'Реклама в Твиттере')]))
 twitter.com##[data-testid="trend"]:has-text(/Promoted|Gesponsert|Реклама/):xpath(..)
 twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/):xpath(..)
-xnxx.com,xvideos.com##+js(xvideos.com.js)
-xvideos.com##+js(nowebrtc.js)
-xvideos.com,xhamster.*##+js(window.open-defuser.js)
 yandex.by,yandex.ru,yandex.ua##+js(abort-on-property-read.js, advBlock)
 yandex.by,yandex.ru,yandex.ua##+js(cookie-remover.js, /yp|ys|yc|zm|yabs-sid|my|mda|spravka|^blcrm|^bltsr|^yabs|^YvUVZgzQ/)
 yandex.by,yandex.ru,yandex.ua##^script:has-text(AdvManager)
@@ -4088,6 +4073,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/safelinkconverter.js$important,script
 |http*:*/showads.js$important,script
 |http*:*/site=*/size=*/viewid=$image,important,xmlhttprequest,script
+|http*:*/smarttag.js$script,important
 |http*:*/snow.js$important,script
 |http*:*/snowstorm.js$important,script
 |http*:*/sparechange.js$important,script
@@ -5261,7 +5247,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||begun.ru^$important
 ||betweendigital.com^$important
 ||bidswitch.net^$important
-||bing.com/fd/ls/$image,important,xmlhttprequest
+||bing.com/fd/ls/*$image,important,xmlhttprequest
 ||bounceexchange.com^$important
 ||casalemedia.com^$important
 ||cdn.ziffstatic.com^$important
@@ -5330,6 +5316,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||ipinfo.io^$important
 ||iwanttodeliver.com^$important
 ||justicejudo.com^$important
+||keywee.co^$important
 ||kiks.yandex.ru^$important,redirect=noopframe,subdocument
 ||lcs.naver.com^$important
 ||ligatus.com^$important
@@ -5444,7 +5431,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||yandex.ru/portal/*$important,image
 ||yandex.st^$domain=~yandex.by|~yandex.ru|~yandex.ua
 ||yastatic.net/*.gif$important,image
-||yastatic.net/*/zen-lib/$important,script,xmlhttprequest,stylesheet
+||yastatic.net/*/zen-lib/*$important,script,xmlhttprequest,stylesheet
 ||yastatic.net/daas/atom.js$important,script
 ||yastatic.net^$important,popup
 ||ybnj57w4m7.ru^$important
