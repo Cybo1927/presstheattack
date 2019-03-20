@@ -1585,7 +1585,7 @@
 |http*:*_ad^slot.$important
 |http*:*_ad^slot^$important
 |http*:*_ad^slot_$important
-|http*:*_ad_
+|http*:*_ad_$domain=~facebook.com
 |http*:*_ad_slot-$important
 |http*:*_ad_slot.$important
 |http*:*_ad_slot^$important
@@ -1849,7 +1849,7 @@
 |http*:*_log-
 |http*:*_log.
 |http*:*_log^$domain=~github.com
-|http*:*_log_
+|http*:*_log_$domain=~facebook.com
 |http*:*_logpopup-$important
 |http*:*_logpopup.$important
 |http*:*_logpopup^$important
@@ -2044,7 +2044,7 @@
 |http*:*_trackad_$important
 |http*:*_tracker-
 |http*:*_tracker.
-|http*:*_tracker^
+|http*:*_tracker^$domain=~bountysource.com
 |http*:*_tracker_
 |http*:*_tracking-
 |http*:*_tracking.

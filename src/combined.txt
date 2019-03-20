@@ -22,3 +22,4 @@ http*:*/fbpixel.$important,script,xmlhttprequest,image
 ||microsoft.com/collect/*$script,xmlhttprequest,important
 ||yastatic.net/*/zen-lib/*$important,script,xmlhttprequest,stylesheet
 ||youtube.com/api/stats^$image,important,xmlhttprequest
+||facebook.com/xti.php^$script,xmlhttprequest,important
