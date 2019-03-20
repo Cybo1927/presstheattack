@@ -130,6 +130,7 @@
 ||optimizely.com^$important
 ||pb.m.naver.com^$important
 ||piguiqproxy.com^$important
+||pixel.facebook.com^$important
 ||plista.com^$important
 ||popcash.net^$important
 ||postrelease.com^$important

@@ -19,7 +19,7 @@ http*:*/fbpixel.$important,script,xmlhttprequest,image
 |http*:*?_siteid=$important,script,xmlhttprequest
 ||akamaized.net/?u=$image,important,xmlhttprequest
 ||bing.com/fd/ls/*$image,important,xmlhttprequest
+||facebook.com/xti.php^$script,xmlhttprequest,important
 ||microsoft.com/collect/*$script,xmlhttprequest,important
 ||yastatic.net/*/zen-lib/*$important,script,xmlhttprequest,stylesheet
 ||youtube.com/api/stats^$image,important,xmlhttprequest
-||facebook.com/xti.php^$script,xmlhttprequest,important
