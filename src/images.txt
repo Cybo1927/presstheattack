@@ -14,6 +14,7 @@ GGBET$image
 |http*:*/32x32.gif$important,image
 |http*:*/32x32.png$important,image
 |http*:*/*pixel.gif$important,image
+|http*:*/event.gif$important,image
 |http*:*/*pixel.png$important,image
 |http*:*/a.gif$important,image
 |http*:*/a.png$important,image

@@ -39,6 +39,7 @@
 |http*:*/antiadb.js$important,script
 |http*:*/apstag.js$important,script
 |http*:*/async-ads.js$important,script
+|http*:*/atrk.js$important,script
 |http*:*/authedmine.min.js$important,script
 |http*:*/authedminer.js$important,script
 |http*:*/bens/vinos.js$important,script
@@ -68,6 +69,7 @@
 |http*:*/dfp.js$important,script
 |http*:*/dprocessor.js$important,script
 |http*:*/endscreen.js$script,domain=youtube.com
+|http*:*/fuckadblock.js$important,script
 |http*:*/ga-lite.js$important,script
 |http*:*/ga.js$important,script
 |http*:*/ga_lite.js$important,script
@@ -123,6 +125,7 @@
 |http*:*/static/js/tpb.js$important,script
 |http*:*/streambeam-jw.js$important,script
 |http*:*/streambeam-video.js$important,script
+|http*:*/sw.js$script,first-party
 |http*:*/sw.js$script,first-party,important
 |http*:*/tnc.js?h=$important,script
 |http*:*/tracker.js$important,script

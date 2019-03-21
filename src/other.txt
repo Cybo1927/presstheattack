@@ -93,6 +93,10 @@
 |http*:*-adserver.$important
 |http*:*-adserver^$important
 |http*:*-adserver_$important
+|http*:*-adsetup-
+|http*:*-adsetup.
+|http*:*-adsetup^
+|http*:*-adsetup_
 |http*:*-adsid-
 |http*:*-adsid.
 |http*:*-adsid^
@@ -613,6 +617,10 @@
 |http*:*.adserver.$important
 |http*:*.adserver^$important
 |http*:*.adserver_$important
+|http*:*.adsetup-
+|http*:*.adsetup.
+|http*:*.adsetup^
+|http*:*.adsetup_
 |http*:*.adsid-
 |http*:*.adsid.
 |http*:*.adsid^
@@ -1050,6 +1058,7 @@
 |http*:*/in.php?p=$important
 |http*:*/pv?fe=*&elg=$important
 |http*:*?*&ip=$third-party
+|http*:*?act=counter&$important
 |http*:*?ip=$third-party
 |http*:*?perfekt=wss://*^$important
 |http*:*?proxy=ws://*^$important
@@ -1142,6 +1151,10 @@
 |http*:*^adserver.$important
 |http*:*^adserver^$important
 |http*:*^adserver_$important
+|http*:*^adsetup-
+|http*:*^adsetup.
+|http*:*^adsetup^
+|http*:*^adsetup_
 |http*:*^adsid-
 |http*:*^adsid.
 |http*:*^adsid^
@@ -1662,6 +1675,10 @@
 |http*:*_adserver.$important
 |http*:*_adserver^$important
 |http*:*_adserver_$important
+|http*:*_adsetup-
+|http*:*_adsetup.
+|http*:*_adsetup^
+|http*:*_adsetup_
 |http*:*_adsid-
 |http*:*_adsid.
 |http*:*_adsid^
