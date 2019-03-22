@@ -8,4 +8,5 @@
 ||twitter.com/*/recommendations^$xmlhttprequest
 ||twitter.com/*/toast_poll^$important,xmlhttprequest
 ||twitter.com/i/jot^$important,xmlhttprequest
+||yahoo.com/pageview/*$xmlhttprequest,important
 ||youtube.com/get_midroll_info^$important,xmlhttprequest

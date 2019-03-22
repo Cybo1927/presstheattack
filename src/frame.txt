@@ -1,1 +1,2 @@
 ||redditmedia.com/gtm/jail^$important,subdocument
+||yahoo.com/sdarla/*$subdocument,important

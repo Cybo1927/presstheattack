@@ -28,7 +28,7 @@
 ||admitad.com^$important
 ||admixer.net^$important
 ||adnxs.com^$important
-||adobedtm.com^$important
+||adobedtm.com^
 ||adpartner.*^$important
 ||adriver.ru^$important
 ||ads-twitter.com^$important
@@ -51,6 +51,7 @@
 ||atdmt.com^$important
 ||atwola.com^$important
 ||bat.bing.com^$important
+||bats.video.yahoo.com^$important
 ||bbelements.com^$important
 ||begun.ru^$important
 ||betweendigital.com^$important
@@ -76,6 +77,7 @@
 ||doubleclick.net^$important
 ||doublepimp.com^$important
 ||doublepimpssl.com^$important
+||ds-aksb-a.akamaihd.net^$important
 ||edigitalsurvey.com^$important
 ||effectivemeasure.net^$important
 ||emetriq.de^$important
