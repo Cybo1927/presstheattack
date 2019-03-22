@@ -11,7 +11,7 @@ WE ARE NOT RESPONSIBLE FOR ANY DAMAGES DUE TO THE USE OF THIS PROJECT OR ITS PAR
 For more information, see the MIT license.
 
 Github: https://github.com/bogachenko/presstheattack/
-Last modified: February 13, 2019
+Last modified: March 22, 2019
 License: MIT <https://github.com/bogachenko/presstheattack/blob/master/LICENSE.md>
 Problem reports: https://github.com/bogachenko/presstheattack/issues
 Title: README.md
@@ -26,7 +26,7 @@ Download the entire Press the Attack project at https://github.com/bogachenko/pr
 [![license](https://img.shields.io/badge/license-MIT-%233fb912.svg)](https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md)
 [![syntax](https://img.shields.io/badge/syntax-uBlock%20Origin-%23c61300.svg)](https://github.com/gorhill/uBlock/wiki/Static-filter-syntax)
 
-Filter list for ad blocking, tracking, mining, and more.
+Filters for ad blocking, tracking, crypto mining, and more!
 
 ## About the project
 
