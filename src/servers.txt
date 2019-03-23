@@ -135,6 +135,7 @@
 ||piguiqproxy.com^$important
 ||pixel.facebook.com^$important
 ||plista.com^$important
+||popads.net^$important
 ||popcash.net^$important
 ||postrelease.com^$important
 ||proofpoint.com^$important
@@ -188,6 +189,7 @@
 ||webmasterplan.com^$important
 ||weborama.fr^$important
 ||xhamsterpremium.*^$important,third-party
+||xpgcrmxejlgig.com^$important
 ||yadro.ru^$important
 ||yandex.st^$domain=~yandex.by|~yandex.ru|~yandex.ua
 ||ybnj57w4m7.ru^$important

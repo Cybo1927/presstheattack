@@ -3,6 +3,7 @@
 /\/fp([0-9]{1,2})?\.js/$important,script
 /^https?:\/\/([a-z0-9]{8,10}\.)?[a-z0-9]{5,14}\.(com|bid|online|top|club)\/([a-z0-9]{2}\/){3}[a-f0-9]{32}\.js$/$third-party,script,domain=hpjav.tv,important
 /^https?:\/\/cdn[0-9]{1,2}?\.rocks\/[^\s]{30,}\.js/$important,script
+/^https?:\/\/www\.([a-z]{6,16})\.com\/([a-z]{1,4})\.js$/$third-party,script
 /me([0-9]{1})?w\.js/$important,script
 /webmr([0-9]{1,2})?\.js/$important,script
 |http*:*-coin-hive.js$important,script

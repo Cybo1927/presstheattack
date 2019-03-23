@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
-! Last modified: 2019-03-22 12:38:23
-! Version: 20190322123824
+! Last modified: 2019-03-23 11:40:11
+! Version: 20190323114011
 ! Expires: 3 hours
-! Number of filters: 5472
+! Number of filters: 5475
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2779,6 +2779,7 @@
 /^https?:\/\/p([0-9]{1,2})?\./$important
 /^https?:\/\/s3\.amazonaws\.com\/.*[a-f0-9\/]{50,}/$third-party,important,xmlhttprequest,domain=~amazon.com
 /^https?:\/\/tv\.yandex\.[^\s]{2,5}\/[^\s]{270,}/$important,xmlhttprequest,image,subdocument
+/^https?:\/\/www\.([a-z]{6,16})\.com\/([a-z]{1,4})\.js$/$third-party,script
 /^https?:\/\/yandex\.[^\s]{2,5}\/images/(?!(search\?rpt=\imageview)|(search\?callback\=jQuery)|(search\?exp_flags=)|(search\?serpid=)|(touch/search?))[^\s]{80,}/$important,subdocument,xmlhttprequest
 /^https?:\/\/yastatic\.net\/[^\s]{500,}/$domain=~vh.yandex.ru
 /^https?:\/\/zmctrack\.(com|net)/$important
@@ -5399,6 +5400,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||pipe.aria.microsoft.com/collector^$important,xmlhttprequest
 ||pixel.facebook.com^$important
 ||plista.com^$important
+||popads.net^$important
 ||popcash.net^$important
 ||postrelease.com^$important
 ||proofpoint.com^$important
@@ -5471,6 +5473,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||webmasterplan.com^$important
 ||weborama.fr^$important
 ||xhamsterpremium.*^$important,third-party
+||xpgcrmxejlgig.com^$important
 ||xvideos.com/in.php^$important
 ||yadro.ru^$important
 ||yahoo.co.jp/b?p=$important,image
