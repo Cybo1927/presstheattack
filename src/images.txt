@@ -14,7 +14,6 @@ GGBET$image
 |http*:*/32x32.gif$important,image
 |http*:*/32x32.png$important,image
 |http*:*/*pixel.gif$important,image
-|http*:*/event.gif$important,image
 |http*:*/*pixel.png$important,image
 |http*:*/a.gif$important,image
 |http*:*/a.png$important,image
@@ -30,6 +29,7 @@ GGBET$image
 |http*:*/c.png$important,image
 |http*:*/empty.gif$important,image
 |http*:*/empty.png$important,image
+|http*:*/event.gif$important,image
 |http*:*/event.gif$important,image
 |http*:*/event.png$important,image
 |http*:*/fpn.gif$important,image
@@ -57,6 +57,9 @@ GGBET$image
 |http*:*/stat.gif$important,image
 |http*:*/stat.png$important,image
 |http*:*/sync.gif$important,image
+|http*:*/sync.gif$important,image
+|http*:*/sync.png$important,image
+|http*:*/textlink-ads.jpg$important,image
 |http*:*/track-user.gif$important,image
 |http*:*/track-user.png$important,image
 |http*:*/track.gif$important,image
@@ -71,6 +74,7 @@ GGBET$image
 |http*:*/yes.gif$important,image
 |http*:*/z.gif$important,image
 |http*:*/z.png$important,image
+|http*:*^img^1x1$important,third-party
 |http*:*_fpn.gif$important,image
 ||collector.githubapp.com^$important,image
 ||duckduckgo.com/t/$important,image

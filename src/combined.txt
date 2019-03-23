@@ -10,8 +10,11 @@
 http*:*/fbpixel.$important,script,xmlhttprequest,image
 |http*:*.php?zoneid=$script,xmlhttprequest,important
 |http*:*/amp.gif$image,xmlhttprequest,important
+|http*:*/article/viewcount/*$script,xmlhttprequest,important
 |http*:*/b/ss/*&ce=utf-8&$image,important,script
+|http*:*/cgi-bin/ivw/*$script,xmlhttprequest,important
 |http*:*/dtm/*/satellitelib$important,script,xmlhttprequest
+|http*:*/entry_stats?$script,xmlhttprequest,important
 |http*:*/events-collector.*$script,xmlhttprequest,important
 |http*:*/remove_ads.$image,script,xmlhttprequest,important
 |http*:*/site=*/size=*/viewid=$image,important,xmlhttprequest,script

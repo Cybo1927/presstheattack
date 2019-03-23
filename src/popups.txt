@@ -1,4 +1,6 @@
 /^https?:\/\/(([0-9]{1,2})?l\-hit|([0-9]{1,2})?l-view|r([0-9]{1,2})?|rs|top\-fwz([0-9]{1,2})?|vk\.go|reklama|ad|ads|recostream\.go|[^\s]{10,}\.top|mediator|[^\s]{3,}\.radar|g?stat|top|xray)\.(imgs)?mail\.ru/$important,popup
+://ads.$popup
+://adv.$popup
 |http*:*/?ip=*&zoneid=$popup
 |http*:*?*&lp=*id=$popup
 |http*:*?lp=*id=$popup

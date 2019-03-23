@@ -1,10 +1,8 @@
+-monero-miner/$important
 /^https?:\/\/analytics[0-9]{1,2}?\./$important
-/^https?:\/\/c([0-9]{1,2})?\./$important
+/^https?:\/\/c([0-9]{1,2})?\./$important,domain=~wp.com
 /^https?:\/\/log[0-9]{1,2}?\./$important
 /^https?:\/\/p([0-9]{1,2})?\./$important
-?PartnerID=$third-party
-?partner=$third-party
-?partner_id=$third-party
 |http*:*-MetaAdServer-$important
 |http*:*-MetaAdServer.$important
 |http*:*-MetaAdServer^$important
@@ -1054,12 +1052,16 @@
 |http*:*.yads^
 |http*:*.yads_
 |http*:*/code/bshow.php?$third-party,important
+|http*:*/dear_code/*/goclick?t=*&ref=$important
 |http*:*/google-conversion.html$document,important
 |http*:*/in.php?p=$important
 |http*:*/pv?fe=*&elg=$important
 |http*:*?*&ip=$third-party
+|http*:*?PartnerID=$third-party
 |http*:*?act=counter&$important
 |http*:*?ip=$third-party
+|http*:*?partner=$third-party
+|http*:*?partner_id=$third-party
 |http*:*?perfekt=wss://*^$important
 |http*:*?proxy=ws://*^$important
 |http*:*?proxy=wss://*^$important
@@ -2120,4 +2122,5 @@
 |http*://tag.*^$important
 |http*://xml*/click^$important
 |http*://xml*/redirect^$important
+||facebook.com/method/links.getstats?$third-party,important
 ||xvideos.com/in.php^$important
