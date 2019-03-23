@@ -1,11 +1,10 @@
 /\/([^\s]{4})?tag\.min\.([a-z0-9]{30,}\.)?js/$important,script
 /\/advert([0-9]{1,2})?\.js/$important,script
 /\/fp([0-9]{1,2})?\.js/$important,script
-/^https:\/\/.*?\/v2\/0\/[a-zA-Z0-9_-]{30,}$/$third-party,script
-/^https?:\/\/([a-z0-9]{8,10}\.)?[a-z0-9]{5,14}\.(com|bid|online|top|club)\/([a-z0-9]{2}\/){3}[a-f0-9]{32}\.js$/$third-party,script
-/^https?:\/\/([a-z0-9]{8,10}\.)?[a-z0-9]{5,14}\.(com|bid|online|top|club)\/([a-z0-9]{2}\/){3}[a-f0-9]{32}\.js$/$third-party,script,domain=hpjav.tv,important
+/^https:\/\/.*?\/v2\/0\/[a-zA-Z0-9_-]{30,}$/$third-party,script,important
+/^https?:\/\/([a-z0-9]{8,10}\.)?[a-z0-9]{5,14}\.(com|bid|online|top|club)\/([a-z0-9]{2}\/){3}[a-f0-9]{32}\.js$/$third-party,script,important
 /^https?:\/\/cdn[0-9]{1,2}?\.rocks\/[^\s]{30,}\.js/$important,script
-/^https?:\/\/www\.([a-z]{6,16})\.com\/([a-z]{1,4})\.js$/$third-party,script
+/^https?:\/\/www\.([a-z]{6,16})\.com\/([a-z]{1,4})\.js$/$third-party,script,important
 /me([0-9]{1})?w\.js/$important,script
 /webmr([0-9]{1,2})?\.js/$important,script
 |http*:*-coin-hive.js$important,script
