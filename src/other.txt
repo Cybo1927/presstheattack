@@ -2142,4 +2142,6 @@
 |http*://xml*/click^$important
 |http*://xml*/redirect^$important
 ||facebook.com/method/links.getstats?$third-party,important
+||google.com/ads/*$important
+||google.com/adsense/*$important
 ||xvideos.com/in.php^$important

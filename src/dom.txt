@@ -1,3 +1,4 @@
+###influads_block
 ##.ADS:not(:root):not(body):not(input)
 ##.ad:not(:root):not(body):not(input)
 ##.adsbygoogle:not(html):not(body)
