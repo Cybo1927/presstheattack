@@ -126,6 +126,7 @@
 ||mms.cnn.com^$important
 ||moatads.com^$important
 ||mookie1.com^$important
+||mradx.net^$important
 ||mvunstblutptj.com^$important
 ||navdmp.com^$important
 ||newrelic.com^$important
@@ -139,11 +140,13 @@
 ||ophan.theguardian.com^$important
 ||optimize-stats.voxmedia.com^$important
 ||optimizely.com^$important
+||pagefair.com^$important
 ||pb.m.naver.com^$important
 ||piguiqproxy.com^$important
 ||pixel.facebook.com^$important
 ||plista.com^$important
 ||popads.net^$important
+||popcash.net^$important
 ||popcash.net^$important
 ||postrelease.com^$important
 ||proofpoint.com^$important

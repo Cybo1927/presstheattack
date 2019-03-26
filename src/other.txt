@@ -1,8 +1,8 @@
--monero-miner/$important
 /^https?:\/\/analytics[0-9]{1,2}?\./$important
 /^https?:\/\/c([0-9]{1,2})?\./$important,domain=~wp.com
 /^https?:\/\/log[0-9]{1,2}?\./$important
 /^https?:\/\/p([0-9]{1,2})?\./$important
+/^https?:\/\/r([0-9]{1,2})?\./$important
 |http*:*-MetaAdServer-$important
 |http*:*-MetaAdServer.$important
 |http*:*-MetaAdServer^$important
@@ -51,6 +51,10 @@
 |http*:*-adinfo.
 |http*:*-adinfo^
 |http*:*-adinfo_
+|http*:*-adlayer-
+|http*:*-adlayer.
+|http*:*-adlayer^
+|http*:*-adlayer_
 |http*:*-adlog-
 |http*:*-adlog.
 |http*:*-adlog^
@@ -319,6 +323,7 @@
 |http*:*-metrika.$important
 |http*:*-metrika^$important
 |http*:*-metrika_$important
+|http*:*-monero-miner/$important
 |http*:*-mtrcs-$important
 |http*:*-mtrcs.$important
 |http*:*-mtrcs^$important
@@ -575,6 +580,10 @@
 |http*:*.adinfo.
 |http*:*.adinfo^
 |http*:*.adinfo_
+|http*:*.adlayer-
+|http*:*.adlayer.
+|http*:*.adlayer^
+|http*:*.adlayer_
 |http*:*.adlog-
 |http*:*.adlog.
 |http*:*.adlog^
@@ -1051,6 +1060,7 @@
 |http*:*.yads.
 |http*:*.yads^
 |http*:*.yads_
+|http*:*/aff_i?offer_id=$important
 |http*:*/code/bshow.php?$third-party,important
 |http*:*/dear_code/*/goclick?t=*&ref=$important
 |http*:*/google-conversion.html$document,important
@@ -1065,6 +1075,7 @@
 |http*:*?perfekt=wss://*^$important
 |http*:*?proxy=ws://*^$important
 |http*:*?proxy=wss://*^$important
+|http*:*?zoneid=$important
 |http*:*^MetaAdServer-$important
 |http*:*^MetaAdServer.$important
 |http*:*^MetaAdServer^$important
@@ -1113,6 +1124,10 @@
 |http*:*^adinfo.
 |http*:*^adinfo^
 |http*:*^adinfo_
+|http*:*^adlayer-
+|http*:*^adlayer.
+|http*:*^adlayer^
+|http*:*^adlayer_
 |http*:*^adlog-
 |http*:*^adlog.
 |http*:*^adlog^
@@ -1637,6 +1652,10 @@
 |http*:*_adinfo.
 |http*:*_adinfo^
 |http*:*_adinfo_
+|http*:*_adlayer-
+|http*:*_adlayer.
+|http*:*_adlayer^
+|http*:*_adlayer_
 |http*:*_adlog-
 |http*:*_adlog.
 |http*:*_adlog^

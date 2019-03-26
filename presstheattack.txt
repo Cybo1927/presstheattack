@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
-! Last modified: 2019-03-24 10:11:34
-! Version: 20190324101134
+! Last modified: 2019-03-26 15:47:41
+! Version: 20190326154741
 ! Expires: 3 hours
-! Number of filters: 5500
+! Number of filters: 5523
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2746,7 +2746,6 @@
 */spacer.png$image,redirect=1x1-transparent.gif
 */visitor.js$script,redirect=noopjs
 */visitorapi.js$script,redirect=noopjs
--monero-miner/$important
 /(88|468|100|728|120|125|234|250|392|400|470|75|782|300)x(75|40|72|250|31|60|100|90|80|240|600|125)/$image,domain=~twitter.com|~9gag.com|~cbssports.com
 /\/([^\s]{4})?tag\.min\.([a-z0-9]{30,}\.)?js/$important,script
 /\/advert([0-9]{1,2})?\.js/$important,script
@@ -2779,6 +2778,7 @@
 /^https?:\/\/log[0-9]{1,2}?\./$important
 /^https?:\/\/news\.yandex\.[^\s]{2,5}\/[^\s]{300,}/$important,subdocument,xmlhttprequest
 /^https?:\/\/p([0-9]{1,2})?\./$important
+/^https?:\/\/r([0-9]{1,2})?\./$important
 /^https?:\/\/s3\.amazonaws\.com\/.*[a-f0-9\/]{50,}/$third-party,important,xmlhttprequest,domain=~amazon.com
 /^https?:\/\/tv\.yandex\.[^\s]{2,5}\/[^\s]{270,}/$important,xmlhttprequest,image,subdocument
 /^https?:\/\/www\.([a-z]{6,16})\.com\/([a-z]{1,4})\.js$/$third-party,script,important
@@ -2916,6 +2916,10 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*-adinfo.
 |http*:*-adinfo^
 |http*:*-adinfo_
+|http*:*-adlayer-
+|http*:*-adlayer.
+|http*:*-adlayer^
+|http*:*-adlayer_
 |http*:*-adlog-
 |http*:*-adlog.
 |http*:*-adlog^
@@ -3189,6 +3193,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*-metrika.$important
 |http*:*-metrika^$important
 |http*:*-metrika_$important
+|http*:*-monero-miner/$important
 |http*:*-mtrcs-$important
 |http*:*-mtrcs.$important
 |http*:*-mtrcs^$important
@@ -3445,6 +3450,10 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*.adinfo.
 |http*:*.adinfo^
 |http*:*.adinfo_
+|http*:*.adlayer-
+|http*:*.adlayer.
+|http*:*.adlayer^
+|http*:*.adlayer_
 |http*:*.adlog-
 |http*:*.adlog.
 |http*:*.adlog^
@@ -3968,6 +3977,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/adsbygoogle.js$important,script
 |http*:*/adsdk.js$important,script
 |http*:*/advertising.js$important,script
+|http*:*/aff_i?offer_id=$important
 |http*:*/akam/10/*$important,script
 |http*:*/amp.gif$image,xmlhttprequest,important
 |http*:*/analytics.js$important,script
@@ -3979,6 +3989,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/atrk.js$important,script
 |http*:*/authedmine.min.js$important,script
 |http*:*/authedminer.js$important,script
+|http*:*/autotrack.js$important,script
 |http*:*/b/ss/*&ce=utf-8&$image,important,script
 |http*:*/banner/*.gif$important,image
 |http*:*/banners/*.gif$important,image
@@ -4169,6 +4180,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*?perfekt=wss://*^$important
 |http*:*?proxy=ws://*^$important
 |http*:*?proxy=wss://*^$important
+|http*:*?zoneid=$important
 |http*:*^ad-
 |http*:*^ad-sdk-$important
 |http*:*^ad-sdk.$important
@@ -4213,6 +4225,10 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*^adinfo.
 |http*:*^adinfo^
 |http*:*^adinfo_
+|http*:*^adlayer-
+|http*:*^adlayer.
+|http*:*^adlayer^
+|http*:*^adlayer_
 |http*:*^adlog-
 |http*:*^adlog.
 |http*:*^adlog^
@@ -4742,6 +4758,10 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*_adinfo.
 |http*:*_adinfo^
 |http*:*_adinfo_
+|http*:*_adlayer-
+|http*:*_adlayer.
+|http*:*_adlayer^
+|http*:*_adlayer_
 |http*:*_adlog-
 |http*:*_adlog.
 |http*:*_adlog^
@@ -5405,6 +5425,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||mms.cnn.com^$important
 ||moatads.com^$important
 ||mookie1.com^$important
+||mradx.net^$important
 ||msecnd.net/scripts/jsll-*.js$important,script
 ||mvunstblutptj.com^$important
 ||navdmp.com^$important
@@ -5420,12 +5441,14 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||ophan.theguardian.com^$important
 ||optimize-stats.voxmedia.com^$important
 ||optimizely.com^$important
+||pagefair.com^$important
 ||pb.m.naver.com^$important
 ||piguiqproxy.com^$important
 ||pipe.aria.microsoft.com/collector^$important,xmlhttprequest
 ||pixel.facebook.com^$important
 ||plista.com^$important
 ||popads.net^$important
+||popcash.net^$important
 ||popcash.net^$important
 ||postrelease.com^$important
 ||proofpoint.com^$important
