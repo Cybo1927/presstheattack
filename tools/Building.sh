@@ -43,6 +43,7 @@ LINES=$(grep -c '' $TEMP/filterlist.txt)
 cat > $TEMP/headers.txt <<EOF
 [Adblock Plus 2.0]
 ! Title: Press the Attack
+! Description: Filters for ad blocking, tracking, crypto mining, and more!
 ! Last modified: ${DATE}
 ! Version: ${VERSION}
 ! Expires: 3 hours
