@@ -9,3 +9,5 @@
 ||data.*.info^$popunder,popup
 ||data.*.net^$popunder,popup
 ||yastatic.net^$important,popup
+||doubleclick.net^$important,popup
+||doubleclick.com^$important,popup

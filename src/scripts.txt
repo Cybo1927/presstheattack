@@ -14,6 +14,7 @@
 |http*:*-vast^$script
 |http*:*-vast_$script
 |http*:*.vast-$script
+||heise.de/js/prebid*.js$important,script
 ||google.*/ads/search/module/ads/*/search.js$important,script
 |http*:*.vast.$script
 |http*:*.vast^$script

@@ -1,7 +1,10 @@
-###influads_block
-##.ADS:not(:root):not(body):not(input)
-##.ad:not(:root):not(body):not(input)
+###influads_block:not(html):not(body)
+##.ADS:not(html):not(body)
+##.ad-container:not(html):not(body)
+##.ad-source:not(html):not(body)
+##.ad:not(html):not(body)
 ##.adsbygoogle:not(html):not(body)
+##.gemini-ad:not(html):not(body)
 ##.js-ads-block:not(html):not(body)
 ##[class$="-AdServer-"]:not(html):not(body)
 ##[class$="-AdServer."]:not(html):not(body)
@@ -1624,6 +1627,7 @@
 ##[id^="_yandex_rtb_"]:not(html):not(body)
 ##a[href*="//ads.adfox.ru/"]
 ##a[href^="http://metrika.yandex.ru/stat/"]
+##a[href^="http://pubads.g.doubleclick.net/"]
 ##a[href^="http://top.mail.ru/jump"]
 ##div[class$="-AdServer-"]:not(html):not(body)
 ##div[class$="-AdServer."]:not(html):not(body)
@@ -2705,6 +2709,8 @@
 ##div[id^="_yandex_rtb-"]:not(html):not(body)
 ##div[id^="_yandex_rtb."]:not(html):not(body)
 ##div[id^="_yandex_rtb_"]:not(html):not(body)
+##div[id^="google_ads_iframe_"]
+##iframe[id^="google_ads_iframe"]
 ##iframe[width="300"][height="250"]
 ##iframe[width="728"][height="90"]
 ##img[src*="counter.yadro.ru"]
@@ -2758,5 +2764,5 @@ twitch.tv##a[href*="suveniry"] > img
 twitch.tv##a[href*="upskill.ru"] > img
 twitch.tv##a[href*="vk.cc"] > img
 ~addons.mozilla.org##[class*="-ad-"]:not(html):not(body)
-~mail.google.com##.AD:not(:root):not(body):not(input)
-~mail.google.com##.ads:not(:root):not(body):not(input)
+~mail.google.com##.AD:not(html):not(body)
+~mail.google.com##.ads:not(html):not(body)
