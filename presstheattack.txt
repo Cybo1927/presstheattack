@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-03-27 23:01:48
-! Version: 20190327230148
+! Last modified: 2019-03-27 23:10:53
+! Version: 20190327231054
 ! Expires: 3 hours
-! Number of filters: 5574
+! Number of filters: 5599
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2932,6 +2932,10 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*-adclick.$important
 |http*:*-adclick^$important
 |http*:*-adclick_$important
+|http*:*-adclient-$important
+|http*:*-adclient.$important
+|http*:*-adclient^$important
+|http*:*-adclient_$important
 |http*:*-adfox-$important
 |http*:*-adfox.$important
 |http*:*-adfox^$important
@@ -3470,6 +3474,10 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*.adclick.$important
 |http*:*.adclick^$important
 |http*:*.adclick_$important
+|http*:*.adclient-$important
+|http*:*.adclient.$important
+|http*:*.adclient^$important
+|http*:*.adclient_$important
 |http*:*.adfox-$important
 |http*:*.adfox.$important
 |http*:*.adfox^$important
@@ -4248,6 +4256,10 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*^adclick.$important
 |http*:*^adclick^$important
 |http*:*^adclick_$important
+|http*:*^adclient-$important
+|http*:*^adclient.$important
+|http*:*^adclient^$important
+|http*:*^adclient_$important
 |http*:*^adfox-$important
 |http*:*^adfox.$important
 |http*:*^adfox^$important
@@ -4785,6 +4797,10 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*_adclick.$important
 |http*:*_adclick^$important
 |http*:*_adclick_$important
+|http*:*_adclient-$important
+|http*:*_adclient.$important
+|http*:*_adclient^$important
+|http*:*_adclient_$important
 |http*:*_adfox-$important
 |http*:*_adfox.$important
 |http*:*_adfox^$important
@@ -5313,6 +5329,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||adbetnet.com^$important
 ||adcdnx.com^$important
 ||adclear.net^$important
+||adcloud.net^$important
 ||adform.net^$important
 ||adfox.ru^$important
 ||adglare.net^$important
@@ -5427,11 +5444,13 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js,important
 ||google-analytics.com/ga.js$script,redirect=google-analytics.com/ga.js,important
 ||google-analytics.com/plugins/ga/inpage_linkid.js$script,redirect=google-analytics.com/inpage_linkid.js,important
+||google.*/ads/search/module/ads/*/search.js$important,script
 ||google.com/ads/*$important
 ||google.com/adsense/*$important
 ||google.com/afs/$subdocument,important
 ||google.com/async/*&async=encoded_cache_key$xmlhttprequest,important
 ||google.com/dp/ads?$subdocument,important
+||google.com/uds/$script,subdocument,important
 ||google.com^*/viewerimpressions^$important,xmlhttprequest
 ||googlesyndication.com/pagead/js/adsbygoogle.js$important,script,redirect=googlesyndication.com/adsbygoogle.js
 ||googlesyndication.com/pagead/show_ads.js$script,redirect=noopjs
@@ -5522,6 +5541,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||scorecardresearch.com/beacon.js$script,redirect=scorecardresearch.com/beacon.js,important
 ||scorecardresearch.com^$important
 ||scroll.com^$important
+||search.1und1.de/uns/amazon?$xmlhttprequest,important
 ||sedoparking.com^$important
 ||seedtag.com^$important
 ||sharethrough.com^$important
@@ -5534,6 +5554,11 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||stats.*^$important
 ||steadfastsystem.com^$important
 ||stickyadstv.com^$important
+||suche.1und1.de/uns/affilinet?$xmlhttprequest,important
+||suche.1und1.de/uns/amazon?$xmlhttprequest,important
+||suche.gmx.net/uns/affilinet?$xmlhttprequest,important
+||suche.gmx.net/uns/amazon?$xmlhttprequest,important
+||suche.web.de/uns/amazon?$xmlhttprequest,important
 ||summerhamster.com^$important
 ||sync.rambler.ru^$important
 ||syndication.twitter.com^$important

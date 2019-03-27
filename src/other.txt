@@ -39,6 +39,10 @@
 |http*:*-adclick.$important
 |http*:*-adclick^$important
 |http*:*-adclick_$important
+|http*:*-adclient-$important
+|http*:*-adclient.$important
+|http*:*-adclient^$important
+|http*:*-adclient_$important
 |http*:*-adfox-$important
 |http*:*-adfox.$important
 |http*:*-adfox^$important
@@ -572,6 +576,10 @@
 |http*:*.adclick.$important
 |http*:*.adclick^$important
 |http*:*.adclick_$important
+|http*:*.adclient-$important
+|http*:*.adclient.$important
+|http*:*.adclient^$important
+|http*:*.adclient_$important
 |http*:*.adfox-$important
 |http*:*.adfox.$important
 |http*:*.adfox^$important
@@ -1120,6 +1128,10 @@
 |http*:*^adclick.$important
 |http*:*^adclick^$important
 |http*:*^adclick_$important
+|http*:*^adclient-$important
+|http*:*^adclient.$important
+|http*:*^adclient^$important
+|http*:*^adclient_$important
 |http*:*^adfox-$important
 |http*:*^adfox.$important
 |http*:*^adfox^$important
@@ -1652,6 +1664,10 @@
 |http*:*_adclick.$important
 |http*:*_adclick^$important
 |http*:*_adclick_$important
+|http*:*_adclient-$important
+|http*:*_adclient.$important
+|http*:*_adclient^$important
+|http*:*_adclient_$important
 |http*:*_adfox-$important
 |http*:*_adfox.$important
 |http*:*_adfox^$important

@@ -19,6 +19,7 @@
 ||adbetnet.com^$important
 ||adcdnx.com^$important
 ||adclear.net^$important
+||adcloud.net^$important
 ||adform.net^$important
 ||adfox.ru^$important
 ||adglare.net^$important

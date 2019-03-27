@@ -11,3 +11,9 @@
 ||twitter.com/i/jot^$important,xmlhttprequest
 ||yahoo.com/pageview/*$xmlhttprequest,important
 ||youtube.com/get_midroll_info^$important,xmlhttprequest
+||suche.web.de/uns/amazon?$xmlhttprequest,important
+||suche.gmx.net/uns/amazon?$xmlhttprequest,important
+||search.1und1.de/uns/amazon?$xmlhttprequest,important
+||suche.1und1.de/uns/amazon?$xmlhttprequest,important
+||suche.1und1.de/uns/affilinet?$xmlhttprequest,important
+||suche.gmx.net/uns/affilinet?$xmlhttprequest,important
