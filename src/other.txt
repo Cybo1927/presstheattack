@@ -356,6 +356,10 @@
 |http*:*-partners.
 |http*:*-partners^
 |http*:*-partners_
+|http*:*-pclick-
+|http*:*-pclick.
+|http*:*-pclick^
+|http*:*-pclick_
 |http*:*-phpads-$important
 |http*:*-phpads.$important
 |http*:*-phpads^$important
@@ -892,6 +896,10 @@
 |http*:*.partners.
 |http*:*.partners^
 |http*:*.partners_
+|http*:*.pclick-
+|http*:*.pclick.
+|http*:*.pclick^
+|http*:*.pclick_
 |http*:*.phpads-$important
 |http*:*.phpads.$important
 |http*:*.phpads^$important
@@ -1444,6 +1452,10 @@
 |http*:*^partners.
 |http*:*^partners^
 |http*:*^partners_
+|http*:*^pclick-
+|http*:*^pclick.
+|http*:*^pclick^
+|http*:*^pclick_
 |http*:*^phpads-$important
 |http*:*^phpads.$important
 |http*:*^phpads^$important
@@ -1980,6 +1992,10 @@
 |http*:*_partners.
 |http*:*_partners^
 |http*:*_partners_
+|http*:*_pclick-
+|http*:*_pclick.
+|http*:*_pclick^
+|http*:*_pclick_
 |http*:*_phpads-$important
 |http*:*_phpads.$important
 |http*:*_phpads^$important

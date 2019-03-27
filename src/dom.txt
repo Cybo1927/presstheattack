@@ -1,11 +1,18 @@
 ###influads_block:not(html):not(body)
+###td-applet-ads_container
 ##.ADS:not(html):not(body)
+##.Ad-Container:not(html):not(body)
+##.SidekickItem-Ads:not(html):not(body)
+##.ad-active:not(html):not(body)
 ##.ad-container:not(html):not(body)
+##.ad-icon:not(html):not(body)
 ##.ad-source:not(html):not(body)
 ##.ad:not(html):not(body)
 ##.adsbygoogle:not(html):not(body)
 ##.gemini-ad:not(html):not(body)
 ##.js-ads-block:not(html):not(body)
+##.yom-ad:not(html):not(body)
+##.ysab:not(html):not(body)
 ##[class$="-AdServer-"]:not(html):not(body)
 ##[class$="-AdServer."]:not(html):not(body)
 ##[class$="-AdServer_"]:not(html):not(body)
@@ -545,6 +552,7 @@
 ##[class^="_yandex_rtb-"]:not(html):not(body)
 ##[class^="_yandex_rtb."]:not(html):not(body)
 ##[class^="_yandex_rtb_"]:not(html):not(body)
+##[data-ad-enhanced="pencil"]
 ##[div$="-AdServer-"]:not(html):not(body)
 ##[div$="-AdServer."]:not(html):not(body)
 ##[div$="-AdServer_"]:not(html):not(body)
@@ -2716,6 +2724,7 @@
 ##img[src*="counter.yadro.ru"]
 ##img[width="88"][height="31"]
 ##img[width="468"][height="60"]
+##li[data-beacon^="https://beap.gemini.yahoo.com/"]
 2ch.hk,2ch.pm,2ch.re,2ch.tf,2ch.wf,2ch.yt###mobile-plashque
 2ch.hk,2ch.pm,2ch.re,2ch.tf,2ch.wf,2ch.yt###plashque
 reddit.com##.onboardingbar-body

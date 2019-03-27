@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-03-27 23:18:09
-! Version: 20190327231809
+! Last modified: 2019-03-27 23:32:03
+! Version: 20190327233203
 ! Expires: 3 hours
-! Number of filters: 5608
+! Number of filters: 5635
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -28,13 +28,20 @@
 ! Download uBlock Origin from GitHub - https://github.com/gorhill/uBlock/releases/
 
 ###influads_block:not(html):not(body)
+###td-applet-ads_container
+##.ad-active:not(html):not(body)
 ##.ad-container:not(html):not(body)
+##.Ad-Container:not(html):not(body)
+##.ad-icon:not(html):not(body)
 ##.ad-source:not(html):not(body)
 ##.ad:not(html):not(body)
 ##.ADS:not(html):not(body)
 ##.adsbygoogle:not(html):not(body)
 ##.gemini-ad:not(html):not(body)
 ##.js-ads-block:not(html):not(body)
+##.SidekickItem-Ads:not(html):not(body)
+##.yom-ad:not(html):not(body)
+##.ysab:not(html):not(body)
 ##[class$="-ad-"]:not(html):not(body)
 ##[class$="-ad."]:not(html):not(body)
 ##[class$="-ad_"]:not(html):not(body)
@@ -574,6 +581,7 @@
 ##[class^="_yandex_rtb-"]:not(html):not(body)
 ##[class^="_yandex_rtb."]:not(html):not(body)
 ##[class^="_yandex_rtb_"]:not(html):not(body)
+##[data-ad-enhanced="pencil"]
 ##[div$="-ad-"]:not(html):not(body)
 ##[div$="-ad."]:not(html):not(body)
 ##[div$="-ad_"]:not(html):not(body)
@@ -2745,6 +2753,7 @@
 ##img[src*="counter.yadro.ru"]
 ##img[width="468"][height="60"]
 ##img[width="88"][height="31"]
+##li[data-beacon^="https://beap.gemini.yahoo.com/"]
 */cleardot.gif$image,important,redirect=1x1-transparent.gif
 */cleardot.gif$xmlhttprequest,redirect=nooptext,important
 */cleardot.png$image,important,redirect=1x1-transparent.gif
@@ -2754,7 +2763,7 @@
 */spacer.png$image,redirect=1x1-transparent.gif
 */visitor.js$script,redirect=noopjs
 */visitorapi.js$script,redirect=noopjs
-/[^0-9](24|60|88|468|100|728|120|125|234|250|392|400|470|75|782|300|160)(x|\-|\_)(32|75|40|72|250|31|60|100|90|468|80|160|240|600|125)[^0-9]/$image,important,domain=~twitter.com|~9gag.com|~cbssports.com
+/[^0-9](24|60|88|468|100|728|120|125|234|250|392|400|470|75|782|300|160)(x|\-|\_)(32|75|40|45|72|250|31|60|100|90|468|80|160|240|600|125)[^0-9]/$image,important,domain=~twitter.com|~9gag.com|~cbssports.com
 /\/([^\s]{4})?tag\.min\.([a-z0-9]{30,}\.)?js/$important,script
 /\/advert([0-9]{1,2})?\.js/$important,script
 /\/banner[0-9]{1,2}?\.gif/$important,image
@@ -3260,6 +3269,10 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*-partners.
 |http*:*-partners^
 |http*:*-partners_
+|http*:*-pclick-
+|http*:*-pclick.
+|http*:*-pclick^
+|http*:*-pclick_
 |http*:*-phpads-$important
 |http*:*-phpads.$important
 |http*:*-phpads^$important
@@ -3800,6 +3813,10 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*.partners.
 |http*:*.partners^
 |http*:*.partners_
+|http*:*.pclick-
+|http*:*.pclick.
+|http*:*.pclick^
+|http*:*.pclick_
 |http*:*.php?zoneid=$script,xmlhttprequest,important
 |http*:*.phpads-$important
 |http*:*.phpads.$important
@@ -4583,6 +4600,10 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*^partners.
 |http*:*^partners^
 |http*:*^partners_
+|http*:*^pclick-
+|http*:*^pclick.
+|http*:*^pclick^
+|http*:*^pclick_
 |http*:*^phpads-$important
 |http*:*^phpads.$important
 |http*:*^phpads^$important
@@ -5124,6 +5145,10 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*_partners.
 |http*:*_partners^
 |http*:*_partners_
+|http*:*_pclick-
+|http*:*_pclick.
+|http*:*_pclick^
+|http*:*_pclick_
 |http*:*_phpads-$important
 |http*:*_phpads.$important
 |http*:*_phpads^$important
@@ -5420,6 +5445,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||digitaltarget.ru^$important
 ||disqusads.com^$important
 ||districtm.io^$important
+||dmros.ysm.yahoo.com/ros/$script,domain=autos.yahoo.com,important
 ||doubleclick.com^$important,popup
 ||doubleclick.net/instream/ad_status.js$script,redirect=doubleclick.net/instream/ad_status.js,important
 ||doubleclick.net^$important
@@ -5623,6 +5649,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||yastatic.net^$important,popup
 ||ybnj57w4m7.ru^$important
 ||yieldlab.net^$important
+||yimg.com/gemini/pr/video_$script,xmlhttprequest,important
 ||yimg.com/wi/ytc.js$important,script
 ||youtube.com/api/stats^$image,important,xmlhttprequest
 ||youtube.com/get_midroll_info^$important,xmlhttprequest

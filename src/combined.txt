@@ -26,4 +26,5 @@ http*:*/fbpixel.$important,script,xmlhttprequest,image
 ||google.com/uds/$script,subdocument,important
 ||microsoft.com/collect/*$script,xmlhttprequest,important
 ||yastatic.net/*/zen-lib/*$important,script,xmlhttprequest,stylesheet
+||yimg.com/gemini/pr/video_$script,xmlhttprequest,important
 ||youtube.com/api/stats^$image,important,xmlhttprequest

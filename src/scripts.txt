@@ -14,8 +14,6 @@
 |http*:*-vast^$script
 |http*:*-vast_$script
 |http*:*.vast-$script
-||heise.de/js/prebid*.js$important,script
-||google.*/ads/search/module/ads/*/search.js$important,script
 |http*:*.vast.$script
 |http*:*.vast^$script
 |http*:*.vast_$script
@@ -176,8 +174,11 @@
 ||amazonaws.com/ki.js$important,script
 ||amplify.outbrain.com/cp/obtp.js$important,script
 ||cryptonoter.com/processor.js$important,script
+||dmros.ysm.yahoo.com/ros/$script,domain=autos.yahoo.com,important
 ||duckduckgo.com/y.js$important,script
+||google.*/ads/search/module/ads/*/search.js$important,script
 ||harvest.surge.sh/h.js$important,script
+||heise.de/js/prebid*.js$important,script
 ||mail.ru/share_count^$important,script
 ||mail.yandex.*^$first-party,important,script
 ||msecnd.net/scripts/jsll-*.js$important,script
