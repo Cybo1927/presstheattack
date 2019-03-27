@@ -150,7 +150,6 @@
 ||plista.com^$important
 ||popads.net^$important
 ||popcash.net^$important
-||popcash.net^$important
 ||postrelease.com^$important
 ||proofpoint.com^$important
 ||protovid.com^$important
