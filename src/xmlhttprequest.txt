@@ -2,6 +2,7 @@
 /^https?:\/\/s3\.amazonaws\.com\/.*[a-f0-9\/]{50,}/$third-party,important,xmlhttprequest,domain=~amazon.com
 ||api.twitch.tv/*/channels/*/extensions^$xmlhttprequest
 ||github.com/_private/browser/stats^$important,xmlhttprequest
+||google.com/async/*&async=encoded_cache_key$xmlhttprequest,important
 ||google.com^*/viewerimpressions^$important,xmlhttprequest
 ||pipe.aria.microsoft.com/collector^$important,xmlhttprequest
 ||reddit.com/timings/$important,xmlhttprequest

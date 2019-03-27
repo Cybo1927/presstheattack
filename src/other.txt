@@ -392,6 +392,10 @@
 |http*:*-ptracking.$important
 |http*:*-ptracking^$important
 |http*:*-ptracking_$important
+|http*:*-pxlctl-
+|http*:*-pxlctl.
+|http*:*-pxlctl^
+|http*:*-pxlctl_
 |http*:*-reclama-$important
 |http*:*-reclama.$important
 |http*:*-reclama^$important
@@ -920,6 +924,10 @@
 |http*:*.ptracking.$important
 |http*:*.ptracking^$important
 |http*:*.ptracking_$important
+|http*:*.pxlctl-
+|http*:*.pxlctl.
+|http*:*.pxlctl^
+|http*:*.pxlctl_
 |http*:*.reclama-$important
 |http*:*.reclama.$important
 |http*:*.reclama^$important
@@ -1464,6 +1472,10 @@
 |http*:*^ptracking.$important
 |http*:*^ptracking^$important
 |http*:*^ptracking_$important
+|http*:*^pxlctl-
+|http*:*^pxlctl.
+|http*:*^pxlctl^
+|http*:*^pxlctl_
 |http*:*^reclama-$important
 |http*:*^reclama.$important
 |http*:*^reclama^$important
@@ -1992,6 +2004,10 @@
 |http*:*_ptracking.$important
 |http*:*_ptracking^$important
 |http*:*_ptracking_$important
+|http*:*_pxlctl-
+|http*:*_pxlctl.
+|http*:*_pxlctl^
+|http*:*_pxlctl_
 |http*:*_reclama-$important
 |http*:*_reclama.$important
 |http*:*_reclama^$important
