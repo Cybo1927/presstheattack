@@ -23,6 +23,7 @@ http*:*/fbpixel.$important,script,xmlhttprequest,image
 ||akamaized.net/?u=$image,important,xmlhttprequest
 ||bing.com/fd/ls/*$image,important,xmlhttprequest
 ||facebook.com/xti.php^$script,xmlhttprequest,important
+||facebookcorewwwi.onion/xti.php^$script,xmlhttprequest,important
 ||google.com/uds/$script,subdocument,important
 ||microsoft.com/collect/*$script,xmlhttprequest,important
 ||yastatic.net/*/zen-lib/*$important,script,xmlhttprequest,stylesheet

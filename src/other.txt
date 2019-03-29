@@ -1,5 +1,5 @@
 /^https?:\/\/analytics[0-9]{1,2}?\./$important
-/^https?:\/\/c([0-9]{1,2})?\./$important,domain=~wp.com
+/^https?:\/\/c([0-9]{1,2})?\./$important,domain=~wp.com|~xavierstuder.com
 /^https?:\/\/log[0-9]{1,2}?\./$important
 /^https?:\/\/p([0-9]{1,2})?\./$important
 /^https?:\/\/r([0-9]{1,2})?\./$important
@@ -1663,7 +1663,7 @@
 |http*:*_ad^slot.$important
 |http*:*_ad^slot^$important
 |http*:*_ad^slot_$important
-|http*:*_ad_$domain=~facebook.com
+|http*:*_ad_$domain=~facebook.com|~facebookcorewwwi.onion
 |http*:*_ad_slot-$important
 |http*:*_ad_slot.$important
 |http*:*_ad_slot^$important
@@ -1939,7 +1939,7 @@
 |http*:*_log-
 |http*:*_log.
 |http*:*_log^$domain=~github.com
-|http*:*_log_$domain=~facebook.com
+|http*:*_log_$domain=~facebook.com|~facebookcorewwwi.onion
 |http*:*_logging-
 |http*:*_logging.
 |http*:*_logging^
@@ -2139,7 +2139,7 @@
 |http*:*_track-$domain=~music.yandex.by|~music.yandex.ru|~music.yandex.ua
 |http*:*_track.
 |http*:*_track^
-|http*:*_track_
+|http*:*_track_$domain=~music.yandex.by|~music.yandex.ru|~music.yandex.ua
 |http*:*_trackad-$important
 |http*:*_trackad.$important
 |http*:*_trackad^$important
