@@ -54,6 +54,7 @@
 |http*:*/c-hive.js$important,script
 |http*:*/c.js$important,script
 |http*:*/c.wasm$important,script
+|http*:*/chartbeat.js$important,script
 |http*:*/cloudcoins.js$important,script
 |http*:*/cloudcoins.min.js$important,script
 |http*:*/cn-asmjs.min.js$important,script

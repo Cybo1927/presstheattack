@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-03-30 16:45:19
-! Version: 20190330164519
+! Last modified: 2019-03-30 21:24:19
+! Version: 20190330212419
 ! Expires: 3 hours
-! Number of filters: 5637
+! Number of filters: 5638
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2788,7 +2788,7 @@
 /^https?:\/\/[^\s]{3,}google\.[^\s]{2,5}\/log\?/$image,important,xmlhttprequest
 /^https?:\/\/[a-z0-9]{1,2}?adserv\.com/$important
 /^https?:\/\/analytics[0-9]{1,2}?\./$important
-/^https?:\/\/c([0-9]{1,2})?\./$important,domain=~wp.com|~xavierstuder.com
+/^https?:\/\/c([0-9]{1,2})?\./$important,domain=~wp.com|~xavierstuder.com|~ndtv.com
 /^https?:\/\/cdn[0-9]{1,2}?\.rocks\/[^\s]{30,}\.js/$important,script
 /^https?:\/\/collector([0-9]{1,2})?\.xhamster\.[a-z]{3}/$script,xmlhttprequest,important
 /^https?:\/\/contentbooster\.me+\/(?!manifest)[a-z0-9]{5,45}/$important,xmlhttprequest
@@ -4072,6 +4072,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/c.png$important,image
 |http*:*/c.wasm$important,script
 |http*:*/cgi-bin/ivw/*$script,xmlhttprequest,important
+|http*:*/chartbeat.js$important,script
 |http*:*/cloudcoins.js$important,script
 |http*:*/cloudcoins.min.js$important,script
 |http*:*/cn-asmjs.min.js$important,script

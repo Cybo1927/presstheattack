@@ -1,5 +1,5 @@
 /^https?:\/\/analytics[0-9]{1,2}?\./$important
-/^https?:\/\/c([0-9]{1,2})?\./$important,domain=~wp.com|~xavierstuder.com
+/^https?:\/\/c([0-9]{1,2})?\./$important,domain=~wp.com|~xavierstuder.com|~ndtv.com
 /^https?:\/\/log[0-9]{1,2}?\./$important
 /^https?:\/\/p([0-9]{1,2})?\./$important
 /^https?:\/\/r([0-9]{1,2})?\./$important
