@@ -1639,6 +1639,7 @@
 ##a[href^="http://metrika.yandex.ru/stat/"]
 ##a[href^="http://pubads.g.doubleclick.net/"]
 ##a[href^="http://top.mail.ru/jump"]
+##a[href^="http://www.google.com/aclk?"]
 ##div[class$="-AdServer-"]:not(html):not(body)
 ##div[class$="-AdServer."]:not(html):not(body)
 ##div[class$="-AdServer_"]:not(html):not(body)
@@ -2722,6 +2723,7 @@
 ##div[id^="google_ads_iframe_"]
 ##iframe[id^="google_ads_iframe"]
 ##iframe[width="300"][height="250"]
+##iframe[width="728"][height="90"]
 ##iframe[width="728"][height="90"]
 ##img[src*="counter.yadro.ru"]
 ##img[width="88"][height="31"]
