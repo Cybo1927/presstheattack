@@ -1,3 +1,4 @@
+###ads-label:not(html):not(body)
 ###influads_block:not(html):not(body)
 ###td-applet-ads_container
 ##.ADS:not(html):not(body)
@@ -8,6 +9,7 @@
 ##.ad-icon:not(html):not(body)
 ##.ad-source:not(html):not(body)
 ##.ad:not(html):not(body)
+##.ads-label:not(html):not(body)
 ##.adsbygoogle:not(html):not(body)
 ##.gemini-ad:not(html):not(body)
 ##.js-ads-block:not(html):not(body)
@@ -2728,6 +2730,9 @@
 2ch.hk,2ch.pm,2ch.re,2ch.tf,2ch.wf,2ch.yt###mobile-plashque
 2ch.hk,2ch.pm,2ch.re,2ch.tf,2ch.wf,2ch.yt###plashque
 reddit.com##.onboardingbar-body
+topsite.com###adchoices
+topsite.com##.ad
+topsite.com##.chitikaAdBlock
 twitch.tv##a[href*="&BannerId="] > img
 twitch.tv##a[href*="&bonus="] > img
 twitch.tv##a[href*=".click"] > img

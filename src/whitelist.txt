@@ -7,6 +7,8 @@
 @@||googlevideo.com/*?*&ip=$third-party
 @@||googlevideo.com/*?ip=$third-party
 @@||img-*.xvideos-cdn.com/videos/thumbs*/ad/$image
+@@||ixquick.com^$elemhide,badfilter
+@@||ixquick.de^$elemhide,badfilter
 @@||jtvnw.net^$image,domain=twitch.tv
 @@||news.gmx.co.uk^$elemhide,badfilter
 @@||news.gmx.com^$elemhide,badfilter
@@ -25,8 +27,10 @@
 @@||search.gmx.fr^$elemhide,badfilter
 @@||search.gmx.net^$elemhide,badfilter
 @@||search.mail.com^$elemhide,badfilter
+@@||similarsites.com/site/$elemhide,badfilter
 @@||smartsearch.de^$elemhide,badfilter
 @@||smartshopping.com^$elemhide,badfilter
+@@||startpage.com^$elemhide,badfilter
 @@||strm.yandex.net^$xmlhttprequest
 @@||strm.yandex.ru^$xmlhttprequest
 @@||suche.1und1.de^$elemhide,badfilter
