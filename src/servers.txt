@@ -17,6 +17,7 @@
 ||adalliance.io^$important
 ||adbetclickin.pink^$important
 ||adbetnet.com^$important
+||adbetnet.com^$important
 ||adcdnx.com^$important
 ||adclear.net^$important
 ||adcloud.net^$important
@@ -187,6 +188,7 @@
 ||trafficjunky.net^$important
 ||try.abtasty.com^$important
 ||tsyndicate.com^$important
+||tvnewtop.pro^$important
 ||twitch.tv^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' *.jtvnw.net *.ttvnw.net *.twitchcdn.net *.twitch.tv *.facebook.com *.facebook.net recaptcha.net *.google.com *.gstatic.com *.algolia.net blob: wss:
 ||udc.yahoo.com^$important
 ||uimserv.net^$important
@@ -197,7 +199,6 @@
 ||veta.naver.com^$important
 ||vg74gi6mea.com^$important
 ||vidcpm.com^$important
-||tvnewtop.pro^$important
 ||vk-portal.net^$important
 ||vk.cc^
 ||vtracy.de^$important

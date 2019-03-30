@@ -713,7 +713,7 @@
 |http*:*.affiliation^$important
 |http*:*.affiliation_$important
 |http*:*.analytics-
-|http*:*.analytics.
+|http*:*.analytics.$domain=~gitlab.com
 |http*:*.analytics^
 |http*:*.analytics_
 |http*:*.analyticsevent-$important
@@ -1411,7 +1411,7 @@
 |http*:*^logs-
 |http*:*^logs.
 |http*:*^logs^
-|http*:*^logs_
+|http*:*^logs_$domain=~gitlab.com
 |http*:*^metrica-$important
 |http*:*^metrica.$important
 |http*:*^metrica^$important

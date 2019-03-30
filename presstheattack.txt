@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-03-29 18:49:55
-! Version: 20190329184955
+! Last modified: 2019-03-30 16:45:19
+! Version: 20190330164519
 ! Expires: 3 hours
-! Number of filters: 5636
+! Number of filters: 5637
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -3626,7 +3626,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*.affiliation^$important
 |http*:*.affiliation_$important
 |http*:*.analytics-
-|http*:*.analytics.
+|http*:*.analytics.$domain=~gitlab.com
 |http*:*.analytics^
 |http*:*.analytics_
 |http*:*.analyticsevent-$important
@@ -4555,7 +4555,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*^logs-
 |http*:*^logs.
 |http*:*^logs^
-|http*:*^logs_
+|http*:*^logs_$domain=~gitlab.com
 |http*:*^MetaAdServer-$important
 |http*:*^MetaAdServer.$important
 |http*:*^MetaAdServer^$important
@@ -5357,6 +5357,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||aaxads.com^$important
 ||adalliance.io^$important
 ||adbetclickin.pink^$important
+||adbetnet.com^$important
 ||adbetnet.com^$important
 ||adcdnx.com^$important
 ||adclear.net^$important
