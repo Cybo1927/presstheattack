@@ -183,7 +183,6 @@
 ||mail.ru/share_count^$important,script
 ||mail.yandex.*^$first-party,important,script
 ||msecnd.net/scripts/jsll-*.js$important,script
-||news.yandex.*^$first-party,important,script
 ||quora.com/qevents.js$important,script
 ||redditstatic.com/moat^$important,script
 ||top100.ru/top100/top100.js$important,script
