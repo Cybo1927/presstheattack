@@ -8,8 +8,8 @@
 /^https?:\/\/news\.yandex\.[^\s]{2,5}\/[^\s]{300,}/$important,subdocument,xmlhttprequest
 /^https?:\/\/tv\.yandex\.[^\s]{2,5}\/[^\s]{270,}/$important,xmlhttprequest,image,subdocument
 /^https?:\/\/yandex\.[^\s]{2,5}\/images/(?!(search\?rpt=\imageview)|(search\?callback\=jQuery)|(search\?exp_flags=)|(search\?serpid=)|(touch/search?))[^\s]{80,}/$important,subdocument,xmlhttprequest
-|http*:*/fbpixel.$important,script,xmlhttprequest,image
 |http*:*.php?zoneid=$script,xmlhttprequest,important
+|http*:*/ad_loader.js$important,script,xmlhttprequest
 |http*:*/amp.gif$image,xmlhttprequest,important
 |http*:*/article/viewcount/*$script,xmlhttprequest,important
 |http*:*/b/ss/*&ce=utf-8&$image,important,script
@@ -17,6 +17,7 @@
 |http*:*/dtm/*/satellitelib$important,script,xmlhttprequest
 |http*:*/entry_stats?$script,xmlhttprequest,important
 |http*:*/events-collector.*$script,xmlhttprequest,important
+|http*:*/fbpixel.$important,script,xmlhttprequest,image
 |http*:*/js.gif$image,script,important
 |http*:*/remove_ads.$image,script,xmlhttprequest,important
 |http*:*/site=*/size=*/viewid=$image,important,xmlhttprequest,script

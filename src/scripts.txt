@@ -22,7 +22,6 @@
 |http*:*/*ping.js$important,script
 |http*:*/accip_script.js$important,script
 |http*:*/ad.js$important,script
-|http*:*/ad_loader.js$important,script
 |http*:*/ad_track.js$important,script
 |http*:*/adblock.js$important,script
 |http*:*/adblockr.javascript$important,script
