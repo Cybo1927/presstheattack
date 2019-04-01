@@ -147,6 +147,10 @@
 |http*:*-adstart.$important
 |http*:*-adstart^$important
 |http*:*-adstart_$important
+|http*:*-adszones-$important
+|http*:*-adszones.$important
+|http*:*-adszones^$important
+|http*:*-adszones_$important
 |http*:*-adtech-$important
 |http*:*-adtech.$important
 |http*:*-adtech^$important
@@ -191,6 +195,10 @@
 |http*:*-adwolf.$important
 |http*:*-adwolf^$important
 |http*:*-adwolf_$important
+|http*:*-adzones-$important
+|http*:*-adzones.$important
+|http*:*-adzones^$important
+|http*:*-adzones_$important
 |http*:*-affiliate-$important
 |http*:*-affiliate.$important
 |http*:*-affiliate^$important
@@ -720,6 +728,10 @@
 |http*:*.adstart.$important
 |http*:*.adstart^$important
 |http*:*.adstart_$important
+|http*:*.adszones-$important
+|http*:*.adszones.$important
+|http*:*.adszones^$important
+|http*:*.adszones_$important
 |http*:*.adtech-$important
 |http*:*.adtech.$important
 |http*:*.adtech^$important
@@ -764,6 +776,10 @@
 |http*:*.adwolf.$important
 |http*:*.adwolf^$important
 |http*:*.adwolf_$important
+|http*:*.adzones-$important
+|http*:*.adzones.$important
+|http*:*.adzones^$important
+|http*:*.adzones_$important
 |http*:*.affiliate-$important
 |http*:*.affiliate.$important
 |http*:*.affiliate^$important
@@ -1151,6 +1167,7 @@
 |http*:*/aff_i?offer_id=$important
 |http*:*/code/bshow.php?$third-party,important
 |http*:*/dear_code/*/goclick?t=*&ref=$important
+|http*:*/epubdelivery/
 |http*:*/google-conversion.html$document,important
 |http*:*/in.php?p=$important
 |http*:*/pv?fe=*&elg=$important
@@ -1308,6 +1325,10 @@
 |http*:*^adstart.$important
 |http*:*^adstart^$important
 |http*:*^adstart_$important
+|http*:*^adszones-$important
+|http*:*^adszones.$important
+|http*:*^adszones^$important
+|http*:*^adszones_$important
 |http*:*^adtech-$important
 |http*:*^adtech.$important
 |http*:*^adtech^$important
@@ -1352,6 +1373,10 @@
 |http*:*^adwolf.$important
 |http*:*^adwolf^$important
 |http*:*^adwolf_$important
+|http*:*^adzones-$important
+|http*:*^adzones.$important
+|http*:*^adzones^$important
+|http*:*^adzones_$important
 |http*:*^affiliate-$important
 |http*:*^affiliate.$important
 |http*:*^affiliate^$important
@@ -1880,6 +1905,10 @@
 |http*:*_adstart.$important
 |http*:*_adstart^$important
 |http*:*_adstart_$important
+|http*:*_adszones-$important
+|http*:*_adszones.$important
+|http*:*_adszones^$important
+|http*:*_adszones_$important
 |http*:*_adtech-$important
 |http*:*_adtech.$important
 |http*:*_adtech^$important
@@ -1924,6 +1953,10 @@
 |http*:*_adwolf.$important
 |http*:*_adwolf^$important
 |http*:*_adwolf_$important
+|http*:*_adzones-$important
+|http*:*_adzones.$important
+|http*:*_adzones^$important
+|http*:*_adzones_$important
 |http*:*_affiliate-$important
 |http*:*_affiliate.$important
 |http*:*_affiliate^$important

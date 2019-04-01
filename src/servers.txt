@@ -27,6 +27,7 @@
 ||adition.com^$important
 ||adlightning.com^$important
 ||admantx.com^$important
+||admetrica.ru^$important
 ||admitad.com^$important
 ||admixer.net^$important
 ||adnxs.com^$important
@@ -57,6 +58,7 @@
 ||bat.bing.com^$important
 ||bats.video.yahoo.com^$important
 ||bbelements.com^$important
+||beemray.com^$important
 ||begun.ru^$important
 ||betweendigital.com^$important
 ||bidswitch.net^$important
@@ -71,6 +73,7 @@
 ||coinhive.com^$important
 ||connect.facebook.net^
 ||connect.ok.ru^
+||conviva.com^$important
 ||cookielaw.org^$important
 ||cpaevent.ru^$important
 ||criteo.net^$important
@@ -88,6 +91,7 @@
 ||edigitalsurvey.com^$important
 ||effectivemeasure.net^$important
 ||emetriq.de^$important
+||emsservice.de^$important
 ||ensighten.com^$important
 ||etahub.com^$important
 ||events.reddit.com^$important
@@ -102,11 +106,6 @@
 ||gnezdo.ru^$important
 ||goo.gl^
 ||gostats.com^$important
-||admetrica.ru^$important
-||ugdturner.com$important
-||usabilla.com^$third-party,important
-||beemray.com^$important
-||conviva.com^$important
 ||gostats.ru^$important
 ||grapeshot.co.uk^$important
 ||histats.com^$important
@@ -196,9 +195,11 @@
 ||tvnewtop.pro^$important
 ||twitch.tv^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' *.jtvnw.net *.ttvnw.net *.twitchcdn.net *.twitch.tv *.facebook.com *.facebook.net recaptcha.net *.google.com *.gstatic.com *.algolia.net blob: wss:
 ||udc.yahoo.com^$important
+||ugdturner.com$important
 ||uimserv.net^$important
 ||unrulymedia.com^$important
 ||urbanairship.com^$important
+||usabilla.com^$third-party,important
 ||v0hs81ev3vepjr.ru^$important
 ||vadideo.com^$important
 ||veta.naver.com^$important
