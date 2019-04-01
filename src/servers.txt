@@ -52,6 +52,7 @@
 ||amplifypixel.outbrain.com^$important
 ||amplitude.com^$important
 ||amung.us^$important
+||analytics.edgekey.net^$important
 ||atdmt.com^$important
 ||atwola.com^$important
 ||az416426.vo.msecnd.net^$important
@@ -99,6 +100,7 @@
 ||f53mbcg4ak.ru^$important
 ||fastclick.net^$important
 ||fls-*.amazon.*%$important
+||fls-fe.amazon.co.jp^$important
 ||gamescarousel.com^$third-party
 ||gemius.pl^$important
 ||geo.yahoo.com^$important
@@ -175,7 +177,6 @@
 ||sonobi.com^$important
 ||ssp.rambler.ru^$important
 ||statcounter.com^$important
-||stats.*^$important
 ||steadfastsystem.com^$important
 ||stickyadstv.com^$important
 ||summerhamster.com^$important
@@ -190,6 +191,7 @@
 ||torrentz2.*^$csp=script-src 'self' 'unsafe-inline'
 ||trafficfactory.biz^$important
 ||trafficjunky.net^$important
+||trbo.com^$important
 ||try.abtasty.com^$important
 ||tsyndicate.com^$important
 ||tvnewtop.pro^$important

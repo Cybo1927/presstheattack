@@ -2353,4 +2353,5 @@
 ||facebook.com/method/links.getstats?$third-party,important
 ||google.com/ads/*$important
 ||google.com/adsense/*$important
+||stats.*^$important,domain=~t-online.de
 ||xvideos.com/in.php^$important

@@ -4,6 +4,7 @@
 1xstavka$important,image
 GGBET$image
 |http*:*/0.gif$important,image
+|http*:*/transparent-pixel.$image,important
 |http*:*/0.png$important,image,domain=~mail.yandex.ru|~mail.yandex.ua|~mail.yandex.by
 |http*:*/1x1.gif$important,image
 |http*:*/1x1.png$important,image
