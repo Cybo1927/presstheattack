@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-04-01 19:04:11
-! Version: 20190401190411
+! Last modified: 2019-04-02 02:11:43
+! Version: 20190402021143
 ! Expires: 3 hours
-! Number of filters: 6087
+! Number of filters: 6099
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -4552,6 +4552,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/tracker.js$important,script
 |http*:*/tracking.js$important,script
 |http*:*/transparent-pixel.$image,important
+|http*:*/trg.gif$important,image
 |http*:*/utrack.js$important,script
 |http*:*/uutils.fcg^$important,script
 |http*:*/videojs.ads.js$important,script
@@ -4585,6 +4586,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/yes.gif$important,image
 |http*:*/z.gif$important,image
 |http*:*/z.png$important,image
+|http*:*=widgetimpression&
 |http*:*?*&ip=$third-party
 |http*:*?*&lp=*id=$popup
 |http*:*?_siteid=$important,script,xmlhttprequest
@@ -5784,6 +5786,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*://delivery.*^$third-party
 |http*://geoservice.*^$important
 |http*://informers.*^$important
+|http*://partner.$third-party
 |http*://px.*^$important
 |http*://smetrics.*^$important
 |http*://tag.*^$important
@@ -5796,7 +5799,6 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||aaxads.com^$important
 ||adalliance.io^$important
 ||adbetclickin.pink^$important
-||adbetnet.com^$important
 ||adbetnet.com^$important
 ||adcdnx.com^$important
 ||adclear.net^$important
@@ -5812,6 +5814,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||admixer.net^$important
 ||adnxs.com^$important
 ||adobedtm.com^
+||adomik.com^$important
 ||adpartner.*^$important
 ||adriver.ru^$important
 ||ads-twitter.com^$important
@@ -5896,6 +5899,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||doubleclick.net^$important,popup
 ||doublepimp.com^$important
 ||doublepimpssl.com^$important
+||dropbox.com/log/*$xmlhttprequest,important
 ||ds-aksb-a.akamaihd.net^$important
 ||duckduckgo.com/t/$important,image
 ||duckduckgo.com/y.js$important,script
@@ -5941,6 +5945,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||gostats.ru^$important
 ||grapeshot.co.uk^$important
 ||harvest.surge.sh/h.js$important,script
+||heise.de/ivw-bin/ivw/cp/*$image
 ||heise.de/js/prebid*.js$important,script
 ||histats.com^$important
 ||hostingcloud.win^$important
@@ -5952,6 +5957,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||imrworldwide.com^$important
 ||indexww.com^$important
 ||influads.com^$important
+||info.web.de^$important
 ||ioam.de^$important
 ||ipinfo.io^$important
 ||iwanttodeliver.com^$important
@@ -5967,6 +5973,8 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||mail.ru^$third-party
 ||mail.yandex.*/monitoring_liza.txt$important,image
 ||mail.yandex.*^$first-party,important,script
+||marketing.dropbox.com^$important
+||mateti.net^$important
 ||mc.yandex.ru^$important,redirect=noopjs,script
 ||mediatoday.ru^$important
 ||meetrics.net^$important
@@ -5976,6 +5984,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||mms.cnn.com^$important
 ||moatads.com^$important
 ||mookie1.com^$important
+||mpnrs.com^$important
 ||mradx.net^$important
 ||msecnd.net/scripts/jsll-*.js$important,script
 ||mvunstblutptj.com^$important
@@ -6002,6 +6011,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||popcash.net^$important
 ||postrelease.com^$important
 ||proofpoint.com^$important
+||prophet.heise.de^$important
 ||protovid.com^$important
 ||pubmatic.com^$important
 ||quantserve.com^$important
@@ -6066,6 +6076,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||ucoz.org/?*%21*%$important,script
 ||udc.yahoo.com^$important
 ||ugdturner.com$important
+||ui-portal.de/*homepage.startseite.event$image,important
 ||uimserv.net^$important
 ||unrulymedia.com^$important
 ||urbanairship.com^$important
@@ -6074,6 +6085,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||vadideo.com^$important
 ||veta.naver.com^$important
 ||vg74gi6mea.com^$important
+||vgwort.de^$important
 ||vidcpm.com^$important
 ||vk-portal.net^$important
 ||vk.cc^

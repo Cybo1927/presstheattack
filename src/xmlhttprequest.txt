@@ -1,6 +1,7 @@
 /^https?:\/\/contentbooster\.me+\/(?!manifest)[a-z0-9]{5,45}/$important,xmlhttprequest
 /^https?:\/\/s3\.amazonaws\.com\/.*[a-f0-9\/]{50,}/$third-party,important,xmlhttprequest,domain=~amazon.com
 ||api.twitch.tv/*/channels/*/extensions^$xmlhttprequest
+||dropbox.com/log/*$xmlhttprequest,important
 ||github.com/_private/browser/stats^$important,xmlhttprequest
 ||google.com/async/*&async=encoded_cache_key$xmlhttprequest,important
 ||google.com^*/viewerimpressions^$important,xmlhttprequest
