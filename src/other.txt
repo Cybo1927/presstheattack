@@ -1185,7 +1185,7 @@
 |http*:*^MetaAdServer.$important
 |http*:*^MetaAdServer^$important
 |http*:*^MetaAdServer_$important
-|http*:*^ad-
+|http*:*^ad-$domain=~leboncoin.fr
 |http*:*^ad-sdk-$important
 |http*:*^ad-sdk.$important
 |http*:*^ad-sdk^$important
