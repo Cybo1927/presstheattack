@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-04-01 18:00:22
-! Version: 20190401180022
+! Last modified: 2019-04-01 18:05:11
+! Version: 20190401180511
 ! Expires: 3 hours
-! Number of filters: 6067
+! Number of filters: 6068
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2767,7 +2767,7 @@
 */spacer.png$image,redirect=1x1-transparent.gif
 */visitor.js$script,redirect=noopjs
 */visitorapi.js$script,redirect=noopjs
-/[^0-9](1|24|60|88|468|100|728|120|125|234|250|392|400|470|75|782|300|160|336)(x|\-|\_)(1|32|75|40|45|72|250|31|60|100|90|468|80|160|240|600|125|280)[^0-9]/$script,image,important,domain=~twitter.com|~9gag.com|~cbssports.com|~etsy.com
+/[^0-9](1|24|60|88|468|100|728|120|125|234|250|392|400|470|75|782|300|160|336)(x|\-|\_)(1|32|75|40|45|72|250|31|60|100|90|468|80|160|240|600|125|280)[^0-9]/$script,image,important,domain=~twitter.com|~9gag.com|~cbssports.com|~etsy.com|~t-online.de
 /\/([^\s]{4})?tag\.min\.([a-z0-9]{30,}\.)?js/$important,script
 /\/advert([0-9]{1,2})?\.js/$important,script
 /\/banner[0-9]{1,2}?\.gif/$important,image
@@ -3110,7 +3110,6 @@
 @@||yastatic.net/yandex-video-player-iframe-api-bundles^$subdocument
 GGBET$image
 google.*##+js(remove-attr.js, ping, div[class] > a[ping])
-http*:*/fbpixel.$important,script,xmlhttprequest,image
 kinopoisk.ru##+js(abort-on-property-read.js, advBlock)
 kinopoisk.ru##+js(cookie-remover.js, /^blcrm|^bltsr|^cmtchd|^crookie|^kpunk|^yandex_plus_metrika_cookie)
 kinopoisk.ru##^script:has-text(window.Metrika)
@@ -4442,6 +4441,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/event.gif$important,image
 |http*:*/event.png$important,image
 |http*:*/events-collector.*$script,xmlhttprequest,important
+|http*:*/fbpixel.$important,script,xmlhttprequest,image
 |http*:*/fpn.gif$important,image
 |http*:*/fuckadblock.js$important,script
 |http*:*/ga-lite.js$important,script
@@ -4467,6 +4467,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/imp.gif$important,image
 |http*:*/in.php?p=$important
 |http*:*/invoke.js$important,script
+|http*:*/js.gif$image,script,important
 |http*:*/js/tracking/ga_initial_visit*.js$important,script
 |http*:*/jsecoin.js$important,script
 |http*:*/log.js$important,script
@@ -5099,7 +5100,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*^stat^
 |http*:*^stat_
 |http*:*^stats-
-|http*:*^stats.
+|http*:*^stats.$domain=~t-online.de
 |http*:*^stats^
 |http*:*^stats_
 |http*:*^tag-user-$important

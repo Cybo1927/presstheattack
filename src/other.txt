@@ -1690,7 +1690,7 @@
 |http*:*^stat^
 |http*:*^stat_
 |http*:*^stats-
-|http*:*^stats.
+|http*:*^stats.$domain=~t-online.de
 |http*:*^stats^
 |http*:*^stats_
 |http*:*^tag-user-$important
