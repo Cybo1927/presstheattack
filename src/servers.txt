@@ -102,6 +102,11 @@
 ||gnezdo.ru^$important
 ||goo.gl^
 ||gostats.com^$important
+||admetrica.ru^$important
+||ugdturner.com$important
+||usabilla.com^$third-party,important
+||beemray.com^$important
+||conviva.com^$important
 ||gostats.ru^$important
 ||grapeshot.co.uk^$important
 ||histats.com^$important

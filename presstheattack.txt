@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-04-01 10:16:42
-! Version: 20190401101642
+! Last modified: 2019-04-01 17:28:06
+! Version: 20190401172807
 ! Expires: 3 hours
-! Number of filters: 6024
+! Number of filters: 6029
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -5756,6 +5756,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||adition.com^$important
 ||adlightning.com^$important
 ||admantx.com^$important
+||admetrica.ru^$important
 ||admitad.com^$important
 ||admixer.net^$important
 ||adnxs.com^$important
@@ -5803,6 +5804,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||bat.bing.com^$important
 ||bats.video.yahoo.com^$important
 ||bbelements.com^$important
+||beemray.com^$important
 ||begun.ru^$important
 ||betweendigital.com^$important
 ||bidswitch.net^$important
@@ -5820,6 +5822,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||collector.githubapp.com^$important,image
 ||connect.facebook.net^
 ||connect.ok.ru^
+||conviva.com^$important
 ||cookielaw.org^$important
 ||cpaevent.ru^$important
 ||criteo.net^$important
@@ -6005,9 +6008,11 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||twitter.com/oct.js$important,script
 ||ucoz.org/?*%21*%$important,script
 ||udc.yahoo.com^$important
+||ugdturner.com$important
 ||uimserv.net^$important
 ||unrulymedia.com^$important
 ||urbanairship.com^$important
+||usabilla.com^$third-party,important
 ||v0hs81ev3vepjr.ru^$important
 ||vadideo.com^$important
 ||veta.naver.com^$important
