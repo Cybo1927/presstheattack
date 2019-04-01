@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-04-01 18:57:07
-! Version: 20190401185707
+! Last modified: 2019-04-01 19:04:11
+! Version: 20190401190411
 ! Expires: 3 hours
-! Number of filters: 6071
+! Number of filters: 6087
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -3566,6 +3566,10 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*-partners.
 |http*:*-partners^
 |http*:*-partners_
+|http*:*-paylink-
+|http*:*-paylink.
+|http*:*-paylink^
+|http*:*-paylink_
 |http*:*-pclick-
 |http*:*-pclick.
 |http*:*-pclick^
@@ -4150,6 +4154,10 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*.partners.
 |http*:*.partners^
 |http*:*.partners_
+|http*:*.paylink-
+|http*:*.paylink.
+|http*:*.paylink^
+|http*:*.paylink_
 |http*:*.pclick-
 |http*:*.pclick.
 |http*:*.pclick^
@@ -4983,6 +4991,10 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*^partners.
 |http*:*^partners^
 |http*:*^partners_
+|http*:*^paylink-
+|http*:*^paylink.
+|http*:*^paylink^
+|http*:*^paylink_
 |http*:*^pclick-
 |http*:*^pclick.
 |http*:*^pclick^
@@ -5568,6 +5580,10 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*_partners.
 |http*:*_partners^
 |http*:*_partners_
+|http*:*_paylink-
+|http*:*_paylink.
+|http*:*_paylink^
+|http*:*_paylink_
 |http*:*_pclick-
 |http*:*_pclick.
 |http*:*_pclick^
