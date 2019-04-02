@@ -63,6 +63,7 @@
 ||beemray.com^$important
 ||begun.ru^$important
 ||betweendigital.com^$important
+||bfmio.com^$important
 ||bidswitch.net^$important
 ||bounceexchange.com^$important
 ||casalemedia.com^$important
@@ -100,6 +101,7 @@
 ||exosrv.com^$important
 ||f53mbcg4ak.ru^$important
 ||fastclick.net^$important
+||fastly-insights.com^$important
 ||fls-*.amazon.*%$important
 ||fls-fe.amazon.co.jp^$important
 ||gamescarousel.com^$third-party
