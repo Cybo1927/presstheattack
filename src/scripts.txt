@@ -19,6 +19,7 @@
 |http*:*.vast-$script
 |http*:*.vast.$script
 |http*:*.vast^$script
+|http*:*/ruxitagentjs_*$important,script
 |http*:*.vast_$script
 /^https?:\/\/[^\s]+(\_|\-)ping\.js/$important,script
 |http*:*/accip_script.js$important,script
