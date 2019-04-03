@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-04-04 07:36:00
-! Version: 20190404073600
+! Last modified: 2019-04-04 07:48:03
+! Version: 20190404074803
 ! Expires: 3 hours
-! Number of filters: 6158
+! Number of filters: 6162
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2792,6 +2792,7 @@
 /^https?:\/\/2ch\.(hk|pm|re|tf|wf|yt)\/images/$image
 /^https?:\/\/[^/]+\/[a-z0-9]{15,}(\?hope=.*)?$/$script,important
 /^https?:\/\/[^\s]+(\_|\-)ping\.js/$important,script
+/^https?:\/\/[^\s]+\.(net|org|com|ru)\/ad[sv]\//$important,script,subdocument
 /^https?:\/\/[^\s]{15,}(player|gen|client|csi|generate|stream|log)\_?204/$image,important,xmlhttprequest
 /^https?:\/\/[^\s]{15,}log[\W|_]?(type|event|entry|request)/$image,important,xmlhttprequest
 /^https?:\/\/[^\s]{3,}google\.[^\s]{2,5}\/log\?/$image,important,xmlhttprequest
@@ -5819,6 +5820,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*google.tracker.js$important,script
 |http*:*google^tracker.js$important,script
 |http*:*google_tracker.js$important,script
+|http*://ads.*^$important
 |http*://counter.*^$important
 |http*://delivery.*^$third-party
 |http*://geoservice.*^$important
@@ -5900,6 +5902,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||awsync.yandex.ua^$important,redirect=noopframe,subdocument
 ||az416426.vo.msecnd.net^$important
 ||b1img.com^$important
+||b3z29k1uxb.com^$important
 ||bat.bing.com^$important
 ||bats.video.yahoo.com^$important
 ||bbelements.com^$important
@@ -6062,6 +6065,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||popcash.net^$important
 ||postrelease.com^$important
 ||proofpoint.com^$important
+||propellerclick.com^$important
 ||prophet.heise.de^$important
 ||protovid.com^$important
 ||pubmatic.com^$important

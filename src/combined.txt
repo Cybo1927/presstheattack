@@ -28,6 +28,7 @@
 ||akamaized.net/?u=$image,important,xmlhttprequest
 ||bing.com/fd/ls/*$image,important,xmlhttprequest
 ||facebook.com/xti.php^$script,xmlhttprequest,important
+/^https?:\/\/[^\s]+\.(net|org|com|ru)\/ad[sv]\//$important,script,subdocument
 ||facebookcorewwwi.onion/xti.php^$script,xmlhttprequest,important
 ||google.com/uds/$script,subdocument,important
 ||microsoft.com/collect/*$script,xmlhttprequest,important
