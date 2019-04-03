@@ -1216,7 +1216,7 @@
 |http*:*^ad.type.$important
 |http*:*^ad.type^$important
 |http*:*^ad.type_$important
-|http*:*^ad^
+|http*:*^ad^$domain=~mail.google.com
 |http*:*^ad^slot-$important
 |http*:*^ad^slot.$important
 |http*:*^ad^slot^$important
