@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-04-03 18:46:13
-! Version: 20190403184613
+! Last modified: 2019-04-03 19:01:27
+! Version: 20190403190127
 ! Expires: 3 hours
-! Number of filters: 6123
+! Number of filters: 6128
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2767,6 +2767,7 @@
 */spacer.png$image,redirect=1x1-transparent.gif
 */visitor.js$script,redirect=noopjs
 */visitorapi.js$script,redirect=noopjs
+/(\_|\-)gtm\.js$script
 /[\W|_](1|24|60|88|468|100|728|120|125|234|250|392|400|470|75|782|300|160|336)(x|\-|\_)(1|32|75|40|45|72|250|31|60|100|90|468|80|160|240|600|125|280)[\W|_]/$script,image,important,domain=~twitter.com|~9gag.com|~cbssports.com|~etsy.com|~t-online.de|~discogs.com|~washingtonpost.com
 /\/([^\s]{4})?tag\.min\.([a-z0-9]{30,}\.)?js/$important,script
 /\/ads(\.|\-|\_)?([0-9]{1,2}|[-a-z0-9_.]{5,}\.min)\.js/$important,script
@@ -4355,8 +4356,6 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*.yads.
 |http*:*.yads^
 |http*:*.yads_
-|http*:*/*-gtm.js$important,script
-|http*:*/*_gtm.js$important,script
 |http*:*/*ping.js$important,script
 |http*:*/*pixel.gif$important,image
 |http*:*/*pixel.png$important,image
@@ -4393,6 +4392,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/ads.png$important,image
 |http*:*/adsbygoogle.js$important,script
 |http*:*/adsdk.js$important,script
+|http*:*/adsetup.js$important,script
 |http*:*/advert.js$important,script
 |http*:*/advertising.js$important,script
 |http*:*/aff_i?offer_id=$important
@@ -4526,6 +4526,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/pv.gif$important,image
 |http*:*/pv.png$important,image
 |http*:*/pv?fe=*&elg=$important
+|http*:*/pw.js$important,script
 |http*:*/px.gif$important,image
 |http*:*/px.js$important,script
 |http*:*/px.png$important,image
@@ -4584,6 +4585,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/webtag.js$important,script
 |http*:*/webxmr.js$important,script
 |http*:*/worker-asmjs.min.js$important,script
+|http*:*/wt?p=$image,important,script
 |http*:*/x.gif$important,image
 |http*:*/x.png$important,image
 |http*:*/xads.js$important,script
@@ -4598,6 +4600,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/yes.gif$important,image
 |http*:*/z.gif$important,image
 |http*:*/z.png$important,image
+|http*:*/zbanner_consorzio.js$important,script
 |http*:*=widgetimpression&
 |http*:*?*&ip=$third-party
 |http*:*?*&lp=*id=$popup
@@ -5945,6 +5948,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||getadmiral.com^$important
 ||github.com/_private/browser/stats^$important,xmlhttprequest
 ||gnezdo.ru^$important
+||go-mpulse.net^$important
 ||goo.gl^
 ||google-analytics.com/analytics.js$script,redirect=google-analytics.com/analytics.js,important
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js,important
@@ -6116,6 +6120,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||vk.com/rtrg^$important,image
 ||vtracy.de^$important
 ||wa.ui-portal.de^$important
+||wbtrk.net^$important
 ||web.telegram.org/*/PhotoThumbConversation.gif$important,image,domain=telegram.org
 ||webmasterplan.com^$important
 ||weborama.fr^$important

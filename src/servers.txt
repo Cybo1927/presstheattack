@@ -112,6 +112,7 @@
 ||geo.yahoo.com^$important
 ||getadmiral.com^$important
 ||gnezdo.ru^$important
+||go-mpulse.net^$important
 ||goo.gl^
 ||gostats.com^$important
 ||gostats.ru^$important
@@ -226,6 +227,7 @@
 ||vk.cc^
 ||vtracy.de^$important
 ||wa.ui-portal.de^$important
+||wbtrk.net^$important
 ||webmasterplan.com^$important
 ||weborama.fr^$important
 ||worthathousandwords.com^$important

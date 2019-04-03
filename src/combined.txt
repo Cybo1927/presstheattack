@@ -22,6 +22,7 @@
 |http*:*/remove_ads.$image,script,xmlhttprequest,important
 |http*:*/site=*/size=*/viewid=$image,important,xmlhttprequest,script
 |http*:*/stat?event=$script,xmlhttprequest,important
+|http*:*/wt?p=$image,important,script
 |http*:*?_siteid=$important,script,xmlhttprequest
 ||akamaized.net/?u=$image,important,xmlhttprequest
 ||bing.com/fd/ls/*$image,important,xmlhttprequest

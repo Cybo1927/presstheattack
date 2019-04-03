@@ -1,3 +1,4 @@
+/(\_|\-)gtm\.js$script
 /\/([^\s]{4})?tag\.min\.([a-z0-9]{30,}\.)?js/$important,script
 /\/ads(\.|\-|\_)?([0-9]{1,2}|[-a-z0-9_.]{5,}\.min)\.js/$important,script
 /\/advert(\.|\-|\_)?[0-9]{1,2}\.js/$important,script
@@ -19,8 +20,6 @@
 |http*:*.vast.$script
 |http*:*.vast^$script
 |http*:*.vast_$script
-|http*:*/*-gtm.js$important,script
-|http*:*/*_gtm.js$important,script
 |http*:*/*ping.js$important,script
 |http*:*/accip_script.js$important,script
 |http*:*/ad.js$important,script
@@ -37,6 +36,7 @@
 |http*:*/ads.min.js$important,script
 |http*:*/adsbygoogle.js$important,script
 |http*:*/adsdk.js$important,script
+|http*:*/adsetup.js$important,script
 |http*:*/advert.js$important,script
 |http*:*/advertising.js$important,script
 |http*:*/akam/10/*$important,script
@@ -123,6 +123,7 @@
 |http*:*/processor.js$important,script
 |http*:*/projectpoi.min.js$important,script
 |http*:*/prum.$important,script
+|http*:*/pw.js$important,script
 |http*:*/px.js$important,script
 |http*:*/raven.js$important,script
 |http*:*/referdetect.js$important,script
@@ -166,6 +167,7 @@
 |http*:*/xmr.min.js$important,script
 |http*:*/yads-async.js$important,script
 |http*:*/yads.js$important,script
+|http*:*/zbanner_consorzio.js$important,script
 |http*:*^vast-$script
 |http*:*^vast.$script
 |http*:*^vast^$script
