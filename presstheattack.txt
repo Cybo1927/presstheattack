@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-04-04 07:57:32
-! Version: 20190404075732
+! Last modified: 2019-04-04 08:09:24
+! Version: 20190404080924
 ! Expires: 3 hours
-! Number of filters: 6164
+! Number of filters: 6165
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2768,7 +2768,7 @@
 */visitor.js$script,redirect=noopjs
 */visitorapi.js$script,redirect=noopjs
 /(\_|\-)gtm\.js$script
-/[\W|_](1|24|60|88|468|100|728|120|125|234|250|392|400|470|75|782|300|160|336)(x|\-|\_)(1|32|75|40|45|72|250|31|60|100|90|468|80|160|240|600|125|280)[\W|_]/$script,image,important,domain=~twitter.com|~9gag.com|~cbssports.com|~etsy.com|~t-online.de|~discogs.com|~washingtonpost.com
+/[\W|_](1|24|60|88|468|100|728|120|125|234|250|392|400|470|75|782|300|160|336)(x|\-|\_)(1|32|75|40|45|72|250|31|60|100|90|468|80|160|240|600|125|280)[\W|_]/$script,image,important,domain=~twitter.com|~9gag.com|~cbssports.com|~etsy.com|~t-online.de|~discogs.com|~washingtonpost.com|~funnyjunk.com
 /\/([^\s]{4})?tag\.min\.([a-z0-9]{30,}\.)?js/$important,script
 /\/ads(\.|\-|\_)?([0-9]{1,2}|[-a-z0-9_.]{5,}\.min)\.js/$important,script
 /\/advert(\.|\-|\_)?[0-9]{1,2}\.js/$important,script
@@ -2792,6 +2792,8 @@
 /^https?:\/\/2ch\.(hk|pm|re|tf|wf|yt)\/images/$image
 /^https?:\/\/[^/]+\/[a-z0-9]{15,}(\?hope=.*)?$/$script,important
 /^https?:\/\/[^\s]+(\_|\-)ping\.js/$important,script
+/^https?:\/\/[^\s]+(\_|\-)pixel\.gif/$important,image
+/^https?:\/\/[^\s]+(\_|\-)pixel\.png/$important,image
 /^https?:\/\/[^\s]+\.(net|org|com|ru)\/ad[sv]\//$important,script,subdocument
 /^https?:\/\/[^\s]{15,}(player|gen|client|csi|generate|stream|log)\_?204/$image,important,xmlhttprequest
 /^https?:\/\/[^\s]{15,}log[\W|_]?(type|event|entry|request)/$image,important,xmlhttprequest
@@ -4368,8 +4370,6 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*.yads.
 |http*:*.yads^
 |http*:*.yads_
-|http*:*/*pixel.gif$important,image
-|http*:*/*pixel.png$important,image
 |http*:*/0.gif$important,image
 |http*:*/0.png$important,image,domain=~mail.yandex.ru|~mail.yandex.ua|~mail.yandex.by
 |http*:*/1x1.gif$important,image
@@ -5821,6 +5821,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*google.tracker.js$important,script
 |http*:*google^tracker.js$important,script
 |http*:*google_tracker.js$important,script
+|http*://ad.*^$important
 |http*://ads.*^$important
 |http*://counter.*^$important
 |http*://delivery.*^$third-party
@@ -6000,7 +6001,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||gostats.ru^$important
 ||grapeshot.co.uk^$important
 ||harvest.surge.sh/h.js$important,script
-||heise.de/ivw-bin/ivw/cp/*$image
+||heise.de/ivw-bin/ivw/cp/*$image,important
 ||heise.de/js/prebid*.js$important,script
 ||histats.com^$important
 ||hostingcloud.win^$important

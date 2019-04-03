@@ -2389,6 +2389,7 @@
 |http*://videotracker.^$first-party
 |http*://xml*/click^$important
 |http*://xml*/redirect^$important
+|http*://ad.*^$important
 ||amazon.com^*/events/$important
 ||facebook.com/method/links.getstats?$third-party,important
 ||google.com/ads/*$important

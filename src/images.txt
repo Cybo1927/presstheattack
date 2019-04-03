@@ -1,5 +1,7 @@
 /\/banner[0-9]{1,2}?\.gif/$important,image
 /^https?:\/\/2ch\.(hk|pm|re|tf|wf|yt)\/images/$image
+/^https?:\/\/[^\s]+(\_|\-)pixel\.gif/$important,image
+/^https?:\/\/[^\s]+(\_|\-)pixel\.png/$important,image
 1xbet$important,image
 1xstavka$important,image
 GGBET$image
@@ -11,10 +13,7 @@ GGBET$image
 |http*:*/3x2.gif$important,image
 |http*:*/3x2.png$important,image
 |http*:*/32x32.gif$important,image
-|http*:*/gb.gif$important,image
 |http*:*/32x32.png$important,image
-|http*:*/*pixel.gif$important,image
-|http*:*/*pixel.png$important,image
 |http*:*/a.gif$important,image
 |http*:*/a.png$important,image
 |http*:*/ad-sprite.png$important,image
@@ -33,6 +32,7 @@ GGBET$image
 |http*:*/event.gif$important,image
 |http*:*/event.png$important,image
 |http*:*/fpn.gif$important,image
+|http*:*/gb.gif$important,image
 |http*:*/greenoaks.gif$important,image
 |http*:*/hit.xiti$important,image
 |http*:*/horizon-pageview?$image
@@ -82,7 +82,7 @@ GGBET$image
 |http*:*_fpn.gif$important,image
 ||collector.githubapp.com^$important,image
 ||duckduckgo.com/t/$important,image
-||heise.de/ivw-bin/ivw/cp/*$image
+||heise.de/ivw-bin/ivw/cp/*$image,important
 ||mail.yandex.*/monitoring_liza.txt$important,image
 ||rover.ebay.*/roverimp/*&trknvp=$important,image
 ||rover.ebay.*^$important,image
