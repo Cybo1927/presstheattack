@@ -129,6 +129,7 @@
 ||iwanttodeliver.com^$important
 ||justicejudo.com^$important
 ||keywee.co^$important
+||krxd.net^$important
 ||lcs.naver.com^$important
 ||ligatus.com^$important
 ||lijit.com^$important
@@ -194,6 +195,7 @@
 ||syndication.twitter.com^$important
 ||taboola.com^$important
 ||tagcommander.com^$important
+||tailtarget.com^$important
 ||target.smi2.net^$important
 ||tcheck.outbrainimg.com^$important
 ||theadex.com^$important

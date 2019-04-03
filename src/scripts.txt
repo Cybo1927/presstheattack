@@ -84,6 +84,8 @@
 |http*:*/ga_lite.js$important,script
 |http*:*/ga_setup.js$important,script
 |http*:*/gads.js$important,script
+|http*:*/geo?$script
+|http*:*/glb-pv-min.js$important,script
 |http*:*/glp?r=*&rw=*&rh=*&ww=*&wh=$important,script
 |http*:*/gpt.js$important,script
 |http*:*/gridcash.js$important,script

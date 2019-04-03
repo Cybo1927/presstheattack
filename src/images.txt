@@ -9,7 +9,6 @@ GGBET$image
 |http*:*/1x1.png$important,image
 |http*:*/2x2.png$important,image
 |http*:*/3x2.gif$important,image
-|http*:*/ad-sprite.png$important,image
 |http*:*/3x2.png$important,image
 |http*:*/32x32.gif$important,image
 |http*:*/32x32.png$important,image
@@ -17,6 +16,7 @@ GGBET$image
 |http*:*/*pixel.png$important,image
 |http*:*/a.gif$important,image
 |http*:*/a.png$important,image
+|http*:*/ad-sprite.png$important,image
 |http*:*/ad.gif$important,image
 |http*:*/ad.png$important,image
 |http*:*/ads.gif$important,image
@@ -34,6 +34,7 @@ GGBET$image
 |http*:*/fpn.gif$important,image
 |http*:*/greenoaks.gif$important,image
 |http*:*/hit.xiti$important,image
+|http*:*/horizon-pageview^$image
 |http*:*/i.gif$important,image
 |http*:*/i.png$important,image
 |http*:*/img.gif$image,important
