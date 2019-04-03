@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-04-04 03:46:15
-! Version: 20190404034615
+! Last modified: 2019-04-04 07:21:06
+! Version: 20190404072106
 ! Expires: 3 hours
-! Number of filters: 6135
+! Number of filters: 6136
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2790,6 +2790,7 @@
 /^https?:\/\/(www\.)?(client\-event\-reporter|countess|mp|polyfill|sentinel|spade|trowel|fan)\.+twitch(svc)?\.\w{2,}/$important
 /^https?:\/\/(www\.)?(facebookcorewwwi|facebook)\.\w{3,5}\/tr\D/$important
 /^https?:\/\/2ch\.(hk|pm|re|tf|wf|yt)\/images/$image
+/^https?:\/\/[^\s]+(\_|\-)ping\.js/$important,script
 /^https?:\/\/[^\s]{15,}(player|gen|client|csi|generate|stream|log)\_?204/$image,important,xmlhttprequest
 /^https?:\/\/[^\s]{15,}log[\W|_]?(type|event|entry|request)/$image,important,xmlhttprequest
 /^https?:\/\/[^\s]{3,}google\.[^\s]{2,5}\/log\?/$image,important,xmlhttprequest
@@ -4357,7 +4358,6 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*.yads.
 |http*:*.yads^
 |http*:*.yads_
-|http*:*/*ping.js$important,script
 |http*:*/*pixel.gif$important,image
 |http*:*/*pixel.png$important,image
 |http*:*/0.gif$important,image
@@ -5805,6 +5805,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*://geoservice.*^$important
 |http*://informers.*^$important
 |http*://partner.$third-party
+|http*://pixel.*^$important
 |http*://px.*^$important
 |http*://smetrics.*^$important
 |http*://tag.*^$important
