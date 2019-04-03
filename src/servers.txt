@@ -38,6 +38,7 @@
 ||ads-twitter.com^$important
 ||adsafeprotected.com^$important
 ||adsensecustomsearchads.com^$important
+||adspsp.com^$important
 ||adswrapme.click^$important
 ||adsymptotic.com^$important
 ||adtechus.com^$important

@@ -191,6 +191,7 @@
 ||msecnd.net/scripts/jsll-*.js$important,script
 ||quora.com/qevents.js$important,script
 ||redditstatic.com/moat^$important,script
+||ssl-images-amazon.com^*/ape/sf/*/dasf-$script
 ||top100.ru/top100/top100.js$important,script
 ||twitter.com/oct.js$important,script
 ||ucoz.org/?*%21*%$important,script

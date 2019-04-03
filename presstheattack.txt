@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-04-03 18:30:11
-! Version: 20190403183011
+! Last modified: 2019-04-03 18:46:13
+! Version: 20190403184613
 ! Expires: 3 hours
-! Number of filters: 6120
+! Number of filters: 6123
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -4474,7 +4474,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/gujAd.js$important,script
 |http*:*/hit.xiti$important,image
 |http*:*/hive.js$important,script
-|http*:*/horizon-pageview^$image
+|http*:*/horizon-pageview?$image
 |http*:*/hstrck-detect.js$important,script
 |http*:*/ht.js?site^$important,script
 |http*:*/i.gif$important,image
@@ -5835,6 +5835,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||ads-twitter.com^$important
 ||adsafeprotected.com^$important
 ||adsensecustomsearchads.com^$important
+||adspsp.com^$important
 ||adswrapme.click^$important
 ||adsymptotic.com^$important
 ||adtechus.com^$important
@@ -5848,6 +5849,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||akamaized.net/?u=$image,important,xmlhttprequest
 ||alexametrics.com^$important
 ||amazon-adsystem.com^$important
+||amazon.com^*/events/$important
 ||amazonaws.com/ki.js$important,script
 ||amplify.outbrain.com/cp/obtp.js$important,script
 ||amplifypixel.outbrain.com^$important
@@ -6058,6 +6060,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||sharethrough.com^$important
 ||smartadserver.com^$important
 ||sonobi.com^$important
+||ssl-images-amazon.com^*/ape/sf/*/dasf-$script
 ||ssp.rambler.ru^$important
 ||statcounter.com^$important
 ||static-mon.yandex.net/static/main.js$script,redirect=noopjs,important

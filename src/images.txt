@@ -34,7 +34,7 @@ GGBET$image
 |http*:*/fpn.gif$important,image
 |http*:*/greenoaks.gif$important,image
 |http*:*/hit.xiti$important,image
-|http*:*/horizon-pageview^$image
+|http*:*/horizon-pageview?$image
 |http*:*/i.gif$important,image
 |http*:*/i.png$important,image
 |http*:*/img.gif$image,important
