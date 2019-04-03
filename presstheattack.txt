@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-04-04 07:30:34
-! Version: 20190404073034
+! Last modified: 2019-04-04 07:36:00
+! Version: 20190404073600
 ! Expires: 3 hours
-! Number of filters: 6141
+! Number of filters: 6158
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -3465,6 +3465,10 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*-doubleclick.$important
 |http*:*-doubleclick^$important
 |http*:*-doubleclick_$important
+|http*:*-figanalytics-$important
+|http*:*-figanalytics.$important
+|http*:*-figanalytics^$important
+|http*:*-figanalytics_$important
 |http*:*-get-geoip-$important
 |http*:*-get-geoip.$important
 |http*:*-get-geoip^$important
@@ -4054,6 +4058,10 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*.doubleclick.$important
 |http*:*.doubleclick^$important
 |http*:*.doubleclick_$important
+|http*:*.figanalytics-$important
+|http*:*.figanalytics.$important
+|http*:*.figanalytics^$important
+|http*:*.figanalytics_$important
 |http*:*.get-geoip-$important
 |http*:*.get-geoip.$important
 |http*:*.get-geoip^$important
@@ -4459,6 +4467,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/event.png$important,image
 |http*:*/events-collector.*$script,xmlhttprequest,important
 |http*:*/fbpixel.$important,script,xmlhttprequest,image
+|http*:*/figanalytics.js$important,script
 |http*:*/fpn.gif$important,image
 |http*:*/fuckadblock.js$important,script
 |http*:*/ga-lite.js$important,script
@@ -4904,6 +4913,10 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*^doubleclick.$important
 |http*:*^doubleclick^$important
 |http*:*^doubleclick_$important
+|http*:*^figanalytics-$important
+|http*:*^figanalytics.$important
+|http*:*^figanalytics^$important
+|http*:*^figanalytics_$important
 |http*:*^get-geoip-$important
 |http*:*^get-geoip.$important
 |http*:*^get-geoip^$important
@@ -5493,6 +5506,10 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*_doubleclick.$important
 |http*:*_doubleclick^$important
 |http*:*_doubleclick_$important
+|http*:*_figanalytics-$important
+|http*:*_figanalytics.$important
+|http*:*_figanalytics^$important
+|http*:*_figanalytics_$important
 |http*:*_fpn.gif$important,image
 |http*:*_get-geoip-$important
 |http*:*_get-geoip.$important

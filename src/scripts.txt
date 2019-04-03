@@ -20,6 +20,7 @@
 |http*:*.vast.$script
 |http*:*.vast^$script
 /^https?:\/\/[^/]+\/[a-z0-9]{15,}(\?hope=.*)?$/$script,important
+|http*:*/figanalytics.js$important,script
 |http*:*/ruxitagentjs_*$important,script
 |http*:*.vast_$script
 /^https?:\/\/[^\s]+(\_|\-)ping\.js/$important,script
