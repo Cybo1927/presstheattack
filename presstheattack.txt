@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-04-04 08:09:24
-! Version: 20190404080924
+! Last modified: 2019-04-04 08:19:34
+! Version: 20190404081934
 ! Expires: 3 hours
-! Number of filters: 6165
+! Number of filters: 6168
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2792,8 +2792,7 @@
 /^https?:\/\/2ch\.(hk|pm|re|tf|wf|yt)\/images/$image
 /^https?:\/\/[^/]+\/[a-z0-9]{15,}(\?hope=.*)?$/$script,important
 /^https?:\/\/[^\s]+(\_|\-)ping\.js/$important,script
-/^https?:\/\/[^\s]+(\_|\-)pixel\.gif/$important,image
-/^https?:\/\/[^\s]+(\_|\-)pixel\.png/$important,image
+/^https?:\/\/[^\s]+(\_|\-)pixel\.(png|gif)/$important,image
 /^https?:\/\/[^\s]+\.(net|org|com|ru)\/ad[sv]\//$important,script,subdocument
 /^https?:\/\/[^\s]{15,}(player|gen|client|csi|generate|stream|log)\_?204/$image,important,xmlhttprequest
 /^https?:\/\/[^\s]{15,}log[\W|_]?(type|event|entry|request)/$image,important,xmlhttprequest
@@ -4545,6 +4544,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/px.gif$important,image
 |http*:*/px.js$important,script
 |http*:*/px.png$important,image
+|http*:*/pxl.gif$important,image
 |http*:*/pxlctl.gif$important,image
 |http*:*/raven.js$important,script
 |http*:*/referdetect.js$important,script
@@ -6000,6 +6000,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||gostats.com^$important
 ||gostats.ru^$important
 ||grapeshot.co.uk^$important
+||gumgum.com^$important
 ||harvest.surge.sh/h.js$important,script
 ||heise.de/ivw-bin/ivw/cp/*$image,important
 ||heise.de/js/prebid*.js$important,script
@@ -6096,6 +6097,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||sedoparking.com^$important
 ||seedtag.com^$important
 ||sharethrough.com^$important
+||siftscience.com^$important,script
 ||smartadserver.com^$important
 ||sonobi.com^$important
 ||ssl-images-amazon.com^*/ape/sf/*/dasf-$script
@@ -6140,6 +6142,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||twitter.com/oct.js$important,script
 ||ucoz.org/?*%21*%$important,script
 ||udc.yahoo.com^$important
+||udmserve.net^$important
 ||ugdturner.com$important
 ||ui-portal.de/*homepage.startseite.event$image,important
 ||uimserv.net^$important

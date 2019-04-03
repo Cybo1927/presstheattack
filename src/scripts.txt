@@ -17,6 +17,7 @@
 |http*:*-vast-$script
 |http*:*-vast.$script
 |http*:*-vast^$script
+||siftscience.com^$important,script
 |http*:*-vast_$script
 |http*:*.vast-$script
 |http*:*.vast.$script

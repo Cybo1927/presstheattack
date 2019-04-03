@@ -91,6 +91,8 @@
 ||demdex.net^$important
 ||deployads.com^$important
 ||digitaltarget.ru^$important
+||gumgum.com^$important
+||udmserve.net^$important
 ||disqusads.com^$important
 ||districtm.io^$important
 ||doubleclick.net^$important
