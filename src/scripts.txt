@@ -17,7 +17,6 @@
 |http*:*-vast-$script
 |http*:*-vast.$script
 |http*:*-vast^$script
-||siftscience.com^$important,script
 |http*:*-vast_$script
 |http*:*.vast-$script
 |http*:*.vast.$script
@@ -199,6 +198,7 @@
 ||msecnd.net/scripts/jsll-*.js$important,script
 ||quora.com/qevents.js$important,script
 ||redditstatic.com/moat^$important,script
+||siftscience.com^$important,script
 ||ssl-images-amazon.com^*/ape/sf/*/dasf-$script
 ||top100.ru/top100/top100.js$important,script
 ||twitter.com/oct.js$important,script

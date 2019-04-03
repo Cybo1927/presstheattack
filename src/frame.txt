@@ -1,5 +1,5 @@
 ||google.com/afs/$subdocument,important
 ||google.com/dp/ads?$subdocument,important
 ||redditmedia.com/gtm/jail^$important,subdocument
-||yahoo.com/sdarla/*$subdocument,important
 ||rutracker.org/iframe/*$subdocument,important
+||yahoo.com/sdarla/*$subdocument,important

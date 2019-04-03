@@ -3,7 +3,6 @@
 @@||api-maps.yandex.*^$script
 @@||auto.co.uk^$elemhide,badfilter
 @@||auto.de^$elemhide,badfilter
-@@||cloud-api.yandex.ru^$xmlhttprequest
 @@||best-deal.com^$elemhide,badfilter
 @@||best-price.com^$elemhide,badfilter
 @@||best-price.fr^$elemhide,badfilter
@@ -18,6 +17,7 @@
 @@||careers-qa.com^$elemhide,badfilter
 @@||cautaangajari.ro^$elemhide,badfilter
 @@||cheapfly24.de^$elemhide,badfilter
+@@||cloud-api.yandex.ru^$xmlhttprequest
 @@||deal24.co.uk^$elemhide,badfilter
 @@||discover.mail.com^$elemhide,badfilter
 @@||dsl.de^$elemhide,badfilter
