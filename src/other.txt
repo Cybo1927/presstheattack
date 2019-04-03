@@ -1348,7 +1348,7 @@
 |http*:*^adtest_$important
 |http*:*^adv-
 |http*:*^adv.
-|http*:*^adv^
+|http*:*^adv^$domain=~mail.google.com
 |http*:*^adv_
 |http*:*^advert-$important
 |http*:*^advert.$important

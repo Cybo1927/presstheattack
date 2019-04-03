@@ -3,6 +3,7 @@
 @@||api-maps.yandex.*^$script
 @@||auto.co.uk^$elemhide,badfilter
 @@||auto.de^$elemhide,badfilter
+@@||cloud-api.yandex.ru^$xmlhttprequest
 @@||best-deal.com^$elemhide,badfilter
 @@||best-price.com^$elemhide,badfilter
 @@||best-price.fr^$elemhide,badfilter
