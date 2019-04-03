@@ -1,5 +1,6 @@
 /[\W|_](1|24|60|88|468|100|728|120|125|234|250|392|400|470|75|782|300|160|336)(x|\-|\_)(1|32|75|40|45|72|250|31|60|100|90|468|80|160|240|600|125|280)[\W|_]/$script,image,important,domain=~twitter.com|~9gag.com|~cbssports.com|~etsy.com|~t-online.de|~discogs.com|~washingtonpost.com
 /\/popunder([0-9]{1,2})?\./$script,xmlhttprequest,popup,important
+/^https?:\/\/[^\s]+\.(net|org|com|ru)\/ad[sv]\//$important,script,subdocument
 /^https?:\/\/[^\s]{3,}google\.[^\s]{2,5}\/log\?/$image,important,xmlhttprequest
 /^https?:\/\/[^\s]{15,}(player|gen|client|csi|generate|stream|log)\_?204/$image,important,xmlhttprequest
 /^https?:\/\/[^\s]{15,}log[\W|_]?(type|event|entry|request)/$image,important,xmlhttprequest
@@ -13,7 +14,6 @@
 |http*:*/amp.gif$image,xmlhttprequest,important
 |http*:*/article/viewcount/*$script,xmlhttprequest,important
 |http*:*/b/ss/*&ce=utf-8&$image,important,script
-|http*:*/transparent-pixel.$image,object,important
 |http*:*/cgi-bin/ivw/*$script,xmlhttprequest,important
 |http*:*/dtm/*/satellitelib$important,script,xmlhttprequest
 |http*:*/entry_stats?$script,xmlhttprequest,important
@@ -23,12 +23,12 @@
 |http*:*/remove_ads.$image,script,xmlhttprequest,important
 |http*:*/site=*/size=*/viewid=$image,important,xmlhttprequest,script
 |http*:*/stat?event=$script,xmlhttprequest,important
+|http*:*/transparent-pixel.$image,object,important
 |http*:*/wt?p=$image,important,script
 |http*:*?_siteid=$important,script,xmlhttprequest
 ||akamaized.net/?u=$image,important,xmlhttprequest
 ||bing.com/fd/ls/*$image,important,xmlhttprequest
 ||facebook.com/xti.php^$script,xmlhttprequest,important
-/^https?:\/\/[^\s]+\.(net|org|com|ru)\/ad[sv]\//$important,script,subdocument
 ||facebookcorewwwi.onion/xti.php^$script,xmlhttprequest,important
 ||google.com/uds/$script,subdocument,important
 ||microsoft.com/collect/*$script,xmlhttprequest,important
