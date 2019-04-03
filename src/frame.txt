@@ -2,3 +2,4 @@
 ||google.com/dp/ads?$subdocument,important
 ||redditmedia.com/gtm/jail^$important,subdocument
 ||yahoo.com/sdarla/*$subdocument,important
+||rutracker.org/iframe/*$subdocument,important
