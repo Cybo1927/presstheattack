@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-04-03 15:59:13
-! Version: 20190403155913
+! Last modified: 2019-04-03 16:11:51
+! Version: 20190403161151
 ! Expires: 3 hours
-! Number of filters: 6102
+! Number of filters: 6104
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2773,6 +2773,7 @@
 /\/banner[0-9]{1,2}?\.gif/$important,image
 /\/fingerprint([0-9]{1,2})?(\.min)?\.js/$important,script,xmlhttprequest
 /\/fp([0-9]{1,2})?\.js/$important,script
+/\/piwik(\.|\-|\_)?[0-9]{5,}.js/$important,script
 /\/popunder([0-9]{1,2})?\./$script,xmlhttprequest,popup,important
 /^https:\/\/.*?\/v2\/0\/[a-zA-Z0-9_-]{30,}$/$third-party,script,important
 /^https?:\/\/(([0-9]{1,2})?l\-hit|([0-9]{1,2})?l-view|r([0-9]{1,2})?|rs|top\-fwz([0-9]{1,2})?|vk\.go|reklama|ad|ads|recostream\.go|[^\s]{10,}\.top|mediator|[^\s]{3,}\.radar|g?stat|top|xray)\.(imgs)?mail\.ru/$important
@@ -4471,6 +4472,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/i.gif$important,image
 |http*:*/i.png$important,image
 |http*:*/ima3.js$important,script
+|http*:*/img.gif$image,important
 |http*:*/img/ads.png$important,image
 |http*:*/imp.gif$important,image
 |http*:*/in.php?p=$important
@@ -4505,7 +4507,6 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/pic.png$important,image
 |http*:*/ping.gif$important,image
 |http*:*/ping.png$important,image
-|http*:*/piwik-*.js$important,script
 |http*:*/piwik.js$important,script
 |http*:*/pix.gif$important,image
 |http*:*/popunder.gif$important,image
@@ -5891,6 +5892,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||data.*.info^$popunder,popup
 ||data.*.net^$popunder,popup
 ||demdex.net^$important
+||deployads.com^$important
 ||digitaltarget.ru^$important
 ||disqusads.com^$important
 ||districtm.io^$important

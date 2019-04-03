@@ -35,6 +35,7 @@ GGBET$image
 |http*:*/hit.xiti$important,image
 |http*:*/i.gif$important,image
 |http*:*/i.png$important,image
+|http*:*/img.gif$image,important
 |http*:*/img/ads.png$important,image
 |http*:*/imp.gif$important,image
 |http*:*/lumbar.gif$important,image
