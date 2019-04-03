@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-04-03 19:01:27
-! Version: 20190403190127
+! Last modified: 2019-04-03 19:19:19
+! Version: 20190403191919
 ! Expires: 3 hours
-! Number of filters: 6128
+! Number of filters: 6130
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -4404,6 +4404,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/apstag.js$important,script
 |http*:*/article/viewcount/*$script,xmlhttprequest,important
 |http*:*/async-ads.js$important,script
+|http*:*/async-ads.js$important,script
 |http*:*/atrk.js$important,script
 |http*:*/authedmine.min.js$important,script
 |http*:*/authedminer.js$important,script
@@ -4562,7 +4563,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/track.gif$important,image
 |http*:*/tracker.js$important,script
 |http*:*/tracking.js$important,script
-|http*:*/transparent-pixel.$image,important
+|http*:*/transparent-pixel.$image,object,important
 |http*:*/trg.gif$important,image
 |http*:*/utrack.js$important,script
 |http*:*/uutils.fcg^$important,script
@@ -6090,6 +6091,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||tns-counter.ru^$important
 ||top100.ru/top100/top100.js$important,script
 ||torrentz2.*^$csp=script-src 'self' 'unsafe-inline'
+||tracking.olx-st.com^$important
 ||trafficfactory.biz^$important
 ||trafficjunky.net^$important
 ||trbo.com^$important

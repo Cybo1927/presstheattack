@@ -65,7 +65,6 @@ GGBET$image
 |http*:*/track-user.gif$important,image
 |http*:*/track-user.png$important,image
 |http*:*/track.gif$important,image
-|http*:*/transparent-pixel.$image,important
 |http*:*/trg.gif$important,image
 |http*:*/view.gif$important,image
 |http*:*/view.png$important,image
