@@ -2366,6 +2366,8 @@
 |http*://px.*^$important
 |http*://smetrics.*^$important
 |http*://tag.*^$important
+|http*://tracking.*^$first-party
+|http*://videotracker.^$first-party
 |http*://xml*/click^$important
 |http*://xml*/redirect^$important
 ||facebook.com/method/links.getstats?$third-party,important

@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-04-03 16:19:14
-! Version: 20190403161914
+! Last modified: 2019-04-03 18:05:31
+! Version: 20190403180531
 ! Expires: 3 hours
-! Number of filters: 6105
+! Number of filters: 6115
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2767,8 +2767,9 @@
 */spacer.png$image,redirect=1x1-transparent.gif
 */visitor.js$script,redirect=noopjs
 */visitorapi.js$script,redirect=noopjs
-/[\W|_](1|24|60|88|468|100|728|120|125|234|250|392|400|470|75|782|300|160|336)(x|\-|\_)(1|32|75|40|45|72|250|31|60|100|90|468|80|160|240|600|125|280)[\W|_]/$script,image,important,domain=~twitter.com|~9gag.com|~cbssports.com|~etsy.com|~t-online.de
+/[\W|_](1|24|60|88|468|100|728|120|125|234|250|392|400|470|75|782|300|160|336)(x|\-|\_)(1|32|75|40|45|72|250|31|60|100|90|468|80|160|240|600|125|280)[\W|_]/$script,image,important,domain=~twitter.com|~9gag.com|~cbssports.com|~etsy.com|~t-online.de|~discogs.com|~washingtonpost.com
 /\/([^\s]{4})?tag\.min\.([a-z0-9]{30,}\.)?js/$important,script
+/\/ads(\.|\-|\_)?([0-9]{1,2}|[-a-z0-9_.]{5,}\.min)\.js/$important,script
 /\/advert(\.|\-|\_)?[0-9]{1,2}\.js/$important,script
 /\/banner[0-9]{1,2}?\.gif/$important,image
 /\/fingerprint([0-9]{1,2})?(\.min)?\.js/$important,script,xmlhttprequest
@@ -2872,11 +2873,13 @@
 @@||fly24.co.uk^$elemhide,badfilter
 @@||geld.de^$elemhide,badfilter
 @@||githubusercontent.com^$image
+@@||google.com/recaptcha/$script
 @@||googlevideo.com/*?*&ip=$third-party
 @@||googlevideo.com/*?ip=$third-party
 @@||govolo.it^$elemhide,badfilter
 @@||govoyages.com^$elemhide,badfilter
 @@||grabworthy.co.uk^$elemhide,badfilter
+@@||gstatic.com/recaptcha/$script
 @@||hallar.com.do^$elemhide,badfilter
 @@||hallar.com.py^$elemhide,badfilter
 @@||hallar.com.uy^$elemhide,badfilter
@@ -4370,6 +4373,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/a.gif$important,image
 |http*:*/a.png$important,image
 |http*:*/accip_script.js$important,script
+|http*:*/ad-sprite.png$important,image
 |http*:*/ad.gif$important,image
 |http*:*/ad.js$important,script
 |http*:*/ad.png$important,image
@@ -4496,6 +4500,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/moatframe.js$important,script
 |http*:*/mormont.js$important,script
 |http*:*/nativeads.js$important,script
+|http*:*/newrelic.js$important,script
 |http*:*/nielsen.js$important,script
 |http*:*/noblock.js$important,script
 |http*:*/obfus.min.js$important,script
@@ -4557,6 +4562,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/trg.gif$important,image
 |http*:*/utrack.js$important,script
 |http*:*/uutils.fcg^$important,script
+|http*:*/videoanalytics.$important,script
 |http*:*/videojs.ads.js$important,script
 |http*:*/view.gif$important,image
 |http*:*/view.png$important,image
@@ -4568,6 +4574,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/wasmminer.js$important,script
 |http*:*/wasmminer.wasm$important,script
 |http*:*/watch_ua.js$important,script
+|http*:*/web_page_view^$important,script
 |http*:*/webcoin.js$important,script
 |http*:*/webcoin.min.js$important,script
 |http*:*/webmr.js$important,script
@@ -5792,6 +5799,8 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*://px.*^$important
 |http*://smetrics.*^$important
 |http*://tag.*^$important
+|http*://tracking.*^$first-party
+|http*://videotracker.^$first-party
 |http*://xml*/click^$important
 |http*://xml*/redirect^$important
 ||1-1ads.com^$important
@@ -5859,6 +5868,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||awsync.yandex.ru^$important,redirect=noopframe,subdocument
 ||awsync.yandex.ua^$important,redirect=noopframe,subdocument
 ||az416426.vo.msecnd.net^$important
+||b1img.com^$important
 ||bat.bing.com^$important
 ||bats.video.yahoo.com^$important
 ||bbelements.com^$important

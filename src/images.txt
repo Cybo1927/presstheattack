@@ -9,6 +9,7 @@ GGBET$image
 |http*:*/1x1.png$important,image
 |http*:*/2x2.png$important,image
 |http*:*/3x2.gif$important,image
+|http*:*/ad-sprite.png$important,image
 |http*:*/3x2.png$important,image
 |http*:*/32x32.gif$important,image
 |http*:*/32x32.png$important,image

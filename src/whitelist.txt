@@ -54,11 +54,13 @@
 @@||fly.co.uk^$elemhide,badfilter
 @@||geld.de^$elemhide,badfilter
 @@||githubusercontent.com^$image
+@@||google.com/recaptcha/$script
 @@||googlevideo.com/*?*&ip=$third-party
 @@||googlevideo.com/*?ip=$third-party
 @@||govolo.it^$elemhide,badfilter
 @@||govoyages.com^$elemhide,badfilter
 @@||grabworthy.co.uk^$elemhide,badfilter
+@@||gstatic.com/recaptcha/$script
 @@||hallar.com.do^$elemhide,badfilter
 @@||hallar.com.py^$elemhide,badfilter
 @@||hallar.com.uy^$elemhide,badfilter
