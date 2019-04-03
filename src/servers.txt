@@ -19,6 +19,7 @@
 ||adbetclickin.pink^$important
 ||tr.cloud-media.fr^$important
 ||tracking.cdiscount.com^$important
+||bebi.com^$important
 ||adbetnet.com^$important
 ||adcdnx.com^$important
 ||adclear.net^$important
