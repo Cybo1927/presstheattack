@@ -1,5 +1,5 @@
 /^https?:\/\/analytics[0-9]{1,2}?\./$important
-/^https?:\/\/c([0-9]{1,2})?\./$important,domain=~wp.com|~xavierstuder.com|~ndtv.com|~force.com
+/^https?:\/\/c([0-9]{1,2})?\./$important,domain=~wp.com|~xavierstuder.com|~ndtv.com|~force.com|~newegg.com
 /^https?:\/\/log[0-9]{1,2}?\./$important
 /^https?:\/\/p([0-9]{1,2})?\./$important
 /^https?:\/\/r([0-9]{1,2})?\./$important
@@ -2400,3 +2400,5 @@
 ||google.com/adsense/*$important
 ||stats.*^$important,domain=~t-online.de
 ||xvideos.com/in.php^$important
+||xing.com/collect/*$important
+||xing.com/logjam/*$important

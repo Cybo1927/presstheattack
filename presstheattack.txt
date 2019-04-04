@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-04-05 02:08:44
-! Version: 20190405020844
+! Last modified: 2019-04-05 02:17:21
+! Version: 20190405021721
 ! Expires: 3 hours
-! Number of filters: 6218
+! Number of filters: 6221
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2799,7 +2799,7 @@
 /^https?:\/\/[^\s]{3,}google\.[^\s]{2,5}\/log\?/$image,important,xmlhttprequest
 /^https?:\/\/[a-z0-9]{1,2}?adserv\.com/$important
 /^https?:\/\/analytics[0-9]{1,2}?\./$important
-/^https?:\/\/c([0-9]{1,2})?\./$important,domain=~wp.com|~xavierstuder.com|~ndtv.com|~force.com
+/^https?:\/\/c([0-9]{1,2})?\./$important,domain=~wp.com|~xavierstuder.com|~ndtv.com|~force.com|~newegg.com
 /^https?:\/\/cdn[0-9]{1,2}?\.rocks\/[^\s]{30,}\.js/$important,script
 /^https?:\/\/collector([0-9]{1,2})?\.xhamster\.[a-z]{3}/$script,xmlhttprequest,important
 /^https?:\/\/contentbooster\.me+\/(?!manifest)[a-z0-9]{5,45}/$important,xmlhttprequest
@@ -6106,6 +6106,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||optimizely.com^$important
 ||pagefair.com^$important
 ||pb.m.naver.com^$important
+||pf.newegg.com^$important
 ||piguiqproxy.com^$important
 ||pipe.aria.microsoft.com/collector^$important,xmlhttprequest
 ||pixel.facebook.com^$important
@@ -6216,6 +6217,8 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||weborama.fr^$important
 ||worthathousandwords.com^$important
 ||xhamsterpremium.*^$important,third-party
+||xing.com/collect/*$important
+||xing.com/logjam/*$important
 ||xpgcrmxejlgig.com^$important
 ||xvideos.com/in.php^$important
 ||yadro.ru^$important

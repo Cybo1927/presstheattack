@@ -20,6 +20,7 @@
 ||powerad.ai^$important
 ||*.vo.msecnd.net^$important
 ||dianomi.com^$important
+||pf.newegg.com^$important
 ||aaxads.com^$important
 ||adalliance.io^$important
 ||adbetclickin.pink^$important
