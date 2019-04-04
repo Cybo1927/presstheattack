@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-04-04 17:24:11
-! Version: 20190404172411
+! Last modified: 2019-04-04 17:31:18
+! Version: 20190404173118
 ! Expires: 3 hours
-! Number of filters: 6179
+! Number of filters: 6183
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -4420,7 +4420,11 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/authedminer.js$important,script
 |http*:*/autotrack.js$important,script
 |http*:*/b/ss/*&ce=utf-8&$image,important,script
+|http*:*/baner.js$important,script
+|http*:*/baners.js$important,script
+|http*:*/banner.js$important,script
 |http*:*/banner/*.gif$image,important
+|http*:*/banners.js$important,script
 |http*:*/banners/*.gif$image,important
 |http*:*/bens/vinos.js$important,script
 |http*:*/bitcoincore/?ref=$important,script
@@ -4792,7 +4796,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*^adv-
 |http*:*^adv.
 |http*:*^adv^$domain=~mail.google.com
-|http*:*^adv_
+|http*:*^adv_$domain=~tweakers.net
 |http*:*^advert-$important
 |http*:*^advert.$important
 |http*:*^advert^$important

@@ -196,6 +196,10 @@
 ||duckduckgo.com/y.js$important,script
 ||ebay.com/scl/js/ScandalLoader.js$important,script
 ||ebayrtm.com/rtm?rtmcmd*&enc=*$important,script
+|http*:*/banners.js$important,script
+|http*:*/baners.js$important,script
+|http*:*/banner.js$important,script
+|http*:*/baner.js$important,script
 ||google.*/ads/search/module/ads/*/search.js$important,script
 ||harvest.surge.sh/h.js$important,script
 ||heise.de/js/prebid*.js$important,script
