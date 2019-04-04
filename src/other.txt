@@ -1197,6 +1197,7 @@
 |http*:*?perfekt=wss://*^$important
 |http*:*?proxy=ws://*^$important
 |http*:*?proxy=wss://*^$important
+|http*:*?type=pageview&$important
 |http*:*?zoneid=$important
 |http*:*^MetaAdServer-$important
 |http*:*^MetaAdServer.$important
@@ -1737,7 +1738,7 @@
 |http*:*^teaser-
 |http*:*^teaser.
 |http*:*^teaser^$domain=~urbia.de
-|http*:*^teaser_
+|http*:*^teaser_$domain=~zerohedge.com
 |http*:*^tizers-
 |http*:*^tizers.
 |http*:*^tizers^
