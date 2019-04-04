@@ -104,6 +104,7 @@
 ||ensighten.com^$important
 ||etahub.com^$important
 ||events.reddit.com^$important
+||exactag.com^$important
 ||exosrv.com^$important
 ||f53mbcg4ak.ru^$important
 ||fastclick.net^$important
@@ -141,6 +142,7 @@
 ||lijit.com^$important
 ||logql.yahoo.co.jp^$important
 ||logxp.ru^$important
+||m-pathy.com^$important
 ||mail.ru^$third-party
 ||marketing.dropbox.com^$important
 ||mateti.net^$important
@@ -154,9 +156,6 @@
 ||mpnrs.com^$important
 ||mradx.net^$important
 ||mvunstblutptj.com^$important
-||qualtrics.com^$important
-||m-pathy.com^$important
-||exactag.com^$important
 ||navdmp.com^$important
 ||newrelic.com^$important
 ||nil.naver.com^$important
@@ -182,6 +181,7 @@
 ||prophet.heise.de^$important
 ||protovid.com^$important
 ||pubmatic.com^$important
+||qualtrics.com^$important
 ||quantserve.com^$important
 ||recreativ.ru^$important
 ||reddit.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.reddit.com *.redditmedia.com *.redditstatic.com reddit-uploaded-media.s3-accelerate.amazonaws.com *.redd.it

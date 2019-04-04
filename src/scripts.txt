@@ -5,9 +5,9 @@
 /\/fp([0-9]{1,2})?\.js/$important,script
 /\/piwik(\.|\-|\_)?[0-9]{5,}\.js/$important,script
 /^https:\/\/.*?\/v2\/0\/[a-zA-Z0-9_-]{30,}$/$third-party,script,important
-/^https?:\/\/([a-z0-9]{3,10}\.)?[a-z0-9]{5,15}\.(click|com|bid|net|online|top|club)\/([a-z0-9]{2}\/){3}[a-f0-9]{32}\.js$/$script,important
+/^https?:\/\/([a-z0-9]{3,10}\.)?[a-z0-9]{5,15}\.(click|com|bid|net|online|top|club)\/([a-z0-9]{2}\/){3}[a-f0-9]{32}\.js$/$important,script
 /^https?:\/\/([a-z0-9]{8,10}\.)?[a-z0-9]{5,14}\.(com|bid|online|top|club)\/([a-z0-9]{2}\/){3}[a-f0-9]{32}\.js$/$third-party,script,important
-/^https?:\/\/[^/]+\/[a-z0-9]{15,}(\?hope=.*)?$/$script,important
+/^https?:\/\/[^/]+\/[a-z0-9]{15,}(\?hope=.*)?$/$important,script
 /^https?:\/\/[^\s]+(\_|\-)ping\.js/$important,script
 /^https?:\/\/cdn[0-9]{1,2}?\.rocks\/[^\s]{30,}\.js/$important,script
 /^https?:\/\/www\.([a-z]{6,16})\.com\/([a-z]{1,4})\.js$/$third-party,script,important
@@ -22,12 +22,6 @@
 |http*:*.vast.$script
 |http*:*.vast^$script
 |http*:*.vast_$script
-|http*:*/criteo.js$important,script
-|http*:*/runtimejs/intercept/*.js$important,script
-|http*:*/fp/check.js$important,script
-||ebayrtm.com/rtm?rtmcmd*&enc=*$script,important
-||ebay.com/scl/js/ScandalLoader.js$script,important
-|http*:*/smpop-stable.js$important,script
 |http*:*/accip_script.js$important,script
 |http*:*/ad.js$important,script
 |http*:*/ad_track.js$important,script
@@ -75,6 +69,7 @@
 |http*:*/coinlab.js$important,script
 |http*:*/comscore.*.js$important,script
 |http*:*/count.json$important,script
+|http*:*/criteo.js$important,script
 |http*:*/crlt.js$important,script
 |http*:*/crypta.js$important,script
 |http*:*/cryptocpu.js$important,script
@@ -87,6 +82,7 @@
 |http*:*/empty.js$important,script
 |http*:*/endscreen.js$script,domain=youtube.com
 |http*:*/figanalytics.js$important,script
+|http*:*/fp/check.js$important,script
 |http*:*/fuckadblock.js$important,script
 |http*:*/ga-lite.js$important,script
 |http*:*/ga.js$important,script
@@ -138,11 +134,13 @@
 |http*:*/raven.js$important,script
 |http*:*/referdetect.js$important,script
 |http*:*/referrer.js$important,script
+|http*:*/runtimejs/intercept/*.js$important,script
 |http*:*/ruxitagentjs_*$important,script
 |http*:*/s_code.js$important,script
 |http*:*/safelinkconverter.js$important,script
 |http*:*/showads.js$important,script
-|http*:*/smarttag.js$script,important
+|http*:*/smarttag.js$important,script
+|http*:*/smpop-stable.js$important,script
 |http*:*/snow.js$important,script
 |http*:*/snowstorm.js$important,script
 |http*:*/sparechange.js$important,script
@@ -196,6 +194,8 @@
 ||cryptonoter.com/processor.js$important,script
 ||dmros.ysm.yahoo.com/ros/$script,domain=autos.yahoo.com,important
 ||duckduckgo.com/y.js$important,script
+||ebay.com/scl/js/ScandalLoader.js$important,script
+||ebayrtm.com/rtm?rtmcmd*&enc=*$important,script
 ||google.*/ads/search/module/ads/*/search.js$important,script
 ||harvest.surge.sh/h.js$important,script
 ||heise.de/js/prebid*.js$important,script
@@ -205,7 +205,7 @@
 ||quora.com/qevents.js$important,script
 ||redditstatic.com/moat^$important,script
 ||siftscience.com^$important,script
-||ssl-images-amazon.com^*/ape/sf/*/dasf-$script
+||ssl-images-amazon.com^*/ape/sf/*/dasf-*$important,script
 ||top100.ru/top100/top100.js$important,script
 ||twitter.com/oct.js$important,script
 ||ucoz.org/?*%21*%$important,script
