@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-04-04 16:55:12
-! Version: 20190404165512
+! Last modified: 2019-04-04 17:17:25
+! Version: 20190404171725
 ! Expires: 3 hours
-! Number of filters: 6173
+! Number of filters: 6178
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -4435,6 +4435,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/c.wasm$important,script
 |http*:*/cgi-bin/ivw/*$script,xmlhttprequest,important
 |http*:*/chartbeat.js$important,script
+|http*:*/clear.png$important,image
 |http*:*/cloudcoins.js$important,script
 |http*:*/cloudcoins.min.js$important,script
 |http*:*/cn-asmjs.min.js$important,script
@@ -4469,6 +4470,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/events-collector.*$script,xmlhttprequest,important
 |http*:*/fbpixel.$important,script,xmlhttprequest,image
 |http*:*/figanalytics.js$important,script
+|http*:*/fp/check.js$important,script
 |http*:*/fpn.gif$important,image
 |http*:*/fuckadblock.js$important,script
 |http*:*/ga-lite.js$important,script
@@ -4551,11 +4553,13 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/referdetect.js$important,script
 |http*:*/referrer.js$important,script
 |http*:*/remove_ads.$image,script,xmlhttprequest,important
+|http*:*/runtimejs/intercept/*.js$important,script
 |http*:*/ruxitagentjs_*$important,script
 |http*:*/s.gif$important,image
 |http*:*/s.png$important,image
 |http*:*/s_code.js$important,script
 |http*:*/safelinkconverter.js$important,script
+|http*:*/sat.gif$important,image
 |http*:*/showads.js$important,script
 |http*:*/site=*/size=*/viewid=$image,important,xmlhttprequest,script
 |http*:*/smarttag.js$script,important
@@ -5959,6 +5963,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||ds-aksb-a.akamaihd.net^$important
 ||duckduckgo.com/t/$important,image
 ||duckduckgo.com/y.js$important,script
+||ebayrtm.com/rtm?rtmcmd*&enc=*$script,important
 ||edigitalsurvey.com^$important
 ||effectivemeasure.net^$important
 ||emetriq.de^$important

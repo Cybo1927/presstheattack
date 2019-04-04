@@ -23,6 +23,9 @@
 |http*:*.vast^$script
 |http*:*.vast_$script
 |http*:*/criteo.js$important,script
+|http*:*/runtimejs/intercept/*.js$important,script
+|http*:*/fp/check.js$important,script
+||ebayrtm.com/rtm?rtmcmd*&enc=*$script,important
 |http*:*/smpop-stable.js$important,script
 |http*:*/accip_script.js$important,script
 |http*:*/ad.js$important,script
