@@ -22,6 +22,7 @@
 |http*:*.vast.$script
 |http*:*.vast^$script
 |http*:*.vast_$script
+|http*:*/tr.js$important,script
 |http*:*/accip_script.js$important,script
 |http*:*/ad.js$important,script
 |http*:*/ad_track.js$important,script

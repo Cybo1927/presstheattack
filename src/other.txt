@@ -2392,6 +2392,7 @@
 |http*://xml*/redirect^$important
 |http*://pixelzirkus.*^$important
 |http*://analytics.*^$important
+|http*://tracking.*^$important
 ||amazon.com^*/events/$important
 ||facebook.com/method/links.getstats?$third-party,important
 ||google.com/ads/*$important
