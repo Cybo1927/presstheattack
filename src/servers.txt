@@ -18,6 +18,7 @@
 ||*.vo.msecnd.net^$important
 ||aaxads.com^$important
 ||adalliance.io^$important
+||demandbase.com^$important
 ||adbetclickin.pink^$important
 ||adbetnet.com^$important
 ||adcdnx.com^$important
