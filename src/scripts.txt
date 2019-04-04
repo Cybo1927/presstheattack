@@ -185,6 +185,7 @@
 |http*:*_vast.$script
 |http*:*_vast^$script
 |http*:*_vast_$script
+|http*:*/iwa.js$important,script
 |http*:*google-tracker.js$important,script
 |http*:*google.tracker.js$important,script
 |http*:*google^tracker.js$important,script

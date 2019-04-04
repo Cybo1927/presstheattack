@@ -57,7 +57,9 @@
 ||analytics.edgekey.net^$important
 ||atdmt.com^$important
 ||atwola.com^$important
-||az416426.vo.msecnd.net^$important
+||*.vo.msecnd.net^$important
+||hit.interia.pl^$important
+||hub.com.pl^$important
 ||b1img.com^$important
 ||b3z29k1uxb.com^$important
 ||bat.bing.com^$important

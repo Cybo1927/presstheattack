@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-04-04 17:31:18
-! Version: 20190404173118
+! Last modified: 2019-04-04 18:36:12
+! Version: 20190404183612
 ! Expires: 3 hours
-! Number of filters: 6183
+! Number of filters: 6187
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -4505,6 +4505,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/imp.gif$image,important
 |http*:*/in.php?p=$important
 |http*:*/invoke.js$important,script
+|http*:*/iwa.js$important,script
 |http*:*/js.gif$image,script,important
 |http*:*/js/tracking/ga_initial_visit*.js$important,script
 |http*:*/jsecoin.js$important,script
@@ -5839,6 +5840,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*://informers.*^$important
 |http*://partner.$third-party
 |http*://pixel.*^$important
+|http*://pixelzirkus.*^$important
 |http*://px.*^$important
 |http*://rem-track.*^$important
 |http*://smetrics.*^$important
@@ -5847,6 +5849,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*://videotracker.^$first-party
 |http*://xml*/click^$important
 |http*://xml*/redirect^$important
+||*.vo.msecnd.net^$important
 ||1-1ads.com^$important
 ||28f77rd30e.ru^$important
 ||2mdn.net^$important
@@ -5913,7 +5916,6 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||awsync.yandex.by^$important,redirect=noopframe,subdocument
 ||awsync.yandex.ru^$important,redirect=noopframe,subdocument
 ||awsync.yandex.ua^$important,redirect=noopframe,subdocument
-||az416426.vo.msecnd.net^$important
 ||b1img.com^$important
 ||b3z29k1uxb.com^$important
 ||bat.bing.com^$important
@@ -6018,9 +6020,11 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||heise.de/ivw-bin/ivw/cp/*$image,important
 ||heise.de/js/prebid*.js$important,script
 ||histats.com^$important
+||hit.interia.pl^$important
 ||hostingcloud.win^$important
 ||hotjar.com^$important
 ||hotlog.ru^$important
+||hub.com.pl^$important
 ||ibillboard.com^$important
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=noopjs,important
 ||imasdk.googleapis.com/js/sdkloader/ima3_debug.js$script,redirect=noopjs,important
