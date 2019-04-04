@@ -13,6 +13,7 @@
 ||2mdn.net^$important
 ||3lift.com^$important
 ||28f77rd30e.ru^$important
+||*.vo.msecnd.net^$important
 ||aaxads.com^$important
 ||adalliance.io^$important
 ||adbetclickin.pink^$important
@@ -25,6 +26,7 @@
 ||adfox.ru^$important
 ||adglare.net^$important
 ||adition.com^$important
+||adkontekst.pl^$important
 ||adlightning.com^$important
 ||admantx.com^$important
 ||admetrica.ru^$important
@@ -57,9 +59,6 @@
 ||analytics.edgekey.net^$important
 ||atdmt.com^$important
 ||atwola.com^$important
-||*.vo.msecnd.net^$important
-||hit.interia.pl^$important
-||hub.com.pl^$important
 ||b1img.com^$important
 ||b3z29k1uxb.com^$important
 ||bat.bing.com^$important
@@ -125,9 +124,11 @@
 ||grapeshot.co.uk^$important
 ||gumgum.com^$important
 ||histats.com^$important
+||hit.interia.pl^$important
 ||hostingcloud.win^$important
 ||hotjar.com^$important
 ||hotlog.ru^$important
+||hub.com.pl^$important
 ||ibillboard.com^$important
 ||imrworldwide.com^$important
 ||indexww.com^$important
@@ -158,6 +159,7 @@
 ||mpnrs.com^$important
 ||mradx.net^$important
 ||mvunstblutptj.com^$important
+||myvisualiq.net^$important
 ||navdmp.com^$important
 ||newrelic.com^$important
 ||nil.naver.com^$important

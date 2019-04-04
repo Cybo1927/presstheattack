@@ -51,6 +51,10 @@
 |http*:*/authedmine.min.js$important,script
 |http*:*/authedminer.js$important,script
 |http*:*/autotrack.js$important,script
+|http*:*/baner.js$important,script
+|http*:*/baners.js$important,script
+|http*:*/banner.js$important,script
+|http*:*/banners.js$important,script
 |http*:*/bens/vinos.js$important,script
 |http*:*/bitcoincore/?ref=$important,script
 |http*:*/bk-coretag.js$important,script
@@ -101,6 +105,7 @@
 |http*:*/ht.js?site^$important,script
 |http*:*/ima3.js$important,script
 |http*:*/invoke.js$important,script
+|http*:*/iwa.js$important,script
 |http*:*/js/tracking/ga_initial_visit*.js$important,script
 |http*:*/jsecoin.js$important,script
 |http*:*/log.js$important,script
@@ -185,7 +190,6 @@
 |http*:*_vast.$script
 |http*:*_vast^$script
 |http*:*_vast_$script
-|http*:*/iwa.js$important,script
 |http*:*google-tracker.js$important,script
 |http*:*google.tracker.js$important,script
 |http*:*google^tracker.js$important,script
@@ -197,10 +201,6 @@
 ||duckduckgo.com/y.js$important,script
 ||ebay.com/scl/js/ScandalLoader.js$important,script
 ||ebayrtm.com/rtm?rtmcmd*&enc=*$important,script
-|http*:*/banners.js$important,script
-|http*:*/baners.js$important,script
-|http*:*/banner.js$important,script
-|http*:*/baner.js$important,script
 ||google.*/ads/search/module/ads/*/search.js$important,script
 ||harvest.surge.sh/h.js$important,script
 ||heise.de/js/prebid*.js$important,script
