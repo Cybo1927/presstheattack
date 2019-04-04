@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-04-04 18:44:11
-! Version: 20190404184411
+! Last modified: 2019-04-04 19:02:15
+! Version: 20190404190215
 ! Expires: 3 hours
-! Number of filters: 6189
+! Number of filters: 6192
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -4540,6 +4540,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/ping.png$image,important
 |http*:*/piwik.js$important,script
 |http*:*/pix.gif$image,important
+|http*:*/pixel.gif$image,important
 |http*:*/popunder.gif$image,important
 |http*:*/pptm.js$important,script
 |http*:*/processor.js$important,script
@@ -5932,6 +5933,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||bing.com/fd/ls/*$image,important,xmlhttprequest
 ||bit.ly^$popup
 ||bounceexchange.com^$important
+||branch.io^$important
 ||casalemedia.com^$important
 ||cdn.ziffstatic.com^$important
 ||chartbeat.com^$important
@@ -6056,6 +6058,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||mediatoday.ru^$important
 ||meetrics.net^$important
 ||mellowads.com^$important
+||mercadolibre.com/tracks^$important,xmlhttprequest
 ||mgid.com^$important
 ||microsoft.com/collect/*$script,xmlhttprequest,important
 ||mms.cnn.com^$important

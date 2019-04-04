@@ -11,6 +11,7 @@
 /^https?:\/\/zmctrack\.(com|net)/$important
 ||1-1ads.com^$important
 ||2mdn.net^$important
+||branch.io^$important
 ||3lift.com^$important
 ||28f77rd30e.ru^$important
 ||*.vo.msecnd.net^$important
