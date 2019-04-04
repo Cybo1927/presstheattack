@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-04-04 08:24:58
-! Version: 20190404082458
+! Last modified: 2019-04-04 16:55:12
+! Version: 20190404165512
 ! Expires: 3 hours
-! Number of filters: 6168
+! Number of filters: 6173
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -4446,6 +4446,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/coinlab.js$important,script
 |http*:*/comscore.*.js$important,script
 |http*:*/count.json$important,script
+|http*:*/criteo.js$important,script
 |http*:*/crlt.js$important,script
 |http*:*/crypta.js$important,script
 |http*:*/cryptocpu.js$important,script
@@ -4558,6 +4559,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/showads.js$important,script
 |http*:*/site=*/size=*/viewid=$image,important,xmlhttprequest,script
 |http*:*/smarttag.js$script,important
+|http*:*/smpop-stable.js$important,script
 |http*:*/snow.js$important,script
 |http*:*/snowstorm.js$important,script
 |http*:*/sparechange.js$important,script
@@ -5964,6 +5966,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||ensighten.com^$important
 ||etahub.com^$important
 ||events.reddit.com^$important
+||exactag.com^$important
 ||exosrv.com^$important
 ||f53mbcg4ak.ru^$important
 ||facebook.com/method/links.getstats?$third-party,important
@@ -6027,6 +6030,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||lijit.com^$important
 ||logql.yahoo.co.jp^$important
 ||logxp.ru^$important
+||m-pathy.com^$important
 ||mail.ru/share_count^$important,script
 ||mail.ru^$third-party
 ||mail.yandex.*/monitoring_liza.txt$important,image
@@ -6073,6 +6077,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||prophet.heise.de^$important
 ||protovid.com^$important
 ||pubmatic.com^$important
+||qualtrics.com^$important
 ||quantserve.com^$important
 ||quora.com/qevents.js$important,script
 ||recreativ.ru^$important
