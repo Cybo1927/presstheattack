@@ -2724,7 +2724,6 @@
 ##iframe[id^="google_ads_iframe"]
 ##iframe[width="300"][height="250"]
 ##iframe[width="728"][height="90"]
-##iframe[width="728"][height="90"]
 ##img[src*="counter.yadro.ru"]
 ##img[width="88"][height="31"]
 ##img[width="468"][height="60"]

@@ -26,7 +26,6 @@ GGBET$image
 |http*:*/c.gif$image,important
 |http*:*/c.png$image,important
 |http*:*/cc.gif$image,important
-|http*:*/i?stm=$image,important
 |http*:*/clear.png$image,important
 |http*:*/empty.gif$image,important
 |http*:*/empty.png$image,important
@@ -39,6 +38,7 @@ GGBET$image
 |http*:*/horizon-pageview?$image
 |http*:*/i.gif$image,important
 |http*:*/i.png$image,important
+|http*:*/i?stm=$image,important
 |http*:*/img.gif$image,important
 |http*:*/img/ads.png$image,important
 |http*:*/imp.gif$image,important

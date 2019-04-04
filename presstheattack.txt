@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-04-05 02:17:21
-! Version: 20190405021721
+! Last modified: 2019-04-05 05:44:27
+! Version: 20190405054427
 ! Expires: 3 hours
-! Number of filters: 6221
+! Number of filters: 6219
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2753,7 +2753,6 @@
 ##iframe[id^="google_ads_iframe"]
 ##iframe[width="300"][height="250"]
 ##iframe[width="728"][height="90"]
-##iframe[width="728"][height="90"]
 ##img[src*="counter.yadro.ru"]
 ##img[width="468"][height="60"]
 ##img[width="88"][height="31"]
@@ -3697,7 +3696,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*-sponsored^
 |http*:*-sponsored_
 |http*:*-stat-
-|http*:*-stat.
+|http*:*-stat.$domain=~livejournal.com
 |http*:*-stat^
 |http*:*-stat_
 |http*:*-stats-
@@ -4413,7 +4412,6 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/antiadb.js$important,script
 |http*:*/apstag.js$important,script
 |http*:*/article/viewcount/*$script,xmlhttprequest,important
-|http*:*/async-ads.js$important,script
 |http*:*/async-ads.js$important,script
 |http*:*/atrk.js$important,script
 |http*:*/authedmine.min.js$important,script

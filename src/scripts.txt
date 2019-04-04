@@ -22,7 +22,6 @@
 |http*:*.vast.$script
 |http*:*.vast^$script
 |http*:*.vast_$script
-||vimeocdn.com/js_opt/ablincoln_combined.min.js$important,script
 |http*:*/accip_script.js$important,script
 |http*:*/ad.js$important,script
 |http*:*/ad_track.js$important,script
@@ -46,7 +45,6 @@
 |http*:*/annotations_module.js$script,domain=youtube.com
 |http*:*/antiadb.js$important,script
 |http*:*/apstag.js$important,script
-|http*:*/async-ads.js$important,script
 |http*:*/async-ads.js$important,script
 |http*:*/atrk.js$important,script
 |http*:*/authedmine.min.js$important,script
@@ -216,6 +214,7 @@
 ||top100.ru/top100/top100.js$important,script
 ||twitter.com/oct.js$important,script
 ||ucoz.org/?*%21*%$important,script
+||vimeocdn.com/js_opt/ablincoln_combined.min.js$important,script
 ||yandex.*/pogoda/$first-party,important,inline-script
 ||yastatic.net/daas/atom.js$important,script
 ||yimg.com/wi/ytc.js$important,script

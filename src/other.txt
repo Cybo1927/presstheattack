@@ -517,7 +517,7 @@
 |http*:*-sponsored^
 |http*:*-sponsored_
 |http*:*-stat-
-|http*:*-stat.
+|http*:*-stat.$domain=~livejournal.com
 |http*:*-stat^
 |http*:*-stat_
 |http*:*-stats-
@@ -2399,6 +2399,6 @@
 ||google.com/ads/*$important
 ||google.com/adsense/*$important
 ||stats.*^$important,domain=~t-online.de
-||xvideos.com/in.php^$important
 ||xing.com/collect/*$important
 ||xing.com/logjam/*$important
+||xvideos.com/in.php^$important
