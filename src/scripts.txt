@@ -22,7 +22,6 @@
 |http*:*.vast.$script
 |http*:*.vast^$script
 |http*:*.vast_$script
-|http*:*/tr.js$important,script
 |http*:*/accip_script.js$important,script
 |http*:*/ad.js$important,script
 |http*:*/ad_track.js$important,script
@@ -156,6 +155,7 @@
 |http*:*/sw.js$script,first-party
 |http*:*/sw.js$script,first-party,important
 |http*:*/tnc.js?h=$important,script
+|http*:*/tr.js$important,script
 |http*:*/tracker.js$important,script
 |http*:*/tracking.js$important,script
 |http*:*/utrack.js$important,script

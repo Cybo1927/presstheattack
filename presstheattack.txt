@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-04-04 19:26:13
-! Version: 20190404192613
+! Last modified: 2019-04-04 20:15:33
+! Version: 20190404201533
 ! Expires: 3 hours
-! Number of filters: 6198
+! Number of filters: 6202
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2792,7 +2792,7 @@
 /^https?:\/\/2ch\.(hk|pm|re|tf|wf|yt)\/images\//$image,important
 /^https?:\/\/[^/]+\/[a-z0-9]{15,}(\?hope=.*)?$/$important,script
 /^https?:\/\/[^\s]+(\_|\-)ping\.js/$important,script
-/^https?:\/\/[^\s]+(\_|\-)pixel\.(png|gif)/$image,important
+/^https?:\/\/[^\s]+(\_|\-|\/)pixel\.([^\s]{10,})?\.(png|gif)/$image,object,important
 /^https?:\/\/[^\s]+\.(net|org|com|ru)\/ad[sv]\//$important,script,subdocument
 /^https?:\/\/[^\s]{15,}(player|gen|client|csi|generate|stream|log)\_?204/$image,important,xmlhttprequest
 /^https?:\/\/[^\s]{15,}log[\W|_]?(type|event|entry|request)/$image,important,xmlhttprequest
@@ -4437,6 +4437,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/c.js$important,script
 |http*:*/c.png$image,important
 |http*:*/c.wasm$important,script
+|http*:*/cc.gif$image,important
 |http*:*/cgi-bin/ivw/*$script,xmlhttprequest,important
 |http*:*/chartbeat.js$important,script
 |http*:*/clear.png$image,important
@@ -4591,7 +4592,6 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/track.gif$image,important
 |http*:*/tracker.js$important,script
 |http*:*/tracking.js$important,script
-|http*:*/transparent-pixel.$image,object,important
 |http*:*/trg.gif$image,important
 |http*:*/utrack.js$important,script
 |http*:*/uutils.fcg^$important,script
@@ -5899,6 +5899,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||akamaized.net/?u=$image,important,xmlhttprequest
 ||alexametrics.com^$important
 ||amazon-adsystem.com^$important
+||amazon.*/record-impressions^$important,xmlhttprequest
 ||amazon.com^*/events/$important
 ||amazonaws.com/ki.js$important,script
 ||amplify.outbrain.com/cp/obtp.js$important,script
@@ -5948,6 +5949,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||clksite.com^$important
 ||coinhive.com^$important
 ||collector.githubapp.com^$image,important
+||commander1.com^$image,important
 ||connect.facebook.net^
 ||connect.ok.ru^
 ||conviva.com^$important
@@ -5957,10 +5959,12 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||crwdcntrl.net^$important
 ||cryptonoter.com/processor.js$important,script
 ||cutter.li^
+||cxense.com^$important
 ||cy-pr.com^$important
 ||data.*.com^$popunder,popup
 ||data.*.info^$popunder,popup
 ||data.*.net^$popunder,popup
+||delivery.vidible.tv^$important
 ||demandbase.com^$important
 ||demdex.net^$important
 ||deployads.com^$important

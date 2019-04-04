@@ -11,14 +11,11 @@
 /^https?:\/\/zmctrack\.(com|net)/$important
 ||1-1ads.com^$important
 ||2mdn.net^$important
-||branch.io^$important
-||analytics.twitter.com^$important
 ||3lift.com^$important
 ||28f77rd30e.ru^$important
 ||*.vo.msecnd.net^$important
 ||aaxads.com^$important
 ||adalliance.io^$important
-||demandbase.com^$important
 ||adbetclickin.pink^$important
 ||adbetnet.com^$important
 ||adcdnx.com^$important
@@ -60,6 +57,7 @@
 ||amplitude.com^$important
 ||amung.us^$important
 ||analytics.edgekey.net^$important
+||analytics.twitter.com^$important
 ||atdmt.com^$important
 ||atwola.com^$important
 ||b1img.com^$important
@@ -75,6 +73,7 @@
 ||bfmio.com^$important
 ||bidswitch.net^$important
 ||bounceexchange.com^$important
+||branch.io^$important
 ||casalemedia.com^$important
 ||cdn.ziffstatic.com^$important
 ||chartbeat.com^$important
@@ -91,7 +90,10 @@
 ||criteo.net^$important
 ||crwdcntrl.net^$important
 ||cutter.li^
+||cxense.com^$important
 ||cy-pr.com^$important
+||delivery.vidible.tv^$important
+||demandbase.com^$important
 ||demdex.net^$important
 ||deployads.com^$important
 ||digitaltarget.ru^$important

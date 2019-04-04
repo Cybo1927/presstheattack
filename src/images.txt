@@ -1,6 +1,5 @@
 /\/banner[0-9]{1,2}?\.gif/$image,important
 /^https?:\/\/2ch\.(hk|pm|re|tf|wf|yt)\/images\//$image,important
-/^https?:\/\/[^\s]+(\_|\-)pixel\.(png|gif)/$image,important
 1xbet$image,important
 1xstavka$image,important
 GGBET$image
@@ -10,7 +9,6 @@ GGBET$image
 |http*:*/1x1.png$image,important
 |http*:*/2x2.png$image,important
 |http*:*/3x2.gif$image,important
-|http*:*/wa01.gif?log=*$image,important
 |http*:*/3x2.png$image,important
 |http*:*/32x32.gif$image,important
 |http*:*/32x32.png$image,important
@@ -27,6 +25,7 @@ GGBET$image
 |http*:*/blank.png$image,important
 |http*:*/c.gif$image,important
 |http*:*/c.png$image,important
+|http*:*/cc.gif$image,important
 |http*:*/clear.png$image,important
 |http*:*/empty.gif$image,important
 |http*:*/empty.png$image,important
@@ -51,6 +50,7 @@ GGBET$image
 |http*:*/ping.gif$image,important
 |http*:*/ping.png$image,important
 |http*:*/pix.gif$image,important
+|http*:*/pixel.gif$image,important
 |http*:*/popunder.gif$image,important
 |http*:*/pv.gif$image,important
 |http*:*/pv.png$image,important
@@ -58,7 +58,6 @@ GGBET$image
 |http*:*/px.png$image,important
 |http*:*/pxl.gif$image,important
 |http*:*/pxlctl.gif$image,important
-|http*:*/pixel.gif$image,important
 |http*:*/s.gif$image,important
 |http*:*/s.png$image,important
 |http*:*/sat.gif$image,important
@@ -77,6 +76,7 @@ GGBET$image
 |http*:*/views.png$image,important
 |http*:*/visit.gif$image,important
 |http*:*/visit.png$image,important
+|http*:*/wa01.gif?log=*$image,important
 |http*:*/x.gif$image,important
 |http*:*/x.png$image,important
 |http*:*/yes.gif$image,important
@@ -85,6 +85,7 @@ GGBET$image
 |http*:*^img^1x1$image,important,third-party
 |http*:*_fpn.gif$image,important
 ||collector.githubapp.com^$image,important
+||commander1.com^$image,important
 ||duckduckgo.com/t/$image,important
 ||heise.de/ivw-bin/ivw/cp/*$image,important
 ||mail.yandex.*/monitoring_liza.txt$image,important
