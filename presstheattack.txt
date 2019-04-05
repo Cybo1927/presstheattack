@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-04-05 23:28:54
-! Version: 20190405232854
+! Last modified: 2019-04-05 23:36:04
+! Version: 20190405233604
 ! Expires: 3 hours
-! Number of filters: 6255
+! Number of filters: 6258
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -3618,7 +3618,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*-ppv^
 |http*:*-ppv_
 |http*:*-promo-
-|http*:*-promo.$domain=~yahoo.com|~yandex.by|~yandex.ru|~yandex.ua
+|http*:*-promo.$domain=~yahoo.com|~yandex.by|~yandex.ru|~yandex.ua|~otto.de
 |http*:*-promo^
 |http*:*-promo_
 |http*:*-promoted-
@@ -4215,7 +4215,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*.ppv^
 |http*:*.ppv_
 |http*:*.promo-
-|http*:*.promo.
+|http*:*.promo.$domain=~otto.de
 |http*:*.promo^$domain=~mail.ru
 |http*:*.promo_
 |http*:*.promoted-
@@ -4548,6 +4548,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/performancetimer.js$important,script
 |http*:*/ph-functions.js$important,script
 |http*:*/ph-tracking.js$important,script
+|http*:*/pi.aspx$subdocument,important
 |http*:*/pic.gif$image,important
 |http*:*/pic.png$image,important
 |http*:*/ping.gif$image,important
@@ -5097,7 +5098,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*^promo-
 |http*:*^promo.$domain=~mail.ru
 |http*:*^promo^$domain=~kinopoisk.ru|~mail.ru|~ntv.ru
-|http*:*^promo_$domain=~livejournal.com|~livejournal.net|~vk.com
+|http*:*^promo_$domain=~livejournal.com|~livejournal.net|~vk.com|~otto.de
 |http*:*^promoted-
 |http*:*^promoted.
 |http*:*^promoted^
@@ -5222,7 +5223,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*^tracker.
 |http*:*^tracker^$domain=~fandom.com
 |http*:*^tracker_
-|http*:*^tracking-
+|http*:*^tracking-$domain=~otto.de
 |http*:*^tracking.
 |http*:*^tracking^
 |http*:*^tracking_$domain=~fandom.com
@@ -5820,7 +5821,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*_tracker^$domain=~bountysource.com
 |http*:*_tracker_
 |http*:*_tracking-
-|http*:*_tracking.
+|http*:*_tracking.$domain=~otto.de
 |http*:*_tracking^
 |http*:*_tracking_$domain=~fandom.com
 |http*:*_uedata-
@@ -5922,6 +5923,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||advideo.ru^$important
 ||adwidgets.ru^$important
 ||agkn.com^$important
+||airbnb.*/tracking/$important,xmlhttprequest
 ||akamaized.net/?u=$image,important,xmlhttprequest
 ||alexametrics.com^$important
 ||amazon-adsystem.com^$important
@@ -6151,6 +6153,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||prophet.heise.de^$important
 ||protovid.com^$important
 ||pubmatic.com^$important
+||pxc.otto.de^$important
 ||qualtrics.com^$important
 ||quantcast.mgr.consensu.org^$important
 ||quantserve.com^$important

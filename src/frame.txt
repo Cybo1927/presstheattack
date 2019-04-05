@@ -3,3 +3,4 @@
 ||redditmedia.com/gtm/jail^$important,subdocument
 ||rutracker.org/iframe/$important,subdocument
 ||yahoo.com/sdarla/$important,subdocument
+|http*:*/pi.aspx$subdocument,important

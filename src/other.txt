@@ -437,7 +437,7 @@
 |http*:*-ppv^
 |http*:*-ppv_
 |http*:*-promo-
-|http*:*-promo.$domain=~yahoo.com|~yandex.by|~yandex.ru|~yandex.ua
+|http*:*-promo.$domain=~yahoo.com|~yandex.by|~yandex.ru|~yandex.ua|~otto.de
 |http*:*-promo^
 |http*:*-promo_
 |http*:*-promoted-
@@ -1029,7 +1029,7 @@
 |http*:*.ppv^
 |http*:*.ppv_
 |http*:*.promo-
-|http*:*.promo.
+|http*:*.promo.$domain=~otto.de
 |http*:*.promo^$domain=~mail.ru
 |http*:*.promo_
 |http*:*.promoted-
@@ -1643,7 +1643,7 @@
 |http*:*^promo-
 |http*:*^promo.$domain=~mail.ru
 |http*:*^promo^$domain=~kinopoisk.ru|~mail.ru|~ntv.ru
-|http*:*^promo_$domain=~livejournal.com|~livejournal.net|~vk.com
+|http*:*^promo_$domain=~livejournal.com|~livejournal.net|~vk.com|~otto.de
 |http*:*^promoted-
 |http*:*^promoted.
 |http*:*^promoted^
@@ -1768,7 +1768,7 @@
 |http*:*^tracker.
 |http*:*^tracker^$domain=~fandom.com
 |http*:*^tracker_
-|http*:*^tracking-
+|http*:*^tracking-$domain=~otto.de
 |http*:*^tracking.
 |http*:*^tracking^
 |http*:*^tracking_$domain=~fandom.com
@@ -2361,7 +2361,7 @@
 |http*:*_tracker^$domain=~bountysource.com
 |http*:*_tracker_
 |http*:*_tracking-
-|http*:*_tracking.
+|http*:*_tracking.$domain=~otto.de
 |http*:*_tracking^
 |http*:*_tracking_$domain=~fandom.com
 |http*:*_uedata-

@@ -93,6 +93,7 @@
 ||cookielaw.org^$third-party
 ||tracksrv.zdf.de^$important
 ||cpaevent.ru^$important
+||pxc.otto.de^$important
 ||criteo.net^$important
 ||crwdcntrl.net^$important
 ||cutter.li^
