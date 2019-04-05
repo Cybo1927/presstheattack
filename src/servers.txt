@@ -36,6 +36,7 @@
 ||adobedtm.com^
 ||adomik.com^$important
 ||adpartner.*^$important
+||adpaths.com^$important
 ||adriver.ru^$important
 ||ads-twitter.com^$important
 ||adsafeprotected.com^$important
@@ -114,6 +115,7 @@
 ||etahub.com^$important
 ||events.reddit.com^$important
 ||exactag.com^$important
+||exelator.com^$important
 ||exosrv.com^$important
 ||f53mbcg4ak.ru^$important
 ||fastclick.net^$important
@@ -137,6 +139,7 @@
 ||hotjar.com^$important
 ||hotlog.ru^$important
 ||hub.com.pl^$important
+||hubvisor.io^$important
 ||ibillboard.com^$important
 ||imrworldwide.com^$important
 ||indexww.com^$important
@@ -150,10 +153,6 @@
 ||krxd.net^$important
 ||lcs.naver.com^$important
 ||ligatus.com^$important
-||outbrain.com^$important
-||exelator.com^$important
-||adpaths.com^$important
-||hubvisor.io^$important
 ||lijit.com^$important
 ||logql.yahoo.co.jp^$important
 ||logxp.ru^$important
@@ -184,8 +183,10 @@
 ||ophan.theguardian.com^$important
 ||optimize-stats.voxmedia.com^$important
 ||optimizely.com^$important
+||outbrain.com^$important
 ||pagefair.com^$important
 ||pb.m.naver.com^$important
+||permutive.com^$important
 ||pf.newegg.com^$important
 ||piguiqproxy.com^$important
 ||pixel.facebook.com^$important
@@ -209,6 +210,7 @@
 ||rubiconproject.com^$important
 ||rutarget.ru^$important
 ||rutrk.org^$important
+||sail-horizon.com^$important
 ||scorecardresearch.com^$important
 ||scroll.com^$important
 ||sedoparking.com^$important

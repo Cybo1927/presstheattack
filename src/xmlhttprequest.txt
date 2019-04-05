@@ -8,9 +8,11 @@
 ||google.com^*/viewerimpressions^$important,xmlhttprequest
 ||mercadolibre.com/tracks^$important,xmlhttprequest
 ||nytimes.com^*/data-layer?$xmlhttprequest,important
+||perr.h-cdn.com^$xmlhttprequest,important
 ||pipe.aria.microsoft.com/collector^$important,xmlhttprequest
 ||reddit.com/timings/$important,xmlhttprequest
 ||search.1und1.de/uns/amazon?$xmlhttprequest,important
+||sentry.io/api/*/store/^$important,xmlhttprequest
 ||suche.1und1.de/uns/affilinet?$xmlhttprequest,important
 ||suche.1und1.de/uns/amazon?$xmlhttprequest,important
 ||suche.gmx.net/uns/affilinet?$xmlhttprequest,important
@@ -21,5 +23,3 @@
 ||twitter.com/i/jot^$important,xmlhttprequest
 ||yahoo.com/pageview/*$xmlhttprequest,important
 ||youtube.com/get_midroll_info^$important,xmlhttprequest
-||sentry.io/api/*/store/^$important,xmlhttprequest
-||perr.h-cdn.com^$xmlhttprequest,important

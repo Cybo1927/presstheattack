@@ -23,8 +23,6 @@
 |http*:*.vast.$script
 |http*:*.vast^$script
 |http*:*.vast_$script
-|http*:*/boomerang*.js$important,script
-|http*:*/hubvisor.js$important,script
 |http*:*/accip_script.js$important,script
 |http*:*/ad.js$important,script
 |http*:*/ad_track.js$important,script
@@ -60,6 +58,7 @@
 |http*:*/bens/vinos.js$important,script
 |http*:*/bitcoincore/?ref=$important,script
 |http*:*/bk-coretag.js$important,script
+|http*:*/boomerang*.js$important,script
 |http*:*/browsermine.js$important,script
 |http*:*/c-hive.js$important,script
 |http*:*/c.js$important,script
@@ -104,6 +103,7 @@
 |http*:*/hive.js$important,script
 |http*:*/hstrck-detect.js$important,script
 |http*:*/ht.js?site^$important,script
+|http*:*/hubvisor.js$important,script
 |http*:*/ima3.js$important,script
 |http*:*/invoke.js$important,script
 |http*:*/iwa.js$important,script
@@ -145,6 +145,7 @@
 |http*:*/s_code.js$important,script
 |http*:*/safelinkconverter.js$important,script
 |http*:*/showads.js$important,script
+|http*:*/site_ads.js$important,script
 |http*:*/smarttag.js$important,script
 |http*:*/smpop-stable.js$important,script
 |http*:*/snow.js$important,script

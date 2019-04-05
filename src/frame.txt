@@ -1,6 +1,6 @@
 ||google.com/afs/$subdocument,important
 ||google.com/dp/ads?$subdocument,important
+||permutive.com^$subdocument,important
 ||redditmedia.com/gtm/jail^$important,subdocument
 ||rutracker.org/iframe/*$subdocument,important
 ||yahoo.com/sdarla/*$subdocument,important
-||permutive.com^$subdocument,important
