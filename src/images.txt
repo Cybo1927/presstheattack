@@ -3,6 +3,7 @@
 1xbet$image,important
 1xstavka$image,important
 GGBET$image
+|http*:*/ottoperformance.gif$image,important
 |http*:*/0.gif$image,important
 |http*:*/0.png$image,important,domain=~mail.yandex.by|~mail.yandex.ru|~mail.yandex.ua
 |http*:*/1x1.gif$image,important

@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-04-05 23:12:53
-! Version: 20190405231253
+! Last modified: 2019-04-05 23:28:54
+! Version: 20190405232854
 ! Expires: 3 hours
-! Number of filters: 6251
+! Number of filters: 6255
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2766,7 +2766,7 @@
 */spacer.png$image,redirect=1x1-transparent.gif
 */visitor.js$script,redirect=noopjs
 */visitorapi.js$script,redirect=noopjs
-/[\W|_](1|24|60|88|468|100|728|120|125|234|250|392|400|470|75|782|300|160|336)(x|\-|\_)(1|32|75|40|45|72|250|31|60|100|90|468|80|160|240|600|125|280)[\W|_]/$image,important,script,domain=~9gag.com|~cbssports.com|~discogs.com|~etsy.com|~funnyjunk.com|~t-online.de|~twitter.com|~washingtonpost.com
+/(\/|\.|\-|\_)(1|24|60|88|468|100|728|120|125|234|250|392|400|470|75|782|300|160|336)(x|\-|\_)(1|32|75|40|45|72|250|31|60|100|90|468|80|160|240|600|125|280)(\/|\.|\-|\_)/$image,important,script,domain=~9gag.com|~cbssports.com|~discogs.com|~etsy.com|~funnyjunk.com|~t-online.de|~twitter.com|~washingtonpost.com
 /^https:\/\/.*?\/v2\/0\/[a-zA-Z0-9_-]{30,}$/$important,script,third-party
 /^https?:\/\/(([0-9]{1,2})?l\-hit|([0-9]{1,2})?l-view|r([0-9]{1,2})?|rs|top\-fwz([0-9]{1,2})?|vk\.go|reklama|ad|ads|recostream\.go|[^\s]{10,}\.top|mediator|[^\s]{3,}\.radar|g?stat|top|xray)\.(imgs)?mail\.ru/$important
 /^https?:\/\/(([0-9]{1,2})?l\-hit|([0-9]{1,2})?l-view|r([0-9]{1,2})?|rs|top\-fwz([0-9]{1,2})?|vk\.go|reklama|ad|ads|recostream\.go|[^\s]{10,}\.top|mediator|[^\s]{3,}\.radar|g?stat|top|xray)\.(imgs)?mail\.ru/$important,popup
@@ -3526,7 +3526,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*-log_
 |http*:*-logging-
 |http*:*-logging.
-|http*:*-logging^
+|http*:*-logging^$domain=~otto.de
 |http*:*-logging_
 |http*:*-logpopup-$important
 |http*:*-logpopup.$important
@@ -4471,6 +4471,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/dear_code/*/goclick?t=*&ref=$important
 |http*:*/deepMiner.js$important,script
 |http*:*/deepMiner.min.js$important,script
+|http*:*/demandbase_*.js$important,script
 |http*:*/dfp.js$important,script
 |http*:*/dprocessor.js$important,script
 |http*:*/dtm/*/satellitelib$important,script,xmlhttprequest
@@ -4540,6 +4541,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/nielsen.js$important,script
 |http*:*/noblock.js$important,script
 |http*:*/obfus.min.js$important,script
+|http*:*/ottoperformance.gif$image,important
 |http*:*/p.gif$image,important
 |http*:*/p.js$important,script
 |http*:*/p.png$image,important
@@ -4573,6 +4575,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/runtimejs/intercept/*.js$important,script
 |http*:*/ruxitagentjs_$important,script
 |http*:*/s.gif$image,important
+|http*:*/s.js$important,script
 |http*:*/s.png$image,important
 |http*:*/s_code.js$important,script
 |http*:*/safelinkconverter.js$important,script
@@ -6209,6 +6212,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||tr.cloud-media.fr^$important
 ||tracking.cdiscount.com^$important
 ||tracking.olx-st.com^$important
+||tracksrv.zdf.de^$important
 ||trafficfactory.biz^$important
 ||trafficjunky.net^$important
 ||trbo.com^$important

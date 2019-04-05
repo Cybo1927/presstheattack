@@ -349,7 +349,7 @@
 |http*:*-log_
 |http*:*-logging-
 |http*:*-logging.
-|http*:*-logging^
+|http*:*-logging^$domain=~otto.de
 |http*:*-logging_
 |http*:*-logpopup-$important
 |http*:*-logpopup.$important
