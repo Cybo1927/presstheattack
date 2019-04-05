@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-04-05 05:44:27
-! Version: 20190405054427
+! Last modified: 2019-04-05 16:53:58
+! Version: 20190405165358
 ! Expires: 3 hours
 ! Number of filters: 6219
 ! Homepage: https://github.com/bogachenko/presstheattack/
@@ -2766,16 +2766,8 @@
 */spacer.png$image,redirect=1x1-transparent.gif
 */visitor.js$script,redirect=noopjs
 */visitorapi.js$script,redirect=noopjs
-/(\_|\-)gtm\.js$script
 /[\W|_](1|24|60|88|468|100|728|120|125|234|250|392|400|470|75|782|300|160|336)(x|\-|\_)(1|32|75|40|45|72|250|31|60|100|90|468|80|160|240|600|125|280)[\W|_]/$script,image,important,domain=~twitter.com|~9gag.com|~cbssports.com|~etsy.com|~t-online.de|~discogs.com|~washingtonpost.com|~funnyjunk.com
-/\/([^\s]{4})?tag\.min\.([a-z0-9]{30,}\.)?js/$important,script
-/\/ads(\.|\-|\_)?([0-9]{1,2}|[-a-z0-9_.]{5,}\.min)\.js/$important,script
-/\/advert(\.|\-|\_)?[0-9]{1,2}\.js/$important,script
 /\/banner[0-9]{1,2}?\.gif/$image,important
-/\/fingerprint([0-9]{1,2})?(\.min)?\.js/$important,script,xmlhttprequest
-/\/fp([0-9]{1,2})?\.js/$important,script
-/\/piwik(\.|\-|\_)?[0-9]{5,}\.js/$important,script
-/\/popunder([0-9]{1,2})?\./$script,xmlhttprequest,popup,important
 /^https:\/\/.*?\/v2\/0\/[a-zA-Z0-9_-]{30,}$/$third-party,script,important
 /^https?:\/\/(([0-9]{1,2})?l\-hit|([0-9]{1,2})?l-view|r([0-9]{1,2})?|rs|top\-fwz([0-9]{1,2})?|vk\.go|reklama|ad|ads|recostream\.go|[^\s]{10,}\.top|mediator|[^\s]{3,}\.radar|g?stat|top|xray)\.(imgs)?mail\.ru/$important
 /^https?:\/\/(([0-9]{1,2})?l\-hit|([0-9]{1,2})?l-view|r([0-9]{1,2})?|rs|top\-fwz([0-9]{1,2})?|vk\.go|reklama|ad|ads|recostream\.go|[^\s]{10,}\.top|mediator|[^\s]{3,}\.radar|g?stat|top|xray)\.(imgs)?mail\.ru/$important,popup
@@ -2790,9 +2782,20 @@
 /^https?:\/\/(www\.)?(facebookcorewwwi|facebook)\.\w{3,5}\/tr\D/$important
 /^https?:\/\/2ch\.(hk|pm|re|tf|wf|yt)\/images\//$image,important
 /^https?:\/\/[^/]+\/[a-z0-9]{15,}(\?hope=.*)?$/$important,script
+/^https?:\/\/[^\s]+(\_|\-)gtm\.js$script
 /^https?:\/\/[^\s]+(\_|\-)ping\.js/$important,script
 /^https?:\/\/[^\s]+(\_|\-|\/)pixel\.([^\s]{10,})?\.(png|gif)/$image,object,important
 /^https?:\/\/[^\s]+\.(net|org|com|ru|tv)\/(ad[sv]|rek)\//$important,script,subdocument,xmlhttprequest,image,popup
+/^https?:\/\/[^\s]+\/([^\s]{4})?tag\.min\.([a-z0-9]{30,}\.)?js/$important,script
+/^https?:\/\/[^\s]+\/(fuck|block)adblock(\.min)?\.js/$script,important
+/^https?:\/\/[^\s]+\/ads(\.|\-|\_)?([0-9]{1,2}|[-a-z0-9_.]{5,}\.min)\.js/$important,script
+/^https?:\/\/[^\s]+\/advert(\.|\-|\_)?[0-9]{1,2}\.js/$important,script
+/^https?:\/\/[^\s]+\/fingerprint([0-9]{1,2})?(\.min)?\.js/$important,script,xmlhttprequest
+/^https?:\/\/[^\s]+\/fp([0-9]{1,2})?\.js/$important,script
+/^https?:\/\/[^\s]+\/piwik(\.|\-|\_)?[0-9]{5,}\.js/$important,script
+/^https?:\/\/[^\s]+\/popunder([0-9]{1,2})?\./$script,xmlhttprequest,popup,important
+/^https?:\/\/[^\s]+me([0-9]{1})?w\.js/$important,script
+/^https?:\/\/[^\s]+webmr([0-9]{1,2})?\.js/$important,script
 /^https?:\/\/[^\s]{15,}(player|gen|client|csi|generate|stream|log)\_?204/$image,important,xmlhttprequest
 /^https?:\/\/[^\s]{15,}log[\W|_]?(type|event|entry|request)/$image,important,xmlhttprequest
 /^https?:\/\/[^\s]{3,}google\.[^\s]{2,5}\/log\?/$image,important,xmlhttprequest
@@ -2813,8 +2816,6 @@
 /^https?:\/\/yandex\.[^\s]{2,5}\/images/(?!(search\?rpt=\imageview)|(search\?callback\=jQuery)|(search\?exp_flags=)|(search\?serpid=)|(touch/search?))[^\s]{80,}/$important,subdocument,xmlhttprequest
 /^https?:\/\/yastatic\.net\/[^\s]{500,}/$domain=~vh.yandex.ru
 /^https?:\/\/zmctrack\.(com|net)/$important
-/me([0-9]{1})?w\.js/$important,script
-/webmr([0-9]{1,2})?\.js/$important,script
 1xbet$image,important
 1xstavka$image,important
 2ch.hk,2ch.pm,2ch.re,2ch.tf,2ch.wf,2ch.yt###mobile-plashque
@@ -4475,7 +4476,6 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/figanalytics.js$important,script
 |http*:*/fp/check.js$important,script
 |http*:*/fpn.gif$image,important
-|http*:*/fuckadblock.js$important,script
 |http*:*/ga-lite.js$important,script
 |http*:*/ga.js$important,script
 |http*:*/ga_lite.js$important,script
@@ -6137,7 +6137,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||rutrk.org^$important
 ||scontent.xx.fbcdn.net/hads-ak-prn*/*.png$image,important
 ||scontent.xx.fbcdn23dssr3jqnq.onion/hads-ak-prn*/*.png$image,important
-||scorecardresearch.com/beacon.js$script,redirect=scorecardresearch.com/beacon.js,important
+||scorecardresearch.com/beacon.js$script,redirect=noopjs,important
 ||scorecardresearch.com^$important
 ||scroll.com^$important
 ||search.1und1.de/uns/amazon?$xmlhttprequest,important

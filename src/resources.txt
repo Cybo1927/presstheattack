@@ -7,7 +7,6 @@
 */spacer.png$image,redirect=1x1-transparent.gif
 */visitor.js$script,redirect=noopjs
 */visitorapi.js$script,redirect=noopjs
-/\/fingerprint([0-9]{1,2})?(\.min)?\.js/$important,script,xmlhttprequest
 google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 kinopoisk.ru##+js(abort-on-property-read.js, advBlock)
 kinopoisk.ru##+js(cookie-remover.js, /^blcrm|^bltsr|^cmtchd|^crookie|^kpunk|^yandex_plus_metrika_cookie)
@@ -56,7 +55,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||imasdk.googleapis.com^$xmlhttprequest,important,redirect=nooptext
 ||kiks.yandex.ru^$important,redirect=noopframe,subdocument
 ||mc.yandex.ru^$important,redirect=noopjs,script
-||scorecardresearch.com/beacon.js$script,redirect=scorecardresearch.com/beacon.js,important
+||scorecardresearch.com/beacon.js$script,redirect=noopjs,important
 ||static-mon.yandex.net/static/main.js$script,redirect=noopjs,important
 ||static-mon.yandex.net/static/main.js$xmlhttprequest,redirect=nooptext,important
 ~mail.yandex.by,~mail.yandex.ru,~mail.yandex.ua,rambler.ru,yandex.by,yandex.ru,yandex.ua##+js(set-constant.js, Math.random, trueFunc)
