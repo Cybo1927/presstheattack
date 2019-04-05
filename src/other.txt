@@ -1189,6 +1189,7 @@
 |http*:*.yads^
 |http*:*.yads_
 |http*:*/aff_i?offer_id=$important
+|http*:*/banners/*.swf^$important
 |http*:*/code/bshow.php?$important,third-party
 |http*:*/dear_code/*/goclick?t=*&ref=$important
 |http*:*/epubdelivery/
