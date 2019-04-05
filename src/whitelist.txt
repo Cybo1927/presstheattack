@@ -131,6 +131,7 @@
 @@||liligo.it^$elemhide,badfilter
 @@||liligo.pt^$elemhide,badfilter
 @@||liligo.ro^$elemhide,badfilter
+@@||maps.googleapis.com^$script
 @@||meta.com.pk^$elemhide,badfilter
 @@||metarab.com^$elemhide,badfilter
 @@||metasearch.com.vn^$elemhide,badfilter

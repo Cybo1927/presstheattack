@@ -52,7 +52,6 @@ GGBET$image
 |http*:*/ping.gif$image,important
 |http*:*/ping.png$image,important
 |http*:*/pix.gif$image,important
-|http*:*/pixel.gif$image,important
 |http*:*/popunder.gif$image,important
 |http*:*/pv.gif$image,important
 |http*:*/pv.png$image,important
