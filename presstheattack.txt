@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-04-05 17:07:45
-! Version: 20190405170745
+! Last modified: 2019-04-05 17:20:21
+! Version: 20190405172021
 ! Expires: 3 hours
-! Number of filters: 6219
+! Number of filters: 6242
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -3700,6 +3700,10 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*-stat.$domain=~livejournal.com
 |http*:*-stat^
 |http*:*-stat_
+|http*:*-statistiques-$important
+|http*:*-statistiques.$important
+|http*:*-statistiques^$important
+|http*:*-statistiques_$important
 |http*:*-stats-
 |http*:*-stats.
 |http*:*-stats^
@@ -4293,6 +4297,10 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*.stat.
 |http*:*.stat^
 |http*:*.stat_
+|http*:*.statistiques-$important
+|http*:*.statistiques.$important
+|http*:*.statistiques^$important
+|http*:*.statistiques_$important
 |http*:*.stats-
 |http*:*.stats.
 |http*:*.stats^
@@ -4430,6 +4438,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/bk-coretag.js$important,script
 |http*:*/blank.gif$image,important
 |http*:*/blank.png$image,important
+|http*:*/boomerang*.js$important,script
 |http*:*/browsermine.js$important,script
 |http*:*/c-hive.js$important,script
 |http*:*/c.gif$image,important
@@ -4496,6 +4505,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/horizon-pageview?$image
 |http*:*/hstrck-detect.js$important,script
 |http*:*/ht.js?site^$important,script
+|http*:*/hubvisor.js$important,script
 |http*:*/i.gif$image,important
 |http*:*/i.png$image,important
 |http*:*/i?stm=$image,important
@@ -5081,7 +5091,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*^promo-
 |http*:*^promo.$domain=~mail.ru
 |http*:*^promo^$domain=~mail.ru|~ntv.ru|~kinopoisk.ru
-|http*:*^promo_$domain=~vk.com
+|http*:*^promo_$domain=~vk.com|~livejournal.com
 |http*:*^promoted-
 |http*:*^promoted.
 |http*:*^promoted^
@@ -5162,6 +5172,10 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*^stat.
 |http*:*^stat^
 |http*:*^stat_
+|http*:*^statistiques-$important
+|http*:*^statistiques.$important
+|http*:*^statistiques^$important
+|http*:*^statistiques_$important
 |http*:*^stats-
 |http*:*^stats.$domain=~t-online.de
 |http*:*^stats^
@@ -5755,6 +5769,10 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*_stat.
 |http*:*_stat^
 |http*:*_stat_
+|http*:*_statistiques-$important
+|http*:*_statistiques.$important
+|http*:*_statistiques^$important
+|http*:*_statistiques_$important
 |http*:*_stats-
 |http*:*_stats.
 |http*:*_stats^
@@ -5881,6 +5899,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||adobedtm.com^
 ||adomik.com^$important
 ||adpartner.*^$important
+||adpaths.com^$important
 ||adriver.ru^$important
 ||ads-twitter.com^$important
 ||adsafeprotected.com^$important
@@ -6047,6 +6066,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||hotjar.com^$important
 ||hotlog.ru^$important
 ||hub.com.pl^$important
+||hubvisor.io^$important
 ||ibillboard.com^$important
 ||imasdk.googleapis.com^$important,redirect=noopframe,subdocument
 ||imasdk.googleapis.com^$script,important,redirect=noopjs
@@ -6065,6 +6085,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||lcs.naver.com^$important
 ||ligatus.com^$important
 ||lijit.com^$important
+||livejournal.com/ljcounter/*$image,important
 ||logql.yahoo.co.jp^$important
 ||logxp.ru^$important
 ||m-pathy.com^$important
@@ -6102,6 +6123,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||ophan.theguardian.com^$important
 ||optimize-stats.voxmedia.com^$important
 ||optimizely.com^$important
+||outbrain.com^$important
 ||pagefair.com^$important
 ||pb.m.naver.com^$important
 ||pf.newegg.com^$important
@@ -6143,6 +6165,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||search.1und1.de/uns/amazon?$xmlhttprequest,important
 ||sedoparking.com^$important
 ||seedtag.com^$important
+||sentry.io/api/*/store/^$important,xmlhttprequest
 ||sharethrough.com^$important
 ||siftscience.com^$important,script
 ||smartadserver.com^$important

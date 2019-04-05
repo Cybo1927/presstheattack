@@ -150,6 +150,9 @@
 ||krxd.net^$important
 ||lcs.naver.com^$important
 ||ligatus.com^$important
+||outbrain.com^$important
+||adpaths.com^$important
+||hubvisor.io^$important
 ||lijit.com^$important
 ||logql.yahoo.co.jp^$important
 ||logxp.ru^$important

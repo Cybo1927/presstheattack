@@ -18,6 +18,7 @@ GGBET$image
 |http*:*/ad.gif$image,important
 |http*:*/ad.png$image,important
 |http*:*/ads.gif$image,important
+||livejournal.com/ljcounter/*$image,important
 |http*:*/ads.png$image,important
 |http*:*/banner/*.gif$image,important
 |http*:*/banners/*.gif$image,important

@@ -21,3 +21,4 @@
 ||twitter.com/i/jot^$important,xmlhttprequest
 ||yahoo.com/pageview/*$xmlhttprequest,important
 ||youtube.com/get_midroll_info^$important,xmlhttprequest
+||sentry.io/api/*/store/^$important,xmlhttprequest
