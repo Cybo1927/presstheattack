@@ -90,7 +90,7 @@
 ||connect.facebook.net^
 ||connect.ok.ru^
 ||conviva.com^$important
-||cookielaw.org^$important
+||cookielaw.org^$third-party
 ||cpaevent.ru^$important
 ||criteo.net^$important
 ||crwdcntrl.net^$important

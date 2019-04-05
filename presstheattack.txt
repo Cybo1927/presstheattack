@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-04-05 23:08:06
-! Version: 20190405230806
+! Last modified: 2019-04-05 23:12:53
+! Version: 20190405231253
 ! Expires: 3 hours
 ! Number of filters: 6251
 ! Homepage: https://github.com/bogachenko/presstheattack/
@@ -2781,6 +2781,7 @@
 /^https?:\/\/(www\.)?(facebookcorewwwi|facebook)\.\w{3,5}\/tr\D/$important
 /^https?:\/\/2ch\.(hk|pm|re|tf|wf|yt)\/images\//$image,important
 /^https?:\/\/[^/]+\/[a-z0-9]{15,}(\?hope=.*)?$/$important,script
+/^https?:\/\/[^\s]+(\.|\-|\_)kameleoon(\.min)?\.js/$important,script
 /^https?:\/\/[^\s]+(\_|\-)gtm\.js$script
 /^https?:\/\/[^\s]+(\_|\-)ping\.js/$important,script
 /^https?:\/\/[^\s]+(\_|\-|\/)pixel(\.[^\s]{10,})?\.(png|gif)/$image,important,object
@@ -2793,7 +2794,6 @@
 /^https?:\/\/[^\s]+\/banner[0-9]{1,2}?\.gif/$image,important
 /^https?:\/\/[^\s]+\/fingerprint([0-9]{1,2})?(\.min)?\.js/$important,script,xmlhttprequest
 /^https?:\/\/[^\s]+\/fp([0-9]{1,2})?\.js/$important,script
-/^https?:\/\/[^\s]+\/kameleoon(\.min)?\.js/$important,script
 /^https?:\/\/[^\s]+\/piwik((\.|\-|\_)[0-9]{5,})?\.js/$important,script
 /^https?:\/\/[^\s]+\/popunder([0-9]{1,2})?\./$important,popup,script,xmlhttprequest
 /^https?:\/\/[^\s]+google\.[A-Za-z0-9.]{2,7}\/log\?/$image,important,xmlhttprequest
@@ -5978,7 +5978,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||connect.facebook.net^
 ||connect.ok.ru^
 ||conviva.com^$important
-||cookielaw.org^$important
+||cookielaw.org^$third-party
 ||cpaevent.ru^$important
 ||criteo.net^$important
 ||crwdcntrl.net^$important
