@@ -69,7 +69,7 @@
 ||bebi.com^$important
 ||beemray.com^$important
 ||begun.ru^$important
-||betsonsport.ru^$third-party,important
+||betsonsport.ru^$important,third-party
 ||betweendigital.com^$important
 ||bfmio.com^$important
 ||bidswitch.net^$important
@@ -250,7 +250,7 @@
 ||uimserv.net^$important
 ||unrulymedia.com^$important
 ||urbanairship.com^$important
-||usabilla.com^$third-party,important
+||usabilla.com^$important,third-party
 ||v0hs81ev3vepjr.ru^$important
 ||vadideo.com^$important
 ||veta.naver.com^$important
