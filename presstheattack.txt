@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-04-05 18:56:48
-! Version: 20190405185648
+! Last modified: 2019-04-05 19:01:12
+! Version: 20190405190112
 ! Expires: 3 hours
 ! Number of filters: 6248
 ! Homepage: https://github.com/bogachenko/presstheattack/
@@ -2766,7 +2766,7 @@
 */spacer.png$image,redirect=1x1-transparent.gif
 */visitor.js$script,redirect=noopjs
 */visitorapi.js$script,redirect=noopjs
-/[\W|_](1|24|60|88|468|100|728|120|125|234|250|392|400|470|75|782|300|160|336)(x|\-|\_)(1|32|75|40|45|72|250|31|60|100|90|468|80|160|240|600|125|280)[\W|_]/$script,image,important,domain=~twitter.com|~9gag.com|~cbssports.com|~etsy.com|~t-online.de|~discogs.com|~washingtonpost.com|~funnyjunk.com
+/[\W|_](1|24|60|88|468|100|728|120|125|234|250|392|400|470|75|782|300|160|336)(x|\-|\_)(1|32|75|40|45|72|250|31|60|100|90|468|80|160|240|600|125|280)[\W|_]/$image,important,script,domain=~9gag.com|~cbssports.com|~discogs.com|~etsy.com|~funnyjunk.com|~t-online.de|~twitter.com|~washingtonpost.com
 /^https:\/\/.*?\/v2\/0\/[a-zA-Z0-9_-]{30,}$/$important,script,third-party
 /^https?:\/\/(([0-9]{1,2})?l\-hit|([0-9]{1,2})?l-view|r([0-9]{1,2})?|rs|top\-fwz([0-9]{1,2})?|vk\.go|reklama|ad|ads|recostream\.go|[^\s]{10,}\.top|mediator|[^\s]{3,}\.radar|g?stat|top|xray)\.(imgs)?mail\.ru/$important
 /^https?:\/\/(([0-9]{1,2})?l\-hit|([0-9]{1,2})?l-view|r([0-9]{1,2})?|rs|top\-fwz([0-9]{1,2})?|vk\.go|reklama|ad|ads|recostream\.go|[^\s]{10,}\.top|mediator|[^\s]{3,}\.radar|g?stat|top|xray)\.(imgs)?mail\.ru/$important,popup
@@ -2783,9 +2783,9 @@
 /^https?:\/\/[^/]+\/[a-z0-9]{15,}(\?hope=.*)?$/$important,script
 /^https?:\/\/[^\s]+(\_|\-)gtm\.js$script
 /^https?:\/\/[^\s]+(\_|\-)ping\.js/$important,script
-/^https?:\/\/[^\s]+(\_|\-|\/)pixel\.([^\s]{10,})?\.(png|gif)/$image,object,important
+/^https?:\/\/[^\s]+(\_|\-|\/)pixel\.([^\s]{10,})?\.(png|gif)/$image,important,object
 /^https?:\/\/[^\s]+(player|gen|client|csi|generate|stream|log)[\W|_]?204/$image,important,xmlhttprequest
-/^https?:\/\/[^\s]+\.(net|org|com|ru|tv)\/(ad[sv]|rek)\//$important,script,subdocument,xmlhttprequest,image,popup
+/^https?:\/\/[^\s]+\.(net|org|com|ru|tv)\/(ad[sv]|rek)\//$image,important,popup,script,subdocument,xmlhttprequest
 /^https?:\/\/[^\s]+\/([^\s]{4})?tag\.min\.([a-z0-9]{30,}\.)?js/$important,script
 /^https?:\/\/[^\s]+\/(fuck|block)adblock(\.min)?\.js/$important,script
 /^https?:\/\/[^\s]+\/ads(\.|\-|\_)?([0-9]{1,2}|[-a-z0-9_.]{5,}\.min)\.js/$important,script
@@ -2794,7 +2794,7 @@
 /^https?:\/\/[^\s]+\/fingerprint([0-9]{1,2})?(\.min)?\.js/$important,script,xmlhttprequest
 /^https?:\/\/[^\s]+\/fp([0-9]{1,2})?\.js/$important,script
 /^https?:\/\/[^\s]+\/piwik(\.|\-|\_)?[0-9]{5,}\.js/$important,script
-/^https?:\/\/[^\s]+\/popunder([0-9]{1,2})?\./$script,xmlhttprequest,popup,important
+/^https?:\/\/[^\s]+\/popunder([0-9]{1,2})?\./$important,popup,script,xmlhttprequest
 /^https?:\/\/[^\s]+google\.[A-Za-z0-9.]{2,7}\/log\?/$image,important,xmlhttprequest
 /^https?:\/\/[^\s]+log[\W|_]?(type|event|entry|request)/$image,important,xmlhttprequest
 /^https?:\/\/[^\s]+me([0-9]{1})?w\.js/$important,script
@@ -2803,15 +2803,15 @@
 /^https?:\/\/analytics[0-9]{1,2}?\./$important
 /^https?:\/\/c([0-9]{1,2})?\./$important,domain=~force.com|~ndtv.com|~newegg.com|~wp.com|~xavierstuder.com
 /^https?:\/\/cdn[0-9]{1,2}?\.rocks\/[^\s]{30,}\.js/$important,script
-/^https?:\/\/collector([0-9]{1,2})?\.xhamster\.[A-Za-z]{3}/$script,xmlhttprequest,important
+/^https?:\/\/collector([0-9]{1,2})?\.xhamster\.[A-Za-z]{3}/$important,script,xmlhttprequest
 /^https?:\/\/contentbooster\.me+\/(?!manifest)[a-z0-9]{5,45}/$important,xmlhttprequest
-/^https?:\/\/graph\.(facebook|instagram)\.com/$important,script,image,xmlhttprequest
+/^https?:\/\/graph\.(facebook|instagram)\.com/$image,important,script,xmlhttprequest
 /^https?:\/\/log[0-9]{1,2}?\./$important
 /^https?:\/\/news\.yandex\.[^\s]{2,5}\/[^\s]{300,}/$important,subdocument,xmlhttprequest
 /^https?:\/\/p([0-9]{1,2})?\./$important
 /^https?:\/\/r([0-9]{1,2})?\./$important
 /^https?:\/\/s3\.amazonaws\.com\/.*[a-f0-9\/]{50,}/$important,third-party,xmlhttprequest,domain=~amazon.com
-/^https?:\/\/tv\.yandex\.[^\s]{2,5}\/[^\s]{270,}/$important,xmlhttprequest,image,subdocument
+/^https?:\/\/tv\.yandex\.[^\s]{2,5}\/[^\s]{270,}/$image,important,subdocument,xmlhttprequest
 /^https?:\/\/www\.([a-z]{6,16})\.com\/([a-z]{1,4})\.js$/$important,script,third-party
 /^https?:\/\/yandex\.[^\s]{2,5}\/images/(?!(search\?rpt=\imageview)|(search\?callback\=jQuery)|(search\?exp_flags=)|(search\?serpid=)|(touch/search?))[^\s]{80,}/$important,subdocument,xmlhttprequest
 /^https?:\/\/yastatic\.net\/[^\s]{500,}/$domain=~vh.yandex.ru
@@ -4184,7 +4184,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*.pclick.
 |http*:*.pclick^
 |http*:*.pclick_
-|http*:*.php?zoneid=$script,xmlhttprequest,important
+|http*:*.php?zoneid=$important,script,xmlhttprequest
 |http*:*.phpads-$important
 |http*:*.phpads.$important
 |http*:*.phpads^$important
@@ -4415,12 +4415,12 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/advertising.js$important,script
 |http*:*/aff_i?offer_id=$important
 |http*:*/akam/10/$important,script
-|http*:*/amp.gif$image,xmlhttprequest,important
+|http*:*/amp.gif$image,important,xmlhttprequest
 |http*:*/analytics.js$important,script
 |http*:*/annotations_module.js$script,domain=youtube.com
 |http*:*/antiadb.js$important,script
 |http*:*/apstag.js$important,script
-|http*:*/article/viewcount/*$script,xmlhttprequest,important
+|http*:*/article/viewcount/$important,script,xmlhttprequest
 |http*:*/async-ads.js$important,script
 |http*:*/atrk.js$important,script
 |http*:*/authedmine.min.js$important,script
@@ -4446,7 +4446,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/c.png$image,important
 |http*:*/c.wasm$important,script
 |http*:*/cc.gif$image,important
-|http*:*/cgi-bin/ivw/*$script,xmlhttprequest,important
+|http*:*/cgi-bin/ivw/$important,script,xmlhttprequest
 |http*:*/chartbeat.js$important,script
 |http*:*/clear.png$image,important
 |http*:*/cloudcoins.js$important,script
@@ -4476,12 +4476,12 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/empty.js$important,script
 |http*:*/empty.png$image,important
 |http*:*/endscreen.js$script,domain=youtube.com
-|http*:*/entry_stats?$script,xmlhttprequest,important
+|http*:*/entry_stats?$important,script,xmlhttprequest
 |http*:*/epubdelivery/
 |http*:*/event.gif$image,important
 |http*:*/event.png$image,important
-|http*:*/events-collector.*$script,xmlhttprequest,important
-|http*:*/fbpixel.$important,script,xmlhttprequest,image
+|http*:*/events-collector.$important,script,xmlhttprequest
+|http*:*/fbpixel.$image,important,script,xmlhttprequest
 |http*:*/figanalytics.js$important,script
 |http*:*/fp/check.js$important,script
 |http*:*/fpn.gif$image,important
@@ -4516,7 +4516,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/in.php?p=$important
 |http*:*/invoke.js$important,script
 |http*:*/iwa.js$important,script
-|http*:*/js.gif$image,script,important
+|http*:*/js.gif$image,important,script
 |http*:*/js/tracking/ga_initial_visit*.js$important,script
 |http*:*/jsecoin.js$important,script
 |http*:*/log.js$important,script
@@ -4568,7 +4568,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/raven.js$important,script
 |http*:*/referdetect.js$important,script
 |http*:*/referrer.js$important,script
-|http*:*/remove_ads.$image,script,xmlhttprequest,important
+|http*:*/remove_ads.$image,important,script,xmlhttprequest
 |http*:*/runtimejs/intercept/*.js$important,script
 |http*:*/ruxitagentjs_$important,script
 |http*:*/s.gif$image,important
@@ -4577,7 +4577,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/safelinkconverter.js$important,script
 |http*:*/sat.gif$image,important
 |http*:*/showads.js$important,script
-|http*:*/site=*/size=*/viewid=$image,important,xmlhttprequest,script
+|http*:*/site=*/size=*/viewid=$image,important,script,xmlhttprequest
 |http*:*/site_ads.js$important,script
 |http*:*/smarttag.js$important,script
 |http*:*/smpop-stable.js$important,script
@@ -4586,7 +4586,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/sparechange.js$important,script
 |http*:*/stat.gif$image,important
 |http*:*/stat.png$image,important
-|http*:*/stat?event=$script,xmlhttprequest,important
+|http*:*/stat?event=$important,script,xmlhttprequest
 |http*:*/static/js/tpb.js$important,script
 |http*:*/stc.gif$image,important
 |http*:*/streambeam-jw.js$important,script
@@ -5957,7 +5957,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||betweendigital.com^$important
 ||bfmio.com^$important
 ||bidswitch.net^$important
-||bing.com/fd/ls/*$image,important,xmlhttprequest
+||bing.com/fd/ls/$image,important,xmlhttprequest
 ||bit.ly^$popup
 ||bounceexchange.com^$important
 ||branch.io^$important
@@ -6022,8 +6022,8 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||exosrv.com^$important
 ||f53mbcg4ak.ru^$important
 ||facebook.com/method/links.getstats?$important,third-party
-||facebook.com/xti.php^$script,xmlhttprequest,important
-||facebookcorewwwi.onion/xti.php^$script,xmlhttprequest,important
+||facebook.com/xti.php^$important,script,xmlhttprequest
+||facebookcorewwwi.onion/xti.php^$important,script,xmlhttprequest
 ||fastclick.net^$important
 ||fastly-insights.com^$important
 ||fls-*.amazon.*%$important
@@ -6040,12 +6040,12 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||google-analytics.com^$script,important,redirect=noopjs
 ||google-analytics.com^$xmlhttprequest,important,redirect=nooptext
 ||google.*/ads/search/module/ads/*/search.js$important,script
-||google.com/ads/$subdocument,important,script
-||google.com/adsense/$subdocument,important,script
-||google.com/afs/$subdocument,important
+||google.com/ads/$important,script,subdocument
+||google.com/adsense/$important,script,subdocument
+||google.com/afs/$important,subdocument
 ||google.com/async/*&async=encoded_cache_key$important,xmlhttprequest
-||google.com/dp/ads?$subdocument,important
-||google.com/uds/$script,subdocument,important
+||google.com/dp/ads?$important,subdocument
+||google.com/uds/$important,script,subdocument
 ||google.com^*/viewerimpressions^$important,xmlhttprequest
 ||googlesyndication.com^$important,redirect=noopframe,subdocument
 ||googlesyndication.com^$script,important,redirect=noopjs
@@ -6104,7 +6104,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||mellowads.com^$important
 ||mercadolibre.com/tracks^$important,xmlhttprequest
 ||mgid.com^$important
-||microsoft.com/collect/*$script,xmlhttprequest,important
+||microsoft.com/collect/$important,script,xmlhttprequest
 ||mms.cnn.com^$important
 ||moatads.com^$important
 ||mookie1.com^$important
@@ -6129,7 +6129,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||outbrain.com^$important
 ||pagefair.com^$important
 ||pb.m.naver.com^$important
-||permutive.com^$subdocument,important,script
+||permutive.com^$important,script,subdocument
 ||perr.h-cdn.com^$important,xmlhttprequest
 ||pf.newegg.com^$important
 ||piguiqproxy.com^$important
@@ -6160,7 +6160,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||rover.ebay.*^$image,important
 ||rubiconproject.com^$important
 ||rutarget.ru^$important
-||rutracker.org/iframe/*$subdocument,important
+||rutracker.org/iframe/$important,subdocument
 ||rutrk.org^$important
 ||sail-horizon.com^$important
 ||scontent.xx.fbcdn.net/hads-ak-prn*/*.png$image,important
@@ -6251,18 +6251,18 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||yadro.ru^$important
 ||yahoo.co.jp/b?p=$image,important
 ||yahoo.com/pageview/$important,xmlhttprequest
-||yahoo.com/sdarla/*$subdocument,important
+||yahoo.com/sdarla/$important,subdocument
 ||yandex.*/pogoda/$first-party,important,inline-script
 ||yandex.net/get-direct$image,important
 ||yandex.ru/portal/$image,important
 ||yandex.st^$domain=~yandex.by|~yandex.ru|~yandex.ua
 ||yastatic.net/*.gif$image,important
-||yastatic.net/*/zen-lib/*$important,script,xmlhttprequest,stylesheet
+||yastatic.net/*/zen-lib/$important,script,stylesheet,xmlhttprequest
 ||yastatic.net/daas/atom.js$important,script
 ||yastatic.net^$important,popup
 ||ybnj57w4m7.ru^$important
 ||yieldlab.net^$important
-||yimg.com/gemini/pr/video_$script,xmlhttprequest,important
+||yimg.com/gemini/pr/video_$important,script,xmlhttprequest
 ||yimg.com/wi/ytc.js$important,script
 ||youtube.com/api/stats^$image,important,xmlhttprequest
 ||youtube.com/get_midroll_info^$important,xmlhttprequest
