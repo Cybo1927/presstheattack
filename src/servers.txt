@@ -91,6 +91,7 @@
 ||conviva.com^$important
 ||cookielaw.org^$third-party
 ||cpaevent.ru^$important
+||crazyegg.com^$important
 ||criteo.net^$important
 ||crwdcntrl.net^$important
 ||cutter.li^
@@ -118,6 +119,7 @@
 ||exactag.com^$important
 ||exelator.com^$important
 ||exosrv.com^$important
+||exponential.com^$important
 ||f53mbcg4ak.ru^$important
 ||fastclick.net^$important
 ||fastly-insights.com^$important
