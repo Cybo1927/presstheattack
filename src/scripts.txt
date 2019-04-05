@@ -2,6 +2,7 @@
 /^https?:\/\/([a-z0-9]{3,10}\.)?[a-z0-9]{5,15}\.(click|com|bid|net|online|top|club)\/([a-z0-9]{2}\/){3}[a-f0-9]{32}\.js$/$important,script
 /^https?:\/\/([a-z0-9]{8,10}\.)?[a-z0-9]{5,14}\.(com|bid|online|top|club)\/([a-z0-9]{2}\/){3}[a-f0-9]{32}\.js$/$important,script,third-party
 /^https?:\/\/[^/]+\/[a-z0-9]{15,}(\?hope=.*)?$/$important,script
+/^https?:\/\/[^\s]+(\.|\-|\_)kameleoon(\.min)?\.js/$important,script
 /^https?:\/\/[^\s]+(\_|\-)gtm\.js$script
 /^https?:\/\/[^\s]+(\_|\-)ping\.js/$important,script
 /^https?:\/\/[^\s]+\.(ad|ae|al|am|as|at|az|ba|be|bf|bg|bi|bj|bs|bt|by|ca|cat|cd|cf|cg|ch|ci|cl|cm|cn|co.ao|co.bw|co.ck|co.cr|co.id|co.il|co.in|co.jp|co.ke|co.kr|co.ls|co.ma|co.mz|co.nz|co.th|co.tz|co.ug|co.uk|co.uz|co.ve|co.vi|co.za|co.zm|co.zw|com|com.af|com.ag|com.ai|com.ar|com.au|com.bd|com.bh|com.bn|com.bo|com.br|com.bz|com.co|com.cu|com.cy|com.do|com.ec|com.eg|com.et|com.fj|com.gh|com.gi|com.gt|com.hk|com.jm|com.kh|com.kw|com.lb|com.ly|com.mm|com.mt|com.mx|com.my|com.na|com.nf|com.ng|com.ni|com.np|com.om|com.pa|com.pe|com.pg|com.ph|com.pk|com.pr|com.py|com.qa|com.sa|com.sb|com.sg|com.sl|com.sv|com.tj|com.tr|com.tw|com.ua|com.uy|com.vc|com.vn|cv|cz|de|dj|dk|dm|dz|ee|es|fi|fm|fr|ga|ge|gg|gl|gm|gp|gr|gy|hn|hr|ht|hu|ie|im|iq|is|it|je|jo|kg|ki|kz|la|li|lk|lt|lu|lv|md|me|mg|mk|ml|mn|ms|mu|mv|mw|ne|nl|no|nr|nu|pl|pn|ps|pt|ro|rs|ru|rw|sc|se|sh|si|sk|sm|sn|so|sr|st|td|tg|tk|tl|tm|tn|to|tt|vg|vu|ws|net|tv|org)\/(ad[sv]|adb|rek|advt|rekl|rekla*m)\.js/$important,script
@@ -10,7 +11,6 @@
 /^https?:\/\/[^\s]+\/ads(\.|\-|\_)?([0-9]{1,2}|[-a-z0-9_.]{5,}\.min)\.js/$important,script
 /^https?:\/\/[^\s]+\/advert(\.|\-|\_)?[0-9]{1,2}\.js/$important,script
 /^https?:\/\/[^\s]+\/fp([0-9]{1,2})?\.js/$important,script
-/^https?:\/\/[^\s]+(\.|\-|\_)kameleoon(\.min)?\.js/$important,script
 /^https?:\/\/[^\s]+\/piwik((\.|\-|\_)[0-9]{5,})?\.js/$important,script
 /^https?:\/\/[^\s]+me([0-9]{1})?w\.js/$important,script
 /^https?:\/\/[^\s]+webmr([0-9]{1,2})?\.js/$important,script
@@ -25,7 +25,6 @@
 |http*:*.vast.$script
 |http*:*.vast^$script
 |http*:*.vast_$script
-|http*:*/demandbase_*.js$important,script
 |http*:*/accip_script.js$important,script
 |http*:*/ad.js$important,script
 |http*:*/ad_track.js$important,script
@@ -85,6 +84,7 @@
 |http*:*/dc_performance.js$important,script
 |http*:*/deepMiner.js$important,script
 |http*:*/deepMiner.min.js$important,script
+|http*:*/demandbase_*.js$important,script
 |http*:*/dfp.js$important,script
 |http*:*/dprocessor.js$important,script
 |http*:*/empty.js$important,script
@@ -144,8 +144,8 @@
 |http*:*/referrer.js$important,script
 |http*:*/runtimejs/intercept/*.js$important,script
 |http*:*/ruxitagentjs_$important,script
-|http*:*/s_code.js$important,script
 |http*:*/s.js$important,script
+|http*:*/s_code.js$important,script
 |http*:*/safelinkconverter.js$important,script
 |http*:*/showads.js$important,script
 |http*:*/site_ads.js$important,script

@@ -1,5 +1,6 @@
 /^https?:\/\/contentbooster\.me+\/(?!manifest)[a-z0-9]{5,45}/$important,xmlhttprequest
 /^https?:\/\/s3\.amazonaws\.com\/.*[a-f0-9\/]{50,}/$important,third-party,xmlhttprequest,domain=~amazon.com
+||airbnb.*/tracking/$important,xmlhttprequest
 ||amazon.*/record-impressions^$important,xmlhttprequest
 ||api.twitch.tv/*/channels/*/extensions^$xmlhttprequest
 ||dropbox.com/log/$important,xmlhttprequest
@@ -23,4 +24,3 @@
 ||twitter.com/i/jot^$important,xmlhttprequest
 ||yahoo.com/pageview/$important,xmlhttprequest
 ||youtube.com/get_midroll_info^$important,xmlhttprequest
-||airbnb.*/tracking/$important,xmlhttprequest

@@ -10,7 +10,6 @@
 /^https?:\/\/yastatic\.net\/[^\s]{500,}/$domain=~vh.yandex.ru
 /^https?:\/\/zmctrack\.(com|net)/$important
 ||1-1ads.com^$important
-||logentries.com^$important
 ||2mdn.net^$important
 ||3lift.com^$important
 ||28f77rd30e.ru^$important
@@ -91,9 +90,7 @@
 ||connect.ok.ru^
 ||conviva.com^$important
 ||cookielaw.org^$third-party
-||tracksrv.zdf.de^$important
 ||cpaevent.ru^$important
-||pxc.otto.de^$important
 ||criteo.net^$important
 ||crwdcntrl.net^$important
 ||cutter.li^
@@ -158,6 +155,7 @@
 ||lcs.naver.com^$important
 ||ligatus.com^$important
 ||lijit.com^$important
+||logentries.com^$important
 ||logql.yahoo.co.jp^$important
 ||logxp.ru^$important
 ||m-pathy.com^$important
@@ -203,6 +201,7 @@
 ||prophet.heise.de^$important
 ||protovid.com^$important
 ||pubmatic.com^$important
+||pxc.otto.de^$important
 ||qualtrics.com^$important
 ||quantcast.mgr.consensu.org^$important
 ||quantserve.com^$important
@@ -241,6 +240,7 @@
 ||tr.cloud-media.fr^$important
 ||tracking.cdiscount.com^$important
 ||tracking.olx-st.com^$important
+||tracksrv.zdf.de^$important
 ||trafficfactory.biz^$important
 ||trafficjunky.net^$important
 ||trbo.com^$important
