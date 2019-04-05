@@ -169,6 +169,10 @@
 ||mellowads.com^$important
 ||mgid.com^$important
 ||mms.cnn.com^$important
+||iocnt.net^$important
+||mmstat.com^$important
+||count.taobao.com^$important
+||networkad.net^$important
 ||moatads.com^$important
 ||mookie1.com^$important
 ||mpnrs.com^$important

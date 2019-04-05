@@ -229,7 +229,7 @@
 |http*:*-banner-ad^$important
 |http*:*-banner-ad_$important
 |http*:*-banner.$domain=~reddit.com
-|http*:*-banner^$domain=~reddit.com
+|http*:*-banner^$domain=~reddit.com|~taobao.com
 |http*:*-banner_
 |http*:*-banners-
 |http*:*-banners.

@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-04-06 01:19:40
-! Version: 20190406011940
+! Last modified: 2019-04-06 01:29:00
+! Version: 20190406012900
 ! Expires: 3 hours
-! Number of filters: 6260
+! Number of filters: 6264
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -3406,7 +3406,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*-banner-ad^$important
 |http*:*-banner-ad_$important
 |http*:*-banner.$domain=~reddit.com
-|http*:*-banner^$domain=~reddit.com
+|http*:*-banner^$domain=~reddit.com|~taobao.com
 |http*:*-banner_
 |http*:*-banners-
 |http*:*-banners.
@@ -5984,6 +5984,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||connect.ok.ru^
 ||conviva.com^$important
 ||cookielaw.org^$third-party
+||count.taobao.com^$important
 ||cpaevent.ru^$important
 ||crazyegg.com^$important
 ||criteo.net^$important
@@ -6088,6 +6089,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||influads.com^$important
 ||info.web.de^$important
 ||ioam.de^$important
+||iocnt.net^$important
 ||ipinfo.io^$important
 ||iwanttodeliver.com^$important
 ||justicejudo.com^$important
@@ -6116,6 +6118,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||mgid.com^$important
 ||microsoft.com/collect/$important,script,xmlhttprequest
 ||mms.cnn.com^$important
+||mmstat.com^$important
 ||moatads.com^$important
 ||mookie1.com^$important
 ||mpnrs.com^$important
@@ -6124,6 +6127,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||mvunstblutptj.com^$important
 ||myvisualiq.net^$important
 ||navdmp.com^$important
+||networkad.net^$important
 ||newrelic.com^$important
 ||nil.naver.com^$important
 ||nuggad.net^$important
