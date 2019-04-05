@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-04-05 23:01:13
-! Version: 20190405230113
+! Last modified: 2019-04-05 23:08:06
+! Version: 20190405230806
 ! Expires: 3 hours
-! Number of filters: 6250
+! Number of filters: 6251
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2793,7 +2793,8 @@
 /^https?:\/\/[^\s]+\/banner[0-9]{1,2}?\.gif/$image,important
 /^https?:\/\/[^\s]+\/fingerprint([0-9]{1,2})?(\.min)?\.js/$important,script,xmlhttprequest
 /^https?:\/\/[^\s]+\/fp([0-9]{1,2})?\.js/$important,script
-/^https?:\/\/[^\s]+\/piwik(\.|\-|\_)?[0-9]{5,}\.js/$important,script
+/^https?:\/\/[^\s]+\/kameleoon(\.min)?\.js/$important,script
+/^https?:\/\/[^\s]+\/piwik((\.|\-|\_)[0-9]{5,})?\.js/$important,script
 /^https?:\/\/[^\s]+\/popunder([0-9]{1,2})?\./$important,popup,script,xmlhttprequest
 /^https?:\/\/[^\s]+google\.[A-Za-z0-9.]{2,7}\/log\?/$image,important,xmlhttprequest
 /^https?:\/\/[^\s]+log[\W|_]?(type|event|entry|request)/$image,important,xmlhttprequest
@@ -4549,7 +4550,6 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/pic.png$image,important
 |http*:*/ping.gif$image,important
 |http*:*/ping.png$image,important
-|http*:*/piwik.js$important,script
 |http*:*/pix.gif$image,important
 |http*:*/pixel.gif$image,important
 |http*:*/popunder.gif$image,important
@@ -6091,6 +6091,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||ligatus.com^$important
 ||lijit.com^$important
 ||livejournal.com/ljcounter/$image,important
+||logentries.com^$important
 ||logql.yahoo.co.jp^$important
 ||logxp.ru^$important
 ||m-pathy.com^$important
