@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-04-05 18:54:35
-! Version: 20190405185435
+! Last modified: 2019-04-05 18:56:48
+! Version: 20190405185648
 ! Expires: 3 hours
 ! Number of filters: 6248
 ! Homepage: https://github.com/bogachenko/presstheattack/
@@ -2767,7 +2767,6 @@
 */visitor.js$script,redirect=noopjs
 */visitorapi.js$script,redirect=noopjs
 /[\W|_](1|24|60|88|468|100|728|120|125|234|250|392|400|470|75|782|300|160|336)(x|\-|\_)(1|32|75|40|45|72|250|31|60|100|90|468|80|160|240|600|125|280)[\W|_]/$script,image,important,domain=~twitter.com|~9gag.com|~cbssports.com|~etsy.com|~t-online.de|~discogs.com|~washingtonpost.com|~funnyjunk.com
-/\/banner[0-9]{1,2}?\.gif/$image,important
 /^https:\/\/.*?\/v2\/0\/[a-zA-Z0-9_-]{30,}$/$important,script,third-party
 /^https?:\/\/(([0-9]{1,2})?l\-hit|([0-9]{1,2})?l-view|r([0-9]{1,2})?|rs|top\-fwz([0-9]{1,2})?|vk\.go|reklama|ad|ads|recostream\.go|[^\s]{10,}\.top|mediator|[^\s]{3,}\.radar|g?stat|top|xray)\.(imgs)?mail\.ru/$important
 /^https?:\/\/(([0-9]{1,2})?l\-hit|([0-9]{1,2})?l-view|r([0-9]{1,2})?|rs|top\-fwz([0-9]{1,2})?|vk\.go|reklama|ad|ads|recostream\.go|[^\s]{10,}\.top|mediator|[^\s]{3,}\.radar|g?stat|top|xray)\.(imgs)?mail\.ru/$important,popup
@@ -2791,6 +2790,7 @@
 /^https?:\/\/[^\s]+\/(fuck|block)adblock(\.min)?\.js/$important,script
 /^https?:\/\/[^\s]+\/ads(\.|\-|\_)?([0-9]{1,2}|[-a-z0-9_.]{5,}\.min)\.js/$important,script
 /^https?:\/\/[^\s]+\/advert(\.|\-|\_)?[0-9]{1,2}\.js/$important,script
+/^https?:\/\/[^\s]+\/banner[0-9]{1,2}?\.gif/$image,important
 /^https?:\/\/[^\s]+\/fingerprint([0-9]{1,2})?(\.min)?\.js/$important,script,xmlhttprequest
 /^https?:\/\/[^\s]+\/fp([0-9]{1,2})?\.js/$important,script
 /^https?:\/\/[^\s]+\/piwik(\.|\-|\_)?[0-9]{5,}\.js/$important,script
@@ -4378,7 +4378,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*.yads^
 |http*:*.yads_
 |http*:*/0.gif$image,important
-|http*:*/0.png$image,important,domain=~mail.yandex.ru|~mail.yandex.ua|~mail.yandex.by
+|http*:*/0.png$image,important,domain=~mail.yandex.by|~mail.yandex.ru|~mail.yandex.ua
 |http*:*/1x1.gif$image,important
 |http*:*/1x1.png$image,important
 |http*:*/2x2.png$image,important
@@ -4615,7 +4615,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/visibilityStat.js$important,script
 |http*:*/visit.gif$image,important
 |http*:*/visit.png$image,important
-|http*:*/wa01.gif?log=*$image,important
+|http*:*/wa01.gif?log=$image,important
 |http*:*/wasmminer.js$important,script
 |http*:*/wasmminer.wasm$important,script
 |http*:*/watch_ua.js$important,script
@@ -6061,7 +6061,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||grapeshot.co.uk^$important
 ||gumgum.com^$important
 ||harvest.surge.sh/h.js$important,script
-||heise.de/ivw-bin/ivw/cp/*$image,important
+||heise.de/ivw-bin/ivw/cp/$image,important
 ||heise.de/js/prebid*.js$important,script
 ||histats.com^$important
 ||hit.interia.pl^$important
@@ -6088,7 +6088,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||lcs.naver.com^$important
 ||ligatus.com^$important
 ||lijit.com^$important
-||livejournal.com/ljcounter/*$image,important
+||livejournal.com/ljcounter/$image,important
 ||logql.yahoo.co.jp^$important
 ||logxp.ru^$important
 ||m-pathy.com^$important
@@ -6254,7 +6254,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||yahoo.com/sdarla/*$subdocument,important
 ||yandex.*/pogoda/$first-party,important,inline-script
 ||yandex.net/get-direct$image,important
-||yandex.ru/portal/*$image,important
+||yandex.ru/portal/$image,important
 ||yandex.st^$domain=~yandex.by|~yandex.ru|~yandex.ua
 ||yastatic.net/*.gif$image,important
 ||yastatic.net/*/zen-lib/*$important,script,xmlhttprequest,stylesheet

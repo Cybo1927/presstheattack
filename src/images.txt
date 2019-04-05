@@ -1,10 +1,10 @@
-/\/banner[0-9]{1,2}?\.gif/$image,important
 /^https?:\/\/2ch\.(hk|pm|re|tf|wf|yt)\/images\//$image,important
+/^https?:\/\/[^\s]+\/banner[0-9]{1,2}?\.gif/$image,important
 1xbet$image,important
 1xstavka$image,important
 GGBET$image
 |http*:*/0.gif$image,important
-|http*:*/0.png$image,important,domain=~mail.yandex.ru|~mail.yandex.ua|~mail.yandex.by
+|http*:*/0.png$image,important,domain=~mail.yandex.by|~mail.yandex.ru|~mail.yandex.ua
 |http*:*/1x1.gif$image,important
 |http*:*/1x1.png$image,important
 |http*:*/2x2.png$image,important
@@ -78,7 +78,7 @@ GGBET$image
 |http*:*/views.png$image,important
 |http*:*/visit.gif$image,important
 |http*:*/visit.png$image,important
-|http*:*/wa01.gif?log=*$image,important
+|http*:*/wa01.gif?log=$image,important
 |http*:*/x.gif$image,important
 |http*:*/x.png$image,important
 |http*:*/yes.gif$image,important
@@ -89,8 +89,8 @@ GGBET$image
 ||collector.githubapp.com^$image,important
 ||commander1.com^$image,important
 ||duckduckgo.com/t/$image,important
-||heise.de/ivw-bin/ivw/cp/*$image,important
-||livejournal.com/ljcounter/*$image,important
+||heise.de/ivw-bin/ivw/cp/$image,important
+||livejournal.com/ljcounter/$image,important
 ||mail.yandex.*/monitoring_liza.txt$image,important
 ||rover.ebay.*/roverimp/*&trknvp=$image,important
 ||rover.ebay.*^$image,important
@@ -101,6 +101,6 @@ GGBET$image
 ||web.telegram.org/*/PhotoThumbConversation.gif$image,important,domain=telegram.org
 ||yahoo.co.jp/b?p=$image,important
 ||yandex.net/get-direct$image,important
-||yandex.ru/portal/*$image,important
+||yandex.ru/portal/$image,important
 ||yastatic.net/*.gif$image,important
 ||youtube.com/ptracking^$image,important
