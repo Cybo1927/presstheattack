@@ -186,7 +186,6 @@
 ||outbrain.com^$important
 ||pagefair.com^$important
 ||pb.m.naver.com^$important
-||permutive.com^$important
 ||pf.newegg.com^$important
 ||piguiqproxy.com^$important
 ||pixel.facebook.com^$important
