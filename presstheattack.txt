@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-04-05 16:53:58
-! Version: 20190405165358
+! Last modified: 2019-04-05 17:07:45
+! Version: 20190405170745
 ! Expires: 3 hours
 ! Number of filters: 6219
 ! Homepage: https://github.com/bogachenko/presstheattack/
@@ -2785,6 +2785,7 @@
 /^https?:\/\/[^\s]+(\_|\-)gtm\.js$script
 /^https?:\/\/[^\s]+(\_|\-)ping\.js/$important,script
 /^https?:\/\/[^\s]+(\_|\-|\/)pixel\.([^\s]{10,})?\.(png|gif)/$image,object,important
+/^https?:\/\/[^\s]+(player|gen|client|csi|generate|stream|log)[\W|_]?204/$image,important,xmlhttprequest
 /^https?:\/\/[^\s]+\.(net|org|com|ru|tv)\/(ad[sv]|rek)\//$important,script,subdocument,xmlhttprequest,image,popup
 /^https?:\/\/[^\s]+\/([^\s]{4})?tag\.min\.([a-z0-9]{30,}\.)?js/$important,script
 /^https?:\/\/[^\s]+\/(fuck|block)adblock(\.min)?\.js/$script,important
@@ -2794,16 +2795,15 @@
 /^https?:\/\/[^\s]+\/fp([0-9]{1,2})?\.js/$important,script
 /^https?:\/\/[^\s]+\/piwik(\.|\-|\_)?[0-9]{5,}\.js/$important,script
 /^https?:\/\/[^\s]+\/popunder([0-9]{1,2})?\./$script,xmlhttprequest,popup,important
+/^https?:\/\/[^\s]+google\.[A-Za-z0-9.]{2,7}\/log\?/$image,important,xmlhttprequest
+/^https?:\/\/[^\s]+log[\W|_]?(type|event|entry|request)/$image,important,xmlhttprequest
 /^https?:\/\/[^\s]+me([0-9]{1})?w\.js/$important,script
 /^https?:\/\/[^\s]+webmr([0-9]{1,2})?\.js/$important,script
-/^https?:\/\/[^\s]{15,}(player|gen|client|csi|generate|stream|log)\_?204/$image,important,xmlhttprequest
-/^https?:\/\/[^\s]{15,}log[\W|_]?(type|event|entry|request)/$image,important,xmlhttprequest
-/^https?:\/\/[^\s]{3,}google\.[^\s]{2,5}\/log\?/$image,important,xmlhttprequest
 /^https?:\/\/[a-z0-9]{1,2}?adserv\.com/$important
 /^https?:\/\/analytics[0-9]{1,2}?\./$important
 /^https?:\/\/c([0-9]{1,2})?\./$important,domain=~wp.com|~xavierstuder.com|~ndtv.com|~force.com|~newegg.com
 /^https?:\/\/cdn[0-9]{1,2}?\.rocks\/[^\s]{30,}\.js/$important,script
-/^https?:\/\/collector([0-9]{1,2})?\.xhamster\.[a-z]{3}/$script,xmlhttprequest,important
+/^https?:\/\/collector([0-9]{1,2})?\.xhamster\.[A-Za-z]{3}/$script,xmlhttprequest,important
 /^https?:\/\/contentbooster\.me+\/(?!manifest)[a-z0-9]{5,45}/$important,xmlhttprequest
 /^https?:\/\/graph\.(facebook|instagram)\.com/$important,script,image,xmlhttprequest
 /^https?:\/\/log[0-9]{1,2}?\./$important
