@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-04-05 17:20:21
-! Version: 20190405172021
+! Last modified: 2019-04-05 17:30:58
+! Version: 20190405173058
 ! Expires: 3 hours
-! Number of filters: 6242
+! Number of filters: 6245
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -5091,7 +5091,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*^promo-
 |http*:*^promo.$domain=~mail.ru
 |http*:*^promo^$domain=~mail.ru|~ntv.ru|~kinopoisk.ru
-|http*:*^promo_$domain=~vk.com|~livejournal.com
+|http*:*^promo_$domain=~vk.com|~livejournal.com|~livejournal.net
 |http*:*^promoted-
 |http*:*^promoted.
 |http*:*^promoted^
@@ -6016,6 +6016,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||etahub.com^$important
 ||events.reddit.com^$important
 ||exactag.com^$important
+||exelator.com^$important
 ||exosrv.com^$important
 ||f53mbcg4ak.ru^$important
 ||facebook.com/method/links.getstats?$third-party,important
@@ -6126,6 +6127,8 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||outbrain.com^$important
 ||pagefair.com^$important
 ||pb.m.naver.com^$important
+||permutive.com^$subdocument,important
+||perr.h-cdn.com^$xmlhttprequest,important
 ||pf.newegg.com^$important
 ||piguiqproxy.com^$important
 ||pipe.aria.microsoft.com/collector^$important,xmlhttprequest

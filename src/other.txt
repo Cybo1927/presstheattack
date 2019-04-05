@@ -1650,7 +1650,7 @@
 |http*:*^promo-
 |http*:*^promo.$domain=~mail.ru
 |http*:*^promo^$domain=~mail.ru|~ntv.ru|~kinopoisk.ru
-|http*:*^promo_$domain=~vk.com|~livejournal.com
+|http*:*^promo_$domain=~vk.com|~livejournal.com|~livejournal.net
 |http*:*^promoted-
 |http*:*^promoted.
 |http*:*^promoted^

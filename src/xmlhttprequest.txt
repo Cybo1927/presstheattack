@@ -22,3 +22,4 @@
 ||yahoo.com/pageview/*$xmlhttprequest,important
 ||youtube.com/get_midroll_info^$important,xmlhttprequest
 ||sentry.io/api/*/store/^$important,xmlhttprequest
+||perr.h-cdn.com^$xmlhttprequest,important

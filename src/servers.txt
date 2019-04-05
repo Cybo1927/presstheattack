@@ -151,6 +151,7 @@
 ||lcs.naver.com^$important
 ||ligatus.com^$important
 ||outbrain.com^$important
+||exelator.com^$important
 ||adpaths.com^$important
 ||hubvisor.io^$important
 ||lijit.com^$important
