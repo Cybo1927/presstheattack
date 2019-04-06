@@ -21,17 +21,18 @@
 |http*:*-vast.$script
 |http*:*-vast^$script
 |http*:*-vast_$script
-|http*:*.lms-analytics/*.js$important,script
 |http*:*.vast-$script
 |http*:*.vast.$script
 |http*:*.vast^$script
 |http*:*.vast_$script
+|http*:*/*.lms-analytics/*.js$important,script
 |http*:*/accip_script.js$important,script
 |http*:*/ad.js$important,script
 |http*:*/ad_track.js$important,script
 |http*:*/adblock.js$important,script
 |http*:*/adblockr.javascript$important,script
 |http*:*/adbp.js$important,script
+|http*:*/adengine.js$important,script
 |http*:*/adframe.js$important,script
 |http*:*/adition.*js$important,script
 |http*:*/adnext_iframe.js$important,script
@@ -68,6 +69,7 @@
 |http*:*/c.js$important,script
 |http*:*/c.wasm$important,script
 |http*:*/chartbeat.js$important,script
+|http*:*/click.js$important,script
 |http*:*/cloudcoins.js$important,script
 |http*:*/cloudcoins.min.js$important,script
 |http*:*/cn-asmjs.min.js$important,script

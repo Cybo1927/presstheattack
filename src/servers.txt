@@ -15,13 +15,11 @@
 ||28f77rd30e.ru^$important
 ||*.vo.msecnd.net^$important
 ||aaxads.com^$important
-||btttag.com^$important
 ||adalliance.io^$important
 ||adbetclickin.pink^$important
 ||adbetnet.com^$important
 ||adcdnx.com^$important
 ||adclear.net^$important
-||nanovisor.io^$important
 ||adcloud.net^$important
 ||adf.ly^$important
 ||adform.net^$important
@@ -74,10 +72,12 @@
 ||begun.ru^$important
 ||betsonsport.ru^$important,third-party
 ||betweendigital.com^$important
+||bf-ad.net^$important
 ||bfmio.com^$important
 ||bidswitch.net^$important
 ||bounceexchange.com^$important
 ||branch.io^$important
+||btttag.com^$important
 ||casalemedia.com^$important
 ||cdn.onesignal.com^$important
 ||cdn.ziffstatic.com^$important
@@ -85,6 +85,7 @@
 ||clarium.global.ssl.fastly.net^$important
 ||clck.ru^
 ||clickiocdn.com^$important
+||clicktripz.com^$important
 ||clksite.com^$important
 ||coinhive.com^$important
 ||connatix.com^$important
@@ -180,6 +181,7 @@
 ||mradx.net^$important
 ||mvunstblutptj.com^$important
 ||myvisualiq.net^$important
+||nanovisor.io^$important
 ||nativespot.com^$important
 ||navdmp.com^$important
 ||networkad.net^$important
@@ -218,6 +220,7 @@
 ||reddit.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.reddit.com *.redditmedia.com *.redditstatic.com reddit-uploaded-media.s3-accelerate.amazonaws.com *.redd.it
 ||relap.io^$important
 ||revcontent.com^$important
+||roosterfirework.com^$important
 ||rubiconproject.com^$important
 ||rutarget.ru^$important
 ||rutrk.org^$important

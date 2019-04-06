@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-04-07 10:43:43
-! Version: 20190407104343
+! Last modified: 2019-04-07 10:49:59
+! Version: 20190407104959
 ! Expires: 3 hours
-! Number of filters: 6273
+! Number of filters: 6278
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -4119,7 +4119,6 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*.jstatphp.$important
 |http*:*.jstatphp^$important
 |http*:*.jstatphp_$important
-|http*:*.lms-analytics/*.js$important,script
 |http*:*.log-
 |http*:*.log.
 |http*:*.log^$domain=~lgtm.com
@@ -4381,6 +4380,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*.yads.
 |http*:*.yads^
 |http*:*.yads_
+|http*:*/*.lms-analytics/*.js$important,script
 |http*:*/0.gif$image,important
 |http*:*/0.png$image,important,domain=~mail.yandex.by|~mail.yandex.ru|~mail.yandex.ua
 |http*:*/1x1.gif$image,important
@@ -4403,6 +4403,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/adblock.js$important,script
 |http*:*/adblockr.javascript$important,script
 |http*:*/adbp.js$important,script
+|http*:*/adengine.js$important,script
 |http*:*/adframe.js$important,script
 |http*:*/adition.*js$important,script
 |http*:*/adnext_iframe.js$important,script
@@ -4455,6 +4456,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/cgi-bin/ivw/$important,script,xmlhttprequest
 |http*:*/chartbeat.js$important,script
 |http*:*/clear.png$image,important
+|http*:*/click.js$important,script
 |http*:*/cloudcoins.js$important,script
 |http*:*/cloudcoins.min.js$important,script
 |http*:*/cn-asmjs.min.js$important,script
@@ -5966,6 +5968,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||begun.ru^$important
 ||betsonsport.ru^$important,third-party
 ||betweendigital.com^$important
+||bf-ad.net^$important
 ||bfmio.com^$important
 ||bidswitch.net^$important
 ||bing.com/fd/ls/$image,important,xmlhttprequest
@@ -5980,6 +5983,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||clarium.global.ssl.fastly.net^$important
 ||clck.ru^
 ||clickiocdn.com^$important
+||clicktripz.com^$important
 ||clksite.com^$important
 ||coinhive.com^$important
 ||collector.githubapp.com^$image,important
@@ -6179,6 +6183,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||redditstatic.com/moat^$important,script
 ||relap.io^$important
 ||revcontent.com^$important
+||roosterfirework.com^$important
 ||rover.ebay.*/roverimp/*&trknvp=$image,important
 ||rover.ebay.*^$image,important
 ||rubiconproject.com^$important
