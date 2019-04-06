@@ -11,6 +11,7 @@
 /^https?:\/\/[^\s]+\/ads(\.|\-|\_)?([0-9]{1,2}|[-a-z0-9_.]{5,}\.min)\.js/$important,script
 /^https?:\/\/[^\s]+\/fp([0-9]{1,2})?\.js/$important,script
 /^https?:\/\/[^\s]+\/piwik((\.|\-|\_)[0-9]{5,})?\.js/$important,script
+/^https?:\/\/[^\s]+\/s([0-9]{1,2})?\.js/$important,script
 /^https?:\/\/[^\s]+me([0-9]{1})?w\.js/$important,script
 /^https?:\/\/[^\s]+webmr([0-9]{1,2})?\.js/$important,script
 /^https?:\/\/cdn[0-9]{1,2}?\.rocks\/[^\s]{30,}\.js/$important,script
@@ -19,8 +20,8 @@
 |http*:*-vast-$script
 |http*:*-vast.$script
 |http*:*-vast^$script
-|http*:*.lms-analytics/*.js$important,script
 |http*:*-vast_$script
+|http*:*.lms-analytics/*.js$important,script
 |http*:*.vast-$script
 |http*:*.vast.$script
 |http*:*.vast^$script
@@ -145,7 +146,6 @@
 |http*:*/referrer.js$important,script
 |http*:*/runtimejs/intercept/*.js$important,script
 |http*:*/ruxitagentjs_$important,script
-|http*:*/s.js$important,script
 |http*:*/s_code.js$important,script
 |http*:*/safelinkconverter.js$important,script
 |http*:*/showads.js$important,script

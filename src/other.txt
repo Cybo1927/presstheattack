@@ -1,7 +1,7 @@
 /^https?:\/\/analytics[0-9]{1,2}?\./$important
 /^https?:\/\/c([0-9]{1,2})?\./$important,domain=~force.com|~ndtv.com|~newegg.com|~wp.com|~xavierstuder.com
 /^https?:\/\/log[0-9]{1,2}?\./$important
-/^https?:\/\/p([0-9]{1,2})?\./$important
+/^https?:\/\/p([0-9]{1,2})?\./$important,domain=~focus.de
 /^https?:\/\/r([0-9]{1,2})?\./$important
 |http*:*-MetaAdServer-$important
 |http*:*-MetaAdServer.$important
@@ -1643,7 +1643,7 @@
 |http*:*^promo-
 |http*:*^promo.$domain=~mail.ru
 |http*:*^promo^$domain=~kinopoisk.ru|~mail.ru|~ntv.ru
-|http*:*^promo_$domain=~livejournal.com|~livejournal.net|~vk.com|~otto.de
+|http*:*^promo_$domain=~livejournal.com|~livejournal.net|~vk.com|~otto.de|~xfinity.com
 |http*:*^promoted-
 |http*:*^promoted.
 |http*:*^promoted^
@@ -2020,14 +2020,14 @@
 |http*:*_baners.
 |http*:*_baners^
 |http*:*_baners_
-|http*:*_banner-$domain=~twitch.tv
+|http*:*_banner-$domain=~twitch.tv|~xfinity.com
 |http*:*_banner-ad-$important
 |http*:*_banner-ad.$important
 |http*:*_banner-ad^$important
 |http*:*_banner-ad_$important
 |http*:*_banner.
 |http*:*_banner^
-|http*:*_banner_
+|http*:*_banner_$domain=~xfinity.com
 |http*:*_banners-
 |http*:*_banners.
 |http*:*_banners^$domain=~ikea.com|~market.yandex.by|~market.yandex.ru|~market.yandex.ua|~twitter.com

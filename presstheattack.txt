@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-04-07 10:37:26
-! Version: 20190407103726
+! Last modified: 2019-04-07 10:43:43
+! Version: 20190407104343
 ! Expires: 3 hours
 ! Number of filters: 6273
 ! Homepage: https://github.com/bogachenko/presstheattack/
@@ -2782,7 +2782,7 @@
 /^https?:\/\/[^/]+\/[a-z0-9]{15,}(\?hope=.*)?$/$important,script
 /^https?:\/\/[^\s]+([^0-9]{1})pixel(\.png|\.gif|\?)/$image,important,object,xmlhttprequest
 /^https?:\/\/[^\s]+(\.|\-|\_)kameleoon(\.min)?\.js/$important,script
-/^https?:\/\/[^\s]+(\/|\.|\-|\_)(1|24|60|88|468|100|728|120|125|234|250|392|400|470|75|782|300|160|336)(x|\-|\_)(1|32|75|40|45|72|250|31|60|100|90|468|80|160|240|600|125|280)(\/|\.|\-|\_)/$image,important,script,domain=~9gag.com|~cbssports.com|~discogs.com|~etsy.com|~funnyjunk.com|~t-online.de|~twitter.com|~washingtonpost.com|~mopo.de|~slickdeals.net​
+/^https?:\/\/[^\s]+(\/|\.|\-|\_)(1|24|60|88|468|100|728|120|125|234|250|392|400|470|75|782|300|160|336)(x|\-|\_)(1|32|75|40|45|72|250|31|60|100|90|468|80|160|240|600|125|280)(\/|\.|\-|\_)/$image,important,script,domain=~9gag.com|~cbssports.com|~discogs.com|~etsy.com|~funnyjunk.com|~t-online.de|~twitter.com|~washingtonpost.com|~mopo.de|~slickdeals.net
 /^https?:\/\/[^\s]+(\_|\-)gtm\.js$script
 /^https?:\/\/[^\s]+(\_|\-)ping\.js/$important,script
 /^https?:\/\/[^\s]+(player|gen|client|csi|generate|stream|log)[\W|_]?204/$image,important,xmlhttprequest
@@ -2796,6 +2796,7 @@
 /^https?:\/\/[^\s]+\/fp([0-9]{1,2})?\.js/$important,script
 /^https?:\/\/[^\s]+\/piwik((\.|\-|\_)[0-9]{5,})?\.js/$important,script
 /^https?:\/\/[^\s]+\/popunder([0-9]{1,2})?\./$important,popup,script,xmlhttprequest
+/^https?:\/\/[^\s]+\/s([0-9]{1,2})?\.js/$important,script
 /^https?:\/\/[^\s]+google\.[A-Za-z0-9.]{2,7}\/log\?/$image,important,xmlhttprequest
 /^https?:\/\/[^\s]+log[\W|_]?(type|event|entry|request)/$image,important,xmlhttprequest
 /^https?:\/\/[^\s]+me([0-9]{1})?w\.js/$important,script
@@ -2809,7 +2810,7 @@
 /^https?:\/\/graph\.(facebook|instagram)\.com/$image,important,script,xmlhttprequest
 /^https?:\/\/log[0-9]{1,2}?\./$important
 /^https?:\/\/news\.yandex\.[^\s]{2,5}\/[^\s]{300,}/$important,subdocument,xmlhttprequest
-/^https?:\/\/p([0-9]{1,2})?\./$important
+/^https?:\/\/p([0-9]{1,2})?\./$important,domain=~focus.de
 /^https?:\/\/r([0-9]{1,2})?\./$important
 /^https?:\/\/s3\.amazonaws\.com\/.*[a-f0-9\/]{50,}/$important,third-party,xmlhttprequest,domain=~amazon.com
 /^https?:\/\/tv\.yandex\.[^\s]{2,5}\/[^\s]{270,}/$image,important,subdocument,xmlhttprequest
@@ -4579,7 +4580,6 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/runtimejs/intercept/*.js$important,script
 |http*:*/ruxitagentjs_$important,script
 |http*:*/s.gif$image,important
-|http*:*/s.js$important,script
 |http*:*/s.png$image,important
 |http*:*/s_code.js$important,script
 |http*:*/safelinkconverter.js$important,script
@@ -5101,7 +5101,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*^promo-
 |http*:*^promo.$domain=~mail.ru
 |http*:*^promo^$domain=~kinopoisk.ru|~mail.ru|~ntv.ru
-|http*:*^promo_$domain=~livejournal.com|~livejournal.net|~vk.com|~otto.de
+|http*:*^promo_$domain=~livejournal.com|~livejournal.net|~vk.com|~otto.de|~xfinity.com
 |http*:*^promoted-
 |http*:*^promoted.
 |http*:*^promoted^
@@ -5478,14 +5478,14 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*_baners.
 |http*:*_baners^
 |http*:*_baners_
-|http*:*_banner-$domain=~twitch.tv
+|http*:*_banner-$domain=~twitch.tv|~xfinity.com
 |http*:*_banner-ad-$important
 |http*:*_banner-ad.$important
 |http*:*_banner-ad^$important
 |http*:*_banner-ad_$important
 |http*:*_banner.
 |http*:*_banner^
-|http*:*_banner_
+|http*:*_banner_$domain=~xfinity.com
 |http*:*_banners-
 |http*:*_banners.
 |http*:*_banners^$domain=~ikea.com|~market.yandex.by|~market.yandex.ru|~market.yandex.ua|~twitter.com
