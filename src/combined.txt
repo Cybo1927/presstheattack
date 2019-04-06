@@ -1,6 +1,7 @@
 /^https?:\/\/[^\s]+([^0-9]{1})pixel(\.png|\.gif|\?)/$image,important,object,xmlhttprequest
 /^https?:\/\/[^\s]+(\/|\.|\-|\_)(1|24|60|88|468|100|728|120|125|234|250|392|400|470|75|782|300|160|336)(x|\-|\_)(1|32|75|40|45|72|250|31|60|100|90|468|80|160|240|600|125|280)(\/|\.|\-|\_)/$image,important,script,domain=~9gag.com|~cbssports.com|~discogs.com|~etsy.com|~funnyjunk.com|~t-online.de|~twitter.com|~washingtonpost.com|~mopo.de
 /^https?:\/\/[^\s]+(player|gen|client|csi|generate|stream|log)[\W|_]?204/$image,important,xmlhttprequest
+/^https?:\/\/[^\s]+\/advert(isement)?(\.|\-|\_)?[0-9]{1,2}\./$important,script,image,subdocument
 /^https?:\/\/[^\s]+\/fingerprint([0-9]{1,2})?(\.min)?\.js/$important,script,xmlhttprequest
 /^https?:\/\/[^\s]+\/popunder([0-9]{1,2})?\./$important,popup,script,xmlhttprequest
 /^https?:\/\/[^\s]+google\.[A-Za-z0-9.]{2,7}\/log\?/$image,important,xmlhttprequest

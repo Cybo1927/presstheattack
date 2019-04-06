@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-04-06 04:25:58
-! Version: 20190406042559
+! Last modified: 2019-04-07 10:12:50
+! Version: 20190407101250
 ! Expires: 3 hours
-! Number of filters: 6265
+! Number of filters: 6267
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2790,7 +2790,7 @@
 /^https?:\/\/[^\s]+\/([^\s]{4})?tag\.min\.([a-z0-9]{30,}\.)?js/$important,script
 /^https?:\/\/[^\s]+\/(fuck|block)adblock(\.min)?\.js/$important,script
 /^https?:\/\/[^\s]+\/ads(\.|\-|\_)?([0-9]{1,2}|[-a-z0-9_.]{5,}\.min)\.js/$important,script
-/^https?:\/\/[^\s]+\/advert(\.|\-|\_)?[0-9]{1,2}\.js/$important,script
+/^https?:\/\/[^\s]+\/advert(isement)?(\.|\-|\_)?[0-9]{1,2}\./$important,script,image,subdocument
 /^https?:\/\/[^\s]+\/banner[0-9]{1,2}?\.gif/$image,important
 /^https?:\/\/[^\s]+\/fingerprint([0-9]{1,2})?(\.min)?\.js/$important,script,xmlhttprequest
 /^https?:\/\/[^\s]+\/fp([0-9]{1,2})?\.js/$important,script
@@ -4899,7 +4899,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*^bipixel.
 |http*:*^bipixel^
 |http*:*^bipixel_
-|http*:*^campaign-
+|http*:*^campaign-$domain=mediamarkt.de
 |http*:*^campaign.
 |http*:*^campaign^
 |http*:*^campaign_
@@ -6143,6 +6143,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||optimizely.com^$important
 ||outbrain.com^$important
 ||pagefair.com^$important
+||pass.tmall.com/add^$script,important
 ||pb.m.naver.com^$important
 ||permutive.com^$important,script,subdocument
 ||perr.h-cdn.com^$important,xmlhttprequest
@@ -6286,6 +6287,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||youtube.com/ptracking^$image,important
 ||youtube.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.ggpht.com *.googlevideo.com *.ytimg.com *.googleusercontent.com www.youtube.com *.google.com *.gstatic.com
 ||ys3e965d.top^$important
+||zinrora.pw^$important
 ||zmctrack.net^$important
 ||zqtk.net^$important
 ~addons.mozilla.org##[class*="-ad-"]:not(html):not(body)
