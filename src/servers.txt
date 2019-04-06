@@ -15,6 +15,7 @@
 ||28f77rd30e.ru^$important
 ||*.vo.msecnd.net^$important
 ||aaxads.com^$important
+||btttag.com^$important
 ||adalliance.io^$important
 ||adbetclickin.pink^$important
 ||adbetnet.com^$important

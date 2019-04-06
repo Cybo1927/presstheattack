@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-04-07 10:28:34
-! Version: 20190407102834
+! Last modified: 2019-04-07 10:37:26
+! Version: 20190407103726
 ! Expires: 3 hours
-! Number of filters: 6270
+! Number of filters: 6273
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2782,7 +2782,7 @@
 /^https?:\/\/[^/]+\/[a-z0-9]{15,}(\?hope=.*)?$/$important,script
 /^https?:\/\/[^\s]+([^0-9]{1})pixel(\.png|\.gif|\?)/$image,important,object,xmlhttprequest
 /^https?:\/\/[^\s]+(\.|\-|\_)kameleoon(\.min)?\.js/$important,script
-/^https?:\/\/[^\s]+(\/|\.|\-|\_)(1|24|60|88|468|100|728|120|125|234|250|392|400|470|75|782|300|160|336)(x|\-|\_)(1|32|75|40|45|72|250|31|60|100|90|468|80|160|240|600|125|280)(\/|\.|\-|\_)/$image,important,script,domain=~9gag.com|~cbssports.com|~discogs.com|~etsy.com|~funnyjunk.com|~t-online.de|~twitter.com|~washingtonpost.com|~mopo.de
+/^https?:\/\/[^\s]+(\/|\.|\-|\_)(1|24|60|88|468|100|728|120|125|234|250|392|400|470|75|782|300|160|336)(x|\-|\_)(1|32|75|40|45|72|250|31|60|100|90|468|80|160|240|600|125|280)(\/|\.|\-|\_)/$image,important,script,domain=~9gag.com|~cbssports.com|~discogs.com|~etsy.com|~funnyjunk.com|~t-online.de|~twitter.com|~washingtonpost.com|~mopo.de|~slickdeals.net​
 /^https?:\/\/[^\s]+(\_|\-)gtm\.js$script
 /^https?:\/\/[^\s]+(\_|\-)ping\.js/$important,script
 /^https?:\/\/[^\s]+(player|gen|client|csi|generate|stream|log)[\W|_]?204/$image,important,xmlhttprequest
@@ -4118,6 +4118,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*.jstatphp.$important
 |http*:*.jstatphp^$important
 |http*:*.jstatphp_$important
+|http*:*.lms-analytics/*.js$important,script
 |http*:*.log-
 |http*:*.log.
 |http*:*.log^$domain=~lgtm.com
@@ -4403,6 +4404,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/adbp.js$important,script
 |http*:*/adframe.js$important,script
 |http*:*/adition.*js$important,script
+|http*:*/adnext_iframe.js$important,script
 |http*:*/ados.js$important,script
 |http*:*/adriver.*.js$important,script
 |http*:*/adrum.js^$important,script
@@ -5970,6 +5972,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||bit.ly^$popup
 ||bounceexchange.com^$important
 ||branch.io^$important
+||btttag.com^$important
 ||casalemedia.com^$important
 ||cdn.onesignal.com^$important
 ||cdn.ziffstatic.com^$important

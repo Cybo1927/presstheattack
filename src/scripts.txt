@@ -9,7 +9,6 @@
 /^https?:\/\/[^\s]+\/([^\s]{4})?tag\.min\.([a-z0-9]{30,}\.)?js/$important,script
 /^https?:\/\/[^\s]+\/(fuck|block)adblock(\.min)?\.js/$important,script
 /^https?:\/\/[^\s]+\/ads(\.|\-|\_)?([0-9]{1,2}|[-a-z0-9_.]{5,}\.min)\.js/$important,script
-||pass.tmall.com/add^$script,important
 /^https?:\/\/[^\s]+\/fp([0-9]{1,2})?\.js/$important,script
 /^https?:\/\/[^\s]+\/piwik((\.|\-|\_)[0-9]{5,})?\.js/$important,script
 /^https?:\/\/[^\s]+me([0-9]{1})?w\.js/$important,script
@@ -20,6 +19,7 @@
 |http*:*-vast-$script
 |http*:*-vast.$script
 |http*:*-vast^$script
+|http*:*.lms-analytics/*.js$important,script
 |http*:*-vast_$script
 |http*:*.vast-$script
 |http*:*.vast.$script
@@ -33,6 +33,7 @@
 |http*:*/adbp.js$important,script
 |http*:*/adframe.js$important,script
 |http*:*/adition.*js$important,script
+|http*:*/adnext_iframe.js$important,script
 |http*:*/ados.js$important,script
 |http*:*/adriver.*.js$important,script
 |http*:*/adrum.js^$important,script
@@ -213,6 +214,7 @@
 ||mail.ru/share_count^$important,script
 ||mail.yandex.*^$first-party,important,script
 ||msecnd.net/scripts/jsll-*.js$important,script
+||pass.tmall.com/add^$script,important
 ||quora.com/qevents.js$important,script
 ||redditstatic.com/moat^$important,script
 ||siftscience.com^$important,script
