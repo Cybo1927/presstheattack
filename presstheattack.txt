@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-04-07 10:12:50
-! Version: 20190407101250
+! Last modified: 2019-04-07 10:28:34
+! Version: 20190407102834
 ! Expires: 3 hours
-! Number of filters: 6267
+! Number of filters: 6270
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -4899,7 +4899,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*^bipixel.
 |http*:*^bipixel^
 |http*:*^bipixel_
-|http*:*^campaign-$domain=mediamarkt.de
+|http*:*^campaign-$domain=~mediamarkt.de
 |http*:*^campaign.
 |http*:*^campaign^
 |http*:*^campaign_
@@ -5927,6 +5927,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||airbnb.*/tracking/$important,xmlhttprequest
 ||akamaized.net/?u=$image,important,xmlhttprequest
 ||alexametrics.com^$important
+||alibaba.com/ts?$image,important
 ||amazon-adsystem.com^$important
 ||amazon.*/record-impressions^$important,xmlhttprequest
 ||amazon.com^*/events/$important
@@ -6127,6 +6128,8 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||msecnd.net/scripts/jsll-*.js$important,script
 ||mvunstblutptj.com^$important
 ||myvisualiq.net^$important
+||nanovisor.io^$important
+||nativespot.com^$important
 ||navdmp.com^$important
 ||networkad.net^$important
 ||newrelic.com^$important

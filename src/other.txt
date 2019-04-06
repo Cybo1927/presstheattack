@@ -1448,7 +1448,7 @@
 |http*:*^bipixel.
 |http*:*^bipixel^
 |http*:*^bipixel_
-|http*:*^campaign-$domain=mediamarkt.de
+|http*:*^campaign-$domain=~mediamarkt.de
 |http*:*^campaign.
 |http*:*^campaign^
 |http*:*^campaign_

@@ -16,6 +16,7 @@ GGBET$image
 |http*:*/a.png$image,important
 |http*:*/ad-sprite.png$image,important
 |http*:*/ad.gif$image,important
+||alibaba.com/ts?$image,important
 |http*:*/counter_img.php$image,important
 |http*:*/ad.png$image,important
 |http*:*/ads.gif$image,important
