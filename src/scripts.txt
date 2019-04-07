@@ -2,9 +2,9 @@
 /^https?:\/\/([a-z0-9]{3,10}\.)?[a-z0-9]{5,15}\.(click|com|bid|net|online|top|club)\/([a-z0-9]{2}\/){3}[a-f0-9]{32}\.js$/$important,script
 /^https?:\/\/([a-z0-9]{8,10}\.)?[a-z0-9]{5,14}\.(com|bid|online|top|club)\/([a-z0-9]{2}\/){3}[a-f0-9]{32}\.js$/$important,script,third-party
 /^https?:\/\/[^/]+\/[a-z0-9]{15,}(\?hope=.*)?$/$important,script
-/^https?:\/\/[^\s]+(\/|\.|\-|\_)kameleoon(\.min)?\.js/$important,script
-/^https?:\/\/[^\s]+(\/|\.|\-|\_)gtm\.js$script
 /^https?:\/\/[^\s]+(\/|\.|\-|\_)(lms\-|video|fig)?analytics(\.min)?\.js/$important,script
+/^https?:\/\/[^\s]+(\/|\.|\-|\_)gtm\.js$script
+/^https?:\/\/[^\s]+(\/|\.|\-|\_)kameleoon(\.min)?\.js/$important,script
 /^https?:\/\/[^\s]+(\/|\.|\-|\_)ping\.js/$important,script
 /^https?:\/\/[^\s]+\/([^\s]{4})?tag\.min\.([a-z0-9]{30,}\.)?js/$important,script
 /^https?:\/\/[^\s]+\/(fuck|block)adblock(\.min)?\.js/$important,script
@@ -163,11 +163,13 @@
 |http*:*/worker-asmjs.min.js$important,script
 |http*:*/xads.js$important,script
 |http*:*/xgemius.js$important,script
+|http*:*/xiti.js$important,script
 |http*:*/xminer.js$important,script
 |http*:*/xminer.min.js$important,script
 |http*:*/xmr-monero.js$important,script
 |http*:*/xmr.js$important,script
 |http*:*/xmr.min.js$important,script
+|http*:*/xtcore.js$important,script
 |http*:*/yads-async.js$important,script
 |http*:*/yads.js$important,script
 |http*:*/zbanner_consorzio.js$important,script
@@ -190,6 +192,7 @@
 ||duckduckgo.com/y.js$important,script
 ||ebay.com/scl/js/ScandalLoader.js$important,script
 ||ebayrtm.com/rtm?rtmcmd*&enc=$important,script
+||estat.com^$important,script
 ||google.*/ads/search/module/ads/*/search.js$important,script
 ||harvest.surge.sh/h.js$important,script
 ||heise.de/js/prebid*.js$important,script

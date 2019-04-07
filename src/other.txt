@@ -1,5 +1,5 @@
 /^https?:\/\/analytics[0-9]{1,2}?\./$important
-/^https?:\/\/c([0-9]{1,2})?\./$important,domain=~force.com|~ndtv.com|~newegg.com|~wp.com|~xavierstuder.com
+/^https?:\/\/c([0-9]{1,2})?\./$important,domain=~force.com|~ndtv.com|~newegg.com|~wp.com|~xavierstuder.com|~researchgate.net
 /^https?:\/\/log[0-9]{1,2}?\./$important
 /^https?:\/\/p([0-9]{1,2})?\./$important,domain=~focus.de
 /^https?:\/\/r([0-9]{1,2})?\./$important
@@ -2410,6 +2410,7 @@
 |http*:*_yads_
 |http*://ad.*^$important
 |http*://ads.*^$important
+|http*:*/col2/*&ss=$important
 |http*://analytics.*^$important
 |http*://counter.*^$important
 |http*://delivery.*^$third-party

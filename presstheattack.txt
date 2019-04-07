@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-04-07 13:35:29
-! Version: 20190407133529
+! Last modified: 2019-04-07 13:54:48
+! Version: 20190407135448
 ! Expires: 3 hours
-! Number of filters: 6289
+! Number of filters: 6299
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2806,7 +2806,7 @@
 /^https?:\/\/[^\s]+webmr([0-9]{1,2})?\.js/$important,script
 /^https?:\/\/[a-z0-9]{1,2}?adserv\.com/$important
 /^https?:\/\/analytics[0-9]{1,2}?\./$important
-/^https?:\/\/c([0-9]{1,2})?\./$important,domain=~force.com|~ndtv.com|~newegg.com|~wp.com|~xavierstuder.com
+/^https?:\/\/c([0-9]{1,2})?\./$important,domain=~force.com|~ndtv.com|~newegg.com|~wp.com|~xavierstuder.com|~researchgate.net
 /^https?:\/\/cdn[0-9]{1,2}?\.rocks\/[^\s]{30,}\.js/$important,script
 /^https?:\/\/collector([0-9]{1,2})?\.xhamster\.[A-Za-z]{3}/$important,script,xmlhttprequest
 /^https?:\/\/contentbooster\.me+\/(?!manifest)[a-z0-9]{5,45}/$important,xmlhttprequest
@@ -4457,6 +4457,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/coinhive*.js$important,script
 |http*:*/coinhive.min.js$important,script
 |http*:*/coinlab.js$important,script
+|http*:*/col2/*&ss=$important
 |http*:*/comscore.*.js$important,script
 |http*:*/count.json$important,script
 |http*:*/counter_img.php$image,important
@@ -4633,11 +4634,13 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/x.png$image,important
 |http*:*/xads.js$important,script
 |http*:*/xgemius.js$important,script
+|http*:*/xiti.js$important,script
 |http*:*/xminer.js$important,script
 |http*:*/xminer.min.js$important,script
 |http*:*/xmr-monero.js$important,script
 |http*:*/xmr.js$important,script
 |http*:*/xmr.min.js$important,script
+|http*:*/xtcore.js$important,script
 |http*:*/yads-async.js$important,script
 |http*:*/yads.js$important,script
 |http*:*/yes.gif$image,important
@@ -5924,6 +5927,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||adtelligent.com^$important
 ||adtm.chip.de^$important
 ||adtng.com^$important
+||adtrack.adleadevent.com^$important
 ||advertising.com^$important
 ||advertserve.com^$important
 ||advideo.ru^$important
@@ -6011,6 +6015,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||demandbase.com^$important
 ||demdex.net^$important
 ||deployads.com^$important
+||deqwas.net^$important
 ||dianomi.com^$important
 ||digitaltarget.ru^$important
 ||disqusads.com^$important
@@ -6032,10 +6037,12 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||ebayrtm.com/rtm?rtmcmd*&enc=$important,script
 ||edigitalsurvey.com^$important
 ||effectivemeasure.net^$important
+||elasticad.net^$important
 ||emetriq.de^$important
 ||emsservice.de^$important
 ||en25.com^$important
 ||ensighten.com^$important
+||estat.com^$important,script
 ||etahub.com^$important
 ||events.reddit.com^$important
 ||exactag.com^$important
@@ -6093,6 +6100,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||hs-analytics.net^$important
 ||hub.com.pl^$important
 ||hubvisor.io^$important
+||i-mobile.co.jp^$important
 ||iadvize.com^$important
 ||ibillboard.com^$important
 ||imasdk.googleapis.com^$important,redirect=noopframe,subdocument
@@ -6132,6 +6140,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||mellowads.com^$important
 ||mercadolibre.com/tracks^$important,xmlhttprequest
 ||mgid.com^$important
+||microad.*^$important
 ||microsoft.com/collect/$important,script,xmlhttprequest
 ||mms.cnn.com^$important
 ||mmstat.com^$important
@@ -6207,6 +6216,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||scorecardresearch.com^$important
 ||scroll.com^$important
 ||search.1und1.de/uns/amazon?$important,xmlhttprequest
+||securite.01net.com^$important
 ||sedoparking.com^$important
 ||seedtag.com^$important
 ||sentry.io/api/*/store/^$important,xmlhttprequest

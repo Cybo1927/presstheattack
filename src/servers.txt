@@ -12,7 +12,6 @@
 ||1-1ads.com^$important
 ||2mdn.net^$important
 ||3lift.com^$important
-||adtm.chip.de^$important
 ||28f77rd30e.ru^$important
 ||*.vo.msecnd.net^$important
 ||aaxads.com^$important
@@ -25,7 +24,10 @@
 ||adf.ly^$important
 ||adform.net^$important
 ||adfox.ru^$important
+||deqwas.net^$important
+||i-mobile.co.jp^$important
 ||adglare.net^$important
+||microad.*^$important
 ||adition.com^$important
 ||adkontekst.pl^$important
 ||adlightning.com^$important
@@ -48,7 +50,9 @@
 ||adsymptotic.com^$important
 ||adtechus.com^$important
 ||adtelligent.com^$important
+||adtm.chip.de^$important
 ||adtng.com^$important
+||adtrack.adleadevent.com^$important
 ||advertising.com^$important
 ||advertserve.com^$important
 ||advideo.ru^$important
@@ -117,6 +121,7 @@
 ||ds-aksb-a.akamaihd.net^$important
 ||edigitalsurvey.com^$important
 ||effectivemeasure.net^$important
+||elasticad.net^$important
 ||emetriq.de^$important
 ||emsservice.de^$important
 ||en25.com^$important
@@ -236,6 +241,7 @@
 ||sail-horizon.com^$important
 ||scorecardresearch.com^$important
 ||scroll.com^$important
+||securite.01net.com^$important
 ||sedoparking.com^$important
 ||seedtag.com^$important
 ||sharethrough.com^$important
