@@ -1,7 +1,7 @@
 /^https?:\/\/analytics[0-9]{1,2}?\./$important
 /^https?:\/\/c([0-9]{1,2})?\./$important,domain=~force.com|~ndtv.com|~newegg.com|~wp.com|~xavierstuder.com|~researchgate.net
 /^https?:\/\/log[0-9]{1,2}?\./$important
-/^https?:\/\/p([0-9]{1,2})?\./$important,domain=~focus.de
+/^https?:\/\/p([0-9]{1,2})?\./$important,domain=~focus.de|~drtuber.com
 /^https?:\/\/r([0-9]{1,2})?\./$important
 |http*:*-MetaAdServer-$important
 |http*:*-MetaAdServer.$important

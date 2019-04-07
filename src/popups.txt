@@ -1,7 +1,9 @@
 /^https?:\/\/(([0-9]{1,2})?l\-hit|([0-9]{1,2})?l-view|r([0-9]{1,2})?|rs|top\-fwz([0-9]{1,2})?|vk\.go|reklama|ad|ads|recostream\.go|[^\s]{10,}\.top|mediator|[^\s]{3,}\.radar|g?stat|top|xray)\.(imgs)?mail\.ru/$important,popup
+/^https?:\/\/[^\s]+\/(click|hit)?[A-Za-z]{1}\=[-A-Za-z0-9_=&]{90,}/$popup,important
 ://ads.$popup
 ://adv.$popup
 |http*:*/?ip=*&zoneid=$popup
+|http*:*/pops.js$important,popup
 |http*:*?*&lp=*id=$popup
 |http*:*?lp=*id=$popup
 ||bit.ly^$popup

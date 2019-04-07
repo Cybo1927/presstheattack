@@ -26,6 +26,7 @@
 |http*:*.vast^$script
 |http*:*.vast_$script
 |http*:*/accip_script.js$important,script
+|http*:*/pops.js$important,script
 |http*:*/adition.*js$important,script
 |http*:*/akam/10/$important,script
 |http*:*/annotations_module.js$script,domain=youtube.com

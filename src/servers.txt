@@ -13,6 +13,7 @@
 ||2mdn.net^$important
 ||3lift.com^$important
 ||28f77rd30e.ru^$important
+||69m.info^$important
 ||*.vo.msecnd.net^$important
 ||aaxads.com^$important
 ||adalliance.io^$important
@@ -24,10 +25,7 @@
 ||adf.ly^$important
 ||adform.net^$important
 ||adfox.ru^$important
-||deqwas.net^$important
-||i-mobile.co.jp^$important
 ||adglare.net^$important
-||microad.*^$important
 ||adition.com^$important
 ||adkontekst.pl^$important
 ||adlightning.com^$important
@@ -83,8 +81,10 @@
 ||bounceexchange.com^$important
 ||branch.io^$important
 ||btttag.com^$important
+||bzlwe.com^$important
 ||casalemedia.com^$important
 ||cdn.onesignal.com^$important
+||cdn.pljs.ru^$important
 ||cdn.ziffstatic.com^$important
 ||chartbeat.com^$important
 ||clarium.global.ssl.fastly.net^$important
@@ -111,6 +111,7 @@
 ||demandbase.com^$important
 ||demdex.net^$important
 ||deployads.com^$important
+||deqwas.net^$important
 ||dianomi.com^$important
 ||digitaltarget.ru^$important
 ||disqusads.com^$important
@@ -119,6 +120,7 @@
 ||doublepimp.com^$important
 ||doublepimpssl.com^$important
 ||ds-aksb-a.akamaihd.net^$important
+||dtprofit.com^$important
 ||edigitalsurvey.com^$important
 ||effectivemeasure.net^$important
 ||elasticad.net^$important
@@ -156,6 +158,7 @@
 ||hs-analytics.net^$important
 ||hub.com.pl^$important
 ||hubvisor.io^$important
+||i-mobile.co.jp^$important
 ||iadvize.com^$important
 ||ibillboard.com^$important
 ||imrworldwide.com^$important
@@ -185,15 +188,18 @@
 ||meetrics.net^$important
 ||mellowads.com^$important
 ||mgid.com^$important
+||microad.*^$important
 ||mms.cnn.com^$important
 ||mmstat.com^$important
 ||mmtro.com^$important
 ||moatads.com^$important
 ||mookie1.com^$important
+||mp-https.info^$important
 ||mpnrs.com^$important
 ||mradx.net^$important
 ||mvunstblutptj.com^$important
 ||myvisualiq.net^$important
+||n161adserv.com^$important
 ||nanovisor.io^$important
 ||nativespot.com^$important
 ||navdmp.com^$important
@@ -296,6 +302,7 @@
 ||webmasterplan.com^$important
 ||weborama.fr^$important
 ||worthathousandwords.com^$important
+||xcvgdf.party^$important
 ||xhamsterpremium.*^$important,third-party
 ||xiti.com^$important
 ||xpgcrmxejlgig.com^$important
@@ -305,6 +312,7 @@
 ||yieldlab.net^$important
 ||youtube.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.ggpht.com *.googlevideo.com *.ytimg.com *.googleusercontent.com www.youtube.com *.google.com *.gstatic.com
 ||ys3e965d.top^$important
+||ywhnh.top^$important
 ||zinrora.pw^$important
 ||zmctrack.net^$important
 ||zqtk.net^$important
