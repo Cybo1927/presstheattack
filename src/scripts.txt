@@ -8,7 +8,7 @@
 /^https?:\/\/[^\s]+(\/|\.|\-|\_)ping\.js/$important,script
 /^https?:\/\/[^\s]+\/([^\s]{4})?tag\.min\.([a-z0-9]{30,}\.)?js/$important,script
 /^https?:\/\/[^\s]+\/(fuck|block)adblock(\.min)?\.js/$important,script
-/^https?:\/\/[^\s]+\/ads(\/|\.|\-|\_)?([0-9]{1,2}|[-a-z0-9_.]{5,})?(\.min)?\.js/$important,script
+/^https?:\/\/[^\s]+\/ads[^A-Za-z0-9_]{1}?([0-9]{1,2}|[-a-z0-9_.]{5,})?(\.min)?\.js/$important,script
 /^https?:\/\/[^\s]+\/fp([0-9]{1,2})?\.js/$important,script
 /^https?:\/\/[^\s]+\/piwik((\/|\.|\-|\_)[0-9]{5,})?\.js/$important,script
 /^https?:\/\/[^\s]+\/s([0-9]{1,2})?\.js/$important,script
@@ -26,11 +26,11 @@
 |http*:*.vast^$script
 |http*:*.vast_$script
 |http*:*/accip_script.js$important,script
-|http*:*/pops.js$important,script
 |http*:*/adition.*js$important,script
 |http*:*/akam/10/$important,script
 |http*:*/annotations_module.js$script,domain=youtube.com
 |http*:*/antiadb.js$important,script
+|http*:*/appmeasurement.js$important,script
 |http*:*/apstag.js$important,script
 |http*:*/async-ads.js$important,script
 |http*:*/atrk.js$important,script
@@ -74,6 +74,7 @@
 |http*:*/dprocessor.js$important,script
 |http*:*/empty.js$important,script
 |http*:*/endscreen.js$script,domain=youtube.com
+|http*:*/flyertown_module.js$important,script
 |http*:*/fp/check.js$important,script
 |http*:*/ga-lite.js$important,script
 |http*:*/ga.js$important,script
@@ -118,6 +119,7 @@
 |http*:*/performancetimer.js$important,script
 |http*:*/ph-functions.js$important,script
 |http*:*/ph-tracking.js$important,script
+|http*:*/pops.js$important,script
 |http*:*/pptm.js$important,script
 |http*:*/processor.js$important,script
 |http*:*/projectpoi.min.js$important,script
@@ -145,6 +147,7 @@
 |http*:*/sw.js$first-party,script
 |http*:*/tnc.js?h=$important,script
 |http*:*/tr.js$important,script
+|http*:*/track.min.js$important,script
 |http*:*/tracker.js$important,script
 |http*:*/tracking.js$important,script
 |http*:*/utag.js$important,script
