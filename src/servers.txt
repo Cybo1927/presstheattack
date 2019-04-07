@@ -12,6 +12,7 @@
 ||1-1ads.com^$important
 ||2mdn.net^$important
 ||3lift.com^$important
+||adtm.chip.de^$important
 ||28f77rd30e.ru^$important
 ||*.vo.msecnd.net^$important
 ||aaxads.com^$important
