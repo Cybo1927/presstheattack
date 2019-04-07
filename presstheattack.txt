@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-04-08 00:01:32
-! Version: 20190408000132
+! Last modified: 2019-04-08 05:49:22
+! Version: 20190408054922
 ! Expires: 3 hours
-! Number of filters: 6321
+! Number of filters: 6325
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2782,7 +2782,7 @@
 /^https?:\/\/(www\.)?(facebookcorewwwi|facebook)\.(com|net|onion)\/tr\D/$important
 /^https?:\/\/2ch\.(hk|pm|re|tf|wf|yt)\/images\//$image,important
 /^https?:\/\/[^/]+\/[a-z0-9]{15,}(\?hope=.*)?$/$important,script
-/^https?:\/\/[^\s]+((\/|\.|\-|\_)ad(blocke?r|\_?track|block|bp|engine|frame|next\_iframe|os|river|rum|s?bygoogle|s|sdk|setup|config|\_loader|x\_iframe|swrap)?(\.[^\s]{1,})?\.(html|js|javascript)/$important,script,xmlhttprequest,subdocument
+/^https?:\/\/[^\s]+((\/|\.|\-|\_)ad(blocke?r|\_?track|block|bp|engine|frame|next\_iframe|os|river|rum|s?bygoogle|s|sdk|setup|config|\_loader|x\_iframe|swrap|mixer)?(\.[^\s]{1,})?\.(html|js|javascript)/$important,script,xmlhttprequest,subdocument
 /^https?:\/\/[^\s]+(\/|\.|\-|\_)(1|24|60|88|468|100|728|120|125|234|250|392|400|470|75|782|300|160|336)(x|\-|\_)(1|32|75|40|45|72|250|31|60|100|90|468|80|160|240|600|125|280)(\/|\.|\-|\_)/$image,important,script,domain=~9gag.com|~cbssports.com|~discogs.com|~etsy.com|~funnyjunk.com|~t-online.de|~twitter.com|~washingtonpost.com|~mopo.de|~slickdeals.net|~wellsfargo.com|~chip.de
 /^https?:\/\/[^\s]+(\/|\.|\-|\_)(lms\-|video|fig)?analytics(\.min)?\.js/$important,script
 /^https?:\/\/[^\s]+(\/|\.|\-|\_)gtm\.js$script
@@ -2790,14 +2790,15 @@
 /^https?:\/\/[^\s]+(\/|\.|\-|\_)ping\.js/$important,script
 /^https?:\/\/[^\s]+(\/|\.|\-|\_)pixel(\.png|\.gif|\?)/$image,important,object,xmlhttprequest
 /^https?:\/\/[^\s]+(player|gen|client|csi|generate|stream|log)[\W|_]?204/$image,important,xmlhttprequest
-/^https?:\/\/[^\s]+\.[A-Za-z]{2,6}\/(click|goclick|hit)\?[A-Za-z]{1}\=[^\s]{50,}/$popup,important
+/^https?:\/\/[^\s]+\.[A-Za-z]{2,6}\/(click|goclick|hit|next\.php)\?[A-Za-z]{1}\=[^\s]{50,}/$popup,important
 /^https?:\/\/[^\s]+\.[A-Za-z]{2,6}\/[^\s]{5,}\.js\?[A-Za-z]{1}\=[^\s]{50,}/$popup,important
 /^https?:\/\/[^\s]+\/([^\s]{4})?tag\.min\.([a-z0-9]{30,}\.)?js/$important,script
 /^https?:\/\/[^\s]+\/(fuck|block)adblock(\.min)?\.js/$important,script
-/^https?:\/\/[^\s]+\/ads[^A-Za-z0-9_]{1}?([0-9]{1,2}|[-a-z0-9_.]{5,})?(\.min)?\.js/$important,script
+/^https?:\/\/[^\s]+\/ads?([^A-Za-z0-9_]{1})?([0-9]{1,2}|[-a-z0-9_.]{5,})?(\.min)?\.js/$important,script
 /^https?:\/\/[^\s]+\/advert(isement|ising)?([0-9]{1,2})?\./$important,script,image,subdocument
 /^https?:\/\/[^\s]+\/banner[0-9]{1,2}\.gif/$image,important
 /^https?:\/\/[^\s]+\/bolpx[0-9]{1,2}\.gif/$image,important
+/^https?:\/\/[^\s]+\/dfp([0-9]{1})?\.js/$important,script
 /^https?:\/\/[^\s]+\/fingerprint([0-9]{1,2})?(\.min)?\.js/$important,script,xmlhttprequest
 /^https?:\/\/[^\s]+\/fp([0-9]{1,2})?\.js/$important,script
 /^https?:\/\/[^\s]+\/piwik((\/|\.|\-|\_)[0-9]{5,})?\.js/$important,script
@@ -4474,7 +4475,6 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/deepMiner.js$important,script
 |http*:*/deepMiner.min.js$important,script
 |http*:*/demandbase_*.js$important,script
-|http*:*/dfp.js$important,script
 |http*:*/dprocessor.js$important,script
 |http*:*/dtm/*/satellitelib$important,script,xmlhttprequest
 |http*:*/empty.gif$image,important
@@ -6102,12 +6102,14 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||gostats.com^$important
 ||gostats.ru^$important
 ||grapeshot.co.uk^$important
+||greatdexchange.com^$important
 ||gumgum.com^$important
 ||harvest.surge.sh/h.js$important,script
 ||heise.de/ivw-bin/ivw/cp/$image,important
 ||heise.de/js/prebid*.js$important,script
 ||histats.com^$important
 ||hit.interia.pl^$important
+||hook2up8.com^$important
 ||hostingcloud.win^$important
 ||hotjar.com^$important
 ||hotlog.ru^$important
@@ -6244,6 +6246,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||smartadserver.com^$important
 ||sonobi.com^$important
 ||ssl-images-amazon.com^*/ape/sf/*/dasf-$important,script
+||ssl2anyone3.com^$important
 ||ssp.rambler.ru^$important
 ||statcounter.com^$important
 ||static-mon.yandex.net/static/main.js$script,redirect=noopjs,important
@@ -6322,6 +6325,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||yahoo.co.jp/b?p=$image,important
 ||yahoo.com/pageview/$important,xmlhttprequest
 ||yahoo.com/sdarla/$important,subdocument
+||yandex.*/clck/$important
 ||yandex.*/pogoda/$first-party,important,inline-script
 ||yandex.net/get-direct$image,important
 ||yandex.ru/portal/$image,important

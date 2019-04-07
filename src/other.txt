@@ -1199,6 +1199,7 @@
 |http*:*/aff_i?offer_id=$important
 |http*:*/banners/*.swf^$important
 |http*:*/code/bshow.php?$important,third-party
+|http*:*/col2/*&ss=$important
 |http*:*/dear_code/*/goclick?t=*&ref=$important
 |http*:*/epubdelivery/
 |http*:*/google-conversion.html$document,important
@@ -2410,7 +2411,6 @@
 |http*:*_yads_
 |http*://ad.*^$important
 |http*://ads.*^$important
-|http*:*/col2/*&ss=$important
 |http*://analytics.*^$important
 |http*://counter.*^$important
 |http*://delivery.*^$third-party
@@ -2434,3 +2434,4 @@
 ||xing.com/collect/$important
 ||xing.com/logjam/$important
 ||xvideos.com/in.php^$important
+||yandex.*/clck/$important

@@ -155,6 +155,7 @@
 ||gumgum.com^$important
 ||histats.com^$important
 ||hit.interia.pl^$important
+||hook2up8.com^$important
 ||hostingcloud.win^$important
 ||hotjar.com^$important
 ||hotlog.ru^$important
@@ -259,6 +260,7 @@
 ||sharethrough.com^$important
 ||smartadserver.com^$important
 ||sonobi.com^$important
+||ssl2anyone3.com^$important
 ||ssp.rambler.ru^$important
 ||statcounter.com^$important
 ||steadfastsystem.com^$important
@@ -308,6 +310,7 @@
 ||webmasterplan.com^$important
 ||weborama.fr^$important
 ||worthathousandwords.com^$important
+||greatdexchange.com^$important
 ||xcvgdf.party^$important
 ||xhamsterpremium.*^$important,third-party
 ||xiti.com^$important
