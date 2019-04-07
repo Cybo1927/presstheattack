@@ -17,6 +17,10 @@
 ||*.vo.msecnd.net^$important
 ||aaxads.com^$important
 ||adalliance.io^$important
+||ntv.io^$important
+||jwpltx.com^$important
+||js-agent.newrelic.com^$important
+||clicktripz.com^$important
 ||adbetclickin.pink^$important
 ||adbetnet.com^$important
 ||adcdnx.com^$important

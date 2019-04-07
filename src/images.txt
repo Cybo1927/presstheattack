@@ -13,12 +13,11 @@ GGBET$image
 |http*:*/3x2.png$image,important
 |http*:*/32x32.gif$image,important
 |http*:*/32x32.png$image,important
+|http*:*/_.gif$image,important
 |http*:*/a.gif$image,important
 |http*:*/a.png$image,important
 |http*:*/ad-sprite.png$image,important
 |http*:*/ad.gif$image,important
-||alibaba.com/ts?$image,important
-|http*:*/counter_img.php$image,important
 |http*:*/ad.png$image,important
 |http*:*/ads.gif$image,important
 |http*:*/ads.png$image,important
@@ -30,6 +29,7 @@ GGBET$image
 |http*:*/c.png$image,important
 |http*:*/cc.gif$image,important
 |http*:*/clear.png$image,important
+|http*:*/counter_img.php$image,important
 |http*:*/empty.gif$image,important
 |http*:*/empty.png$image,important
 |http*:*/event.gif$image,important
@@ -88,6 +88,7 @@ GGBET$image
 |http*:*/z.png$image,important
 |http*:*^img^1x1$image,important,third-party
 |http*:*_fpn.gif$image,important
+||alibaba.com/ts?$image,important
 ||collector.githubapp.com^$image,important
 ||commander1.com^$image,important
 ||duckduckgo.com/t/$image,important

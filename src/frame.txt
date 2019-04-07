@@ -1,6 +1,7 @@
 |http*:*/pi.aspx$subdocument,important
 ||google.com/afs/$important,subdocument
 ||google.com/dp/ads?$important,subdocument
+||phncdn.com/iframe^$subdocument,important
 ||redditmedia.com/gtm/jail^$important,subdocument
 ||rutracker.org/iframe/$important,subdocument
 ||yahoo.com/sdarla/$important,subdocument
