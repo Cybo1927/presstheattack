@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-04-07 13:19:31
-! Version: 20190407131931
+! Last modified: 2019-04-07 13:23:22
+! Version: 20190407132322
 ! Expires: 3 hours
-! Number of filters: 6289
+! Number of filters: 6288
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2786,7 +2786,7 @@
 /^https?:\/\/[^\s]+(\/|\.|\-|\_)(1|24|60|88|468|100|728|120|125|234|250|392|400|470|75|782|300|160|336)(x|\-|\_)(1|32|75|40|45|72|250|31|60|100|90|468|80|160|240|600|125|280)(\/|\.|\-|\_)/$image,important,script,domain=~9gag.com|~cbssports.com|~discogs.com|~etsy.com|~funnyjunk.com|~t-online.de|~twitter.com|~washingtonpost.com|~mopo.de|~slickdeals.net|~wellsfargo.com|~chip.de
 /^https?:\/\/[^\s]+(\_|\-)gtm\.js$script
 /^https?:\/\/[^\s]+(\_|\-|\.|\/)(lms\-|video|fig)?analytics(\.min)?\.js/$important,script
-/^https?:\/\/[^\s]+(\_|\-|\/)ad(blocke?r|\_?track|block|bp|engine|frame|next\_iframe|os|river|rum|s?bygoogle|s|sdk|setup|config)?(\.[^\s]{1,})?\.(js|javascript)/$important,script
+/^https?:\/\/[^\s]+(\_|\-|\/)ad(blocke?r|\_?track|block|bp|engine|frame|next\_iframe|os|river|rum|s?bygoogle|s|sdk|setup|config|\_loader)?(\.[^\s]{1,})?\.(js|javascript)/$important,script,xmlhttprequest
 /^https?:\/\/[^\s]+(\_|\-|\/)ping\.js/$important,script
 /^https?:\/\/[^\s]+(player|gen|client|csi|generate|stream|log)[\W|_]?204/$image,important,xmlhttprequest
 /^https?:\/\/[^\s]+\/([^\s]{4})?tag\.min\.([a-z0-9]{30,}\.)?js/$important,script
@@ -4408,7 +4408,6 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/ad-sprite.png$image,important
 |http*:*/ad.gif$image,important
 |http*:*/ad.png$image,important
-|http*:*/ad_loader.js$important,script,xmlhttprequest
 |http*:*/adition.*js$important,script
 |http*:*/ads.gif$image,important
 |http*:*/ads.png$image,important

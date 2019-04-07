@@ -5,7 +5,6 @@
 /^https?:\/\/[^\s]+(\.|\-|\_)kameleoon(\.min)?\.js/$important,script
 /^https?:\/\/[^\s]+(\_|\-)gtm\.js$script
 /^https?:\/\/[^\s]+(\_|\-|\.|\/)(lms\-|video|fig)?analytics(\.min)?\.js/$important,script
-/^https?:\/\/[^\s]+(\_|\-|\/)ad(blocke?r|\_?track|block|bp|engine|frame|next\_iframe|os|river|rum|s?bygoogle|s|sdk|setup|config)?(\.[^\s]{1,})?\.(js|javascript)/$important,script
 /^https?:\/\/[^\s]+(\_|\-|\/)ping\.js/$important,script
 /^https?:\/\/[^\s]+\/([^\s]{4})?tag\.min\.([a-z0-9]{30,}\.)?js/$important,script
 /^https?:\/\/[^\s]+\/(fuck|block)adblock(\.min)?\.js/$important,script
