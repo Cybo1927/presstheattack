@@ -1434,7 +1434,7 @@
 |http*:*^banner-ad^$important
 |http*:*^banner-ad_$important
 |http*:*^banner.
-|http*:*^banner^$domain=~reddit.com
+|http*:*^banner^$domain=~reddit.com|~wellsfargo.com
 |http*:*^banner_
 |http*:*^banners-
 |http*:*^banners.

@@ -145,8 +145,10 @@
 ||hostingcloud.win^$important
 ||hotjar.com^$important
 ||hotlog.ru^$important
+||hs-analytics.net^$important
 ||hub.com.pl^$important
 ||hubvisor.io^$important
+||iadvize.com^$important
 ||ibillboard.com^$important
 ||imrworldwide.com^$important
 ||indexww.com^$important
@@ -175,6 +177,7 @@
 ||mgid.com^$important
 ||mms.cnn.com^$important
 ||mmstat.com^$important
+||mmtro.com^$important
 ||moatads.com^$important
 ||mookie1.com^$important
 ||mpnrs.com^$important

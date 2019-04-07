@@ -1,5 +1,6 @@
 /^https?:\/\/2ch\.(hk|pm|re|tf|wf|yt)\/images\//$image,important
-/^https?:\/\/[^\s]+\/banner[0-9]{1,2}?\.gif/$image,important
+/^https?:\/\/[^\s]+\/banner[0-9]{1,2}\.gif/$image,important
+/^https?:\/\/[^\s]+\/bolpx[0-9]{1,2}\.gif/$image,important
 1xbet$image,important
 1xstavka$image,important
 GGBET$image
@@ -61,7 +62,6 @@ GGBET$image
 |http*:*/px.png$image,important
 |http*:*/pxl.gif$image,important
 |http*:*/pxlctl.gif$image,important
-|http*:*/s.gif$image,important
 |http*:*/s.png$image,important
 |http*:*/sat.gif$image,important
 |http*:*/stat.gif$image,important
