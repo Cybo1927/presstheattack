@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-04-07 16:33:45
-! Version: 20190407163345
+! Last modified: 2019-04-07 22:28:53
+! Version: 20190407222853
 ! Expires: 3 hours
-! Number of filters: 6309
+! Number of filters: 6312
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2791,6 +2791,7 @@
 /^https?:\/\/[^\s]+(\/|\.|\-|\_)pixel(\.png|\.gif|\?)/$image,important,object,xmlhttprequest
 /^https?:\/\/[^\s]+(player|gen|client|csi|generate|stream|log)[\W|_]?204/$image,important,xmlhttprequest
 /^https?:\/\/[^\s]+\.[A-Za-z]{2,6}\/(click|goclick|hit)\?[A-Za-z]{1}\=[^\s]{50,}/$popup,important
+/^https?:\/\/[^\s]+\.[A-Za-z]{2,6}\/[^\s]{5,}\.js\?[A-Za-z]{1}\=[^\s]{50,}/$popup,important
 /^https?:\/\/[^\s]+\/([^\s]{4})?tag\.min\.([a-z0-9]{30,}\.)?js/$important,script
 /^https?:\/\/[^\s]+\/(fuck|block)adblock(\.min)?\.js/$important,script
 /^https?:\/\/[^\s]+\/ads(\/|\.|\-|\_)?([0-9]{1,2}|[-a-z0-9_.]{5,})?(\.min)?\.js/$important,script
@@ -6210,6 +6211,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||redditstatic.com/moat^$important,script
 ||relap.io^$important
 ||revcontent.com^$important
+||rfity.com^$important
 ||roosterfirework.com^$important
 ||rover.ebay.*/roverimp/*&trknvp=$image,important
 ||rover.ebay.*^$image,important
@@ -6327,6 +6329,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||youtube.com/get_midroll_info^$important,xmlhttprequest
 ||youtube.com/ptracking^$image,important
 ||youtube.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.ggpht.com *.googlevideo.com *.ytimg.com *.googleusercontent.com www.youtube.com *.google.com *.gstatic.com
+||yqeuu.com^$important
 ||ys3e965d.top^$important
 ||ywhnh.top^$important
 ||zinrora.pw^$important

@@ -1,5 +1,6 @@
 /^https?:\/\/(([0-9]{1,2})?l\-hit|([0-9]{1,2})?l-view|r([0-9]{1,2})?|rs|top\-fwz([0-9]{1,2})?|vk\.go|reklama|ad|ads|recostream\.go|[^\s]{10,}\.top|mediator|[^\s]{3,}\.radar|g?stat|top|xray)\.(imgs)?mail\.ru/$important,popup
 /^https?:\/\/[^\s]+\.[A-Za-z]{2,6}\/(click|goclick|hit)\?[A-Za-z]{1}\=[^\s]{50,}/$popup,important
+/^https?:\/\/[^\s]+\.[A-Za-z]{2,6}\/[^\s]{5,}\.js\?[A-Za-z]{1}\=[^\s]{50,}/$popup,important
 ://ads.$popup
 ://adv.$popup
 |http*:*/?ip=*&zoneid=$popup
