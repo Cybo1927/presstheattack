@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-04-08 07:36:02
-! Version: 20190408073602
+! Last modified: 2019-04-08 07:44:17
+! Version: 20190408074417
 ! Expires: 3 hours
 ! Number of filters: 6331
 ! Homepage: https://github.com/bogachenko/presstheattack/
@@ -2790,7 +2790,7 @@
 /^https?:\/\/[^\s]+(\/|\.|\-|\_)ping\.js/$important,script
 /^https?:\/\/[^\s]+(\/|\.|\-|\_)pixel(\.png|\.gif|\?)/$image,important,object,xmlhttprequest
 /^https?:\/\/[^\s]+(player|gen|client|csi|generate|stream|log)[\W|_]?204/$image,important,xmlhttprequest
-/^https?:\/\/[^\s]+\.[A-Za-z]{2,6}\/(dear\_code\/[0-9]{4}\/|[-A-Za-z0-9_]{5,8}\/[0-9]{4}|[^\s]{14,}\/|code\/)?([ck]li?ck|go[ck]li?ck|hit|(next|pl)\.php|[a-z]+\.js)?\?[A-Za-z]{1}\=([^\s]{50,}|[^\s]+ref\=|every\_([0-9]{1,2})?\_?sec)/$popup,important,script
+/^https?:\/\/[^\s]+\.[A-Za-z]{2,6}\/(dear\_code\/[0-9]{4}\/|[-A-Za-z0-9_]{5,8}\/[0-9]{4}|[^\s]{14,}\/|code\/)?([ck]li?ck|go[ck]li?ck|hit|(next|pl)\.php|[a-z]+\.js)?\?[A-Za-z]{1}\=([^\s]{50,}|[^\s]+ref\=|every(\_[0-9]{1,2})?\_sec)/$popup,important,script
 /^https?:\/\/[^\s]+\.[A-Za-z]{2,6}\/[^\s]{5,}\.js\?[A-Za-z]{1}\=[^\s]{50,}/$popup,important
 /^https?:\/\/[^\s]+\/([^\s]{4})?tag\.min\.([a-z0-9]{30,}\.)?js/$important,script
 /^https?:\/\/[^\s]+\/(fuck|block)adblock(\.min)?\.js/$important,script
