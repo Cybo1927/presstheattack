@@ -44,6 +44,7 @@ GGBET$image
 |http*:*/i?stm=$image,important
 |http*:*/img.gif$image,important
 |http*:*/img/ads.png$image,important
+|http*:*/imlive.gif$image,important
 |http*:*/imp.gif$image,important
 |http*:*/lumbar.gif$image,important
 |http*:*/lumbar.png$image,important

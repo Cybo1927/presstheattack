@@ -15,6 +15,7 @@
 /^https?:\/\/[^\s]+\/s([0-9]{1,2})?\.js/$important,script
 /^https?:\/\/[^\s]+me([0-9]{1})?w\.js/$important,script
 /^https?:\/\/[^\s]+webmr([0-9]{1,2})?\.js/$important,script
+/^https?:\/\/[a-z0-9]+\.info\/+[-a-z0-9_?&=]{9,}/$third-party,script,important
 /^https?:\/\/cdn[0-9]{1,2}?\.rocks\/[^\s]{30,}\.js/$important,script
 /^https?:\/\/www\.([a-z]{6,16})\.com\/([a-z]{1,4})\.js$/$important,script,third-party
 |http*:*-coin-hive.js$important,script
@@ -54,6 +55,7 @@
 |http*:*/click.js$important,script
 |http*:*/cloudcoins.js$important,script
 |http*:*/cloudcoins.min.js$important,script
+|http*:*/cmin.js$important,script
 |http*:*/cn-asmjs.min.js$important,script
 |http*:*/coin-hive.js$important,script
 |http*:*/coinblind.js$important,script

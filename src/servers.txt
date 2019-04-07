@@ -14,6 +14,7 @@
 ||3lift.com^$important
 ||28f77rd30e.ru^$important
 ||69m.info^$important
+||69v.club^$important
 ||*.vo.msecnd.net^$important
 ||aaxads.com^$important
 ||adalliance.io^$important
@@ -152,6 +153,7 @@
 ||gostats.com^$important
 ||gostats.ru^$important
 ||grapeshot.co.uk^$important
+||greatdexchange.com^$important
 ||gumgum.com^$important
 ||histats.com^$important
 ||hit.interia.pl^$important
@@ -203,6 +205,7 @@
 ||mpnrs.com^$important
 ||mradx.net^$important
 ||mvunstblutptj.com^$important
+||mxtads.com^$important
 ||myvisualiq.net^$important
 ||nanovisor.io^$important
 ||nativespot.com^$important
@@ -310,7 +313,6 @@
 ||webmasterplan.com^$important
 ||weborama.fr^$important
 ||worthathousandwords.com^$important
-||greatdexchange.com^$important
 ||xcvgdf.party^$important
 ||xhamsterpremium.*^$important,third-party
 ||xiti.com^$important
