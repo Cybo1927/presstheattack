@@ -243,6 +243,10 @@
 |http*:*-bipixel.
 |http*:*-bipixel^
 |http*:*-bipixel_
+|http*:*-bserver-
+|http*:*-bserver.
+|http*:*-bserver^
+|http*:*-bserver_
 |http*:*-campaign-
 |http*:*-campaign.
 |http*:*-campaign^
@@ -836,6 +840,10 @@
 |http*:*.bipixel.
 |http*:*.bipixel^
 |http*:*.bipixel_
+|http*:*.bserver-
+|http*:*.bserver.
+|http*:*.bserver^
+|http*:*.bserver_
 |http*:*.campaign-
 |http*:*.campaign.
 |http*:*.campaign^
@@ -1448,6 +1456,10 @@
 |http*:*^bipixel.
 |http*:*^bipixel^
 |http*:*^bipixel_
+|http*:*^bserver-
+|http*:*^bserver.
+|http*:*^bserver^
+|http*:*^bserver_
 |http*:*^campaign-$domain=~mediamarkt.de
 |http*:*^campaign.
 |http*:*^campaign^
@@ -2040,6 +2052,10 @@
 |http*:*_bipixel.
 |http*:*_bipixel^
 |http*:*_bipixel_
+|http*:*_bserver-
+|http*:*_bserver.
+|http*:*_bserver^
+|http*:*_bserver_
 |http*:*_campaign-
 |http*:*_campaign.
 |http*:*_campaign^

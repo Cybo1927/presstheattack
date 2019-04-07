@@ -18,6 +18,7 @@
 |http*:*/b/ss/*&ce=utf-8&$image,important,script
 |http*:*/cgi-bin/ivw/$important,script,xmlhttprequest
 |http*:*/dtm/*/satellitelib$important,script,xmlhttprequest
+|http*:*/tsrhitcounter.$important,script,image
 |http*:*/entry_stats?$important,script,xmlhttprequest
 |http*:*/events-collector.$important,script,xmlhttprequest
 |http*:*/fbpixel.$image,important,script,xmlhttprequest
