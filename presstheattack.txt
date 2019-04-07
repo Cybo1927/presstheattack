@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-04-07 11:08:37
-! Version: 20190407110837
+! Last modified: 2019-04-07 11:34:27
+! Version: 20190407113427
 ! Expires: 3 hours
-! Number of filters: 6280
+! Number of filters: 6278
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2785,12 +2785,13 @@
 /^https?:\/\/[^\s]+(\/|\.|\-|\_)(1|24|60|88|468|100|728|120|125|234|250|392|400|470|75|782|300|160|336)(x|\-|\_)(1|32|75|40|45|72|250|31|60|100|90|468|80|160|240|600|125|280)(\/|\.|\-|\_)/$image,important,script,domain=~9gag.com|~cbssports.com|~discogs.com|~etsy.com|~funnyjunk.com|~t-online.de|~twitter.com|~washingtonpost.com|~mopo.de|~slickdeals.net|~wellsfargo.com
 /^https?:\/\/[^\s]+(\_|\-)gtm\.js$script
 /^https?:\/\/[^\s]+(\_|\-)ping\.js/$important,script
+/^https?:\/\/[^\s]+(\_|\-|\.|\/)(lms\-|video|fig)?analytics(\.min)?\.js/$important,script
 /^https?:\/\/[^\s]+(player|gen|client|csi|generate|stream|log)[\W|_]?204/$image,important,xmlhttprequest
 /^https?:\/\/[^\s]+\.(ad|ae|al|am|as|at|az|ba|be|bf|bg|bi|bj|bs|bt|by|ca|cat|cd|cf|cg|ch|ci|cl|cm|cn|co.ao|co.bw|co.ck|co.cr|co.id|co.il|co.in|co.jp|co.ke|co.kr|co.ls|co.ma|co.mz|co.nz|co.th|co.tz|co.ug|co.uk|co.uz|co.ve|co.vi|co.za|co.zm|co.zw|com|com.af|com.ag|com.ai|com.ar|com.au|com.bd|com.bh|com.bn|com.bo|com.br|com.bz|com.co|com.cu|com.cy|com.do|com.ec|com.eg|com.et|com.fj|com.gh|com.gi|com.gt|com.hk|com.jm|com.kh|com.kw|com.lb|com.ly|com.mm|com.mt|com.mx|com.my|com.na|com.nf|com.ng|com.ni|com.np|com.om|com.pa|com.pe|com.pg|com.ph|com.pk|com.pr|com.py|com.qa|com.sa|com.sb|com.sg|com.sl|com.sv|com.tj|com.tr|com.tw|com.ua|com.uy|com.vc|com.vn|cv|cz|de|dj|dk|dm|dz|ee|es|fi|fm|fr|ga|ge|gg|gl|gm|gp|gr|gy|hn|hr|ht|hu|ie|im|iq|is|it|je|jo|kg|ki|kz|la|li|lk|lt|lu|lv|md|me|mg|mk|ml|mn|ms|mu|mv|mw|ne|nl|no|nr|nu|pl|pn|ps|pt|ro|rs|ru|rw|sc|se|sh|si|sk|sm|sn|so|sr|st|td|tg|tk|tl|tm|tn|to|tt|vg|vu|ws|net|tv|org)\/(ad[sv]|adb|rek|advt|rekl|rekla*m)\.js/$important,script
 /^https?:\/\/[^\s]+\/([^\s]{4})?tag\.min\.([a-z0-9]{30,}\.)?js/$important,script
 /^https?:\/\/[^\s]+\/(fuck|block)adblock(\.min)?\.js/$important,script
 /^https?:\/\/[^\s]+\/ads(\.|\-|\_)?([0-9]{1,2}|[-a-z0-9_.]{5,})?(\.min)?\.js/$important,script
-/^https?:\/\/[^\s]+\/advert(isement)?(\.|\-|\_)?[0-9]{1,2}\./$important,script,image,subdocument
+/^https?:\/\/[^\s]+\/advert(isement|ising)?([0-9]{1,2})?\./$important,script,image,subdocument
 /^https?:\/\/[^\s]+\/banner[0-9]{1,2}\.gif/$image,important
 /^https?:\/\/[^\s]+\/bolpx[0-9]{1,2}\.gif/$image,important
 /^https?:\/\/[^\s]+\/fingerprint([0-9]{1,2})?(\.min)?\.js/$important,script,xmlhttprequest
@@ -4381,7 +4382,6 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*.yads.
 |http*:*.yads^
 |http*:*.yads_
-|http*:*/*.lms-analytics/*.js$important,script
 |http*:*/0.gif$image,important
 |http*:*/0.png$image,important,domain=~mail.yandex.by|~mail.yandex.ru|~mail.yandex.ua
 |http*:*/1x1.gif$image,important
@@ -4416,12 +4416,9 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/adsbygoogle.js$important,script
 |http*:*/adsdk.js$important,script
 |http*:*/adsetup.js$important,script
-|http*:*/advert.js$important,script
-|http*:*/advertising.js$important,script
 |http*:*/aff_i?offer_id=$important
 |http*:*/akam/10/$important,script
 |http*:*/amp.gif$image,important,xmlhttprequest
-|http*:*/analytics.js$important,script
 |http*:*/annotations_module.js$script,domain=youtube.com
 |http*:*/antiadb.js$important,script
 |http*:*/apstag.js$important,script
@@ -4491,7 +4488,6 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/event.png$image,important
 |http*:*/events-collector.$important,script,xmlhttprequest
 |http*:*/fbpixel.$image,important,script,xmlhttprequest
-|http*:*/figanalytics.js$important,script
 |http*:*/fp/check.js$important,script
 |http*:*/fpn.gif$image,important
 |http*:*/ga-lite.js$important,script
@@ -4613,9 +4609,9 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/tracker.js$important,script
 |http*:*/tracking.js$important,script
 |http*:*/trg.gif$image,important
+|http*:*/utag.js$important,script
 |http*:*/utrack.js$important,script
 |http*:*/uutils.fcg^$important,script
-|http*:*/videoanalytics.$important,script
 |http*:*/videojs.ads.js$important,script
 |http*:*/view.gif$image,important
 |http*:*/view.png$image,important
@@ -6031,6 +6027,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||effectivemeasure.net^$important
 ||emetriq.de^$important
 ||emsservice.de^$important
+||en25.com^$important
 ||ensighten.com^$important
 ||etahub.com^$important
 ||events.reddit.com^$important
@@ -6277,6 +6274,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||xhamsterpremium.*^$important,third-party
 ||xing.com/collect/$important
 ||xing.com/logjam/$important
+||xiti.com^$important
 ||xpgcrmxejlgig.com^$important
 ||xvideos.com/in.php^$important
 ||yadro.ru^$important

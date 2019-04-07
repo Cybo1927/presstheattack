@@ -13,6 +13,7 @@
 ||2mdn.net^$important
 ||3lift.com^$important
 ||28f77rd30e.ru^$important
+||en25.com^$important
 ||*.vo.msecnd.net^$important
 ||aaxads.com^$important
 ||adalliance.io^$important
@@ -20,6 +21,7 @@
 ||adbetnet.com^$important
 ||adcdnx.com^$important
 ||adclear.net^$important
+||xiti.com^$important
 ||adcloud.net^$important
 ||adf.ly^$important
 ||adform.net^$important
