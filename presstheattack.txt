@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-04-08 08:08:09
-! Version: 20190408080809
+! Last modified: 2019-04-08 08:22:29
+! Version: 20190408082229
 ! Expires: 3 hours
-! Number of filters: 6331
+! Number of filters: 6332
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2782,9 +2782,9 @@
 /^https?:\/\/(www\.)?(facebookcorewwwi|facebook)\.(com|net|onion)\/tr\D/$important
 /^https?:\/\/2ch\.(hk|pm|re|tf|wf|yt)\/images\//$image,important
 /^https?:\/\/[^/]+\/[a-z0-9]{15,}(\?hope=.*)?$/$important,script
-/^https?:\/\/[^\s]+((\/|\.|\-|\_)ad(blocke?r|\_?track|block|bp|engine|frame|next\_iframe|os|river|rum|s?bygoogle|s|sdk|setup|config|\_loader|x\_iframe|swrap|mixer)?(\.[^\s]{1,})?\.(html|js|javascript)/$important,script,xmlhttprequest,subdocument
 /^https?:\/\/[^\s]+(\/|\.|\-|\_)(1|24|60|88|468|100|728|120|125|234|250|392|400|470|75|782|300|160|336)(x|\-|\_)(1|32|75|40|45|72|250|31|60|100|90|468|80|160|240|600|125|280)(\/|\.|\-|\_)/$image,important,script,domain=~9gag.com|~cbssports.com|~discogs.com|~etsy.com|~funnyjunk.com|~t-online.de|~twitter.com|~washingtonpost.com|~mopo.de|~slickdeals.net|~wellsfargo.com|~chip.de
 /^https?:\/\/[^\s]+(\/|\.|\-|\_)(lms\-|video|fig)?analytics(\.min)?\.js/$important,script
+/^https?:\/\/[^\s]+(\/|\.|\-|\_)ad(blocke?r|\_?track|block|bp|engine|frame|next\_iframe|os|river|rum|s?bygoogle|s|sdk|setup|config|\_loader|x\_iframe|swrap|mixer)?(\.[^\s]{1,})?\.(html|js|javascript)/$important,script,xmlhttprequest,subdocument
 /^https?:\/\/[^\s]+(\/|\.|\-|\_)gtm\.js$script
 /^https?:\/\/[^\s]+(\/|\.|\-|\_)kameleoon(\.min)?\.js/$important,script
 /^https?:\/\/[^\s]+(\/|\.|\-|\_)ping\.js/$important,script
@@ -2887,6 +2887,7 @@
 @@||fly.co.uk^$elemhide,badfilter
 @@||fly24.co.uk^$elemhide,badfilter
 @@||geld.de^$elemhide,badfilter
+@@||github.com/search/count?q=*&type=*^$xmlhttprequest
 @@||githubusercontent.com^$image
 @@||google.com/recaptcha/$script
 @@||googlevideo.com/*?*&ip=$third-party
@@ -4415,7 +4416,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/adition.*js$important,script
 |http*:*/ads.gif$image,important
 |http*:*/ads.png$image,important
-|http*:*/aff_i?offer_id=
+|http*:*/aff_i?offer_id=$important
 |http*:*/akam/10/$important,script
 |http*:*/amp.gif$image,important,xmlhttprequest
 |http*:*/annotations_module.js$script,domain=youtube.com
@@ -4435,7 +4436,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/banner/*.gif$image,important
 |http*:*/banners.js$important,script
 |http*:*/banners/*.gif$image,important
-|http*:*/banners/*.swf^
+|http*:*/banners/*.swf^$important
 |http*:*/bens/vinos.js$important,script
 |http*:*/bitcoincore/?ref=$important,script
 |http*:*/bk-coretag.js$important,script
@@ -4457,13 +4458,13 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/cloudcoins.min.js$important,script
 |http*:*/cmin.js$important,script
 |http*:*/cn-asmjs.min.js$important,script
-|http*:*/code/bshow.php?,third-party
+|http*:*/code/bshow.php?$important,third-party
 |http*:*/coin-hive.js$important,script
 |http*:*/coinblind.js$important,script
 |http*:*/coinhive*.js$important,script
 |http*:*/coinhive.min.js$important,script
 |http*:*/coinlab.js$important,script
-|http*:*/col2/*&ss=
+|http*:*/col2/*&ss=$important
 |http*:*/comscore.*.js$important,script
 |http*:*/count.json$important,script
 |http*:*/counter_img.php$image,important
@@ -4473,7 +4474,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/cryptocpu.js$important,script
 |http*:*/cryptonight.wasm$important,script
 |http*:*/dc_performance.js$important,script
-|http*:*/dear_code/*/goclick?t=*&ref=
+|http*:*/dear_code/*/goclick?t=*&ref=$important
 |http*:*/deepMiner.js$important,script
 |http*:*/deepMiner.min.js$important,script
 |http*:*/demandbase_*.js$important,script
@@ -4484,7 +4485,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/empty.png$image,important
 |http*:*/endscreen.js$script,domain=youtube.com
 |http*:*/entry_stats?$important,script,xmlhttprequest
-|http*:*/epubdelivery/
+|http*:*/epubdelivery/$important
 |http*:*/event.gif$image,important
 |http*:*/event.png$image,important
 |http*:*/events-collector.$important,script,xmlhttprequest
@@ -4501,7 +4502,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/geo?$script
 |http*:*/glb-pv-min.js$important,script
 |http*:*/glp?r=*&rw=*&rh=*&ww=*&wh=$important,script
-|http*:*/google-conversion.html$document,important
+|http*:*/google-conversion.html$important
 |http*:*/gpt.js$important,script
 |http*:*/greenoaks.gif$image,important
 |http*:*/gridcash.js$important,script
@@ -4522,7 +4523,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/img/ads.png$image,important
 |http*:*/imlive.gif$image,important
 |http*:*/imp.gif$image,important
-|http*:*/in.php?p=
+|http*:*/in.php?p=$important
 |http*:*/invoke.js$important,script
 |http*:*/iwa.js$important,script
 |http*:*/js.gif$image,important,script
@@ -4570,7 +4571,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/prum.$important,script
 |http*:*/pv.gif$image,important
 |http*:*/pv.png$image,important
-|http*:*/pv?fe=*&elg=
+|http*:*/pv?fe=*&elg=$important
 |http*:*/pw.js$important,script
 |http*:*/px.gif$image,important
 |http*:*/px.js$important,script
@@ -4658,21 +4659,21 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/z.gif$image,important
 |http*:*/z.png$image,important
 |http*:*/zbanner_consorzio.js$important,script
-|http*:*=widgetimpression&
+|http*:*=widgetimpression&$important
 |http*:*?*&ip=$third-party
 |http*:*?*&lp=*id=$popup
 |http*:*?_siteid=$important,script,xmlhttprequest
-|http*:*?act=counter&
+|http*:*?act=counter&$important
 |http*:*?ip=$third-party
 |http*:*?lp=*id=$popup
 |http*:*?partner=$third-party
 |http*:*?partner_id=$third-party
 |http*:*?PartnerID=$third-party
-|http*:*?perfekt=wss://*^
-|http*:*?proxy=ws://*^
-|http*:*?proxy=wss://*^
-|http*:*?type=pageview&
-|http*:*?zoneid=
+|http*:*?perfekt=wss://*^$important
+|http*:*?proxy=ws://*^$important
+|http*:*?proxy=wss://*^$important
+|http*:*?type=pageview&$important
+|http*:*?zoneid=$important
 |http*:*^ad-$domain=~leboncoin.fr
 |http*:*^ad-sdk-
 |http*:*^ad-sdk.
@@ -5113,7 +5114,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*^promo-
 |http*:*^promo.$domain=~mail.ru
 |http*:*^promo^$domain=~kinopoisk.ru|~mail.ru|~ntv.ru
-|http*:*^promo_$domain=~livejournal.com|~livejournal.net|~vk.com|~otto.de|~xfinity.com
+|http*:*^promo_$domain=~livejournal.com|~livejournal.net|~vk.com|~otto.de|~xfinity.com|~1tv.ru
 |http*:*^promoted-
 |http*:*^promoted.
 |http*:*^promoted^
