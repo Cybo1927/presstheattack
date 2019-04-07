@@ -13,19 +13,13 @@
 ||2mdn.net^$important
 ||3lift.com^$important
 ||28f77rd30e.ru^$important
-||en25.com^$important
 ||*.vo.msecnd.net^$important
 ||aaxads.com^$important
 ||adalliance.io^$important
-||ntv.io^$important
-||jwpltx.com^$important
-||js-agent.newrelic.com^$important
-||clicktripz.com^$important
 ||adbetclickin.pink^$important
 ||adbetnet.com^$important
 ||adcdnx.com^$important
 ||adclear.net^$important
-||xiti.com^$important
 ||adcloud.net^$important
 ||adf.ly^$important
 ||adform.net^$important
@@ -123,6 +117,7 @@
 ||effectivemeasure.net^$important
 ||emetriq.de^$important
 ||emsservice.de^$important
+||en25.com^$important
 ||ensighten.com^$important
 ||etahub.com^$important
 ||events.reddit.com^$important
@@ -164,7 +159,9 @@
 ||iocnt.net^$important
 ||ipinfo.io^$important
 ||iwanttodeliver.com^$important
+||js-agent.newrelic.com^$important
 ||justicejudo.com^$important
+||jwpltx.com^$important
 ||keywee.co^$important
 ||krxd.net^$important
 ||lcs.naver.com^$important
@@ -196,6 +193,7 @@
 ||networkad.net^$important
 ||newrelic.com^$important
 ||nil.naver.com^$important
+||ntv.io^$important
 ||nuggad.net^$important
 ||omtrdc.net^$important
 ||onclasrv.com^$important
@@ -291,6 +289,7 @@
 ||weborama.fr^$important
 ||worthathousandwords.com^$important
 ||xhamsterpremium.*^$important,third-party
+||xiti.com^$important
 ||xpgcrmxejlgig.com^$important
 ||yadro.ru^$important
 ||yandex.st^$domain=~yandex.by|~yandex.ru|~yandex.ua

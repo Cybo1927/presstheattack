@@ -25,8 +25,6 @@
 |http*:*.vast.$script
 |http*:*.vast^$script
 |http*:*.vast_$script
-|http*/ht.js$script
-|http*:*/utag.js$important,script
 |http*:*/accip_script.js$important,script
 |http*:*/ad.js$important,script
 |http*:*/ad_track.js$important,script
@@ -104,6 +102,7 @@
 |http*:*/gujAd.js$important,script
 |http*:*/hive.js$important,script
 |http*:*/hstrck-detect.js$important,script
+|http*:*/ht.js$script,important
 |http*:*/ht.js?site^$important,script
 |http*:*/hubvisor.js$important,script
 |http*:*/ima3.js$important,script
@@ -161,6 +160,7 @@
 |http*:*/tr.js$important,script
 |http*:*/tracker.js$important,script
 |http*:*/tracking.js$important,script
+|http*:*/utag.js$important,script
 |http*:*/utrack.js$important,script
 |http*:*/uutils.fcg^$important,script
 |http*:*/videojs.ads.js$important,script

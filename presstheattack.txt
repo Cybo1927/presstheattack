@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-04-07 12:51:19
-! Version: 20190407125119
+! Last modified: 2019-04-07 13:04:20
+! Version: 20190407130420
 ! Expires: 3 hours
 ! Number of filters: 6301
 ! Homepage: https://github.com/bogachenko/presstheattack/
@@ -2761,6 +2761,7 @@
 */cleardot.gif$xmlhttprequest,redirect=nooptext,important
 */cleardot.png$image,important,redirect=1x1-transparent.gif
 */cleardot.png$xmlhttprequest,redirect=nooptext,important
+*/googima.js$script,redirect=noopjs,important
 */ping^$important,redirect=noopframe,subdocument
 */spacer.gif$image,redirect=1x1-transparent.gif
 */spacer.png$image,redirect=1x1-transparent.gif
@@ -3186,7 +3187,6 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(AdvManager)
 yandex.by,yandex.ru,yandex.ua##^script:has-text(defaultMetrikaCounter)
 yandex.by,yandex.ru,yandex.ua##^script:has-text(devicePixelRatio)
 yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
-|http*/ht.js$script
 |http*:*-ad-
 |http*:*-ad-sdk-$important
 |http*:*-ad-sdk.$important
@@ -4518,6 +4518,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/hive.js$important,script
 |http*:*/horizon-pageview?$image
 |http*:*/hstrck-detect.js$important,script
+|http*:*/ht.js$script,important
 |http*:*/ht.js?site^$important,script
 |http*:*/hubvisor.js$important,script
 |http*:*/i.gif$image,important
@@ -5996,7 +5997,6 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||clarium.global.ssl.fastly.net^$important
 ||clck.ru^
 ||clickiocdn.com^$important
-||clicktripz.com^$important
 ||clicktripz.com^$important
 ||clksite.com^$important
 ||coinhive.com^$important
