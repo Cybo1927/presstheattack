@@ -1,3 +1,4 @@
+|http*:*/google-conversion.html$important,subdocument
 |http*:*/pi.aspx$subdocument,important
 |http*:*/player_ads.html$subdocument,important
 ||google.com/afs/$important,subdocument

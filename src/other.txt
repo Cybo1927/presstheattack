@@ -1202,7 +1202,6 @@
 |http*:*/col2/*&ss=$important
 |http*:*/dear_code/*/goclick?t=*&ref=$important
 |http*:*/epubdelivery/$important
-|http*:*/google-conversion.html$important
 |http*:*/in.php?p=$important
 |http*:*/pv?fe=*&elg=$important
 |http*:*=widgetimpression&$important
