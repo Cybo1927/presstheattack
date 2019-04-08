@@ -150,7 +150,7 @@
 |http*:*/sw.js$first-party,important,script
 |http*:*/sw.js$first-party,script
 |http*:*/tnc.js?h=$important,script
-|http*:*/tr.js$important,script
+|http*:*/tr.js$important,script,domain=~yandex.ru|~yandex.ua|~yandex.by
 |http*:*/track.min.js$important,script
 |http*:*/tracker.js$important,script
 |http*:*/tracking.js$important,script
