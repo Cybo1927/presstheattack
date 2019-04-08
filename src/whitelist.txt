@@ -278,6 +278,9 @@
 @@||trovitbrasil.com.br^$elemhide,badfilter
 @@||ttvnw.net^$xmlhttprequest,domain=twitch.tv
 @@||urlaubstours.de^$elemhide,badfilter
+@@||translate.yandex.net/api/*/tr.json$script
+@@||yandex.*/search/?*&text=$xmlhttprequest
+@@||yandex.*/search/adresa-geolocation?*&text=$xmlhttprequest
 @@||vergleiche.de^$elemhide,badfilter
 @@||versicherungen.de^$elemhide,badfilter
 @@||veturo.de^$elemhide,badfilter
