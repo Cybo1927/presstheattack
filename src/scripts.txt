@@ -8,7 +8,7 @@
 /^https?:\/\/[^\s]+(\/|\.|\-|\_)ping\.js/$important,script
 /^https?:\/\/[^\s]+\/([^\s]{4})?tag\.min\.([a-z0-9]{30,}\.)?js/$important,script
 /^https?:\/\/[^\s]+\/(fuck|block)adblock(\.min)?\.js/$important,script
-/^https?:\/\/[^\s]+\/ads?([^A-Za-z0-9_]{1})?([0-9]{1,2}|[-a-z0-9_.]{5,})?(\.min)?\.js/$important,script
+/^https?:\/\/[^\s]+\/ads([^A-Za-z0-9_]{1})?([0-9]{1,2}|[-a-z0-9_.]{5,})?(\.min)?\.js/$important,script
 /^https?:\/\/[^\s]+\/dfp([0-9]{1})?\.js/$important,script
 /^https?:\/\/[^\s]+\/fp([0-9]{1,2})?\.js/$important,script
 /^https?:\/\/[^\s]+\/piwik((\/|\.|\-|\_)[0-9]{5,})?\.js/$important,script
@@ -86,6 +86,7 @@
 |http*:*/geo?$script
 |http*:*/glb-pv-min.js$important,script
 |http*:*/glp?r=*&rw=*&rh=*&ww=*&wh=$important,script
+|http*:*/googlead.js$important,script
 |http*:*/gpt.js$important,script
 |http*:*/gridcash.js$important,script
 |http*:*/gtm.js$important,script
@@ -126,6 +127,7 @@
 |http*:*/processor.js$important,script
 |http*:*/projectpoi.min.js$important,script
 |http*:*/prum.$important,script
+|http*:*/publishertag.js$important,script
 |http*:*/pw.js$important,script
 |http*:*/px.js$important,script
 |http*:*/raven.js$important,script

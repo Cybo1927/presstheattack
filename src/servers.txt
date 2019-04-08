@@ -65,6 +65,7 @@
 ||amung.us^$important
 ||analytics.edgekey.net^$important
 ||analytics.twitter.com^$important
+||aniview.com^$important
 ||atdmt.com^$important
 ||atwola.com^$important
 ||b1img.com^$important
@@ -92,6 +93,7 @@
 ||chartbeat.com^$important
 ||clarium.global.ssl.fastly.net^$important
 ||clck.ru^
+||clevernt.com^$important
 ||clickiocdn.com^$important
 ||clicktripz.com^$important
 ||clksite.com^$important
@@ -99,10 +101,12 @@
 ||connatix.com^$important
 ||connect.facebook.net^
 ||connect.ok.ru^
+||content-ad.net^$important
 ||conviva.com^$important
 ||cookielaw.org^$third-party
 ||count.taobao.com^$important
 ||cpaevent.ru^$important
+||cpmstar.com^$important
 ||crazyegg.com^$important
 ||criteo.com^$important
 ||criteo.net^$important
@@ -183,6 +187,7 @@
 ||lcs.naver.com^$important
 ||ligatus.com^$important
 ||lijit.com^$important
+||liqwid.net^$important
 ||logentries.com^$important
 ||logql.yahoo.co.jp^$important
 ||logxp.ru^$important
@@ -261,6 +266,7 @@
 ||sedoparking.com^$important
 ||seedtag.com^$important
 ||sharethrough.com^$important
+||skimresources.com^$important
 ||smartadserver.com^$important
 ||sonobi.com^$important
 ||ssl2anyone3.com^$important

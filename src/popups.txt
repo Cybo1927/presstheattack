@@ -6,10 +6,11 @@
 |http*:*/pops.js$important,popup
 |http*:*?*&lp=*id=$popup
 |http*:*?lp=*id=$popup
-||bit.ly^$popup
+||bit.ly^$popup,important
 ||data.*.com^$popunder,popup
 ||data.*.info^$popunder,popup
 ||data.*.net^$popunder,popup
+||data:text/html;base64$popup
 ||doubleclick.com^$important,popup
 ||doubleclick.net^$important,popup
 ||yastatic.net^$important,popup

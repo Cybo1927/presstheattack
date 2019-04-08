@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-04-08 08:22:29
-! Version: 20190408082229
+! Last modified: 2019-04-08 11:20:58
+! Version: 20190408112058
 ! Expires: 3 hours
-! Number of filters: 6332
+! Number of filters: 6341
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2782,19 +2782,19 @@
 /^https?:\/\/(www\.)?(facebookcorewwwi|facebook)\.(com|net|onion)\/tr\D/$important
 /^https?:\/\/2ch\.(hk|pm|re|tf|wf|yt)\/images\//$image,important
 /^https?:\/\/[^/]+\/[a-z0-9]{15,}(\?hope=.*)?$/$important,script
-/^https?:\/\/[^\s]+(\/|\.|\-|\_)(1|24|60|88|468|100|728|120|125|234|250|392|400|470|75|782|300|160|336)(x|\-|\_)(1|32|75|40|45|72|250|31|60|100|90|468|80|160|240|600|125|280)(\/|\.|\-|\_)/$image,important,script,domain=~9gag.com|~cbssports.com|~discogs.com|~etsy.com|~funnyjunk.com|~t-online.de|~twitter.com|~washingtonpost.com|~mopo.de|~slickdeals.net|~wellsfargo.com|~chip.de
+/^https?:\/\/[^\s]+(\/|\.|\-|\_)(1|24|60|88|468|100|728|120|125|234|250|392|400|470|75|782|300|160|336)(x|\-|\_)(1|32|75|40|45|72|250|31|60|100|90|468|80|160|240|600|125|280)(\/|\.|\-|\_)/$image,important,script,domain=~9gag.com|~cbssports.com|~discogs.com|~etsy.com|~funnyjunk.com|~t-online.de|~twitter.com|~washingtonpost.com|~mopo.de|~slickdeals.net|~wellsfargo.com|~chip.de|~cmacapps.com
 /^https?:\/\/[^\s]+(\/|\.|\-|\_)(lms\-|video|fig)?analytics(\.min)?\.js/$important,script
-/^https?:\/\/[^\s]+(\/|\.|\-|\_)ad(blocke?r|\_?track|block|bp|engine|frame|next\_iframe|os|river|rum|s?bygoogle|s|sdk|setup|config|\_loader|x\_iframe|swrap|mixer)?(\.[^\s]{1,})?\.(html|js|javascript)/$important,script,xmlhttprequest,subdocument
+/^https?:\/\/[^\s]+(\/|\.|\-|\_)ad(blocke?r|\_?track|block|bp|engine|frame|next\_iframe|os|river|rum|s?bygoogle|s|sdk|setup|config|\_loader|x\_iframe|swrap|mixer|fox)?(\.[^\s]{1,})?\.(html|js|javascript)/$important,script,xmlhttprequest,subdocument
 /^https?:\/\/[^\s]+(\/|\.|\-|\_)gtm\.js$script
 /^https?:\/\/[^\s]+(\/|\.|\-|\_)kameleoon(\.min)?\.js/$important,script
 /^https?:\/\/[^\s]+(\/|\.|\-|\_)ping\.js/$important,script
-/^https?:\/\/[^\s]+(\/|\.|\-|\_)pixel(\.png|\.bmp|\.jpe?g\.gif|\?)/$image,important,object,xmlhttprequest
+/^https?:\/\/[^\s]+(\/|\.|\-|\_)pixel\.?(png|bmp|jpe?g|gif|\?)/$image,important,object,xmlhttprequest
 /^https?:\/\/[^\s]+(player|gen|client|csi|generate|stream|log)[\W|_]?204/$image,important,xmlhttprequest
 /^https?:\/\/[^\s]+\.[A-Za-z]{2,6}\/(dear\_code\/[0-9]{4}\/|[-A-Za-z0-9_]{5,8}\/[0-9]{4}|[^\s]{14,}\/|code\/)?([ck]li?ck|go[ck]li?ck|hit|(next|pl)\.php|[a-z]+\.js)?\?[A-Za-z]{1}\=([^\s]{50,}|[^\s]+ref\=|every(\_[0-9]{1,2})?\_sec)/$popup,important,script
 /^https?:\/\/[^\s]+\.[A-Za-z]{2,6}\/[^\s]{5,}\.js\?[A-Za-z]{1}\=[^\s]{50,}/$popup,important
 /^https?:\/\/[^\s]+\/([^\s]{4})?tag\.min\.([a-z0-9]{30,}\.)?js/$important,script
 /^https?:\/\/[^\s]+\/(fuck|block)adblock(\.min)?\.js/$important,script
-/^https?:\/\/[^\s]+\/ads?([^A-Za-z0-9_]{1})?([0-9]{1,2}|[-a-z0-9_.]{5,})?(\.min)?\.js/$important,script
+/^https?:\/\/[^\s]+\/ads([^A-Za-z0-9_]{1})?([0-9]{1,2}|[-a-z0-9_.]{5,})?(\.min)?\.js/$important,script
 /^https?:\/\/[^\s]+\/advert(isement|ising)?([0-9]{1,2})?\./$important,script,image,subdocument
 /^https?:\/\/[^\s]+\/banner[0-9]{1,2}\.gif/$image,important
 /^https?:\/\/[^\s]+\/bolpx[0-9]{1,2}\.gif/$image,important
@@ -4503,6 +4503,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/glb-pv-min.js$important,script
 |http*:*/glp?r=*&rw=*&rh=*&ww=*&wh=$important,script
 |http*:*/google-conversion.html$important
+|http*:*/googlead.js$important,script
 |http*:*/gpt.js$important,script
 |http*:*/greenoaks.gif$image,important
 |http*:*/gridcash.js$important,script
@@ -4569,6 +4570,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/processor.js$important,script
 |http*:*/projectpoi.min.js$important,script
 |http*:*/prum.$important,script
+|http*:*/publishertag.js$important,script
 |http*:*/pv.gif$image,important
 |http*:*/pv.png$image,important
 |http*:*/pv?fe=*&elg=$important
@@ -5968,6 +5970,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||an.yandex.ua^$xmlhttprequest,important,redirect=nooptext
 ||analytics.edgekey.net^$important
 ||analytics.twitter.com^$important
+||aniview.com^$important
 ||api.twitch.tv/*/channels/*/extensions^$xmlhttprequest
 ||atdmt.com^$important
 ||atwola.com^$important
@@ -5992,7 +5995,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||bfmio.com^$important
 ||bidswitch.net^$important
 ||bing.com/fd/ls/$image,important,xmlhttprequest
-||bit.ly^$popup
+||bit.ly^$popup,important
 ||bounceexchange.com^$important
 ||branch.io^$important
 ||btttag.com^$important
@@ -6005,6 +6008,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||chartbeat.com^$important
 ||clarium.global.ssl.fastly.net^$important
 ||clck.ru^
+||clevernt.com^$important
 ||clickiocdn.com^$important
 ||clicktripz.com^$important
 ||clksite.com^$important
@@ -6014,10 +6018,12 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||connatix.com^$important
 ||connect.facebook.net^
 ||connect.ok.ru^
+||content-ad.net^$important
 ||conviva.com^$important
 ||cookielaw.org^$third-party
 ||count.taobao.com^$important
 ||cpaevent.ru^$important
+||cpmstar.com^$important
 ||crazyegg.com^$important
 ||criteo.com^$important
 ||criteo.net^$important
@@ -6029,6 +6035,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||data.*.com^$popunder,popup
 ||data.*.info^$popunder,popup
 ||data.*.net^$popunder,popup
+||data:text/html;base64$popup
 ||delivery.vidible.tv^$important
 ||demandbase.com^$important
 ||demdex.net^$important
@@ -6145,6 +6152,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||lcs.naver.com^$important
 ||ligatus.com^$important
 ||lijit.com^$important
+||liqwid.net^$important
 ||livejournal.com/ljcounter/$image,important
 ||logentries.com^$important
 ||logql.yahoo.co.jp^$important
@@ -6250,6 +6258,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||sentry.io/api/*/store/^$important,xmlhttprequest
 ||sharethrough.com^$important
 ||siftscience.com^$important,script
+||skimresources.com^$important
 ||smartadserver.com^$important
 ||sonobi.com^$important
 ||ssl-images-amazon.com^*/ape/sf/*/dasf-$important,script
