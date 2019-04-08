@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-04-08 11:26:13
-! Version: 20190408112613
+! Last modified: 2019-04-08 12:59:59
+! Version: 20190408125959
 ! Expires: 3 hours
 ! Number of filters: 6341
 ! Homepage: https://github.com/bogachenko/presstheattack/
@@ -3518,18 +3518,18 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*-gstat.
 |http*:*-gstat^
 |http*:*-gstat_
-|http*:*-js-stats-
-|http*:*-js-stats.
-|http*:*-js-stats^
-|http*:*-js-stats_
-|http*:*-js^stats-
-|http*:*-js^stats.
-|http*:*-js^stats^
-|http*:*-js^stats_
-|http*:*-js_stats-
-|http*:*-js_stats.
-|http*:*-js_stats^
-|http*:*-js_stats_
+|http*:*-js-stats-$important
+|http*:*-js-stats.$important
+|http*:*-js-stats^$important
+|http*:*-js-stats_$important
+|http*:*-js^stats-$important
+|http*:*-js^stats.$important
+|http*:*-js^stats^$important
+|http*:*-js^stats_$important
+|http*:*-js_stats-$important
+|http*:*-js_stats.$important
+|http*:*-js_stats^$important
+|http*:*-js_stats_$important
 |http*:*-jstatphp-
 |http*:*-jstatphp.
 |http*:*-jstatphp^
@@ -4119,18 +4119,18 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*.gstat.
 |http*:*.gstat^
 |http*:*.gstat_
-|http*:*.js-stats-
-|http*:*.js-stats.
-|http*:*.js-stats^
-|http*:*.js-stats_
-|http*:*.js^stats-
-|http*:*.js^stats.
-|http*:*.js^stats^
-|http*:*.js^stats_
-|http*:*.js_stats-
-|http*:*.js_stats.
-|http*:*.js_stats^
-|http*:*.js_stats_
+|http*:*.js-stats-$important
+|http*:*.js-stats.$important
+|http*:*.js-stats^$important
+|http*:*.js-stats_$important
+|http*:*.js^stats-$important
+|http*:*.js^stats.$important
+|http*:*.js^stats^$important
+|http*:*.js^stats_$important
+|http*:*.js_stats-$important
+|http*:*.js_stats.$important
+|http*:*.js_stats^$important
+|http*:*.js_stats_$important
 |http*:*.jstatphp-
 |http*:*.jstatphp.
 |http*:*.jstatphp^
@@ -5001,18 +5001,18 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*^gstat^
 |http*:*^gstat_
 |http*:*^img^1x1$image,important,third-party
-|http*:*^js-stats-
-|http*:*^js-stats.
-|http*:*^js-stats^
-|http*:*^js-stats_
-|http*:*^js^stats-
-|http*:*^js^stats.
-|http*:*^js^stats^
-|http*:*^js^stats_
-|http*:*^js_stats-
-|http*:*^js_stats.
-|http*:*^js_stats^
-|http*:*^js_stats_
+|http*:*^js-stats-$important
+|http*:*^js-stats.$important
+|http*:*^js-stats^$important
+|http*:*^js-stats_$important
+|http*:*^js^stats-$important
+|http*:*^js^stats.$important
+|http*:*^js^stats^$important
+|http*:*^js^stats_$important
+|http*:*^js_stats-$important
+|http*:*^js_stats.$important
+|http*:*^js_stats^$important
+|http*:*^js_stats_$important
 |http*:*^jstatphp-
 |http*:*^jstatphp.
 |http*:*^jstatphp^
@@ -5602,18 +5602,18 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*_gstat.
 |http*:*_gstat^
 |http*:*_gstat_
-|http*:*_js-stats-
-|http*:*_js-stats.
-|http*:*_js-stats^
-|http*:*_js-stats_
-|http*:*_js^stats-
-|http*:*_js^stats.
-|http*:*_js^stats^
-|http*:*_js^stats_
-|http*:*_js_stats-
-|http*:*_js_stats.
-|http*:*_js_stats^
-|http*:*_js_stats_
+|http*:*_js-stats-$important
+|http*:*_js-stats.$important
+|http*:*_js-stats^$important
+|http*:*_js-stats_$important
+|http*:*_js^stats-$important
+|http*:*_js^stats.$important
+|http*:*_js^stats^$important
+|http*:*_js^stats_$important
+|http*:*_js_stats-$important
+|http*:*_js_stats.$important
+|http*:*_js_stats^$important
+|http*:*_js_stats_$important
 |http*:*_jstatphp-
 |http*:*_jstatphp.
 |http*:*_jstatphp^
