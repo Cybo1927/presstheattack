@@ -35,6 +35,7 @@
 |http*:*/appmeasurement.js$important,script
 |http*:*/apstag.js$important,script
 |http*:*/async-ads.js$important,script
+|http*:*/async-ads.js$important,script
 |http*:*/atrk.js$important,script
 |http*:*/authedmine.min.js$important,script
 |http*:*/authedminer.js$important,script
@@ -87,6 +88,7 @@
 |http*:*/glb-pv-min.js$important,script
 |http*:*/glp?r=*&rw=*&rh=*&ww=*&wh=$important,script
 |http*:*/googlead.js$important,script
+|http*:*/googleanalytics.js$important,script
 |http*:*/gpt.js$important,script
 |http*:*/gridcash.js$important,script
 |http*:*/gtm.js$important,script
@@ -114,6 +116,7 @@
 |http*:*/moatframe.js$important,script
 |http*:*/mormont.js$important,script
 |http*:*/nativeads.js$important,script
+|http*:*/new/pu.js$important,script
 |http*:*/newrelic.js$important,script
 |http*:*/nielsen.js$important,script
 |http*:*/noblock.js$important,script
@@ -122,10 +125,12 @@
 |http*:*/performancetimer.js$important,script
 |http*:*/ph-functions.js$important,script
 |http*:*/ph-tracking.js$important,script
+|http*:*/ph-tracking.js$important,script
 |http*:*/pops.js$important,script
 |http*:*/pptm.js$important,script
 |http*:*/processor.js$important,script
 |http*:*/projectpoi.min.js$important,script
+|http*:*/promo-banner.js$important,script
 |http*:*/prum.$important,script
 |http*:*/publishertag.js$important,script
 |http*:*/pw.js$important,script

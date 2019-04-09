@@ -63,6 +63,7 @@ GGBET$image
 |http*:*/px.png$image,important
 |http*:*/pxl.gif$image,important
 |http*:*/pxlctl.gif$image,important
+|http*:*/pxt?$image,important
 |http*:*/s.png$image,important
 |http*:*/sat.gif$image,important
 |http*:*/stat.gif$image,important

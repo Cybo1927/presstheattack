@@ -6,7 +6,6 @@
 @@||best-deal.com^$elemhide,badfilter
 @@||best-price.com^$elemhide,badfilter
 @@||best-price.fr^$elemhide,badfilter
-@@||github.com/search/count?q=*&type=*^$xmlhttprequest
 @@||bluekiwi.de^$elemhide,badfilter
 @@||bottomdollar.com^$elemhide,badfilter
 @@||buscar.com.gt^$elemhide,badfilter
@@ -55,6 +54,7 @@
 @@||fly24.co.uk^$elemhide,badfilter
 @@||fly.co.uk^$elemhide,badfilter
 @@||geld.de^$elemhide,badfilter
+@@||github.com/search/count?q=*&type=*^$xmlhttprequest
 @@||githubusercontent.com^$image
 @@||google.com/recaptcha/$script
 @@||googlevideo.com/*?*&ip=$third-party
@@ -228,6 +228,7 @@
 @@||suche.web.de^$elemhide,badfilter
 @@||thaimeta.com^$elemhide,badfilter
 @@||top-prix.fr^$elemhide,badfilter
+@@||translate.yandex.net/api/*/tr.json$script
 @@||travel24-hotels.co.uk^$elemhide,badfilter
 @@||travel24.at^$elemhide,badfilter
 @@||travel24.ch^$elemhide,badfilter
@@ -278,9 +279,6 @@
 @@||trovitbrasil.com.br^$elemhide,badfilter
 @@||ttvnw.net^$xmlhttprequest,domain=twitch.tv
 @@||urlaubstours.de^$elemhide,badfilter
-@@||translate.yandex.net/api/*/tr.json$script
-@@||yandex.*/search/?*&text=$xmlhttprequest
-@@||yandex.*/search/adresa-geolocation?*&text=$xmlhttprequest
 @@||vergleiche.de^$elemhide,badfilter
 @@||versicherungen.de^$elemhide,badfilter
 @@||veturo.de^$elemhide,badfilter
@@ -297,5 +295,7 @@
 @@||vuelos24.es^$elemhide,badfilter
 @@||woonwebsite.nl^$elemhide,badfilter
 @@||wyszukajprace.pl^$elemhide,badfilter
+@@||yandex.*/search/?*&text=$xmlhttprequest
+@@||yandex.*/search/adresa-geolocation?*&text=$xmlhttprequest
 @@||yandex.st/swfobject/*^$script
 @@||yastatic.net/yandex-video-player-iframe-api-bundles^$subdocument

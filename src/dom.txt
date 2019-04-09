@@ -2742,6 +2742,7 @@ twitch.tv##a[href*=".gg"] > img
 twitch.tv##a[href*=".net/ad/"] > img
 twitch.tv##a[href*=".org/ad/"] > img
 twitch.tv##a[href*=".ru/ad/"] > img
+twitch.tv##a[href*="/?r="] > img
 twitch.tv##a[href*="/buy/"] > img
 twitch.tv##a[href*="/go/"] > img
 twitch.tv##a[href*="/joinchat/"] > img
@@ -2749,6 +2750,7 @@ twitch.tv##a[href*="/promo/"] > img
 twitch.tv##a[href*="/shop/"] > img
 twitch.tv##a[href*="?AffiliateUserId="] > img
 twitch.tv##a[href*="?br="] > img
+twitch.tv##a[href*="?btag="] > img
 twitch.tv##a[href*="atributika"] > img
 twitch.tv##a[href*="bet4.pm"] > img
 twitch.tv##a[href*="betsdota2.com"] > img
@@ -2763,6 +2765,7 @@ twitch.tv##a[href*="fragstore.ru"] > img
 twitch.tv##a[href*="g2a.com"] > img
 twitch.tv##a[href*="gamefuel.com"] > img
 twitch.tv##a[href*="garnitura"] > img
+twitch.tv##a[href*="gearboost.eu"] > img
 twitch.tv##a[href*="gg.bet"] > img
 twitch.tv##a[href*="goo.gl"] > img
 twitch.tv##a[href*="goodgame.pm"] > img
