@@ -94,6 +94,7 @@ GGBET$image
 ||collector.githubapp.com^$image,important
 ||commander1.com^$image,important
 ||duckduckgo.com/t/$image,important
+||godaddy.com/pageevents.aspx$image,important
 ||heise.de/ivw-bin/ivw/cp/$image,important
 ||livejournal.com/ljcounter/$image,important
 ||mail.yandex.*/monitoring_liza.txt$image,important

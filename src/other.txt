@@ -228,7 +228,7 @@
 |http*:*-banner-ad.
 |http*:*-banner-ad^
 |http*:*-banner-ad_
-|http*:*-banner.$domain=~reddit.com
+|http*:*-banner.$domain=~reddit.com|~neopets.com
 |http*:*-banner^$domain=~reddit.com|~taobao.com
 |http*:*-banner_
 |http*:*-banners-
@@ -621,7 +621,7 @@
 |http*:*.ad-type.
 |http*:*.ad-type^
 |http*:*.ad-type_
-|http*:*.ad.
+|http*:*.ad.$domain=~ad.nl
 |http*:*.ad.slot-
 |http*:*.ad.slot.
 |http*:*.ad.slot^
@@ -1241,7 +1241,7 @@
 |http*:*^ad-type.
 |http*:*^ad-type^
 |http*:*^ad-type_
-|http*:*^ad.
+|http*:*^ad.$domain=~ad.nl
 |http*:*^ad.slot-
 |http*:*^ad.slot.
 |http*:*^ad.slot^
@@ -1451,7 +1451,7 @@
 |http*:*^banner-ad_
 |http*:*^banner.
 |http*:*^banner^$domain=~reddit.com|~wellsfargo.com
-|http*:*^banner_
+|http*:*^banner_$domain=~neopets.com
 |http*:*^banners-
 |http*:*^banners.
 |http*:*^banners^
@@ -1666,7 +1666,7 @@
 |http*:*^ppv_
 |http*:*^promo-
 |http*:*^promo.$domain=~mail.ru
-|http*:*^promo^$domain=~kinopoisk.ru|~mail.ru|~ntv.ru
+|http*:*^promo^$domain=~kinopoisk.ru|~mail.ru|~ntv.ru|~neopets.com
 |http*:*^promo_$domain=~livejournal.com|~livejournal.net|~vk.com|~otto.de|~xfinity.com|~1tv.ru
 |http*:*^promoted-
 |http*:*^promoted.
@@ -2265,8 +2265,8 @@
 |http*:*_ppv^
 |http*:*_ppv_
 |http*:*_promo-
-|http*:*_promo.
-|http*:*_promo^
+|http*:*_promo.$domain=~vk.com
+|http*:*_promo^$domain=~gearbest.com
 |http*:*_promo_
 |http*:*_promoted-
 |http*:*_promoted.
@@ -2375,7 +2375,7 @@
 |http*:*_teaser-
 |http*:*_teaser.
 |http*:*_teaser^
-|http*:*_teaser_
+|http*:*_teaser_$domain=~faz.net
 |http*:*_tizers-
 |http*:*_tizers.
 |http*:*_tizers^
@@ -2424,7 +2424,7 @@
 |http*:*_yads.
 |http*:*_yads^
 |http*:*_yads_
-|http*://ad.*^$important
+|http*://ad.*^$important,domain=~ad.nl
 |http*://ads.*^$important
 |http*://analytics.*^$important
 |http*://counter.*^$important

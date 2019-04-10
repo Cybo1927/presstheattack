@@ -114,6 +114,8 @@
 ||cutter.li^
 ||cxense.com^$important
 ||cy-pr.com^$important
+||dc.banggood.com^$important
+||dccss.banggood.com^$important
 ||delivery.vidible.tv^$important
 ||demandbase.com^$important
 ||demdex.net^$important
@@ -190,6 +192,7 @@
 ||liqwid.net^$important
 ||logentries.com^$important
 ||logql.yahoo.co.jp^$important
+||logsss.com^$important
 ||logxp.ru^$important
 ||m-pathy.com^$important
 ||mail.ru^$third-party
@@ -204,6 +207,7 @@
 ||mmstat.com^$important
 ||mmtro.com^$important
 ||moatads.com^$important
+||monetate.net^$important
 ||mookie1.com^$important
 ||mp-https.info^$important
 ||mparticle.com^$important
@@ -271,7 +275,7 @@
 ||sonobi.com^$important
 ||ssl2anyone3.com^$important
 ||ssp.rambler.ru^$important
-||statcounter.com^$important
+||statcounter.com^$third-party,important
 ||steadfastsystem.com^$important
 ||stickyadstv.com^$important
 ||summerhamster.com^$important

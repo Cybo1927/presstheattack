@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-04-10 02:00:38
-! Version: 20190410020038
+! Last modified: 2019-04-10 12:30:01
+! Version: 20190410123001
 ! Expires: 3 hours
-! Number of filters: 6370
+! Number of filters: 6376
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2782,26 +2782,27 @@
 /^https?:\/\/(www\.)?(facebookcorewwwi|facebook)\.(com|net|onion)\/tr\D/$important
 /^https?:\/\/2ch\.(hk|pm|re|tf|wf|yt)\/images\//$image,important
 /^https?:\/\/[^/]+\/[a-z0-9]{15,}(\?hope=.*)?$/$important,script
-/^https?:\/\/[^\s]+(\/|\.|\-|\_)(lms\-|video|fig)?analytics(\.min)?\.js/$important,script
-/^https?:\/\/[^\s]+(\/|\.|\-|\_)ad(blocke?r|\_?track|block|bp|engine|frame|next\_iframe|os|river|rum|s?bygoogle|s|sdk|setup|config|\_loader|x\_iframe|swrap|mixer|fox)?([0-9]{3,5}|\.[^\s]{1,})?\.(html|js|javascript|php)/$important,script,xmlhttprequest,subdocument
-/^https?:\/\/[^\s]+(\/|\.|\-|\_)gtm\.js$script
-/^https?:\/\/[^\s]+(\/|\.|\-|\_)kameleoon(\.min)?\.js/$important,script
-/^https?:\/\/[^\s]+(\/|\.|\-|\_)ping\.js/$important,script
-/^https?:\/\/[^\s]+(\/|\.|\-|\_)pixel\.?(png|bmp|jpe?g|gif|\?)/$image,important,object,xmlhttprequest
 /^https?:\/\/[^\s]+(player|gen|client|csi|generate|stream|log)[\W|_]?204/$image,important,xmlhttprequest
+/^https?:\/\/[^\s]+[\W|\_](lms\-|video|fig)?analytics(\.min)?\.js/$important,script
+/^https?:\/\/[^\s]+[\W|\_]ad(blocke?r|\_?track|block|bp|engine|frame|next\_iframe|os|river|rum|s?bygoogle|s|sdk|setup|config|\_loader|x\_iframe|swrap|mixer|fox|[-_]?manager)?([0-9]{3,5}|\.[^\s]{1,}|\.min)?\.(html|js|javascript|php)/$important,script,xmlhttprequest,subdocument
+/^https?:\/\/[^\s]+[\W|\_]banners?[\/-_]id\=/$important,script,subdocument
+/^https?:\/\/[^\s]+[\W|\_]gtm\.js$script
+/^https?:\/\/[^\s]+[\W|\_]kameleoon(\.min)?\.js/$important,script
+/^https?:\/\/[^\s]+[\W|\_]ping\.(bmp|gif|jpe?g|png|svg|webp|js)?(\?[A-Za-z]{1}\=)?/$important,script,image
+/^https?:\/\/[^\s]+[\W|\_]pixel\.?(png|bmp|jpe?g|gif|\?)/$image,important,object,xmlhttprequest
 /^https?:\/\/[^\s]+\.[A-Za-z]{2,6}\/(dear\_code\/[0-9]{4}\/|[-A-Za-z0-9_]{5,8}\/[0-9]{4}|[^\s]{14,}\/|code\/)?([ck]li?ck|go[ck]li?ck|hit|(next|pl)\.php)?\?[A-Za-z]{1}\=([^\s]{50,}|[^\s]+ref\=|every(\_[0-9]{1,2})?\_sec)/$popup,important,script,domain=~yandex.ru|~yandex.ua|~yandex.by
 /^https?:\/\/[^\s]+\.[A-Za-z]{2,6}\/[^\s]{5,}\.js\?[A-Za-z]{1}\=[^\s]{50,}/$popup,important
 /^https?:\/\/[^\s]+\.[A-Za-z]{2,6}\/[A-Za-z]{1}\?tag\=[^\s]\&site\=[A-Za-z0-9]{1,}\&ads?\=/$popup,important,script
 /^https?:\/\/[^\s]+\/([^\s]{4})?tag\.min\.([a-z0-9]{30,}\.)?js/$important,script
 /^https?:\/\/[^\s]+\/(fuck|block)adblock(\.min)?\.js/$important,script
 /^https?:\/\/[^\s]+\/a(dve|nnounceme)[rn]t(isement|ising)?([0-9]{1,2})?\./$important,script,image,subdocument
-/^https?:\/\/[^\s]+\/ads((\/|\.|\-|\_){1})?([0-9]{1,2}|[-a-z0-9_.]{5,})?(\.min)?\.js/$important,script
+/^https?:\/\/[^\s]+\/ads([\W|\_]{1})?([0-9]{1,2}|[-a-z0-9_.]{5,})?(\.min)?\.js/$important,script
 /^https?:\/\/[^\s]+\/banner[0-9]{1,2}\.gif/$image,important
 /^https?:\/\/[^\s]+\/bolpx[0-9]{1,2}\.gif/$image,important
 /^https?:\/\/[^\s]+\/dfp([0-9]{1})?\.js/$important,script
 /^https?:\/\/[^\s]+\/fingerprint([0-9]{1,2})?(\.min)?\.js/$important,script,xmlhttprequest
 /^https?:\/\/[^\s]+\/fp([0-9]{1,2})?\.js/$important,script
-/^https?:\/\/[^\s]+\/piwik((\/|\.|\-|\_)[0-9]{5,})?\.js/$important,script
+/^https?:\/\/[^\s]+\/piwik([\W|\_][0-9]{5,})?\.js/$important,script
 /^https?:\/\/[^\s]+\/popunder([0-9]{1,2})?\./$important,popup,script,xmlhttprequest
 /^https?:\/\/[^\s]+\/s([0-9]{1,2})?\.js/$important,script
 /^https?:\/\/[^\s]+google\.[A-Za-z0-9.]{2,7}\/log\?/$image,important,xmlhttprequest
@@ -3420,7 +3421,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*-banner-ad.
 |http*:*-banner-ad^
 |http*:*-banner-ad_
-|http*:*-banner.$domain=~reddit.com
+|http*:*-banner.$domain=~reddit.com|~neopets.com
 |http*:*-banner^$domain=~reddit.com|~taobao.com
 |http*:*-banner_
 |http*:*-banners-
@@ -3818,7 +3819,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*.ad-type.
 |http*:*.ad-type^
 |http*:*.ad-type_
-|http*:*.ad.
+|http*:*.ad.$domain=~ad.nl
 |http*:*.ad.slot-
 |http*:*.ad.slot.
 |http*:*.ad.slot^
@@ -4710,7 +4711,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*^ad-type.
 |http*:*^ad-type^
 |http*:*^ad-type_
-|http*:*^ad.
+|http*:*^ad.$domain=~ad.nl
 |http*:*^ad.slot-
 |http*:*^ad.slot.
 |http*:*^ad.slot^
@@ -4920,7 +4921,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*^banner-ad_
 |http*:*^banner.
 |http*:*^banner^$domain=~reddit.com|~wellsfargo.com
-|http*:*^banner_
+|http*:*^banner_$domain=~neopets.com
 |http*:*^banners-
 |http*:*^banners.
 |http*:*^banners^
@@ -5140,7 +5141,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*^ppv_
 |http*:*^promo-
 |http*:*^promo.$domain=~mail.ru
-|http*:*^promo^$domain=~kinopoisk.ru|~mail.ru|~ntv.ru
+|http*:*^promo^$domain=~kinopoisk.ru|~mail.ru|~ntv.ru|~neopets.com
 |http*:*^promo_$domain=~livejournal.com|~livejournal.net|~vk.com|~otto.de|~xfinity.com|~1tv.ru
 |http*:*^promoted-
 |http*:*^promoted.
@@ -5744,8 +5745,8 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*_ppv^
 |http*:*_ppv_
 |http*:*_promo-
-|http*:*_promo.
-|http*:*_promo^
+|http*:*_promo.$domain=~vk.com
+|http*:*_promo^$domain=~gearbest.com
 |http*:*_promo_
 |http*:*_promoted-
 |http*:*_promoted.
@@ -5854,7 +5855,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*_teaser-
 |http*:*_teaser.
 |http*:*_teaser^
-|http*:*_teaser_
+|http*:*_teaser_$domain=~faz.net
 |http*:*_tizers-
 |http*:*_tizers.
 |http*:*_tizers^
@@ -5911,7 +5912,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*google.tracker.js$important,script
 |http*:*google^tracker.js$important,script
 |http*:*google_tracker.js$important,script
-|http*://ad.*^$important
+|http*://ad.*^$important,domain=~ad.nl
 |http*://ads.*^$important
 |http*://analytics.*^$important
 |http*://counter.*^$important
@@ -6065,6 +6066,8 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||data.*.info^$popunder,popup
 ||data.*.net^$popunder,popup
 ||data:text/html;base64$popup
+||dc.banggood.com^$important
+||dccss.banggood.com^$important
 ||delivery.vidible.tv^$important
 ||demandbase.com^$important
 ||demdex.net^$important
@@ -6120,6 +6123,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||github.com/_private/browser/stats^$important,xmlhttprequest
 ||gnezdo.ru^$important
 ||go-mpulse.net^$important
+||godaddy.com/pageevents.aspx$image,important
 ||goo.gl^
 ||google-analytics.com^$important,redirect=noopframe,subdocument
 ||google-analytics.com^$script,important,redirect=noopjs
@@ -6185,6 +6189,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||livejournal.com/ljcounter/$image,important
 ||logentries.com^$important
 ||logql.yahoo.co.jp^$important
+||logsss.com^$important
 ||logxp.ru^$important
 ||m-pathy.com^$important
 ||mail.ru/share_count^$important,script
@@ -6205,6 +6210,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||mmstat.com^$important
 ||mmtro.com^$important
 ||moatads.com^$important
+||monetate.net^$important
 ||mookie1.com^$important
 ||mp-https.info^$important
 ||mparticle.com^$important
@@ -6293,7 +6299,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||ssl-images-amazon.com^*/ape/sf/*/dasf-$important,script
 ||ssl2anyone3.com^$important
 ||ssp.rambler.ru^$important
-||statcounter.com^$important
+||statcounter.com^$third-party,important
 ||static-mon.yandex.net/static/main.js$script,redirect=noopjs,important
 ||static-mon.yandex.net/static/main.js$xmlhttprequest,redirect=nooptext,important
 ||stats.*^$important,domain=~t-online.de
