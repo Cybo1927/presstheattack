@@ -1,13 +1,13 @@
+/^https?:\/\/[^\s]+([\W|\_]|track(ers?|ing)?)pixel\.?(png|bmp|jpe?g|gif|\?)/$image,important,object,xmlhttprequest
 /^https?:\/\/[^\s]+(player|gen|client|csi|generate|stream|log)[\W|_]?204/$image,important,xmlhttprequest
-/^https?:\/\/[^\s]+[\W|\_]ad(blocke?r|\_?track|block|bp|engine|frame|next\_iframe|os|river|rum|s?bygoogle|s|sdk|setup|config|\_loader|x\_iframe|swrap|mixer|fox|[-_]?manager)?([0-9]{3,5}|\.[^\s]{1,}|\.min)?\.(html|js|javascript|php)/$important,script,xmlhttprequest,subdocument
-/^https?:\/\/[^\s]+[\W|\_]banners?[\/-_]id\=/$important,script,subdocument
+/^https?:\/\/[^\s]+[\W|\_]ad(blocke?r|\_?track|block|bp|engine|frame|next\_iframe|os|river|rum|s?bygoogle|s|sdk|setup|config|\_loader|x\_iframe|swrap|mixer|s?fox|[-_]?manager|s?\-async)?([0-9]{3,5}|\.min)?\.(html|js|javascript|php)/$important,script,xmlhttprequest,subdocument
+/^https?:\/\/[^\s]+[\W|\_]banners?[\W|\_]id\=/$important,script,subdocument
 /^https?:\/\/[^\s]+[\W|\_]ping\.(bmp|gif|jpe?g|png|svg|webp|js)?(\?[A-Za-z]{1}\=)?/$important,script,image
-/^https?:\/\/[^\s]+[\W|\_]pixel\.?(png|bmp|jpe?g|gif|\?)/$image,important,object,xmlhttprequest
 /^https?:\/\/[^\s]+\.[A-Za-z]{2,6}\/(dear\_code\/[0-9]{4}\/|[-A-Za-z0-9_]{5,8}\/[0-9]{4}|[^\s]{14,}\/|code\/)?([ck]li?ck|go[ck]li?ck|hit|(next|pl)\.php)?\?[A-Za-z]{1}\=([^\s]{50,}|[^\s]+ref\=|every(\_[0-9]{1,2})?\_sec)/$popup,important,script,domain=~yandex.ru|~yandex.ua|~yandex.by
 /^https?:\/\/[^\s]+\.[A-Za-z]{2,6}\/[A-Za-z]{1}\?tag\=[^\s]\&site\=[A-Za-z0-9]{1,}\&ads?\=/$popup,important,script
 /^https?:\/\/[^\s]+\/a(dve|nnounceme)[rn]t(isement|ising)?([0-9]{1,2})?\./$important,script,image,subdocument
 /^https?:\/\/[^\s]+\/fingerprint([0-9]{1,2})?(\.min)?\.js/$important,script,xmlhttprequest
-/^https?:\/\/[^\s]+\/popunder([0-9]{1,2})?\./$important,popup,script,xmlhttprequest
+/^https?:\/\/[^\s]+\/popunders?([0-9]{1,2})?\./$important,popup,script,xmlhttprequest
 /^https?:\/\/[^\s]+google\.[A-Za-z0-9.]{2,7}\/log\?/$image,important,xmlhttprequest
 /^https?:\/\/[^\s]+log[\W|_]?(type|event|entry|request)/$image,important,xmlhttprequest
 /^https?:\/\/collector([0-9]{1,2})?\.xhamster\.[A-Za-z]{3}/$important,script,xmlhttprequest
@@ -20,6 +20,7 @@
 |http*:*/amp.gif$image,important,xmlhttprequest
 |http*:*/article/viewcount/$important,script,xmlhttprequest
 |http*:*/b/ss/*&ce=utf-8&$image,important,script
+|http*:*/b/stats?$important,script,xmlhttprequest
 |http*:*/cgi-bin/ivw/$important,script,xmlhttprequest
 |http*:*/dtm/*/satellitelib$important,script,xmlhttprequest
 |http*:*/entry_stats?$important,script,xmlhttprequest
@@ -32,6 +33,7 @@
 |http*:*/stat?event=$important,script,xmlhttprequest
 |http*:*/tsrhitcounter.$important,script,image
 |http*:*/wt?p=$image,important,script
+|http*:*/www/*&zoneid=$important,image,script,xmlhttprequest
 |http*:*?_siteid=$important,script,xmlhttprequest
 ||akamaized.net/?u=$image,important,xmlhttprequest
 ||bing.com/fd/ls/$image,important,xmlhttprequest

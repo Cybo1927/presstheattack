@@ -1,11 +1,10 @@
+/\/([0-9]{1}|atrk|hit|log|njs|visitor)\.(png|gif)/$image,important,domain=~mail.yandex.by|~mail.yandex.ru|~mail.yandex.ua
 /^https?:\/\/2ch\.(hk|pm|re|tf|wf|yt)\/images\//$image,important
 /^https?:\/\/[^\s]+\/banner[0-9]{1,2}\.gif/$image,important
 /^https?:\/\/[^\s]+\/bolpx[0-9]{1,2}\.gif/$image,important
 1xbet$image,important
 1xstavka$image,important
 GGBET$image
-|http*:*/0.gif$image,important
-|http*:*/0.png$image,important,domain=~mail.yandex.by|~mail.yandex.ru|~mail.yandex.ua
 |http*:*/1x1.gif$image,important
 |http*:*/1x1.png$image,important
 |http*:*/2x2.png$image,important
@@ -76,6 +75,7 @@ GGBET$image
 |http*:*/track-user.png$image,important
 |http*:*/track.gif$image,important
 |http*:*/trg.gif$image,important
+|http*:*/usage.gif$image,important
 |http*:*/view.gif$image,important
 |http*:*/view.png$image,important
 |http*:*/views.gif$image,important
