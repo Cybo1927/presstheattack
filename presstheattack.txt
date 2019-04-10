@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-04-10 12:30:01
-! Version: 20190410123001
+! Last modified: 2019-04-10 13:16:11
+! Version: 20190410131611
 ! Expires: 3 hours
 ! Number of filters: 6376
 ! Homepage: https://github.com/bogachenko/presstheattack/
@@ -2783,7 +2783,7 @@
 /^https?:\/\/2ch\.(hk|pm|re|tf|wf|yt)\/images\//$image,important
 /^https?:\/\/[^/]+\/[a-z0-9]{15,}(\?hope=.*)?$/$important,script
 /^https?:\/\/[^\s]+(player|gen|client|csi|generate|stream|log)[\W|_]?204/$image,important,xmlhttprequest
-/^https?:\/\/[^\s]+[\W|\_](lms\-|video|fig)?analytics(\.min)?\.js/$important,script
+/^https?:\/\/[^\s]+[\W|\_](lms\-|videos?|fig)?analytics(\.min)?\.js/$important,script
 /^https?:\/\/[^\s]+[\W|\_]ad(blocke?r|\_?track|block|bp|engine|frame|next\_iframe|os|river|rum|s?bygoogle|s|sdk|setup|config|\_loader|x\_iframe|swrap|mixer|fox|[-_]?manager)?([0-9]{3,5}|\.[^\s]{1,}|\.min)?\.(html|js|javascript|php)/$important,script,xmlhttprequest,subdocument
 /^https?:\/\/[^\s]+[\W|\_]banners?[\/-_]id\=/$important,script,subdocument
 /^https?:\/\/[^\s]+[\W|\_]gtm\.js$script
@@ -2811,7 +2811,7 @@
 /^https?:\/\/[^\s]+webmr([0-9]{1,2})?\.js/$important,script
 /^https?:\/\/[a-z0-9]+\.info\/+[-a-z0-9_?&=]{9,}/$third-party,script,important
 /^https?:\/\/analytics[0-9]{1,2}?\./$important
-/^https?:\/\/c([0-9]{1,2})?\./$important,domain=~force.com|~ndtv.com|~newegg.com|~wp.com|~xavierstuder.com|~researchgate.net
+/^https?:\/\/c([0-9]{1,2})?\./$important,domain=~force.com|~ndtv.com|~newegg.com|~wp.com|~xavierstuder.com|~researchgate.net|~www.microsoft.com
 /^https?:\/\/cdn[0-9]{1,2}?\.rocks\/[^\s]{30,}\.js/$important,script
 /^https?:\/\/collector([0-9]{1,2})?\.xhamster\.[A-Za-z]{3}/$important,script,xmlhttprequest
 /^https?:\/\/contentbooster\.me+\/(?!manifest)[a-z0-9]{5,45}/$important,xmlhttprequest
