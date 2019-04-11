@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-04-12 08:31:37
-! Version: 20190412083138
+! Last modified: 2019-04-12 09:39:23
+! Version: 20190412093923
 ! Expires: 3 hours
 ! Number of filters: 6396
 ! Homepage: https://github.com/bogachenko/presstheattack/
@@ -3195,7 +3195,7 @@ twitch.tv##a[href*="streamfest.ru"] > img
 twitch.tv##a[href*="suveniry"] > img
 twitch.tv##a[href*="upskill.ru"] > img
 twitch.tv##a[href*="vk.cc"] > img
-twitter.com##[data-focusable="true"]:has-text(/Promoted|Gesponsert|Реклама/):not(:xpath(//div[contains(text(),'Реклама в Твиттере')]))
+twitter.com##[data-focusable="true"]:has-text(/Promoted|Gesponsert|Реклама/):not(:xpath(//span[contains(text(),'Реклама в Твиттере')]))
 twitter.com##[data-testid="trend"]:has-text(/Promoted|Gesponsert|Реклама/):xpath(..)
 twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/):xpath(..)
 yandex.by,yandex.ru,yandex.ua##+js(abort-on-property-read.js, advBlock)
