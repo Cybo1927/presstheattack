@@ -44,6 +44,7 @@
 |http*:*/baners.js$important,script
 |http*:*/banner.js$important,script
 |http*:*/banners.js$important,script
+|http*:*/beacon.js$important,script
 |http*:*/bens/vinos.js$important,script
 |http*:*/bitcoincore/?ref=$important,script
 |http*:*/bk-coretag.js$important,script
@@ -121,6 +122,7 @@
 |http*:*/nielsen.js$important,script
 |http*:*/noblock.js$important,script
 |http*:*/obfus.min.js$important,script
+|http*:*/omniture.js$important,script
 |http*:*/p.js$important,script
 |http*:*/performancetimer.js$important,script
 |http*:*/ph-functions.js$important,script
@@ -135,6 +137,7 @@
 |http*:*/publishertag.js$important,script
 |http*:*/pw.js$important,script
 |http*:*/px.js$important,script
+|http*:*/quant.js$important,script
 |http*:*/raven.js$important,script
 |http*:*/referdetect.js$important,script
 |http*:*/referrer.js$important,script
