@@ -86,6 +86,7 @@
 ||btttag.com^$important
 ||bzlwe.com^$important
 ||casalemedia.com^$important
+||cdn.jsdelivr.net^$important
 ||cdn.onesignal.com^$important
 ||cdn.pljs.ru^$important
 ||cdn.tinypass.com^$important
@@ -98,6 +99,7 @@
 ||clicktripz.com^$important
 ||clksite.com^$important
 ||coinhive.com^$important
+||collector.schibsted.io^$important
 ||connatix.com^$important
 ||connect.facebook.net^
 ||connect.ok.ru^
@@ -291,6 +293,7 @@
 ||theadex.com^$important
 ||tiqcdn.com^$important
 ||tns-counter.ru^$important
+||tns-cs.net^$important
 ||toponclick.com^$important
 ||torrentz2.*^$csp=script-src 'self' 'unsafe-inline'
 ||tr.cloud-media.fr^$important

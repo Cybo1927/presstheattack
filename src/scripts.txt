@@ -18,11 +18,13 @@
 /^https?:\/\/cdn[0-9]{1,2}?\.rocks\/[^\s]{30,}\.js/$important,script
 /^https?:\/\/www\.([a-z]{6,16})\.com\/([a-z]{1,4})\.js$/$important,script,third-party
 |http*:*-coin-hive.js$important,script
+/^https?:\/\/[^\s]+[\W|\_]metric[sa][^\s]+\.js/$script,important
 |http*:*-vast-$script
 |http*:*-vast.$script
 |http*:*-vast^$script
 |http*:*-vast_$script
 |http*:*.vast-$script
+|http*:*/dtagent*.js$important,script
 |http*:*.vast.$script
 |http*:*.vast^$script
 |http*:*.vast_$script

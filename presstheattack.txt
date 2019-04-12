@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-04-12 12:01:16
-! Version: 20190412120116
+! Last modified: 2019-04-12 13:15:18
+! Version: 20190412131518
 ! Expires: 3 hours
-! Number of filters: 6408
+! Number of filters: 6415
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2784,13 +2784,14 @@
 /^https?:\/\/(www\.)?(facebookcorewwwi|facebook)\.(com|net|onion)\/tr\D/$important
 /^https?:\/\/2ch\.(hk|pm|re|tf|wf|yt)\/images\//$image,important
 /^https?:\/\/[^/]+\/[a-z0-9]{15,}(\?hope=.*)?$/$important,script
-/^https?:\/\/[^\s]+([\W|\_]track(ers?|ing)?)pixel\.?(png|bmp|jpe?g|gif|\?|js)/$image,important,object,xmlhttprequest,script
 /^https?:\/\/[^\s]+(player|gen|client|csi|generate|stream|log)[\W|_]?204/$image,important,xmlhttprequest,other
 /^https?:\/\/[^\s]+[\W|\_](lms\-|videos?|fig)?analytics?(\.min)?\.js/$important,script
+/^https?:\/\/[^\s]+[\W|\_](track(ers?|ing)?)?pixels?[.-_/]([A-Za-z0-9]{30,}\/|png|bmp|jpe?g|gif|\?|js)/$image,important,object,xmlhttprequest,script
 /^https?:\/\/[^\s]+[\W|\_]ad(blocke?r|\_?track|block|bp|engine|frame|next\_iframe|os|river|rum|s?bygoogle|s|sdk|setup|config|\_loader|x\_iframe|swrap|mixer|s?fox|[-_]?manager|s?\-async|[\W|\_]?sprite)?([0-9]{3,5}|\.min)?\.(html|js|javascript|php|txt)/$important,script,xmlhttprequest,subdocument
 /^https?:\/\/[^\s]+[\W|\_]banners?[\W|\_]id\=/$important,script,subdocument
 /^https?:\/\/[^\s]+[\W|\_]gtm\.js$script
 /^https?:\/\/[^\s]+[\W|\_]kameleoon(\.min)?\.js/$important,script
+/^https?:\/\/[^\s]+[\W|\_]metric[sa][^\s]+\.js/$script,important
 /^https?:\/\/[^\s]+[\W|\_]ping\.(bmp|gif|jpe?g|png|svg|webp|js)?(\?[A-Za-z]{1}\=)?/$important,script,image
 /^https?:\/\/[^\s]+\.[A-Za-z]{2,6}\/(dear\_code\/[0-9]{4}\/|[-A-Za-z0-9_]{5,8}\/[0-9]{4}|[^\s]{14,}\/|code\/)?([ck]li?ck|go[ck]li?ck|hit|(next|pl)\.php)?\?[A-Za-z]{1}\=([^\s]{50,}|[^\s]+ref\=|every(\_[0-9]{1,2})?\_sec)/$popup,important,script,domain=~yandex.ru|~yandex.ua|~yandex.by
 /^https?:\/\/[^\s]+\.[A-Za-z]{2,6}\/[^\s]{5,}\.js\?[A-Za-z]{1}\=[^\s]{50,}/$popup,important
@@ -4505,6 +4506,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/deepMiner.min.js$important,script
 |http*:*/demandbase_*.js$important,script
 |http*:*/dprocessor.js$important,script
+|http*:*/dtagent*.js$important,script
 |http*:*/dtm/*/satellitelib$important,script,xmlhttprequest
 |http*:*/empty.gif$image,important
 |http*:*/empty.js$important,script
@@ -4587,6 +4589,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/p.gif$image,important
 |http*:*/p.js$important,script
 |http*:*/p.png$image,important
+|http*:*/pageview.gif$image,important
 |http*:*/performancetimer.js$important,script
 |http*:*/ph-functions.js$important,script
 |http*:*/ph-tracking.js$important,script
@@ -4645,6 +4648,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/stc.gif$image,important
 |http*:*/streambeam-jw.js$important,script
 |http*:*/streambeam-video.js$important,script
+|http*:*/svp.gif$image,important
 |http*:*/sw.js$first-party,important,script
 |http*:*/sw.js$first-party,script
 |http*:*/sync.gif$image,important
@@ -6060,6 +6064,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||btttag.com^$important
 ||bzlwe.com^$important
 ||casalemedia.com^$important
+||cdn.jsdelivr.net^$important
 ||cdn.onesignal.com^$important
 ||cdn.pljs.ru^$important
 ||cdn.tinypass.com^$important
@@ -6073,6 +6078,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||clksite.com^$important
 ||coinhive.com^$important
 ||collector.githubapp.com^$image,important
+||collector.schibsted.io^$important
 ||commander1.com^$image,important
 ||connatix.com^$important
 ||connect.facebook.net^
@@ -6352,6 +6358,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||theadex.com^$important
 ||tiqcdn.com^$important
 ||tns-counter.ru^$important
+||tns-cs.net^$important
 ||top100.ru/top100/top100.js$important,script
 ||toponclick.com^$important
 ||torrentz2.*^$csp=script-src 'self' 'unsafe-inline'
