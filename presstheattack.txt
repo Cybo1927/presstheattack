@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-04-12 17:19:03
-! Version: 20190412171903
+! Last modified: 2019-04-12 17:21:41
+! Version: 20190412172141
 ! Expires: 3 hours
 ! Number of filters: 6400
 ! Homepage: https://github.com/bogachenko/presstheattack/
@@ -3768,7 +3768,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*-tizers.
 |http*:*-tizers^
 |http*:*-tizers_
-|http*:*-track-$domain=~music.yandex.by|~music.yandex.ru|~music.yandex.ua
+|http*:*-track-$domain=~yandex.by|~yandex.ru|~yandex.ua
 |http*:*-track.
 |http*:*-track^
 |http*:*-track_
@@ -5270,9 +5270,9 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*^tizers.
 |http*:*^tizers^
 |http*:*^tizers_
-|http*:*^track-$domain=~music.yandex.by|~music.yandex.ru|~music.yandex.ua
-|http*:*^track.$domain=~music.yandex.by|~music.yandex.ru|~music.yandex.ua
-|http*:*^track^$domain=~ivi.tv|~music.yandex.by|~music.yandex.ru|~music.yandex.ua|~spotify.com
+|http*:*^track-$domain=~yandex.by|~yandex.ru|~yandex.ua
+|http*:*^track.$domain=~yandex.by|~yandex.ru|~yandex.ua
+|http*:*^track^$domain=~ivi.tv|~yandex.by|~yandex.ru|~yandex.ua|~spotify.com
 |http*:*^track_
 |http*:*^trackad-
 |http*:*^trackad.
@@ -5879,10 +5879,10 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*_tizers.
 |http*:*_tizers^
 |http*:*_tizers_
-|http*:*_track-$domain=~music.yandex.by|~music.yandex.ru|~music.yandex.ua
+|http*:*_track-$domain=~yandex.by|~yandex.ru|~yandex.ua
 |http*:*_track.
 |http*:*_track^
-|http*:*_track_$domain=~music.yandex.by|~music.yandex.ru|~music.yandex.ua
+|http*:*_track_$domain=~yandex.by|~yandex.ru|~yandex.ua
 |http*:*_trackad-
 |http*:*_trackad.
 |http*:*_trackad^
