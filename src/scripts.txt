@@ -11,9 +11,9 @@
 /^https?:\/\/[^\s]+\/ads([\W|\_]{1})?([0-9]{1,2}|[-a-z0-9_.]{5,})?(\.min)?\.js/$important,script
 /^https?:\/\/[^\s]+\/dfp([0-9]{1})?\.js/$important,script
 /^https?:\/\/[^\s]+\/fp([0-9]{1,2})?\.js/$important,script
-/^https?:\/\/[^\s]+g(tag|oogleads?|oogleanal(ytics?|yzer?)([0-9]{1})?|pt([-_]mobile)?|tm|a([_-]lite)?|a([_-]setup)?|oogle[-_.]track(ers?|ing)?|oogletag|ads?|tagmanager([-_]backend|track(ers?|ing)?event)?|oogle[_-]stats?)\./$important,script
 /^https?:\/\/[^\s]+\/piwik([\W|\_][0-9]{5,})?\.js/$important,script
 /^https?:\/\/[^\s]+\/s([0-9]{1,2})?\.js/$important,script
+/^https?:\/\/[^\s]+g(tag|oogleads?|oogleanal(ytics?|yzer?)([0-9]{1})?|pt([-_]mobile)?|tm|a([_-]lite)?|a([_-]setup)?|oogle[-_.]track(ers?|ing)?|oogletag|ads?|tagmanager([-_]backend|track(ers?|ing)?event)?|oogle[_-]stats?)\./$important,script
 /^https?:\/\/[^\s]+me([0-9]{1})?w\.js/$important,script
 /^https?:\/\/[^\s]+webmr([0-9]{1,2})?\.js/$important,script
 /^https?:\/\/[a-z0-9]+\.info\/+[-a-z0-9_?&=]{9,}/$third-party,script,important
@@ -21,7 +21,6 @@
 /^https?:\/\/www\.([a-z]{6,16})\.com\/([a-z]{1,4})\.js$/$important,script,third-party
 |http*:*-coin-hive.js$important,script
 |http*:*-vast-$script
-||static.eroprofile.com/js/nvbl.js$important,script
 |http*:*-vast.$script
 |http*:*-vast^$script
 |http*:*-vast_$script
@@ -200,6 +199,7 @@
 ||redditstatic.com/moat^$important,script
 ||siftscience.com^$important,script
 ||ssl-images-amazon.com^*/ape/sf/*/dasf-$important,script
+||static.eroprofile.com/js/nvbl.js$important,script
 ||top100.ru/top100/top100.js$important,script
 ||twitter.com/oct.js$important,script
 ||ucoz.org/?*%21*%$important,script

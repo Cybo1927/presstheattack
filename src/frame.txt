@@ -2,10 +2,10 @@
 |http*:*/pi.aspx$subdocument,important
 |http*:*/player_ads.html$subdocument,important
 |http*:*/setbucket?signature=$important,subdocument
+||abo.prismamediadigital.com^$important,subdocument
 ||google.com/afs/$important,subdocument
 ||google.com/dp/ads?$important,subdocument
 ||phncdn.com/iframe^$subdocument,important
 ||redditmedia.com/gtm/jail^$important,subdocument
 ||rutracker.org/iframe/$important,subdocument
 ||yahoo.com/sdarla/$important,subdocument
-||abo.prismamediadigital.com^$important,subdocument

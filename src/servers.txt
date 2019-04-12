@@ -46,6 +46,7 @@
 ||adsafeprotected.com^$important
 ||adsensecustomsearchads.com^$important
 ||adspsp.com^$important
+||adsrvr.org^$important
 ||adswrapme.click^$important
 ||adsymptotic.com^$important
 ||adtechus.com^$important
@@ -53,6 +54,7 @@
 ||adtm.chip.de^$important
 ||adtng.com^$important
 ||adtrack.adleadevent.com^$important
+||adverline.com^$important
 ||advertising.com^$important
 ||advertserve.com^$important
 ||advideo.ru^$important
@@ -83,6 +85,7 @@
 ||bidswitch.net^$important
 ||bounceexchange.com^$important
 ||branch.io^$important
+||brealtime.com^$important
 ||btttag.com^$important
 ||bzlwe.com^$important
 ||casalemedia.com^$important
@@ -98,6 +101,7 @@
 ||clickiocdn.com^$important
 ||clicktripz.com^$important
 ||clksite.com^$important
+||clmbtech.com^$important
 ||coinhive.com^$important
 ||collector.schibsted.io^$important
 ||connatix.com^$important
@@ -118,8 +122,6 @@
 ||cy-pr.com^$important
 ||dc.banggood.com^$important
 ||dccss.banggood.com^$important
-||run-syndicate.com^$important
-||adsrvr.org^$important
 ||delivery.vidible.tv^$important
 ||demandbase.com^$important
 ||demdex.net^$important
@@ -129,10 +131,6 @@
 ||digitaltarget.ru^$important
 ||disqusads.com^$important
 ||districtm.io^$important
-||clmbtech.com^$important
-||adverline.com^$important
-||instreamatic.com^$important
-||perimeterx.net^$important
 ||doubleclick.net^$important
 ||doublepimp.com^$important
 ||doublepimpssl.com^$important
@@ -185,6 +183,7 @@
 ||indexww.com^$important
 ||influads.com^$important
 ||info.web.de^$important
+||instreamatic.com^$important
 ||ioam.de^$important
 ||iocnt.net^$important
 ||ipinfo.io^$important
@@ -244,6 +243,7 @@
 ||ownlocal.com^$important
 ||pagefair.com^$important
 ||pb.m.naver.com^$important
+||perimeterx.net^$important
 ||pf.newegg.com^$important
 ||piguiqproxy.com^$important
 ||pixel.facebook.com^$important
@@ -270,6 +270,7 @@
 ||rfity.com^$important
 ||roosterfirework.com^$important
 ||rubiconproject.com^$important
+||run-syndicate.com^$important
 ||rutarget.ru^$important
 ||rutrk.org^$important
 ||sail-horizon.com^$important
