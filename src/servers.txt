@@ -130,6 +130,8 @@
 ||disqusads.com^$important
 ||districtm.io^$important
 ||adverline.com^$important
+||instreamatic.com^$important
+||perimeterx.net^$important
 ||doubleclick.net^$important
 ||doublepimp.com^$important
 ||doublepimpssl.com^$important
