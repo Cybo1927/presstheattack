@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-04-13 06:41:01
-! Version: 20190413064101
+! Last modified: 2019-04-13 06:43:30
+! Version: 20190413064330
 ! Expires: 3 hours
 ! Number of filters: 6407
 ! Homepage: https://github.com/bogachenko/presstheattack/
@@ -2788,7 +2788,7 @@
 /^https?:\/\/[^\s]+[\W|\_](lms\-|videos?|fig)?analytics?(\.min)?\.js/$important,script
 /^https?:\/\/[^\s]+[\W|\_](track(ers?|ing)?)?pixels?[.-_/]([A-Za-z0-9]{30,}\/|png|bmp|jpe?g|gif|\?|js|cgi)/$image,important,object,xmlhttprequest,script
 /^https?:\/\/[^\s]+[\W|\_]ad(blocke?r|[-_]?track|block|bp|engine|frame|next[-_]iframe|os|river|rum|s?bygoogle|s|sdk|setup|config|[-_]?loader|x[-_]iframe|swrap|mixer|s?fox|[-_]?manager|s?[-_]async|[\W|\_]?sprite)?([0-9]{3,5}|\.min)?\.(html|js|javascript|php|txt)/$important,script,xmlhttprequest,subdocument
-/^https?:\/\/[^\s]+[\W|\_]bann?ers?([0-9]{1,2}|[-_][^\s]+)?\.(swf|bmp|gif|jpe?g|png|svg|webp|js)/$xmlhttprequest,image,script,subdocument,object-subrequest,object,important,domain=~udemy.com
+/^https?:\/\/[^\s]+[\W|\_]bann?ers?([0-9]{1,2}|[\W|\_][^\s]+)?\.(swf|bmp|gif|jpe?g|png|svg|webp|js)/$xmlhttprequest,image,script,subdocument,object-subrequest,object,important,domain=~udemy.com
 /^https?:\/\/[^\s]+[\W|\_]gtm\.js$script
 /^https?:\/\/[^\s]+[\W|\_]kameleoon(\.min)?\.js/$important,script
 /^https?:\/\/[^\s]+[\W|\_]metric[sa][^\s]+\.js/$script,important
