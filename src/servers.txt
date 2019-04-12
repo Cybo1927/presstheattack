@@ -118,6 +118,7 @@
 ||cy-pr.com^$important
 ||dc.banggood.com^$important
 ||dccss.banggood.com^$important
+||run-syndicate.com^$important
 ||adsrvr.org^$important
 ||delivery.vidible.tv^$important
 ||demandbase.com^$important

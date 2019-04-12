@@ -1223,7 +1223,6 @@
 |http*:*?perfekt=wss://*^$important
 |http*:*?proxy=ws://*^$important
 |http*:*?proxy=wss://*^$important
-|http*:*?type=pageview&$important
 |http*:*?zoneid=$important
 |http*:*^MetaAdServer-
 |http*:*^MetaAdServer.

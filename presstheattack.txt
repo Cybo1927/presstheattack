@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-04-12 13:54:30
-! Version: 20190412135430
+! Last modified: 2019-04-12 14:09:01
+! Version: 20190412140901
 ! Expires: 3 hours
-! Number of filters: 6417
+! Number of filters: 6419
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2786,7 +2786,7 @@
 /^https?:\/\/[^/]+\/[a-z0-9]{15,}(\?hope=.*)?$/$important,script
 /^https?:\/\/[^\s]+(player|gen|client|csi|generate|stream|log)[\W|_]?204/$image,important,xmlhttprequest,other
 /^https?:\/\/[^\s]+[\W|\_](lms\-|videos?|fig)?analytics?(\.min)?\.js/$important,script
-/^https?:\/\/[^\s]+[\W|\_](track(ers?|ing)?)?pixels?[.-_/]([A-Za-z0-9]{30,}\/|png|bmp|jpe?g|gif|\?|js)/$image,important,object,xmlhttprequest,script
+/^https?:\/\/[^\s]+[\W|\_](track(ers?|ing)?)?pixels?[.-_/]([A-Za-z0-9]{30,}\/|png|bmp|jpe?g|gif|\?|js|cgi)/$image,important,object,xmlhttprequest,script
 /^https?:\/\/[^\s]+[\W|\_]ad(blocke?r|\_?track|block|bp|engine|frame|next\_iframe|os|river|rum|s?bygoogle|s|sdk|setup|config|\_loader|x\_iframe|swrap|mixer|s?fox|[-_]?manager|s?\-async|[\W|\_]?sprite)?([0-9]{3,5}|\.min)?\.(html|js|javascript|php|txt)/$important,script,xmlhttprequest,subdocument
 /^https?:\/\/[^\s]+[\W|\_]gtm\.js$script
 /^https?:\/\/[^\s]+[\W|\_]kameleoon(\.min)?\.js/$important,script
@@ -4722,7 +4722,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*?perfekt=wss://*^$important
 |http*:*?proxy=ws://*^$important
 |http*:*?proxy=wss://*^$important
-|http*:*?type=pageview&$important
+|http*:*?type=pageview&$important$important,xmlhttprequest
 |http*:*?zoneid=$important
 |http*:*^aclick-
 |http*:*^aclick.
@@ -6282,6 +6282,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||permutive.com^$important,script,subdocument
 ||perr.h-cdn.com^$important,xmlhttprequest
 ||pf.newegg.com^$important
+||phncdn.com/iframe^$important,subdocument
 ||phncdn.com/iframe^$subdocument,important
 ||piguiqproxy.com^$important
 ||pipe.aria.microsoft.com/collector^$important,xmlhttprequest
@@ -6315,6 +6316,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||rover.ebay.*/roverimp/*&trknvp=$image,important
 ||rover.ebay.*^$image,important
 ||rubiconproject.com^$important
+||run-syndicate.com^$important
 ||rutarget.ru^$important
 ||rutracker.org/iframe/$important,subdocument
 ||rutrk.org^$important
