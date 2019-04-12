@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-04-12 17:21:41
-! Version: 20190412172141
+! Last modified: 2019-04-12 17:28:13
+! Version: 20190412172813
 ! Expires: 3 hours
 ! Number of filters: 6400
 ! Homepage: https://github.com/bogachenko/presstheattack/
@@ -2807,7 +2807,7 @@
 /^https?:\/\/[^\s]+\/piwik([\W|\_][0-9]{5,})?\.js/$important,script
 /^https?:\/\/[^\s]+\/popunders?([0-9]{1,2})?\./$important,popup,script,xmlhttprequest
 /^https?:\/\/[^\s]+\/s([0-9]{1,2})?\.js/$important,script
-/^https?:\/\/[^\s]+g(oogle|ooglead|oogleanal(ytics?|yzer?)([0-9]{1})?|pt([-_]mobile)?|tm|a([_-]lite)?|a([_-]setup)?|ads?|oogle([-_.]track(ers?|ing)?)?|oogletag|tagmanager([-_]backend|track(ers?|ing)?event)?|oogle[_-]stats?)/$important,script
+/^https?:\/\/[^\s]+g(oogle(ads?)?|oogleanal(ytics?|yzer?)([0-9]{1})?|pt([-_]mobile)?|tm|a([_-]lite)?|a([_-]setup)?|ads?|oogle([-_.]track(ers?|ing)?)?|oogletag|tagmanager([-_]backend|track(ers?|ing)?event)?|oogle[_-]stats?)\./$important,script
 /^https?:\/\/[^\s]+google\.[A-Za-z0-9.]{2,7}\/log\?/$image,important,xmlhttprequest
 /^https?:\/\/[^\s]+log[\W|_]?(type|event|entry|request)/$image,important,xmlhttprequest
 /^https?:\/\/[^\s]+me([0-9]{1})?w\.js/$important,script
@@ -5597,7 +5597,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*_counter-$domain=~yandex.by|~yandex.ru|~yandex.ua
 |http*:*_counter.
 |http*:*_counter^
-|http*:*_counter_
+|http*:*_counter_$domain=~yandex.by|~yandex.ru|~yandex.ua
 |http*:*_cycounter-
 |http*:*_cycounter.
 |http*:*_cycounter^

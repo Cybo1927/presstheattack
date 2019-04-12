@@ -2111,7 +2111,7 @@
 |http*:*_counter-$domain=~yandex.by|~yandex.ru|~yandex.ua
 |http*:*_counter.
 |http*:*_counter^
-|http*:*_counter_
+|http*:*_counter_$domain=~yandex.by|~yandex.ru|~yandex.ua
 |http*:*_cycounter-
 |http*:*_cycounter.
 |http*:*_cycounter^
