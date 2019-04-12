@@ -1,7 +1,7 @@
 /^https?:\/\/contentbooster\.me+\/(?!manifest)[a-z0-9]{5,45}/$important,xmlhttprequest
 /^https?:\/\/s3\.amazonaws\.com\/.*[a-f0-9\/]{50,}/$important,third-party,xmlhttprequest,domain=~amazon.com
 |http*:*/get_geoip?$important,xmlhttprequest
-|http*:*?type=pageview&$important$important,xmlhttprequest
+|http*:*?type=pageview&$important,xmlhttprequest
 ||airbnb.*/tracking/$important,xmlhttprequest
 ||amazon.*/record-impressions^$important,xmlhttprequest
 ||api.twitch.tv/*/channels/*/extensions^$xmlhttprequest
