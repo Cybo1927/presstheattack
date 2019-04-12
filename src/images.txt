@@ -22,6 +22,7 @@ GGBET$image
 |http*:*/ads.png$image,important
 |http*:*/adsct?$image,important
 |http*:*/blank.gif$image,important
+|http*:*/ottocustom.gif$image,important
 |http*:*/blank.png$image,important
 |http*:*/c.gif$image,important
 |http*:*/c.png$image,important

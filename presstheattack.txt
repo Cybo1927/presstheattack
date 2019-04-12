@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-04-12 13:44:50
-! Version: 20190412134450
+! Last modified: 2019-04-12 13:54:30
+! Version: 20190412135430
 ! Expires: 3 hours
-! Number of filters: 6416
+! Number of filters: 6417
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2792,7 +2792,7 @@
 /^https?:\/\/[^\s]+[\W|\_]kameleoon(\.min)?\.js/$important,script
 /^https?:\/\/[^\s]+[\W|\_]metric[sa][^\s]+\.js/$script,important
 /^https?:\/\/[^\s]+[\W|\_]ping\.(bmp|gif|jpe?g|png|svg|webp|js)?(\?[A-Za-z]{1}\=)?/$important,script,image
-/^https?:\/\/[^\s]+[\W|\_]track(ers?|ing)?([^\s]+\.js|\?[a-z]{1}=[A-Za-z]{3,5}\&[a-z]{1}\=)/$script,xmlhttprequest,important
+/^https?:\/\/[^\s]+[\W|\_]track(ers?|ing)?([^\s]+\.js|\?[a-z]{1}\=[A-Za-z]{1,5}\&[a-z]{1}\=)/$script,xmlhttprequest,important
 /^https?:\/\/[^\s]+\.[A-Za-z]{2,6}\/(dear\_code\/[0-9]{4}\/|[-A-Za-z0-9_]{5,8}\/[0-9]{4}|[^\s]{14,}\/|code\/)?([ck]li?ck|go[ck]li?ck|hit|(next|pl)\.php)?\?[A-Za-z]{1}\=([^\s]{50,}|[^\s]+ref\=|every(\_[0-9]{1,2})?\_sec)/$popup,important,script,domain=~yandex.ru|~yandex.ua|~yandex.by
 /^https?:\/\/[^\s]+\.[A-Za-z]{2,6}\/[^\s]{5,}\.js\?[A-Za-z]{1}\=[^\s]{50,}/$popup,important
 /^https?:\/\/[^\s]+\.[A-Za-z]{2,6}\/[A-Za-z]{1}\?tag\=[^\s]\&site\=[A-Za-z0-9]{1,}\&ads?\=/$popup,important,script
@@ -3779,7 +3779,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*-tracker.
 |http*:*-tracker^
 |http*:*-tracker_
-|http*:*-tracking-$domain=yahoo.com
+|http*:*-tracking-$domain=~yahoo.com
 |http*:*-tracking.
 |http*:*-tracking^
 |http*:*-tracking_
@@ -4585,6 +4585,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/noblock.js$important,script
 |http*:*/obfus.min.js$important,script
 |http*:*/omniture.js$important,script
+|http*:*/ottocustom.gif$image,important
 |http*:*/ottoperformance.gif$image,important
 |http*:*/p.gif$image,important
 |http*:*/p.js$important,script
@@ -5168,7 +5169,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*^ppv.
 |http*:*^ppv^
 |http*:*^ppv_
-|http*:*^promo-
+|http*:*^promo-$domain=~otto.de
 |http*:*^promo.$domain=~mail.ru
 |http*:*^promo^$domain=~kinopoisk.ru|~mail.ru|~ntv.ru|~neopets.com
 |http*:*^promo_$domain=~livejournal.com|~livejournal.net|~vk.com|~otto.de|~xfinity.com|~1tv.ru

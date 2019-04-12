@@ -576,7 +576,7 @@
 |http*:*-tracker.
 |http*:*-tracker^
 |http*:*-tracker_
-|http*:*-tracking-$domain=yahoo.com
+|http*:*-tracking-$domain=~yahoo.com
 |http*:*-tracking.
 |http*:*-tracking^
 |http*:*-tracking_
@@ -1669,7 +1669,7 @@
 |http*:*^ppv.
 |http*:*^ppv^
 |http*:*^ppv_
-|http*:*^promo-
+|http*:*^promo-$domain=~otto.de
 |http*:*^promo.$domain=~mail.ru
 |http*:*^promo^$domain=~kinopoisk.ru|~mail.ru|~ntv.ru|~neopets.com
 |http*:*^promo_$domain=~livejournal.com|~livejournal.net|~vk.com|~otto.de|~xfinity.com|~1tv.ru
