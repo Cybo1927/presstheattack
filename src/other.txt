@@ -1387,7 +1387,7 @@
 |http*:*^adtest_
 |http*:*^adv-
 |http*:*^adv.
-|http*:*^adv^$domain=~mail.google.com
+|http*:*^adv^$domain=~mail.google.com|~livejournal.com
 |http*:*^adv_$domain=~tweakers.net
 |http*:*^advert-
 |http*:*^advert.

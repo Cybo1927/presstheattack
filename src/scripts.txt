@@ -5,6 +5,7 @@
 /^https?:\/\/[^\s]+[\W|\_](lms\-|videos?|fig)?analytics?(\.min)?\.js/$important,script
 /^https?:\/\/[^\s]+[\W|\_]gtm\.js$script
 /^https?:\/\/[^\s]+[\W|\_]kameleoon(\.min)?\.js/$important,script
+/^https?:\/\/[^\s]+[\W|\_]metric[sa][^\s]+\.js/$script,important
 /^https?:\/\/[^\s]+\/([^\s]{4})?tag\.min\.([a-z0-9]{30,}\.)?js/$important,script
 /^https?:\/\/[^\s]+\/(fuck|block)adblock(\.min)?\.js/$important,script
 /^https?:\/\/[^\s]+\/ads([\W|\_]{1})?([0-9]{1,2}|[-a-z0-9_.]{5,})?(\.min)?\.js/$important,script
@@ -18,13 +19,12 @@
 /^https?:\/\/cdn[0-9]{1,2}?\.rocks\/[^\s]{30,}\.js/$important,script
 /^https?:\/\/www\.([a-z]{6,16})\.com\/([a-z]{1,4})\.js$/$important,script,third-party
 |http*:*-coin-hive.js$important,script
-/^https?:\/\/[^\s]+[\W|\_]metric[sa][^\s]+\.js/$script,important
 |http*:*-vast-$script
 |http*:*-vast.$script
 |http*:*-vast^$script
 |http*:*-vast_$script
 |http*:*.vast-$script
-|http*:*/dtagent*.js$important,script
+|http*:*/googletag.js$important,script
 |http*:*.vast.$script
 |http*:*.vast^$script
 |http*:*.vast_$script
@@ -74,6 +74,7 @@
 |http*:*/deepMiner.min.js$important,script
 |http*:*/demandbase_*.js$important,script
 |http*:*/dprocessor.js$important,script
+|http*:*/dtagent*.js$important,script
 |http*:*/empty.js$important,script
 |http*:*/endscreen.js$script,domain=youtube.com
 |http*:*/flyertown_module.js$important,script
@@ -100,7 +101,6 @@
 |http*:*/ima3.js$important,script
 |http*:*/invoke.js$important,script
 |http*:*/iwa.js$important,script
-|http*:*/js/tracking/ga_initial_visit*.js$important,script
 |http*:*/jsecoin.js$important,script
 |http*:*/log.js$important,script
 |http*:*/mediametrie.js$important,script
