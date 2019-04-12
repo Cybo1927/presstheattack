@@ -233,7 +233,7 @@
 |http*:*-banner-ad^
 |http*:*-banner-ad_
 |http*:*-banner.$domain=~reddit.com|~neopets.com
-|http*:*-banner^$domain=~reddit.com|~taobao.com
+|http*:*-banner^$domain=~reddit.com|~taobao.com|~bbc.com
 |http*:*-banner_
 |http*:*-banners-
 |http*:*-banners.

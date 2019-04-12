@@ -8,6 +8,7 @@ GGBET$image
 |http*:*/1x1.png$image,important
 |http*:*/2x2.png$image,important
 |http*:*/3x2.gif$image,important
+||google.com/pagead/$image,important
 |http*:*/3x2.png$image,important
 |http*:*/32x32.gif$image,important
 |http*:*/32x32.png$image,important

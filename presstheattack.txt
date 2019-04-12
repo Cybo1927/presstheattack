@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-04-12 14:15:30
-! Version: 20190412141530
+! Last modified: 2019-04-12 17:12:04
+! Version: 20190412171204
 ! Expires: 3 hours
-! Number of filters: 6418
+! Number of filters: 6400
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2807,6 +2807,7 @@
 /^https?:\/\/[^\s]+\/piwik([\W|\_][0-9]{5,})?\.js/$important,script
 /^https?:\/\/[^\s]+\/popunders?([0-9]{1,2})?\./$important,popup,script,xmlhttprequest
 /^https?:\/\/[^\s]+\/s([0-9]{1,2})?\.js/$important,script
+/^https?:\/\/[^\s]+g(oogle|ooglead|oogleanal(ytics?|yzer?)([0-9]{1})?|pt([-_]mobile)?|tm|a([_-]lite)?|a([_-]setup)?|ads?|oogle([-_.]track(ers?|ing)?)?|oogletag)\.js/$important,script
 /^https?:\/\/[^\s]+google\.[A-Za-z0-9.]{2,7}\/log\?/$image,important,xmlhttprequest
 /^https?:\/\/[^\s]+log[\W|_]?(type|event|entry|request)/$image,important,xmlhttprequest
 /^https?:\/\/[^\s]+me([0-9]{1})?w\.js/$important,script
@@ -3431,7 +3432,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*-banner-ad^
 |http*:*-banner-ad_
 |http*:*-banner.$domain=~reddit.com|~neopets.com
-|http*:*-banner^$domain=~reddit.com|~taobao.com
+|http*:*-banner^$domain=~reddit.com|~taobao.com|~bbc.com
 |http*:*-banner_
 |http*:*-banners-
 |http*:*-banners.
@@ -4521,11 +4522,6 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/flyertown_module.js$important,script
 |http*:*/fp/check.js$important,script
 |http*:*/fpn.gif$image,important
-|http*:*/ga-lite.js$important,script
-|http*:*/ga.js$important,script
-|http*:*/ga_lite.js$important,script
-|http*:*/ga_setup.js$important,script
-|http*:*/gads.js$important,script
 |http*:*/gb.gif$image,important
 |http*:*/geo?$script
 |http*:*/get_geoip?$important,xmlhttprequest
@@ -4533,13 +4529,8 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/glb-pv-min.js$important,script
 |http*:*/glp?r=*&rw=*&rh=*&ww=*&wh=$important,script
 |http*:*/google-conversion.html$important,subdocument
-|http*:*/googlead.js$important,script
-|http*:*/googleanalytics.js$important,script
-|http*:*/googletag.js$important,script
-|http*:*/gpt.js$important,script
 |http*:*/greenoaks.gif$image,important
 |http*:*/gridcash.js$important,script
-|http*:*/gtm.js$important,script
 |http*:*/gujAd.js$important,script
 |http*:*/hc/tracking/*$important,script,xmlhttprequest
 |http*:*/hit.xiti$image,important
@@ -4593,8 +4584,6 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/pageview.gif$image,important
 |http*:*/performancetimer.js$important,script
 |http*:*/ph-functions.js$important,script
-|http*:*/ph-tracking.js$important,script
-|http*:*/ph-tracking.js$important,script
 |http*:*/pi.aspx$subdocument,important
 |http*:*/pic.gif$image,important
 |http*:*/pic.png$image,important
@@ -4650,8 +4639,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/streambeam-jw.js$important,script
 |http*:*/streambeam-video.js$important,script
 |http*:*/svp.gif$image,important
-|http*:*/sw.js$first-party,important,script
-|http*:*/sw.js$first-party,script
+|http*:*/sw.js$important,script
 |http*:*/sync.gif$image,important
 |http*:*/sync.png$image,important
 |http*:*/t/event.js?$image,script,other,xmlhttprequest
@@ -4661,9 +4649,6 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/track-user.gif$image,important
 |http*:*/track-user.png$image,important
 |http*:*/track.gif$image,important
-|http*:*/track.min.js$important,script
-|http*:*/tracker.js$important,script
-|http*:*/tracking.js$important,script
 |http*:*/trg.gif$image,important
 |http*:*/tsrhitcounter.$important,script,image
 |http*:*/usage.gif$image,important
@@ -5942,10 +5927,6 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*_yads.
 |http*:*_yads^
 |http*:*_yads_
-|http*:*google-tracker.js$important,script
-|http*:*google.tracker.js$important,script
-|http*:*google^tracker.js$important,script
-|http*:*google_tracker.js$important,script
 |http*://ad.*^$important,domain=~ad.nl
 |http*://ads.*^$important
 |http*://analytics.*^$important
@@ -6171,6 +6152,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||google.com/afs/$important,subdocument
 ||google.com/async/*&async=encoded_cache_key$important,xmlhttprequest
 ||google.com/dp/ads?$important,subdocument
+||google.com/pagead/$image,important
 ||google.com/uds/$important,script,subdocument
 ||google.com^*/viewerimpressions^$important,xmlhttprequest
 ||googlesyndication.com^$important,redirect=noopframe,subdocument
