@@ -129,6 +129,7 @@
 ||digitaltarget.ru^$important
 ||disqusads.com^$important
 ||districtm.io^$important
+||clmbtech.com^$important
 ||adverline.com^$important
 ||instreamatic.com^$important
 ||perimeterx.net^$important
