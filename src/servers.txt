@@ -129,6 +129,7 @@
 ||digitaltarget.ru^$important
 ||disqusads.com^$important
 ||districtm.io^$important
+||adverline.com^$important
 ||doubleclick.net^$important
 ||doublepimp.com^$important
 ||doublepimpssl.com^$important
