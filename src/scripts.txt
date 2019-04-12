@@ -40,10 +40,6 @@
 |http*:*/authedmine.min.js$important,script
 |http*:*/authedminer.js$important,script
 |http*:*/autotrack.js$important,script
-|http*:*/baner.js$important,script
-|http*:*/baners.js$important,script
-|http*:*/banner.js$important,script
-|http*:*/banners.js$important,script
 |http*:*/beacon.js$important,script
 |http*:*/bens/vinos.js$important,script
 |http*:*/bitcoincore/?ref=$important,script

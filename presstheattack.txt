@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-04-12 09:39:23
-! Version: 20190412093923
+! Last modified: 2019-04-12 12:01:16
+! Version: 20190412120116
 ! Expires: 3 hours
-! Number of filters: 6396
+! Number of filters: 6408
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2771,7 +2771,7 @@
 /^https:\/\/.*?\/v2\/0\/[a-zA-Z0-9_-]{30,}$/$important,script,third-party
 /^https?:\/\/(([0-9]{1,2})?l\-hit|([0-9]{1,2})?l-view|r([0-9]{1,2})?|rs|top\-fwz([0-9]{1,2})?|vk\.go|reklama|ad|ads|recostream\.go|[^\s]{10,}\.top|mediator|[^\s]{3,}\.radar|g?stat|top|xray)\.(imgs)?mail\.ru/$important
 /^https?:\/\/(([0-9]{1,2})?l\-hit|([0-9]{1,2})?l-view|r([0-9]{1,2})?|rs|top\-fwz([0-9]{1,2})?|vk\.go|reklama|ad|ads|recostream\.go|[^\s]{10,}\.top|mediator|[^\s]{3,}\.radar|g?stat|top|xray)\.(imgs)?mail\.ru/$important,popup
-/^https?:\/\/([^\s]+\/|www\.)?a(dve|nnounceme|d)[rn][te](covers?|server?|isement|ising)?([0-9]{1,2})?\./$important,script,image,subdocument,xmlhttprequest,popup
+/^https?:\/\/([^\s]+\/|www\.)?a(dve|nnounceme|ds?)[rn][te](covers?|server?|isement|ising)?([0-9]{1,2})?\./$important,script,image,subdocument,xmlhttprequest,popup
 /^https?:\/\/([a-z0-9]{3,10}\.)?[a-z0-9]{5,15}\.(click|com|bid|net|online|top|club)\/([a-z0-9]{2}\/){3}[a-f0-9]{32}\.js$/$important,script
 /^https?:\/\/([a-z0-9]{8,10}\.)?[a-z0-9]{5,14}\.(com|bid|online|top|club)\/([a-z0-9]{2}\/){3}[a-f0-9]{32}\.js$/$important,script,third-party
 /^https?:\/\/([A-Za-z0-9]{3,}\.)?(id|adservice|mobilecrashreporting|imasdk|tagmanager)\.google(apis)?\.[A-Za-z0-9.]{2,7}/$important
@@ -2784,8 +2784,8 @@
 /^https?:\/\/(www\.)?(facebookcorewwwi|facebook)\.(com|net|onion)\/tr\D/$important
 /^https?:\/\/2ch\.(hk|pm|re|tf|wf|yt)\/images\//$image,important
 /^https?:\/\/[^/]+\/[a-z0-9]{15,}(\?hope=.*)?$/$important,script
-/^https?:\/\/[^\s]+([\W|\_]|(google\-)?track(ers?|ing)?)pixel\.?(png|bmp|jpe?g|gif|\?|js)/$image,important,object,xmlhttprequest,script
-/^https?:\/\/[^\s]+(player|gen|client|csi|generate|stream|log)[\W|_]?204/$image,important,xmlhttprequest
+/^https?:\/\/[^\s]+([\W|\_]track(ers?|ing)?)pixel\.?(png|bmp|jpe?g|gif|\?|js)/$image,important,object,xmlhttprequest,script
+/^https?:\/\/[^\s]+(player|gen|client|csi|generate|stream|log)[\W|_]?204/$image,important,xmlhttprequest,other
 /^https?:\/\/[^\s]+[\W|\_](lms\-|videos?|fig)?analytics?(\.min)?\.js/$important,script
 /^https?:\/\/[^\s]+[\W|\_]ad(blocke?r|\_?track|block|bp|engine|frame|next\_iframe|os|river|rum|s?bygoogle|s|sdk|setup|config|\_loader|x\_iframe|swrap|mixer|s?fox|[-_]?manager|s?\-async|[\W|\_]?sprite)?([0-9]{3,5}|\.min)?\.(html|js|javascript|php|txt)/$important,script,xmlhttprequest,subdocument
 /^https?:\/\/[^\s]+[\W|\_]banners?[\W|\_]id\=/$important,script,subdocument
@@ -2798,7 +2798,7 @@
 /^https?:\/\/[^\s]+\/([^\s]{4})?tag\.min\.([a-z0-9]{30,}\.)?js/$important,script
 /^https?:\/\/[^\s]+\/(fuck|block)adblock(\.min)?\.js/$important,script
 /^https?:\/\/[^\s]+\/ads([\W|\_]{1})?([0-9]{1,2}|[-a-z0-9_.]{5,})?(\.min)?\.js/$important,script
-/^https?:\/\/[^\s]+\/banner[0-9]{1,2}\.gif/$image,important
+/^https?:\/\/[^\s]+\/bann?ers?([0-9]{1,2}|\/[^\s]+)\.(swf|bmp|gif|jpe?g|png|svg|webp|js)/$image,script,subdocument,object-subrequest,object,important
 /^https?:\/\/[^\s]+\/bolpx[0-9]{1,2}\.gif/$image,important
 /^https?:\/\/[^\s]+\/dfp([0-9]{1})?\.js/$important,script
 /^https?:\/\/[^\s]+\/fingerprint([0-9]{1,2})?(\.min)?\.js/$important,script,xmlhttprequest
@@ -3204,6 +3204,10 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(AdvManager)
 yandex.by,yandex.ru,yandex.ua##^script:has-text(defaultMetrikaCounter)
 yandex.by,yandex.ru,yandex.ua##^script:has-text(devicePixelRatio)
 yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
+|http*:*-aclick-
+|http*:*-aclick.
+|http*:*-aclick^
+|http*:*-aclick_
 |http*:*-ad-
 |http*:*-ad-sdk-
 |http*:*-ad-sdk.
@@ -3810,6 +3814,10 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*-yads.
 |http*:*-yads^
 |http*:*-yads_
+|http*:*.aclick-
+|http*:*.aclick.
+|http*:*.aclick^
+|http*:*.aclick_
 |http*:*.ad-
 |http*:*.ad-sdk-
 |http*:*.ad-sdk.
@@ -4437,7 +4445,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/ads.gif$image,important
 |http*:*/ads.png$image,important
 |http*:*/adsct?$image,important
-|http*:*/aff_i?offer_id=$important
+|http*:*/aff_i?offer_id=$important,script,xmlhttprequest,image
 |http*:*/akam/10/$important,script
 |http*:*/amp.gif$image,important,xmlhttprequest
 |http*:*/analyticsjs.$important,script,xmlhttprequest
@@ -4454,13 +4462,6 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/autotrack.js$important,script
 |http*:*/b/ss/*&ce=utf-8&$image,important,script
 |http*:*/b/stats?$important,script,xmlhttprequest
-|http*:*/baner.js$important,script
-|http*:*/baners.js$important,script
-|http*:*/banner.js$important,script
-|http*:*/banner/*.gif$image,important
-|http*:*/banners.js$important,script
-|http*:*/banners/*.gif$image,important
-|http*:*/banners/*.swf^$important
 |http*:*/beacon.js$important,script
 |http*:*/bens/vinos.js$important,script
 |http*:*/bitcoincore/?ref=$important,script
@@ -4483,13 +4484,13 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/cloudcoins.min.js$important,script
 |http*:*/cmin.js$important,script
 |http*:*/cn-asmjs.min.js$important,script
-|http*:*/code/bshow.php?$important,third-party
+|http*:*/code/bshow.php?$important,script,xmlhttprequest
 |http*:*/coin-hive.js$important,script
 |http*:*/coinblind.js$important,script
 |http*:*/coinhive*.js$important,script
 |http*:*/coinhive.min.js$important,script
 |http*:*/coinlab.js$important,script
-|http*:*/col2/*&ss=$important
+|http*:*/col2/*&ss=$important,script,xmlhttprequest,image
 |http*:*/comscore.*.js$important,script
 |http*:*/count.json$important,script
 |http*:*/counter_img.php$image,important
@@ -4499,7 +4500,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/cryptocpu.js$important,script
 |http*:*/cryptonight.wasm$important,script
 |http*:*/dc_performance.js$important,script
-|http*:*/dear_code/*/goclick?t=*&ref=$important
+|http*:*/dear_code/*/goclick?t=*&ref=$important,script,xmlhttprequest
 |http*:*/deepMiner.js$important,script
 |http*:*/deepMiner.min.js$important,script
 |http*:*/demandbase_*.js$important,script
@@ -4554,7 +4555,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/img/ads.png$image,important
 |http*:*/imlive.gif$image,important
 |http*:*/imp.gif$image,important
-|http*:*/in.php?p=$important
+|http*:*/in.php?p=$important,script,xmlhttprequest
 |http*:*/invoke.js$important,script
 |http*:*/iwa.js$important,script
 |http*:*/js.gif$image,important,script
@@ -4608,7 +4609,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/publishertag.js$important,script
 |http*:*/pv.gif$image,important
 |http*:*/pv.png$image,important
-|http*:*/pv?fe=*&elg=$important
+|http*:*/pv?fe=*&elg=$important,script,xmlhttprequest,image
 |http*:*/pw.js$important,script
 |http*:*/px.gif$image,important
 |http*:*/px.js$important,script
@@ -4628,6 +4629,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/s_code.js$important,script
 |http*:*/safelinkconverter.js$important,script
 |http*:*/sat.gif$image,important
+|http*:*/setbucket?signature=$important,subdocument
 |http*:*/showads.js$important,script
 |http*:*/site=*/size=*/viewid=$image,important,script,xmlhttprequest
 |http*:*/site_ads.js$important,script
@@ -4647,6 +4649,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/sw.js$first-party,script
 |http*:*/sync.gif$image,important
 |http*:*/sync.png$image,important
+|http*:*/t/event.js?$image,script,other,xmlhttprequest
 |http*:*/textlink-ads.jpg$image,important
 |http*:*/tnc.js?h=$important,script
 |http*:*/tr.js$important,script,domain=~yandex.ru|~yandex.ua|~yandex.by
@@ -4700,7 +4703,8 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/z.gif$image,important
 |http*:*/z.png$image,important
 |http*:*/zbanner_consorzio.js$important,script
-|http*:*=widgetimpression&$important
+|http*:*://aclick.*^$important
+|http*:*=widgetimpression&$important,script,xmlhttprequest,subdocument,image
 |http*:*?*&ip=$third-party
 |http*:*?*&lp=*id=$popup
 |http*:*?_siteid=$important,script,xmlhttprequest
@@ -4715,6 +4719,10 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*?proxy=wss://*^$important
 |http*:*?type=pageview&$important
 |http*:*?zoneid=$important
+|http*:*^aclick-
+|http*:*^aclick.
+|http*:*^aclick^
+|http*:*^aclick_
 |http*:*^ad-$domain=~leboncoin.fr
 |http*:*^ad-sdk-
 |http*:*^ad-sdk.
@@ -5320,6 +5328,10 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*^yads.
 |http*:*^yads^
 |http*:*^yads_
+|http*:*_aclick-
+|http*:*_aclick.
+|http*:*_aclick^
+|http*:*_aclick_
 |http*:*_ad-$domain=~yahoo.com
 |http*:*_ad-sdk-
 |http*:*_ad-sdk.

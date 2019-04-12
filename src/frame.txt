@@ -1,6 +1,7 @@
 |http*:*/google-conversion.html$important,subdocument
 |http*:*/pi.aspx$subdocument,important
 |http*:*/player_ads.html$subdocument,important
+|http*:*/setbucket?signature=$important,subdocument
 ||google.com/afs/$important,subdocument
 ||google.com/dp/ads?$important,subdocument
 ||phncdn.com/iframe^$subdocument,important
