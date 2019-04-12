@@ -11,7 +11,7 @@
 /^https?:\/\/[^\s]+\/ads([\W|\_]{1})?([0-9]{1,2}|[-a-z0-9_.]{5,})?(\.min)?\.js/$important,script
 /^https?:\/\/[^\s]+\/dfp([0-9]{1})?\.js/$important,script
 /^https?:\/\/[^\s]+\/fp([0-9]{1,2})?\.js/$important,script
-/^https?:\/\/[^\s]+g(oogle|ooglead|oogleanal(ytics?|yzer?)([0-9]{1})?|pt([-_]mobile)?|tm|a([_-]lite)?|a([_-]setup)?|ads?|oogle([-_.]track(ers?|ing)?)?|oogletag)\.js/$important,script
+/^https?:\/\/[^\s]+g(oogle|ooglead|oogleanal(ytics?|yzer?)([0-9]{1})?|pt([-_]mobile)?|tm|a([_-]lite)?|a([_-]setup)?|ads?|oogle([-_.]track(ers?|ing)?)?|oogletag|tagmanager([-_]backend|track(ers?|ing)?event)?|oogle[_-]stats?)/$important,script
 /^https?:\/\/[^\s]+\/piwik([\W|\_][0-9]{5,})?\.js/$important,script
 /^https?:\/\/[^\s]+\/s([0-9]{1,2})?\.js/$important,script
 /^https?:\/\/[^\s]+me([0-9]{1})?w\.js/$important,script
