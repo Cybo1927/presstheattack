@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-04-14 06:07:43
-! Version: 20190414060743
+! Last modified: 2019-04-14 06:52:57
+! Version: 20190414065257
 ! Expires: 3 hours
-! Number of filters: 6394
+! Number of filters: 6398
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2768,7 +2768,6 @@
 */visitor.js$script,redirect=noopjs
 */visitorapi.js$script,redirect=noopjs
 /^https:\/\/.*?\/v2\/0\/[a-zA-Z0-9_-]{30,}$/$important,script,third-party
-/^https?:\/\/([^\s]+[\W|\_]|www\.)?a(dve|nnounceme|ds?)[rn][te](covers?|server?|isement|ising)?([0-9]{1,2})?\./$important,script,image,subdocument,xmlhttprequest,popup
 /^https?:\/\/([a-z0-9]{3,10}\.)?[a-z0-9]{5,15}\.(click|com|bid|net|online|top|club)\/([a-z0-9]{2}\/){3}[a-f0-9]{32}\.js$/$important,script
 /^https?:\/\/([a-z0-9]{8,10}\.)?[a-z0-9]{5,14}\.(com|bid|online|top|club)\/([a-z0-9]{2}\/){3}[a-f0-9]{32}\.js$/$important,script,third-party
 /^https?:\/\/([A-Za-z0-9]{3,}\.)?(([0-9]{1,2})?l\-hit|([0-9]{1,2})?l\-view|r([0-9]{1,2})?|rs|top\-(fwz([0-9]{1,2})?|staging)|(vk|stepan\-fe)\.go|reklama|ad|ads|recostream\.go|[^\s]{10,}\.top|mediator|[^\s]{3,}\.radar|g?stat|top|xray)\.(imgs)?mail\.ru/$important
@@ -2807,6 +2806,7 @@
 /^https?:\/\/[^\s]+\/piwik([\W|\_][0-9]{5,})?\.js/$important,script
 /^https?:\/\/[^\s]+\/popunders?([0-9]{1,2})?\./$important,popup,script,xmlhttprequest
 /^https?:\/\/[^\s]+\/s([0-9]{1,2})?\.js/$important,script
+/^https?:\/\/[^\s]+a(dve|nnounceme|ds?)[rn][te](covers?|server?|isement|ising)?([0-9]{1,2})?[\W|\_]/$important,script,image,subdocument,xmlhttprequest,popup
 /^https?:\/\/[^\s]+g(tag|oogleads?|oogleanal(ytics?|yzer?)([0-9]{1})?|pt([-_]mobile)?|tm|a([_-]lite)?|a([_-]setup)?|oogle[-_.]track(ers?|ing)?|oogletag|ads?|tagmanager([-_]backend|track(ers?|ing)?event)?|oogle[_-]stats?)\./$important,script
 /^https?:\/\/[^\s]+google\.[A-Za-z0-9.]{2,7}\/log\?/$image,important,xmlhttprequest
 /^https?:\/\/[^\s]+log[\W|_]?(type|event|entry|request)/$image,important,xmlhttprequest
@@ -3654,7 +3654,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*-ppv^
 |http*:*-ppv_
 |http*:*-promo-
-|http*:*-promo.$domain=~yahoo.com|~yandex.by|~yandex.ru|~yandex.ua|~otto.de
+|http*:*-promo.$domain=~yahoo.com|~yandex.by|~yandex.ru|~yandex.ua|~otto.de|~seznam.cz
 |http*:*-promo^
 |http*:*-promo_
 |http*:*-promoted-
@@ -3761,7 +3761,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*-tcheck.
 |http*:*-tcheck^
 |http*:*-tcheck_
-|http*:*-teaser-
+|http*:*-teaser-$domain=~focus.de
 |http*:*-teaser.$domain=~urbia.de
 |http*:*-teaser^
 |http*:*-teaser_
@@ -4623,6 +4623,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/stat.png$image,important
 |http*:*/stat?event=$important,script,xmlhttprequest
 |http*:*/static/js/tpb.js$important,script
+|http*:*/statistics.js$script,important
 |http*:*/stc.gif$image,important
 |http*:*/streambeam-jw.js$important,script
 |http*:*/streambeam-video.js$important,script
@@ -5937,8 +5938,10 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||3lift.com^$important
 ||69m.info^$important
 ||69v.club^$important
+||a.bf-tools.net/de/de.js$script,important
 ||aaxads.com^$important
 ||abo.prismamediadigital.com^$important,subdocument
+||accounts.ad.nl/gscounters.sendReport$script,important
 ||adalliance.io^$important
 ||adbetclickin.pink^$important
 ||adbetnet.com^$important
@@ -6170,6 +6173,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||hub.com.pl^$important
 ||hubvisor.io^$important
 ||i-mobile.co.jp^$important
+||i.imedia.cz^$important
 ||iadvize.com^$important
 ||ibillboard.com^$important
 ||imasdk.googleapis.com^$important,redirect=noopframe,subdocument

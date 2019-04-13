@@ -94,6 +94,7 @@
 ||cdn.tinypass.com^$important
 ||cdn.ziffstatic.com^$important
 ||chartbeat.com^$important
+||i.imedia.cz^$important
 ||clarium.global.ssl.fastly.net^$important
 ||clck.ru^
 ||clevernt.com^$important

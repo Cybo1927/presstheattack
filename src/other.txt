@@ -449,7 +449,7 @@
 |http*:*-ppv^
 |http*:*-ppv_
 |http*:*-promo-
-|http*:*-promo.$domain=~yahoo.com|~yandex.by|~yandex.ru|~yandex.ua|~otto.de
+|http*:*-promo.$domain=~yahoo.com|~yandex.by|~yandex.ru|~yandex.ua|~otto.de|~seznam.cz
 |http*:*-promo^
 |http*:*-promo_
 |http*:*-promoted-
@@ -556,7 +556,7 @@
 |http*:*-tcheck.
 |http*:*-tcheck^
 |http*:*-tcheck_
-|http*:*-teaser-
+|http*:*-teaser-$domain=~focus.de
 |http*:*-teaser.$domain=~urbia.de
 |http*:*-teaser^
 |http*:*-teaser_

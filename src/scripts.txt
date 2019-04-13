@@ -111,7 +111,10 @@
 |http*:*/noblock.js$important,script
 |http*:*/obfus.min.js$important,script
 |http*:*/omniture.js$important,script
+||accounts.ad.nl/gscounters.sendReport$script,important
+|http*:*/statistics.js$script,important
 |http*:*/p.js$important,script
+||a.bf-tools.net/de/de.js$script,important
 |http*:*/performancetimer.js$important,script
 |http*:*/ph-functions.js$important,script
 |http*:*/pops.js$important,script

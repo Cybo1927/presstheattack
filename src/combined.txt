@@ -1,4 +1,4 @@
-/^https?:\/\/([^\s]+[\W|\_]|www\.)?a(dve|nnounceme|ds?)[rn][te](covers?|server?|isement|ising)?([0-9]{1,2})?\./$important,script,image,subdocument,xmlhttprequest,popup
+/^https?:\/\/[^\s]+a(dve|nnounceme|ds?)[rn][te](covers?|server?|isement|ising)?([0-9]{1,2})?[\W|\_]/$important,script,image,subdocument,xmlhttprequest,popup
 /^https?:\/\/[^\s]+(player|gen|client|csi|generate|stream|log)[\W|_]?204/$image,important,xmlhttprequest,other
 /^https?:\/\/[^\s]+[\W|\_](track(ers?|ing)?)?pixels?[.-_/]([A-Za-z0-9]{30,}\/|a?png|bmp|jpe?g|gif|\?|js|cgi)/$image,important,object,xmlhttprequest,script
 /^https?:\/\/[^\s]+[\W|\_]ad(block(e?r|dete[ck]tor)|[-_]?track|block|bp(lus)?|engine|next[-_]iframe|os|river|rum|s?bygoogle|[sv]|sdk|setup|config|[-_]?loader|(x[-_])?iframe|swrap|mixer|s?fox|[-_]?manager|s?[-_]async|[\W|\_]?sprite)?([0-9]{3,5}|[A-Za-z0-9.-_]{4,8}|\.min)?\.(html|js|javascript|php|txt)/$important,script,xmlhttprequest,subdocument
