@@ -59,8 +59,6 @@
 ||advertserve.com^$important
 ||advideo.ru^$important
 ||adwidgets.ru^$important
-||nicequest.com^$important
-||mercadoclics.com^$important
 ||agkn.com^$important
 ||alexametrics.com^$important
 ||amazon-adsystem.com^$important
@@ -91,10 +89,8 @@
 ||casalemedia.com^$important
 ||cdn.onesignal.com^$important,third-party
 ||cdn.pljs.ru^$important
-||cdn.tinypass.com^$important
 ||cdn.ziffstatic.com^$important
 ||chartbeat.com^$important
-||i.imedia.cz^$important
 ||clarium.global.ssl.fastly.net^$important
 ||clck.ru^
 ||clevernt.com^$important
@@ -134,6 +130,7 @@
 ||doubleclick.net^$important
 ||doublepimp.com^$important
 ||doublepimpssl.com^$important
+||driftt.com^$important
 ||ds-aksb-a.akamaihd.net^$important
 ||dtprofit.com^$important
 ||edigitalsurvey.com^$important
@@ -143,6 +140,7 @@
 ||emsservice.de^$important
 ||en25.com^$important
 ||ensighten.com^$important
+||estat.com^$important
 ||etahub.com^$important
 ||events.reddit.com^$important
 ||exactag.com^$important
@@ -177,6 +175,7 @@
 ||hub.com.pl^$important
 ||hubvisor.io^$important
 ||i-mobile.co.jp^$important
+||i.imedia.cz^$important
 ||iadvize.com^$important
 ||ibillboard.com^$important
 ||imrworldwide.com^$important
@@ -209,6 +208,7 @@
 ||mediatoday.ru^$important
 ||meetrics.net^$important
 ||mellowads.com^$important
+||mercadoclics.com^$important
 ||mgid.com^$important
 ||microad.*^$important
 ||mms.cnn.com^$important
@@ -229,6 +229,7 @@
 ||navdmp.com^$important
 ||networkad.net^$important
 ||newrelic.com^$important
+||nicequest.com^$important
 ||nil.naver.com^$important
 ||ntv.io^$important
 ||nuggad.net^$important
@@ -299,6 +300,7 @@
 ||tcheck.outbrainimg.com^$important
 ||teads.tv^$important
 ||theadex.com^$important
+||tinypass.com^$third-party,important
 ||tiqcdn.com^$important
 ||tns-counter.ru^$important
 ||tns-cs.net^$important
@@ -308,6 +310,8 @@
 ||tracking.cdiscount.com^$important
 ||tracking.olx-st.com^$important
 ||tracksrv.zdf.de^$important
+||tradedoubler.com^$important
+||tradelab.fr^$important
 ||trafficfactory.biz^$important
 ||trafficjunky.net^$important
 ||trbo.com^$important

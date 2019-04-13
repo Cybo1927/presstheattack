@@ -1,5 +1,5 @@
 /^https?:\/\/c([0-9]{1,2})?\./$important,domain=~force.com|~ndtv.com|~newegg.com|~wp.com|~xavierstuder.com|~researchgate.net|~www.microsoft.com
-/^https?:\/\/log[0-9]{1,2}?\./$important
+/^https?:\/\/log([0-9]{1,2})?\./$important
 /^https?:\/\/p([0-9]{1,2})?\./$~popup,important,domain=~focus.de|~drtuber.com|~zendesk.com
 /^https?:\/\/r([0-9]{1,2})?\./$important
 |http*:*-MetaAdServer-

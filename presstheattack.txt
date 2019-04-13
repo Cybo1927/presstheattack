@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-04-14 08:20:44
-! Version: 20190414082044
+! Last modified: 2019-04-14 09:47:17
+! Version: 20190414094717
 ! Expires: 3 hours
-! Number of filters: 6397
+! Number of filters: 6401
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2768,8 +2768,10 @@
 */visitor.js$script,redirect=noopjs
 */visitorapi.js$script,redirect=noopjs
 /^https:\/\/.*?\/v2\/0\/[a-zA-Z0-9_-]{30,}$/$important,script,third-party
-/^https?:\/\/([^\s]+)?a(dve|nnounceme|ds?)[rn][te](covers?|server?|isement|ising)?([0-9]{1,2})?[\W|\_]/$important,script,image,subdocument,xmlhttprequest,popup
-/^https?:\/\/([^\s]+[\W|\_])?(videos?|fig|heap|hs\-)?analytic[as]([0-9]{1,2}|js|\.min)?[\W|\_]/$important,script,xmlhttprequest
+/^https?:\/\/([^\s]+[\W|\_]?)?a(dve|nnounceme|ds?)[rn][te](covers?|server?|isement|ising)?([0-9]{1,2})?[\W|\_]/$important,script,image,subdocument,xmlhttprequest,popup
+/^https?:\/\/([^\s]+[\W|\_]?)?analytic[as]([0-9]{1,2}|js|\.min)?[\W|\_]/$important,script,xmlhttprequest
+/^https?:\/\/([^\s]+[\W|\_]?)?google\.[A-Za-z0-9.]{2,7}\/log\?/$image,important,xmlhttprequest
+/^https?:\/\/([^\s]+[\W|\_]?)?pixels?[\W|\_]?(co(unter|ntabilizacion)|[A-Za-z0-9]{30,}\/|a?png|bmp|jpe?g|gif|\?|js|cgi)?/$image,important,object,xmlhttprequest,script
 /^https?:\/\/([a-z0-9]{3,10}\.)?[a-z0-9]{5,15}\.(click|com|bid|net|online|top|club)\/([a-z0-9]{2}\/){3}[a-f0-9]{32}\.js$/$important,script
 /^https?:\/\/([a-z0-9]{8,10}\.)?[a-z0-9]{5,14}\.(com|bid|online|top|club)\/([a-z0-9]{2}\/){3}[a-f0-9]{32}\.js$/$important,script,third-party
 /^https?:\/\/([A-Za-z0-9]{3,}\.)?(([0-9]{1,2})?l\-hit|([0-9]{1,2})?l\-view|r([0-9]{1,2})?|rs|top\-(fwz([0-9]{1,2})?|staging)|(vk|stepan\-fe)\.go|reklama|ad|ads|recostream\.go|[^\s]{10,}\.top|mediator|[^\s]{3,}\.radar|g?stat|top|xray)\.(imgs)?mail\.ru/$important
@@ -2784,18 +2786,17 @@
 /^https?:\/\/(www\.)?(facebookcorewwwi|facebook)\.(com|net|onion)\/tr\D/$important
 /^https?:\/\/2ch\.(hk|pm|re|tf|wf|yt)\/images\//$image,important
 /^https?:\/\/[^/]+\/[a-z0-9]{15,}(\?hope=.*)?$/$important,script
-/^https?:\/\/[^\s]+(player|gen|client|csi|generate|stream|log)[\W|_]?204/$image,important,xmlhttprequest,other
-/^https?:\/\/[^\s]+[\W|\_](track(ers?|ing)?)?pixels?[.-_/]([A-Za-z0-9]{30,}\/|a?png|bmp|jpe?g|gif|\?|js|cgi)/$image,important,object,xmlhttprequest,script
+/^https?:\/\/[^\s]+(player|gen|client|csi|generate|stream|log)[\W|_]?204[\W|_]?/$image,important,xmlhttprequest,other
 /^https?:\/\/[^\s]+[\W|\_]ad(block(e?r|dete[ck]tor)|[-_]?track|block|bp(lus)?|engine|next[-_]iframe|os|river|rum|s?bygoogle|[sv]|sdk|setup|config|[-_]?loader|(x[-_])?iframe|swrap|mixer|s?fox|[-_]?manager|s?[-_]async|[\W|\_]?sprite)?([0-9]{3,5}|[A-Za-z0-9.-_]{4,8}|\.min)?\.(html|js|javascript|php|txt)/$important,script,xmlhttprequest,subdocument
 /^https?:\/\/[^\s]+[\W|\_]bann?ers?([0-9]{1,2}|[\W|\_][^\s]+)?\.(swf|bmp|gif|jpe?g|a?png|svg|webp|js)/$xmlhttprequest,image,script,subdocument,object-subrequest,object,important,domain=~udemy.com|~twitch.tv
 /^https?:\/\/[^\s]+[\W|\_]gtm\.js$script
 /^https?:\/\/[^\s]+[\W|\_]kameleoon(\.min)?\.js/$important,script
 /^https?:\/\/[^\s]+[\W|\_]metric[sa][^\s]+\.js/$script,important
 /^https?:\/\/[^\s]+[\W|\_]ping(\.(bmp|gif|jpe?g|a?png|svg|webp|js))?/$important,script,image,xmlhttprequest
-/^https?:\/\/[^\s]+[\W|\_]track(ers?|ing)?(\.js|\.min|\?[a-z]{1}\=[A-Za-z]{1,5}\&[a-z]{1}\=)\.js/$script,xmlhttprequest,important
+/^https?:\/\/[^\s]+[\W|\_]track(ers?|ing)?(\.min|\?[a-z]{1}\=[A-Za-z]{1,5}\&[a-z]{1}\=)?\.js/$script,xmlhttprequest,important
 /^https?:\/\/[^\s]+\.[A-Za-z]{2,6}\/(dear\_code\/[0-9]{4}\/|[-A-Za-z0-9_]{5,8}\/[0-9]{4}|[^\s]{14,}\/|code\/)?([ck]li?ck|go[ck]li?ck|hit|(next|pl)\.php)?\?[A-Za-z]{1}\=([^\s]{50,}|[^\s]+ref\=|every(\_[0-9]{1,2})?\_sec)/$popup,important,script,domain=~yandex.ru|~yandex.ua|~yandex.by
 /^https?:\/\/[^\s]+\.[A-Za-z]{2,6}\/[^\s]{5,}\.js\?[A-Za-z]{1}\=[^\s]{50,}/$popup,important
-/^https?:\/\/[^\s]+\.[A-Za-z]{2,6}\/[A-Za-z]{1}\?tag\=[^\s]\&site\=[A-Za-z0-9]{1,}\&ads?\=/$popup,important,script
+/^https?:\/\/[^\s]+\.[A-Za-z]{2,6}\/[A-Za-z]{1}\?tag\=[^\s]+\&site\=[A-Za-z0-9]{1,}\&ads?\=/$popup,important,script
 /^https?:\/\/[^\s]+\/([0-9]{1}|[a-z]{1}(\?stm\=)?|[_-.]{1}|atrk|hit|log|njs|visitor)\.(a?png|gif|aspx)/$image,important,xmlhttprequest,domain=~mail.yandex.by|~mail.yandex.ru|~mail.yandex.ua|~gelbooru.com
 /^https?:\/\/[^\s]+\/([^\s]{4})?tag\.min\.([a-z0-9]{30,}\.)?js/$important,script
 /^https?:\/\/[^\s]+\/(fuck|block)adblock(\.min)?\.js/$important,script
@@ -2808,7 +2809,6 @@
 /^https?:\/\/[^\s]+\/popunders?([0-9]{1,2})?\./$important,popup,script,xmlhttprequest
 /^https?:\/\/[^\s]+\/s([0-9]{1,2})?\.js/$important,script
 /^https?:\/\/[^\s]+g(tag|oogleads?|oogleanal(ytics?|yzer?)([0-9]{1})?|pt([-_]mobile)?|tm|a([_-]lite)?|a([_-]setup)?|oogle[-_.]track(ers?|ing)?|oogletag|ads?|tagmanager([-_]backend|track(ers?|ing)?event)?|oogle[_-]stats?)\./$important,script
-/^https?:\/\/[^\s]+google\.[A-Za-z0-9.]{2,7}\/log\?/$image,important,xmlhttprequest
 /^https?:\/\/[^\s]+log[\W|_]?(type|event|entry|request)/$image,important,xmlhttprequest
 /^https?:\/\/[^\s]+me([0-9]{1})?w\.js/$important,script
 /^https?:\/\/[^\s]+webmr([0-9]{1,2})?\.js/$important,script
@@ -2818,7 +2818,7 @@
 /^https?:\/\/collector([0-9]{1,2})?\.xhamster\.[A-Za-z]{3}/$important,script,xmlhttprequest
 /^https?:\/\/contentbooster\.me+\/(?!manifest)[a-z0-9]{5,45}/$important,xmlhttprequest
 /^https?:\/\/graph\.(facebook|instagram)\.com/$image,important,script,xmlhttprequest
-/^https?:\/\/log[0-9]{1,2}?\./$important
+/^https?:\/\/log([0-9]{1,2})?\./$important
 /^https?:\/\/news\.yandex\.[^\s]{2,5}\/[^\s]{300,}/$important,subdocument,xmlhttprequest
 /^https?:\/\/p([0-9]{1,2})?\./$~popup,important,domain=~focus.de|~drtuber.com|~zendesk.com
 /^https?:\/\/r([0-9]{1,2})?\./$important
@@ -6034,7 +6034,6 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||casalemedia.com^$important
 ||cdn.onesignal.com^$important,third-party
 ||cdn.pljs.ru^$important
-||cdn.tinypass.com^$important
 ||cdn.ziffstatic.com^$important
 ||chartbeat.com^$important
 ||clarium.global.ssl.fastly.net^$important
@@ -6090,6 +6089,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||doublepimp.com^$popup,important
 ||doublepimpssl.com^$important
 ||doublepimpssl.com^$popup,important
+||driftt.com^$important
 ||dropbox.com/log/$important,xmlhttprequest
 ||ds-aksb-a.akamaihd.net^$important
 ||dtprofit.com^$important
@@ -6105,6 +6105,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||en25.com^$important
 ||ensighten.com^$important
 ||epimg.net/js/pbs/$script,important
+||estat.com^$important
 ||estat.com^$important,script
 ||etahub.com^$important
 ||events.reddit.com^$important
@@ -6336,6 +6337,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||tcheck.outbrainimg.com^$important
 ||teads.tv^$important
 ||theadex.com^$important
+||tinypass.com^$third-party,important
 ||tiqcdn.com^$important
 ||tns-counter.ru^$important
 ||tns-cs.net^$important
@@ -6346,6 +6348,8 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||tracking.cdiscount.com^$important
 ||tracking.olx-st.com^$important
 ||tracksrv.zdf.de^$important
+||tradedoubler.com^$important
+||tradelab.fr^$important
 ||trafficfactory.biz^$important
 ||trafficjunky.net^$important
 ||trbo.com^$important
