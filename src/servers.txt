@@ -59,14 +59,14 @@
 ||advertserve.com^$important
 ||advideo.ru^$important
 ||adwidgets.ru^$important
+||nicequest.com^$important
+||mercadoclics.com^$important
 ||agkn.com^$important
 ||alexametrics.com^$important
 ||amazon-adsystem.com^$important
 ||amplifypixel.outbrain.com^$important
 ||amplitude.com^$important
 ||amung.us^$important
-||analytics.edgekey.net^$important
-||analytics.twitter.com^$important
 ||aniview.com^$important
 ||atdmt.com^$important
 ||atwola.com^$important

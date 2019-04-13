@@ -1,4 +1,3 @@
-/^https?:\/\/analytics[0-9]{1,2}?\./$important
 /^https?:\/\/c([0-9]{1,2})?\./$important,domain=~force.com|~ndtv.com|~newegg.com|~wp.com|~xavierstuder.com|~researchgate.net|~www.microsoft.com
 /^https?:\/\/log[0-9]{1,2}?\./$important
 /^https?:\/\/p([0-9]{1,2})?\./$~popup,important,domain=~focus.de|~drtuber.com|~zendesk.com
@@ -448,7 +447,7 @@
 |http*:*-ppv.
 |http*:*-ppv^
 |http*:*-ppv_
-|http*:*-promo-
+|http*:*-promo-$domain=~gamespot.com
 |http*:*-promo.$domain=~yahoo.com|~yandex.by|~yandex.ru|~yandex.ua|~otto.de|~seznam.cz
 |http*:*-promo^
 |http*:*-promo_
@@ -556,7 +555,7 @@
 |http*:*-tcheck.
 |http*:*-tcheck^
 |http*:*-tcheck_
-|http*:*-teaser-$domain=~focus.de
+|http*:*-teaser-$domain=~focus.de|~gamespot.com
 |http*:*-teaser.$domain=~urbia.de
 |http*:*-teaser^
 |http*:*-teaser_
@@ -2383,7 +2382,7 @@
 |http*:*_teaser-
 |http*:*_teaser.
 |http*:*_teaser^
-|http*:*_teaser_$domain=~faz.net
+|http*:*_teaser_$domain=~faz.net|~gamespot.com
 |http*:*_tizers-
 |http*:*_tizers.
 |http*:*_tizers^
@@ -2434,7 +2433,6 @@
 |http*:*_yads_
 |http*://ad.*^$important,domain=~ad.nl
 |http*://ads.*^$important
-|http*://analytics.*^$important
 |http*://counter.*^$important
 |http*://delivery.*^$third-party
 |http*://geoservice.*^$important
