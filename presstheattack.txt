@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-04-13 11:46:05
-! Version: 20190413114605
+! Last modified: 2019-04-13 15:56:48
+! Version: 20190413155648
 ! Expires: 3 hours
-! Number of filters: 6409
+! Number of filters: 6410
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2821,7 +2821,7 @@
 /^https?:\/\/graph\.(facebook|instagram)\.com/$image,important,script,xmlhttprequest
 /^https?:\/\/log[0-9]{1,2}?\./$important
 /^https?:\/\/news\.yandex\.[^\s]{2,5}\/[^\s]{300,}/$important,subdocument,xmlhttprequest
-/^https?:\/\/p([0-9]{1,2})?\./$important,domain=~focus.de|~drtuber.com|~zendesk.com
+/^https?:\/\/p([0-9]{1,2})?\./$~popup,important,domain=~focus.de|~drtuber.com|~zendesk.com
 /^https?:\/\/r([0-9]{1,2})?\./$important
 /^https?:\/\/s3\.amazonaws\.com\/.*[a-f0-9\/]{50,}/$important,third-party,xmlhttprequest,domain=~amazon.com
 /^https?:\/\/tv\.yandex\.[^\s]{2,5}\/[^\s]{270,}/$image,important,subdocument,xmlhttprequest
@@ -3451,7 +3451,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*-bserver.
 |http*:*-bserver^
 |http*:*-bserver_
-|http*:*-campaign-
+|http*:*-campaign-$domain=~twitch.tv
 |http*:*-campaign.
 |http*:*-campaign^
 |http*:*-campaign_
@@ -6216,6 +6216,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||logql.yahoo.co.jp^$important
 ||logsss.com^$important
 ||logxp.ru^$important
+||lp4.io^$important
 ||m-pathy.com^$important
 ||mail.ru/share_count^$important,script
 ||mail.ru^$third-party

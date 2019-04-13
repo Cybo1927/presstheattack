@@ -1,7 +1,7 @@
 /^https?:\/\/analytics[0-9]{1,2}?\./$important
 /^https?:\/\/c([0-9]{1,2})?\./$important,domain=~force.com|~ndtv.com|~newegg.com|~wp.com|~xavierstuder.com|~researchgate.net|~www.microsoft.com
 /^https?:\/\/log[0-9]{1,2}?\./$important
-/^https?:\/\/p([0-9]{1,2})?\./$important,domain=~focus.de|~drtuber.com|~zendesk.com
+/^https?:\/\/p([0-9]{1,2})?\./$~popup,important,domain=~focus.de|~drtuber.com|~zendesk.com
 /^https?:\/\/r([0-9]{1,2})?\./$important
 |http*:*-MetaAdServer-
 |http*:*-MetaAdServer.
@@ -251,7 +251,7 @@
 |http*:*-bserver.
 |http*:*-bserver^
 |http*:*-bserver_
-|http*:*-campaign-
+|http*:*-campaign-$domain=~twitch.tv
 |http*:*-campaign.
 |http*:*-campaign^
 |http*:*-campaign_
