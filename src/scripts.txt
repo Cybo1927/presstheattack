@@ -36,8 +36,6 @@
 |http*:*/antiadb.js$important,script
 |http*:*/appmeasurement.js$important,script
 |http*:*/apstag.js$important,script
-|http*:*/async-ads.js$important,script
-|http*:*/async-ads.js$important,script
 |http*:*/atrk.js$important,script
 |http*:*/authedmine.min.js$important,script
 |http*:*/authedminer.js$important,script
@@ -91,6 +89,7 @@
 |http*:*/hubvisor.js$important,script
 |http*:*/ima3.js$important,script
 |http*:*/invoke.js$important,script
+|http*:*/iqadcontroller.$important,script
 |http*:*/iwa.js$important,script
 |http*:*/jsecoin.js$important,script
 |http*:*/log.js$important,script

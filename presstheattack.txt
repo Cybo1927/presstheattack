@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-04-13 15:56:48
-! Version: 20190413155648
+! Last modified: 2019-04-14 06:07:43
+! Version: 20190414060743
 ! Expires: 3 hours
-! Number of filters: 6410
+! Number of filters: 6394
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2767,9 +2767,8 @@
 */spacer.png$image,redirect=1x1-transparent.gif
 */visitor.js$script,redirect=noopjs
 */visitorapi.js$script,redirect=noopjs
-/\/([0-9]{1}|atrk|hit|log|njs|visitor)\.(png|gif)/$image,important,domain=~mail.yandex.by|~mail.yandex.ru|~mail.yandex.ua
 /^https:\/\/.*?\/v2\/0\/[a-zA-Z0-9_-]{30,}$/$important,script,third-party
-/^https?:\/\/([^\s]+\/|www\.)?a(dve|nnounceme|ds?)[rn][te](covers?|server?|isement|ising)?([0-9]{1,2})?\./$important,script,image,subdocument,xmlhttprequest,popup
+/^https?:\/\/([^\s]+[\W|\_]|www\.)?a(dve|nnounceme|ds?)[rn][te](covers?|server?|isement|ising)?([0-9]{1,2})?\./$important,script,image,subdocument,xmlhttprequest,popup
 /^https?:\/\/([a-z0-9]{3,10}\.)?[a-z0-9]{5,15}\.(click|com|bid|net|online|top|club)\/([a-z0-9]{2}\/){3}[a-f0-9]{32}\.js$/$important,script
 /^https?:\/\/([a-z0-9]{8,10}\.)?[a-z0-9]{5,14}\.(com|bid|online|top|club)\/([a-z0-9]{2}\/){3}[a-f0-9]{32}\.js$/$important,script,third-party
 /^https?:\/\/([A-Za-z0-9]{3,}\.)?(([0-9]{1,2})?l\-hit|([0-9]{1,2})?l\-view|r([0-9]{1,2})?|rs|top\-(fwz([0-9]{1,2})?|staging)|(vk|stepan\-fe)\.go|reklama|ad|ads|recostream\.go|[^\s]{10,}\.top|mediator|[^\s]{3,}\.radar|g?stat|top|xray)\.(imgs)?mail\.ru/$important
@@ -2786,17 +2785,18 @@
 /^https?:\/\/[^/]+\/[a-z0-9]{15,}(\?hope=.*)?$/$important,script
 /^https?:\/\/[^\s]+(player|gen|client|csi|generate|stream|log)[\W|_]?204/$image,important,xmlhttprequest,other
 /^https?:\/\/[^\s]+[\W|\_](lms\-|videos?|fig)?analytics?(\.min)?\.js/$important,script
-/^https?:\/\/[^\s]+[\W|\_](track(ers?|ing)?)?pixels?[.-_/]([A-Za-z0-9]{30,}\/|png|bmp|jpe?g|gif|\?|js|cgi)/$image,important,object,xmlhttprequest,script
-/^https?:\/\/[^\s]+[\W|\_]ad(blocke?r|[-_]?track|block|bp|engine|frame|next[-_]iframe|os|river|rum|s?bygoogle|s|sdk|setup|config|[-_]?loader|x[-_]iframe|swrap|mixer|s?fox|[-_]?manager|s?[-_]async|[\W|\_]?sprite)?([0-9]{3,5}|\.min)?\.(html|js|javascript|php|txt)/$important,script,xmlhttprequest,subdocument
-/^https?:\/\/[^\s]+[\W|\_]bann?ers?([0-9]{1,2}|[\W|\_][^\s]+)?\.(swf|bmp|gif|jpe?g|png|svg|webp|js)/$xmlhttprequest,image,script,subdocument,object-subrequest,object,important,domain=~udemy.com|~twitch.tv
+/^https?:\/\/[^\s]+[\W|\_](track(ers?|ing)?)?pixels?[.-_/]([A-Za-z0-9]{30,}\/|a?png|bmp|jpe?g|gif|\?|js|cgi)/$image,important,object,xmlhttprequest,script
+/^https?:\/\/[^\s]+[\W|\_]ad(block(e?r|dete[ck]tor)|[-_]?track|block|bp(lus)?|engine|next[-_]iframe|os|river|rum|s?bygoogle|[sv]|sdk|setup|config|[-_]?loader|(x[-_])?iframe|swrap|mixer|s?fox|[-_]?manager|s?[-_]async|[\W|\_]?sprite)?([0-9]{3,5}|[A-Za-z0-9.-_]{4,8}|\.min)?\.(html|js|javascript|php|txt)/$important,script,xmlhttprequest,subdocument
+/^https?:\/\/[^\s]+[\W|\_]bann?ers?([0-9]{1,2}|[\W|\_][^\s]+)?\.(swf|bmp|gif|jpe?g|a?png|svg|webp|js)/$xmlhttprequest,image,script,subdocument,object-subrequest,object,important,domain=~udemy.com|~twitch.tv
 /^https?:\/\/[^\s]+[\W|\_]gtm\.js$script
 /^https?:\/\/[^\s]+[\W|\_]kameleoon(\.min)?\.js/$important,script
 /^https?:\/\/[^\s]+[\W|\_]metric[sa][^\s]+\.js/$script,important
-/^https?:\/\/[^\s]+[\W|\_]ping(\.(bmp|gif|jpe?g|png|svg|webp|js))?/$important,script,image,xmlhttprequest
+/^https?:\/\/[^\s]+[\W|\_]ping(\.(bmp|gif|jpe?g|a?png|svg|webp|js))?/$important,script,image,xmlhttprequest
 /^https?:\/\/[^\s]+[\W|\_]track(ers?|ing)?(\.min|\?[a-z]{1}\=[A-Za-z]{1,5}\&[a-z]{1}\=)\.js/$script,xmlhttprequest,important
 /^https?:\/\/[^\s]+\.[A-Za-z]{2,6}\/(dear\_code\/[0-9]{4}\/|[-A-Za-z0-9_]{5,8}\/[0-9]{4}|[^\s]{14,}\/|code\/)?([ck]li?ck|go[ck]li?ck|hit|(next|pl)\.php)?\?[A-Za-z]{1}\=([^\s]{50,}|[^\s]+ref\=|every(\_[0-9]{1,2})?\_sec)/$popup,important,script,domain=~yandex.ru|~yandex.ua|~yandex.by
 /^https?:\/\/[^\s]+\.[A-Za-z]{2,6}\/[^\s]{5,}\.js\?[A-Za-z]{1}\=[^\s]{50,}/$popup,important
 /^https?:\/\/[^\s]+\.[A-Za-z]{2,6}\/[A-Za-z]{1}\?tag\=[^\s]\&site\=[A-Za-z0-9]{1,}\&ads?\=/$popup,important,script
+/^https?:\/\/[^\s]+\/([0-9]{1}|[a-z]{1}(\?stm\=)?|[_-.]{1}|atrk|hit|log|njs|visitor)\.(a?png|gif|aspx)/$image,important,xmlhttprequest,domain=~mail.yandex.by|~mail.yandex.ru|~mail.yandex.ua|~gelbooru.com
 /^https?:\/\/[^\s]+\/([^\s]{4})?tag\.min\.([a-z0-9]{30,}\.)?js/$important,script
 /^https?:\/\/[^\s]+\/(fuck|block)adblock(\.min)?\.js/$important,script
 /^https?:\/\/[^\s]+\/ads([\W|\_]{1})?([0-9]{1,2}|[-a-z0-9_.]{5,})?(\.min)?\.js/$important,script
@@ -4426,7 +4426,6 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*.yads.
 |http*:*.yads^
 |http*:*.yads_
-|http*:*/-.gif$image,important
 |http*:*/1x1.gif$image,important
 |http*:*/1x1.png$image,important
 |http*:*/2x2.png$image,important
@@ -4435,9 +4434,6 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/3x2.gif$image,important
 |http*:*/3x2.png$image,important
 |http*:*/?ip=*&zoneid=$important,popup
-|http*:*/_.gif$image,important
-|http*:*/a.gif$image,important
-|http*:*/a.png$image,important
 |http*:*/a/display.php^$important,script,xmlhttprequest,subdocument
 |http*:*/accip_script.js$important,script
 |http*:*/ad-sprite.png$image,important
@@ -4457,8 +4453,6 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/appmeasurement.js$important,script
 |http*:*/apstag.js$important,script
 |http*:*/article/viewcount/$important,script,xmlhttprequest
-|http*:*/async-ads.js$important,script
-|http*:*/async-ads.js$important,script
 |http*:*/atrk.js$important,script
 |http*:*/authedmine.min.js$important,script
 |http*:*/authedminer.js$important,script
@@ -4474,9 +4468,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/boomerang*.js$important,script
 |http*:*/browsermine.js$important,script
 |http*:*/c-hive.js$important,script
-|http*:*/c.gif$image,important
 |http*:*/c.js$important,script
-|http*:*/c.png$image,important
 |http*:*/c.wasm$important,script
 |http*:*/cc.gif$image,important
 |http*:*/cgi-bin/ivw/$important,script,xmlhttprequest
@@ -4541,9 +4533,6 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/ht.js$script,important
 |http*:*/ht.js?site^$important,script
 |http*:*/hubvisor.js$important,script
-|http*:*/i.gif$image,important
-|http*:*/i.png$image,important
-|http*:*/i?stm=$image,important
 |http*:*/ima3.js$important,script
 |http*:*/img.aspx?q=$image,important
 |http*:*/img.gif$image,important
@@ -4552,6 +4541,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/imp.gif$image,important
 |http*:*/in.php?p=$important,script,xmlhttprequest
 |http*:*/invoke.js$important,script
+|http*:*/iqadcontroller.$important,script
 |http*:*/iwa.js$important,script
 |http*:*/js.gif$image,important,script
 |http*:*/jsecoin.js$important,script
@@ -4579,9 +4569,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/omniture.js$important,script
 |http*:*/ottocustom.gif$image,important
 |http*:*/ottoperformance.gif$image,important
-|http*:*/p.gif$image,important
 |http*:*/p.js$important,script
-|http*:*/p.png$image,important
 |http*:*/pageview.gif$image,important
 |http*:*/performancetimer.js$important,script
 |http*:*/ph-functions.js$important,script
@@ -4619,7 +4607,6 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/runtimejs/intercept/*.js$important,script
 |http*:*/ruxitagentjs_$important,script
 |http*:*/s.gif$image,important,xmlhttprequest
-|http*:*/s.png$image,important
 |http*:*/s_code.js$important,script
 |http*:*/safelinkconverter.js$important,script
 |http*:*/sat.gif$image,important
@@ -4677,8 +4664,6 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/worker-asmjs.min.js$important,script
 |http*:*/wt?p=$image,important,script
 |http*:*/www/*&zoneid=$important,image,script,xmlhttprequest
-|http*:*/x.gif$image,important
-|http*:*/x.png$image,important
 |http*:*/xads.js$important,script
 |http*:*/xgemius.js$important,script
 |http*:*/xiti.js$important,script
@@ -4691,8 +4676,6 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/yads-async.js$important,script
 |http*:*/yads.js$important,script
 |http*:*/yes.gif$image,important
-|http*:*/z.gif$image,important
-|http*:*/z.png$image,important
 |http*:*/zbanner_consorzio.js$important,script
 |http*:*://aclick.*^$important
 |http*:*=widgetimpression&$important,script,xmlhttprequest,subdocument,image
@@ -5935,6 +5918,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*://delivery.*^$third-party
 |http*://geoservice.*^$important
 |http*://informers.*^$important
+|http*://metrics.*^$important
 |http*://partner.$third-party
 |http*://pixel.*^$important
 |http*://pixelzirkus.*^$important
@@ -5942,7 +5926,6 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*://rem-track.*^$important
 |http*://smetrics.*^$important
 |http*://tag.*^$important
-|http*://tracking.*^$important
 |http*://tracking.*^$important
 |http*://videotracker.^$important
 |http*://xml*/click^$important
@@ -6051,8 +6034,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||btttag.com^$important
 ||bzlwe.com^$important
 ||casalemedia.com^$important
-||cdn.jsdelivr.net^$important
-||cdn.onesignal.com^$important
+||cdn.onesignal.com^$important,third-party
 ||cdn.pljs.ru^$important
 ||cdn.tinypass.com^$important
 ||cdn.ziffstatic.com^$important
@@ -6085,10 +6067,9 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||cutter.li^
 ||cxense.com^$important
 ||cy-pr.com^$important
-||data.*.com^$popunder,popup
-||data.*.info^$popunder,popup
-||data.*.net^$popunder,popup
-||data:text/html;base64$popup
+||data.*.com^$popup,important
+||data.*.info^$popup,important
+||data.*.net^$popup,important
 ||dc.banggood.com^$important
 ||dccss.banggood.com^$important
 ||delivery.vidible.tv^$important
@@ -6108,7 +6089,9 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||doubleclick.net^$script,important,redirect=noopjs
 ||doubleclick.net^$xmlhttprequest,important,redirect=nooptext
 ||doublepimp.com^$important
+||doublepimp.com^$popup,important
 ||doublepimpssl.com^$important
+||doublepimpssl.com^$popup,important
 ||dropbox.com/log/$important,xmlhttprequest
 ||ds-aksb-a.akamaihd.net^$important
 ||dtprofit.com^$important
@@ -6386,6 +6369,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||vg74gi6mea.com^$important
 ||vgwort.de^$important
 ||vidcpm.com^$important
+||viglink.com^$important
 ||vimeocdn.com/js_opt/ablincoln_combined.min.js$important,script
 ||vk-portal.net^$important
 ||vk.cc^

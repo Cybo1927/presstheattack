@@ -7,10 +7,11 @@
 |http*:*?*&lp=*id=$popup
 |http*:*?lp=*id=$popup
 ||bit.ly^$popup,important
-||data.*.com^$popunder,popup
-||data.*.info^$popunder,popup
-||data.*.net^$popunder,popup
-||data:text/html;base64$popup
+||data.*.com^$popup,important
+||data.*.info^$popup,important
+||data.*.net^$popup,important
 ||doubleclick.com^$important,popup
 ||doubleclick.net^$important,popup
+||doublepimp.com^$popup,important
+||doublepimpssl.com^$popup,important
 ||yastatic.net^$important,popup

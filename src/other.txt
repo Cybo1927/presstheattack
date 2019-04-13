@@ -2439,6 +2439,7 @@
 |http*://delivery.*^$third-party
 |http*://geoservice.*^$important
 |http*://informers.*^$important
+|http*://metrics.*^$important
 |http*://partner.$third-party
 |http*://pixel.*^$important
 |http*://pixelzirkus.*^$important
@@ -2446,7 +2447,6 @@
 |http*://rem-track.*^$important
 |http*://smetrics.*^$important
 |http*://tag.*^$important
-|http*://tracking.*^$important
 |http*://tracking.*^$important
 |http*://videotracker.^$important
 |http*://xml*/click^$important

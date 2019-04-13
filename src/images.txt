@@ -1,5 +1,5 @@
-/\/([0-9]{1}|atrk|hit|log|njs|visitor)\.(png|gif)/$image,important,domain=~mail.yandex.by|~mail.yandex.ru|~mail.yandex.ua
 /^https?:\/\/2ch\.(hk|pm|re|tf|wf|yt)\/images\//$image,important
+/^https?:\/\/[^\s]+\/([0-9]{1}|[a-z]{1}(\?stm\=)?|[_-.]{1}|atrk|hit|log|njs|visitor)\.(a?png|gif|aspx)/$image,important,xmlhttprequest,domain=~mail.yandex.by|~mail.yandex.ru|~mail.yandex.ua|~gelbooru.com
 /^https?:\/\/[^\s]+\/bolpx[0-9]{1,2}\.gif/$image,important
 1xbet$image,important
 1xstavka$image,important
@@ -8,14 +8,9 @@ GGBET$image
 |http*:*/1x1.png$image,important
 |http*:*/2x2.png$image,important
 |http*:*/3x2.gif$image,important
-||google.com/pagead/$image,important
 |http*:*/3x2.png$image,important
 |http*:*/32x32.gif$image,important
 |http*:*/32x32.png$image,important
-|http*:*/-.gif$image,important
-|http*:*/_.gif$image,important
-|http*:*/a.gif$image,important
-|http*:*/a.png$image,important
 |http*:*/ad-sprite.png$image,important
 |http*:*/ad.gif$image,important
 |http*:*/ad.png$image,important
@@ -23,10 +18,7 @@ GGBET$image
 |http*:*/ads.png$image,important
 |http*:*/adsct?$image,important
 |http*:*/blank.gif$image,important
-|http*:*/ottocustom.gif$image,important
 |http*:*/blank.png$image,important
-|http*:*/c.gif$image,important
-|http*:*/c.png$image,important
 |http*:*/cc.gif$image,important
 |http*:*/clear.png$image,important
 |http*:*/counter_img.php$image,important
@@ -39,9 +31,6 @@ GGBET$image
 |http*:*/greenoaks.gif$image,important
 |http*:*/hit.xiti$image,important
 |http*:*/horizon-pageview?$image
-|http*:*/i.gif$image,important
-|http*:*/i.png$image,important
-|http*:*/i?stm=$image,important
 |http*:*/img.aspx?q=$image,important
 |http*:*/img.gif$image,important
 |http*:*/img/ads.png$image,important
@@ -49,9 +38,8 @@ GGBET$image
 |http*:*/imp.gif$image,important
 |http*:*/lumbar.gif$image,important
 |http*:*/lumbar.png$image,important
+|http*:*/ottocustom.gif$image,important
 |http*:*/ottoperformance.gif$image,important
-|http*:*/p.gif$image,important
-|http*:*/p.png$image,important
 |http*:*/pageview.gif$image,important
 |http*:*/pic.gif$image,important
 |http*:*/pic.png$image,important
@@ -66,7 +54,6 @@ GGBET$image
 |http*:*/pxl.gif$image,important
 |http*:*/pxlctl.gif$image,important
 |http*:*/pxt?$image,important
-|http*:*/s.png$image,important
 |http*:*/sat.gif$image,important
 |http*:*/stat.gif$image,important
 |http*:*/stat.png$image,important
@@ -87,11 +74,7 @@ GGBET$image
 |http*:*/visit.gif$image,important
 |http*:*/visit.png$image,important
 |http*:*/wa01.gif?log=$image,important
-|http*:*/x.gif$image,important
-|http*:*/x.png$image,important
 |http*:*/yes.gif$image,important
-|http*:*/z.gif$image,important
-|http*:*/z.png$image,important
 |http*:*^img^1x1$image,important,third-party
 |http*:*_fpn.gif$image,important
 ||alibaba.com/ts?$image,important
@@ -99,6 +82,7 @@ GGBET$image
 ||commander1.com^$image,important
 ||duckduckgo.com/t/$image,important
 ||godaddy.com/pageevents.aspx$image,important
+||google.com/pagead/$image,important
 ||heise.de/ivw-bin/ivw/cp/$image,important
 ||livejournal.com/ljcounter/$image,important
 ||mail.yandex.*/monitoring_liza.txt$image,important

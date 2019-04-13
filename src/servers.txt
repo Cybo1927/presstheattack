@@ -14,7 +14,6 @@
 ||3lift.com^$important
 ||28f77rd30e.ru^$important
 ||69m.info^$important
-||lp4.io^$important
 ||69v.club^$important
 ||*.vo.msecnd.net^$important
 ||aaxads.com^$important
@@ -24,7 +23,6 @@
 ||adcdnx.com^$important
 ||adclear.net^$important
 ||adcloud.net^$important
-||zog.link^$important
 ||adf.ly^$important
 ||adform.net^$important
 ||adfox.ru^$important
@@ -91,8 +89,7 @@
 ||btttag.com^$important
 ||bzlwe.com^$important
 ||casalemedia.com^$important
-||cdn.jsdelivr.net^$important
-||cdn.onesignal.com^$important
+||cdn.onesignal.com^$important,third-party
 ||cdn.pljs.ru^$important
 ||cdn.tinypass.com^$important
 ||cdn.ziffstatic.com^$important
@@ -203,6 +200,7 @@
 ||logql.yahoo.co.jp^$important
 ||logsss.com^$important
 ||logxp.ru^$important
+||lp4.io^$important
 ||m-pathy.com^$important
 ||mail.ru^$third-party
 ||marketing.dropbox.com^$important
@@ -329,6 +327,7 @@
 ||vg74gi6mea.com^$important
 ||vgwort.de^$important
 ||vidcpm.com^$important
+||viglink.com^$important
 ||vk-portal.net^$important
 ||vk.cc^
 ||vtracy.de^$important
@@ -352,4 +351,5 @@
 ||ywhnh.top^$important
 ||zinrora.pw^$important
 ||zmctrack.net^$important
+||zog.link^$important
 ||zqtk.net^$important
