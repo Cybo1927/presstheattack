@@ -23,6 +23,7 @@
 ||adcdnx.com^$important
 ||adclear.net^$important
 ||adcloud.net^$important
+||zog.link^$important
 ||adf.ly^$important
 ||adform.net^$important
 ||adfox.ru^$important

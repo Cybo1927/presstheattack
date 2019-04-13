@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-04-13 07:12:39
-! Version: 20190413071239
+! Last modified: 2019-04-13 11:46:05
+! Version: 20190413114605
 ! Expires: 3 hours
-! Number of filters: 6407
+! Number of filters: 6409
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2788,7 +2788,7 @@
 /^https?:\/\/[^\s]+[\W|\_](lms\-|videos?|fig)?analytics?(\.min)?\.js/$important,script
 /^https?:\/\/[^\s]+[\W|\_](track(ers?|ing)?)?pixels?[.-_/]([A-Za-z0-9]{30,}\/|png|bmp|jpe?g|gif|\?|js|cgi)/$image,important,object,xmlhttprequest,script
 /^https?:\/\/[^\s]+[\W|\_]ad(blocke?r|[-_]?track|block|bp|engine|frame|next[-_]iframe|os|river|rum|s?bygoogle|s|sdk|setup|config|[-_]?loader|x[-_]iframe|swrap|mixer|s?fox|[-_]?manager|s?[-_]async|[\W|\_]?sprite)?([0-9]{3,5}|\.min)?\.(html|js|javascript|php|txt)/$important,script,xmlhttprequest,subdocument
-/^https?:\/\/[^\s]+[\W|\_]bann?ers?([0-9]{1,2}|[\W|\_][^\s]+)?\.(swf|bmp|gif|jpe?g|png|svg|webp|js)/$xmlhttprequest,image,script,subdocument,object-subrequest,object,important,domain=~udemy.com
+/^https?:\/\/[^\s]+[\W|\_]bann?ers?([0-9]{1,2}|[\W|\_][^\s]+)?\.(swf|bmp|gif|jpe?g|png|svg|webp|js)/$xmlhttprequest,image,script,subdocument,object-subrequest,object,important,domain=~udemy.com|~twitch.tv
 /^https?:\/\/[^\s]+[\W|\_]gtm\.js$script
 /^https?:\/\/[^\s]+[\W|\_]kameleoon(\.min)?\.js/$important,script
 /^https?:\/\/[^\s]+[\W|\_]metric[sa][^\s]+\.js/$script,important
@@ -3206,6 +3206,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(AdvManager)
 yandex.by,yandex.ru,yandex.ua##^script:has-text(defaultMetrikaCounter)
 yandex.by,yandex.ru,yandex.ua##^script:has-text(devicePixelRatio)
 yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
+|http*:*&ad_*&idzone=$image,important,script,xmlhttprequest
 |http*:*-aclick-
 |http*:*-aclick.
 |http*:*-aclick^
@@ -4462,7 +4463,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/authedmine.min.js$important,script
 |http*:*/authedminer.js$important,script
 |http*:*/autotrack.js$important,script
-|http*:*/b/ss/*&ce=utf-8&$image,important,script
+|http*:*/b/ss/*&ce=utf-8&$image,important,script,xmlhttprequest
 |http*:*/b/stats?$important,script,xmlhttprequest
 |http*:*/beacon.js$important,script
 |http*:*/bens/vinos.js$important,script
@@ -6429,6 +6430,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||ywhnh.top^$important
 ||zinrora.pw^$important
 ||zmctrack.net^$important
+||zog.link^$important
 ||zqtk.net^$important
 ~addons.mozilla.org##[class*="-ad-"]:not(html):not(body)
 ~mail.google.com##.AD:not(html):not(body)
