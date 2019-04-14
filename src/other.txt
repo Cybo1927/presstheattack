@@ -15,7 +15,7 @@
 /^https?:\/\/r([0-9]{1,2})?\./$important
 /^https?:\/\/rem\-track([0-9]{1,2})?\./$important
 /^https?:\/\/s?metric[as]?([0-9]{1,2})?\./$important
-/^https?:\/\/tag([0-9]{1,2})?\./$important
+/^https?:\/\/tags?([0-9]{1,2})?\./$important
 |http*:*-MetaAdServer-
 |http*:*-MetaAdServer.
 |http*:*-MetaAdServer^

@@ -1,3 +1,4 @@
+/^https?:\/\/[^\s]+tags?\?id\=/$subdocument,important
 |http*:*/google-conversion.html$important,subdocument
 |http*:*/pi.aspx$subdocument,important
 |http*:*/player_ads.html$subdocument,important
@@ -5,9 +6,9 @@
 ||abo.prismamediadigital.com^$important,subdocument
 ||google.com/afs/$important,subdocument
 ||google.com/dp/ads?$important,subdocument
+||google.com/pagead/$subdocument,important
 ||phncdn.com/iframe^$subdocument,important
 ||redditmedia.com/gtm/jail^$important,subdocument
 ||rutracker.org/iframe/$important,subdocument
 ||yahoo.com/sdarla/$important,subdocument
-||google.com/pagead/$subdocument,important
 ||ynet.co.il/*/teaser/marketschedual_$subdocument,important

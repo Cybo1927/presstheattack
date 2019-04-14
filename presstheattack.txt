@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-04-14 19:14:46
-! Version: 20190414191446
+! Last modified: 2019-04-14 19:31:10
+! Version: 20190414193110
 ! Expires: 3 hours
-! Number of filters: 6408
+! Number of filters: 6409
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2796,7 +2796,7 @@
 /^https?:\/\/[^\s]+[\W|\_]metric[sa][^\s]+\.js/$script,important
 /^https?:\/\/[^\s]+[\W|\_]ping(\.(bmp|gif|jpe?g|a?png|svg|webp|js))?/$important,script,image,xmlhttprequest
 /^https?:\/\/[^\s]+[\W|\_]prebid([0-9]{1,2})?[\W|\_]/$important,script
-/^https?:\/\/[^\s]+[\W|\_]track(ers?|ing)?(\.min|\?[a-z]{1}\=[A-Za-z]{1,5}\&[a-z]{1}\=[^\s]+)?\.js/$script,xmlhttprequest,important
+/^https?:\/\/[^\s]+[\W|\_]track(ers?|ing)?(\.min|\?[a-z]{1}\=[A-Za-z]{1,5}\&[a-z]{1}\=[^\s]+|(\/[a-zA-Z0-9-_]{5,10})?[\W|\_]embed)?\.js/$script,xmlhttprequest,important
 /^https?:\/\/[^\s]+\.[A-Za-z]{2,6}\/(dear\_code\/[0-9]{4}\/|[-A-Za-z0-9_]{5,8}\/[0-9]{4}|[^\s]{14,}\/|code\/)?([ck]li?ck|go[ck]li?ck|hit|(next|pl)\.php)?\?[A-Za-z]{1}\=([^\s]{50,}|[^\s]+ref\=|every(\_[0-9]{1,2})?\_sec)/$popup,important,script,domain=~yandex.ru|~yandex.ua|~yandex.by
 /^https?:\/\/[^\s]+\.[A-Za-z]{2,6}\/[^\s]{5,}\.js\?[A-Za-z]{1}\=[^\s]{50,}/$popup,important
 /^https?:\/\/[^\s]+\.[A-Za-z]{2,6}\/[A-Za-z]{1}\?tag\=[^\s]+\&site\=[A-Za-z0-9]{1,}\&ads?\=/$popup,important,script
@@ -2814,6 +2814,7 @@
 /^https?:\/\/[^\s]+g(tag|oogleads?|oogleanal(ytics?|yzer?)([0-9]{1})?|pt([-_]mobile)?|tm|a([_-]lite)?|a([_-]setup)?|oogle[-_.]track(ers?|ing)?|oogletag|ads?|tagmanager([-_]backend|track(ers?|ing)?event)?|oogle[_-]stats?)\./$important,script
 /^https?:\/\/[^\s]+log[\W|_]?(type|event|entry|request)[\W|\_]?/$image,important,xmlhttprequest
 /^https?:\/\/[^\s]+me([0-9]{1})?w\.js/$important,script
+/^https?:\/\/[^\s]+tags?\?id\=/$subdocument,important
 /^https?:\/\/[^\s]+webmr([0-9]{1,2})?\.js/$important,script
 /^https?:\/\/[a-z0-9]+\.info\/+[-a-z0-9_?&=]{9,}/$third-party,script,important
 /^https?:\/\/ads?([0-9]{1,2})?\./$important,domain=~ad.nl
@@ -2838,7 +2839,7 @@
 /^https?:\/\/rem\-track([0-9]{1,2})?\./$important
 /^https?:\/\/s3\.amazonaws\.com\/.*[a-f0-9\/]{50,}/$important,third-party,xmlhttprequest,domain=~amazon.com
 /^https?:\/\/s?metric[as]?([0-9]{1,2})?\./$important
-/^https?:\/\/tag([0-9]{1,2})?\./$important
+/^https?:\/\/tags?([0-9]{1,2})?\./$important
 /^https?:\/\/tv\.yandex\.[^\s]{2,5}\/[^\s]{270,}/$image,important,subdocument,xmlhttprequest
 /^https?:\/\/www\.([a-z]{6,16})\.com\/([a-z]{1,4})\.js$/$important,script,third-party
 /^https?:\/\/yandex\.[^\s]{2,5}\/images/(?!(search\?rpt=\imageview)|(search\?callback\=jQuery)|(search\?exp_flags=)|(search\?serpid=)|(touch/search?))[^\s]{80,}/$important,subdocument,xmlhttprequest
