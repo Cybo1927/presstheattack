@@ -22,8 +22,6 @@
 ||adbetnet.com^$important
 ||adcdnx.com^$important
 ||adclear.net^$important
-||intellitxt.com^$important
-||hm.baidu.com^$important
 ||adcloud.net^$important
 ||adf.ly^$important
 ||adform.net^$important
@@ -54,11 +52,6 @@
 ||adtechus.com^$important
 ||adtelligent.com^$important
 ||adtm.chip.de^$important
-||mplxtms.com^$important
-||trackjs.com^$important
-||exposebox.com^$important
-||firstimpression.io^$important
-||totalmedia2.ynet.co.il^$important
 ||adtng.com^$important
 ||adtrack.adleadevent.com^$important
 ||adverline.com^$important
@@ -154,9 +147,11 @@
 ||exelator.com^$important
 ||exosrv.com^$important
 ||exponential.com^$important
+||exposebox.com^$important
 ||f53mbcg4ak.ru^$important
 ||fastclick.net^$important
 ||fastly-insights.com^$important
+||firstimpression.io^$important
 ||fls-*.amazon.*%$important
 ||fls-fe.amazon.co.jp^$important
 ||freeskreen.com^$important
@@ -174,6 +169,7 @@
 ||gumgum.com^$important
 ||histats.com^$important
 ||hit.interia.pl^$important
+||hm.baidu.com^$important
 ||hook2up8.com^$important
 ||hostingcloud.win^$important
 ||hotjar.com^$important
@@ -190,6 +186,7 @@
 ||influads.com^$important
 ||info.web.de^$important
 ||instreamatic.com^$important
+||intellitxt.com^$important
 ||ioam.de^$important
 ||iocnt.net^$important
 ||ipinfo.io^$important
@@ -226,6 +223,7 @@
 ||mookie1.com^$important
 ||mp-https.info^$important
 ||mparticle.com^$important
+||mplxtms.com^$important
 ||mpnrs.com^$important
 ||mradx.net^$important
 ||mvunstblutptj.com^$important
@@ -313,9 +311,11 @@
 ||tns-cs.net^$important
 ||toponclick.com^$important
 ||torrentz2.*^$csp=script-src 'self' 'unsafe-inline'
+||totalmedia2.ynet.co.il^$important
 ||tr.cloud-media.fr^$important
 ||tracking.cdiscount.com^$important
 ||tracking.olx-st.com^$important
+||trackjs.com^$important
 ||tracksrv.zdf.de^$important
 ||tradedoubler.com^$important
 ||tradelab.fr^$important

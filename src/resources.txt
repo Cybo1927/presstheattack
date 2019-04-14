@@ -2,12 +2,13 @@
 */cleardot.gif$xmlhttprequest,redirect=nooptext,important
 */cleardot.png$image,important,redirect=1x1-transparent.gif
 */cleardot.png$xmlhttprequest,redirect=nooptext,important
+*/empty.gif$image,redirect=1x1-transparent.gif,important
 */googima.js$script,redirect=noopjs,important
 */ping^$important,redirect=noopframe,subdocument
-*/spacer.gif$image,redirect=1x1-transparent.gif
-*/spacer.png$image,redirect=1x1-transparent.gif
-*/visitor.js$script,redirect=noopjs
-*/visitorapi.js$script,redirect=noopjs
+*/spacer.gif$image,redirect=1x1-transparent.gif,important
+*/spacer.png$image,redirect=1x1-transparent.gif,important
+*/visitor.js$script,redirect=noopjs,important
+*/visitorapi.js$script,redirect=noopjs,important
 google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 kinopoisk.ru##+js(abort-on-property-read.js, advBlock)
 kinopoisk.ru##+js(cookie-remover.js, /^blcrm|^bltsr|^cmtchd|^crookie|^kpunk|^yandex_plus_metrika_cookie)

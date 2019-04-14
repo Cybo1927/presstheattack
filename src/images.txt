@@ -22,7 +22,6 @@ GGBET$image
 |http*:*/cc.gif$image,important
 |http*:*/clear.png$image,important
 |http*:*/counter_img.php$image,important
-|http*:*/empty.gif$image,important
 |http*:*/empty.png$image,important
 |http*:*/event.gif$image,important
 |http*:*/event.png$image,important

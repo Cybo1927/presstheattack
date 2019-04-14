@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-04-14 18:40:46
-! Version: 20190414184046
+! Last modified: 2019-04-14 19:14:46
+! Version: 20190414191446
 ! Expires: 3 hours
-! Number of filters: 6405
+! Number of filters: 6408
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2761,17 +2761,17 @@
 */cleardot.gif$xmlhttprequest,redirect=nooptext,important
 */cleardot.png$image,important,redirect=1x1-transparent.gif
 */cleardot.png$xmlhttprequest,redirect=nooptext,important
+*/empty.gif$image,redirect=1x1-transparent.gif,important
 */googima.js$script,redirect=noopjs,important
 */ping^$important,redirect=noopframe,subdocument
-*/spacer.gif$image,redirect=1x1-transparent.gif
-*/spacer.png$image,redirect=1x1-transparent.gif
-*/visitor.js$script,redirect=noopjs
-*/visitorapi.js$script,redirect=noopjs
-/[\W|\_]prebid([0-9]{1,2})?[\W|\_]/$important,script
+*/spacer.gif$image,redirect=1x1-transparent.gif,important
+*/spacer.png$image,redirect=1x1-transparent.gif,important
+*/visitor.js$script,redirect=noopjs,important
+*/visitorapi.js$script,redirect=noopjs,important
 /^https:\/\/.*?\/v2\/0\/[a-zA-Z0-9_-]{30,}$/$important,script,third-party
 /^https?:\/\/([^\s]+[\W|\_]?)?a(dve|nnounceme|ds?)[rn][te](covers?|server?|isement|ising)?([0-9]{1,2})?[\W|\_]/$important,script,image,subdocument,xmlhttprequest,popup
 /^https?:\/\/([^\s]+[\W|\_]?)?analytic[as]([0-9]{1,2}|js|\.min)?[\W|\_]/$important,script,xmlhttprequest
-/^https?:\/\/([^\s]+[\W|\_]?)?bann?ers?([0-9.-_]{3,7}|[0-9]{1,2}|[\W|\_][^\s]+)?\.?(swf|bmp|gif|jpe?g|a?png|svg|webp|js|[-_]id\=)/$xmlhttprequest,image,script,subdocument,object-subrequest,object,important,domain=~udemy.com|~twitch.tv
+/^https?:\/\/([^\s]+[\W|\_]?)?bann?ers?([0-9][\W|\_][0-9][\W|\_][0-9]|[0-9]{1,2}|[\W|\_][^\s]+)?\.?(swf|bmp|gif|jpe?g|a?png|svg|webp|js|[-_]id\=)/$xmlhttprequest,image,script,subdocument,object-subrequest,object,important,domain=~udemy.com|~twitch.tv
 /^https?:\/\/([^\s]+[\W|\_]?)?google\.[A-Za-z0-9.]{2,7}\/log\?/$image,important,xmlhttprequest
 /^https?:\/\/([^\s]+[\W|\_]?)?pixels?[\W|\_]?(co(unter|ntabilizacion)|[A-Za-z0-9]{30,}\/|a?png|bmp|jpe?g|gif|\?|js|cgi)?/$image,important,object,xmlhttprequest,script
 /^https?:\/\/([a-z0-9]{3,10}\.)?[a-z0-9]{5,15}\.(click|com|bid|net|online|top|club)\/([a-z0-9]{2}\/){3}[a-f0-9]{32}\.js$/$important,script
@@ -2795,6 +2795,7 @@
 /^https?:\/\/[^\s]+[\W|\_]kameleoon(\.min)?\.js/$important,script
 /^https?:\/\/[^\s]+[\W|\_]metric[sa][^\s]+\.js/$script,important
 /^https?:\/\/[^\s]+[\W|\_]ping(\.(bmp|gif|jpe?g|a?png|svg|webp|js))?/$important,script,image,xmlhttprequest
+/^https?:\/\/[^\s]+[\W|\_]prebid([0-9]{1,2})?[\W|\_]/$important,script
 /^https?:\/\/[^\s]+[\W|\_]track(ers?|ing)?(\.min|\?[a-z]{1}\=[A-Za-z]{1,5}\&[a-z]{1}\=[^\s]+)?\.js/$script,xmlhttprequest,important
 /^https?:\/\/[^\s]+\.[A-Za-z]{2,6}\/(dear\_code\/[0-9]{4}\/|[-A-Za-z0-9_]{5,8}\/[0-9]{4}|[^\s]{14,}\/|code\/)?([ck]li?ck|go[ck]li?ck|hit|(next|pl)\.php)?\?[A-Za-z]{1}\=([^\s]{50,}|[^\s]+ref\=|every(\_[0-9]{1,2})?\_sec)/$popup,important,script,domain=~yandex.ru|~yandex.ua|~yandex.by
 /^https?:\/\/[^\s]+\.[A-Za-z]{2,6}\/[^\s]{5,}\.js\?[A-Za-z]{1}\=[^\s]{50,}/$popup,important
@@ -2816,6 +2817,7 @@
 /^https?:\/\/[^\s]+webmr([0-9]{1,2})?\.js/$important,script
 /^https?:\/\/[a-z0-9]+\.info\/+[-a-z0-9_?&=]{9,}/$third-party,script,important
 /^https?:\/\/ads?([0-9]{1,2})?\./$important,domain=~ad.nl
+/^https?:\/\/beacons?([0-9]{1,2})?\./$important
 /^https?:\/\/c([0-9]{1,2})?\./$important,domain=~force.com|~ndtv.com|~newegg.com|~wp.com|~xavierstuder.com|~researchgate.net|~www.microsoft.com
 /^https?:\/\/cdn[0-9]{1,2}?\.rocks\/[^\s]{30,}\.js/$important,script
 /^https?:\/\/collector([0-9]{1,2})?\.xhamster\.[A-Za-z]{3}/$important,script,xmlhttprequest
@@ -4499,6 +4501,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/coinlab.js$important,script
 |http*:*/col2/*&ss=$important,script,xmlhttprequest,image
 |http*:*/comscore.*.js$important,script
+|http*:*/cookieid.htm$image,important,script,xmlhttprequest,subdocument
 |http*:*/count.json$important,script
 |http*:*/counter_img.php$image,important
 |http*:*/criteo.js$important,script
@@ -4514,7 +4517,6 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/dprocessor.js$important,script
 |http*:*/dtagent*.js$important,script
 |http*:*/dtm/*/satellitelib$important,script,xmlhttprequest
-|http*:*/empty.gif$image,important
 |http*:*/empty.js$important,script
 |http*:*/empty.png$image,important
 |http*:*/endscreen.js$script,domain=youtube.com
@@ -6396,6 +6398,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||weborama.fr^$important
 ||witalfieldt.com^$important
 ||worthathousandwords.com^$important
+||www.xvideos.com/in.php$script,important
 ||xcvgdf.party^$important
 ||xhamsterpremium.*^$important,third-party
 ||xiti.com^$important
