@@ -22,6 +22,8 @@
 ||adbetnet.com^$important
 ||adcdnx.com^$important
 ||adclear.net^$important
+||intellitxt.com^$important
+||hm.baidu.com^$important
 ||adcloud.net^$important
 ||adf.ly^$important
 ||adform.net^$important
