@@ -13,6 +13,7 @@
 ||2mdn.net^$important
 ||3lift.com^$important
 ||28f77rd30e.ru^$important
+||ipify.org^$third-party,important
 ||69m.info^$important
 ||69v.club^$important
 ||*.vo.msecnd.net^$important

@@ -1,5 +1,4 @@
 /^https?:\/\/2ch\.(hk|pm|re|tf|wf|yt)\/images\//$image,important
-/^https?:\/\/[^\s]+\/([0-9]{1}|[a-z]{1}(\?stm\=)?|[_-.]{1}|atrk|hit|log|njs|visitor|image)\.(a?png|gif|aspx)/$image,important,xmlhttprequest,domain=~mail.yandex.by|~mail.yandex.ru|~mail.yandex.ua|~gelbooru.com
 /^https?:\/\/[^\s]+\/bolpx[0-9]{1,2}\.gif/$image,important
 1xbet$image,important
 1xstavka$image,important
