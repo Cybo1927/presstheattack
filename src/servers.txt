@@ -52,6 +52,11 @@
 ||adtechus.com^$important
 ||adtelligent.com^$important
 ||adtm.chip.de^$important
+||mplxtms.com^$important
+||trackjs.com^$important
+||exposebox.com^$important
+||firstimpression.io^$important
+||totalmedia2.ynet.co.il^$important
 ||adtng.com^$important
 ||adtrack.adleadevent.com^$important
 ||adverline.com^$important

@@ -11,7 +11,7 @@
 /^https?:\/\/[^\s]+\.[A-Za-z]{2,6}\/[A-Za-z]{1}\?tag\=[^\s]+\&site\=[A-Za-z0-9]{1,}\&ads?\=/$popup,important,script
 /^https?:\/\/[^\s]+\/fingerprint([0-9]{1,2})?(\.min)?\.js/$important,script,xmlhttprequest
 /^https?:\/\/[^\s]+\/popunders?([0-9]{1,2})?\./$important,popup,script,xmlhttprequest
-/^https?:\/\/[^\s]+log[\W|_]?(type|event|entry|request)/$image,important,xmlhttprequest
+/^https?:\/\/[^\s]+log[\W|_]?(type|event|entry|request)[\W|\_]?/$image,important,xmlhttprequest
 /^https?:\/\/collector([0-9]{1,2})?\.xhamster\.[A-Za-z]{3}/$important,script,xmlhttprequest
 /^https?:\/\/graph\.(facebook|instagram)\.com/$image,important,script,xmlhttprequest
 /^https?:\/\/news\.yandex\.[^\s]{2,5}\/[^\s]{300,}/$important,subdocument,xmlhttprequest

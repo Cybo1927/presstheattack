@@ -21,6 +21,9 @@
 |http*:*-coin-hive.js$important,script
 |http*:*-vast-$script
 |http*:*-vast.$script
+/[\W|\_]prebid([0-9]{1,2})?[\W|\_]/$important,script
+||va.v.liveperson.net^$third-party,script,important
+||upapi.net/pb/ex?w=*&uponit$script,important
 |http*:*-vast^$script
 |http*:*-vast_$script
 |http*:*.vast-$script

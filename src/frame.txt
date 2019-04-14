@@ -9,3 +9,5 @@
 ||redditmedia.com/gtm/jail^$important,subdocument
 ||rutracker.org/iframe/$important,subdocument
 ||yahoo.com/sdarla/$important,subdocument
+||google.com/pagead/$subdocument,important
+||ynet.co.il/*/teaser/marketschedual_$subdocument,important
