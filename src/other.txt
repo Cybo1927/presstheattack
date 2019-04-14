@@ -2445,6 +2445,7 @@
 |http*:*_yads.
 |http*:*_yads^
 |http*:*_yads_
+|http*://report-ads-to.^$important
+|http*://report-adv-to.^$important
 |http*://xml*/click^$important
 |http*://xml*/redirect^$important
-||amazon.com^*/events/$important
