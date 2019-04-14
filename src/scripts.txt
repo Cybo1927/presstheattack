@@ -2,7 +2,7 @@
 /^https?:\/\/([a-z0-9]{3,10}\.)?[a-z0-9]{5,15}\.(click|com|bid|net|online|top|club)\/([a-z0-9]{2}\/){3}[a-f0-9]{32}\.js$/$important,script
 /^https?:\/\/([a-z0-9]{8,10}\.)?[a-z0-9]{5,14}\.(com|bid|online|top|club)\/([a-z0-9]{2}\/){3}[a-f0-9]{32}\.js$/$important,script,third-party
 /^https?:\/\/[^/]+\/[a-z0-9]{15,}(\?hope=.*)?$/$important,script
-/^https?:\/\/[^\s]+[\W|\_]gtm\.js$script
+/^https?:\/\/[^\s]+[\W|\_]gtm\.js/$script
 /^https?:\/\/[^\s]+[\W|\_]kameleoon(\.min)?\.js/$important,script
 /^https?:\/\/[^\s]+[\W|\_]metric[sa][^\s]+\.js/$script,important
 /^https?:\/\/[^\s]+[\W|\_]prebid([0-9]{1,2})?[\W|\_]/$important,script
@@ -25,7 +25,6 @@
 |http*:*-vast^$script
 |http*:*-vast_$script
 |http*:*.vast-$script
-||www.xvideos.com/in.php$script,important
 |http*:*.vast.$script
 |http*:*.vast^$script
 |http*:*.vast_$script
@@ -212,6 +211,7 @@
 ||upapi.net/pb/ex?w=*&uponit$script,important
 ||va.v.liveperson.net^$third-party,script,important
 ||vimeocdn.com/js_opt/ablincoln_combined.min.js$important,script
+||xvideos.com/in.php$script,important
 ||yandex.*/pogoda/$first-party,important,inline-script
 ||yastatic.net/daas/atom.js$important,script
 ||yimg.com/wi/ytc.js$important,script

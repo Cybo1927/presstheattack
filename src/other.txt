@@ -1,11 +1,11 @@
-/^https?:\/\/(video)?track(ers?|ing)?([0-9]{1,2})?\./$important
-/^https?:\/\/ads?([0-9]{1,2})?\./$important,domain=~ad.nl
+/^https?:\/\/(videos?)?track(ers?|ing)?([0-9]{1,2})?\./$important
+/^https?:\/\/ad[sv]?([0-9]{1,2})?\./$important,domain=~ad.nl
+/^https?:\/\/beacons?([0-9]{1,2})?\./$important
 /^https?:\/\/c([0-9]{1,2})?\./$important,domain=~force.com|~ndtv.com|~newegg.com|~wp.com|~xavierstuder.com|~researchgate.net|~www.microsoft.com
 /^https?:\/\/counter([0-9]{1,2})?\./$important
 /^https?:\/\/delivery([0-9]{1,2})?\./$important,third-party
 /^https?:\/\/geoservice([0-9]{1,2})?\./$important
 /^https?:\/\/informers?([0-9]{1,2})?\./$important
-/^https?:\/\/beacons?([0-9]{1,2})?\./$important
 /^https?:\/\/log([0-9]{1,2})?\./$important
 /^https?:\/\/metric[as]?([0-9]{1,2})?\./$important
 /^https?:\/\/p([0-9]{1,2})?\./$~popup,important,domain=~focus.de|~drtuber.com|~zendesk.com

@@ -28,12 +28,12 @@
 |http*:*/cgi-bin/ivw/$important,script,xmlhttprequest
 |http*:*/code/bshow.php?$important,script,xmlhttprequest
 |http*:*/col2/*&ss=$important,script,xmlhttprequest,image
+|http*:*/cookieid.htm$image,important,script,xmlhttprequest,subdocument
 |http*:*/dear_code/*/goclick?t=*&ref=$important,script,xmlhttprequest
 |http*:*/dtm/*/satellitelib$important,script,xmlhttprequest
 |http*:*/entry_stats?$important,script,xmlhttprequest
 |http*:*/events-collector.$important,script,xmlhttprequest
 |http*:*/fbpixel.$image,important,script,xmlhttprequest
-|http*:*/cookieid.htm$image,important,script,xmlhttprequest,subdocument
 |http*:*/get_site_data?*&href=$important,script,xmlhttprequest,popup
 |http*:*/hc/tracking/*$important,script,xmlhttprequest
 |http*:*/in.php?p=$important,script,xmlhttprequest
