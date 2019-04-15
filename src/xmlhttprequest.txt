@@ -26,3 +26,4 @@
 ||twitter.com/i/jot^$important,xmlhttprequest
 ||yahoo.com/pageview/$important,xmlhttprequest
 ||youtube.com/get_midroll_info^$important,xmlhttprequest
+||tripadvisor.com/GARecord$xmlhttprequest,important
