@@ -26,6 +26,7 @@
 |http*:*-vast_$script
 |http*:*.vast-$script
 |http*:*.vast.$script
+||daumcdn.net/tiara/*$script,important
 |http*:*.vast^$script
 |http*:*.vast_$script
 |http*:*/accip_script.js$important,script

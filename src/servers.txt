@@ -185,6 +185,7 @@
 ||indexww.com^$important
 ||influads.com^$important
 ||info.web.de^$important
+||ad.daum.net^$important
 ||instreamatic.com^$important
 ||intellitxt.com^$important
 ||ioam.de^$important

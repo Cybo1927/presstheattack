@@ -12,3 +12,4 @@
 ||rutracker.org/iframe/$important,subdocument
 ||yahoo.com/sdarla/$important,subdocument
 ||ynet.co.il/*/teaser/marketschedual_$subdocument,important
+||stab.thench.net^$subdocument,important

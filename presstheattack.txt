@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-04-15 18:58:55
-! Version: 20190415185855
+! Last modified: 2019-04-15 19:18:40
+! Version: 20190415191840
 ! Expires: 3 hours
-! Number of filters: 6413
+! Number of filters: 6417
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2789,7 +2789,7 @@
 /^https?:\/\/2ch\.(hk|pm|re|tf|wf|yt)\/images\//$image,important
 /^https?:\/\/[^/]+\/[a-z0-9]{15,}(\?hope=.*)?$/$important,script
 /^https?:\/\/[^\s]+(player|gen|client|csi|generate|stream|logs?)[\W|_]?204[\W|_]?/$image,important,xmlhttprequest,other
-/^https?:\/\/[^\s]+[\W|\_]ad(block(e?r|dete[ck](tor)?)?|[-_]?track|block|bp(lus)?|engine|next[-_]iframe|os|river|rum|s?bygoogle|[svx]|sdk|setup|config|[-_]?loader|(x[-_])?iframe|swrap|mixer|s?fox|[-_]?manager|s?[-_]async|[\W|\_]?sprite|view|[-_]?inserter)?([0-9]{3,5}|[A-Za-z0-9.-_]{4,8}|\.min)?\.(html?|js|javascript|php|txt)/$important,script,xmlhttprequest,subdocument
+/^https?:\/\/[^\s]+[\W|\_]ad(block(e?r|dete[ck](tor)?)?|[-_]?track|block|bp(lus)?|engine|next[-_]iframe|os|river|rum|s?bygoogle|[svx]|sdk|setup|config|[-_]?loader|(x[-_])?iframe|swrap|mixer|s?fox|[-_]?manager|s?[-_]async|[\W|\_]?sprite|view|[-_]?inserter|[\W|\_]?native)?([0-9]{3,5}|[A-Za-z0-9.-_]{4,8}|\.min)?\.(html?|js|javascript|php|txt)/$important,script,xmlhttprequest,subdocument
 /^https?:\/\/[^\s]+[\W|\_]gtm\.js/$script
 /^https?:\/\/[^\s]+[\W|\_]kameleoon(\.min)?\.js/$important,script
 /^https?:\/\/[^\s]+[\W|\_]metric[sa][^\s]+\.js/$script,important
@@ -2819,6 +2819,7 @@
 /^https?:\/\/ad[svx]?([0-9]{1,2})?\./$important,domain=~ad.nl
 /^https?:\/\/ad[svx]?([0-9]{1,2})?\./$important,popup
 /^https?:\/\/aff(iliat(es?|ion))?\./$important
+/^https?:\/\/analytic[as]?([0-9]{1,2})?\./$important
 /^https?:\/\/beacons?([0-9]{1,2})?\./$important
 /^https?:\/\/c([0-9]{1,2})?\./$important,domain=~force.com|~ndtv.com|~newegg.com|~wp.com|~xavierstuder.com|~researchgate.net|~www.microsoft.com
 /^https?:\/\/cdn[0-9]{1,2}?\.rocks\/[^\s]{30,}\.js/$important,script
@@ -5943,6 +5944,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||aaxads.com^$important
 ||abo.prismamediadigital.com^$important,subdocument
 ||accounts.ad.nl/gscounters.sendReport$script,important
+||ad.daum.net^$important
 ||adalliance.io^$important
 ||adbetclickin.pink^$important
 ||adbetnet.com^$important
@@ -6070,6 +6072,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||data.*.com^$popup,important
 ||data.*.info^$popup,important
 ||data.*.net^$popup,important
+||daumcdn.net/tiara/*$script,important
 ||dc.banggood.com^$important
 ||dccss.banggood.com^$important
 ||delivery.vidible.tv^$important
@@ -6325,6 +6328,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||ssl-images-amazon.com^*/ape/sf/*/dasf-$important,script
 ||ssl2anyone3.com^$important
 ||ssp.rambler.ru^$important
+||stab.thench.net^$subdocument,important
 ||statcounter.com^$third-party,important
 ||static-mon.yandex.net/static/main.js$script,redirect=noopjs,important
 ||static-mon.yandex.net/static/main.js$xmlhttprequest,redirect=nooptext,important
