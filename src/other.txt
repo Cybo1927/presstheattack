@@ -1,8 +1,8 @@
 /^https?:\/\/(videos?)?track(ers?|ing)?([0-9]{1,2})?\./$important
-/^https?:\/\/ad[sv]?([0-9]{1,2})?\./$important,domain=~ad.nl
+/^https?:\/\/ad[svx]?([0-9]{1,2})?\./$important,domain=~ad.nl
 /^https?:\/\/beacons?([0-9]{1,2})?\./$important
 /^https?:\/\/c([0-9]{1,2})?\./$important,domain=~force.com|~ndtv.com|~newegg.com|~wp.com|~xavierstuder.com|~researchgate.net|~www.microsoft.com
-/^https?:\/\/counter([0-9]{1,2})?\./$important
+/^https?:\/\/count(ers?)?([0-9]{1,2})?\./$important
 /^https?:\/\/delivery([0-9]{1,2})?\./$important,third-party
 /^https?:\/\/geoservice([0-9]{1,2})?\./$important
 /^https?:\/\/informers?([0-9]{1,2})?\./$important
@@ -16,6 +16,9 @@
 /^https?:\/\/rem\-track([0-9]{1,2})?\./$important
 /^https?:\/\/s?metric[as]?([0-9]{1,2})?\./$important
 /^https?:\/\/tags?([0-9]{1,2})?\./$important
+/^https?:\/\/aff(iliat(es?|ion))?\./$important
+/^https?:\/\/stat(s|istics)?\./$important
+/^https?:\/\/track(ers?|ing)?\./$important
 |http*:*-MetaAdServer-
 |http*:*-MetaAdServer.
 |http*:*-MetaAdServer^
