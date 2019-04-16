@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-04-15 19:18:40
-! Version: 20190415191840
+! Last modified: 2019-04-16 17:03:15
+! Version: 20190416170315
 ! Expires: 3 hours
 ! Number of filters: 6417
 ! Homepage: https://github.com/bogachenko/presstheattack/
@@ -2792,7 +2792,7 @@
 /^https?:\/\/[^\s]+[\W|\_]ad(block(e?r|dete[ck](tor)?)?|[-_]?track|block|bp(lus)?|engine|next[-_]iframe|os|river|rum|s?bygoogle|[svx]|sdk|setup|config|[-_]?loader|(x[-_])?iframe|swrap|mixer|s?fox|[-_]?manager|s?[-_]async|[\W|\_]?sprite|view|[-_]?inserter|[\W|\_]?native)?([0-9]{3,5}|[A-Za-z0-9.-_]{4,8}|\.min)?\.(html?|js|javascript|php|txt)/$important,script,xmlhttprequest,subdocument
 /^https?:\/\/[^\s]+[\W|\_]gtm\.js/$script
 /^https?:\/\/[^\s]+[\W|\_]kameleoon(\.min)?\.js/$important,script
-/^https?:\/\/[^\s]+[\W|\_]metric[sa][^\s]+\.js/$script,important
+/^https?:\/\/[^\s]+[\W|\_]metric[sa]?[^\s]+\.js/$script,important
 /^https?:\/\/[^\s]+[\W|\_]ping(\.(bmp|gif|jpe?g|a?png|svg|webp|js))?/$important,script,image,xmlhttprequest
 /^https?:\/\/[^\s]+[\W|\_]prebid([0-9]{1,2})?[\W|\_]/$important,script
 /^https?:\/\/[^\s]+[\W|\_]track(ers?|ing)?(\.min|\?[a-z]{1}\=[A-Za-z]{1,5}\&[a-z]{1}\=[^\s]+|(\/[a-zA-Z0-9-_]{5,10})?[\W|\_]embed|[-_][a-z]{4,7|[\W|\_][a-zA-Z0-9-_.]{10,25})?\.js/$script,xmlhttprequest,important
@@ -2841,7 +2841,7 @@
 /^https?:\/\/rem\-track([0-9]{1,2})?\./$important
 /^https?:\/\/s3\.amazonaws\.com\/.*[a-f0-9\/]{50,}/$important,third-party,xmlhttprequest,domain=~amazon.com
 /^https?:\/\/s?metric[as]?([0-9]{1,2})?\./$important
-/^https?:\/\/stat(s|istics)?\./$important
+/^https?:\/\/stat(s|istics)?([0-9]{1,2})?\./$important
 /^https?:\/\/tags?([0-9]{1,2})?\./$important
 /^https?:\/\/track(ers?|ing)?\./$important
 /^https?:\/\/tv\.yandex\.[^\s]{2,5}\/[^\s]{270,}/$image,important,subdocument,xmlhttprequest

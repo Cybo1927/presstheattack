@@ -4,7 +4,7 @@
 /^https?:\/\/[^/]+\/[a-z0-9]{15,}(\?hope=.*)?$/$important,script
 /^https?:\/\/[^\s]+[\W|\_]gtm\.js/$script
 /^https?:\/\/[^\s]+[\W|\_]kameleoon(\.min)?\.js/$important,script
-/^https?:\/\/[^\s]+[\W|\_]metric[sa][^\s]+\.js/$script,important
+/^https?:\/\/[^\s]+[\W|\_]metric[sa]?[^\s]+\.js/$script,important
 /^https?:\/\/[^\s]+[\W|\_]prebid([0-9]{1,2})?[\W|\_]/$important,script
 /^https?:\/\/[^\s]+\/([^\s]{4})?tag\.min\.([a-z0-9]{30,}\.)?js/$important,script
 /^https?:\/\/[^\s]+\/(fuck|block)adblock(\.min)?\.js/$important,script

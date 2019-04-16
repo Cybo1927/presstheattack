@@ -18,7 +18,7 @@
 /^https?:\/\/tags?([0-9]{1,2})?\./$important
 /^https?:\/\/aff(iliat(es?|ion))?\./$important
 /^https?:\/\/analytic[as]?([0-9]{1,2})?\./$important
-/^https?:\/\/stat(s|istics)?\./$important
+/^https?:\/\/stat(s|istics)?([0-9]{1,2})?\./$important
 /^https?:\/\/track(ers?|ing)?\./$important
 |http*:*-MetaAdServer-
 |http*:*-MetaAdServer.
