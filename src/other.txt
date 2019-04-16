@@ -1,8 +1,10 @@
+/^https?:\/\/(gs)?count(ers?)?([0-9]{1,2})?\./$important
 /^https?:\/\/(videos?)?track(ers?|ing)?([0-9]{1,2})?\./$important
 /^https?:\/\/ad[svx]?([0-9]{1,2})?\./$important,domain=~ad.nl
+/^https?:\/\/aff(iliat(es?|ion))?([0-9]{1,2})?\./$important
+/^https?:\/\/analytic[as]?([0-9]{1,2})?\./$important
 /^https?:\/\/beacons?([0-9]{1,2})?\./$important
 /^https?:\/\/c([0-9]{1,2})?\./$important,domain=~force.com|~ndtv.com|~newegg.com|~wp.com|~xavierstuder.com|~researchgate.net|~www.microsoft.com
-/^https?:\/\/(gs)?count(ers?)?([0-9]{1,2})?\./$important
 /^https?:\/\/delivery([0-9]{1,2})?\./$important,third-party
 /^https?:\/\/geoservice([0-9]{1,2})?\./$important
 /^https?:\/\/informers?([0-9]{1,2})?\./$important
@@ -15,10 +17,8 @@
 /^https?:\/\/r([0-9]{1,2})?\./$important
 /^https?:\/\/rem\-track([0-9]{1,2})?\./$important
 /^https?:\/\/s?metric[as]?([0-9]{1,2})?\./$important
-/^https?:\/\/tags?([0-9]{1,2})?\./$important
-/^https?:\/\/aff(iliat(es?|ion))?([0-9]{1,2})?\./$important
-/^https?:\/\/analytic[as]?([0-9]{1,2})?\./$important
 /^https?:\/\/stat(s|istics?)?([0-9]{1,2})?\./$important
+/^https?:\/\/tags?([0-9]{1,2})?\./$important
 /^https?:\/\/track(ers?|ing)?\./$important
 |http*:*-MetaAdServer-
 |http*:*-MetaAdServer.

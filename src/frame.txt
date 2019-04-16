@@ -10,6 +10,6 @@
 ||phncdn.com/iframe^$subdocument,important
 ||redditmedia.com/gtm/jail^$important,subdocument
 ||rutracker.org/iframe/$important,subdocument
+||stab.thench.net^$subdocument,important
 ||yahoo.com/sdarla/$important,subdocument
 ||ynet.co.il/*/teaser/marketschedual_$subdocument,important
-||stab.thench.net^$subdocument,important

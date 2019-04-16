@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-04-16 19:49:51
-! Version: 20190416194951
+! Last modified: 2019-04-16 22:05:55
+! Version: 20190416220555
 ! Expires: 3 hours
-! Number of filters: 6422
+! Number of filters: 6423
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2766,6 +2766,7 @@
 */ping^$redirect=noopframe,subdocument
 */spacer.gif$image,redirect=1x1-transparent.gif
 */spacer.png$image,redirect=1x1-transparent.gif
+*/sw.js$important,script,redirect=noopjs
 */visitor.js$script,redirect=noopjs
 */visitorapi.js$script,redirect=noopjs
 /^https:\/\/.*?\/v2\/0\/[a-zA-Z0-9_-]{30,}$/$important,script,third-party
@@ -2790,7 +2791,10 @@
 /^https?:\/\/[^/]+\/[a-z0-9]{15,}(\?hope=.*)?$/$important,script
 /^https?:\/\/[^\s]+(player|gen|client|csi|generate|stream|logs?)[\W|_]?204[\W|_]?/$image,important,xmlhttprequest,other
 /^https?:\/\/[^\s]+(u|auto)?track(ers?|ing)?(\.min|\?[a-z]{1}\=[A-Za-z]{1,5}\&[a-z]{1}\=[^\s]+|(\/[a-zA-Z0-9-_]{5,10})?[\W|\_]embed|[-_][a-z]{4,7|[\W|\_][a-zA-Z0-9-_.]{10,25})?\.js/$script,xmlhttprequest,important
-/^https?:\/\/[^\s]+[-_/.]ad(block(e?r|dete[ck](tor)?)?|[-_]?track|block|bp(lus)?|engine|next[-_]iframe|os|river|rum|s?bygoogle|[svx]|sdk|setup|config|[-_]?loader|(x[-_])?iframe|swrap|mixer|s?fox|[-_]?manager|s?[-_]async|[\W|\_]?sprite|view|[-_]?inserter|[\W|\_]?native)?([0-9]{3,5}|[A-Za-z0-9.-_]{4,8}|\.min)?\.(html?|js|javascript|php|txt)/$important,script,xmlhttprequest,subdocument
+/^https?:\/\/[^\s]+[-_/.]ad(block(e?r|dete[ck](tor)?)?|[-_]?track|block|bp(lus)?|engine|next[-_]iframe|os|river|rum|s?bygoogle|[svx]|sdk|setup|config|[-_]?loader|(x[-_])?iframe|swrap|mixer|s?fox|[-_]?manager|s?[-_]async|[\W|\_]?sprite|view|[-_]?inserter|[\W|\_]?native|[\W|\_]?dependencies)?([0-9]{3,5}|[A-Za-z0-9.-_]{4,8}|\.min)?\.(html?|js|javascript|php|txt)/$important,script,xmlhttprequest,subdocument
+/^https?:\/\/[^\s]+[-_/.]g(tag|oogleads?|oogleanal(ytics?|yzer?)([0-9]{1})?|pt([-_]mobile)?|tm|a([_-]lite)?|a([_-]setup)?|oogle[-_.]track(ers?|ing)?|oogletag|ads?|tagmanager([-_]backend|track(ers?|ing)?event)?|oogle[_-]stats?)\./$important,script
+/^https?:\/\/[^\s]+[-_/.]me([0-9]{1})?w\.js/$important,script
+/^https?:\/\/[^\s]+[-_/.]webmr([0-9]{1,2})?\.js/$important,script
 /^https?:\/\/[^\s]+[\W|\_]gtm\.js/$script
 /^https?:\/\/[^\s]+[\W|\_]kameleoon(\.min)?\.js/$important,script
 /^https?:\/\/[^\s]+[\W|\_]metric[sa]?[^\s]+\.js/$script,important
@@ -2809,13 +2813,10 @@
 /^https?:\/\/[^\s]+\/piwik([\W|\_][0-9]{5,})?\.js/$important,script
 /^https?:\/\/[^\s]+\/popunders?([0-9]{1,2})?\./$important,popup,script,xmlhttprequest
 /^https?:\/\/[^\s]+\/s([0-9]{1,2})?\.js/$important,script
-/^https?:\/\/[^\s]+g(tag|oogleads?|oogleanal(ytics?|yzer?)([0-9]{1})?|pt([-_]mobile)?|tm|a([_-]lite)?|a([_-]setup)?|oogle[-_.]track(ers?|ing)?|oogletag|ads?|tagmanager([-_]backend|track(ers?|ing)?event)?|oogle[_-]stats?)\./$important,script
 /^https?:\/\/[^\s]+log[\W|_]?(type|event|entry|request)[\W|\_]?/$image,important,xmlhttprequest
-/^https?:\/\/[^\s]+me([0-9]{1})?w\.js/$important,script
 /^https?:\/\/[^\s]+ping\.(bmp|gif|jpe?g|a?png|svg|webp|js)/$important,script,image,xmlhttprequest
 /^https?:\/\/[^\s]+pixels?[-_/.]?([-a-zA-Z0-9_]{10,19})?(a?png|bmp|jpe?g|gif|\?|js|cgi)/$image,important,object,xmlhttprequest,script,subdocument,domain=~twitch.tv
 /^https?:\/\/[^\s]+tags?\?id\=/$subdocument,important
-/^https?:\/\/[^\s]+webmr([0-9]{1,2})?\.js/$important,script
 /^https?:\/\/[a-z0-9]+\.info\/+[-a-z0-9_?&=]{9,}/$third-party,script,important
 /^https?:\/\/ad[svx]?([0-9]{1,2})?\./$important,domain=~ad.nl
 /^https?:\/\/ad[svx]?([0-9]{1,2})?\./$important,popup
@@ -4644,7 +4645,6 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/streambeam-jw.js$important,script
 |http*:*/streambeam-video.js$important,script
 |http*:*/svp.gif$image,important
-|http*:*/sw.js$important,script
 |http*:*/sync.gif$image,important
 |http*:*/sync.png$image,important
 |http*:*/t/event.js?$image,script,other,xmlhttprequest
@@ -6033,6 +6033,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||bounceexchange.com^$important
 ||branch.io^$important
 ||brealtime.com^$important
+||btstatic.com^$important
 ||btttag.com^$important
 ||bzlwe.com^$important
 ||casalemedia.com^$important

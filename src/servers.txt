@@ -12,14 +12,12 @@
 ||2mdn.net^$important
 ||3lift.com^$important
 ||28f77rd30e.ru^$important
-||ipify.org^$third-party,important
 ||69m.info^$important
 ||69v.club^$important
 ||*.vo.msecnd.net^$important
 ||aaxads.com^$important
+||ad.daum.net^$important
 ||adalliance.io^$important
-||tamgrt.com^$important
-||vidora.com^$important
 ||adbetclickin.pink^$important
 ||adbetnet.com^$important
 ||adcdnx.com^$important
@@ -86,6 +84,7 @@
 ||bounceexchange.com^$important
 ||branch.io^$important
 ||brealtime.com^$important
+||btstatic.com^$important
 ||btttag.com^$important
 ||bzlwe.com^$important
 ||casalemedia.com^$important
@@ -187,11 +186,11 @@
 ||indexww.com^$important
 ||influads.com^$important
 ||info.web.de^$important
-||ad.daum.net^$important
 ||instreamatic.com^$important
 ||intellitxt.com^$important
 ||ioam.de^$important
 ||iocnt.net^$important
+||ipify.org^$third-party,important
 ||ipinfo.io^$third-party,important
 ||iwanttodeliver.com^$important
 ||js-agent.newrelic.com^$important
@@ -304,6 +303,7 @@
 ||taboola.com^$important
 ||tagcommander.com^$important
 ||tailtarget.com^$important
+||tamgrt.com^$important
 ||target.smi2.net^$important
 ||tcheck.outbrainimg.com^$important
 ||teads.tv^$important
@@ -342,6 +342,7 @@
 ||vg74gi6mea.com^$important
 ||vgwort.de^$important
 ||vidcpm.com^$important
+||vidora.com^$important
 ||viglink.com^$important
 ||vk-portal.net^$important
 ||vk.cc^
