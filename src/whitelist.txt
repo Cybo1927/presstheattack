@@ -1,5 +1,5 @@
-@@||*/pin-opened-ad.svg$image
-@@||*/spacer.gif$image,domain=www.kinopoisk.ru
+@@*/pin-opened-ad.svg$image
+@@*/spacer.gif$image,domain=www.kinopoisk.ru
 @@||api-maps.yandex.*^$script
 @@||auto.co.uk^$elemhide,badfilter
 @@||auto.de^$elemhide,badfilter

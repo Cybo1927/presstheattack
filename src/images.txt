@@ -41,8 +41,6 @@ GGBET$image
 |http*:*/pageview.gif$image,important
 |http*:*/pic.gif$image,important
 |http*:*/pic.png$image,important
-|http*:*/ping.gif$image,important
-|http*:*/ping.png$image,important
 |http*:*/pix.gif$image,important
 |http*:*/popunder.gif$image,important
 |http*:*/pv.gif$image,important

@@ -1,14 +1,14 @@
-*/cleardot.gif$image,important,redirect=1x1-transparent.gif
-*/cleardot.gif$xmlhttprequest,redirect=nooptext,important
-*/cleardot.png$image,important,redirect=1x1-transparent.gif
-*/cleardot.png$xmlhttprequest,redirect=nooptext,important
-*/empty.gif$image,redirect=1x1-transparent.gif,important
-*/googima.js$script,redirect=noopjs,important
-*/ping^$important,redirect=noopframe,subdocument
-*/spacer.gif$image,redirect=1x1-transparent.gif,important
-*/spacer.png$image,redirect=1x1-transparent.gif,important
-*/visitor.js$script,redirect=noopjs,important
-*/visitorapi.js$script,redirect=noopjs,important
+*/cleardot.gif$image,redirect=1x1-transparent.gif
+*/cleardot.gif$xmlhttprequest,redirect=nooptext
+*/cleardot.png$image,redirect=1x1-transparent.gif
+*/cleardot.png$xmlhttprequest,redirect=nooptext
+*/empty.gif$image,redirect=1x1-transparent.gif
+*/googima.js$script,redirect=noopjs
+*/ping^$redirect=noopframe,subdocument
+*/spacer.gif$image,redirect=1x1-transparent.gif
+*/spacer.png$image,redirect=1x1-transparent.gif
+*/visitor.js$script,redirect=noopjs
+*/visitorapi.js$script,redirect=noopjs
 google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 kinopoisk.ru##+js(abort-on-property-read.js, advBlock)
 kinopoisk.ru##+js(cookie-remover.js, /^blcrm|^bltsr|^cmtchd|^crookie|^kpunk|^yandex_plus_metrika_cookie)
@@ -38,6 +38,10 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||awsync.yandex.by^$important,redirect=noopframe,subdocument
 ||awsync.yandex.ru^$important,redirect=noopframe,subdocument
 ||awsync.yandex.ua^$important,redirect=noopframe,subdocument
+||deloplen.com/apu.php$script,redirect=noopjs
+||deloplen.com/apu.php$xmlhttprequest,important,redirect=nooptext
+||dolohen.com/apu.php$script,redirect=noopjs
+||dolohen.com/apu.php$xmlhttprequest,important,redirect=nooptext
 ||doubleclick.net^$important,redirect=noopframe,subdocument
 ||doubleclick.net^$script,important,redirect=noopjs
 ||doubleclick.net^$xmlhttprequest,important,redirect=nooptext
