@@ -44,6 +44,7 @@
 @@||edreams.pt^$elemhide,badfilter
 @@||elprecio.es^$elemhide,badfilter
 @@||fast.ng^$elemhide,badfilter
+@@||favicon.yandex.net/favicon/$image
 @@||find.mail.com^$elemhide,badfilter
 @@||flights24.com^$elemhide,badfilter
 @@||flights24.ie^$elemhide,badfilter

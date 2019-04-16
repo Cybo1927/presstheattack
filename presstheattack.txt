@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-04-16 19:24:40
-! Version: 20190416192440
+! Last modified: 2019-04-16 19:49:51
+! Version: 20190416194951
 ! Expires: 3 hours
-! Number of filters: 6421
+! Number of filters: 6422
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2790,6 +2790,7 @@
 /^https?:\/\/[^/]+\/[a-z0-9]{15,}(\?hope=.*)?$/$important,script
 /^https?:\/\/[^\s]+(player|gen|client|csi|generate|stream|logs?)[\W|_]?204[\W|_]?/$image,important,xmlhttprequest,other
 /^https?:\/\/[^\s]+(u|auto)?track(ers?|ing)?(\.min|\?[a-z]{1}\=[A-Za-z]{1,5}\&[a-z]{1}\=[^\s]+|(\/[a-zA-Z0-9-_]{5,10})?[\W|\_]embed|[-_][a-z]{4,7|[\W|\_][a-zA-Z0-9-_.]{10,25})?\.js/$script,xmlhttprequest,important
+/^https?:\/\/[^\s]+[-_/.]ad(block(e?r|dete[ck](tor)?)?|[-_]?track|block|bp(lus)?|engine|next[-_]iframe|os|river|rum|s?bygoogle|[svx]|sdk|setup|config|[-_]?loader|(x[-_])?iframe|swrap|mixer|s?fox|[-_]?manager|s?[-_]async|[\W|\_]?sprite|view|[-_]?inserter|[\W|\_]?native)?([0-9]{3,5}|[A-Za-z0-9.-_]{4,8}|\.min)?\.(html?|js|javascript|php|txt)/$important,script,xmlhttprequest,subdocument
 /^https?:\/\/[^\s]+[\W|\_]gtm\.js/$script
 /^https?:\/\/[^\s]+[\W|\_]kameleoon(\.min)?\.js/$important,script
 /^https?:\/\/[^\s]+[\W|\_]metric[sa]?[^\s]+\.js/$script,important
@@ -2808,7 +2809,6 @@
 /^https?:\/\/[^\s]+\/piwik([\W|\_][0-9]{5,})?\.js/$important,script
 /^https?:\/\/[^\s]+\/popunders?([0-9]{1,2})?\./$important,popup,script,xmlhttprequest
 /^https?:\/\/[^\s]+\/s([0-9]{1,2})?\.js/$important,script
-/^https?:\/\/[^\s]+ad(block(e?r|dete[ck](tor)?)?|[-_]?track|block|bp(lus)?|engine|next[-_]iframe|os|river|rum|s?bygoogle|[svx]|sdk|setup|config|[-_]?loader|(x[-_])?iframe|swrap|mixer|s?fox|[-_]?manager|s?[-_]async|[\W|\_]?sprite|view|[-_]?inserter|[\W|\_]?native)?([0-9]{3,5}|[A-Za-z0-9.-_]{4,8}|\.min)?\.(html?|js|javascript|php|txt)/$important,script,xmlhttprequest,subdocument
 /^https?:\/\/[^\s]+g(tag|oogleads?|oogleanal(ytics?|yzer?)([0-9]{1})?|pt([-_]mobile)?|tm|a([_-]lite)?|a([_-]setup)?|oogle[-_.]track(ers?|ing)?|oogletag|ads?|tagmanager([-_]backend|track(ers?|ing)?event)?|oogle[_-]stats?)\./$important,script
 /^https?:\/\/[^\s]+log[\W|_]?(type|event|entry|request)[\W|\_]?/$image,important,xmlhttprequest
 /^https?:\/\/[^\s]+me([0-9]{1})?w\.js/$important,script
@@ -2899,6 +2899,7 @@
 @@||edreams.pt^$elemhide,badfilter
 @@||elprecio.es^$elemhide,badfilter
 @@||fast.ng^$elemhide,badfilter
+@@||favicon.yandex.net/favicon/$image
 @@||find.mail.com^$elemhide,badfilter
 @@||flights24.com^$elemhide,badfilter
 @@||flights24.ie^$elemhide,badfilter
