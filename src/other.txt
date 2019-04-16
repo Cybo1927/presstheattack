@@ -6,7 +6,7 @@
 /^https?:\/\/delivery([0-9]{1,2})?\./$important,third-party
 /^https?:\/\/geoservice([0-9]{1,2})?\./$important
 /^https?:\/\/informers?([0-9]{1,2})?\./$important
-/^https?:\/\/log([0-9]{1,2})?\./$important
+/^https?:\/\/logs?([0-9]{1,2})?\./$important
 /^https?:\/\/metric[as]?([0-9]{1,2})?\./$important
 /^https?:\/\/p([0-9]{1,2})?\./$~popup,important,domain=~focus.de|~drtuber.com|~zendesk.com
 /^https?:\/\/partners?([0-9]{1,2})?\./$important,third-party
