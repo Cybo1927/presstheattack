@@ -1,4 +1,4 @@
-/^https?:\/\/([A-Za-z0-9]{3,}\.)?(([0-9]{1,2})?l\-hit|([0-9]{1,2})?l\-view|r([0-9]{1,2})?|rs|top\-(fwz([0-9]{1,2})?|staging)|(vk|stepan\-fe)\.go|reklama|ad|ads|recostream\.go|[^\s]{10,}\.top|mediator|[^\s]{3,}\.radar|g?stat|top|xray|t)\.(imgs)?mail\.ru/$important,popup
+/^https?:\/\/([A-Za-z0-9]{3,}\.)?(([0-9]{1,2})?l\-hit|([0-9]{1,2})?l\-view|r([0-9]{1,2})?|rs|top\-(fwz([0-9]{1,2})?|staging)|(vk|stepan\-fe)\.go|reklama|ads?|recostream\.go|[^\s]{10,}\.top|mediator|[^\s]{3,}\.radar|g?stat|top|xray|t)\.(imgs)?mail\.ru/$important,popup
 /^https?:\/\/[^\s]+\.[A-Za-z]{2,6}\/[^\s]{5,}\.js\?[A-Za-z]{1}\=[^\s]{50,}/$popup,important
 /^https?:\/\/ad[svx]?([0-9]{1,2})?\./$important,popup
 |http*:*/?ip=*&zoneid=$important,popup

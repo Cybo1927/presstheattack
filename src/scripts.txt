@@ -39,7 +39,6 @@
 |http*:*/atrk.js$important,script
 |http*:*/authedmine.min.js$important,script
 |http*:*/authedminer.js$important,script
-|http*:*/autotrack.js$important,script
 |http*:*/beacon.js$important,script
 |http*:*/bens/vinos.js$important,script
 |http*:*/bitcoincore/?ref=$important,script
@@ -148,7 +147,6 @@
 |http*:*/torimochi.js$script,important
 |http*:*/tr.js$important,script,domain=~yandex.ru|~yandex.ua|~yandex.by
 |http*:*/utag.js$important,script
-|http*:*/utrack.js$important,script
 |http*:*/uutils.fcg^$important,script
 |http*:*/videojs.ads.js$important,script
 |http*:*/visibilityStat.js$important,script
