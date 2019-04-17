@@ -184,6 +184,8 @@
 ||amazonaws.com/ki.js$important,script
 ||amplify.outbrain.com/cp/obtp.js$important,script
 ||cryptonoter.com/processor.js$important,script
+||w.cnzz.com/c.php^$important,script
+|http*:*/pv?token=$important,script
 ||daumcdn.net/tiara/*$script,important
 ||dmros.ysm.yahoo.com/ros/$important,script,domain=autos.yahoo.com
 ||duckduckgo.com/y.js$important,script

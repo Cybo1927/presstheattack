@@ -76,6 +76,8 @@ GGBET$image
 ||alibaba.com/ts?$image,important
 ||collector.githubapp.com^$image,important
 ||commander1.com^$image,important
+||feeds2.feedburner.com/~fc/$image,important
+||hhcdn.ru/nposter/$image,important
 ||duckduckgo.com/t/$image,important
 ||godaddy.com/pageevents.aspx$image,important
 ||google.com/pagead/$image,important
