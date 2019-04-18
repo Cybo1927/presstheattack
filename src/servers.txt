@@ -1,4 +1,4 @@
-/^https?:\/\/([A-Za-z0-9]{3,}\.)?(([0-9]{1,2})?l\-hit|([0-9]{1,2})?l\-view|r([0-9]{1,2})?|rs|staging|(vk|stepan\-fe)\.go|reklama|ads?|recostream\.go|([^\s]{10,}\.)?top([0-9]{1}|\-(fwz([0-9]{1,2})?)?|mediator|[^\s]{3,}\.radar|g?stat|xray|t|fmdata)\.(imgs)?mail\.ru/$important
+/^https?:\/\/([A-Za-z0-9]{3,}\.)?(([0-9]{1,2})?l\-hit|([0-9]{1,2})?l\-view|r([0-9]{1,2})?|rs|staging|(vk|stepan\-fe)\.go|reklama|ads?|recostream\.go|([^\s]{10,}\.)?top([0-9]{1}|\-(fwz([0-9]{1,2})?))?|mediator|[^\s]{3,}\.radar|g?stat|xray|t|fmdata)\.(imgs)?mail\.ru/$important
 /^https?:\/\/([A-Za-z0-9]{3,}\.)?(an|awaps|awsync|(rosenberg\.|report\.)?appmetrica|bs|direct|grade\.market|informer|kiks|clck|main\.zdevx|mc|web\-metric[as]|yabs|zen|browser\-updater|bs\-meta|bann?ers?(\-slb)?\.mobile|external\-promo\-metric[as]|startup(\-slb)?\.mobile|analytics?(\.mobile)?|adfox)\.yandex\.[A-Za-z0-9.]{2,7}/$important
 /^https?:\/\/([A-Za-z0-9]{3,}\.)?(id|adservice|mobilecrashreporting|imasdk|tagmanager)\.google(apis)?\.[A-Za-z0-9.]{2,7}/$important
 /^https?:\/\/([A-Za-z0-9]{3,}\.)?google(\-analytics|syndication|tagmanager|adservices|tagservices)\.[A-Za-z0-9.]{2,7}/$important
@@ -348,6 +348,9 @@
 ||vk.cc^
 ||vtracy.de^$important
 ||wa.ui-portal.de^$important
+||zoagremo.net^$important
+||7wtic7ru.com^$important
+||ivastoor.com^$important
 ||wbtrk.net^$important
 ||webmasterplan.com^$important
 ||weborama.fr^$important

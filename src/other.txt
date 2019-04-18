@@ -2076,7 +2076,7 @@
 |http*:*_banner-ad_
 |http*:*_banner.
 |http*:*_banner^
-|http*:*_banner_$domain=~xfinity.com
+|http*:*_banner_$domain=~xfinity.com|~samsung.com
 |http*:*_banners-
 |http*:*_banners.
 |http*:*_banners^$domain=~ikea.com|~market.yandex.by|~market.yandex.ru|~market.yandex.ua|~twitter.com
@@ -2103,7 +2103,7 @@
 |http*:*_clck_
 |http*:*_click-
 |http*:*_click.
-|http*:*_click^$domain=~twitter.com
+|http*:*_click^$domain=~twitter.com|~vk.com
 |http*:*_click_$domain=~vk.com
 |http*:*_clicker-
 |http*:*_clicker.
@@ -2453,3 +2453,4 @@
 |http*://report-adv-to.^$important
 |http*://xml*/click^$important
 |http*://xml*/redirect^$important
+||yandex.*/clck/$important
