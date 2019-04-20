@@ -57,6 +57,7 @@ GGBET$image
 |http*:*/svp.gif$image,important
 |http*:*/sync.gif$image,important
 |http*:*/sync.png$image,important
+|http*:*/tda.*/in.gif$image,important
 |http*:*/textlink-ads.jpg$image,important
 |http*:*/track-user.gif$image,important
 |http*:*/track-user.png$image,important
@@ -76,12 +77,11 @@ GGBET$image
 ||alibaba.com/ts?$image,important
 ||collector.githubapp.com^$image,important
 ||commander1.com^$image,important
-||feeds2.feedburner.com/~fc/$image,important
-||hhcdn.ru/nposter/$image,important
 ||duckduckgo.com/t/$image,important
+||feeds2.feedburner.com/~fc/$image,important
 ||godaddy.com/pageevents.aspx$image,important
 ||google.com/pagead/$image,important
-||heise.de/ivw-bin/ivw/cp/$image,important
+||hhcdn.ru/nposter/$image,important
 ||livejournal.com/ljcounter/$image,important
 ||mail.yandex.*/monitoring_liza.txt$image,important
 ||rover.ebay.*/roverimp/*&trknvp=$image,important

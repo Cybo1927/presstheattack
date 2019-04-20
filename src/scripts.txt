@@ -29,6 +29,7 @@
 |http*:*.vast.$script
 |http*:*.vast^$script
 |http*:*.vast_$script
+|http*:*/?dm=*&blogid=$important,script,domain=~wordpress.org
 |http*:*/accip_script.js$important,script
 |http*:*/adfox/*.js$script,important
 |http*:*/adition.*js$important,script
@@ -175,6 +176,7 @@
 |http*:*/yads-async.js$important,script
 |http*:*/yads.js$important,script
 |http*:*/zbanner_consorzio.js$important,script
+|http*:*/zerg.js$important,script
 |http*:*^vast-$script
 |http*:*^vast.$script
 |http*:*^vast^$script

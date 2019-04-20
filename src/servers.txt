@@ -11,6 +11,7 @@
 ||1-1ads.com^$important
 ||2mdn.net^$important
 ||3lift.com^$important
+||7wtic7ru.com^$important
 ||28f77rd30e.ru^$important
 ||69m.info^$important
 ||69v.club^$important
@@ -192,6 +193,7 @@
 ||iocnt.net^$important
 ||ipify.org^$third-party,important
 ||ipinfo.io^$third-party,important
+||ivastoor.com^$important
 ||iwanttodeliver.com^$important
 ||js-agent.newrelic.com^$important
 ||justicejudo.com^$important
@@ -348,9 +350,6 @@
 ||vk.cc^
 ||vtracy.de^$important
 ||wa.ui-portal.de^$important
-||zoagremo.net^$important
-||7wtic7ru.com^$important
-||ivastoor.com^$important
 ||wbtrk.net^$important
 ||webmasterplan.com^$important
 ||weborama.fr^$important
@@ -370,5 +369,6 @@
 ||ywhnh.top^$important
 ||zinrora.pw^$important
 ||zmctrack.net^$important
+||zoagremo.net^$important
 ||zog.link^$important
 ||zqtk.net^$important
