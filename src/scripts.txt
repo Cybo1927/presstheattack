@@ -87,6 +87,7 @@
 |http*:*/ht.js$script,important
 |http*:*/ht.js?site^$important,script
 |http*:*/hubvisor.js$important,script
+|http*:*/ident/hit.js$important,script
 |http*:*/ima3.js$important,script
 |http*:*/invoke.js$important,script
 |http*:*/iqadcontroller.$important,script
@@ -121,6 +122,7 @@
 |http*:*/promo-banner.js$important,script
 |http*:*/prum.$important,script
 |http*:*/publishertag.js$important,script
+|http*:*/pv?token=$important,script
 |http*:*/pw.js$important,script
 |http*:*/px.js$important,script
 |http*:*/quant.js$important,script
@@ -131,6 +133,7 @@
 |http*:*/ruxitagentjs_$important,script
 |http*:*/s_code.js$important,script
 |http*:*/safelinkconverter.js$important,script
+|http*:*/setcookie.php$important,script
 |http*:*/showads.js$important,script
 |http*:*/site_ads.js$important,script
 |http*:*/smarttag.js$important,script
@@ -184,8 +187,6 @@
 ||amazonaws.com/ki.js$important,script
 ||amplify.outbrain.com/cp/obtp.js$important,script
 ||cryptonoter.com/processor.js$important,script
-||w.cnzz.com/c.php^$important,script
-|http*:*/pv?token=$important,script
 ||daumcdn.net/tiara/*$script,important
 ||dmros.ysm.yahoo.com/ros/$important,script,domain=autos.yahoo.com
 ||duckduckgo.com/y.js$important,script
@@ -213,6 +214,7 @@
 ||upapi.net/pb/ex?w=*&uponit$script,important
 ||va.v.liveperson.net^$third-party,script,important
 ||vimeocdn.com/js_opt/ablincoln_combined.min.js$important,script
+||w.cnzz.com/c.php^$important,script
 ||xvideos.com/in.php$script,important
 ||yandex.*/pogoda/$first-party,important,inline-script
 ||yastatic.net/daas/atom.js$important,script
