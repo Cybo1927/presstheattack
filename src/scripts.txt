@@ -12,7 +12,7 @@
 /^https?:\/\/[^\s]+[-_/.]webmr([0-9]{1,2})?\.js/$important,script
 /^https?:\/\/[^\s]+\/([^\s]{4})?tag\.min\.([a-z0-9]{30,}\.)?js/$important,script
 /^https?:\/\/[^\s]+\/(fuck|block)adblock(\.min)?\.js/$important,script
-/^https?:\/\/[^\s]+\/ads([-_/.]{1})?([0-9]{1,2}|[-a-z0-9_.]{5,})?(\.min)?\.js/$important,script
+/^https?:\/\/[^\s]+\/ads([-_/.]{1})?([0-9]{1,2}|[-a-z0-9_.]{5,}|\/[Dd]fp\-)?(\.min)?\.js/$important,script
 /^https?:\/\/[^\s]+\/dfp([0-9]{1})?\.js/$important,script
 /^https?:\/\/[^\s]+\/fp([0-9]{1,2})?\.js/$important,script
 /^https?:\/\/[^\s]+\/piwik([-_/.][0-9]{5,})?\.js/$important,script
