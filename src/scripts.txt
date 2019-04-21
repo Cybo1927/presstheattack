@@ -137,7 +137,6 @@
 |http*:*/safelinkconverter.js$important,script
 |http*:*/setcookie.php$important,script
 |http*:*/showads.js$important,script
-|http*:*/site_ads.js$important,script
 |http*:*/smarttag.js$important,script
 |http*:*/smpop-stable.js$important,script
 |http*:*/snow.js$important,script

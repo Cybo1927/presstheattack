@@ -20,6 +20,7 @@
 /^https?:\/\/news\.yandex\.[A-Za-z0-9.]{2,7}\/[^\s]{300,}/$important,subdocument,xmlhttprequest
 /^https?:\/\/tv\.yandex\.[A-Za-z0-9.]{2,7}\/[^\s]{270,}/$image,important,subdocument,xmlhttprequest
 /^https?:\/\/yandex\.[A-Za-z0-9.]{2,7}\/images/(?!(search\?rpt=\imageview)|(search\?callback\=jQuery)|(search\?exp_flags=)|(search\?serpid=)|(touch/search?))[^\s]{80,}/$important,subdocument,xmlhttprequest
+||fls-*.amazon.*^$other,important,script,xmlhttprequest
 |http*:*&ad_*&idzone=$image,important,script,xmlhttprequest
 |http*:*.php?zoneid=$important,script,xmlhttprequest
 |http*:*/a/display.php^$important,script,xmlhttprequest,subdocument
