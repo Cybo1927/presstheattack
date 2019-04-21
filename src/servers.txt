@@ -37,6 +37,7 @@
 ||admixer.net^$important
 ||adnxs.com^$important
 ||adnz.co^$important
+||innity.net^$important
 ||adobedtm.com^$third-party
 ||adomik.com^$important
 ||adpartner.*^$important
@@ -52,6 +53,8 @@
 ||adsymptotic.com^$important
 ||adtechus.com^$important
 ||adtelligent.com^$important
+||intergi.com^$important
+||wl.jd.com^$important
 ||adtm.chip.de^$important
 ||adtng.com^$important
 ||adtrack.adleadevent.com^$important

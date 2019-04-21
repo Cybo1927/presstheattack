@@ -61,6 +61,7 @@ GGBET$image
 |http*:*/textlink-ads.jpg$image,important
 |http*:*/track-user.gif$image,important
 |http*:*/track-user.png$image,important
+|http*:*/page_view.gif$image,important
 |http*:*/track.gif$image,important
 |http*:*/trg.gif$image,important
 |http*:*/usage.gif$image,important

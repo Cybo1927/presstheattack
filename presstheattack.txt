@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-04-21 18:36:04
-! Version: 20190421183604
+! Last modified: 2019-04-21 18:42:16
+! Version: 20190421184216
 ! Expires: 3 hours
-! Number of filters: 6440
+! Number of filters: 6444
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -4591,6 +4591,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/ottocustom.gif$image,important
 |http*:*/ottoperformance.gif$image,important
 |http*:*/p.js$important,script
+|http*:*/page_view.gif$image,important
 |http*:*/pageview.gif$image,important
 |http*:*/performancetimer.js$important,script
 |http*:*/ph-functions.js$important,script
@@ -6203,8 +6204,10 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||indexww.com^$important
 ||influads.com^$important
 ||info.web.de^$important
+||innity.net^$important
 ||instreamatic.com^$important
 ||intellitxt.com^$important
+||intergi.com^$important
 ||ioam.de^$important
 ||iocnt.net^$important
 ||ipify.org^$third-party,important
@@ -6427,6 +6430,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||webmasterplan.com^$important
 ||weborama.fr^$important
 ||witalfieldt.com^$important
+||wl.jd.com^$important
 ||worthathousandwords.com^$important
 ||xcvgdf.party^$important
 ||xhamsterpremium.*^$important,third-party
