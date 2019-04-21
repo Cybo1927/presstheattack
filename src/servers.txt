@@ -169,6 +169,7 @@
 ||grapeshot.co.uk^$important
 ||greatdexchange.com^$important
 ||gumgum.com^$important
+||h6.msn.com^$important
 ||histats.com^$important
 ||hit.interia.pl^$important
 ||hm.baidu.com^$important
@@ -196,6 +197,7 @@
 ||ivastoor.com^$important
 ||iwanttodeliver.com^$important
 ||js-agent.newrelic.com^$important
+||juicyads.com^$important
 ||justicejudo.com^$important
 ||jwpltx.com^$important
 ||keywee.co^$important

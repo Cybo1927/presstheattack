@@ -57,6 +57,7 @@
 @@||geld.de^$elemhide,badfilter
 @@||github.com/search/count?q=*&type=*^$xmlhttprequest
 @@||githubusercontent.com^$image
+@@||google.*/url?*&q=*&url=$xmlhttprequest,subdocument,script
 @@||google.com/recaptcha/$script
 @@||googlevideo.com/*?*&ip=$third-party
 @@||googlevideo.com/*?ip=$third-party

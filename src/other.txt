@@ -1230,6 +1230,7 @@
 |http*:*.yads^
 |http*:*.yads_
 |http*:*/epubdelivery/$important
+|http*:*/yieldmanager/$important
 |http*:*://aclick.*^$important
 |http*:*?*&ip=$third-party
 |http*:*?PartnerID=$third-party

@@ -84,6 +84,7 @@ GGBET$image
 ||hhcdn.ru/nposter/$image,important
 ||livejournal.com/ljcounter/$image,important
 ||mail.yandex.*/monitoring_liza.txt$image,important
+||primevideo.com/uedata/$image,important
 ||rover.ebay.*/roverimp/*&trknvp=$image,important
 ||rover.ebay.*^$image,important
 ||scontent.xx.fbcdn23dssr3jqnq.onion/hads-ak-prn*/*.png$image,important

@@ -188,6 +188,7 @@
 ||a.bf-tools.net/de/de.js$script,important
 ||accounts.ad.nl/gscounters.sendReport$script,important
 ||amazonaws.com/ki.js$important,script
+||amazonaws.com^*/test_ops_script_loads$important,script
 ||amplify.outbrain.com/cp/obtp.js$important,script
 ||cryptonoter.com/processor.js$important,script
 ||daumcdn.net/tiara/*$script,important
