@@ -1,7 +1,7 @@
+/^https?:\/\/([a-zA-Z]{1,6})?track(ers?|ing)?([0-9]{1,2})?\./$important
+/^https?:\/\/([a-z]{1,3})?stat(s|istics?)?([0-9]{1,2})?\./$important
 /^https?:\/\/(analysis|analytic[as]?)([0-9]{1,2})?\./$important
 /^https?:\/\/(gs|(tsr)?hit)?count(ers?)?([0-9]{1,2})?\./$important
-/^https?:\/\/([a-z]{1,3})?stat(s|istics?)?([0-9]{1,2})?\./$important
-/^https?:\/\/(videos?)?track(ers?|ing)?([0-9]{1,2})?\./$important
 /^https?:\/\/ad[svx]?([0-9]{1,2})?\./$important,domain=~ad.nl
 /^https?:\/\/aff(iliat(es?|ion))?([0-9]{1,2})?\./$important
 /^https?:\/\/beacons?([0-9]{1,2})?\./$important
@@ -16,10 +16,8 @@
 /^https?:\/\/pixels?([0-9]{1,2})?\./$important
 /^https?:\/\/px([0-9]{1,2})?\./$important
 /^https?:\/\/r([0-9]{1,2})?\./$important
-/^https?:\/\/rem\-track([0-9]{1,2})?\./$important
 /^https?:\/\/s?metric[as]?([0-9]{1,2})?\./$important
 /^https?:\/\/tags?([0-9]{1,2})?\./$important
-/^https?:\/\/track(ers?|ing)?\./$important
 |http*:*-MetaAdServer-
 |http*:*-MetaAdServer.
 |http*:*-MetaAdServer^
