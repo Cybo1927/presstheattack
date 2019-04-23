@@ -36,6 +36,7 @@
 ||admantx.com^$important
 ||admetrica.ru^$important
 ||admitad.com^$important
+||blueconic.net^$important
 ||admixer.net^$important
 ||adnxs.com^$important
 ||adnz.co^$important
