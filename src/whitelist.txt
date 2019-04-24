@@ -6,6 +6,7 @@
 @@||best-deal.com^$elemhide,badfilter
 @@||best-price.com^$elemhide,badfilter
 @@||best-price.fr^$elemhide,badfilter
+@@||api.viqeo.tv^$xmlhttprequest
 @@||bluekiwi.de^$elemhide,badfilter
 @@||bottomdollar.com^$elemhide,badfilter
 @@||buscar.com.gt^$elemhide,badfilter
