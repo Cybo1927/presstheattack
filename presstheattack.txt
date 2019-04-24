@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-04-25 00:12:44
-! Version: 20190425001244
+! Last modified: 2019-04-25 00:19:47
+! Version: 20190425001947
 ! Expires: 3 hours
 ! Number of filters: 6458
 ! Homepage: https://github.com/bogachenko/presstheattack/
@@ -3507,7 +3507,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*-counted.
 |http*:*-counted^
 |http*:*-counted_
-|http*:*-counter-
+|http*:*-counter-$domain=~metrika.yandex.ru
 |http*:*-counter.
 |http*:*-counter^
 |http*:*-counter_
@@ -4014,7 +4014,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*.advertiser_
 |http*:*.advertising-
 |http*:*.advertising.
-|http*:*.advertising^
+|http*:*.advertising^$domain=~metrika.yandex.ru
 |http*:*.advertising_
 |http*:*.advertisment-
 |http*:*.advertisment.
@@ -4892,7 +4892,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*^advertiser_
 |http*:*^advertising-
 |http*:*^advertising.
-|http*:*^advertising^
+|http*:*^advertising^$domain=~metrika.yandex.ru
 |http*:*^advertising_
 |http*:*^advertisment-
 |http*:*^advertisment.
@@ -5121,7 +5121,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*^pagead_
 |http*:*^partners-
 |http*:*^partners.
-|http*:*^partners^
+|http*:*^partners^$domain=~metrika.yandex.ru
 |http*:*^partners_
 |http*:*^paylink-
 |http*:*^paylink.

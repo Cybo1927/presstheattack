@@ -298,7 +298,7 @@
 |http*:*-counted.
 |http*:*-counted^
 |http*:*-counted_
-|http*:*-counter-
+|http*:*-counter-$domain=~metrika.yandex.ru
 |http*:*-counter.
 |http*:*-counter^
 |http*:*-counter_
@@ -801,7 +801,7 @@
 |http*:*.advertiser_
 |http*:*.advertising-
 |http*:*.advertising.
-|http*:*.advertising^
+|http*:*.advertising^$domain=~metrika.yandex.ru
 |http*:*.advertising_
 |http*:*.advertisment-
 |http*:*.advertisment.
@@ -1418,7 +1418,7 @@
 |http*:*^advertiser_
 |http*:*^advertising-
 |http*:*^advertising.
-|http*:*^advertising^
+|http*:*^advertising^$domain=~metrika.yandex.ru
 |http*:*^advertising_
 |http*:*^advertisment-
 |http*:*^advertisment.
@@ -1642,7 +1642,7 @@
 |http*:*^pagead_
 |http*:*^partners-
 |http*:*^partners.
-|http*:*^partners^
+|http*:*^partners^$domain=~metrika.yandex.ru
 |http*:*^partners_
 |http*:*^paylink-
 |http*:*^paylink.
