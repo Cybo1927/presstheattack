@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-04-25 01:09:23
-! Version: 20190425010923
+! Last modified: 2019-04-25 01:21:13
+! Version: 20190425012113
 ! Expires: 3 hours
 ! Number of filters: 6458
 ! Homepage: https://github.com/bogachenko/presstheattack/
@@ -3603,7 +3603,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*-metrics.
 |http*:*-metrics^
 |http*:*-metrics_
-|http*:*-metrika-
+|http*:*-metrika-$domain=~metrika.yandex.ru|~webvisor.com|~metrika.yandex.com|~metrica.yandex.com|~metrica.yandex.ru
 |http*:*-metrika.
 |http*:*-metrika^
 |http*:*-metrika_
@@ -5091,7 +5091,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*^metrics.
 |http*:*^metrics^$domain=~analytics.google.com
 |http*:*^metrics_
-|http*:*^metrika-
+|http*:*^metrika-$domain=~metrika.yandex.ru|~webvisor.com|~metrika.yandex.com|~metrica.yandex.com|~metrica.yandex.ru
 |http*:*^metrika.$domain=~metrika.yandex.ru|~webvisor.com|~metrika.yandex.com|~metrica.yandex.com|~metrica.yandex.ru
 |http*:*^metrika^$domain=~metrika.yandex.ru|~webvisor.com|~metrika.yandex.com|~metrica.yandex.com|~metrica.yandex.ru
 |http*:*^metrika_

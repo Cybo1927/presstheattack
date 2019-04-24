@@ -389,7 +389,7 @@
 |http*:*-metrics.
 |http*:*-metrics^
 |http*:*-metrics_
-|http*:*-metrika-
+|http*:*-metrika-$domain=~metrika.yandex.ru|~webvisor.com|~metrika.yandex.com|~metrica.yandex.com|~metrica.yandex.ru
 |http*:*-metrika.
 |http*:*-metrika^
 |http*:*-metrika_
@@ -1611,7 +1611,7 @@
 |http*:*^metrics.
 |http*:*^metrics^$domain=~analytics.google.com
 |http*:*^metrics_
-|http*:*^metrika-
+|http*:*^metrika-$domain=~metrika.yandex.ru|~webvisor.com|~metrika.yandex.com|~metrica.yandex.com|~metrica.yandex.ru
 |http*:*^metrika.$domain=~metrika.yandex.ru|~webvisor.com|~metrika.yandex.com|~metrica.yandex.com|~metrica.yandex.ru
 |http*:*^metrika^$domain=~metrika.yandex.ru|~webvisor.com|~metrika.yandex.com|~metrica.yandex.com|~metrica.yandex.ru
 |http*:*^metrika_
