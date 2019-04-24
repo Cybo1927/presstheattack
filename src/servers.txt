@@ -307,6 +307,13 @@
 ||statcounter.com^$third-party,important
 ||steadfastsystem.com^$important
 ||stickyadstv.com^$important
+||etpsn.com^$important
+||zreluo.com^$important
+||chaturbate.com^$third-party,important
+||admatic.com.tr^$important
+||umekana.ru^$important
+||pheegoab.click^$important
+||texto.click^$important
 ||summerhamster.com^$important
 ||sync.rambler.ru^$important
 ||syndication.twitter.com^$important
