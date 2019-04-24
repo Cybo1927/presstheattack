@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-04-24 23:43:25
-! Version: 20190424234325
+! Last modified: 2019-04-24 23:54:45
+! Version: 20190424235445
 ! Expires: 3 hours
 ! Number of filters: 6458
 ! Homepage: https://github.com/bogachenko/presstheattack/
@@ -5293,7 +5293,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*^tracker_
 |http*:*^tracking-$domain=~otto.de
 |http*:*^tracking.
-|http*:*^tracking^
+|http*:*^tracking^$domain=~analytics.google.com
 |http*:*^tracking_$domain=~fandom.com
 |http*:*^uedata-
 |http*:*^uedata.
@@ -5448,7 +5448,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*_ads_type^
 |http*:*_ads_type_
 |http*:*_adsense-
-|http*:*_adsense.
+|http*:*_adsense.$domain=~analytics.google.com
 |http*:*_adsense^
 |http*:*_adsense_
 |http*:*_adserver-
@@ -5904,7 +5904,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*_tracking-
 |http*:*_tracking.$domain=~otto.de
 |http*:*_tracking^
-|http*:*_tracking_$domain=~fandom.com
+|http*:*_tracking_$domain=~fandom.com|~analytics.google.com
 |http*:*_uedata-
 |http*:*_uedata.
 |http*:*_uedata^

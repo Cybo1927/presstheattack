@@ -1814,7 +1814,7 @@
 |http*:*^tracker_
 |http*:*^tracking-$domain=~otto.de
 |http*:*^tracking.
-|http*:*^tracking^
+|http*:*^tracking^$domain=~analytics.google.com
 |http*:*^tracking_$domain=~fandom.com
 |http*:*^uedata-
 |http*:*^uedata.
@@ -1969,7 +1969,7 @@
 |http*:*_ads_type^
 |http*:*_ads_type_
 |http*:*_adsense-
-|http*:*_adsense.
+|http*:*_adsense.$domain=~analytics.google.com
 |http*:*_adsense^
 |http*:*_adsense_
 |http*:*_adserver-
@@ -2419,7 +2419,7 @@
 |http*:*_tracking-
 |http*:*_tracking.$domain=~otto.de
 |http*:*_tracking^
-|http*:*_tracking_$domain=~fandom.com
+|http*:*_tracking_$domain=~fandom.com|~analytics.google.com
 |http*:*_uedata-
 |http*:*_uedata.
 |http*:*_uedata^
