@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-04-25 00:52:10
-! Version: 20190425005210
+! Last modified: 2019-04-25 00:57:56
+! Version: 20190425005756
 ! Expires: 3 hours
 ! Number of filters: 6458
 ! Homepage: https://github.com/bogachenko/presstheattack/
@@ -2842,7 +2842,7 @@
 /^https?:\/\/px([0-9]{1,2})?\./$important
 /^https?:\/\/r([0-9]{1,2})?\./$important
 /^https?:\/\/s3\.amazonaws\.com\/.*[a-f0-9\/]{50,}/$important,third-party,xmlhttprequest,domain=~amazon.com
-/^https?:\/\/s?metric[as]?([0-9]{1,2})?\./$important,domain=~metrika.yandex.ru|~metrika.yandex.com
+/^https?:\/\/s?metric[as]?([0-9]{1,2})?\./$important,domain=~metrika.yandex.ru|~metrika.yandex.com|~metrica.yandex.com|~metrica.yandex.ru
 /^https?:\/\/tags?([0-9]{1,2})?\./$important
 /^https?:\/\/tv\.yandex\.[A-Za-z0-9.]{2,7}\/[^\s]{270,}/$image,important,subdocument,xmlhttprequest
 /^https?:\/\/www\.([a-z]{6,16})\.com\/([a-z]{1,4})\.js$/$important,script,third-party
@@ -3388,8 +3388,8 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*-adtest_
 |http*:*-adv-
 |http*:*-adv.
-|http*:*-adv^$domain=~yandex.by|~yandex.ru|~yandex.ua
-|http*:*-adv_$domain=~yandex.by|~yandex.ru|~yandex.ua
+|http*:*-adv^$domain=~yandex.by|~yandex.ru|~yandex.ua|~metrika.yandex.ru|~webvisor.com|~metrika.yandex.com|~metrica.yandex.com|~metrica.yandex.ru
+|http*:*-adv_$domain=~yandex.by|~yandex.ru|~yandex.ua|~metrika.yandex.ru|~webvisor.com|~metrika.yandex.com|~metrica.yandex.com|~metrica.yandex.ru
 |http*:*-advert-
 |http*:*-advert.
 |http*:*-advert^
@@ -3507,7 +3507,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*-counted.
 |http*:*-counted^
 |http*:*-counted_
-|http*:*-counter-$domain=~metrika.yandex.ru|~webvisor.com|~metrika.yandex.com
+|http*:*-counter-$domain=~metrika.yandex.ru|~webvisor.com|~metrika.yandex.com|~metrica.yandex.com|~metrica.yandex.ru
 |http*:*-counter.
 |http*:*-counter^
 |http*:*-counter_
@@ -3756,7 +3756,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*-sponsored.
 |http*:*-sponsored^
 |http*:*-sponsored_
-|http*:*-stat-$domain=~metrika.yandex.ru|~webvisor.com|~metrika.yandex.com
+|http*:*-stat-$domain=~metrika.yandex.ru|~webvisor.com|~metrika.yandex.com|~metrica.yandex.com|~metrica.yandex.ru
 |http*:*-stat.$domain=~livejournal.com
 |http*:*-stat^
 |http*:*-stat_
@@ -4014,7 +4014,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*.advertiser_
 |http*:*.advertising-
 |http*:*.advertising.
-|http*:*.advertising^$domain=~metrika.yandex.ru|~webvisor.com|~metrika.yandex.com
+|http*:*.advertising^$domain=~metrika.yandex.ru|~webvisor.com|~metrika.yandex.com|~metrica.yandex.com|~metrica.yandex.ru
 |http*:*.advertising_
 |http*:*.advertisment-
 |http*:*.advertisment.
@@ -4892,7 +4892,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*^advertiser_
 |http*:*^advertising-
 |http*:*^advertising.
-|http*:*^advertising^$domain=~metrika.yandex.ru|~webvisor.com|~metrika.yandex.com
+|http*:*^advertising^$domain=~metrika.yandex.ru|~webvisor.com|~metrika.yandex.com|~metrica.yandex.com|~metrica.yandex.ru
 |http*:*^advertising_
 |http*:*^advertisment-
 |http*:*^advertisment.
@@ -4973,7 +4973,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*^click-
 |http*:*^click.
 |http*:*^click^
-|http*:*^click_$domain=~metrika.yandex.ru|~webvisor.com|~metrika.yandex.com
+|http*:*^click_$domain=~metrika.yandex.ru|~webvisor.com|~metrika.yandex.com|~metrica.yandex.com|~metrica.yandex.ru
 |http*:*^clicker-
 |http*:*^clicker.
 |http*:*^clicker^
@@ -5084,16 +5084,16 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*^MetaAdServer^
 |http*:*^MetaAdServer_
 |http*:*^metrica-
-|http*:*^metrica.$domain=~metrika.yandex.ru|~webvisor.com|~metrika.yandex.com
-|http*:*^metrica^$domain=~metrika.yandex.ru|~webvisor.com|~metrika.yandex.com
+|http*:*^metrica.$domain=~metrika.yandex.ru|~webvisor.com|~metrika.yandex.com|~metrica.yandex.com|~metrica.yandex.ru
+|http*:*^metrica^$domain=~metrika.yandex.ru|~webvisor.com|~metrika.yandex.com|~metrica.yandex.com|~metrica.yandex.ru
 |http*:*^metrica_
 |http*:*^metrics-
 |http*:*^metrics.
 |http*:*^metrics^$domain=~analytics.google.com
 |http*:*^metrics_
 |http*:*^metrika-
-|http*:*^metrika.$domain=~metrika.yandex.ru|~webvisor.com|~metrika.yandex.com
-|http*:*^metrika^$domain=~metrika.yandex.ru|~webvisor.com|~metrika.yandex.com
+|http*:*^metrika.$domain=~metrika.yandex.ru|~webvisor.com|~metrika.yandex.com|~metrica.yandex.com|~metrica.yandex.ru
+|http*:*^metrika^$domain=~metrika.yandex.ru|~webvisor.com|~metrika.yandex.com|~metrica.yandex.com|~metrica.yandex.ru
 |http*:*^metrika_
 |http*:*^mtrcs-
 |http*:*^mtrcs.
@@ -5121,7 +5121,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*^pagead_
 |http*:*^partners-
 |http*:*^partners.
-|http*:*^partners^$domain=~metrika.yandex.ru|~webvisor.com|~metrika.yandex.com
+|http*:*^partners^$domain=~metrika.yandex.ru|~webvisor.com|~metrika.yandex.com|~metrica.yandex.com|~metrica.yandex.ru
 |http*:*^partners_
 |http*:*^paylink-
 |http*:*^paylink.
@@ -5163,7 +5163,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*^ppv.
 |http*:*^ppv^
 |http*:*^ppv_
-|http*:*^promo-$domain=~otto.de|~metrika.yandex.ru|~webvisor.com|~metrika.yandex.com
+|http*:*^promo-$domain=~otto.de|~metrika.yandex.ru|~webvisor.com|~metrika.yandex.com|~metrica.yandex.com|~metrica.yandex.ru
 |http*:*^promo.$domain=~mail.ru
 |http*:*^promo^$domain=~kinopoisk.ru|~mail.ru|~ntv.ru|~neopets.com
 |http*:*^promo_$domain=~livejournal.com|~livejournal.net|~vk.com|~otto.de|~xfinity.com|~1tv.ru

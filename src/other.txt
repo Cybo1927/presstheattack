@@ -10,7 +10,7 @@
 /^https?:\/\/geoservice([0-9]{1,2})?\./$important
 /^https?:\/\/informers?([0-9]{1,2})?\./$important
 /^https?:\/\/logs?([0-9]{1,2})?\./$important
-/^https?:\/\/s?metric[as]?([0-9]{1,2})?\./$important,domain=~metrika.yandex.ru|~metrika.yandex.com
+/^https?:\/\/s?metric[as]?([0-9]{1,2})?\./$important,domain=~metrika.yandex.ru|~metrika.yandex.com|~metrica.yandex.com|~metrica.yandex.ru
 /^https?:\/\/p([0-9]{1,2})?\./$~popup,important,domain=~focus.de|~drtuber.com|~zendesk.com
 /^https?:\/\/partners?([0-9]{1,2})?\./$important,third-party
 /^https?:\/\/pixels?([0-9]{1,2})?\./$important
@@ -179,8 +179,8 @@
 |http*:*-adtest_
 |http*:*-adv-
 |http*:*-adv.
-|http*:*-adv^$domain=~yandex.by|~yandex.ru|~yandex.ua
-|http*:*-adv_$domain=~yandex.by|~yandex.ru|~yandex.ua
+|http*:*-adv^$domain=~yandex.by|~yandex.ru|~yandex.ua|~metrika.yandex.ru|~webvisor.com|~metrika.yandex.com|~metrica.yandex.com|~metrica.yandex.ru
+|http*:*-adv_$domain=~yandex.by|~yandex.ru|~yandex.ua|~metrika.yandex.ru|~webvisor.com|~metrika.yandex.com|~metrica.yandex.com|~metrica.yandex.ru
 |http*:*-advert-
 |http*:*-advert.
 |http*:*-advert^
@@ -297,7 +297,7 @@
 |http*:*-counted.
 |http*:*-counted^
 |http*:*-counted_
-|http*:*-counter-$domain=~metrika.yandex.ru|~webvisor.com|~metrika.yandex.com
+|http*:*-counter-$domain=~metrika.yandex.ru|~webvisor.com|~metrika.yandex.com|~metrica.yandex.com|~metrica.yandex.ru
 |http*:*-counter.
 |http*:*-counter^
 |http*:*-counter_
@@ -542,7 +542,7 @@
 |http*:*-sponsored.
 |http*:*-sponsored^
 |http*:*-sponsored_
-|http*:*-stat-$domain=~metrika.yandex.ru|~webvisor.com|~metrika.yandex.com
+|http*:*-stat-$domain=~metrika.yandex.ru|~webvisor.com|~metrika.yandex.com|~metrica.yandex.com|~metrica.yandex.ru
 |http*:*-stat.$domain=~livejournal.com
 |http*:*-stat^
 |http*:*-stat_
@@ -800,7 +800,7 @@
 |http*:*.advertiser_
 |http*:*.advertising-
 |http*:*.advertising.
-|http*:*.advertising^$domain=~metrika.yandex.ru|~webvisor.com|~metrika.yandex.com
+|http*:*.advertising^$domain=~metrika.yandex.ru|~webvisor.com|~metrika.yandex.com|~metrica.yandex.com|~metrica.yandex.ru
 |http*:*.advertising_
 |http*:*.advertisment-
 |http*:*.advertisment.
@@ -1417,7 +1417,7 @@
 |http*:*^advertiser_
 |http*:*^advertising-
 |http*:*^advertising.
-|http*:*^advertising^$domain=~metrika.yandex.ru|~webvisor.com|~metrika.yandex.com
+|http*:*^advertising^$domain=~metrika.yandex.ru|~webvisor.com|~metrika.yandex.com|~metrica.yandex.com|~metrica.yandex.ru
 |http*:*^advertising_
 |http*:*^advertisment-
 |http*:*^advertisment.
@@ -1498,7 +1498,7 @@
 |http*:*^click-
 |http*:*^click.
 |http*:*^click^
-|http*:*^click_$domain=~metrika.yandex.ru|~webvisor.com|~metrika.yandex.com
+|http*:*^click_$domain=~metrika.yandex.ru|~webvisor.com|~metrika.yandex.com|~metrica.yandex.com|~metrica.yandex.ru
 |http*:*^clicker-
 |http*:*^clicker.
 |http*:*^clicker^
@@ -1604,16 +1604,16 @@
 |http*:*^logs^
 |http*:*^logs_$domain=~gitlab.com
 |http*:*^metrica-
-|http*:*^metrica.$domain=~metrika.yandex.ru|~webvisor.com|~metrika.yandex.com
-|http*:*^metrica^$domain=~metrika.yandex.ru|~webvisor.com|~metrika.yandex.com
+|http*:*^metrica.$domain=~metrika.yandex.ru|~webvisor.com|~metrika.yandex.com|~metrica.yandex.com|~metrica.yandex.ru
+|http*:*^metrica^$domain=~metrika.yandex.ru|~webvisor.com|~metrika.yandex.com|~metrica.yandex.com|~metrica.yandex.ru
 |http*:*^metrica_
 |http*:*^metrics-
 |http*:*^metrics.
 |http*:*^metrics^$domain=~analytics.google.com
 |http*:*^metrics_
 |http*:*^metrika-
-|http*:*^metrika.$domain=~metrika.yandex.ru|~webvisor.com|~metrika.yandex.com
-|http*:*^metrika^$domain=~metrika.yandex.ru|~webvisor.com|~metrika.yandex.com
+|http*:*^metrika.$domain=~metrika.yandex.ru|~webvisor.com|~metrika.yandex.com|~metrica.yandex.com|~metrica.yandex.ru
+|http*:*^metrika^$domain=~metrika.yandex.ru|~webvisor.com|~metrika.yandex.com|~metrica.yandex.com|~metrica.yandex.ru
 |http*:*^metrika_
 |http*:*^mtrcs-
 |http*:*^mtrcs.
@@ -1641,7 +1641,7 @@
 |http*:*^pagead_
 |http*:*^partners-
 |http*:*^partners.
-|http*:*^partners^$domain=~metrika.yandex.ru|~webvisor.com|~metrika.yandex.com
+|http*:*^partners^$domain=~metrika.yandex.ru|~webvisor.com|~metrika.yandex.com|~metrica.yandex.com|~metrica.yandex.ru
 |http*:*^partners_
 |http*:*^paylink-
 |http*:*^paylink.
@@ -1683,7 +1683,7 @@
 |http*:*^ppv.
 |http*:*^ppv^
 |http*:*^ppv_
-|http*:*^promo-$domain=~otto.de|~metrika.yandex.ru|~webvisor.com|~metrika.yandex.com
+|http*:*^promo-$domain=~otto.de|~metrika.yandex.ru|~webvisor.com|~metrika.yandex.com|~metrica.yandex.com|~metrica.yandex.ru
 |http*:*^promo.$domain=~mail.ru
 |http*:*^promo^$domain=~kinopoisk.ru|~mail.ru|~ntv.ru|~neopets.com
 |http*:*^promo_$domain=~livejournal.com|~livejournal.net|~vk.com|~otto.de|~xfinity.com|~1tv.ru
