@@ -1452,7 +1452,7 @@
 |http*:*^affiliation.
 |http*:*^affiliation^
 |http*:*^affiliation_
-|http*:*^analytics-$domain=~analytics.google.com
+|http*:*^analytics-$domain=~analytics.google.com|~tagmanager.google.com
 |http*:*^analytics.$domain=~analytics.google.com
 |http*:*^analytics^$domain=~analytics.google.com
 |http*:*^analytics_$domain=~analytics.google.com
@@ -1785,7 +1785,7 @@
 |http*:*^tag-users^
 |http*:*^tag-users_
 |http*:*^tagmanager-
-|http*:*^tagmanager.
+|http*:*^tagmanager.$domain=~tagmanager.google.com
 |http*:*^tagmanager^
 |http*:*^tagmanager_
 |http*:*^tcheck-
