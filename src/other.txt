@@ -1613,8 +1613,8 @@
 |http*:*^metrics^$domain=~analytics.google.com
 |http*:*^metrics_
 |http*:*^metrika-
-|http*:*^metrika.
-|http*:*^metrika^
+|http*:*^metrika.$domain=~metrika.yandex.ru
+|http*:*^metrika^$domain=~metrika.yandex.ru
 |http*:*^metrika_
 |http*:*^mtrcs-
 |http*:*^mtrcs.
@@ -2059,7 +2059,7 @@
 |http*:*_analytics-
 |http*:*_analytics.$domain=~analytics.google.com
 |http*:*_analytics^
-|http*:*_analytics_$domain=~fandom.com|~analytics.google.com
+|http*:*_analytics_$domain=~fandom.com|~analytics.google.com|~tagmanager.google.com
 |http*:*_analyticsevent-
 |http*:*_analyticsevent.
 |http*:*_analyticsevent^
