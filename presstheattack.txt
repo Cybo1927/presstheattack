@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-04-24 23:16:58
-! Version: 20190424231658
+! Last modified: 2019-04-24 23:25:25
+! Version: 20190424232525
 ! Expires: 3 hours
 ! Number of filters: 6458
 ! Homepage: https://github.com/bogachenko/presstheattack/
@@ -4926,10 +4926,10 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*^affiliation.
 |http*:*^affiliation^
 |http*:*^affiliation_
-|http*:*^analytics-
+|http*:*^analytics-$domain=~analytics.google.com
 |http*:*^analytics.$domain=~analytics.google.com
 |http*:*^analytics^$domain=~analytics.google.com
-|http*:*^analytics_
+|http*:*^analytics_$domain=~analytics.google.com
 |http*:*^analyticsevent-
 |http*:*^analyticsevent.
 |http*:*^analyticsevent^
@@ -5089,7 +5089,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*^metrica_
 |http*:*^metrics-
 |http*:*^metrics.
-|http*:*^metrics^
+|http*:*^metrics^$domain=~analytics.google.com
 |http*:*^metrics_
 |http*:*^metrika-
 |http*:*^metrika.
@@ -5538,7 +5538,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*_analytics-
 |http*:*_analytics.
 |http*:*_analytics^
-|http*:*_analytics_$domain=~fandom.com
+|http*:*_analytics_$domain=~fandom.com|~analytics.google.com
 |http*:*_analyticsevent-
 |http*:*_analyticsevent.
 |http*:*_analyticsevent^

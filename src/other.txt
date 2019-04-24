@@ -1452,10 +1452,10 @@
 |http*:*^affiliation.
 |http*:*^affiliation^
 |http*:*^affiliation_
-|http*:*^analytics-
+|http*:*^analytics-$domain=~analytics.google.com
 |http*:*^analytics.$domain=~analytics.google.com
 |http*:*^analytics^$domain=~analytics.google.com
-|http*:*^analytics_
+|http*:*^analytics_$domain=~analytics.google.com
 |http*:*^analyticsevent-
 |http*:*^analyticsevent.
 |http*:*^analyticsevent^
@@ -1610,7 +1610,7 @@
 |http*:*^metrica_
 |http*:*^metrics-
 |http*:*^metrics.
-|http*:*^metrics^
+|http*:*^metrics^$domain=~analytics.google.com
 |http*:*^metrics_
 |http*:*^metrika-
 |http*:*^metrika.
@@ -2059,7 +2059,7 @@
 |http*:*_analytics-
 |http*:*_analytics.
 |http*:*_analytics^
-|http*:*_analytics_$domain=~fandom.com
+|http*:*_analytics_$domain=~fandom.com|~analytics.google.com
 |http*:*_analyticsevent-
 |http*:*_analyticsevent.
 |http*:*_analyticsevent^
