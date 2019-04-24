@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-04-25 00:19:47
-! Version: 20190425001947
+! Last modified: 2019-04-25 00:32:59
+! Version: 20190425003259
 ! Expires: 3 hours
-! Number of filters: 6458
+! Number of filters: 6459
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2780,7 +2780,7 @@
 /^https?:\/\/([a-z]{1,3})?stat(s|istics?)?([0-9]{1,2})?\./$important
 /^https?:\/\/([A-Za-z0-9]{3,}\.)?(([0-9]{1,2})?l\-hit|([0-9]{1,2})?l\-view|r([0-9]{1,2})?|rs|staging|(vk|stepan\-fe)\.go|reklama|ads?|recostream\.go|([^\s]{10,}\.)?top([0-9]{1}|\-(fwz([0-9]{1,2})?))?|mediator|[^\s]{3,}\.radar|g?stat|xray|t|fmdata)\.(imgs)?mail\.ru/$important
 /^https?:\/\/([A-Za-z0-9]{3,}\.)?(([0-9]{1,2})?l\-hit|([0-9]{1,2})?l\-view|r([0-9]{1,2})?|rs|staging|(vk|stepan\-fe)\.go|reklama|ads?|recostream\.go|([^\s]{10,}\.)?top([0-9]{1}|\-(fwz([0-9]{1,2})?))?|mediator|[^\s]{3,}\.radar|g?stat|xray|t|fmdata)\.(imgs)?mail\.ru/$important,popup
-/^https?:\/\/([A-Za-z0-9]{3,}\.)?(an|awaps|awsync|(rosenberg\.|report\.)?appmetrica|bs|direct|grade\.market|informer|kiks|clck|main\.zdevx|mc|web\-metric[as]|yabs|zen|browser\-updater|bs\-meta|bann?ers?(\-slb)?\.mobile|external\-promo\-metric[as]|startup(\-slb)?\.mobile|analytics?(\.mobile)?|adfox|metrika)\.yandex\.[A-Za-z.]{2,7}/$important,domain=~metrika.yandex.ru
+/^https?:\/\/([A-Za-z0-9]{3,}\.)?(an|awaps|awsync|(rosenberg\.|report\.)?appmetrica|bs|direct|grade\.market|informer|kiks|clck|main\.zdevx|mc|web\-metric[as]|yabs|zen|browser\-updater|bs\-meta|bann?ers?(\-slb)?\.mobile|external\-promo\-metric[as]|startup(\-slb)?\.mobile|analytics?(\.mobile)?|adfox|metrika)\.yandex\.[A-Za-z.]{2,7}/$important,domain=~metrika.yandex.ru|~webvisor.com
 /^https?:\/\/([A-Za-z0-9]{3,}\.)?(id|gg|adservice|mobilecrashreporting|imasdk|tagmanager|analytics)\.google(apis)?\.[A-Za-z.]{2,7}/$important,domain=~analytics.google.com|~tagmanager.google.com
 /^https?:\/\/([A-Za-z0-9]{3,}\.)?google(\-analytics|syndication|tagmanager|adservices|tagservices)\.[A-Za-z.]{2,7}/$important
 /^https?:\/\/([a-zA-Z]{1,6})?track(ers?|ing)?([0-9]{1,2})?\./$important
@@ -3196,6 +3196,7 @@ twitch.tv##a[href*="casino"] > img
 twitch.tv##a[href*="clck.ru"] > img
 twitch.tv##a[href*="col.vg"] > img
 twitch.tv##a[href*="cutter.li"] > img
+twitch.tv##a[href*="domruchamp.ru"] > img
 twitch.tv##a[href*="dotapl.us"] > img
 twitch.tv##a[href*="dxracer-europe.com"] > img
 twitch.tv##a[href*="fragstore.ru"] > img
@@ -3756,7 +3757,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*-sponsored.
 |http*:*-sponsored^
 |http*:*-sponsored_
-|http*:*-stat-
+|http*:*-stat-$domain=~metrika.yandex.ru
 |http*:*-stat.$domain=~livejournal.com
 |http*:*-stat^
 |http*:*-stat_
@@ -4973,7 +4974,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*^click-
 |http*:*^click.
 |http*:*^click^
-|http*:*^click_
+|http*:*^click_$domain=~webvisor.com
 |http*:*^clicker-
 |http*:*^clicker.
 |http*:*^clicker^
@@ -5092,8 +5093,8 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*^metrics^$domain=~analytics.google.com
 |http*:*^metrics_
 |http*:*^metrika-
-|http*:*^metrika.$domain=~metrika.yandex.ru
-|http*:*^metrika^$domain=~metrika.yandex.ru
+|http*:*^metrika.$domain=~metrika.yandex.ru|~webvisor.com
+|http*:*^metrika^$domain=~metrika.yandex.ru|~webvisor.com
 |http*:*^metrika_
 |http*:*^mtrcs-
 |http*:*^mtrcs.

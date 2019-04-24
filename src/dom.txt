@@ -2737,6 +2737,7 @@ topsite.com##.chitikaAdBlock
 twitch.tv##a[href*="&BannerId="] > img
 twitch.tv##a[href*="&bonus="] > img
 twitch.tv##a[href*=".click"] > img
+twitch.tv##a[href*="domruchamp.ru"] > img
 twitch.tv##a[href*=".com/ad/"] > img
 twitch.tv##a[href*=".gg"] > img
 twitch.tv##a[href*=".net/ad/"] > img

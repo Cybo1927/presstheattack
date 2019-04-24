@@ -543,7 +543,7 @@
 |http*:*-sponsored.
 |http*:*-sponsored^
 |http*:*-sponsored_
-|http*:*-stat-
+|http*:*-stat-$domain=~metrika.yandex.ru
 |http*:*-stat.$domain=~livejournal.com
 |http*:*-stat^
 |http*:*-stat_
@@ -1499,7 +1499,7 @@
 |http*:*^click-
 |http*:*^click.
 |http*:*^click^
-|http*:*^click_
+|http*:*^click_$domain=~webvisor.com
 |http*:*^clicker-
 |http*:*^clicker.
 |http*:*^clicker^
@@ -1613,8 +1613,8 @@
 |http*:*^metrics^$domain=~analytics.google.com
 |http*:*^metrics_
 |http*:*^metrika-
-|http*:*^metrika.$domain=~metrika.yandex.ru
-|http*:*^metrika^$domain=~metrika.yandex.ru
+|http*:*^metrika.$domain=~metrika.yandex.ru|~webvisor.com
+|http*:*^metrika^$domain=~metrika.yandex.ru|~webvisor.com
 |http*:*^metrika_
 |http*:*^mtrcs-
 |http*:*^mtrcs.
