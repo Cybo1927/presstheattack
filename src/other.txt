@@ -1941,7 +1941,7 @@
 |http*:*_ads-type.
 |http*:*_ads-type^
 |http*:*_ads-type_
-|http*:*_ads.
+|http*:*_ads.$domain=~analytics.google.com
 |http*:*_ads.slot-
 |http*:*_ads.slot.
 |http*:*_ads.slot^
@@ -2095,7 +2095,7 @@
 |http*:*_campaign-
 |http*:*_campaign.
 |http*:*_campaign^
-|http*:*_campaign_
+|http*:*_campaign_$domain=~analytics.google.com
 |http*:*_clck-
 |http*:*_clck.
 |http*:*_clck^
