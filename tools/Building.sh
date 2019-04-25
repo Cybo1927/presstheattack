@@ -9,6 +9,10 @@ SRC='../src/'
 DATE=$(date '+%Y-%m-%d %H:%M:%S')
 VERSION=$(date '+%Y%m%d%H%M%S')
 
+git pull
+git status
+git commit -a -m 'Update filter(s).txt'
+
 echo 'In order to collect all the filters in one list, we need a temporary folders.'
 if [ ! -d $TEMP ]
 then
