@@ -397,7 +397,6 @@
 |http*:*-metrika.
 |http*:*-metrika^
 |http*:*-metrika_
-|http*:*-monero-miner/
 |http*:*-mtrcs-
 |http*:*-mtrcs.
 |http*:*-mtrcs^

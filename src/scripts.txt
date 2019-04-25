@@ -52,6 +52,7 @@
 |http*:*/c.wasm$important,script
 |http*:*/chartbeat.js$important,script
 |http*:*/click.js$important,script
+|http*:*/*monero-miner.js$important,script
 |http*:*/cloudcoins.js$important,script
 |http*:*/cloudcoins.min.js$important,script
 |http*:*/cmin.js$important,script
