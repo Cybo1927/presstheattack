@@ -9,10 +9,10 @@ SRC='../src/'
 DATE=$(date '+%Y-%m-%d %H:%M:%S')
 VERSION=$(date '+%Y%m%d%H%M%S')
 
-echo 'Updating the filter list...'
+echo 'Updating the filter lists...'
 git pull
 git status
-git commit -a -m 'Update for filter list'
+git commit -a -m 'Update for filter lists'
 sleep .5
 
 echo 'In order to collect all the filters in one list, we need a temporary folders.'
