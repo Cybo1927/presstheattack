@@ -9,9 +9,11 @@ SRC='../src/'
 DATE=$(date '+%Y-%m-%d %H:%M:%S')
 VERSION=$(date '+%Y%m%d%H%M%S')
 
+echo 'Filter data is updated!'
 git pull
 git status
-git commit -a -m 'Update filter(s).txt'
+git commit -a -m 'UPDATING FILTER(S) DATA'
+sleep .5
 
 echo 'In order to collect all the filters in one list, we need a temporary folders.'
 if [ ! -d $TEMP ]
