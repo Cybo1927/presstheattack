@@ -38,6 +38,7 @@ GGBET$image
 |http*:*/lumbar.png$image,important
 |http*:*/ottocustom.gif$image,important
 |http*:*/ottoperformance.gif$image,important
+|http*:*/page_view.gif$image,important
 |http*:*/pageview.gif$image,important
 |http*:*/pic.gif$image,important
 |http*:*/pic.png$image,important
@@ -61,7 +62,6 @@ GGBET$image
 |http*:*/textlink-ads.jpg$image,important
 |http*:*/track-user.gif$image,important
 |http*:*/track-user.png$image,important
-|http*:*/page_view.gif$image,important
 |http*:*/track.gif$image,important
 |http*:*/trg.gif$image,important
 |http*:*/usage.gif$image,important

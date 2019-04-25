@@ -15,7 +15,6 @@
 ||28f77rd30e.ru^$important
 ||69m.info^$important
 ||69v.club^$important
-||cs15.livetex.ru^$important
 ||*.vo.msecnd.net^$important
 ||aaxads.com^$important
 ||ad.daum.net^$important
@@ -28,19 +27,17 @@
 ||adf.ly^$important
 ||adform.net^$important
 ||adfox.ru^$important
-||contentsfeed.com^$important
 ||adglare.net^$important
 ||adition.com^$important
 ||adkontekst.pl^$important
 ||adlightning.com^$important
 ||admantx.com^$important
+||admatic.com.tr^$important
 ||admetrica.ru^$important
 ||admitad.com^$important
-||blueconic.net^$important
 ||admixer.net^$important
 ||adnxs.com^$important
 ||adnz.co^$important
-||innity.net^$important
 ||adobedtm.com^$third-party
 ||adomik.com^$important
 ||adpartner.*^$important
@@ -55,11 +52,7 @@
 ||adswrapme.click^$important
 ||adsymptotic.com^$important
 ||adtechus.com^$important
-||api.content-ad.net^$important
 ||adtelligent.com^$important
-||intergi.com^$important
-||evolutionadv.it^$important
-||wl.jd.com^$important
 ||adtm.chip.de^$important
 ||adtng.com^$important
 ||adtrack.adleadevent.com^$important
@@ -75,6 +68,7 @@
 ||amplitude.com^$important
 ||amung.us^$important
 ||aniview.com^$important
+||api.content-ad.net^$important
 ||atdmt.com^$important
 ||atwola.com^$important
 ||b1img.com^$important
@@ -90,6 +84,7 @@
 ||bf-ad.net^$important
 ||bfmio.com^$important
 ||bidswitch.net^$important
+||blueconic.net^$important
 ||bounceexchange.com^$important
 ||branch.io^$important
 ||brealtime.com^$important
@@ -101,6 +96,7 @@
 ||cdn.pljs.ru^$important
 ||cdn.ziffstatic.com^$important
 ||chartbeat.com^$important
+||chaturbate.com^$third-party,important
 ||clarium.global.ssl.fastly.net^$important
 ||clck.ru^
 ||clevernt.com^$important
@@ -114,6 +110,7 @@
 ||connect.facebook.net^
 ||connect.ok.ru^
 ||content-ad.net^$important
+||contentsfeed.com^$important
 ||conviva.com^$important
 ||cookielaw.org^$third-party
 ||count.taobao.com^$important
@@ -123,6 +120,7 @@
 ||criteo.com^$important
 ||criteo.net^$important
 ||crwdcntrl.net^$important
+||cs15.livetex.ru^$important
 ||cutter.li^
 ||cxense.com^$important
 ||cy-pr.com^$important
@@ -152,7 +150,9 @@
 ||ensighten.com^$important
 ||estat.com^$important
 ||etahub.com^$important
+||etpsn.com^$important
 ||events.reddit.com^$important
+||evolutionadv.it^$important
 ||exactag.com^$important
 ||exelator.com^$important
 ||exosrv.com^$important
@@ -196,8 +196,10 @@
 ||indexww.com^$important
 ||influads.com^$important
 ||info.web.de^$important
+||innity.net^$important
 ||instreamatic.com^$important
 ||intellitxt.com^$important
+||intergi.com^$important
 ||ioam.de^$important
 ||iocnt.net^$important
 ||ipify.org^$third-party,important
@@ -266,6 +268,7 @@
 ||pb.m.naver.com^$important
 ||perimeterx.net^$important
 ||pf.newegg.com^$important
+||pheegoab.click^$important
 ||piguiqproxy.com^$important
 ||pixel.facebook.com^$important
 ||plista.com^$important
@@ -309,13 +312,6 @@
 ||statcounter.com^$third-party,important
 ||steadfastsystem.com^$important
 ||stickyadstv.com^$important
-||etpsn.com^$important
-||zreluo.com^$important
-||chaturbate.com^$third-party,important
-||admatic.com.tr^$important
-||umekana.ru^$important
-||pheegoab.click^$important
-||texto.click^$important
 ||summerhamster.com^$important
 ||sync.rambler.ru^$important
 ||syndication.twitter.com^$important
@@ -326,6 +322,7 @@
 ||target.smi2.net^$important
 ||tcheck.outbrainimg.com^$important
 ||teads.tv^$important
+||texto.click^$important
 ||theadex.com^$important
 ||tinypass.com^$third-party,important
 ||tiqcdn.com^$important
@@ -352,6 +349,7 @@
 ||udmserve.net^$important
 ||ugdturner.com$important
 ||uimserv.net^$important
+||umekana.ru^$important
 ||unrulymedia.com^$important
 ||urbanairship.com^$important
 ||usabilla.com^$important,third-party
@@ -371,6 +369,7 @@
 ||webmasterplan.com^$important
 ||weborama.fr^$important
 ||witalfieldt.com^$important
+||wl.jd.com^$important
 ||worthathousandwords.com^$important
 ||xcvgdf.party^$important
 ||xhamsterpremium.*^$important,third-party
@@ -389,3 +388,4 @@
 ||zoagremo.net^$important
 ||zog.link^$important
 ||zqtk.net^$important
+||zreluo.com^$important

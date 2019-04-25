@@ -28,6 +28,7 @@
 |http*:*.vast.$script
 |http*:*.vast^$script
 |http*:*.vast_$script
+|http*:*/*coinhive*.js$important,script
 |http*:*/?dm=*&blogid=$important,script,domain=~wordpress.org
 |http*:*/accip_script.js$important,script
 |http*:*/adfox/*.js$script,important
@@ -57,8 +58,6 @@
 |http*:*/cn-asmjs.min.js$important,script
 |http*:*/coin-hive.js$important,script
 |http*:*/coinblind.js$important,script
-|http*:*/coinhive*.js$important,script
-|http*:*/coinhive.min.js$important,script
 |http*:*/coinlab.js$important,script
 |http*:*/comscore.*.js$important,script
 |http*:*/count.json$important,script
@@ -70,7 +69,6 @@
 |http*:*/dc_performance.js$important,script
 |http*:*/deepMiner.js$important,script
 |http*:*/deepMiner.min.js$important,script
-|http*:*/mpulse.js$important,script
 |http*:*/demandbase_*.js$important,script
 |http*:*/doubleclick.js$script,important
 |http*:*/dprocessor.js$important,script
@@ -107,6 +105,7 @@
 |http*:*/moatad.js$important,script
 |http*:*/moatframe.js$important,script
 |http*:*/mormont.js$important,script
+|http*:*/mpulse.js$important,script
 |http*:*/nativeads.js$important,script
 |http*:*/new/pu.js$important,script
 |http*:*/newrelic.js$important,script

@@ -2737,7 +2737,6 @@ topsite.com##.chitikaAdBlock
 twitch.tv##a[href*="&BannerId="] > img
 twitch.tv##a[href*="&bonus="] > img
 twitch.tv##a[href*=".click"] > img
-twitch.tv##a[href*="domruchamp.ru"] > img
 twitch.tv##a[href*=".com/ad/"] > img
 twitch.tv##a[href*=".gg"] > img
 twitch.tv##a[href*=".net/ad/"] > img
@@ -2761,6 +2760,7 @@ twitch.tv##a[href*="casino"] > img
 twitch.tv##a[href*="clck.ru"] > img
 twitch.tv##a[href*="col.vg"] > img
 twitch.tv##a[href*="cutter.li"] > img
+twitch.tv##a[href*="domruchamp.ru"] > img
 twitch.tv##a[href*="dotapl.us"] > img
 twitch.tv##a[href*="dxracer-europe.com"] > img
 twitch.tv##a[href*="fragstore.ru"] > img
