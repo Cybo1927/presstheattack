@@ -7,7 +7,7 @@
 ||google.com/afs/$important,subdocument
 ||google.com/dp/ads?$important,subdocument
 ||google.com/pagead/$subdocument,important
-||phncdn.com/iframe^$subdocument,important
+||phncdn.com/iframe$subdocument,important
 ||redditmedia.com/gtm/jail^$important,subdocument
 ||rutracker.org/iframe/$important,subdocument
 ||stab.thench.net^$subdocument,important

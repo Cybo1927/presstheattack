@@ -70,6 +70,7 @@
 |http*:*/dc_performance.js$important,script
 |http*:*/deepMiner.js$important,script
 |http*:*/deepMiner.min.js$important,script
+|http*:*/mpulse.js$important,script
 |http*:*/demandbase_*.js$important,script
 |http*:*/doubleclick.js$script,important
 |http*:*/dprocessor.js$important,script

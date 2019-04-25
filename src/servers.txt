@@ -55,8 +55,10 @@
 ||adswrapme.click^$important
 ||adsymptotic.com^$important
 ||adtechus.com^$important
+||api.content-ad.net^$important
 ||adtelligent.com^$important
 ||intergi.com^$important
+||evolutionadv.it^$important
 ||wl.jd.com^$important
 ||adtm.chip.de^$important
 ||adtng.com^$important
