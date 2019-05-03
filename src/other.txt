@@ -1777,7 +1777,7 @@
 |http*:*^stat-
 |http*:*^stat.
 |http*:*^stat^
-|http*:*^stat_
+|http*:*^stat_$domain=~my.mail.ru
 |http*:*^statistiques-
 |http*:*^statistiques.
 |http*:*^statistiques^
