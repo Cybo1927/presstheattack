@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-05-03 12:59:46
-! Version: 20190503125946
+! Last modified: 2019-05-05 14:13:54
+! Version: 20190505141354
 ! Expires: 3 hours
-! Number of filters: 6476
+! Number of filters: 6480
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2770,6 +2770,7 @@
 */visitor.js$script,redirect=noopjs
 */visitorapi.js$script,redirect=noopjs
 /^https:\/\/.*?\/v2\/0\/[a-zA-Z0-9_-]{30,}$/$important,script,third-party
+/^https?:\/\/([0-9a-z\-]+\.)?(9anime|animeland|animenova|animeplus|animetoon|animewow|gamestorrent|goodanime|gogoanime|igg-games|kimcartoon|memecenter|readcomiconline|toonget|toonova|watchcartoononline)\.[a-z]{2,4}\/(?!([Ee]xternal|[Ii]mages|[Ss]cripts|[Uu]ploads|ac|ajax|assets|combined|content|cov|cover|(img\/bg)|(img\/icon)|inc|jwplayer|player|playlist-cat-rss|static|thumbs|wp-content|wp-includes)\/)(.*)/$important,first-party,script,domain=~animeland.hu|~memecenter.fr
 /^https?:\/\/([^\s]+)?google\.[A-Za-z0-9.]{2,7}\/log\?/$image,important,xmlhttprequest
 /^https?:\/\/([^\s]+[-_/.]([a-z]{1})?)bann?ers?([-_/.0-9]{1,3}|[-_/.][^\s]+)?\.?(swf|bmp|gif|jpe?g|a?png|svg|webp|js|[-_]id\=)/$xmlhttprequest,image,script,subdocument,object-subrequest,object,important,domain=~udemy.com|~twitch.tv|~addons.thunderbird.net|~addons.mozilla.org|~samsung.com|~english-films.com
 /^https?:\/\/([^\s]+[-_/.])([a-zA-Z]{2,12})?event\.js/$important,xmlhttprequest,script,other
@@ -2791,6 +2792,7 @@
 /^https?:\/\/(www\.)?(client\-event\-reporter|countess|mp|polyfill|sentinel|spade|trowel|fan)\.twitch(svc)?\.(com|net|tv)/$important
 /^https?:\/\/(www\.)?(facebookcorewwwi|facebook)\.(com|net|onion)\/tr\D/$important
 /^https?:\/\/2ch\.(hk|pm|re|tf|wf|yt)\/images\//$image,important
+/^https?:\/\/[0-9a-z\-\.]+\.[a-z]{2,7}\/sw\.js\?[0-9a-zA-Z_&%]{32,}/$first-party,xmlhttprequest,important
 /^https?:\/\/[^/]+\/[a-z0-9]{15,}(\?hope=.*)?$/$important,script
 /^https?:\/\/[^\s]+([-_/.]([a-zA-Z]{1,5})?)track(ers?|ing)?(\.min|\?[a-z]{1}\=[A-Za-z]{1,5}\&[a-z]{1}\=[^\s]+|(\/[a-zA-Z0-9-_]{5,10})?[-_/.]embed|[-_][a-z]{4,7|[-_/.][a-zA-Z0-9-_.]{10,25}|[-_/.][a-zA-Z]{3,8}([-_/.][a-zA-Z]{15}[-.][0-9.]{4}(\.min)?)?)?\.js/$script,xmlhttprequest,important
 /^https?:\/\/[^\s]+(player|gen|client|csi|generate|stream|logs?)[-_/.]?204[-_/.]?/$image,important,xmlhttprequest,other
@@ -2846,6 +2848,7 @@
 /^https?:\/\/tags?([0-9]{1,2})?\./$important
 /^https?:\/\/tv\.yandex\.[A-Za-z0-9.]{2,7}\/[^\s]{270,}/$image,important,subdocument,xmlhttprequest
 /^https?:\/\/www\.([a-z]{6,16})\.com\/([a-z]{1,4})\.js$/$important,script,third-party
+/^https?:\/\/www\.([a-z]{6,16})\.com\/([a-z]{1,4})\.js$/$third-party,script,important
 /^https?:\/\/yandex\.[A-Za-z0-9.]{2,7}\/images/(?!(search\?rpt=\imageview)|(search\?callback\=jQuery)|(search\?exp_flags=)|(search\?serpid=)|(touch/search?))[^\s]{80,}/$important,subdocument,xmlhttprequest
 /^https?:\/\/yastatic\.net\/[^\s]{500,}/$domain=~vh.yandex.ru
 /^https?:\/\/zmctrack\.(com|net)/$important
@@ -6080,6 +6083,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||clksite.com^$important
 ||clmbtech.com^$important
 ||coinhive.com^$important
+||coinmedia.co^$important
 ||collector.githubapp.com^$image,important
 ||collector.schibsted.io^$important
 ||commander1.com^$image,important
