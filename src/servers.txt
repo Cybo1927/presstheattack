@@ -105,6 +105,7 @@
 ||clksite.com^$important
 ||clmbtech.com^$important
 ||coinhive.com^$important
+||coinmedia.co^$important
 ||collector.schibsted.io^$important
 ||connatix.com^$important
 ||connect.facebook.net^

@@ -1,3 +1,4 @@
+/^https?:\/\/[0-9a-z\-\.]+\.[a-z]{2,7}\/sw\.js\?[0-9a-zA-Z_&%]{32,}/$first-party,xmlhttprequest,important
 /^https?:\/\/contentbooster\.me+\/(?!manifest)[a-z0-9]{5,45}/$important,xmlhttprequest
 /^https?:\/\/s3\.amazonaws\.com\/.*[a-f0-9\/]{50,}/$important,third-party,xmlhttprequest,domain=~amazon.com
 |http*:*/get_geoip?$important,xmlhttprequest
