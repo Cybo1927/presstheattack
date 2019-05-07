@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-05-07 15:21:03
-! Version: 20190507152103
+! Last modified: 2019-05-07 16:28:42
+! Version: 20190507162842
 ! Expires: 3 hours
-! Number of filters: 6519
+! Number of filters: 6531
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -5967,17 +5967,23 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||197c3b10bab3c1.com^$important
 ||21b666055c.com^$important
 ||28f77rd30e.ru^$important
+||2d7bd9e6eb370143.com^$important
 ||2daytrendingnews.com^$important
 ||2mdn.net^$important
+||3585656d9351553f.com^$important
+||3b9eb5ed04721bef.com^$important
 ||3da86d9fe797f228.com^$important
 ||3lift.com^$important
 ||41944cecfb85.com^$important
 ||41df76c67812005c.com^$important
 ||43031aaaecd84428.com^$important
+||47f624b2e6c6072e.com^$important
+||564d28256cddaeba.com^$important
 ||6868bbe42af8e518.com^$important
 ||69m.info^$important
 ||69v.club^$important
 ||713b037362f02.com^$important
+||7667bab1751ff777.com^$important
 ||7wtic7ru.com^$important
 ||88461059da0a12ea.com^$important
 ||93c8c9a28e1db445.com^$important
@@ -6067,6 +6073,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||b13481647cf775c5.com^$important
 ||b1img.com^$important
 ||b3z29k1uxb.com^$important
+||b60228e270e363f6.com^$important
 ||bat.bing.com^$important
 ||bats.video.yahoo.com^$important
 ||bbelements.com^$important
@@ -6124,6 +6131,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||cutter.li^$document
 ||cxense.com^$important
 ||cy-pr.com^$important
+||d4fed03105c9f65b.com^$important
 ||data.*.com^$popup,important
 ||data.*.info^$popup,important
 ||data.*.net^$popup,important
@@ -6161,8 +6169,11 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||dtprofit.com^$important
 ||duckduckgo.com/t/$image,important
 ||duckduckgo.com/y.js$important,script
+||e6081b73afec581f.com^$important
+||e7393e33565ce805.com^$important
 ||ebay.com/scl/js/ScandalLoader.js$important,script
 ||ebayrtm.com/rtm?rtmcmd*&enc=$important,script
+||eca1d7792ad5de43.com^$important
 ||edigitalsurvey.com^$important
 ||effectivemeasure.net^$important
 ||elasticad.net^$important
@@ -6189,6 +6200,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||facebookcorewwwi.onion/xti.php^$important,script,xmlhttprequest
 ||fastclick.net^$important
 ||fastly-insights.com^$important
+||fd9523b31ff93b5c.com^$important
 ||feeds2.feedburner.com/~fc/$image,important
 ||firstimpression.io^$important
 ||fls-*.amazon.*%$important
