@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-05-07 16:28:42
-! Version: 20190507162842
+! Last modified: 2019-05-07 19:10:05
+! Version: 20190507191005
 ! Expires: 3 hours
-! Number of filters: 6531
+! Number of filters: 6542
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2796,7 +2796,6 @@
 /^https?:\/\/[^/]+\/[a-z0-9]{15,}(\?hope=.*)?$/$important,script
 /^https?:\/\/[^\s]+([-_/.]([a-zA-Z]{1,5})?)track(ers?|ing)?(\.min|\?[a-z]{1}\=[A-Za-z]{1,5}\&[a-z]{1}\=[^\s]+|(\/[a-zA-Z0-9-_]{5,10})?[-_/.]embed|[-_][a-z]{4,7|[-_/.][a-zA-Z0-9-_.]{10,25}|[-_/.][a-zA-Z]{3,8}([-_/.][a-zA-Z]{15}[-.][0-9.]{4}(\.min)?)?)?\.js/$script,xmlhttprequest,important
 /^https?:\/\/[^\s]+(player|gen|client|csi|generate|stream|logs?)[-_/.]?204[-_/.]?/$image,important,xmlhttprequest,other
-/^https?:\/\/[^\s]+[-_/.&]ad([-_/.]?(block(e?r|dete[ck](tor)?)?|track|block|bp(lus)?|engine|next|os|river|rum|s?bygoogle|[svx]|sdk|setup|config|loader|swrap|mixer|s?fox|manager|s?[-_]async|sprite|view|inserter|native|dependencies|handlers?|show|units?|zone))([-_]?(iframe|[0-9]{3,5}|[A-Za-z0-9.-_]{4,8}|\.min))?[-_./=](html?|js|javascript|php|txt|get.ashx)?/$important,script,xmlhttprequest,subdocument,third-party,popup
 /^https?:\/\/[^\s]+[-_/.]([a-z]{1,3})?stat(s|istics?)?\.([0-9a-zA-Z.]{1,6})?\.js/$important,script,xmlhttprequest
 /^https?:\/\/[^\s]+[-_/.]([a-zA-Z]{1,5})?fingerprint([0-9]{1,2})?(\.min)?\.js/$important,script,xmlhttprequest
 /^https?:\/\/[^\s]+[-_/.]([a-zA-Z]{1,5})?pixels?[-_/.]?([-a-zA-Z0-9_]{10,19})?(a?png|bmp|jpe?g|gif|\?|js|cgi)/$image,important,object,xmlhttprequest,script,subdocument,domain=~twitch.tv
@@ -2816,7 +2815,7 @@
 /^https?:\/\/[^\s]+\/([-a-z0-9_]{1}|atrk|hit|log|njs|visitor|image)\.(a?png|gif|aspx|jpe?g)/$image,important,xmlhttprequest,domain=~mail.yandex.by|~mail.yandex.ru|~mail.yandex.ua|~gelbooru.com|~telerama.fr|~livedoor.com|~otvet.mail.ru|~pornosveta.net|~scat.gold|~shara.today|~porno-chiks.com|~kansascity.com
 /^https?:\/\/[^\s]+\/([^\s]{4})?tag\.min\.([a-z0-9]{30,}\.)?js/$important,script
 /^https?:\/\/[^\s]+\/(fuck|block)adblock(\.min)?\.js/$important,script
-/^https?:\/\/[^\s]+\/ads([-_/.]{1})?([0-9]{1,2}|[-a-z0-9_.]{5,}|\/[Dd]fp\-[^\s]+)?(\.min)?\.js/$important,script,third-party
+/^https?:\/\/[^\s]+\/ad[sxv]([-_/.]{1})?([0-9]{1,2}|[-a-z0-9_.]{5,}|\/[Dd]fp\-[^\s]+)?(\.min)?\.js/$important,script,third-party
 /^https?:\/\/[^\s]+\/bolpx[0-9]{1,2}\.gif/$image,important
 /^https?:\/\/[^\s]+\/dfp([0-9]{1})?\.js/$important,script
 /^https?:\/\/[^\s]+\/fp([0-9]{1,2})?\.js/$important,script
@@ -6039,6 +6038,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||advideo.ru^$important
 ||adwidgets.ru^$important
 ||ae25079147984d4d.com^$important
+||aenan.pw^$important
 ||agkn.com^$important
 ||airbnb.*/tracking/$important,xmlhttprequest
 ||akamaized.net/?u=$image,important,xmlhttprequest
@@ -6122,6 +6122,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||count.taobao.com^$important
 ||cpaevent.ru^$important
 ||cpmstar.com^$important
+||craydark.pw^$important
 ||crazyegg.com^$important
 ||criteo.com^$important
 ||criteo.net^$important
@@ -6132,6 +6133,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||cxense.com^$important
 ||cy-pr.com^$important
 ||d4fed03105c9f65b.com^$important
+||daezorwyn.xyz^$important
 ||data.*.com^$popup,important
 ||data.*.info^$popup,important
 ||data.*.net^$popup,important
@@ -6177,6 +6179,8 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||edigitalsurvey.com^$important
 ||effectivemeasure.net^$important
 ||elasticad.net^$important
+||elatumal.xyz^$important
+||elwraek.xyz^$important
 ||emetriq.de^$important
 ||emsservice.de^$important
 ||en25.com^$important
@@ -6218,6 +6222,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||g3369554495.com^$important
 ||g344530742.com^$important
 ||g36525192.com^$important
+||g383912402.com^$important
 ||g383912402.com^$important
 ||g3938452447.com^$important
 ||g4058683381.com^$important
@@ -6275,6 +6280,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||i-mobile.co.jp^$important
 ||i.imedia.cz^$important
 ||iadvize.com^$important
+||iarfina.pw^$important
 ||ibillboard.com^$important
 ||imasdk.googleapis.com^$important,redirect=noopframe,subdocument
 ||imasdk.googleapis.com^$script,important,redirect=noopjs
@@ -6294,6 +6300,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||ivastoor.com^$important
 ||iwanttodeliver.com^$important
 ||jf71qh5v14.com^$important
+||jomys.xyz^$important
 ||js-agent.newrelic.com^$important
 ||juicyads.com^$important
 ||justicejudo.com^$important
@@ -6371,12 +6378,14 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||permutive.com^$important,script,subdocument
 ||perr.h-cdn.com^$important,xmlhttprequest
 ||pf.newegg.com^$important
+||phastoag.com^$important
 ||pheegoab.click^$important
 ||phncdn.com/iframe$subdocument,important
 ||piguiqproxy.com^$important
 ||pipe.aria.microsoft.com/collector^$important,xmlhttprequest
 ||pixel.facebook.com^$important
 ||plista.com^$important
+||pndelfast.com^$important
 ||popads.net^$important
 ||popcash.net^$important
 ||postrelease.com^$important
@@ -6423,8 +6432,10 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||sedoparking.com^$important
 ||seedtag.com^$important
 ||sentry.io/api/*/store/^$important,xmlhttprequest
+||septembership.com^$important
 ||sharethrough.com^$important
 ||siftscience.com^$important,script
+||sifuglie.com^$important
 ||skimresources.com^$important
 ||smartadserver.com^$important
 ||sonobi.com^$important
