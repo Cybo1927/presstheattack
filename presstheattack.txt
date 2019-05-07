@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-05-07 13:47:00
-! Version: 20190507134700
+! Last modified: 2019-05-07 14:42:39
+! Version: 20190507144239
 ! Expires: 3 hours
-! Number of filters: 6487
+! Number of filters: 6496
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -5967,10 +5967,16 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||2daytrendingnews.com^$important
 ||2mdn.net^$important
 ||3lift.com^$important
+||41df76c67812005c.com^$important
+||43031aaaecd84428.com^$important
+||6868bbe42af8e518.com^$important
 ||69m.info^$important
 ||69v.club^$important
 ||7wtic7ru.com^$important
+||88461059da0a12ea.com^$important
 ||a.bf-tools.net/de/de.js$script,important
+||a1a5ab31bcd1bc68.com^$important
+||aa53df329975c325.com^$important
 ||aaxads.com^$important
 ||abo.prismamediadigital.com^$important,subdocument
 ||accounts.ad.nl/gscounters.sendReport$script,important
@@ -6018,6 +6024,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||advertserve.com^$important
 ||advideo.ru^$important
 ||adwidgets.ru^$important
+||ae25079147984d4d.com^$important
 ||agkn.com^$important
 ||airbnb.*/tracking/$important,xmlhttprequest
 ||akamaized.net/?u=$image,important,xmlhttprequest
@@ -6049,6 +6056,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||awsync.yandex.by^$important,redirect=noopframe,subdocument
 ||awsync.yandex.ru^$important,redirect=noopframe,subdocument
 ||awsync.yandex.ua^$important,redirect=noopframe,subdocument
+||b13481647cf775c5.com^$important
 ||b1img.com^$important
 ||b3z29k1uxb.com^$important
 ||bat.bing.com^$important
@@ -6166,6 +6174,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||exosrv.com^$important
 ||exponential.com^$important
 ||exposebox.com^$important
+||f3c1cc473b337ded.com^$important
 ||f53mbcg4ak.ru^$important
 ||facebook.com/xti.php^$important,script,xmlhttprequest
 ||facebookcorewwwi.onion/xti.php^$important,script,xmlhttprequest
