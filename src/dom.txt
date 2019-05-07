@@ -2761,6 +2761,7 @@ twitch.tv##a[href*="clck.ru"] > img
 twitch.tv##a[href*="col.vg"] > img
 twitch.tv##a[href*="cutter.li"] > img
 twitch.tv##a[href*="domruchamp.ru"] > img
+twitch.tv##a[href*="dota.money"] > img
 twitch.tv##a[href*="dotapl.us"] > img
 twitch.tv##a[href*="dxracer-europe.com"] > img
 twitch.tv##a[href*="fragstore.ru"] > img
