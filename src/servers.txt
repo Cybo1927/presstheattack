@@ -14,9 +14,15 @@
 ||3lift.com^$important
 ||7wtic7ru.com^$important
 ||28f77rd30e.ru^$important
+||41df76c67812005c.com^$important
 ||69m.info^$important
 ||69v.club^$important
+||6868bbe42af8e518.com^$important
+||43031aaaecd84428.com^$important
+||88461059da0a12ea.com^$important
 ||*.vo.msecnd.net^$important
+||a1a5ab31bcd1bc68.com^$important
+||aa53df329975c325.com^$important
 ||aaxads.com^$important
 ||ad.daum.net^$important
 ||adalliance.io^$important
@@ -62,6 +68,7 @@
 ||advertserve.com^$important
 ||advideo.ru^$important
 ||adwidgets.ru^$important
+||ae25079147984d4d.com^$important
 ||agkn.com^$important
 ||alexametrics.com^$important
 ||amazon-adsystem.com^$important
@@ -74,6 +81,7 @@
 ||atwola.com^$important
 ||b1img.com^$important
 ||b3z29k1uxb.com^$important
+||b13481647cf775c5.com^$important
 ||bat.bing.com^$important
 ||bats.video.yahoo.com^$important
 ||bbelements.com^$important
@@ -161,6 +169,7 @@
 ||exosrv.com^$important
 ||exponential.com^$important
 ||exposebox.com^$important
+||f3c1cc473b337ded.com^$important
 ||f53mbcg4ak.ru^$important
 ||fastclick.net^$important
 ||fastly-insights.com^$important
