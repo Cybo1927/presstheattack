@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-05-08 11:04:04
-! Version: 20190508110405
+! Last modified: 2019-05-08 11:07:27
+! Version: 20190508110727
 ! Expires: 3 hours
-! Number of filters: 6778
+! Number of filters: 6818
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -6093,15 +6093,57 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||adtm.chip.de^$important
 ||adtng.com^$important
 ||adtrack.adleadevent.com^$important
+||adudzlhdjgof.com^$important
+||aduobooydxr.com^$important
 ||adverline.com^$important
 ||advertising.com^$important
 ||advertnative.com^$important
 ||advertserve.com^$important
 ||advideo.ru^$important
+||advmaiotg.com^$important
 ||adwidgets.ru^$important
+||adxpddpc.com^$important
 ||adxscope.com^$important
 ||ae25079147984d4d.com^$important
+||aeeefzfuk.com^$important
+||aeezeynmam.bid^$important
+||aefqdgklyu.com^$important
+||aefvxtue.com^$important
+||aeizbvtknp.com^$important
+||aekduylxcmlevs.bid^$important
+||aemhabst.bid^$important
+||aemxvcqi.com^$important
 ||aenan.pw^$important
+||aenrqpnfmdogf.com^$important
+||aeobzaii.com^$important
+||aepwqsajypyti.com^$important
+||aerkxydrptnv.com^$important
+||aerqvywe.com^$important
+||aeuiazspafmbu.com^$important
+||aeunorkjuqtn.com^$important
+||aewzmsurtab.com^$important
+||aeyjbtwdf.bid^$important
+||aezeluusbdajjx.com^$important
+||afbfoxmwzlqa.com^$important
+||afdyfxfrwbfy.com^$important
+||afedispdljgb.com^$important
+||afeeknuueaztxt.com^$important
+||afeuvqrsswz.com^$important
+||afgbvhocfvpm.com^$important
+||aflcdijgmr.bid^$important
+||afnrmofoljod.com^$important
+||afpisdddjik.bid^$important
+||afqvtomlqjioeo.com^$important
+||afxtcajgtzcugb.com^$important
+||afyqzjxzuupmz.bid^$important
+||afzkqajwcbub.com^$important
+||afzoyaquhjltdd.com^$important
+||agegefpkbll.bid^$important
+||agffpcpi.bid^$important
+||agfqcndiugnr.com^$important
+||agfwzptrqb.bid^$important
+||aggntknflhal.com^$important
+||aggpfmdtzf.com^$important
 ||agkn.com^$important
 ||airbnb.*/tracking/$important,xmlhttprequest
 ||aiwhebey.com^$important
@@ -6302,7 +6344,6 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||g344530742.com^$important
 ||g36525192.com^$important
 ||g383912402.com^$important
-||g383912402.com^$important
 ||g3938452447.com^$important
 ||g4058683381.com^$important
 ||gamescarousel.com^$third-party,important
@@ -6364,7 +6405,6 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||i-mobile.co.jp^$important
 ||i.imedia.cz^$important
 ||iadvize.com^$important
-||iarfina.pw^$important
 ||iarfina.pw^$important
 ||ibillboard.com^$important
 ||iklanbogor.com^$important
