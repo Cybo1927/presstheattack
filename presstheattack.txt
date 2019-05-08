@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-05-08 19:23:42
-! Version: 20190508192342
+! Last modified: 2019-05-08 21:32:54
+! Version: 20190508213254
 ! Expires: 3 hours
-! Number of filters: 6865
+! Number of filters: 6868
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -6072,6 +6072,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||adpaths.com^$important
 ||adplus.co.id^$important
 ||adpop-1.com^$important
+||adrelayer.com^$important
 ||adriver.ru^$important
 ||adroll.com^$important
 ||adrtgbebgd.bid^$important
@@ -6246,6 +6247,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||cdn.onesignal.com^$important,third-party
 ||cdn.pljs.ru^$important
 ||cdn.ziffstatic.com^$important
+||cdn77.org^$important
 ||cdnasiaclub.com^$important
 ||chartbeat.com^$important
 ||chaturbate.com^$third-party,important
@@ -6350,6 +6352,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||events.reddit.com^$important
 ||evolutionadv.it^$important
 ||exactag.com^$important
+||exdynsrv.com^$important
 ||exelator.com^$important
 ||exosrv.com^$important
 ||exponential.com^$important
