@@ -117,6 +117,7 @@
 ||adpaths.com^$important
 ||adplus.co.id^$important
 ||adpop-1.com^$important
+||adrelayer.com^$important
 ||adriver.ru^$important
 ||adroll.com^$important
 ||adrtgbebgd.bid^$important
@@ -346,6 +347,7 @@
 ||events.reddit.com^$important
 ||evolutionadv.it^$important
 ||exactag.com^$important
+||exdynsrv.com^$important
 ||exelator.com^$important
 ||exosrv.com^$important
 ||exponential.com^$important
@@ -527,6 +529,7 @@
 ||revcontent.com^$important
 ||rfity.com^$important
 ||roosterfirework.com^$important
+||cdn77.org^$important
 ||rubiconproject.com^$important
 ||run-syndicate.com^$important
 ||rutarget.ru^$important
