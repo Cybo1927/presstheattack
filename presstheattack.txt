@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-05-07 19:57:53
-! Version: 20190507195754
+! Last modified: 2019-05-08 11:01:12
+! Version: 20190508110112
 ! Expires: 3 hours
-! Number of filters: 6689
+! Number of filters: 6729
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -5968,6 +5968,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||28f77rd30e.ru^$important
 ||2d7bd9e6eb370143.com^$important
 ||2daytrendingnews.com^$important
+||2go7v1nes8.com^$important
 ||2mdn.net^$important
 ||3585656d9351553f.com^$important
 ||3b9eb5ed04721bef.com^$important
@@ -5992,6 +5993,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||aa53df329975c325.com^$important
 ||aaxads.com^$important
 ||abo.prismamediadigital.com^$important,subdocument
+||accesstrade.co.id^$important
 ||accounts.ad.nl/gscounters.sendReport$script,important
 ||ad.daum.net^$important
 ||adalliance.io^$important
@@ -6000,7 +6002,9 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||adcdnx.com^$important
 ||adclear.net^$important
 ||adcloud.net^$important
+||addesigner.com^$important
 ||adf.ly^$important
+||adflazz.com^$important
 ||adform.net^$important
 ||adfox.ru^$important
 ||adglare.net^$important
@@ -6018,29 +6022,40 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||adomik.com^$important
 ||adpartner.*^$important
 ||adpaths.com^$important
+||adplus.co.id^$important
+||adpop-1.com^$important
 ||adriver.ru^$important
 ||adroll.com^$important
 ||ads-twitter.com^$important
+||ads.pubmatic.com^$important
+||ads.vidoomy.com^$important
 ||adsafeprotected.com^$important
+||adscpm.site^$important
 ||adsensecustomsearchads.com^$important
+||adshost.site^$important
 ||adspsp.com^$important
 ||adsrvr.org^$important
+||adstarsmedia.co.id^$important
 ||adswrapme.click^$important
 ||adsymptotic.com^$important
 ||adtechus.com^$important
 ||adtelligent.com^$important
+||adtival.com^$important
 ||adtm.chip.de^$important
 ||adtng.com^$important
 ||adtrack.adleadevent.com^$important
 ||adverline.com^$important
 ||advertising.com^$important
+||advertnative.com^$important
 ||advertserve.com^$important
 ||advideo.ru^$important
 ||adwidgets.ru^$important
+||adxscope.com^$important
 ||ae25079147984d4d.com^$important
 ||aenan.pw^$important
 ||agkn.com^$important
 ||airbnb.*/tracking/$important,xmlhttprequest
+||aiwhebey.com^$important
 ||akamaized.net/?u=$image,important,xmlhttprequest
 ||alexametrics.com^$important
 ||alibaba.com/ts?$image,important
@@ -6061,6 +6076,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||aniview.com^$important
 ||api.content-ad.net^$important
 ||api.twitch.tv/*/channels/*/extensions^$xmlhttprequest
+||aseanbanner.tk^$important
 ||atdmt.com^$important
 ||atwola.com^$important
 ||awaps.yandex.by^$important,redirect=noopframe,subdocument
@@ -6085,25 +6101,30 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||bf-ad.net^$important
 ||bfmio.com^$important
 ||bidswitch.net^$important
+||bileth.pw^$important
 ||bing.com/fd/ls/$image,important,xmlhttprequest
 ||bit.ly^$popup,important
 ||blueconic.net^$important
 ||bounceexchange.com^$important
 ||branch.io^$important
+||brand.ad^$important
 ||brealtime.com^$important
 ||btstatic.com^$important
 ||btttag.com^$important
 ||bzlwe.com^$important
+||caribanner.bid^$important
 ||casalemedia.com^$important
 ||cdn.onesignal.com^$important,third-party
 ||cdn.pljs.ru^$important
 ||cdn.ziffstatic.com^$important
+||cdnasiaclub.com^$important
 ||chartbeat.com^$important
 ||chaturbate.com^$third-party,important
 ||clarium.global.ssl.fastly.net^$important
 ||clck.ru^$document
 ||clevernt.com^$important
 ||clickiocdn.com^$important
+||clickmedia.co.id^$important
 ||clicktripz.com^$important
 ||clksite.com^$important
 ||clmbtech.com^$important
@@ -6132,7 +6153,9 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||cutter.li^$document
 ||cxense.com^$important
 ||cy-pr.com^$important
+||d0p21g2fep.com^$important
 ||d4fed03105c9f65b.com^$important
+||dable.io^$important
 ||daezorwyn.xyz^$important
 ||data.*.com^$popup,important
 ||data.*.info^$popup,important
@@ -6148,6 +6171,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||demdex.net^$important
 ||deployads.com^$important
 ||deqwas.net^$important
+||dgafgadsgkjg.top^$important
 ||dianomi.com^$important
 ||digitaltarget.ru^$important
 ||disqusads.com^$important
@@ -6173,6 +6197,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||duckduckgo.com/y.js$important,script
 ||e6081b73afec581f.com^$important
 ||e7393e33565ce805.com^$important
+||easyhits4u.com^$important
 ||ebay.com/scl/js/ScandalLoader.js$important,script
 ||ebayrtm.com/rtm?rtmcmd*&enc=$important,script
 ||eca1d7792ad5de43.com^$important
@@ -6189,7 +6214,9 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||estat.com^$important
 ||estat.com^$important,script
 ||etahub.com^$important
+||etoads.net^$important
 ||etpsn.com^$important
+||etreflased.info^$important
 ||events.reddit.com^$important
 ||evolutionadv.it^$important
 ||exactag.com^$important
@@ -6202,6 +6229,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||f6be7033f30.com^$important
 ||facebook.com/xti.php^$important,script,xmlhttprequest
 ||facebookcorewwwi.onion/xti.php^$important,script,xmlhttprequest
+||fairnessels.com^$important
 ||fastclick.net^$important
 ||fastly-insights.com^$important
 ||fd9523b31ff93b5c.com^$important
@@ -6210,6 +6238,8 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||fls-*.amazon.*%$important
 ||fls-*.amazon.*^$other,important,script,xmlhttprequest
 ||fls-fe.amazon.co.jp^$important
+||fortpush.com^$important
+||forumiklan.com^$important
 ||freeskreen.com^$important
 ||g1341551423.com^$important
 ||g2247755016.com^$important
@@ -6231,6 +6261,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||geo.yahoo.com^$important
 ||getadmiral.com^$important
 ||github.com/_private/browser/stats^$important,xmlhttprequest
+||glxfls.com^$important
 ||gnezdo.ru^$important
 ||go-mpulse.net^$important
 ||godaddy.com/pageevents.aspx$image,important
@@ -6261,14 +6292,18 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||gostats.ru^$important
 ||grapeshot.co.uk^$important
 ||greatdexchange.com^$important
+||gudangbanner.com^$important
 ||gumgum.com^$important
 ||h6.msn.com^$important
+||halal.ad^$important
 ||harvest.surge.sh/h.js$important,script
+||haupsoti.net^$important
 ||heise.de/ivw-bin/ivw/cp/$important,image,script,xmlhttprequest
 ||heise.de/js/prebid*.js$important,script
 ||hhcdn.ru/nposter/$image,important
 ||histats.com^$important
 ||hit.interia.pl^$important
+||hitadsmedia.com^$important
 ||hm.baidu.com^$important
 ||hook2up8.com^$important
 ||hostingcloud.win^$important
@@ -6281,7 +6316,12 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||i.imedia.cz^$important
 ||iadvize.com^$important
 ||iarfina.pw^$important
+||iarfina.pw^$important
 ||ibillboard.com^$important
+||iklanbogor.com^$important
+||iklanhemat.com^$important
+||iklanhoki.com^$important
+||iklaninter.net^$important
 ||imasdk.googleapis.com^$important,redirect=noopframe,subdocument
 ||imasdk.googleapis.com^$script,important,redirect=noopjs
 ||imasdk.googleapis.com^$xmlhttprequest,important,redirect=nooptext
