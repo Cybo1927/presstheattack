@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-05-08 11:08:53
-! Version: 20190508110853
+! Last modified: 2019-05-08 19:23:42
+! Version: 20190508192342
 ! Expires: 3 hours
-! Number of filters: 6852
+! Number of filters: 6865
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -5984,6 +5984,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||69v.club^$important
 ||713b037362f02.com^$important
 ||7667bab1751ff777.com^$important
+||7hu8e1u001.com^$important
 ||7wtic7ru.com^$important
 ||88461059da0a12ea.com^$important
 ||93c8c9a28e1db445.com^$important
@@ -6034,6 +6035,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||acwswfbyhtsf.com^$important
 ||acwyoynw.com^$important
 ||acxujxzdluum.com^$important
+||ad2bitcoin.com^$important
 ||adakgpoi.com^$important
 ||adalliance.io^$important
 ||adbetclickin.pink^$important
@@ -6218,6 +6220,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||bat.bing.com^$important
 ||bats.video.yahoo.com^$important
 ||bbelements.com^$important
+||bc.vc^$important
 ||bebi.com^$important
 ||beemray.com^$important
 ||begun.ru^$important
@@ -6233,6 +6236,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||bounceexchange.com^$important
 ||branch.io^$important
 ||brand.ad^$important
+||braun634.com^$important
 ||brealtime.com^$important
 ||btstatic.com^$important
 ||btttag.com^$important
@@ -6304,6 +6308,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||dmros.ysm.yahoo.com/ros/$important,script,domain=autos.yahoo.com
 ||dolohen.com/apu.php$script,redirect=noopjs
 ||dolohen.com/apu.php$xmlhttprequest,important,redirect=nooptext
+||dolohen.com^$important
 ||doubleclick.com^$important,popup
 ||doubleclick.net^$important
 ||doubleclick.net^$important,popup
@@ -6384,6 +6389,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||gemius.pl^$important
 ||geo.yahoo.com^$important
 ||getadmiral.com^$important
+||gfamqlcmymxbeu.com^$important
 ||github.com/_private/browser/stats^$important,xmlhttprequest
 ||glxfls.com^$important
 ||gnezdo.ru^$important
@@ -6412,10 +6418,12 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||googletagservices.com^$important,redirect=noopframe,subdocument
 ||googletagservices.com^$script,important,redirect=noopjs
 ||googletagservices.com^$xmlhttprequest,important,redirect=nooptext
+||goraps.com^$important
 ||gostats.com^$important
 ||gostats.ru^$important
 ||grapeshot.co.uk^$important
 ||greatdexchange.com^$important
+||gregnobs.com^$important
 ||gudangbanner.com^$important
 ||gumgum.com^$important
 ||h6.msn.com^$important
@@ -6475,6 +6483,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||lcs.naver.com^$important
 ||ligatus.com^$important
 ||lijit.com^$important
+||link.tl^$important
 ||liqwid.net^$important
 ||livejournal.com/ljcounter/$image,important
 ||logentries.com^$important
@@ -6498,6 +6507,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||mgid.com^$important
 ||microad.*^$important
 ||microsoft.com/collect/$important,script,xmlhttprequest
+||mixadvert.com^$important
 ||mms.cnn.com^$important
 ||mmstat.com^$important
 ||mmtro.com^$important
@@ -6524,6 +6534,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||ntv.io^$important
 ||nuggad.net^$important
 ||nytimes.com^*/data-layer?$important,xmlhttprequest
+||o-oo.ooo^$important
 ||omtrdc.net^$important
 ||onclasrv.com^$important
 ||onthe.io^$important
@@ -6634,6 +6645,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||tns-counter.ru^$important
 ||tns-cs.net^$important
 ||top100.ru/top100/top100.js$important,script
+||topclickguru.com^$important
 ||toponclick.com^$important
 ||torrentz2.*^$csp=script-src 'self' 'unsafe-inline'
 ||totalmedia2.ynet.co.il^$important
@@ -6689,6 +6701,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||web.telegram.org/*/PhotoThumbConversation.gif$image,important,domain=telegram.org
 ||webmasterplan.com^$important
 ||weborama.fr^$important
+||websnewsdate.com^$important
 ||witalfieldt.com^$important
 ||wl.jd.com^$important
 ||worthathousandwords.com^$important
