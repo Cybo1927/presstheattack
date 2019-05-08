@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-05-08 11:07:27
-! Version: 20190508110727
+! Last modified: 2019-05-08 11:08:53
+! Version: 20190508110853
 ! Expires: 3 hours
-! Number of filters: 6818
+! Number of filters: 6852
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -6034,7 +6034,6 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||acwswfbyhtsf.com^$important
 ||acwyoynw.com^$important
 ||acxujxzdluum.com^$important
-||ad.daum.net^$important
 ||adakgpoi.com^$important
 ||adalliance.io^$important
 ||adbetclickin.pink^$important
@@ -6144,9 +6143,44 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||agfwzptrqb.bid^$important
 ||aggntknflhal.com^$important
 ||aggpfmdtzf.com^$important
+||agiuvdbcxdirh.com^$important
+||agiuzlmavpnlb.com^$important
 ||agkn.com^$important
+||aglyzutlhnbtgu.bid^$important
+||agnznxaqd.com^$important
+||agospkfp.bid^$important
+||agqguxbm.com^$important
+||agrxsdujnh.com^$important
+||agshzkcsvoou.bid^$important
+||agwsneccrbda.com^$important
+||agzupwcefbjol.bid^$important
+||ahfmyeuwlhp.bid^$important
+||ahjljmxfxuet.com^$important
+||ahkilcrublxn.bid^$important
+||ahstrelgnh.com^$important
+||ahuivddkvrrebo.com^$important
+||ahuosyyqprt.com^$important
+||ahvnvtxbk.bid^$important
+||ahwjxktemuyz.com^$important
+||ahyuzjgukqyd.com^$important
+||ahzybvwdwrhi.com^$important
+||aibcqjlvxxd.com^$important
+||aicrgbnswhc.bid^$important
+||aigysycrmuoetk.com^$important
+||aiiaqehoqgrj.com^$important
+||aiiukvzjtsc.com^$important
+||aikdakxoc.com^$important
+||aionvpexcmm.com^$important
+||aioxvilwpg.bid^$important
+||aiprvqqnhm.com^$important
 ||airbnb.*/tracking/$important,xmlhttprequest
+||airfhtyo.bid^$important
+||aitdwhmcvlm.com^$important
 ||aiwhebey.com^$important
+||aizopowmtnho.com^$important
+||ajaeihzlcwvn.com^$important
+||ajfziqehnwvz.com^$important
+||ajizjpjkrnh.com^$important
 ||akamaized.net/?u=$image,important,xmlhttprequest
 ||alexametrics.com^$important
 ||alibaba.com/ts?$image,important
