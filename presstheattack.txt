@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-05-08 11:01:12
-! Version: 20190508110112
+! Last modified: 2019-05-08 11:04:04
+! Version: 20190508110405
 ! Expires: 3 hours
-! Number of filters: 6729
+! Number of filters: 6778
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -5991,11 +5991,51 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||a1a5ab31bcd1bc68.com^$important
 ||a2b108bd2461b12e.com^$important
 ||aa53df329975c325.com^$important
+||aabmxezph.com^$important
+||aacgeuvaoqbw.com^$important
+||aaeqlxdgx.bid^$important
+||aagmbroxruno.com^$important
+||aahfcroigwso.com^$important
+||aajychvi.bid^$important
+||aanvxbvkdxph.com^$important
+||aaomstbnbiqo.com^$important
+||aapxtnrhq.bid^$important
+||aaqpajztftqw.com^$important
+||aariczayhpo.com^$important
+||aarwxotc.com^$important
+||aaslmqzce.bid^$important
+||aatfnptblbxpuy.bid^$important
 ||aaxads.com^$important
+||aayaknbn.com^$important
+||aazwugtom.com^$important
+||abaujsqnndg.bid^$important
+||abbahoxgss.com^$important
+||abbowtxibib.com^$important
+||abekjzzhfbr.com^$important
+||abfcfxfkzmiqht.com^$important
 ||abo.prismamediadigital.com^$important,subdocument
+||abunmrqsbfn.bid^$important
+||abuuvohpzlcrp.bid^$important
+||abxlmhllf.com^$important
+||abyvhqmfnvih.com^$important
+||acbrupozabmdc.com^$important
 ||accesstrade.co.id^$important
 ||accounts.ad.nl/gscounters.sendReport$script,important
+||acdektqffm.com^$important
+||acduswfvyjylzq.com^$important
+||achsijkc.com^$important
+||aclhagvngkjf.com^$important
+||aclsqdpgeaik.com^$important
+||aclwlkyzxxhn.com^$important
+||acnsavlosahs.com^$important
+||acpxgmzozlxtbj.bid^$important
+||acrsgxeah.com^$important
+||acvxsptoqh.com^$important
+||acwswfbyhtsf.com^$important
+||acwyoynw.com^$important
+||acxujxzdluum.com^$important
 ||ad.daum.net^$important
+||adakgpoi.com^$important
 ||adalliance.io^$important
 ||adbetclickin.pink^$important
 ||adbetnet.com^$important
@@ -6003,11 +6043,16 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||adclear.net^$important
 ||adcloud.net^$important
 ||addesigner.com^$important
+||addgfxnb.com^$important
+||adeyujimmmh.com^$important
 ||adf.ly^$important
 ||adflazz.com^$important
+||adfoitjumerzge.com^$important
 ||adform.net^$important
 ||adfox.ru^$important
+||adfpkxvaqeyj.com^$important
 ||adglare.net^$important
+||adgsfoxoavmc.com^$important
 ||adition.com^$important
 ||adkontekst.pl^$important
 ||adlightning.com^$important
@@ -6016,9 +6061,11 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||admetrica.ru^$important
 ||admitad.com^$important
 ||admixer.net^$important
+||admlqqewbede.com^$important
 ||adnxs.com^$important
 ||adnz.co^$important
 ||adobedtm.com^$third-party
+||adofuokjj.bid^$important
 ||adomik.com^$important
 ||adpartner.*^$important
 ||adpaths.com^$important
@@ -6026,6 +6073,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||adpop-1.com^$important
 ||adriver.ru^$important
 ||adroll.com^$important
+||adrtgbebgd.bid^$important
 ||ads-twitter.com^$important
 ||ads.pubmatic.com^$important
 ||ads.vidoomy.com^$important
@@ -6040,6 +6088,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||adsymptotic.com^$important
 ||adtechus.com^$important
 ||adtelligent.com^$important
+||adtikimdtfbb.com^$important
 ||adtival.com^$important
 ||adtm.chip.de^$important
 ||adtng.com^$important
