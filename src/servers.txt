@@ -17,6 +17,7 @@
 ||3b9eb5ed04721bef.com^$important
 ||3da86d9fe797f228.com^$important
 ||3lift.com^$important
+||7hu8e1u001.com^$important
 ||7wtic7ru.com^$important
 ||21b666055c.com^$important
 ||28f77rd30e.ru^$important
@@ -79,6 +80,7 @@
 ||acwswfbyhtsf.com^$important
 ||acwyoynw.com^$important
 ||acxujxzdluum.com^$important
+||ad2bitcoin.com^$important
 ||adakgpoi.com^$important
 ||adalliance.io^$important
 ||adbetclickin.pink^$important
@@ -242,6 +244,7 @@
 ||bat.bing.com^$important
 ||bats.video.yahoo.com^$important
 ||bbelements.com^$important
+||bc.vc^$important
 ||bebi.com^$important
 ||beemray.com^$important
 ||begun.ru^$important
@@ -255,6 +258,7 @@
 ||bounceexchange.com^$important
 ||branch.io^$important
 ||brand.ad^$important
+||braun634.com^$important
 ||brealtime.com^$important
 ||btstatic.com^$important
 ||btttag.com^$important
@@ -314,6 +318,7 @@
 ||digitaltarget.ru^$important
 ||disqusads.com^$important
 ||districtm.io^$important
+||dolohen.com^$important
 ||doubleclick.net^$important
 ||doublepimp.com^$important
 ||doublepimpssl.com^$important
@@ -376,14 +381,17 @@
 ||gemius.pl^$important
 ||geo.yahoo.com^$important
 ||getadmiral.com^$important
+||gfamqlcmymxbeu.com^$important
 ||glxfls.com^$important
 ||gnezdo.ru^$important
 ||go-mpulse.net^$important
 ||goo.gl^document
+||goraps.com^$important
 ||gostats.com^$important
 ||gostats.ru^$important
 ||grapeshot.co.uk^$important
 ||greatdexchange.com^$important
+||gregnobs.com^$important
 ||gudangbanner.com^$important
 ||gumgum.com^$important
 ||h6.msn.com^$important
@@ -435,6 +443,7 @@
 ||lcs.naver.com^$important
 ||ligatus.com^$important
 ||lijit.com^$important
+||link.tl^$important
 ||liqwid.net^$important
 ||logentries.com^$important
 ||logql.yahoo.co.jp^$important
@@ -451,6 +460,7 @@
 ||mercadoclics.com^$important
 ||mgid.com^$important
 ||microad.*^$important
+||mixadvert.com^$important
 ||mms.cnn.com^$important
 ||mmstat.com^$important
 ||mmtro.com^$important
@@ -474,6 +484,7 @@
 ||nil.naver.com^$important
 ||ntv.io^$important
 ||nuggad.net^$important
+||o-oo.ooo^$important
 ||omtrdc.net^$important
 ||onclasrv.com^$important
 ||onthe.io^$important
@@ -553,6 +564,7 @@
 ||tiqcdn.com^$important
 ||tns-counter.ru^$important
 ||tns-cs.net^$important
+||topclickguru.com^$important
 ||toponclick.com^$important
 ||torrentz2.*^$csp=script-src 'self' 'unsafe-inline'
 ||totalmedia2.ynet.co.il^$important
@@ -594,6 +606,7 @@
 ||wbtrk.net^$important
 ||webmasterplan.com^$important
 ||weborama.fr^$important
+||websnewsdate.com^$important
 ||witalfieldt.com^$important
 ||wl.jd.com^$important
 ||worthathousandwords.com^$important
