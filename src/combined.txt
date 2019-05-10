@@ -1,5 +1,4 @@
 /(\W|\_)(player|gen|client|csi|generate|stream|logs?)(\W|\_)?204/$image,important,xmlhttprequest,other
-/(\W|\_)a(d[vs]e?|nnounceme|ds?)[rn][tev](s|ing|covers?|server?|isements?|ising|e(rs?)?|ements|ur)?/$important,script,image,subdocument,xmlhttprequest,popup,third-party
 /(\W|\_)fingerprint([0-9]{1,2})?(\.min)?\.js/$important,script,xmlhttprequest,image
 /(\W|\_)log(\W|\_)?(type|event|entry|request)/$image,important,xmlhttprequest,other
 /(\W|\_)ping(\W|\_)/$important,script,image,xmlhttprequest
