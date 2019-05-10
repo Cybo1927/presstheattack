@@ -11,7 +11,6 @@
 /^https?:\/\/[^\s]+(\W|\_)pubfig(\.min)?\.js/$important,script
 /^https?:\/\/[^\s]+(\W|\_)webmr([0-9]{1,2})?\.js/$important,script
 /^https?:\/\/[^\s]+\/([^\s]{4})?tag\.min\.([a-z0-9]{30,}\.)?js/$important,script
-/^https?:\/\/[^\s]+\/(fuck|block)adblock(\.min)?\.js/$important,script
 /^https?:\/\/[^\s]+\/dfp([0-9]{1})?\.js/$important,script
 /^https?:\/\/[^\s]+\/fp([0-9]{1,2})?\.js/$important,script
 /^https?:\/\/[^\s]+\/piwik((\W|\_)[_0-9-.]{5,})?\.js/$important,script
