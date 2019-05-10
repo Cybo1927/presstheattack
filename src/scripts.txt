@@ -205,7 +205,6 @@
 ||msecnd.net/scripts/jsll-*.js$important,script
 ||naver.net/wcslog.js$script,important
 ||pass.tmall.com/add^$script,important
-||quora.com/qevents.js$important,script
 ||redditstatic.com/moat^$important,script
 ||s.pinimg.com/ct/core.js$important,script
 ||siftscience.com^$important,script

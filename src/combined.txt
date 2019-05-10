@@ -1,5 +1,5 @@
 /(player|gen|client|csi|generate|stream|logs?)(\W|\_)?204/$image,important,xmlhttprequest,other
-/^https?:\/\/[^\s]+\.[A-Za-z]{2,6}\/[A-Za-z]{1}\?tag\=[^\s]+\&site\=[A-Za-z0-9]{1,}\&ads?\=/$popup,important,script
+/\.[A-Za-z]{2,6}\/[A-Za-z]{1}\?tag\=[^\s]+\&site\=[A-Za-z0-9]{1,}\&ads?\=/$popup,important,script
 /log(\W|\_)?(type|event|entry|request)/$image,important,xmlhttprequest,other
 |http*:*%*.juicyads.$important,image,script,xmlhttprequest
 |http*:*&ad_*&idzone=$image,important,script,xmlhttprequest
@@ -16,8 +16,6 @@
 |http*:*/dear_code/*/goclick?t=*&ref=$important,script,xmlhttprequest
 |http*:*/dtm/*/satellitelib$important,script,xmlhttprequest
 |http*:*/entry_stats^$important,script,xmlhttprequest
-|http*:*/event.js$important,xmlhttprequest,script,other
-|http*:*/events-collector.$important,script,xmlhttprequest
 |http*:*/g00/*/tu9srvbirvvtocrodhrwoi8vy3ataw4ubmfub3zpc29ylmlvl2nsawvudhbyb2zpbgvyl2fkyj9pmtbjlm1hcmsuc2nyaxb0lnr5cgu%3d_$first-party,script,xmlhttprequest,other
 |http*:*/get_site_data?*&href=$important,script,xmlhttprequest,popup
 |http*:*/imp?sid=$important,image,script,xmlhttprequest
@@ -44,6 +42,5 @@
 ||heise.de/ivw-bin/ivw/cp/$important,image,script,xmlhttprequest
 ||microsoft.com/collect/$important,script,xmlhttprequest
 ||permutive.com^$important,script,subdocument
-||unagi-*.amazon.com/1/events^$other,important,script,xmlhttprequest
 ||yimg.com/gemini/pr/video_$important,script,xmlhttprequest
 ||youtube.com/api/stats^$image,important,xmlhttprequest,other

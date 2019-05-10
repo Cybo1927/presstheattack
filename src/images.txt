@@ -79,7 +79,6 @@ GGBET$image
 ||commander1.com^$image,important
 ||duckduckgo.com/t/$image,important
 ||feeds2.feedburner.com/~fc/$image,important
-||godaddy.com/pageevents.aspx$image,important
 ||google.com/pagead/$image,important
 ||hhcdn.ru/nposter/$image,important
 ||livejournal.com/ljcounter/$image,important
@@ -89,7 +88,6 @@ GGBET$image
 ||rover.ebay.*^$image,important
 ||scontent.xx.fbcdn23dssr3jqnq.onion/hads-ak-prn*/*.png$image,important
 ||scontent.xx.fbcdn.net/hads-ak-prn*/*.png$image,important
-||ui-portal.de/*homepage.startseite.event$image,important
 ||vk.com/rtrg^$image,important
 ||web.telegram.org/*/PhotoThumbConversation.gif$image,important,domain=telegram.org
 ||yahoo.co.jp/b?p=$image,important

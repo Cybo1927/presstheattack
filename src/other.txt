@@ -13,6 +13,7 @@
 /^https?:\/\/p([0-9]{1,2})?\./$~popup,important,domain=~focus.de|~drtuber.com|~zendesk.com
 /^https?:\/\/partners?([0-9]{1,2})?\./$important,third-party
 /^https?:\/\/pixels?([0-9]{1,2})?\./$important
+/^https?:\/\/events?([0-9]{1,2})?\./$important
 /^https?:\/\/px([0-9]{1,2})?\./$important
 /^https?:\/\/r([0-9]{1,2})?\./$important
 /^https?:\/\/s?metric[as]?([0-9]{1,2})?\./$important,domain=~metrika.yandex.ru|~metrika.yandex.com|~metrica.yandex.com|~metrica.yandex.ru
