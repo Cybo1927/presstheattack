@@ -4687,6 +4687,7 @@
 ||sharethrough.com^$important
 ||sifuglie.com^$important
 ||skimresources.com^$important
+||slotforjoy.net^$important
 ||smartadserver.com^$important
 ||sonobi.com^$important
 ||ssl2anyone3.com^$important
