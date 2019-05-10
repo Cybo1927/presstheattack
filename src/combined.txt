@@ -1,3 +1,4 @@
+/(\W|\_)([a-zA-Z]{1,4})?events?(\W|\_)/$other,important,script,xmlhttprequest
 /(\W|\_)(player|gen|client|csi|generate|stream|logs?)(\W|\_)?204/$image,important,xmlhttprequest,other
 /(\W|\_)fingerprint([0-9]{1,2})?(\.min)?\.js/$important,script,xmlhttprequest,image
 /(\W|\_)log(\W|\_)?(type|event|entry|request)/$image,important,xmlhttprequest,other
