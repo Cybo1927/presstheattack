@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-05-10 23:30:53
-! Version: 20190510233053
+! Last modified: 2019-05-10 23:48:54
+! Version: 20190510234854
 ! Expires: 3 hours
-! Number of filters: 15680
+! Number of filters: 15722
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -9235,6 +9235,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||iuumkigdfcz.com^$important
 ||iuymaolvzery.com^$important
 ||ivastoor.com^$important
+||ivastoor.com^$important
 ||ivebuyrkn.com^$important
 ||ivildmcafzped.bid^$important
 ||ivkasohqerzl.com^$important
@@ -9319,10 +9320,12 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||jamvgopociy.bid^$important
 ||janrlobmiroi.com^$important
 ||jareiulyg.bid^$important
+||jasaiklan.com^$important
 ||jatkcmpxhbba.com^$important
 ||jauftivogtho.com^$important
 ||javrdcyrgmdeeg.bid^$important
 ||jaxmbkhyr.com^$important
+||jayaiklan.com^$important
 ||jbarrxmpmmekwh.bid^$important
 ||jbbgczjipjvb.com^$important
 ||jbcadlpdfsxsfe.com^$important
@@ -9700,6 +9703,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||kaojrivmhys.com^$important
 ||kaqtvgcy.bid^$important
 ||karownxatpbd.com^$important
+||katurars.com^$important
 ||katxkxcncwool.com^$important
 ||kayophjgzqdq.com^$important
 ||kbdstwnruc.com^$important
@@ -9751,7 +9755,10 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||kecldktirqzk.com^$important
 ||keeedoleeroe.com^$important
 ||keellcvwpzgj.com^$important
+||kelris.pw^$important
+||kelsaurt.com^$important
 ||keolqzbmsuykwi.bid^$important
+||keqi7dh3df.com^$important
 ||keqnebfovnhl.com^$important
 ||kesllcmdcsbd.com^$important
 ||ketqqygdh.com^$important
@@ -9810,6 +9817,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||kioxprngouirqu.com^$important
 ||kipnobwbyz.bid^$important
 ||kiqsynap.com^$important
+||kistutch.net^$important
 ||kisvtclf.bid^$important
 ||kizpkvkdfm.bid^$important
 ||kjabglumgwbsvq.bid^$important
@@ -9838,6 +9846,8 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||klhjuuwrmxyjsn.com^$important
 ||klhvqeajy.com^$important
 ||klidpcdzfqj.com^$important
+||klikabadi.net^$important
+||klikajadeh.com^$important
 ||klmdwvqhi.com^$important
 ||klmfvshct.bid^$important
 ||klmvharqoxdq.com^$important
@@ -10277,6 +10287,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||lohxvwjpvl.com^$important
 ||lojqfrcipvoo.bid^$important
 ||lojuxbnt.com^$important
+||lokeriklan.com^$important
 ||loljuduad.bid^$important
 ||lopdogmltbnbc.com^$important
 ||lorhamnvukws.bid^$important
@@ -10481,6 +10492,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||marketing.dropbox.com^$important
 ||mascqybw.com^$important
 ||masrtwfevkqd.bid^$important
+||masteriklan.net^$important
 ||mateti.net^$important
 ||mavmlkzt.com^$important
 ||mawtykynmhxkjd.bid^$important
@@ -10543,6 +10555,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||menjyhvs.bid^$important
 ||mercadoclics.com^$important
 ||mercadolibre.com/tracks^$important,xmlhttprequest
+||mesiniklan.andipublisher.com^$important
 ||meucixmdhuqq.bid^$important
 ||meuxestvodec.bid^$important
 ||mexedyfzdx.bid^$important
@@ -10694,6 +10707,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||mookie1.com^$important
 ||moquxotvyuoo.com^$important
 ||mosdqxsgjhes.com^$important
+||mousheen.net^$important
 ||mousvowpfso.com^$important
 ||moxdmkdzvkgxow.bid^$important
 ||moxvufgh.com^$important
@@ -10854,6 +10868,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||mzzouiciajems.com^$important
 ||naaifqdqsnxtsp.com^$important
 ||naavxddd.com^$important
+||naetoris.pw^$important
 ||nahixtmnmpcz.com^$important
 ||nahvyfyfpffm.com^$important
 ||namjixxurjam.com^$important
@@ -10928,6 +10943,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||networkad.net^$important
 ||newnyqfgkkjht.com^$important
 ||newrelic.com^$important
+||newthuads.com^$important
 ||neyenbozrfuocz.com^$important
 ||nezbumpwtdexd.com^$important
 ||nfaqnqsfhih.bid^$important
@@ -11558,7 +11574,9 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||pajmxvlsuxyks.bid^$important
 ||palzblimzpdk.com^$important
 ||paotmlonx.com^$important
+||parentelement.ml^$important
 ||paruvaubxwwz.bid^$important
+||pasangiklan.com^$important
 ||pass.tmall.com/add^$script,important
 ||patuarioahzaen.bid^$important
 ||pawxrbexeylzn.com^$important
@@ -11605,7 +11623,9 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||pdxvgkivkc.bid^$important
 ||pdypjcgng.bid^$important
 ||pedbkepupj.bid^$important
+||peevopoy.com^$important
 ||peewuranpdwo.com^$important
+||pegel.pw^$important$image
 ||pegfkacjwjca.com^$important
 ||peggziuzk.bid^$important
 ||pehjaplsxbsfhs.bid^$important
@@ -11754,6 +11774,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||poewhatnvxydts.com^$important
 ||pogdlwpmck.com^$important
 ||pohguiypgprqr.bid^$important
+||pondokiklan.com^$important
 ||poorybdbh.bid^$important
 ||pooxbpxm.com^$important
 ||popads.net^$important
@@ -11768,6 +11789,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||powerad.ai^$important
 ||poxwphidbuedh.com^$important
 ||ppbvmesssyacij.com^$important
+||ppc.buzz^$important
 ||ppcpsjihmydhr.com^$important
 ||ppgzokht.com^$important
 ||ppikspdz.com^$important
@@ -11854,6 +11876,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||ptyezfyxcaeu.com^$important
 ||ptzbgvqpwnxg.com^$important
 ||ptzljkufu.com^$important
+||publish.web.id^$important
 ||pubmatic.com^$important
 ||pudptxanhspld.bid^$important
 ||pudswlbzob.bid^$important
@@ -11864,6 +11887,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||punvqjsvnmubxb.com^$important
 ||puogotzrsvtg.com^$important
 ||puwzwbdopaeq.bid^$important
+||pvclouds.com^$important
 ||pvdrlztojkd.bid^$important
 ||pviztjecuczh.com^$important
 ||pvjhglgpil.bid^$important
@@ -12397,10 +12421,13 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||regqrfuvncqcm.com^$important
 ||reiqwxxd.com^$important
 ||rejbqhagczm.com^$important
+||relandssymphoking.info^$important
 ||relap.io^$important
 ||relnocyyxhpjb.com^$important
 ||remtoaku.net^$important
+||remtoaku.net^$important
 ||repefwairfkx.com^$important
+||rereegny.net^$important
 ||rereghpaz.com^$important
 ||rertazmgduxp.com^$important
 ||reszkzmyzceve.com^$important
@@ -12627,6 +12654,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||ruijovxeffglgo.bid^$important
 ||rukwbbwcil.com^$important
 ||rulgltvmpzig.com^$important
+||rumahgratis.tk^$important
 ||run-syndicate.com^$important
 ||runwtxeisppmt.com^$important
 ||ruodzaboyf.com^$important
@@ -12765,6 +12793,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||sdzxojlt.com^$important
 ||search.1und1.de/uns/amazon?$important,xmlhttprequest
 ||seaxhrqc.bid^$important
+||sebariklanbaris.com^$important
 ||secfpgpqx.com^$important
 ||securite.01net.com^$important
 ||sedoparking.com^$important
@@ -12775,6 +12804,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||semvdooatmd.bid^$important
 ||senfvsdvtsn.com^$important
 ||senrzuolwqvj.com^$important
+||sentrapromosi.com^$important
 ||sentry.io/api/*/store/^$important,xmlhttprequest
 ||seoaelrfdy.com^$important
 ||seotpqntjukhg.bid^$important
@@ -12819,6 +12849,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||shjuivapg.bid^$important
 ||shkfrsif.com^$important
 ||shldethxhl.com^$important
+||shmokiads.com^$important
 ||shmpdqwucl.com^$important
 ||shnoadlvpylf.com^$important
 ||shohabiymgjxdb.com^$important
@@ -12843,6 +12874,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||sirablivefbxul.bid^$important
 ||sisrgcvomn.com^$important
 ||sisyqzktimhrgo.com^$important
+||sitti.co.id^$important
 ||siuhfvgambevyz.bid^$important
 ||siuletrtmkk.com^$important
 ||sivqblzejhx.com^$important
@@ -13300,6 +13332,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||tnwjldvivhgr.com^$important
 ||tnyomnyezzz.bid^$important
 ||tnznswilqtni.com^$important
+||toads.id^$important
 ||tocotlkfjo.bid^$important
 ||toenwwsmam.com^$important
 ||toflvbkpwxcr.com^$important
@@ -13331,6 +13364,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||tpzukfqaqyxn.bid^$important
 ||tqcxtxglt.com^$important
 ||tqdarrhactqc.com^$important
+||tqeobp89axcn.com^$important
 ||tqixovpneycfmk.com^$important
 ||tqlypenbt.com^$important
 ||tqmricveyxphfo.com^$important
@@ -13731,6 +13765,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||urxdodnj.com^$important
 ||uryvzhvgpulaog.com^$important
 ||usabilla.com^$important,third-party
+||usairguw.com^$important
 ||usaowwbxa.com^$important
 ||usclxdvvvnkdrv.com^$important
 ||uscvlpjeaggyq.com^$important
@@ -14266,6 +14301,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||wa.ui-portal.de^$important
 ||waarhiupyrmig.com^$important
 ||wabxsybclllz.com^$important
+||wachipho.net^$important
 ||wadmolldl.bid^$important
 ||wadrzbroefwd.com^$important
 ||waentchjzuwq.com^$important
@@ -14275,6 +14311,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||wanrtqneiissrb.com^$important
 ||wanuqtwwpvglcr.bid^$important
 ||wapnrjqhtmm.bid^$important
+||wapoawoo.net^$important
 ||wapvhtyc.bid^$important
 ||watunxckibtvfm.bid^$important
 ||wawlfosfkdy.com^$important
@@ -14363,6 +14400,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||wgzzzqebxfypb.com^$important
 ||whbfgaspmycyve.com^$important
 ||whdulnhnrscfqx.com^$important
+||whehilru.com^$important
 ||whgsyczcofwf.com^$important
 ||whgvyswets.com^$important
 ||whinjxmkugky.com^$important
@@ -14436,6 +14474,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||wllxevmlsutfpx.com^$important
 ||wlmclzjtd.com^$important
 ||wlozflcvz.bid^$important
+||wlpromo.info^$important
 ||wlqpzcbme.com^$important
 ||wlszodcfwqk.com^$important
 ||wluzajogsxoy.com^$important
@@ -15256,6 +15295,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||yrxhmallcirx.com^$important
 ||yrzukplqjwxst.bid^$important
 ||ys3e965d.top^$important
+||ys3e965d.top^$important
 ||ysaloykchjyxg.com^$important
 ||ysdacdbitdy.bid^$important
 ||ysdxcrighudjmw.com^$important
@@ -15320,6 +15360,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||ywxjbwauqznf.com^$important
 ||ywxnjrkkrnyzc.com^$important
 ||ywzutugurhqpvs.bid^$important
+||yx-ads6.com^$important
 ||yxahzybkggol.com^$important
 ||yxbglezas.com^$important
 ||yxbtyzqcczra.com^$important
@@ -15677,6 +15718,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||zxwnolwaump.com^$important
 ||zxxfoccanf.com^$important
 ||zxxzqiqbchqkaw.com^$important
+||zy16eoat1w.com^$important
 ||zybztgtsxq.bid^$important
 ||zydfsiuhqkbsqh.com^$important
 ||zyeawuzisttu.com^$important
