@@ -19,6 +19,7 @@
 /^https?:\/\/s?metric[as]?([0-9]{1,2})?\./$important,domain=~metrika.yandex.ru|~metrika.yandex.com|~metrica.yandex.com|~metrica.yandex.ru
 /^https?:\/\/tags?([0-9]{1,2})?\./$important
 |http*:*-MetaAdServer-
+||google.*/pagead$important
 |http*:*-MetaAdServer.
 |http*:*-MetaAdServer^
 |http*:*-MetaAdServer_
