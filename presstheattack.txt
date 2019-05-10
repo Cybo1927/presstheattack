@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-05-10 22:39:02
-! Version: 20190510223902
+! Last modified: 2019-05-10 22:48:58
+! Version: 20190510224858
 ! Expires: 3 hours
-! Number of filters: 15954
+! Number of filters: 15956
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2769,6 +2769,7 @@
 */sw.js$important,script,redirect=noopjs
 */visitor.js$script,redirect=noopjs
 */visitorapi.js$script,redirect=noopjs
+/(\W|\_)([a-zA-Z]{1,4})?events?(\W|\_)/$other,important,script,xmlhttprequest
 /(\W|\_)(player|gen|client|csi|generate|stream|logs?)(\W|\_)?204/$image,important,xmlhttprequest,other
 /(\W|\_)a(d[vs]e?|nnounceme|ds?)[rn][tev](s|ing|covers?|server?|isements?|ising|e(rs?)?|ements|ur)?/$important,popup
 /(\W|\_)a(d[vs]e?|nnounceme|ds?)[rn][tev](s|ing|covers?|server?|isements?|ising|e(rs?)?|ements|ur)?/$important,third-party
@@ -2835,6 +2836,7 @@
 /^https?:\/\/tags?([0-9]{1,2})?\./$important
 /^https?:\/\/www\.([a-z]{6,16})\.com\/([a-z]{1,4})\.js$/$important,script,third-party
 /^https?:\/\/www\.([a-z]{6,16})\.com\/([a-z]{1,4})\.js$/$third-party,script,important
+/^https?:\/\/yastatic\.net\/[^\s]{500,}/$domain=~vh.yandex.ru
 /^https?:\/\/zmctrack\.(com|net)/$important
 2ch.hk,2ch.pm,2ch.re,2ch.tf,2ch.wf,2ch.yt###mobile-plashque
 2ch.hk,2ch.pm,2ch.re,2ch.tf,2ch.wf,2ch.yt###plashque
