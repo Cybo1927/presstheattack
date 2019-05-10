@@ -1,6 +1,11 @@
-/(player|gen|client|csi|generate|stream|logs?)(\W|\_)?204/$image,important,xmlhttprequest,other
+/(\W|\_)(player|gen|client|csi|generate|stream|logs?)(\W|\_)?204/$image,important,xmlhttprequest,other
+/(\W|\_)a(d[vs]e?|nnounceme|ds?)[rn][tev](s|ing|covers?|server?|isements?|ising|e(rs?)?|ements|ur)?/$important,script,image,subdocument,xmlhttprequest,popup,third-party
+/(\W|\_)fingerprint([0-9]{1,2})?(\.min)?\.js/$important,script,xmlhttprequest,image
+/(\W|\_)log(\W|\_)?(type|event|entry|request)/$image,important,xmlhttprequest,other
+/(\W|\_)ping(\W|\_)/$important,script,image,xmlhttprequest
+/(\W|\_)pixels?(\W|\_)?/$image,important,object,xmlhttprequest,script,subdocument
+/(\W|\_)pop(unders?)?([0-9]{1,2})?\./$important,popup,script,xmlhttprequest
 /^https?:\/\/[^\s]+\.[A-Za-z]{2,6}\/[A-Za-z]{1}\?tag\=[^\s]+\&site\=[A-Za-z0-9]{1,}\&ads?\=/$popup,important,script
-/log(\W|\_)?(type|event|entry|request)/$image,important,xmlhttprequest,other
 |http*:*%*.juicyads.$important,image,script,xmlhttprequest
 |http*:*&ad_*&idzone=$image,important,script,xmlhttprequest
 |http*:*/a/display.php^$important,script,xmlhttprequest,subdocument

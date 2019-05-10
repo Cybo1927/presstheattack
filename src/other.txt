@@ -7,19 +7,18 @@
 /^https?:\/\/beacons?([0-9]{1,2})?\./$important
 /^https?:\/\/c([0-9]{1,2})?\./$important,domain=~force.com|~ndtv.com|~newegg.com|~wp.com|~xavierstuder.com|~researchgate.net|~www.microsoft.com|~patreon.com
 /^https?:\/\/delivery([0-9]{1,2})?\./$important,third-party
+/^https?:\/\/events?([0-9]{1,2})?\./$important
 /^https?:\/\/geoservice([0-9]{1,2})?\./$important
 /^https?:\/\/informers?([0-9]{1,2})?\./$important
 /^https?:\/\/logs?([0-9]{1,2})?\./$important
 /^https?:\/\/p([0-9]{1,2})?\./$~popup,important,domain=~focus.de|~drtuber.com|~zendesk.com
 /^https?:\/\/partners?([0-9]{1,2})?\./$important,third-party
 /^https?:\/\/pixels?([0-9]{1,2})?\./$important
-/^https?:\/\/events?([0-9]{1,2})?\./$important
 /^https?:\/\/px([0-9]{1,2})?\./$important
 /^https?:\/\/r([0-9]{1,2})?\./$important
 /^https?:\/\/s?metric[as]?([0-9]{1,2})?\./$important,domain=~metrika.yandex.ru|~metrika.yandex.com|~metrica.yandex.com|~metrica.yandex.ru
 /^https?:\/\/tags?([0-9]{1,2})?\./$important
 |http*:*-MetaAdServer-
-||google.*/pagead$important
 |http*:*-MetaAdServer.
 |http*:*-MetaAdServer^
 |http*:*-MetaAdServer_
@@ -2468,4 +2467,6 @@
 |http*://report-adv-to.^$important
 |http*://xml*/click^$important
 |http*://xml*/redirect^$important
+||google.*/log?$important
+||google.*/pagead$important
 ||yandex.*/clck/$important
