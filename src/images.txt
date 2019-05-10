@@ -1,5 +1,4 @@
 /^https?:\/\/2ch\.(hk|pm|re|tf|wf|yt)\/images\//$image,important
-/^https?:\/\/[^\s]+\/bolpx[0-9]{1,2}\.gif/$image,important
 1xbet$image,important
 1xstavka$image,important
 GGBET$image
