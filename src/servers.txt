@@ -17,6 +17,8 @@
 ||3b9eb5ed04721bef.com^$important
 ||3da86d9fe797f228.com^$important
 ||3lift.com^$important
+||7fkm2r4pzi.com^$important
+||7hor9gul4s.com^$important
 ||7hu8e1u001.com^$important
 ||7wtic7ru.com^$important
 ||21b666055c.com^$important
@@ -130,6 +132,7 @@
 ||adspsp.com^$important
 ||adsrvr.org^$important
 ||adstarsmedia.co.id^$important
+||adswizz.com^$important
 ||adswrapme.click^$important
 ||adsymptotic.com^$important
 ||adtechus.com^$important
@@ -335,6 +338,8 @@
 ||aplfkrppjsutf.com^$important
 ||apmgzzaej.bid^$important
 ||apmkcdsnv.bid^$important
+||apple.com-fasting.live^$important
+||apple.com-scan.live^$important
 ||aprddnfuzc.bid^$important
 ||apscxogwydnkx.com^$important
 ||apsntakwzycu.com^$important
@@ -5044,6 +5049,7 @@
 ||munqaasewcla.bid^$important
 ||muoiuxfj.com^$important
 ||muoyeoyymfwwp.bid^$important
+||muqson0kgr.com^$important
 ||muqyzjkamhpu.bid^$important
 ||musighkm.com^$important
 ||muwjxxvovtb.com^$important

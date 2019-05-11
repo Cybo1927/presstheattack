@@ -24,6 +24,7 @@
 |http*:*-vast.$script
 |http*:*-vast^$script
 |http*:*-vast_$script
+|http*:*.coin-hive.js$important,script
 |http*:*.vast-$script
 |http*:*.vast.$script
 |http*:*.vast^$script
@@ -180,6 +181,7 @@
 |http*:*^vast.$script
 |http*:*^vast^$script
 |http*:*^vast_$script
+|http*:*_coin-hive.js$important,script
 |http*:*_vast-$script
 |http*:*_vast.$script
 |http*:*_vast^$script

@@ -14,6 +14,7 @@
 |http*:*/article/viewcount/$important,script,xmlhttprequest
 |http*:*/b/ss/*&ce=utf-8&$image,important,script,xmlhttprequest
 |http*:*/ban/json/*?*&subid=$important,image,script,xmlhttprequest
+|http*:*/bnr.php$important,script,xmlhttprequest
 |http*:*/cgi-bin/ivw/$important,image,script,xmlhttprequest
 |http*:*/code/bshow.php$important,script,xmlhttprequest
 |http*:*/col2/*&ss=$important,script,xmlhttprequest,image
