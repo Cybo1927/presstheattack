@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-05-10 23:48:54
-! Version: 20190510234854
+! Last modified: 2019-05-12 00:49:41
+! Version: 20190512004941
 ! Expires: 3 hours
-! Number of filters: 15722
+! Number of filters: 15680
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2795,7 +2795,7 @@
 /^https?:\/\/(metric|csi)\.gstatic\.com/$important
 /^https?:\/\/(www\.)?(client\-event\-reporter|countess|mp|polyfill|sentinel|spade|trowel|fan)\.twitch(svc)?\.(com|net|tv)/$important
 /^https?:\/\/(www\.)?(facebookcorewwwi|facebook)\.(com|net|onion)\/tr\D/$important
-/^https?:\/\/2ch\.(hk|pm|re|tf|wf|yt)\/images\//$image,important
+/^https?:\/\/2ch\.(hk|pm|re|tf|wf|yt)\/(images|banners?)\//$image,important
 /^https?:\/\/[0-9a-z\-\.]+\.[a-z]{2,7}\/sw\.js\?[0-9a-zA-Z_&%]{32,}/$first-party,xmlhttprequest,important
 /^https?:\/\/[^/]+\/[a-z0-9]{15,}(\?hope=.*)?$/$important,script
 /^https?:\/\/[^\s]+(\W|\_)g(tag|oogleads?|oogleanal(ytics?|yzer?)([0-9]{1})?|pt((\W|\_)mobile)?|tm|a((\W|\_)lite)?|a((\W|\_)setup)?|oogle(\W|\_)track(ers?|ing)?|oogletag|ads?|tagmanager((\W|\_)backend|track(ers?|ing)?event)?|oogle(\W|\_)stats?)\./$important,script
@@ -2878,57 +2878,6 @@ topsite.com###adchoices
 topsite.com##.ad
 topsite.com##.chitikaAdBlock
 twitch.tv##+js(twitch-videoad.js)
-twitch.tv##a[href*="&BannerId="] > img
-twitch.tv##a[href*="&bonus="] > img
-twitch.tv##a[href*=".click"] > img
-twitch.tv##a[href*=".com/ad/"] > img
-twitch.tv##a[href*=".gg"] > img
-twitch.tv##a[href*=".net/ad/"] > img
-twitch.tv##a[href*=".org/ad/"] > img
-twitch.tv##a[href*=".ru/ad/"] > img
-twitch.tv##a[href*="/?r="] > img
-twitch.tv##a[href*="/buy/"] > img
-twitch.tv##a[href*="/go/"] > img
-twitch.tv##a[href*="/joinchat/"] > img
-twitch.tv##a[href*="/promo/"] > img
-twitch.tv##a[href*="/shop/"] > img
-twitch.tv##a[href*="?AffiliateUserId="] > img
-twitch.tv##a[href*="?br="] > img
-twitch.tv##a[href*="?btag="] > img
-twitch.tv##a[href*="atributika"] > img
-twitch.tv##a[href*="bet4.pm"] > img
-twitch.tv##a[href*="betsdota2.com"] > img
-twitch.tv##a[href*="bit.ly"] > img
-twitch.tv##a[href*="campaign"] > img
-twitch.tv##a[href*="casino"] > img
-twitch.tv##a[href*="clck.ru"] > img
-twitch.tv##a[href*="col.vg"] > img
-twitch.tv##a[href*="cutter.li"] > img
-twitch.tv##a[href*="domruchamp.ru"] > img
-twitch.tv##a[href*="dota.money"] > img
-twitch.tv##a[href*="dotapl.us"] > img
-twitch.tv##a[href*="dxracer-europe.com"] > img
-twitch.tv##a[href*="fragstore.ru"] > img
-twitch.tv##a[href*="g2a.com"] > img
-twitch.tv##a[href*="gamefuel.com"] > img
-twitch.tv##a[href*="garnitura"] > img
-twitch.tv##a[href*="gearboost.eu"] > img
-twitch.tv##a[href*="gg.bet"] > img
-twitch.tv##a[href*="goo.gl"] > img
-twitch.tv##a[href*="goodgame.pm"] > img
-twitch.tv##a[href*="gosu.ai"] > img
-twitch.tv##a[href*="intel.com"] > img
-twitch.tv##a[href*="invasion.ru"] > img
-twitch.tv##a[href*="megafon.ru"] > img
-twitch.tv##a[href*="mercedes-benz.com"] > img
-twitch.tv##a[href*="mybestcontent.ru"] > img
-twitch.tv##a[href*="mydota2.net"] > img
-twitch.tv##a[href*="noblechairs.com"] > img
-twitch.tv##a[href*="poker"] > img
-twitch.tv##a[href*="streamfest.ru"] > img
-twitch.tv##a[href*="suveniry"] > img
-twitch.tv##a[href*="upskill.ru"] > img
-twitch.tv##a[href*="vk.cc"] > img
 twitter.com##[data-focusable="true"]:has-text(/Promoted|Gesponsert|Реклама/):not(:xpath(//span[contains(text(),'Реклама в Твиттере')]))
 twitter.com##[data-testid="trend"]:has-text(/Promoted|Gesponsert|Реклама/):xpath(..)
 twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/):xpath(..)
@@ -3829,6 +3778,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*.clk.
 |http*:*.clk^
 |http*:*.clk_
+|http*:*.coin-hive.js$important,script
 |http*:*.counted-
 |http*:*.counted.
 |http*:*.counted^
@@ -4205,6 +4155,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/bk-coretag.js$important,script
 |http*:*/blank.gif$image,important
 |http*:*/blank.png$image,important
+|http*:*/bnr.php$important,script,xmlhttprequest
 |http*:*/boomerang*.js$important,script
 |http*:*/browsermine.js$important,script
 |http*:*/c-hive.js$important,script
@@ -5322,6 +5273,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*_clk.
 |http*:*_clk^
 |http*:*_clk_
+|http*:*_coin-hive.js$important,script
 |http*:*_counted-
 |http*:*_counted.
 |http*:*_counted^
@@ -5687,6 +5639,8 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||69v.club^$important
 ||713b037362f02.com^$important
 ||7667bab1751ff777.com^$important
+||7fkm2r4pzi.com^$important
+||7hor9gul4s.com^$important
 ||7hu8e1u001.com^$important
 ||7wtic7ru.com^$important
 ||88461059da0a12ea.com^$important
@@ -5789,6 +5743,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||adspsp.com^$important
 ||adsrvr.org^$important
 ||adstarsmedia.co.id^$important
+||adswizz.com^$important
 ||adswrapme.click^$important
 ||adsymptotic.com^$important
 ||adtechus.com^$important
@@ -6008,6 +5963,8 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||aplfkrppjsutf.com^$important
 ||apmgzzaej.bid^$important
 ||apmkcdsnv.bid^$important
+||apple.com-fasting.live^$important
+||apple.com-scan.live^$important
 ||aprddnfuzc.bid^$important
 ||apscxogwydnkx.com^$important
 ||apsntakwzycu.com^$important
@@ -10797,6 +10754,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||munqaasewcla.bid^$important
 ||muoiuxfj.com^$important
 ||muoyeoyymfwwp.bid^$important
+||muqson0kgr.com^$important
 ||muqyzjkamhpu.bid^$important
 ||musighkm.com^$important
 ||muwjxxvovtb.com^$important
