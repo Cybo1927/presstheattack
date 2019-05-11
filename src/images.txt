@@ -1,4 +1,3 @@
-/(\W|\_)a(d[vs]e?|nnounceme|ds?)[rn][tev](s|ing|covers?|server?|isements?|ising|e(rs?)?|ements|ur)?/$important,third-party
 /^https?:\/\/2ch\.(hk|pm|re|tf|wf|yt)\/(images|banners?)\//$image,important
 |http*:*/1x1.gif$image,important
 |http*:*/1x1.png$image,important
