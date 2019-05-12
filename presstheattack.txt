@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-05-12 18:54:42
-! Version: 20190512185442
+! Last modified: 2019-05-12 21:20:17
+! Version: 20190512212017
 ! Expires: 3 hours
-! Number of filters: 15690
+! Number of filters: 15693
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -3502,6 +3502,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*-yads.
 |http*:*-yads^
 |http*:*-yads_
+|http*:*.*.com/xj/$important
 |http*:*.aclick-
 |http*:*.aclick.
 |http*:*.aclick^
@@ -5625,6 +5626,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||2daytrendingnews.com^$important
 ||2go7v1nes8.com^$important
 ||2mdn.net^$important
+||2xclick.ru^$important
 ||3585656d9351553f.com^$important
 ||3b9eb5ed04721bef.com^$important
 ||3da86d9fe797f228.com^$important
@@ -5737,9 +5739,11 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||ads.pubmatic.com^$important
 ||ads.vidoomy.com^$important
 ||adsafeprotected.com^$important
+||adsco.re^$important
 ||adscpm.site^$important
 ||adsensecustomsearchads.com^$important
 ||adshost.site^$important
+||adskeeper.co.uk^$important
 ||adspsp.com^$important
 ||adsrvr.org^$important
 ||adstarsmedia.co.id^$important
@@ -9196,7 +9200,6 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||iuumkigdfcz.com^$important
 ||iuymaolvzery.com^$important
 ||ivastoor.com^$important
-||ivastoor.com^$important
 ||ivebuyrkn.com^$important
 ||ivildmcafzped.bid^$important
 ||ivkasohqerzl.com^$important
@@ -11188,6 +11191,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||nzxriltfmrpl.com^$important
 ||nzyymvidnbvz.bid^$important
 ||o-oo.ooo^$important
+||o333o.com^$important
 ||oaadkiypttok.com^$important
 ||oabcufwk.com^$important
 ||oabmmdjlmfk.bid^$important
@@ -12387,7 +12391,6 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||relandssymphoking.info^$important
 ||relap.io^$important
 ||relnocyyxhpjb.com^$important
-||remtoaku.net^$important
 ||remtoaku.net^$important
 ||repefwairfkx.com^$important
 ||rereegny.net^$important
@@ -14973,6 +14976,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||xynutvdh.com^$important
 ||xyrjlbxkxojoi.bid^$important
 ||xyvjknwxwtf.bid^$important
+||xyz0k4gfs.xyz^$important
 ||xzcdzfkwk.com^$important
 ||xzfhewclnun.com^$important
 ||xzfjznfiuawv.bid^$important
@@ -15261,7 +15265,6 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||yrvrppewe.bid^$important
 ||yrxhmallcirx.com^$important
 ||yrzukplqjwxst.bid^$important
-||ys3e965d.top^$important
 ||ys3e965d.top^$important
 ||ysaloykchjyxg.com^$important
 ||ysdacdbitdy.bid^$important
