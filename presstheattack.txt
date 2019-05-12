@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-05-12 05:26:07
-! Version: 20190512052607
+! Last modified: 2019-05-12 18:54:42
+! Version: 20190512185442
 ! Expires: 3 hours
-! Number of filters: 15680
+! Number of filters: 15690
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2772,7 +2772,7 @@
 /(\W|\_)([a-zA-Z]{1,4})?events?(\W|\_)/$other,important,script,xmlhttprequest
 /(\W|\_)(player|gen|client|csi|generate|stream|logs?)(\W|\_)?204/$image,important,xmlhttprequest,other
 /(\W|\_)a(d[vs]e?|nnounceme|ds?)[rn][tev](s|ing|covers?|server?|isements?|ising|e(rs?)?|ements|ur)?/$important,popup
-/(\W|\_)a(d[vs]e?|nnounceme|ds?)[rn][tev](s|ing|covers?|server?|isements?|ising|e(rs?)?|ements|ur)?\./$important,script,third-party
+/(\W|\_)a(d[vs]e?|nnounceme|ds?)[rn][tev](s|ing|covers?|server?|isements?|ising|e(rs?)?|ements|ur)?\.js/$important,script,third-party
 /(\W|\_)fingerprint([0-9]{1,2})?(\.min)?\.js/$important,script,xmlhttprequest,image
 /(\W|\_)log(\W|\_)?(type|event|entry|request)/$image,important,xmlhttprequest,other
 /(\W|\_)ping(\W|\_)/$important,script,image,xmlhttprequest
@@ -5839,6 +5839,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||aitdwhmcvlm.com^$important
 ||aiwhebey.com^$important
 ||aizopowmtnho.com^$important
+||aj1110.online^$important
 ||ajaeihzlcwvn.com^$important
 ||ajfziqehnwvz.com^$important
 ||ajizjpjkrnh.com^$important
@@ -6133,6 +6134,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||bajofdblygev.com^$important
 ||bakdsoarxjab.com^$important
 ||bakjtxvku.bid^$important
+||bakteso.ru^$important
 ||banuhqxbc.com^$important
 ||baommitouduxo.bid^$important
 ||baphruesqm.com^$important
@@ -8233,6 +8235,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||glhxoawgunlame.bid^$important
 ||gljanrsxz.com^$important
 ||gllkdkxygckb.com^$important
+||globalentrycard.site^$important
 ||glslciwwvtxn.com^$important
 ||gltpstgjnyb.com^$important
 ||glvjbogft.com^$important
@@ -8354,6 +8357,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||gqutnukt.com^$important
 ||gquvhveabaem.com^$important
 ||gqwprjzwlfspw.com^$important
+||grand-casino55.com^$important
 ||grapeshot.co.uk^$important
 ||graph.facebook.com^$important
 ||graph.instagram.com^$important
@@ -9759,6 +9763,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||khpgychzfdmpm.bid^$important
 ||khwfemkr.bid^$important
 ||khzbeucrltin.com^$important
+||ki0sked.ru^$important
 ||kieecarfftwf.com^$important
 ||kiejztfpkfayak.com^$important
 ||kifxgosycvxplk.com^$important
@@ -12868,6 +12873,8 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||slmmjkkvbkyp.com^$important
 ||sloaltbyucrg.com^$important
 ||slotforjoy.net^$important
+||slotsvictory.net^$important
+||slotsvictory.net^$popup,important
 ||slurolen.com^$important
 ||slwclrwmruuxav.com^$important
 ||smapohsnoww.com^$important
@@ -12954,6 +12961,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||ssowfsbps.bid^$important
 ||ssp.rambler.ru^$important
 ||ssqzsdcnoqv.com^$important
+||ssraju3n.com^$important
 ||ssuhghnjxbp.bid^$important
 ||ssvolkkihcyp.com^$important
 ||ssyhlymwyzou.com^$important
@@ -13068,6 +13076,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||taelsfdgtmka.com^$important
 ||tagcommander.com^$important
 ||tailtarget.com^$important
+||take-the-bonus.biz^$important
 ||taljdzwer.com^$important
 ||tamgrt.com^$important
 ||tammfmhtfhut.com^$important
@@ -15680,6 +15689,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||zybztgtsxq.bid^$important
 ||zydfsiuhqkbsqh.com^$important
 ||zyeawuzisttu.com^$important
+||zyf03k.xyz^$important
 ||zyfuywrjbxyf.com^$important
 ||zyjjmszszum.bid^$important
 ||zykqvbxfdqbdvj.com^$important
