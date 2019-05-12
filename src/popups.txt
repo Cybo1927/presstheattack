@@ -4,6 +4,7 @@
 /^https?:\/\/ad[svx]?([0-9]{1,2})?\./$important,popup
 |http*:*/?ip=*&zoneid=$important,popup
 |http*:*/pops.js$important,popup
+||slotsvictory.net^$popup,important
 |http*:*?*&lp=*id=$popup
 |http*:*?lp=*id=$popup
 ||bit.ly^$popup,important
