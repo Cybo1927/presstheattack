@@ -14,6 +14,7 @@
 ||2daytrendingnews.com^$important
 ||2go7v1nes8.com^$important
 ||2mdn.net^$important
+||2xclick.ru^$important
 ||3b9eb5ed04721bef.com^$important
 ||3da86d9fe797f228.com^$important
 ||3lift.com^$important
@@ -126,9 +127,11 @@
 ||ads.pubmatic.com^$important
 ||ads.vidoomy.com^$important
 ||adsafeprotected.com^$important
+||adsco.re^$important
 ||adscpm.site^$important
 ||adsensecustomsearchads.com^$important
 ||adshost.site^$important
+||adskeeper.co.uk^$important
 ||adspsp.com^$important
 ||adsrvr.org^$important
 ||adstarsmedia.co.id^$important
@@ -3500,7 +3503,6 @@
 ||iuumkigdfcz.com^$important
 ||iuymaolvzery.com^$important
 ||ivastoor.com^$important
-||ivastoor.com^$important
 ||ivebuyrkn.com^$important
 ||ivildmcafzped.bid^$important
 ||ivkasohqerzl.com^$important
@@ -5480,6 +5482,7 @@
 ||nzxmgfawlxhm.bid^$important
 ||nzxriltfmrpl.com^$important
 ||nzyymvidnbvz.bid^$important
+||o333o.com^$important
 ||o-oo.ooo^$important
 ||oaadkiypttok.com^$important
 ||oabcufwk.com^$important
@@ -6671,7 +6674,6 @@
 ||relandssymphoking.info^$important
 ||relap.io^$important
 ||relnocyyxhpjb.com^$important
-||remtoaku.net^$important
 ||remtoaku.net^$important
 ||repefwairfkx.com^$important
 ||rereegny.net^$important
@@ -9222,6 +9224,7 @@
 ||xynutvdh.com^$important
 ||xyrjlbxkxojoi.bid^$important
 ||xyvjknwxwtf.bid^$important
+||xyz0k4gfs.xyz^$important
 ||xzcdzfkwk.com^$important
 ||xzfhewclnun.com^$important
 ||xzfjznfiuawv.bid^$important
@@ -9494,7 +9497,6 @@
 ||yrvrppewe.bid^$important
 ||yrxhmallcirx.com^$important
 ||yrzukplqjwxst.bid^$important
-||ys3e965d.top^$important
 ||ys3e965d.top^$important
 ||ysaloykchjyxg.com^$important
 ||ysdacdbitdy.bid^$important

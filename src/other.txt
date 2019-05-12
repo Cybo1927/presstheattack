@@ -626,6 +626,7 @@
 |http*:*-yads.
 |http*:*-yads^
 |http*:*-yads_
+|http*:*.*.com/xj/$important
 |http*:*.MetaAdServer-
 |http*:*.MetaAdServer.
 |http*:*.MetaAdServer^
