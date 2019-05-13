@@ -8,6 +8,8 @@
 /^https?:\/\/[^\s]+\.[A-Za-z]{2,6}\/[A-Za-z]{1}\?tag\=[^\s]+\&site\=[A-Za-z0-9]{1,}\&ads?\=/$popup,important,script
 |http*:*%*.juicyads.$important,image,script,xmlhttprequest
 |http*:*&ad_*&idzone=$image,important,script,xmlhttprequest
+|http*:*/ADLog.ashx$image,xmlhttprequest,important
+|http*:*/GetAD.ashx$image,xmlhttprequest,important
 |http*:*/a/display.php^$important,script,xmlhttprequest,subdocument
 |http*:*/aff_i?offer_id=$important,script,xmlhttprequest,image
 |http*:*/amp.gif$image,important,xmlhttprequest

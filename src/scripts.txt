@@ -115,6 +115,7 @@
 |http*:*/newrelic.js$important,script
 |http*:*/nielsen.js$important,script
 |http*:*/noblock.js$important,script
+|http*:*/ntfc.php?p=$important,script
 |http*:*/obfus.min.js$important,script
 |http*:*/omniture.js$important,script
 |http*:*/p.js$important,script
