@@ -23,6 +23,7 @@
 |http*:*/fpn.gif$image,important
 |http*:*/gb.gif$image,important
 |http*:*/greenoaks.gif$image,important
+|http*:*/greenoaks.gif$image,important
 |http*:*/hit.xiti$image,important
 |http*:*/horizon-pageview?$image
 |http*:*/img.aspx?q=$image,important

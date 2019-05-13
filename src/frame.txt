@@ -1,5 +1,6 @@
 /^https?:\/\/[^\s]+tags?\?id\=/$subdocument,important
 |http*:*/google-conversion.html$important,subdocument
+|http*:*/iframe.php?spotid=$important,subdocument
 |http*:*/pi.aspx$subdocument,important
 |http*:*/player_ads.html$subdocument,important
 |http*:*/setbucket?signature=$important,subdocument

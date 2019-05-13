@@ -6,6 +6,7 @@
 /^https?:\/\/(metric|csi)\.gstatic\.com/$important
 /^https?:\/\/(www\.)?(client\-event\-reporter|countess|mp|polyfill|sentinel|spade|trowel|fan)\.twitch(svc)?\.(com|net|tv)/$important
 /^https?:\/\/(www\.)?(facebookcorewwwi|facebook)\.(com|net|onion)\/tr\D/$important
+/^https?:\/\/denis\-[a-z0-9]{7,12}\-[a-z0-9]{7,12}\.com/$important
 /^https?:\/\/yastatic\.net\/[^\s]{500,}/$domain=~vh.yandex.ru
 /^https?:\/\/zmctrack\.(com|net)/$important
 ||00f31156f051fdf.com^$important
@@ -685,6 +686,7 @@
 ||blgrwhaww.com^$important
 ||blkivkplpn.com^$important
 ||blnxyqdnsl.bid^$important
+||blogonewslj.com^$important
 ||blorgkjhbhoqr.bid^$important
 ||blqgnbxva.com^$important
 ||blrdumgvqkmq.com^$important
@@ -1095,6 +1097,7 @@
 ||cohhcaahxxcf.com^$important
 ||coinhive.com^$important
 ||coinmedia.co^$important
+||cointraffic.io^$important
 ||coiphezlzpl.bid^$important
 ||cokfwpfycgzjvn.bid^$important
 ||cokrrmzagaxn.com^$important
@@ -6598,6 +6601,7 @@
 ||qzpzspna.bid^$important
 ||qzwhzahnieipgz.com^$important
 ||rabjkklvegagrn.com^$important
+||rackcdn.com^$important
 ||radbtqjfp.bid^$important
 ||rafvxnikmn.bid^$important
 ||rafymfnvvzqlp.com^$important
@@ -6903,6 +6907,7 @@
 ||rulgltvmpzig.com^$important
 ||rumahgratis.tk^$important
 ||run-syndicate.com^$important
+||runewslenta.com^$important
 ||runwtxeisppmt.com^$important
 ||ruodzaboyf.com^$important
 ||ruoypiedfpov.com^$important
@@ -9451,6 +9456,7 @@
 ||yoorjlleqtquez.bid^$important
 ||yoqvnnkdmqfk.com^$important
 ||yotube.com^$important
+||youjizz.com^$important
 ||youtube.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.ggpht.com *.googlevideo.com *.ytimg.com *.googleusercontent.com www.youtube.com *.google.com *.gstatic.com
 ||yovbkyylqlmkg.bid^$important
 ||yovqbcixogwc.com^$important

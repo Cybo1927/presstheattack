@@ -1,11 +1,9 @@
-/^https?:\/\/([a-zA-Z]{1,6})?count(ers?)?([0-9]{1,2})?\./$important
-/^https?:\/\/([a-zA-Z]{1,6})?track(ers?|ing)?([0-9]{1,2})?\./$important
-/^https?:\/\/([a-z]{1,3})?stat(s|istics?)?([0-9]{1,2})?\./$important
 /^https?:\/\/(analysis|analytic[as]?)([0-9]{1,2})?\./$important,domain=~analytics.google.com
 /^https?:\/\/ad[bsxv]?([0-9]{1,2})?\./$important,domain=~ad.nl
 /^https?:\/\/aff(iliat(es?|ion))?([0-9]{1,2})?\./$important
 /^https?:\/\/beacons?([0-9]{1,2})?\./$important
 /^https?:\/\/c([0-9]{1,2})?\./$important,domain=~force.com|~ndtv.com|~newegg.com|~wp.com|~xavierstuder.com|~researchgate.net|~www.microsoft.com|~patreon.com
+/^https?:\/\/count(ers?)?([0-9]{1,2})?\./$important
 /^https?:\/\/delivery([0-9]{1,2})?\./$important,third-party
 /^https?:\/\/events?([0-9]{1,2})?\./$important
 /^https?:\/\/geoservice([0-9]{1,2})?\./$important
@@ -17,7 +15,10 @@
 /^https?:\/\/px([0-9]{1,2})?\./$important
 /^https?:\/\/r([0-9]{1,2})?\./$important
 /^https?:\/\/s?metric[as]?([0-9]{1,2})?\./$important,domain=~metrika.yandex.ru|~metrika.yandex.com|~metrica.yandex.com|~metrica.yandex.ru
+/^https?:\/\/stat(s|istics?)?([0-9]{1,2})?\./$important
 /^https?:\/\/tags?([0-9]{1,2})?\./$important
+/^https?:\/\/track(ers?|ing)?([0-9]{1,2})?\./$important
+/ads?[0-9](images?|media|videos?)/$important
 |http*:*-MetaAdServer-
 |http*:*-MetaAdServer.
 |http*:*-MetaAdServer^
@@ -1349,7 +1350,7 @@
 |http*:*^ads-type.
 |http*:*^ads-type^
 |http*:*^ads-type_
-|http*:*^ads.
+|http*:*^ads.$domain=~fandom.com
 |http*:*^ads.slot-
 |http*:*^ads.slot.
 |http*:*^ads.slot^
