@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-05-15 01:35:50
-! Version: 20190515013550
+! Last modified: 2019-05-15 03:27:47
+! Version: 20190515032747
 ! Expires: 3 hours
-! Number of filters: 15761
+! Number of filters: 15763
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -5641,7 +5641,6 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||2daytrendingnews.com^$important
 ||2e91ddf5f5cc6dbfef88.date^$important
 ||2go7v1nes8.com^$important
-||2go7v1nes8.com^$important
 ||2mdn.net^$important
 ||2xclick.ru^$important
 ||30dfa2c5b2c5ca53ee73.date^$important
@@ -7678,6 +7677,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||exosrv.com^$important
 ||expligaining.pro^$important
 ||exponential.com^$important
+||expose.uzone.id^$important
 ||exposebox.com^$important
 ||exqaxblsmev.com^$important
 ||exsuqfxv.bid^$important
@@ -8788,7 +8788,6 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||hqsgnzvjkyog.com^$important
 ||hqsxomhxwhpq.com^$important
 ||hqtlbsglscrju.com^$important
-||hqtlbsglscrju.com^$important
 ||hqtrxzcjjjj.com^$important
 ||hqtvvfqmfykcrs.com^$important
 ||hquijlndtd.com^$important
@@ -9532,7 +9531,6 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||johonmtpyv.com^$important
 ||jollqxplkz.bid^$important
 ||jomys.xyz^$important
-||jomys.xyz^$important
 ||jomznuefrw.com^$important
 ||joqnoyniblzm.com^$important
 ||joqpatxugyug.com^$important
@@ -9759,6 +9757,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||keellcvwpzgj.com^$important
 ||kelris.pw^$important
 ||kelsaurt.com^$important
+||kendedes.uzone.id^$important
 ||keolqzbmsuykwi.bid^$important
 ||keqi7dh3df.com^$important
 ||keqnebfovnhl.com^$important
@@ -10562,6 +10561,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||menjyhvs.bid^$important
 ||mercadoclics.com^$important
 ||mercadolibre.com/tracks^$important,xmlhttprequest
+||mercusuar.uzone.id^$important
 ||mesiniklan.andipublisher.com^$important
 ||meucixmdhuqq.bid^$important
 ||meuxestvodec.bid^$important
@@ -13596,6 +13596,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||uceqxvjwnxksdq.bid^$important
 ||ucflpjvvyaww.bid^$important
 ||ucfwicndme.com^$important
+||ucheephu.com^$important
 ||uchiytqiuir.com^$important
 ||ucikujit.bid^$important
 ||uclftpjqdnvvz.bid^$important
@@ -13803,6 +13804,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||usclxdvvvnkdrv.com^$important
 ||uscvlpjeaggyq.com^$important
 ||usdlgonjnzpu.com^$important
+||usearch.co.id^$important
 ||usfakdxuo.bid^$important
 ||usfmamdapvmfs.com^$important
 ||usfmwydo.com^$important
