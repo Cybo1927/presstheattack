@@ -14,6 +14,7 @@
 ||nytimes.com^*/data-layer?$important,xmlhttprequest
 ||perr.h-cdn.com^$important,xmlhttprequest
 ||pipe.aria.microsoft.com/collector^$important,xmlhttprequest
+||reddit.com/*/sidebar_ads$xmlhttprequest,important
 ||reddit.com/timings/$important,xmlhttprequest
 ||search.1und1.de/uns/amazon?$important,xmlhttprequest
 ||sentry.io/api/*/store/^$important,xmlhttprequest
