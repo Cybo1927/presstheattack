@@ -1,4 +1,5 @@
 /^https?:\/\/2ch\.(hk|pm|re|tf|wf|yt)\/(images|banners?)\//$image,important
+/^https?:\/\/.*(\W|\_)bann?ers?((\W|\_).*?)?\.gif/$image,important
 |http*:*/1x1.gif$image,important
 |http*:*/1x1.png$image,important
 |http*:*/2x2.png$image,important
