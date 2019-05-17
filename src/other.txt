@@ -399,6 +399,10 @@
 |http*:*-metrika.
 |http*:*-metrika^
 |http*:*-metrika_
+|http*:*-mistats-
+|http*:*-mistats.
+|http*:*-mistats^
+|http*:*-mistats_
 |http*:*-mtrcs-
 |http*:*-mtrcs.
 |http*:*-mtrcs^
@@ -1008,6 +1012,10 @@
 |http*:*.metrika.
 |http*:*.metrika^
 |http*:*.metrika_
+|http*:*.mistats-
+|http*:*.mistats.
+|http*:*.mistats^
+|http*:*.mistats_
 |http*:*.mtrcs-
 |http*:*.mtrcs.
 |http*:*.mtrcs^
@@ -1629,6 +1637,10 @@
 |http*:*^metrika.$domain=~metrika.yandex.ru|~webvisor.com|~metrika.yandex.com|~metrica.yandex.com|~metrica.yandex.ru
 |http*:*^metrika^$domain=~metrika.yandex.ru|~webvisor.com|~metrika.yandex.com|~metrica.yandex.com|~metrica.yandex.ru
 |http*:*^metrika_
+|http*:*^mistats-
+|http*:*^mistats.
+|http*:*^mistats^
+|http*:*^mistats_
 |http*:*^mtrcs-
 |http*:*^mtrcs.
 |http*:*^mtrcs^
@@ -2209,7 +2221,7 @@
 |http*:*_jstatphp.
 |http*:*_jstatphp^
 |http*:*_jstatphp_
-|http*:*_log-
+|http*:*_log-$domain=~zonammorpg.com
 |http*:*_log.
 |http*:*_log^$domain=~github.com
 |http*:*_log_$domain=~facebook.com|~facebookcorewwwi.onion
@@ -2237,6 +2249,10 @@
 |http*:*_metrika.
 |http*:*_metrika^
 |http*:*_metrika_
+|http*:*_mistats-
+|http*:*_mistats.
+|http*:*_mistats^
+|http*:*_mistats_
 |http*:*_mtrcs-
 |http*:*_mtrcs.
 |http*:*_mtrcs^
