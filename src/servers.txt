@@ -11,6 +11,7 @@
 /^https?:\/\/zmctrack\.(com|net)/$important
 ||00f31156f051fdf.com^$important
 ||1-1ads.com^$important
+||1.fembed.com^$important
 ||1cb70f6b7aab4c70819a.date^$important
 ||1fbaa223d6945621f8d7.date^$important
 ||2d7bd9e6eb370143.com^$important
@@ -22,6 +23,7 @@
 ||3b9eb5ed04721bef.com^$important
 ||3da86d9fe797f228.com^$important
 ||3lift.com^$important
+||5nt1gx7o57.com^$important
 ||7fkm2r4pzi.com^$important
 ||7hor9gul4s.com^$important
 ||7hu8e1u001.com^$important
@@ -34,6 +36,7 @@
 ||41df76c67812005c.com^$important
 ||43acc8130d31cfd61041.date^$important
 ||47f624b2e6c6072e.com^$important
+||69i.club^$important
 ||69m.info^$important
 ||69v.club^$important
 ||93c8c9a28e1db445.com^$important
@@ -784,6 +787,7 @@
 ||brealtime.com^$important
 ||brfyubakyg.com^$important
 ||brhkraeknmjk.com^$important
+||brilliantbc9.club^$important
 ||briqsnyafmmkxr.com^$important
 ||briqumvlvzshh.com^$important
 ||brjbzbxbcqjb.com^$important
@@ -2084,6 +2088,7 @@
 ||fdbrwxtm.com^$important
 ||fdbyfnpdcqc.bid^$important
 ||fddbdlolkxgc.com^$important
+||fderty.com^$important
 ||fdeuykfnpdy.com^$important
 ||fdfpnrhlckbmiz.bid^$important
 ||fdgxsvblervuss.bid^$important
@@ -2294,6 +2299,7 @@
 ||frefxzrmcdxdmi.com^$important
 ||frezshmura.bid^$important
 ||frfgfhzxtfvsp.com^$important
+||friendlybcs.pro^$important
 ||frkohfqkpwvvq.com^$important
 ||frlzxwxictmg.com^$important
 ||frmavvtkhi.bid^$important
@@ -3074,6 +3080,7 @@
 ||hpwsosviqyjem.com^$important
 ||hpxbifcd.com^$important
 ||hpyqmmaxjrt.bid^$important
+||hpyue.com^$important
 ||hpzpjalq.bid^$important
 ||hqaajpaedpux.com^$important
 ||hqbphxpavrxry.com^$important
@@ -5094,7 +5101,6 @@
 ||muoiuxfj.com^$important
 ||muoyeoyymfwwp.bid^$important
 ||muqson0kgr.com^$important
-||muqson0kgr.com^$important
 ||muqyzjkamhpu.bid^$important
 ||musighkm.com^$important
 ||muwjxxvovtb.com^$important
@@ -7067,6 +7073,7 @@
 ||scgyndrujhzf.com^$important
 ||scjczeqyuqjs.com^$important
 ||sckpttzpnfimba.bid^$important
+||sckxppzdm.com^$important
 ||sckzvqadc.com^$important
 ||scofnjymyym.bid^$important
 ||scorecardresearch.com^$important
@@ -7680,6 +7687,7 @@
 ||trcrkykttaila.com^$important
 ||trdhjlszfbwk.com^$important
 ||trdmnpklszd.com^$important
+||trfmxt.com^$important
 ||trgdwwhaa.com^$important
 ||tricsdqejmu.com^$important
 ||trjmgercl.com^$important
@@ -7716,6 +7724,7 @@
 ||ttulyfbkatyzp.com^$important
 ||ttwiehwr.bid^$important
 ||ttxqfeuiakgn.bid^$important
+||ttxsrl105.agency^$important
 ||ttxsrl139.life^$important
 ||ttyvbqif.bid^$important
 ||tudsawhfmutb.bid^$important
@@ -7779,6 +7788,7 @@
 ||txgklvrqjfubzn.bid^$important
 ||txjzxbykbaflu.bid^$important
 ||txknowcznfp.bid^$important
+||txtfeed.club^$important
 ||txvivugnikdq.com^$important
 ||txvsifff.com^$important
 ||txvxzkwyelnvb.bid^$important

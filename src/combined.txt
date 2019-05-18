@@ -14,6 +14,8 @@
 |http*:*/a/display.php^$important,script,xmlhttprequest,subdocument
 |http*:*/aff_i?offer_id=$important,script,xmlhttprequest,image
 |http*:*/amp.gif$image,important,xmlhttprequest
+|http*:*/in.php?*&referer=$important,script,xmlhttprequest
+|http*:*/bn.php?s=$important,script,xmlhttprequest
 |http*:*/article/viewcount/$important,script,xmlhttprequest
 |http*:*/b/ss/*&ce=utf-8&$image,important,script,xmlhttprequest
 |http*:*/ban/json/*?*&subid=$important,image,script,xmlhttprequest
@@ -22,7 +24,7 @@
 |http*:*/code/bshow.php$important,script,xmlhttprequest
 |http*:*/col2/*&ss=$important,script,xmlhttprequest,image
 |http*:*/cookieid.htm$image,important,script,xmlhttprequest,subdocument
-|http*:*/dear_code/*/goclick?t=*&ref=$important,script,xmlhttprequest
+|http*:*/dear_code/*/goclick?t=*$important,script,xmlhttprequest
 |http*:*/dtm/*/satellitelib$important,script,xmlhttprequest
 |http*:*/entry_stats^$important,script,xmlhttprequest
 |http*:*/g00/*/tu9srvbirvvtocrodhrwoi8vy3ataw4ubmfub3zpc29ylmlvl2nsawvudhbyb2zpbgvyl2fkyj9pmtbjlm1hcmsuc2nyaxb0lnr5cgu%3d_$first-party,script,xmlhttprequest,other

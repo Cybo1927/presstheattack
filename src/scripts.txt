@@ -9,7 +9,7 @@
 /^https?:\/\/[^\s]+(\W|\_)g(tag|oogleads?|oogleanal(ytics?|yzer?)([0-9]{1})?|pt((\W|\_)mobile)?|tm|a((\W|\_)lite)?|a((\W|\_)setup)?|oogle(\W|\_)track(ers?|ing)?|oogletag|ads?|tagmanager((\W|\_)backend|track(ers?|ing)?event)?|oogle(\W|\_)stats?)\./$important,script
 /^https?:\/\/[^\s]+(\W|\_)kameleoon(\.min)?\.js/$important,script
 /^https?:\/\/[^\s]+(\W|\_)me([0-9]{1})?w\.js/$important,script
-/^https?:\/\/[^\s]+(\W|\_)metric[sa]?[^\s]+\.js/$script,important
+/^https?:\/\/[^\s]+(\W|\_)metric[sa]?(.*)?\.js/$important,script
 /^https?:\/\/[^\s]+(\W|\_)prebid([0-9]{1,2})?(\W|\_)/$important,script
 /^https?:\/\/[^\s]+(\W|\_)pubfig(\.min)?\.js/$important,script
 /^https?:\/\/[^\s]+(\W|\_)re[ck]lama?store\.js/$important,script
@@ -27,6 +27,7 @@
 |http*:*-vast-$script
 |http*:*-vast.$script
 |http*:*-vast^$script
+|http*:*/bens/vinos.js$important,script
 |http*:*-vast_$script
 |http*:*.coin-hive.js$important,script
 |http*:*.vast-$script
