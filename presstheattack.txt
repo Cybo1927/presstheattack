@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-05-18 00:43:03
-! Version: 20190518004303
+! Last modified: 2019-05-18 18:17:21
+! Version: 20190518181721
 ! Expires: 3 hours
-! Number of filters: 15794
+! Number of filters: 15807
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2802,7 +2802,7 @@
 /^https?:\/\/[^\s]+(\W|\_)g(tag|oogleads?|oogleanal(ytics?|yzer?)([0-9]{1})?|pt((\W|\_)mobile)?|tm|a((\W|\_)lite)?|a((\W|\_)setup)?|oogle(\W|\_)track(ers?|ing)?|oogletag|ads?|tagmanager((\W|\_)backend|track(ers?|ing)?event)?|oogle(\W|\_)stats?)\./$important,script
 /^https?:\/\/[^\s]+(\W|\_)kameleoon(\.min)?\.js/$important,script
 /^https?:\/\/[^\s]+(\W|\_)me([0-9]{1})?w\.js/$important,script
-/^https?:\/\/[^\s]+(\W|\_)metric[sa]?[^\s]+\.js/$script,important
+/^https?:\/\/[^\s]+(\W|\_)metric[sa]?(.*)?\.js/$important,script
 /^https?:\/\/[^\s]+(\W|\_)prebid([0-9]{1,2})?(\W|\_)/$important,script
 /^https?:\/\/[^\s]+(\W|\_)pubfig(\.min)?\.js/$important,script
 /^https?:\/\/[^\s]+(\W|\_)re[ck]lama?store\.js/$important,script
@@ -4168,10 +4168,12 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/ban/json/*?*&subid=$important,image,script,xmlhttprequest
 |http*:*/beacon.js$important,script
 |http*:*/bens/vinos.js$important,script
+|http*:*/bens/vinos.js$important,script
 |http*:*/bitcoincore/?ref=$important,script
 |http*:*/bk-coretag.js$important,script
 |http*:*/blank.gif$image,important
 |http*:*/blank.png$image,important
+|http*:*/bn.php?s=$important,script,xmlhttprequest
 |http*:*/bnr.php$important,script,xmlhttprequest
 |http*:*/boomerang*.js$important,script
 |http*:*/browsermine.js$important,script
@@ -4202,7 +4204,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/cryptocpu.js$important,script
 |http*:*/cryptonight.wasm$important,script
 |http*:*/dc_performance.js$important,script
-|http*:*/dear_code/*/goclick?t=*&ref=$important,script,xmlhttprequest
+|http*:*/dear_code/*/goclick?t=*$important,script,xmlhttprequest
 |http*:*/deepMiner.js$important,script
 |http*:*/deepMiner.min.js$important,script
 |http*:*/demandbase_*.js$important,script
@@ -4249,6 +4251,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/imlive.gif$image,important
 |http*:*/imp.gif$image,important
 |http*:*/imp?sid=$important,image,script,xmlhttprequest
+|http*:*/in.php?*&referer=$important,script,xmlhttprequest
 |http*:*/in.php?p=$important,script,xmlhttprequest
 |http*:*/invoke.js$important,script
 |http*:*/iqadcontroller.$important,script
@@ -5650,6 +5653,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*://xml*/redirect^$important
 ||00f31156f051fdf.com^$important
 ||1-1ads.com^$important
+||1.fembed.com^$important
 ||1063bac0d855f4e67bd4.date^$important
 ||14e6e1ee3d7236d41431.date^$important
 ||197c3b10bab3c1.com^$important
@@ -5678,7 +5682,9 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||47f624b2e6c6072e.com^$important
 ||555dfbd5425347beab45.date^$important
 ||564d28256cddaeba.com^$important
+||5nt1gx7o57.com^$important
 ||6868bbe42af8e518.com^$important
+||69i.club^$important
 ||69m.info^$important
 ||69v.club^$important
 ||713b037362f02.com^$important
@@ -6449,6 +6455,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||brealtime.com^$important
 ||brfyubakyg.com^$important
 ||brhkraeknmjk.com^$important
+||brilliantbc9.club^$important
 ||briqsnyafmmkxr.com^$important
 ||briqumvlvzshh.com^$important
 ||brjbzbxbcqjb.com^$important
@@ -7777,6 +7784,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||fdbrwxtm.com^$important
 ||fdbyfnpdcqc.bid^$important
 ||fddbdlolkxgc.com^$important
+||fderty.com^$important
 ||fdeuykfnpdy.com^$important
 ||fdfpnrhlckbmiz.bid^$important
 ||fdgxsvblervuss.bid^$important
@@ -7989,6 +7997,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||frefxzrmcdxdmi.com^$important
 ||frezshmura.bid^$important
 ||frfgfhzxtfvsp.com^$important
+||friendlybcs.pro^$important
 ||frkohfqkpwvvq.com^$important
 ||frlzxwxictmg.com^$important
 ||frmavvtkhi.bid^$important
@@ -8798,6 +8807,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||hpwsosviqyjem.com^$important
 ||hpxbifcd.com^$important
 ||hpyqmmaxjrt.bid^$important
+||hpyue.com^$important
 ||hpzpjalq.bid^$important
 ||hqaajpaedpux.com^$important
 ||hqbphxpavrxry.com^$important
@@ -10830,7 +10840,6 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||muoiuxfj.com^$important
 ||muoyeoyymfwwp.bid^$important
 ||muqson0kgr.com^$important
-||muqson0kgr.com^$important
 ||muqyzjkamhpu.bid^$important
 ||musighkm.com^$important
 ||muwjxxvovtb.com^$important
@@ -12819,6 +12828,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||scgyndrujhzf.com^$important
 ||scjczeqyuqjs.com^$important
 ||sckpttzpnfimba.bid^$important
+||sckxppzdm.com^$important
 ||sckzvqadc.com^$important
 ||scofnjymyym.bid^$important
 ||scontent.xx.fbcdn.net/hads-ak-prn*/*.png$image,important
@@ -13451,6 +13461,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||trcrkykttaila.com^$important
 ||trdhjlszfbwk.com^$important
 ||trdmnpklszd.com^$important
+||trfmxt.com^$important
 ||trgdwwhaa.com^$important
 ||tricsdqejmu.com^$important
 ||tripadvisor.com/GARecord$xmlhttprequest,important
@@ -13488,6 +13499,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||ttulyfbkatyzp.com^$important
 ||ttwiehwr.bid^$important
 ||ttxqfeuiakgn.bid^$important
+||ttxsrl105.agency^$important
 ||ttxsrl139.life^$important
 ||ttyvbqif.bid^$important
 ||tudsawhfmutb.bid^$important
@@ -13555,6 +13567,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||txgklvrqjfubzn.bid^$important
 ||txjzxbykbaflu.bid^$important
 ||txknowcznfp.bid^$important
+||txtfeed.club^$important
 ||txvivugnikdq.com^$important
 ||txvsifff.com^$important
 ||txvxzkwyelnvb.bid^$important
