@@ -15,6 +15,7 @@
 ||1.fembed.com^$important
 ||1cb70f6b7aab4c70819a.date^$important
 ||1fbaa223d6945621f8d7.date^$important
+||1xgzu.world^$important
 ||2d7bd9e6eb370143.com^$important
 ||2daytrendingnews.com^$important
 ||2e91ddf5f5cc6dbfef88.date^$important
@@ -24,6 +25,8 @@
 ||3b9eb5ed04721bef.com^$important
 ||3da86d9fe797f228.com^$important
 ||3lift.com^$important
+||4d2911e5a4e352.com^$important
+||4ukqzi8d7l.com^$important
 ||5nt1gx7o57.com^$important
 ||7fkm2r4pzi.com^$important
 ||7hor9gul4s.com^$important
@@ -41,6 +44,8 @@
 ||197c3b10bab3c1.com^$important
 ||280asnlnr7.com^$important
 ||360direct.click^$important
+||379bd258b1.com^$important
+||550b3ikb9j.com^$important
 ||555dfbd5425347beab45.date^$important
 ||564d28256cddaeba.com^$important
 ||713b037362f02.com^$important
@@ -72,6 +77,7 @@
 ||aaxads.com^$important
 ||aayaknbn.com^$important
 ||aazwugtom.com^$important
+||ab23e84117d41e7.com^$important
 ||abaujsqnndg.bid^$important
 ||abbahoxgss.com^$important
 ||abbowtxibib.com^$important
@@ -167,6 +173,7 @@
 ||advertising.com^$important
 ||advertnative.com^$important
 ||advertserve.com^$important
+||advg.agency^$important
 ||advideo.ru^$important
 ||advmaiotg.com^$important
 ||adwidgets.ru^$important
@@ -974,6 +981,7 @@
 ||cewegncr.com^$important
 ||cewviaslxyyr.com^$important
 ||ceywprmvjy.com^$important
+||cf933995ba2d.com^$important
 ||cfdmkifknsjt.com^$important
 ||cfhkiriics.com^$important
 ||cfnumapv.com^$important
@@ -1703,6 +1711,7 @@
 ||eca1d7792ad5de43.com^$important
 ||ecboxijnmh.com^$important
 ||eccsyytbe.bid^$important
+||ecd7735cffdc3.com^$important
 ||ecflhhxp.bid^$important
 ||ectbduztanog.com^$important
 ||ectxnsxezdg.com^$important
@@ -1722,6 +1731,7 @@
 ||edxosrcvydn.com^$important
 ||edxvyyywsxqh.com^$important
 ||edyjiqxeppjkj.com^$important
+||eead2a8e78c.com^$important
 ||eeamatyc.com^$important
 ||eebrojmn.com^$important
 ||eecetnnsdz.bid^$important
@@ -2456,6 +2466,7 @@
 ||gabyuyxwcubwdp.com^$important
 ||gafoswegc.com^$important
 ||gahhlbxdgw.com^$important
+||game168.com.tw^$important
 ||gamescarousel.com^$third-party,important
 ||gaqhseuqp.com^$important
 ||gaxafjlxgoqfj.bid^$important
@@ -6736,6 +6747,7 @@
 ||reszkzmyzceve.com^$important
 ||revcontent.com^$important
 ||reviewnotifyfriends.info^$important
+||reyden-x.com^$important
 ||rezbzvrbemeb.bid^$important
 ||rezfubngrzdet.bid^$important
 ||reztksclx.com^$important
