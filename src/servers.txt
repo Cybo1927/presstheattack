@@ -1,3 +1,4 @@
+/^https:\/\/69([a-z]{1,2})\.([a-z]{4})/$important
 /^https?:\/\/([A-Za-z0-9]{3,}\.)?(([0-9]{1,2})?l\-hit|([0-9]{1,2})?l\-view|r([0-9]{1,2})?|rs|staging|(vk|stepan\-fe)\.go|reklama|ads?|recostream\.go|([^\s]{10,}\.)?top([0-9]{1}|\-(fwz([0-9]{1,2})?))?|mediator|[^\s]{3,}\.radar|g?stat|xray|t|fmdata)\.(imgs)?mail\.ru/$important
 /^https?:\/\/([A-Za-z0-9]{3,}\.)?(an|awaps|awsync|(rosenberg\.|report\.)?appmetrica|bs|direct|grade\.market|informer|kiks|clck|main\.zdevx|mc|yabs|zen|browser\-updater|bs\-meta|bann?ers?(\-slb)?\.mobile|(external\-promo\-|web\-)?metric[as]|startup(\-slb)?\.mobile|analytics?(\.mobile)?|adfox)\.yandex\.[A-Za-z.]{2,7}/$important,domain=~metrika.yandex.ru|~webvisor.com|~metrika.yandex.com|~metrica.yandex.com|~metrica.yandex.ru
 /^https?:\/\/([A-Za-z0-9]{3,}\.)?(id|gg|adservice|mobilecrashreporting|imasdk|tagmanager|analytics)\.google(apis)?\.[A-Za-z.]{2,7}/$important,domain=~analytics.google.com|~tagmanager.google.com
@@ -36,9 +37,6 @@
 ||41df76c67812005c.com^$important
 ||43acc8130d31cfd61041.date^$important
 ||47f624b2e6c6072e.com^$important
-||69i.club^$important
-||69m.info^$important
-||69v.club^$important
 ||93c8c9a28e1db445.com^$important
 ||197c3b10bab3c1.com^$important
 ||280asnlnr7.com^$important
