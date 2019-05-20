@@ -16,6 +16,7 @@
 ||1cb70f6b7aab4c70819a.date^$important
 ||1fbaa223d6945621f8d7.date^$important
 ||1xgzu.world^$important
+||1xuop.world^$important
 ||2d7bd9e6eb370143.com^$important
 ||2daytrendingnews.com^$important
 ||2e91ddf5f5cc6dbfef88.date^$important
@@ -154,6 +155,7 @@
 ||adsensecustomsearchads.com^$important
 ||adshost.site^$important
 ||adskeeper.co.uk^$important
+||adslop.com^$important
 ||adspsp.com^$important
 ||adsrvr.org^$important
 ||adstarsmedia.co.id^$important
@@ -603,6 +605,7 @@
 ||bekiruvppl.com^$important
 ||bektvxxfv.bid^$important
 ||bestdoctorstore.com^$important
+||betboom.club^$important
 ||betsonsport.ru^$important,third-party
 ||betweendigital.com^$important
 ||beufosew.bid^$important
@@ -1309,6 +1312,7 @@
 ||czuyzjyxlgirh.bid^$important
 ||czwdzqfnmzw.bid^$important
 ||czzzwuvvc.com^$important
+||d0f85db8ee56f5c6.com^$important
 ||d0p21g2fep.com^$important
 ||d4fed03105c9f65b.com^$important
 ||dable.io^$important

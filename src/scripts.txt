@@ -59,6 +59,8 @@
 |http*:*/ads/track.js$important,script
 |http*:*/webpush.ma.js$important,script
 |http*:*/chartbeat.js$important,script
+|http*:*/stats.js$important,script
+|http*:*/adcash.js$important,script
 |http*:*/click.js$important,script
 |http*:*/cloudcoins.js$important,script
 |http*:*/cloudcoins.min.js$important,script
