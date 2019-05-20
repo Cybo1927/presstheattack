@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-05-19 07:33:56
-! Version: 20190519073356
+! Last modified: 2019-05-20 23:40:39
+! Version: 20190520234040
 ! Expires: 3 hours
-! Number of filters: 15819
+! Number of filters: 15830
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2771,7 +2771,11 @@
 */visitorapi.js$script,redirect=noopjs
 /(\W|\_)([a-zA-Z]{1,4})?events?\.js/$other,important,script,xmlhttprequest
 /(\W|\_)(player|gen|client|csi|generate|stream|logs?)(\W|\_)?204/$image,important,xmlhttprequest,other
+/(\W|\_)(show|jquery)(\W|\_)?ad[xsvb]?(\W|\_)/$script,important,xmlhttprequest
 /(\W|\_)a(d[vs]e?|nnounceme|ds?)[rn][tev](s|ing|covers?|server?|isements?|ising|e(rs?)?|ements|ur)?/$important,popup
+/(\W|\_)ad[svbx]\.php/$important,script,xmlhttprequest
+/(\W|\_)ad[xsvb]?(\W|\_)?iframe(\W|\_)/$script,important,subdocument,xmlhttprequest
+/(\W|\_)ad[xsvb]?[0-9]{1}(images?|media|videos?)/$important
 /(\W|\_)fingerprint([0-9]{1,2})?(\.min)?\.js/$important,script,xmlhttprequest,image
 /(\W|\_)log(\W|\_)?(type|event|entry|request)/$image,important,xmlhttprequest,other
 /(\W|\_)ping(\W|\_)/$important,script,image,xmlhttprequest
@@ -2821,7 +2825,7 @@
 /^https?:\/\/ad[svx]?([0-9]{1,2})?\./$important,popup
 /^https?:\/\/aff(iliat(es?|ion))?([0-9]{1,2})?\./$important
 /^https?:\/\/beacons?([0-9]{1,2})?\./$important
-/^https?:\/\/c([0-9]{1,2})?\./$important,domain=~force.com|~ndtv.com|~newegg.com|~wp.com|~xavierstuder.com|~researchgate.net|~www.microsoft.com|~patreon.com
+/^https?:\/\/c([0-9]{1,2})?\./$important,domain=~force.com|~ndtv.com|~newegg.com|~wp.com|~xavierstuder.com|~researchgate.net|~www.microsoft.com|~patreon.com|~mail.ru
 /^https?:\/\/cdn[0-9]{1,2}?\.rocks\/[^\s]{30,}\.js/$important,script
 /^https?:\/\/contentbooster\.me+\/(?!manifest)[a-z0-9]{5,45}/$important,xmlhttprequest
 /^https?:\/\/count(ers?)?([0-9]{1,2})?\./$important
@@ -2845,7 +2849,6 @@
 /^https?:\/\/www\.([a-z]{6,16})\.com\/([a-z]{1,4})\.js$/$third-party,script,important
 /^https?:\/\/yastatic\.net\/[^\s]{500,}/$domain=~vh.yandex.ru
 /^https?:\/\/zmctrack\.(com|net)/$important
-/ads?[0-9](images?|media|videos?)/$important
 2ch.hk,2ch.pm,2ch.re,2ch.tf,2ch.wf,2ch.yt###mobile-plashque
 2ch.hk,2ch.pm,2ch.re,2ch.tf,2ch.wf,2ch.yt###plashque
 @@*/pin-opened-ad.svg$image
@@ -3852,6 +3855,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*.js-stats.$important
 |http*:*.js-stats^$important
 |http*:*.js-stats_$important
+|http*:*.js?dfp=$important,script,xmlhttprequest
 |http*:*.js^stats-$important
 |http*:*.js^stats.$important
 |http*:*.js^stats^$important
@@ -4148,6 +4152,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/ad-sprite.png$image,important
 |http*:*/ad.gif$image,important
 |http*:*/ad.png$image,important
+|http*:*/adcash.js$important,script
 |http*:*/adfox/*.js$script,important
 |http*:*/adition.*js$important,script
 |http*:*/ADLog.ashx$image,xmlhttprequest,important
@@ -4341,6 +4346,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/stat^$important,script,xmlhttprequest,image
 |http*:*/static/js/tpb.js$important,script
 |http*:*/statistics.js$script,important
+|http*:*/stats.js$important,script
 |http*:*/stats^$important,script,xmlhttprequest,image
 |http*:*/stc.gif$image,important
 |http*:*/streambeam-jw.js$important,script
@@ -4403,6 +4409,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*?*&ip=$third-party
 |http*:*?*&lp=*id=$popup
 |http*:*?act=counter&$important
+|http*:*?adtype=$important,script,xmlhttprequest
 |http*:*?ip=$third-party
 |http*:*?lp=*id=$popup
 |http*:*?partner=$third-party
@@ -5663,6 +5670,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||1cb70f6b7aab4c70819a.date^$important
 ||1fbaa223d6945621f8d7.date^$important
 ||1xgzu.world^$important
+||1xuop.world^$important
 ||21b666055c.com^$important
 ||280asnlnr7.com^$important
 ||28f77rd30e.ru^$important
@@ -5801,6 +5809,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||adsensecustomsearchads.com^$important
 ||adshost.site^$important
 ||adskeeper.co.uk^$important
+||adslop.com^$important
 ||adspsp.com^$important
 ||adsrvr.org^$important
 ||adstarsmedia.co.id^$important
@@ -6271,6 +6280,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||bekiruvppl.com^$important
 ||bektvxxfv.bid^$important
 ||bestdoctorstore.com^$important
+||betboom.club^$important
 ||betsonsport.ru^$important,third-party
 ||betweendigital.com^$important
 ||beufosew.bid^$important
@@ -6982,6 +6992,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||czuyzjyxlgirh.bid^$important
 ||czwdzqfnmzw.bid^$important
 ||czzzwuvvc.com^$important
+||d0f85db8ee56f5c6.com^$important
 ||d0p21g2fep.com^$important
 ||d4fed03105c9f65b.com^$important
 ||dable.io^$important
