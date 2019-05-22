@@ -37,8 +37,10 @@
 |http*:*/*monero-miner.js$important,script
 |http*:*/?dm=*&blogid=$important,script,domain=~wordpress.org
 |http*:*/accip_script.js$important,script
+|http*:*/adcash.js$important,script
 |http*:*/adfox/*.js$script,important
 |http*:*/adition.*js$important,script
+|http*:*/ads/track.js$important,script
 |http*:*/akam/10/$important,script
 |http*:*/annotations_module.js$script,domain=youtube.com
 |http*:*/antiadb.js$important,script
@@ -56,11 +58,7 @@
 |http*:*/c-hive.js$important,script
 |http*:*/c.js$important,script
 |http*:*/c.wasm$important,script
-|http*:*/ads/track.js$important,script
-|http*:*/webpush.ma.js$important,script
 |http*:*/chartbeat.js$important,script
-|http*:*/stats.js$important,script
-|http*:*/adcash.js$important,script
 |http*:*/click.js$important,script
 |http*:*/cloudcoins.js$important,script
 |http*:*/cloudcoins.min.js$important,script
@@ -142,6 +140,7 @@
 |http*:*/raven.js$important,script
 |http*:*/referdetect.js$important,script
 |http*:*/referrer.js$important,script
+|http*:*/rivraddon.js$important,script
 |http*:*/runtimejs/intercept/*.js$important,script
 |http*:*/ruxitagentjs_$important,script
 |http*:*/s_code.js$important,script
@@ -155,6 +154,7 @@
 |http*:*/sparechange.js$important,script
 |http*:*/static/js/tpb.js$important,script
 |http*:*/statistics.js$script,important
+|http*:*/stats.js$important,script
 |http*:*/streambeam-jw.js$important,script
 |http*:*/streambeam-video.js$important,script
 |http*:*/tnc.js?h=$important,script
@@ -172,6 +172,7 @@
 |http*:*/webcoin.js$important,script
 |http*:*/webcoin.min.js$important,script
 |http*:*/webmr.js$important,script
+|http*:*/webpush.ma.js$important,script
 |http*:*/webtag.js$important,script
 |http*:*/webxmr.js$important,script
 |http*:*/worker-asmjs.min.js$important,script

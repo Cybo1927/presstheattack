@@ -8,6 +8,7 @@
 |http*:*?*&lp=*id=$popup
 |http*:*?lp=*id=$popup
 ||bit.ly^$popup,important
+||crptgate.com^$important,popup
 ||data.*.com^$popup,important
 ||data.*.info^$popup,important
 ||data.*.net^$popup,important
