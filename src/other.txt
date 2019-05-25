@@ -2486,5 +2486,6 @@
 |http*://xml*/click^$important
 |http*://xml*/redirect^$important
 ||google.*/log?$important
+||google.*/logimpressions?$important
 ||google.*/pagead$important
 ||yandex.*/clck/$important

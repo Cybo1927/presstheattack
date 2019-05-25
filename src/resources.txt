@@ -12,7 +12,6 @@
 */visitorapi.js$script,redirect=noopjs
 google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 kinopoisk.ru##+js(abort-on-property-read.js, advBlock)
-kinopoisk.ru##+js(cookie-remover.js, /^blcrm|^bltsr|^cmtchd|^crookie|^kpunk|^yandex_plus_metrika_cookie)
 kinopoisk.ru##^script:has-text(window.Metrika)
 otvet.mail.ru##^script:has-text(adblock)
 rambler.ru##^script:has-text((Number,)

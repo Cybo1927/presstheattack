@@ -1,3 +1,4 @@
+/(\W|\_)dfp(\W|\_)?.*?\.js/$script,important
 /^https:\/\/.*?\/v2\/0\/[a-zA-Z0-9_-]{30,}$/$important,script,third-party
 /^https?:\/\/([0-9a-z\-]+\.)?(9anime|animeland|animenova|animeplus|animetoon|animewow|gamestorrent|goodanime|gogoanime|igg-games|kimcartoon|memecenter|readcomiconline|toonget|toonova|watchcartoononline)\.[a-z]{2,4}\/(?!([Ee]xternal|[Ii]mages|[Ss]cripts|[Uu]ploads|ac|ajax|assets|combined|content|cov|cover|(img\/bg)|(img\/icon)|inc|jwplayer|player|playlist-cat-rss|static|thumbs|wp-content|wp-includes)\/)(.*)/$important,first-party,script,domain=~animeland.hu|~memecenter.fr
 /^https?:\/\/([a-z0-9]{3,10}\.)?[a-z0-9]{5,15}\.(click|com|bid|net|online|top|club)\/([a-z0-9]{2}\/){3}[a-f0-9]{32}\.js$/$important,script
@@ -41,6 +42,7 @@
 |http*:*/adfox/*.js$script,important
 |http*:*/adition.*js$important,script
 |http*:*/ads/track.js$important,script
+|http*:*/adsdk.js$important,script
 |http*:*/akam/10/$important,script
 |http*:*/annotations_module.js$script,domain=youtube.com
 |http*:*/antiadb.js$important,script
@@ -85,6 +87,7 @@
 |http*:*/endscreen.js$script,domain=youtube.com
 |http*:*/flyertown_module.js$important,script
 |http*:*/fp/check.js$important,script
+|http*:*/ga_setup.js$important,script
 |http*:*/geo?$script
 |http*:*/glb-pv-min.js$important,script
 |http*:*/glp?r=*&rw=*&rh=*&ww=*&wh=$important,script
