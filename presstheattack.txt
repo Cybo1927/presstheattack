@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-05-26 10:24:10
-! Version: 20190526102410
+! Last modified: 2019-05-29 09:22:33
+! Version: 20190529092233
 ! Expires: 3 hours
-! Number of filters: 15857
+! Number of filters: 15867
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2772,6 +2772,7 @@
 /(\W|\_)([a-zA-Z]{1,4})?events?\.js/$other,important,script,xmlhttprequest
 /(\W|\_)(player|gen|client|csi|generate|stream|logs?)(\W|\_)?204/$image,important,xmlhttprequest,other
 /(\W|\_)(show|jquery)(\W|\_)?ad[xsvb]?(\W|\_)/$script,important,xmlhttprequest
+/(\W|\_)[0-9]{1,2}ads\.gif/$image,important,script
 /(\W|\_)a(d[vs]e?|nnounceme|ds?)[rn][tev](s|ing|covers?|server?|isements?|ising|e(rs?)?|ements|ur)?/$important,popup
 /(\W|\_)ad[svbx]\.php/$important,script,xmlhttprequest
 /(\W|\_)ad[xsvb]?(\W|\_)?iframe(\W|\_)/$script,important,subdocument,xmlhttprequest
@@ -4142,13 +4143,16 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/1x1.gif$image,important
 |http*:*/1x1.png$image,important
 |http*:*/2x2.png$image,important
+|http*:*/300x250_$image,important
 |http*:*/32x32.gif$image,important
 |http*:*/32x32.png$image,important
 |http*:*/3x2.gif$image,important
 |http*:*/3x2.png$image,important
+|http*:*/728x90_$image,important
 |http*:*/?dm=*&blogid=$important,script,domain=~wordpress.org
 |http*:*/?ip=*&zoneid=$important,popup
 |http*:*/a/display.php^$important,script,xmlhttprequest,subdocument
+|http*:*/abppx-*.gif$image,important
 |http*:*/accip_script.js$important,script
 |http*:*/ad-sprite.png$image,important
 |http*:*/ad.gif$image,important
@@ -4232,6 +4236,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/fp/check.js$important,script
 |http*:*/fpn.gif$image,important
 |http*:*/g00/*/tu9srvbirvvtocrodhrwoi8vy3ataw4ubmfub3zpc29ylmlvl2nsawvudhbyb2zpbgvyl2fkyj9pmtbjlm1hcmsuc2nyaxb0lnr5cgu%3d_$first-party,script,xmlhttprequest,other
+|http*:*/ga/yap.js$important,script
 |http*:*/ga_setup.js$important,script
 |http*:*/gb.gif$image,important
 |http*:*/geo?$script
@@ -4241,8 +4246,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/glb-pv-min.js$important,script
 |http*:*/glp?r=*&rw=*&rh=*&ww=*&wh=$important,script
 |http*:*/google-conversion.html$important,subdocument
-|http*:*/greenoaks.gif$image,important
-|http*:*/greenoaks.gif$image,important
+|http*:*/greenoaks.gif$image,important,other
 |http*:*/gridcash.js$important,script
 |http*:*/gujAd.js$important,script
 |http*:*/hit.xiti$image,important
@@ -4315,6 +4319,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/promo-banner.js$important,script
 |http*:*/prum.$important,script
 |http*:*/publishertag.js$important,script
+|http*:*/push.js*utm_campaign=$important,script,xmlhttprequest
 |http*:*/pv.gif$image,important
 |http*:*/pv.png$image,important
 |http*:*/pv?fe=*&elg=$important,script,xmlhttprequest,image
@@ -5676,6 +5681,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||1xgzu.world^$important
 ||1xndi.world^$important
 ||1xuop.world^$important
+||1xxwc.world^$important
 ||21b666055c.com^$important
 ||280asnlnr7.com^$important
 ||28f77rd30e.ru^$important
@@ -7879,7 +7885,6 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||fhgstzgrdhkah.bid^$important
 ||fhjciatocm.bid^$important
 ||fhluqrhmqs.com^$important
-||fhluqrhmqs.com^$important
 ||fhlzfxxnqc.com^$important
 ||fhqornueunf.com^$important
 ||fhsohqtif.com^$important
@@ -8183,7 +8188,6 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||g36525192.com^$important
 ||g383912402.com^$important
 ||g3938452447.com^$important
-||g4058683381.com^$important
 ||g4058683381.com^$important
 ||gaaprokoduuyyn.bid^$important
 ||gabyuyxwcubwdp.com^$important
@@ -8648,6 +8652,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||hcycanmscyg.com^$important
 ||hcyqwhquqjosn.com^$important
 ||hcyxksgsxnzb.com^$important
+||hd149026b.com^$important
 ||hdcfyrzx.com^$important
 ||hddgigiwip.bid^$important
 ||hddzzizitskc.com^$important
@@ -11014,6 +11019,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||ndxidnvvyvwx.com^$important
 ||ndxtyryloc.com^$important
 ||neaozrrjd.com^$important
+||neatdude.cool^$important
 ||neddwrmmced.bid^$important
 ||nedmppiilnld.com^$important
 ||neecnuaa.com^$important
@@ -13073,6 +13079,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||sphjqakwuteg.com^$important
 ||splityndomets.pro^$important
 ||spomwstrgood.com^$important
+||spotxchange.com^$important
 ||spwssohsyqgq.com^$important
 ||sqcqnwykz.bid^$important
 ||sqmeqfffehg.bid^$important
@@ -13294,6 +13301,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||tektbzadrceqje.com^$important
 ||tepazmynhvo.com^$important
 ||teqceeivmpvv.com^$important
+||tertwronletarfi.pro^$important
 ||tevrzjuymzxpk.bid^$important
 ||tewoutrepozv.bid^$important
 ||tewycnrhnv.com^$important
@@ -14157,6 +14165,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||vhiuhrwapdirpu.com^$important
 ||vhjgxutx.bid^$important
 ||vhjygupbyf.bid^$important
+||vhldwuv6om.com^$important
 ||vhlnpaaxxxz.com^$important
 ||vhlsrzyt.bid^$important
 ||vhpqxkhvjgwx.com^$important
@@ -14933,6 +14942,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||xjompsubsozc.com^$important
 ||xjrjgfns.bid^$important
 ||xjsqhlfscjxo.com^$important
+||xjuljbjlbb.com^$important
 ||xjvjhqkmmst.bid^$important
 ||xjwtyrklinni.com^$important
 ||xjzqmgyr.com^$important
