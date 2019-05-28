@@ -1,6 +1,7 @@
 /(\W|\_)([a-zA-Z]{1,4})?events?\.js/$other,important,script,xmlhttprequest
 /(\W|\_)(player|gen|client|csi|generate|stream|logs?)(\W|\_)?204/$image,important,xmlhttprequest,other
 /(\W|\_)(show|jquery)(\W|\_)?ad[xsvb]?(\W|\_)/$script,important,xmlhttprequest
+/(\W|\_)[0-9]{1,2}ads\.gif/$image,important,script
 /(\W|\_)ad[svbx]\.php/$important,script,xmlhttprequest
 /(\W|\_)ad[xsvb]?(\W|\_)?iframe(\W|\_)/$script,important,subdocument,xmlhttprequest
 /(\W|\_)fingerprint([0-9]{1,2})?(\.min)?\.js/$important,script,xmlhttprequest,image
@@ -33,12 +34,14 @@
 |http*:*/error/*.gif?msg=$image,important,script,xmlhttprequest
 |http*:*/g00/*/tu9srvbirvvtocrodhrwoi8vy3ataw4ubmfub3zpc29ylmlvl2nsawvudhbyb2zpbgvyl2fkyj9pmtbjlm1hcmsuc2nyaxb0lnr5cgu%3d_$first-party,script,xmlhttprequest,other
 |http*:*/get_site_data?*&href=$important,script,xmlhttprequest,popup
+|http*:*/greenoaks.gif$image,important,other
 |http*:*/imp?sid=$important,image,script,xmlhttprequest
 |http*:*/in.php?*&referer=$important,script,xmlhttprequest
 |http*:*/in.php?p=$important,script,xmlhttprequest
 |http*:*/js.gif$image,important,script,xmlhttprequest
 |http*:*/loadaudiencesegs^$important,script,xmlhttprequest
 |http*:*/mms/get_loaders$important,script,xmlhttprequest
+|http*:*/push.js*utm_campaign=$important,script,xmlhttprequest
 |http*:*/pv?fe=*&elg=$important,script,xmlhttprequest,image
 |http*:*/site=*/size=*/viewid=$image,important,script,xmlhttprequest
 |http*:*/stat^$important,script,xmlhttprequest,image

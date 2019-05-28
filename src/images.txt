@@ -6,6 +6,9 @@
 |http*:*/3x2.png$image,important
 |http*:*/32x32.gif$image,important
 |http*:*/32x32.png$image,important
+|http*:*/300x250_$image,important
+|http*:*/728x90_$image,important
+|http*:*/abppx-*.gif$image,important
 |http*:*/ad-sprite.png$image,important
 |http*:*/ad.gif$image,important
 |http*:*/ad.png$image,important
@@ -22,8 +25,6 @@
 |http*:*/event.png$image,important
 |http*:*/fpn.gif$image,important
 |http*:*/gb.gif$image,important
-|http*:*/greenoaks.gif$image,important
-|http*:*/greenoaks.gif$image,important
 |http*:*/hit.xiti$image,important
 |http*:*/horizon-pageview?$image
 |http*:*/img.aspx?q=$image,important

@@ -87,6 +87,7 @@
 |http*:*/endscreen.js$script,domain=youtube.com
 |http*:*/flyertown_module.js$important,script
 |http*:*/fp/check.js$important,script
+|http*:*/ga/yap.js$important,script
 |http*:*/ga_setup.js$important,script
 |http*:*/geo?$script
 |http*:*/glb-pv-min.js$important,script
