@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-05-29 09:22:33
-! Version: 20190529092233
+! Last modified: 2019-06-01 16:34:15
+! Version: 20190601163415
 ! Expires: 3 hours
-! Number of filters: 15867
+! Number of filters: 15876
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -5679,6 +5679,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||1cb70f6b7aab4c70819a.date^$important
 ||1fbaa223d6945621f8d7.date^$important
 ||1xgzu.world^$important
+||1xkeg.world^$important
 ||1xndi.world^$important
 ||1xuop.world^$important
 ||1xxwc.world^$important
@@ -5720,6 +5721,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||88461059da0a12ea.com^$important
 ||896a8dfd194005e2adea.date^$important
 ||93c8c9a28e1db445.com^$important
+||98bf9h8jbg.com^$important
 ||a.bf-tools.net/de/de.js$script,important
 ||a1a5ab31bcd1bc68.com^$important
 ||a2b108bd2461b12e.com^$important
@@ -6354,6 +6356,9 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||bictxzszwkwghn.com^$important
 ||bidswitch.net^$important
 ||biftbtajfs.bid^$important
+||bigdown10.icu^$important
+||bigdown34.life^$important
+||bigdown6.agency^$important
 ||bihzqdflxeelc.com^$important
 ||biijdpauyvf.com^$important
 ||bikuetrh.com^$important
@@ -6684,6 +6689,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||cfraazitu.com^$important
 ||cfsdtzggpcmr.com^$important
 ||cfskcqrwbog.com^$important
+||cfts1tifqr.com^$important
 ||cfvfjsobudwrsn.com^$important
 ||cfyvrgvopaejx.com^$important
 ||cfzskkkmjg.com^$important
@@ -6827,6 +6833,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||collamps.com^$important
 ||collector.githubapp.com^$image,important
 ||collector.schibsted.io^$important
+||com-mac-booster.live^$important
 ||commander1.com^$image,important
 ||connatix.com^$important
 ||connect.facebook.net^$third-party,important
@@ -7934,6 +7941,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||fkrrvhoierty.com^$important
 ||fkvjntfj.com^$important
 ||fkwwhndzjlqrm.com^$important
+||flash-searchfor-find.icu^$important
 ||flbecoidmt.com^$important
 ||flcfstbzncsim.com^$important
 ||fldlyzvhgjq.com^$important
@@ -11032,6 +11040,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||nemzdfjnyqy.bid^$important
 ||neopqlhmnow.bid^$important
 ||neschaypaxkk.com^$important
+||net-ce49.stream^$important
 ||networkad.net^$important
 ||newnyqfgkkjht.com^$important
 ||newrelic.com^$important
