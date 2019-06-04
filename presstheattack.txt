@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-06-01 16:34:15
-! Version: 20190601163415
+! Last modified: 2019-06-04 15:57:48
+! Version: 20190604155748
 ! Expires: 3 hours
-! Number of filters: 15876
+! Number of filters: 15897
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -4174,6 +4174,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/appmeasurement.js$important,script
 |http*:*/apstag.js$important,script
 |http*:*/article/viewcount/$important,script,xmlhttprequest
+|http*:*/atrk.gif$image,important
 |http*:*/atrk.js$important,script
 |http*:*/authedmine.min.js$important,script
 |http*:*/authedminer.js$important,script
@@ -4241,6 +4242,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/gb.gif$image,important
 |http*:*/geo?$script
 |http*:*/get_geoip?$important,xmlhttprequest
+|http*:*/get_links_*&zone=$important,script,xmlhttprequest
 |http*:*/get_site_data?*&href=$important,script,xmlhttprequest,popup
 |http*:*/GetAD.ashx$image,xmlhttprequest,important
 |http*:*/glb-pv-min.js$important,script
@@ -4973,7 +4975,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*^statistiques_
 |http*:*^stats-
 |http*:*^stats.$domain=~t-online.de
-|http*:*^stats^$domain=~analytics.google.com
+|http*:*^stats^$domain=~analytics.google.com|~filterlists.com
 |http*:*^stats_
 |http*:*^tag-user-
 |http*:*^tag-user.
@@ -5002,7 +5004,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*^track-$domain=~yandex.by|~yandex.ru|~yandex.ua
 |http*:*^track.$domain=~yandex.by|~yandex.ru|~yandex.ua
 |http*:*^track^$domain=~ivi.tv|~yandex.by|~yandex.ru|~yandex.ua|~spotify.com
-|http*:*^track_
+|http*:*^track_$domain=~filterlists.com
 |http*:*^trackad-
 |http*:*^trackad.
 |http*:*^trackad^
@@ -5676,6 +5678,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||1063bac0d855f4e67bd4.date^$important
 ||14e6e1ee3d7236d41431.date^$important
 ||197c3b10bab3c1.com^$important
+||1b8d89551340a.com^$important
 ||1cb70f6b7aab4c70819a.date^$important
 ||1fbaa223d6945621f8d7.date^$important
 ||1xgzu.world^$important
@@ -5706,6 +5709,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||43acc8130d31cfd61041.date^$important
 ||47f624b2e6c6072e.com^$important
 ||4d2911e5a4e352.com^$important
+||4fba771f87a0251.com^$important
 ||4ukqzi8d7l.com^$important
 ||550b3ikb9j.com^$important
 ||555dfbd5425347beab45.date^$important
@@ -5713,6 +5717,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||5nt1gx7o57.com^$important
 ||6868bbe42af8e518.com^$important
 ||713b037362f02.com^$important
+||75ce0f054e9abc.com^$important
 ||7667bab1751ff777.com^$important
 ||7fkm2r4pzi.com^$important
 ||7hor9gul4s.com^$important
@@ -5927,6 +5932,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||aiwhebey.com^$important
 ||aizopowmtnho.com^$important
 ||aj1110.online^$important
+||aj1616.online^$important
 ||ajaeihzlcwvn.com^$important
 ||ajfziqehnwvz.com^$important
 ||ajizjpjkrnh.com^$important
@@ -6054,6 +6060,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||appier.net^$important
 ||apple.com-fasting.live^$important
 ||apple.com-scan.live^$important
+||applicalled.club^$important
 ||aprddnfuzc.bid^$important
 ||apscxogwydnkx.com^$important
 ||apsntakwzycu.com^$important
@@ -6213,6 +6220,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||azroydhgqcfv.com^$important
 ||b13481647cf775c5.com^$important
 ||b1img.com^$important
+||b3f17a21a3d.com^$important
 ||b3z29k1uxb.com$important
 ||b3z29k1uxb.com^$important
 ||b4e12976c052bbd91c3e.date^$important
@@ -6357,6 +6365,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||bidswitch.net^$important
 ||biftbtajfs.bid^$important
 ||bigdown10.icu^$important
+||bigdown27.icu^$important
 ||bigdown34.life^$important
 ||bigdown6.agency^$important
 ||bihzqdflxeelc.com^$important
@@ -6612,6 +6621,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||bzsbtfiz.com^$important
 ||bzyrhqbdldds.com^$important
 ||c712236afa001382be31.date^$important
+||ca0fe9ab61.com^$important
 ||caajevalistl.com^$important
 ||caaqyzbpsbtk.com^$important
 ||cacpcaizwx.bid^$important
@@ -7188,6 +7198,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||dkvblgxkihtys.bid^$important
 ||dkvzpqcqan.com^$important
 ||dkxeorhjmua.com^$important
+||dl6pkf7e.ru^$important
 ||dlahijuwjsv.com^$important
 ||dlemeyrkjy.com^$important
 ||dlganxfc.bid^$important
@@ -7782,6 +7793,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||ezuereisgj.com^$important
 ||ezuosstmbcle.com^$important
 ||f3c1cc473b337ded.com^$important
+||f4ceb8490e0d.com^$important
 ||f53mbcg4ak.ru^$important
 ||f6be7033f30.com^$important
 ||fabrtgzehf.com^$important
@@ -8102,6 +8114,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||fuialqqq.com^$important
 ||fukchwgbsl.com^$important
 ||fukkzdxfyrchhc.com^$important
+||funysmile93.agency^$important
 ||fupgvldb.com^$important
 ||fuurqgbfhvqx.com^$important
 ||fuwgbbkktwbu.com^$important
@@ -9694,6 +9707,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||jujydhwftub.bid^$important
 ||jukdmqghgzb.bid^$important
 ||jumhqsxgnkuvfn.bid^$important
+||jumpringpring31.agency^$important
 ||junwkfyb.bid^$important
 ||juoyynafgp.bid^$important
 ||juqakqgv.com^$important
@@ -11797,6 +11811,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||piifwkvdil.com^$important
 ||piljbvnykkt.bid^$important
 ||pimygjumeyrtxe.com^$important
+||pinpupevent.com^$important
 ||pipe.aria.microsoft.com/collector^$important,xmlhttprequest
 ||piqvuvqc.com^$important
 ||pismvlkq.com^$important
@@ -12536,6 +12551,8 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||regqrfuvncqcm.com^$important
 ||reiqwxxd.com^$important
 ||rejbqhagczm.com^$important
+||reklamko.pro^$important
+||reklamtrk.com^$important
 ||rekovers.ru^$important
 ||relandssymphoking.info^$important
 ||relap.io^$important
@@ -13234,6 +13251,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||szynlslqxerx.com^$important
 ||szywarceqeo.com^$important
 ||szzxtanwoptm.bid^$important
+||t6yyk48.com^$important
 ||taboola.com^$important
 ||tadaeizih.com^$important
 ||tadkozdgbyw.com^$important
@@ -13243,6 +13261,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||tagcommander.com^$important
 ||tailtarget.com^$important
 ||take-the-bonus.biz^$important
+||takshop91.biz^$important
 ||taljdzwer.com^$important
 ||tamgrt.com^$important
 ||tammfmhtfhut.com^$important
@@ -15357,6 +15376,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||ylnmzwwc.com^$important
 ||yloidlvfhpkq.com^$important
 ||ylovduaeyeppl.com^$important
+||ylqbiljjlyq.com^$important
 ||ylqezcnlzfsj.com^$important
 ||ylsbuudmpiks.bid^$important
 ||ylziomazxhbj.com^$important
@@ -15623,6 +15643,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||zeokfeyraxls.com^$important
 ||zeuwuxfzvaoqp.bid^$important
 ||zevszinklxyf.com^$important
+||zewkj.com^$important
 ||zeyiihbqbswtn.bid^$important
 ||zezowfisdfyn.com^$important
 ||zfbnzfyciqzreh.com^$important
