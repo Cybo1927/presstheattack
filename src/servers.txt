@@ -14,6 +14,7 @@
 ||00f31156f051fdf.com^$important
 ||1-1ads.com^$important
 ||1.fembed.com^$important
+||1b8d89551340a.com^$important
 ||1cb70f6b7aab4c70819a.date^$important
 ||1fbaa223d6945621f8d7.date^$important
 ||1xgzu.world^$important
@@ -31,6 +32,7 @@
 ||3da86d9fe797f228.com^$important
 ||3lift.com^$important
 ||4d2911e5a4e352.com^$important
+||4fba771f87a0251.com^$important
 ||4ukqzi8d7l.com^$important
 ||5nt1gx7o57.com^$important
 ||7fkm2r4pzi.com^$important
@@ -45,6 +47,7 @@
 ||41df76c67812005c.com^$important
 ||43acc8130d31cfd61041.date^$important
 ||47f624b2e6c6072e.com^$important
+||75ce0f054e9abc.com^$important
 ||93c8c9a28e1db445.com^$important
 ||98bf9h8jbg.com^$important
 ||197c3b10bab3c1.com^$important
@@ -264,6 +267,7 @@
 ||aiwhebey.com^$important
 ||aizopowmtnho.com^$important
 ||aj1110.online^$important
+||aj1616.online^$important
 ||ajaeihzlcwvn.com^$important
 ||ajfziqehnwvz.com^$important
 ||ajizjpjkrnh.com^$important
@@ -378,6 +382,7 @@
 ||appier.net^$important
 ||apple.com-fasting.live^$important
 ||apple.com-scan.live^$important
+||applicalled.club^$important
 ||aprddnfuzc.bid^$important
 ||apscxogwydnkx.com^$important
 ||apsntakwzycu.com^$important
@@ -529,6 +534,7 @@
 ||azqmmfhmfnpsvb.bid^$important
 ||azroydhgqcfv.com^$important
 ||b1img.com^$important
+||b3f17a21a3d.com^$important
 ||b3z29k1uxb.com$important
 ||b3z29k1uxb.com^$important
 ||b4e12976c052bbd91c3e.date^$important
@@ -675,6 +681,7 @@
 ||biftbtajfs.bid^$important
 ||bigdown6.agency^$important
 ||bigdown10.icu^$important
+||bigdown27.icu^$important
 ||bigdown34.life^$important
 ||bihzqdflxeelc.com^$important
 ||biijdpauyvf.com^$important
@@ -927,6 +934,7 @@
 ||bzsbtfiz.com^$important
 ||bzyrhqbdldds.com^$important
 ||c712236afa001382be31.date^$important
+||ca0fe9ab61.com^$important
 ||caajevalistl.com^$important
 ||caaqyzbpsbtk.com^$important
 ||cacpcaizwx.bid^$important
@@ -1493,6 +1501,7 @@
 ||dkvblgxkihtys.bid^$important
 ||dkvzpqcqan.com^$important
 ||dkxeorhjmua.com^$important
+||dl6pkf7e.ru^$important
 ||dlahijuwjsv.com^$important
 ||dlemeyrkjy.com^$important
 ||dlganxfc.bid^$important
@@ -2070,6 +2079,7 @@
 ||ezuereisgj.com^$important
 ||ezuosstmbcle.com^$important
 ||f3c1cc473b337ded.com^$important
+||f4ceb8490e0d.com^$important
 ||f6be7033f30.com^$important
 ||f53mbcg4ak.ru^$important
 ||fabrtgzehf.com^$important
@@ -2386,6 +2396,7 @@
 ||fuialqqq.com^$important
 ||fukchwgbsl.com^$important
 ||fukkzdxfyrchhc.com^$important
+||funysmile93.agency^$important
 ||fupgvldb.com^$important
 ||fuurqgbfhvqx.com^$important
 ||fuwgbbkktwbu.com^$important
@@ -3945,6 +3956,7 @@
 ||jujydhwftub.bid^$important
 ||jukdmqghgzb.bid^$important
 ||jumhqsxgnkuvfn.bid^$important
+||jumpringpring31.agency^$important
 ||junwkfyb.bid^$important
 ||juoyynafgp.bid^$important
 ||juqakqgv.com^$important
@@ -6033,6 +6045,7 @@
 ||piifwkvdil.com^$important
 ||piljbvnykkt.bid^$important
 ||pimygjumeyrtxe.com^$important
+||pinpupevent.com^$important
 ||piqvuvqc.com^$important
 ||pismvlkq.com^$important
 ||pitduougk.com^$important
@@ -6766,6 +6779,8 @@
 ||regqrfuvncqcm.com^$important
 ||reiqwxxd.com^$important
 ||rejbqhagczm.com^$important
+||reklamko.pro^$important
+||reklamtrk.com^$important
 ||rekovers.ru^$important
 ||relandssymphoking.info^$important
 ||relap.io^$important
@@ -7442,6 +7457,7 @@
 ||szynlslqxerx.com^$important
 ||szywarceqeo.com^$important
 ||szzxtanwoptm.bid^$important
+||t6yyk48.com^$important
 ||taboola.com^$important
 ||tadaeizih.com^$important
 ||tadkozdgbyw.com^$important
@@ -7451,6 +7467,7 @@
 ||tagcommander.com^$important
 ||tailtarget.com^$important
 ||take-the-bonus.biz^$important
+||takshop91.biz^$important
 ||taljdzwer.com^$important
 ||tamgrt.com^$important
 ||tammfmhtfhut.com^$important
@@ -9539,6 +9556,7 @@
 ||ylnmzwwc.com^$important
 ||yloidlvfhpkq.com^$important
 ||ylovduaeyeppl.com^$important
+||ylqbiljjlyq.com^$important
 ||ylqezcnlzfsj.com^$important
 ||ylsbuudmpiks.bid^$important
 ||ylziomazxhbj.com^$important
@@ -9801,6 +9819,7 @@
 ||zeokfeyraxls.com^$important
 ||zeuwuxfzvaoqp.bid^$important
 ||zevszinklxyf.com^$important
+||zewkj.com^$important
 ||zeyiihbqbswtn.bid^$important
 ||zezowfisdfyn.com^$important
 ||zfbnzfyciqzreh.com^$important

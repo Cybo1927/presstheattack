@@ -33,6 +33,7 @@
 |http*:*/entry_stats^$important,script,xmlhttprequest
 |http*:*/error/*.gif?msg=$image,important,script,xmlhttprequest
 |http*:*/g00/*/tu9srvbirvvtocrodhrwoi8vy3ataw4ubmfub3zpc29ylmlvl2nsawvudhbyb2zpbgvyl2fkyj9pmtbjlm1hcmsuc2nyaxb0lnr5cgu%3d_$first-party,script,xmlhttprequest,other
+|http*:*/get_links_*&zone=$important,script,xmlhttprequest
 |http*:*/get_site_data?*&href=$important,script,xmlhttprequest,popup
 |http*:*/greenoaks.gif$image,important,other
 |http*:*/imp?sid=$important,image,script,xmlhttprequest

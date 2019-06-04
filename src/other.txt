@@ -1799,7 +1799,7 @@
 |http*:*^statistiques_
 |http*:*^stats-
 |http*:*^stats.$domain=~t-online.de
-|http*:*^stats^$domain=~analytics.google.com
+|http*:*^stats^$domain=~analytics.google.com|~filterlists.com
 |http*:*^stats_
 |http*:*^tag-user-
 |http*:*^tag-user.
@@ -1828,7 +1828,7 @@
 |http*:*^track-$domain=~yandex.by|~yandex.ru|~yandex.ua
 |http*:*^track.$domain=~yandex.by|~yandex.ru|~yandex.ua
 |http*:*^track^$domain=~ivi.tv|~yandex.by|~yandex.ru|~yandex.ua|~spotify.com
-|http*:*^track_
+|http*:*^track_$domain=~filterlists.com
 |http*:*^trackad-
 |http*:*^trackad.
 |http*:*^trackad^

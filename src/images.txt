@@ -15,6 +15,7 @@
 |http*:*/ads.gif$image,important
 |http*:*/ads.png$image,important
 |http*:*/adsct?$image,important
+|http*:*/atrk.gif$image,important
 |http*:*/blank.gif$image,important
 |http*:*/blank.png$image,important
 |http*:*/cc.gif$image,important
