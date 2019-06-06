@@ -35,6 +35,7 @@
 ||4fba771f87a0251.com^$important
 ||4ukqzi8d7l.com^$important
 ||5nt1gx7o57.com^$important
+||6eez7ouig7gwguf6.pro^$important
 ||7fkm2r4pzi.com^$important
 ||7hor9gul4s.com^$important
 ||7hu8e1u001.com^$important
@@ -308,12 +309,14 @@
 ||algrizej.com^$important
 ||alidnquxirv.bid^$important
 ||alikuvxxwy.com^$important
+||aliru1.ru^$important
 ||aljsuubo.com^$important
 ||alkagrkgvltzlk.com^$important
 ||allnvbtrtpku.com^$important
 ||alnisdrmhs.bid^$important
 ||alvdtjrb.com^$important
 ||alxetzfhlzekv.bid^$important
+||am15.net^$important
 ||amaecylce.com^$important
 ||amaqcgrrmedi.bid^$important
 ||amauzaqp.com^$important
@@ -405,6 +408,7 @@
 ||aqsijnkyauxur.bid^$important
 ||aqsuhqqgv.bid^$important
 ||aqtnrnuhqfaf.bid^$important
+||aqua1man.net^$important
 ||aquhcfvu.com^$important
 ||aqussxtpjfelp.com^$important
 ||aqyhsqhggq.com^$important
@@ -577,6 +581,7 @@
 ||bcgcvepi.com^$important
 ||bckmtidcnrobwh.bid^$important
 ||bckwfsvdgfjw.com^$important
+||bcloudhost.com^$important
 ||bcnhnekodmdniu.com^$important
 ||bcnikicdi.bid^$important
 ||bcoavtimgn.bid^$important
@@ -729,6 +734,7 @@
 ||bkvrdeiqtgan.bid^$important
 ||bkvwnbkq.com^$important
 ||bkxkodsmrnqd.com^$important
+||bl0uxepb4o.com^$important
 ||blcmacswwmqv.com^$important
 ||blgrwhaww.com^$important
 ||blkivkplpn.com^$important
@@ -1105,6 +1111,7 @@
 ||clhqmynew.bid^$important
 ||clickiocdn.com^$important
 ||clickmedia.co.id^$important
+||clickopop1000.com^$important
 ||clicktripz.com^$important
 ||clkkcokl.com^$important
 ||clksite.com^$important
@@ -1398,6 +1405,7 @@
 ||dehyogsjbk.bid^$important
 ||deiqehvcdnntg.com^$important
 ||delivery.vidible.tv^$important
+||deloplen.com^$important
 ||deloton.com^$important
 ||demandbase.com^$important
 ||demdex.net^$important
@@ -1706,6 +1714,7 @@
 ||dzyqqwixizp.com^$important
 ||dzzawlkmtvug.com^$important
 ||dzztjcbt.com^$important
+||e6cfmdmo81.com^$important
 ||e6081b73afec581f.com^$important
 ||e7393e33565ce805.com^$important
 ||eaaqsama.com^$important
@@ -2044,6 +2053,7 @@
 ||exkruwviyy.com^$important
 ||exmubrgt.bid^$important
 ||exnyzdboihvi.com^$important
+||exoclick.com^$important
 ||exosrv.com^$important
 ||expligaining.pro^$important
 ||exponential.com^$important
@@ -2549,6 +2559,7 @@
 ||genqrabot.com^$important
 ||geo.yahoo.com^$important
 ||getadmiral.com^$important
+||getclicky.com^$important
 ||getnewupdates.*^$important
 ||geudyhlxmbj.bid^$important
 ||gevrsbmqvp.bid^$important
@@ -3373,6 +3384,7 @@
 ||iftvlrkyvubnn.com^$important
 ||ifvgsekkvcc.bid^$important
 ||ifyngpctovtv.com^$important
+||ig0nr8hhhb.com^$important
 ||igawfxfnupeb.com^$important
 ||igbznxar.com^$important
 ||igfuvwscradtpu.bid^$important
@@ -3558,6 +3570,7 @@
 ||isggimkjabpa.com^$important
 ||ishdyglxfckw.com^$important
 ||ishwuhvow.bid^$important
+||iskkrmwivxfmdjwxme.bid^$important
 ||isnsgjhthhaqtu.com^$important
 ||ispaagigjygd.com^$important
 ||ispyveemlvygba.com^$important
@@ -3957,6 +3970,7 @@
 ||jukdmqghgzb.bid^$important
 ||jumhqsxgnkuvfn.bid^$important
 ||jumpringpring31.agency^$important
+||jumpringpring55.live^$important
 ||junwkfyb.bid^$important
 ||juoyynafgp.bid^$important
 ||juqakqgv.com^$important
@@ -5758,6 +5772,7 @@
 ||olxeziuke.com^$important
 ||omakfhugexq.com^$important
 ||omcozngvtyox.com^$important
+||omoukkkj.stream^$important
 ||ompzowzfwwfc.com^$important
 ||omqygrfokyxg.com^$important
 ||omshdahhtt.com^$important
@@ -5831,6 +5846,7 @@
 ||osewuwcdgfb.bid^$important
 ||osfipdgo.bid^$important
 ||osfxxqoy.com^$important
+||osny2p7a0k.com^$important
 ||osunrrhwhf.com^$important
 ||oszelwsbb.bid^$important
 ||otarrxci.bid^$important
@@ -6703,7 +6719,6 @@
 ||qzpzspna.bid^$important
 ||qzwhzahnieipgz.com^$important
 ||rabjkklvegagrn.com^$important
-||rackcdn.com^$important
 ||radbtqjfp.bid^$important
 ||rafvxnikmn.bid^$important
 ||rafymfnvvzqlp.com^$important
@@ -6774,6 +6789,7 @@
 ||recreativ.ru^$important
 ||reddit.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.reddit.com *.redditmedia.com *.redditstatic.com reddit-uploaded-media.s3-accelerate.amazonaws.com *.redd.it
 ||refatxhcuu.com^$important
+||refdomain3.xyz^$important
 ||regbigltd.bid^$important
 ||regqrfuvncqcm.com^$important
 ||reiqwxxd.com^$important
@@ -6894,6 +6910,7 @@
 ||rlszkjkcmjxd.com^$important
 ||rlxmbkwcyw.com^$important
 ||rlypbeouoxxw.com^$important
+||rmawm7mw.top^$important
 ||rmbilhzcytee.com^$important
 ||rmdzbqggjskv.com^$important
 ||rmeolnjxkgfe.com^$important
@@ -7370,6 +7387,7 @@
 ||stkrwlodjvl.bid^$important
 ||stlbmyezzth.bid^$important
 ||stompebi.link^$important
+||stoomeddert.info^$important
 ||stuthvygifup.com^$important
 ||stvayyokjvxnl.com^$important
 ||stwcozfiavhh.bid^$important
@@ -7441,7 +7459,9 @@
 ||syiwwswcbxk.bid^$important
 ||symydvmqjjp.com^$important
 ||sync.rambler.ru^$important
+||syndapop.com^$important
 ||syndication.twitter.com^$important
+||syndicpop.com^$important
 ||syrnujjldljl.com^$important
 ||sywyknkojoj.bid^$important
 ||syxcbevp.com^$important
@@ -9593,7 +9613,6 @@
 ||yoorjlleqtquez.bid^$important
 ||yoqvnnkdmqfk.com^$important
 ||yotube.com^$important
-||youjizz.com^$important
 ||youtube.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.ggpht.com *.googlevideo.com *.ytimg.com *.googleusercontent.com www.youtube.com *.google.com *.gstatic.com
 ||yovbkyylqlmkg.bid^$important
 ||yovqbcixogwc.com^$important
