@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-06-04 16:00:50
-! Version: 20190604160050
+! Last modified: 2019-06-06 23:29:02
+! Version: 20190606232902
 ! Expires: 3 hours
-! Number of filters: 15896
+! Number of filters: 15915
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2828,7 +2828,7 @@
 /^https?:\/\/ad[svx]?([0-9]{1,2})?\./$important,popup
 /^https?:\/\/aff(iliat(es?|ion))?([0-9]{1,2})?\./$important
 /^https?:\/\/beacons?([0-9]{1,2})?\./$important
-/^https?:\/\/c([0-9]{1,2})?\./$important,domain=~force.com|~ndtv.com|~newegg.com|~wp.com|~xavierstuder.com|~researchgate.net|~www.microsoft.com|~patreon.com|~mail.ru
+/^https?:\/\/c([0-9]{1,2})?\./$important,domain=~force.com|~ndtv.com|~newegg.com|~wp.com|~xavierstuder.com|~researchgate.net|~www.microsoft.com|~patreon.com|~mail.ru|~hqq.tv
 /^https?:\/\/cdn[0-9]{1,2}?\.rocks\/[^\s]{30,}\.js/$important,script
 /^https?:\/\/contentbooster\.me+\/(?!manifest)[a-z0-9]{5,45}/$important,xmlhttprequest
 /^https?:\/\/count(ers?)?([0-9]{1,2})?\./$important
@@ -5716,6 +5716,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||564d28256cddaeba.com^$important
 ||5nt1gx7o57.com^$important
 ||6868bbe42af8e518.com^$important
+||6eez7ouig7gwguf6.pro^$important
 ||713b037362f02.com^$important
 ||75ce0f054e9abc.com^$important
 ||7667bab1751ff777.com^$important
@@ -5975,12 +5976,14 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||alibaba.com/ts?$image,important
 ||alidnquxirv.bid^$important
 ||alikuvxxwy.com^$important
+||aliru1.ru^$important
 ||aljsuubo.com^$important
 ||alkagrkgvltzlk.com^$important
 ||allnvbtrtpku.com^$important
 ||alnisdrmhs.bid^$important
 ||alvdtjrb.com^$important
 ||alxetzfhlzekv.bid^$important
+||am15.net^$important
 ||amaecylce.com^$important
 ||amaqcgrrmedi.bid^$important
 ||amauzaqp.com^$important
@@ -6083,6 +6086,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||aqsijnkyauxur.bid^$important
 ||aqsuhqqgv.bid^$important
 ||aqtnrnuhqfaf.bid^$important
+||aqua1man.net^$important
 ||aquhcfvu.com^$important
 ||aqussxtpjfelp.com^$important
 ||aqyhsqhggq.com^$important
@@ -6262,6 +6266,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||bcgcvepi.com^$important
 ||bckmtidcnrobwh.bid^$important
 ||bckwfsvdgfjw.com^$important
+||bcloudhost.com^$important
 ||bcnhnekodmdniu.com^$important
 ||bcnikicdi.bid^$important
 ||bcoavtimgn.bid^$important
@@ -6416,6 +6421,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||bkvrdeiqtgan.bid^$important
 ||bkvwnbkq.com^$important
 ||bkxkodsmrnqd.com^$important
+||bl0uxepb4o.com^$important
 ||blcmacswwmqv.com^$important
 ||blgrwhaww.com^$important
 ||blkivkplpn.com^$important
@@ -6792,6 +6798,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||clhqmynew.bid^$important
 ||clickiocdn.com^$important
 ||clickmedia.co.id^$important
+||clickopop1000.com^$important
 ||clicktripz.com^$important
 ||clkkcokl.com^$important
 ||clksite.com^$important
@@ -7095,6 +7102,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||delivery.vidible.tv^$important
 ||deloplen.com/apu.php$script,redirect=noopjs
 ||deloplen.com/apu.php$xmlhttprequest,important,redirect=nooptext
+||deloplen.com^$important
 ||deloton.com^$important
 ||demandbase.com^$important
 ||demdex.net^$important
@@ -7417,6 +7425,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||dzzawlkmtvug.com^$important
 ||dzztjcbt.com^$important
 ||e6081b73afec581f.com^$important
+||e6cfmdmo81.com^$important
 ||e7393e33565ce805.com^$important
 ||eaaqsama.com^$important
 ||eabgoszdtq.com^$important
@@ -7758,6 +7767,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||exkruwviyy.com^$important
 ||exmubrgt.bid^$important
 ||exnyzdboihvi.com^$important
+||exoclick.com^$important
 ||exosrv.com^$important
 ||expligaining.pro^$important
 ||exponential.com^$important
@@ -8267,6 +8277,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||genqrabot.com^$important
 ||geo.yahoo.com^$important
 ||getadmiral.com^$important
+||getclicky.com^$important
 ||getnewupdates.*^$important
 ||geudyhlxmbj.bid^$important
 ||gevrsbmqvp.bid^$important
@@ -9121,6 +9132,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||iftvlrkyvubnn.com^$important
 ||ifvgsekkvcc.bid^$important
 ||ifyngpctovtv.com^$important
+||ig0nr8hhhb.com^$important
 ||igawfxfnupeb.com^$important
 ||igbznxar.com^$important
 ||igfuvwscradtpu.bid^$important
@@ -9309,6 +9321,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||isggimkjabpa.com^$important
 ||ishdyglxfckw.com^$important
 ||ishwuhvow.bid^$important
+||iskkrmwivxfmdjwxme.bid^$important
 ||isnsgjhthhaqtu.com^$important
 ||ispaagigjygd.com^$important
 ||ispyveemlvygba.com^$important
@@ -9708,6 +9721,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||jukdmqghgzb.bid^$important
 ||jumhqsxgnkuvfn.bid^$important
 ||jumpringpring31.agency^$important
+||jumpringpring55.live^$important
 ||junwkfyb.bid^$important
 ||juoyynafgp.bid^$important
 ||juqakqgv.com^$important
@@ -11520,6 +11534,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||olxeziuke.com^$important
 ||omakfhugexq.com^$important
 ||omcozngvtyox.com^$important
+||omoukkkj.stream^$important
 ||ompzowzfwwfc.com^$important
 ||omqygrfokyxg.com^$important
 ||omshdahhtt.com^$important
@@ -11593,6 +11608,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||osewuwcdgfb.bid^$important
 ||osfipdgo.bid^$important
 ||osfxxqoy.com^$important
+||osny2p7a0k.com^$important
 ||osunrrhwhf.com^$important
 ||oszelwsbb.bid^$important
 ||otarrxci.bid^$important
@@ -12471,7 +12487,6 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||qzpzspna.bid^$important
 ||qzwhzahnieipgz.com^$important
 ||rabjkklvegagrn.com^$important
-||rackcdn.com^$important
 ||radbtqjfp.bid^$important
 ||rafvxnikmn.bid^$important
 ||rafymfnvvzqlp.com^$important
@@ -12546,6 +12561,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||redditmedia.com/gtm/jail^$important,subdocument
 ||redditstatic.com/moat^$important,script
 ||refatxhcuu.com^$important
+||refdomain3.xyz^$important
 ||regbigltd.bid^$important
 ||regqrfuvncqcm.com^$important
 ||reiqwxxd.com^$important
@@ -12666,6 +12682,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||rlszkjkcmjxd.com^$important
 ||rlxmbkwcyw.com^$important
 ||rlypbeouoxxw.com^$important
+||rmawm7mw.top^$important
 ||rmbilhzcytee.com^$important
 ||rmdzbqggjskv.com^$important
 ||rmeolnjxkgfe.com^$important
@@ -13158,6 +13175,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||stkrwlodjvl.bid^$important
 ||stlbmyezzth.bid^$important
 ||stompebi.link^$important
+||stoomeddert.info^$important
 ||stripe.com/?event=$other,important,script,xmlhttprequest
 ||stuthvygifup.com^$important
 ||stvayyokjvxnl.com^$important
@@ -13235,7 +13253,9 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||syiwwswcbxk.bid^$important
 ||symydvmqjjp.com^$important
 ||sync.rambler.ru^$important
+||syndapop.com^$important
 ||syndication.twitter.com^$important
+||syndicpop.com^$important
 ||syrnujjldljl.com^$important
 ||sywyknkojoj.bid^$important
 ||syxcbevp.com^$important
@@ -15414,7 +15434,6 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||yoorjlleqtquez.bid^$important
 ||yoqvnnkdmqfk.com^$important
 ||yotube.com^$important
-||youjizz.com^$important
 ||youtube.com/api/stats^$image,important,xmlhttprequest,other
 ||youtube.com/get_midroll_info^$important,xmlhttprequest
 ||youtube.com/ptracking^$image,important
