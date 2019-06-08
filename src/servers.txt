@@ -2175,6 +2175,8 @@
 ||ffpkqjyvvneg.com^$important
 ||ffpnlrnmfyeqx.com^$important
 ||ffpyofnpq.com^$important
+||adsrv.eacdn.com^$important
+||trafforsrv.com^$important
 ||ffrsfowwxtlbu.com^$important
 ||ffvbcwueh.com^$important
 ||ffvghouburgijz.bid^$important

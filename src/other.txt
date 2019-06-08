@@ -2485,6 +2485,8 @@
 |http*://report-adv-to.^$important
 |http*://xml*/click^$important
 |http*://xml*/redirect^$important
+|http*://%22request_id%*%22idzone%$important
+|http*://&zoneid=*&ext=$important
 ||google.*/log?$important
 ||google.*/logimpressions?$important
 ||google.*/pagead$important
