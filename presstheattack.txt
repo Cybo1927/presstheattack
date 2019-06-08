@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-06-06 23:31:14
-! Version: 20190606233114
+! Last modified: 2019-06-08 21:00:25
+! Version: 20190608210025
 ! Expires: 3 hours
-! Number of filters: 15914
+! Number of filters: 15918
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -5667,6 +5667,8 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*_yads.
 |http*:*_yads^
 |http*:*_yads_
+|http*://%22request_id%*%22idzone%$important
+|http*://&zoneid=*&ext=$important
 |http*://report-ads-to.^$important
 |http*://report-adv-to.^$important
 |http*://xml*/click^$important
@@ -5832,6 +5834,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||adskeeper.co.uk^$important
 ||adslop.com^$important
 ||adspsp.com^$important
+||adsrv.eacdn.com^$important
 ||adsrvr.org^$important
 ||adstarsmedia.co.id^$important
 ||adswizz.com^$important
@@ -13557,6 +13560,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||tradelab.fr^$important
 ||trafficfactory.biz^$important
 ||trafficjunky.net^$important
+||trafforsrv.com^$important
 ||trbo.com^$important
 ||trbucgmbren.com^$important
 ||trcbxjusetvc.com^$important
