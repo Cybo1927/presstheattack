@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-06-09 19:26:54
-! Version: 20190609192654
+! Last modified: 2019-06-09 22:55:27
+! Version: 20190609225527
 ! Expires: 3 hours
-! Number of filters: 15918
+! Number of filters: 15910
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2822,6 +2822,7 @@
 /^https?:\/\/[^\s]+tags?\?id\=/$subdocument,important
 /^https?:\/\/[a-z0-9]+\.info/+[-a-z0-9_?&=]{9,}/$third-party,script,important
 /^https?:\/\/[a-z0-9]+\.info\/+[-a-z0-9_?&=]{9,}/$third-party,script,important
+/^https?:\/\/[a-z0-9]{4,12}\.(accountant|bid|cf|club|cricket|date|download|faith|fun|ga|gdn|gq|host|info|loan|men|ml|online|ovh|party|pro|pw|racing|review|rocks|science|site|space|stream|tk|top|trade|webcam|website|win|xyz|store|solutions|software|social|site|shop|services|sale|run|rip|reviews|restaurant|report|zone)\/[\w\/\-.+]{120,}/$third-party,subdocument,important
 /^https?:\/\/[a-z]{1}[0-9]{4}adserv\./$important
 /^https?:\/\/ad[bsxv]?([0-9]{1,2})?\./$important,domain=~ad.nl
 /^https?:\/\/ad[svx]?([0-9]{1,2})?\./$important,popup
@@ -2881,24 +2882,13 @@
 @@||yandex.st/swfobject/*^$script
 @@||yastatic.net/yandex-video-player-iframe-api-bundles^$subdocument
 google.*##+js(remove-attr.js, ping, div[class] > a[ping])
-kinopoisk.ru##+js(abort-on-property-read.js, advBlock)
-kinopoisk.ru##^script:has-text(window.Metrika)
-otvet.mail.ru##^script:has-text(adblock)
-rambler.ru##^script:has-text((Number,)
 reddit.com##.onboardingbar-body
 topsite.com###adchoices
 topsite.com##.ad
 topsite.com##.chitikaAdBlock
-twitch.tv##+js(twitch-videoad.js)
 twitter.com##[data-focusable="true"]:has-text(/Promoted|Gesponsert|Реклама/):not(:xpath(//span[contains(text(),'Реклама в Твиттере')]))
 twitter.com##[data-testid="trend"]:has-text(/Promoted|Gesponsert|Реклама/):xpath(..)
 twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/):xpath(..)
-yandex.by,yandex.ru,yandex.ua##+js(abort-on-property-read.js, advBlock)
-yandex.by,yandex.ru,yandex.ua##+js(cookie-remover.js, /yp|ys|yc|zm|yabs-sid|my|mda|spravka|^blcrm|^bltsr|^yabs|^YvUVZgzQ/)
-yandex.by,yandex.ru,yandex.ua##^script:has-text(AdvManager)
-yandex.by,yandex.ru,yandex.ua##^script:has-text(defaultMetrikaCounter)
-yandex.by,yandex.ru,yandex.ua##^script:has-text(devicePixelRatio)
-yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*%*.juicyads.$important,image,script,xmlhttprequest
 |http*:*&ad_*&idzone=$image,important,script,xmlhttprequest
 |http*:*-aclick-
@@ -4267,6 +4257,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 |http*:*/imp.gif$image,important
 |http*:*/imp?sid=$important,image,script,xmlhttprequest
 |http*:*/in.php?*&referer=$important,script,xmlhttprequest
+|http*:*/in.php?p=$image,xmlhttprequest,script,important
 |http*:*/in.php?p=$important,script,xmlhttprequest
 |http*:*/invoke.js$important,script
 |http*:*/iqadcontroller.$important,script
@@ -5790,6 +5781,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||adcloud.net^$important
 ||addesigner.com^$important
 ||addgfxnb.com^$important
+||addthis.com^$important,third-party
 ||adeyujimmmh.com^$important
 ||adf.ly^$important
 ||adflazz.com^$important
@@ -7102,8 +7094,6 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||dehyogsjbk.bid^$important
 ||deiqehvcdnntg.com^$important
 ||delivery.vidible.tv^$important
-||deloplen.com/apu.php$script,redirect=noopjs
-||deloplen.com/apu.php$xmlhttprequest,important,redirect=nooptext
 ||deloplen.com^$important
 ||deloton.com^$important
 ||demandbase.com^$important
@@ -7178,6 +7168,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||dinmbegj.bid^$important
 ||dipsbbygv.com^$important
 ||diqstzzbqin.bid^$important
+||disqus.com/api/*/listrelated.json$xmlhttprequest
 ||disqusads.com^$important
 ||districtm.io^$important
 ||ditouyldfqgt.com^$important
@@ -7260,8 +7251,6 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||dojmlztmbrvp.com^$important
 ||doksfyhdtqmipa.com^$important
 ||doljrizlsem.bid^$important
-||dolohen.com/apu.php$script,redirect=noopjs
-||dolohen.com/apu.php$xmlhttprequest,important,redirect=nooptext
 ||dolohen.com^$important
 ||domdtvbhgg.com^$important
 ||donhyxngg.com^$important
@@ -8962,6 +8951,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||hugjupzdpvuzdr.com^$important
 ||huhrxmgiofzna.com^$important
 ||huigyetqu.com^$important
+||humala.info^$important
 ||humcyddkxxm.bid^$important
 ||hunktnva.com^$important
 ||huriylhqkylbo.bid^$important
@@ -10018,6 +10008,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||kovglrrlpqum.com^$important
 ||kovykpybtuylq.bid^$important
 ||kozloiczght.com^$important
+||kp.yandex.net/js/brand$domain=www.kinopoisk.ru,image,important
 ||kpcflxxodhoxev.bid^$important
 ||kpchywhqcrkz.com^$important
 ||kpgcyqkktm.bid^$important
@@ -10609,6 +10600,7 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||makumuvgxfogq.com^$important
 ||malgyhuytbnjb.bid^$important
 ||mament.co^$important
+||mangovideo.pw/player/float.php$xmlhttprequest
 ||mardjxrw.club^$important
 ||marguvpydbrr.com^$important
 ||marketgid.com^$important
