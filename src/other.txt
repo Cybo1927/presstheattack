@@ -3,7 +3,7 @@
 /^https?:\/\/ad[bsxv]?([0-9]{1,2})?\./$important,domain=~ad.nl
 /^https?:\/\/aff(iliat(es?|ion))?([0-9]{1,2})?\./$important
 /^https?:\/\/beacons?([0-9]{1,2})?\./$important
-/^https?:\/\/c([0-9]{1,2})?\./$important,domain=~force.com|~ndtv.com|~newegg.com|~wp.com|~xavierstuder.com|~researchgate.net|~www.microsoft.com|~patreon.com|~mail.ru|~hqq.tv
+/^https?:\/\/c([0-9]{1,2})?\./$important,domain=~force.com|~ndtv.com|~newegg.com|~wp.com|~xavierstuder.com|~researchgate.net|~www.microsoft.com|~patreon.com|~mail.ru|~hqq.tv|~disqus.com
 /^https?:\/\/count(ers?)?([0-9]{1,2})?\./$important
 /^https?:\/\/delivery([0-9]{1,2})?\./$important,third-party
 /^https?:\/\/events?([0-9]{1,2})?\./$important
