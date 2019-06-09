@@ -125,6 +125,7 @@
 ||adcloud.net^$important
 ||addesigner.com^$important
 ||addgfxnb.com^$important
+||addthis.com^$important,third-party
 ||adeyujimmmh.com^$important
 ||adf.ly^$important
 ||adflazz.com^$important
@@ -169,6 +170,7 @@
 ||adskeeper.co.uk^$important
 ||adslop.com^$important
 ||adspsp.com^$important
+||adsrv.eacdn.com^$important
 ||adsrvr.org^$important
 ||adstarsmedia.co.id^$important
 ||adswizz.com^$important
@@ -2175,8 +2177,6 @@
 ||ffpkqjyvvneg.com^$important
 ||ffpnlrnmfyeqx.com^$important
 ||ffpyofnpq.com^$important
-||adsrv.eacdn.com^$important
-||trafforsrv.com^$important
 ||ffrsfowwxtlbu.com^$important
 ||ffvbcwueh.com^$important
 ||ffvghouburgijz.bid^$important
@@ -3214,6 +3214,7 @@
 ||hugjupzdpvuzdr.com^$important
 ||huhrxmgiofzna.com^$important
 ||huigyetqu.com^$important
+||humala.info^$important
 ||humcyddkxxm.bid^$important
 ||hunktnva.com^$important
 ||huriylhqkylbo.bid^$important
@@ -7765,6 +7766,7 @@
 ||tradelab.fr^$important
 ||trafficfactory.biz^$important
 ||trafficjunky.net^$important
+||trafforsrv.com^$important
 ||trbo.com^$important
 ||trbucgmbren.com^$important
 ||trcbxjusetvc.com^$important

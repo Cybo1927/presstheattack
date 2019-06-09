@@ -10,20 +10,9 @@
 */visitor.js$script,redirect=noopjs
 */visitorapi.js$script,redirect=noopjs
 google.*##+js(remove-attr.js, ping, div[class] > a[ping])
-kinopoisk.ru##+js(abort-on-property-read.js, advBlock)
-kinopoisk.ru##^script:has-text(window.Metrika)
-otvet.mail.ru##^script:has-text(adblock)
-rambler.ru##^script:has-text((Number,)
-twitch.tv##+js(twitch-videoad.js)
 twitter.com##[data-focusable="true"]:has-text(/Promoted|Gesponsert|Реклама/):not(:xpath(//span[contains(text(),'Реклама в Твиттере')]))
 twitter.com##[data-testid="trend"]:has-text(/Promoted|Gesponsert|Реклама/):xpath(..)
 twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/):xpath(..)
-yandex.by,yandex.ru,yandex.ua##+js(abort-on-property-read.js, advBlock)
-yandex.by,yandex.ru,yandex.ua##+js(cookie-remover.js, /yp|ys|yc|zm|yabs-sid|my|mda|spravka|^blcrm|^bltsr|^yabs|^YvUVZgzQ/)
-yandex.by,yandex.ru,yandex.ua##^script:has-text(AdvManager)
-yandex.by,yandex.ru,yandex.ua##^script:has-text(defaultMetrikaCounter)
-yandex.by,yandex.ru,yandex.ua##^script:has-text(devicePixelRatio)
-yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||an.yandex.by^$script,important,redirect=noopjs
 ||an.yandex.by^$xmlhttprequest,important,redirect=nooptext
 ||an.yandex.ru^$script,important,redirect=noopjs
@@ -37,10 +26,6 @@ yandex.by,yandex.ru,yandex.ua##^script:has-text(fingerprint)
 ||awsync.yandex.by^$important,redirect=noopframe,subdocument
 ||awsync.yandex.ru^$important,redirect=noopframe,subdocument
 ||awsync.yandex.ua^$important,redirect=noopframe,subdocument
-||deloplen.com/apu.php$script,redirect=noopjs
-||deloplen.com/apu.php$xmlhttprequest,important,redirect=nooptext
-||dolohen.com/apu.php$script,redirect=noopjs
-||dolohen.com/apu.php$xmlhttprequest,important,redirect=nooptext
 ||doubleclick.net^$important,redirect=noopframe,subdocument
 ||doubleclick.net^$script,important,redirect=noopjs
 ||doubleclick.net^$xmlhttprequest,important,redirect=nooptext

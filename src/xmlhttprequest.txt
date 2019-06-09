@@ -29,3 +29,5 @@
 ||twitter.com/i/jot^$important,xmlhttprequest
 ||yahoo.com/pageview/$important,xmlhttprequest
 ||youtube.com/get_midroll_info^$important,xmlhttprequest
+||mangovideo.pw/player/float.php$xmlhttprequest
+||disqus.com/api/*/listrelated.json$xmlhttprequest

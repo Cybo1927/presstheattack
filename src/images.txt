@@ -13,6 +13,7 @@
 |http*:*/ad.gif$image,important
 |http*:*/ad.png$image,important
 |http*:*/ads.gif$image,important
+||kp.yandex.net/js/brand$domain=www.kinopoisk.ru,image,important
 |http*:*/ads.png$image,important
 |http*:*/adsct?$image,important
 |http*:*/atrk.gif$image,important
