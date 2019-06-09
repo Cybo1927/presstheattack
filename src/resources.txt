@@ -46,7 +46,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||imasdk.googleapis.com^$xmlhttprequest,important,redirect=nooptext
 ||kiks.yandex.ru^$important,redirect=noopframe,subdocument
 ||mc.yandex.ru^$important,redirect=noopjs,script
+||mc.yandex.ru^$xmlhttprequest,important,redirect=nooptext
 ||scorecardresearch.com/beacon.js$script,redirect=noopjs,important
 ||static-mon.yandex.net/static/main.js$script,redirect=noopjs,important
 ||static-mon.yandex.net/static/main.js$xmlhttprequest,redirect=nooptext,important
-~mail.yandex.by,~mail.yandex.ru,~mail.yandex.ua,rambler.ru,yandex.by,yandex.ru,yandex.ua##+js(set-constant.js, Math.random, trueFunc)
