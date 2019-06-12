@@ -24,11 +24,8 @@
 ||1xuop.world^$important
 ||1xxwc.world^$important
 ||2d7bd9e6eb370143.com^$important
-||2d7bd9e6eb370143.com^$important
 ||2daytrendingnews.com^$important
 ||2e91ddf5f5cc6dbfef88.date^$important
-||2go7v1nes8.com^$important
-||runtnc.net^$important
 ||2go7v1nes8.com^$important
 ||2mdn.net^$important
 ||2xclick.ru^$important
@@ -52,7 +49,6 @@
 ||41df76c67812005c.com^$important
 ||43acc8130d31cfd61041.date^$important
 ||47f624b2e6c6072e.com^$important
-||47f624b2e6c6072e.com^$important
 ||75ce0f054e9abc.com^$important
 ||93c8c9a28e1db445.com^$important
 ||98bf9h8jbg.com^$important
@@ -62,7 +58,6 @@
 ||379bd258b1.com^$important
 ||550b3ikb9j.com^$important
 ||555dfbd5425347beab45.date^$important
-||564d28256cddaeba.com^$important
 ||564d28256cddaeba.com^$important
 ||713b037362f02.com^$important
 ||896a8dfd194005e2adea.date^$important
@@ -201,7 +196,6 @@
 ||adwidgets.ru^$important
 ||adxpddpc.com^$important
 ||adxscope.com^$important
-||ae25079147984d4d.com^$important
 ||ae25079147984d4d.com^$important
 ||aeeefzfuk.com^$important
 ||aeezeynmam.bid^$important
@@ -552,7 +546,6 @@
 ||b3z29k1uxb.com^$important
 ||b4e12976c052bbd91c3e.date^$important
 ||b60228e270e363f6.com^$important
-||b13481647cf775c5.com^$important
 ||b13481647cf775c5.com^$important
 ||badgmvhtvryg.bid^$important
 ||bagoojzsqygg.com^$important
@@ -1029,7 +1022,6 @@
 ||cfraazitu.com^$important
 ||cfsdtzggpcmr.com^$important
 ||cfskcqrwbog.com^$important
-||cfts1tifqr.com^$important
 ||cfts1tifqr.com^$important
 ||cfvfjsobudwrsn.com^$important
 ||cfyvrgvopaejx.com^$important
@@ -1728,8 +1720,6 @@
 ||dzztjcbt.com^$important
 ||e6cfmdmo81.com^$important
 ||e6081b73afec581f.com^$important
-||e6081b73afec581f.com^$important
-||e7393e33565ce805.com^$important
 ||e7393e33565ce805.com^$important
 ||eaaqsama.com^$important
 ||eabgoszdtq.com^$important
@@ -2144,7 +2134,6 @@
 ||fcjodgfpjiswa.com^$important
 ||fcpispplqq.com^$important
 ||fcveilhtok.com^$important
-||fd9523b31ff93b5c.com^$important
 ||fd9523b31ff93b5c.com^$important
 ||fdbqwtqdgcsceh.com^$important
 ||fdbrwxtm.com^$important
@@ -7052,6 +7041,7 @@
 ||rumahgratis.tk^$important
 ||run-syndicate.com^$important
 ||runewslenta.com^$important
+||runtnc.net^$important
 ||runwtxeisppmt.com^$important
 ||ruodzaboyf.com^$important
 ||ruoypiedfpov.com^$important
