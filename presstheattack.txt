@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-06-13 06:37:12
-! Version: 20190613063712
+! Last modified: 2019-06-13 06:40:19
+! Version: 20190613064019
 ! Expires: 3 hours
-! Number of filters: 15929
+! Number of filters: 15919
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -5683,10 +5683,8 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||280asnlnr7.com^$important
 ||28f77rd30e.ru^$important
 ||2d7bd9e6eb370143.com^$important
-||2d7bd9e6eb370143.com^$important
 ||2daytrendingnews.com^$important
 ||2e91ddf5f5cc6dbfef88.date^$important
-||2go7v1nes8.com^$important
 ||2go7v1nes8.com^$important
 ||2mdn.net^$important
 ||2xclick.ru^$important
@@ -5703,13 +5701,11 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||43031aaaecd84428.com^$important
 ||43acc8130d31cfd61041.date^$important
 ||47f624b2e6c6072e.com^$important
-||47f624b2e6c6072e.com^$important
 ||4d2911e5a4e352.com^$important
 ||4fba771f87a0251.com^$important
 ||4ukqzi8d7l.com^$important
 ||550b3ikb9j.com^$important
 ||555dfbd5425347beab45.date^$important
-||564d28256cddaeba.com^$important
 ||564d28256cddaeba.com^$important
 ||5nt1gx7o57.com^$important
 ||6868bbe42af8e518.com^$important
@@ -5856,7 +5852,6 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||adwidgets.ru^$important
 ||adxpddpc.com^$important
 ||adxscope.com^$important
-||ae25079147984d4d.com^$important
 ||ae25079147984d4d.com^$important
 ||aeeefzfuk.com^$important
 ||aeezeynmam.bid^$important
@@ -6222,7 +6217,6 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||azofucrzkkaa.com^$important
 ||azqmmfhmfnpsvb.bid^$important
 ||azroydhgqcfv.com^$important
-||b13481647cf775c5.com^$important
 ||b13481647cf775c5.com^$important
 ||b1img.com^$important
 ||b3f17a21a3d.com^$important
@@ -6707,7 +6701,6 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||cfraazitu.com^$important
 ||cfsdtzggpcmr.com^$important
 ||cfskcqrwbog.com^$important
-||cfts1tifqr.com^$important
 ||cfts1tifqr.com^$important
 ||cfvfjsobudwrsn.com^$important
 ||cfyvrgvopaejx.com^$important
@@ -7425,9 +7418,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||dzzawlkmtvug.com^$important
 ||dzztjcbt.com^$important
 ||e6081b73afec581f.com^$important
-||e6081b73afec581f.com^$important
 ||e6cfmdmo81.com^$important
-||e7393e33565ce805.com^$important
 ||e7393e33565ce805.com^$important
 ||eaaqsama.com^$important
 ||eabgoszdtq.com^$important
@@ -7848,7 +7839,6 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||fcjodgfpjiswa.com^$important
 ||fcpispplqq.com^$important
 ||fcveilhtok.com^$important
-||fd9523b31ff93b5c.com^$important
 ||fd9523b31ff93b5c.com^$important
 ||fdbqwtqdgcsceh.com^$important
 ||fdbrwxtm.com^$important
