@@ -41,6 +41,7 @@
 |http*:*/in.php?*&referer=$important,script,xmlhttprequest
 |http*:*/in.php?p=$important,script,xmlhttprequest
 |http*:*/js.gif$image,important,script,xmlhttprequest
+|http*:*&hasads=$important,script,xmlhttprequest
 |http*:*/loadaudiencesegs^$important,script,xmlhttprequest
 |http*:*/mms/get_loaders$important,script,xmlhttprequest
 |http*:*/push.js*utm_campaign=$important,script,xmlhttprequest
