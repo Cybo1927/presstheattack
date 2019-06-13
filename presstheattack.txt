@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-06-13 06:40:19
-! Version: 20190613064019
+! Last modified: 2019-06-14 10:29:48
+! Version: 20190614102948
 ! Expires: 3 hours
-! Number of filters: 15919
+! Number of filters: 15938
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2891,6 +2891,7 @@ twitter.com##[data-testid="trend"]:has-text(/Promoted|Gesponsert|Реклама/
 twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/):xpath(..)
 |http*:*%*.juicyads.$important,image,script,xmlhttprequest
 |http*:*&ad_*&idzone=$image,important,script,xmlhttprequest
+|http*:*&hasads=$important,script,xmlhttprequest
 |http*:*-aclick-
 |http*:*-aclick.
 |http*:*-aclick^
@@ -3060,8 +3061,12 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 |http*:*-advert^
 |http*:*-advert_
 |http*:*-advertisement-
+|http*:*-advertisement-
+|http*:*-advertisement.
 |http*:*-advertisement.
 |http*:*-advertisement^
+|http*:*-advertisement^
+|http*:*-advertisement_
 |http*:*-advertisement_
 |http*:*-advertiser-
 |http*:*-advertiser.
@@ -3678,8 +3683,12 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 |http*:*.advert^
 |http*:*.advert_
 |http*:*.advertisement-
+|http*:*.advertisement-
+|http*:*.advertisement.
 |http*:*.advertisement.
 |http*:*.advertisement^
+|http*:*.advertisement^
+|http*:*.advertisement_
 |http*:*.advertisement_
 |http*:*.advertiser-
 |http*:*.advertiser.
@@ -4203,6 +4212,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 |http*:*/criteo.js$important,script
 |http*:*/crlt.js$important,script
 |http*:*/crypta.js$important,script
+|http*:*/crypta.js$script,important
 |http*:*/cryptocpu.js$important,script
 |http*:*/cryptonight.wasm$important,script
 |http*:*/dc_performance.js$important,script
@@ -4591,8 +4601,12 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 |http*:*^advert^
 |http*:*^advert_
 |http*:*^advertisement-
+|http*:*^advertisement-
+|http*:*^advertisement.
 |http*:*^advertisement.
 |http*:*^advertisement^
+|http*:*^advertisement^
+|http*:*^advertisement_
 |http*:*^advertisement_
 |http*:*^advertiser-
 |http*:*^advertiser.
@@ -5208,8 +5222,12 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 |http*:*_advert^
 |http*:*_advert_
 |http*:*_advertisement-
+|http*:*_advertisement-
+|http*:*_advertisement.
 |http*:*_advertisement.
 |http*:*_advertisement^
+|http*:*_advertisement^
+|http*:*_advertisement_
 |http*:*_advertisement_
 |http*:*_advertiser-
 |http*:*_advertiser.
@@ -5674,6 +5692,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||1cb70f6b7aab4c70819a.date^$important
 ||1fbaa223d6945621f8d7.date^$important
 ||1wzfew7a.site^$important
+||1xbkbet5.com^$important
 ||1xgzu.world^$important
 ||1xkeg.world^$important
 ||1xndi.world^$important
