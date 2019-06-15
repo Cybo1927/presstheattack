@@ -22,6 +22,8 @@
 ||1xeemc.host^$important
 ||1xgzu.world^$important
 ||1xkeg.world^$important
+||snobbish.world^$important
+||luxwinner.site^$important
 ||1xluw.world^$important
 ||1xndi.world^$important
 ||1xuop.world^$important
