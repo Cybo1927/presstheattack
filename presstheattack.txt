@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-06-15 11:54:34
-! Version: 20190615115434
+! Last modified: 2019-06-15 13:03:10
+! Version: 20190615130310
 ! Expires: 3 hours
-! Number of filters: 13481
+! Number of filters: 13486
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -3600,6 +3600,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||aorzglux.com^$important
 ||aoshrcptugsjd.com^$important
 ||aotrcqegtfhlaw.bid^$important
+||aovajfmsy.com^$important
 ||aoxkyvcmgr.bid^$important
 ||aoxntgxf.bid^$important
 ||aoyfhtarolgemn.bid^$important
@@ -3820,6 +3821,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||bcgcvepi.com^$important
 ||bckmtidcnrobwh.bid^$important
 ||bckwfsvdgfjw.com^$important
+||bclizbwet.com^$important
 ||bcloudhost.com^$important
 ||bcnhnekodmdniu.com^$important
 ||bcnikicdi.bid^$important
@@ -3879,6 +3881,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||bfdihioj.com^$important
 ||bfhlxjwc.com^$important
 ||bfidvcsuazwy.com^$important
+||bfkpzjqpawfu.com^$important
 ||bflcuvtyffao.bid^$important
 ||bfmio.com^$important
 ||bfmrffluuazwn.com^$important
@@ -4122,6 +4125,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||bvezznurwekr.com^$important
 ||bvhzswlde.bid^$important
 ||bvnekcpa.bid^$important
+||bvnmmdelarn.com^$important
 ||bvqfuryhas.bid^$important
 ||bvreosoejjt.bid^$important
 ||bvrkzhtxlgono.com^$important
@@ -9269,6 +9273,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||pafovocg.bid^$important
 ||pagaynrbee.com^$important
 ||pagefair.com^$important
+||pagefair.net^$important
 ||pajmxvlsuxyks.bid^$important
 ||palzblimzpdk.com^$important
 ||paotmlonx.com^$important
