@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-06-14 10:29:48
-! Version: 20190614102948
+! Last modified: 2019-06-15 11:30:38
+! Version: 20190615113038
 ! Expires: 3 hours
-! Number of filters: 15938
+! Number of filters: 15944
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -5693,8 +5693,10 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||1fbaa223d6945621f8d7.date^$important
 ||1wzfew7a.site^$important
 ||1xbkbet5.com^$important
+||1xeemc.host^$important
 ||1xgzu.world^$important
 ||1xkeg.world^$important
+||1xluw.world^$important
 ||1xndi.world^$important
 ||1xuop.world^$important
 ||1xxwc.world^$important
@@ -6942,6 +6944,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||crzlkluxnigce.com^$important
 ||crzojmwnnq.com^$important
 ||cs15.livetex.ru^$important
+||cs4lmibq3k0az1qch1b1djfpmo3co.icu^$important
 ||cscactmkbfvn.com^$important
 ||csdqikvba.bid^$important
 ||csdzhoku.com^$important
@@ -7770,6 +7773,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||exbphrqpqukm.com^$important
 ||excqjoor.com^$important
 ||exdcbyzgwfvwa.com^$important
+||exdynsrv.com^$important
 ||exdynsrv.com^$important
 ||exekiksakspujl.com^$important
 ||exelator.com^$important
@@ -9155,6 +9159,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||igsxvpghnamnsz.com^$important
 ||igutgembqnw.bid^$important
 ||igvcpjsyk.bid^$important
+||igvnfn2816.site^$important
 ||igwzuwwtvnywx.com^$important
 ||igyzmhqbihoi.com^$important
 ||ihcamesgexiv.com^$important
@@ -14615,6 +14620,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||whkwbllcctfm.com^$important
 ||whlugpfcuvryx.com^$important
 ||whlvjuprdpkg.com^$important
+||whoisyourd18.agency^$important
 ||whrnvjdv.com^$important
 ||whsldqctrvuk.com^$important
 ||whtuzkvpeer.com^$important
