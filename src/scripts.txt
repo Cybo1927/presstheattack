@@ -28,6 +28,9 @@
 |http*:*-vast-$script
 |http*:*-vast.$script
 |http*:*-vast^$script
+/^https?:\/\/[^\s]+/amp\-analytics(\-[-0-9.]{2,3})?\.js/$important,script
+/^https?:\/\/[^\s]+/amp\-sticky-ad(\-[-0-9.]{2,3})?\.js/$important,script
+/^https?:\/\/[^\s]+/amp\-ads?(\-[-0-9.]{2,3})?\.js/$important,script
 |http*:*-vast_$script
 |http*:*.coin-hive.js$important,script
 |http*:*.vast-$script
