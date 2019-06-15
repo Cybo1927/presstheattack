@@ -6,10 +6,12 @@
 ||airbnb.*/tracking/$important,xmlhttprequest
 ||amazon.*/record-impressions^$important,xmlhttprequest
 ||api.twitch.tv/*/channels/*/extensions^$xmlhttprequest
+||disqus.com/api/*/listrelated.json$xmlhttprequest
 ||dropbox.com/log/$important,xmlhttprequest
 ||github.com/_private/browser/stats^$important,xmlhttprequest
 ||google.com/async/*&async=encoded_cache_key$important,xmlhttprequest
 ||google.com^*/viewerimpressions^$important,xmlhttprequest
+||mangovideo.pw/player/float.php$xmlhttprequest
 ||mercadolibre.com/tracks^$important,xmlhttprequest
 ||nytimes.com^*/data-layer?$important,xmlhttprequest
 ||perr.h-cdn.com^$important,xmlhttprequest
@@ -29,5 +31,3 @@
 ||twitter.com/i/jot^$important,xmlhttprequest
 ||yahoo.com/pageview/$important,xmlhttprequest
 ||youtube.com/get_midroll_info^$important,xmlhttprequest
-||mangovideo.pw/player/float.php$xmlhttprequest
-||disqus.com/api/*/listrelated.json$xmlhttprequest

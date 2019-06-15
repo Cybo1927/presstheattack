@@ -18,14 +18,16 @@
 ||1cb70f6b7aab4c70819a.date^$important
 ||1fbaa223d6945621f8d7.date^$important
 ||1wzfew7a.site^$important
+||1xbkbet5.com^$important
+||1xeemc.host^$important
 ||1xgzu.world^$important
 ||1xkeg.world^$important
+||1xluw.world^$important
 ||1xndi.world^$important
 ||1xuop.world^$important
 ||1xxwc.world^$important
 ||2d7bd9e6eb370143.com^$important
 ||2daytrendingnews.com^$important
-||1xbkbet5.com^$important
 ||2e91ddf5f5cc6dbfef88.date^$important
 ||2go7v1nes8.com^$important
 ||2mdn.net^$important
@@ -56,12 +58,6 @@
 ||197c3b10bab3c1.com^$important
 ||280asnlnr7.com^$important
 ||360direct.click^$important
-||1xluw.world^$important
-||1xeemc.host^$important
-||igvnfn2816.site^$important
-||exdynsrv.com^$important
-||cs4lmibq3k0az1qch1b1djfpmo3co.icu^$important
-||whoisyourd18.agency^$important
 ||379bd258b1.com^$important
 ||550b3ikb9j.com^$important
 ||555dfbd5425347beab45.date^$important
@@ -1246,6 +1242,7 @@
 ||crzhxquiyo.com^$important
 ||crzlkluxnigce.com^$important
 ||crzojmwnnq.com^$important
+||cs4lmibq3k0az1qch1b1djfpmo3co.icu^$important
 ||cs15.livetex.ru^$important
 ||cscactmkbfvn.com^$important
 ||csdqikvba.bid^$important
@@ -3406,6 +3403,7 @@
 ||igsxvpghnamnsz.com^$important
 ||igutgembqnw.bid^$important
 ||igvcpjsyk.bid^$important
+||igvnfn2816.site^$important
 ||igwzuwwtvnywx.com^$important
 ||igyzmhqbihoi.com^$important
 ||ihcamesgexiv.com^$important
@@ -8804,6 +8802,7 @@
 ||whkwbllcctfm.com^$important
 ||whlugpfcuvryx.com^$important
 ||whlvjuprdpkg.com^$important
+||whoisyourd18.agency^$important
 ||whrnvjdv.com^$important
 ||whsldqctrvuk.com^$important
 ||whtuzkvpeer.com^$important

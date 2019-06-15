@@ -13,6 +13,7 @@
 /^https?:\/\/[^\s]+\.[A-Za-z]{2,6}\/[A-Za-z]{1}\?tag\=[^\s]+\&site\=[A-Za-z0-9]{1,}\&ads?\=/$popup,important,script
 |http*:*%*.juicyads.$important,image,script,xmlhttprequest
 |http*:*&ad_*&idzone=$image,important,script,xmlhttprequest
+|http*:*&hasads=$important,script,xmlhttprequest
 |http*:*.js?dfp=$important,script,xmlhttprequest
 |http*:*/ADLog.ashx$image,xmlhttprequest,important
 |http*:*/GetAD.ashx$image,xmlhttprequest,important
@@ -32,16 +33,15 @@
 |http*:*/dtm/*/satellitelib$important,script,xmlhttprequest
 |http*:*/entry_stats^$important,script,xmlhttprequest
 |http*:*/error/*.gif?msg=$image,important,script,xmlhttprequest
-|http*:*/in.php?p=$image,xmlhttprequest,script,important
 |http*:*/g00/*/tu9srvbirvvtocrodhrwoi8vy3ataw4ubmfub3zpc29ylmlvl2nsawvudhbyb2zpbgvyl2fkyj9pmtbjlm1hcmsuc2nyaxb0lnr5cgu%3d_$first-party,script,xmlhttprequest,other
 |http*:*/get_links_*&zone=$important,script,xmlhttprequest
 |http*:*/get_site_data?*&href=$important,script,xmlhttprequest,popup
 |http*:*/greenoaks.gif$image,important,other
 |http*:*/imp?sid=$important,image,script,xmlhttprequest
 |http*:*/in.php?*&referer=$important,script,xmlhttprequest
+|http*:*/in.php?p=$image,xmlhttprequest,script,important
 |http*:*/in.php?p=$important,script,xmlhttprequest
 |http*:*/js.gif$image,important,script,xmlhttprequest
-|http*:*&hasads=$important,script,xmlhttprequest
 |http*:*/loadaudiencesegs^$important,script,xmlhttprequest
 |http*:*/mms/get_loaders$important,script,xmlhttprequest
 |http*:*/push.js*utm_campaign=$important,script,xmlhttprequest
