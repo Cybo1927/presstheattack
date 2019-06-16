@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-06-16 17:45:21
-! Version: 20190616174521
+! Last modified: 2019-06-17 09:03:35
+! Version: 20190617090335
 ! Expires: 3 hours
-! Number of filters: 13492
+! Number of filters: 13494
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2768,7 +2768,7 @@
 */spacer.png$image,redirect=1x1-transparent.gif
 */visitor.js$script,redirect=noopjs
 */visitorapi.js$script,redirect=noopjs
-/(\W|\_)([a-zA-Z]{1,4})?events?\.js/$other,important,script,xmlhttprequest
+/(\W|\_)([a-zA-Z]{1,4})?events?\.js/$other,important,script,xmlhttprequest,domain=~rambler.ru
 /(\W|\_)(player|gen|client|csi|generate|stream|logs?)(\W|\_)?204/$image,important,xmlhttprequest,other
 /(\W|\_)(show|jquery)(\W|\_)?ad[xsvb]?(\W|\_)/$script,important,xmlhttprequest
 /(\W|\_)[0-9]{1,2}ads\.gif/$image,important,script
@@ -10536,6 +10536,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||seotpqntjukhg.bid^$important
 ||septembership.com^$important
 ||sepyqhipq.com^$important
+||servedbyadbutler.com^$important
 ||seuojaesymeriv.com^$important
 ||seympfgeyrew.com^$important
 ||sfaprgtgcguh.com^$important
@@ -10643,6 +10644,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||slwclrwmruuxav.com^$important
 ||smapohsnoww.com^$important
 ||smartadserver.com^$important
+||smartphonesbonusoffers.icu^$important
 ||smhqmrxplvnx.com^$important
 ||smhyvyvnpzigir.com^$important
 ||smjdypbxapigu.bid^$important
