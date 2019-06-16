@@ -18,12 +18,11 @@
 ||1cb70f6b7aab4c70819a.date^$important
 ||1fbaa223d6945621f8d7.date^$important
 ||1wzfew7a.site^$important
+||1xbet95.com^$important
 ||1xbkbet5.com^$important
 ||1xeemc.host^$important
 ||1xgzu.world^$important
 ||1xkeg.world^$important
-||snobbish.world^$important
-||luxwinner.site^$important
 ||1xluw.world^$important
 ||1xndi.world^$important
 ||1xuop.world^$important
@@ -2195,6 +2194,7 @@
 ||ffvghouburgijz.bid^$important
 ||ffvvapasfcoha.bid^$important
 ||ffwbpadvkcyi.com^$important
+||fg09t.com^$important
 ||fgcterkdpns.com^$important
 ||fghdembabvwe.com^$important
 ||fghtrrasovlsu.com^$important
@@ -2983,6 +2983,7 @@
 ||hepuzqrx.com^$important
 ||heqcvweqvqf.com^$important
 ||heracgjcuqmk.com^$important
+||heroesofrpg.com^$important
 ||hettwksj.bid^$important
 ||hevfziuvxq.bid^$important
 ||heydqkfbglbu.com^$important
@@ -3515,6 +3516,7 @@
 ||instreamatic.com^$important
 ||intellitxt.com^$important
 ||intergi.com^$important
+||internetuzerindenis.com^$important
 ||invgsoqwtkvxs.bid^$important
 ||inxhtjrwictg.com^$important
 ||ioam.de^$important
@@ -4776,6 +4778,7 @@
 ||lusfrsxgxopm.com^$important
 ||luvkkodlpxou.bid^$important
 ||luvstnqpw.com^$important
+||luxwinner.site^$important
 ||luztinhsbzggvr.com^$important
 ||lvayccwmhdggvi.bid^$important
 ||lvcrcimfmfx.com^$important
@@ -7331,6 +7334,7 @@
 ||snhfmewkai.bid^$important
 ||snhqkvmhcoh.com^$important
 ||snhuxhdjlxrd.bid^$important
+||snobbish.world^$important
 ||snrmqtnnlxdgdh.com^$important
 ||snsgsqyv.com^$important
 ||snsyebgupi.bid^$important
