@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-06-15 20:42:07
-! Version: 20190615204207
+! Last modified: 2019-06-16 17:45:21
+! Version: 20190616174521
 ! Expires: 3 hours
-! Number of filters: 13488
+! Number of filters: 13492
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -3230,6 +3230,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||1cb70f6b7aab4c70819a.date^$important
 ||1fbaa223d6945621f8d7.date^$important
 ||1wzfew7a.site^$important
+||1xbet95.com^$important
 ||1xbkbet5.com^$important
 ||1xeemc.host^$important
 ||1xgzu.world^$important
@@ -5455,6 +5456,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||ffvghouburgijz.bid^$important
 ||ffvvapasfcoha.bid^$important
 ||ffwbpadvkcyi.com^$important
+||fg09t.com^$important
 ||fgcterkdpns.com^$important
 ||fghdembabvwe.com^$important
 ||fghtrrasovlsu.com^$important
@@ -6273,6 +6275,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||hepuzqrx.com^$important
 ||heqcvweqvqf.com^$important
 ||heracgjcuqmk.com^$important
+||heroesofrpg.com^$important
 ||hettwksj.bid^$important
 ||hevfziuvxq.bid^$important
 ||heydqkfbglbu.com^$important
@@ -6809,6 +6812,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||instreamatic.com^$important
 ||intellitxt.com^$important
 ||intergi.com^$important
+||internetuzerindenis.com^$important
 ||invgsoqwtkvxs.bid^$important
 ||inxhtjrwictg.com^$important
 ||ioam.de^$important
