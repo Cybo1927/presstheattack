@@ -1,4 +1,4 @@
-/(\W|\_)([a-zA-Z]{1,4})?events?\.js/$other,important,script,xmlhttprequest
+/(\W|\_)([a-zA-Z]{1,4})?events?\.js/$other,important,script,xmlhttprequest,domain=~rambler.ru
 /(\W|\_)(player|gen|client|csi|generate|stream|logs?)(\W|\_)?204/$image,important,xmlhttprequest,other
 /(\W|\_)(show|jquery)(\W|\_)?ad[xsvb]?(\W|\_)/$script,important,xmlhttprequest
 /(\W|\_)[0-9]{1,2}ads\.gif/$image,important,script
