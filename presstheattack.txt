@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-06-19 17:20:31
-! Version: 20190619172031
+! Last modified: 2019-06-19 17:56:49
+! Version: 20190619175649
 ! Expires: 3 hours
 ! Number of filters: 13506
 ! Homepage: https://github.com/bogachenko/presstheattack/
@@ -2775,7 +2775,6 @@
 /(\W|\_)a(d[vs]e?|nnounceme|ds?)[rn][tev](s|ing|covers?|server?|isements?|ising|e(rs?)?|ements|ur)?/$important,popup
 /(\W|\_)ad[svbx]\.php/$important,script,xmlhttprequest
 /(\W|\_)ad[xsvb]?(\W|\_)?iframe(\W|\_)/$script,important,subdocument,xmlhttprequest
-/(\W|\_)ad[xsvb]?[0-9]{1}(images?|media|videos?)/$important
 /(\W|\_)fingerprint([0-9]{1,2})?(\.min)?\.js/$important,script,xmlhttprequest,image
 /(\W|\_)log(\W|\_)?(type|event|entry|request)/$image,important,xmlhttprequest,other
 /(\W|\_)ping(\W|\_)/$important,script,image,xmlhttprequest
@@ -2803,6 +2802,7 @@
 /^https?:\/\/[0-9a-z\-\.]+\.[a-z]{2,7}\/sw\.js\?[0-9a-zA-Z_&%]{32,}/$first-party,xmlhttprequest,important
 /^https?:\/\/[^/]+\/[a-z0-9]{15,}(\?hope=.*)?$/$important,script
 /^https?:\/\/[^\s]+(\W|\_)a(d[vs]e?|nnounceme|ds?)[rn][tev](s|ing|covers?|server?|isements?|ising|e(rs?)?|ements|ur)?\.js/$important,script,third-party
+/^https?:\/\/[^\s]+(\W|\_)ad[xsvb]?[0-9]{1}(images?|media|videos?)/$important
 /^https?:\/\/[^\s]+(\W|\_)auto(\W|\_)ads?.*?\.js/$important,script
 /^https?:\/\/[^\s]+(\W|\_)dfp(\W|\_)?.*?\.js/$script,important
 /^https?:\/\/[^\s]+(\W|\_)g(tag|oogleads?|oogleanal(ytics?|yzer?)([0-9]{1})?|pt((\W|\_)mobile)?|tm|a((\W|\_)lite)?|a((\W|\_)setup)?|oogle(\W|\_)track(ers?|ing)?|oogletag|ads?|tagmanager((\W|\_)backend|track(ers?|ing)?event)?|oogle(\W|\_)stats?)\./$important,script
@@ -2846,7 +2846,7 @@
 /^https?:\/\/partners?([0-9]{1,2})?\./$important,third-party
 /^https?:\/\/pixels?([0-9]{1,2})?\./$important
 /^https?:\/\/px([0-9]{1,2})?\./$important
-/^https?:\/\/r([0-9]{1,2})?\./$important
+/^https?:\/\/r([0-9]{1,2})?\./$important,domain=~office365.com
 /^https?:\/\/s3\.amazonaws\.com\/.*[a-f0-9\/]{50,}/$important,third-party,xmlhttprequest,domain=~amazon.com
 /^https?:\/\/s?metric[as]?([0-9]{1,2})?\./$important,domain=~metrika.yandex.ru|~metrika.yandex.com|~metrica.yandex.com|~metrica.yandex.ru
 /^https?:\/\/stat(s|istics?)?([0-9]{1,2})?\./$important
@@ -5998,7 +5998,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||google-analytics.com^$script,important,redirect=noopjs
 ||google-analytics.com^$xmlhttprequest,important,redirect=nooptext
 ||google.*/ads/search/module/ads/*/search.js$important,script
-||google.*/log?$important
+||google.*/log?$important,xmlhttprequest
 ||google.*/logimpressions?$important
 ||google.*/pagead$important
 ||google.com/ads/$important,script,subdocument
