@@ -1,5 +1,5 @@
 /(\W|\_)ad[xsvb]?[0-9]{1}(images?|media|videos?)/$important
-/^https?:\/\/(analysis|analytic[as]?)([0-9]{1,2})?\./$important,domain=~analytics.google.com
+/^https?:\/\/(analysis|analytic[as]?)([0-9]{1,2})?\./$important
 /^https?:\/\/ad[bsxv]?([0-9]{1,2})?\./$important,domain=~ad.nl
 /^https?:\/\/aff(iliat(es?|ion))?([0-9]{1,2})?\./$important
 /^https?:\/\/beacons?([0-9]{1,2})?\./$important
