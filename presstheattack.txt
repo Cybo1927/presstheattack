@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-06-19 18:04:23
-! Version: 20190619180423
+! Last modified: 2019-06-20 11:43:04
+! Version: 20190620114304
 ! Expires: 3 hours
-! Number of filters: 13506
+! Number of filters: 13515
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -2896,6 +2896,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 |http*:*%*.juicyads.$important,image,script,xmlhttprequest
 |http*:*&ad_*&idzone=$image,important,script,xmlhttprequest
 |http*:*&hasads=$important,script,xmlhttprequest
+|http*:*&partnerid=$third-party,domain=~google.com
 |http*:*-coin-hive.js$important,script
 |http*:*-vast-$script
 |http*:*-vast.$script
@@ -3188,13 +3189,13 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 |http*:*/zerg.js$important,script
 |http*:*://aclick.*^$important
 |http*:*=widgetimpression^$important,script,xmlhttprequest,subdocument,image
-|http*:*?*&ip=$third-party
+|http*:*?*&ip=$third-party,domain=~googleapis.com
 |http*:*?*&lp=*id=$popup
 |http*:*?act=counter&$important
 |http*:*?adtype=$important,script,xmlhttprequest
 |http*:*?ip=$third-party
 |http*:*?lp=*id=$popup
-|http*:*?partner=$third-party
+|http*:*?partner=$third-party,domain=~microsoft.com
 |http*:*?partner_id=$third-party
 |http*:*?PartnerID=$third-party
 |http*:*?perfekt=wss://*$important
@@ -3234,6 +3235,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||1wzfew7a.site^$important
 ||1xbet95.com^$important
 ||1xbkbet5.com^$important
+||1xbkbet5.com^$important
 ||1xeemc.host^$important
 ||1xgzu.world^$important
 ||1xkeg.world^$important
@@ -3255,6 +3257,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||360direct.click^$important
 ||36adb24f7c1c573a6380.date^$important
 ||379bd258b1.com^$important
+||392439sf934990.online^$important
 ||3b9eb5ed04721bef.com^$important
 ||3da86d9fe797f228.com^$important
 ||3lift.com^$important
@@ -6994,6 +6997,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||iztxikfgw.com^$important
 ||izwzyhlm.com^$important
 ||izxdpodiowdgp.bid^$important
+||j9eup6o5os.top^$important
 ||jabcdkwmwnek.com^$important
 ||jacmnkcusf.com^$important
 ||jacroxrssmme.bid^$important
@@ -9447,6 +9451,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||pkvhprfhbtft.com^$important
 ||pkxquvydrgin.com^$important
 ||pkzfmxjlkcxkub.com^$important
+||pladform.ru^$important
 ||plcsedkinoul.com^$important
 ||pleboxviting.pro^$important
 ||plgalhmhkhzy.com^$important
@@ -10463,6 +10468,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||rzuwelgm.com^$important
 ||rzwzstbiqk.com^$important
 ||s.pinimg.com/ct/core.js$important,script
+||s0l8ybzj9u.top^$important
 ||s4-megafunn.info^$important
 ||saenrwiqesp.com^$important
 ||sagbgtnmlaj.com^$important
@@ -10550,6 +10556,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||septembership.com^$important
 ||sepyqhipq.com^$important
 ||servedbyadbutler.com^$important
+||serving-sys.com^$important
 ||seuojaesymeriv.com^$important
 ||seympfgeyrew.com^$important
 ||sfaprgtgcguh.com^$important
@@ -11849,6 +11856,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||vjzqmbcx.com^$important
 ||vjzttumdetao.com^$important
 ||vk-portal.net^$important
+||vk-portal.net^$important
 ||vk.cc^$document
 ||vk.com/rtrg^$image,important
 ||vkasuqsswc.com^$important
@@ -12209,6 +12217,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||wipjyzwavojq.com^$important
 ||wiresurequezer.pro^$important
 ||wirfpvmoblpa.com^$important
+||wisdementive.info^$important
 ||witalfieldt.com^$important
 ||witifyooqkumwn.com^$important
 ||wiykefcon.com^$important
