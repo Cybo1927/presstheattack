@@ -12,17 +12,16 @@
 /^https?:\/\/denis\-[a-z0-9]{7,12}\-[a-z0-9]{7,12}\.com/$important
 /^https?:\/\/yastatic\.net\/[^\s]{500,}/$domain=~vh.yandex.ru
 /^https?:\/\/zmctrack\.(com|net)/$important
-||00f31156f051fdf.com^$important
 ||0d96a0971a04071.com^$important
+||00f31156f051fdf.com^$important
 ||1-1ads.com^$important
 ||1.fembed.com^$important
 ||1b8d89551340a.com^$important
 ||1cb70f6b7aab4c70819a.date^$important
 ||1fbaa223d6945621f8d7.date^$important
 ||1wzfew7a.site^$important
-||moneysavingexpertcarinsurance.icu^$important
-||comnop.icu^$important
 ||1xbet95.com^$important
+||1xbkbet5.com^$important
 ||1xbkbet5.com^$important
 ||1xeemc.host^$important
 ||1xgzu.world^$important
@@ -77,6 +76,7 @@
 ||7667bab1751ff777.com^$important
 ||41944cecfb85.com^$important
 ||43031aaaecd84428.com^$important
+||392439sf934990.online^$important
 ||3585656d9351553f.com^$important
 ||88461059da0a12ea.com^$important
 ||a1a5ab31bcd1bc68.com^$important
@@ -1185,6 +1185,7 @@
 ||collamps.com^$important
 ||collector.schibsted.io^$important
 ||com-mac-booster.live^$important
+||comnop.icu^$important
 ||connatix.com^$important
 ||connect.facebook.net^$third-party,important
 ||connect.ok.ru^$third-party,important
@@ -3699,6 +3700,7 @@
 ||iztxikfgw.com^$important
 ||izwzyhlm.com^$important
 ||izxdpodiowdgp.bid^$important
+||j9eup6o5os.top^$important
 ||jabcdkwmwnek.com^$important
 ||jacmnkcusf.com^$important
 ||jacroxrssmme.bid^$important
@@ -5100,6 +5102,7 @@
 ||mojhasmpl.com^$important
 ||molqvpnnlmnb.com^$important
 ||monetate.net^$important
+||moneysavingexpertcarinsurance.icu^$important
 ||moneysavingexpertsavings.world^$important
 ||monklerm.pro^$important
 ||monlscalmows.bid^$important
@@ -6132,6 +6135,7 @@
 ||pkvhprfhbtft.com^$important
 ||pkxquvydrgin.com^$important
 ||pkzfmxjlkcxkub.com^$important
+||pladform.ru^$important
 ||plcsedkinoul.com^$important
 ||pleboxviting.pro^$important
 ||plgalhmhkhzy.com^$important
@@ -7139,6 +7143,7 @@
 ||rzsliqwo.bid^$important
 ||rzuwelgm.com^$important
 ||rzwzstbiqk.com^$important
+||s0l8ybzj9u.top^$important
 ||s4-megafunn.info^$important
 ||saenrwiqesp.com^$important
 ||sagbgtnmlaj.com^$important
@@ -7221,6 +7226,7 @@
 ||septembership.com^$important
 ||sepyqhipq.com^$important
 ||servedbyadbutler.com^$important
+||serving-sys.com^$important
 ||seuojaesymeriv.com^$important
 ||seympfgeyrew.com^$important
 ||sfaprgtgcguh.com^$important
@@ -8497,6 +8503,7 @@
 ||vjzqmbcx.com^$important
 ||vjzttumdetao.com^$important
 ||vk-portal.net^$important
+||vk-portal.net^$important
 ||vk.cc^$document
 ||vkasuqsswc.com^$important
 ||vkdbvgcawubn.com^$important
@@ -8854,6 +8861,7 @@
 ||wipjyzwavojq.com^$important
 ||wiresurequezer.pro^$important
 ||wirfpvmoblpa.com^$important
+||wisdementive.info^$important
 ||witalfieldt.com^$important
 ||witifyooqkumwn.com^$important
 ||wiykefcon.com^$important

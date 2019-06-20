@@ -19,14 +19,15 @@
 /^https?:\/\/stat(s|istics?)?([0-9]{1,2})?\./$important
 /^https?:\/\/tags?([0-9]{1,2})?\./$important
 /^https?:\/\/track(ers?|ing)?([0-9]{1,2})?\./$important
+|http*:*&partnerid=$third-party,domain=~google.com
 |http*:*/epubdelivery/$important
 |http*:*/yieldmanager/$important
 |http*:*://aclick.*^$important
-|http*:*?*&ip=$third-party
+|http*:*?*&ip=$third-party,domain=~googleapis.com
 |http*:*?PartnerID=$third-party
 |http*:*?act=counter&$important
 |http*:*?ip=$third-party
-|http*:*?partner=$third-party
+|http*:*?partner=$third-party,domain=~microsoft.com
 |http*:*?partner_id=$third-party
 |http*:*?perfekt=wss://*$important
 |http*:*?proxy=ws://*$important
