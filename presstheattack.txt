@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-06-20 11:43:04
-! Version: 20190620114304
+! Last modified: 2019-06-21 23:04:40
+! Version: 20190621230440
 ! Expires: 3 hours
-! Number of filters: 13515
+! Number of filters: 13529
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -3237,10 +3237,12 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||1xbkbet5.com^$important
 ||1xbkbet5.com^$important
 ||1xeemc.host^$important
+||1xeha.world^$important
 ||1xgzu.world^$important
 ||1xkeg.world^$important
 ||1xluw.world^$important
 ||1xndi.world^$important
+||1xrbt.world^$important
 ||1xuop.world^$important
 ||1xxwc.world^$important
 ||21b666055c.com^$important
@@ -3263,6 +3265,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||3lift.com^$important
 ||41944cecfb85.com^$important
 ||41df76c67812005c.com^$important
+||41df76c67812005c.com^$important
 ||43031aaaecd84428.com^$important
 ||43acc8130d31cfd61041.date^$important
 ||47f624b2e6c6072e.com^$important
@@ -3276,6 +3279,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||564d28256cddaeba.com^$important
 ||5nt1gx7o57.com^$important
 ||619de07af53f8.com^$important
+||6868bbe42af8e518.com^$important
 ||6868bbe42af8e518.com^$important
 ||6eez7ouig7gwguf6.pro^$important
 ||713b037362f02.com^$important
@@ -3292,7 +3296,9 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||a-ads.com^$important
 ||a.bf-tools.net/de/de.js$script,important
 ||a1a5ab31bcd1bc68.com^$important
+||a1a5ab31bcd1bc68.com^$important
 ||a2b108bd2461b12e.com^$important
+||aa53df329975c325.com^$important
 ||aa53df329975c325.com^$important
 ||aabmxezph.com^$important
 ||aacgeuvaoqbw.com^$important
@@ -3421,6 +3427,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||adwidgets.ru^$important
 ||adxpddpc.com^$important
 ||adxscope.com^$important
+||ae25079147984d4d.com^$important
 ||ae25079147984d4d.com^$important
 ||aeeefzfuk.com^$important
 ||aeezeynmam.bid^$important
@@ -3953,6 +3960,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||birslhmnnc.com^$important
 ||bisvljlzmai.com^$important
 ||bit.ly^$popup,important
+||bita-bit.xyz^$important
 ||biupcyhpmjazv.com^$important
 ||biwjfwhxoy.bid^$important
 ||bixolsoqluvzpu.com^$important
@@ -5509,6 +5517,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||fisqwkxyvsrtnz.bid^$important
 ||fiuazbmlycese.com^$important
 ||fiunfrafi.bid^$important
+||fixfuturetype-restclicks.icu^$important
 ||fjeqkpblfb.com^$important
 ||fjlvozwlv.bid^$important
 ||fjmjlwvtv.bid^$important
@@ -6220,6 +6229,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||hanimyel.com^$important
 ||hanwlgpecblxf.bid^$important
 ||haqbllmvpbqc.com^$important
+||harddayforall4.life^$important
 ||harvest.surge.sh/h.js$important,script
 ||hasrijwnxtn.com^$important
 ||hasxepvkld.com^$important
@@ -6820,6 +6830,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||inhcrirmboz.com^$important
 ||inhtwazkrebui.bid^$important
 ||inisvnawtzevnx.com^$important
+||initialized902nq.online^$important
 ||inmrjokdxmkh.com^$important
 ||innity.net^$important
 ||insbrvwfrcgb.com^$important
@@ -9164,6 +9175,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||opcyvbwkbiaqyt.com^$important
 ||opdfugwvncf.bid^$important
 ||opdmxlsdzd.bid^$important
+||openload.*^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.openload.co cdnjs.cloudflare.com  *.oloadcdn.net *.google.com
 ||openstat.net^$important
 ||openx.net^$important
 ||opflriars.com^$important
@@ -9616,6 +9628,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||punlkhusprgw.com^$important
 ||punvqjsvnmubxb.com^$important
 ||puogotzrsvtg.com^$important
+||pushnews.ru^$important
 ||puwzwbdopaeq.bid^$important
 ||pvclouds.com^$important
 ||pvdrlztojkd.bid^$important
@@ -11011,6 +11024,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||tikjbfpd.com^$important
 ||tikwglketskr.com^$important
 ||timonnbfad.bid^$important
+||tingecatalogue.club^$important
 ||tinlgcmkslwio.bid^$important
 ||tinypass.com^$third-party,important
 ||tiosmqhuuzb.bid^$important
