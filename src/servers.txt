@@ -12,8 +12,8 @@
 /^https?:\/\/denis\-[a-z0-9]{7,12}\-[a-z0-9]{7,12}\.com/$important
 /^https?:\/\/yastatic\.net\/[^\s]{500,}/$domain=~vh.yandex.ru
 /^https?:\/\/zmctrack\.(com|net)/$important
-||0d96a0971a04071.com^$important
 ||00f31156f051fdf.com^$important
+||0d96a0971a04071.com^$important
 ||1-1ads.com^$important
 ||1.fembed.com^$important
 ||1b8d89551340a.com^$important
@@ -24,10 +24,12 @@
 ||1xbkbet5.com^$important
 ||1xbkbet5.com^$important
 ||1xeemc.host^$important
+||1xeha.world^$important
 ||1xgzu.world^$important
 ||1xkeg.world^$important
 ||1xluw.world^$important
 ||1xndi.world^$important
+||1xrbt.world^$important
 ||1xuop.world^$important
 ||1xxwc.world^$important
 ||2d7bd9e6eb370143.com^$important
@@ -55,6 +57,7 @@
 ||30dfa2c5b2c5ca53ee73.date^$important
 ||36adb24f7c1c573a6380.date^$important
 ||41df76c67812005c.com^$important
+||41df76c67812005c.com^$important
 ||43acc8130d31cfd61041.date^$important
 ||47f624b2e6c6072e.com^$important
 ||75ce0f054e9abc.com^$important
@@ -73,6 +76,7 @@
 ||1063bac0d855f4e67bd4.date^$important
 ||5483bbc5758.com^$important
 ||6868bbe42af8e518.com^$important
+||6868bbe42af8e518.com^$important
 ||7667bab1751ff777.com^$important
 ||41944cecfb85.com^$important
 ||43031aaaecd84428.com^$important
@@ -80,8 +84,10 @@
 ||3585656d9351553f.com^$important
 ||88461059da0a12ea.com^$important
 ||a1a5ab31bcd1bc68.com^$important
+||a1a5ab31bcd1bc68.com^$important
 ||a2b108bd2461b12e.com^$important
 ||a-ads.com^$important
+||aa53df329975c325.com^$important
 ||aa53df329975c325.com^$important
 ||aabmxezph.com^$important
 ||aacgeuvaoqbw.com^$important
@@ -208,6 +214,7 @@
 ||adwidgets.ru^$important
 ||adxpddpc.com^$important
 ||adxscope.com^$important
+||ae25079147984d4d.com^$important
 ||ae25079147984d4d.com^$important
 ||aeeefzfuk.com^$important
 ||aeezeynmam.bid^$important
@@ -717,6 +724,7 @@
 ||birpidnl.com^$important
 ||birslhmnnc.com^$important
 ||bisvljlzmai.com^$important
+||bita-bit.xyz^$important
 ||biupcyhpmjazv.com^$important
 ||biwjfwhxoy.bid^$important
 ||bixolsoqluvzpu.com^$important
@@ -2246,6 +2254,7 @@
 ||fisqwkxyvsrtnz.bid^$important
 ||fiuazbmlycese.com^$important
 ||fiunfrafi.bid^$important
+||fixfuturetype-restclicks.icu^$important
 ||fjeqkpblfb.com^$important
 ||fjlvozwlv.bid^$important
 ||fjmjlwvtv.bid^$important
@@ -2930,6 +2939,7 @@
 ||hanimyel.com^$important
 ||hanwlgpecblxf.bid^$important
 ||haqbllmvpbqc.com^$important
+||harddayforall4.life^$important
 ||hasrijwnxtn.com^$important
 ||hasxepvkld.com^$important
 ||hattifkklbo.bid^$important
@@ -3523,6 +3533,7 @@
 ||inhcrirmboz.com^$important
 ||inhtwazkrebui.bid^$important
 ||inisvnawtzevnx.com^$important
+||initialized902nq.online^$important
 ||inmrjokdxmkh.com^$important
 ||innity.net^$important
 ||insbrvwfrcgb.com^$important
@@ -5853,6 +5864,7 @@
 ||opcyvbwkbiaqyt.com^$important
 ||opdfugwvncf.bid^$important
 ||opdmxlsdzd.bid^$important
+||openload.*^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.openload.co cdnjs.cloudflare.com  *.oloadcdn.net *.google.com
 ||openstat.net^$important
 ||openx.net^$important
 ||opflriars.com^$important
@@ -6299,6 +6311,7 @@
 ||punlkhusprgw.com^$important
 ||punvqjsvnmubxb.com^$important
 ||puogotzrsvtg.com^$important
+||pushnews.ru^$important
 ||puwzwbdopaeq.bid^$important
 ||pvclouds.com^$important
 ||pvdrlztojkd.bid^$important
@@ -7668,6 +7681,7 @@
 ||tikjbfpd.com^$important
 ||tikwglketskr.com^$important
 ||timonnbfad.bid^$important
+||tingecatalogue.club^$important
 ||tinlgcmkslwio.bid^$important
 ||tinypass.com^$third-party,important
 ||tiosmqhuuzb.bid^$important
