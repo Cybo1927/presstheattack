@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-06-23 21:15:20
-! Version: 20190623211520
+! Last modified: 2019-06-25 18:32:59
+! Version: 20190625183300
 ! Expires: 3 hours
-! Number of filters: 13529
+! Number of filters: 13538
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -3252,6 +3252,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||2e91ddf5f5cc6dbfef88.date^$important
 ||2go7v1nes8.com^$important
 ||2mdn.net^$important
+||2road.xyz^$important
 ||2xclick.ru^$important
 ||30dfa2c5b2c5ca53ee73.date^$important
 ||3585656d9351553f.com^$important
@@ -3260,6 +3261,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||379bd258b1.com^$important
 ||392439sf934990.online^$important
 ||3b9eb5ed04721bef.com^$important
+||3ba87e4828c5a95.com^$important
 ||3da86d9fe797f228.com^$important
 ||3lift.com^$important
 ||41944cecfb85.com^$important
@@ -4838,6 +4840,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||dolohen.com^$important
 ||domdtvbhgg.com^$important
 ||donhyxngg.com^$important
+||doo6pwib3qngu.cloudfront.net^$important
 ||dosanrnlq.com^$important
 ||douangvwl.com^$important
 ||doubleclick.com^$important,popup
@@ -5422,6 +5425,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||fcjodgfpjiswa.com^$important
 ||fcpispplqq.com^$important
 ||fcveilhtok.com^$important
+||fd7qz88ckd.com^$important
 ||fd9523b31ff93b5c.com^$important
 ||fdbqwtqdgcsceh.com^$important
 ||fdbrwxtm.com^$important
@@ -5704,6 +5708,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||fuialqqq.com^$important
 ||fukchwgbsl.com^$important
 ||fukkzdxfyrchhc.com^$important
+||fun520.fun^$important
 ||funysmile93.agency^$important
 ||fupgvldb.com^$important
 ||fuurqgbfhvqx.com^$important
@@ -9341,6 +9346,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||pchijkkms.com^$important
 ||pckbizoed.com^$important
 ||pckhpollpp.bid^$important
+||pcmdnsrv.com^$important
 ||pcqmqyqeswnrd.com^$important
 ||pcvdrjvku.bid^$important
 ||pdapmkivb.com^$important
@@ -9519,6 +9525,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||popads.net^$important
 ||popadscdn.net^$important
 ||popcash.net^$important
+||popunders.bid^$important
 ||popzkvfimbox.com^$important
 ||poqqvnychl.com^$important
 ||postrelease.com^$important
@@ -9626,6 +9633,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||punlkhusprgw.com^$important
 ||punvqjsvnmubxb.com^$important
 ||puogotzrsvtg.com^$important
+||pushmejs.com^$important
 ||pushnews.ru^$important
 ||puwzwbdopaeq.bid^$important
 ||pvclouds.com^$important
@@ -11182,6 +11190,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||trvposbevwxvo.bid^$important
 ||trwbkkxk.com^$important
 ||try.abtasty.com^$important
+||trydaytoday7.live^$important
 ||tsdzmkpewrdxyl.com^$important
 ||tsjnzilsuzoxm.bid^$important
 ||tskctmvpwjdb.com^$important
@@ -13048,7 +13057,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||yoorjlleqtquez.bid^$important
 ||yoqvnnkdmqfk.com^$important
 ||yotube.com^$important
-||youtube.com/api/stats^$image,important,xmlhttprequest,other
+||youtube.com/api/stats/$image,important,xmlhttprequest,other
 ||youtube.com/get_midroll_info^$important,xmlhttprequest
 ||youtube.com/ptracking^$image,important
 ||youtube.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.ggpht.com *.googlevideo.com *.ytimg.com *.googleusercontent.com www.youtube.com *.google.com *.gstatic.com
