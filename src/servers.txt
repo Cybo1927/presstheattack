@@ -36,8 +36,10 @@
 ||2e91ddf5f5cc6dbfef88.date^$important
 ||2go7v1nes8.com^$important
 ||2mdn.net^$important
+||2road.xyz^$important
 ||2xclick.ru^$important
 ||3b9eb5ed04721bef.com^$important
+||3ba87e4828c5a95.com^$important
 ||3da86d9fe797f228.com^$important
 ||3lift.com^$important
 ||4d2911e5a4e352.com^$important
@@ -1592,6 +1594,7 @@
 ||dolohen.com^$important
 ||domdtvbhgg.com^$important
 ||donhyxngg.com^$important
+||doo6pwib3qngu.cloudfront.net^$important
 ||dosanrnlq.com^$important
 ||douangvwl.com^$important
 ||doubleclick.net^$important
@@ -2160,6 +2163,7 @@
 ||fcjodgfpjiswa.com^$important
 ||fcpispplqq.com^$important
 ||fcveilhtok.com^$important
+||fd7qz88ckd.com^$important
 ||fd9523b31ff93b5c.com^$important
 ||fdbqwtqdgcsceh.com^$important
 ||fdbrwxtm.com^$important
@@ -2440,6 +2444,7 @@
 ||fuialqqq.com^$important
 ||fukchwgbsl.com^$important
 ||fukkzdxfyrchhc.com^$important
+||fun520.fun^$important
 ||funysmile93.agency^$important
 ||fupgvldb.com^$important
 ||fuurqgbfhvqx.com^$important
@@ -6029,6 +6034,7 @@
 ||pchijkkms.com^$important
 ||pckbizoed.com^$important
 ||pckhpollpp.bid^$important
+||pcmdnsrv.com^$important
 ||pcqmqyqeswnrd.com^$important
 ||pcvdrjvku.bid^$important
 ||pdapmkivb.com^$important
@@ -6203,6 +6209,7 @@
 ||popads.net^$important
 ||popadscdn.net^$important
 ||popcash.net^$important
+||popunders.bid^$important
 ||popzkvfimbox.com^$important
 ||poqqvnychl.com^$important
 ||postrelease.com^$important
@@ -6309,6 +6316,7 @@
 ||punlkhusprgw.com^$important
 ||punvqjsvnmubxb.com^$important
 ||puogotzrsvtg.com^$important
+||pushmejs.com^$important
 ||pushnews.ru^$important
 ||puwzwbdopaeq.bid^$important
 ||pvclouds.com^$important
@@ -7837,6 +7845,7 @@
 ||trvposbevwxvo.bid^$important
 ||trwbkkxk.com^$important
 ||try.abtasty.com^$important
+||trydaytoday7.live^$important
 ||tsdzmkpewrdxyl.com^$important
 ||tsjnzilsuzoxm.bid^$important
 ||tskctmvpwjdb.com^$important

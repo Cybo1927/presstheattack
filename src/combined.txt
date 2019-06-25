@@ -67,4 +67,4 @@
 ||permutive.com^$important,script,subdocument
 ||stripe.com/?event=$other,important,script,xmlhttprequest
 ||yimg.com/gemini/pr/video_$important,script,xmlhttprequest
-||youtube.com/api/stats^$image,important,xmlhttprequest,other
+||youtube.com/api/stats/$image,important,xmlhttprequest,other
