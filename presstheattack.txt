@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-06-26 18:51:07
-! Version: 20190626185107
+! Last modified: 2019-06-26 21:44:15
+! Version: 20190626214415
 ! Expires: 3 hours
 ! Number of filters: 13542
 ! Homepage: https://github.com/bogachenko/presstheattack/
@@ -2828,6 +2828,7 @@
 /^https?:\/\/[a-z0-9]+\.info\/+[-a-z0-9_?&=]{9,}/$third-party,script,important
 /^https?:\/\/[a-z0-9]{4,12}\.(accountant|bid|cf|club|cricket|date|download|faith|fun|ga|gdn|gq|host|info|loan|men|ml|online|ovh|party|pro|pw|racing|review|rocks|science|site|space|stream|tk|top|trade|webcam|website|win|xyz|store|solutions|software|social|site|shop|services|sale|run|rip|reviews|restaurant|report|zone)\/[\w\/\-.+]{120,}/$third-party,subdocument,important
 /^https?:\/\/[a-z]{1}[0-9]{4}adserv\./$important
+/^https?:\/\/a?clic?k\./$important
 /^https?:\/\/ad[bsxv]?([0-9]{1,2})?\./$important,domain=~ad.nl
 /^https?:\/\/ad[svx]?([0-9]{1,2})?\./$important,popup
 /^https?:\/\/aff(iliat(es?|ion))?([0-9]{1,2})?\./$important
@@ -2848,7 +2849,7 @@
 /^https?:\/\/px([0-9]{1,2})?\./$important
 /^https?:\/\/r([0-9]{1,2})?\./$important,domain=~office365.com|~live.com
 /^https?:\/\/s3\.amazonaws\.com\/.*[a-f0-9\/]{50,}/$important,third-party,xmlhttprequest,domain=~amazon.com
-/^https?:\/\/s?metric[as]?([0-9]{1,2})?\./$important,domain=~metrika.yandex.ru|~metrika.yandex.com|~metrica.yandex.com|~metrica.yandex.ru
+/^https?:\/\/s?metric[as]?([0-9]{1,2})?\./$important
 /^https?:\/\/stat(s|istics?)?([0-9]{1,2})?\./$important
 /^https?:\/\/tags?([0-9]{1,2})?\./$important
 /^https?:\/\/track(ers?|ing)?([0-9]{1,2})?\./$important
@@ -3187,13 +3188,10 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 |http*:*/yieldmanager/$important
 |http*:*/zbanner_consorzio.js$important,script
 |http*:*/zerg.js$important,script
-|http*:*://aclick.*^$important
 |http*:*=widgetimpression^$important,script,xmlhttprequest,subdocument,image
-|http*:*?*&ip=$third-party,domain=~googleapis.com
 |http*:*?*&lp=*id=$popup
 |http*:*?act=counter&$important
 |http*:*?adtype=$important,script,xmlhttprequest
-|http*:*?ip=$third-party
 |http*:*?lp=*id=$popup
 |http*:*?partner=$third-party,domain=~microsoft.com
 |http*:*?partner_id=$third-party
@@ -4429,6 +4427,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||collector.githubapp.com^$image,important
 ||collector.schibsted.io^$important
 ||com-mac-booster.live^$important
+||com-shield-device.live^$important
 ||commander1.com^$image,important
 ||comnop.icu^$important
 ||connatix.com^$important
@@ -12973,6 +12972,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||yimg.com/gemini/pr/video_$important,script,xmlhttprequest
 ||yimg.com/wi/ytc.js$important,script
 ||yincrkvptefw.bid^$important
+||yinmyar.xyz^$important
 ||yintkfbxaopyb.com^$important
 ||yioklzvjkaumf.com^$important
 ||yiqyefznxc.com^$important
