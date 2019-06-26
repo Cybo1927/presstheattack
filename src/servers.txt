@@ -12,8 +12,8 @@
 /^https?:\/\/denis\-[a-z0-9]{7,12}\-[a-z0-9]{7,12}\.com/$important
 /^https?:\/\/yastatic\.net\/[^\s]{500,}/$domain=~vh.yandex.ru
 /^https?:\/\/zmctrack\.(com|net)/$important
-||0d96a0971a04071.com^$important
 ||00f31156f051fdf.com^$important
+||0d96a0971a04071.com^$important
 ||1-1ads.com^$important
 ||1.fembed.com^$important
 ||1b8d89551340a.com^$important
@@ -143,6 +143,7 @@
 ||addesigner.com^$important
 ||addgfxnb.com^$important
 ||addthis.com^$important,third-party
+||adexchangegate.com^$important
 ||adeyujimmmh.com^$important
 ||adf.ly^$important
 ||adflazz.com^$important
@@ -1596,6 +1597,7 @@
 ||donhyxngg.com^$important
 ||doo6pwib3qngu.cloudfront.net^$important
 ||dosanrnlq.com^$important
+||dot4mobi.club^$important
 ||douangvwl.com^$important
 ||doubleclick.net^$important
 ||doublepimp.com^$important
@@ -1853,6 +1855,7 @@
 ||ehlfynuo.com^$important
 ||ehlnakqlcvuxk.bid^$important
 ||ehoksipmkejqt.bid^$important
+||eholot-hit.ru^$important
 ||ehraxliuwt.com^$important
 ||ehrwekypesnl.bid^$important
 ||ehrxkeosifmksi.bid^$important
@@ -3739,6 +3742,7 @@
 ||jbgehhqvfppf.com^$important
 ||jbgzahhyhen.com^$important
 ||jbhrcrhbiyshoz.bid^$important
+||jbonews.com^$important
 ||jboovenoenkh.com^$important
 ||jbpyqajzwbh.bid^$important
 ||jbqolazohwqesu.com^$important
