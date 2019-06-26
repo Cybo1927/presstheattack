@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-06-25 18:32:59
-! Version: 20190625183300
+! Last modified: 2019-06-26 18:51:07
+! Version: 20190626185107
 ! Expires: 3 hours
-! Number of filters: 13538
+! Number of filters: 13542
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
@@ -3356,6 +3356,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||addesigner.com^$important
 ||addgfxnb.com^$important
 ||addthis.com^$important,third-party
+||adexchangegate.com^$important
 ||adeyujimmmh.com^$important
 ||adf.ly^$important
 ||adflazz.com^$important
@@ -4842,6 +4843,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||donhyxngg.com^$important
 ||doo6pwib3qngu.cloudfront.net^$important
 ||dosanrnlq.com^$important
+||dot4mobi.club^$important
 ||douangvwl.com^$important
 ||doubleclick.com^$important,popup
 ||doubleclick.net^$important
@@ -5111,6 +5113,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||ehlfynuo.com^$important
 ||ehlnakqlcvuxk.bid^$important
 ||ehoksipmkejqt.bid^$important
+||eholot-hit.ru^$important
 ||ehraxliuwt.com^$important
 ||ehrwekypesnl.bid^$important
 ||ehrxkeosifmksi.bid^$important
@@ -7036,6 +7039,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||jbgehhqvfppf.com^$important
 ||jbgzahhyhen.com^$important
 ||jbhrcrhbiyshoz.bid^$important
+||jbonews.com^$important
 ||jboovenoenkh.com^$important
 ||jbpyqajzwbh.bid^$important
 ||jbqolazohwqesu.com^$important
