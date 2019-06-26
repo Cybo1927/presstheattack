@@ -13,11 +13,10 @@
 |http*:*/ad.gif$image,important
 |http*:*/ad.png$image,important
 |http*:*/ads.gif$image,important
-||kp.yandex.net/js/brand$domain=www.kinopoisk.ru,image,important
 |http*:*/ads.png$image,important
 |http*:*/adsct?$image,important
 |http*:*/atrk.gif$image,important
-|http*:*/blank.gif$image,important
+|http*:*/blank.gif$important,image,domain=~vk.com
 |http*:*/blank.png$image,important
 |http*:*/cc.gif$image,important
 |http*:*/clear.png$image,important
@@ -82,6 +81,7 @@
 ||feeds2.feedburner.com/~fc/$image,important
 ||google.com/pagead/$image,important
 ||hhcdn.ru/nposter/$image,important
+||kp.yandex.net/js/brand$domain=www.kinopoisk.ru,image,important
 ||livejournal.com/ljcounter/$image,important
 ||mail.yandex.*/monitoring_liza.txt$image,important
 ||primevideo.com/uedata/$image,important

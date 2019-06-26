@@ -32,3 +32,4 @@
 ||twitter.com/i/jot^$important,xmlhttprequest
 ||yahoo.com/pageview/$important,xmlhttprequest
 ||youtube.com/get_midroll_info^$important,xmlhttprequest
+||ok.ru/dk?cmd=videostatnew$important,xmlhttprequest
