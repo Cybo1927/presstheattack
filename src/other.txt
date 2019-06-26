@@ -1,5 +1,6 @@
 /^https?:\/\/(analysis|analytic[as]?)([0-9]{1,2})?\./$important
 /^https?:\/\/[^\s]+(\W|\_)ad[xsvb]?[0-9]{1}(images?|media|videos?)/$important
+/^https?:\/\/a?clic?k\./$important
 /^https?:\/\/ad[bsxv]?([0-9]{1,2})?\./$important,domain=~ad.nl
 /^https?:\/\/aff(iliat(es?|ion))?([0-9]{1,2})?\./$important
 /^https?:\/\/beacons?([0-9]{1,2})?\./$important
@@ -15,18 +16,15 @@
 /^https?:\/\/pixels?([0-9]{1,2})?\./$important
 /^https?:\/\/px([0-9]{1,2})?\./$important
 /^https?:\/\/r([0-9]{1,2})?\./$important,domain=~office365.com|~live.com
-/^https?:\/\/s?metric[as]?([0-9]{1,2})?\./$important,domain=~metrika.yandex.ru|~metrika.yandex.com|~metrica.yandex.com|~metrica.yandex.ru
+/^https?:\/\/s?metric[as]?([0-9]{1,2})?\./$important
 /^https?:\/\/stat(s|istics?)?([0-9]{1,2})?\./$important
 /^https?:\/\/tags?([0-9]{1,2})?\./$important
 /^https?:\/\/track(ers?|ing)?([0-9]{1,2})?\./$important
 |http*:*&partnerid=$third-party,domain=~google.com
 |http*:*/epubdelivery/$important
 |http*:*/yieldmanager/$important
-|http*:*://aclick.*^$important
-|http*:*?*&ip=$third-party,domain=~googleapis.com
 |http*:*?PartnerID=$third-party
 |http*:*?act=counter&$important
-|http*:*?ip=$third-party
 |http*:*?partner=$third-party,domain=~microsoft.com
 |http*:*?partner_id=$third-party
 |http*:*?perfekt=wss://*$important

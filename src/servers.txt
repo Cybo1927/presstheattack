@@ -12,8 +12,8 @@
 /^https?:\/\/denis\-[a-z0-9]{7,12}\-[a-z0-9]{7,12}\.com/$important
 /^https?:\/\/yastatic\.net\/[^\s]{500,}/$domain=~vh.yandex.ru
 /^https?:\/\/zmctrack\.(com|net)/$important
-||00f31156f051fdf.com^$important
 ||0d96a0971a04071.com^$important
+||00f31156f051fdf.com^$important
 ||1-1ads.com^$important
 ||1.fembed.com^$important
 ||1b8d89551340a.com^$important
@@ -1192,6 +1192,7 @@
 ||collamps.com^$important
 ||collector.schibsted.io^$important
 ||com-mac-booster.live^$important
+||com-shield-device.live^$important
 ||comnop.icu^$important
 ||connatix.com^$important
 ||connect.facebook.net^$third-party,important
@@ -9604,6 +9605,7 @@
 ||yiklmnmijwlryv.com^$important
 ||yimfcnxzyqhpih.com^$important
 ||yincrkvptefw.bid^$important
+||yinmyar.xyz^$important
 ||yintkfbxaopyb.com^$important
 ||yioklzvjkaumf.com^$important
 ||yiqyefznxc.com^$important
