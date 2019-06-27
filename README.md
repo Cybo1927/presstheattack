@@ -1,28 +1,4 @@
-<!--
-This file is part of the Press the Attack project,
-Copyright (c) 2019 Bogachenko Vyacheslav
-
-Press the Attack is a free project: you can distribute it and/or modify
-it in accordance with the MIT license published by the Massachusetts Institute of Technology.
-
-The Press the Attack project is distributed in the hope that it will be useful,
-and is provided "AS IS", WITHOUT ANY WARRANTY, EXPRESSLY EXPRESSED OR IMPLIED.
-WE ARE NOT RESPONSIBLE FOR ANY DAMAGES DUE TO THE USE OF THIS PROJECT OR ITS PARTS.
-For more information, see the MIT license.
-
-Github: https://github.com/bogachenko/presstheattack/
-Last modified: March 22, 2019
-License: MIT <https://github.com/bogachenko/presstheattack/blob/master/LICENSE.md>
-Problem reports: https://github.com/bogachenko/presstheattack/issues
-Title: README.md
-URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/README.md
-Wiki: https://github.com/bogachenko/presstheattack/wiki
-
-Download the entire Press the Attack project at https://github.com/bogachenko/presstheattack/archive/master.zip -->
-
 # Press the Attack
-[![site](https://img.shields.io/badge/site-up-%233fb912.svg)](https://bogachenko.github.io/presstheattack/)
-[![wiki](https://img.shields.io/badge/wiki-up-%233fb912.svg)](https://github.com/bogachenko/presstheattack/wiki)
 [![license](https://img.shields.io/badge/license-MIT-%233fb912.svg)](https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md)
 [![syntax](https://img.shields.io/badge/syntax-uBlock%20Origin-%23c61300.svg)](https://github.com/gorhill/uBlock/wiki/Static-filter-syntax)
 
@@ -52,13 +28,3 @@ To start using click on the link [SUBSCRIBE](https://subscribe.adblockplus.org/?
 
 ## License
 This project has an MIT license (see [License](https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md)).
-
-## Documentation
-
-For acquaintance and the detailed description of the project with its documentation pass into the section [WIKI](https://github.com/bogachenko/presstheattack/wiki).
-
-## Contributions
-
-I'm sure some of the filters here will break some sites. Please be careful and check the network request log (logger) of uBlock Origin to see what is being filtered and comment out any problem filter or you can use the "badfilter" flag.
-
-If you want to be part of this project, fine, I accept any requests for additional rules. Feel free to create "Pull request".
