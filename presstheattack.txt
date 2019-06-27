@@ -1,12 +1,11 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-06-27 02:22:23
-! Version: 20190627022223
+! Last modified: 2019-06-28 04:28:48
+! Version: 20190628042848
 ! Expires: 3 hours
 ! Number of filters: 13546
 ! Homepage: https://github.com/bogachenko/presstheattack/
-! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 ! In no event shall this list, or the list author be liable for any indirect, direct,
 ! punitive, special, incidental, or consequential damages whatsoever.
@@ -18,11 +17,6 @@
 ! Almost all network filters here are marked as "important" and therefore extensions
 ! such as Adblock Plus or others put them on a white list or not read at all due to limitations
 ! in the filter syntax and other reasons that do not bother me.
-!
-! If you use uBlock Origin then you can get help in any way convenient for you:
-! E-mail - bogachenkove@gmail.com
-! GitHub issues - https://github.com/bogachenko/presstheattack/issues/
-! GitHub pull requests - https://github.com/bogachenko/presstheattack/pulls/
 !
 ! The list of filters below is primarily for uBlock Origin
 ! Download uBlock Origin from GitHub - https://github.com/gorhill/uBlock/releases/
