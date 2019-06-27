@@ -12,15 +12,13 @@
 /^https?:\/\/denis\-[a-z0-9]{7,12}\-[a-z0-9]{7,12}\.com/$important
 /^https?:\/\/yastatic\.net\/[^\s]{500,}/$domain=~vh.yandex.ru
 /^https?:\/\/zmctrack\.(com|net)/$important
-||00f31156f051fdf.com^$important
 ||0d96a0971a04071.com^$important
+||00f31156f051fdf.com^$important
 ||1-1ads.com^$important
 ||1.fembed.com^$important
 ||1b8d89551340a.com^$important
 ||1cb70f6b7aab4c70819a.date^$important
 ||1fbaa223d6945621f8d7.date^$important
-||cdn7.rocks^$important
-||5edeb195868e2195.com^$important
 ||1wzfew7a.site^$important
 ||1xbet95.com^$important
 ||1xbkbet5.com^$important
@@ -48,6 +46,7 @@
 ||4ef6b73abc9123.com^$important
 ||4fba771f87a0251.com^$important
 ||4ukqzi8d7l.com^$important
+||5edeb195868e2195.com^$important
 ||5nt1gx7o57.com^$important
 ||6eez7ouig7gwguf6.pro^$important
 ||6zw2rcfd.com^$important
@@ -648,6 +647,7 @@
 ||behybmunweid.com^$important
 ||bekiruvppl.com^$important
 ||bektvxxfv.bid^$important
+||best2019games.com^$important
 ||bestdoctorstore.com^$important
 ||betboom.club^$important
 ||betsonsport.ru^$important,third-party
@@ -1022,6 +1022,7 @@
 ||cdfyuyoyfxohj.bid^$important
 ||cdhzxcwuibzk.com^$important
 ||cdmjjvqzurn.com^$important
+||cdn7.rocks^$important
 ||cdn77.org^$important
 ||cdn.onesignal.com^$important,third-party
 ||cdn.pljs.ru^$important
@@ -1300,6 +1301,7 @@
 ||ctzvtevpcssx.com^$important
 ||cuabgfjnib.bid^$important
 ||cuchpagh.com^$important
+||cuddlystore.com^$important
 ||cuecxgwkjtan.com^$important
 ||cuhicevdjsfey.com^$important
 ||cujsutkdbz.com^$important
@@ -2254,6 +2256,7 @@
 ||fifnonxntvaszg.com^$important
 ||fikyzmbuhql.bid^$important
 ||filenlgic.bid^$important
+||find4bettervideoing.info^$important
 ||fioeazluwwirp.bid^$important
 ||fiqkmfapvnntn.bid^$important
 ||firflzsngsg.bid^$important
@@ -2949,6 +2952,7 @@
 ||hanwlgpecblxf.bid^$important
 ||haqbllmvpbqc.com^$important
 ||harddayforall4.life^$important
+||hardmonday63.agency^$important
 ||hasrijwnxtn.com^$important
 ||hasxepvkld.com^$important
 ||hattifkklbo.bid^$important
@@ -5124,6 +5128,7 @@
 ||molqvpnnlmnb.com^$important
 ||monetate.net^$important
 ||moneysavingexpertcarinsurance.icu^$important
+||moneysavingexpertcarinsurance.icu^$important
 ||moneysavingexpertsavings.world^$important
 ||monklerm.pro^$important
 ||monlscalmows.bid^$important
@@ -5221,6 +5226,7 @@
 ||munqaasewcla.bid^$important
 ||muoiuxfj.com^$important
 ||muoyeoyymfwwp.bid^$important
+||muqson0kgr.com^$important
 ||muqson0kgr.com^$important
 ||muqyzjkamhpu.bid^$important
 ||musighkm.com^$important
@@ -7285,6 +7291,7 @@
 ||sgxaqysyilwkiu.com^$important
 ||sgzlmagzrrk.com^$important
 ||shacupwelhehqc.com^$important
+||shakytaste.com^$important
 ||shapzwwy.com^$important
 ||sharethrough.com^$important
 ||shasnvadkustw.com^$important
@@ -7982,6 +7989,7 @@
 ||tzwcaamgd.bid^$important
 ||tzyvolvenvyim.com^$important
 ||u595sebqih.com^$important
+||ua1xbet.com^$important
 ||uaaholcdcx.bid^$important
 ||uabdikmdwqdbr.com^$important
 ||uabicxuyovh.com^$important
@@ -8191,6 +8199,7 @@
 ||upckrtagwpwk.com^$important
 ||upcokvzuupn.bid^$important
 ||upgwdilkhlwguz.bid^$important
+||upitnow.top^$important
 ||upnpuqimdqnghau.*^$important
 ||uppybbhxbblxa.com^$important
 ||uprbleorptdghy.com^$important
