@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-06-28 04:28:48
-! Version: 20190628042848
+! Last modified: 2019-06-28 04:33:52
+! Version: 20190628043352
 ! Expires: 3 hours
-! Number of filters: 13546
+! Number of filters: 13555
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 ! In no event shall this list, or the list author be liable for any indirect, direct,
@@ -3873,6 +3873,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||behybmunweid.com^$important
 ||bekiruvppl.com^$important
 ||bektvxxfv.bid^$important
+||best2019games.com^$important
 ||bestdoctorstore.com^$important
 ||betboom.club^$important
 ||betsonsport.ru^$important,third-party
@@ -4532,6 +4533,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||ctzvtevpcssx.com^$important
 ||cuabgfjnib.bid^$important
 ||cuchpagh.com^$important
+||cuddlystore.com^$important
 ||cuecxgwkjtan.com^$important
 ||cuhicevdjsfey.com^$important
 ||cujsutkdbz.com^$important
@@ -5509,6 +5511,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||fifnonxntvaszg.com^$important
 ||fikyzmbuhql.bid^$important
 ||filenlgic.bid^$important
+||find4bettervideoing.info^$important
 ||fioeazluwwirp.bid^$important
 ||fiqkmfapvnntn.bid^$important
 ||firflzsngsg.bid^$important
@@ -6231,6 +6234,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||hanwlgpecblxf.bid^$important
 ||haqbllmvpbqc.com^$important
 ||harddayforall4.life^$important
+||hardmonday63.agency^$important
 ||harvest.surge.sh/h.js$important,script
 ||hasrijwnxtn.com^$important
 ||hasxepvkld.com^$important
@@ -8424,6 +8428,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||molqvpnnlmnb.com^$important
 ||monetate.net^$important
 ||moneysavingexpertcarinsurance.icu^$important
+||moneysavingexpertcarinsurance.icu^$important
 ||moneysavingexpertsavings.world^$important
 ||monklerm.pro^$important
 ||monlscalmows.bid^$important
@@ -8522,6 +8527,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||munqaasewcla.bid^$important
 ||muoiuxfj.com^$important
 ||muoyeoyymfwwp.bid^$important
+||muqson0kgr.com^$important
 ||muqson0kgr.com^$important
 ||muqyzjkamhpu.bid^$important
 ||musighkm.com^$important
@@ -10608,6 +10614,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||sgxaqysyilwkiu.com^$important
 ||sgzlmagzrrk.com^$important
 ||shacupwelhehqc.com^$important
+||shakytaste.com^$important
 ||shapzwwy.com^$important
 ||sharethrough.com^$important
 ||shasnvadkustw.com^$important
@@ -11324,6 +11331,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||tzwcaamgd.bid^$important
 ||tzyvolvenvyim.com^$important
 ||u595sebqih.com^$important
+||ua1xbet.com^$important
 ||uaaholcdcx.bid^$important
 ||uabdikmdwqdbr.com^$important
 ||uabicxuyovh.com^$important
@@ -11535,6 +11543,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||upckrtagwpwk.com^$important
 ||upcokvzuupn.bid^$important
 ||upgwdilkhlwguz.bid^$important
+||upitnow.top^$important
 ||upnpuqimdqnghau.*^$important
 ||uppybbhxbblxa.com^$important
 ||uprbleorptdghy.com^$important
