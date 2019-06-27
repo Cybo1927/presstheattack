@@ -55,7 +55,6 @@ cat > $TEMP/headers.txt <<EOF
 ! Expires: 3 hours
 ! Number of filters: ${LINES}
 ! Homepage: https://github.com/bogachenko/presstheattack/
-! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 ! In no event shall this list, or the list author be liable for any indirect, direct,
 ! punitive, special, incidental, or consequential damages whatsoever.
@@ -67,11 +66,6 @@ cat > $TEMP/headers.txt <<EOF
 ! Almost all network filters here are marked as "important" and therefore extensions
 ! such as Adblock Plus or others put them on a white list or not read at all due to limitations
 ! in the filter syntax and other reasons that do not bother me.
-!
-! If you use uBlock Origin then you can get help in any way convenient for you:
-! E-mail - bogachenkove@gmail.com
-! GitHub issues - https://github.com/bogachenko/presstheattack/issues/
-! GitHub pull requests - https://github.com/bogachenko/presstheattack/pulls/
 !
 ! The list of filters below is primarily for uBlock Origin
 ! Download uBlock Origin from GitHub - https://github.com/gorhill/uBlock/releases/
