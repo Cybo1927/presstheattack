@@ -12,9 +12,8 @@
 /^https?:\/\/denis\-[a-z0-9]{7,12}\-[a-z0-9]{7,12}\.com/$important
 /^https?:\/\/yastatic\.net\/[^\s]{500,}/$domain=~vh.yandex.ru
 /^https?:\/\/zmctrack\.(com|net)/$important
-||00f31156f051fdf.com^$important
 ||0d96a0971a04071.com^$important
-||securenetsystems.net^$important
+||00f31156f051fdf.com^$important
 ||1-1ads.com^$important
 ||1.fembed.com^$important
 ||1b8d89551340a.com^$important
@@ -7243,6 +7242,7 @@
 ||sebariklanbaris.com^$important
 ||seceive.pro^$important
 ||secfpgpqx.com^$important
+||securenetsystems.net^$important
 ||securite.01net.com^$important
 ||sedoparking.com^$important
 ||seedtag.com^$important
@@ -7936,6 +7936,7 @@
 ||twfilnym.com^$important
 ||twfzouvm.com^$important
 ||twhsmftwybkfn.bid^$important
+||twitch.tv^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' wss: blob: *.jtvnw.net *.ttvnw.net *.twitchcdn.net *.twitch.tv *.facebook.com *.facebook.net recaptcha.net *.google.com *.gstatic.com *.algolia.net;
 ||twiyetehf.com^$important
 ||twjboytcwutbrt.com^$important
 ||twmeccosyivi.com^$important
@@ -9702,7 +9703,7 @@
 ||yoorjlleqtquez.bid^$important
 ||yoqvnnkdmqfk.com^$important
 ||yotube.com^$important
-||youtube.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' *.ggpht.com *.googlevideo.com *.ytimg.com *.googleusercontent.com www.youtube.com *.google.com *.gstatic.com;
+||youtube.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' *.ggpht.com *.googlevideo.com *.ytimg.com *.googleusercontent.com *.youtube.com *.google.com *.gstatic.com;
 ||yovbkyylqlmkg.bid^$important
 ||yovqbcixogwc.com^$important
 ||yoxlrphhmphq.com^$important
