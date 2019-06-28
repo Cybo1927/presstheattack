@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-06-28 16:34:48
-! Version: 20190628163448
+! Last modified: 2019-06-28 19:40:49
+! Version: 20190628194049
 ! Expires: 3 hours
 ! Number of filters: 13552
 ! Homepage: https://github.com/bogachenko/presstheattack/
@@ -10563,6 +10563,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||sebariklanbaris.com^$important
 ||seceive.pro^$important
 ||secfpgpqx.com^$important
+||securenetsystems.net^$important
 ||securite.01net.com^$important
 ||sedoparking.com^$important
 ||seedtag.com^$important
@@ -11272,7 +11273,6 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||twfilnym.com^$important
 ||twfzouvm.com^$important
 ||twhsmftwybkfn.bid^$important
-||twitch.tv^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' *.jtvnw.net *.ttvnw.net *.twitchcdn.net *.twitch.tv *.facebook.com *.facebook.net recaptcha.net *.google.com *.gstatic.com *.algolia.net blob: wss:;
 ||twitter.com/*/recommendations^$xmlhttprequest
 ||twitter.com/*/toast_poll^$important,xmlhttprequest
 ||twitter.com/i/jot^$important,xmlhttprequest
