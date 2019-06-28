@@ -15,6 +15,7 @@
 ||mangovideo.pw/player/float.php$xmlhttprequest
 ||mercadolibre.com/tracks^$important,xmlhttprequest
 ||nytimes.com^*/data-layer?$important,xmlhttprequest
+||ok.ru/dk?cmd=videostatnew$important,xmlhttprequest
 ||perr.h-cdn.com^$important,xmlhttprequest
 ||pipe.aria.microsoft.com/collector^$important,xmlhttprequest
 ||reddit.com/*/sidebar_ads$xmlhttprequest,important
@@ -32,4 +33,4 @@
 ||twitter.com/i/jot^$important,xmlhttprequest
 ||yahoo.com/pageview/$important,xmlhttprequest
 ||youtube.com/get_midroll_info^$important,xmlhttprequest
-||ok.ru/dk?cmd=videostatnew$important,xmlhttprequest
+||youtube.com/get_video_info?*el=adunit$important,xmlhttprequest

@@ -7,8 +7,6 @@
 @@||githubusercontent.com^$image
 @@||google.*/url?*&q=*&url=$xmlhttprequest,subdocument,script
 @@||google.com/recaptcha/$script
-@@||googlevideo.com/*?*&ip=$third-party
-@@||googlevideo.com/*?ip=$third-party
 @@||gstatic.com/recaptcha/$script
 @@||img-*.xvideos-cdn.com/videos/thumbs*/ad/$image
 @@||jtvnw.net^$image,domain=twitch.tv

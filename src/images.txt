@@ -79,7 +79,7 @@
 ||commander1.com^$image,important
 ||duckduckgo.com/t/$image,important
 ||feeds2.feedburner.com/~fc/$image,important
-||google.com/pagead/$image,important
+||google.*/pagead/$image,important
 ||hhcdn.ru/nposter/$image,important
 ||kp.yandex.net/js/brand$domain=www.kinopoisk.ru,image,important
 ||livejournal.com/ljcounter/$image,important

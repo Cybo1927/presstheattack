@@ -5881,7 +5881,6 @@
 ||opcyvbwkbiaqyt.com^$important
 ||opdfugwvncf.bid^$important
 ||opdmxlsdzd.bid^$important
-||openload.*^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.openload.co cdnjs.cloudflare.com  *.oloadcdn.net *.google.com
 ||openstat.net^$important
 ||openx.net^$important
 ||opflriars.com^$important
@@ -6860,7 +6859,6 @@
 ||rdwfotuyp.bid^$important
 ||realnwspfbumn.com^$important
 ||recreativ.ru^$important
-||reddit.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.reddit.com *.redditmedia.com *.redditstatic.com reddit-uploaded-media.s3-accelerate.amazonaws.com *.redd.it
 ||refatxhcuu.com^$important
 ||refdomain3.xyz^$important
 ||regbigltd.bid^$important
@@ -7798,7 +7796,6 @@
 ||togfcqfvarpq.com^$important
 ||topclickguru.com^$important
 ||toponclick.com^$important
-||torrentz2.*^$csp=script-src 'self' 'unsafe-inline'
 ||totalmedia2.ynet.co.il^$important
 ||totvsaexihbe.com^$important
 ||touayfftdwcd.com^$important
@@ -7936,9 +7933,10 @@
 ||twdsaqqrzbowom.com^$important
 ||twfcqnqggx.com^$important
 ||twfilnym.com^$important
+||youtube.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' *.ggpht.com *.googlevideo.com *.ytimg.com *.googleusercontent.com www.youtube.com *.google.com *.gstatic.com;
 ||twfzouvm.com^$important
 ||twhsmftwybkfn.bid^$important
-||twitch.tv^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' *.jtvnw.net *.ttvnw.net *.twitchcdn.net *.twitch.tv *.facebook.com *.facebook.net recaptcha.net *.google.com *.gstatic.com *.algolia.net blob: wss:
+||twitch.tv^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' *.jtvnw.net *.ttvnw.net *.twitchcdn.net *.twitch.tv *.facebook.com *.facebook.net recaptcha.net *.google.com *.gstatic.com *.algolia.net blob: wss:;
 ||twiyetehf.com^$important
 ||twjboytcwutbrt.com^$important
 ||twmeccosyivi.com^$important
@@ -9705,7 +9703,6 @@
 ||yoorjlleqtquez.bid^$important
 ||yoqvnnkdmqfk.com^$important
 ||yotube.com^$important
-||youtube.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.ggpht.com *.googlevideo.com *.ytimg.com *.googleusercontent.com www.youtube.com *.google.com *.gstatic.com
 ||yovbkyylqlmkg.bid^$important
 ||yovqbcixogwc.com^$important
 ||yoxlrphhmphq.com^$important
