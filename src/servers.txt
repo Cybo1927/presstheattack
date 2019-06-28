@@ -14,6 +14,7 @@
 /^https?:\/\/zmctrack\.(com|net)/$important
 ||00f31156f051fdf.com^$important
 ||0d96a0971a04071.com^$important
+||securenetsystems.net^$important
 ||1-1ads.com^$important
 ||1.fembed.com^$important
 ||1b8d89551340a.com^$important
@@ -7935,7 +7936,6 @@
 ||twfilnym.com^$important
 ||twfzouvm.com^$important
 ||twhsmftwybkfn.bid^$important
-||twitch.tv^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' *.jtvnw.net *.ttvnw.net *.twitchcdn.net *.twitch.tv *.facebook.com *.facebook.net recaptcha.net *.google.com *.gstatic.com *.algolia.net blob: wss:;
 ||twiyetehf.com^$important
 ||twjboytcwutbrt.com^$important
 ||twmeccosyivi.com^$important
