@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-06-28 04:33:52
-! Version: 20190628043352
+! Last modified: 2019-06-28 16:23:04
+! Version: 20190628162304
 ! Expires: 3 hours
-! Number of filters: 13555
+! Number of filters: 13550
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 ! In no event shall this list, or the list author be liable for any indirect, direct,
@@ -2862,8 +2862,6 @@
 @@||githubusercontent.com^$image
 @@||google.*/url?*&q=*&url=$xmlhttprequest,subdocument,script
 @@||google.com/recaptcha/$script
-@@||googlevideo.com/*?*&ip=$third-party
-@@||googlevideo.com/*?ip=$third-party
 @@||gstatic.com/recaptcha/$script
 @@||img-*.xvideos-cdn.com/videos/thumbs*/ad/$image
 @@||jtvnw.net^$image,domain=twitch.tv
@@ -6016,13 +6014,12 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||google.*/ads/search/module/ads/*/search.js$important,script
 ||google.*/log?$important,xmlhttprequest
 ||google.*/logimpressions?$important
-||google.*/pagead$important
+||google.*/pagead/$image,important
 ||google.com/ads/$important,script,subdocument
 ||google.com/adsense/$important,script,subdocument
 ||google.com/afs/$important,subdocument
 ||google.com/async/*&async=encoded_cache_key$important,xmlhttprequest
 ||google.com/dp/ads?$important,subdocument
-||google.com/pagead/$image,important
 ||google.com/pagead/$subdocument,important
 ||google.com/uds/$important,script,subdocument
 ||google.com^*/viewerimpressions^$important,xmlhttprequest
@@ -9185,7 +9182,6 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||opcyvbwkbiaqyt.com^$important
 ||opdfugwvncf.bid^$important
 ||opdmxlsdzd.bid^$important
-||openload.*^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.openload.co cdnjs.cloudflare.com  *.oloadcdn.net *.google.com
 ||openstat.net^$important
 ||openx.net^$important
 ||opflriars.com^$important
@@ -10172,7 +10168,6 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||recreativ.ru^$important
 ||reddit.com/*/sidebar_ads$xmlhttprequest,important
 ||reddit.com/timings/$important,xmlhttprequest
-||reddit.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.reddit.com *.redditmedia.com *.redditstatic.com reddit-uploaded-media.s3-accelerate.amazonaws.com *.redd.it
 ||redditmedia.com/gtm/jail^$important,subdocument
 ||redditstatic.com/moat^$important,script
 ||refatxhcuu.com^$important
@@ -11135,7 +11130,6 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||top100.ru/top100/top100.js$important,script
 ||topclickguru.com^$important
 ||toponclick.com^$important
-||torrentz2.*^$csp=script-src 'self' 'unsafe-inline'
 ||totalmedia2.ynet.co.il^$important
 ||totvsaexihbe.com^$important
 ||touayfftdwcd.com^$important
@@ -11276,7 +11270,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||twfilnym.com^$important
 ||twfzouvm.com^$important
 ||twhsmftwybkfn.bid^$important
-||twitch.tv^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' *.jtvnw.net *.ttvnw.net *.twitchcdn.net *.twitch.tv *.facebook.com *.facebook.net recaptcha.net *.google.com *.gstatic.com *.algolia.net blob: wss:
+||twitch.tv^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' *.jtvnw.net *.ttvnw.net *.twitchcdn.net *.twitch.tv *.facebook.com *.facebook.net recaptcha.net *.google.com *.gstatic.com *.algolia.net blob: wss:;
 ||twitter.com/*/recommendations^$xmlhttprequest
 ||twitter.com/*/toast_poll^$important,xmlhttprequest
 ||twitter.com/i/jot^$important,xmlhttprequest
@@ -13070,8 +13064,9 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||yotube.com^$important
 ||youtube.com/api/stats/$image,important,xmlhttprequest,other
 ||youtube.com/get_midroll_info^$important,xmlhttprequest
+||youtube.com/get_video_info?*el=adunit$important,xmlhttprequest
 ||youtube.com/ptracking^$image,important
-||youtube.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.ggpht.com *.googlevideo.com *.ytimg.com *.googleusercontent.com www.youtube.com *.google.com *.gstatic.com
+||youtube.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' *.ggpht.com *.googlevideo.com *.ytimg.com *.googleusercontent.com www.youtube.com *.google.com *.gstatic.com;
 ||yovbkyylqlmkg.bid^$important
 ||yovqbcixogwc.com^$important
 ||yoxlrphhmphq.com^$important
