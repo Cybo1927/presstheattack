@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-06-28 16:23:04
-! Version: 20190628162304
+! Last modified: 2019-06-28 16:34:48
+! Version: 20190628163448
 ! Expires: 3 hours
-! Number of filters: 13550
+! Number of filters: 13552
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 ! In no event shall this list, or the list author be liable for any indirect, direct,
@@ -2762,18 +2762,7 @@
 */spacer.png$image,redirect=1x1-transparent.gif
 */visitor.js$script,redirect=noopjs
 */visitorapi.js$script,redirect=noopjs
-/(\W|\_)([a-zA-Z]{1,4})?events?\.js/$other,important,script,xmlhttprequest,domain=~rambler.ru
-/(\W|\_)(player|gen|client|csi|generate|stream|logs?)(\W|\_)?204/$image,important,xmlhttprequest,other
-/(\W|\_)(show|jquery)(\W|\_)?ad[xsvb]?(\W|\_)/$script,important,xmlhttprequest
-/(\W|\_)[0-9]{1,2}ads\.gif/$image,important,script
 /(\W|\_)a(d[vs]e?|nnounceme|ds?)[rn][tev](s|ing|covers?|server?|isements?|ising|e(rs?)?|ements|ur)?/$important,popup
-/(\W|\_)ad[svbx]\.php/$important,script,xmlhttprequest
-/(\W|\_)ad[xsvb]?(\W|\_)?iframe(\W|\_)/$script,important,subdocument,xmlhttprequest
-/(\W|\_)fingerprint([0-9]{1,2})?(\.min)?\.js/$important,script,xmlhttprequest,image
-/(\W|\_)log(\W|\_)?(type|event|entry|request)/$image,important,xmlhttprequest,other
-/(\W|\_)ping(\W|\_)/$important,script,image,xmlhttprequest
-/(\W|\_)pixels?(\W|\_)?/$image,important,object,xmlhttprequest,script,subdocument
-/(\W|\_)pop(unders?)?([0-9]{1,2})?\./$important,popup,script,xmlhttprequest
 /(bitly|bit)\.(com|ly)/$popup,important
 /^https:\/\/.*?\/v2\/0\/[a-zA-Z0-9_-]{30,}$/$important,script,third-party
 /^https:\/\/69([a-z]{1,2})\.([a-z]{4})/$important
@@ -2791,18 +2780,28 @@
 /^https?:\/\/(syndication|analytics)\.twitter\.com/$important
 /^https?:\/\/(www\.)?(client\-event\-reporter|countess|mp|polyfill|sentinel|spade|trowel|fan)\.twitch(svc)?\.(com|net|tv)/$important
 /^https?:\/\/(www\.)?(facebookcorewwwi|facebook)\.(com|net|onion)\/tr\D/$important
-/^https?:\/\/.*(\W|\_)bann?ers?((\W|\_).*?)?\.gif/$image,important,subdocument
 /^https?:\/\/2ch\.(hk|pm|re|tf|wf|yt)\/(images|banners?)\//$image,important
 /^https?:\/\/[0-9a-z\-\.]+\.[a-z]{2,7}\/sw\.js\?[0-9a-zA-Z_&%]{32,}/$first-party,xmlhttprequest,important
 /^https?:\/\/[^/]+\/[a-z0-9]{15,}(\?hope=.*)?$/$important,script
+/^https?:\/\/[^\s]+(\W|\_)(player|gen|client|csi|generate|stream|logs?)(\W|\_)?204/$image,important,xmlhttprequest,other
+/^https?:\/\/[^\s]+(\W|\_)(show|jquery)(\W|\_)?ad[xsvb]?(\W|\_)/$script,important,xmlhttprequest
+/^https?:\/\/[^\s]+(\W|\_)[0-9]{1,2}ads\.gif/$image,important,script
 /^https?:\/\/[^\s]+(\W|\_)a(d[vs]e?|nnounceme|ds?)[rn][tev](s|ing|covers?|server?|isements?|ising|e(rs?)?|ements|ur)?\.js/$important,script,third-party
+/^https?:\/\/[^\s]+(\W|\_)ad[svbx]\.php/$important,script,xmlhttprequest
+/^https?:\/\/[^\s]+(\W|\_)ad[xsvb]?(\W|\_)?iframe(\W|\_)/$script,important,subdocument,xmlhttprequest
 /^https?:\/\/[^\s]+(\W|\_)ad[xsvb]?[0-9]{1}(images?|media|videos?)/$important
 /^https?:\/\/[^\s]+(\W|\_)auto(\W|\_)ads?.*?\.js/$important,script
+/^https?:\/\/[^\s]+(\W|\_)bann?ers?((\W|\_).*?)?\.gif/$image,important,subdocument
 /^https?:\/\/[^\s]+(\W|\_)dfp(\W|\_)?.*?\.js/$script,important
+/^https?:\/\/[^\s]+(\W|\_)fingerprint([0-9]{1,2})?(\.min)?\.js/$important,script,xmlhttprequest,image
 /^https?:\/\/[^\s]+(\W|\_)g(tag|oogleads?|oogleanal(ytics?|yzer?)([0-9]{1})?|pt((\W|\_)mobile)?|tm|a((\W|\_)lite)?|a((\W|\_)setup)?|oogle(\W|\_)track(ers?|ing)?|oogletag|ads?|tagmanager((\W|\_)backend|track(ers?|ing)?event)?|oogle(\W|\_)stats?)\./$important,script
 /^https?:\/\/[^\s]+(\W|\_)kameleoon(\.min)?\.js/$important,script
+/^https?:\/\/[^\s]+(\W|\_)log(\W|\_)?(type|event|entry|request)/$image,important,xmlhttprequest,other
 /^https?:\/\/[^\s]+(\W|\_)me([0-9]{1})?w\.js/$important,script
 /^https?:\/\/[^\s]+(\W|\_)metric[sa]?(.*)?\.js/$important,script
+/^https?:\/\/[^\s]+(\W|\_)ping(\W|\_)/$important,script,image,xmlhttprequest
+/^https?:\/\/[^\s]+(\W|\_)pixels?(\W|\_)?/$image,important,object,xmlhttprequest,script,subdocument
+/^https?:\/\/[^\s]+(\W|\_)pop(unders?)?([0-9]{1,2})?\./$important,popup,script,xmlhttprequest
 /^https?:\/\/[^\s]+(\W|\_)prebid([0-9]{1,2})?(\W|\_)/$important,script
 /^https?:\/\/[^\s]+(\W|\_)pubfig(\.min)?\.js/$important,script
 /^https?:\/\/[^\s]+(\W|\_)re[ck]lama?store\.js/$important,script
@@ -2810,9 +2809,12 @@
 /^https?:\/\/[^\s]+/amp\-ads?(\-[-0-9.]{2,3})?\.js/$important,script
 /^https?:\/\/[^\s]+/amp\-analytics(\-[-0-9.]{2,3})?\.js/$important,script
 /^https?:\/\/[^\s]+/amp\-sticky-ad(\-[-0-9.]{2,3})?\.js/$important,script
+/^https?:\/\/[^\s]+\-ad\-sdk\-js\-/$important,script
 /^https?:\/\/[^\s]+\.[A-Za-z]{2,6}\/[^\s]{5,}\.js\?[A-Za-z]{1}\=[^\s]{50,}/$popup,important
 /^https?:\/\/[^\s]+\.[A-Za-z]{2,6}\/[A-Za-z]{1}\?tag\=[^\s]+\&site\=[A-Za-z0-9]{1,}\&ads?\=/$popup,important,script
 /^https?:\/\/[^\s]+\/([^\s]{4})?tag\.min\.([a-z0-9]{30,}\.)?js/$important,script
+/^https?:\/\/[^\s]+\/([a-zA-Z]{1,4})?events?\.js/$other,important,script,xmlhttprequest
+/^https?:\/\/[^\s]+\/adsdk(\.bundle)?\.js/$important,script
 /^https?:\/\/[^\s]+\/dfp([0-9]{1})?\.js/$important,script
 /^https?:\/\/[^\s]+\/fp([0-9]{1,2})?\.js/$important,script
 /^https?:\/\/[^\s]+\/piwik((\W|\_)[_0-9-.]{5,})?\.js/$important,script
