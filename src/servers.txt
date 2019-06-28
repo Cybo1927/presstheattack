@@ -12,8 +12,8 @@
 /^https?:\/\/denis\-[a-z0-9]{7,12}\-[a-z0-9]{7,12}\.com/$important
 /^https?:\/\/yastatic\.net\/[^\s]{500,}/$domain=~vh.yandex.ru
 /^https?:\/\/zmctrack\.(com|net)/$important
-||0d96a0971a04071.com^$important
 ||00f31156f051fdf.com^$important
+||0d96a0971a04071.com^$important
 ||1-1ads.com^$important
 ||1.fembed.com^$important
 ||1b8d89551340a.com^$important
@@ -7933,7 +7933,6 @@
 ||twdsaqqrzbowom.com^$important
 ||twfcqnqggx.com^$important
 ||twfilnym.com^$important
-||youtube.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' *.ggpht.com *.googlevideo.com *.ytimg.com *.googleusercontent.com www.youtube.com *.google.com *.gstatic.com;
 ||twfzouvm.com^$important
 ||twhsmftwybkfn.bid^$important
 ||twitch.tv^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' *.jtvnw.net *.ttvnw.net *.twitchcdn.net *.twitch.tv *.facebook.com *.facebook.net recaptcha.net *.google.com *.gstatic.com *.algolia.net blob: wss:;
@@ -9703,6 +9702,7 @@
 ||yoorjlleqtquez.bid^$important
 ||yoqvnnkdmqfk.com^$important
 ||yotube.com^$important
+||youtube.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' *.ggpht.com *.googlevideo.com *.ytimg.com *.googleusercontent.com www.youtube.com *.google.com *.gstatic.com;
 ||yovbkyylqlmkg.bid^$important
 ||yovqbcixogwc.com^$important
 ||yoxlrphhmphq.com^$important

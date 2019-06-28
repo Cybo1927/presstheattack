@@ -17,7 +17,9 @@
 /^https?:\/\/[^\s]+/amp\-ads?(\-[-0-9.]{2,3})?\.js/$important,script
 /^https?:\/\/[^\s]+/amp\-analytics(\-[-0-9.]{2,3})?\.js/$important,script
 /^https?:\/\/[^\s]+/amp\-sticky-ad(\-[-0-9.]{2,3})?\.js/$important,script
+/^https?:\/\/[^\s]+\-ad\-sdk\-js\-/$important,script
 /^https?:\/\/[^\s]+\/([^\s]{4})?tag\.min\.([a-z0-9]{30,}\.)?js/$important,script
+/^https?:\/\/[^\s]+\/adsdk(\.bundle)?\.js/$important,script
 /^https?:\/\/[^\s]+\/dfp([0-9]{1})?\.js/$important,script
 /^https?:\/\/[^\s]+\/fp([0-9]{1,2})?\.js/$important,script
 /^https?:\/\/[^\s]+\/piwik((\W|\_)[_0-9-.]{5,})?\.js/$important,script
