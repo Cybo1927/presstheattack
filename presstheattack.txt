@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-06-28 20:02:51
-! Version: 20190628200251
+! Last modified: 2019-06-30 04:26:45
+! Version: 20190630042645
 ! Expires: 3 hours
-! Number of filters: 13553
+! Number of filters: 13557
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 ! In no event shall this list, or the list author be liable for any indirect, direct,
@@ -2812,6 +2812,7 @@
 /^https?:\/\/[^\s]+\-ad\-sdk\-js\-/$important,script
 /^https?:\/\/[^\s]+\.[A-Za-z]{2,6}\/[^\s]{5,}\.js\?[A-Za-z]{1}\=[^\s]{50,}/$popup,important
 /^https?:\/\/[^\s]+\.[A-Za-z]{2,6}\/[A-Za-z]{1}\?tag\=[^\s]+\&site\=[A-Za-z0-9]{1,}\&ads?\=/$popup,important,script
+/^https?:\/\/[^\s]+\.com\/[0-9a-z]{8}\.js#spot\=[0-9]{5}$/$important,script
 /^https?:\/\/[^\s]+\/([^\s]{4})?tag\.min\.([a-z0-9]{30,}\.)?js/$important,script
 /^https?:\/\/[^\s]+\/([a-zA-Z]{1,4})?events?\.js/$other,important,script,xmlhttprequest
 /^https?:\/\/[^\s]+\/adsdk(\.bundle)?\.js/$important,script
@@ -2879,7 +2880,7 @@
 @@||yandex.*/search/?*&text=$xmlhttprequest
 @@||yandex.*/search/adresa-geolocation?*&text=$xmlhttprequest
 @@||yandex.st/swfobject/*^$script
-@@||yastatic.net/*-player-iframe-api-*/$subdocument,xmlhttprequest
+@@||yastatic.net/*-player-iframe-api-*/$subdocument,xmlhttprequest,script
 google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 reddit.com##.onboardingbar-body
 topsite.com###adchoices
@@ -4854,6 +4855,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||doublepimpssl.com^$important
 ||doublepimpssl.com^$popup,important
 ||dovltuzibsfs.com^$important
+||downloadsdir.com^$important
 ||dpallyihgtgu.com^$important
 ||dpbviawkrumynm.com^$important
 ||dpkdwhfdrvxzcr.bid^$important
@@ -6014,7 +6016,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||google-analytics.com^$script,important,redirect=noopjs
 ||google-analytics.com^$xmlhttprequest,important,redirect=nooptext
 ||google.*/ads/search/module/ads/*/search.js$important,script
-||google.*/log?$important,xmlhttprequest
+||google.*/log?$important,xmlhttprequest,image
 ||google.*/logimpressions?$important
 ||google.*/pagead/$image,important
 ||google.com/ads/$important,script,subdocument
@@ -9585,6 +9587,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||prncfucwvi.bid^$important
 ||prnxtmtbbqs.bid^$important
 ||proofpoint.com^$important
+||proofpoint.com^$important
 ||propellerclick.com^$important
 ||prophet.heise.de^$important
 ||protovid.com^$important
@@ -10686,6 +10689,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||slotsvictory.net^$important
 ||slotsvictory.net^$popup,important
 ||slurolen.com^$important
+||slutsnearby.com^$important
 ||slwclrwmruuxav.com^$important
 ||smapohsnoww.com^$important
 ||smartadserver.com^$important
