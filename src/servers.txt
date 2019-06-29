@@ -12,8 +12,8 @@
 /^https?:\/\/denis\-[a-z0-9]{7,12}\-[a-z0-9]{7,12}\.com/$important
 /^https?:\/\/yastatic\.net\/[^\s]{500,}/$domain=~vh.yandex.ru
 /^https?:\/\/zmctrack\.(com|net)/$important
-||0d96a0971a04071.com^$important
 ||00f31156f051fdf.com^$important
+||0d96a0971a04071.com^$important
 ||1-1ads.com^$important
 ||1.fembed.com^$important
 ||1b8d89551340a.com^$important
@@ -1609,6 +1609,7 @@
 ||doublepimp.com^$important
 ||doublepimpssl.com^$important
 ||dovltuzibsfs.com^$important
+||downloadsdir.com^$important
 ||dpallyihgtgu.com^$important
 ||dpbviawkrumynm.com^$important
 ||dpkdwhfdrvxzcr.bid^$important
@@ -6276,6 +6277,7 @@
 ||prncfucwvi.bid^$important
 ||prnxtmtbbqs.bid^$important
 ||proofpoint.com^$important
+||proofpoint.com^$important
 ||propellerclick.com^$important
 ||prophet.heise.de^$important
 ||protovid.com^$important
@@ -7362,6 +7364,7 @@
 ||slotforjoy.net^$important
 ||slotsvictory.net^$important
 ||slurolen.com^$important
+||slutsnearby.com^$important
 ||slwclrwmruuxav.com^$important
 ||smapohsnoww.com^$important
 ||smartadserver.com^$important

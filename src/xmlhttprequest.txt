@@ -9,7 +9,6 @@
 ||disqus.com/api/*/listrelated.json$xmlhttprequest
 ||dropbox.com/log/$important,xmlhttprequest
 ||github.com/_private/browser/stats^$important,xmlhttprequest
-||google.*/log?$important,xmlhttprequest
 ||google.com/async/*&async=encoded_cache_key$important,xmlhttprequest
 ||google.com^*/viewerimpressions^$important,xmlhttprequest
 ||mangovideo.pw/player/float.php$xmlhttprequest

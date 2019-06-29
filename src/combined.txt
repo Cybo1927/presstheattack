@@ -59,6 +59,7 @@
 ||facebook.com/xti.php^$important,script,xmlhttprequest
 ||facebookcorewwwi.onion/xti.php^$important,script,xmlhttprequest
 ||fls-*.amazon.*^$other,important,script,xmlhttprequest
+||google.*/log?$important,xmlhttprequest,image
 ||google.com/ads/$important,script,subdocument
 ||google.com/adsense/$important,script,subdocument
 ||google.com/uds/$important,script,subdocument

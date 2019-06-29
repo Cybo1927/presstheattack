@@ -22,4 +22,4 @@
 @@||yandex.*/search/?*&text=$xmlhttprequest
 @@||yandex.*/search/adresa-geolocation?*&text=$xmlhttprequest
 @@||yandex.st/swfobject/*^$script
-@@||yastatic.net/*-player-iframe-api-*/$subdocument,xmlhttprequest
+@@||yastatic.net/*-player-iframe-api-*/$subdocument,xmlhttprequest,script
