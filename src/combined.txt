@@ -29,6 +29,7 @@
 |http*:*/code/bshow.php$important,script,xmlhttprequest
 |http*:*/col2/*&ss=$important,script,xmlhttprequest,image
 |http*:*/cookieid.htm$image,important,script,xmlhttprequest,subdocument
+|http*:*/ctrl.gif?ref=$important,script,xmlhttprequest
 |http*:*/dear_code/*/goclick?t=*$important,script,xmlhttprequest
 |http*:*/dtm/*/satellitelib$important,script,xmlhttprequest
 |http*:*/entry_stats^$important,script,xmlhttprequest
