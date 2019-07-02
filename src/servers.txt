@@ -12,8 +12,8 @@
 /^https?:\/\/denis\-[a-z0-9]{7,12}\-[a-z0-9]{7,12}\.com/$important
 /^https?:\/\/yastatic\.net\/[^\s]{500,}/$domain=~vh.yandex.ru
 /^https?:\/\/zmctrack\.(com|net)/$important
-||00f31156f051fdf.com^$important
 ||0d96a0971a04071.com^$important
+||00f31156f051fdf.com^$important
 ||1-1ads.com^$important
 ||1.fembed.com^$important
 ||1b8d89551340a.com^$important
@@ -319,6 +319,7 @@
 ||akvtmvoolwlm.bid^$important
 ||akxsrsdbursfpx.bid^$important
 ||akyscwwwttk.com^$important
+||akzgmbembk.com^$important
 ||akzqosxbzl.bid^$important
 ||akzvxmjnubq.com^$important
 ||aladbvddjsxf.com^$important
@@ -2156,6 +2157,7 @@
 ||fastly-insights.com^$important
 ||fatayvywbebgdn.com^$important
 ||fawhiybzs.bid^$important
+||faykdrhpo.com^$important
 ||fbafbbujy.com^$important
 ||fbauhaozc.bid^$important
 ||fbbjlubvwmwd.com^$important
@@ -3777,6 +3779,7 @@
 ||jcsisvtb.com^$important
 ||jctszdppy.bid^$important
 ||jcwejhrrch.bid^$important
+||jcxghdlrrmyy.com^$important
 ||jcytzfvrm.bid^$important
 ||jczpcviiurut.bid^$important
 ||jdbovkzjtuup.com^$important
@@ -4706,6 +4709,7 @@
 ||lnpqqigowz.com^$important
 ||lnsthqzdsvzboo.bid^$important
 ||lnwbiuetoymifj.com^$important
+||lnwqvhcqw.com^$important
 ||loakfiiggz.bid^$important
 ||locjzfoh.com^$important
 ||lofipgeld.bid^$important
@@ -4946,6 +4950,7 @@
 ||mcaybfrnrqpmv.com^$important
 ||mcfdnvewqws.com^$important
 ||mcgndenytmy.com^$important
+||mchpowtyj.com^$important
 ||mciyblxplucm.bid^$important
 ||mclwrdzj.bid^$important
 ||mcnklvsodqqa.com^$important
@@ -6796,6 +6801,7 @@
 ||qzpzspna.bid^$important
 ||qzwhzahnieipgz.com^$important
 ||rabjkklvegagrn.com^$important
+||rackcdn.com^$important
 ||radbtqjfp.bid^$important
 ||rafvxnikmn.bid^$important
 ||rafymfnvvzqlp.com^$important
@@ -8978,6 +8984,7 @@
 ||wnhwpkiaozow.bid^$important
 ||wnmtmdlvqqscs.com^$important
 ||wnstpoiqrv.com^$important
+||wntpgjzwg.com^$important
 ||wnuvhicameqiso.com^$important
 ||wnxyusrvcoosqi.com^$important
 ||wnzmauurgol.com^$important
@@ -8996,6 +9003,7 @@
 ||worqvccd.bid^$important
 ||worthathousandwords.com^$important
 ||wotilhqoftvl.com^$important
+||wowlucky.net^$important
 ||woxvgdtje.com^$important
 ||wozltvfxtntaqk.com^$important
 ||wpbhnyjej.com^$important
@@ -9712,7 +9720,7 @@
 ||yoorjlleqtquez.bid^$important
 ||yoqvnnkdmqfk.com^$important
 ||yotube.com^$important
-||youtube.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' *.ggpht.com *.googlevideo.com *.ytimg.com *.googleusercontent.com *.youtube.com *.google.com *.gstatic.com;
+||youtube.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.ggpht.com *.googlevideo.com *.ytimg.com *.googleusercontent.com *.youtube.com *.google.com *.gstatic.com;
 ||yovbkyylqlmkg.bid^$important
 ||yovqbcixogwc.com^$important
 ||yoxlrphhmphq.com^$important
