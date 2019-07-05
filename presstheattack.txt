@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-07-03 03:42:35
-! Version: 20190703034235
+! Last modified: 2019-07-06 08:43:58
+! Version: 20190706084358
 ! Expires: 3 hours
-! Number of filters: 13573
+! Number of filters: 13590
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 ! In no event shall this list, or the list author be liable for any indirect, direct,
@@ -3222,6 +3222,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||1.fembed.com^$important
 ||1063bac0d855f4e67bd4.date^$important
 ||14e6e1ee3d7236d41431.date^$important
+||190282.xyz^$important
 ||197c3b10bab3c1.com^$important
 ||1b8d89551340a.com^$important
 ||1cb70f6b7aab4c70819a.date^$important
@@ -3232,12 +3233,18 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||1xeemc.host^$important
 ||1xeha.world^$important
 ||1xgzu.world^$important
+||1xjir.world^$important
 ||1xkeg.world^$important
 ||1xluw.world^$important
+||1xmmk.world^$important
 ||1xndi.world^$important
+||1xnto.world^$important
+||1xqws.world^$important
 ||1xrbt.world^$important
 ||1xuop.world^$important
 ||1xxwc.world^$important
+||1xyjw.world^$important
+||1xymm.world^$important
 ||21b666055c.com^$important
 ||280asnlnr7.com^$important
 ||28f77rd30e.ru^$important
@@ -3352,6 +3359,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||addesigner.com^$important
 ||addgfxnb.com^$important
 ||addthis.com^$important,third-party
+||addtogether.club^$important
 ||adexchangegate.com^$important
 ||adeyujimmmh.com^$important
 ||adf.ly^$important
@@ -3545,6 +3553,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||aliru1.ru^$important
 ||aljsuubo.com^$important
 ||alkagrkgvltzlk.com^$important
+||alleged.world^$important
 ||allnvbtrtpku.com^$important
 ||alnisdrmhs.bid^$important
 ||alvdtjrb.com^$important
@@ -4888,6 +4897,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||drbwugautcgh.com^$important
 ||drcfjmkmy.com^$important
 ||drdvvfgqzwkutc.bid^$important
+||drenisam.net^$important
 ||driftt.com^$important
 ||drjctivspweild.com^$important
 ||dropbox.com/log/$important,xmlhttprequest
@@ -5409,6 +5419,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||faleaqotrgvox.bid^$important
 ||famztplbta.bid^$important
 ||faoxietqwbmu.com^$important
+||faptitans.com^$important
 ||fastclick.net^$important
 ||fastly-insights.com^$important
 ||fatayvywbebgdn.com^$important
@@ -5713,6 +5724,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||fuaawvoqbzza.com^$important
 ||fubhyuveurmlz.com^$important
 ||fuckaqunrcjj.bid^$important
+||fuckingmonday116.agency^$important
 ||fucrzdux.bid^$important
 ||fuhgvhuukl.bid^$important
 ||fuialqqq.com^$important
@@ -7615,6 +7627,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||koamxmikmuhahc.com^$important
 ||kofeereb.com^$important
 ||kokqhnybnhdr.bid^$important
+||kolesojackpot3.com^$important
 ||komfveajdx.bid^$important
 ||konbwfktusra.com^$important
 ||koofysojwb.com^$important
@@ -7653,6 +7666,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||krgxtloi.bid^$important
 ||krilxjkgttmp.com^$important
 ||krmuxxubtkrg.com^$important
+||kromtech.net^$important
 ||krovrhmqgupd.com^$important
 ||krpdqnnb.com^$important
 ||krsdoqvsmgld.com^$important
@@ -8437,6 +8451,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||mogqlceldpwbxe.com^$important
 ||mogrbrydixdvmc.bid^$important
 ||mohcafpwpldi.com^$important
+||moisteningl.ga^$important
 ||mojhasmpl.com^$important
 ||molqvpnnlmnb.com^$important
 ||monetate.net^$important
@@ -11022,6 +11037,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||thbuhcnpt.com^$important
 ||thcumizbjxnp.bid^$important
 ||theadex.com^$important
+||thermosthahiti.website^$important
 ||thewebsitetofindplayersbest.info^$important
 ||thibzxxtotyqg.bid^$important
 ||thivsxubn.com^$important
@@ -11867,6 +11883,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||vickgdkdrwpdt.com^$important
 ||vicofhozbuaf.com^$important
 ||vidcpm.com^$important
+||videolol007.com^$important
 ||vidora.com^$important
 ||vidoza.net/dl?op=view&*adb=$important,xmlhttprequest
 ||viglink.com^$important
