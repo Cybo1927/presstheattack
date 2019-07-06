@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-07-06 08:43:58
-! Version: 20190706084358
+! Last modified: 2019-07-06 13:56:01
+! Version: 20190706135601
 ! Expires: 3 hours
-! Number of filters: 13590
+! Number of filters: 13593
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 ! In no event shall this list, or the list author be liable for any indirect, direct,
@@ -7921,6 +7921,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||liadlzantv.com^$important
 ||liakiadlbs.com^$important
 ||licertle.co^$important
+||lickher.com^$important
 ||licoxbkagivaf.bid^$important
 ||liesiotlpfvjm.com^$important
 ||ligabklr.com^$important
@@ -13105,7 +13106,9 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||youtube.com/api/stats/$image,important,xmlhttprequest,other
 ||youtube.com/get_midroll_info^$important,xmlhttprequest
 ||youtube.com/get_video_info?*el=adunit$important,xmlhttprequest
+||youtube.com/pagead/$important
 ||youtube.com/ptracking^$image,important
+||youtube.com/ptracking^$important,image
 ||youtube.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.ggpht.com *.googlevideo.com *.ytimg.com *.googleusercontent.com *.youtube.com *.google.com *.gstatic.com;
 ||yovbkyylqlmkg.bid^$important
 ||yovqbcixogwc.com^$important
