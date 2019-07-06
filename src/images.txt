@@ -96,3 +96,4 @@
 ||yandex.ru/portal/$image,important
 ||yastatic.net/*.gif$image,important,domain=~mail.yandex.ru|~mail.yandex.ua|~mail.yandex.by
 ||youtube.com/ptracking^$image,important
+||youtube.com/ptracking^$important,image

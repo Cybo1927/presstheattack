@@ -12,8 +12,8 @@
 /^https?:\/\/denis\-[a-z0-9]{7,12}\-[a-z0-9]{7,12}\.com/$important
 /^https?:\/\/yastatic\.net\/[^\s]{500,}/$domain=~vh.yandex.ru
 /^https?:\/\/zmctrack\.(com|net)/$important
-||00f31156f051fdf.com^$important
 ||0d96a0971a04071.com^$important
+||00f31156f051fdf.com^$important
 ||1-1ads.com^$important
 ||1.fembed.com^$important
 ||1b8d89551340a.com^$important
@@ -4629,6 +4629,7 @@
 ||liadlzantv.com^$important
 ||liakiadlbs.com^$important
 ||licertle.co^$important
+||lickher.com^$important
 ||licoxbkagivaf.bid^$important
 ||liesiotlpfvjm.com^$important
 ||ligabklr.com^$important

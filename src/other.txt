@@ -29,6 +29,7 @@
 |http*:*?partner_id=$third-party
 |http*:*?perfekt=wss://*$important
 |http*:*?proxy=ws://*$important
+||youtube.com/pagead/$important
 |http*:*?proxy=wss://*$important
 |http*:*?zoneid=$important
 |http*://%22request_id%*%22idzone%$important
