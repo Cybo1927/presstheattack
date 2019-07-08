@@ -1,4 +1,5 @@
 /^https?:\/\/(analysis|analytic[as]?)([0-9]{1,2})?\./$important
+/^https?:\/\/(apps?|best|mobile|prize|reward|sweeps).*\.[a-z]{5,15}.*\.(agency|icu|live)\//$document
 /^https?:\/\/[^\s]+(\W|\_)ad[xsvb]?[0-9]{1}(images?|media|videos?)/$important
 /^https?:\/\/a?clic?k\./$important
 /^https?:\/\/ad[bsxv]?([0-9]{1,2})?\./$important,domain=~ad.nl
@@ -15,7 +16,7 @@
 /^https?:\/\/partners?([0-9]{1,2})?\./$important,third-party
 /^https?:\/\/pixels?([0-9]{1,2})?\./$important
 /^https?:\/\/px([0-9]{1,2})?\./$important
-/^https?:\/\/r([0-9]{1,2})?\./$important,domain=~office365.com|~live.com
+/^https?:\/\/r([0-9]{1,2})?\./$important,domain=~office365.com|~live.com|~r.search.yahoo.com
 /^https?:\/\/s?metric[as]?([0-9]{1,2})?\./$important
 /^https?:\/\/stat(s|istics?)?([0-9]{1,2})?\./$important
 /^https?:\/\/tags?([0-9]{1,2})?\./$important
@@ -29,7 +30,6 @@
 |http*:*?partner_id=$third-party
 |http*:*?perfekt=wss://*$important
 |http*:*?proxy=ws://*$important
-||youtube.com/pagead/$important
 |http*:*?proxy=wss://*$important
 |http*:*?zoneid=$important
 |http*://%22request_id%*%22idzone%$important
@@ -40,3 +40,4 @@
 |http*://xml*/redirect^$important
 ||google.*/logimpressions?$important
 ||yandex.*/clck/$important
+||youtube.com/pagead/$important
