@@ -12,8 +12,8 @@
 /^https?:\/\/denis\-[a-z0-9]{7,12}\-[a-z0-9]{7,12}\.com/$important
 /^https?:\/\/yastatic\.net\/[^\s]{500,}/$domain=~vh.yandex.ru
 /^https?:\/\/zmctrack\.(com|net)/$important
-||0d96a0971a04071.com^$important
 ||00f31156f051fdf.com^$important
+||0d96a0971a04071.com^$important
 ||1-1ads.com^$important
 ||1.fembed.com^$important
 ||1b8d89551340a.com^$important
@@ -26,13 +26,6 @@
 ||1xeha.world^$important
 ||1xgzu.world^$important
 ||1xjir.world^$important
-||best2019-games-web1.com^$important
-||uod2quk646.com^$important
-||grand002.com^$important
-||money-slots.net^$important
-||gift19.club^$important
-||gld35wndkn.com^$important
-||lickher.com^$important
 ||1xkeg.world^$important
 ||1xluw.world^$important
 ||1xmmk.world^$important
@@ -67,6 +60,7 @@
 ||7hor9gul4s.com^$important
 ||7hu8e1u001.com^$important
 ||7wtic7ru.com^$important
+||13d8ba78e080.com^$important
 ||14e6e1ee3d7236d41431.date^$important
 ||21b666055c.com^$important
 ||28f77rd30e.ru^$important
@@ -82,10 +76,12 @@
 ||280asnlnr7.com^$important
 ||360direct.click^$important
 ||379bd258b1.com^$important
+||398c874c5e7b36.com^$important
 ||550b3ikb9j.com^$important
 ||555dfbd5425347beab45.date^$important
 ||564d28256cddaeba.com^$important
 ||568vovhs6ekbupjo.pro^$important
+||576digital.hu^$important
 ||619de07af53f8.com^$important
 ||713b037362f02.com^$important
 ||896a8dfd194005e2adea.date^$important
@@ -101,6 +97,8 @@
 ||88461059da0a12ea.com^$important
 ||a1a5ab31bcd1bc68.com^$important
 ||a2b108bd2461b12e.com^$important
+||a4827e25ef995.com^$important
+||a48121a28f76f93.com^$important
 ||a-ads.com^$important
 ||aa53df329975c325.com^$important
 ||aabmxezph.com^$important
@@ -173,6 +171,7 @@
 ||adition.com^$important
 ||adkontekst.pl^$important
 ||adlightning.com^$important
+||adlogine.com^$important
 ||admantx.com^$important
 ||admatic.com.tr^$important
 ||admetrica.ru^$important
@@ -665,6 +664,7 @@
 ||behybmunweid.com^$important
 ||bekiruvppl.com^$important
 ||bektvxxfv.bid^$important
+||best2019-games-web1.com^$important
 ||best2019games.com^$important
 ||bestdoctorstore.com^$important
 ||betboom.club^$important
@@ -1046,6 +1046,7 @@
 ||cdn.pljs.ru^$important
 ||cdn.ziffstatic.com^$important
 ||cdnasiaclub.com^$important
+||cdnm.me^$important
 ||cdobneyuq.com^$important
 ||cdookjqkri.com^$important
 ||cdtojdrhoc.bid^$important
@@ -1088,6 +1089,7 @@
 ||cgtqfbnviajcx.com^$important
 ||cguvvvdxa.com^$important
 ||chartbeat.com^$important
+||chatozov.ru^$important
 ||chaturbate.com^$third-party,important
 ||chiybszey.bid^$important
 ||chjfbjjgqts.com^$important
@@ -1814,6 +1816,7 @@
 ||ectysptouy.com^$important
 ||ecvladelayk.com^$important
 ||ecxtuyttpfe.bid^$important
+||ed77c4363c7.com^$important
 ||edfthzanlsyse.com^$important
 ||edgsscofljhc.com^$important
 ||edigitalsurvey.com^$important
@@ -2156,6 +2159,7 @@
 ||f4ceb8490e0d.com^$important
 ||f6be7033f30.com^$important
 ||f53mbcg4ak.ru^$important
+||f54ab0a54a.com^$important
 ||fabrtgzehf.com^$important
 ||facitating.pro^$important
 ||facqgdunsgf.com^$important
@@ -2677,6 +2681,7 @@
 ||ghytjserb.com^$important
 ||ghzylikrcdydf.bid^$important
 ||gifjvmfkzykp.com^$important
+||gift19.club^$important
 ||gigphdgtszus.bid^$important
 ||gigvyvqe.com^$important
 ||gimxqltq.bid^$important
@@ -2724,6 +2729,7 @@
 ||glbsuoebquueky.com^$important
 ||glcgytymbp.bid^$important
 ||glcpzwihisagw.bid^$important
+||gld35wndkn.com^$important
 ||glfiivzom.com^$important
 ||glfnjyzix.bid^$important
 ||glhbjwuovievay.bid^$important
@@ -2732,6 +2738,7 @@
 ||gljanrsxz.com^$important
 ||gllkdkxygckb.com^$important
 ||globalentrycard.site^$important
+||globalintegrativemedicalsolutions.top^$important
 ||glslciwwvtxn.com^$important
 ||gltpstgjnyb.com^$important
 ||glvjbogft.com^$important
@@ -2829,6 +2836,7 @@
 ||gqutnukt.com^$important
 ||gquvhveabaem.com^$important
 ||gqwprjzwlfspw.com^$important
+||grand002.com^$important
 ||grand-casino55.com^$important
 ||grand-casino.com^$important
 ||grapeshot.co.uk^$important
@@ -5162,6 +5170,7 @@
 ||mojhasmpl.com^$important
 ||molqvpnnlmnb.com^$important
 ||monetate.net^$important
+||money-slots.net^$important
 ||moneysavingexpertcarinsurance.icu^$important
 ||moneysavingexpertsavings.world^$important
 ||monklerm.pro^$important
@@ -8814,6 +8823,7 @@
 ||wapnrjqhtmm.bid^$important
 ||wapoawoo.net^$important
 ||wapvhtyc.bid^$important
+||wasibial.com ^$important
 ||watunxckibtvfm.bid^$important
 ||wawlfosfkdy.com^$important
 ||wawyxzfkab.com^$important
