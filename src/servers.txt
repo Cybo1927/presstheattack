@@ -12,14 +12,15 @@
 /^https?:\/\/denis\-[a-z0-9]{7,12}\-[a-z0-9]{7,12}\.com/$important
 /^https?:\/\/yastatic\.net\/[^\s]{500,}/$domain=~vh.yandex.ru
 /^https?:\/\/zmctrack\.(com|net)/$important
-||00f31156f051fdf.com^$important
 ||0d96a0971a04071.com^$important
+||00f31156f051fdf.com^$important
 ||1-1ads.com^$important
 ||1.fembed.com^$important
 ||1b8d89551340a.com^$important
 ||1cb70f6b7aab4c70819a.date^$important
 ||1fbaa223d6945621f8d7.date^$important
 ||1wzfew7a.site^$important
+||1xbet53.com^$important
 ||1xbet95.com^$important
 ||1xbkbet5.com^$important
 ||1xeemc.host^$important
@@ -70,6 +71,7 @@
 ||43acc8130d31cfd61041.date^$important
 ||47f624b2e6c6072e.com^$important
 ||75ce0f054e9abc.com^$important
+||86a6b542l7.com^$important
 ||93c8c9a28e1db445.com^$important
 ||98bf9h8jbg.com^$important
 ||197c3b10bab3c1.com^$important
@@ -1091,6 +1093,7 @@
 ||chartbeat.com^$important
 ||chatozov.ru^$important
 ||chaturbate.com^$third-party,important
+||checkaccusefriends.info^$important
 ||chiybszey.bid^$important
 ||chjfbjjgqts.com^$important
 ||chjvykulvzey.com^$important
@@ -1221,6 +1224,7 @@
 ||connatix.com^$important
 ||connect.facebook.net^$third-party,important
 ||connect.ok.ru^$third-party,important
+||connectad.io^$important
 ||content-ad.net^$important
 ||contentsfeed.com^$important
 ||conviva.com^$important
@@ -1625,7 +1629,7 @@
 ||dosanrnlq.com^$important
 ||dot4mobi.club^$important
 ||douangvwl.com^$important
-||doubleclick.net^$important
+||doubleclick.*^$important
 ||doublepimp.com^$important
 ||doublepimpssl.com^$important
 ||dovltuzibsfs.com^$important
@@ -1662,6 +1666,7 @@
 ||drenisam.net^$important
 ||driftt.com^$important
 ||drjctivspweild.com^$important
+||drjgjngf.com^$important
 ||droqnswhcfk.com^$important
 ||drpmtzjanjqjpj.com^$important
 ||drragqvk.bid^$important
@@ -1729,6 +1734,7 @@
 ||dwbqmlvjpvv.com^$important
 ||dwhvkier.com^$important
 ||dwopbruzifg.com^$important
+||dwp3ce9c.top^$important
 ||dwuvmraztukg.com^$important
 ||dwvfccxbj.com^$important
 ||dwxaciqlebqemh.com^$important
@@ -2770,6 +2776,7 @@
 ||gnnmdzbroemx.com^$important
 ||gnqqajovkhfmq.com^$important
 ||gnreqzzts.com^$important
+||go-azino-777.online^$important
 ||go-mpulse.net^$important
 ||goacestnzgrd.com^$important
 ||gobijnwbyri.com^$important
@@ -2872,6 +2879,7 @@
 ||gsxehyapoafiwe.com^$important
 ||gsxewjrbrbtldy.com^$important
 ||gsxvgomvbfrj.com^$important
+||gtarcade.com^$important
 ||gtbfhyprjhqz.com^$important
 ||gtbrnqncz.com^$important
 ||gtcpsbvtwaqw.com^$important
@@ -3693,6 +3701,7 @@
 ||ivktdwmjhkqy.com^$important
 ||ivldzqidbv.com^$important
 ||ivnpbikks.com^$important
+||ivorymega.pw^$important
 ||ivowhzku.com^$important
 ||ivqoqtozlmjp.com^$important
 ||ivqvzkwedcjo.com^$important
@@ -5008,6 +5017,7 @@
 ||mecounxmawn.bid^$important
 ||mecsjjkomehyv.com^$important
 ||mediatoday.ru^$important
+||medic-informator-a.ru^$important
 ||meeaowsxneps.com^$important
 ||meetrics.net^$important
 ||mefozykpcwuazw.com^$important
@@ -6207,6 +6217,7 @@
 ||pkxquvydrgin.com^$important
 ||pkzfmxjlkcxkub.com^$important
 ||pladform.ru^$important
+||play-best-games-2k18.xyz^$important
 ||plcsedkinoul.com^$important
 ||pleboxviting.pro^$important
 ||plgalhmhkhzy.com^$important
@@ -6267,6 +6278,7 @@
 ||popunders.bid^$important
 ||popzkvfimbox.com^$important
 ||poqqvnychl.com^$important
+||porno-island.games^$important
 ||postrelease.com^$important
 ||postrsyk.com^$important
 ||potmbbqbaqxwp.com^$important
@@ -6320,6 +6332,7 @@
 ||proofpoint.com^$important
 ||propellerclick.com^$important
 ||prophet.heise.de^$important
+||protect-your-privacy-now.com^$important
 ||protovid.com^$important
 ||prpkhpjxghhn.com^$important
 ||prsmglob.com^$important
@@ -6904,6 +6917,7 @@
 ||recreativ.ru^$important
 ||refatxhcuu.com^$important
 ||refdomain3.xyz^$important
+||refovodka.ru^$important
 ||regbigltd.bid^$important
 ||regqrfuvncqcm.com^$important
 ||reiqwxxd.com^$important
@@ -6970,6 +6984,7 @@
 ||rhzpcnueogbexb.com^$important
 ||riaetcuycxjz.com^$important
 ||riaxuuidsnws.bid^$important
+||richplayland.com^$important
 ||rieyjzuyhigobg.bid^$important
 ||rifwhwdsqvgw.com^$important
 ||rigoczly.com^$important
@@ -7219,6 +7234,7 @@
 ||rzwzstbiqk.com^$important
 ||s0l8ybzj9u.top^$important
 ||s4-megafunn.info^$important
+||s20dh7e9dh.com^$important
 ||saenrwiqesp.com^$important
 ||sagbgtnmlaj.com^$important
 ||sagukjshgifebs.bid^$important
@@ -7300,6 +7316,7 @@
 ||seotpqntjukhg.bid^$important
 ||septembership.com^$important
 ||sepyqhipq.com^$important
+||seria-z.net^$important
 ||servedbyadbutler.com^$important
 ||serving-sys.com^$important
 ||seuojaesymeriv.com^$important
@@ -8942,6 +8959,7 @@
 ||wiklweefcuorh.com^$important
 ||willfumyqwnkuq.com^$important
 ||wimxqzilfwkn.bid^$important
+||winlikek.club^$important
 ||wiorcewmylbe.com^$important
 ||wipcpwadysghx.com^$important
 ||wipjyzwavojq.com^$important
@@ -9085,6 +9103,7 @@
 ||wrtnetixxrmg.com^$important
 ||wrvbbyxmsqs.bid^$important
 ||wrwwvymy.com^$important
+||wrzgu.com^$important
 ||wrzwnpmgt.bid^$important
 ||wsaijhlcnsqu.com^$important
 ||wsrjplhhhfmfsx.com^$important
