@@ -34,6 +34,7 @@
 |http*:*?zoneid=$important
 |http*://%22request_id%*%22idzone%$important
 |http*://&zoneid=*&ext=$important
+|http*://*/rsya-tag-users/*^$important
 |http*://report-ads-to.^$important
 |http*://report-adv-to.^$important
 |http*://xml*/click^$important
