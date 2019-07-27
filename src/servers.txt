@@ -12,8 +12,8 @@
 /^https?:\/\/denis\-[a-z0-9]{7,12}\-[a-z0-9]{7,12}\.com/$important
 /^https?:\/\/yastatic\.net\/[^\s]{500,}/$domain=~vh.yandex.ru
 /^https?:\/\/zmctrack\.(com|net)/$important
-||0d96a0971a04071.com^$important
 ||00f31156f051fdf.com^$important
+||0d96a0971a04071.com^$important
 ||1-1ads.com^$important
 ||1.fembed.com^$important
 ||1b8d89551340a.com^$important
@@ -32,6 +32,7 @@
 ||1xmmk.world^$important
 ||1xndi.world^$important
 ||1xnto.world^$important
+||1xpbq.world^$important
 ||1xqws.world^$important
 ||1xrbt.world^$important
 ||1xuop.world^$important
@@ -94,6 +95,7 @@
 ||41944cecfb85.com^$important
 ||43031aaaecd84428.com^$important
 ||190282.xyz^$important
+||392439sf934990.online^$important
 ||392439sf934990.online^$important
 ||3585656d9351553f.com^$important
 ||88461059da0a12ea.com^$important
@@ -367,6 +369,7 @@
 ||amjbzzicysu.bid^$important
 ||amlcscfr.com^$important
 ||amlyrket.bid^$important
+||ammophfdh53.agency^$important
 ||ammqwpksb.bid^$important
 ||ammuburyqlhsjx.bid^$important
 ||amnpmitevuxx.com^$important
@@ -589,6 +592,7 @@
 ||b60228e270e363f6.com^$important
 ||b13481647cf775c5.com^$important
 ||badgmvhtvryg.bid^$important
+||badslads.com^$important
 ||bagoojzsqygg.com^$important
 ||bahnjhnrcdwi.com^$important
 ||baiaclwdpztd.com^$important
@@ -1482,6 +1486,7 @@
 ||dergevqzqi.com^$important
 ||derpqpyvym.bid^$important
 ||derqboxqca.com^$important
+||destekfx2.com^$important
 ||dev-mobile-techie-fresh.pw^$important
 ||dewltdgzgtt.com^$important
 ||dexxxrggi.com^$important
@@ -1900,6 +1905,7 @@
 ||ehlnakqlcvuxk.bid^$important
 ||ehoksipmkejqt.bid^$important
 ||eholot-hit.ru^$important
+||eholot-hit.ru^$important
 ||ehraxliuwt.com^$important
 ||ehrwekypesnl.bid^$important
 ||ehrxkeosifmksi.bid^$important
@@ -2138,6 +2144,7 @@
 ||exoclick.com^$important
 ||exosrv.com^$important
 ||expligaining.pro^$important
+||explorereward.com^$important
 ||exponential.com^$important
 ||expose.uzone.id^$important
 ||exposebox.com^$important
@@ -2179,6 +2186,7 @@
 ||facitating.pro^$important
 ||facqgdunsgf.com^$important
 ||facsowlaufzk.com^$important
+||faecbook.com^$important
 ||faegbmhey.com^$important
 ||fafmybvsoj.com^$important
 ||faftjhuu.com^$important
@@ -2298,6 +2306,7 @@
 ||fifnonxntvaszg.com^$important
 ||fikyzmbuhql.bid^$important
 ||filenlgic.bid^$important
+||finansrussia.net^$important
 ||find4bettervideoing.info^$important
 ||fioeazluwwirp.bid^$important
 ||fiqkmfapvnntn.bid^$important
@@ -7185,6 +7194,7 @@
 ||ruoypiedfpov.com^$important
 ||ruqckzdjsoe.bid^$important
 ||rurjxaovebr.bid^$important
+||russia-lives.icu^$important
 ||rustqlclwuebif.bid^$important
 ||rutarget.ru^$important
 ||rutrk.org^$important
@@ -7561,6 +7571,7 @@
 ||sumsmoxssy.com^$important
 ||sumvztfze.com^$important
 ||suonvyzivnfy.com^$important
+||supersalegiveaways.club^$important
 ||suqufucjzffhay.bid^$important
 ||sutzinjwnroui.com^$important
 ||suvkxcypywspux.bid^$important
@@ -7752,6 +7763,7 @@
 ||thbuhcnpt.com^$important
 ||thcumizbjxnp.bid^$important
 ||theadex.com^$important
+||theforcontentingvideosystems.icu^$important
 ||thermosthahiti.website^$important
 ||thewebsitetofindplayersbest.info^$important
 ||thibzxxtotyqg.bid^$important
