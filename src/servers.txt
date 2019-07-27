@@ -12,14 +12,15 @@
 /^https?:\/\/denis\-[a-z0-9]{7,12}\-[a-z0-9]{7,12}\.com/$important
 /^https?:\/\/yastatic\.net\/[^\s]{500,}/$domain=~vh.yandex.ru
 /^https?:\/\/zmctrack\.(com|net)/$important
-||00f31156f051fdf.com^$important
 ||0d96a0971a04071.com^$important
+||00f31156f051fdf.com^$important
 ||1-1ads.com^$important
 ||1.fembed.com^$important
 ||1b8d89551340a.com^$important
 ||1cb70f6b7aab4c70819a.date^$important
 ||1fbaa223d6945621f8d7.date^$important
 ||1wzfew7a.site^$important
+||1xbahisbuwv.com^$important
 ||1xbet53.com^$important
 ||1xbet95.com^$important
 ||1xbkbet5.com^$important
@@ -62,6 +63,8 @@
 ||7hor9gul4s.com^$important
 ||7hu8e1u001.com^$important
 ||7wtic7ru.com^$important
+||8bef5bb6b351ca5e.com^$important
+||8cb0309458c7b35e.com^$important
 ||13d8ba78e080.com^$important
 ||14e6e1ee3d7236d41431.date^$important
 ||21b666055c.com^$important
@@ -72,6 +75,7 @@
 ||43acc8130d31cfd61041.date^$important
 ||47f624b2e6c6072e.com^$important
 ||75ce0f054e9abc.com^$important
+||83a26bd3df29eb57.com^$important
 ||86a6b542l7.com^$important
 ||93c8c9a28e1db445.com^$important
 ||98bf9h8jbg.com^$important
@@ -88,14 +92,16 @@
 ||619de07af53f8.com^$important
 ||713b037362f02.com^$important
 ||896a8dfd194005e2adea.date^$important
+||944e66f8683ac43c.com^$important
 ||1063bac0d855f4e67bd4.date^$important
+||4736.in^$important
 ||5483bbc5758.com^$important
+||6631f33cf2a1032b.com^$important
 ||6868bbe42af8e518.com^$important
 ||7667bab1751ff777.com^$important
 ||41944cecfb85.com^$important
 ||43031aaaecd84428.com^$important
 ||190282.xyz^$important
-||392439sf934990.online^$important
 ||392439sf934990.online^$important
 ||3585656d9351553f.com^$important
 ||88461059da0a12ea.com^$important
@@ -676,8 +682,8 @@
 ||bestdoctorstore.com^$important
 ||bestgadgetoffers.icu^$important
 ||betboom.club^$important
-||betboom.club^$important
 ||betsonsport.ru^$important,third-party
+||bettilt99.com^$important
 ||betweendigital.com^$important
 ||beufosew.bid^$important
 ||bewcmime.com^$important
@@ -1005,6 +1011,7 @@
 ||cadulscdfhtcb.bid^$important
 ||cafvzpusl.com^$important
 ||cahepysgenpb.com^$important
+||caliente.mx^$important
 ||callcentercard.world^$important
 ||camrfajedgku.com^$important
 ||caribanner.bid^$important
@@ -1064,6 +1071,7 @@
 ||cdyiipzo.com^$important
 ||cdyygbzihdh.com^$important
 ||cdzifdzftkmfof.com^$important
+||cea9d3d4f74fb831.com^$important
 ||ceidxneoogpuh.com^$important
 ||cekptlucf.com^$important
 ||cesxssavc.com^$important
@@ -1413,6 +1421,7 @@
 ||d0f85db8ee56f5c6.com^$important
 ||d0p21g2fep.com^$important
 ||d4fed03105c9f65b.com^$important
+||d824d7f5cbcb0e00.com^$important
 ||dable.io^$important
 ||dacknbenn.com^$important
 ||dacqmkmsjajm.com^$important
@@ -1477,6 +1486,7 @@
 ||delivery.vidible.tv^$important
 ||deloplen.com^$important
 ||deloton.com^$important
+||demand.supply^$important
 ||demandbase.com^$important
 ||demdex.net^$important
 ||deouvnqbgflv.com^$important
@@ -1491,6 +1501,7 @@
 ||dewltdgzgtt.com^$important
 ||dexxxrggi.com^$important
 ||deyzjaiggwz.com^$important
+||df8li6at9c.com^$important
 ||dfawfyhesfe.com^$important
 ||dfbtmkwdcajsy.bid^$important
 ||dfcwecvmjtdj.com^$important
@@ -1552,6 +1563,7 @@
 ||dinmbegj.bid^$important
 ||dipsbbygv.com^$important
 ||diqstzzbqin.bid^$important
+||dirto.life^$important
 ||disqusads.com^$important
 ||districtm.io^$important
 ||ditouyldfqgt.com^$important
@@ -1798,12 +1810,14 @@
 ||dzztjcbt.com^$important
 ||e4ceb6161619.com^$important
 ||e6cfmdmo81.com^$important
+||e376ef28103177cc.com^$important
 ||e6081b73afec581f.com^$important
 ||e7393e33565ce805.com^$important
 ||eaaqsama.com^$important
 ||eabgoszdtq.com^$important
 ||eabrkvxoe.bid^$important
 ||eadtortust.bid^$important
+||eae5daf052d2673b.com^$important
 ||eaetyfmpuelw.com^$important
 ||eaffxhnzh.com^$important
 ||eaffzvnyj.com^$important
@@ -1904,7 +1918,6 @@
 ||ehlfynuo.com^$important
 ||ehlnakqlcvuxk.bid^$important
 ||ehoksipmkejqt.bid^$important
-||eholot-hit.ru^$important
 ||eholot-hit.ru^$important
 ||ehraxliuwt.com^$important
 ||ehrwekypesnl.bid^$important
@@ -2652,6 +2665,7 @@
 ||gdwwpvwq.com^$important
 ||gdyelbwku.com^$important
 ||gdyjhclaxvqz.com^$important
+||gearbest.com^$important
 ||geazikjazoid.com^$important
 ||gecxceztcnhkmh.com^$important
 ||gedmodsxbebd.com^$important
@@ -2762,7 +2776,6 @@
 ||gljanrsxz.com^$important
 ||gllkdkxygckb.com^$important
 ||globalentrycard.site^$important
-||globalentrycard.site^$important
 ||globalintegrativemedicalsolutions.top^$important
 ||glslciwwvtxn.com^$important
 ||gltpstgjnyb.com^$important
@@ -2870,6 +2883,7 @@
 ||graph.facebook.com^$important
 ||graph.instagram.com^$important
 ||greatdexchange.com^$important
+||greenyourday19.agency^$important
 ||gregnobs.com^$important
 ||grewuxii.bid^$important
 ||grfqrhqlzvjl.com^$important
@@ -3014,7 +3028,6 @@
 ||haqbllmvpbqc.com^$important
 ||harddayforall4.life^$important
 ||hardmonday63.agency^$important
-||hardmonday63.agency^$important
 ||hasrijwnxtn.com^$important
 ||hasxepvkld.com^$important
 ||hattifkklbo.bid^$important
@@ -3077,7 +3090,6 @@
 ||hefgynqlzwi.com^$important
 ||hehraybryciyls.com^$important
 ||heikwwkqy.com^$important
-||henhemnatorstold.pro^$important
 ||henhemnatorstold.pro^$important
 ||henodmetgjbsas.bid^$important
 ||hepuzqrx.com^$important
@@ -3211,7 +3223,6 @@
 ||hntxitqhto.com^$important
 ||hnuhqaslqaqtb.bid^$important
 ||hnvbfamkwmq.bid^$important
-||hnwfj.com^$important
 ||hnwfj.com^$important
 ||hnztceqkabwm.bid^$important
 ||hobjzsymztzk.com^$important
@@ -4582,6 +4593,7 @@
 ||lanktydm.com^$important
 ||lapbekessbozpx.bid^$important
 ||laqiccblmxfewa.bid^$important
+||latestsocial.com^$important
 ||lauzlpyl.com^$important
 ||lavmeebdxwc.com^$important
 ||lawvcpqtapzsh.com^$important
@@ -4622,6 +4634,7 @@
 ||lebeiivzmm.com^$important
 ||lebskmaewbhm.bid^$important
 ||ledvqaldtf.com^$important
+||legkiy-zarabotoki.xyz^$important
 ||lepfj.site^$important
 ||lepyhlczldiuja.bid^$important
 ||lesmyjzc.com^$important
@@ -4687,49 +4700,6 @@
 ||lijit.com^$important
 ||lilncsqapikckt.com^$important
 ||linetotime2.agency^$important
-||df8li6at9c.com^$important
-||dirto.life^$important
-||demand.supply^$important
-||ylqbiljjlyq.com^$important
-||4736.in^$important
-||moevideo.biz^$important
-||plyfoni.ru^$important
-||wpad.farm^$important
-||1xbet53.com^$important
-||greenyourday19.agency^$important
-||surveys-zone.online^$important
-||rdr-friday39.life^$important
-||thegoodcaster.com^$important
-||vjqshoyjxwk.com^$important
-||xddqdioms.com^$important
-||dot4mobi.club^$important
-||faptitans.com^$important
-||cea9d3d4f74fb831.com^$important
-||d824d7f5cbcb0e00.com^$important
-||e376ef28103177cc.com^$important
-||eae5daf052d2673b.com^$important
-||6631f33cf2a1032b.com^$important
-||83a26bd3df29eb57.com^$important
-||8bef5bb6b351ca5e.com^$important
-||8cb0309458c7b35e.com^$important
-||944e66f8683ac43c.com^$important
-||bettilt99.com^$important
-||caliente.mx^$important
-||ts3t3w21-liquidwebsites.com^$important
-||ttxssayyes102.agency^$important
-||gearbest.com^$important
-||s0l8ybzj9u.top^$important
-||latestsocial.com^$important
-||wajm.icu^$important
-||xilbalar.com^$important
-||1xbahisbuwv.com^$important
-||a-ads.com^$important
-||bvnmmdelarn.com^$important
-||nhpfvdlbjg.com^$important
-||com-shield.live^$important
-||take-the-bonus.biz^$important
-||legkiy-zarabotoki.xyz^$important
-||playermailer.net^$important
 ||liqbipkfbafq.com^$important
 ||liqwid.net^$important
 ||liuduuct.com^$important
@@ -5237,6 +5207,7 @@
 ||moadlbgojatn.com^$important
 ||moatads.com^$important
 ||modkehkcihvzi.bid^$important
+||moevideo.biz^$important
 ||mofrupteeuqnvc.bid^$important
 ||mofvrnbngcern.bid^$important
 ||moginhstnxswt.com^$important
@@ -5526,6 +5497,7 @@
 ||nhbklvpswckx.com^$important
 ||nheanvabodkw.com^$important
 ||nhkhxvnhfdkn.com^$important
+||nhpfvdlbjg.com^$important
 ||nhqmomir.com^$important
 ||niaqaltky.com^$important
 ||nicequest.com^$important
@@ -6285,6 +6257,7 @@
 ||pkzfmxjlkcxkub.com^$important
 ||pladform.ru^$important
 ||play-best-games-2k18.xyz^$important
+||playermailer.net^$important
 ||plcsedkinoul.com^$important
 ||pleboxviting.pro^$important
 ||plgalhmhkhzy.com^$important
@@ -6298,6 +6271,7 @@
 ||plmythrza.com^$important
 ||plquutxxewil.com^$important
 ||plxtejszb.com^$important
+||plyfoni.ru^$important
 ||plyftjxmrxrk.com^$important
 ||plzjcnyxcdl.com^$important
 ||pmachrxhrwkd.com^$important
@@ -6914,7 +6888,6 @@
 ||qzwhzahnieipgz.com^$important
 ||rabjkklvegagrn.com^$important
 ||rackcdn.com^$important
-||rackcdn.com^$important
 ||radbtqjfp.bid^$important
 ||rafvxnikmn.bid^$important
 ||rafymfnvvzqlp.com^$important
@@ -6977,6 +6950,7 @@
 ||rdooybwcuyg.com^$important
 ||rdpqiqlirf.com^$important
 ||rdqyasdstllr.com^$important
+||rdr-friday39.life^$important
 ||rdrkxlmlqpqns.com^$important
 ||rdvrxbxwxspxd.com^$important
 ||rdwcvesg.com^$important
@@ -7615,6 +7589,7 @@
 ||suonvyzivnfy.com^$important
 ||supersalegiveaways.club^$important
 ||suqufucjzffhay.bid^$important
+||surveys-zone.online^$important
 ||sutzinjwnroui.com^$important
 ||suvkxcypywspux.bid^$important
 ||suvvihvbskvnii.com^$important
@@ -7806,6 +7781,7 @@
 ||thcumizbjxnp.bid^$important
 ||theadex.com^$important
 ||theforcontentingvideosystems.icu^$important
+||thegoodcaster.com^$important
 ||thermosthahiti.website^$important
 ||thewebsitetofindplayersbest.info^$important
 ||thibzxxtotyqg.bid^$important
@@ -7995,6 +7971,7 @@
 ||trwbkkxk.com^$important
 ||try.abtasty.com^$important
 ||trydaytoday7.live^$important
+||ts3t3w21-liquidwebsites.com^$important
 ||tsdzmkpewrdxyl.com^$important
 ||tsjnzilsuzoxm.bid^$important
 ||tskctmvpwjdb.com^$important
@@ -8025,6 +8002,7 @@
 ||ttxqfeuiakgn.bid^$important
 ||ttxsrl105.agency^$important
 ||ttxsrl139.life^$important
+||ttxssayyes102.agency^$important
 ||ttyvbqif.bid^$important
 ||tudsawhfmutb.bid^$important
 ||tudsxyhpn.com^$important
@@ -8668,6 +8646,7 @@
 ||vjltrbzrtqmkib.com^$important
 ||vjmoisjmh.bid^$important
 ||vjoytzia.com^$important
+||vjqshoyjxwk.com^$important
 ||vjrpdagpjwyt.com^$important
 ||vjvoahcty.bid^$important
 ||vjwjjytlbqhvmb.bid^$important
@@ -8906,6 +8885,7 @@
 ||waentchjzuwq.com^$important
 ||wafavwthigmc.com^$important
 ||wafrszmnbshq.com^$important
+||wajm.icu^$important
 ||walftgaqiemcx.com^$important
 ||wanrtqneiissrb.com^$important
 ||wanuqtwwpvglcr.bid^$important
@@ -9132,6 +9112,7 @@
 ||wowlucky.net^$important
 ||woxvgdtje.com^$important
 ||wozltvfxtntaqk.com^$important
+||wpad.farm^$important
 ||wpbhnyjej.com^$important
 ||wpjljadiq.com^$important
 ||wpkbwrkejd.com^$important
@@ -9334,6 +9315,7 @@
 ||xcxetqrzckvy.com^$important
 ||xcyptaqhl.com^$important
 ||xdcdlfejo.com^$important
+||xddqdioms.com^$important
 ||xddydaddexkjxs.com^$important
 ||xdiyxgwojtbxft.bid^$important
 ||xdjeestdoiis.com^$important
@@ -9396,6 +9378,7 @@
 ||xiebddgbseoxa.com^$important
 ||xihkdzijh.com^$important
 ||xijgqrrhyfa.com^$important
+||xilbalar.com^$important
 ||xilnalycptredw.com^$important
 ||ximeldnjuusl.com^$important
 ||xinpmsvinfmc.bid^$important
