@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-07-27 16:32:30
-! Version: 20190727163230
+! Last modified: 2019-07-27 16:38:05
+! Version: 20190727163805
 ! Expires: 3 hours
-! Number of filters: 13664
+! Number of filters: 13689
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 ! In no event shall this list, or the list author be liable for any indirect, direct,
@@ -3233,6 +3233,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||1cb70f6b7aab4c70819a.date^$important
 ||1fbaa223d6945621f8d7.date^$important
 ||1wzfew7a.site^$important
+||1xbahisbuwv.com^$important
 ||1xbet53.com^$important
 ||1xbet95.com^$important
 ||1xbkbet5.com^$important
@@ -3268,7 +3269,6 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||36adb24f7c1c573a6380.date^$important
 ||379bd258b1.com^$important
 ||392439sf934990.online^$important
-||392439sf934990.online^$important
 ||398c874c5e7b36.com^$important
 ||3b9eb5ed04721bef.com^$important
 ||3ba87e4828c5a95.com^$important
@@ -3278,6 +3278,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||41df76c67812005c.com^$important
 ||43031aaaecd84428.com^$important
 ||43acc8130d31cfd61041.date^$important
+||4736.in^$important
 ||47f624b2e6c6072e.com^$important
 ||4d2911e5a4e352.com^$important
 ||4ef6b73abc9123.com^$important
@@ -3292,6 +3293,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||5edeb195868e2195.com^$important
 ||5nt1gx7o57.com^$important
 ||619de07af53f8.com^$important
+||6631f33cf2a1032b.com^$important
 ||6868bbe42af8e518.com^$important
 ||6eez7ouig7gwguf6.pro^$important
 ||6zw2rcfd.com^$important
@@ -3302,10 +3304,14 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||7hor9gul4s.com^$important
 ||7hu8e1u001.com^$important
 ||7wtic7ru.com^$important
+||83a26bd3df29eb57.com^$important
 ||86a6b542l7.com^$important
 ||88461059da0a12ea.com^$important
 ||896a8dfd194005e2adea.date^$important
+||8bef5bb6b351ca5e.com^$important
+||8cb0309458c7b35e.com^$important
 ||93c8c9a28e1db445.com^$important
+||944e66f8683ac43c.com^$important
 ||98bf9h8jbg.com^$important
 ||a-ads.com^$important
 ||a.bf-tools.net/de/de.js$script,important
@@ -3908,8 +3914,8 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||bestdoctorstore.com^$important
 ||bestgadgetoffers.icu^$important
 ||betboom.club^$important
-||betboom.club^$important
 ||betsonsport.ru^$important,third-party
+||bettilt99.com^$important
 ||betweendigital.com^$important
 ||beufosew.bid^$important
 ||bewcmime.com^$important
@@ -4239,6 +4245,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||cadulscdfhtcb.bid^$important
 ||cafvzpusl.com^$important
 ||cahepysgenpb.com^$important
+||caliente.mx^$important
 ||callcentercard.world^$important
 ||camrfajedgku.com^$important
 ||caribanner.bid^$important
@@ -4298,6 +4305,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||cdyiipzo.com^$important
 ||cdyygbzihdh.com^$important
 ||cdzifdzftkmfof.com^$important
+||cea9d3d4f74fb831.com^$important
 ||ceidxneoogpuh.com^$important
 ||cekptlucf.com^$important
 ||cesxssavc.com^$important
@@ -4651,6 +4659,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||d0f85db8ee56f5c6.com^$important
 ||d0p21g2fep.com^$important
 ||d4fed03105c9f65b.com^$important
+||d824d7f5cbcb0e00.com^$important
 ||dable.io^$important
 ||dacknbenn.com^$important
 ||dacqmkmsjajm.com^$important
@@ -4719,6 +4728,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||delivery.vidible.tv^$important
 ||deloplen.com^$important
 ||deloton.com^$important
+||demand.supply^$important
 ||demandbase.com^$important
 ||demdex.net^$important
 ||deouvnqbgflv.com^$important
@@ -4733,6 +4743,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||dewltdgzgtt.com^$important
 ||dexxxrggi.com^$important
 ||deyzjaiggwz.com^$important
+||df8li6at9c.com^$important
 ||dfawfyhesfe.com^$important
 ||dfbtmkwdcajsy.bid^$important
 ||dfcwecvmjtdj.com^$important
@@ -4794,6 +4805,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||dinmbegj.bid^$important
 ||dipsbbygv.com^$important
 ||diqstzzbqin.bid^$important
+||dirto.life^$important
 ||disqus.com/api/*/listrelated.json$xmlhttprequest
 ||disqusads.com^$important
 ||districtm.io^$important
@@ -5050,6 +5062,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||dzyqqwixizp.com^$important
 ||dzzawlkmtvug.com^$important
 ||dzztjcbt.com^$important
+||e376ef28103177cc.com^$important
 ||e4ceb6161619.com^$important
 ||e6081b73afec581f.com^$important
 ||e6cfmdmo81.com^$important
@@ -5058,6 +5071,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||eabgoszdtq.com^$important
 ||eabrkvxoe.bid^$important
 ||eadtortust.bid^$important
+||eae5daf052d2673b.com^$important
 ||eaetyfmpuelw.com^$important
 ||eaffxhnzh.com^$important
 ||eaffzvnyj.com^$important
@@ -5160,7 +5174,6 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||ehlfynuo.com^$important
 ||ehlnakqlcvuxk.bid^$important
 ||ehoksipmkejqt.bid^$important
-||eholot-hit.ru^$important
 ||eholot-hit.ru^$important
 ||ehraxliuwt.com^$important
 ||ehrwekypesnl.bid^$important
@@ -5914,6 +5927,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||gdwwpvwq.com^$important
 ||gdyelbwku.com^$important
 ||gdyjhclaxvqz.com^$important
+||gearbest.com^$important
 ||geazikjazoid.com^$important
 ||gecxceztcnhkmh.com^$important
 ||gedmodsxbebd.com^$important
@@ -6024,7 +6038,6 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||glhxoawgunlame.bid^$important
 ||gljanrsxz.com^$important
 ||gllkdkxygckb.com^$important
-||globalentrycard.site^$important
 ||globalentrycard.site^$important
 ||globalintegrativemedicalsolutions.top^$important
 ||glslciwwvtxn.com^$important
@@ -6157,6 +6170,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||graph.facebook.com^$important
 ||graph.instagram.com^$important
 ||greatdexchange.com^$important
+||greenyourday19.agency^$important
 ||gregnobs.com^$important
 ||grewuxii.bid^$important
 ||grfqrhqlzvjl.com^$important
@@ -6301,7 +6315,6 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||haqbllmvpbqc.com^$important
 ||harddayforall4.life^$important
 ||hardmonday63.agency^$important
-||hardmonday63.agency^$important
 ||harvest.surge.sh/h.js$important,script
 ||hasrijwnxtn.com^$important
 ||hasxepvkld.com^$important
@@ -6367,7 +6380,6 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||heikwwkqy.com^$important
 ||heise.de/ivw-bin/ivw/cp/$important,image,script,xmlhttprequest
 ||heise.de/js/prebid*.js$important,script
-||henhemnatorstold.pro^$important
 ||henhemnatorstold.pro^$important
 ||henodmetgjbsas.bid^$important
 ||hepuzqrx.com^$important
@@ -6502,7 +6514,6 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||hntxitqhto.com^$important
 ||hnuhqaslqaqtb.bid^$important
 ||hnvbfamkwmq.bid^$important
-||hnwfj.com^$important
 ||hnwfj.com^$important
 ||hnztceqkabwm.bid^$important
 ||hobjzsymztzk.com^$important
@@ -7878,6 +7889,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||lanktydm.com^$important
 ||lapbekessbozpx.bid^$important
 ||laqiccblmxfewa.bid^$important
+||latestsocial.com^$important
 ||lauzlpyl.com^$important
 ||lavmeebdxwc.com^$important
 ||lawvcpqtapzsh.com^$important
@@ -7918,6 +7930,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||lebeiivzmm.com^$important
 ||lebskmaewbhm.bid^$important
 ||ledvqaldtf.com^$important
+||legkiy-zarabotoki.xyz^$important
 ||lepfj.site^$important
 ||lepyhlczldiuja.bid^$important
 ||lesmyjzc.com^$important
@@ -7983,7 +7996,6 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||lijit.com^$important
 ||lilncsqapikckt.com^$important
 ||linetotime2.agency^$important
-||link.tl^$important
 ||liqbipkfbafq.com^$important
 ||liqwid.net^$important
 ||liuduuct.com^$important
@@ -8500,6 +8512,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||moadlbgojatn.com^$important
 ||moatads.com^$important
 ||modkehkcihvzi.bid^$important
+||moevideo.biz^$important
 ||mofrupteeuqnvc.bid^$important
 ||mofvrnbngcern.bid^$important
 ||moginhstnxswt.com^$important
@@ -8791,6 +8804,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||nhbklvpswckx.com^$important
 ||nheanvabodkw.com^$important
 ||nhkhxvnhfdkn.com^$important
+||nhpfvdlbjg.com^$important
 ||nhqmomir.com^$important
 ||niaqaltky.com^$important
 ||nicequest.com^$important
@@ -9557,6 +9571,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||pkzfmxjlkcxkub.com^$important
 ||pladform.ru^$important
 ||play-best-games-2k18.xyz^$important
+||playermailer.net^$important
 ||plcsedkinoul.com^$important
 ||pleboxviting.pro^$important
 ||plgalhmhkhzy.com^$important
@@ -9570,6 +9585,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||plmythrza.com^$important
 ||plquutxxewil.com^$important
 ||plxtejszb.com^$important
+||plyfoni.ru^$important
 ||plyftjxmrxrk.com^$important
 ||plzjcnyxcdl.com^$important
 ||pmachrxhrwkd.com^$important
@@ -10187,7 +10203,6 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||qzwhzahnieipgz.com^$important
 ||rabjkklvegagrn.com^$important
 ||rackcdn.com^$important
-||rackcdn.com^$important
 ||radbtqjfp.bid^$important
 ||rafvxnikmn.bid^$important
 ||rafymfnvvzqlp.com^$important
@@ -10250,6 +10265,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||rdooybwcuyg.com^$important
 ||rdpqiqlirf.com^$important
 ||rdqyasdstllr.com^$important
+||rdr-friday39.life^$important
 ||rdrkxlmlqpqns.com^$important
 ||rdvrxbxwxspxd.com^$important
 ||rdwcvesg.com^$important
@@ -10914,6 +10930,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||suonvyzivnfy.com^$important
 ||supersalegiveaways.club^$important
 ||suqufucjzffhay.bid^$important
+||surveys-zone.online^$important
 ||sutzinjwnroui.com^$important
 ||suvkxcypywspux.bid^$important
 ||suvvihvbskvnii.com^$important
@@ -11105,6 +11122,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||thcumizbjxnp.bid^$important
 ||theadex.com^$important
 ||theforcontentingvideosystems.icu^$important
+||thegoodcaster.com^$important
 ||thermosthahiti.website^$important
 ||thewebsitetofindplayersbest.info^$important
 ||thibzxxtotyqg.bid^$important
@@ -11296,6 +11314,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||trwbkkxk.com^$important
 ||try.abtasty.com^$important
 ||trydaytoday7.live^$important
+||ts3t3w21-liquidwebsites.com^$important
 ||tsdzmkpewrdxyl.com^$important
 ||tsjnzilsuzoxm.bid^$important
 ||tskctmvpwjdb.com^$important
@@ -11326,6 +11345,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||ttxqfeuiakgn.bid^$important
 ||ttxsrl105.agency^$important
 ||ttxsrl139.life^$important
+||ttxssayyes102.agency^$important
 ||ttyvbqif.bid^$important
 ||tudsawhfmutb.bid^$important
 ||tudsxyhpn.com^$important
@@ -11978,6 +11998,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||vjltrbzrtqmkib.com^$important
 ||vjmoisjmh.bid^$important
 ||vjoytzia.com^$important
+||vjqshoyjxwk.com^$important
 ||vjrpdagpjwyt.com^$important
 ||vjvoahcty.bid^$important
 ||vjwjjytlbqhvmb.bid^$important
@@ -12218,6 +12239,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||waentchjzuwq.com^$important
 ||wafavwthigmc.com^$important
 ||wafrszmnbshq.com^$important
+||wajm.icu^$important
 ||walftgaqiemcx.com^$important
 ||wanrtqneiissrb.com^$important
 ||wanuqtwwpvglcr.bid^$important
@@ -12445,6 +12467,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||wowlucky.net^$important
 ||woxvgdtje.com^$important
 ||wozltvfxtntaqk.com^$important
+||wpad.farm^$important
 ||wpbhnyjej.com^$important
 ||wpjljadiq.com^$important
 ||wpkbwrkejd.com^$important
@@ -12647,6 +12670,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||xcxetqrzckvy.com^$important
 ||xcyptaqhl.com^$important
 ||xdcdlfejo.com^$important
+||xddqdioms.com^$important
 ||xddydaddexkjxs.com^$important
 ||xdiyxgwojtbxft.bid^$important
 ||xdjeestdoiis.com^$important
@@ -12709,6 +12733,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||xiebddgbseoxa.com^$important
 ||xihkdzijh.com^$important
 ||xijgqrrhyfa.com^$important
+||xilbalar.com^$important
 ||xilnalycptredw.com^$important
 ||ximeldnjuusl.com^$important
 ||xinpmsvinfmc.bid^$important
