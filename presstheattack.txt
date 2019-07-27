@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-07-20 20:32:16
-! Version: 20190720203216
+! Last modified: 2019-07-27 16:32:30
+! Version: 20190727163230
 ! Expires: 3 hours
-! Number of filters: 13651
+! Number of filters: 13664
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 ! In no event shall this list, or the list author be liable for any indirect, direct,
@@ -2907,6 +2907,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 |http*:*.vast_$script
 |http*:*/*coinhive*.js$important,script
 |http*:*/*monero-miner.js$important,script
+|http*:*/1px.gif$image,important
 |http*:*/1x1.gif$image,important
 |http*:*/1x1.png$image,important
 |http*:*/2x2.png$image,important
@@ -3244,6 +3245,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||1xmmk.world^$important
 ||1xndi.world^$important
 ||1xnto.world^$important
+||1xpbq.world^$important
 ||1xqws.world^$important
 ||1xrbt.world^$important
 ||1xuop.world^$important
@@ -3265,6 +3267,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||360direct.click^$important
 ||36adb24f7c1c573a6380.date^$important
 ||379bd258b1.com^$important
+||392439sf934990.online^$important
 ||392439sf934990.online^$important
 ||398c874c5e7b36.com^$important
 ||3b9eb5ed04721bef.com^$important
@@ -3583,6 +3586,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||amjbzzicysu.bid^$important
 ||amlcscfr.com^$important
 ||amlyrket.bid^$important
+||ammophfdh53.agency^$important
 ||ammqwpksb.bid^$important
 ||ammuburyqlhsjx.bid^$important
 ||amnpmitevuxx.com^$important
@@ -3820,6 +3824,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||b4e12976c052bbd91c3e.date^$important
 ||b60228e270e363f6.com^$important
 ||badgmvhtvryg.bid^$important
+||badslads.com^$important
 ||bagoojzsqygg.com^$important
 ||bahnjhnrcdwi.com^$important
 ||baiaclwdpztd.com^$important
@@ -4723,6 +4728,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||dergevqzqi.com^$important
 ||derpqpyvym.bid^$important
 ||derqboxqca.com^$important
+||destekfx2.com^$important
 ||dev-mobile-techie-fresh.pw^$important
 ||dewltdgzgtt.com^$important
 ||dexxxrggi.com^$important
@@ -5155,6 +5161,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||ehlnakqlcvuxk.bid^$important
 ||ehoksipmkejqt.bid^$important
 ||eholot-hit.ru^$important
+||eholot-hit.ru^$important
 ||ehraxliuwt.com^$important
 ||ehrwekypesnl.bid^$important
 ||ehrxkeosifmksi.bid^$important
@@ -5395,6 +5402,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||exoclick.com^$important
 ||exosrv.com^$important
 ||expligaining.pro^$important
+||explorereward.com^$important
 ||exponential.com^$important
 ||expose.uzone.id^$important
 ||exposebox.com^$important
@@ -5438,6 +5446,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||facitating.pro^$important
 ||facqgdunsgf.com^$important
 ||facsowlaufzk.com^$important
+||faecbook.com^$important
 ||faegbmhey.com^$important
 ||fafmybvsoj.com^$important
 ||faftjhuu.com^$important
@@ -5558,6 +5567,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||fifnonxntvaszg.com^$important
 ||fikyzmbuhql.bid^$important
 ||filenlgic.bid^$important
+||finansrussia.net^$important
 ||find4bettervideoing.info^$important
 ||fioeazluwwirp.bid^$important
 ||fiqkmfapvnntn.bid^$important
@@ -10505,6 +10515,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||ruoypiedfpov.com^$important
 ||ruqckzdjsoe.bid^$important
 ||rurjxaovebr.bid^$important
+||russia-lives.icu^$important
 ||rustqlclwuebif.bid^$important
 ||rutarget.ru^$important
 ||rutracker.org/iframe/$important,subdocument
@@ -10901,6 +10912,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||sumsmoxssy.com^$important
 ||sumvztfze.com^$important
 ||suonvyzivnfy.com^$important
+||supersalegiveaways.club^$important
 ||suqufucjzffhay.bid^$important
 ||sutzinjwnroui.com^$important
 ||suvkxcypywspux.bid^$important
@@ -11092,6 +11104,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||thbuhcnpt.com^$important
 ||thcumizbjxnp.bid^$important
 ||theadex.com^$important
+||theforcontentingvideosystems.icu^$important
 ||thermosthahiti.website^$important
 ||thewebsitetofindplayersbest.info^$important
 ||thibzxxtotyqg.bid^$important
