@@ -15,9 +15,6 @@ My list is not limited to any region. However, I speak Russian and English and m
 
 I am distributing this project in the hope that it will be useful. This project is distributed "AS IS", without any guarantees, express or implied, and I AM NOT RESPONSIBLE FOR ANY DAMAGES THAT MAY RESULT FROM THE USE OF THIS PROJECT OR ANY PART OF IT.
 
-You may find that the rules on my list are too diligent. Yes, I pay special attention to espionage and mining.
-However, if you find that any of the rules are breaking the site, disable it and create a [question](https://github.com/bogachenko/presstheattack/issues).
-
 Please note that I mainly use uBlock Origin. I emphasize this because each browser and plugin is slightly different from each other. This filter list is written for this plugin, and if you use a different plugin to block ads, performance and correct operation is not guaranteed.
 
 Almost all network filters here are marked as "important" and therefore extensions such as Adblock Plus and others put them on a white list or not read at all due to limitations in the filter syntax and other reasons that do not bother me.
