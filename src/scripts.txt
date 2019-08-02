@@ -2,6 +2,7 @@
 /^https?:\/\/([0-9a-z\-]+\.)?(9anime|animeland|animenova|animeplus|animetoon|animewow|gamestorrent|goodanime|gogoanime|igg-games|kimcartoon|memecenter|readcomiconline|toonget|toonova|watchcartoononline)\.[a-z]{2,4}\/(?!([Ee]xternal|[Ii]mages|[Ss]cripts|[Uu]ploads|ac|ajax|assets|combined|content|cov|cover|(img\/bg)|(img\/icon)|inc|jwplayer|player|playlist-cat-rss|static|thumbs|wp-content|wp-includes)\/)(.*)/$important,first-party,script,domain=~animeland.hu|~memecenter.fr
 /^https?:\/\/([a-z0-9]{3,10}\.)?[a-z0-9]{5,15}\.(click|com|bid|net|online|top|club)\/([a-z0-9]{2}\/){3}[a-f0-9]{32}\.js$/$important,script
 /^https?:\/\/([a-z0-9]{8,10}\.)?[a-z0-9]{5,14}\.(com|bid|online|top|club)\/([a-z0-9]{2}\/){3}[a-f0-9]{32}\.js$/$important,script,third-party
+/^https?:\/\/(www\.)?dyncdn\.me\/static\/[0-9]{1,2}\/js\/expla[0-9]{1,2}\.js/$script,important
 /^https?:\/\/[^/]+\/[a-z0-9]{15,}(\?hope=.*)?$/$important,script
 /^https?:\/\/[^\s]+(\W|\_)a(d[vs]e?|nnounceme|ds?)[rn][tev](s|ing|covers?|server?|isements?|ising|e(rs?)?|ements|ur)?\.js/$important,script,third-party
 /^https?:\/\/[^\s]+(\W|\_)auto(\W|\_)ads?.*?\.js/$important,script
@@ -168,6 +169,7 @@
 |http*:*/stats.js$important,script
 |http*:*/streambeam-jw.js$important,script
 |http*:*/streambeam-video.js$important,script
+|http*:*/sw-vodlocker.$important,script
 |http*:*/tnc.js?h=$important,script
 |http*:*/torimochi.js$script,important
 |http*:*/tr.js$important,script,domain=~yandex.ru|~yandex.ua|~yandex.by
