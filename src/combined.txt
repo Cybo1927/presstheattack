@@ -53,15 +53,8 @@
 |http*:*=widgetimpression^$important,script,xmlhttprequest,subdocument,image
 |http*:*?adtype=$important,script,xmlhttprequest
 |http*:*_siteid=$important,script,xmlhttprequest
-||akamaized.net/?u=$image,important,xmlhttprequest
-||bing.com/fd/ls/$image,important,xmlhttprequest
 ||facebook.com/xti.php^$important,script,xmlhttprequest
 ||facebookcorewwwi.onion/xti.php^$important,script,xmlhttprequest
 ||fls-*.amazon.*^$other,important,script,xmlhttprequest
 ||google.*/log?$important,xmlhttprequest,image
-||heise.de/ivw-bin/ivw/cp/$important,image,script,xmlhttprequest
-||microsoft.com/collect/$important,script,xmlhttprequest
-||permutive.com^$important,script,subdocument
-||stripe.com/?event=$other,important,script,xmlhttprequest
-||yimg.com/gemini/pr/video_$important,script,xmlhttprequest
 ||youtube.com/api/stats/$image,important,xmlhttprequest,other
