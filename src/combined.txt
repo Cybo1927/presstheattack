@@ -56,5 +56,4 @@
 ||facebook.com/xti.php^$important,script,xmlhttprequest
 ||facebookcorewwwi.onion/xti.php^$important,script,xmlhttprequest
 ||fls-*.amazon.*^$other,important,script,xmlhttprequest
-||google.*/log?$important,xmlhttprequest,image
 ||youtube.com/api/stats/$image,important,xmlhttprequest,other
