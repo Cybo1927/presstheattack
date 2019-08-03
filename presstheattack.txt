@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-08-02 21:52:21
-! Version: 20190802215221
+! Last modified: 2019-08-03 16:43:49
+! Version: 20190803164349
 ! Expires: 3 hours
-! Number of filters: 13724
+! Number of filters: 13726
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 ! In no event shall this list, or the list author be liable for any indirect, direct,
@@ -2802,7 +2802,7 @@
 /^https?:\/\/[^\s]+(\W|\_)me([0-9]{1})?w\.js/$important,script
 /^https?:\/\/[^\s]+(\W|\_)metric[sa]?(.*)?\.js/$important,script
 /^https?:\/\/[^\s]+(\W|\_)ping(\W|\_)/$important,script,image,xmlhttprequest
-/^https?:\/\/[^\s]+(\W|\_)pixels?(\W|\_)?/$image,important,object,xmlhttprequest,script,subdocument
+/^https?:\/\/[^\s]+(\W|\_)pixels?\./$image,important,object,xmlhttprequest,script,subdocument
 /^https?:\/\/[^\s]+(\W|\_)pop(unders?)?([0-9]{1,2})?\./$important,popup,script,xmlhttprequest
 /^https?:\/\/[^\s]+(\W|\_)prebid([0-9]{1,2})?(\W|\_)/$important,script
 /^https?:\/\/[^\s]+(\W|\_)pubfig(\.min)?\.js/$important,script
@@ -3268,6 +3268,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||2mdn.net^$important
 ||2road.xyz^$important
 ||2xclick.ru^$important
+||3-559.blog.jp^$important
 ||30dfa2c5b2c5ca53ee73.date^$important
 ||3585656d9351553f.com^$important
 ||360direct.click^$important
@@ -10939,6 +10940,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 ||stlbmyezzth.bid^$important
 ||stompebi.link^$important
 ||stoomeddert.info^$important
+||storehouse.biz^$important
 ||stripe.com/?event=$other,important,script,xmlhttprequest
 ||stuthvygifup.com^$important
 ||stvayyokjvxnl.com^$important
