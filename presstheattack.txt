@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-08-03 16:57:59
-! Version: 20190803165759
+! Last modified: 2019-08-03 20:42:05
+! Version: 20190803204205
 ! Expires: 3 hours
-! Number of filters: 13725
+! Number of filters: 13726
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 ! In no event shall this list, or the list author be liable for any indirect, direct,
@@ -2883,6 +2883,7 @@
 @@||yandex.*/search/adresa-geolocation?*&text=$xmlhttprequest
 @@||yandex.st/swfobject/*^$script
 @@||yastatic.net/*-player-iframe-api-*/$subdocument,xmlhttprequest,script
+@@||yastatic.net/video-player/$subdocument
 google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 reddit.com##.onboardingbar-body
 topsite.com###adchoices
