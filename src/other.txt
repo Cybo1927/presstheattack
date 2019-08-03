@@ -40,5 +40,8 @@
 |http*://xml*/click^$important
 |http*://xml*/redirect^$important
 ||google.*/logimpressions?$important
+||google.com/ads/$important
+||google.com/adsense/$important
+||google.com/uds/$important
 ||yandex.*/clck/$important
 ||youtube.com/pagead/$important
