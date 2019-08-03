@@ -23,3 +23,4 @@
 @@||yandex.*/search/adresa-geolocation?*&text=$xmlhttprequest
 @@||yandex.st/swfobject/*^$script
 @@||yastatic.net/*-player-iframe-api-*/$subdocument,xmlhttprequest,script
+@@||yastatic.net/video-player/$subdocument
