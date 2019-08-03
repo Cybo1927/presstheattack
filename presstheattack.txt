@@ -1,12 +1,12 @@
-[Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-08-03 21:46:12
-! Version: 20190803214612
+! Last modified: 2019-08-04 00:25:25
+! Version: 20190804002525
 ! Expires: 3 hours
 ! Number of filters: 10815
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
+!
 ! In no event shall this list, or the list author be liable for any indirect, direct,
 ! punitive, special, incidental, or consequential damages whatsoever.
 ! By downloading or viewing, or using this list, you are accepting these terms and the license.
