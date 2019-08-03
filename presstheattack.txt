@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-08-04 00:25:25
-! Version: 20190804002525
+! Last modified: 2019-08-04 05:07:48
+! Version: 20190804050748
 ! Expires: 3 hours
-! Number of filters: 10815
+! Number of filters: 10833
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -22,6 +22,7 @@
 ! Download uBlock Origin from GitHub - https://github.com/gorhill/uBlock/releases/
 
 /(\W|\_)a(d[vs]e?|nnounceme|ds?)[rn][tev](s|ing|covers?|server?|isements?|ising|e(rs?)?|ements|ur)?/$important,popup
+/^(https?|wss?):\/\/([0-9a-z\._-]+)\.(accountant|bid|cf|click|club|com|cricket|date|download|faith|fun|ga|gdn|gq|info|link|loan|men|ml|net|network|ovh|party|pro|pw|racing|review|rocks|ru|science|site|space|stream|tk|top|trade|webcam|win|xyz|zone)\.\/(.*)/$important
 /^https:\/\/.*?\/v2\/0\/[a-zA-Z0-9_-]{30,}$/$important,script,third-party
 /^https:\/\/69([a-z]{1,2})\.([a-z]{4})/$important
 /^https?:\/\/([0-9a-z\-]+\.)?(9anime|animeland|animenova|animeplus|animetoon|animewow|gamestorrent|goodanime|gogoanime|igg-games|kimcartoon|memecenter|readcomiconline|toonget|toonova|watchcartoononline)\.[a-z]{2,4}\/(?!([Ee]xternal|[Ii]mages|[Ss]cripts|[Uu]ploads|ac|ajax|assets|combined|content|cov|cover|(img\/bg)|(img\/icon)|inc|jwplayer|player|playlist-cat-rss|static|thumbs|wp-content|wp-includes)\/)(.*)/$important,first-party,script,domain=~animeland.hu|~memecenter.fr
@@ -111,6 +112,8 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 |http*:*&zoneid=*&ext=$important
 |http*:**/rsya-tag-users/*^$important
 |http*:*-coin-hive.js$important,script
+|http*:*-tracker.js$important,script
+|http*:*-tracking.js$important,script
 |http*:*-vast-$script
 |http*:*-vast.$script
 |http*:*-vast^$script
@@ -179,6 +182,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 |http*:*/cgi-bin/ivw/$important,image,script,xmlhttprequest
 |http*:*/chartbeat.js$important,script
 |http*:*/clear.png$image,important
+|http*:*/click.gif$important,image
 |http*:*/click.js$important,script
 |http*:*/cloudcoins.$important,script
 |http*:*/cmin.js$important,script
@@ -249,6 +253,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 |http*:*/in.php?*&referer=$important,script,xmlhttprequest
 |http*:*/in.php?p=$image,xmlhttprequest,script,important
 |http*:*/in.php?p=$important,script,xmlhttprequest
+|http*:*/in.php?referer=$important
 |http*:*/invoke.js$important,script
 |http*:*/iqadcontroller.$important,script
 |http*:*/iwa.js$important,script
@@ -277,12 +282,14 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 |http*:*/nielsen.js$important,script
 |http*:*/noblock.js$important,script
 |http*:*/ntfc.php?p=$important,script
+|http*:*/ob.gif$important,image
 |http*:*/obfus.min.js$important,script
 |http*:*/omniture.js$important,script
 |http*:*/ottocustom.gif$image,important
 |http*:*/ottoperformance.gif$image,important
 |http*:*/p.js$important,script
 |http*:*/page_view.gif$image,important
+|http*:*/pagead/$important
 |http*:*/pageview.gif$image,important
 |http*:*/performancetimer.js$important,script
 |http*:*/ph-functions.js$important,script
@@ -341,6 +348,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 |http*:*/streambeam-*.js$important,script
 |http*:*/svp.gif$image,important
 |http*:*/sw-vodlocker.$important,script
+|http*:*/sw.js$script,important
 |http*:*/sync.gif$image,important
 |http*:*/sync.png$image,important
 |http*:*/tda.*/in.gif$image,important
@@ -351,10 +359,13 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 |http*:*/track-user.png$image,important
 |http*:*/track.gif$image,important
 |http*:*/track.min.js$important,script
+|http*:*/tracker.js$important,script
+|http*:*/tracking.js$important,script
 |http*:*/trg.gif$image,important
 |http*:*/usage.gif$image,important
 |http*:*/utag.js$important,script
 |http*:*/uutils.fcg^$important,script
+|http*:*/video.counters.js$important,script
 |http*:*/view.gif$image,important
 |http*:*/view.png$image,important
 |http*:*/views.gif$image,important
@@ -398,6 +409,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 |http*:*?perfekt=wss://*$important
 |http*:*?proxy=ws://*$important
 |http*:*?proxy=wss://*$important
+|http*:*?pvid=*&pn=$important
 |http*:*?type=pageview&$important,xmlhttprequest
 |http*:*?zone_id=$important,script
 |http*:*?zoneid=$important
@@ -409,6 +421,8 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 |http*:*_coin-hive.js$important,script
 |http*:*_fpn.gif$image,important
 |http*:*_siteid=$important,script,xmlhttprequest
+|http*:*_tracker.js$important,script
+|http*:*_tracking.js$important,script
 |http*:*_vast-$script
 |http*:*_vast.$script
 |http*:*_vast^$script
@@ -3736,6 +3750,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||hqkwnyub.com^$important
 ||hqncduqyzgfugo.com^$important
 ||hqnyahlpmehp.com^$important
+||hqq.tv/cdn-cgi/trace$xmlhttprequest,important
 ||hqqyesittgihp.com^$important
 ||hqsgnzvjkyog.com^$important
 ||hqsxomhxwhpq.com^$important
@@ -5476,6 +5491,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||masteriklan.net^$important
 ||matchdating.club^$important
 ||mateti.net^$important
+||mathyestore.com^$important
 ||mavmlkzt.com^$important
 ||mawtykynmhxkjd.bid^$important
 ||maziynjxjdoe.com^$important
@@ -6684,6 +6700,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||phhigelii.com^$important
 ||phiubpdrh.com^$important
 ||phlslvetboouo.bid^$important
+||phncdn.com/iframe$subdocument,important
 ||phqqzdemby.bid^$important
 ||phragnmpo.com^$important
 ||phskaieua.com^$important
@@ -6701,7 +6718,6 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||pismvlkq.com^$important
 ||pitduougk.com^$important
 ||piuhqbchk.com^$important
-||pixel.facebook.com^$important
 ||pixjqfvlsqvu.com^$important
 ||piyzmkcxa.bid^$important
 ||pjbifjjtir.com^$important
@@ -7217,6 +7233,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||qqdnhrkjtmv.bid^$important
 ||qqfrciwnc.bid^$important
 ||qqgtevtjnpwd.com^$important
+||qqjar.ru^$important
 ||qqkxrlzaaul.com^$important
 ||qqoncxkrkc.bid^$important
 ||qqrkutrsg.com^$important
@@ -8649,6 +8666,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||udc.yahoo.com^$important
 ||udcufwvt.com^$important
 ||udmserve.net^$important
+||udrivemyr54.com^$important
 ||udrwyjpwjfeg.com^$important
 ||udvysuucqgadg.com^$important
 ||uebavnacbjbr.bid^$important
