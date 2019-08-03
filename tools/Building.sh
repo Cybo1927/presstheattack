@@ -46,7 +46,6 @@ echo 'Creating a header for the list...'
 sleep .5
 LINES=$(grep -c '' $TEMP/filterlist.txt)
 cat > $TEMP/headers.txt <<EOF
-[Adblock Plus 2.0]
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
 ! Last modified: ${DATE}
@@ -55,6 +54,7 @@ cat > $TEMP/headers.txt <<EOF
 ! Number of filters: ${LINES}
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
+!
 ! In no event shall this list, or the list author be liable for any indirect, direct,
 ! punitive, special, incidental, or consequential damages whatsoever.
 ! By downloading or viewing, or using this list, you are accepting these terms and the license.
