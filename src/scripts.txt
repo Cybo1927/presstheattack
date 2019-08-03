@@ -246,6 +246,5 @@
 ||vimeocdn.com/js_opt/ablincoln_combined.min.js$important,script
 ||w.cnzz.com/c.php^$important,script
 ||xvideos.com/in.php$script,important
-||yandex.*/pogoda/$first-party,important,inline-script
 ||yastatic.net/daas/atom.js$important,script
 ||yimg.com/wi/ytc.js$important,script
