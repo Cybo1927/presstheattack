@@ -1,8 +1,6 @@
 /^https?:\/\/[^\s]+(\W|\_)(player|gen|client|csi|generate|stream|logs?)(\W|\_)?204/$image,important,xmlhttprequest,other
-/^https?:\/\/[^\s]+(\W|\_)(show|jquery)(\W|\_)?ad[xsvb]?(\W|\_)/$script,important,xmlhttprequest
 /^https?:\/\/[^\s]+(\W|\_)[0-9]{1,2}ads\.gif/$image,important,script
 /^https?:\/\/[^\s]+(\W|\_)ad[svbx]\.php/$important,script,xmlhttprequest
-/^https?:\/\/[^\s]+(\W|\_)ad[xsvb]?(\W|\_)?iframe(\W|\_)/$script,important,subdocument,xmlhttprequest
 /^https?:\/\/[^\s]+(\W|\_)bann?ers?((\W|\_).*?)?\.gif/$image,important,subdocument
 /^https?:\/\/[^\s]+(\W|\_)fingerprint([0-9]{1,2})?(\.min)?\.js/$important,script,xmlhttprequest,image
 /^https?:\/\/[^\s]+(\W|\_)log(\W|\_)?(type|event|entry|request)/$image,important,xmlhttprequest,other
@@ -61,9 +59,6 @@
 ||facebookcorewwwi.onion/xti.php^$important,script,xmlhttprequest
 ||fls-*.amazon.*^$other,important,script,xmlhttprequest
 ||google.*/log?$important,xmlhttprequest,image
-||google.com/ads/$important,script,subdocument
-||google.com/adsense/$important,script,subdocument
-||google.com/uds/$important,script,subdocument
 ||heise.de/ivw-bin/ivw/cp/$important,image,script,xmlhttprequest
 ||microsoft.com/collect/$important,script,xmlhttprequest
 ||permutive.com^$important,script,subdocument
