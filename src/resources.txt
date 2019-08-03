@@ -1,18 +1,4 @@
-*/cleardot.gif$image,redirect=1x1-transparent.gif
-*/cleardot.gif$xmlhttprequest,redirect=nooptext
-*/cleardot.png$image,redirect=1x1-transparent.gif
-*/cleardot.png$xmlhttprequest,redirect=nooptext
-*/empty.gif$image,redirect=1x1-transparent.gif
-*/googima.js$script,redirect=noopjs
-*/ping^$redirect=noopframe,subdocument
-*/spacer.gif$image,redirect=1x1-transparent.gif
-*/spacer.png$image,redirect=1x1-transparent.gif
-*/visitor.js$script,redirect=noopjs
-*/visitorapi.js$script,redirect=noopjs
 google.*##+js(remove-attr.js, ping, div[class] > a[ping])
-twitter.com##[data-focusable="true"]:has-text(/Promoted|Gesponsert|Реклама/):not(:xpath(//span[contains(text(),'Реклама в Твиттере')]))
-twitter.com##[data-testid="trend"]:has-text(/Promoted|Gesponsert|Реклама/):xpath(..)
-twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/):xpath(..)
 ||an.yandex.by^$script,important,redirect=noopjs
 ||an.yandex.by^$xmlhttprequest,important,redirect=nooptext
 ||an.yandex.ru^$script,important,redirect=noopjs
