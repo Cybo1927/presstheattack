@@ -5,3 +5,4 @@
 |http*:*/pi.aspx$subdocument,important
 |http*:*/player_ads.html$subdocument,important
 |http*:*/setbucket?signature=$important,subdocument
+||phncdn.com/iframe$subdocument,important

@@ -8,6 +8,14 @@
 /^https?:\/\/[^\s]+(\W|\_)me([0-9]{1})?w\.js/$important,script
 /^https?:\/\/[^\s]+(\W|\_)metric[sa]?(.*)?\.js/$important,script
 /^https?:\/\/[^\s]+(\W|\_)prebid([0-9]{1,2})?(\W|\_)/$important,script
+|http*:*-tracker.js$important,script
+|http*:*_tracker.js$important,script
+|http*:*/tracker.js$important,script
+|http*:*-tracking.js$important,script
+|http*:*_tracking.js$important,script
+|http*:*/sw.js$script,important
+|http*:*/tracking.js$important,script
+|http*:*/video.counters.js$important,script
 /^https?:\/\/[^\s]+(\W|\_)pubfig(\.min)?\.js/$important,script
 /^https?:\/\/[^\s]+/amp\-ads?(\-[-0-9.]{2,3})?\.js/$important,script
 /^https?:\/\/[^\s]+/amp\-analytics(\-[-0-9.]{2,3})?\.js/$important,script

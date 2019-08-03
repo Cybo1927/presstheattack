@@ -17,6 +17,7 @@
 ||0d96a0971a04071.com^$important
 ||1-1ads.com^$important
 ||1.fembed.com^$important
+/^(https?|wss?):\/\/([0-9a-z\._-]+)\.(accountant|bid|cf|click|club|com|cricket|date|download|faith|fun|ga|gdn|gq|info|link|loan|men|ml|net|network|ovh|party|pro|pw|racing|review|rocks|ru|science|site|space|stream|tk|top|trade|webcam|win|xyz|zone)\.\/(.*)/$important
 ||1b8d89551340a.com^$important
 ||1cb70f6b7aab4c70819a.date^$important
 ||1fbaa223d6945621f8d7.date^$important
@@ -32,6 +33,9 @@
 ||1xeha.world^$important
 ||1xgzu.world^$important
 ||1xjir.world^$important
+||qqjar.ru^$important
+||udrivemyr54.com^$important
+||mathyestore.com^$important
 ||1xkeg.world^$important
 ||1xluw.world^$important
 ||1xmmk.world^$important
@@ -6252,7 +6256,6 @@
 ||pismvlkq.com^$important
 ||pitduougk.com^$important
 ||piuhqbchk.com^$important
-||pixel.facebook.com^$important
 ||pixjqfvlsqvu.com^$important
 ||piyzmkcxa.bid^$important
 ||pjbifjjtir.com^$important

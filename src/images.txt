@@ -13,6 +13,8 @@
 |http*:*/ad-sprite.png$image,important
 |http*:*/ad.gif$image,important
 |http*:*/ad.png$image,important
+|http*:*/ob.gif$important,image
+|http*:*/click.gif$important,image
 |http*:*/ads.gif$image,important
 |http*:*/ads.png$image,important
 |http*:*/ads/*.gif$image,important

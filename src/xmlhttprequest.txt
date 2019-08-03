@@ -8,3 +8,4 @@
 ||twitter.com/i/jot^$important,xmlhttprequest
 ||youtube.com/get_midroll_info^$important,xmlhttprequest
 ||youtube.com/get_video_info?*el=adunit$important,xmlhttprequest
+||hqq.tv/cdn-cgi/trace$xmlhttprequest,important
