@@ -7,7 +7,7 @@
 /^https?:\/\/[^\s]+(\W|\_)fingerprint([0-9]{1,2})?(\.min)?\.js/$important,script,xmlhttprequest,image
 /^https?:\/\/[^\s]+(\W|\_)log(\W|\_)?(type|event|entry|request)/$image,important,xmlhttprequest,other
 /^https?:\/\/[^\s]+(\W|\_)ping(\W|\_)/$important,script,image,xmlhttprequest
-/^https?:\/\/[^\s]+(\W|\_)pixels?(\W|\_)?/$image,important,object,xmlhttprequest,script,subdocument
+/^https?:\/\/[^\s]+(\W|\_)pixels?\./$image,important,object,xmlhttprequest,script,subdocument
 /^https?:\/\/[^\s]+(\W|\_)pop(unders?)?([0-9]{1,2})?\./$important,popup,script,xmlhttprequest
 /^https?:\/\/[^\s]+\.[A-Za-z]{2,6}\/[A-Za-z]{1}\?tag\=[^\s]+\&site\=[A-Za-z0-9]{1,}\&ads?\=/$popup,important,script
 /^https?:\/\/[^\s]+\/([a-zA-Z]{1,4})?events?\.js/$other,important,script,xmlhttprequest
