@@ -14,9 +14,6 @@
 /^https?:\/\/pixels?([0-9]{1,2})?\./$important
 /^https?:\/\/px([0-9]{1,2})?\./$important
 /^https?:\/\/s?metric[as]?([0-9]{1,2})?\./$important
-|http*:*/pagead/$important
-|http*:*/in.php?referer=$important
-|http*:*?pvid=*&pn=$important
 /^https?:\/\/stat(s|istics?)?([0-9]{1,2})?\./$important
 /^https?:\/\/tags?([0-9]{1,2})?\./$important
 /^https?:\/\/track(ers?|ing)?([0-9]{1,2})?\./$important
@@ -24,8 +21,13 @@
 |http*:*&partnerid=$third-party,domain=~google.com
 |http*:*&zoneid=*&ext=$important
 |http*:**/rsya-tag-users/*^$important
+|http*:*.php?aid=pause_$important
+|http*:*/eht.js?site_$important
 |http*:*/epubdelivery/$important
+|http*:*/in.php?referer=$important
+|http*:*/pagead/$important
 |http*:*/yieldmanager/$important
+|http*:*=js_stats&$important
 |http*:*?PartnerID=$third-party
 |http*:*?act=counter&$important
 |http*:*?partner=$third-party,domain=~microsoft.com
@@ -33,6 +35,7 @@
 |http*:*?perfekt=wss://*$important
 |http*:*?proxy=ws://*$important
 |http*:*?proxy=wss://*$important
+|http*:*?pvid=*&pn=$important
 |http*:*?zoneid=$important
 ||google.*/ads/$important
 ||google.*/adsense/$important
