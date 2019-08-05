@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-08-04 05:07:48
-! Version: 20190804050748
+! Last modified: 2019-08-05 19:12:43
+! Version: 20190805191243
 ! Expires: 3 hours
-! Number of filters: 10833
+! Number of filters: 10861
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -74,6 +74,7 @@
 /^https?:\/\/[^\s]+tags?\?id\=/$subdocument,important
 /^https?:\/\/[a-z0-9]+\.info\/+[-a-z0-9_?&=]{9,}/$third-party,script,important
 /^https?:\/\/[a-z0-9]{4,12}\.(accountant|bid|cf|club|cricket|date|download|faith|fun|ga|gdn|gq|host|info|loan|men|ml|online|ovh|party|pro|pw|racing|review|rocks|science|site|space|stream|tk|top|trade|webcam|website|win|xyz|store|solutions|software|social|site|shop|services|sale|run|rip|reviews|restaurant|report|zone)\/[\w\/\-.+]{120,}/$third-party,subdocument,important
+/^https?:\/\/[a-z0-9]{5,15}\.(click|com|bid|net|online|top|club)\/[0-9a-z]{8,12}\?key\=[0-9a-f]{32}$/$third-party,popup,important
 /^https?:\/\/[a-z]{1}[0-9]{4}adserv\./$important
 /^https?:\/\/a?clic?k\./$important
 /^https?:\/\/ad[bsxv]?([0-9]{1,2})?\./$important,domain=~ad.nl
@@ -114,16 +115,9 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 |http*:*-coin-hive.js$important,script
 |http*:*-tracker.js$important,script
 |http*:*-tracking.js$important,script
-|http*:*-vast-$script
-|http*:*-vast.$script
-|http*:*-vast^$script
-|http*:*-vast_$script
 |http*:*.coin-hive.js$important,script
 |http*:*.js?dfp=$important,script,xmlhttprequest
-|http*:*.vast-$script
-|http*:*.vast.$script
-|http*:*.vast^$script
-|http*:*.vast_$script
+|http*:*.php?aid=pause_$important
 |http*:*/*coinhive*.js$important,script
 |http*:*/*monero-miner.js$important,script
 |http*:*/1px.gif$image,important
@@ -145,6 +139,8 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 |http*:*/ad.gif$image,important
 |http*:*/ad.png$image,important
 |http*:*/adcash.js$important,script
+|http*:*/adclck.*^$important,popup
+|http*:*/adclick.*^$important,popup
 |http*:*/adfox/*.js$script,important
 |http*:*/adition.*js$important,script
 |http*:*/ADLog.ashx$image,xmlhttprequest,important
@@ -155,6 +151,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 |http*:*/aff_i?offer_id=$important,script,xmlhttprequest,image
 |http*:*/akam/10/$important,script
 |http*:*/amp.gif$image,important,xmlhttprequest
+|http*:*/analyticsjs.js$important,script
 |http*:*/annotations_module.js$script,domain=youtube.com
 |http*:*/appmeasurement.js$important,script
 |http*:*/apstag.js$important,script
@@ -210,6 +207,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 |http*:*/dprocessor.js$important,script
 |http*:*/dtagent*.js$important,script
 |http*:*/dtm/*/satellitelib$important,script,xmlhttprequest
+|http*:*/eht.js?site_$important
 |http*:*/empty.js$important,script
 |http*:*/empty.png$image,important
 |http*:*/endscreen.js$script,domain=youtube.com
@@ -281,6 +279,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 |http*:*/newrelic.js$important,script
 |http*:*/nielsen.js$important,script
 |http*:*/noblock.js$important,script
+|http*:*/notification-sw.js$important,script
 |http*:*/ntfc.php?p=$important,script
 |http*:*/ob.gif$important,image
 |http*:*/obfus.min.js$important,script
@@ -366,6 +365,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 |http*:*/utag.js$important,script
 |http*:*/uutils.fcg^$important,script
 |http*:*/video.counters.js$important,script
+|http*:*/video.counters.js$important,script
 |http*:*/view.gif$image,important
 |http*:*/view.png$image,important
 |http*:*/views.gif$image,important
@@ -398,6 +398,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 |http*:*/yieldmanager/$important
 |http*:*/zbanner_consorzio.js$important,script
 |http*:*/zerg.js$important,script
+|http*:*=js_stats&$important
 |http*:*=widgetimpression^$important,script,xmlhttprequest,subdocument,image
 |http*:*?*&lp=*id=$popup
 |http*:*?act=counter&$important
@@ -414,20 +415,13 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 |http*:*?zone_id=$important,script
 |http*:*?zoneid=$important
 |http*:*^img^1x1$image,important,third-party
-|http*:*^vast-$script
-|http*:*^vast.$script
-|http*:*^vast^$script
-|http*:*^vast_$script
 |http*:*_coin-hive.js$important,script
 |http*:*_fpn.gif$image,important
 |http*:*_siteid=$important,script,xmlhttprequest
 |http*:*_tracker.js$important,script
 |http*:*_tracking.js$important,script
-|http*:*_vast-$script
-|http*:*_vast.$script
-|http*:*_vast^$script
-|http*:*_vast_$script
 ||00f31156f051fdf.com^$important
+||06f24f3d0b.com^$important
 ||0byv9mgbn0.com^$important
 ||0d96a0971a04071.com^$important
 ||1-1ads.com^$important
@@ -451,6 +445,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||1xgzu.world^$important
 ||1xjir.world^$important
 ||1xkeg.world^$important
+||1xkww.world^$important
 ||1xluw.world^$important
 ||1xmmk.world^$important
 ||1xndi.world^$important
@@ -458,7 +453,9 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||1xpbq.world^$important
 ||1xqws.world^$important
 ||1xrbt.world^$important
+||1xstavka.ru^$important
 ||1xuop.world^$important
+||1xvcs.world^$important
 ||1xvcs.world^$important
 ||1xxwc.world^$important
 ||1xyjw.world^$important
@@ -477,6 +474,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||30dfa2c5b2c5ca53ee73.date^$important
 ||3585656d9351553f.com^$important
 ||360direct.click^$important
+||369bd3a861d8c27.com^$important
 ||36adb24f7c1c573a6380.date^$important
 ||379bd258b1.com^$important
 ||392439sf934990.online^$important
@@ -492,6 +490,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||4736.in^$important
 ||47f624b2e6c6072e.com^$important
 ||4d2911e5a4e352.com^$important
+||4dd887ed167b2.com^$important
 ||4ef6b73abc9123.com^$important
 ||4fba771f87a0251.com^$important
 ||4ukqzi8d7l.com^$important
@@ -507,6 +506,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||6631f33cf2a1032b.com^$important
 ||6868bbe42af8e518.com^$important
 ||6eez7ouig7gwguf6.pro^$important
+||6ped2nd3yp.com^$important
 ||6zw2rcfd.com^$important
 ||713b037362f02.com^$important
 ||75ce0f054e9abc.com^$important
@@ -523,6 +523,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||8cb0309458c7b35e.com^$important
 ||93c8c9a28e1db445.com^$important
 ||944e66f8683ac43c.com^$important
+||95p5qep4aq.com^$important
 ||98bf9h8jbg.com^$important
 ||a-ads.com^$important
 ||a1a5ab31bcd1bc68.com^$important
@@ -818,6 +819,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||aneqmscervl.com^$important
 ||anfjrxbxbar.bid^$important
 ||angtqemchz.bid^$important
+||aniashboy.club^$important
 ||aniview.com^$important
 ||anjjyewywjw.bid^$important
 ||anjqxwvqfnri.com^$important
@@ -1033,9 +1035,11 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||b3z29k1uxb.com^$important
 ||b4e12976c052bbd91c3e.date^$important
 ||b60228e270e363f6.com^$important
+||b93e1f595c9b.com^$important
 ||badgmvhtvryg.bid^$important
 ||badskies.com^$important
 ||badslads.com^$important
+||badspads.com^$important
 ||bagoojzsqygg.com^$important
 ||bahnjhnrcdwi.com^$important
 ||baiaclwdpztd.com^$important
@@ -1445,6 +1449,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||bzrsybcg.com^$important
 ||bzsbtfiz.com^$important
 ||bzyrhqbdldds.com^$important
+||c05c3c084e7edd.com^$important
 ||c712236afa001382be31.date^$important
 ||ca0fe9ab61.com^$important
 ||caajevalistl.com^$important
@@ -1696,6 +1701,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||covjoecuzyss.com^$important
 ||cowmslkltc.com^$important
 ||coxgtwdios.bid^$important
+||coyalecap.club^$important
 ||coyhvotxgrnq.com^$important
 ||cozclrlpsk.com^$important
 ||cozjfzlng.com^$important
@@ -1794,6 +1800,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||cukabtvyl.com^$important
 ||cukwbpne.com^$important
 ||cupzwcxgx.com^$important
+||curaleani.club^$important
 ||cutter.li^$document
 ||cuvbcwgenwytrk.bid^$important
 ||cuxsmovh.bid^$important
@@ -2007,6 +2014,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||dijutbdzbv.com^$important
 ||dillweqbducwi.com^$important
 ||dinmbegj.bid^$important
+||dipladoks.org^$important
 ||dipsbbygv.com^$important
 ||diqstzzbqin.bid^$important
 ||dirto.life^$important
@@ -2517,6 +2525,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||erqqhfsu.com^$important
 ||errorcode0x120xxc.pw^$important
 ||ervinguewty.com^$important
+||erxalim.xyz^$important
 ||erzrulbjdd.bid^$important
 ||esdykqhupjp.com^$important
 ||esfqqfqagkkbrl.com^$important
@@ -2776,6 +2785,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||fikyzmbuhql.bid^$important
 ||filenlgic.bid^$important
 ||finansrussia.net^$important
+||find4bettervideoing.info^$important
 ||find4bettervideoing.info^$important
 ||fioeazluwwirp.bid^$important
 ||fiqkmfapvnntn.bid^$important
@@ -3237,6 +3247,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||globalintegrativemedicalsolutions.top^$important
 ||glslciwwvtxn.com^$important
 ||gltpstgjnyb.com^$important
+||glumtitu.net^$important
 ||glvjbogft.com^$important
 ||glvzlhrrdjlme.com^$important
 ||glxfls.com^$important
@@ -3933,6 +3944,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||icfjzmqsejzfb.com^$important
 ||icfxndxwpan.com^$important
 ||icgakpprechm.com^$important
+||ichecknotifyfriends.info^$important
 ||icjeqbqdzhyx.com^$important
 ||icjniokadnrqht.com^$important
 ||icjpdubxgab.com^$important
@@ -5695,6 +5707,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||mnyavixcddgx.com^$important
 ||moadlbgojatn.com^$important
 ||moatads.com^$important
+||mob1ledev1ces.com^$important
 ||modkehkcihvzi.bid^$important
 ||moevideo.biz^$important
 ||mofrupteeuqnvc.bid^$important
@@ -5767,6 +5780,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||mrxvgpzath.bid^$important
 ||mrzpfpgh.com^$important
 ||msbmckzmcu.com^$important
+||mse2v5oglm.com^$important
 ||msiegurhgfyl.com^$important
 ||msigpurubzkm.com^$important
 ||msisvvxmnpm.com^$important
@@ -6278,6 +6292,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||ocixtsnyxxvyaw.com^$important
 ||ockorrytznnq.bid^$important
 ||ockrsolo.bid^$important
+||oclasrv.com^$important
 ||ocmvmmwctmto.bid^$important
 ||ocofiyymgfyxx.bid^$important
 ||ocrwyhamhfpfc.com^$important
@@ -6385,6 +6400,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||ojtcgnyikbtg.bid^$important
 ||ojvwpiqnmecd.com^$important
 ||ojxzmlgl.com^$important
+||ok.ru/dk?cmd=videostatnew$xmlhttprequest,important
 ||okaeetrzjyvx.com^$important
 ||okakjbtitwh.bid^$important
 ||okasfshomqmg.com^$important
@@ -6583,6 +6599,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||ozpigvtnn.bid^$important
 ||ozssctuyet.com^$important
 ||oztzipze.com^$important
+||ozugzufdxniu.com^$important
 ||ozugzufdxniu.com^$important
 ||ozvncdlo.com^$important
 ||ozvzmgvssaou.com^$important
@@ -7013,6 +7030,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||qbwjddqa.com^$important
 ||qbywtukryaqpp.bid^$important
 ||qbyzytmymz.bid^$important
+||qbzaw.nearbysluts.net^$important
 ||qcaejiouuvgk.com^$important
 ||qceixjlqe.com^$important
 ||qcexplnqbrral.com^$important
@@ -7883,6 +7901,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||sgccsauvct.bid^$important
 ||sgeeavwmk.com^$important
 ||sgggjaosyrxr.com^$important
+||sghehllds.com^$important
 ||sghradxea.bid^$important
 ||sgiueejx.com^$important
 ||sgizmo.com^$important
@@ -8077,6 +8096,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||stompebi.link^$important
 ||stoomeddert.info^$important
 ||storehouse.biz^$important
+||strpjmp.com^$important
 ||stuthvygifup.com^$important
 ||stvayyokjvxnl.com^$important
 ||stwcozfiavhh.bid^$important
@@ -8091,6 +8111,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||sumsmoxssy.com^$important
 ||sumvztfze.com^$important
 ||suonvyzivnfy.com^$important
+||superonclick.com^$important
 ||supersalegiveaways.club^$important
 ||suqufucjzffhay.bid^$important
 ||surveys-zone.online^$important
@@ -8459,6 +8480,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||tradedoubler.com^$important
 ||tradelab.fr^$important
 ||trafficfactory.biz^$important
+||traffichaus.com^$important
 ||trafficjunky.net^$important
 ||trafforsrv.com^$important
 ||trbo.com^$important
@@ -8769,6 +8791,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||uloiugxpg.com^$important
 ||ulpxnhiugynh.com^$important
 ||ulrryqpp.com^$important
+||ultimatumwages.club^$important
 ||ultjaimlrjlfl.com^$important
 ||ulwsjpfxwniz.com^$important
 ||ulyppmnm.bid^$important
@@ -8822,6 +8845,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||upckrtagwpwk.com^$important
 ||upcokvzuupn.bid^$important
 ||upgwdilkhlwguz.bid^$important
+||upitnow.top^$important
 ||upitnow.top^$important
 ||upnpuqimdqnghau.*^$important
 ||uppybbhxbblxa.com^$important
@@ -9525,6 +9549,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||wiklweefcuorh.com^$important
 ||willfumyqwnkuq.com^$important
 ||wimxqzilfwkn.bid^$important
+||win-now.co^$important
 ||winlikek.club^$important
 ||wiorcewmylbe.com^$important
 ||wipcpwadysghx.com^$important
@@ -9633,6 +9658,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||wpkcfajkeytrro.com^$important
 ||wpktjtwsidcz.com^$important
 ||wplqgfpj.com^$important
+||wpncdn.com^$important
 ||wpswyoyev.com^$important
 ||wpsyjttctdnt.com^$important
 ||wptdfllszzpczp.com^$important
@@ -9683,6 +9709,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||wsxqgzalf.com^$important
 ||wsyuiudkoqrf.com^$important
 ||wtdivwvldpykn.bid^$important
+||wtflife15.life^$important
 ||wtflife15.life^$important
 ||wtg-ads.com^$important
 ||wtgybmmqoaxsp.bid^$important
@@ -10348,6 +10375,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||yoqvnnkdmqfk.com^$important
 ||yotube.com^$important
 ||your-mobi-security.com^$important
+||your-server.de^$important
 ||youtube.com/api/stats/$image,important,xmlhttprequest,other
 ||youtube.com/get_midroll_info^$important,xmlhttprequest
 ||youtube.com/get_video_info?*el=adunit$important,xmlhttprequest
