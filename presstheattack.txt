@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-08-05 19:12:43
-! Version: 20190805191243
+! Last modified: 2019-08-05 19:16:00
+! Version: 20190805191600
 ! Expires: 3 hours
-! Number of filters: 10861
+! Number of filters: 10855
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -365,7 +365,6 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 |http*:*/utag.js$important,script
 |http*:*/uutils.fcg^$important,script
 |http*:*/video.counters.js$important,script
-|http*:*/video.counters.js$important,script
 |http*:*/view.gif$image,important
 |http*:*/view.png$image,important
 |http*:*/views.gif$image,important
@@ -455,7 +454,6 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||1xrbt.world^$important
 ||1xstavka.ru^$important
 ||1xuop.world^$important
-||1xvcs.world^$important
 ||1xvcs.world^$important
 ||1xxwc.world^$important
 ||1xyjw.world^$important
@@ -2785,7 +2783,6 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||fikyzmbuhql.bid^$important
 ||filenlgic.bid^$important
 ||finansrussia.net^$important
-||find4bettervideoing.info^$important
 ||find4bettervideoing.info^$important
 ||fioeazluwwirp.bid^$important
 ||fiqkmfapvnntn.bid^$important
@@ -6600,7 +6597,6 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||ozssctuyet.com^$important
 ||oztzipze.com^$important
 ||ozugzufdxniu.com^$important
-||ozugzufdxniu.com^$important
 ||ozvncdlo.com^$important
 ||ozvzmgvssaou.com^$important
 ||ozwjhdler.com^$important
@@ -8846,7 +8842,6 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||upcokvzuupn.bid^$important
 ||upgwdilkhlwguz.bid^$important
 ||upitnow.top^$important
-||upitnow.top^$important
 ||upnpuqimdqnghau.*^$important
 ||uppybbhxbblxa.com^$important
 ||uprbleorptdghy.com^$important
@@ -9709,7 +9704,6 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||wsxqgzalf.com^$important
 ||wsyuiudkoqrf.com^$important
 ||wtdivwvldpykn.bid^$important
-||wtflife15.life^$important
 ||wtflife15.life^$important
 ||wtg-ads.com^$important
 ||wtgybmmqoaxsp.bid^$important
