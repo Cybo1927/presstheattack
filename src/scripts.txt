@@ -154,7 +154,6 @@
 |http*:*/utag.js$important,script
 |http*:*/uutils.fcg^$important,script
 |http*:*/video.counters.js$important,script
-|http*:*/video.counters.js$important,script
 |http*:*/visibilityStat.js$important,script
 |http*:*/wasmminer.$important,script
 |http*:*/watch_ua.js$important,script
