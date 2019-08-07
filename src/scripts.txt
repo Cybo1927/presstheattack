@@ -78,6 +78,7 @@
 |http*:*/ga_setup.js$important,script
 |http*:*/glb-pv-min.js$important,script
 |http*:*/glp?r=*&rw=*&rh=*&ww=*&wh=$important,script
+|http*:*/glx_*.js$important,script
 |http*:*/gridcash.js$important,script
 |http*:*/gujAd.js$important,script
 |http*:*/hive.js$important,script
