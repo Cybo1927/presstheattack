@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-08-07 21:36:32
-! Version: 20190807213632
+! Last modified: 2019-08-08 19:18:36
+! Version: 20190808191836
 ! Expires: 3 hours
-! Number of filters: 10861
+! Number of filters: 10869
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -445,6 +445,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||1xgzu.world^$important
 ||1xjir.world^$important
 ||1xkeg.world^$important
+||1xkww.world^$important
 ||1xkww.world^$important
 ||1xluw.world^$important
 ||1xmmk.world^$important
@@ -888,6 +889,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||aqsijnkyauxur.bid^$important
 ||aqsuhqqgv.bid^$important
 ||aqtnrnuhqfaf.bid^$important
+||aqua1man.net^$important
 ||aqua1man.net^$important
 ||aquhcfvu.com^$important
 ||aqussxtpjfelp.com^$important
@@ -2784,6 +2786,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||fifnonxntvaszg.com^$important
 ||fikyzmbuhql.bid^$important
 ||filenlgic.bid^$important
+||fileportal-20xp.icu^$important
 ||finansrussia.net^$important
 ||find4bettervideoing.info^$important
 ||fioeazluwwirp.bid^$important
@@ -3311,6 +3314,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||googletagservices.com^$xmlhttprequest,important,redirect=nooptext
 ||goowurzdotcom.bid^$important
 ||gopamdzgpdrwe.bid^$important
+||gor1lla.win^$important
 ||gor1lla.win^$important
 ||goraps.com^$important
 ||gosdepct.icu^$important
@@ -5568,6 +5572,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||mercadoclics.com^$important
 ||mercusuar.uzone.id^$important
 ||mesiniklan.andipublisher.com^$important
+||metagmae.org^$important
 ||meucixmdhuqq.bid^$important
 ||meuxestvodec.bid^$important
 ||mexedyfzdx.bid^$important
@@ -5725,6 +5730,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||moneysavingexpertsavings.world^$important
 ||monklerm.pro^$important
 ||monlscalmows.bid^$important
+||moocauby.com^$important
 ||moocauby.com^$important
 ||mookie1.com^$important
 ||moquxotvyuoo.com^$important
@@ -7470,6 +7476,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||rdwcvesg.com^$important
 ||rdwfotuyp.bid^$important
 ||realnwspfbumn.com^$important
+||realtime-bid.com^$important
 ||recreativ.ru^$important
 ||refatxhcuu.com^$important
 ||refdomain3.xyz^$important
@@ -8531,6 +8538,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||ttwiehwr.bid^$important
 ||ttxqfeuiakgn.bid^$important
 ||ttxsrl105.agency^$important
+||ttxsrl139.life^$important
 ||ttxsrl139.life^$important
 ||ttxssayyes102.agency^$important
 ||ttyvbqif.bid^$important
