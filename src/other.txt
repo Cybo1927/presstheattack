@@ -34,6 +34,7 @@
 |http*:*?partner_id=$third-party
 |http*:*?perfekt=wss://*$important
 |http*:*?proxy=ws://*$important
+|http*:*.*.com/xj/$important
 |http*:*?proxy=wss://*$important
 |http*:*?pvid=*&pn=$important
 |http*:*?zoneid=$important

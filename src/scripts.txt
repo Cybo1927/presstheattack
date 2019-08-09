@@ -180,3 +180,6 @@
 |http*:*_coin-hive.js$important,script
 |http*:*_tracker.js$important,script
 |http*:*_tracking.js$important,script
+|http*:*/videojs.ads.min.js$important,script
+|http*:*/matomo.js$important,script
+|http*:*/videojs.ads.js$important,script
