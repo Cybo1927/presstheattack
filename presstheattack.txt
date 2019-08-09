@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-08-08 19:18:36
-! Version: 20190808191836
+! Last modified: 2019-08-09 19:04:22
+! Version: 20190809190422
 ! Expires: 3 hours
-! Number of filters: 10869
+! Number of filters: 10878
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -68,6 +68,7 @@
 /^https?:\/\/[^\s]+\.com\/[0-9a-z]{8}\.js#spot\=[0-9]{5}$/$important,script
 /^https?:\/\/[^\s]+\/([^\s]{4})?tag\.min\.([a-z0-9]{30,}\.)?js/$important,script
 /^https?:\/\/[^\s]+\/([a-zA-Z]{1,4})?events?\.js/$other,important,script,xmlhttprequest
+/^https?:\/\/[^\s]+\/ads?\_onclick\.php/$important,script,xmlhttprequest
 /^https?:\/\/[^\s]+\/fp([0-9]{1,2})?\.js/$important,script
 /^https?:\/\/[^\s]+\/piwik((\W|\_)[_0-9-.]{5,})?\.js/$important,script
 /^https?:\/\/[^\s]+\/s([0-9]{1,2})?\.js/$important,script
@@ -115,6 +116,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 |http*:*-coin-hive.js$important,script
 |http*:*-tracker.js$important,script
 |http*:*-tracking.js$important,script
+|http*:*.*.com/xj/$important
 |http*:*.coin-hive.js$important,script
 |http*:*.js?dfp=$important,script,xmlhttprequest
 |http*:*.php?aid=pause_$important
@@ -263,6 +265,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 |http*:*/log.js$important,script
 |http*:*/lumbar.gif$image,important
 |http*:*/lumbar.png$image,important
+|http*:*/matomo.js$important,script
 |http*:*/mediametrie.js$important,script
 |http*:*/miner*.js$important,script
 |http*:*/miner-*.js$important,script
@@ -366,6 +369,8 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 |http*:*/utag.js$important,script
 |http*:*/uutils.fcg^$important,script
 |http*:*/video.counters.js$important,script
+|http*:*/videojs.ads.js$important,script
+|http*:*/videojs.ads.min.js$important,script
 |http*:*/view.gif$image,important
 |http*:*/view.png$image,important
 |http*:*/views.gif$image,important
@@ -466,6 +471,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||2d7bd9e6eb370143.com^$important
 ||2daytrendingnews.com^$important
 ||2e91ddf5f5cc6dbfef88.date^$important
+||2go7v1nes8.com^$important
 ||2go7v1nes8.com^$important
 ||2mdn.net^$important
 ||2road.xyz^$important
@@ -1166,6 +1172,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||bgrojtcdymmcdr.com^$important
 ||bgtmceqoipodkv.com^$important
 ||bgxjypaeyocjy.bid^$important
+||bgxmq.com^$important
 ||bgybufwnfxkcr.bid^$important
 ||bgzyppwk.com^$important
 ||bhbkfoybvrl.bid^$important
@@ -6944,6 +6951,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||pushanert.com^$important
 ||pushmejs.com^$important
 ||pushnews.ru^$important
+||pushsar.com^$important
 ||puwzwbdopaeq.bid^$important
 ||pvclouds.com^$important
 ||pvdrlztojkd.bid^$important
@@ -8514,6 +8522,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||tskctmvpwjdb.com^$important
 ||tskdngwznw.bid^$important
 ||tslnxwzujrbfp.bid^$important
+||tslomhfys.com^$important
 ||tsmdmunzbtu.com^$important
 ||tsmwdhwvkaz.com^$important
 ||tsnkvlesphbmul.bid^$important
