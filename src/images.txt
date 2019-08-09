@@ -13,8 +13,6 @@
 |http*:*/ad-sprite.png$image,important
 |http*:*/ad.gif$image,important
 |http*:*/ad.png$image,important
-|http*:*/ob.gif$important,image
-|http*:*/click.gif$important,image
 |http*:*/ads.gif$image,important
 |http*:*/ads.png$image,important
 |http*:*/ads/*.gif$image,important
@@ -24,6 +22,7 @@
 |http*:*/blank.png$image,important
 |http*:*/cc.gif$image,important
 |http*:*/clear.png$image,important
+|http*:*/click.gif$important,image
 |http*:*/counter_img.php$image,important
 |http*:*/empty.png$image,important
 |http*:*/event.gif$image,important
@@ -39,6 +38,7 @@
 |http*:*/imp.gif$image,important
 |http*:*/lumbar.gif$image,important
 |http*:*/lumbar.png$image,important
+|http*:*/ob.gif$important,image
 |http*:*/ottocustom.gif$image,important
 |http*:*/ottoperformance.gif$image,important
 |http*:*/page_view.gif$image,important

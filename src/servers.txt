@@ -20,10 +20,6 @@
 ||1.fembed.com^$important
 ||1b8d89551340a.com^$important
 ||1cb70f6b7aab4c70819a.date^$important
-||tslomhfys.com^$important
-||pushsar.com^$important
-||bgxmq.com^$important
-||2go7v1nes8.com^$important
 ||1fbaa223d6945621f8d7.date^$important
 ||1wzfew7a.site^$important
 ||1xbahisbuwv.com^$important
@@ -37,15 +33,8 @@
 ||1xjir.world^$important
 ||1xkeg.world^$important
 ||1xkww.world^$important
-||1xluw.world^$important
 ||1xkww.world^$important
-||realtime-bid.com^$important
-||ttxsrl139.life^$important
-||gor1lla.win^$important
-||fileportal-20xp.icu^$important
-||moocauby.com^$important
-||metagmae.org^$important
-||aqua1man.net^$important
+||1xluw.world^$important
 ||1xmmk.world^$important
 ||1xndi.world^$important
 ||1xnto.world^$important
@@ -62,6 +51,7 @@
 ||2daytrendingnews.com^$important
 ||2e91ddf5f5cc6dbfef88.date^$important
 ||2go7v1nes8.com^$important
+||2go7v1nes8.com^$important
 ||2mdn.net^$important
 ||2road.xyz^$important
 ||2xclick.ru^$important
@@ -77,8 +67,8 @@
 ||4ukqzi8d7l.com^$important
 ||5edeb195868e2195.com^$important
 ||5nt1gx7o57.com^$important
-||6eez7ouig7gwguf6.pro^$important
 ||06f24f3d0b.com^$important
+||6eez7ouig7gwguf6.pro^$important
 ||6ped2nd3yp.com^$important
 ||6zw2rcfd.com^$important
 ||7fkm2r4pzi.com^$important
@@ -487,6 +477,7 @@
 ||aqsuhqqgv.bid^$important
 ||aqtnrnuhqfaf.bid^$important
 ||aqua1man.net^$important
+||aqua1man.net^$important
 ||aquhcfvu.com^$important
 ||aqussxtpjfelp.com^$important
 ||aqyhsqhggq.com^$important
@@ -755,6 +746,7 @@
 ||bgrojtcdymmcdr.com^$important
 ||bgtmceqoipodkv.com^$important
 ||bgxjypaeyocjy.bid^$important
+||bgxmq.com^$important
 ||bgybufwnfxkcr.bid^$important
 ||bgzyppwk.com^$important
 ||bhbkfoybvrl.bid^$important
@@ -2365,6 +2357,7 @@
 ||fifnonxntvaszg.com^$important
 ||fikyzmbuhql.bid^$important
 ||filenlgic.bid^$important
+||fileportal-20xp.icu^$important
 ||finansrussia.net^$important
 ||find4bettervideoing.info^$important
 ||fioeazluwwirp.bid^$important
@@ -2874,6 +2867,7 @@
 ||goo.gl^document
 ||goowurzdotcom.bid^$important
 ||gopamdzgpdrwe.bid^$important
+||gor1lla.win^$important
 ||gor1lla.win^$important
 ||goraps.com^$important
 ||gosdepct.icu^$important
@@ -5123,6 +5117,7 @@
 ||mercadoclics.com^$important
 ||mercusuar.uzone.id^$important
 ||mesiniklan.andipublisher.com^$important
+||metagmae.org^$important
 ||meucixmdhuqq.bid^$important
 ||meuxestvodec.bid^$important
 ||mexedyfzdx.bid^$important
@@ -5280,6 +5275,7 @@
 ||moneysavingexpertsavings.world^$important
 ||monklerm.pro^$important
 ||monlscalmows.bid^$important
+||moocauby.com^$important
 ||moocauby.com^$important
 ||mookie1.com^$important
 ||moquxotvyuoo.com^$important
@@ -6491,6 +6487,7 @@
 ||pushanert.com^$important
 ||pushmejs.com^$important
 ||pushnews.ru^$important
+||pushsar.com^$important
 ||puwzwbdopaeq.bid^$important
 ||pvclouds.com^$important
 ||pvdrlztojkd.bid^$important
@@ -7023,6 +7020,7 @@
 ||rdwcvesg.com^$important
 ||rdwfotuyp.bid^$important
 ||realnwspfbumn.com^$important
+||realtime-bid.com^$important
 ||recreativ.ru^$important
 ||refatxhcuu.com^$important
 ||refdomain3.xyz^$important
@@ -8054,6 +8052,7 @@
 ||tskctmvpwjdb.com^$important
 ||tskdngwznw.bid^$important
 ||tslnxwzujrbfp.bid^$important
+||tslomhfys.com^$important
 ||tsmdmunzbtu.com^$important
 ||tsmwdhwvkaz.com^$important
 ||tsnkvlesphbmul.bid^$important
@@ -8078,6 +8077,7 @@
 ||ttwiehwr.bid^$important
 ||ttxqfeuiakgn.bid^$important
 ||ttxsrl105.agency^$important
+||ttxsrl139.life^$important
 ||ttxsrl139.life^$important
 ||ttxssayyes102.agency^$important
 ||ttyvbqif.bid^$important

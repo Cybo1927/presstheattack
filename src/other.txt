@@ -21,6 +21,7 @@
 |http*:*&partnerid=$third-party,domain=~google.com
 |http*:*&zoneid=*&ext=$important
 |http*:**/rsya-tag-users/*^$important
+|http*:*.*.com/xj/$important
 |http*:*.php?aid=pause_$important
 |http*:*/eht.js?site_$important
 |http*:*/epubdelivery/$important
@@ -34,7 +35,6 @@
 |http*:*?partner_id=$third-party
 |http*:*?perfekt=wss://*$important
 |http*:*?proxy=ws://*$important
-|http*:*.*.com/xj/$important
 |http*:*?proxy=wss://*$important
 |http*:*?pvid=*&pn=$important
 |http*:*?zoneid=$important
