@@ -48,6 +48,7 @@
 ||1xyjw.world^$important
 ||1xymm.world^$important
 ||2d7bd9e6eb370143.com^$important
+||2d7e1ea7b8500684a.com^$important
 ||2daytrendingnews.com^$important
 ||2e91ddf5f5cc6dbfef88.date^$important
 ||2go7v1nes8.com^$important
@@ -67,9 +68,9 @@
 ||4ukqzi8d7l.com^$important
 ||5edeb195868e2195.com^$important
 ||5nt1gx7o57.com^$important
-||06f24f3d0b.com^$important
 ||6eez7ouig7gwguf6.pro^$important
 ||6ped2nd3yp.com^$important
+||06f24f3d0b.com^$important
 ||6zw2rcfd.com^$important
 ||7fkm2r4pzi.com^$important
 ||7hor9gul4s.com^$important
@@ -252,6 +253,7 @@
 ||advideo.ru^$important
 ||advmaiotg.com^$important
 ||adwidgets.ru^$important
+||adxadserv.com^$important
 ||adxpddpc.com^$important
 ||adxscope.com^$important
 ||ae25079147984d4d.com^$important
@@ -788,6 +790,7 @@
 ||biupcyhpmjazv.com^$important
 ||biwjfwhxoy.bid^$important
 ||bixolsoqluvzpu.com^$important
+||bizoninvest.com^$important
 ||bjcunwelpd.com^$important
 ||bjdfckchzsa.bid^$important
 ||bjenzpojtgvo.club^$important
@@ -1451,6 +1454,7 @@
 ||czuyzjyxlgirh.bid^$important
 ||czwdzqfnmzw.bid^$important
 ||czzzwuvvc.com^$important
+||d0f85db8ee56f5c6.com^$important
 ||d0f85db8ee56f5c6.com^$important
 ||d0p21g2fep.com^$important
 ||d4fed03105c9f65b.com^$important
@@ -2357,6 +2361,7 @@
 ||fifnonxntvaszg.com^$important
 ||fikyzmbuhql.bid^$important
 ||filenlgic.bid^$important
+||fileportal-20xp.icu^$important
 ||fileportal-20xp.icu^$important
 ||finansrussia.net^$important
 ||find4bettervideoing.info^$important
@@ -3283,6 +3288,7 @@
 ||horylaht.bid^$important
 ||hosiioyx.com^$important
 ||hosqkmnjt.com^$important
+||hostingcloud.racing^$important
 ||hostingcloud.win^$important
 ||hotdzbtmngof.bid^$important
 ||hotjar.com^$important
@@ -3927,6 +3933,7 @@
 ||jemyvtomzyha.com^$important
 ||jenaowzhtbi.com^$important
 ||jeqixokniyny.com^$important
+||jerredsite.pro^$important
 ||jertwakjcaym.com^$important
 ||jeuqrslzoxdcz.com^$important
 ||jevijshpvnwm.com^$important
@@ -4147,6 +4154,7 @@
 ||jtveisrh.com^$important
 ||jtypnunbjzma.com^$important
 ||jugehjohbc.com^$important
+||juicyads.com^$important
 ||juicyads.com^$important
 ||juigfegcmxq.bid^$important
 ||jujpetacibftww.bid^$important
@@ -4446,6 +4454,7 @@
 ||konbwfktusra.com^$important
 ||koofysojwb.com^$important
 ||korocbbktnw.bid^$important
+||koten.zone^$important
 ||kovglrrlpqum.com^$important
 ||kovykpybtuylq.bid^$important
 ||kozloiczght.com^$important
@@ -5277,6 +5286,7 @@
 ||monlscalmows.bid^$important
 ||moocauby.com^$important
 ||moocauby.com^$important
+||moocauby.com^$important
 ||mookie1.com^$important
 ||moquxotvyuoo.com^$important
 ||mosdqxsgjhes.com^$important
@@ -5504,6 +5514,7 @@
 ||ndxidnvvyvwx.com^$important
 ||ndxtyryloc.com^$important
 ||neaozrrjd.com^$important
+||neatdude.cool^$important
 ||neatdude.cool^$important
 ||neddwrmmced.bid^$important
 ||nedmppiilnld.com^$important
@@ -6381,6 +6392,7 @@
 ||postrelease.com^$important
 ||postrsyk.com^$important
 ||potmbbqbaqxwp.com^$important
+||potpourrichordataoscilloscope.com^$important
 ||povqrvsoljy.com^$important
 ||powerad.ai^$important
 ||poxwphidbuedh.com^$important
@@ -7646,6 +7658,7 @@
 ||stuthvygifup.com^$important
 ||stvayyokjvxnl.com^$important
 ||stwcozfiavhh.bid^$important
+||sub2.avgle.com^$important
 ||sudolljkjzxdfc.com^$important
 ||sudvzfgrmt.com^$important
 ||sueolwxxosqch.com^$important
@@ -7865,6 +7878,7 @@
 ||thowytaoo.com^$important
 ||thpsflsjw.com^$important
 ||thqwivyhdpoem.com^$important
+||threedrive.su^$important
 ||thsfkcymkoce.com^$important
 ||thtlvguaqmkv.com^$important
 ||thvdzghlvfoh.com^$important
@@ -8027,6 +8041,8 @@
 ||tradelab.fr^$important
 ||trafficfactory.biz^$important
 ||traffichaus.com^$important
+||trafficjunky.com^$important
+||trafficjunky.net^$important
 ||trafficjunky.net^$important
 ||trafforsrv.com^$important
 ||trbo.com^$important
@@ -8761,6 +8777,7 @@
 ||vlwdjmvhf.com^$important
 ||vlxgszdgmnay.com^$important
 ||vlyuopulvewg.com^$important
+||vmaxjackpot2.com^$important
 ||vmbkadalzr.bid^$important
 ||vmebrrdrtmiaan.bid^$important
 ||vmftwflt.com^$important

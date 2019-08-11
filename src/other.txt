@@ -22,6 +22,7 @@
 |http*:*&zoneid=*&ext=$important
 |http*:**/rsya-tag-users/*^$important
 |http*:*.*.com/xj/$important
+|http*:*/redirect/cpa/*$important
 |http*:*.php?aid=pause_$important
 |http*:*/eht.js?site_$important
 |http*:*/epubdelivery/$important

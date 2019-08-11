@@ -9,6 +9,7 @@
 |http*:*/32x32.png$image,important
 |http*:*/300x250_$image,important
 |http*:*/728x90_$image,important
+|http*:*/__ub.gif$image,important
 |http*:*/abppx-*.gif$image,important
 |http*:*/ad-sprite.png$image,important
 |http*:*/ad.gif$image,important
@@ -19,7 +20,7 @@
 |http*:*/adsct?$image,important
 |http*:*/atrk.gif$image,important
 |http*:*/blank.gif$important,image,domain=~vk.com
-|http*:*/blank.png$image,important
+|http*:*/blank.png$image,important,domain=~spankbang.com
 |http*:*/cc.gif$image,important
 |http*:*/clear.png$image,important
 |http*:*/click.gif$important,image

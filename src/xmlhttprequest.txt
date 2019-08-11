@@ -5,6 +5,7 @@
 ||api.twitch.tv/*/channels/*/extensions^$xmlhttprequest
 ||hqq.tv/cdn-cgi/trace$xmlhttprequest,important
 ||ok.ru/dk?cmd=videostatnew$xmlhttprequest,important
+||streamango.com/log$xmlhttprequest,important
 ||twitter.com/*/recommendations^$xmlhttprequest
 ||twitter.com/*/toast_poll^$important,xmlhttprequest
 ||twitter.com/i/jot^$important,xmlhttprequest
