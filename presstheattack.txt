@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-08-09 19:04:22
-! Version: 20190809190422
+! Last modified: 2019-08-11 16:05:24
+! Version: 20190811160524
 ! Expires: 3 hours
-! Number of filters: 10878
+! Number of filters: 10900
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -134,6 +134,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 |http*:*/728x90_$image,important
 |http*:*/?dm=*&blogid=$important,script,domain=~wordpress.org
 |http*:*/?ip=*&zoneid=$important,popup
+|http*:*/__ub.gif$image,important
 |http*:*/a/display.php^$important,script,xmlhttprequest,subdocument
 |http*:*/abppx-*.gif$image,important
 |http*:*/accip_script.js$important,script
@@ -169,7 +170,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 |http*:*/bitcoincore/?ref=$important,script
 |http*:*/bk-coretag.js$important,script
 |http*:*/blank.gif$important,image,domain=~vk.com
-|http*:*/blank.png$image,important
+|http*:*/blank.png$image,important,domain=~spankbang.com
 |http*:*/bn.php?s=$important,script,xmlhttprequest
 |http*:*/bnr.php$important,script,xmlhttprequest
 |http*:*/boomerang*.js$important,script
@@ -324,6 +325,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 |http*:*/pxt?$image,important
 |http*:*/quant.js$important,script
 |http*:*/raven.js$important,script
+|http*:*/redirect/cpa/*$important
 |http*:*/referdetect.js$important,script
 |http*:*/referrer.js$important,script
 |http*:*/rivraddon.js$important,script
@@ -369,8 +371,10 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 |http*:*/utag.js$important,script
 |http*:*/uutils.fcg^$important,script
 |http*:*/video.counters.js$important,script
+|http*:*/videojs-contrib-ads.js$important,script
 |http*:*/videojs.ads.js$important,script
 |http*:*/videojs.ads.min.js$important,script
+|http*:*/videojs.ima.js$important,script
 |http*:*/view.gif$image,important
 |http*:*/view.png$image,important
 |http*:*/views.gif$image,important
@@ -469,6 +473,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||280asnlnr7.com^$important
 ||28f77rd30e.ru^$important
 ||2d7bd9e6eb370143.com^$important
+||2d7e1ea7b8500684a.com^$important
 ||2daytrendingnews.com^$important
 ||2e91ddf5f5cc6dbfef88.date^$important
 ||2go7v1nes8.com^$important
@@ -664,6 +669,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||advideo.ru^$important
 ||advmaiotg.com^$important
 ||adwidgets.ru^$important
+||adxadserv.com^$important
 ||adxpddpc.com^$important
 ||adxscope.com^$important
 ||ae25079147984d4d.com^$important
@@ -1215,6 +1221,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||biupcyhpmjazv.com^$important
 ||biwjfwhxoy.bid^$important
 ||bixolsoqluvzpu.com^$important
+||bizoninvest.com^$important
 ||bjcunwelpd.com^$important
 ||bjdfckchzsa.bid^$important
 ||bjenzpojtgvo.club^$important
@@ -1879,6 +1886,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||czuyzjyxlgirh.bid^$important
 ||czwdzqfnmzw.bid^$important
 ||czzzwuvvc.com^$important
+||d0f85db8ee56f5c6.com^$important
 ||d0f85db8ee56f5c6.com^$important
 ||d0p21g2fep.com^$important
 ||d4fed03105c9f65b.com^$important
@@ -2793,6 +2801,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||fifnonxntvaszg.com^$important
 ||fikyzmbuhql.bid^$important
 ||filenlgic.bid^$important
+||fileportal-20xp.icu^$important
 ||fileportal-20xp.icu^$important
 ||finansrussia.net^$important
 ||find4bettervideoing.info^$important
@@ -3737,6 +3746,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||horylaht.bid^$important
 ||hosiioyx.com^$important
 ||hosqkmnjt.com^$important
+||hostingcloud.racing^$important
 ||hostingcloud.win^$important
 ||hotdzbtmngof.bid^$important
 ||hotjar.com^$important
@@ -4385,6 +4395,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||jemyvtomzyha.com^$important
 ||jenaowzhtbi.com^$important
 ||jeqixokniyny.com^$important
+||jerredsite.pro^$important
 ||jertwakjcaym.com^$important
 ||jeuqrslzoxdcz.com^$important
 ||jevijshpvnwm.com^$important
@@ -4605,6 +4616,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||jtveisrh.com^$important
 ||jtypnunbjzma.com^$important
 ||jugehjohbc.com^$important
+||juicyads.com^$important
 ||juicyads.com^$important
 ||juigfegcmxq.bid^$important
 ||jujpetacibftww.bid^$important
@@ -4905,6 +4917,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||konbwfktusra.com^$important
 ||koofysojwb.com^$important
 ||korocbbktnw.bid^$important
+||koten.zone^$important
 ||kovglrrlpqum.com^$important
 ||kovykpybtuylq.bid^$important
 ||kozloiczght.com^$important
@@ -5739,6 +5752,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||monlscalmows.bid^$important
 ||moocauby.com^$important
 ||moocauby.com^$important
+||moocauby.com^$important
 ||mookie1.com^$important
 ||moquxotvyuoo.com^$important
 ||mosdqxsgjhes.com^$important
@@ -5966,6 +5980,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||ndxidnvvyvwx.com^$important
 ||ndxtyryloc.com^$important
 ||neaozrrjd.com^$important
+||neatdude.cool^$important
 ||neatdude.cool^$important
 ||neddwrmmced.bid^$important
 ||nedmppiilnld.com^$important
@@ -6845,6 +6860,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||postrelease.com^$important
 ||postrsyk.com^$important
 ||potmbbqbaqxwp.com^$important
+||potpourrichordataoscilloscope.com^$important
 ||povqrvsoljy.com^$important
 ||powerad.ai^$important
 ||poxwphidbuedh.com^$important
@@ -8112,10 +8128,12 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||stompebi.link^$important
 ||stoomeddert.info^$important
 ||storehouse.biz^$important
+||streamango.com/log$xmlhttprequest,important
 ||strpjmp.com^$important
 ||stuthvygifup.com^$important
 ||stvayyokjvxnl.com^$important
 ||stwcozfiavhh.bid^$important
+||sub2.avgle.com^$important
 ||sudolljkjzxdfc.com^$important
 ||sudvzfgrmt.com^$important
 ||sueolwxxosqch.com^$important
@@ -8335,6 +8353,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||thowytaoo.com^$important
 ||thpsflsjw.com^$important
 ||thqwivyhdpoem.com^$important
+||threedrive.su^$important
 ||thsfkcymkoce.com^$important
 ||thtlvguaqmkv.com^$important
 ||thvdzghlvfoh.com^$important
@@ -8497,6 +8516,8 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||tradelab.fr^$important
 ||trafficfactory.biz^$important
 ||traffichaus.com^$important
+||trafficjunky.com^$important
+||trafficjunky.net^$important
 ||trafficjunky.net^$important
 ||trafforsrv.com^$important
 ||trbo.com^$important
@@ -9235,6 +9256,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||vlwdjmvhf.com^$important
 ||vlxgszdgmnay.com^$important
 ||vlyuopulvewg.com^$important
+||vmaxjackpot2.com^$important
 ||vmbkadalzr.bid^$important
 ||vmebrrdrtmiaan.bid^$important
 ||vmftwflt.com^$important
