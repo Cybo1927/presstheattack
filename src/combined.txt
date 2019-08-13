@@ -10,6 +10,7 @@
 /^https?:\/\/[^\s]+\.[A-Za-z]{2,6}\/[A-Za-z]{1}\?tag\=[^\s]+\&site\=[A-Za-z0-9]{1,}\&ads?\=/$popup,important,script
 /^https?:\/\/[^\s]+\/([a-zA-Z]{1,4})?events?\.js/$other,important,script,xmlhttprequest
 /^https?:\/\/[^\s]+\/ads?\_onclick\.php/$important,script,xmlhttprequest
+/^https?:\/\/[^\s]+(\.wasm|\.wsm|\.wa)$/$websocket,xmlhttprequest,important
 |http*:*%*.juicyads.$important,image,script,xmlhttprequest
 |http*:*&ad_*&idzone=$image,important,script,xmlhttprequest
 |http*:*&hasads=$important,script,xmlhttprequest

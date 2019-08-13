@@ -24,6 +24,8 @@
 |http*:*-coin-hive.js$important,script
 |http*:*-tracker.js$important,script
 |http*:*-tracking.js$important,script
+|http*:*/glx-sw.js$script,important
+|http*:*/async-ads.js$script,important
 |http*:*.coin-hive.js$important,script
 |http*:*/*coinhive*.js$important,script
 |http*:*/*monero-miner.js$important,script
