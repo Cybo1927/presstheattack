@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-08-13 19:35:47
-! Version: 20190813193547
+! Last modified: 2019-08-14 03:49:20
+! Version: 20190814034920
 ! Expires: 3 hours
-! Number of filters: 10918
+! Number of filters: 10926
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -75,7 +75,7 @@
 /^https?:\/\/[^\s]+\/s([0-9]{1,2})?\.js/$important,script
 /^https?:\/\/[^\s]+tags?\?id\=/$subdocument,important
 /^https?:\/\/[a-z0-9]+\.info\/+[-a-z0-9_?&=]{9,}/$third-party,script,important
-/^https?:\/\/[a-z0-9]{4,12}\.(accountant|bid|cf|club|cricket|date|download|faith|fun|ga|gdn|gq|host|info|loan|men|ml|online|ovh|party|pro|pw|racing|review|rocks|science|site|space|stream|tk|top|trade|webcam|website|win|xyz|store|solutions|software|social|site|shop|services|sale|run|rip|reviews|restaurant|report|zone)\/[\w\/\-.+]{120,}/$third-party,subdocument,important
+/^https?:\/\/[a-z0-9]{4,12}\.(accountant|bid|cf|club|cricket|date|download|faith|fun|ga|gdn|gq|host|info|loan|men|ml|online|ovh|party|pro|pw|racing|review|rocks|science|site|space|stream|tk|top|trade|webcam|website|win|xyz|store|solutions|software|social|site|shop|services|sale|run|rip|reviews|restaurant|report|zone)\/[\w\/\-.+]{120,}/$third-party,subdocument,important,domain=~oload.party
 /^https?:\/\/[a-z0-9]{5,15}\.(click|com|bid|net|online|top|club)\/[0-9a-z]{8,12}\?key\=[0-9a-f]{32}$/$third-party,popup,important
 /^https?:\/\/[a-z]{1}[0-9]{4}adserv\./$important
 /^https?:\/\/a?clic?k\./$important
@@ -607,7 +607,6 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||addtogether.club^$important
 ||adexchangegate.com^$important
 ||adeyujimmmh.com^$important
-||adf.ly^$important
 ||adflazz.com^$important
 ||adfoitjumerzge.com^$important
 ||adform.net^$important
@@ -2641,6 +2640,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||exmubrgt.bid^$important
 ||exnyzdboihvi.com^$important
 ||exoclick.com^$important
+||exoclsodaqs.com^$important
 ||exosrv.com^$important
 ||expligaining.pro^$important
 ||explorereward.com^$important
@@ -3222,6 +3222,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||girrjaqgjb.com^$important
 ||gisiwdcqte.com^$important
 ||gitopazeaamdkm.bid^$important
+||givemethisoffer.com^$important
 ||givmuvbacwui.com^$important
 ||giwvzhflxv.bid^$important
 ||giyjhogjmfmc.com^$important
@@ -4677,6 +4678,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||jxfplvnrg.com^$important
 ||jxgbdhbilbsgf.bid^$important
 ||jxhmvjrpkdyn.com^$important
+||jxjpszwpl.com^$important
 ||jxmhgmkuw.com^$important
 ||jxnbwgea.bid^$important
 ||jxnwpeqkhtkrw.com^$important
@@ -5914,6 +5916,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||myhdpwmjabpc.bid^$important
 ||myjnlndnbhcih.com^$important
 ||mykhtesikvuz.com^$important
+||mykhtesikvuz.com^$important
 ||mykpenejaaj.bid^$important
 ||mylhebhwgim.com^$important
 ||mylslrkbn.com^$important
@@ -6860,6 +6863,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||pogdlwpmck.com^$important
 ||pohguiypgprqr.bid^$important
 ||pondokiklan.com^$important
+||poolgmsd.com^$important
 ||poorybdbh.bid^$important
 ||pooxbpxm.com^$important
 ||popads.net^$important
@@ -7203,6 +7207,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||qjoqfapllsbtw.bid^$important
 ||qjpxalhvenbt.com^$important
 ||qjskosdsxanp.com^$important
+||qjttowndvet.com^$important
 ||qjttowndvet.com^$important
 ||qjuzjpkihvya.com^$important
 ||qjvullwjz.com^$important
@@ -7894,6 +7899,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||scvonjdwad.bid^$important
 ||scxxbyqjslyp.com^$important
 ||sczcxmaizy.com^$important
+||sdasasyydd.com^$important
 ||sdeadbqsjam.com^$important
 ||sdemctwaiazt.com^$important
 ||sdfmxhdj.bid^$important
@@ -8008,6 +8014,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||sjqskcctmv.com^$important
 ||sjtevvoviqhe.com^$important
 ||sjwdbzsa.com^$important
+||sjwnhrypuxrzv.com^$important
 ||skaulppmndy.bid^$important
 ||skcyigichh.com^$important
 ||skgnompyiusim.com^$important
@@ -8559,6 +8566,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||tskctmvpwjdb.com^$important
 ||tskdngwznw.bid^$important
 ||tslnxwzujrbfp.bid^$important
+||tslomhfys.com^$important
 ||tslomhfys.com^$important
 ||tsmdmunzbtu.com^$important
 ||tsmwdhwvkaz.com^$important
