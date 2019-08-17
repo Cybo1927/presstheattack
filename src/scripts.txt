@@ -13,19 +13,19 @@
 /^https?:\/\/[^\s]+/amp\-analytics(\-[-0-9.]{2,3})?\.js/$important,script
 /^https?:\/\/[^\s]+/amp\-sticky-ad(\-[-0-9.]{2,3})?\.js/$important,script
 /^https?:\/\/[^\s]+\-ad\-sdk\-js\-/$important,script
-/^https?:\/\/[^\s]+\/((glx|workbox|messaging|notification)\-)?sw\.js/$script,important
 /^https?:\/\/[^\s]+\.com\/[0-9a-z]{8}\.js#spot\=[0-9]{5}$/$important,script
+/^https?:\/\/[^\s]+\/((glx|workbox|messaging|notification)\-)?sw\.js/$script,important
 /^https?:\/\/[^\s]+\/([^\s]{4})?tag\.min\.([a-z0-9]{30,}\.)?js/$important,script
 /^https?:\/\/[^\s]+\/fp([0-9]{1,2})?\.js/$important,script
 /^https?:\/\/[^\s]+\/piwik((\W|\_)[_0-9-.]{5,})?\.js/$important,script
 /^https?:\/\/[^\s]+\/s([0-9]{1,2})?\.js/$important,script
+/^https?:\/\/[^\s]+\/sw(\-(vodlocker|service))?\.js/$script,important
 /^https?:\/\/[a-z0-9]+\.info\/+[-a-z0-9_?&=]{9,}/$third-party,script,important
 /^https?:\/\/cdn[0-9]{1,2}?\.rocks\/[^\s]{30,}\.js/$important,script
 /^https?:\/\/www\.([a-z]{6,16})\.com\/([a-z]{1,4})\.js$/$important,script,third-party
 |http*:*-coin-hive.js$important,script
 |http*:*-tracker.js$important,script
 |http*:*-tracking.js$important,script
-|http*:*/async-ads.js$script,important
 |http*:*.coin-hive.js$important,script
 |http*:*/*coinhive*.js$important,script
 |http*:*/*monero-miner.js$important,script
@@ -39,6 +39,7 @@
 |http*:*/annotations_module.js$script,domain=youtube.com
 |http*:*/appmeasurement.js$important,script
 |http*:*/apstag.js$important,script
+|http*:*/async-ads.js$script,important
 |http*:*/atrk.js$important,script
 |http*:*/authedmine.$important,script
 |http*:*/authedminer.$important,script
@@ -50,7 +51,6 @@
 |http*:*/browsermine.js$important,script
 |http*:*/c-hive.js$important,script
 |http*:*/c.js$important,script
-|http*:*/show_ads_smartclick.js$important,script
 |http*:*/c.wasm$important,script
 |http*:*/chartbeat.js$important,script
 |http*:*/click.js$important,script
@@ -139,6 +139,7 @@
 |http*:*/s_code.js$important,script
 |http*:*/safelinkconverter.js$important,script
 |http*:*/setcookie.php$important,script
+|http*:*/show_ads_smartclick.js$important,script
 |http*:*/smarttag.js$important,script
 |http*:*/smpop-stable.js$important,script
 |http*:*/snow.js$important,script
@@ -148,7 +149,6 @@
 |http*:*/statistics.js$script,important
 |http*:*/stats.js$important,script
 |http*:*/streambeam-*.js$important,script
-|http*:*/sw-vodlocker.$important,script
 |http*:*/tnc.js?h=$important,script
 |http*:*/torimochi.js$script,important
 |http*:*/track.min.js$important,script
