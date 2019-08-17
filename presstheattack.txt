@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-08-17 20:45:25
-! Version: 20190817204525
+! Last modified: 2019-08-17 20:48:54
+! Version: 20190817204854
 ! Expires: 3 hours
-! Number of filters: 10965
+! Number of filters: 10961
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -68,6 +68,7 @@
 /^https?:\/\/[^\s]+\.[A-Za-z]{2,6}\/[^\s]{5,}\.js\?[A-Za-z]{1}\=[^\s]{50,}/$popup,important
 /^https?:\/\/[^\s]+\.[A-Za-z]{2,6}\/[A-Za-z]{1}\?tag\=[^\s]+\&site\=[A-Za-z0-9]{1,}\&ads?\=/$popup,important,script
 /^https?:\/\/[^\s]+\.com\/[0-9a-z]{8}\.js#spot\=[0-9]{5}$/$important,script
+/^https?:\/\/[^\s]+\/((glx|workbox|messaging|notification)\-)?sw\.js/$script,important
 /^https?:\/\/[^\s]+\/([^\s]{4})?tag\.min\.([a-z0-9]{30,}\.)?js/$important,script
 /^https?:\/\/[^\s]+\/([a-zA-Z]{1,4})?events?\.js/$other,important,script,xmlhttprequest
 /^https?:\/\/[^\s]+\/ads?\_onclick\.php/$important,script,xmlhttprequest
@@ -235,7 +236,6 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 |http*:*/GetAD.ashx$image,xmlhttprequest,important
 |http*:*/glb-pv-min.js$important,script
 |http*:*/glp?r=*&rw=*&rh=*&ww=*&wh=$important,script
-|http*:*/glx-sw.js$script,important
 |http*:*/glx_*.js$important,script
 |http*:*/google-conversion.html$important,subdocument
 |http*:*/greenoaks.gif$image,important,other
@@ -272,7 +272,6 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 |http*:*/lumbar.png$image,important
 |http*:*/matomo.js$important,script
 |http*:*/mediametrie.js$important,script
-|http*:*/messaging-sw.js$important,script
 |http*:*/miner*.js$important,script
 |http*:*/miner-*.js$important,script
 |http*:*/miner.$important,script
@@ -289,7 +288,6 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 |http*:*/newrelic.js$important,script
 |http*:*/nielsen.js$important,script
 |http*:*/noblock.js$important,script
-|http*:*/notification-sw.js$important,script
 |http*:*/ntfc.php?p=$important,script
 |http*:*/ob.gif$important,image
 |http*:*/obfus.min.js$important,script
@@ -359,7 +357,6 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 |http*:*/streambeam-*.js$important,script
 |http*:*/svp.gif$image,important
 |http*:*/sw-vodlocker.$important,script
-|http*:*/sw.js$script,important
 |http*:*/sync.gif$image,important
 |http*:*/sync.png$image,important
 |http*:*/tda.*/in.gif$image,important
@@ -397,7 +394,6 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 |http*:*/webpush.$important,script
 |http*:*/webtag.js$important,script
 |http*:*/webxmr.js$important,script
-|http*:*/workbox-sw.js$important,script
 |http*:*/worker-asmjs.$important,script
 |http*:*/wt?p=$image,important,script
 |http*:*/www/*&zoneid=$important,image,script,xmlhttprequest
