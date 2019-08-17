@@ -51,6 +51,7 @@
 |http*:*/c-hive.js$important,script
 |http*:*/c.js$important,script
 |http*:*/workbox-sw.js$important,script
+|http*:*/messaging-sw.js$important,script
 |http*:*/show_ads_smartclick.js$important,script
 |http*:*/c.wasm$important,script
 |http*:*/chartbeat.js$important,script

@@ -29,6 +29,7 @@
 |http*:*/col2/*&ss=$important,script,xmlhttprequest,image
 |http*:*/cookieid.htm$image,important,script,xmlhttprequest,subdocument
 |http*:*/ctrl.gif?ref=$important,script,xmlhttprequest
+/^(https?|wss?):\/\/([0-9a-z\-]+\.)?([0-9a-z\-]+\.)(accountant|bid|cf|club|cricket|date|download|faith|fun|ga|gdn|gq|loan|men|ml|network|ovh|party|pro|pw|racing|review|rocks|science|site|space|stream|tk|top|trade|webcam|win|xyz|zone)\/(.*)/$third-party,websocket,popup
 |http*:*/dear_code/*/goclick?t=*$important,script,xmlhttprequest
 |http*:*/dtm/*/satellitelib$important,script,xmlhttprequest
 |http*:*/entry_stats^$important,script,xmlhttprequest
