@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-08-17 20:48:54
-! Version: 20190817204854
+! Last modified: 2019-08-17 20:54:57
+! Version: 20190817205457
 ! Expires: 3 hours
-! Number of filters: 10961
+! Number of filters: 10963
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -22,7 +22,7 @@
 ! Download uBlock Origin from GitHub - https://github.com/gorhill/uBlock/releases/
 
 /(\W|\_)a(d[vs]e?|nnounceme|ds?)[rn][tev](s|ing|covers?|server?|isements?|ising|e(rs?)?|ements|ur)?/$important,popup
-/^(https?|wss?):\/\/([0-9a-z\-]+\.)?([0-9a-z\-]+\.)(accountant|bid|cf|club|cricket|date|download|faith|fun|ga|gdn|gq|loan|men|ml|network|ovh|party|pro|pw|racing|review|rocks|science|site|space|stream|tk|top|trade|webcam|win|xyz|zone)\/(.*)/$third-party,websocket,popup
+/^(https?|wss?):\/\/([0-9a-z\-]+\.)?([0-9a-z\-]+\.)(accountant|bid|cf|club|cricket|date|download|faith|fun|ga|gdn|gq|loan|men|ml|network|ovh|party|pro|pw|racing|review|rocks|science|site|space|stream|tk|top|trade|webcam|win|xyz|zone)\/(.*)/$third-party,websocket,popup,important
 /^(https?|wss?):\/\/([0-9a-z\._-]+)\.(accountant|bid|cf|click|club|com|cricket|date|download|faith|fun|ga|gdn|gq|info|link|loan|men|ml|net|network|ovh|party|pro|pw|racing|review|rocks|ru|science|site|space|stream|tk|top|trade|webcam|win|xyz|zone)\.\/(.*)/$important
 /^https:\/\/.*?\/v2\/0\/[a-zA-Z0-9_-]{30,}$/$important,script,third-party
 /^https:\/\/69([a-z]{1,2})\.([a-z]{4})/$important
@@ -65,6 +65,7 @@
 /^https?:\/\/[^\s]+/amp\-analytics(\-[-0-9.]{2,3})?\.js/$important,script
 /^https?:\/\/[^\s]+/amp\-sticky-ad(\-[-0-9.]{2,3})?\.js/$important,script
 /^https?:\/\/[^\s]+\-ad\-sdk\-js\-/$important,script
+/^https?:\/\/[^\s]+\.(cc\/$|club|com|online|ru)/$xmlhttprequest,domain=hdgo.cc|vio.to,important
 /^https?:\/\/[^\s]+\.[A-Za-z]{2,6}\/[^\s]{5,}\.js\?[A-Za-z]{1}\=[^\s]{50,}/$popup,important
 /^https?:\/\/[^\s]+\.[A-Za-z]{2,6}\/[A-Za-z]{1}\?tag\=[^\s]+\&site\=[A-Za-z0-9]{1,}\&ads?\=/$popup,important,script
 /^https?:\/\/[^\s]+\.com\/[0-9a-z]{8}\.js#spot\=[0-9]{5}$/$important,script
@@ -75,6 +76,7 @@
 /^https?:\/\/[^\s]+\/fp([0-9]{1,2})?\.js/$important,script
 /^https?:\/\/[^\s]+\/piwik((\W|\_)[_0-9-.]{5,})?\.js/$important,script
 /^https?:\/\/[^\s]+\/s([0-9]{1,2})?\.js/$important,script
+/^https?:\/\/[^\s]+\/sw(\-(vodlocker|service))?\.js/$script,important
 /^https?:\/\/[^\s]+tags?\?id\=/$subdocument,important
 /^https?:\/\/[a-z0-9]+\.info\/+[-a-z0-9_?&=]{9,}/$third-party,script,important
 /^https?:\/\/[a-z0-9]{4,12}\.(accountant|bid|cf|club|cricket|date|download|faith|fun|ga|gdn|gq|host|info|loan|men|ml|online|ovh|party|pro|pw|racing|review|rocks|science|site|space|stream|tk|top|trade|webcam|website|win|xyz|store|solutions|software|social|site|shop|services|sale|run|rip|reviews|restaurant|report|zone)\/[\w\/\-.+]{120,}/$third-party,subdocument
@@ -155,6 +157,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 |http*:*/ads/*.gif$image,important
 |http*:*/adsct?$image,important
 |http*:*/aff_i?offer_id=$important,script,xmlhttprequest,image
+|http*:*/afr.php?$important
 |http*:*/akam/10/$important,script
 |http*:*/amp.gif$image,important,xmlhttprequest
 |http*:*/analyticsjs.js$important,script
@@ -356,7 +359,6 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 |http*:*/stc.gif$image,important
 |http*:*/streambeam-*.js$important,script
 |http*:*/svp.gif$image,important
-|http*:*/sw-vodlocker.$important,script
 |http*:*/sync.gif$image,important
 |http*:*/sync.png$image,important
 |http*:*/tda.*/in.gif$image,important
