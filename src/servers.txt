@@ -9,7 +9,7 @@
 /^https?:\/\/(syndication|analytics)\.twitter\.com/$important
 /^https?:\/\/(www\.)?(client\-event\-reporter|countess|mp|polyfill|sentinel|spade|trowel|fan)\.twitch(svc)?\.(com|net|tv)/$important
 /^https?:\/\/(www\.)?(facebookcorewwwi|facebook)\.(com|net|onion)\/tr\D/$important
-/^https?:\/\/[a-z]{1}[0-9]{4}adserv\./$important
+/^https?:\/\/(([a-zA-Z]{1})?[0-9]{1,4})?adserv\./$important
 /^https?:\/\/denis\-[a-z0-9]{7,12}\-[a-z0-9]{7,12}\.com/$important
 /^https?:\/\/yastatic\.net\/[^\s]{500,}/$domain=~vh.yandex.ru
 /^https?:\/\/zmctrack\.(com|net)/$important
