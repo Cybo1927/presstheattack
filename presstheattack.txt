@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-08-14 16:16:55
-! Version: 20190814161655
+! Last modified: 2019-08-17 20:45:25
+! Version: 20190817204525
 ! Expires: 3 hours
-! Number of filters: 10925
+! Number of filters: 10965
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -22,9 +22,11 @@
 ! Download uBlock Origin from GitHub - https://github.com/gorhill/uBlock/releases/
 
 /(\W|\_)a(d[vs]e?|nnounceme|ds?)[rn][tev](s|ing|covers?|server?|isements?|ising|e(rs?)?|ements|ur)?/$important,popup
+/^(https?|wss?):\/\/([0-9a-z\-]+\.)?([0-9a-z\-]+\.)(accountant|bid|cf|club|cricket|date|download|faith|fun|ga|gdn|gq|loan|men|ml|network|ovh|party|pro|pw|racing|review|rocks|science|site|space|stream|tk|top|trade|webcam|win|xyz|zone)\/(.*)/$third-party,websocket,popup
 /^(https?|wss?):\/\/([0-9a-z\._-]+)\.(accountant|bid|cf|click|club|com|cricket|date|download|faith|fun|ga|gdn|gq|info|link|loan|men|ml|net|network|ovh|party|pro|pw|racing|review|rocks|ru|science|site|space|stream|tk|top|trade|webcam|win|xyz|zone)\.\/(.*)/$important
 /^https:\/\/.*?\/v2\/0\/[a-zA-Z0-9_-]{30,}$/$important,script,third-party
 /^https:\/\/69([a-z]{1,2})\.([a-z]{4})/$important
+/^https?:\/\/(([a-zA-Z]{1})?[0-9]{1,4})?adserv\./$important
 /^https?:\/\/(.*\.)?(an|awaps|awsync|((rosenberg|report)\.)?appmetrica|bs(\-meta)?|direct|(grade|fenek)\.market|informer|kiks|clck|main\.zdevx|m[csx]|yabs|zen|browser\-updater|bann?ers?(\-slb)?\.mobile|(external\-promo\-|web\-)?metric[as]?|startup(\-slb)?\.mobile|analytic[as]?(\.mobile)?|adfox|jstracer|csp|static\-mon)\.yandex\.[A-Za-z.]{2,7}/$important
 /^https?:\/\/([0-9a-z\-]+\.)?(9anime|animeland|animenova|animeplus|animetoon|animewow|gamestorrent|goodanime|gogoanime|igg-games|kimcartoon|memecenter|readcomiconline|toonget|toonova|watchcartoononline)\.[a-z]{2,4}\/(?!([Ee]xternal|[Ii]mages|[Ss]cripts|[Uu]ploads|ac|ajax|assets|combined|content|cov|cover|(img\/bg)|(img\/icon)|inc|jwplayer|player|playlist-cat-rss|static|thumbs|wp-content|wp-includes)\/)(.*)/$important,first-party,script,domain=~animeland.hu|~memecenter.fr
 /^https?:\/\/([a-z0-9]{3,10}\.)?[a-z0-9]{5,15}\.(click|com|bid|net|online|top|club)\/([a-z0-9]{2}\/){3}[a-f0-9]{32}\.js$/$important,script
@@ -76,7 +78,6 @@
 /^https?:\/\/[a-z0-9]+\.info\/+[-a-z0-9_?&=]{9,}/$third-party,script,important
 /^https?:\/\/[a-z0-9]{4,12}\.(accountant|bid|cf|club|cricket|date|download|faith|fun|ga|gdn|gq|host|info|loan|men|ml|online|ovh|party|pro|pw|racing|review|rocks|science|site|space|stream|tk|top|trade|webcam|website|win|xyz|store|solutions|software|social|site|shop|services|sale|run|rip|reviews|restaurant|report|zone)\/[\w\/\-.+]{120,}/$third-party,subdocument
 /^https?:\/\/[a-z0-9]{5,15}\.(click|com|bid|net|online|top|club)\/[0-9a-z]{8,12}\?key\=[0-9a-f]{32}$/$third-party,popup,important
-/^https?:\/\/[a-z]{1}[0-9]{4}adserv\./$important
 /^https?:\/\/a?clic?k\./$important
 /^https?:\/\/ad[bsxv]?([0-9]{1,2})?\./$important,domain=~ad.nl
 /^https?:\/\/ad[svx]?([0-9]{1,2})?\./$important,popup
@@ -271,6 +272,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 |http*:*/lumbar.png$image,important
 |http*:*/matomo.js$important,script
 |http*:*/mediametrie.js$important,script
+|http*:*/messaging-sw.js$important,script
 |http*:*/miner*.js$important,script
 |http*:*/miner-*.js$important,script
 |http*:*/miner.$important,script
@@ -339,6 +341,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 |http*:*/sat.gif$image,important
 |http*:*/setbucket?signature=$important,subdocument
 |http*:*/setcookie.php$important,script
+|http*:*/show_ads_smartclick.js$important,script
 |http*:*/site=*/size=*/viewid=$image,important,script,xmlhttprequest
 |http*:*/smarttag.js$important,script
 |http*:*/smpop-stable.js$important,script
@@ -394,6 +397,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 |http*:*/webpush.$important,script
 |http*:*/webtag.js$important,script
 |http*:*/webxmr.js$important,script
+|http*:*/workbox-sw.js$important,script
 |http*:*/worker-asmjs.$important,script
 |http*:*/wt?p=$image,important,script
 |http*:*/www/*&zoneid=$important,image,script,xmlhttprequest
@@ -518,6 +522,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||5edeb195868e2195.com^$important
 ||5nt1gx7o57.com^$important
 ||619de07af53f8.com^$important
+||63e7b6347c45fa.com^$important
 ||6631f33cf2a1032b.com^$important
 ||6868bbe42af8e518.com^$important
 ||6eez7ouig7gwguf6.pro^$important
@@ -526,6 +531,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||713b037362f02.com^$important
 ||75ce0f054e9abc.com^$important
 ||7667bab1751ff777.com^$important
+||7a8eaa91f1.com^$important
 ||7fkm2r4pzi.com^$important
 ||7hor9gul4s.com^$important
 ||7hu8e1u001.com^$important
@@ -537,6 +543,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||8bef5bb6b351ca5e.com^$important
 ||8cb0309458c7b35e.com^$important
 ||93c8c9a28e1db445.com^$important
+||9403c96c038dc7c.com^$important
 ||944e66f8683ac43c.com^$important
 ||95p5qep4aq.com^$important
 ||98bf9h8jbg.com^$important
@@ -623,6 +630,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||admitad.com^$important
 ||admixer.net^$important
 ||admlqqewbede.com^$important
+||adnetworkperformance.com^$important
 ||adnxs.com^$important
 ||adnz.co^$important
 ||adobedtm.com^$third-party
@@ -881,6 +889,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||appier.net^$important
 ||apple.com-fasting.live^$important
 ||apple.com-scan.live^$important
+||applesupportofficial.com^$important
 ||applicalled.club^$important
 ||aprddnfuzc.bid^$important
 ||apscxogwydnkx.com^$important
@@ -1302,6 +1311,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||boaawvdg.com^$important
 ||bocksnabswdq.com^$important
 ||bocqmlgslzoo.com^$important
+||bodelen.com^$important
 ||boevznvrllm.bid^$important
 ||bogkmogzrvzf.com^$important
 ||boguaokxhdsa.com^$important
@@ -1779,6 +1789,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||crwdcntrl.net^$important
 ||crxhbchbd.com^$important
 ||crykaxliilz.com^$important
+||cryptocoinsad.com^$important
 ||crzhxquiyo.com^$important
 ||crzlkluxnigce.com^$important
 ||crzojmwnnq.com^$important
@@ -1895,6 +1906,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||d0p21g2fep.com^$important
 ||d4fed03105c9f65b.com^$important
 ||d824d7f5cbcb0e00.com^$important
+||d870977ed3a27.com^$important
 ||dable.io^$important
 ||dacknbenn.com^$important
 ||dacqmkmsjajm.com^$important
@@ -1914,6 +1926,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||davthnojr.com^$important
 ||daxnfpzmnfdr.com^$important
 ||daxzupqivdoj.com^$important
+||dbbp1.net^$important
 ||dbcxaicjyt.com^$important
 ||dbdndssvyxaltf.bid^$important
 ||dbesyixn.bid^$important
@@ -1943,6 +1956,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||dcmhpbpdcsy.com^$important
 ||dcqhbqwlcukxu.com^$important
 ||dcqyyaprodclf.bid^$important
+||dcxbbadldgkw.com^$important
 ||dcybolsar.bid^$important
 ||dcyeufoq.com^$important
 ||dcznhkojghrl.com^$important
@@ -2159,6 +2173,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||dqdwvmpez.com^$important
 ||dqekudhbwprx.com^$important
 ||dqfhklmwj.com^$important
+||dqfpksnabgagc.com^$important
 ||dqiokxyebdc.com^$important
 ||dqkeldpjzq.bid^$important
 ||dqlcgelw.com^$important
@@ -2295,6 +2310,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||e6081b73afec581f.com^$important
 ||e6cfmdmo81.com^$important
 ||e7393e33565ce805.com^$important
+||e7d7772dd865.com^$important
 ||eaaqsama.com^$important
 ||eabgoszdtq.com^$important
 ||eabrkvxoe.bid^$important
@@ -2332,6 +2348,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||ectysptouy.com^$important
 ||ecvladelayk.com^$important
 ||ecxtuyttpfe.bid^$important
+||ed37f29a312.com^$important
 ||ed77c4363c7.com^$important
 ||edfthzanlsyse.com^$important
 ||edgsscofljhc.com^$important
@@ -2416,6 +2433,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||eiibdnjlautz.com^$important
 ||eilmltibu.com^$important
 ||eimgxlsqj.bid^$important
+||eiotdrdi.com^$important
 ||eiqzyxofsgzel.com^$important
 ||eivikmwwrqtb.bid^$important
 ||eiwcqowbowqo.com^$important
@@ -3113,6 +3131,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||gafoswegc.com^$important
 ||gahhlbxdgw.com^$important
 ||game168.com.tw^$important
+||gamekeys.gq^$important
 ||gamescarousel.com^$third-party,important
 ||gaqhseuqp.com^$important
 ||gaxafjlxgoqfj.bid^$important
@@ -3587,6 +3606,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||hdeiyrdw.bid^$important
 ||hdfsruiqwgjdo.com^$important
 ||hdimfhptnjgm.bid^$important
+||hdjjksjfgo.com^$important
 ||hdmxceunntsy.bid^$important
 ||hdnvtfyvyhq.com^$important
 ||hdoabbjyyebca.com^$important
@@ -5154,6 +5174,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||ldbgrugl.bid^$important
 ||ldgananrrtx.com^$important
 ||ldigvkkjquvyn.com^$important
+||ldkdierujjfmcn.club^$important
 ||ldkyzudgbksh.com^$important
 ||ldlritslfej.bid^$important
 ||ldvmpopwd.com^$important
@@ -5241,6 +5262,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||ljfmxgkfmvtowg.com^$important
 ||ljgmufobaphrd.com^$important
 ||ljhuvzutnpza.com^$important
+||ljja3ef63g.com^$important
 ||ljjaiargqfwtzu.com^$important
 ||ljkihuolgoh.com^$important
 ||ljkmwpvahv.com^$important
@@ -5767,8 +5789,10 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||mookie1.com^$important
 ||moquxotvyuoo.com^$important
 ||mosdqxsgjhes.com^$important
+||mouseflow.com^$important
 ||mousheen.net^$important
 ||mousvowpfso.com^$important
+||movcpm.com^$important
 ||moxdmkdzvkgxow.bid^$important
 ||moxvufgh.com^$important
 ||moyeluljrail.com^$important
@@ -6657,6 +6681,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||palzblimzpdk.com^$important
 ||paotmlonx.com^$important
 ||parentelement.ml^$important
+||parumal.com^$important
 ||paruvaubxwwz.bid^$important
 ||pasangiklan.com^$important
 ||patuarioahzaen.bid^$important
@@ -6770,6 +6795,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||piifwkvdil.com^$important
 ||piljbvnykkt.bid^$important
 ||pimygjumeyrtxe.com^$important
+||pingdom.net^$important
 ||pinpupevent.com^$important
 ||piqvuvqc.com^$important
 ||pismvlkq.com^$important
@@ -6943,6 +6969,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||psrbrytujuxv.com^$important
 ||psvdblzcgnjj.com^$important
 ||pswlvlauz.bid^$important
+||pswucdobdvt.com^$important
 ||psxnwzksttygfs.com^$important
 ||psxxbhheqxoy.com^$important
 ||psygnjvrd.com^$important
@@ -6979,8 +7006,14 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||punlkhusprgw.com^$important
 ||punvqjsvnmubxb.com^$important
 ||puogotzrsvtg.com^$important
+||pushame.com^$important
 ||pushanert.com^$important
+||pushbaddy.com^$important
+||pushbasic.com^$important
+||pushdusk.com^$important
+||pushimer.com^$important
 ||pushmejs.com^$important
+||pushnative.com^$important
 ||pushnews.ru^$important
 ||pushsar.com^$important
 ||puwzwbdopaeq.bid^$important
@@ -7447,6 +7480,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||qzpxhebrm.com^$important
 ||qzpzspna.bid^$important
 ||qzwhzahnieipgz.com^$important
+||r5jpkacq.ru^$important
 ||rabjkklvegagrn.com^$important
 ||rackcdn.com^$important
 ||radbtqjfp.bid^$important
@@ -7528,6 +7562,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||reiqwxxd.com^$important
 ||rejbqhagczm.com^$important
 ||reklamko.pro^$important
+||reklamstore.com^$important
 ||reklamtrk.com^$important
 ||rekovers.ru^$important
 ||relandssymphoking.info^$important
@@ -7850,6 +7885,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||sailznsgbygz.com^$important
 ||salhbbkvs.com^$important
 ||samlmqljptbd.com^$important
+||sandroprabratm.info^$important
 ||sandzfuay.bid^$important
 ||sanksvohixxnlf.com^$important
 ||sapvummffiay.com^$important
@@ -7922,6 +7958,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||sekajiwqmym.com^$important
 ||sekllcjbujp.bid^$important
 ||semvdooatmd.bid^$important
+||sendmepush.com^$important
 ||senfvsdvtsn.com^$important
 ||senrzuolwqvj.com^$important
 ||sentrapromosi.com^$important
@@ -8872,6 +8909,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||umwsjnsvfzuo.com^$important
 ||umzrccpfbnuu.com^$important
 ||uncumlzowtkn.com^$important
+||under2given.com^$important
 ||undoxiraqm.com^$important
 ||unewqmemh.bid^$important
 ||unfdjwel.com^$important
@@ -9197,6 +9235,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||vgudvdgzix.bid^$important
 ||vgwdepvhkiu.bid^$important
 ||vgwort.de^$important
+||vgyakiejafjjj.com^$important
 ||vgyakiejafjjj.com^$important
 ||vhatpbmitwcn.com^$important
 ||vhbyakilp.com^$important
@@ -9560,6 +9599,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||wfnmmrtw.bid^$important
 ||wfqeqnvqdjvs.com^$important
 ||wfquqjxu.bid^$important
+||wftduglf.com^$important
 ||wftduglf.com^$important
 ||wfwtfgrzwsonh.com^$important
 ||wfxkcimqvt.com^$important
