@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-08-18 22:59:04
-! Version: 20190818225904
+! Last modified: 2019-08-18 23:02:03
+! Version: 20190818230203
 ! Expires: 3 hours
-! Number of filters: 10908
+! Number of filters: 10917
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -69,7 +69,7 @@
 /^https?:\/\/[^\s]+\.[A-Za-z]{2,6}\/[^\s]{5,}\.js\?[A-Za-z]{1}\=[^\s]{50,}/$popup,important
 /^https?:\/\/[^\s]+\.[A-Za-z]{2,6}\/[A-Za-z]{1}\?tag\=[^\s]+\&site\=[A-Za-z0-9]{1,}\&ads?\=/$popup,important,script
 /^https?:\/\/[^\s]+\.com\/[0-9a-z]{8}\.js#spot\=[0-9]{5}$/$important,script
-/^https?:\/\/[^\s]+\/((glx|workbox|messaging|notification)\-)?sw\.js/$script,important
+/^https?:\/\/[^\s]+\/((glx|workbox|messaging|notification|pab)\-)?sw\.js/$script,important
 /^https?:\/\/[^\s]+\/([^\s]{4})?tag\.min\.([a-z0-9]{30,}\.)?js/$important,script
 /^https?:\/\/[^\s]+\/([a-zA-Z]{1,4})?events?\.js/$other,important,script,xmlhttprequest
 /^https?:\/\/[^\s]+\/ads?\_onclick\.php/$important,script,xmlhttprequest
@@ -339,6 +339,7 @@
 |http*:*/s_code.js$important,script
 |http*:*/safelinkconverter.js$important,script
 |http*:*/sat.gif$image,important
+|http*:*/serviceWorker.js$important,script
 |http*:*/setbucket?signature=$important,subdocument
 |http*:*/setcookie.php$important,script
 |http*:*/show_ads_smartclick.js$important,script
@@ -1044,6 +1045,7 @@
 ||b60228e270e363f6.com^$important
 ||b93e1f595c9b.com^$important
 ||badgmvhtvryg.bid^$important
+||badsbads.com^$important
 ||badskies.com^$important
 ||badslads.com^$important
 ||badspads.com^$important
@@ -2934,6 +2936,7 @@
 ||fqsdlhaffr.bid^$important
 ||fqtpulizvvjcf.com^$important
 ||fqufpknrarn.com^$important
+||franecki.net^$important
 ||frbhjvazapgo.com^$important
 ||frcinpdv.com^$important
 ||frczfzikturw.com^$important
@@ -6646,6 +6649,7 @@
 ||pb.m.naver.com^$important
 ||pbbskmfo.bid^$important
 ||pbbutsvpzqza.com^$important
+||pbcde.com^$important
 ||pbcyvzvdi.bid^$important
 ||pbggemxcuosmhz.bid^$important
 ||pbhletstiooizj.com^$important
@@ -6948,6 +6952,7 @@
 ||ptyezfyxcaeu.com^$important
 ||ptzbgvqpwnxg.com^$important
 ||ptzljkufu.com^$important
+||pub.javwide.com^$important
 ||publish.web.id^$important
 ||pubmatic.com^$important
 ||pudptxanhspld.bid^$important
@@ -6958,6 +6963,7 @@
 ||punlkhusprgw.com^$important
 ||punvqjsvnmubxb.com^$important
 ||puogotzrsvtg.com^$important
+||pushads.biz^$important
 ||pushame.com^$important
 ||pushanert.com^$important
 ||pushbaddy.com^$important
@@ -7208,6 +7214,7 @@
 ||qknuubmfneib.com^$important
 ||qkpwdakgxynv.com^$important
 ||qksihowyv.com^$important
+||qkurtnucn.com^$important
 ||qkwbygfsbfmj.com^$important
 ||qkyzjwhyeh.com^$important
 ||qlatsfeyg.com^$important
@@ -7524,6 +7531,7 @@
 ||rereegny.net^$important
 ||rereghpaz.com^$important
 ||rertazmgduxp.com^$important
+||resultpcservice.fun^$important
 ||reszkzmyzceve.com^$important
 ||revcontent.com^$important
 ||reviewnotifyfriends.info^$important
@@ -10188,6 +10196,7 @@
 ||xynutvdh.com^$important
 ||xyrjlbxkxojoi.bid^$important
 ||xyvjknwxwtf.bid^$important
+||xyz0k4gfs.xyz^$important
 ||xyz0k4gfs.xyz^$important
 ||xzcdzfkwk.com^$important
 ||xzfhewclnun.com^$important
