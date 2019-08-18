@@ -32,7 +32,6 @@ cp $SRC/combined.txt $TEMP
 cp $SRC/frame.txt $TEMP
 cp $SRC/images.txt $TEMP
 cp $SRC/other.txt $TEMP
-cp $SRC/resources.txt $TEMP
 cp $SRC/popups.txt $TEMP
 cp $SRC/scripts.txt $TEMP
 cp $SRC/servers.txt $TEMP
@@ -40,7 +39,7 @@ cp $SRC/whitelist.txt $TEMP
 cp $SRC/xmlhttprequest.txt $TEMP
 sleep .5
 
-sort --output=$TEMP/filterlist.txt $TEMP/combined.txt $TEMP/frame.txt $TEMP/images.txt $TEMP/other.txt $TEMP/popups.txt $TEMP/resources.txt $TEMP/scripts.txt $TEMP/servers.txt $TEMP/whitelist.txt $TEMP/xmlhttprequest.txt
+sort --output=$TEMP/filterlist.txt $TEMP/combined.txt $TEMP/frame.txt $TEMP/images.txt $TEMP/other.txt $TEMP/popups.txt $TEMP/scripts.txt $TEMP/servers.txt $TEMP/whitelist.txt $TEMP/xmlhttprequest.txt
 
 echo 'Creating a header for the list...'
 sleep .5
