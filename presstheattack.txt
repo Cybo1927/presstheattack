@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-08-17 20:57:40
-! Version: 20190817205740
+! Last modified: 2019-08-18 22:59:04
+! Version: 20190818225904
 ! Expires: 3 hours
-! Number of filters: 10946
+! Number of filters: 10908
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -109,7 +109,6 @@
 @@||yandex.st/swfobject/*^$script
 @@||yastatic.net/*-player-iframe-api-*/$subdocument,xmlhttprequest,script
 @@||yastatic.net/video-player/$subdocument
-google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 |http*:*%*.juicyads.$important,image,script,xmlhttprequest
 |http*:*%22request_id%*%22idzone%$important
 |http*:*&ad_*&idzone=$image,important,script,xmlhttprequest
@@ -828,12 +827,6 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||amrfscxvdvfvpa.com^$important
 ||amung.us^$important
 ||amwupsihqfewgr.com^$important
-||an.yandex.by^$script,important,redirect=noopjs
-||an.yandex.by^$xmlhttprequest,important,redirect=nooptext
-||an.yandex.ru^$script,important,redirect=noopjs
-||an.yandex.ru^$xmlhttprequest,important,redirect=nooptext
-||an.yandex.ua^$script,important,redirect=noopjs
-||an.yandex.ua^$xmlhttprequest,important,redirect=nooptext
 ||anasjdzutdmv.com^$important
 ||andinizaments.com^$important
 ||aneqmscervl.com^$important
@@ -986,10 +979,6 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||avvlnbpwpemfl.bid^$important
 ||avyrpwvm.com^$important
 ||awaeswvqd.bid^$important
-||awaps.yandex.by^$important,redirect=noopframe,subdocument
-||awaps.yandex.net^$important,redirect=noopframe,subdocument
-||awaps.yandex.ru^$important,redirect=noopframe,subdocument
-||awaps.yandex.ua^$important,redirect=noopframe,subdocument
 ||awfjqdhcuftd.com^$important
 ||awgdgpawhwgi.bid^$important
 ||awgsmfzrslcp.com^$important
@@ -1001,9 +990,6 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||awpxjguq.com^$important
 ||awrspmpj.com^$important
 ||awrxkucpfbsq.com^$important
-||awsync.yandex.by^$important,redirect=noopframe,subdocument
-||awsync.yandex.ru^$important,redirect=noopframe,subdocument
-||awsync.yandex.ua^$important,redirect=noopframe,subdocument
 ||awvuhwqyimgd.com^$important
 ||awxjpkxoqfwaj.bid^$important
 ||axaggthnkquj.com^$important
@@ -2140,9 +2126,6 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||douangvwl.com^$important
 ||doubleclick.*^$important
 ||doubleclick.*^$important,popup
-||doubleclick.net^$important,redirect=noopframe,subdocument
-||doubleclick.net^$script,important,redirect=noopjs
-||doubleclick.net^$xmlhttprequest,important,redirect=nooptext
 ||doublepimp.com^$important
 ||doublepimp.com^$popup,important
 ||doublepimpssl.com^$important
@@ -3330,23 +3313,11 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||golkkzpniri.com^$important
 ||gonuuudpdcu.com^$important
 ||goo.gl^document
-||google-analytics.com^$important,redirect=noopframe,subdocument
-||google-analytics.com^$script,important,redirect=noopjs
-||google-analytics.com^$xmlhttprequest,important,redirect=nooptext
 ||google.*/ads/$important
 ||google.*/adsense/$important
 ||google.*/log?$important
 ||google.*/logimpressions?$important
 ||google.*/uds/$important
-||googlesyndication.com^$important,redirect=noopframe,subdocument
-||googlesyndication.com^$script,important,redirect=noopjs
-||googlesyndication.com^$xmlhttprequest,important,redirect=nooptext
-||googletagmanager.com^$important,redirect=noopframe,subdocument
-||googletagmanager.com^$script,important,redirect=noopjs
-||googletagmanager.com^$xmlhttprequest,important,redirect=nooptext
-||googletagservices.com^$important,redirect=noopframe,subdocument
-||googletagservices.com^$script,important,redirect=noopjs
-||googletagservices.com^$xmlhttprequest,important,redirect=nooptext
 ||goowurzdotcom.bid^$important
 ||gopamdzgpdrwe.bid^$important
 ||gor1lla.win^$important
@@ -4132,9 +4103,6 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||iluwjbuwm.com^$important
 ||ilvibsabwuza.com^$important
 ||ilxwlsnzhzukj.com^$important
-||imasdk.googleapis.com^$important,redirect=noopframe,subdocument
-||imasdk.googleapis.com^$script,important,redirect=noopjs
-||imasdk.googleapis.com^$xmlhttprequest,important,redirect=nooptext
 ||imayjubge.com^$important
 ||imbpmlyhkk.com^$important
 ||imevdywafhro.com^$important
@@ -4847,7 +4815,6 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||kihxncfpkimfx.bid^$important
 ||kiinvgntnnw.com^$important
 ||kiixmhyrlawz.com^$important
-||kiks.yandex.ru^$important,redirect=noopframe,subdocument
 ||kiobmbncsrwc.com^$important
 ||kiochlocj.bid^$important
 ||kiodudldzmzwr.com^$important
@@ -5566,8 +5533,6 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||mbtalhkebpbpwb.com^$important
 ||mbyponflbv.bid^$important
 ||mbyrgeoizdid.com^$important
-||mc.yandex.ru^$important,redirect=noopjs,script
-||mc.yandex.ru^$xmlhttprequest,important,redirect=nooptext
 ||mcagbtdcwklf.com^$important
 ||mcaxqvcu.com^$important
 ||mcaybfrnrqpmv.com^$important
@@ -7912,7 +7877,6 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||scofnjymyym.bid^$important
 ||scontent.xx.fbcdn.net/hads-ak-prn*/*.png$image,important
 ||scontent.xx.fbcdn23dssr3jqnq.onion/hads-ak-prn*/*.png$image,important
-||scorecardresearch.com/beacon.js$script,redirect=noopjs,important
 ||scorecardresearch.com^$important
 ||scrltyokacghvd.bid^$important
 ||scroll.com^$important
@@ -8160,8 +8124,6 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 ||ssyhlymwyzou.com^$important
 ||ssyyeufsqbra.bid^$important
 ||statcounter.com^$third-party,important
-||static-mon.yandex.net/static/main.js$script,redirect=noopjs,important
-||static-mon.yandex.net/static/main.js$xmlhttprequest,redirect=nooptext,important
 ||statsforads.com^$important
 ||steadfastsystem.com^$important
 ||stekcwrdwohbch.com^$important
