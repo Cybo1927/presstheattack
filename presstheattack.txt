@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-08-19 21:32:01
-! Version: 20190819213201
+! Last modified: 2019-08-20 15:10:07
+! Version: 20190820151007
 ! Expires: 3 hours
-! Number of filters: 10920
+! Number of filters: 10926
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -624,6 +624,7 @@
 ||admantx.com^$important
 ||admatic.com.tr^$important
 ||admetrica.ru^$important
+||admetrica.ru^$important
 ||admitad.com^$important
 ||admixer.net^$important
 ||admlqqewbede.com^$important
@@ -658,6 +659,7 @@
 ||adsrvr.org^$important
 ||adstarsmedia.co.id^$important
 ||adswizz.com^$important
+||adswrapme.click^$important
 ||adswrapme.click^$important
 ||adsymptotic.com^$important
 ||adtechus.com^$important
@@ -2130,6 +2132,7 @@
 ||douangvwl.com^$important
 ||doubleclick.*^$important
 ||doubleclick.*^$important,popup
+||doubleclickbygoogle.com^$important
 ||doublepimp.com^$important
 ||doublepimp.com^$popup,important
 ||doublepimpssl.com^$important
@@ -2892,6 +2895,7 @@
 ||foguumjql.com^$important
 ||fojgpvkhu.com^$important
 ||foovyagf.com^$important
+||forsiteid6346.tech^$important
 ||fortpush.com^$important
 ||forumiklan.com^$important
 ||fosclhrsdhhn.com^$important
@@ -2944,6 +2948,7 @@
 ||frczfzikturw.com^$important
 ||frcznmfu.com^$important
 ||frddujheozns.com^$important
+||freecontent.date^$important
 ||freeskreen.com^$important
 ||frefxzrmcdxdmi.com^$important
 ||frezshmura.bid^$important
@@ -5581,7 +5586,6 @@
 ||mehcpazsnzh.com^$important
 ||mekmrcgtmuvv.bid^$important
 ||melfljypjydxta.com^$important
-||mellowads.com^$important
 ||melqdjqiekcv.com^$important
 ||menjyhvs.bid^$important
 ||mercadoclics.com^$important
@@ -5758,6 +5762,7 @@
 ||moyeluljrail.com^$important
 ||mp-https.info^$important
 ||mparticle.com^$important
+||mpau.biz^$important
 ||mpfzgidlxsqtyt.com^$important
 ||mpgflvbe.com^$important
 ||mphqfyhswko.bid^$important
@@ -5995,6 +6000,7 @@
 ||newnyqfgkkjht.com^$important
 ||newrelic.com^$important
 ||newthuads.com^$important
+||newtueads.com^$important
 ||neyenbozrfuocz.com^$important
 ||nezbumpwtdexd.com^$important
 ||nfaqnqsfhih.bid^$important
@@ -6976,6 +6982,7 @@
 ||pushmejs.com^$important
 ||pushnative.com^$important
 ||pushnews.ru^$important
+||pushofferpro.com^$important
 ||pushsar.com^$important
 ||puwzwbdopaeq.bid^$important
 ||pvclouds.com^$important
@@ -10224,7 +10231,6 @@
 ||yaizwjvnxctz.com^$important
 ||yalyuzvlr.bid^$important
 ||yamrxfbkpirt.com^$important
-||yandex.*/clck/$important
 ||yandex.st^$domain=~yandex.by|~yandex.ru|~yandex.ua
 ||yaoslgiweccw.com^$important
 ||yaqysxlohdyg.com^$important
