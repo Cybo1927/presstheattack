@@ -46,5 +46,4 @@
 ||google.*/log?$important
 ||google.*/logimpressions?$important
 ||google.*/uds/$important
-||yandex.*/clck/$important
 ||youtube.com/pagead/$important
