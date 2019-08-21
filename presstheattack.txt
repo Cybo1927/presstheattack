@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-08-20 15:10:07
-! Version: 20190820151007
+! Last modified: 2019-08-22 00:03:17
+! Version: 20190822000317
 ! Expires: 3 hours
-! Number of filters: 10926
+! Number of filters: 10933
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -47,7 +47,7 @@
 /^https?:\/\/2ch\.(hk|pm|re|tf|wf|yt)\/(images|banners?)\//$image,important
 /^https?:\/\/[0-9a-z\-\.]+\.[a-z]{2,7}\/sw\.js\?[0-9a-zA-Z_&%]{32,}/$first-party,xmlhttprequest,important
 /^https?:\/\/[^/]+\/[a-z0-9]{15,}(\?hope=.*)?$/$important,script
-/^https?:\/\/[^\s]+(\W|\_)(player|gen|client|csi|generate|stream|logs?)(\W|\_)?204/$image,important,xmlhttprequest,other
+/^https?:\/\/[^\s]+(\W|\_)(player|gen|client|csi|generate|stream|logs?|live)(\W|\_)?204/$image,important,xmlhttprequest,other
 /^https?:\/\/[^\s]+(\W|\_)[0-9]{1,2}ads\.gif/$image,important,script
 /^https?:\/\/[^\s]+(\W|\_)ad[svbx]\.php/$important,script,xmlhttprequest
 /^https?:\/\/[^\s]+(\W|\_)bann?ers?((\W|\_).*?)?\.gif/$image,important,subdocument
@@ -159,6 +159,7 @@
 |http*:*/afr.php?$important
 |http*:*/akam/10/$important,script
 |http*:*/amp.gif$image,important,xmlhttprequest
+|http*:*/analytics-ping.js$xmlhttprequest,script,important
 |http*:*/analyticsjs.js$important,script
 |http*:*/annotations_module.js$script,domain=youtube.com
 |http*:*/appmeasurement.js$important,script
@@ -296,6 +297,7 @@
 |http*:*/omniture.js$important,script
 |http*:*/ottocustom.gif$image,important
 |http*:*/ottoperformance.gif$image,important
+|http*:*/owa.messageadlist.$xmlhttprequest,script,important
 |http*:*/p.js$important,script
 |http*:*/page_view.gif$image,important
 |http*:*/pagead/$important
@@ -412,6 +414,7 @@
 |http*:*/yieldmanager/$important
 |http*:*/zbanner_consorzio.js$important,script
 |http*:*/zerg.js$important,script
+|http*:*=advertising-core-$important
 |http*:*=js_stats&$important
 |http*:*=widgetimpression^$important,script,xmlhttprequest,subdocument,image
 |http*:*?*&lp=*id=$popup
@@ -1254,6 +1257,7 @@
 ||bkvwnbkq.com^$important
 ||bkxkodsmrnqd.com^$important
 ||bl0uxepb4o.com^$important
+||blaghfpd.com^$important
 ||blcmacswwmqv.com^$important
 ||blgrwhaww.com^$important
 ||blkivkplpn.com^$important
@@ -6326,6 +6330,7 @@
 ||ocofiyymgfyxx.bid^$important
 ||ocrwyhamhfpfc.com^$important
 ||ocssqhhlku.bid^$important
+||octobird.com^$important
 ||ocydwjnqasrn.com^$important
 ||ocyhpouojiss.com^$important
 ||oczqdwqnvhzz.bid^$important
@@ -6762,6 +6767,7 @@
 ||pimygjumeyrtxe.com^$important
 ||pingdom.net^$important
 ||pinpupevent.com^$important
+||pipe.aria.microsoft.com/collector/$xmlhttprequest,important
 ||piqvuvqc.com^$important
 ||pismvlkq.com^$important
 ||pitduougk.com^$important
@@ -7522,6 +7528,7 @@
 ||realnwspfbumn.com^$important
 ||realtime-bid.com^$important
 ||recreativ.ru^$important
+||redditmedia.com/gtm/jail?$subdocument,important
 ||refatxhcuu.com^$important
 ||refdomain3.xyz^$important
 ||refovodka.ru^$important
