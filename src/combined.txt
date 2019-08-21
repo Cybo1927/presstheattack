@@ -1,5 +1,5 @@
 /^(https?|wss?):\/\/([0-9a-z\-]+\.)?([0-9a-z\-]+\.)(accountant|bid|cf|club|cricket|date|download|faith|fun|ga|gdn|gq|loan|men|ml|network|ovh|party|pro|pw|racing|review|rocks|science|site|space|stream|tk|top|trade|webcam|win|xyz|zone)\/(.*)/$third-party,websocket,popup,important
-/^https?:\/\/[^\s]+(\W|\_)(player|gen|client|csi|generate|stream|logs?)(\W|\_)?204/$image,important,xmlhttprequest,other
+/^https?:\/\/[^\s]+(\W|\_)(player|gen|client|csi|generate|stream|logs?|live)(\W|\_)?204/$image,important,xmlhttprequest,other
 /^https?:\/\/[^\s]+(\W|\_)[0-9]{1,2}ads\.gif/$image,important,script
 /^https?:\/\/[^\s]+(\W|\_)ad[svbx]\.php/$important,script,xmlhttprequest
 /^https?:\/\/[^\s]+(\W|\_)bann?ers?((\W|\_).*?)?\.gif/$image,important,subdocument
@@ -26,6 +26,8 @@
 |http*:*/bn.php?s=$important,script,xmlhttprequest
 |http*:*/bnr.php$important,script,xmlhttprequest
 |http*:*/cgi-bin/ivw/$important,image,script,xmlhttprequest
+|http*:*/analytics-ping.js$xmlhttprequest,script,important
+|http*:*/owa.messageadlist.$xmlhttprequest,script,important
 |http*:*/code/bshow.php$important,script,xmlhttprequest
 |http*:*/col2/*&ss=$important,script,xmlhttprequest,image
 |http*:*/cookieid.htm$image,important,script,xmlhttprequest,subdocument

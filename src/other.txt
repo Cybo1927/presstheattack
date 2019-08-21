@@ -26,6 +26,7 @@
 |http*:*.php?aid=pause_$important
 |http*:*/afr.php?$important
 |http*:*/eht.js?site_$important
+|http*:*=advertising-core-$important
 |http*:*/epubdelivery/$important
 |http*:*/in.php?referer=$important
 |http*:*/pagead/$important

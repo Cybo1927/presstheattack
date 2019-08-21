@@ -6,3 +6,4 @@
 |http*:*/player_ads.html$subdocument,important
 |http*:*/setbucket?signature=$important,subdocument
 ||phncdn.com/iframe$subdocument,important
+||redditmedia.com/gtm/jail?$subdocument,important
