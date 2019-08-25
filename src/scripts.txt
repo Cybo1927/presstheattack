@@ -28,6 +28,7 @@
 |http*:*-tracking.js$important,script
 |http*:*/serviceWorker.js$important,script
 |http*:*.coin-hive.js$important,script
+||cdn.*/static/js/amvn.js$important,script
 |http*:*/*coinhive*.js$important,script
 |http*:*/*monero-miner.js$important,script
 |http*:*/?dm=*&blogid=$important,script,domain=~wordpress.org
