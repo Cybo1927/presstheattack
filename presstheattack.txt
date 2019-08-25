@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-08-22 00:15:11
-! Version: 20190822001511
+! Last modified: 2019-08-25 21:23:55
+! Version: 20190825212355
 ! Expires: 3 hours
-! Number of filters: 10933
+! Number of filters: 10951
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -533,6 +533,7 @@
 ||7667bab1751ff777.com^$important
 ||7a8eaa91f1.com^$important
 ||7fkm2r4pzi.com^$important
+||7fkm2r4pzi.com^$important
 ||7hor9gul4s.com^$important
 ||7hu8e1u001.com^$important
 ||7wtic7ru.com^$important
@@ -864,6 +865,7 @@
 ||aoqpvhstmc.bid^$important
 ||aoqviogrwckf.com^$important
 ||aoqvovzrtlpn.bid^$important
+||aoredi.com^$important
 ||aorzglux.com^$important
 ||aoshrcptugsjd.com^$important
 ||aotrcqegtfhlaw.bid^$important
@@ -1714,6 +1716,7 @@
 ||content-ad.net^$important
 ||contentsfeed.com^$important
 ||conviva.com^$important
+||cookie-script.com^$important
 ||cookielaw.org^$third-party
 ||cortxphssdvc.com^$important
 ||coshfgpgab.com^$important
@@ -2156,6 +2159,7 @@
 ||dpwmloknxtuw.com^$important
 ||dpwrhdzeqw.com^$important
 ||dpwsvrkmfxrt.com^$important
+||dpxjvfdtufp.com^$important
 ||dqcqavgqk.bid^$important
 ||dqdnwhyxeblt.com^$important
 ||dqdwvmpez.com^$important
@@ -2434,6 +2438,7 @@
 ||ejjgrmutgrdwxg.com^$important
 ||ejkoolhhepojeu.com^$important
 ||ejlsbfqqxoc.com^$important
+||ejodwopthpg.com^$important
 ||ejoyjumnsft.com^$important
 ||ejwocojjv.bid^$important
 ||ejwxbwzrhihtp.com^$important
@@ -2849,6 +2854,7 @@
 ||fkpbbmgqa.bid^$important
 ||fkphqtgqrfixl.com^$important
 ||fkrgfktdvta.com^$important
+||fkrisjefbx.com^$important
 ||fkrrvhoierty.com^$important
 ||fkvjntfj.com^$important
 ||fkwwhndzjlqrm.com^$important
@@ -2901,6 +2907,7 @@
 ||foovyagf.com^$important
 ||forsiteid6346.tech^$important
 ||fortpush.com^$important
+||fortunejackpartners.com^$important
 ||forumiklan.com^$important
 ||fosclhrsdhhn.com^$important
 ||founehie.com^$important
@@ -3936,6 +3943,7 @@
 ||hzyxaqdr.bid^$important
 ||i-mobile.co.jp^$important
 ||i.imedia.cz^$important
+||i9zqq3fj.top^$important
 ||iaatzkkqyv.com^$important
 ||iacexhglty.com^$important
 ||iadvize.com^$important
@@ -4358,6 +4366,7 @@
 ||jccdpudtb.bid^$important
 ||jccszmkabdean.com^$important
 ||jcgvmfaby.bid^$important
+||jchhompudl.com^$important
 ||jciieszytnk.bid^$important
 ||jcjrcmaunbqxg.com^$important
 ||jcllysqtvlro.com^$important
@@ -5114,6 +5123,7 @@
 ||lanktydm.com^$important
 ||lapbekessbozpx.bid^$important
 ||laqiccblmxfewa.bid^$important
+||lasimakiz.xyz^$important
 ||latestsocial.com^$important
 ||lauzlpyl.com^$important
 ||lavmeebdxwc.com^$important
@@ -5260,6 +5270,7 @@
 ||lknxarjfidm.com^$important
 ||lkohqfilvpked.com^$important
 ||lkojwhiwcsum.com^$important
+||lkpwmhjfvpctw.com^$important
 ||lkuirehx.com^$important
 ||lkzvhtetshbu.com^$important
 ||llbevorurncfcc.bid^$important
@@ -5548,6 +5559,7 @@
 ||mbtalhkebpbpwb.com^$important
 ||mbyponflbv.bid^$important
 ||mbyrgeoizdid.com^$important
+||mc.webvisor.org^$important
 ||mcagbtdcwklf.com^$important
 ||mcaxqvcu.com^$important
 ||mcaybfrnrqpmv.com^$important
@@ -6143,6 +6155,7 @@
 ||noonshdnkt.bid^$important
 ||norepeal.org^$important
 ||normygvd.bid^$important
+||notify-service.com^$important
 ||notqlzafzch.bid^$important
 ||nouusaniebhhfv.bid^$important
 ||nouvurtqlz.bid^$important
@@ -7525,6 +7538,7 @@
 ||rdvrxbxwxspxd.com^$important
 ||rdwcvesg.com^$important
 ||rdwfotuyp.bid^$important
+||realktalk.xyz^$important
 ||realnwspfbumn.com^$important
 ||realtime-bid.com^$important
 ||recreativ.ru^$important
@@ -8680,6 +8694,7 @@
 ||tyavjmvuvygs.com^$important
 ||tyccaweownne.com^$important
 ||tylzbdkjsjig.com^$important
+||tynt.com^$important
 ||tyoaclrjeb.com^$important
 ||tytzcsgxpaywui.bid^$important
 ||tyuawmgqsbz.com^$important
@@ -9096,6 +9111,7 @@
 ||vauwjladxhpx.bid^$important
 ||vavdmrnsrxfgjl.com^$important
 ||vawlydqyujwmha.com^$important
+||vb9g.pw^$important
 ||vbbmesayhzw.bid^$important
 ||vbdrzplqtgk.com^$important
 ||vbehjwhcbhtg.com^$important
@@ -9149,6 +9165,7 @@
 ||vdxfpuikz.bid^$important
 ||vdyqcdxqvebl.com^$important
 ||veancalta.bid^$important
+||vebadu.com^$important
 ||vebubhzj.com^$important
 ||veedjtyvhn.com^$important
 ||veeqneifeblh.com^$important
@@ -9877,6 +9894,7 @@
 ||wznnfwhwwjkp.com^$important
 ||wznupnxp.com^$important
 ||wzyagambcfn.bid^$important
+||x1euvzgv.world^$important
 ||xacexccntjbrht.com^$important
 ||xafkdsxnwinmj.com^$important
 ||xaftihkjg.com^$important
