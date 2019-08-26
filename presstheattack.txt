@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-08-26 03:48:32
-! Version: 20190826034832
+! Last modified: 2019-08-26 23:32:28
+! Version: 20190826233228
 ! Expires: 3 hours
-! Number of filters: 10952
+! Number of filters: 10963
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -75,6 +75,7 @@
 /^https?:\/\/[^\s]+\/ads?\_onclick\.php/$important,script,xmlhttprequest
 /^https?:\/\/[^\s]+\/fp([0-9]{1,2})?\.js/$important,script
 /^https?:\/\/[^\s]+\/piwik((\W|\_)[_0-9-.]{5,})?\.js/$important,script
+/^https?:\/\/[^\s]+\/punder\/(script|license|custom)\./$important,script
 /^https?:\/\/[^\s]+\/s([0-9]{1,2})?\.js/$important,script
 /^https?:\/\/[^\s]+\/sw(\-(vodlocker|service))?\.js/$script,important
 /^https?:\/\/[^\s]+tags?\?id\=/$subdocument,important
@@ -638,6 +639,7 @@
 ||adobedtm.com^$third-party
 ||adofuokjj.bid^$important
 ||adomik.com^$important
+||adop.cc^$important
 ||adovr.com^$important
 ||adpartner.*^$important
 ||adpaths.com^$important
@@ -1301,6 +1303,7 @@
 ||bnstnhto.com^$important
 ||bnwjoqkudmh.bid^$important
 ||boaawvdg.com^$important
+||bobwjhcuavqklk.com^$important
 ||bocksnabswdq.com^$important
 ||bocqmlgslzoo.com^$important
 ||bodelen.com^$important
@@ -1726,6 +1729,7 @@
 ||cowmslkltc.com^$important
 ||coxgtwdios.bid^$important
 ||coyalecap.club^$important
+||coyalecap.club^$important
 ||coyhvotxgrnq.com^$important
 ||cozclrlpsk.com^$important
 ||cozjfzlng.com^$important
@@ -1824,6 +1828,7 @@
 ||cujsutkdbz.com^$important
 ||cukabtvyl.com^$important
 ||cukwbpne.com^$important
+||cuortwomnr.com^$important
 ||cupzwcxgx.com^$important
 ||curaleani.club^$important
 ||cutter.li^$document
@@ -2216,6 +2221,7 @@
 ||dtuhvgjyrp.com^$important
 ||dtvlalitvg.com^$important
 ||dtzlgtmqoj.bid^$important
+||duamuprs.com^$important
 ||dubijsirwtwq.com^$important
 ||dubzmzpdkddi.com^$important
 ||duchmcmpmqqu.com^$important
@@ -2318,6 +2324,7 @@
 ||easnviytengk.com^$important
 ||easygatepr.bid^$important
 ||easyhits4u.com^$important
+||easylist.club^$important
 ||ebbhjxspf.com^$important
 ||ebbldazyvt.com^$important
 ||ebfjbrlcvjlv.com^$important
@@ -5115,6 +5122,7 @@
 ||kzwddxlpcqww.com^$important
 ||kzyiepouyib.bid^$important
 ||kzzqkhxjeytu.com^$important
+||l.sharethis.com^$important
 ||labdwkqyavb.com^$important
 ||lacrxqvydzlan.bid^$important
 ||ladhyjqqgerr.com^$important
@@ -6565,6 +6573,7 @@
 ||otcqlckpafizv.bid^$important
 ||otdgnmvw.com^$important
 ||otewxlcmkih.com^$important
+||otnolatrnup.com^$important
 ||otoxkqlivsqr.com^$important
 ||otpckmnnfm.com^$important
 ||otrjvabiv.bid^$important
@@ -9896,6 +9905,7 @@
 ||wznupnxp.com^$important
 ||wzyagambcfn.bid^$important
 ||x1euvzgv.world^$important
+||x1tckrty.world^$important
 ||xacexccntjbrht.com^$important
 ||xafkdsxnwinmj.com^$important
 ||xaftihkjg.com^$important
@@ -10780,6 +10790,7 @@
 ||zlfttgbmzk.bid^$important
 ||zlgokeby.com^$important
 ||zlkrhsbkdf.bid^$important
+||zlmbspplqvftur.com^$important
 ||zlrlbfigwz.bid^$important
 ||zltsivah.bid^$important
 ||zlxfpawyyoq.com^$important
