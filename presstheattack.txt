@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-08-26 23:32:28
-! Version: 20190826233228
+! Last modified: 2019-08-29 10:08:41
+! Version: 20190829100841
 ! Expires: 3 hours
-! Number of filters: 10963
+! Number of filters: 10983
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -114,7 +114,7 @@
 |http*:*%22request_id%*%22idzone%$important
 |http*:*&ad_*&idzone=$image,important,script,xmlhttprequest
 |http*:*&hasads=$important,script,xmlhttprequest
-|http*:*&partnerid=$third-party,domain=~google.com
+|http*:*&partnerid=$third-party,domain=~google.com,important
 |http*:*&zoneid=*&ext=$important
 |http*:**/rsya-tag-users/*^$important
 |http*:*-coin-hive.js$important,script
@@ -144,6 +144,7 @@
 |http*:*/abppx-*.gif$image,important
 |http*:*/accip_script.js$important,script
 |http*:*/ad-sprite.png$image,important
+|http*:*/ad.aspx?$important
 |http*:*/ad.gif$image,important
 |http*:*/ad.png$image,important
 |http*:*/adcash.js$important,script
@@ -422,9 +423,9 @@
 |http*:*?act=counter&$important
 |http*:*?adtype=$important,script,xmlhttprequest
 |http*:*?lp=*id=$popup
-|http*:*?partner=$third-party,domain=~microsoft.com
+|http*:*?partner=$third-party,domain=~microsoft.com,important
 |http*:*?partner_id=$third-party
-|http*:*?PartnerID=$third-party
+|http*:*?PartnerID=$third-party,important
 |http*:*?perfekt=wss://*$important
 |http*:*?proxy=ws://*$important
 |http*:*?proxy=wss://*$important
@@ -486,6 +487,7 @@
 ||2d7e1ea7b8500684a.com^$important
 ||2daytrendingnews.com^$important
 ||2e91ddf5f5cc6dbfef88.date^$important
+||2go7v1nes8.com^$important
 ||2go7v1nes8.com^$important
 ||2mdn.net^$important
 ||2road.xyz^$important
@@ -594,6 +596,7 @@
 ||aclwlkyzxxhn.com^$important
 ||acnsavlosahs.com^$important
 ||acpxgmzozlxtbj.bid^$important
+||acrmbjkk6qc5utby.pro^$important
 ||acrsgxeah.com^$important
 ||acvxsptoqh.com^$important
 ||acwswfbyhtsf.com^$important
@@ -653,6 +656,7 @@
 ||ads-twitter.com^$important
 ||ads.pubmatic.com^$important
 ||ads.vidoomy.com^$important
+||ads3-adnow.com^$important
 ||adsafeprotected.com^$important
 ||adsco.re^$important
 ||adscpm.site^$important
@@ -1921,6 +1925,7 @@
 ||daohvygdwvj.bid^$important
 ||dapvmnnttetuu.bid^$important
 ||daqdksam.bid^$important
+||datingandchats.pro^$important
 ||davthnojr.com^$important
 ||daxnfpzmnfdr.com^$important
 ||daxzupqivdoj.com^$important
@@ -1961,6 +1966,7 @@
 ||dcznhkojghrl.com^$important
 ||ddbnikwub.com^$important
 ||ddczayne.bid^$important
+||dddomainccc.com^$important
 ||ddhnjkaojrcv.bid^$important
 ||ddjodgzhxyjtaa.bid^$important
 ||ddmlzfwsb.com^$important
@@ -2968,6 +2974,7 @@
 ||frcznmfu.com^$important
 ||frddujheozns.com^$important
 ||freecontent.date^$important
+||freephone.best^$important
 ||freeskreen.com^$important
 ||frefxzrmcdxdmi.com^$important
 ||frezshmura.bid^$important
@@ -3184,6 +3191,7 @@
 ||gearbest.com^$important
 ||geazikjazoid.com^$important
 ||gecxceztcnhkmh.com^$important
+||gedmhqqipuz6wfon.pro^$important
 ||gedmodsxbebd.com^$important
 ||gefaqjwdgzbo.com^$important
 ||gekywqwky.com^$important
@@ -3339,6 +3347,8 @@
 ||gogergyxl.com^$important
 ||goiqwteaxvgc.com^$important
 ||gojotpbkyqou.bid^$important
+||gold-eggs.com^$important
+||golden-tea.com^$important
 ||golkkzpniri.com^$important
 ||gonuuudpdcu.com^$important
 ||goo.gl^document
@@ -3400,6 +3410,7 @@
 ||gqutnukt.com^$important
 ||gquvhveabaem.com^$important
 ||gqwprjzwlfspw.com^$important
+||grand-casino.com^$important
 ||grand-casino.com^$important
 ||grand-casino55.com^$important
 ||grand002.com^$important
@@ -5536,7 +5547,6 @@
 ||mafndqbvdgkm.com^$important
 ||magwfymjhils.com^$important
 ||maidlytsnrn.com^$important
-||mail.ru^$third-party,important
 ||mail.yandex.*/monitoring_liza.txt$image,important
 ||makhhvgdkhwn.com^$important
 ||makumuvgxfogq.com^$important
@@ -6938,6 +6948,7 @@
 ||prdrmcwuawjwjl.bid^$important
 ||prenvifxzjuo.com^$important
 ||presdithas.pw^$important
+||prettyfast.to/log/$xmlhttprequest,important
 ||prgncwamr.com^$important
 ||prjywixf.bid^$important
 ||prmvrxcn.bid^$important
@@ -7011,6 +7022,7 @@
 ||pushmejs.com^$important
 ||pushnative.com^$important
 ||pushnews.ru^$important
+||pushno.com^$important
 ||pushofferpro.com^$important
 ||pushsar.com^$important
 ||puwzwbdopaeq.bid^$important
@@ -7624,6 +7636,7 @@
 ||rhzpcnueogbexb.com^$important
 ||riaetcuycxjz.com^$important
 ||riaxuuidsnws.bid^$important
+||rich-birds.com^$important
 ||richplayland.com^$important
 ||rieyjzuyhigobg.bid^$important
 ||rifwhwdsqvgw.com^$important
@@ -8214,6 +8227,7 @@
 ||svdmxetbyfyg.com^$important
 ||svdsutdq.com^$important
 ||svfqoztfopv.com^$important
+||svip-center.com^$important
 ||svjloaomrher.com^$important
 ||svmtvfuok.com^$important
 ||svnhdfqvhjzn.com^$important
@@ -8436,6 +8450,7 @@
 ||tiosmqhuuzb.bid^$important
 ||tiouqzubepuy.com^$important
 ||tiphkuloov.com^$important
+||tiptoptrack60.live^$important
 ||tiptwfbksobui.com^$important
 ||tiqcdn.com^$important
 ||tirbxuopf.com^$important
@@ -8903,6 +8918,7 @@
 ||umvgcqaxmie.com^$important
 ||umwsjnsvfzuo.com^$important
 ||umzrccpfbnuu.com^$important
+||unasgi.club^$important
 ||uncumlzowtkn.com^$important
 ||under2given.com^$important
 ||undoxiraqm.com^$important
@@ -9255,6 +9271,7 @@
 ||vicofhozbuaf.com^$important
 ||vidcpm.com^$important
 ||videolol007.com^$important
+||vidmoly.me/js/vastAD.js$important,script
 ||vidora.com^$important
 ||viglink.com^$important
 ||vigrjuksi.bid^$important
@@ -10086,6 +10103,7 @@
 ||xmsgobwy.com^$important
 ||xmwqbnrbvghq.bid^$important
 ||xmylgmmt.com^$important
+||xn--80abmrinidrghe0b8e.xn--p1ai^$important
 ||xndskrtxkiv.com^$important
 ||xnfwhndl.com^$important
 ||xnlxpsbs.com^$important
@@ -10568,6 +10586,7 @@
 ||yvlhxqxw.com^$important
 ||yvlmcehqt.com^$important
 ||yvlrhnzid.com^$important
+||yvmads.com^$important
 ||yvmosixxo.com^$important
 ||yvmzmyol.bid^$important
 ||yvqdhpyaoike.bid^$important
@@ -10682,6 +10701,7 @@
 ||zcczvunkmmcg.com^$important
 ||zcfbwlgydxo.com^$important
 ||zcinaovb.com^$important
+||zcjvqfbl1toyemvm.pro^$important
 ||zcjxeitlmnuq.com^$important
 ||zclivukslm.bid^$important
 ||zclxwzegqslr.com^$important
