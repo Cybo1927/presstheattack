@@ -6,10 +6,11 @@
 ||api.twitch.tv/*/channels/*/extensions^$xmlhttprequest
 ||hqq.tv/cdn-cgi/trace$xmlhttprequest,important
 ||ok.ru/dk?cmd=videostatnew$xmlhttprequest,important
+||pipe.aria.microsoft.com/collector/$xmlhttprequest,important
+||prettyfast.to/log/$xmlhttprequest,important
 ||streamango.com/log$xmlhttprequest,important
 ||twitter.com/*/recommendations^$xmlhttprequest
 ||twitter.com/*/toast_poll^$important,xmlhttprequest
 ||twitter.com/i/jot^$important,xmlhttprequest
 ||youtube.com/get_midroll_info^$important,xmlhttprequest
 ||youtube.com/get_video_info?*el=adunit$important,xmlhttprequest
-||pipe.aria.microsoft.com/collector/$xmlhttprequest,important
