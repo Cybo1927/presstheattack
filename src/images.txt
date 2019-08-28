@@ -19,11 +19,11 @@
 |http*:*/ads/*.gif$image,important
 |http*:*/adsct?$image,important
 |http*:*/atrk.gif$image,important
-|http*:*/blank.gif$important,image,domain=~vk.com
+|http*:*/blank.gif$image,important,domain=~vk.com
 |http*:*/blank.png$image,important,domain=~spankbang.com
 |http*:*/cc.gif$image,important
 |http*:*/clear.png$image,important
-|http*:*/click.gif$important,image
+|http*:*/click.gif$image,important
 |http*:*/counter_img.php$image,important
 |http*:*/empty.png$image,important
 |http*:*/event.gif$image,important
@@ -39,7 +39,7 @@
 |http*:*/imp.gif$image,important
 |http*:*/lumbar.gif$image,important
 |http*:*/lumbar.png$image,important
-|http*:*/ob.gif$important,image
+|http*:*/ob.gif$image,important
 |http*:*/ottocustom.gif$image,important
 |http*:*/ottoperformance.gif$image,important
 |http*:*/page_view.gif$image,important
@@ -84,5 +84,5 @@
 ||scontent.xx.fbcdn.net/hads-ak-prn*/*.png$image,important
 ||vk.com/rtrg^$image,important
 ||web.telegram.org/*/PhotoThumbConversation.gif$image,important,domain=telegram.org
-||yastatic.net/*.gif$image,important,domain=~mail.yandex.ru|~mail.yandex.ua|~mail.yandex.by
+||yastatic.net/*.gif$image,important,domain=~mail.yandex.by|~mail.yandex.ru|~mail.yandex.ua
 ||youtube.com/ptracking^$image,important
