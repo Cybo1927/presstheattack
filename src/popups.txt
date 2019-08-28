@@ -1,8 +1,8 @@
 /(\W|\_)a(d[vs]e?|nnounceme|ds?)[rn][tev](s|ing|covers?|server?|isements?|ising|e(rs?)?|ements|ur)?/$important,popup
 /^https?:\/\/([A-Za-z0-9]{3,}\.)?(([0-9]{1,2})?l\-hit|([0-9]{1,2})?l\-view|r([0-9]{1,2})?|rs|staging|(vk|stepan\-fe)\.go|reklama|ads?|recostream\.go|([^\s]{10,}\.)?top([0-9]{1}|\-(fwz([0-9]{1,2})?))?|mediator|[^\s]{3,}\.radar|g?stat|xray|t|fmdata)\.(imgs)?mail\.ru/$important,popup
-/^https?:\/\/(bitly|bit)\.(com|ly)/$popup,important
-/^https?:\/\/[^\s]+\.[A-Za-z]{2,6}\/[^\s]{5,}\.js\?[A-Za-z]{1}\=[^\s]{50,}/$popup,important
-/^https?:\/\/[a-z0-9]{5,15}\.(click|com|bid|net|online|top|club)\/[0-9a-z]{8,12}\?key\=[0-9a-f]{32}$/$third-party,popup,important
+/^https?:\/\/(bitly|bit)\.(com|ly)/$important,popup
+/^https?:\/\/[^\s]+\.[A-Za-z]{2,6}\/[^\s]{5,}\.js\?[A-Za-z]{1}\=[^\s]{50,}/$important,popup
+/^https?:\/\/[a-z0-9]{5,15}\.(click|com|bid|net|online|top|club)\/[0-9a-z]{8,12}\?key\=[0-9a-f]{32}$/$important,popup,third-party
 /^https?:\/\/ad[svx]?([0-9]{1,2})?\./$important,popup
 |http*:*/?ip=*&zoneid=$important,popup
 |http*:*/adclck.*^$important,popup
@@ -10,10 +10,10 @@
 |http*:*/pops.js$important,popup
 |http*:*?*&lp=*id=$popup
 |http*:*?lp=*id=$popup
-||bit.ly^$popup,important
+||bit.ly^$important,popup
 ||crptgate.com^$important,popup
 ||doubleclick.*^$important,popup
-||doublepimp.com^$popup,important
-||doublepimpssl.com^$popup,important
-||slotsvictory.net^$popup,important
+||doublepimp.com^$important,popup
+||doublepimpssl.com^$important,popup
+||slotsvictory.net^$important,popup
 ||yastatic.net^$important,popup
