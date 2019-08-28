@@ -53,7 +53,6 @@
 ||2daytrendingnews.com^$important
 ||2e91ddf5f5cc6dbfef88.date^$important
 ||2go7v1nes8.com^$important
-||2go7v1nes8.com^$important
 ||2mdn.net^$important
 ||2road.xyz^$important
 ||2xclick.ru^$important
@@ -69,12 +68,11 @@
 ||4ukqzi8d7l.com^$important
 ||5edeb195868e2195.com^$important
 ||5nt1gx7o57.com^$important
-||06f24f3d0b.com^$important
 ||6eez7ouig7gwguf6.pro^$important
 ||6ped2nd3yp.com^$important
+||06f24f3d0b.com^$important
 ||6zw2rcfd.com^$important
 ||7a8eaa91f1.com^$important
-||7fkm2r4pzi.com^$important
 ||7fkm2r4pzi.com^$important
 ||7hor9gul4s.com^$important
 ||7hu8e1u001.com^$important
@@ -206,7 +204,6 @@
 ||admantx.com^$important
 ||admatic.com.tr^$important
 ||admetrica.ru^$important
-||admetrica.ru^$important
 ||admitad.com^$important
 ||admixer.net^$important
 ||admlqqewbede.com^$important
@@ -243,7 +240,6 @@
 ||adsrvr.org^$important
 ||adstarsmedia.co.id^$important
 ||adswizz.com^$important
-||adswrapme.click^$important
 ||adswrapme.click^$important
 ||adsymptotic.com^$important
 ||adtechus.com^$important
@@ -1289,8 +1285,8 @@
 ||com-shield.live^$important
 ||comnop.icu^$important
 ||connatix.com^$important
-||connect.facebook.net^$third-party,important
-||connect.ok.ru^$third-party,important
+||connect.facebook.net^$important,third-party
+||connect.ok.ru^$important,third-party
 ||connectad.io^$important
 ||content-ad.net^$important
 ||contentsfeed.com^$important
@@ -1303,7 +1299,6 @@
 ||covjoecuzyss.com^$important
 ||cowmslkltc.com^$important
 ||coxgtwdios.bid^$important
-||coyalecap.club^$important
 ||coyalecap.club^$important
 ||coyhvotxgrnq.com^$important
 ||cozclrlpsk.com^$important
@@ -2708,7 +2703,7 @@
 ||gahhlbxdgw.com^$important
 ||game168.com.tw^$important
 ||gamekeys.gq^$important
-||gamescarousel.com^$third-party,important
+||gamescarousel.com^$important,third-party
 ||gaqhseuqp.com^$important
 ||gaxafjlxgoqfj.bid^$important
 ||gaxmdcfkxygs.com^$important
@@ -2971,7 +2966,6 @@
 ||gqwprjzwlfspw.com^$important
 ||grand002.com^$important
 ||grand-casino55.com^$important
-||grand-casino.com^$important
 ||grand-casino.com^$important
 ||grapeshot.co.uk^$important
 ||graph.facebook.com^$important
@@ -3759,8 +3753,8 @@
 ||ipesdpqmq.com^$important
 ||ipfcvsxisyz.com^$important
 ||iphwttyqzuhucw.bid^$important
-||ipify.org^$third-party,important
-||ipinfo.io^$third-party,important
+||ipify.org^$important,third-party
+||ipinfo.io^$important,third-party
 ||ipllxfcftp.com^$important
 ||ipluhckk.com^$important
 ||ipncblpgxlhjpc.com^$important
@@ -7734,7 +7728,7 @@
 ||ssvolkkihcyp.com^$important
 ||ssyhlymwyzou.com^$important
 ||ssyyeufsqbra.bid^$important
-||statcounter.com^$third-party,important
+||statcounter.com^$important,third-party
 ||statsforads.com^$important
 ||steadfastsystem.com^$important
 ||stekcwrdwohbch.com^$important
@@ -7994,7 +7988,7 @@
 ||timonnbfad.bid^$important
 ||tingecatalogue.club^$important
 ||tinlgcmkslwio.bid^$important
-||tinypass.com^$third-party,important
+||tinypass.com^$important,third-party
 ||tiosmqhuuzb.bid^$important
 ||tiouqzubepuy.com^$important
 ||tiphkuloov.com^$important
@@ -9802,7 +9796,6 @@
 ||xynutvdh.com^$important
 ||xyrjlbxkxojoi.bid^$important
 ||xyvjknwxwtf.bid^$important
-||xyz0k4gfs.xyz^$important
 ||xyz0k4gfs.xyz^$important
 ||xzcdzfkwk.com^$important
 ||xzfhewclnun.com^$important
