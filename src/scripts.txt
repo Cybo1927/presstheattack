@@ -7,7 +7,6 @@
 /^https?:\/\/[^\s]+(\W|\_)g(tag|oogleads?|oogleanal(ytics?|yzer?)([0-9]{1})?|pt((\W|\_)mobile)?|tm|a((\W|\_)lite)?|a((\W|\_)setup)?|oogle(\W|\_)track(ers?|ing)?|oogletag|ads?|tagmanager((\W|\_)backend|track(ers?|ing)?event)?|oogle(\W|\_)stats?)\./$important,script
 /^https?:\/\/[^\s]+(\W|\_)me([0-9]{1})?w\.js/$important,script
 /^https?:\/\/[^\s]+(\W|\_)metric[sa]?(.*)?\.js/$important,script
-/^https?:\/\/[^\s]+\/punder\/(script|license|custom)\./$important,script
 /^https?:\/\/[^\s]+(\W|\_)prebid([0-9]{1,2})?(\W|\_)/$important,script
 /^https?:\/\/[^\s]+(\W|\_)pubfig(\.min)?\.js/$important,script
 /^https?:\/\/[^\s]+/amp\-ads?(\-[-0-9.]{2,3})?\.js/$important,script
@@ -19,6 +18,7 @@
 /^https?:\/\/[^\s]+\/([^\s]{4})?tag\.min\.([a-z0-9]{30,}\.)?js/$important,script
 /^https?:\/\/[^\s]+\/fp([0-9]{1,2})?\.js/$important,script
 /^https?:\/\/[^\s]+\/piwik((\W|\_)[_0-9-.]{5,})?\.js/$important,script
+/^https?:\/\/[^\s]+\/punder\/(script|license|custom)\./$important,script
 /^https?:\/\/[^\s]+\/s([0-9]{1,2})?\.js/$important,script
 /^https?:\/\/[^\s]+\/sw(\-(vodlocker|service))?\.js/$script,important
 /^https?:\/\/[a-z0-9]+\.info\/+[-a-z0-9_?&=]{9,}/$third-party,script,important
@@ -27,9 +27,7 @@
 |http*:*-coin-hive.js$important,script
 |http*:*-tracker.js$important,script
 |http*:*-tracking.js$important,script
-|http*:*/serviceWorker.js$important,script
 |http*:*.coin-hive.js$important,script
-||cdn.*/static/js/amvn.js$important,script
 |http*:*/*coinhive*.js$important,script
 |http*:*/*monero-miner.js$important,script
 |http*:*/?dm=*&blogid=$important,script,domain=~wordpress.org
@@ -141,6 +139,7 @@
 |http*:*/ruxitagentjs_$important,script
 |http*:*/s_code.js$important,script
 |http*:*/safelinkconverter.js$important,script
+|http*:*/serviceWorker.js$important,script
 |http*:*/setcookie.php$important,script
 |http*:*/show_ads_smartclick.js$important,script
 |http*:*/smarttag.js$important,script
@@ -189,3 +188,5 @@
 |http*:*_coin-hive.js$important,script
 |http*:*_tracker.js$important,script
 |http*:*_tracking.js$important,script
+||cdn.*/static/js/amvn.js$important,script
+||vidmoly.me/js/vastAD.js$important,script
