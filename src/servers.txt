@@ -48,9 +48,11 @@
 ||1xxwc.world^$important
 ||1xyjw.world^$important
 ||1xymm.world^$important
+||2a12be6140880286.com^$important
 ||2d7bd9e6eb370143.com^$important
 ||2d7e1ea7b8500684a.com^$important
 ||2daytrendingnews.com^$important
+||2e27bf1f09307aeb.com^$important
 ||2e91ddf5f5cc6dbfef88.date^$important
 ||2go7v1nes8.com^$important
 ||2mdn.net^$important
@@ -59,6 +61,7 @@
 ||3-559.blog.jp^$important
 ||3b9eb5ed04721bef.com^$important
 ||3ba87e4828c5a95.com^$important
+||3c06b86c4147745b.com^$important
 ||3da86d9fe797f228.com^$important
 ||3lift.com^$important
 ||4d2911e5a4e352.com^$important
@@ -66,6 +69,7 @@
 ||4ef6b73abc9123.com^$important
 ||4fba771f87a0251.com^$important
 ||4ukqzi8d7l.com^$important
+||4xxxvideostube.com^$important
 ||5edeb195868e2195.com^$important
 ||5nt1gx7o57.com^$important
 ||6eez7ouig7gwguf6.pro^$important
@@ -79,6 +83,7 @@
 ||7wtic7ru.com^$important
 ||8bef5bb6b351ca5e.com^$important
 ||8cb0309458c7b35e.com^$important
+||12dc71b7cb820f2a.com^$important
 ||13d8ba78e080.com^$important
 ||14e6e1ee3d7236d41431.date^$important
 ||21b666055c.com^$important
@@ -101,6 +106,7 @@
 ||369bd3a861d8c27.com^$important
 ||379bd258b1.com^$important
 ||398c874c5e7b36.com^$important
+||442d9f2ac50ca502.com^$important
 ||550b3ikb9j.com^$important
 ||555dfbd5425347beab45.date^$important
 ||564d28256cddaeba.com^$important
@@ -108,11 +114,14 @@
 ||576digital.hu^$important
 ||619de07af53f8.com^$important
 ||713b037362f02.com^$important
+||729dcbaa57e80c1e.com^$important
 ||896a8dfd194005e2adea.date^$important
 ||944e66f8683ac43c.com^$important
+||990b424f659e4e27.com^$important
 ||1063bac0d855f4e67bd4.date^$important
 ||4736.in^$important
 ||5483bbc5758.com^$important
+||6066bd8aab9d73e3.com^$important
 ||6631f33cf2a1032b.com^$important
 ||6868bbe42af8e518.com^$important
 ||7667bab1751ff777.com^$important
@@ -1118,6 +1127,7 @@
 ||cdyygbzihdh.com^$important
 ||cdzifdzftkmfof.com^$important
 ||cea9d3d4f74fb831.com^$important
+||cef5b491241aa0f3.com^$important
 ||ceidxneoogpuh.com^$important
 ||cekptlucf.com^$important
 ||cesxssavc.com^$important
@@ -2911,6 +2921,7 @@
 ||goiqwteaxvgc.com^$important
 ||gojotpbkyqou.bid^$important
 ||gold-eggs.com^$important
+||golden-tea.com^$important
 ||golden-tea.com^$important
 ||golkkzpniri.com^$important
 ||gonuuudpdcu.com^$important
@@ -5103,6 +5114,7 @@
 ||lzvnaaozpqyb.com^$important
 ||m-pathy.com^$important
 ||maboflgkaxqn.com^$important
+||mackeeper.com^$important
 ||mafndqbvdgkm.com^$important
 ||magwfymjhils.com^$important
 ||maidlytsnrn.com^$important
@@ -5184,6 +5196,7 @@
 ||mercadoclics.com^$important
 ||mercusuar.uzone.id^$important
 ||mesiniklan.andipublisher.com^$important
+||metagmae.org^$important
 ||metagmae.org^$important
 ||meucixmdhuqq.bid^$important
 ||meuxestvodec.bid^$important
@@ -8847,6 +8860,7 @@
 ||vjmoisjmh.bid^$important
 ||vjoytzia.com^$important
 ||vjqshoyjxwk.com^$important
+||vjqshoyjxwk.com^$important
 ||vjrpdagpjwyt.com^$important
 ||vjvoahcty.bid^$important
 ||vjwjjytlbqhvmb.bid^$important
@@ -9522,6 +9536,7 @@
 ||xcxetqrzckvy.com^$important
 ||xcyptaqhl.com^$important
 ||xdcdlfejo.com^$important
+||xddqdioms.com^$important
 ||xddqdioms.com^$important
 ||xddydaddexkjxs.com^$important
 ||xdiyxgwojtbxft.bid^$important
