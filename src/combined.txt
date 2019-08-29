@@ -60,5 +60,4 @@
 |http*:*_siteid=$important,script,xmlhttprequest
 ||facebook.com/xti.php^$important,script,xmlhttprequest
 ||facebookcorewwwi.onion/xti.php^$important,script,xmlhttprequest
-||fls-*.amazon.*^$important,other,script,xmlhttprequest
 ||youtube.com/api/stats/$image,important,other,xmlhttprequest

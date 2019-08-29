@@ -2447,7 +2447,7 @@
 ||flnqkhnqjcmvp.com^$important
 ||flntdbwafec.com^$important
 ||flooaiaubf.bid^$important
-||fls-*.amazon.*%$important
+||fls-*.amazon.*^$important
 ||fls-fe.amazon.co.jp^$important
 ||fluunrkjjhv.com^$important
 ||flvuylhsyg.com^$important
