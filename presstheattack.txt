@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-08-29 10:24:58
-! Version: 20190829102458
+! Last modified: 2019-08-29 23:01:48
+! Version: 20190829230148
 ! Expires: 3 hours
-! Number of filters: 10976
+! Number of filters: 10993
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -193,6 +193,7 @@
 |http*:*/clear.png$image,important
 |http*:*/click.gif$image,important
 |http*:*/click.js$important,script
+|http*:*/clk.php?$important,script,xmlhttprequest
 |http*:*/cloudcoins.$important,script
 |http*:*/cmin.js$important,script
 |http*:*/cn-asmjs.min.js$important,script
@@ -920,6 +921,7 @@
 ||arawegnvvufy.com^$important
 ||arcfwcxi.com^$important
 ||arcicalonetal.pro^$important
+||arda0hylt58g4wg0.pro^$important
 ||areary.com^$important
 ||arfttojxv.com^$important
 ||argetz.fun^$important
@@ -1055,6 +1057,7 @@
 ||b60228e270e363f6.com^$important
 ||b93e1f595c9b.com^$important
 ||badgmvhtvryg.bid^$important
+||badsamps.com^$important
 ||badsbads.com^$important
 ||badskies.com^$important
 ||badslads.com^$important
@@ -1921,6 +1924,7 @@
 ||dapvmnnttetuu.bid^$important
 ||daqdksam.bid^$important
 ||datingandchats.pro^$important
+||daurifek.net^$important
 ||davthnojr.com^$important
 ||daxnfpzmnfdr.com^$important
 ||daxzupqivdoj.com^$important
@@ -1965,6 +1969,7 @@
 ||ddhnjkaojrcv.bid^$important
 ||ddjodgzhxyjtaa.bid^$important
 ||ddmlzfwsb.com^$important
+||dealmemanager.online^$important
 ||debuackedhkvu.bid^$important
 ||deebwmbbytr.com^$important
 ||degitlwfezpe.com^$important
@@ -3422,6 +3427,7 @@
 ||grlehzdbzmstb.com^$important
 ||grlygpybnhbwcu.com^$important
 ||grnrmwxf.com^$important
+||gromairt.net^$important
 ||grppxsxgcdcu.bid^$important
 ||grrduoonwjpy.com^$important
 ||grsdvgnr.com^$important
@@ -3466,6 +3472,7 @@
 ||guhpyglt.com^$important
 ||guhtjoqtobac.com^$important
 ||gujyvlvoewweg.bid^$important
+||guknpywmxk.com^$important
 ||gulvkhfah.bid^$important
 ||gumdeqjzclc.com^$important
 ||gumgum.com^$important
@@ -3607,6 +3614,7 @@
 ||hdmxceunntsy.bid^$important
 ||hdnvtfyvyhq.com^$important
 ||hdoabbjyyebca.com^$important
+||hdslnhmjga.com^$important
 ||hduefoyd.com^$important
 ||hdweefzvb.bid^$important
 ||hdwjwooqvnm.com^$important
@@ -5996,6 +6004,7 @@
 ||ncspvnslmmbv.com^$important
 ||ncsyyeabk.com^$important
 ||ncwjhywskph.com^$important
+||nczlhwsguwc.com^$important
 ||ndemlviibdyc.com^$important
 ||ndgmwuxzxppa.com^$important
 ||ndilzwjgblea.com^$important
@@ -6026,6 +6035,7 @@
 ||net-ce49.stream^$important
 ||networkad.net^$important
 ||newgadgetpresents.icu^$important
+||newmonads.com^$important
 ||newnyqfgkkjht.com^$important
 ||newrelic.com^$important
 ||newthuads.com^$important
@@ -6780,6 +6790,7 @@
 ||phiubpdrh.com^$important
 ||phlslvetboouo.bid^$important
 ||phncdn.com/iframe$important,subdocument
+||phonenewmessage.com^$important
 ||phqqzdemby.bid^$important
 ||phragnmpo.com^$important
 ||phskaieua.com^$important
@@ -7013,6 +7024,7 @@
 ||pushbasic.com^$important
 ||pushdusk.com^$important
 ||pushimer.com^$important
+||pushlinck.com^$important
 ||pushmejs.com^$important
 ||pushnative.com^$important
 ||pushnews.ru^$important
@@ -9032,6 +9044,7 @@
 ||uuwoktwdmo.bid^$important
 ||uuzjerqlmxnosw.com^$important
 ||uvakjjlbjrmx.com^$important
+||uvawalhexufy.com^$important
 ||uvcvhcbvy.bid^$important
 ||uvffdmlqwmha.com^$important
 ||uvjvnbitjmvzgk.com^$important
@@ -9456,6 +9469,7 @@
 ||vuysooqimdbt.com^$important
 ||vvcnnvcruobhr.bid^$important
 ||vvgttgprssiy.com^$important
+||vvhatsappsohbetim.site^$important
 ||vvjlrhuzmhzlws.com^$important
 ||vvkvlqubnge.com^$important
 ||vvnfgohclkf.bid^$important
@@ -10573,6 +10587,7 @@
 ||yurttitxfyfh.com^$important
 ||yuywwcizs.com^$important
 ||yvbrgzeu.com^$important
+||yvdkwgrfatt.com^$important
 ||yvfsfoctkls.com^$important
 ||yvisvreih.com^$important
 ||yvjdvcgomph.bid^$important
@@ -10713,6 +10728,7 @@
 ||zdydvjzexmp.com^$important
 ||zdyfbhfmdtpm.com^$important
 ||zeantqrix.bid^$important
+||zedo.com^$important
 ||zehwjplnopevjt.bid^$important
 ||zenpmagn.bid^$important
 ||zeokfeyraxls.com^$important
@@ -10875,6 +10891,7 @@
 ||zqskkhcxd.bid^$important
 ||zqswmyzlkcvrtu.com^$important
 ||zqtk.net^$important
+||zqxmeahcm.com^$important
 ||zramisxvxmkf.com^$important
 ||zrbhmhzzdj.com^$important
 ||zrbhyvkpgeyn.com^$important
