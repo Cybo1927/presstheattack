@@ -189,4 +189,5 @@
 |http*:*_tracker.js$important,script
 |http*:*_tracking.js$important,script
 ||cdn.*/static/js/amvn.js$important,script
+||richinfo.co/js/rp_notify_http.js$important,script
 ||vidmoly.me/js/vastAD.js$important,script

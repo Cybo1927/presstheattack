@@ -72,9 +72,9 @@
 ||4xxxvideostube.com^$important
 ||5edeb195868e2195.com^$important
 ||5nt1gx7o57.com^$important
+||06f24f3d0b.com^$important
 ||6eez7ouig7gwguf6.pro^$important
 ||6ped2nd3yp.com^$important
-||06f24f3d0b.com^$important
 ||6zw2rcfd.com^$important
 ||7a8eaa91f1.com^$important
 ||7fkm2r4pzi.com^$important
@@ -226,6 +226,7 @@
 ||adovr.com^$important
 ||adpartner.*^$important
 ||adpaths.com^$important
+||adpenguin.biz^$important
 ||adplus.co.id^$important
 ||adpop-1.com^$important
 ||adqy6rzwcs.com^$important
@@ -258,6 +259,7 @@
 ||adtm.chip.de^$important
 ||adtng.com^$important
 ||adtrack.adleadevent.com^$important
+||adturtle.biz^$important
 ||adudzlhdjgof.com^$important
 ||aduobooydxr.com^$important
 ||adverline.com^$important
@@ -641,6 +643,7 @@
 ||badsamps.com^$important
 ||badsbads.com^$important
 ||badskies.com^$important
+||badskis.com^$important
 ||badslads.com^$important
 ||badspads.com^$important
 ||bagoojzsqygg.com^$important
@@ -900,6 +903,7 @@
 ||bonxsqstn.com^$important
 ||boperc.com^$important
 ||boqdapoiv.com^$important
+||born2bahick.com^$important
 ||bounceexchange.com^$important
 ||bowqoedgldc.com^$important
 ||bowqvvztlkzn.com^$important
@@ -1302,6 +1306,7 @@
 ||connectad.io^$important
 ||content-ad.net^$important
 ||contentsfeed.com^$important
+||contestandgiveaways.xyz^$important
 ||conviva.com^$important
 ||cookie-script.com^$important
 ||cookielaw.org^$third-party
@@ -1360,6 +1365,7 @@
 ||crnxueioe.bid^$important
 ||croxdfrdjfnt.com^$important
 ||crpiucewddag.com^$important
+||crptgate.com^$important
 ||crqnosmxstdfnp.bid^$important
 ||crrgnnqidpf.com^$important
 ||crtntrvjuun.bid^$important
@@ -2190,6 +2196,7 @@
 ||eueukpcxjtxt.bid^$important
 ||eugxcnqw.com^$important
 ||euhewiruckv.com^$important
+||euktoywjpdxpdh.com^$important
 ||eunysqxppf.bid^$important
 ||eupwogkcjczz.com^$important
 ||eurifsiooyof.bid^$important
@@ -2553,6 +2560,7 @@
 ||frezshmura.bid^$important
 ||frfgfhzxtfvsp.com^$important
 ||friendlybcs.pro^$important
+||friendlyduck.com^$important
 ||frkohfqkpwvvq.com^$important
 ||frlzxwxictmg.com^$important
 ||frmavvtkhi.bid^$important
@@ -4369,6 +4377,7 @@
 ||kdvcvkwwtbwn.com^$important
 ||kdwygzatplqrao.bid^$important
 ||kdyfsgpa.com^$important
+||keapeiros.xyz^$important
 ||kecldktirqzk.com^$important
 ||keeedoleeroe.com^$important
 ||keellcvwpzgj.com^$important
@@ -4707,6 +4716,7 @@
 ||labdwkqyavb.com^$important
 ||lacrxqvydzlan.bid^$important
 ||ladhyjqqgerr.com^$important
+||ladsbrown.com^$important
 ||lafvopkskbeuj.bid^$important
 ||lajpmujdntg.com^$important
 ||lamwiadakwa.com^$important
@@ -4825,6 +4835,7 @@
 ||linetotime2.agency^$important
 ||liqbipkfbafq.com^$important
 ||liqwid.net^$important
+||littitte.online^$important
 ||liuduuct.com^$important
 ||liulwxrybupyzu.com^$important
 ||liuztvaem.bid^$important
@@ -5217,6 +5228,7 @@
 ||mfvirwqgmck.bid^$important
 ||mfxjgymma.com^$important
 ||mfxxpyhzofbsg.com^$important
+||mfxzxrveb.com^$important
 ||mgid.com^$important
 ||mgjoqdmjofl.bid^$important
 ||mgojnezwuuxyv.com^$important
@@ -6149,6 +6161,7 @@
 ||osfipdgo.bid^$important
 ||osfxxqoy.com^$important
 ||osny2p7a0k.com^$important
+||osskanger.com^$important
 ||osunrrhwhf.com^$important
 ||oszelwsbb.bid^$important
 ||otarrxci.bid^$important
@@ -6304,6 +6317,7 @@
 ||pdwyzrmrnddley.com^$important
 ||pdxvgkivkc.bid^$important
 ||pdypjcgng.bid^$important
+||pebed.dm-event.net^$important
 ||pedbkepupj.bid^$important
 ||peevopoy.com^$important
 ||peewuranpdwo.com^$important
@@ -7793,6 +7807,7 @@
 ||svdmxetbyfyg.com^$important
 ||svdsutdq.com^$important
 ||svfqoztfopv.com^$important
+||svip-center.com^$important
 ||svip-center.com^$important
 ||svjloaomrher.com^$important
 ||svmtvfuok.com^$important
@@ -10485,6 +10500,7 @@
 ||zuiiyzgiof.com^$important
 ||zukbmxbrv.com^$important
 ||zukipoayrlh.com^$important
+||zukxd6fkxqn.com^$important
 ||zunjxpwiztqgt.bid^$important
 ||zutnlpnzxtt.com^$important
 ||zuuwfrphdgxk.com^$important
