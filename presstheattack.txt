@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-08-30 01:34:27
-! Version: 20190830013427
+! Last modified: 2019-09-02 09:03:51
+! Version: 20190902090352
 ! Expires: 3 hours
-! Number of filters: 11007
+! Number of filters: 11024
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -653,6 +653,7 @@
 ||adovr.com^$important
 ||adpartner.*^$important
 ||adpaths.com^$important
+||adpenguin.biz^$important
 ||adplus.co.id^$important
 ||adpop-1.com^$important
 ||adqy6rzwcs.com^$important
@@ -685,6 +686,7 @@
 ||adtm.chip.de^$important
 ||adtng.com^$important
 ||adtrack.adleadevent.com^$important
+||adturtle.biz^$important
 ||adudzlhdjgof.com^$important
 ||aduobooydxr.com^$important
 ||adverline.com^$important
@@ -1069,6 +1071,7 @@
 ||badsamps.com^$important
 ||badsbads.com^$important
 ||badskies.com^$important
+||badskis.com^$important
 ||badslads.com^$important
 ||badspads.com^$important
 ||bagoojzsqygg.com^$important
@@ -1329,6 +1332,7 @@
 ||bonxsqstn.com^$important
 ||boperc.com^$important
 ||boqdapoiv.com^$important
+||born2bahick.com^$important
 ||bounceexchange.com^$important
 ||bowqoedgldc.com^$important
 ||bowqvvztlkzn.com^$important
@@ -1732,6 +1736,7 @@
 ||connectad.io^$important
 ||content-ad.net^$important
 ||contentsfeed.com^$important
+||contestandgiveaways.xyz^$important
 ||conviva.com^$important
 ||cookie-script.com^$important
 ||cookielaw.org^$third-party
@@ -1790,6 +1795,7 @@
 ||crnxueioe.bid^$important
 ||croxdfrdjfnt.com^$important
 ||crpiucewddag.com^$important
+||crptgate.com^$important
 ||crptgate.com^$important,popup
 ||crqnosmxstdfnp.bid^$important
 ||crrgnnqidpf.com^$important
@@ -2624,6 +2630,7 @@
 ||eueukpcxjtxt.bid^$important
 ||eugxcnqw.com^$important
 ||euhewiruckv.com^$important
+||euktoywjpdxpdh.com^$important
 ||eunysqxppf.bid^$important
 ||eupwogkcjczz.com^$important
 ||eurifsiooyof.bid^$important
@@ -2989,6 +2996,7 @@
 ||frezshmura.bid^$important
 ||frfgfhzxtfvsp.com^$important
 ||friendlybcs.pro^$important
+||friendlyduck.com^$important
 ||frkohfqkpwvvq.com^$important
 ||frlzxwxictmg.com^$important
 ||frmavvtkhi.bid^$important
@@ -4811,6 +4819,7 @@
 ||kdvcvkwwtbwn.com^$important
 ||kdwygzatplqrao.bid^$important
 ||kdyfsgpa.com^$important
+||keapeiros.xyz^$important
 ||kecldktirqzk.com^$important
 ||keeedoleeroe.com^$important
 ||keellcvwpzgj.com^$important
@@ -5149,6 +5158,7 @@
 ||labdwkqyavb.com^$important
 ||lacrxqvydzlan.bid^$important
 ||ladhyjqqgerr.com^$important
+||ladsbrown.com^$important
 ||lafvopkskbeuj.bid^$important
 ||lajpmujdntg.com^$important
 ||lamwiadakwa.com^$important
@@ -5267,6 +5277,7 @@
 ||linetotime2.agency^$important
 ||liqbipkfbafq.com^$important
 ||liqwid.net^$important
+||littitte.online^$important
 ||liuduuct.com^$important
 ||liulwxrybupyzu.com^$important
 ||liuztvaem.bid^$important
@@ -5660,6 +5671,7 @@
 ||mfvirwqgmck.bid^$important
 ||mfxjgymma.com^$important
 ||mfxxpyhzofbsg.com^$important
+||mfxzxrveb.com^$important
 ||mgid.com^$important
 ||mgjoqdmjofl.bid^$important
 ||mgojnezwuuxyv.com^$important
@@ -6593,6 +6605,7 @@
 ||osfipdgo.bid^$important
 ||osfxxqoy.com^$important
 ||osny2p7a0k.com^$important
+||osskanger.com^$important
 ||osunrrhwhf.com^$important
 ||oszelwsbb.bid^$important
 ||otarrxci.bid^$important
@@ -6748,6 +6761,7 @@
 ||pdwyzrmrnddley.com^$important
 ||pdxvgkivkc.bid^$important
 ||pdypjcgng.bid^$important
+||pebed.dm-event.net^$important
 ||pedbkepupj.bid^$important
 ||peevopoy.com^$important
 ||peewuranpdwo.com^$important
@@ -7655,6 +7669,7 @@
 ||riaetcuycxjz.com^$important
 ||riaxuuidsnws.bid^$important
 ||rich-birds.com^$important
+||richinfo.co/js/rp_notify_http.js$important,script
 ||richplayland.com^$important
 ||rieyjzuyhigobg.bid^$important
 ||rifwhwdsqvgw.com^$important
@@ -8245,6 +8260,7 @@
 ||svdmxetbyfyg.com^$important
 ||svdsutdq.com^$important
 ||svfqoztfopv.com^$important
+||svip-center.com^$important
 ||svip-center.com^$important
 ||svjloaomrher.com^$important
 ||svmtvfuok.com^$important
@@ -10950,6 +10966,7 @@
 ||zuiiyzgiof.com^$important
 ||zukbmxbrv.com^$important
 ||zukipoayrlh.com^$important
+||zukxd6fkxqn.com^$important
 ||zunjxpwiztqgt.bid^$important
 ||zutnlpnzxtt.com^$important
 ||zuuwfrphdgxk.com^$important
