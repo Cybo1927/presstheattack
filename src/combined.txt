@@ -15,9 +15,8 @@
 |http*:*&ad_*&idzone=$image,important,script,xmlhttprequest
 |http*:*&hasads=$important,script,xmlhttprequest
 |http*:*.js?dfp=$important,script,xmlhttprequest
-|http*:*/ADLog.ashx$image,important,xmlhttprequest
-|http*:*/GetAD.ashx$image,important,xmlhttprequest
 |http*:*/a/display.php^$important,script,subdocument,xmlhttprequest
+|http*:*/ADLog.ashx$image,important,xmlhttprequest
 |http*:*/aff_i?offer_id=$image,important,script,xmlhttprequest
 |http*:*/amp.gif$image,important,xmlhttprequest
 |http*:*/analytics-ping.js$important,script,xmlhttprequest
@@ -39,6 +38,7 @@
 |http*:*/g00/*/tu9srvbirvvtocrodhrwoi8vy3ataw4ubmfub3zpc29ylmlvl2nsawvudhbyb2zpbgvyl2fkyj9pmtbjlm1hcmsuc2nyaxb0lnr5cgu%3d_$other,script,~third-party,xmlhttprequest
 |http*:*/get_links_*&zone=$important,script,xmlhttprequest
 |http*:*/get_site_data?*&href=$important,popup,script,xmlhttprequest
+|http*:*/GetAD.ashx$image,important,xmlhttprequest
 |http*:*/greenoaks.gif$image,important,other
 |http*:*/imp?sid=$image,important,script,xmlhttprequest
 |http*:*/in.php?*&referer=$important,script,xmlhttprequest

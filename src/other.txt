@@ -34,10 +34,10 @@
 |http*:*/yieldmanager/$important
 |http*:*=advertising-core-$important
 |http*:*=js_stats&$important
-|http*:*?PartnerID=$important,third-party
 |http*:*?act=counter&$important
 |http*:*?partner=$important,third-party,domain=~microsoft.com
 |http*:*?partner_id=$third-party
+|http*:*?PartnerID=$important,third-party
 |http*:*?perfekt=wss://$important
 |http*:*?proxy=ws://$important
 |http*:*?proxy=wss://$important

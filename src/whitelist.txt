@@ -1,4 +1,4 @@
 @@*.com/recaptcha/$script
 @@||yandex.st/swfobject/*^$script
-@@||yastatic.net/*-player-iframe-api-*/$subdocument,xmlhttprequest,script
+@@||yastatic.net/*-player-iframe-api-*/$script,subdocument,xmlhttprequest
 @@||yastatic.net/video-player/$subdocument

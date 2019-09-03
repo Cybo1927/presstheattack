@@ -3,11 +3,11 @@
 |http*:*/1x1.gif$image,important
 |http*:*/1x1.png$image,important
 |http*:*/2x2.png$image,important
-|http*:*/3x2.gif$image,important
-|http*:*/3x2.png$image,important
+|http*:*/300x250_$image,important
 |http*:*/32x32.gif$image,important
 |http*:*/32x32.png$image,important
-|http*:*/300x250_$image,important
+|http*:*/3x2.gif$image,important
+|http*:*/3x2.png$image,important
 |http*:*/728x90_$image,important
 |http*:*/__ub.gif$image,important
 |http*:*/abppx-*.gif$image,important
@@ -80,8 +80,8 @@
 |http*:*^img^1x1$image,important,third-party
 |http*:*_fpn.gif$image,important
 ||mail.yandex.*/monitoring_liza.txt$image,important
-||scontent.xx.fbcdn23dssr3jqnq.onion/hads-ak-prn*/*.png$image,important
 ||scontent.xx.fbcdn.net/hads-ak-prn*/*.png$image,important
+||scontent.xx.fbcdn23dssr3jqnq.onion/hads-ak-prn*/*.png$image,important
 ||vk.com/rtrg^$image,important
 ||web.telegram.org/*/PhotoThumbConversation.gif$image,important,domain=telegram.org
 ||yastatic.net/*.gif$image,important,domain=~mail.yandex.by|~mail.yandex.ru|~mail.yandex.ua
