@@ -13,8 +13,6 @@ echo 'Updating the filter lists...'
 git pull
 git status
 git commit -a -m 'Update for filter lists'
-sleep .5
-
 echo 'In order to collect all the filters in one list, we need a temporary folders.'
 if [ ! -d $TEMP ]
 then
@@ -25,9 +23,6 @@ then
 else
 echo 'Directory already exists'  
 fi
-
-sleep .5
-
 cp $SRC/combined.txt $TEMP
 cp $SRC/frame.txt $TEMP
 cp $SRC/images.txt $TEMP
@@ -37,12 +32,10 @@ cp $SRC/scripts.txt $TEMP
 cp $SRC/servers.txt $TEMP
 cp $SRC/whitelist.txt $TEMP
 cp $SRC/xmlhttprequest.txt $TEMP
-sleep .5
-
+python FOP.py $TEMP
+cp $TEMP $SRC
 sort --output=$TEMP/filterlist.txt $TEMP/combined.txt $TEMP/frame.txt $TEMP/images.txt $TEMP/other.txt $TEMP/popups.txt $TEMP/scripts.txt $TEMP/servers.txt $TEMP/whitelist.txt $TEMP/xmlhttprequest.txt
-
 echo 'Creating a header for the list...'
-sleep .5
 LINES=$(grep -c '' $TEMP/filterlist.txt)
 cat > $TEMP/headers.txt <<EOF
 ! Title: Press the Attack
@@ -69,16 +62,11 @@ cat > $TEMP/headers.txt <<EOF
 ! Download uBlock Origin from GitHub - https://github.com/gorhill/uBlock/releases/
 
 EOF
-
 perl ./Sorting.pl $TEMP/filterlist.txt
 cat $TEMP/headers.txt $TEMP/filterlist.txt > ../presstheattack.txt
-
 echo 'Delete temporary files...'
-sleep .5
 rm -rf $TEMP
-sleep .1
 echo 'Deletion complete!'
-
 echo 'Do you want to send modified files to Git (y/N)?'
 select yn in "Yes" "No"; do
 	case $yn in
@@ -94,7 +82,5 @@ select yn in "Yes" "No"; do
 		;;
     esac
 done
-
-sleep .5
 echo 'Upload finished'
 read -n 1 -s -r -p 'Press any key to exit.'
