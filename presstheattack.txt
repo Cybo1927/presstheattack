@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-09-02 09:03:51
-! Version: 20190902090352
+! Last modified: 2019-09-03 16:48:07
+! Version: 20190903164807
 ! Expires: 3 hours
-! Number of filters: 11024
+! Number of filters: 11029
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -1756,6 +1756,7 @@
 ||cpdbkckekff.com^$important
 ||cpdoalzgwnwf.com^$important
 ||cpgiseaopbx.bid^$important
+||cpiyz.com^$important
 ||cpkbdmkguggh.com^$important
 ||cplefwvdqkwjev.bid^$important
 ||cpmjpcefbwqr.com^$important
@@ -2434,6 +2435,7 @@
 ||ehcawmdqgq.com^$important
 ||eheewlwlebwpd.com^$important
 ||ehfmhsqzxfrsz.bid^$important
+||ehgefgcollhd.com^$important
 ||ehhmynitx.com^$important
 ||ehkovmky.com^$important
 ||ehlfynuo.com^$important
@@ -3366,7 +3368,6 @@
 ||gojotpbkyqou.bid^$important
 ||gold-eggs.com^$important
 ||golden-tea.com^$important
-||golden-tea.com^$important
 ||golkkzpniri.com^$important
 ||gonuuudpdcu.com^$important
 ||goo.gl^document
@@ -3982,6 +3983,7 @@
 ||hzyxaqdr.bid^$important
 ||i-mobile.co.jp^$important
 ||i.imedia.cz^$important
+||i4rsrcj6.top^$important
 ||i9zqq3fj.top^$important
 ||iaatzkkqyv.com^$important
 ||iacexhglty.com^$important
@@ -4167,6 +4169,7 @@
 ||ilxwlsnzhzukj.com^$important
 ||imayjubge.com^$important
 ||imbpmlyhkk.com^$important
+||imeljiehhwy.com^$important
 ||imevdywafhro.com^$important
 ||imidshmpzr.com^$important
 ||imisagsrbci.com^$important
@@ -4596,6 +4599,7 @@
 ||jollqxplkz.bid^$important
 ||jomys.xyz^$important
 ||jomznuefrw.com^$important
+||joophesh.com^$important
 ||joqnoyniblzm.com^$important
 ||joqpatxugyug.com^$important
 ||jorndvyzchaq.com^$important
@@ -4929,6 +4933,7 @@
 ||klxteeltivy.com^$important
 ||klzvkrzluqnx.com^$important
 ||kmalnsqvyygwe.com^$important
+||kmbbqmrnso.com^$important
 ||kmcebwjulu.com^$important
 ||kmclwuukyffyjf.com^$important
 ||kmdqjdktf.bid^$important
@@ -5203,6 +5208,7 @@
 ||ldkyzudgbksh.com^$important
 ||ldlritslfej.bid^$important
 ||ldvmpopwd.com^$important
+||ldxdpitoeox.com^$important
 ||ldybupeeeoq.bid^$important
 ||ldyiuvdoahxz.com^$important
 ||learndex.ic38exam^$important
@@ -5651,7 +5657,6 @@
 ||mercusuar.uzone.id^$important
 ||mesiniklan.andipublisher.com^$important
 ||metagmae.org^$important
-||metagmae.org^$important
 ||meucixmdhuqq.bid^$important
 ||meuxestvodec.bid^$important
 ||mexedyfzdx.bid^$important
@@ -5974,6 +5979,7 @@
 ||myzsyljf.com^$important
 ||mzhcaexrrl.com^$important
 ||mzhyrgyo.bid^$important
+||mzjotkigwu.com^$important
 ||mzkhhjueazkn.com^$important
 ||mznijqwjkqadk.com^$important
 ||mzqxeqrmgzxv.com^$important
@@ -6932,7 +6938,6 @@
 ||popunders.bid^$important
 ||popzkvfimbox.com^$important
 ||poqqvnychl.com^$important
-||porno-island.games^$important
 ||postrelease.com^$important
 ||postrsyk.com^$important
 ||potmbbqbaqxwp.com^$important
@@ -8230,6 +8235,7 @@
 ||stoomeddert.info^$important
 ||storehouse.biz^$important
 ||streamango.com/log$important,xmlhttprequest
+||stremanp.com^$important
 ||strpjmp.com^$important
 ||stuthvygifup.com^$important
 ||stvayyokjvxnl.com^$important
@@ -8260,7 +8266,6 @@
 ||svdmxetbyfyg.com^$important
 ||svdsutdq.com^$important
 ||svfqoztfopv.com^$important
-||svip-center.com^$important
 ||svip-center.com^$important
 ||svjloaomrher.com^$important
 ||svmtvfuok.com^$important
@@ -9082,6 +9087,7 @@
 ||uvomthuqsqx.com^$important
 ||uvppdseel.com^$important
 ||uvstluoomeys.bid^$important
+||uvsxjyokgfz.com^$important
 ||uvxaafcozjgh.com^$important
 ||uvyascqbm.bid^$important
 ||uvyfszshvgassp.com^$important
@@ -9331,7 +9337,6 @@
 ||vjltrbzrtqmkib.com^$important
 ||vjmoisjmh.bid^$important
 ||vjoytzia.com^$important
-||vjqshoyjxwk.com^$important
 ||vjqshoyjxwk.com^$important
 ||vjrpdagpjwyt.com^$important
 ||vjvoahcty.bid^$important
@@ -10011,7 +10016,6 @@
 ||xcyptaqhl.com^$important
 ||xdcdlfejo.com^$important
 ||xddqdioms.com^$important
-||xddqdioms.com^$important
 ||xddydaddexkjxs.com^$important
 ||xdiyxgwojtbxft.bid^$important
 ||xdjeestdoiis.com^$important
@@ -10227,6 +10231,7 @@
 ||xtozxivyaaex.com^$important
 ||xtqfguvsmroo.com^$important
 ||xtqimdqeekij.bid^$important
+||xtremeserve.xyz^$important
 ||xtsnbxwak.com^$important
 ||xttcpyfgjdkl.bid^$important
 ||xttfbyjird.bid^$important
