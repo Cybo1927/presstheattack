@@ -33,7 +33,7 @@ cp $SRC/servers.txt $TEMP
 cp $SRC/whitelist.txt $TEMP
 cp $SRC/xmlhttprequest.txt $TEMP
 python FOP.py $TEMP
-cp $TEMP $SRC
+cp -r $TEMP $SRC
 sort --output=$TEMP/filterlist.txt $TEMP/combined.txt $TEMP/frame.txt $TEMP/images.txt $TEMP/other.txt $TEMP/popups.txt $TEMP/scripts.txt $TEMP/servers.txt $TEMP/whitelist.txt $TEMP/xmlhttprequest.txt
 echo 'Creating a header for the list...'
 LINES=$(grep -c '' $TEMP/filterlist.txt)
