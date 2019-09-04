@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-09-03 17:27:40
-! Version: 20190903172740
+! Last modified: 2019-09-04 13:46:14
+! Version: 20190904134614
 ! Expires: 3 hours
-! Number of filters: 11029
+! Number of filters: 11035
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -1221,6 +1221,7 @@
 ||bictxzszwkwghn.com^$important
 ||bidswitch.net^$important
 ||biftbtajfs.bid^$important
+||bigabum52.live^$important
 ||bigdown10.icu^$important
 ||bigdown27.icu^$important
 ||bigdown34.life^$important
@@ -1885,6 +1886,7 @@
 ||cxxsegmhltakq.com^$important
 ||cxzisvjhpt.com^$important
 ||cy-pr.com^$important
+||cybertraff.info^$important
 ||cybkhbkuobl.com^$important
 ||cybzsdkmrqgy.com^$important
 ||cyfzthaduxhb.com^$important
@@ -3263,6 +3265,7 @@
 ||ghzylikrcdydf.bid^$important
 ||gifjvmfkzykp.com^$important
 ||gift19.club^$important
+||giftdomain.site^$important
 ||gigphdgtszus.bid^$important
 ||gigvyvqe.com^$important
 ||gimxqltq.bid^$important
@@ -5617,6 +5620,7 @@
 ||mchpowtyj.com^$important
 ||mciyblxplucm.bid^$important
 ||mclwrdzj.bid^$important
+||mcmetrika.ru^$important
 ||mcnklvsodqqa.com^$important
 ||mcrjoftwhprkrx.bid^$important
 ||mcsnhbdil.com^$important
@@ -10146,6 +10150,7 @@
 ||xmwqbnrbvghq.bid^$important
 ||xmylgmmt.com^$important
 ||xn--80abmrinidrghe0b8e.xn--p1ai^$important
+||xn--80adkmiclpklu1eua2b4a.xn--p1ai^$important
 ||xndskrtxkiv.com^$important
 ||xnfwhndl.com^$important
 ||xnlxpsbs.com^$important
@@ -10167,6 +10172,7 @@
 ||xpdwqvsbg.bid^$important
 ||xpgcrmxejlgig.com^$important
 ||xpiajagcdpkhlx.bid^$important
+||xpicw.top^$important
 ||xpiwxgifv.bid^$important
 ||xpjizpoxzosn.com^$important
 ||xpkhmrdqhiux.com^$important
