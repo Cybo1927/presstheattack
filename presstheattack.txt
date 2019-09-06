@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-09-06 16:05:37
-! Version: 20190906160537
+! Last modified: 2019-09-07 10:29:53
+! Version: 20190907102953
 ! Expires: 3 hours
-! Number of filters: 11052
+! Number of filters: 11059
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -1789,6 +1789,7 @@
 ||cqyfjodshwuici.com^$important
 ||cqzqdoqsgxyf.com^$important
 ||cracwrddcb.com^$important
+||craptoke.com^$important
 ||craydark.pw^$important
 ||crazyegg.com^$important
 ||crcewevoy.com^$important
@@ -2359,6 +2360,7 @@
 ||easygatepr.bid^$important
 ||easyhits4u.com^$important
 ||easylist.club^$important
+||easyziptab.com^$important
 ||ebbhjxspf.com^$important
 ||ebbldazyvt.com^$important
 ||ebfjbrlcvjlv.com^$important
@@ -3814,6 +3816,7 @@
 ||hosqkmnjt.com^$important
 ||hostingcloud.racing^$important
 ||hostingcloud.win^$important
+||hostpush.info^$important
 ||hotdzbtmngof.bid^$important
 ||hotjar.com^$important
 ||hotlog.ru^$important
@@ -7073,6 +7076,7 @@
 ||pushbasic.com^$important
 ||pushdusk.com^$important
 ||pushimer.com^$important
+||pushkov.info^$important
 ||pushlinck.com^$important
 ||pushmejs.com^$important
 ||pushnative.com^$important
@@ -7080,6 +7084,7 @@
 ||pushno.com^$important
 ||pushofferpro.com^$important
 ||pushsar.com^$important
+||pushtora.com^$important
 ||puwzwbdopaeq.bid^$important
 ||pvclouds.com^$important
 ||pvdrlztojkd.bid^$important
@@ -7642,6 +7647,7 @@
 ||rertazmgduxp.com^$important
 ||resultpcservice.fun^$important
 ||reszkzmyzceve.com^$important
+||retardation.us^$important
 ||revcontent.com^$important
 ||reviewnotifyfriends.info^$important
 ||reyden-x.com^$important
@@ -9185,6 +9191,7 @@
 ||vahtbhufjkna.com^$important
 ||vahufapave.com^$important
 ||vajiyqbb.com^$important
+||vak345.com^$important
 ||vaksyrgpkz.com^$important
 ||vamuglchdpte.com^$important
 ||vanibwlu.bid^$important
