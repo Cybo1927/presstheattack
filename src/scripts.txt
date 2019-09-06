@@ -43,7 +43,6 @@
 |http*:*/async-ads.js$important,script
 |http*:*/atrk.js$important,script
 |http*:*/authedmine.$important,script
-|http*:*/redirect/?spot_id=$important,script
 |http*:*/authedminer.$important,script
 |http*:*/beacon.js$important,script
 |http*:*/bens/vinos.js$important,script
@@ -133,6 +132,7 @@
 |http*:*/px.js$important,script
 |http*:*/quant.js$important,script
 |http*:*/raven.js$important,script
+|http*:*/redirect/?spot_id=$important,script
 |http*:*/referdetect.js$important,script
 |http*:*/referrer.js$important,script
 |http*:*/rivraddon.js$important,script

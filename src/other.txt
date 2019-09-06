@@ -25,11 +25,11 @@
 |http*:*.com/native.php?b=$important
 |http*:*.php?aid=pause_$important
 |http*:*/ad.aspx?$important
-|http*:*/mistats/*$important
 |http*:*/afr.php?$important
 |http*:*/eht.js?site_$important
 |http*:*/epubdelivery/$important
 |http*:*/in.php?referer=$important
+|http*:*/mistats/$important
 |http*:*/pagead/$important
 |http*:*/redirect/cpa/$important
 |http*:*/yieldmanager/$important

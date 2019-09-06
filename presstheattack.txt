@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-09-04 13:46:14
-! Version: 20190904134614
+! Last modified: 2019-09-06 16:05:37
+! Version: 20190906160537
 ! Expires: 3 hours
-! Number of filters: 11035
+! Number of filters: 11052
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -284,6 +284,7 @@
 |http*:*/miner.full.js$important,script
 |http*:*/minera.$important,script
 |http*:*/minero*.js^$important,script
+|http*:*/mistats/$important
 |http*:*/mms/get_loaders$important,script,xmlhttprequest
 |http*:*/moatad.js$important,script
 |http*:*/moatframe.js$important,script
@@ -335,6 +336,7 @@
 |http*:*/pxt?$image,important
 |http*:*/quant.js$important,script
 |http*:*/raven.js$important,script
+|http*:*/redirect/?spot_id=$important,script
 |http*:*/redirect/cpa/$important
 |http*:*/referdetect.js$important,script
 |http*:*/referrer.js$important,script
@@ -448,12 +450,14 @@
 ||1-1ads.com^$important
 ||1.fembed.com^$important
 ||1063bac0d855f4e67bd4.date^$important
+||110380d053f716c4.com^$important
 ||12dc71b7cb820f2a.com^$important
 ||13d8ba78e080.com^$important
 ||14e6e1ee3d7236d41431.date^$important
 ||190282.xyz^$important
 ||197c3b10bab3c1.com^$important
 ||1b8d89551340a.com^$important
+||1b969cef84d93b43.com^$important
 ||1cb70f6b7aab4c70819a.date^$important
 ||1fbaa223d6945621f8d7.date^$important
 ||1wzfew7a.site^$important
@@ -559,11 +563,13 @@
 ||95p5qep4aq.com^$important
 ||98bf9h8jbg.com^$important
 ||990b424f659e4e27.com^$important
+||995db2642d3d852b.com^$important
 ||a-ads.com^$important
 ||a1a5ab31bcd1bc68.com^$important
 ||a2b108bd2461b12e.com^$important
 ||a48121a28f76f93.com^$important
 ||a4827e25ef995.com^$important
+||a5e04df959f1af34.com^$important
 ||aa53df329975c325.com^$important
 ||aabmxezph.com^$important
 ||aacgeuvaoqbw.com^$important
@@ -1728,6 +1734,7 @@
 ||collamps.com^$important
 ||collector.schibsted.io^$important
 ||com-mac-booster.live^$important
+||com-mac-optimizer.xyz^$important
 ||com-shield-device.live^$important
 ||com-shield.live^$important
 ||comnop.icu^$important
@@ -1989,6 +1996,7 @@
 ||ddjodgzhxyjtaa.bid^$important
 ||ddmlzfwsb.com^$important
 ||dealmemanager.online^$important
+||debitcrebit669.com^$important
 ||debuackedhkvu.bid^$important
 ||deebwmbbytr.com^$important
 ||degitlwfezpe.com^$important
@@ -2331,6 +2339,7 @@
 ||dzztjcbt.com^$important
 ||e376ef28103177cc.com^$important
 ||e4ceb6161619.com^$important
+||e553bcf717698d33.com^$important
 ||e6081b73afec581f.com^$important
 ||e6cfmdmo81.com^$important
 ||e7393e33565ce805.com^$important
@@ -2437,6 +2446,7 @@
 ||ehcawmdqgq.com^$important
 ||eheewlwlebwpd.com^$important
 ||ehfmhsqzxfrsz.bid^$important
+||ehg8if76lc.xyz^$important
 ||ehgefgcollhd.com^$important
 ||ehhmynitx.com^$important
 ||ehkovmky.com^$important
@@ -2721,6 +2731,7 @@
 ||ezrutveckpuly.com^$important
 ||ezuereisgj.com^$important
 ||ezuosstmbcle.com^$important
+||f369a60bf483bcc9.com^$important
 ||f3c1cc473b337ded.com^$important
 ||f4ceb8490e0d.com^$important
 ||f53mbcg4ak.ru^$important
@@ -3811,6 +3822,7 @@
 ||hoyqhygv.com^$important
 ||hoytzfyok.bid^$important
 ||hpabkunldxhpc.com^$important
+||hpasvfsndgr.com^$important
 ||hpbczauldndnep.com^$important
 ||hpbsyqsypxy.com^$important
 ||hpcniufqp.bid^$important
@@ -4019,6 +4031,7 @@
 ||ibycicwahzg.com^$important
 ||icahllwjc.com^$important
 ||icdkqyeydxpjmw.com^$important
+||icfgedouno.com^$important
 ||icfjzmqsejzfb.com^$important
 ||icfxndxwpan.com^$important
 ||icgakpprechm.com^$important
@@ -4261,6 +4274,7 @@
 ||irlklysyeqek.bid^$important
 ||irmfncjihlb.com^$important
 ||iroktywi.bid^$important
+||irpaknbwgif.com^$important
 ||irrhjkuantnaa.bid^$important
 ||irrttzthsxot.com^$important
 ||irtxsagfqrg.com^$important
@@ -6068,6 +6082,7 @@
 ||neschaypaxkk.com^$important
 ||net-ce49.stream^$important
 ||networkad.net^$important
+||newadsclicks.com^$important
 ||newgadgetpresents.icu^$important
 ||newmonads.com^$important
 ||newnyqfgkkjht.com^$important
@@ -6877,7 +6892,6 @@
 ||pkvhprfhbtft.com^$important
 ||pkxquvydrgin.com^$important
 ||pkzfmxjlkcxkub.com^$important
-||pladform.ru^$important
 ||play-best-games-2k18.xyz^$important
 ||playermailer.net^$important
 ||plcsedkinoul.com^$important
@@ -7598,6 +7612,7 @@
 ||rdqyasdstllr.com^$important
 ||rdr-friday39.life^$important
 ||rdrkxlmlqpqns.com^$important
+||rdthuvynnwgind.com^$important
 ||rdvrxbxwxspxd.com^$important
 ||rdwcvesg.com^$important
 ||rdwfotuyp.bid^$important
@@ -8557,6 +8572,7 @@
 ||tmvwirgifkkdtn.bid^$important
 ||tmwhazsjnhip.com^$important
 ||tmwmigsb.com^$important
+||tmxmckanu.com^$important
 ||tnacywet.com^$important
 ||tnbgycckfv.bid^$important
 ||tnbtghpbdvz.bid^$important
@@ -9968,6 +9984,7 @@
 ||wznupnxp.com^$important
 ||wzyagambcfn.bid^$important
 ||x1euvzgv.world^$important
+||x1kbioti.world^$important
 ||x1tckrty.world^$important
 ||xacexccntjbrht.com^$important
 ||xafkdsxnwinmj.com^$important
