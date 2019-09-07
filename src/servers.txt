@@ -41,16 +41,6 @@
 ||1xeha.world^$important
 ||1xgzu.world^$important
 ||1xjir.world^$important
-||sgizmo.com^$important
-||slotsforluck.com^$important
-||surfearner.com^$important
-||solo83.biz^$important
-||giftdomain.site^$important
-||bigabum52.live^$important
-||contestandgiveaways.xyz^$important
-||thqoxoo.xyz^$important
-||cqpmmfxvibjr.com^$important
-||dnzwjlbknhe.com^$important
 ||1xkeg.world^$important
 ||1xkww.world^$important
 ||1xluw.world^$important
@@ -58,14 +48,6 @@
 ||1xndi.world^$important
 ||1xnju.world^$important
 ||1xnto.world^$important
-||pushrase.com^$important
-||pushazam.com^$important
-||whatsaappp.com^$important
-||check-now.net^$important
-||googlo.co^$important
-||yahoo-news.co^$important
-||5qg9ibt1a6.com^$important
-||o4uxrk33.com^$important
 ||1xpbq.world^$important
 ||1xqws.world^$important
 ||1xrbt.world^$important
@@ -123,6 +105,7 @@
 ||576digital.hu^$important
 ||5edeb195868e2195.com^$important
 ||5nt1gx7o57.com^$important
+||5qg9ibt1a6.com^$important
 ||6066bd8aab9d73e3.com^$important
 ||619de07af53f8.com^$important
 ||63e7b6347c45fa.com^$important
@@ -1191,6 +1174,7 @@
 ||cguvvvdxa.com^$important
 ||chartbeat.com^$important
 ||chatozov.ru^$important
+||check-now.net^$important
 ||checkaccusefriends.info^$important
 ||chiybszey.bid^$important
 ||chjfbjjgqts.com^$important
@@ -1368,6 +1352,7 @@
 ||cqjnxsbuplcqri.com^$important
 ||cqoxufzgev.bid^$important
 ||cqoyvpldkmqt.com^$important
+||cqpmmfxvibjr.com^$important
 ||cqskvtpeqcp.bid^$important
 ||cqsmswwidrn.bid^$important
 ||cqvbvpxnqqcfwl.bid^$important
@@ -1745,6 +1730,7 @@
 ||dntlpwpjwcfu.com^$important
 ||dnvndngbn.bid^$important
 ||dnzevkqpk.com^$important
+||dnzwjlbknhe.com^$important
 ||docqacvwhgbxv.com^$important
 ||doctortrace.com^$important
 ||dodahirwudrhv.com^$important
@@ -2967,6 +2953,7 @@
 ||golkkzpniri.com^$important
 ||gonuuudpdcu.com^$important
 ||goo.gl^document
+||googlo.co^$important
 ||goowurzdotcom.bid^$important
 ||gopamdzgpdrwe.bid^$important
 ||gor1lla.win^$important
@@ -5949,6 +5936,7 @@
 ||nzyymvidnbvz.bid^$important
 ||o-oo.ooo^$important
 ||o333o.com^$important
+||o4uxrk33.com^$important
 ||oaadkiypttok.com^$important
 ||oabcufwk.com^$important
 ||oabmmdjlmfk.bid^$important
@@ -6641,6 +6629,7 @@
 ||pushads.biz^$important
 ||pushame.com^$important
 ||pushanert.com^$important
+||pushazam.com^$important
 ||pushbaddy.com^$important
 ||pushbasic.com^$important
 ||pushdusk.com^$important
@@ -6652,6 +6641,7 @@
 ||pushnews.ru^$important
 ||pushno.com^$important
 ||pushofferpro.com^$important
+||pushrase.com^$important
 ||pushsar.com^$important
 ||pushtora.com^$important
 ||puwzwbdopaeq.bid^$important
@@ -7713,6 +7703,7 @@
 ||slmmjkkvbkyp.com^$important
 ||sloaltbyucrg.com^$important
 ||slotforjoy.net^$important
+||slotsforluck.com^$important
 ||slotsvictory.net^$important
 ||slurolen.com^$important
 ||slutsnearby.com^$important
@@ -7757,6 +7748,7 @@
 ||soiegibhwvti.com^$important
 ||soirqzccdtyk.com^$important
 ||sokanffuyinr.com^$important
+||solo83.biz^$important
 ||sonobi.com^$important
 ||sopzefqypxas.bid^$important
 ||sosbyncpkyw.com^$important
@@ -7843,6 +7835,7 @@
 ||superonclick.com^$important
 ||supersalegiveaways.club^$important
 ||suqufucjzffhay.bid^$important
+||surfearner.com^$important
 ||surveys-zone.online^$important
 ||sutzinjwnroui.com^$important
 ||suvkxcypywspux.bid^$important
@@ -8049,6 +8042,7 @@
 ||thnqemehtyfe.com^$important
 ||thowytaoo.com^$important
 ||thpsflsjw.com^$important
+||thqoxoo.xyz^$important
 ||thqwivyhdpoem.com^$important
 ||threedrive.su^$important
 ||thsfkcymkoce.com^$important
@@ -9257,6 +9251,7 @@
 ||wguuomjdav.com^$important
 ||wgzdpzvtvwvjtv.bid^$important
 ||wgzzzqebxfypb.com^$important
+||whatsaappp.com^$important
 ||whbfgaspmycyve.com^$important
 ||whdulnhnrscfqx.com^$important
 ||whehilru.com^$important
@@ -9909,6 +9904,7 @@
 ||yadro.ru^$important
 ||yafsixmo.com^$important
 ||yahbdmyvvmjh.com^$important
+||yahoo-news.co^$important
 ||yaifxxudxyns.com^$important
 ||yaikleyabl.com^$important
 ||yaizwjvnxctz.com^$important
