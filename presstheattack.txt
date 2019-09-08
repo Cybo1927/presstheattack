@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-09-07 22:58:11
-! Version: 20190907225811
+! Last modified: 2019-09-08 20:02:29
+! Version: 20190908200229
 ! Expires: 3 hours
-! Number of filters: 11073
+! Number of filters: 11059
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -28,7 +28,6 @@
 /^https:\/\/69([a-z]{1,2})\.([a-z]{4})/$important
 /^https?:\/\/(([a-zA-Z]{1})?[0-9]{1,4})?adserv\./$important
 /^https?:\/\/(.*\.)?(an|awaps|awsync|((rosenberg|report)\.)?appmetrica|bs(\-meta)?|direct|(grade|fenek)\.market|informer|kiks|clck|main\.zdevx|m[csx]|yabs|zen|browser\-updater|bann?ers?(\-slb)?\.mobile|(external\-promo\-|web\-)?metric[as]?|startup(\-slb)?\.mobile|analytic[as]?(\.mobile)?|adfox|jstracer|csp|static\-mon)\.yandex\.[A-Za-z.]{2,7}/$important
-/^https?:\/\/([0-9a-z\-]+\.)?(9anime|animeland|animenova|animeplus|animetoon|animewow|gamestorrent|goodanime|gogoanime|igg-games|kimcartoon|memecenter|readcomiconline|toonget|toonova|watchcartoononline)\.[a-z]{2,4}\/(?!([Ee]xternal|[Ii]mages|[Ss]cripts|[Uu]ploads|ac|ajax|assets|combined|content|cov|cover|(img\/bg)|(img\/icon)|inc|jwplayer|player|playlist-cat-rss|static|thumbs|wp-content|wp-includes)\/)(.*)/$important,script,~third-party,domain=~animeland.hu|~memecenter.fr
 /^https?:\/\/([a-z0-9]{3,10}\.)?[a-z0-9]{5,15}\.(click|com|bid|net|online|top|club)\/([a-z0-9]{2}\/){3}[a-f0-9]{32}\.js$/$important,script
 /^https?:\/\/([a-z0-9]{8,10}\.)?[a-z0-9]{5,14}\.(com|bid|online|top|club)\/([a-z0-9]{2}\/){3}[a-f0-9]{32}\.js$/$important,script,third-party
 /^https?:\/\/([A-Za-z0-9]{3,}\.)?(([0-9]{1,2})?l\-hit|([0-9]{1,2})?l\-view|r([0-9]{1,2})?|rs|staging|(vk|stepan\-fe)\.go|reklama|ads?|recostream\.go|([^\s]{10,}\.)?top([0-9]{1}|\-(fwz([0-9]{1,2})?))?|mediator|[^\s]{3,}\.radar|g?stat|xray|t|fmdata)\.(imgs)?mail\.ru/$important
@@ -52,7 +51,6 @@
 /^https?:\/\/[^\s]+(\W|\_)ad[svbx]\.php/$important,script,xmlhttprequest
 /^https?:\/\/[^\s]+(\W|\_)bann?ers?((\W|\_).*?)?\.gif/$image,important,subdocument
 /^https?:\/\/[^\s]+(\W|\_)fingerprint([0-9]{1,2})?(\.min)?\.js/$image,important,script,xmlhttprequest
-/^https?:\/\/[^\s]+(\W|\_)g(tag|oogleads?|oogleanal(ytics?|yzer?)([0-9]{1})?|pt((\W|\_)mobile)?|tm|a((\W|\_)lite)?|a((\W|\_)setup)?|oogle(\W|\_)track(ers?|ing)?|oogletag|ads?|tagmanager((\W|\_)backend|track(ers?|ing)?event)?|oogle(\W|\_)stats?)\./$important,script
 /^https?:\/\/[^\s]+(\W|\_)log(\W|\_)?(type|event|entry|request)/$image,important,other,xmlhttprequest
 /^https?:\/\/[^\s]+(\W|\_)me([0-9]{1})?w\.js/$important,script
 /^https?:\/\/[^\s]+(\W|\_)metric[sa]?(.*)?\.js/$important,script
@@ -61,15 +59,10 @@
 /^https?:\/\/[^\s]+(\W|\_)pop(unders?)?([0-9]{1,2})?\./$important,popup,script,xmlhttprequest
 /^https?:\/\/[^\s]+(\W|\_)prebid([0-9]{1,2})?(\W|\_)/$important,script
 /^https?:\/\/[^\s]+(\W|\_)pubfig(\.min)?\.js/$important,script
-/^https?:\/\/[^\s]+/amp\-ads?(\-[-0-9.]{2,3})?\.js/$important,script
-/^https?:\/\/[^\s]+/amp\-analytics(\-[-0-9.]{2,3})?\.js/$important,script
-/^https?:\/\/[^\s]+/amp\-sticky-ad(\-[-0-9.]{2,3})?\.js/$important,script
-/^https?:\/\/[^\s]+\-ad\-sdk\-js\-/$important,script
 /^https?:\/\/[^\s]+\.(cc\/$|club|com|online|ru)/$important,xmlhttprequest,domain=hdgo.cc|vio.to
 /^https?:\/\/[^\s]+\.[A-Za-z]{2,6}\/[^\s]{5,}\.js\?[A-Za-z]{1}\=[^\s]{50,}/$important,popup
 /^https?:\/\/[^\s]+\.[A-Za-z]{2,6}\/[A-Za-z]{1}\?tag\=[^\s]+\&site\=[A-Za-z0-9]{1,}\&ads?\=/$important,popup,script
 /^https?:\/\/[^\s]+\.com\/[0-9a-z]{8}\.js#spot\=[0-9]{5}$/$important,script
-/^https?:\/\/[^\s]+\/((glx|workbox|messaging|notification|pab)\-)?sw\.js/$important,script
 /^https?:\/\/[^\s]+\/([^\s]{4})?tag\.min\.([a-z0-9]{30,}\.)?js/$important,script
 /^https?:\/\/[^\s]+\/([a-zA-Z]{1,4})?events?\.js/$important,other,script,xmlhttprequest
 /^https?:\/\/[^\s]+\/ads?\_onclick\.php/$important,script,xmlhttprequest
@@ -77,7 +70,6 @@
 /^https?:\/\/[^\s]+\/piwik((\W|\_)[_0-9-.]{5,})?\.js/$important,script
 /^https?:\/\/[^\s]+\/punder\/(script|license|custom)\./$important,script
 /^https?:\/\/[^\s]+\/s([0-9]{1,2})?\.js/$important,script
-/^https?:\/\/[^\s]+\/sw(\-(vodlocker|service))?\.js/$important,script
 /^https?:\/\/[^\s]+tags?\?id\=/$important,subdocument
 /^https?:\/\/[a-z0-9]+\.info\/+[-a-z0-9_?&=]{9,}/$important,script,third-party
 /^https?:\/\/[a-z0-9]{4,12}\.(accountant|bid|cf|club|cricket|date|download|faith|fun|ga|gdn|gq|host|info|loan|men|ml|online|ovh|party|pro|pw|racing|review|rocks|science|site|space|stream|tk|top|trade|webcam|website|win|xyz|store|solutions|software|social|site|shop|services|sale|run|rip|reviews|restaurant|report|zone)\/[\w\/\-.+]{120,}/$subdocument,third-party
@@ -346,7 +338,6 @@
 |http*:*/s_code.js$important,script
 |http*:*/safelinkconverter.js$important,script
 |http*:*/sat.gif$image,important
-|http*:*/serviceWorker.js$important,script
 |http*:*/setbucket?signature=$important,subdocument
 |http*:*/setcookie.php$important,script
 |http*:*/show_ads_smartclick.js$important,script
@@ -383,10 +374,6 @@
 |http*:*/utag.js$important,script
 |http*:*/uutils.fcg^$important,script
 |http*:*/video.counters.js$important,script
-|http*:*/videojs-contrib-ads.js$important,script
-|http*:*/videojs.ads.js$important,script
-|http*:*/videojs.ads.min.js$important,script
-|http*:*/videojs.ima.js$important,script
 |http*:*/view.gif$image,important
 |http*:*/view.png$image,important
 |http*:*/views.gif$image,important
@@ -403,7 +390,6 @@
 |http*:*/webpush.$important,script
 |http*:*/webtag.js$important,script
 |http*:*/webxmr.js$important,script
-|http*:*/worker-asmjs.$important,script
 |http*:*/wt?p=$image,important,script
 |http*:*/www/*&zoneid=$image,important,script,xmlhttprequest
 |http*:*/xgemius.js$important,script
@@ -413,7 +399,6 @@
 |http*:*/xmr.js$important,script
 |http*:*/xmr.min.js$important,script
 |http*:*/xtcore.js$important,script
-|http*:*/yads-async.js$important,script
 |http*:*/yads.js$important,script
 |http*:*/yes.gif$image,important
 |http*:*/yieldmanager/$important
@@ -5414,6 +5399,7 @@
 ||lotmentemp.pro^$important
 ||lotterygettoday.club^$important
 ||lovdkmqvoc.bid^$important
+||lovechats.org^$important
 ||lovnxkrszlsb.com^$important
 ||lovvznyhujf.com^$important
 ||lowqnzsxtmvb.bid^$important
