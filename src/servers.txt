@@ -44,6 +44,13 @@
 ||1xkeg.world^$important
 ||1xkww.world^$important
 ||1xluw.world^$important
+||cvypzafq.com^$important
+||iopjpldd.com^$important
+||frfnlvnpzeju.com^$important
+||tpqweavlol.com^$important
+||iddgzongegt.com^$important
+||mpmzqgkpavhhkt.com^$important
+||nrdaixdlt.com^$important
 ||1xmmk.world^$important
 ||1xndi.world^$important
 ||1xnju.world^$important
@@ -1309,7 +1316,6 @@
 ||com-shield.live^$important
 ||comnop.icu^$important
 ||connatix.com^$important
-||connect.facebook.net^$important,third-party
 ||connect.ok.ru^$important,third-party
 ||connectad.io^$important
 ||content-ad.net^$important
