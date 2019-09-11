@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-09-08 20:02:29
-! Version: 20190908200229
+! Last modified: 2019-09-11 19:57:15
+! Version: 20190911195715
 ! Expires: 3 hours
-! Number of filters: 11059
+! Number of filters: 11065
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -1726,7 +1726,6 @@
 ||com-shield.live^$important
 ||comnop.icu^$important
 ||connatix.com^$important
-||connect.facebook.net^$important,third-party
 ||connect.ok.ru^$important,third-party
 ||connectad.io^$important
 ||content-ad.net^$important
@@ -1858,6 +1857,7 @@
 ||cvjzauehxjsy.com^$important
 ||cvnmmeux.com^$important
 ||cvwipkjyu.bid^$important
+||cvypzafq.com^$important
 ||cvzixxiesyjkha.com^$important
 ||cwbbqhgtjbvtzi.com^$important
 ||cwdnbhhmdnm.com^$important
@@ -3001,6 +3001,7 @@
 ||frefxzrmcdxdmi.com^$important
 ||frezshmura.bid^$important
 ||frfgfhzxtfvsp.com^$important
+||frfnlvnpzeju.com^$important
 ||friendlybcs.pro^$important
 ||friendlyduck.com^$important
 ||frkohfqkpwvvq.com^$important
@@ -4048,6 +4049,7 @@
 ||idbtfwllhogxc.com^$important
 ||idbxnzgmn.com^$important
 ||idcoyhwzthhjv.com^$important
+||iddgzongegt.com^$important
 ||iddvmkxme.com^$important
 ||idejenmqxhy.bid^$important
 ||idelmxrchrce.com^$important
@@ -4219,6 +4221,7 @@
 ||iolzwhbf.bid^$important
 ||iomixrscvtw.bid^$important
 ||iooxsrjgkb.bid^$important
+||iopjpldd.com^$important
 ||ioryejnzvbbluh.bid^$important
 ||ioujbpldicfgm.com^$important
 ||ioupfmge.com^$important
@@ -5849,6 +5852,7 @@
 ||mplxtms.com^$important
 ||mpmdostmf.com^$important
 ||mpmfdpakljrv.bid^$important
+||mpmzqgkpavhhkt.com^$important
 ||mpnkfljjfjqd.bid^$important
 ||mpnrs.com^$important
 ||mpoboqvqhjqv.com^$important
@@ -6248,6 +6252,7 @@
 ||nqxhehxadtswz.bid^$important
 ||nqzmumesrbiy.com^$important
 ||nrcrbfqa.com^$important
+||nrdaixdlt.com^$important
 ||nrectoqhwdhi.com^$important
 ||nrepcbiqaasqih.bid^$important
 ||nrfltkshqgzowk.bid^$important
@@ -8622,6 +8627,7 @@
 ||tpmemhesupkn.bid^$important
 ||tpnaabdwy.com^$important
 ||tpnphooeqg.bid^$important
+||tpqweavlol.com^$important
 ||tpranctof.com^$important
 ||tptfopotrzg.com^$important
 ||tpueomljcrvy.com^$important

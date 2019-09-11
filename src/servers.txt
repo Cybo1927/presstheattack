@@ -44,13 +44,6 @@
 ||1xkeg.world^$important
 ||1xkww.world^$important
 ||1xluw.world^$important
-||cvypzafq.com^$important
-||iopjpldd.com^$important
-||frfnlvnpzeju.com^$important
-||tpqweavlol.com^$important
-||iddgzongegt.com^$important
-||mpmzqgkpavhhkt.com^$important
-||nrdaixdlt.com^$important
 ||1xmmk.world^$important
 ||1xndi.world^$important
 ||1xnju.world^$important
@@ -1446,6 +1439,7 @@
 ||cvjzauehxjsy.com^$important
 ||cvnmmeux.com^$important
 ||cvwipkjyu.bid^$important
+||cvypzafq.com^$important
 ||cvzixxiesyjkha.com^$important
 ||cwbbqhgtjbvtzi.com^$important
 ||cwdnbhhmdnm.com^$important
@@ -2584,6 +2578,7 @@
 ||frefxzrmcdxdmi.com^$important
 ||frezshmura.bid^$important
 ||frfgfhzxtfvsp.com^$important
+||frfnlvnpzeju.com^$important
 ||friendlybcs.pro^$important
 ||friendlyduck.com^$important
 ||frkohfqkpwvvq.com^$important
@@ -3625,6 +3620,7 @@
 ||idbtfwllhogxc.com^$important
 ||idbxnzgmn.com^$important
 ||idcoyhwzthhjv.com^$important
+||iddgzongegt.com^$important
 ||iddvmkxme.com^$important
 ||idejenmqxhy.bid^$important
 ||idelmxrchrce.com^$important
@@ -3796,6 +3792,7 @@
 ||iolzwhbf.bid^$important
 ||iomixrscvtw.bid^$important
 ||iooxsrjgkb.bid^$important
+||iopjpldd.com^$important
 ||ioryejnzvbbluh.bid^$important
 ||ioujbpldicfgm.com^$important
 ||ioupfmge.com^$important
@@ -5425,6 +5422,7 @@
 ||mplxtms.com^$important
 ||mpmdostmf.com^$important
 ||mpmfdpakljrv.bid^$important
+||mpmzqgkpavhhkt.com^$important
 ||mpnkfljjfjqd.bid^$important
 ||mpnrs.com^$important
 ||mpoboqvqhjqv.com^$important
@@ -5824,6 +5822,7 @@
 ||nqxhehxadtswz.bid^$important
 ||nqzmumesrbiy.com^$important
 ||nrcrbfqa.com^$important
+||nrdaixdlt.com^$important
 ||nrectoqhwdhi.com^$important
 ||nrepcbiqaasqih.bid^$important
 ||nrfltkshqgzowk.bid^$important
@@ -8188,6 +8187,7 @@
 ||tpmemhesupkn.bid^$important
 ||tpnaabdwy.com^$important
 ||tpnphooeqg.bid^$important
+||tpqweavlol.com^$important
 ||tpranctof.com^$important
 ||tptfopotrzg.com^$important
 ||tpueomljcrvy.com^$important
