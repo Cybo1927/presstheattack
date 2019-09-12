@@ -4,7 +4,6 @@
 /^https?:\/\/(www\.)?dyncdn\.me\/static\/[0-9]{1,2}\/js\/expla[0-9]{1,2}\.js/$important,script
 /^https?:\/\/[^/]+\/[a-z0-9]{15,}(\?hope=.*)?$/$important,script
 /^https?:\/\/[^\s]+(\W|\_)me([0-9]{1})?w\.js/$important,script
-/^https?:\/\/[^\s]+(\W|\_)metric[sa]?(.*)?\.js/$important,script
 /^https?:\/\/[^\s]+(\W|\_)prebid([0-9]{1,2})?(\W|\_)/$important,script
 /^https?:\/\/[^\s]+(\W|\_)pubfig(\.min)?\.js/$important,script
 /^https?:\/\/[^\s]+\.com\/[0-9a-z]{8}\.js#spot\=[0-9]{5}$/$important,script

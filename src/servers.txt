@@ -232,6 +232,9 @@
 ||adpartner.*^$important
 ||adpaths.com^$important
 ||adpenguin.biz^$important
+||newnovads.com^$important
+||webvisor.org^$important
+||realktalk.xyz^$important
 ||adplus.co.id^$important
 ||adpop-1.com^$important
 ||adqy6rzwcs.com^$important

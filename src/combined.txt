@@ -1,13 +1,10 @@
 /^(https?|wss?):\/\/([0-9a-z\-]+\.)?([0-9a-z\-]+\.)(accountant|bid|cf|club|cricket|date|download|faith|fun|ga|gdn|gq|loan|men|ml|network|ovh|party|pro|pw|racing|review|rocks|science|site|space|stream|tk|top|trade|webcam|win|xyz|zone)\/(.*)/$important,popup,third-party,websocket
 /^https?:\/\/[^\s]+(\W|\_)(player|client|csi|gen(erate)?|stream|logs?|live)(\W|\_)?204\??/$image,important,other,xmlhttprequest
-/^https?:\/\/[^\s]+(\W|\_)[0-9]{1,2}ads\.gif/$image,important,script
-/^https?:\/\/[^\s]+(\W|\_)ad[svbx]\.php/$important,script,xmlhttprequest
-/^https?:\/\/[^\s]+(\W|\_)bann?ers?((\W|\_).*?)?\.gif/$image,important,subdocument
+/^https?:\/\/[^\s]+(\W|\_)ad[svbx]?\.php/$important,script,xmlhttprequest
 /^https?:\/\/[^\s]+(\W|\_)fingerprint([0-9]{1,2})?(\.min)?\.js/$image,important,script,xmlhttprequest
 /^https?:\/\/[^\s]+(\W|\_)log(\W|\_)?(type|event|entry|request)/$image,important,other,xmlhttprequest
 /^https?:\/\/[^\s]+(\W|\_)ping(\W|\_)/$image,important,script,xmlhttprequest
 /^https?:\/\/[^\s]+(\W|\_)pixels?\./$image,important,object,script,subdocument,xmlhttprequest
-/^https?:\/\/[^\s]+(\W|\_)pop(unders?)?([0-9]{1,2})?\./$important,popup,script,xmlhttprequest
 /^https?:\/\/[^\s]+\.[A-Za-z]{2,6}\/[A-Za-z]{1}\?tag\=[^\s]+\&site\=[A-Za-z0-9]{1,}\&ads?\=/$important,popup,script
 /^https?:\/\/[^\s]+\/([a-zA-Z]{1,4})?events?\.js/$important,other,script,xmlhttprequest
 /^https?:\/\/[^\s]+\/ads?\_onclick\.php/$important,script,xmlhttprequest
