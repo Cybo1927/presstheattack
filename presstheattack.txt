@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-09-11 19:57:15
-! Version: 20190911195715
+! Last modified: 2019-09-12 11:05:02
+! Version: 20190912110502
 ! Expires: 3 hours
-! Number of filters: 11065
+! Number of filters: 11063
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -47,16 +47,12 @@
 /^https?:\/\/[0-9a-z\-\.]+\.[a-z]{2,7}\/sw\.js\?[0-9a-zA-Z_&%]{32,}/$important,~third-party,xmlhttprequest
 /^https?:\/\/[^/]+\/[a-z0-9]{15,}(\?hope=.*)?$/$important,script
 /^https?:\/\/[^\s]+(\W|\_)(player|client|csi|gen(erate)?|stream|logs?|live)(\W|\_)?204\??/$image,important,other,xmlhttprequest
-/^https?:\/\/[^\s]+(\W|\_)[0-9]{1,2}ads\.gif/$image,important,script
-/^https?:\/\/[^\s]+(\W|\_)ad[svbx]\.php/$important,script,xmlhttprequest
-/^https?:\/\/[^\s]+(\W|\_)bann?ers?((\W|\_).*?)?\.gif/$image,important,subdocument
+/^https?:\/\/[^\s]+(\W|\_)ad[svbx]?\.php/$important,script,xmlhttprequest
 /^https?:\/\/[^\s]+(\W|\_)fingerprint([0-9]{1,2})?(\.min)?\.js/$image,important,script,xmlhttprequest
 /^https?:\/\/[^\s]+(\W|\_)log(\W|\_)?(type|event|entry|request)/$image,important,other,xmlhttprequest
 /^https?:\/\/[^\s]+(\W|\_)me([0-9]{1})?w\.js/$important,script
-/^https?:\/\/[^\s]+(\W|\_)metric[sa]?(.*)?\.js/$important,script
 /^https?:\/\/[^\s]+(\W|\_)ping(\W|\_)/$image,important,script,xmlhttprequest
 /^https?:\/\/[^\s]+(\W|\_)pixels?\./$image,important,object,script,subdocument,xmlhttprequest
-/^https?:\/\/[^\s]+(\W|\_)pop(unders?)?([0-9]{1,2})?\./$important,popup,script,xmlhttprequest
 /^https?:\/\/[^\s]+(\W|\_)prebid([0-9]{1,2})?(\W|\_)/$important,script
 /^https?:\/\/[^\s]+(\W|\_)pubfig(\.min)?\.js/$important,script
 /^https?:\/\/[^\s]+\.(cc\/$|club|com|online|ru)/$important,xmlhttprequest,domain=hdgo.cc|vio.to
@@ -6083,6 +6079,7 @@
 ||newadsclicks.com^$important
 ||newgadgetpresents.icu^$important
 ||newmonads.com^$important
+||newnovads.com^$important
 ||newnyqfgkkjht.com^$important
 ||newrelic.com^$important
 ||newthuads.com^$important
@@ -9661,6 +9658,7 @@
 ||webmasterplan.com^$important
 ||weborama.fr^$important
 ||websnewsdate.com^$important
+||webvisor.org^$important
 ||webwagssicx.bid^$important
 ||weckosoew.bid^$important
 ||wedwcmjo.com^$important
