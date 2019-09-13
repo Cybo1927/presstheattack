@@ -3,13 +3,13 @@
 /^https?:\/\/([a-z0-9]{8,10}\.)?[a-z0-9]{5,14}\.(com|bid|online|top|club)\/([a-z0-9]{2}\/){3}[a-f0-9]{32}\.js$/$important,script,third-party
 /^https?:\/\/(www\.)?dyncdn\.me\/static\/[0-9]{1,2}\/js\/expla[0-9]{1,2}\.js/$important,script
 /^https?:\/\/[^/]+\/[a-z0-9]{15,}(\?hope=.*)?$/$important,script
-/^https?:\/\/[^\s]+(\W|\_)me([0-9]{1})?w\.js/$important,script
-/^https?:\/\/[^\s]+(\W|\_)prebid([0-9]{1,2})?(\W|\_)/$important,script
-/^https?:\/\/[^\s]+(\W|\_)pubfig(\.min)?\.js/$important,script
+/^https?:\/\/[^\s]+[\W\w]me([0-9]{1})?w\.js/$important,script
+/^https?:\/\/[^\s]+[\W\w]prebid([0-9]{1,2})?[\W\w]/$important,script
+/^https?:\/\/[^\s]+[\W\w]pubfig(\.min)?\.js/$important,script
 /^https?:\/\/[^\s]+\.com\/[0-9a-z]{8}\.js#spot\=[0-9]{5}$/$important,script
 /^https?:\/\/[^\s]+\/([^\s]{4})?tag\.min\.([a-z0-9]{30,}\.)?js/$important,script
 /^https?:\/\/[^\s]+\/fp([0-9]{1,2})?\.js/$important,script
-/^https?:\/\/[^\s]+\/piwik((\W|\_)[_0-9-.]{5,})?\.js/$important,script
+/^https?:\/\/[^\s]+\/piwik([\W\w][_0-9-.]{5,})?\.js/$important,script
 /^https?:\/\/[^\s]+\/punder\/(script|license|custom)\./$important,script
 /^https?:\/\/[^\s]+\/s([0-9]{1,2})?\.js/$important,script
 /^https?:\/\/[a-z0-9]+\.info\/+[-a-z0-9_?&=]{9,}/$important,script,third-party
