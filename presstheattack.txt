@@ -1,7 +1,7 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-09-12 11:05:02
-! Version: 20190912110502
+! Last modified: 2019-09-13 23:03:37
+! Version: 20190913230338
 ! Expires: 3 hours
 ! Number of filters: 11063
 ! Homepage: https://github.com/bogachenko/presstheattack/
@@ -21,9 +21,8 @@
 ! The list of filters below is primarily for uBlock Origin
 ! Download uBlock Origin from GitHub - https://github.com/gorhill/uBlock/releases/
 
-/(\W|\_)a(d[vs]e?|nnounceme|ds?)[rn][tev](s|ing|covers?|server?|isements?|ising|e(rs?)?|ements|ur)?/$important,popup
-/^(https?|wss?):\/\/([0-9a-z\-]+\.)?([0-9a-z\-]+\.)(accountant|bid|cf|club|cricket|date|download|faith|fun|ga|gdn|gq|loan|men|ml|network|ovh|party|pro|pw|racing|review|rocks|science|site|space|stream|tk|top|trade|webcam|win|xyz|zone)\/(.*)/$important,popup,third-party,websocket
 /^(https?|wss?):\/\/([0-9a-z\._-]+)\.(accountant|bid|cf|click|club|com|cricket|date|download|faith|fun|ga|gdn|gq|info|link|loan|men|ml|net|network|ovh|party|pro|pw|racing|review|rocks|ru|science|site|space|stream|tk|top|trade|webcam|win|xyz|zone)\.\/(.*)/$important
+/^(https?|wss?):\/\/([0-9a-z\-]+\.)?([0-9a-z\-]+\.)(accountant|bid|cf|club|cricket|date|download|faith|fun|ga|gdn|gq|loan|men|ml|network|ovh|party|pro|pw|racing|review|rocks|science|site|space|stream|tk|top|trade|webcam|win|xyz|zone)\/(.*)/$important,popup,third-party,websocket
 /^https:\/\/.*?\/v2\/0\/[a-zA-Z0-9_-]{30,}$/$important,script,third-party
 /^https:\/\/69([a-z]{1,2})\.([a-z]{4})/$important
 /^https?:\/\/(([a-zA-Z]{1})?[0-9]{1,4})?adserv\./$important
@@ -46,15 +45,15 @@
 /^https?:\/\/2ch\.(hk|pm|re|tf|wf|yt)\/(images|banners?)\//$image,important
 /^https?:\/\/[0-9a-z\-\.]+\.[a-z]{2,7}\/sw\.js\?[0-9a-zA-Z_&%]{32,}/$important,~third-party,xmlhttprequest
 /^https?:\/\/[^/]+\/[a-z0-9]{15,}(\?hope=.*)?$/$important,script
-/^https?:\/\/[^\s]+(\W|\_)(player|client|csi|gen(erate)?|stream|logs?|live)(\W|\_)?204\??/$image,important,other,xmlhttprequest
-/^https?:\/\/[^\s]+(\W|\_)ad[svbx]?\.php/$important,script,xmlhttprequest
-/^https?:\/\/[^\s]+(\W|\_)fingerprint([0-9]{1,2})?(\.min)?\.js/$image,important,script,xmlhttprequest
-/^https?:\/\/[^\s]+(\W|\_)log(\W|\_)?(type|event|entry|request)/$image,important,other,xmlhttprequest
-/^https?:\/\/[^\s]+(\W|\_)me([0-9]{1})?w\.js/$important,script
-/^https?:\/\/[^\s]+(\W|\_)ping(\W|\_)/$image,important,script,xmlhttprequest
-/^https?:\/\/[^\s]+(\W|\_)pixels?\./$image,important,object,script,subdocument,xmlhttprequest
-/^https?:\/\/[^\s]+(\W|\_)prebid([0-9]{1,2})?(\W|\_)/$important,script
-/^https?:\/\/[^\s]+(\W|\_)pubfig(\.min)?\.js/$important,script
+/^https?:\/\/[^\s]+[\W\w](player|client|csi|gen(erate)?|stream|logs?|live)[\W\w]?204\??/$image,important,other,xmlhttprequest
+/^https?:\/\/[^\s]+[\W\w]ad[svbx]?\.php/$important,script,xmlhttprequest
+/^https?:\/\/[^\s]+[\W\w]fingerprint([0-9]{1,2})?(\.min)?\.js/$image,important,script,xmlhttprequest
+/^https?:\/\/[^\s]+[\W\w]log[\W\w]?(type|event|entry|request)/$image,important,other,xmlhttprequest
+/^https?:\/\/[^\s]+[\W\w]me([0-9]{1})?w\.js/$important,script
+/^https?:\/\/[^\s]+[\W\w]ping[\W\w]/$image,important,script,xmlhttprequest
+/^https?:\/\/[^\s]+[\W\w]pixels?\./$image,important,object,script,subdocument,xmlhttprequest
+/^https?:\/\/[^\s]+[\W\w]prebid([0-9]{1,2})?[\W\w]/$important,script
+/^https?:\/\/[^\s]+[\W\w]pubfig(\.min)?\.js/$important,script
 /^https?:\/\/[^\s]+\.(cc\/$|club|com|online|ru)/$important,xmlhttprequest,domain=hdgo.cc|vio.to
 /^https?:\/\/[^\s]+\.[A-Za-z]{2,6}\/[^\s]{5,}\.js\?[A-Za-z]{1}\=[^\s]{50,}/$important,popup
 /^https?:\/\/[^\s]+\.[A-Za-z]{2,6}\/[A-Za-z]{1}\?tag\=[^\s]+\&site\=[A-Za-z0-9]{1,}\&ads?\=/$important,popup,script
@@ -63,7 +62,7 @@
 /^https?:\/\/[^\s]+\/([a-zA-Z]{1,4})?events?\.js/$important,other,script,xmlhttprequest
 /^https?:\/\/[^\s]+\/ads?\_onclick\.php/$important,script,xmlhttprequest
 /^https?:\/\/[^\s]+\/fp([0-9]{1,2})?\.js/$important,script
-/^https?:\/\/[^\s]+\/piwik((\W|\_)[_0-9-.]{5,})?\.js/$important,script
+/^https?:\/\/[^\s]+\/piwik([\W\w][_0-9-.]{5,})?\.js/$important,script
 /^https?:\/\/[^\s]+\/punder\/(script|license|custom)\./$important,script
 /^https?:\/\/[^\s]+\/s([0-9]{1,2})?\.js/$important,script
 /^https?:\/\/[^\s]+tags?\?id\=/$important,subdocument
@@ -2050,6 +2049,7 @@
 ||dhmwedckf.com^$important
 ||dhnxwgxszvi.com^$important
 ||dhomixidnkas.com^$important
+||dhq.xyz^$important
 ||dhrjzwqpweidm.bid^$important
 ||dhsztvyjwcmk.com^$important
 ||dhtqupvxujyfp.com^$important

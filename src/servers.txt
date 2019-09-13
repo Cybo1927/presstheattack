@@ -146,7 +146,6 @@
 ||aabmxezph.com^$important
 ||aacgeuvaoqbw.com^$important
 ||aaeqlxdgx.bid^$important
-||dhq.xyz^$important
 ||aagmbroxruno.com^$important
 ||aahfcroigwso.com^$important
 ||aajychvi.bid^$important
@@ -1637,6 +1636,7 @@
 ||dhmwedckf.com^$important
 ||dhnxwgxszvi.com^$important
 ||dhomixidnkas.com^$important
+||dhq.xyz^$important
 ||dhrjzwqpweidm.bid^$important
 ||dhsztvyjwcmk.com^$important
 ||dhtqupvxujyfp.com^$important
