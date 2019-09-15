@@ -39,6 +39,9 @@
 ||1xbet95.com^$important
 ||1xbkbet5.com^$important
 ||1xeemc.host^$important
+||tsyndolls.com^$important
+||xineday.com^$important
+||iociley.com^$important
 ||1xeha.world^$important
 ||1xgzu.world^$important
 ||1xjir.world^$important

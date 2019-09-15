@@ -13,6 +13,7 @@
 /^https?:\/\/partners?([0-9]{1,2})?\./$important
 /^https?:\/\/pixels?([0-9]{1,2})?\./$important
 /^https?:\/\/px([0-9]{1,2})?\./$important
+/^https?:\/\/re[ck]lam(a|s|er)?([0-9]{1,2})?\./$important
 /^https?:\/\/s?metric[as]?([0-9]{1,2})?\./$important,domain=~metrica.yandex.com|~metrica.yandex.ru|~metrika.yandex.com|~metrika.yandex.ru
 /^https?:\/\/stat(s|istics?)?([0-9]{1,2})?\./$important
 /^https?:\/\/tags?([0-9]{1,2})?\./$important
