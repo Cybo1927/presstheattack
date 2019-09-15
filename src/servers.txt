@@ -36,9 +36,6 @@
 ||1xbahisbuwv.com^$important
 ||1xbet.kz^$important
 ||1xbet53.com^$important
-||eetsooso.net^$important
-||whirgoom.com^$important
-||pushpad.xyz^$important
 ||1xbet95.com^$important
 ||1xbkbet5.com^$important
 ||1xeemc.host^$important
@@ -2013,6 +2010,7 @@
 ||eeqlxzpqqaii.com^$important
 ||eerdckbwujcx.com^$important
 ||eernnfbfby.com^$important
+||eetsooso.net^$important
 ||eexnoxqcmrja.com^$important
 ||efbxevtnq.com^$important
 ||efcnevmojvfs.com^$important
@@ -6680,6 +6678,7 @@
 ||pushnews.ru^$important
 ||pushno.com^$important
 ||pushofferpro.com^$important
+||pushpad.xyz^$important
 ||pushrase.com^$important
 ||pushsar.com^$important
 ||pushtora.com^$important
@@ -9299,6 +9298,7 @@
 ||whgsyczcofwf.com^$important
 ||whgvyswets.com^$important
 ||whinjxmkugky.com^$important
+||whirgoom.com^$important
 ||whjibbprhng.com^$important
 ||whjwcghg.com^$important
 ||whjxqqdhfp.com^$important
