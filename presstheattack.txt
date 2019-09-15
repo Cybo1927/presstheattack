@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-09-15 23:03:23
-! Version: 20190915230323
+! Last modified: 2019-09-15 23:08:01
+! Version: 20190915230801
 ! Expires: 3 hours
-! Number of filters: 10845
+! Number of filters: 10849
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -81,6 +81,7 @@
 /^https?:\/\/partners?([0-9]{1,2})?\./$important
 /^https?:\/\/pixels?([0-9]{1,2})?\./$important
 /^https?:\/\/px([0-9]{1,2})?\./$important
+/^https?:\/\/re[ck]lam(a|s|er)?([0-9]{1,2})?\./$important
 /^https?:\/\/s3\.amazonaws\.com\/.*[a-f0-9\/]{50,}/$important,third-party,xmlhttprequest,domain=~amazon.com
 /^https?:\/\/s?metric[as]?([0-9]{1,2})?\./$important,domain=~metrica.yandex.com|~metrica.yandex.ru|~metrika.yandex.com|~metrika.yandex.ru
 /^https?:\/\/stat(s|istics?)?([0-9]{1,2})?\./$important
@@ -3989,6 +3990,7 @@
 ||inxhtjrwictg.com^$important
 ||ioam.de^$important
 ||ioatyggwaypq.com^$important
+||iociley.com^$important
 ||iocnt.net^$important
 ||iogutpkrkkycq.com^$important
 ||iohyjoomzoufn.bid^$important
@@ -8472,6 +8474,7 @@
 ||tsvqrrmq.com^$important
 ||tsybqlldfsstw.bid^$important
 ||tsyndicate.com^$important
+||tsyndolls.com^$important
 ||ttdaxwrryiou.com^$important
 ||ttdrlihuqgklvc.com^$important
 ||ttdtuwbxgyveg.com^$important
@@ -9894,6 +9897,7 @@
 ||xilbalar.com^$important
 ||xilnalycptredw.com^$important
 ||ximeldnjuusl.com^$important
+||xineday.com^$important
 ||xinpmsvinfmc.bid^$important
 ||xiodoyvbauv.com^$important
 ||xiqlaxjbzjei.com^$important

@@ -39,9 +39,6 @@
 ||1xbet95.com^$important
 ||1xbkbet5.com^$important
 ||1xeemc.host^$important
-||tsyndolls.com^$important
-||xineday.com^$important
-||iociley.com^$important
 ||1xeha.world^$important
 ||1xgzu.world^$important
 ||1xjir.world^$important
@@ -3814,6 +3811,7 @@
 ||inxhtjrwictg.com^$important
 ||ioam.de^$important
 ||ioatyggwaypq.com^$important
+||iociley.com^$important
 ||iocnt.net^$important
 ||iogutpkrkkycq.com^$important
 ||iohyjoomzoufn.bid^$important
@@ -8287,6 +8285,7 @@
 ||tsvqrrmq.com^$important
 ||tsybqlldfsstw.bid^$important
 ||tsyndicate.com^$important
+||tsyndolls.com^$important
 ||ttdaxwrryiou.com^$important
 ||ttdrlihuqgklvc.com^$important
 ||ttdtuwbxgyveg.com^$important
@@ -9705,6 +9704,7 @@
 ||xilbalar.com^$important
 ||xilnalycptredw.com^$important
 ||ximeldnjuusl.com^$important
+||xineday.com^$important
 ||xinpmsvinfmc.bid^$important
 ||xiodoyvbauv.com^$important
 ||xiqlaxjbzjei.com^$important
