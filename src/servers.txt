@@ -22,7 +22,6 @@
 ||1.fembed.com^$important
 ||1063bac0d855f4e67bd4.date^$important
 ||110380d053f716c4.com^$important
-||adhese.com^$important
 ||12dc71b7cb820f2a.com^$important
 ||13d8ba78e080.com^$important
 ||14e6e1ee3d7236d41431.date^$important
@@ -227,6 +226,7 @@
 ||adfpkxvaqeyj.com^$important
 ||adglare.net^$important
 ||adgsfoxoavmc.com^$important
+||adhese.com^$important
 ||adhitzads.com^$important
 ||adition.com^$important
 ||adkontekst.pl^$important

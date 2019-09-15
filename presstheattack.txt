@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-09-15 23:24:33
-! Version: 20190915232433
+! Last modified: 2019-09-16 00:26:07
+! Version: 20190916002607
 ! Expires: 3 hours
-! Number of filters: 10851
+! Number of filters: 10809
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -59,7 +59,6 @@
 /^https?:\/\/[^\s]+\/([a-zA-Z]{1,4})?events?\.js/$important,other,script,xmlhttprequest
 /^https?:\/\/[^\s]+\/(popundr|punder)\/(script|license|custom)\./$important,script
 /^https?:\/\/[^\s]+\/fp([0-9]{1,2})?\.js/$important,script
-/^https?:\/\/[^\s]+\/js\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|heic|heif|webp|jxr|wdp|dng|cr2|arw)$/$image,important,script,xmlhttprequest
 /^https?:\/\/[^\s]+\/piwik([\W\w][_0-9-.]{5,})?\.js/$important,script
 /^https?:\/\/[^\s]+tags?\?id\=/$important,subdocument
 /^https?:\/\/[a-z0-9]+\.info\/+[-a-z0-9_?&=]{9,}/$important,script,third-party
@@ -94,80 +93,42 @@
 @@||yandex.st/swfobject/*^$script
 @@||yastatic.net/*-player-iframe-api-*/$script,subdocument,xmlhttprequest
 @@||yastatic.net/video-player/$subdocument
-|http*:*%*.juicyads.$image,important,script,xmlhttprequest
 |http*:*%22request_id%*%22idzone%$important
-|http*:*&ad_*&idzone=$image,important,script,xmlhttprequest
-|http*:*&hasads=$important,script,xmlhttprequest
 |http*:*&partnerid=$important,third-party,domain=~google.com
 |http*:*&zoneid=*&ext=$important
 |http*:**/rsya-tag-users/*^$important
 |http*:*.*.com/xj/$important
 |http*:*.com/native.php?b=$important
-|http*:*.js?dfp=$important,script,xmlhttprequest
 |http*:*.php?aid=pause_$important
 |http*:*/?ip=*&zoneid=$important,popup
-|http*:*/a/display.php^$important,script,subdocument,xmlhttprequest
 |http*:*/ad.aspx?$important
 |http*:*/adclck.*^$important,popup
 |http*:*/adclick.*^$important,popup
-|http*:*/ADLog.ashx$image,important,xmlhttprequest
-|http*:*/aff_i?offer_id=$image,important,script,xmlhttprequest
 |http*:*/afr.php?$important
-|http*:*/amp.gif$image,important,xmlhttprequest
-|http*:*/article/viewcount/$important,script,xmlhttprequest
-|http*:*/b/ss/*&ce=utf-8&$image,important,script,xmlhttprequest
-|http*:*/ban/json/*?*&subid=$image,important,script,xmlhttprequest
-|http*:*/bn.php?s=$important,script,xmlhttprequest
-|http*:*/bnr.php$important,script,xmlhttprequest
-|http*:*/cgi-bin/ivw/$image,important,script,xmlhttprequest
-|http*:*/clk.php?$important,script,xmlhttprequest
-|http*:*/code/bshow.php$important,script,xmlhttprequest
-|http*:*/col2/*&ss=$image,important,script,xmlhttprequest
-|http*:*/cookieid.htm$image,important,script,subdocument,xmlhttprequest
-|http*:*/ctrl.gif?ref=$important,script,xmlhttprequest
-|http*:*/dear_code/*/goclick?t=$important,script,xmlhttprequest
-|http*:*/dtm/*/satellitelib$important,script,xmlhttprequest
 |http*:*/eht.js?site_$important
-|http*:*/entry_stats^$important,script,xmlhttprequest
 |http*:*/epubdelivery/$important
-|http*:*/error/*.gif?msg=$image,important,script,xmlhttprequest
-|http*:*/g00/*/tu9srvbirvvtocrodhrwoi8vy3ataw4ubmfub3zpc29ylmlvl2nsawvudhbyb2zpbgvyl2fkyj9pmtbjlm1hcmsuc2nyaxb0lnr5cgu%3d_$other,script,~third-party,xmlhttprequest
 |http*:*/get_geoip?$important,xmlhttprequest
-|http*:*/get_links_*&zone=$important,script,xmlhttprequest
-|http*:*/get_site_data?*&href=$important,popup,script,xmlhttprequest
-|http*:*/GetAD.ashx$image,important,xmlhttprequest
 |http*:*/google-conversion.html$important,subdocument
-|http*:*/greenoaks.gif$image,important,other
 |http*:*/iframe.php?spotid=$important,subdocument
-|http*:*/imp?sid=$image,important,script,xmlhttprequest
-|http*:*/in.php?*&referer=$image,important,script,xmlhttprequest
-|http*:*/in.php?p=$image,important,script,xmlhttprequest
 |http*:*/in.php?referer=$important
-|http*:*/loadaudiencesegs^$important,script,xmlhttprequest
 |http*:*/mistats/$important
-|http*:*/mms/get_loaders$important,script,xmlhttprequest
-|http*:*/owa.messageadlist.$important,script,xmlhttprequest
 |http*:*/pagead/$important
 |http*:*/pi.aspx$important,subdocument
 |http*:*/pixel.js$important,script
 |http*:*/player_ads.html$important,subdocument
 |http*:*/pops.js$important,popup
-|http*:*/push.js*utm_campaign=$important,script,xmlhttprequest
-|http*:*/pv?fe=*&elg=$image,important,script,xmlhttprequest
 |http*:*/px.js$important,script
 |http*:*/redirect/cpa/$important
 |http*:*/rtrg?$image,important
 |http*:*/setbucket?signature=$important,subdocument
-|http*:*/site=*/size=*/viewid=$image,important,script,xmlhttprequest
-|http*:*/wt?p=$image,important,script
+|http*:*/video.counters.js$important,script
 |http*:*/www/*&zoneid=$image,important,script,xmlhttprequest
+|http*:*/xti.php^$important,script,xmlhttprequest,domain=facebook.com|facebookcorewwwi.onion
 |http*:*/yieldmanager/$important
 |http*:*=advertising-core-$important
 |http*:*=js_stats&$important
-|http*:*=widgetimpression^$image,important,script,subdocument,xmlhttprequest
 |http*:*?*&lp=*id=$popup
 |http*:*?act=counter&$important
-|http*:*?adtype=$important,script,xmlhttprequest
 |http*:*?lp=*id=$popup
 |http*:*?partner=$important,third-party,domain=~microsoft.com
 |http*:*?partner_id=$third-party
@@ -179,7 +140,6 @@
 |http*:*?type=pageview&$important,xmlhttprequest
 |http*:*?zone_id=$important,script
 |http*:*?zoneid=$important
-|http*:*_siteid=$important,script,xmlhttprequest
 ||0--e.info^$important
 ||00f31156f051fdf.com^$important
 ||06f24f3d0b.com^$important
@@ -383,7 +343,6 @@
 ||adcloud.net^$important
 ||addesigner.com^$important
 ||addgfxnb.com^$important
-||addthis.com^$important,third-party
 ||addtogether.club^$important
 ||adexchangegate.com^$important
 ||adeyujimmmh.com^$important
@@ -394,6 +353,7 @@
 ||adfpkxvaqeyj.com^$important
 ||adglare.net^$important
 ||adgsfoxoavmc.com^$important
+||adhese.com^$important
 ||adhitzads.com^$important
 ||adition.com^$important
 ||adkontekst.pl^$important
@@ -2509,8 +2469,6 @@
 ||f54ab0a54a.com^$important
 ||f6be7033f30.com^$important
 ||fabrtgzehf.com^$important
-||facebook.com/xti.php^$important,script,xmlhttprequest
-||facebookcorewwwi.onion/xti.php^$important,script,xmlhttprequest
 ||facitating.pro^$important
 ||facqgdunsgf.com^$important
 ||facsowlaufzk.com^$important
