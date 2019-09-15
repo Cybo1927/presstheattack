@@ -18,6 +18,7 @@
 /^https?:\/\/stat(s|istics?)?([0-9]{1,2})?\./$important
 /^https?:\/\/tags?([0-9]{1,2})?\./$important
 /^https?:\/\/track(ers?|ing)?([0-9]{1,2})?\./$important
+|http*:*?zone_id=$important
 |http*:*?zoneid=$important
 ||google.*/ads/$important
 ||google.*/adsense/$important
@@ -26,4 +27,3 @@
 ||google.*/uds/$important
 ||yandex.ru/clck/jclck/$important
 ||youtube.com/pagead/$important
-|http*:*?zone_id=$important

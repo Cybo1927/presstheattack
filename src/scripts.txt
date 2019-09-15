@@ -18,4 +18,3 @@
 |http*:*/pixel.js$important,script
 |http*:*/px.js$important,script
 |http*:*/video.counters.js$important,script
-
