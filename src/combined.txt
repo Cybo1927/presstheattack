@@ -5,7 +5,6 @@
 /^https?:\/\/[^\s]+\.[A-Za-z]{2,6}\/[A-Za-z]{1}\?tag\=[^\s]+\&site\=[A-Za-z0-9]{1,}\&ads?\=/$important,popup,script
 /^https?:\/\/[^\s]+\/([a-zA-Z]{1,4})?events?\.js/$important,other,script,xmlhttprequest
 /^https?:\/\/[^\s]+\/js\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|heic|heif|webp|jxr|wdp|dng|cr2|arw)$/$image,important,script,xmlhttprequest
-/^https?:\/\/[^\s]+\/stats?\./$image,important,script,xmlhttprequest
 |http*:*%*.juicyads.$image,important,script,xmlhttprequest
 |http*:*&ad_*&idzone=$image,important,script,xmlhttprequest
 |http*:*&hasads=$important,script,xmlhttprequest
