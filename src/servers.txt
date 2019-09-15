@@ -38,7 +38,6 @@
 ||1xbet53.com^$important
 ||1xbet95.com^$important
 ||1xbkbet5.com^$important
-||phokukse.com^$important
 ||1xeemc.host^$important
 ||1xeha.world^$important
 ||1xgzu.world^$important
@@ -6441,6 +6440,7 @@
 ||phhigelii.com^$important
 ||phiubpdrh.com^$important
 ||phlslvetboouo.bid^$important
+||phokukse.com^$important
 ||phonenewmessage.com^$important
 ||phqqzdemby.bid^$important
 ||phragnmpo.com^$important
