@@ -26,3 +26,4 @@
 ||google.*/uds/$important
 ||yandex.ru/clck/jclck/$important
 ||youtube.com/pagead/$important
+|http*:*?zone_id=$important
