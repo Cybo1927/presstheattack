@@ -16,4 +16,5 @@
 /^https?:\/\/cdn[0-9]{1,2}?\.rocks\/[^\s]{30,}\.js/$important,script
 /^https?:\/\/www\.([a-z]{6,16})\.com\/([a-z]{1,4})\.js$/$important,script,third-party
 |http*:*/px.js$important,script
+|http*:*/pixel.js$important,script
 |http*:*?zone_id=$important,script
