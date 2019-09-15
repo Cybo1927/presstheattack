@@ -5,3 +5,4 @@
 ||web.telegram.org/*/PhotoThumbConversation.gif$image,important,domain=telegram.org
 ||yastatic.net/*.gif$image,important,domain=~mail.yandex.by|~mail.yandex.ru|~mail.yandex.ua
 ||youtube.com/ptracking^$image,important
+|http*:*/rtrg?$image,important
