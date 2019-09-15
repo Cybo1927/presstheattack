@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-09-15 18:55:58
-! Version: 20190915185558
+! Last modified: 2019-09-15 19:45:40
+! Version: 20190915194540
 ! Expires: 3 hours
-! Number of filters: 11094
+! Number of filters: 11091
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -46,11 +46,9 @@
 /^https?:\/\/[0-9a-z\-\.]+\.[a-z]{2,7}\/sw\.js\?[0-9a-zA-Z_&%]{32,}/$important,~third-party,xmlhttprequest
 /^https?:\/\/[^/]+\/[a-z0-9]{15,}(\?hope=.*)?$/$important,script
 /^https?:\/\/[^\s]+[\W\w](player|client|csi|gen(erate)?|stream|logs?|live)[\W\w]?204\??/$image,important,other,xmlhttprequest
-/^https?:\/\/[^\s]+[\W\w]ad[svbx]?\.php/$important,script,xmlhttprequest
 /^https?:\/\/[^\s]+[\W\w]fingerprint([0-9]{1,2})?(\.min)?\.js/$image,important,script,xmlhttprequest
 /^https?:\/\/[^\s]+[\W\w]log[\W\w]?(type|event|entry|request)/$image,important,other,xmlhttprequest
 /^https?:\/\/[^\s]+[\W\w]me([0-9]{1})?w\.js/$important,script
-/^https?:\/\/[^\s]+[\W\w]ping[\W\w]/$image,important,script,xmlhttprequest
 /^https?:\/\/[^\s]+[\W\w]pixels?\./$image,important,object,script,subdocument,xmlhttprequest
 /^https?:\/\/[^\s]+[\W\w]prebid([0-9]{1,2})?[\W\w]/$important,script
 /^https?:\/\/[^\s]+[\W\w]pubfig(\.min)?\.js/$important,script
@@ -60,7 +58,6 @@
 /^https?:\/\/[^\s]+\.com\/[0-9a-z]{8}\.js#spot\=[0-9]{5}$/$important,script
 /^https?:\/\/[^\s]+\/([^\s]{4})?tag\.min\.([a-z0-9]{30,}\.)?js/$important,script
 /^https?:\/\/[^\s]+\/([a-zA-Z]{1,4})?events?\.js/$important,other,script,xmlhttprequest
-/^https?:\/\/[^\s]+\/ads?\_onclick\.php/$important,script,xmlhttprequest
 /^https?:\/\/[^\s]+\/fp([0-9]{1,2})?\.js/$important,script
 /^https?:\/\/[^\s]+\/piwik([\W\w][_0-9-.]{5,})?\.js/$important,script
 /^https?:\/\/[^\s]+\/punder\/(script|license|custom)\./$important,script
