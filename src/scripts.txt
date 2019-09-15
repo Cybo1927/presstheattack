@@ -18,3 +18,4 @@
 |http*:*/pixel.js$important,script
 |http*:*/px.js$important,script
 |http*:*?zone_id=$important,script
+|http*:*/video.counters.js$important,script
