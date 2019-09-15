@@ -1,7 +1,7 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-09-15 20:07:59
-! Version: 20190915200759
+! Last modified: 2019-09-15 20:17:25
+! Version: 20190915201725
 ! Expires: 3 hours
 ! Number of filters: 10843
 ! Homepage: https://github.com/bogachenko/presstheattack/
@@ -66,7 +66,7 @@
 /^https?:\/\/[a-z0-9]{4,12}\.(accountant|bid|cf|club|cricket|date|download|faith|fun|ga|gdn|gq|host|info|loan|men|ml|online|ovh|party|pro|pw|racing|review|rocks|science|site|space|stream|tk|top|trade|webcam|website|win|xyz|store|solutions|software|social|site|shop|services|sale|run|rip|reviews|restaurant|report|zone)\/[\w\/\-.+]{120,}/$subdocument,third-party
 /^https?:\/\/[a-z0-9]{5,15}\.(click|com|bid|net|online|top|club)\/[0-9a-z]{8,12}\?key\=[0-9a-f]{32}$/$important,popup,third-party
 /^https?:\/\/a?clic?k\./$important
-/^https?:\/\/ad[bsxv]?([0-9]{1,2})?\./$important,domain=~ad.nl
+/^https?:\/\/ad[bsxv]?([0-9]{1,2})?\./$important,domain=~ad.nl|~ads.google.com
 /^https?:\/\/ad[svx]?([0-9]{1,2})?\./$important,popup
 /^https?:\/\/aff(iliat(es?|ion))?([0-9]{1,2})?\./$important
 /^https?:\/\/beacons?([0-9]{1,2})?\./$important
@@ -82,7 +82,7 @@
 /^https?:\/\/pixels?([0-9]{1,2})?\./$important
 /^https?:\/\/px([0-9]{1,2})?\./$important
 /^https?:\/\/s3\.amazonaws\.com\/.*[a-f0-9\/]{50,}/$important,third-party,xmlhttprequest,domain=~amazon.com
-/^https?:\/\/s?metric[as]?([0-9]{1,2})?\./$important
+/^https?:\/\/s?metric[as]?([0-9]{1,2})?\./$important,domain=~metrica.yandex.com|~metrica.yandex.ru|~metrika.yandex.com|~metrika.yandex.ru
 /^https?:\/\/stat(s|istics?)?([0-9]{1,2})?\./$important
 /^https?:\/\/tags?([0-9]{1,2})?\./$important
 /^https?:\/\/track(ers?|ing)?([0-9]{1,2})?\./$important
