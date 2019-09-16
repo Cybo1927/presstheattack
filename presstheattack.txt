@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-09-16 00:29:58
-! Version: 20190916002958
+! Last modified: 2019-09-16 13:04:58
+! Version: 20190916130458
 ! Expires: 3 hours
-! Number of filters: 10784
+! Number of filters: 10787
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -130,6 +130,7 @@
 ||197c3b10bab3c1.com^$important
 ||1b8d89551340a.com^$important
 ||1b969cef84d93b43.com^$important
+||1bfc228b50a902db.com^$important
 ||1cb70f6b7aab4c70819a.date^$important
 ||1fbaa223d6945621f8d7.date^$important
 ||1fc4d6ccf2.com^$important
@@ -1434,7 +1435,6 @@
 ||com-shield.live^$important
 ||comnop.icu^$important
 ||connatix.com^$important
-||connect.ok.ru^$important,third-party
 ||connectad.io^$important
 ||content-ad.net^$important
 ||contentsfeed.com^$important
@@ -2085,6 +2085,7 @@
 ||ecxtuyttpfe.bid^$important
 ||ed37f29a312.com^$important
 ||ed77c4363c7.com^$important
+||ed98512111bb19e5.in.net^$important
 ||edfthzanlsyse.com^$important
 ||edgsscofljhc.com^$important
 ||edigitalsurvey.com^$important
@@ -6779,6 +6780,7 @@
 ||pugfgjvrivfm.bid^$important
 ||pugpwrqsk.bid^$important
 ||punfbtrcvfdxl.com^$important
+||punksgotoserver129.live^$important
 ||punlkhusprgw.com^$important
 ||punvqjsvnmubxb.com^$important
 ||puogotzrsvtg.com^$important
@@ -10081,6 +10083,7 @@
 ||yaizwjvnxctz.com^$important
 ||yalyuzvlr.bid^$important
 ||yamrxfbkpirt.com^$important
+||yandex.ru/clck/clck/$important
 ||yandex.ru/clck/jclck/$important
 ||yandex.st^$domain=~yandex.by|~yandex.ru|~yandex.ua
 ||yaoslgiweccw.com^$important
