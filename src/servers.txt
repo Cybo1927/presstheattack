@@ -1332,7 +1332,6 @@
 ||com-shield.live^$important
 ||comnop.icu^$important
 ||connatix.com^$important
-||connect.ok.ru^$important,third-party
 ||connectad.io^$important
 ||content-ad.net^$important
 ||contentsfeed.com^$important
@@ -1342,6 +1341,9 @@
 ||cookielaw.org^$third-party
 ||cortxphssdvc.com^$important
 ||coshfgpgab.com^$important
+||ed98512111bb19e5.in.net^$important
+||1bfc228b50a902db.com^$important
+||punksgotoserver129.live^$important
 ||count.taobao.com^$important
 ||covjoecuzyss.com^$important
 ||cowmslkltc.com^$important
