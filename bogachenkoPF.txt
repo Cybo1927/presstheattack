@@ -4656,6 +4656,8 @@ pixel.$important,image,badfilter
 @@||skyscanner.nl^$elemhide,badfilter
 @@||skyscanner.no^$elemhide,badfilter
 @@||skyscanner.pl^$elemhide,badfilter
+github.com#@#.is-stuck.gh-header-sticky.top-0.js-sticky-offset-scroll.js-sticky
+#@#a[href$="/ads"]
 @@||skyscanner.pt^$elemhide,badfilter
 @@||skyscanner.ro^$elemhide,badfilter
 @@||skyscanner.ru^$elemhide,badfilter
@@ -4697,6 +4699,23 @@ pixel.$important,image,badfilter
 @@||stubhub.co.uk^$elemhide,badfilter
 @@||stubhub.com^$elemhide,badfilter
 @@||subito.it^$elemhide,badfilter
+play.google.com#@#.card-list.two-cards:style(margin-left: 220px !important; margin-right:15px)
+play.google.com#@#.cluster-heading:style(margin-left: 220px !important)
+play.google.com#@#.UTg3hd:style(margin-left:5px !important;margin-top:5px !important;max-width:none !important)
+play.google.com#@#.tlG8q:style(margin-left:10px !important;margin-top:10px !important)
+play.google.com#@#.LXrl4c:style(width: 860px !important)
+play.google.com#@#.hkhL9e:style(width: 220px !important)
+play.google.com#@#.hAyfc:style(width: 250px !important)
+play.google.com#@#.W4P4ne:style(padding-left: 10px !important;padding-right: 10px !important)
+play.google.com#@#.UD7Dzf:style(width: 762px !important)
+play.google.com#@#.W4P4nw:style(margin-left: 10px !important;margin-right: 10px !important)
+play.google.com#@#.XYLQ2b:style(width: 900px !important)
+play.google.com#@#.Eg31qe:style(width: 780px !important)
+play.google.com#@#.Njo8s:style(width:900px !important)
+play.google.com#@#.wAHRxd:style(width:420px !important;max-width:450px !important)
+play.google.com#@#.body-content:style(margin-left:205px !important)
+play.google.com#@#div.main-content:style(margin-left:7px !important)
+play.google.com#@#div.meta-info:style(width:200px !important)
 @@||suche.1und1.de^$elemhide,badfilter
 @@||suche.aol.de^$elemhide,badfilter
 @@||suche.gmx.at^$elemhide,badfilter
