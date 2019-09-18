@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-09-16 13:04:58
-! Version: 20190916130458
+! Last modified: 2019-09-18 13:21:09
+! Version: 20190918132109
 ! Expires: 3 hours
-! Number of filters: 10787
+! Number of filters: 10791
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -1017,6 +1017,7 @@
 ||bnstnhto.com^$important
 ||bnwjoqkudmh.bid^$important
 ||boaawvdg.com^$important
+||boacheeb.com^$important
 ||bobwjhcuavqklk.com^$important
 ||bocksnabswdq.com^$important
 ||bocqmlgslzoo.com^$important
@@ -5119,6 +5120,7 @@
 ||lovechats.org^$important
 ||lovnxkrszlsb.com^$important
 ||lovvznyhujf.com^$important
+||lowgraveleron.com^$important
 ||lowqnzsxtmvb.bid^$important
 ||loxmetwdjrmh.com^$important
 ||lp4.io^$important
@@ -6781,11 +6783,13 @@
 ||pugpwrqsk.bid^$important
 ||punfbtrcvfdxl.com^$important
 ||punksgotoserver129.live^$important
+||punksgotoserver21.live^$important
 ||punlkhusprgw.com^$important
 ||punvqjsvnmubxb.com^$important
 ||puogotzrsvtg.com^$important
 ||pushads.biz^$important
 ||pushame.com^$important
+||pushance.com^$important
 ||pushanert.com^$important
 ||pushazam.com^$important
 ||pushbaddy.com^$important
@@ -8475,7 +8479,6 @@
 ||twfilnym.com^$important
 ||twfzouvm.com^$important
 ||twhsmftwybkfn.bid^$important
-||twitch.tv^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' wss: blob: *.jtvnw.net *.ttvnw.net *.twitchcdn.net *.twitch.tv *.facebook.com *.facebook.net recaptcha.net *.google.com *.gstatic.com *.algolia.net;
 ||twitter.com/*/toast_poll^$important,xmlhttprequest
 ||twitter.com/i/jot^$important,xmlhttprequest
 ||twiyetehf.com^$important
@@ -8921,6 +8924,7 @@
 ||vapgfhsecbit.com^$important
 ||vaqkvpbtia.com^$important
 ||variablefitness.com^$important
+||variti.net^$important
 ||vasfxpribls.com^$important
 ||vaslssynz.com^$important
 ||vatytxdw.com^$important

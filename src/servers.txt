@@ -915,6 +915,7 @@
 ||bnstnhto.com^$important
 ||bnwjoqkudmh.bid^$important
 ||boaawvdg.com^$important
+||boacheeb.com^$important
 ||bobwjhcuavqklk.com^$important
 ||bocksnabswdq.com^$important
 ||bocqmlgslzoo.com^$important
@@ -5007,6 +5008,7 @@
 ||lovechats.org^$important
 ||lovnxkrszlsb.com^$important
 ||lovvznyhujf.com^$important
+||lowgraveleron.com^$important
 ||lowqnzsxtmvb.bid^$important
 ||loxmetwdjrmh.com^$important
 ||lp4.io^$important
@@ -6664,11 +6666,13 @@
 ||pugpwrqsk.bid^$important
 ||punfbtrcvfdxl.com^$important
 ||punksgotoserver129.live^$important
+||punksgotoserver21.live^$important
 ||punlkhusprgw.com^$important
 ||punvqjsvnmubxb.com^$important
 ||puogotzrsvtg.com^$important
 ||pushads.biz^$important
 ||pushame.com^$important
+||pushance.com^$important
 ||pushanert.com^$important
 ||pushazam.com^$important
 ||pushbaddy.com^$important
@@ -8344,11 +8348,6 @@
 ||tvqmuysbnorks.bid^$important
 ||tvrfpkvotabukw.com^$important
 ||tvvnxcwqwzv.com^$important
-||boacheeb.com^$important
-||lowgraveleron.com^$important
-||pushance.com^$important
-||punksgotoserver21.live^$important
-||variti.net^$important
 ||tvvozxml.com^$important
 ||tvwewigpqjj.com^$important
 ||tvxcesibr.bid^$important
@@ -8801,6 +8800,7 @@
 ||vapgfhsecbit.com^$important
 ||vaqkvpbtia.com^$important
 ||variablefitness.com^$important
+||variti.net^$important
 ||vasfxpribls.com^$important
 ||vaslssynz.com^$important
 ||vatytxdw.com^$important
