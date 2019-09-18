@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-09-18 17:06:26
-! Version: 20190918170626
+! Last modified: 2019-09-19 09:54:08
+! Version: 20190919095408
 ! Expires: 3 hours
-! Number of filters: 10790
+! Number of filters: 10791
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -101,6 +101,7 @@
 |http*:*/hads-ak-prn*/*.png$image,important
 |http*:*/iframe.php?spotid=$important,subdocument
 |http*:*/ntfc.php?$important
+|http*:*/pagead/$important
 |http*:*/pi.aspx$important,subdocument
 |http*:*/player_ads.html$important,subdocument
 |http*:*/rtrg?$image,important
@@ -477,6 +478,7 @@
 ||aizopowmtnho.com^$important
 ||aj1110.online^$important
 ||aj1616.online^$important
+||aj1713.online^$important
 ||ajaeihzlcwvn.com^$important
 ||ajfziqehnwvz.com^$important
 ||ajizjpjkrnh.com^$important
@@ -10299,8 +10301,7 @@
 ||your-server.de^$important
 ||youtube.com/api/stats/$image,important,other,xmlhttprequest
 ||youtube.com/get_midroll_info^$important,xmlhttprequest
-||youtube.com/get_video_info^$important,xmlhttprequest
-||youtube.com/pagead/$important
+||youtube.com/get_video_info?*el=adunit$important,xmlhttprequest
 ||youtube.com/ptracking^$image,important
 ||yovbkyylqlmkg.bid^$important
 ||yovqbcixogwc.com^$important

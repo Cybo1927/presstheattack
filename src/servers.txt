@@ -40,7 +40,6 @@
 ||1xbet95.com^$important
 ||1xbkbet5.com^$important
 ||1xeemc.host^$important
-||aj1713.online^$important
 ||1xeha.world^$important
 ||1xgzu.world^$important
 ||1xjir.world^$important
@@ -378,6 +377,7 @@
 ||aizopowmtnho.com^$important
 ||aj1110.online^$important
 ||aj1616.online^$important
+||aj1713.online^$important
 ||ajaeihzlcwvn.com^$important
 ||ajfziqehnwvz.com^$important
 ||ajizjpjkrnh.com^$important
