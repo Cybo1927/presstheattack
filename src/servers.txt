@@ -8344,6 +8344,11 @@
 ||tvqmuysbnorks.bid^$important
 ||tvrfpkvotabukw.com^$important
 ||tvvnxcwqwzv.com^$important
+||boacheeb.com^$important
+||lowgraveleron.com^$important
+||pushance.com^$important
+||punksgotoserver21.live^$important
+||variti.net^$important
 ||tvvozxml.com^$important
 ||tvwewigpqjj.com^$important
 ||tvxcesibr.bid^$important
@@ -8353,7 +8358,6 @@
 ||twfilnym.com^$important
 ||twfzouvm.com^$important
 ||twhsmftwybkfn.bid^$important
-||twitch.tv^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' wss: blob: *.jtvnw.net *.ttvnw.net *.twitchcdn.net *.twitch.tv *.facebook.com *.facebook.net recaptcha.net *.google.com *.gstatic.com *.algolia.net;
 ||twiyetehf.com^$important
 ||twjboytcwutbrt.com^$important
 ||twmeccosyivi.com^$important
