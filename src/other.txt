@@ -30,3 +30,4 @@
 ||yandex.ru/clck/clck/$important
 ||yandex.ru/clck/jclck/$important
 ||youtube.com/pagead/$important
+|http*:*/pagead/*$important
