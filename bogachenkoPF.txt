@@ -5048,19 +5048,65 @@ _ad1^$badfilter
 #@#.video-share-icons
 _ad1_$badfilter
 _ad2-$badfilter
+travis-ci.org#@#.wrapper-main:style(max-width: none !important; width: 92% !important)
+travis-ci.org#@#.main:style(max-width: none !important)
 _ad2.$badfilter
 _ad2^$badfilter
 _ad2_$badfilter
 _ad3-$badfilter
 _ad3.$badfilter
+soundcloud.com#@#.l-container:style(width: 95vw !important)
+soundcloud.com#@#body:style(background: none !important)
+soundcloud.com#@#.playbackSoundBadge__avatar > div > .sc-artwork:style(width: 46px !important; height: 46px !important)
+soundcloud.com#@#.playbackSoundBadge__avatar > div:style(width: 46px !important; height: 46px !important)
+soundcloud.com#@#.playbackSoundBadge__avatar:style(width: 46px !important; height: 46px !important; margin-right: 3px !important)
 _ad3^$badfilter
 _ad3_$badfilter
 _ad4-$badfilter
 _ad4.$badfilter
 _ad4^$badfilter
+wikia.org,fandom.com#@##WikiaPage:style(width: 100% !important; max-width: none !important; margin: 0px !important; padding: 0px  !important)
+wikia.org,fandom.com#@##PageHeader:style(padding: 16px 10px 12px)
+wikia.org,fandom.com#@##WikiaMainContent:style(width: 100% !important; margin: 0px !important)
+wikia.org,fandom.com#@##WikiaMainContentContainer:style(margin: 0px !important)
 _ad4_$badfilter
 _ad5-$badfilter
 _ad5.$badfilter
+github.com#@#.container-lg:style(max-width: none !important)
+github.com#@#.container:style(width: 100% !important; padding-left: 30px !important; padding-right: 30px !important)
+github.com#@#.container-lg:style(width: 100% !important; padding-left: 30px !important; padding-right: 30px !important)
+github.com#@#.file-header:after:style(clear: left !important)
+github.com#@#.container-xl:style(max-width: none !important)
+github.com#@#.js-discussion:style(width: calc(100vw - 230px) !important)
+github.com#@#.repository-content:style(width: 100% !important)
+github.com#@#.repository-with-sidebar:style(padding-right: 60px !important)
+github.com#@#.repository-with-sidebar > .repository-sidebar:style(margin-right: -60px !important)
+github.com#@#.summary-stats:style(display: table; width: 100%)
+github.com#@#.authors-and-code:style(display: table; width: 100%)
+github.com#@#.summary-stats > li:style(width: 25%)
+github.com#@#.authors-and-code > .section:style(width: 50%)
+github.com#@#.with-full-navigation:style(padding-right: 190px !important)
+github.com#@#.with-full-navigation > .repository-sidebar:style(margin-right: -190px !important)
+github.com#@#.discussion-sidebar:style(width: 220px !important)
+github.com#@#.discussion-timeline:style(width: 100% !important)
+github.com#@#.col-9:style(width: 100% !important)
+github.com#@##dashboard:style(position: relative !important)
+github.com#@#.new-issue-form:style(position: relative !important)
+github.com#@#body:not(.full-width) .dashboard-sidebar:style(position: absolute !important; top: 0 !important; right: 0 !important)
+github.com#@#.new-issue-form > .discussion-sidebar:style(position: absolute !important; top: 0 !important; right: 0 !important)
+github.com#@#button.discussion-sidebar-toggle:style(width: 100% !important)
+github.com#@#.timeline-new-comment:style(max-width: none !important)
+github.com#@#body:not(.full-width) .news:style(float: none !important; margin-right: 360px !important)
+github.com#@#.settings-content:style(float: none !important; width: auto !important; overflow: auto !important)
+github.com#@#.repo-settings-content:style(float: none !important; width: auto !important; overflow: auto !important)
+github.com#@#.container > .settings-content, .repo-settings-content:style(margin-left: 260px !important)
+github.com#@##repo-settings > .menu-container:style(width: 240px !important)
+github.com#@##js-flash-container > .flash-messages:style(width: 100% !important; padding-left: 30px !important; padding-right: 30px !important)
+github.com#@#.u-photo .avatar:style(width: 230px !important)
+github.com#@#.h-card:style(width: 230px; margin-right: 16px)
+github.com#@#.commit-desc > .text-small:style(max-width: none !important)
+github.com#@##comments > .timeline-comment-wrapper:style(width: calc(100vw - 240px) !important)
+github.com#@#.js-blob-filename:style(width: 400px !important)
 _ad5^$badfilter
 _ad5_$badfilter
 _ad6-$badfilter
