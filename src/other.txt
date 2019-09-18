@@ -17,9 +17,9 @@
 /^https?:\/\/stat(s|istics?)?([0-9]{1,2})?\./$important
 /^https?:\/\/tags?([0-9]{1,2})?\./$important
 /^https?:\/\/track(ers?|ing)?([0-9]{1,2})?\./$important
+|http*:*/afu.php?$important
 |http*:*?zone_id=$important
 |http*:*?zoneid=$important
-|http*:*/afu.php?$important
 ||google.*/ads/$important
 ||google.*/adsense/$important
 ||google.*/log?$important

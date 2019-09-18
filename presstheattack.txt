@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-09-18 15:48:33
-! Version: 20190918154833
+! Last modified: 2019-09-18 16:05:05
+! Version: 20190918160505
 ! Expires: 3 hours
-! Number of filters: 10787
+! Number of filters: 10780
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -29,8 +29,8 @@
 /^https?:\/\/([0-9a-z\.-_]+)\.(accountant|bid|cf|club|cricket|date|download|faith|fun|ga|gdn|gq|loan|men|ml|network|ovh|party|pro|pw|racing|review|rocks|science|site|space|stream|tk|top|trade|webcam|win|xyz|zone)(\.)\/(.*)/$important,script,third-party
 /^https?:\/\/([a-z0-9]{3,10}\.)?[a-z0-9]{5,15}\.(click|com|bid|net|online|top|club)\/([a-z0-9]{2}\/){3}[a-f0-9]{32}\.js$/$important,script
 /^https?:\/\/([a-z0-9]{8,10}\.)?[a-z0-9]{5,14}\.(com|bid|online|top|club)\/([a-z0-9]{2}\/){3}[a-f0-9]{32}\.js$/$important,script,third-party
-/^https?:\/\/([A-Za-z0-9]{3,}\.)?(([0-9]{1,2})?l\-hit|([0-9]{1,2})?l\-view|r([0-9]{1,2})?|rs|staging|(vk|stepan\-fe)\.go|reklama|ads?|recostream\.go|([^\s]{10,}\.)?top([0-9]{1}|\-(fwz([0-9]{1,2})?))?|mediator|[^\s]{3,}\.radar|g?stat|xray|t|fmdata)\.(imgs)?mail\.ru/$important,popup
 /^https?:\/\/([A-Za-z0-9]{3,}\.)?(([0-9]{1,2})?l\-hit|([0-9]{1,2})?l\-view|rs|staging|(vk|stepan\-fe)\.go|reklama|ads?|recostream\.go|([^\s]{10,}\.)?top([0-9]{1}|\-(fwz([0-9]{1,2})?))?|mediator|[^\s]{3,}\.radar|g?stat|xray|t|fmdata)\.(imgs)?mail\.ru/$important
+/^https?:\/\/([A-Za-z0-9]{3,}\.)?(([0-9]{1,2})?l\-hit|([0-9]{1,2})?l\-view|rs|staging|(vk|stepan\-fe)\.go|reklama|ads?|recostream\.go|([^\s]{10,}\.)?top([0-9]{1}|\-(fwz([0-9]{1,2})?))?|mediator|[^\s]{3,}\.radar|g?stat|xray|t|fmdata)\.(imgs)?mail\.ru/$important,popup
 /^https?:\/\/([A-Za-z0-9]{3,}\.)?(id|gg|adservice|mobilecrashreporting|imasdk|fundingchoicesmessages|safebrowsing)\.google(apis)?\.[A-Za-z.]{2,7}/$important
 /^https?:\/\/([A-Za-z0-9]{3,}\.)?google(\-analytics|syndication|adservices|tagservices)\.[A-Za-z.]{2,7}/$important
 /^https?:\/\/(analysis|analytic[as]?)([0-9]{1,2})?\./$important,domain=~analytics.google.com
@@ -42,11 +42,10 @@
 /^https?:\/\/(www\.)?(client\-event\-reporter|countess|mp|polyfill|sentinel|spade|trowel|fan)\.twitch(svc)?\.(com|net|tv)/$important
 /^https?:\/\/(www\.)?(facebookcorewwwi|facebook)\.(com|net|onion)\/tr\D/$important
 /^https?:\/\/(www\.)?dyncdn\.me\/static\/[0-9]{1,2}\/js\/expla[0-9]{1,2}\.js/$important,script
-/^https?:\/\/[0-9a-z\-\.]+\.[a-z]{2,7}\/sw\.js\?[0-9a-zA-Z_&%]{32,}/$important,~third-party,xmlhttprequest
 /^https?:\/\/[^/]+\/[a-z0-9]{15,}(\?hope=.*)?$/$important,script
 /^https?:\/\/[^\s]+[\W\w](fingerprint|fp)([0-9]{1,2})?(\.min)?\.js/$image,important,script,xmlhttprequest
 /^https?:\/\/[^\s]+[\W\w](player|client|csi|gen(erate)?|stream|logs?|live)[\W\w]?204\??/$image,important,other,xmlhttprequest
-/^https?:\/\/[^\s]+[\W\w]?pixel\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|heic|heif|webp|jxr|wdp|dng|cr2|arw)\?/$image,important
+/^https?:\/\/[^\s]+[\W\w]?pi?xe?l\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|heic|heif|webp|jxr|wdp|dng|cr2|arw|js)\?/$image,important,script
 /^https?:\/\/[^\s]+[\W\w]log[\W\w]?(type|event|entry|request)/$image,important,other,xmlhttprequest
 /^https?:\/\/[^\s]+[\W\w]me([0-9]{1})?w\.js/$important,script
 /^https?:\/\/[^\s]+[\W\w]prebid([0-9]{1,2})?[\W\w]/$important,script
@@ -56,14 +55,12 @@
 /^https?:\/\/[^\s]+\.[A-Za-z]{2,6}\/[A-Za-z]{1}\?tag\=[^\s]+\&site\=[A-Za-z0-9]{1,}\&ads?\=/$important,popup,script
 /^https?:\/\/[^\s]+\.com\/[0-9a-z]{8}\.js#spot\=[0-9]{5}$/$important,script
 /^https?:\/\/[^\s]+\/([^\s]{4})?tag\.min\.([a-z0-9]{30,}\.)?js/$important,script
-/^https?:\/\/[^\s]+\/([a-zA-Z]{1,4})?events?\.js/$important,other,script,xmlhttprequest
 /^https?:\/\/[^\s]+\/(popundr|punder)\/(script|license|custom)\./$important,script
 /^https?:\/\/[^\s]+\/piwik([\W\w][_0-9-.]{5,})?\.js/$important,script
 /^https?:\/\/[^\s]+tags?\?id\=/$important,subdocument
 /^https?:\/\/[a-z0-9]+\.info\/+[-a-z0-9_?&=]{9,}/$important,script,third-party
 /^https?:\/\/[a-z0-9]{4,12}\.(accountant|bid|cf|club|cricket|date|download|faith|fun|ga|gdn|gq|host|info|loan|men|ml|online|ovh|party|pro|pw|racing|review|rocks|science|site|space|stream|tk|top|trade|webcam|website|win|xyz|store|solutions|software|social|site|shop|services|sale|run|rip|reviews|restaurant|report|zone)\/[\w\/\-.+]{120,}/$subdocument,third-party
 /^https?:\/\/[a-z0-9]{5,15}\.(click|com|bid|net|online|top|club)\/[0-9a-z]{8,12}\?key\=[0-9a-f]{32}$/$important,popup,third-party
-/^https?:\/\/a?clic?k\./$important
 /^https?:\/\/ad[bsxv]?([0-9]{1,2})?\./$important,domain=~ad.nl|~ads.google.com
 /^https?:\/\/ad[svx]?([0-9]{1,2})?\./$important,popup
 /^https?:\/\/aff(iliat(es?|ion))?([0-9]{1,2})?\./$important
@@ -95,16 +92,14 @@
 |http*:*/?ip=*&zoneid=$important,popup
 |http*:*/adclck.*^$important,popup
 |http*:*/adclick.*^$important,popup
+|http*:*/afu.php?$important
 |http*:*/get_geoip?$important,xmlhttprequest
 |http*:*/google-conversion.html$important,subdocument
 |http*:*/grstat?$image,important
 |http*:*/hads-ak-prn*/*.png$image,important
 |http*:*/iframe.php?spotid=$important,subdocument
 |http*:*/pi.aspx$important,subdocument
-|http*:*/pixel.js$important,script
 |http*:*/player_ads.html$important,subdocument
-|http*:*/pops.js$important,popup
-|http*:*/px.js$important,script
 |http*:*/rtrg?$image,important
 |http*:*/setbucket?signature=$important,subdocument
 |http*:*/www/*&zoneid=$image,important,script,xmlhttprequest
@@ -936,7 +931,6 @@
 ||birslhmnnc.com^$important
 ||bisvljlzmai.com^$important
 ||bit-admin.xyz^$important
-||bit.ly^$important,popup
 ||bita-bit.xyz^$important
 ||biupcyhpmjazv.com^$important
 ||biwjfwhxoy.bid^$important
@@ -1878,7 +1872,6 @@
 ||dot4mobi.club^$important
 ||douangvwl.com^$important
 ||doubleclick.*^$important
-||doubleclick.*^$important,popup
 ||doubleclickbygoogle.com^$important
 ||doublepimp.com^$important
 ||doublepimp.com^$important,popup
@@ -10296,7 +10289,7 @@
 ||your-server.de^$important
 ||youtube.com/api/stats/$image,important,other,xmlhttprequest
 ||youtube.com/get_midroll_info^$important,xmlhttprequest
-||youtube.com/get_video_info?*el=adunit$important,xmlhttprequest
+||youtube.com/get_video_info^$important,xmlhttprequest
 ||youtube.com/pagead/$important
 ||youtube.com/ptracking^$image,important
 ||yovbkyylqlmkg.bid^$important
