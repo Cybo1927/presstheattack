@@ -45,8 +45,6 @@
 ||1xjir.world^$important
 ||1xkeg.world^$important
 ||1xkww.world^$important
-||doubleclick.com^$important
-||doubleclick.net^$important
 ||1xluw.world^$important
 ||1xmmk.world^$important
 ||1xndi.world^$important
@@ -87,7 +85,6 @@
 ||392439sf934990.online^$important
 ||398c874c5e7b36.com^$important
 ||3b9eb5ed04721bef.com^$important
-||vidroll.ru^$important
 ||3ba87e4828c5a95.com^$important
 ||3c06b86c4147745b.com^$important
 ||3da86d9fe797f228.com^$important
@@ -1776,6 +1773,8 @@
 ||dosanrnlq.com^$important
 ||dot4mobi.club^$important
 ||douangvwl.com^$important
+||doubleclick.com^$important
+||doubleclick.net^$important
 ||doubleclickbygoogle.com^$important
 ||doublepimp.com^$important
 ||doublepimpssl.com^$important
@@ -8943,6 +8942,7 @@
 ||vidcpm.com^$important
 ||videolol007.com^$important
 ||vidora.com^$important
+||vidroll.ru^$important
 ||viglink.com^$important
 ||vigrjuksi.bid^$important
 ||vimenhhpqnb.com^$important
