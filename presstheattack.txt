@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-09-18 13:52:14
-! Version: 20190918135214
+! Last modified: 2019-09-18 15:48:33
+! Version: 20190918154833
 ! Expires: 3 hours
-! Number of filters: 10791
+! Number of filters: 10787
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -44,11 +44,11 @@
 /^https?:\/\/(www\.)?dyncdn\.me\/static\/[0-9]{1,2}\/js\/expla[0-9]{1,2}\.js/$important,script
 /^https?:\/\/[0-9a-z\-\.]+\.[a-z]{2,7}\/sw\.js\?[0-9a-zA-Z_&%]{32,}/$important,~third-party,xmlhttprequest
 /^https?:\/\/[^/]+\/[a-z0-9]{15,}(\?hope=.*)?$/$important,script
+/^https?:\/\/[^\s]+[\W\w](fingerprint|fp)([0-9]{1,2})?(\.min)?\.js/$image,important,script,xmlhttprequest
 /^https?:\/\/[^\s]+[\W\w](player|client|csi|gen(erate)?|stream|logs?|live)[\W\w]?204\??/$image,important,other,xmlhttprequest
-/^https?:\/\/[^\s]+[\W\w]fingerprint([0-9]{1,2})?(\.min)?\.js/$image,important,script,xmlhttprequest
+/^https?:\/\/[^\s]+[\W\w]?pixel\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|heic|heif|webp|jxr|wdp|dng|cr2|arw)\?/$image,important
 /^https?:\/\/[^\s]+[\W\w]log[\W\w]?(type|event|entry|request)/$image,important,other,xmlhttprequest
 /^https?:\/\/[^\s]+[\W\w]me([0-9]{1})?w\.js/$important,script
-/^https?:\/\/[^\s]+[\W\w]pixels?\./$image,important,object,script,subdocument,xmlhttprequest
 /^https?:\/\/[^\s]+[\W\w]prebid([0-9]{1,2})?[\W\w]/$important,script
 /^https?:\/\/[^\s]+[\W\w]pubfig(\.min)?\.js/$important,script
 /^https?:\/\/[^\s]+\.(cc\/$|club|com|online|ru)/$important,xmlhttprequest,domain=hdgo.cc|vio.to
@@ -58,7 +58,6 @@
 /^https?:\/\/[^\s]+\/([^\s]{4})?tag\.min\.([a-z0-9]{30,}\.)?js/$important,script
 /^https?:\/\/[^\s]+\/([a-zA-Z]{1,4})?events?\.js/$important,other,script,xmlhttprequest
 /^https?:\/\/[^\s]+\/(popundr|punder)\/(script|license|custom)\./$important,script
-/^https?:\/\/[^\s]+\/fp([0-9]{1,2})?\.js/$important,script
 /^https?:\/\/[^\s]+\/piwik([\W\w][_0-9-.]{5,})?\.js/$important,script
 /^https?:\/\/[^\s]+tags?\?id\=/$important,subdocument
 /^https?:\/\/[a-z0-9]+\.info\/+[-a-z0-9_?&=]{9,}/$important,script,third-party
@@ -98,6 +97,8 @@
 |http*:*/adclick.*^$important,popup
 |http*:*/get_geoip?$important,xmlhttprequest
 |http*:*/google-conversion.html$important,subdocument
+|http*:*/grstat?$image,important
+|http*:*/hads-ak-prn*/*.png$image,important
 |http*:*/iframe.php?spotid=$important,subdocument
 |http*:*/pi.aspx$important,subdocument
 |http*:*/pixel.js$important,script
@@ -106,7 +107,6 @@
 |http*:*/px.js$important,script
 |http*:*/rtrg?$image,important
 |http*:*/setbucket?signature=$important,subdocument
-|http*:*/video.counters.js$important,script
 |http*:*/www/*&zoneid=$image,important,script,xmlhttprequest
 |http*:*/xti.php^$important,script,xmlhttprequest,domain=facebook.com|facebookcorewwwi.onion
 |http*:*?*&lp=*id=$popup
@@ -7721,8 +7721,6 @@
 ||sckxppzdm.com^$important
 ||sckzvqadc.com^$important
 ||scofnjymyym.bid^$important
-||scontent.xx.fbcdn.net/hads-ak-prn*/*.png$image,important
-||scontent.xx.fbcdn23dssr3jqnq.onion/hads-ak-prn*/*.png$image,important
 ||scorecardresearch.com^$important
 ||scrltyokacghvd.bid^$important
 ||scroll.com^$important
@@ -9101,7 +9099,6 @@
 ||vjzttumdetao.com^$important
 ||vk-portal.net^$important
 ||vk.cc^$document
-||vk.com/rtrg^$image,important
 ||vkasuqsswc.com^$important
 ||vkdbvgcawubn.com^$important
 ||vkhrnisuky.com^$important
@@ -9378,7 +9375,6 @@
 ||wdwczzyhzra.com^$important
 ||wdxhjmot.bid^$important
 ||wdzeuxkfvyv.com^$important
-||web.telegram.org/*/PhotoThumbConversation.gif$image,important,domain=telegram.org
 ||webmasterplan.com^$important
 ||weborama.fr^$important
 ||websnewsdate.com^$important

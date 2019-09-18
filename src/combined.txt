@@ -1,5 +1,5 @@
-/^https?:\/\/[^\s]+[\W\w](player|client|csi|gen(erate)?|stream|logs?|live)[\W\w]?204\??/$image,important,other,xmlhttprequest
 /^https?:\/\/[^\s]+[\W\w](fingerprint|fp)([0-9]{1,2})?(\.min)?\.js/$image,important,script,xmlhttprequest
+/^https?:\/\/[^\s]+[\W\w](player|client|csi|gen(erate)?|stream|logs?|live)[\W\w]?204\??/$image,important,other,xmlhttprequest
 /^https?:\/\/[^\s]+[\W\w]log[\W\w]?(type|event|entry|request)/$image,important,other,xmlhttprequest
 /^https?:\/\/[^\s]+\.[A-Za-z]{2,6}\/[A-Za-z]{1}\?tag\=[^\s]+\&site\=[A-Za-z0-9]{1,}\&ads?\=/$important,popup,script
 /^https?:\/\/[^\s]+\/([a-zA-Z]{1,4})?events?\.js/$important,other,script,xmlhttprequest
