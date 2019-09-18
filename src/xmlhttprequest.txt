@@ -1,4 +1,3 @@
-/^https?:\/\/[0-9a-z\-\.]+\.[a-z]{2,7}\/sw\.js\?[0-9a-zA-Z_&%]{32,}/$important,~third-party,xmlhttprequest
 /^https?:\/\/[^\s]+\.(cc\/$|club|com|online|ru)/$important,xmlhttprequest,domain=hdgo.cc|vio.to
 /^https?:\/\/s3\.amazonaws\.com\/.*[a-f0-9\/]{50,}/$important,third-party,xmlhttprequest,domain=~amazon.com
 |http*:*/get_geoip?$important,xmlhttprequest
@@ -11,4 +10,4 @@
 ||twitter.com/*/toast_poll^$important,xmlhttprequest
 ||twitter.com/i/jot^$important,xmlhttprequest
 ||youtube.com/get_midroll_info^$important,xmlhttprequest
-||youtube.com/get_video_info?*el=adunit$important,xmlhttprequest
+||youtube.com/get_video_info^$important,xmlhttprequest

@@ -1,6 +1,5 @@
 /^https?:\/\/(analysis|analytic[as]?)([0-9]{1,2})?\./$important,domain=~analytics.google.com
 /^https?:\/\/(apps?|best|mobile|prize|reward|sweeps).*\.[a-z]{5,15}.*\.(agency|icu|live)\//$document,important
-/^https?:\/\/a?clic?k\./$important
 /^https?:\/\/ad[bsxv]?([0-9]{1,2})?\./$important,domain=~ad.nl|~ads.google.com
 /^https?:\/\/aff(iliat(es?|ion))?([0-9]{1,2})?\./$important
 /^https?:\/\/beacons?([0-9]{1,2})?\./$important
@@ -20,6 +19,7 @@
 /^https?:\/\/track(ers?|ing)?([0-9]{1,2})?\./$important
 |http*:*?zone_id=$important
 |http*:*?zoneid=$important
+|http*:*/afu.php?$important
 ||google.*/ads/$important
 ||google.*/adsense/$important
 ||google.*/log?$important
