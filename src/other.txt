@@ -18,6 +18,8 @@
 /^https?:\/\/tags?([0-9]{1,2})?\./$important
 /^https?:\/\/track(ers?|ing)?([0-9]{1,2})?\./$important
 |http*:*/afu.php?$important
+|http*:*/apu.hh?$important
+|http*:*/ntfc.php?$important
 |http*:*?zone_id=$important
 |http*:*?zoneid=$important
 ||google.*/ads/$important
