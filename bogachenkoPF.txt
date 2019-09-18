@@ -401,6 +401,7 @@ github.com#@#.repository-content:style(width: 100% !important)
 .ads_$document,badfilter
 ||google.*/async/bgasy?ei=$important,badfilter
 .advertising^$badfilter
+*$csp=default-src 'self' * data: 'unsafe-inline' 'unsafe-eval',domain=101greatgoals.com|openload.co,badfilter
 .analytics.$badfilter
 .facebookLikePopUp.$badfilter
 .mail.ru$important,third-party,script,badfilter
@@ -410,6 +411,11 @@ github.com#@#.repository-content:style(width: 100% !important)
 /16x16-digg.$badfilter
 /16x16-mixx.$badfilter
 /16x16-newsvine.$badfilter
+github.com#@#.js-discussion:style(width: calc(100vw - 230px) !important)
+github.com#@#.gh-header .sticky-content
+github.com#@#.gh-header .gh-header-shadow.box-shadow
+github.com#@#.repository-content .protip
+github.com#@#.timeline-new-comment:style(max-width: none !important)
 /16x16/facebook_$badfilter
 /16x16/twitter.$badfilter
 /18x18-reddit.$badfilter
