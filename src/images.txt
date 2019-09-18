@@ -1,8 +1,7 @@
+/^https?:\/\/[^\s]+[\W\w]?pixel\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|heic|heif|webp|jxr|wdp|dng|cr2|arw)\?/$image,important
+|http*:*/grstat?$image,important
+|http*:*/hads-ak-prn*/*.png$image,important
 |http*:*/rtrg?$image,important
 ||mail.yandex.*/monitoring_liza.txt$image,important
-||scontent.xx.fbcdn.net/hads-ak-prn*/*.png$image,important
-||scontent.xx.fbcdn23dssr3jqnq.onion/hads-ak-prn*/*.png$image,important
-||vk.com/rtrg^$image,important
-||web.telegram.org/*/PhotoThumbConversation.gif$image,important,domain=telegram.org
 ||yastatic.net/*.gif$image,important,domain=~mail.yandex.by|~mail.yandex.ru|~mail.yandex.ua
 ||youtube.com/ptracking^$image,important
