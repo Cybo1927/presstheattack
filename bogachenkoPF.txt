@@ -524,7 +524,6 @@ wp.pl#@#body > script + iframe + div:not([id])[class]
 #@#.social-button
 #@#.addThis
 /assets/twitter-$image,badfilter
-#@#.share
 /assets/twitter_$badfilter
 /back-to-top-$badfilter
 /back-to-top.$badfilter
@@ -5072,13 +5071,7 @@ wikia.org,fandom.com#@##WikiaMainContentContainer:style(margin: 0px !important)
 _ad4_$badfilter
 _ad5-$badfilter
 _ad5.$badfilter
-github.com#@#.container-lg:style(max-width: none !important)
-github.com#@#.container:style(width: 100% !important; padding-left: 30px !important; padding-right: 30px !important)
-github.com#@#.container-lg:style(width: 100% !important; padding-left: 30px !important; padding-right: 30px !important)
 github.com#@#.file-header:after:style(clear: left !important)
-github.com#@#.container-xl:style(max-width: none !important)
-github.com#@#.js-discussion:style(width: calc(100vw - 230px) !important)
-github.com#@#.repository-content:style(width: 100% !important)
 github.com#@#.repository-with-sidebar:style(padding-right: 60px !important)
 github.com#@#.repository-with-sidebar > .repository-sidebar:style(margin-right: -60px !important)
 github.com#@#.summary-stats:style(display: table; width: 100%)
@@ -5088,23 +5081,16 @@ github.com#@#.authors-and-code > .section:style(width: 50%)
 github.com#@#.with-full-navigation:style(padding-right: 190px !important)
 github.com#@#.with-full-navigation > .repository-sidebar:style(margin-right: -190px !important)
 github.com#@#.discussion-sidebar:style(width: 220px !important)
-github.com#@#.discussion-timeline:style(width: 100% !important)
-github.com#@#.col-9:style(width: 100% !important)
-github.com#@##dashboard:style(position: relative !important)
 github.com#@#.new-issue-form:style(position: relative !important)
 github.com#@#body:not(.full-width) .dashboard-sidebar:style(position: absolute !important; top: 0 !important; right: 0 !important)
 github.com#@#.new-issue-form > .discussion-sidebar:style(position: absolute !important; top: 0 !important; right: 0 !important)
 github.com#@#button.discussion-sidebar-toggle:style(width: 100% !important)
-github.com#@#.timeline-new-comment:style(max-width: none !important)
 github.com#@#body:not(.full-width) .news:style(float: none !important; margin-right: 360px !important)
 github.com#@#.settings-content:style(float: none !important; width: auto !important; overflow: auto !important)
 github.com#@#.repo-settings-content:style(float: none !important; width: auto !important; overflow: auto !important)
 github.com#@#.container > .settings-content, .repo-settings-content:style(margin-left: 260px !important)
 github.com#@##repo-settings > .menu-container:style(width: 240px !important)
 github.com#@##js-flash-container > .flash-messages:style(width: 100% !important; padding-left: 30px !important; padding-right: 30px !important)
-github.com#@#.u-photo .avatar:style(width: 230px !important)
-github.com#@#.h-card:style(width: 230px; margin-right: 16px)
-github.com#@#.commit-desc > .text-small:style(max-width: none !important)
 github.com#@##comments > .timeline-comment-wrapper:style(width: calc(100vw - 240px) !important)
 github.com#@#.js-blob-filename:style(width: 400px !important)
 _ad5^$badfilter
@@ -5603,7 +5589,6 @@ youtube.com#@#ytd-popup-container > .ytd-popup-container > #contentWrapper > .yt
 |http:*_ad6-$badfilter
 |http:*_ad6.$badfilter
 ||openload.*^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.openload.co cdnjs.cloudflare.com  *.oloadcdn.net *.google.com,badfilter
-||openload.*^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.openload.co cdnjs.cloudflare.com *.oloadcdn.net *.google.com,badfilter
 /log_event$important,badfilter
 ||streamango.com/assets/js/license$important,badfilter
 ||streamango.com/assets/js/script$important
@@ -5833,14 +5818,7 @@ support.mozilla.org###announcements
 ||bench.utorrent.com^$xmlhttprequest,script
 ||blockadblock.com^$badfilter
 /wp-content/*/google.png$badfilter
-/wp-content/*twitter.png$badfilter
-/reddit.png$badfilter
-/wp-content/*facebook.png$badfilter
 /plugins/*google.png$badfilter
-/plugins/*facebook.png$badfilter
-/plugins/*twitter.png$badfilter
-/assets/*twitter.png$badfilter
-/assets/*facebook.png$badfilter
 /img/*/google.png$badfilter
 /img/*facebook.png$badfilter
 /img/*twitter.png$badfilter
