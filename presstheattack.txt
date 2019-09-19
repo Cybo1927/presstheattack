@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-09-19 09:54:08
-! Version: 20190919095408
+! Last modified: 2019-09-19 18:54:43
+! Version: 20190919185443
 ! Expires: 3 hours
-! Number of filters: 10791
+! Number of filters: 10771
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -43,6 +43,7 @@
 /^https?:\/\/(www\.)?(client\-event\-reporter|countess|mp|polyfill|sentinel|spade|trowel|fan)\.twitch(svc)?\.(com|net|tv)/$important
 /^https?:\/\/(www\.)?(facebookcorewwwi|facebook)\.(com|net|onion)\/tr\D/$important
 /^https?:\/\/(www\.)?dyncdn\.me\/static\/[0-9]{1,2}\/js\/expla[0-9]{1,2}\.js/$important,script
+/^https?:\/\/1x[a-z]{3}\.world/$important
 /^https?:\/\/[^/]+\/[a-z0-9]{15,}(\?hope=.*)?$/$important,script
 /^https?:\/\/[^\s]+[\W\w](fingerprint|fp)([0-9]{1,2})?(\.min)?\.js/$image,important,script,xmlhttprequest
 /^https?:\/\/[^\s]+[\W\w](player|client|csi|gen(erate)?|stream|logs?|live)[\W\w]?204\??/$image,important,other,xmlhttprequest
@@ -65,6 +66,7 @@
 /^https?:\/\/ad[bsxv]?([0-9]{1,2})?\./$important,domain=~ad.nl|~ads.google.com
 /^https?:\/\/ad[svx]?([0-9]{1,2})?\./$important,popup
 /^https?:\/\/aff(iliat(es?|ion))?([0-9]{1,2})?\./$important
+/^https?:\/\/aj[0-9]{3}\.online/$important
 /^https?:\/\/beacons?([0-9]{1,2})?\./$important
 /^https?:\/\/cdn[0-9]{1,2}?\.rocks\/[^\s]{30,}\.js/$important,script
 /^https?:\/\/count(ers?)?([0-9]{1,2})?\./$important
@@ -141,25 +143,6 @@
 ||1xbet95.com^$important
 ||1xbkbet5.com^$important
 ||1xeemc.host^$important
-||1xeha.world^$important
-||1xgzu.world^$important
-||1xjir.world^$important
-||1xkeg.world^$important
-||1xkww.world^$important
-||1xluw.world^$important
-||1xmmk.world^$important
-||1xndi.world^$important
-||1xnju.world^$important
-||1xnto.world^$important
-||1xpbq.world^$important
-||1xqws.world^$important
-||1xrbt.world^$important
-||1xstavka.ru^$important
-||1xuop.world^$important
-||1xvcs.world^$important
-||1xxwc.world^$important
-||1xyjw.world^$important
-||1xymm.world^$important
 ||21b666055c.com^$important
 ||220167981.world^$important
 ||23bab89b7cec3.com^$important
@@ -476,9 +459,6 @@
 ||aitdwhmcvlm.com^$important
 ||aiwhebey.com^$important
 ||aizopowmtnho.com^$important
-||aj1110.online^$important
-||aj1616.online^$important
-||aj1713.online^$important
 ||ajaeihzlcwvn.com^$important
 ||ajfziqehnwvz.com^$important
 ||ajizjpjkrnh.com^$important
