@@ -5321,7 +5321,7 @@ market.yandex.ru##a[href^="https://fenek.market.yandex."]
 music.yandex.ru##.duck__duckling.moving-slider, .multi-auth__plus, .teaser, .sidebar__under, .page-main__line_row.page-main__line_small-margin.page-main__line_personal-playlists.page-main__line, .notify_shown.deco-tooltip_notify, .footer, .metrika-app_shown_yes.metrika-app_js_inited.i-bem.metrika-app_type_desktop.metrika-app_lang_ru.metrika-app, .duck__angry-duck_left.duck__angry-duck.paused-slider, .bar-below_plus.bar-below, .subscription-hint_bottom.deco-pane-popup.popup.local-theme-black.subscription-hint, div.notify > div.deco-tooltip_notify.notify_shown, .overlay_gdpr.overlay_shown.deco-pane-overlay.overlay, .deco-pane-popup.popup.local-icon-theme-white.local-theme-white.gdpr-popup, .bar-below_unavaliable.bar-below, a.teaser__content[href="https://music.yandex.ru/family-plus"] > img.teaser__img, div.page-root.page-root_no-player.deco-pane-back > div[class][data-b="2"][style="display: block;"], .teaser ~ div, .page-root > div[data-b="2"], .sidebar > div > .teaser + div[data-b="18"]
 music.yandex.by,music.yandex.kz,music.yandex.ru,music.yandex.ua#@#.page-root > div[class]:nth-child(-n+2)[style^="display: block;"]
 news.yandex.ru##+js(noeuc.js)
-openload.co,oload.*,streamcherry.com##+js(eclick.js, #videooverlay)
+oladblock.*,oload.*,openload.*,openloed.*,streamcherry.com##+js(eclick.js, #videooverlay)
 otvet.mail.ru##+js(rm-js, adblock)
 passport.yandex.ru###qr-promo-tooltip
 passport.yandex.ru###qr-promo-tooltip-large
@@ -5419,6 +5419,7 @@ youtube.com#@#ytd-popup-container > .ytd-popup-container > #contentWrapper > .yt
 |http:*-ad2.$badfilter
 #@#.btn-social
 |http:*-ad2^$badfilter
+/fuckadblock.js^$first-party,important,script,badfilter
 #@#.socialwidget
 #@#.block-social
 #@##social-foot
@@ -5435,6 +5436,7 @@ youtube.com#@#ytd-popup-container > .ytd-popup-container > #contentWrapper > .yt
 #@#.sfsiaftrpstwpr
 |http:*-ad3_$badfilter
 |http:*-ad4-$badfilter
+/ads/*$first-party,important,badfilter
 |http:*-ad4.$badfilter
 |http:*-ad4^$badfilter
 #@#.btn-facebook
@@ -5473,6 +5475,22 @@ youtube.com#@#ytd-popup-container > .ytd-popup-container > #contentWrapper > .yt
 #@#.like-box-wrap
 |http:*-ad7^$badfilter
 |http:*-ad7_$badfilter
+||id.google.*^$important,badfilter
+google.*#@##bres
+google.*#@##extrares #botstuff div[data-ved] div[data-hveid]
+google.*#@##fbar #swml a[data-ved]
+google.*#@##footcnt
+google.*#@##prm-pt, .b2hzT, .exp-outline, [id^="ed_"], [title*="Share"]
+google.*#@##resultStats
+/client_204$important,badfilter
+google.*#@##sbfblt
+google.*#@##search div[data-ved] #rso div[class]:has(.xpdopen)
+google.*#@#.OJXvsb
+google.*#@#.kno-ftr
+google.*#@#[id^="ed_"]
+google.com#@#kno-share-button
+||adservice.google.*^$important,badfilter
+google.com#@#div#tvcap
 |http:*-ad8-$badfilter
 |http:*-ad8.$badfilter
 |http:*-ad8^$badfilter
