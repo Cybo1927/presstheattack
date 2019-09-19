@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-09-20 03:04:39
-! Version: 20190920030439
+! Last modified: 2019-09-20 03:06:44
+! Version: 20190920030644
 ! Expires: 3 hours
-! Number of filters: 10839
+! Number of filters: 10883
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -9905,12 +9905,14 @@
 ||xmoyoxsx.com^$important
 ||xmrchaqjwqyvz.com^$important
 ||xmsgobwy.com^$important
+||xmufoqjx.com^$important
 ||xmwqbnrbvghq.bid^$important
 ||xmylgmmt.com^$important
 ||xn--80abmrinidrghe0b8e.xn--p1ai^$important
 ||xn--80adkmiclpklu1eua2b4a.xn--p1ai^$important
 ||xndskrtxkiv.com^$important
 ||xnfwhndl.com^$important
+||xnjsdpohkgn.com^$important
 ||xnlxpsbs.com^$important
 ||xnmphtmerao.bid^$important
 ||xnmwxndqhyt.com^$important
@@ -9936,6 +9938,7 @@
 ||xpkhmrdqhiux.com^$important
 ||xplvxwesg.bid^$important
 ||xpnauxpoj.bid^$important
+||xpnttdct.com^$important
 ||xpoqhwkbqk.com^$important
 ||xpqffnzo.bid^$important
 ||xprurfeoarxz.com^$important
@@ -9966,6 +9969,8 @@
 ||xrmtvzpig.com^$important
 ||xrmwainxxr.bid^$important
 ||xrnmuqmpcsx.com^$important
+||xroonucyaoqljf.com^$important
+||xrpcbukuwdvkc.com^$important
 ||xrqkzdbnybod.com^$important
 ||xrrwwxfj.bid^$important
 ||xruuohzpxmmw.com^$important
@@ -9999,6 +10004,7 @@
 ||xtsnbxwak.com^$important
 ||xttcpyfgjdkl.bid^$important
 ||xttfbyjird.bid^$important
+||xttrofww.com^$important
 ||xtuenvlsoenwn.bid^$important
 ||xtzslqieeh.bid^$important
 ||xubqqaqhotit.com^$important
@@ -10015,10 +10021,12 @@
 ||xuqdbqkqgj.com^$important
 ||xurokykjwum.com^$important
 ||xurrehqawu.com^$important
+||xuwptpzdwyaw.com^$important
 ||xuwxbdafults.com^$important
 ||xvapnjwhofiv.com^$important
 ||xvfzxuzvxcv.bid^$important
 ||xvgfmbrifa.com^$important
+||xvijskugh.com^$important
 ||xvjigtcdiogu.bid^$important
 ||xvtbumnuj.com^$important
 ||xvtgouzdsmoeb.com^$important
@@ -10026,6 +10034,7 @@
 ||xvxcpdcnfgte.com^$important
 ||xwagalbvfkb.com^$important
 ||xwavfvpzg.com^$important
+||xwavjdqttkum.com^$important
 ||xwcqrzkle.com^$important
 ||xwdlgzrnuyo.com^$important
 ||xwesxrxyopqyc.com^$important
@@ -10036,6 +10045,7 @@
 ||xwufohrjmvjy.com^$important
 ||xwvksizcphhc.com^$important
 ||xwvofxgqilhy.com^$important
+||xwwkuacmqblu.com^$important
 ||xwwsojvluzsb.com^$important
 ||xwwvcsquuhbd.com^$important
 ||xwxbiywlavgpm.com^$important
@@ -10053,6 +10063,7 @@
 ||xxxwfoltlusf.bid^$important
 ||xxyafiswqcqz.com^$important
 ||xxypskosek.bid^$important
+||xxzkqbdibdgq.com^$important
 ||xycbrnotvcat.com^$important
 ||xycpjxkkkim.com^$important
 ||xydubrrvpthmat.com^$important
@@ -10078,6 +10089,7 @@
 ||xzismtaelciif.com^$important
 ||xzmqokbeynlv.com^$important
 ||xzqbhowpbzj.bid^$important
+||xztsmbznuwyo.com^$important
 ||xzwdhymrdxyp.com^$important
 ||xzwynraczfcq.com^$important
 ||xzywlbgldmpi.com^$important
@@ -10089,6 +10101,7 @@
 ||yahoo-news.co^$important
 ||yaifxxudxyns.com^$important
 ||yaikleyabl.com^$important
+||yairxzsteg.bid^$important
 ||yaizwjvnxctz.com^$important
 ||yalyuzvlr.bid^$important
 ||yamrxfbkpirt.com^$important
@@ -10104,10 +10117,12 @@
 ||yattprdmuybn.com^$important
 ||yaujmwnwurdhm.com^$important
 ||yaxbqjjemnvben.com^$important
+||yaxdboxgsbgh.com^$important
 ||ybbqkfzmj.com^$important
 ||ybemuzknpvkgn.bid^$important
 ||ybgbaxrzxxlr.com^$important
 ||ybhaoglgbgdk.com^$important
+||ybhgzvkqtocedj.com^$important
 ||ybhpbkyzbihlrk.bid^$important
 ||ybikaghc.bid^$important
 ||yblileapbnc.com^$important
@@ -10121,21 +10136,26 @@
 ||ybspoverfo.bid^$important
 ||ybtjemcg.bid^$important
 ||ybwackoidmcat.com^$important
+||ybzfsppttoaz.com^$important
 ||ycaorbftuxb.bid^$important
 ||ycbrujappmsx.bid^$important
 ||yccdyncut.bid^$important
 ||ycexjzoek.com^$important
 ||ycfprujylukkx.bid^$important
 ||ychbtidylyna.com^$important
+||ycjwgpkudmve.com^$important
 ||yckdywmihuabu.com^$important
 ||ycmejutxukkz.com^$important
+||ycojhxdobkrd.com^$important
 ||ycpepqbyhvtb.com^$important
 ||ycrbzasmjuo.bid^$important
 ||yctquwjbbkfa.com^$important
 ||ycuuzufqwsk.com^$important
 ||ycxpmdwail.bid^$important
+||ycyrgutjregkw.com^$important
 ||yczdebjfskegsd.com^$important
 ||yczvwlqexzhtf.bid^$important
+||ydaynvgmkjxvy.com^$important
 ||yddazzul.com^$important
 ||yddbgolpjwv.bid^$important
 ||ydeoxwomjpvxoz.com^$important
@@ -10159,6 +10179,7 @@
 ||yecviqwkapujp.bid^$important
 ||yecxfxsbkb.com^$important
 ||yefttzzn.com^$important
+||yehazsnxdevr.com^$important
 ||yejkuusxijvzz.com^$important
 ||yennwmfmbnfz.com^$important
 ||yenrsvttsfmqd.bid^$important
@@ -10175,19 +10196,24 @@
 ||yfgietsfti.com^$important
 ||yfgrucsngqitc.com^$important
 ||yfiycpeebse.com^$important
+||yfkwqoswbghk.com^$important
+||yflpucjkuwvh.com^$important
 ||yflyluiqdig.com^$important
 ||yfoymaiiab.club^$important
 ||yfqlqjpdsckc.com^$important
 ||yfrsukbbfzyf.com^$important
+||yfsbprwln.com^$important
 ||yfsgdrxjkzeak.com^$important
 ||yfzcjqpxunsn.com^$important
 ||yfzohuuguor.bid^$important
 ||ygbokgipe.bid^$important
 ||ygdnflmhslwi.com^$important
+||ygefxaurh.com^$important
 ||ygemknajajg.com^$important
 ||ygkovmqdty.com^$important
 ||ygkqjensf.bid^$important
 ||ygngaqihz.com^$important
+||ygrtbssc.com^$important
 ||ygsgfzydhdgd.com^$important
 ||ygyymhfstzuen.com^$important
 ||yhasbgva.com^$important
@@ -10217,7 +10243,9 @@
 ||yintkfbxaopyb.com^$important
 ||yioklzvjkaumf.com^$important
 ||yiqyefznxc.com^$important
+||yisscbyq.com^$important
 ||yivsfcxf.bid^$important
+||yiyycuqozjwc.com^$important
 ||yizbtofi.bid^$important
 ||yjctwdeuz.com^$important
 ||yjdbnkgonfp.com^$important
@@ -10226,6 +10254,7 @@
 ||yjhwrpuqitzgh.bid^$important
 ||yjijmpezje.com^$important
 ||yjipohjtdrxncg.com^$important
+||yjjglyoytiew.com^$important
 ||yjjtxuhfglxa.com^$important
 ||yjlocznmvvvtp.com^$important
 ||yjlyvrdpnuef.bid^$important
@@ -10238,8 +10267,10 @@
 ||yjxtuwpbgzwc.com^$important
 ||yjzopxkhw.bid^$important
 ||ykaakgddajbt.com^$important
+||ykacbmxeapwi.com^$important
 ||ykalhhbkhwgyo.com^$important
 ||ykaonbmjjmyi.com^$important
+||ykbcogkoiqdw.com^$important
 ||ykdiojhuy.bid^$important
 ||ykdmtvowoinv.com^$important
 ||ykixjehac.com^$important
@@ -10248,7 +10279,9 @@
 ||ykombouoo.com^$important
 ||ykqpbuqpfjsh.com^$important
 ||yktkodofnikf.com^$important
+||ykuoujjvngtu.com^$important
 ||ykwdfjergthe.com^$important
+||ykyryixcwn.com^$important
 ||ylbaaods.com^$important
 ||ylbgokrjujtprn.bid^$important
 ||ylbhlvqqyp.bid^$important
@@ -10258,6 +10291,7 @@
 ||yljjlvywdpn.com^$important
 ||yljrefexjymy.com^$important
 ||yljtytqq.com^$important
+||ylksuifuyryt.com^$important
 ||yllfdnftjo.com^$important
 ||ylmnpenjdn.com^$important
 ||ylnmzwwc.com^$important
@@ -10284,13 +10318,16 @@
 ||ynhonjqahrh.com^$important
 ||ynkakgknfljv.com^$important
 ||ynkbueizwqu.com^$important
+||ynlrfiwj.com^$important
 ||ynlvwynnsstalh.com^$important
 ||ynoiezey.com^$important
 ||ynopkisq.com^$important
 ||yntwcepykkts.com^$important
 ||ynuyzeqtswtd.com^$important
 ||ynvplyprjr.bid^$important
+||ynxrrzgfkuih.com^$important
 ||ynyhiyqybbit.com^$important
+||ynzdtoawstxvh.com^$important
 ||yobxvotn.bid^$important
 ||yocnxozede.bid^$important
 ||yocsprvjl.com^$important
@@ -10312,6 +10349,7 @@
 ||yoxlrphhmphq.com^$important
 ||yoxrhwtvyqt.com^$important
 ||yoywgmzjgtfl.com^$important
+||ypbfrhlgquaj.com^$important
 ||ypcuhmevrq.bid^$important
 ||ypecrrktyo.com^$important
 ||ypfghpqnkgbxu.bid^$important
@@ -10323,6 +10361,7 @@
 ||yprnopqzs.com^$important
 ||yptwqjdgikmcqc.com^$important
 ||ypummbggdjex.com^$important
+||ypyarwgh.com^$important
 ||yqeuu.com^$important
 ||yqhgbmyfiomx.com^$important
 ||yqjoqncxmufi.com^$important
@@ -10334,6 +10373,7 @@
 ||yqpmlgwmqtwpa.bid^$important
 ||yqqxrfhtgcbxz.com^$important
 ||yqrsfisvrilz.com^$important
+||yqtzhigbiame.com^$important
 ||yqucllrbg.com^$important
 ||yqufdqly.com^$important
 ||yqutkbvrgvar.com^$important
@@ -10349,6 +10389,7 @@
 ||yrpjklwly.com^$important
 ||yrrcrvoivbv.com^$important
 ||yrtyflmurngv.com^$important
+||yruwnpnam.com^$important
 ||yrvrppewe.bid^$important
 ||yrxhmallcirx.com^$important
 ||yrzukplqjwxst.bid^$important
@@ -10379,6 +10420,7 @@
 ||ytrojdjen.bid^$important
 ||ytskrsravfqyuc.bid^$important
 ||yttvnnvklf.com^$important
+||ytwtqabrkfmu.com^$important
 ||yuanaayutyd.com^$important
 ||yuazwfzvdzfc.com^$important
 ||yuehosgcoq.com^$important
@@ -10401,6 +10443,7 @@
 ||yvqdhpyaoike.bid^$important
 ||yvqpoiqcijc.bid^$important
 ||yvsymvjzk.com^$important
+||yvvafcqddpmd.com^$important
 ||yvyfyuacwz.com^$important
 ||ywbfhuofnvuk.com^$important
 ||ywbpprhlpins.com^$important
@@ -10435,6 +10478,7 @@
 ||yxlibrsxbycm.com^$important
 ||yxllrysme.bid^$important
 ||yxmfjiiwzgrsyg.bid^$important
+||yxmkiqdvnxsk.com^$important
 ||yxmnaxxfzfqa.bid^$important
 ||yxngmwzubbaa.com^$important
 ||yxoorrcfamz.bid^$important
