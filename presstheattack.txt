@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-09-19 18:54:43
-! Version: 20190919185443
+! Last modified: 2019-09-19 20:29:33
+! Version: 20190919202933
 ! Expires: 3 hours
-! Number of filters: 10771
+! Number of filters: 10781
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -148,6 +148,7 @@
 ||23bab89b7cec3.com^$important
 ||23bab89b7cec31.com^$important
 ||23bab89b7cec318.com^$important
+||23d3bef9eb2b.com^$important
 ||280asnlnr7.com^$important
 ||28f77rd30e.ru^$important
 ||2a12be6140880286.com^$important
@@ -175,6 +176,7 @@
 ||3c06b86c4147745b.com^$important
 ||3da86d9fe797f228.com^$important
 ||3lift.com^$important
+||40dcbbc601.com^$important
 ||41944cecfb85.com^$important
 ||41df76c67812005c.com^$important
 ||43031aaaecd84428.com^$important
@@ -192,6 +194,8 @@
 ||4fba771f87a0251.com^$important
 ||4ukqzi8d7l.com^$important
 ||4xxxvideostube.com^$important
+||537c7cefec855.com^$important
+||53b6a307827e19.com^$important
 ||544c27b3f0aae2.com^$important
 ||5483bbc5758.com^$important
 ||549a499e1e.com^$important
@@ -214,6 +218,7 @@
 ||6530868523e.com^$important
 ||6530868523e6.com^$important
 ||6631f33cf2a1032b.com^$important
+||674309f93c1.com^$important
 ||6868bbe42af8e518.com^$important
 ||6eez7ouig7gwguf6.pro^$important
 ||6ped2nd3yp.com^$important
@@ -1181,6 +1186,7 @@
 ||c4bafc1c8a3278.com^$important
 ||c4bafc1c8a32783.com^$important
 ||c712236afa001382be31.date^$important
+||c8cbebfcc2ac41e.com^$important
 ||ca0fe9ab61.com^$important
 ||caajevalistl.com^$important
 ||caaqyzbpsbtk.com^$important
@@ -1592,6 +1598,7 @@
 ||czaxrbclfse.com^$important
 ||czbtfksgtcuy.com^$important
 ||czcbkaptwfmv.com^$important
+||czcetfjlisyjh.com^$important
 ||czcydlrnu.com^$important
 ||czcyppdffuhh.com^$important
 ||czdaxoesbdlih.com^$important
@@ -2835,6 +2842,7 @@
 ||fzcgtfyn.bid^$important
 ||fzcgugzx.bid^$important
 ||fzcyyqvrbrpk.com^$important
+||fzgitqrqrsyyiv.com^$important
 ||fzhwvlpnqg.bid^$important
 ||fzpseyhkanhopd.com^$important
 ||fzqxefkbjzwiqa.com^$important
@@ -4486,6 +4494,7 @@
 ||kaojrivmhys.com^$important
 ||kaqtvgcy.bid^$important
 ||karownxatpbd.com^$important
+||karuna4u.com^$important
 ||katurars.com^$important
 ||katxkxcncwool.com^$important
 ||kayophjgzqdq.com^$important
@@ -8513,6 +8522,7 @@
 ||tzlijsurxh.bid^$important
 ||tzwcaamgd.bid^$important
 ||tzyvolvenvyim.com^$important
+||u2bmco.com^$important
 ||u595sebqih.com^$important
 ||ua1xbet.com^$important
 ||uaaholcdcx.bid^$important
