@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-09-20 00:39:40
-! Version: 20190920003940
+! Last modified: 2019-09-20 00:50:31
+! Version: 20190920005031
 ! Expires: 3 hours
-! Number of filters: 10784
+! Number of filters: 10781
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -521,7 +521,6 @@
 ||amazon-adsystem.com^$important
 ||amdhlyqfy.bid^$important
 ||amgkkjgjktml.com^$important
-||amgload.net^$important
 ||amhpbhyxfgvd.com^$important
 ||amjbzzicysu.bid^$important
 ||amlcscfr.com^$important
@@ -6563,7 +6562,6 @@
 ||pidbbdxixp.com^$important
 ||pifaojvaiofw.com^$important
 ||pifsistcwycouc.com^$important
-||piguiqproxy.com^$important
 ||piifwkvdil.com^$important
 ||piljbvnykkt.bid^$important
 ||pimygjumeyrtxe.com^$important
@@ -7871,7 +7869,6 @@
 ||smapohsnoww.com^$important
 ||smartadserver.com^$important
 ||smartphonesbonusoffers.icu^$important
-||smcheck.org^$important
 ||smhqmrxplvnx.com^$important
 ||smhyvyvnpzigir.com^$important
 ||smjdypbxapigu.bid^$important
