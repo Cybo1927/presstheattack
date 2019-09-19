@@ -728,6 +728,19 @@ music.yandex.ru#?#span:contains(Отключить рекламу)
 /facebook_16.$badfilter
 /facebook_16x16.$badfilter
 /facebook_18x18_$badfilter
+twitch.tv##.tw-flex-shrink-0.tw-full-width.tw-pd-b-2.tw-pd-t-1.tw-pd-x-2.video-chat__input:style(padding-left: 1px !important; padding-right: 1px !important; padding-top: 4px !important; padding-bottom: 1px !important)
+twitch.tv##.tw-textarea.tw-textarea--no-resize:style(padding-left: 3px; padding-right: 3px; padding-top: 1px; padding-bottom: 1px; height: 55px !important)
+twitch.tv##.chat-input.tw-block:style(padding-left: 3px !important; padding-right: 3px !important; padding-bottom: 2px !important)
+twitch.tv##.tw-textarea:style(padding: 2px 28px 2px 2px !important)
+twitch.tv##.video-chat__header:style(height: 20px !important)
+twitch.tv##.tw-pd-r-1.tw-pd-l-2.tw-justify-content-between.tw-full-width:style(height: 2rem)
+twitch.tv##.tw-align-items-center.tw-flex.tw-flex-nowrap.tw-justify-content-between.tw-pd-1:style(padding-top: 0px !important; padding-bottom: 0px !important)
+twitch.tv##.chat-line__message:style(padding: 2px 4px !important)
+twitch.tv##.tw-full-width.tw-pd-l-05.tw-pd-y-05.vod-message:style(padding: 2px 4px !important)
+clips.twitch.tv##.clips-chat-replay > .tw-mg-b-1:style(margin-bottom: 2px !important)
+twitch.tv##li.chat-message:style(padding: 2px 2px !important)
+clips.twitch.tv##.clips-watch.tw-lg-pd-b-5.tw-pd-b-2.tw-sm-pd-b-3:style(max-width: none)
+twitch.tv##.tw-avatar > .tw-border-radius-rounded.tw-overflow-hidden:style(border-radius: 0px !important)
 /facebook_24.$badfilter
 /facebook_29.$badfilter
 track$important,script,badfilter
