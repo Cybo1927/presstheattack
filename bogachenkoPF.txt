@@ -6100,8 +6100,9 @@ support.mozilla.org###announcements
 ||gogoanime.*^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' *.googleapis.com *.play44.net disqus.com *.disqus.com *.disquscdn.com data:,badfilter
 ||vidstreaming.io^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' *.gstatic.com *.jwplatform.com *.jwpcdn.com,badfilter
 ||xyz^$third-party,xmlhttprequest,domain=~anidub.com|~avtomaty-i-bonusy.com|~crackstreams.com|~csgoreports.com|~cvid.kiev.ua|~estream.to|~funtik.tv|~hentaiz.org|~jokehd.com|~kinobig.me|~kinosklad.biz|~kristinita.ru|~magicfilm.net|~matchat.online|~my.mail.ru|~nccg.ru|~newdeaf.online|~online.animedia.tv|~onmovies.se|~roadhub.ru|~shamancoal.com|~soccer365.ru|~streetbee.io|~streetbee.ru|~vk.com,badfilter
-@@||amgload.net/z|$third-party,xmlhttprequest,badfilter
-@@||piguiqproxy.com/z|$third-party,xmlhttprequest,badfilter
+@@||amgload.net/z|$third-party,xmlhttprequest
+@@||smcheck.org/z|$third-party,xmlhttprequest
+@@||piguiqproxy.com/z|$third-party,xmlhttprequest
 ||vkontakte.ru/widget_like.php$third-party,badfilter
 ||vkontakte.ru/widget_poll.php?$third-party,badfilter
 ||vkontakte.ru/widget_recommended.php?$third-party,badfilter
