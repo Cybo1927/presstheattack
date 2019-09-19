@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-09-20 02:58:25
-! Version: 20190920025825
+! Last modified: 2019-09-20 03:04:39
+! Version: 20190920030439
 ! Expires: 3 hours
-! Number of filters: 10797
+! Number of filters: 10839
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -10453,6 +10453,7 @@
 ||yyndmhkv.com^$important
 ||yyqowjogchca.bid^$important
 ||yyupkqqokrus.com^$important
+||yyuztnlcpiym.com^$important
 ||yyxknmmvdvv.bid^$important
 ||yyxntcpxxvtpuk.com^$important
 ||yyyghfmjkz.com^$important
@@ -10464,10 +10465,13 @@
 ||yzuzfvlzi.com^$important
 ||yzveuheeothp.com^$important
 ||yzxibuepaiyru.com^$important
+||yzyalgnxo.com^$important
+||yzygkqjhedpw.com^$important
 ||yzysnbqc.com^$important
 ||yzzmcxnlvyymt.com^$important
 ||z6vmw.top^$important
 ||zaaireapylyr.com^$important
+||zaattuotjbkj.com^$important
 ||zabpkrvgswdroz.com^$important
 ||zacbwfgqvxan.com^$important
 ||zacqkexd.com^$important
@@ -10475,6 +10479,8 @@
 ||zadhrsvmawp.com^$important
 ||zafwmwiaqckgmc.bid^$important
 ||zahlmvosqsxmp.com^$important
+||zajawwgpl.com^$important
+||zamjzpwgekeo.com^$important
 ||zansceeifcmm.com^$important
 ||zapvzwydgiwz.com^$important
 ||zatrlsov.com^$important
@@ -10495,6 +10501,7 @@
 ||zbqblhqlrm.com^$important
 ||zbqochqhke.bid^$important
 ||zbquabayubqbbg.bid^$important
+||zbrkywjutuxu.com^$important
 ||zbsqhxyjlh.com^$important
 ||zbtqpkimkjcr.com^$important
 ||zbutxofdxe.bid^$important
@@ -10546,6 +10553,7 @@
 ||zfkkmayphqrw.com^$important
 ||zfmqywrpazlx.com^$important
 ||zfoeiywwiqo.com^$important
+||zfpsotrgboqp.com^$important
 ||zfqpjxuycxdl.com^$important
 ||zftgljkhrdze.com^$important
 ||zfubrpobdf.bid^$important
@@ -10565,6 +10573,7 @@
 ||zhabyesrdnvn.com^$important
 ||zhbzxeis.bid^$important
 ||zhdjvlfszokew.com^$important
+||zhdmplptugiu.com^$important
 ||zhkziiaajuad.com^$important
 ||zhlfogiy.com^$important
 ||zhmbxvmyk.com^$important
@@ -10576,6 +10585,7 @@
 ||zhtcuchr.bid^$important
 ||zhxpnywjnltskd.com^$important
 ||ziaxamkssw.com^$important
+||zidqkapwgnsh.com^$important
 ||ziffstatic.com^$important
 ||ziglpcxcxetsi.com^$important
 ||zijkalirgmyzj.bid^$important
@@ -10583,10 +10593,12 @@
 ||zinrora.pw^$important
 ||ziqdunppuzjd.com^$important
 ||zirhuqksdqeyg.com^$important
+||zisbrygtluib.com^$important
 ||zitbvxrbai.bid^$important
 ||ziumnfnltbu.bid^$important
 ||ziuxkdcgsjhq.com^$important
 ||ziyuakulwtwn.bid^$important
+||zizmvnytmdto.com^$important
 ||zjdnwisfiin.bid^$important
 ||zjejoxqte.com^$important
 ||zjgbpjmqfaow.com^$important
@@ -10599,6 +10611,7 @@
 ||zjsbdjkdtjzoxh.com^$important
 ||zjsbeont.com^$important
 ||zjsnrqxltqk.com^$important
+||zjujxffup.com^$important
 ||zjvlymwonwbp.bid^$important
 ||zjwcddahpz.com^$important
 ||zkduhoyaxw.bid^$important
@@ -10624,6 +10637,7 @@
 ||zlmbspplqvftur.com^$important
 ||zlrlbfigwz.bid^$important
 ||zltsivah.bid^$important
+||zlvbqseyjdna.com^$important
 ||zlxfpawyyoq.com^$important
 ||zlxwasugtn.com^$important
 ||zmbrweqglexv.com^$important
@@ -10634,7 +10648,10 @@
 ||zmnpobvglair.bid^$important
 ||zmnqoymznwng.com^$important
 ||zmogtyau.com^$important
+||zmujsnyzujuy.com^$important
+||zmuyirmzujgk.com^$important
 ||zmxcefuntbgf.com^$important
+||zmytwgfd.com^$important
 ||znbokxhkwx.com^$important
 ||znckkjdguw.com^$important
 ||znfnwozd.com^$important
@@ -10644,6 +10661,7 @@
 ||znmrgzozlohe.com^$important
 ||znnabrxnotlm.com^$important
 ||znnmzggbw.com^$important
+||znoumvve.com^$important
 ||znsonssdb.bid^$important
 ||znsqykdmcjh.com^$important
 ||znvctmolksaj.com^$important
@@ -10652,35 +10670,45 @@
 ||zodorxfj.bid^$important
 ||zog.link^$important
 ||zohaqnxwkvyt.com^$important
+||zoileyozfexv.com^$important
 ||zoktycom.com^$important
 ||zomsfhgj.com^$important
 ||zonhpljclov.com^$important
+||zoowknbw.com^$important
 ||zospzfvxkshe.com^$important
 ||zoszujvvlu.com^$important
 ||zotjktpk.com^$important
 ||zowhxkwzjpta.com^$important
+||zoyxbjmmlsrc.com^$important
 ||zpaimilpqx.com^$important
 ||zpctncydojjh.com^$important
+||zpcxpdpqllyrb.com^$important
 ||zperfcaskqrxug.com^$important
 ||zpfjfwbij.com^$important
 ||zpfoyfae.com^$important
+||zpghmretcikhzs.com^$important
 ||zpkebyxabtsh.com^$important
+||zpkobplsfnxf.com^$important
 ||zpkshggvjif.com^$important
 ||zplcshsejblph.com^$important
 ||zplvjgpxvh.com^$important
+||zpmbsivi.com^$important
 ||zpnbzxbiqann.com^$important
 ||zpolivtjrhjquo.com^$important
 ||zppkpktskuf.com^$important
 ||zprlpkabqlth.com^$important
 ||zprrfpczfpnh.com^$important
 ||zpsgqvvzcbni.com^$important
+||zptncsir.com^$important
 ||zpwqekgztngd.bid^$important
 ||zpwqnicvzi.com^$important
 ||zpwtylxpfeje.com^$important
+||zpxbdukjmcft.com^$important
 ||zpxgdlqoofx.com^$important
 ||zpxlmtujszhixe.com^$important
 ||zpznbracwdai.com^$important
 ||zpzsdmpvqudhsz.com^$important
+||zqaxaqqqutrx.com^$important
 ||zqbjcsodjiz.bid^$important
 ||zqddlgcrxjmwbz.bid^$important
 ||zqdvdygz.com^$important
@@ -10708,7 +10736,9 @@
 ||zrosbqwecw.com^$important
 ||zrrgjpsb.bid^$important
 ||zrufclmvlsct.com^$important
+||zrxgdnxneslb.com^$important
 ||zrzgnzel.com^$important
+||zsancthhfvqm.com^$important
 ||zsbifpiosqedn.bid^$important
 ||zsdhypkxyodiw.bid^$important
 ||zsdlyigktdly.bid^$important
@@ -10721,6 +10751,8 @@
 ||zsxaeudw.bid^$important
 ||zsxlpdtnyyau.com^$important
 ||zsxwpotlxihvk.com^$important
+||ztcysvupksjt.com^$important
+||ztfrlktqtcnl.com^$important
 ||zthnscjdamcolo.com^$important
 ||ztioesdyffrr.com^$important
 ||ztiqalyrbfsnl.com^$important
@@ -10729,6 +10761,7 @@
 ||zttlnqce.com^$important
 ||ztwfeajx.bid^$important
 ||ztxohhagymj.com^$important
+||ztyrgxdelngf.com^$important
 ||ztzfcmbsycout.bid^$important
 ||zualhpolssus.com^$important
 ||zucnclozfb.com^$important
@@ -10741,6 +10774,7 @@
 ||zukipoayrlh.com^$important
 ||zukxd6fkxqn.com^$important
 ||zunjxpwiztqgt.bid^$important
+||zupeaoohmntp.com^$important
 ||zutnlpnzxtt.com^$important
 ||zuuwfrphdgxk.com^$important
 ||zuwaodorkyrrp.com^$important
@@ -10748,10 +10782,13 @@
 ||zuxanrebeceko.com^$important
 ||zuybvpprdoo.com^$important
 ||zvaianux.bid^$important
+||zvdacnjhetcrq.com^$important
 ||zvdotftdxkfsv.bid^$important
 ||zvefwiecrw.bid^$important
 ||zvicyjvyox.bid^$important
 ||zvovdtomwa.com^$important
+||zvqjjurhikku.com^$important
+||zvrwttooqgeb.com^$important
 ||zvsjiigao.com^$important
 ||zvttlvbclihk.com^$important
 ||zvuespzsdgdq.com^$important
@@ -10762,6 +10799,7 @@
 ||zwfvzxmc.com^$important
 ||zwjnzhln.bid^$important
 ||zwpaujzg.com^$important
+||zwqfnizwcvbx.com^$important
 ||zwsyqdnhnyzckt.com^$important
 ||zwurpwlleo.bid^$important
 ||zwuygjzjrjnedg.com^$important
@@ -10779,6 +10817,7 @@
 ||zxczritytzsjz.com^$important
 ||zxdgmcgpp.com^$important
 ||zxeyqwgwsfv.com^$important
+||zxiikxeagmferu.com^$important
 ||zxjmybvewmso.com^$important
 ||zxkrdvrijsp.com^$important
 ||zxlchzyluskvj.com^$important
@@ -10791,7 +10830,9 @@
 ||zxxfoccanf.com^$important
 ||zxxzqiqbchqkaw.com^$important
 ||zy16eoat1w.com^$important
+||zyaorkkdvcbl.com^$important
 ||zybztgtsxq.bid^$important
+||zycvyudt.com^$important
 ||zydfsiuhqkbsqh.com^$important
 ||zyeawuzisttu.com^$important
 ||zyf03k.xyz^$important
@@ -10818,3 +10859,4 @@
 ||zzvjaqnkq.bid^$important
 ||zzwajufm.com^$important
 ||zzwzjidz.bid^$important
+||zzxosget.com^$important
