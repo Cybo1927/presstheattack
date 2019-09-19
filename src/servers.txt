@@ -17,6 +17,7 @@
 /^https?:\/\/zmctrack\.(com|net)/$important
 ||0--e.info^$important
 ||00f31156f051fdf.com^$important
+||05a7946eef5d.com^$important
 ||06f24f3d0b.com^$important
 ||0byv9mgbn0.com^$important
 ||0d96a0971a04071.com^$important
@@ -77,6 +78,7 @@
 ||3lift.com^$important
 ||40dcbbc601.com^$important
 ||41944cecfb85.com^$important
+||419669c0449.com^$important
 ||41df76c67812005c.com^$important
 ||43031aaaecd84428.com^$important
 ||43acc8130d31cfd61041.date^$important
@@ -125,6 +127,7 @@
 ||713b037362f02.com^$important
 ||729dcbaa57e80c1e.com^$important
 ||746fyw2v.com^$important
+||751c990ab4.com^$important
 ||754daf9cd396259.com^$important
 ||75ce0f054e9abc.com^$important
 ||7667bab1751ff777.com^$important
@@ -2568,11 +2571,6 @@
 ||fpvfeyjrwlio.com^$important
 ||fpxkjlzmkqp.com^$important
 ||fpxthotxzuf.com^$important
-||05a7946eef5d.com^$important
-||419669c0449.com^$important
-||751c990ab4.com^$important
-||plrjs.com^$important
-||timesporn.fun^$important
 ||fpzcaabzhvzz.com^$important
 ||fpzcyccpqldc.com^$important
 ||fpzxmdjjpphzc.bid^$important
@@ -6509,6 +6507,7 @@
 ||plmythrza.com^$important
 ||plqakqvku.com^$important
 ||plquutxxewil.com^$important
+||plrjs.com^$important
 ||plxtejszb.com^$important
 ||plyfoni.ru^$important
 ||plyftjxmrxrk.com^$important
@@ -8110,6 +8109,7 @@
 ||tikjbfpd.com^$important
 ||tikwglketskr.com^$important
 ||timeinsnewsing.com^$important
+||timesporn.fun^$important
 ||timonnbfad.bid^$important
 ||tingecatalogue.club^$important
 ||tinlgcmkslwio.bid^$important
