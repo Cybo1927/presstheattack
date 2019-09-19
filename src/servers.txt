@@ -29,9 +29,6 @@
 ||14e6e1ee3d7236d41431.date^$important
 ||190282.xyz^$important
 ||197c3b10bab3c1.com^$important
-||smcheck.org^$important
-||piguiqproxy.com^$important
-||amgload.net^$important
 ||1b8d89551340a.com^$important
 ||1b969cef84d93b43.com^$important
 ||1bfc228b50a902db.com^$important
@@ -423,6 +420,7 @@
 ||amazon-adsystem.com^$important
 ||amdhlyqfy.bid^$important
 ||amgkkjgjktml.com^$important
+||amgload.net^$important
 ||amhpbhyxfgvd.com^$important
 ||amjbzzicysu.bid^$important
 ||amlcscfr.com^$important
@@ -6452,6 +6450,7 @@
 ||pidbbdxixp.com^$important
 ||pifaojvaiofw.com^$important
 ||pifsistcwycouc.com^$important
+||piguiqproxy.com^$important
 ||piifwkvdil.com^$important
 ||piljbvnykkt.bid^$important
 ||pimygjumeyrtxe.com^$important
@@ -7755,6 +7754,7 @@
 ||smapohsnoww.com^$important
 ||smartadserver.com^$important
 ||smartphonesbonusoffers.icu^$important
+||smcheck.org^$important
 ||smhqmrxplvnx.com^$important
 ||smhyvyvnpzigir.com^$important
 ||smjdypbxapigu.bid^$important
