@@ -1,7 +1,7 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-09-20 02:10:55
-! Version: 20190920021055
+! Last modified: 2019-09-20 02:23:06
+! Version: 20190920022306
 ! Expires: 3 hours
 ! Number of filters: 10786
 ! Homepage: https://github.com/bogachenko/presstheattack/
@@ -1243,9 +1243,6 @@
 ||cdfyuyoyfxohj.bid^$important
 ||cdhzxcwuibzk.com^$important
 ||cdmjjvqzurn.com^$important
-||cdn.onesignal.com^$important,third-party
-||cdn.pljs.ru^$important
-||cdn.ziffstatic.com^$important
 ||cdn7.rocks^$important
 ||cdn77.org^$important
 ||cdnasiaclub.com^$important
@@ -6614,6 +6611,7 @@
 ||plgdhrvzsvxp.com^$important
 ||plhvzqkkirw.com^$important
 ||plista.com^$important
+||pljs.ru^$important
 ||pllblrapagrvn.com^$important
 ||pllregftgbgmdi.com^$important
 ||pllvsqicx.bid^$important
@@ -9163,6 +9161,7 @@
 ||volleqgoafcb.com^$important
 ||volyncftzhw.bid^$important
 ||vomhhsovuu.bid^$important
+||vornz.com^$important
 ||vouekcjmiu.com^$important
 ||voxnrvzwy.com^$important
 ||voxucaldgpicqh.com^$important
@@ -10567,6 +10566,7 @@
 ||zhtcuchr.bid^$important
 ||zhxpnywjnltskd.com^$important
 ||ziaxamkssw.com^$important
+||ziffstatic.com^$important
 ||ziglpcxcxetsi.com^$important
 ||zijkalirgmyzj.bid^$important
 ||zijnobynjmcs.com^$important

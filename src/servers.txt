@@ -32,7 +32,6 @@
 ||197c3b10bab3c1.com^$important
 ||1b8d89551340a.com^$important
 ||1b969cef84d93b43.com^$important
-||vornz.com^$important
 ||1bfc228b50a902db.com^$important
 ||1cb70f6b7aab4c70819a.date^$important
 ||1fbaa223d6945621f8d7.date^$important
@@ -1143,8 +1142,6 @@
 ||cdfyuyoyfxohj.bid^$important
 ||cdhzxcwuibzk.com^$important
 ||cdmjjvqzurn.com^$important
-||pljs.ru^$important
-||ziffstatic.com^$important
 ||cdn7.rocks^$important
 ||cdn77.org^$important
 ||cdnasiaclub.com^$important
@@ -6500,6 +6497,7 @@
 ||plgdhrvzsvxp.com^$important
 ||plhvzqkkirw.com^$important
 ||plista.com^$important
+||pljs.ru^$important
 ||pllblrapagrvn.com^$important
 ||pllregftgbgmdi.com^$important
 ||pllvsqicx.bid^$important
@@ -9043,6 +9041,7 @@
 ||volleqgoafcb.com^$important
 ||volyncftzhw.bid^$important
 ||vomhhsovuu.bid^$important
+||vornz.com^$important
 ||vouekcjmiu.com^$important
 ||voxnrvzwy.com^$important
 ||voxucaldgpicqh.com^$important
@@ -10439,6 +10438,7 @@
 ||zhtcuchr.bid^$important
 ||zhxpnywjnltskd.com^$important
 ||ziaxamkssw.com^$important
+||ziffstatic.com^$important
 ||ziglpcxcxetsi.com^$important
 ||zijkalirgmyzj.bid^$important
 ||zijnobynjmcs.com^$important
