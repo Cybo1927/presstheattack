@@ -5563,6 +5563,16 @@ youtube.com#@#ytd-popup-container > .ytd-popup-container > #contentWrapper > .yt
 |http:*^ad6.$badfilter
 |http:*^ad6^$badfilter
 |http:*^ad6_$badfilter
+||chatango.com^$important,badfilter
+||connect.facebook.net^$important,script,badfilter
+||chatango.com^$badfilter
+||platform.twitter.com/js/button.$important,badfilter
+||platform.twitter.com/js/button.$important,third-party,badfilter
+||facebook.net^$badfilter
+||st.chatango.com^$badfilter
+#@#iframe[src*=disqus\.com\/embed\/comments]
+||realtime.services.disqus.com^$important,badfilter
+||realtime.services.disqus.com^$badfilter
 |http:*^ad7-$badfilter
 |http:*^ad7.$badfilter
 |http:*^ad7^$badfilter
@@ -5856,7 +5866,7 @@ support.mozilla.org###announcements
 ||cloudflare.com/ajax/libs/cookieconsent2/$badfilter
 ||cloudfront.net/*/facebook.png$badfilter
 ||collections.yandex.ru/collections/api^$important
-||connect.facebook.net^
+||connect.facebook.net^$badfilter
 ||consent.truste.com^$badfilter
 ||cse.google.com^$important,badfilter
 ||csp.yandex.net^$important
