@@ -545,7 +545,6 @@ wp.pl#@#body > script + iframe + div:not([id])[class]
 /bloglines.gif$badfilter
 /bmg_tbar.$badfilter
 /bookmarkcraze_$badfilter
-||oload.*^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: cdnjs.cloudflare.com *.oloadcdn.net,badfilter
 /bottom-facebook.$badfilter
 /bottom-twitter.$badfilter
 /bt_facebook_$badfilter
@@ -4227,6 +4226,12 @@ pixel.$important,image,badfilter
 @@||metasearch.com.ph^$elemhide,badfilter
 @@||metasearch.com.tw^$elemhide,badfilter
 @@||metasearch.com.vn^$elemhide,badfilter
+||oload.*^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: cdnjs.cloudflare.com  *.oloadcdn.net,badfilter
+||openload.co/r3/f^$important,badfilter
+oload.*#@#+js(addEventListener-defuser.js, DOMMouseScroll)
+oload.*,openload.*#@#+js(abort-current-inline-script.js, adblock, adblock2)
+oload.*,oladblock.*#@#+js(set-constant.js, adblock2, false)
+oload.*,openload.*#@#+js(set-constant.js, sadbl, false)
 @@||metasearch.gr^$elemhide,badfilter
 @@||metasearch.hk^$elemhide,badfilter
 @@||metasearch.ie^$elemhide,badfilter
