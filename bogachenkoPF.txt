@@ -4949,6 +4949,15 @@ play.google.com#@#div.meta-info:style(width:200px !important)
 ^ad4-$badfilter
 ^ad4.$badfilter
 ^ad4^$badfilter
+.*/ads/$badfilter
+||gemius.pl^$badfilter
+*/rodo.js?pp_pr=$script,important
+#@#*[class$="-ad"]
+||contributor.google.com/scripts^$badfilter
+||hit.gemius.pl^$badfilter
+.*/ads$badfilter
+||hit.gemius.pl^$third-party,badfilter
+/ads/*$script,badfilter
 ^ad4_$badfilter
 ^ad5-$badfilter
 ^ad5.$badfilter
@@ -6073,6 +6082,7 @@ support.mozilla.org###announcements
 ||yandex.ru^$third-party,badfilter
 ||yastatic.net,yandex.ru$font,important
 ||yastatic.net/*/zen-lib/$important
+/gen_204$important,badfilter
 ||yastatic.net/s3/bro-bg-store^$important
 ||yastatic.net/s3/chat-static^$important
 ||yastatic.net/s3/distribution^$important
