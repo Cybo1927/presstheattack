@@ -6088,7 +6088,6 @@ support.mozilla.org###announcements
 ||vk.com/widget_post.php$domain=kritika24.ru,badfilter
 ||vk.com/widget_recommended.php?$third-party,badfilter
 ||vk.com/widget_subscribe.php?$third-party,badfilter
-||xyz^$third-party,xmlhttprequest,domain=~anidub.com|~avtomaty-i-bonusy.com|~csgoreports.com|~cvid.kiev.ua|~estream.to|~funtik.tv|~hentaiz.org|~jokehd.com|~kinobig.me|~kinosklad.biz|~kristinita.ru|~magicfilm.net|~matchat.online|~my.mail.ru|~nccg.ru|~newdeaf.online|~online.animedia.tv|~onmovies.se|~roadhub.ru|~shamancoal.com|~soccer365.ru|~streetbee.io|~streetbee.ru|~vk.com,badfilter
 ||vk.com^$domain=~vk.com|~vkontakte.ru,badfilter
 ||vk.com^$important,third-party,badfilter
 ||vk.com^$third-party,badfilter
@@ -6097,6 +6096,14 @@ support.mozilla.org###announcements
 ||vkontakte.ru/widget_comments.php?$third-party,badfilter
 ||vkontakte.ru/widget_community.php$third-party,badfilter
 ||vkontakte.ru/widget_groups.php?$third-party,badfilter
+||gogoanime.*^$csp=frame-src 'self' vidstreaming.io streamango.com estream.to oload.tv openload.co thevideo.me www.mp4upload.com www.yourupload.com bestream.tv disqus.com,badfilter
+||gogoanime.*^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' *.googleapis.com *.play44.net disqus.com *.disqus.com *.disquscdn.com data:,badfilter
+||vidstreaming.io^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' *.gstatic.com *.jwplatform.com *.jwpcdn.com,badfilter
+||smcheck.org^$badfilter
+||piguiqproxy.com^$important,badfilter
+||xyz^$third-party,xmlhttprequest,domain=~anidub.com|~avtomaty-i-bonusy.com|~crackstreams.com|~csgoreports.com|~cvid.kiev.ua|~estream.to|~funtik.tv|~hentaiz.org|~jokehd.com|~kinobig.me|~kinosklad.biz|~kristinita.ru|~magicfilm.net|~matchat.online|~my.mail.ru|~nccg.ru|~newdeaf.online|~online.animedia.tv|~onmovies.se|~roadhub.ru|~shamancoal.com|~soccer365.ru|~streetbee.io|~streetbee.ru|~vk.com,badfilter
+@@||amgload.net/z|$third-party,xmlhttprequest,badfilter
+@@||piguiqproxy.com/z|$third-party,xmlhttprequest,badfilter
 ||vkontakte.ru/widget_like.php$third-party,badfilter
 ||vkontakte.ru/widget_poll.php?$third-party,badfilter
 ||vkontakte.ru/widget_recommended.php?$third-party,badfilter
