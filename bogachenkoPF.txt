@@ -46,13 +46,14 @@ torrent-solid.ru##[src="/2019p/777u.gif"]
 filmitorrentom.net##[src="/img/lkj.png"], [src="/img/dfr.png"]
 */js/plyr.min.js$script,first-party
 /^https?:\/\/[^\s]+\/((glx|(work)?box|messaging|notification|pab)[\W\w])?sw\.js/$important,script
-/^https?:\/\/[^\s]+\/sw([\W\w](vodlocker|service|[0-9]{1,10}))\.js/$important,script
+/^https?:\/\/[^\s]+\/sw([\W\w](vodlocker|service|[0-9]{1,10}|[a-z]{1,5}[\W\w][0-9]{1,2}))\.js/$important,script
 /\/(service[\W\w])?worker.*?\.js/$important,script,domain=~twitch.tv
 /^https?:\/\/[^\s]+\/worker([\W\w](asmjs|bundle))\.js/$important,script
 |http*:*/yads-async.js$important,script
 #@#.social-icons
 -ad0-$badfilter
 -ad0.$badfilter
+||usocial.pro^$third-party,badfilter
 -ad0^$badfilter
 #@#a[href^="https://www.linkedin.com/shareArticle?"]
 #@#a[href^="https://www.linkedin.com/shareArticle"]
