@@ -32,6 +32,7 @@
 ||197c3b10bab3c1.com^$important
 ||1b8d89551340a.com^$important
 ||1b969cef84d93b43.com^$important
+||vornz.com^$important
 ||1bfc228b50a902db.com^$important
 ||1cb70f6b7aab4c70819a.date^$important
 ||1fbaa223d6945621f8d7.date^$important
@@ -1142,9 +1143,8 @@
 ||cdfyuyoyfxohj.bid^$important
 ||cdhzxcwuibzk.com^$important
 ||cdmjjvqzurn.com^$important
-||cdn.onesignal.com^$important,third-party
-||cdn.pljs.ru^$important
-||cdn.ziffstatic.com^$important
+||pljs.ru^$important
+||ziffstatic.com^$important
 ||cdn7.rocks^$important
 ||cdn77.org^$important
 ||cdnasiaclub.com^$important
