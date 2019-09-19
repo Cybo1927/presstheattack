@@ -5553,6 +5553,7 @@ youtube.com#@#ytd-popup-container > .ytd-popup-container > #contentWrapper > .yt
 |http:*^ad3_$badfilter
 |http:*^ad4-$badfilter
 |http:*^ad4.$badfilter
+||connect.facebook.net^$third-party,domain=~facebook.com|~fb.com,badfilter
 |http:*^ad4^$badfilter
 |http:*^ad4_$badfilter
 |http:*^ad5-$badfilter
