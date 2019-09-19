@@ -6122,13 +6122,19 @@ support.mozilla.org###announcements
 ||yandex.ru/portal/ntp^$important
 ||yandex.ru/portal/set/any/$domain=yandex.ru
 ||yandex.ru/search/yandcache.js$script
+||rapidvideo.*^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: *.rapidvideo.com *.playercdn.net;upgrade-insecure-requests,badfilter
+||rapidvideo.com^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval',badfilter
 ||yandex.ru^$third-party,badfilter
 ||yastatic.net,yandex.ru$font,important
 *vast-$important,first-party,script,badfilter
 /\/vast(\-[-0-9.]{4,6})?\.js$/$script,important
 ||yastatic.net/*/zen-lib/$important
+rapidvideo.com#@#+js(abort-on-property-write, executed)
+rapidvideo.com#@#+js(abort-current-inline-script, atob, tabunder)
+rapidvideo.com#@#+js(abort-current-inline-script, atob, tabunder)
 /gen_204$important,badfilter
 ||yastatic.net/s3/bro-bg-store^$important
+#@#*[class$="_ads"]
 ||yastatic.net/s3/chat-static^$important
 ||yastatic.net/s3/distribution^$important
 ||yastatic.net/s3/zen-lib^$important
