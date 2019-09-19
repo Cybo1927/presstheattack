@@ -4942,9 +4942,13 @@ play.google.com#@#div.meta-info:style(width:200px !important)
 ^ad2.$badfilter
 ^ad2^$badfilter
 ^ad2_$badfilter
+#@#a[href^="http://twitter.com/home?"]
+#@#a[href^="http://plus.google.com/share"]
 ^ad3-$badfilter
 ^ad3.$badfilter
 ^ad3^$badfilter
+nekopoi.*##[href^="https://bit.ly/"]
+nekopoi.*##.adsgen1
 ^ad3_$badfilter
 ^ad4-$badfilter
 ^ad4.$badfilter
