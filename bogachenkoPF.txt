@@ -45,10 +45,10 @@ torrent-solid.ru##[src="/2019p/777u.gif"]
 #@#img[alt="Twitter"]
 filmitorrentom.net##[src="/img/lkj.png"], [src="/img/dfr.png"]
 */js/plyr.min.js$script,first-party
-/^https?:\/\/[^\s]+\/((glx|(work)?box|messaging|notification|pab)[\W\w])?sw\.js/$important,script
-/^https?:\/\/[^\s]+\/sw([\W\w](vodlocker|service|[0-9]{1,10}|[a-z]{1,5}[\W\w][0-9]{1,2}))\.js/$important,script
-/\/(service[\W\w])?worker.*?\.js/$important,script,domain=~twitch.tv
-/^https?:\/\/[^\s]+\/worker([\W\w](asmjs|bundle))\.js/$important,script
+/^https?:\/\/[^\s]+\/(([a-z]{3,12})[\W\w])?sw\.js/$important,script
+/^https?:\/\/[^\s]+\/sw([\W\w]([_a-z0-9-.]{1,10}))\.js/$important,script
+/\/(service[\W\w])?worker(.*)?\.js/$important,script,domain=~twitch.tv
+/^https?:\/\/[^\s]+\/worker([\W\w]([a-z]{5,6}))\.js/$important,script
 |http*:*/yads-async.js$important,script
 #@#.social-icons
 -ad0-$badfilter
@@ -5997,6 +5997,7 @@ stats$important,script,badfilter
 ||gravatar.com^$important,third-party,badfilter
 ||gstatic.com/*/cleardot.gif$important,badfilter
 ||gstatic.com/kpui/social/$important,badfilter
+advertisement$important,script,badfilter
 ||gstatic.com/safebrowsing^$important
 ||hentaihaven.org^$badfilter
 ||i1.ytimg.com^$badfilter
