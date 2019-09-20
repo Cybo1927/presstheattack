@@ -61,6 +61,7 @@ ria.ru##.widgets__b-slide, #subscriber, .article__sharebar, .footer__social
 uglegorsk.news##.essb_links_list
 svpressa.ru###cookie-bar
 torrent-filmi.xyz###infoBlockFilm, #infoBlockCont
+@@/^https?:\/\/[a-z]{1}([0-9]{1,2})?\.addthis\.com/$third-party,script
 torrent-filmi.xyz##html:style(background-image: none !important;)
 ||torrentfilm.me/img/bg.jpg$image
 torrentfilm.me##[src="/img/mgt.png"]
@@ -71,6 +72,8 @@ torrentfilm.me##[src="/img/mgt.png"]
 -ad0_$badfilter
 -ad1-$badfilter
 -ad1.$badfilter
+/adv-$badfilter
+#@#*[id$="_ads"]
 #@#.twitter_share_count
 #@#.social-listing
 #@#.sidebar-social
