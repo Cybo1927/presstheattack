@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-09-20 03:14:21
-! Version: 20190920031421
+! Last modified: 2019-09-20 17:27:30
+! Version: 20190920172730
 ! Expires: 3 hours
-! Number of filters: 11085
+! Number of filters: 11094
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -539,6 +539,7 @@
 ||ampnkoudpnd.bid^$important
 ||amqcdbles.com^$important
 ||amrfscxvdvfvpa.com^$important
+||amrnhiqy.com^$important
 ||amung.us^$important
 ||amwupsihqfewgr.com^$important
 ||anasjdzutdmv.com^$important
@@ -847,6 +848,7 @@
 ||begun.ru^$important
 ||begxhuqfrx.bid^$important
 ||behjgnhniasz.com^$important
+||beholder.xyz^$important
 ||behybmunweid.com^$important
 ||bekiruvppl.com^$important
 ||bektvxxfv.bid^$important
@@ -2007,6 +2009,7 @@
 ||dxiixnrumvni.com^$important
 ||dxijzlmevjffxm.bid^$important
 ||dxkhboqrrimy.bid^$important
+||dxkkixczpsdaw.com^$important
 ||dxnglrimuuucmr.com^$important
 ||dxnzgeyxjhzym.com^$important
 ||dxokxbrfl.bid^$important
@@ -2470,6 +2473,7 @@
 ||famztplbta.bid^$important
 ||faoxietqwbmu.com^$important
 ||faptitans.com^$important
+||faridabadflexpack.live^$important
 ||fastclick.net^$important
 ||fastly-insights.com^$important
 ||fatayvywbebgdn.com^$important
@@ -4419,6 +4423,7 @@
 ||jryyekccnw.com^$important
 ||jryywrczwcfmw.com^$important
 ||js-agent.newrelic.com^$important
+||jsecoin.com^$important
 ||jshjrozmwmyj.com^$important
 ||jtacrwtaf.com^$important
 ||jtbmxdoadktnm.com^$important
@@ -6113,6 +6118,7 @@
 ||nxjlnchylgsw.com^$important
 ||nxnbbqdh.bid^$important
 ||nxnjpslufglmvp.com^$important
+||nxtipyczkivm.com^$important
 ||nyaisjsghvj.bid^$important
 ||nycgwaknv.com^$important
 ||nycnjewyxex.com^$important
@@ -6410,6 +6416,7 @@
 ||otewxlcmkih.com^$important
 ||otnolatrnup.com^$important
 ||otoxkqlivsqr.com^$important
+||otparcaltonther.pro^$important
 ||otpckmnnfm.com^$important
 ||otrjvabiv.bid^$important
 ||otruzjgxof.com^$important
@@ -7073,6 +7080,7 @@
 ||qiqrguvdhcux.com^$important
 ||qiremmtynkae.com^$important
 ||qirnhdcywjnd.com^$important
+||qiroris.pw^$important
 ||qitumxisyt.com^$important
 ||qiurgfxexsmp.com^$important
 ||qiypdctaqiv.com^$important
@@ -8002,6 +8010,7 @@
 ||spbflxvnheih.com^$important
 ||speeder.biz^$important
 ||spfrlpjmvkmq.com^$important
+||spgjtypydhdxl.com^$important
 ||sphjqakwuteg.com^$important
 ||splityndomets.pro^$important
 ||spomwstrgood.com^$important
