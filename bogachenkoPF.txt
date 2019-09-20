@@ -5835,18 +5835,23 @@ support.mozilla.org###announcements
 |https:*_ad8-$badfilter
 |https:*_ad8.$badfilter
 |https:*_ad8^$badfilter
+||indishare.*^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.bootstrapcdn.com *.cloudflare.com *.google-analytics.com,badfilter
 |https:*_ad8_$badfilter
 |https:*_ad9-$badfilter
 |https:*_ad9.$badfilter
 |https:*_ad9^$badfilter
+||connect.ok.ru^$third-party,badfilter
 |https:*_ad9_$badfilter
 |https:*_ad-$badfilter
 |https:*_ad^$badfilter
 |https:*_ad_$badfilter
+vk.com/share.php$badfilter
 |https://$third-party,script,domain=01fmovies.com,badfilter
 |https://$third-party,script,domain=xvideos.com,badfilter
+stats$important,script,badfilter
 |https://$third-party,subdocument,domain=proxyfrom.asia,badfilter
 |https://$third-party,subdocument,domain=superproxy.biz,badfilter
+||gravatar.com^$important,badfilter
 |https://$third-party,subdocument,domain=tpb.hid.li,badfilter
 |https://$third-party,xmlhttprequest,domain=01fmovies.com,badfilter
 ||2ch.net^$badfilter
@@ -6002,7 +6007,6 @@ support.mozilla.org###announcements
 ||mabila.ua^$badfilter
 ||mail.google.com/*&view=ad&$important,badfilter
 ||mail.google.com/mail/*/cleardot.gif$important,badfilter
-||mail.ru^$third-party,important
 ||mc.yandex.ru^$important
 ||metrica.yandex.com^$badfilter
 ||metrica.yandex.ru^$badfilter
