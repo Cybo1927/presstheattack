@@ -6127,6 +6127,7 @@ advertisement$important,script,badfilter
 ||vkontakte.ru/widget_recommended.php?$third-party,badfilter
 ||vkontakte.ru/widget_subscribe.php?$third-party,badfilter
 ||vkontakte.ru^$domain=~vk.com|~vkontakte.ru,badfilter
+kindteenporn.com##.admin-frame-wrap, .vi-br
 ||w.org^$badfilter
 ||webvisor.com^$badfilter
 ||webvisor.com^$domain=~metrika.yandex.ru|~metrica.yandex.com|~webvisor.com
