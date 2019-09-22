@@ -1,5 +1,13 @@
 #!/usr/bin/perl
-
+#
+# Fanboy Adblock Sorter v1.5 (22/03/2011)
+#
+# Dual License CCby3.0/GPLv2
+# http://creativecommons.org/licenses/by/3.0/
+# http://www.gnu.org/licenses/gpl-2.0.html
+#
+# Usage: perl sort.pl <filename.txt>
+#
 use strict;
 use warnings;
 use File::Copy;
