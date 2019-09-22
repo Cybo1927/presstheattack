@@ -27,6 +27,8 @@
 ||110380d053f716c4.com^$important
 ||12dc71b7cb820f2a.com^$important
 ||13d8ba78e080.com^$important
+||tharbadir.com^$important
+||zumzumsrv59.live^$important
 ||14e6e1ee3d7236d41431.date^$important
 ||190282.xyz^$important
 ||197c3b10bab3c1.com^$important
