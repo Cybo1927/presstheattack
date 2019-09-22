@@ -27,8 +27,6 @@
 ||110380d053f716c4.com^$important
 ||12dc71b7cb820f2a.com^$important
 ||13d8ba78e080.com^$important
-||tharbadir.com^$important
-||zumzumsrv59.live^$important
 ||14e6e1ee3d7236d41431.date^$important
 ||190282.xyz^$important
 ||197c3b10bab3c1.com^$important
@@ -8181,6 +8179,7 @@
 ||tguzugtyoh.com^$important
 ||tgvedmttabgfvy.bid^$important
 ||tgyswiymvtxg.com^$important
+||tharbadir.com^$important
 ||thbuhcnpt.com^$important
 ||thcumizbjxnp.bid^$important
 ||theadex.com^$important
@@ -10902,6 +10901,7 @@
 ||zukbmxbrv.com^$important
 ||zukipoayrlh.com^$important
 ||zukxd6fkxqn.com^$important
+||zumzumsrv59.live^$important
 ||zunjxpwiztqgt.bid^$important
 ||zupeaoohmntp.com^$important
 ||zutnlpnzxtt.com^$important
