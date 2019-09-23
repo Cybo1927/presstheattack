@@ -2615,10 +2615,14 @@ track$important,script,badfilter
 @@||cse.google.com.ph^$badfilter
 @@||cse.google.com.ph^$elemhide,badfilter
 @@||cse.google.com.pk^$badfilter
+*/angpaohoki.gif$image
+*/9club.gif$image
 @@||cse.google.com.pk^$elemhide,badfilter
 @@||cse.google.com.pr^$badfilter
 @@||cse.google.com.pr^$elemhide,badfilter
 @@||cse.google.com.py^$badfilter
+#@#a[href^="http://facebook.com/share.php?"]
+#@#a[href^="http://del.icio.us/post?url="]
 @@||cse.google.com.py^$elemhide,badfilter
 @@||cse.google.com.qa^$badfilter
 @@||cse.google.com.qa^$elemhide,badfilter
@@ -2640,6 +2644,10 @@ track$important,script,badfilter
 @@||cse.google.com.tn^$elemhide,badfilter
 @@||cse.google.com.tr^$badfilter
 @@||cse.google.com.tr^$elemhide,badfilter
+*/qqsamsung.gif$image
+*/AIRASIABET.gif$image
+*/depoarena.gif$image
+*/ezebet.gif$image
 @@||cse.google.com.tw^$badfilter
 @@||cse.google.com.tw^$elemhide,badfilter
 @@||cse.google.com.ua^$badfilter
