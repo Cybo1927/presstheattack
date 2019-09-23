@@ -494,7 +494,7 @@ utorrentfilmi.ru##[href^="//vip.utorrentfilmi.ru/"]
 /^https?:\/\/[^\s]+\/[a-zA-Z0-9]{1}\.js$/$script,image
 /Youtube-icon-$badfilter
 /Youtube-icon_$badfilter
-/\/[-a-z0-9_]{1}\.gif/$important,image
+/\/[-a-zA-Z0-9_]{1}\.gif/$important,image
 ads.min$important,script,badfilter
 /^https?:\/\/[^\s]+(\.wasm|\.wsm|\.wa)$/$important,xmlhttprequest,domain=~twitch.tv
 /^https?:\/\/avatars\.mds\.yandex\.net\/get\-[a-z]{2,6}\/[0-9]{5}\/[^\s]{60,}/$image,domain=yandex.ru|~metrika.yandex.ru
@@ -766,7 +766,6 @@ track$important,script,badfilter
 /facebook_64px_$badfilter
 /facebook_badge-$badfilter
 /facebook_badge.$badfilter
-/\/[0-9]{3,4}\.gif$/$image
 ##[href*="/167qp.html"]
 /facebook_button$badfilter
 /facebook_button.$badfilter
