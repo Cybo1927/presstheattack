@@ -430,6 +430,7 @@ github.com#@#.timeline-new-comment:style(max-width: none !important)
 /18x18-reddit.$badfilter
 /32-rss.$badfilter
 /32-vk.$badfilter
+#@#a.comments-link
 /32_facebook.$badfilter
 /32x32-facebook.$badfilter
 /32x32-rss.$badfilter
@@ -439,6 +440,7 @@ github.com#@#.timeline-new-comment:style(max-width: none !important)
 /32x32/twitter_$badfilter
 /32x32rss.$badfilter
 /45x45xfacebook-ico.$badfilter
+#@#a[href^="https://connect.ok.ru/dk?st.cmd=WidgetSharePreview"]
 /45x45xtwitter-ico.$badfilter
 /Button-YouTube.$badfilter
 /Buttons-Facebook.$badfilter
@@ -764,6 +766,14 @@ track$important,script,badfilter
 /facebook_64px_$badfilter
 /facebook_badge-$badfilter
 /facebook_badge.$badfilter
+*/qqq.gif$image
+*/bbbb.gif$image
+*/aaa.gif$image
+*/bbb.gif$image
+*/jjj.gif$image
+*/xxx.gif$image
+*/yyy.gif$image
+##[href*="/167qp.html"]
 /facebook_button$badfilter
 /facebook_button.$badfilter
 *clid=$important,first-party,document,badfilter
@@ -772,6 +782,7 @@ track$important,script,badfilter
 /facebook_footer.$badfilter
 /facebook_header.$badfilter
 /facebook_icon.$badfilter
+/\/[abcdefghijklmnopqrstuvwxyz]{3,4}\.gif$/$image
 /facebook_icon_$badfilter
 /facebook_icon_large.$badfilter
 /facebook_like_button.$badfilter
