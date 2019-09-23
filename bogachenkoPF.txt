@@ -766,13 +766,8 @@ track$important,script,badfilter
 /facebook_64px_$badfilter
 /facebook_badge-$badfilter
 /facebook_badge.$badfilter
-*/qqq.gif$image
-*/bbbb.gif$image
-*/aaa.gif$image
-*/bbb.gif$image
-*/jjj.gif$image
-*/xxx.gif$image
-*/yyy.gif$image
+/\/(a|b|c|d|e|f|g|h|i|j|k|l|m|n|o|p|q|r|s|t|u|v|w|x|y|z){3,4}\.gif$/$image
+/\/[0-9]{3,4}\.gif$/$image
 ##[href*="/167qp.html"]
 /facebook_button$badfilter
 /facebook_button.$badfilter
@@ -782,7 +777,6 @@ track$important,script,badfilter
 /facebook_footer.$badfilter
 /facebook_header.$badfilter
 /facebook_icon.$badfilter
-/\/[abcdefghijklmnopqrstuvwxyz]{3,4}\.gif$/$image
 /facebook_icon_$badfilter
 /facebook_icon_large.$badfilter
 /facebook_like_button.$badfilter
