@@ -17,6 +17,7 @@
 /^https?:\/\/zmctrack\.(com|net)/$important
 ||0--e.info^$important
 ||00f31156f051fdf.com^$important
+||01ced816b84.com^$important
 ||05a7946eef5d.com^$important
 ||06f24f3d0b.com^$important
 ||0byv9mgbn0.com^$important
@@ -119,6 +120,7 @@
 ||6530868523e.com^$important
 ||6530868523e6.com^$important
 ||6631f33cf2a1032b.com^$important
+||66713dbe44.com^$important
 ||674309f93c1.com^$important
 ||6868bbe42af8e518.com^$important
 ||6eez7ouig7gwguf6.pro^$important
@@ -142,6 +144,7 @@
 ||896a8dfd194005e2adea.date^$important
 ||8bef5bb6b351ca5e.com^$important
 ||8cb0309458c7b35e.com^$important
+||919ba151b6f5.com^$important
 ||93c8c9a28e1db445.com^$important
 ||9403c96c038dc7c.com^$important
 ||944e66f8683ac43c.com^$important
@@ -670,6 +673,7 @@
 ||badskis.com^$important
 ||badslads.com^$important
 ||badspads.com^$important
+||baerxupsjjegb.com^$important
 ||bagoojzsqygg.com^$important
 ||bahnjhnrcdwi.com^$important
 ||baiaclwdpztd.com^$important
@@ -1092,6 +1096,7 @@
 ||bzsbtfiz.com^$important
 ||bzyrhqbdldds.com^$important
 ||c05c3c084e7edd.com^$important
+||c26c8951ef23f.com^$important
 ||c4bafc1c8a327.com^$important
 ||c4bafc1c8a3278.com^$important
 ||c4bafc1c8a32783.com^$important
@@ -3601,17 +3606,6 @@
 ||hxwxxhfydbifuq.com^$important
 ||hyexdezezjqw.bid^$important
 ||hyhabjqndvwf.bid^$important
-||asqpniwvxea.com^$important
-||baerxupsjjegb.com^$important
-||01ced816b84.com^$important
-||66713dbe44.com^$important
-||c26c8951ef23f.com^$important
-||919ba151b6f5.com^$important
-||544c27b3f0aae2.com^$important
-||tuxbpnne.com^$important
-||fviwwkvvxs.com^$important
-||qmiiqzfk.com^$important
-||aspxbwteth.com^$important
 ||hymandywo.com^$important
 ||hyrnujewyatvd.com^$important
 ||hysnqwbokyuvsm.com^$important
