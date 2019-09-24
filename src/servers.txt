@@ -90,6 +90,7 @@
 ||4736.in^$important
 ||47f624b2e6c6072e.com^$important
 ||4b6994dfa47cee4.com^$important
+||4bb6jls06l.com^$important
 ||4d2911e5a4e352.com^$important
 ||4dd887ed167b2.com^$important
 ||4ef6b73abc9123.com^$important
@@ -755,6 +756,7 @@
 ||behybmunweid.com^$important
 ||bekiruvppl.com^$important
 ||bektvxxfv.bid^$important
+||bemobtrk.com^$important
 ||best2019-games-web1.com^$important
 ||best2019games.com^$important
 ||bestdoctorstore.com^$important
@@ -1412,13 +1414,6 @@
 ||crqnosmxstdfnp.bid^$important
 ||crrgnnqidpf.com^$important
 ||crtntrvjuun.bid^$important
-||freshthings.online^$important
-||bemobtrk.com^$important
-||gambigambiwinwin.com^$important
-||mibmcbm.com^$important
-||zumzumsrv75.live^$important
-||4bb6jls06l.com^$important
-||ddownr.com^$important
 ||cruqmpwhczna.bid^$important
 ||crvvrxfgsvohiy.com^$important
 ||crwdcntrl.net^$important
@@ -1428,9 +1423,6 @@
 ||crzhxquiyo.com^$important
 ||crzlkluxnigce.com^$important
 ||crzojmwnnq.com^$important
-||livetex.ru^$important
-||punosy.com^$important
-||bl0uxepb4o.com^$important
 ||cs4lmibq3k0az1qch1b1djfpmo3co.icu^$important
 ||cscactmkbfvn.com^$important
 ||csdqikvba.bid^$important
@@ -1613,6 +1605,7 @@
 ||ddhnjkaojrcv.bid^$important
 ||ddjodgzhxyjtaa.bid^$important
 ||ddmlzfwsb.com^$important
+||ddownr.com^$important
 ||dealmemanager.online^$important
 ||debitcrebit669.com^$important
 ||debuackedhkvu.bid^$important
@@ -2638,6 +2631,7 @@
 ||freephone.best^$important
 ||freeskreen.com^$important
 ||frefxzrmcdxdmi.com^$important
+||freshthings.online^$important
 ||frezshmura.bid^$important
 ||frfgfhzxtfvsp.com^$important
 ||frfnlvnpzeju.com^$important
@@ -2808,6 +2802,7 @@
 ||gabyuyxwcubwdp.com^$important
 ||gafoswegc.com^$important
 ||gahhlbxdgw.com^$important
+||gambigambiwinwin.com^$important
 ||game168.com.tw^$important
 ||gamekeys.gq^$important
 ||gamescarousel.com^$important,third-party
@@ -4962,6 +4957,7 @@
 ||liuduuct.com^$important
 ||liulwxrybupyzu.com^$important
 ||liuztvaem.bid^$important
+||livetex.ru^$important
 ||livxcgmpvz.bid^$important
 ||liwimgti.bid^$important
 ||ljavtgsvjpxm.bid^$important
@@ -5389,6 +5385,7 @@
 ||mhunafpdtr.bid^$important
 ||mhwxckevqdkx.com^$important
 ||mhxnfqqruqni.bid^$important
+||mibmcbm.com^$important
 ||microad.*^$important
 ||mictxtwtjigs.com^$important
 ||midkerci.bid^$important
@@ -6751,6 +6748,7 @@
 ||punksgotoserver129.live^$important
 ||punksgotoserver21.live^$important
 ||punlkhusprgw.com^$important
+||punosy.com^$important
 ||punvqjsvnmubxb.com^$important
 ||puogotzrsvtg.com^$important
 ||pushads.biz^$important
@@ -10916,6 +10914,7 @@
 ||zukipoayrlh.com^$important
 ||zukxd6fkxqn.com^$important
 ||zumzumsrv59.live^$important
+||zumzumsrv75.live^$important
 ||zunjxpwiztqgt.bid^$important
 ||zupeaoohmntp.com^$important
 ||zutnlpnzxtt.com^$important

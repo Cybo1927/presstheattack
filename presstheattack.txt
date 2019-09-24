@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-09-23 17:11:02
-! Version: 20190923171102
+! Last modified: 2019-09-24 13:55:23
+! Version: 20190924135523
 ! Expires: 3 hours
-! Number of filters: 11101
+! Number of filters: 11110
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -105,6 +105,7 @@
 |http*:*/ntfc.php?$important
 |http*:*/pagead/$important
 |http*:*/pi.aspx$important,subdocument
+|http*:*/pic.gif?m=$image,important
 |http*:*/player_ads.html$important,subdocument
 |http*:*/rtrg?$image,important
 |http*:*/setbucket?signature=$important,subdocument
@@ -191,6 +192,7 @@
 ||4736.in^$important
 ||47f624b2e6c6072e.com^$important
 ||4b6994dfa47cee4.com^$important
+||4bb6jls06l.com^$important
 ||4d2911e5a4e352.com^$important
 ||4dd887ed167b2.com^$important
 ||4ef6b73abc9123.com^$important
@@ -856,6 +858,7 @@
 ||behybmunweid.com^$important
 ||bekiruvppl.com^$important
 ||bektvxxfv.bid^$important
+||bemobtrk.com^$important
 ||best2019-games-web1.com^$important
 ||best2019games.com^$important
 ||bestdoctorstore.com^$important
@@ -1523,7 +1526,6 @@
 ||crzhxquiyo.com^$important
 ||crzlkluxnigce.com^$important
 ||crzojmwnnq.com^$important
-||cs15.livetex.ru^$important
 ||cs4lmibq3k0az1qch1b1djfpmo3co.icu^$important
 ||cscactmkbfvn.com^$important
 ||csdqikvba.bid^$important
@@ -1706,6 +1708,7 @@
 ||ddhnjkaojrcv.bid^$important
 ||ddjodgzhxyjtaa.bid^$important
 ||ddmlzfwsb.com^$important
+||ddownr.com^$important
 ||dealmemanager.online^$important
 ||debitcrebit669.com^$important
 ||debuackedhkvu.bid^$important
@@ -2733,6 +2736,7 @@
 ||freephone.best^$important
 ||freeskreen.com^$important
 ||frefxzrmcdxdmi.com^$important
+||freshthings.online^$important
 ||frezshmura.bid^$important
 ||frfgfhzxtfvsp.com^$important
 ||frfnlvnpzeju.com^$important
@@ -2903,6 +2907,7 @@
 ||gabyuyxwcubwdp.com^$important
 ||gafoswegc.com^$important
 ||gahhlbxdgw.com^$important
+||gambigambiwinwin.com^$important
 ||game168.com.tw^$important
 ||gamekeys.gq^$important
 ||gamescarousel.com^$important,third-party
@@ -5063,6 +5068,7 @@
 ||liuduuct.com^$important
 ||liulwxrybupyzu.com^$important
 ||liuztvaem.bid^$important
+||livetex.ru^$important
 ||livxcgmpvz.bid^$important
 ||liwimgti.bid^$important
 ||ljavtgsvjpxm.bid^$important
@@ -5491,6 +5497,7 @@
 ||mhunafpdtr.bid^$important
 ||mhwxckevqdkx.com^$important
 ||mhxnfqqruqni.bid^$important
+||mibmcbm.com^$important
 ||microad.*^$important
 ||mictxtwtjigs.com^$important
 ||midkerci.bid^$important
@@ -6857,6 +6864,7 @@
 ||punksgotoserver129.live^$important
 ||punksgotoserver21.live^$important
 ||punlkhusprgw.com^$important
+||punosy.com^$important
 ||punvqjsvnmubxb.com^$important
 ||puogotzrsvtg.com^$important
 ||pushads.biz^$important
@@ -11035,6 +11043,7 @@
 ||zukipoayrlh.com^$important
 ||zukxd6fkxqn.com^$important
 ||zumzumsrv59.live^$important
+||zumzumsrv75.live^$important
 ||zunjxpwiztqgt.bid^$important
 ||zupeaoohmntp.com^$important
 ||zutnlpnzxtt.com^$important
