@@ -486,6 +486,7 @@ utorrentfilmi.ru##[href^="//vip.utorrentfilmi.ru/"]
 /Twitter-Buttons.$badfilter
 /Twitter_24x24.$badfilter
 /Twitter_48$badfilter
+#@#[id~=comments-list]
 /Twitter_button$badfilter
 /Twitter_social.$badfilter
 /Twittericon_$badfilter
@@ -494,6 +495,7 @@ utorrentfilmi.ru##[href^="//vip.utorrentfilmi.ru/"]
 /^https?:\/\/[^\s]+\/[a-zA-Z0-9]{1}\.js$/$script,image
 /Youtube-icon-$badfilter
 /Youtube-icon_$badfilter
+adjs*$badfilter
 /\/[-a-zA-Z0-9_]{1}\.gif/$important,image
 ads.min$important,script,badfilter
 /^https?:\/\/[^\s]+(\.wasm|\.wsm|\.wa)$/$important,xmlhttprequest,domain=~twitch.tv
