@@ -20,7 +20,7 @@ wikipedia.org###centralNotice
 instagram.com##.Yx5HN.RnEpo
 ||share.pluso.ru^$third-party,badfilter
 */iecompatviewlist.xml$xmlhttprequest,script
-kinogo.*,torrent-filmi.xyz##body:style(background-image: none !important;)
+kinogo.*,torrent-filmi.xyz,kinoframe.net##body:style(background-image: none !important;)
 32nod-key.com##.remodal
 */iedomainsuggestions^$xmlhttprequest,script
 */rum.js$script
@@ -108,6 +108,11 @@ torrentfilm.me##[src="/img/mgt.png"]
 #@#a[title^="Share on Google"]
 #@#a[title="Tweet this"]
 #@#a[href^="//www.stumbleupon.com/submit?url="]
+kinoframe.net##[src="/img/mediaget.png"]
+||kinoframe.net/ya.jpg$image
+kinoframe.net##[src*="/rating.png"]
+||kinoframe.net/img/bg.png$image
+||kinoframe.net/img/ubr.png$image
 #@#a[href^="//www.reddit.com/submit?"]
 #@#[title^="Share on Tumblr"]
 #@#a[href^="//twitter.com/share"]
