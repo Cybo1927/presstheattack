@@ -19,6 +19,7 @@
 wikipedia.org###centralNotice
 instagram.com##.Yx5HN.RnEpo
 ||share.pluso.ru^$third-party,badfilter
+accounts.google.com/o/oauth2/$badfilter
 */iecompatviewlist.xml$xmlhttprequest,script
 kinogo.*,torrent-filmi.xyz##body:style(background-image: none !important;)
 32nod-key.com##.remodal
@@ -111,6 +112,7 @@ torrentfilm.me##[src="/img/mgt.png"]
 #@#a[href^="//www.reddit.com/submit?"]
 #@#[title^="Share on Tumblr"]
 #@#a[href^="//twitter.com/share"]
+/LoadAds.aspx$subdocument
 #@#[title^="Share on Google+"]
 #@#[title="Share on Tumblr"]
 #@#[href^="//twitter.com/share"]
@@ -5318,11 +5320,6 @@ _youtube_small.$badfilter
 ||streamango.com^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' *.cloudflare.com,badfilter
 _youtube_social_$badfilter
 ads.google.com##.h-c--idle-widget__visible.ng-isolate-scope.h-c--idle-widget, .header__label.showcase.header--aside__item, .js-onboarding-ed.onboarding-, js-tag-home.no-js__hide.tag-home--slide.tag-home, .social.header--aside__item
-direct-link.net,direkt-wissen.com##+js(setTimeout-defuser.js, nextFunction, 2000)
-direct-link.net,direkt-wissen.com,link-to.net##+js(nano-setInterval-booster.js, video_counter)
-direct-link.net,direkt-wissen.com,link-to.net##+js(nano-setInterval-booster.js, web_counter)
-direct-link.net,direkt-wissen.com,link-to.net##+js(set-constant, app.addonIsInstalled, trueFunc)
-direct-link.net,link-to.net,direkt-wissen.com##+js(nano-setInterval-booster.js, countdown)
 english-films.com###mainSlider-controls, .active.tabs-content > p, .box.redBox.section.helperBlock, .footer, .mainNav, .mc-head, .owl-height.owl-stage-outer > .owl-stage, .relatedNews, .section.linksBlock, .superBanner, .width > .siteEnter, .wrp_baner, div.orangeBlock.block, div.redBlock.block
 fakedrivingschool.com###catfish-banner
 flaticon.com##.modal-credit.fi-modal > .modal-fade-screen > .text-center.modal-inner
@@ -6140,7 +6137,7 @@ advertisement$important,script,badfilter
 ||gogoanime.*^$csp=frame-src 'self' vidstreaming.io streamango.com estream.to oload.tv openload.co thevideo.me www.mp4upload.com www.yourupload.com bestream.tv disqus.com,badfilter
 ||gogoanime.*^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' *.googleapis.com *.play44.net disqus.com *.disqus.com *.disquscdn.com data:,badfilter
 ||vidstreaming.io^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' *.gstatic.com *.jwplatform.com *.jwpcdn.com,badfilter
-||xyz^$third-party,xmlhttprequest,subdocument,domain=~anidub.com|~avtomaty-i-bonusy.com|~crackstreams.com|~csgoreports.com|~cvid.kiev.ua|~estream.to|~funtik.tv|~hentaiz.org|~jokehd.com|~kinobig.me|~kinosklad.biz|~kristinita.ru|~magicfilm.net|~matchat.online|~my.mail.ru|~nccg.ru|~newdeaf.online|~online.animedia.tv|~onmovies.se|~roadhub.ru|~shamancoal.com|~soccer365.ru|~streetbee.io|~streetbee.ru|~vk.com,badfilter
+||xyz^$third-party,xmlhttprequest,subdocument,script,domain=~anidub.com|~avtomaty-i-bonusy.com|~crackstreams.com|~csgoreports.com|~cvid.kiev.ua|~estream.to|~funtik.tv|~hentaiz.org|~jokehd.com|~kinobig.me|~kinosklad.biz|~kristinita.ru|~magicfilm.net|~matchat.online|~my.mail.ru|~nccg.ru|~newdeaf.online|~online.animedia.tv|~onmovies.se|~roadhub.ru|~shamancoal.com|~soccer365.ru|~streetbee.io|~streetbee.ru|~vk.com,badfilter
 ||piguiqproxy.com^$important,badfilter
 ||vkontakte.ru/widget_like.php$third-party,badfilter
 ||vkontakte.ru/widget_poll.php?$third-party,badfilter
