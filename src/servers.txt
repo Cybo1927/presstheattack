@@ -1277,7 +1277,6 @@
 ||ckydzwjzbgarz.bid^$important
 ||ckyxscaeockj.bid^$important
 ||clarium.global.ssl.fastly.net^$important
-||clck.ru^$document
 ||cledghtdrjtb.com^$important
 ||clevernt.com^$important
 ||clgyhwaoh.com^$important
@@ -1457,13 +1456,13 @@
 ||cuecxgwkjtan.com^$important
 ||cuguwxkasghy.com^$important
 ||cuhicevdjsfey.com^$important
+||semi-cod.com^$important
 ||cujsutkdbz.com^$important
 ||cukabtvyl.com^$important
 ||cukwbpne.com^$important
 ||cuortwomnr.com^$important
 ||cupzwcxgx.com^$important
 ||curaleani.club^$important
-||cutter.li^$document
 ||cuvbcwgenwytrk.bid^$important
 ||cuxsmovh.bid^$important
 ||cvarxvlbnphcjq.com^$important
@@ -6561,6 +6560,15 @@
 ||pkitdifnkz.com^$important
 ||pkklpazhqqda.com^$important
 ||pkkuouvecratte.bid^$important
+||qtajcww401.com^$important
+||dz4ad.com^$important
+||onclicksuper.com^$important
+||nkluiyccbrvz.com^$important
+||admarket.network^$important
+||pushmejs.com^$important
+||jlkadizug.com^$important
+||bjceodmwesmbth.com^$important
+||5ovrmmmoubi71efvatfd.com^$important
 ||pknzoizczuhjvk.com^$important
 ||pkougirndckw.com^$important
 ||pkoyiqjjxhsy.com^$important
@@ -9141,7 +9149,6 @@
 ||vjzqmbcx.com^$important
 ||vjzttumdetao.com^$important
 ||vk-portal.net^$important
-||vk.cc^$document
 ||vkarvfrrlhmv.com^$important
 ||vkasuqsswc.com^$important
 ||vkdbvgcawubn.com^$important
