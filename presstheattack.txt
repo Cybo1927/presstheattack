@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-09-24 13:55:23
-! Version: 20190924135523
+! Last modified: 2019-09-27 13:43:43
+! Version: 20190927134343
 ! Expires: 3 hours
-! Number of filters: 11110
+! Number of filters: 11116
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -47,7 +47,7 @@
 /^https?:\/\/[^/]+\/[a-z0-9]{15,}(\?hope=.*)?$/$important,script
 /^https?:\/\/[^\s]+[\W\w](fingerprint|fp)([0-9]{1,2})?(\.min)?\.js/$image,important,script,xmlhttprequest
 /^https?:\/\/[^\s]+[\W\w](player|client|csi|gen(erate)?|stream|logs?|live)[\W\w]?204\??/$image,important,other,xmlhttprequest
-/^https?:\/\/[^\s]+[\W\w]?pi?xe?l\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|heic|heif|webp|jxr|wdp|dng|cr2|arw|js)\?/$image,important,script
+/^https?:\/\/[^\s]+[\W\w]?pi?xe?l\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|heic|heif|webp|jxr|wdp|dng|cr2|arw|js)/$image,important,script
 /^https?:\/\/[^\s]+[\W\w]log[\W\w]?(type|event|entry|request)/$image,important,other,xmlhttprequest
 /^https?:\/\/[^\s]+[\W\w]me([0-9]{1})?w\.js/$important,script
 /^https?:\/\/[^\s]+[\W\w]prebid([0-9]{1,2})?[\W\w]/$important,script
@@ -214,6 +214,7 @@
 ||576digital.hu^$important
 ||5edeb195868e2195.com^$important
 ||5nt1gx7o57.com^$important
+||5ovrmmmoubi71efvatfd.com^$important
 ||5qg9ibt1a6.com^$important
 ||6066bd8aab9d73e3.com^$important
 ||615b68cc9c8528e.com^$important
@@ -336,6 +337,7 @@
 ||adlightning.com^$important
 ||adlogine.com^$important
 ||admantx.com^$important
+||admarket.network^$important
 ||admatic.com.tr^$important
 ||admetrica.ru^$important
 ||admitad.com^$important
@@ -950,6 +952,7 @@
 ||biwjfwhxoy.bid^$important
 ||bixolsoqluvzpu.com^$important
 ||bizoninvest.com^$important
+||bjceodmwesmbth.com^$important
 ||bjcunwelpd.com^$important
 ||bjdfckchzsa.bid^$important
 ||bjenzpojtgvo.club^$important
@@ -1379,7 +1382,6 @@
 ||ckydzwjzbgarz.bid^$important
 ||ckyxscaeockj.bid^$important
 ||clarium.global.ssl.fastly.net^$important
-||clck.ru^$document
 ||cledghtdrjtb.com^$important
 ||clevernt.com^$important
 ||clgyhwaoh.com^$important
@@ -1566,7 +1568,6 @@
 ||cuortwomnr.com^$important
 ||cupzwcxgx.com^$important
 ||curaleani.club^$important
-||cutter.li^$document
 ||cuvbcwgenwytrk.bid^$important
 ||cuxsmovh.bid^$important
 ||cvarxvlbnphcjq.com^$important
@@ -2041,6 +2042,7 @@
 ||dywqwrtnhegyz.com^$important
 ||dyykxositkqt.bid^$important
 ||dyzstwcqbgjk.com^$important
+||dz4ad.com^$important
 ||dzacosgvnz.com^$important
 ||dzaqzgjsot.com^$important
 ||dzblysulli.com^$important
@@ -4317,6 +4319,7 @@
 ||jldstutlnz.com^$important
 ||jlflzjdt.com^$important
 ||jlhkteiqgvafic.com^$important
+||jlkadizug.com^$important
 ||jlkqurysdsw.com^$important
 ||jllveksikabohj.bid^$important
 ||jllzvqolrdu.bid^$important
@@ -5937,6 +5940,7 @@
 ||nkkxgqdgnpunnr.bid^$important
 ||nklivofyjkbt.com^$important
 ||nklofbjtpfpp.bid^$important
+||nkluiyccbrvz.com^$important
 ||nksfmnvmngxzr.bid^$important
 ||nkxdyorwbt.com^$important
 ||nlcfowfz.com^$important
@@ -6352,6 +6356,7 @@
 ||omwcywwzun.com^$important
 ||omzieezywqnyxl.com^$important
 ||onclasrv.com^$important
+||onclicksuper.com^$important
 ||ongkidcasarv.com^$important
 ||onhxejzm.bid^$important
 ||onjqfyuxprnq.com^$important
@@ -7245,6 +7250,7 @@
 ||qstwmmuukimz.bid^$important
 ||qsxggbsthsk.bid^$important
 ||qtahsbgdqbu.com^$important
+||qtajcww401.com^$important
 ||qtavukgrtgk.com^$important
 ||qtbvatpkwxq.com^$important
 ||qtczaglj.bid^$important
@@ -7843,6 +7849,7 @@
 ||seiqobwpbofg.com^$important
 ||sekajiwqmym.com^$important
 ||sekllcjbujp.bid^$important
+||semi-cod.com^$important
 ||semvdooatmd.bid^$important
 ||sendmepush.com^$important
 ||senfvsdvtsn.com^$important
@@ -9262,7 +9269,6 @@
 ||vjzqmbcx.com^$important
 ||vjzttumdetao.com^$important
 ||vk-portal.net^$important
-||vk.cc^$document
 ||vkarvfrrlhmv.com^$important
 ||vkasuqsswc.com^$important
 ||vkdbvgcawubn.com^$important
