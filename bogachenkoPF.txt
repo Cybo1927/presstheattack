@@ -5307,16 +5307,21 @@ _twitter_24.$badfilter
 _twitter_box_$badfilter
 _twitter_btn.$badfilter
 _twitter_follow.$badfilter
+analytics$important,badfilter
 _twitter_icon.$badfilter
 _twitter_logo.$badfilter
 _twitter_small.$badfilter
 _twitter_social_$badfilter
 _twitter_white.$badfilter
+#@#a[href*="://www.reddit.com/submit?"]
 _twitterbird_32.$badfilter
 _twittericon.$badfilter
 _vkontakte.png$badfilter
+||vk.com/widget_$domain=~redspell.ru|~vk.com,badfilter
 _xmlrss.$badfilter
 _youtube-button.$badfilter
+gravatar.com$important,badfilter
+||vk.com/share.php$3p,badfilter
 _youtube_32.$badfilter
 ||streamango.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.streamango.com *.fruithosted.net cdnjs.cloudflare.com;upgrade-insecure-requests,badfilter
 _youtube_channel.$badfilter
