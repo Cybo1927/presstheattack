@@ -30,3 +30,4 @@
 ||google.*/uds/$important
 ||yandex.ru/clck/clck/$important
 ||yandex.ru/clck/jclck/$important
+|http*:*?rand=*&blk=$important
