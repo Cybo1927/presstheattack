@@ -48,10 +48,10 @@ torrent-solid.ru##[src="/2019p/777u.gif"]
 #@#*[class^="ads-"]
 filmitorrentom.net##[src="/img/lkj.png"], [src="/img/dfr.png"]
 */js/plyr.min.js$script,first-party
-/^https?:\/\/[^\s]+\/(([a-z]{3,12})[\W\w])?sw\.js/$important,script
-/^https?:\/\/[^\s]+\/sw([\W\w]([_a-z0-9-.]{1,10}))\.js/$important,script
-/\/((service|web)[\W\w]?)?worker(.*)?\.js/$important,script,domain=~twitch.tv|~google.com
-/^https?:\/\/[^\s]+\/worker([\W\w]([a-z]{5,6}))\.js/$important,script
+/^https?:\/\/[^\s]+\/(([a-z]{3,12})[\W\D])?sw\.js/$important,script
+/^https?:\/\/[^\s]+\/sw([\W\D]([_a-z0-9-.]{1,10}))\.js/$important,script
+/\/((service|web)[\W\D]?)?worker(.*)?\.js/$important,script,domain=~twitch.tv|~google.com
+/^https?:\/\/[^\s]+\/worker([\W\D]([a-z]{5,6}))\.js/$important,script
 |http*:*/yads-async.js$important,script
 #@#.social-icons
 -ad0-$badfilter
@@ -64,7 +64,7 @@ ria.ru##.widgets__b-slide, #subscriber, .article__sharebar, .footer__social
 uglegorsk.news##.essb_links_list
 svpressa.ru###cookie-bar
 torrent-filmi.xyz###infoBlockFilm, #infoBlockCont
-@@/^https?:\/\/[a-z]{1}([0-9]{1,2})?\.addthis\.com/$third-party,script,domain=~viptube.com
+@@/^https?:\/\/[a-z]{1}([0-9]{1,2})?\.addthis\.com/$third-party,script
 torrent-filmi.xyz##html:style(background-image: none !important;)
 ||torrentfilm.me/img/bg.jpg$image
 torrentfilm.me##[src="/img/mgt.png"]
@@ -345,7 +345,7 @@ kinoframe.net##[src*="/rating.png"]
 -youtube-s.$badfilter
 .ad0-$badfilter
 .ad0.$badfilter
-/^https?:\/\/[^\s]+[\W\w]track(ers?|ing)\.js/$script
+/^https?:\/\/[^\s]+[\W\D]track(ers?|ing)\.js/$script
 .ad0^$badfilter
 .ad0_$badfilter
 .ad1-$badfilter
@@ -508,7 +508,7 @@ adjs*$badfilter
 ads.min$important,script,badfilter
 /^https?:\/\/[^\s]+(\.wasm|\.wsm|\.wa)$/$important,xmlhttprequest,domain=~twitch.tv
 /^https?:\/\/avatars\.mds\.yandex\.net\/get\-[a-z]{2,6}\/[0-9]{5}\/[^\s]{60,}/$image,domain=yandex.ru|~metrika.yandex.ru
-/^https?:\/\/[a-z]{1}([0-9]{1,2})?\./$script,third-party
+/^https?:\/\/[a-z]{1}([0-9]{1,2})?\./$script,third-party,domain=~viptube.com
 @@/^https?:\/\/[a-z]{1}([0-9]{1,2})?\.ytimg\.com/$script,third-party
 /^https?:\/\/lh([0-9]{1})\.googleusercontent\.com\/proxy\//$xmlhttprequest,script
 /^https?:\/\/mail\.yandex\.(by|kz|ru|ua)\/[^\s]{200,}/$script,important
@@ -2849,7 +2849,7 @@ com##html:style(cursor: unset !important)
 @@||cse.google.tl^$badfilter
 @@||cse.google.tl^$elemhide,badfilter
 @@||cse.google.tm^$badfilter
-/^https?:\/\/[^\s]+[\W\w]bann?ers?([\W\w].*?)?\.gif/$image,important,subdocument
+/^https?:\/\/[^\s]+[\W\D]bann?ers?([\W\D].*?)?\.gif/$image,important,subdocument
 @@||cse.google.tm^$elemhide,badfilter
 @@||cse.google.tn^$badfilter
 @@||cse.google.tn^$elemhide,badfilter
