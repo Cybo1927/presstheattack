@@ -48,13 +48,14 @@ torrent-solid.ru##[src="/2019p/777u.gif"]
 #@#*[class^="ads-"]
 filmitorrentom.net##[src="/img/lkj.png"], [src="/img/dfr.png"]
 */js/plyr.min.js$script,first-party
-/^https?:\/\/[^\s]+\/(([a-z]{3,12})[\W\D])?sw\.js/$important,script
-/^https?:\/\/[^\s]+\/sw([\W\D]([_a-z0-9-.]{1,10}))\.js/$important,script
-/\/((service|web)[\W\D]?)?worker(.*)?\.js/$important,script,domain=~twitch.tv|~google.com
-/^https?:\/\/[^\s]+\/worker([\W\D]([a-z]{5,6}))\.js/$important,script
+/^https?:\/\/[^\s]+\/(([a-z]{3,12})[!"#$%&'()*+,:;<=>?@/\^_`{|}~-])?sw\.js/$important,script
+/^https?:\/\/[^\s]+\/sw([!"#$%&'()*+,:;<=>?@/\^_`{|}~-]([_a-z0-9-.]{1,10}))\.js/$important,script
+/\/(([a-z]{3,7})[!"#$%&'()*+,:;<=>?@/\^_`{|}~-]?)?worker(.*)?\.js/$important,script,domain=~twitch.tv|~google.com
+/^https?:\/\/[^\s]+\/worker([!"#$%&'()*+,:;<=>?@/\^_`{|}~-]([a-z]{5,6}))\.js/$important,script
 |http*:*/yads-async.js$important,script
 #@#.social-icons
 -ad0-$badfilter
+#@#*[id^="adx"]
 -ad0.$badfilter
 ||usocial.pro^$third-party,badfilter
 -ad0^$badfilter
@@ -75,6 +76,8 @@ torrentfilm.me##[src="/img/mgt.png"]
 -ad0_$badfilter
 -ad1-$badfilter
 -ad1.$badfilter
+##img[src*="/banner/"]
+##img[src*="/banners/"]
 /adv-$badfilter
 #@#*[id$="_ads"]
 #@#.twitter_share_count
@@ -345,7 +348,7 @@ kinoframe.net##[src*="/rating.png"]
 -youtube-s.$badfilter
 .ad0-$badfilter
 .ad0.$badfilter
-/^https?:\/\/[^\s]+[\W\D]track(ers?|ing)\.js/$script
+/^https?:\/\/[^\s]+[!"#$%&'()*+,:;<=>?@/\^_`{|}~-]track(ers?|ing)\.js/$script
 .ad0^$badfilter
 .ad0_$badfilter
 .ad1-$badfilter
@@ -2849,7 +2852,7 @@ com##html:style(cursor: unset !important)
 @@||cse.google.tl^$badfilter
 @@||cse.google.tl^$elemhide,badfilter
 @@||cse.google.tm^$badfilter
-/^https?:\/\/[^\s]+[\W\D]bann?ers?([\W\D].*?)?\.gif/$image,important,subdocument
+/^https?:\/\/[^\s]+[!"#$%&'()*+,:;<=>?@/\^_`{|}~-]bann?ers?([!"#$%&'()*+,:;<=>?@/\^_`{|}~-].*?)?\.gif/$image,important,subdocument
 @@||cse.google.tm^$elemhide,badfilter
 @@||cse.google.tn^$badfilter
 @@||cse.google.tn^$elemhide,badfilter
