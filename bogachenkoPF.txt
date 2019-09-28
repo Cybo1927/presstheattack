@@ -43,6 +43,8 @@ torrentfilm.me##[src="/img/ubr.png"]
 torrent-solid.ru##[src="/2019p/777u.gif"]
 ||yandex.ru/clck/click^$important
 #@#img[alt="Facebook"]
+||google.*/async/bgasy?ei=*$important,badfilter
+||google.*/async/bgasy?*&ei=*$important,badfilter
 #@#.sharethis-inline-share-buttons
 #@#img[alt="Twitter"]
 #@#*[class^="ads-"]
