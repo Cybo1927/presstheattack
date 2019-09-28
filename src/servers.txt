@@ -44,17 +44,6 @@
 ||1xbet95.com^$important
 ||1xbkbet5.com^$important
 ||1xeemc.host^$important
-||mediaoaktree.com^$important
-||ero-games.space^$important
-||grand-casino.com^$important
-||restrictive.best^$important
-||nkluiyccbrvz.com^$important
-||grunkav.online^$important
-||hjjjsurdhtt.com^$important
-||qnjdtefk.com^$important
-||velocitycdn.com^$important
-||cdnondemand.org^$important
-||adop.pw^$important
 ||21b666055c.com^$important
 ||220167981.world^$important
 ||23bab89b7cec3.com^$important
@@ -259,6 +248,7 @@
 ||adofuokjj.bid^$important
 ||adomik.com^$important
 ||adop.cc^$important
+||adop.pw^$important
 ||adovr.com^$important
 ||adpartner.*^$important
 ||adpaths.com^$important
@@ -1176,6 +1166,7 @@
 ||cdn77.org^$important
 ||cdnasiaclub.com^$important
 ||cdnm.me^$important
+||cdnondemand.org^$important
 ||cdobneyuq.com^$important
 ||cdookjqkri.com^$important
 ||cdtojdrhoc.bid^$important
@@ -2231,6 +2222,7 @@
 ||erireiejv.com^$important
 ||ermjhgdl.com^$important
 ||ero-advertising.com^$important
+||ero-games.space^$important
 ||erqqhfsu.com^$important
 ||errorcode0x120xxc.pw^$important
 ||ervinguewty.com^$important
@@ -3106,6 +3098,7 @@
 ||grsnseuoispsco.com^$important
 ||grtduutw.bid^$important
 ||grubpbrmek.com^$important
+||grunkav.online^$important
 ||grvoflsctenq.bid^$important
 ||grxpaizsvdzw.com^$important
 ||gsfvzgnu.com^$important
@@ -5332,6 +5325,7 @@
 ||meagjivconqt.com^$important
 ||mecounxmawn.bid^$important
 ||mecsjjkomehyv.com^$important
+||mediaoaktree.com^$important
 ||mediatoday.ru^$important
 ||medic-informator-a.ru^$important
 ||medyagundem.com^$important
@@ -7348,6 +7342,7 @@
 ||rereegny.net^$important
 ||rereghpaz.com^$important
 ||rertazmgduxp.com^$important
+||restrictive.best^$important
 ||resultpcservice.fun^$important
 ||reszkzmyzceve.com^$important
 ||retardation.us^$important
@@ -9051,6 +9046,7 @@
 ||vejlbuixnknc.com^$important
 ||vejrnvdsrvrbij.bid^$important
 ||velfssiowmyos.com^$important
+||velocitycdn.com^$important
 ||velzqrqrucvmqc.com^$important
 ||vemrhavwgchp.com^$important
 ||veoujrnenng.com^$important
