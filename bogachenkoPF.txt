@@ -64,7 +64,7 @@ ria.ru##.widgets__b-slide, #subscriber, .article__sharebar, .footer__social
 uglegorsk.news##.essb_links_list
 svpressa.ru###cookie-bar
 torrent-filmi.xyz###infoBlockFilm, #infoBlockCont
-@@/^https?:\/\/[a-z]{1}([0-9]{1,2})?\.addthis\.com/$third-party,script
+@@/^https?:\/\/[a-z]{1}([0-9]{1,2})?\.addthis\.com/$third-party,script,domain=~viptube.com
 torrent-filmi.xyz##html:style(background-image: none !important;)
 ||torrentfilm.me/img/bg.jpg$image
 torrentfilm.me##[src="/img/mgt.png"]
@@ -4158,6 +4158,7 @@ pixel.$important,image,badfilter
 @@||kijiji.com^$elemhide,badfilter
 @@||kijiji.de^$elemhide,badfilter
 @@||kijiji.fr^$elemhide,badfilter
+#@#.social-wrapper
 @@||kijiji.it^$elemhide,badfilter
 @@||kikinote.net/s/$elemhide,badfilter
 @@||kitchepedia.com^$elemhide,badfilter
@@ -4165,6 +4166,7 @@ pixel.$important,image,badfilter
 @@||kknews.cc/search/?q=$elemhide,badfilter
 @@||kkplay3c.net/search$elemhide,badfilter
 @@||knology.net^$elemhide,badfilter
+#@#a[href^="//twitter.com/intent/tweet?"]
 @@||know-legal.com^$elemhide,badfilter
 @@||knowzo.com/search/$elemhide,badfilter
 @@||knowzo.com^*/search/$elemhide,badfilter
