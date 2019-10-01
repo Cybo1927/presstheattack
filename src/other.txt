@@ -11,6 +11,7 @@
 /^https?:\/\/informers?([0-9]{1,2})?\./$important
 /^https?:\/\/logs?([0-9]{1,2})?\./$important
 /^https?:\/\/partners?([0-9]{1,2})?\./$important
+/^https?:\/\/vast([0-9]{1,2})?\./$important
 /^https?:\/\/pixels?([0-9]{1,2})?\./$important
 /^https?:\/\/px([0-9]{1,2})?\./$important
 /^https?:\/\/re[ck]lam(a|s|er)?([0-9]{1,2})?\./$important
