@@ -1,6 +1,7 @@
 /^https?:\/\/(analysis|analytic[as]?)([0-9]{1,2})?\./$important,domain=~analytics.google.com
 /^https?:\/\/(apps?|best|mobile|prize|reward|sweeps).*\.[a-z]{5,15}.*\.(agency|icu|live)\//$document,important
 /^https?:\/\/ad[bsxv]?([0-9]{1,2})?\./$important,domain=~ad.nl|~ads.google.com
+/^https?:\/\/adsby([0-9]{1,2})?\./$important
 /^https?:\/\/aff(iliat(es?|ion))?([0-9]{1,2})?\./$important
 /^https?:\/\/beacons?([0-9]{1,2})?\./$important
 /^https?:\/\/count(ers?)?([0-9]{1,2})?\./$important
@@ -9,7 +10,6 @@
 /^https?:\/\/geoservice([0-9]{1,2})?\./$important
 /^https?:\/\/informers?([0-9]{1,2})?\./$important
 /^https?:\/\/logs?([0-9]{1,2})?\./$important
-/^https?:\/\/adsby([0-9]{1,2})?\./$important
 /^https?:\/\/partners?([0-9]{1,2})?\./$important
 /^https?:\/\/pixels?([0-9]{1,2})?\./$important
 /^https?:\/\/px([0-9]{1,2})?\./$important
