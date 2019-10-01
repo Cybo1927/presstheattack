@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-10-01 16:43:06
-! Version: 20191001164306
+! Last modified: 2019-10-02 06:37:57
+! Version: 20191002063757
 ! Expires: 3 hours
-! Number of filters: 11126
+! Number of filters: 11131
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -84,6 +84,7 @@
 /^https?:\/\/stat(s|istics?)?([0-9]{1,2})?\./$important
 /^https?:\/\/tags?([0-9]{1,2})?\./$important
 /^https?:\/\/track(ers?|ing)?([0-9]{1,2})?\./$important
+/^https?:\/\/vast([0-9]{1,2})?\./$important
 /^https?:\/\/www\.([a-z]{6,16})\.com\/([a-z]{1,4})\.js$/$important,script,third-party
 /^https?:\/\/yastatic\.net\/[^\s]{500,}/$domain=~vh.yandex.ru
 /^https?:\/\/zmctrack\.(com|net)/$important
@@ -96,6 +97,7 @@
 |http*:*/adclick.*^$important,popup
 |http*:*/afu.php?$important
 |http*:*/apu.hh?$important
+|http*:*/ezcl.webp?$image,important
 |http*:*/get_geoip?$important,xmlhttprequest
 |http*:*/google-conversion.html$important,subdocument
 |http*:*/grstat?$image,important
@@ -1289,6 +1291,7 @@
 ||cfdmkifknsjt.com^$important
 ||cfhkiriics.com^$important
 ||cfnumapv.com^$important
+||cfotim.live^$important
 ||cfpqhrfpccmpq.com^$important
 ||cfqzixjwwqgow.com^$important
 ||cfraazitu.com^$important
@@ -2610,6 +2613,7 @@
 ||fiuazbmlycese.com^$important
 ||fiunfrafi.bid^$important
 ||fixfuturetype-restclicks.icu^$important
+||fixingit.solutions^$important
 ||fjeqkpblfb.com^$important
 ||fjlvozwlv.bid^$important
 ||fjmjlwvtv.bid^$important
@@ -7692,6 +7696,7 @@
 ||rudtedmhm.com^$important
 ||ruijovxeffglgo.bid^$important
 ||rukwbbwcil.com^$important
+||ruldent.com^$important
 ||rulgltvmpzig.com^$important
 ||rumahgratis.tk^$important
 ||run-syndicate.com^$important

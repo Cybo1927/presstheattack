@@ -11,7 +11,6 @@
 /^https?:\/\/informers?([0-9]{1,2})?\./$important
 /^https?:\/\/logs?([0-9]{1,2})?\./$important
 /^https?:\/\/partners?([0-9]{1,2})?\./$important
-/^https?:\/\/vast([0-9]{1,2})?\./$important
 /^https?:\/\/pixels?([0-9]{1,2})?\./$important
 /^https?:\/\/px([0-9]{1,2})?\./$important
 /^https?:\/\/re[ck]lam(a|s|er)?([0-9]{1,2})?\./$important
@@ -19,6 +18,7 @@
 /^https?:\/\/stat(s|istics?)?([0-9]{1,2})?\./$important
 /^https?:\/\/tags?([0-9]{1,2})?\./$important
 /^https?:\/\/track(ers?|ing)?([0-9]{1,2})?\./$important
+/^https?:\/\/vast([0-9]{1,2})?\./$important
 |http*:*/afu.php?$important
 |http*:*/apu.hh?$important
 |http*:*/ntfc.php?$important
