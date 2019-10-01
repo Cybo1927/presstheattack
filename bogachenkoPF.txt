@@ -5375,7 +5375,7 @@ mail.ru##+js(nowebrtc.js)
 ||vkcdnservice.com^$badfilter
 market.yandex.ru##.main > noindex
 market.yandex.ru##a[href^="https://fenek.market.yandex."]
-music.yandex.ru##.duck__duckling.moving-slider, .multi-auth__plus, .teaser, .sidebar__under, .page-main__line_row.page-main__line_small-margin.page-main__line_personal-playlists.page-main__line, .notify_shown.deco-tooltip_notify, .footer, .metrika-app_shown_yes.metrika-app_js_inited.i-bem.metrika-app_type_desktop.metrika-app_lang_ru.metrika-app, .duck__angry-duck_left.duck__angry-duck.paused-slider, .bar-below_plus.bar-below, .subscription-hint_bottom.deco-pane-popup.popup.local-theme-black.subscription-hint, div.notify > div.deco-tooltip_notify.notify_shown, .overlay_gdpr.overlay_shown.deco-pane-overlay.overlay, .deco-pane-popup.popup.local-icon-theme-white.local-theme-white.gdpr-popup, .bar-below_unavaliable.bar-below, a.teaser__content[href="https://music.yandex.ru/family-plus"] > img.teaser__img, div.page-root.page-root_no-player.deco-pane-back > div[class][data-b="2"][style="display: block;"], .teaser ~ div, .page-root > div[data-b="2"], .sidebar > div > .teaser + div[data-b="18"]
+music.yandex.ru##.duck__duckling.moving-slider, .multi-auth__plus, .teaser, .sidebar__under, .page-main__line_row.page-main__line_small-margin.page-main__line_personal-playlists.page-main__line, .notify_shown.deco-tooltip_notify, .footer, .metrika-app_shown_yes.metrika-app_js_inited.i-bem.metrika-app_type_desktop.metrika-app_lang_ru.metrika-app, .duck__angry-duck_left.duck__angry-duck.paused-slider, .bar-below_plus.bar-below, .subscription-hint_bottom.deco-pane-popup.popup.local-theme-black.subscription-hint, div.notify > div.deco-tooltip_notify.notify_shown, .overlay_gdpr.overlay_shown.deco-pane-overlay.overlay, .deco-pane-popup.popup.local-icon-theme-white.local-theme-white.gdpr-popup, .bar-below_unavaliable.bar-below, a.teaser__content[href="https://music.yandex.ru/family-plus"] > img.teaser__img, div.page-root.page-root_no-player.deco-pane-back > div[class][data-b="2"][style="display: block;"], .teaser ~ div, .page-root > div[data-b="2"], .sidebar > div > .teaser + div[data-b="18"], .d-track_playing.d-track_inline-meta.d-track_selectable.typo-track.d-track > .d-track__start-column > .d-track__hover.d-track__play > .d-button-play__wrap
 music.yandex.by,music.yandex.kz,music.yandex.ru,music.yandex.ua#@#.page-root > div[class]:nth-child(-n+2)[style^="display: block;"]
 news.yandex.ru##+js(noeuc.js)
 oladblock.*,oload.*,openload.*,openloed.*,streamcherry.com##+js(eclick.js, #videooverlay)
@@ -6208,6 +6208,7 @@ rapidvideo.com#@#+js(abort-current-inline-script.js, atob, tabunder)
 ||yastatic.net^$other
 ||yimg.*/lib/3pm/$script,badfilter
 ||yimg.*/lib/*/cs_$script,badfilter
+duckduckgo.com##.social.header--aside__item, .header__label.showcase.header--aside__item, .footer
 ||yimg.com/cv/$badfilter
 ||yimg.com/rq/$badfilter
 ||youtube-nocookie.com^$badfilter
