@@ -20,6 +20,7 @@ wikipedia.org###centralNotice
 instagram.com##.Yx5HN.RnEpo
 ||share.pluso.ru^$third-party,badfilter
 accounts.google.com/o/oauth2/$badfilter
+sw.js$1p,script,domain=~mail.google.com,badiflter
 @@/js/advertisement.$script,badfilter
 */iecompatviewlist.xml$xmlhttprequest,script
 kinogo.*,torrent-filmi.xyz,kinoframe.net,filmitorrent.xyz,hdfilms.zone##body:style(background-image: none !important;)
@@ -51,7 +52,7 @@ torrent-solid.ru##[src="/2019p/777u.gif"]
 #@#*[class^="ads-"]
 filmitorrentom.net##[src="/img/lkj.png"], [src="/img/dfr.png"]
 */js/plyr.min.js$script,first-party
-/^https?:\/\/[^\s]+\/(([a-z]{3,12})[!"#$%&'()*+,:;<=>?@/\^_`{|}~-])?sw\.js/$important,script
+/^https?:\/\/[^\s]+\/(([a-z]{3,12})?[!"#$%&'()*+,:;<=>?@/\^_`{|}~-])?sw\.js/$important,script
 /^https?:\/\/[^\s]+\/sw([!"#$%&'()*+,:;<=>?@/\^_`{|}~-]([_a-z0-9-.]{1,10}))\.js/$important,script
 /\/(([_a-z-]{3,9})[!"#$%&'()*+,:;<=>?@/\^_`{|}~-]?)?worker(.*)?\.js/$important,script,domain=~twitch.tv|~google.com
 /^https?:\/\/[^\s]+\/worker([!"#$%&'()*+,:;<=>?@/\^_`{|}~-]([a-z]{5,6}))\.js/$important,script
