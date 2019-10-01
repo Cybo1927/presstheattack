@@ -510,7 +510,8 @@ utorrentfilmi.ru##[href^="//vip.utorrentfilmi.ru/"]
 /Youtube-icon-$badfilter
 /Youtube-icon_$badfilter
 adjs*$badfilter
-/\/[-a-zA-Z0-9_]{1}\.gif/$image,domain=~filmitorrent.xyz
+/\/[-a-zA-Z0-9_]{1}\.gif$/$image,domain=~filmitorrent.xyz,important
+/\.[a-z]{2,4}\/ads\//$image,important
 ads.min$important,script,badfilter
 /^https?:\/\/[^\s]+(\.wasm|\.wsm|\.wa)$/$important,xmlhttprequest,domain=~twitch.tv
 /^https?:\/\/avatars\.mds\.yandex\.net\/get\-[a-z]{2,6}\/[0-9]{5}\/[^\s]{60,}/$image,domain=yandex.ru|~metrika.yandex.ru
