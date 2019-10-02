@@ -2801,9 +2801,12 @@ torrent-film.co##[src="/2go.png"]
 @@||cse.google.ne^$badfilter
 @@||cse.google.ne^$elemhide,badfilter
 @@||cse.google.ng^$badfilter
-com##a:link:style(cursor: pointer)
-com##body:style(cursor: unset !important)
-com##html:style(cursor: unset !important)
+com#@#a:link:style(cursor: pointer)
+com#@#body:style(cursor: unset !important)
+com#@#html:style(cursor: unset !important)
+#@#a:link:style(cursor: pointer)
+#@#body:style(cursor: unset !important)
+#@#html:style(cursor: unset !important)
 ||fonts.googleapis.com^$important,domain=~google.com|~chromium.org,badfilter
 .club/$badfilter
 @@||cse.google.ng^$elemhide,badfilter
