@@ -3935,16 +3935,19 @@ windowspro.ru##.maincont > .quote
 @@||homeaway.se^$elemhide,badfilter
 @@||homelidays.co.uk^$elemhide,badfilter
 @@||homelidays.de^$elemhide,badfilter
+#@#*[id$="-ads"]
 /prebid$important,script,badfilter
 @@.com/ads.js$1p,script,badfilter
 @@||homelidays.es^$elemhide,badfilter
 @@||homelidays.fr^$elemhide,badfilter
 @@||homelidays.it^$elemhide,badfilter
 @@||homelidays.nl^$elemhide,badfilter
+||chatbro.com/embed.js$3p,badfilter
 @@||homelidays.pt^$elemhide,badfilter
 @@||homenewtab.com/search/$elemhide,badfilter
 @@||homesessive.com^$elemhide,badfilter
 @@||hometv2go.com/search/$elemhide,badfilter
+google.*#@#+js(eremove, #prm-pt\, .b2hzT\, .exp-outline\, [id^="ed_"]\, [title*="Share"])
 @@||hotelreservierung.de^$elemhide,badfilter
 @@||hotnews.host/?s=$elemhide,badfilter
 */ads.js$script,important,redirect=noopjs,badfilter
