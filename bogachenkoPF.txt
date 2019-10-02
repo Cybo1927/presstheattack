@@ -6213,7 +6213,6 @@ kindteenporn.com##.admin-frame-wrap, .vi-br
 ||estream.to^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' *.escdn.co *.cloudflare.com,badfilter
 ||yastatic.net,yandex.ru$font,important
 *vast-$important,first-party,script,badfilter
-/\/vast(\-[-0-9.]{4,6})?\.js$/$script,important
 ||yastatic.net/*/zen-lib/$important
 rapidvideo.com#@#+js(abort-on-property-write.js, executed)
 rapidvideo.com#@#+js(abort-current-inline-script.js, atob, tabunder)
