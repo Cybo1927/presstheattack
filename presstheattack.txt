@@ -1,7 +1,7 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-10-02 21:02:21
-! Version: 20191002210221
+! Last modified: 2019-10-02 21:05:08
+! Version: 20191002210508
 ! Expires: 3 hours
 ! Number of filters: 11135
 ! Homepage: https://github.com/bogachenko/presstheattack/
@@ -58,7 +58,7 @@
 /^https?:\/\/[^\s]+\/([^\s]{4})?tag\.min\.([a-z0-9]{30,}\.)?js/$important,script
 /^https?:\/\/[^\s]+\/(popundr|punder)\/(script|license|custom)\./$important,script
 /^https?:\/\/[^\s]+\/piwik\./$important,script
-/^https?:\/\/[^\s]+\/vast(\-[-0-9.]{4,6})?\.js$/$important,script
+/^https?:\/\/[^\s]+\/vast([/-0-9_.]{4,6})?\.js$/$important,script
 /^https?:\/\/[^\s]+tags?\?id\=/$important,subdocument
 /^https?:\/\/[a-z0-9]+\.info\/+[-a-z0-9_?&=]{9,}/$important,script,third-party
 /^https?:\/\/[a-z0-9]{4,12}\.(accountant|bid|cf|club|cricket|date|download|faith|fun|ga|gdn|gq|host|info|loan|men|ml|online|ovh|party|pro|pw|racing|review|rocks|science|site|space|stream|tk|top|trade|webcam|website|win|xyz|store|solutions|software|social|site|shop|services|sale|run|rip|reviews|restaurant|report|zone)\/[\w\/\-.+]{120,}/$subdocument,third-party
