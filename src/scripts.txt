@@ -8,7 +8,10 @@
 /^https?:\/\/[^\s]+\.com\/[0-9a-z]{8}\.js#spot\=[0-9]{5}$/$important,script
 /^https?:\/\/[^\s]+\/([^\s]{4})?tag\.min\.([a-z0-9]{30,}\.)?js/$important,script
 /^https?:\/\/[^\s]+\/(popundr|punder)\/(script|license|custom)\./$important,script
-/^https?:\/\/[^\s]+\/piwik([!"#$%&'()*+,:;<=>?@/\^_`{|}~-][_0-9-.]{5,})?\.js/$important,script
+/^https?:\/\/[^\s]+\/piwik\./$important,script
 /^https?:\/\/[a-z0-9]+\.info\/+[-a-z0-9_?&=]{9,}/$important,script,third-party
 /^https?:\/\/cdn[0-9]{1,2}?\.rocks\/[^\s]{30,}\.js/$important,script
 /^https?:\/\/www\.([a-z]{6,16})\.com\/([a-z]{1,4})\.js$/$important,script,third-party
+/^https?:\/\/[^\s]+\/vast(\-[-0-9.]{4,6})?\.js$/$important,script
+/^https?:\/\/[^\s]+\&refer\=https?/$script,important
+/^https?:\/\/[^\s]+[-_/.]prebid\./$script,important
