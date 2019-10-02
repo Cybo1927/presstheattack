@@ -2794,6 +2794,7 @@ torrent-film.co##[src="/2go.png"]
 @@||cse.google.mu^$elemhide,badfilter
 @@||cse.google.mv^$badfilter
 @@||cse.google.mv^$elemhide,badfilter
+net#@#button:style(cursor: unset !important)
 @@||cse.google.mw^$badfilter
 @@||cse.google.mw^$elemhide,badfilter
 @@||cse.google.ne.jp^$badfilter
