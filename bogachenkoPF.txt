@@ -3930,10 +3930,13 @@ windowspro.ru##.maincont > .quote
 @@||homeaway.it^$elemhide,badfilter
 @@||homeaway.nl^$elemhide,badfilter
 @@||homeaway.no^$elemhide,badfilter
+@@.com/ads.js|$1p,domain=~1ppt.com,badfilter
 @@||homeaway.pt^$elemhide,badfilter
 @@||homeaway.se^$elemhide,badfilter
 @@||homelidays.co.uk^$elemhide,badfilter
 @@||homelidays.de^$elemhide,badfilter
+/prebid$important,script,badfilter
+@@.com/ads.js$1p,script,badfilter
 @@||homelidays.es^$elemhide,badfilter
 @@||homelidays.fr^$elemhide,badfilter
 @@||homelidays.it^$elemhide,badfilter
@@ -3946,10 +3949,15 @@ windowspro.ru##.maincont > .quote
 @@||hotnews.host/?s=$elemhide,badfilter
 @@||housingwatch.com^$elemhide,badfilter
 @@||how01.com/search/?q=$elemhide,badfilter
+xhamster.*#@#+js(acis, Math.random, popunder)
+xhamster.*#@#+js(aeld, , pop)
+xhamster.com#@#+js(addEventListener-defuser, popstate, backUrl)
+xhamster.com#@#+js(abort-on-property-write, dataPopUnder)
 @@||howstuffworks.com/search.php$elemhide,badfilter
 @@||huffingtonpost.com/search/$elemhide,badfilter
 @@||hulong.tw/?s=$elemhide,badfilter
 @@||ibazar.com.mx^$elemhide,badfilter
+xhamster.com##.no-popunder.wil-sponsor-banner, .xp-subscribe, .wil-sponsor-link
 @@||ibazar.com^$elemhide,badfilter
 @@||ibj.tw/?q=$elemhide,badfilter
 @@||icream.tw/?s=$elemhide,badfilter
