@@ -3947,6 +3947,8 @@ windowspro.ru##.maincont > .quote
 @@||hometv2go.com/search/$elemhide,badfilter
 @@||hotelreservierung.de^$elemhide,badfilter
 @@||hotnews.host/?s=$elemhide,badfilter
+*/ads.js$script,important,redirect=noopjs,badfilter
+*/*.ads.js$script,important,redirect=noopjs,badfilter
 @@||housingwatch.com^$elemhide,badfilter
 @@||how01.com/search/?q=$elemhide,badfilter
 xhamster.*#@#+js(acis, Math.random, popunder)
