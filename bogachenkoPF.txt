@@ -3922,8 +3922,10 @@ windowspro.ru##.maincont > .quote
 @@||homeaway.com.co^$elemhide,badfilter
 @@||homeaway.com.mx^$elemhide,badfilter
 @@||homeaway.com^$elemhide,badfilter
+#@#.social_block
 @@||homeaway.dk^$elemhide,badfilter
 @@||homeaway.es^$elemhide,badfilter
+#@#a[href^="https://telegram.me/share/"]
 @@||homeaway.fi^$elemhide,badfilter
 @@||homeaway.it^$elemhide,badfilter
 @@||homeaway.nl^$elemhide,badfilter
