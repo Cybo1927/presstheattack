@@ -295,6 +295,7 @@
 ||advg.agency^$important
 ||advideo.ru^$important
 ||advmaiotg.com^$important
+||advmaker.su^$important
 ||adwidgets.ru^$important
 ||adxadserv.com^$important
 ||adxpddpc.com^$important
@@ -2256,7 +2257,6 @@
 ||etkdximarcsq.com^$important
 ||etkhujhmhjix.com^$important
 ||etmewatuh.com^$important
-||advmaker.su^$important
 ||etoads.net^$important
 ||etprpfuw.bid^$important
 ||etpsn.com^$important
