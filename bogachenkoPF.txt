@@ -6221,6 +6221,8 @@ rapidvideo.com#@#+js(abort-current-inline-script.js, atob, tabunder)
 #@#*[class$="_ads"]
 ||yastatic.net/s3/chat-static^$important
 ||yastatic.net/s3/distribution^$important
+/images/social/*$domain=~waymo.com|~liga-manager.de|~techspot.com|~sport1.de|~bett1.de|~smofast.com|~promin.cv.ua|~rsload.net|~esportsearnings.com|~vortez.net|~programmingwithmosh.com|~wasabiclassics.com,badfilter
+/image/social_$badfilter
 ||yastatic.net/s3/zen-lib^$important
 ||yastatic.net/sovetnik^$important
 ||yastatic.net^$other
