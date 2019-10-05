@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-10-02 21:05:08
-! Version: 20191002210508
+! Last modified: 2019-10-06 09:54:11
+! Version: 20191006095411
 ! Expires: 3 hours
-! Number of filters: 11135
+! Number of filters: 11143
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -48,7 +48,7 @@
 /^https?:\/\/[^\s]+[-_/.](fingerprint|fp)([0-9]{1,2})?(\.min)?\.js/$image,important,script,xmlhttprequest
 /^https?:\/\/[^\s]+[-_/.](player|client|csi|gen(erate)?|stream|logs?|live)[-_/.]?204\??/$image,important,other,xmlhttprequest
 /^https?:\/\/[^\s]+[-_/.]?pi?xe?l\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|heic|heif|webp|jxr|wdp|dng|cr2|arw|js)/$image,important,script
-/^https?:\/\/[^\s]+[-_/.]log[-_/.]?(type|event|entry|request)/$image,important,other,xmlhttprequest
+/^https?:\/\/[^\s]+[-_/.]log[-_/.]?(type|event|entry|request)\??/$image,important,other,xmlhttprequest
 /^https?:\/\/[^\s]+[-_/.]prebid\./$important,script
 /^https?:\/\/[^\s]+\&refer\=https?/$important,script
 /^https?:\/\/[^\s]+\.(cc\/$|club|com|online|ru)/$important,xmlhttprequest,domain=hdgo.cc|vio.to
@@ -114,6 +114,7 @@
 |http*:*/rtrg?$image,important
 |http*:*/setbucket?signature=$important,subdocument
 |http*:*/spacer.gif$image,important
+|http*:*/uutils.fcg?$important,script
 |http*:*/www/*&zoneid=$image,important,script,xmlhttprequest
 |http*:*/xti.php^$important,script,xmlhttprequest,domain=facebook.com|facebookcorewwwi.onion
 |http*:*?*&lp=*id=$popup
@@ -302,6 +303,7 @@
 ||acdektqffm.com^$important
 ||acduswfvyjylzq.com^$important
 ||achsijkc.com^$important
+||acint.net^$important
 ||aclhagvngkjf.com^$important
 ||aclsqdpgeaik.com^$important
 ||aclwlkyzxxhn.com^$important
@@ -912,6 +914,7 @@
 ||bgiiubagsuvv.com^$important
 ||bgmgyuzcfrujc.com^$important
 ||bgpxrwjrbsjb.com^$important
+||bgrndi.com^$important
 ||bgrojtcdymmcdr.com^$important
 ||bgtmceqoipodkv.com^$important
 ||bgxjypaeyocjy.bid^$important
@@ -1091,6 +1094,7 @@
 ||brjycsvgpo.bid^$important
 ||brloygpasa.com^$important
 ||brmrwnopuowq.bid^$important
+||browser-ru.site^$important
 ||brqrtgjklary.com^$important
 ||brrxmhuhyokw.bid^$important
 ||brtcmjchfyel.com^$important
@@ -4244,6 +4248,7 @@
 ||jf71qh5v14.com^$important
 ||jfaqiomgvajb.com^$important
 ||jfcofvhuqzdg.bid^$important
+||jfduv7.com^$important
 ||jffdktcyr.com^$important
 ||jffhbunkrxmyhf.bid^$important
 ||jfhupoqrydm.com^$important
@@ -7462,6 +7467,7 @@
 ||reklamstore.com^$important
 ||reklamtrk.com^$important
 ||rekovers.ru^$important
+||rekvid1.ru^$important
 ||relandssymphoking.info^$important
 ||relap.io^$important
 ||relnocyyxhpjb.com^$important
@@ -7782,6 +7788,7 @@
 ||s0l8ybzj9u.top^$important
 ||s20dh7e9dh.com^$important
 ||s4-megafunn.info^$important
+||s4block.com^$important
 ||saenrwiqesp.com^$important
 ||sagbgtnmlaj.com^$important
 ||sagukjshgifebs.bid^$important
@@ -10662,6 +10669,7 @@
 ||ytbnswbr.bid^$important
 ||ytbpmzbabph.com^$important
 ||ytdoajoj.com^$important
+||ytimgg.com^$important
 ||ytiqdpws.bid^$important
 ||ytiyuqfxjbke.com^$important
 ||ytjadaazjjy.bid^$important

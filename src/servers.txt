@@ -41,18 +41,11 @@
 ||1xbahisbuwv.com^$important
 ||1xbet.kz^$important
 ||1xbet53.com^$important
-||bgrndi.com^$important
-||jfduv7.com^$important
-||ytimgg.com^$important
-||s4block.com^$important
 ||1xbet95.com^$important
 ||1xbkbet5.com^$important
 ||1xeemc.host^$important
 ||21b666055c.com^$important
-||rekvid1.ru^$important
 ||220167981.world^$important
-||acint.net^$important
-||browser-ru.site^$important
 ||23bab89b7cec3.com^$important
 ||23bab89b7cec31.com^$important
 ||23bab89b7cec318.com^$important
@@ -202,6 +195,7 @@
 ||acdektqffm.com^$important
 ||acduswfvyjylzq.com^$important
 ||achsijkc.com^$important
+||acint.net^$important
 ||aclhagvngkjf.com^$important
 ||aclsqdpgeaik.com^$important
 ||aclwlkyzxxhn.com^$important
@@ -812,6 +806,7 @@
 ||bgiiubagsuvv.com^$important
 ||bgmgyuzcfrujc.com^$important
 ||bgpxrwjrbsjb.com^$important
+||bgrndi.com^$important
 ||bgrojtcdymmcdr.com^$important
 ||bgtmceqoipodkv.com^$important
 ||bgxjypaeyocjy.bid^$important
@@ -991,6 +986,7 @@
 ||brjycsvgpo.bid^$important
 ||brloygpasa.com^$important
 ||brmrwnopuowq.bid^$important
+||browser-ru.site^$important
 ||brqrtgjklary.com^$important
 ||brrxmhuhyokw.bid^$important
 ||brtcmjchfyel.com^$important
@@ -4135,6 +4131,7 @@
 ||jf71qh5v14.com^$important
 ||jfaqiomgvajb.com^$important
 ||jfcofvhuqzdg.bid^$important
+||jfduv7.com^$important
 ||jffdktcyr.com^$important
 ||jffhbunkrxmyhf.bid^$important
 ||jfhupoqrydm.com^$important
@@ -7347,6 +7344,7 @@
 ||reklamstore.com^$important
 ||reklamtrk.com^$important
 ||rekovers.ru^$important
+||rekvid1.ru^$important
 ||relandssymphoking.info^$important
 ||relap.io^$important
 ||relnocyyxhpjb.com^$important
@@ -7667,6 +7665,7 @@
 ||s0l8ybzj9u.top^$important
 ||s20dh7e9dh.com^$important
 ||s4-megafunn.info^$important
+||s4block.com^$important
 ||saenrwiqesp.com^$important
 ||sagbgtnmlaj.com^$important
 ||sagukjshgifebs.bid^$important
@@ -10535,6 +10534,7 @@
 ||ytbnswbr.bid^$important
 ||ytbpmzbabph.com^$important
 ||ytdoajoj.com^$important
+||ytimgg.com^$important
 ||ytiqdpws.bid^$important
 ||ytiyuqfxjbke.com^$important
 ||ytjadaazjjy.bid^$important
