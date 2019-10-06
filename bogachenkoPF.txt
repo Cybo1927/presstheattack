@@ -6061,6 +6061,7 @@ stats$important,script,badfilter
 ||gstatic.com/kpui/social/$important,badfilter
 advertisement$important,script,badfilter
 ||gstatic.com/safebrowsing^$important
+||mp4upload.com^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' *.jwpcdn.com *.googleapis.com www.mp4upload.com,badfilter
 ||hentaihaven.org^$badfilter
 ||i1.ytimg.com^$badfilter
 ||imgur.com/min/runslots.js$important,script,badfilter
@@ -6070,11 +6071,18 @@ advertisement$important,script,badfilter
 ||mabila.ua^$badfilter
 ||mail.google.com/*&view=ad&$important,badfilter
 ||mail.google.com/mail/*/cleardot.gif$important,badfilter
+mp4upload.com#@#+js(eremove, .vjs-logo\, #overlay\, .vjs-share-button\, .vjs-share-block\, #share_twitter\, #share_pinterest\, #share_facebook)
 ||mc.yandex.ru^$important
+mp4upload.com#@#+js(aeld, /contextmenu|mousewheel/)
 ||metrica.yandex.com^$badfilter
 ||metrica.yandex.ru^$badfilter
+||mp4upload.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.mp4upload.com *.mp4upload.com:282 stackpath.bootstrapcdn.com,badfilter
 ||metrika.yandex.$third-party,badfilter
+mp4upload.com#@#+js(abort-current-inline-script, cpmstar_rnd)
+&ads=$badfilter
 ||metrika.yandex.com^$badfilter
+/images/social.$badfilter
+mp4upload.com#@#+js(abort-current-inline-script, document.createElement, script)
 ||metrika.yandex.ru^$badfilter
 ||metrika.yandex.ru^$third-party,badfilter
 ||mobile.yandex.net^$important
