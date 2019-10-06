@@ -6069,21 +6069,26 @@ stats$important,script,badfilter
 ||gravatar.com^$important,third-party,badfilter
 ||gstatic.com/*/cleardot.gif$important,badfilter
 ||gstatic.com/kpui/social/$important,badfilter
+facebook.com#@#+js(eremove, .home_right_column\, #page_tv_show_playlists\, #pagelet_page_cover\, #page_tv_show_extra_clips\, #page_photos\, .UFIList\, .photoUfiContainer.rhc\, #fb_stories_card_root)
 advertisement$important,script,badfilter
 ||gstatic.com/safebrowsing^$important
 ||mp4upload.com^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' *.jwpcdn.com *.googleapis.com www.mp4upload.com,badfilter
 ||hentaihaven.org^$badfilter
 ||i1.ytimg.com^$badfilter
 ||imgur.com/min/runslots.js$important,script,badfilter
+translate.yandex.ru#@##shareContent+div[data-action="mailTo"]
 ||instagram.com^$important,third-party,domain=~facebook.com,badfilter
 ||jstracer.yandex.ru^$important
 ||kope.cc^$script,third-party
+||asiatravel*.com/newad/
+translate.yandex.ru#@##shareContent
 ||mabila.ua^$badfilter
 ||mail.google.com/*&view=ad&$important,badfilter
+#@#.addthis_inline_share_toolbox
 ||mail.google.com/mail/*/cleardot.gif$important,badfilter
 mp4upload.com#@#+js(eremove, .vjs-logo\, #overlay\, .vjs-share-button\, .vjs-share-block\, #share_twitter\, #share_pinterest\, #share_facebook)
 ||mc.yandex.ru^$important
-mp4upload.com#@#+js(aeld, /contextmenu|mousewheel/)
+mp4upload.com#@#+js(aeld, /contextmenu|mousewheel|DOMMouseScroll/)
 ||metrica.yandex.com^$badfilter
 ||metrica.yandex.ru^$badfilter
 ||mp4upload.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.mp4upload.com *.mp4upload.com:282 stackpath.bootstrapcdn.com,badfilter
