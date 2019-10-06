@@ -83,6 +83,7 @@ torrentfilm.me##[src="/img/mgt.png"]
 -ad0_$badfilter
 -ad1-$badfilter
 -ad1.$badfilter
+||streamcherry.com^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' *.cloudflare.com,badfilter
 ##img[src*="/banner/"]
 ##img[src*="/banners/"]
 /adv-$badfilter
@@ -4771,7 +4772,10 @@ github.com#@#.is-stuck.gh-header-sticky.top-0.js-sticky-offset-scroll.js-sticky
 @@||sofun.tw^$elemhide,badfilter
 @@||sopeen.com/search/$elemhide,badfilter
 @@||sophiee.tw/?s=$elemhide,badfilter
+||streamcherry.com/assets/js/script$important,badfilter
+||streamcherry.com/assets/js/license$important,badfilter
 @@||spardeingeld.de^$elemhide,badfilter
+/^https?:\/\/[^\s]+\/vast([0-9]{1,2})?\//$important
 @@||sparkfacts.com/?s=$elemhide,badfilter
 @@||sport-king.com^$elemhide,badfilter
 @@||stahuj.centrum.cz^$elemhide,badfilter
@@ -4780,6 +4784,7 @@ github.com#@#.is-stuck.gh-header-sticky.top-0.js-sticky-offset-scroll.js-sticky
 @@||start.otgmanagement.com^$elemhide,badfilter
 @@||start.toshiba.com/search/$elemhide,badfilter
 @@||startapro.hu^$elemhide,badfilter
+/share2.$badfilter
 @@||startlap.hu^$elemhide,badfilter
 @@||startpage.com^$elemhide,badfilter
 @@||startpagina.nl^$elemhide,badfilter
@@ -5406,7 +5411,7 @@ mail.ru##+js(nowebrtc.js)
 ||vkcdnservice.com^$badfilter
 market.yandex.ru##.main > noindex
 market.yandex.ru##a[href^="https://fenek.market.yandex."]
-music.yandex.ru##.duck__duckling.moving-slider, .multi-auth__plus, .teaser, .sidebar__under, .page-main__line_row.page-main__line_small-margin.page-main__line_personal-playlists.page-main__line, .notify_shown.deco-tooltip_notify, .footer, .metrika-app_shown_yes.metrika-app_js_inited.i-bem.metrika-app_type_desktop.metrika-app_lang_ru.metrika-app, .duck__angry-duck_left.duck__angry-duck.paused-slider, .bar-below_plus.bar-below, .subscription-hint_bottom.deco-pane-popup.popup.local-theme-black.subscription-hint, div.notify > div.deco-tooltip_notify.notify_shown, .overlay_gdpr.overlay_shown.deco-pane-overlay.overlay, .deco-pane-popup.popup.local-icon-theme-white.local-theme-white.gdpr-popup, .bar-below_unavaliable.bar-below, a.teaser__content[href="https://music.yandex.ru/family-plus"] > img.teaser__img, div.page-root.page-root_no-player.deco-pane-back > div[class][data-b="2"][style="display: block;"], .teaser ~ div, .page-root > div[data-b="2"], .sidebar > div > .teaser + div[data-b="18"], .d-track_playing.d-track_inline-meta.d-track_selectable.typo-track.d-track > .d-track__start-column > .d-track__hover.d-track__play > .d-button-play__wrap
+music.yandex.ru##.duck__duckling.moving-slider, .multi-auth__plus, .teaser, .sidebar__under, .page-main__line_row.page-main__line_small-margin.page-main__line_personal-playlists.page-main__line, .notify_shown.deco-tooltip_notify, .footer, .metrika-app_shown_yes.metrika-app_js_inited.i-bem.metrika-app_type_desktop.metrika-app_lang_ru.metrika-app, .duck__angry-duck_left.duck__angry-duck.paused-slider, .bar-below_plus.bar-below, .subscription-hint_bottom.deco-pane-popup.popup.local-theme-black.subscription-hint, div.notify > div.deco-tooltip_notify.notify_shown, .overlay_gdpr.overlay_shown.deco-pane-overlay.overlay, .deco-pane-popup.popup.local-icon-theme-white.local-theme-white.gdpr-popup, .bar-below_unavaliable.bar-below, a.teaser__content[href="https://music.yandex.ru/family-plus"] > img.teaser__img, div.page-root.page-root_no-player.deco-pane-back > div[class][data-b="2"][style="display: block;"], .teaser ~ div, .page-root > div[data-b="2"], .sidebar > div > .teaser + div[data-b="18"], .d-track_playing.d-track_inline-meta.d-track_selectable.typo-track.d-track > .d-track__start-column > .d-track__hover.d-track__play > .d-button-play__wrap, .d-track_playing.playlist-filter-suggest__track.d-track_selectable.typo-track.d-track > .d-track__start-column > .d-track__hover.d-track__play > .d-button-play__wrap, .deco-tooltip_to-right.popup_visible.popup_fade.local-theme-black.d-tooltip_min-width.deco-pane-popup.popup.deco-tooltip.d-tooltip
 music.yandex.by,music.yandex.kz,music.yandex.ru,music.yandex.ua#@#.page-root > div[class]:nth-child(-n+2)[style^="display: block;"]
 news.yandex.ru##+js(noeuc.js)
 oladblock.*,oload.*,openload.*,openloed.*,streamcherry.com##+js(eclick.js, #videooverlay)
