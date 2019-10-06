@@ -4235,6 +4235,7 @@ xhamster.com##.no-popunder.wil-sponsor-banner, .xp-subscribe, .wil-sponsor-link
 @@||lifehow.cc/search/$elemhide,badfilter
 @@||lifelove01.com/?s=$elemhide,badfilter
 @@||lifeonea.co/?s=$elemhide,badfilter
+.ok.ru$badfilter
 @@||lifescript.com/search.aspx$elemhide,badfilter
 @@||lifewire.com/search^$elemhide,badfilter
 @@||lightdials.com/web^$elemhide,badfilter
@@ -5456,7 +5457,7 @@ yandex.ru#@#li[class^="ya-share2"][class$="twitter"]
 yandex.ru#@#li[class^="ya-share2"][class$="vkontakte"]
 yandex.ru,~music.yandex.ru,~passport.yandex.ru##+js(noatob.js)
 yandex.ru,~music.yandex.ru,~tv.yandex.ru,~market.yandex.ru,~passport.yandex.ru##+js(rm-js, AdvManager)
-yandex.ru,~tv.yandex.ru,widgets.kinopoisk.ru##+js(noeval.js)
+widgets.kinopoisk.ru##+js(noeval.js)
 youtube.com###masthead-ad.style-scope.ytd-browse, #movie_player.html5-video-player.ytp-transparent.ytp-hide-info-bar.ytp-large-width-mode.ad-created.paused-mode > div.video-ads.ytp-ad-module, #sponsor-button, #movie_player.html5-video-player.ytp-transparent.ytp-hide-info-bar.ytp-large-width-mode.ad-created.paused-mode > div.ytp-ad-persistent-progress-bar-container, #movie_player.html5-video-player.ytp-transparent.ytp-hide-info-bar.ytp-large-width-mode.ad-created.paused-mode > div.ytp-chrome-bottom > div.ytp-progress-bar-container > div.ytp-progress-bar > div.ytp-progress-list > div.ytp-ad-progress-list, #movie_player.html5-video-player.ytp-transparent.ytp-hide-info-bar.ytp-large-width-mode.ad-created.paused-mode > div.ytp-chrome-top.ytp-share-button-visible > div.ytp-chrome-top-buttons, #movie_player.html5-video-player.ytp-transparent.ytp-hide-info-bar.ytp-large-width-mode.ad-created.paused-mode > div.ytp-paid-content-overlay, #yt-masthead-ad-renderer, #ytd-action-companion-ad-renderer, #ytd-ad-hover-text-button-renderer, #ytd-ad-info-dialog-renderer, #ytd-player-legacy-desktop-watch-ads-renderer, #ytd-search-pyv-renderer, #ytd-video-masthead-ad-advertiser-info-renderer, #ytd-video-masthead-ad-expandable-thumbnail-tile-renderer, #ytd-video-masthead-ad-expandable-video-tile-renderer, #ytd-video-masthead-ad-primary-video-overlay-renderer, #ytd-video-masthead-ad-primary-video-renderer, #ytd-video-masthead-ad-v3-renderer, #ticker.style-scope.ytd-masthead, #player-ads.style-scope.ytd-watch-flexy, #offer-module.style-scope.ytd-watch-next-secondary-results-renderer, .notification-button-style-type-conversation-default.ytd-masthead.style-scope, ytd-topbar-menu-button-renderer.style-default.ytd-masthead.style-scope
 |http*:*^stat_$badfilter
 |http:*-ad0-$badfilter
