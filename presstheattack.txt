@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-10-07 01:35:12
-! Version: 20191007013512
+! Last modified: 2019-10-07 03:13:39
+! Version: 20191007031339
 ! Expires: 3 hours
-! Number of filters: 11160
+! Number of filters: 11162
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -57,8 +57,8 @@
 /^https?:\/\/[^\s]+\.[A-Za-z]{2,6}\/[A-Za-z]{1}\?tag\=[^\s]+\&site\=[A-Za-z0-9]{1,}\&ads?\=/$important,popup,script
 /^https?:\/\/[^\s]+\.com\/[0-9a-z]{8}\.js#spot\=[0-9]{5}$/$important,script
 /^https?:\/\/[^\s]+\/([^\s]{4})?tag\.min\.([a-z0-9]{30,}\.)?js/$important,script
-/^https?:\/\/[^\s]+\/(popundr|punder)\/(script|license|custom)\./$important,script
-/^https?:\/\/[^\s]+\/piwik\./$important,script
+/^https?:\/\/[^\s]+\/(popundr|punder|pu)\/(script|license|custom)\./$important,script
+/^https?:\/\/[^\s]+\/piwik\./$image,important,script
 /^https?:\/\/[^\s]+\/vast([/-0-9_.]{4,6})?\.js$/$important,script
 /^https?:\/\/[^\s]+tags?\?id\=/$important,subdocument
 /^https?:\/\/[a-z0-9]+\.info\/+[-a-z0-9_?&=]{9,}/$important,script,third-party
@@ -1463,6 +1463,7 @@
 ||cokrrmzagaxn.com^$important
 ||collamps.com^$important
 ||collector.schibsted.io^$important
+||com-guard-device.live^$important
 ||com-mac-booster.live^$important
 ||com-mac-optimizer.xyz^$important
 ||com-shield-device.live^$important
@@ -6990,6 +6991,7 @@
 ||qaazzemfo.com^$important
 ||qabmhhrfi.bid^$important
 ||qadtkdlqlemf.com^$important
+||qagcdwkqiaxj7ae.xyz^$important
 ||qahajvkyfjpg.com^$important
 ||qaiqromd.com^$important
 ||qairctxn.com^$important

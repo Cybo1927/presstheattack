@@ -1353,6 +1353,7 @@
 ||cokrrmzagaxn.com^$important
 ||collamps.com^$important
 ||collector.schibsted.io^$important
+||com-guard-device.live^$important
 ||com-mac-booster.live^$important
 ||com-mac-optimizer.xyz^$important
 ||com-shield-device.live^$important
@@ -4031,8 +4032,6 @@
 ||iyjukpbyzsxc.bid^$important
 ||iykrtmswkibdp.com^$important
 ||iylndfmf.com^$important
-||qagcdwkqiaxj7ae.xyz^$important
-||com-guard-device.live^$important
 ||iylssoobxtvm.com^$important
 ||iynfhmgte.bid^$important
 ||iyqchvtlklbxm.com^$important
@@ -6868,6 +6867,7 @@
 ||qaazzemfo.com^$important
 ||qabmhhrfi.bid^$important
 ||qadtkdlqlemf.com^$important
+||qagcdwkqiaxj7ae.xyz^$important
 ||qahajvkyfjpg.com^$important
 ||qaiqromd.com^$important
 ||qairctxn.com^$important
