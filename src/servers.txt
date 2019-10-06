@@ -35,12 +35,6 @@
 ||1b8d89551340a.com^$important
 ||1b969cef84d93b43.com^$important
 ||1bfc228b50a902db.com^$important
-||ad4xh85llhcbfis8.com^$important
-||forecastpcservice.fun^$important
-||aso1.net^$important
-||bugsnag.com^$important
-||aj1713.online^$important
-||mtrcss.com^$important
 ||1cb70f6b7aab4c70819a.date^$important
 ||1fbaa223d6945621f8d7.date^$important
 ||1fc4d6ccf2.com^$important
@@ -387,6 +381,7 @@
 ||aiwhebey.com^$important
 ||aiypulgy.com^$important
 ||aizopowmtnho.com^$important
+||aj1713.online^$important
 ||ajaeihzlcwvn.com^$important
 ||ajfziqehnwvz.com^$important
 ||ajizjpjkrnh.com^$important
@@ -568,6 +563,7 @@
 ||asjdfasas.xyz^$important
 ||askywtrk.com^$important
 ||asmvccgoy.bid^$important
+||aso1.net^$important
 ||asotnnwspw.bid^$important
 ||aspxbwteth.com^$important
 ||asqbwneriyvur.com^$important
@@ -1045,6 +1041,7 @@
 ||bubblelife90.life^$important
 ||budyxjttmjkf.com^$important
 ||bufqrxzyrecf.com^$important
+||bugsnag.com^$important
 ||bugwiqivdqotjk.com^$important
 ||buhxsaifjxupaj.com^$important
 ||buitxcrnucyi.com^$important
@@ -2601,6 +2598,7 @@
 ||foguumjql.com^$important
 ||fojgpvkhu.com^$important
 ||foovyagf.com^$important
+||forecastpcservice.fun^$important
 ||forsiteid6346.tech^$important
 ||fortpush.com^$important
 ||fortunejackpartners.com^$important
@@ -5624,6 +5622,7 @@
 ||mtnreztslx.com^$important
 ||mtnysmosgmp.bid^$important
 ||mtpjldykpuhnmg.bid^$important
+||mtrcss.com^$important
 ||mttyfwtvyumc.com^$important
 ||mtuorcpzomut.bid^$important
 ||mtveughs.com^$important

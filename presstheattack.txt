@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-10-07 03:13:39
-! Version: 20191007031339
+! Last modified: 2019-10-07 06:54:30
+! Version: 20191007065430
 ! Expires: 3 hours
-! Number of filters: 11162
+! Number of filters: 11167
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -491,6 +491,7 @@
 ||aiwhebey.com^$important
 ||aiypulgy.com^$important
 ||aizopowmtnho.com^$important
+||aj1713.online^$important
 ||ajaeihzlcwvn.com^$important
 ||ajfziqehnwvz.com^$important
 ||ajizjpjkrnh.com^$important
@@ -672,6 +673,7 @@
 ||asjdfasas.xyz^$important
 ||askywtrk.com^$important
 ||asmvccgoy.bid^$important
+||aso1.net^$important
 ||asotnnwspw.bid^$important
 ||aspxbwteth.com^$important
 ||asqbwneriyvur.com^$important
@@ -1149,6 +1151,7 @@
 ||bubblelife90.life^$important
 ||budyxjttmjkf.com^$important
 ||bufqrxzyrecf.com^$important
+||bugsnag.com^$important
 ||bugwiqivdqotjk.com^$important
 ||buhxsaifjxupaj.com^$important
 ||buitxcrnucyi.com^$important
@@ -2708,6 +2711,7 @@
 ||foguumjql.com^$important
 ||fojgpvkhu.com^$important
 ||foovyagf.com^$important
+||forecastpcservice.fun^$important
 ||forsiteid6346.tech^$important
 ||fortpush.com^$important
 ||fortunejackpartners.com^$important
@@ -5738,6 +5742,7 @@
 ||mtnreztslx.com^$important
 ||mtnysmosgmp.bid^$important
 ||mtpjldykpuhnmg.bid^$important
+||mtrcss.com^$important
 ||mttyfwtvyumc.com^$important
 ||mtuorcpzomut.bid^$important
 ||mtveughs.com^$important
