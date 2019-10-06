@@ -1,6 +1,6 @@
 {
-  "timeStamp": 1567838031016,
-  "version": "1.21.9b7",
+  "timeStamp": 1570375778777,
+  "version": "1.22.4",
   "userSettings": {
     "advancedUserEnabled": true,
     "alwaysDetachLogger": false,
@@ -54,7 +54,7 @@
     "autoCommentFilterTemplate": "unset",
     "autoUpdateAssetFetchPeriod": 120,
     "autoUpdateDelayAfterLaunch": 180,
-    "autoUpdatePeriod": 7,
+    "autoUpdatePeriod": 3,
     "blockingProfiles": "11101 00001",
     "cacheStorageAPI": "unset",
     "cacheStorageCompression": true,

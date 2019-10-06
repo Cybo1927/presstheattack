@@ -1768,6 +1768,7 @@ track$important,script,badfilter
 /social-icon.$badfilter
 /social-icon/*$badfilter
 /social-icons-$badfilter
+#@#a[href^="https://www.facebook.com/dialog/share?"]
 /social-icons.$badfilter
 /social-icons/*$badfilter
 /social-icons/*$~stylesheet,badfilter
