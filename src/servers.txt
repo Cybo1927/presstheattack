@@ -16,6 +16,7 @@
 /^https?:\/\/yastatic\.net\/[^\s]{500,}/$domain=~vh.yandex.ru
 /^https?:\/\/zmctrack\.(com|net)/$important
 ||0--e.info^$important
+||00e46b7f53.com^$important
 ||00f31156f051fdf.com^$important
 ||01ced816b84.com^$important
 ||05a7946eef5d.com^$important
@@ -44,8 +45,10 @@
 ||1xbet95.com^$important
 ||1xbkbet5.com^$important
 ||1xeemc.host^$important
+||2013b42f102806.com^$important
 ||21b666055c.com^$important
 ||220167981.world^$important
+||238662ae03bb.com^$important
 ||23bab89b7cec3.com^$important
 ||23bab89b7cec31.com^$important
 ||23bab89b7cec318.com^$important
@@ -125,6 +128,7 @@
 ||66713dbe44.com^$important
 ||674309f93c1.com^$important
 ||6868bbe42af8e518.com^$important
+||6ce0a8be8375b.com^$important
 ||6eez7ouig7gwguf6.pro^$important
 ||6ped2nd3yp.com^$important
 ||6zw2rcfd.com^$important
@@ -208,6 +212,7 @@
 ||acwyoynw.com^$important
 ||acxujxzdluum.com^$important
 ||ad2bitcoin.com^$important
+||ad4xh85llhcbfis8.com^$important
 ||adakgpoi.com^$important
 ||adalliance.io^$important
 ||adap.tv^$important
@@ -640,6 +645,7 @@
 ||axsczaklngkxx.com^$important
 ||axvabgnr.com^$important
 ||axzrxkkklakka.com^$important
+||ayc0zsm69431gfebd.xyz^$important
 ||aycwvgrra.com^$important
 ||ayhdwulehfdwn.com^$important
 ||ayjebauqdrys.com^$important
@@ -1082,16 +1088,6 @@
 ||bydbjtaoy.bid^$important
 ||byecttekgbksr.bid^$important
 ||bygigguvflpv.com^$important
-||ayc0zsm69431gfebd.xyz^$important
-||czx5eyk0exbhwp43ya.biz^$important
-||grooksom.com^$important
-||2013b42f102806.com^$important
-||6ce0a8be8375b.com^$important
-||238662ae03bb.com^$important
-||c2bb06c45a5.com^$important
-||00e46b7f53.com^$important
-||get1trightn0w.com^$important
-||ad4xh85llhcbfis8.com^$important
 ||bymyneknm.bid^$important
 ||byoftdngsqjezw.bid^$important
 ||bypjftbwbpj.bid^$important
@@ -1100,7 +1096,6 @@
 ||bysziktift.com^$important
 ||byufpbvjpedvpx.com^$important
 ||byuwgtzpawzzd.com^$important
-||lcwfab1.com^$important
 ||byxlivaqzo.com^$important
 ||byxlzyvfgb.bid^$important
 ||bzeidqugwde.bid^$important
@@ -1118,6 +1113,7 @@
 ||bzyrhqbdldds.com^$important
 ||c05c3c084e7edd.com^$important
 ||c26c8951ef23f.com^$important
+||c2bb06c45a5.com^$important
 ||c4bafc1c8a327.com^$important
 ||c4bafc1c8a3278.com^$important
 ||c4bafc1c8a32783.com^$important
@@ -1555,6 +1551,7 @@
 ||czrtrfoin.com^$important
 ||czuyzjyxlgirh.bid^$important
 ||czwdzqfnmzw.bid^$important
+||czx5eyk0exbhwp43ya.biz^$important
 ||czzzwuvvc.com^$important
 ||d0f85db8ee56f5c6.com^$important
 ||d0p21g2fep.com^$important
@@ -2883,6 +2880,7 @@
 ||gekywqwky.com^$important
 ||genqrabot.com^$important
 ||geo.yahoo.com^$important
+||get1trightn0w.com^$important
 ||getadmiral.com^$important
 ||getclicky.com^$important
 ||getnewupdates.*^$important
@@ -3112,6 +3110,7 @@
 ||grlygpybnhbwcu.com^$important
 ||grnrmwxf.com^$important
 ||gromairt.net^$important
+||grooksom.com^$important
 ||grppxsxgcdcu.bid^$important
 ||grrduoonwjpy.com^$important
 ||grsdvgnr.com^$important
@@ -4897,6 +4896,7 @@
 ||lcttjawsbwol.com^$important
 ||lcuprkufusba.com^$important
 ||lcvofuqxovcao.com^$important
+||lcwfab1.com^$important
 ||lcxrimmb.com^$important
 ||lcyncwbacrgz.com^$important
 ||ldbgrugl.bid^$important
