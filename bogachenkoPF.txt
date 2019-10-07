@@ -97,7 +97,8 @@ torrentfilm.me##[src="/img/mgt.png"]
 #@#.ism_share_counts
 #@#.ism_box_twitter
 #@#.ism_box_linkedin
-/(\W|\_)a(d[vs]e?|nnounceme|ds?)[rn][tev](s|ing|covers?|server?|isements?|ising|e(rs?)?|ements|ur)?/$important,popup,subdocument
+@@||analytics.google.com/*/advertising*
+/(\W|\_)a(d[vs]e?|nnounceme|ds?)[rn][tev](s|ing|covers?|server?|isements?|ising|e(rs?)?|ements|ur)?/$important,popup,subdocument,domain=~analytics.google.com
 #@#.ism_box_facebook
 #@#.facebook_share_count
 #@#a[title="Share on Twitter"]
@@ -3623,6 +3624,7 @@ pixel.$important,image,badfilter
 #@#.q_social_icon_holder
 #@#.simple_social
 #@##social-nav
+/img/*/social-$badfilter
 #@#.dp-share
 @@||google.ge^*afs/ads?*&client=pub-*&output=uds_ads_only$elemhide,badfilter
 @@||google.gg^*adsense/search/*ads.js|$badfilter
@@ -3634,6 +3636,7 @@ pixel.$important,image,badfilter
 @@||google.gm^*adsense/search/*ads.js|$badfilter
 @@||google.gm^*afs/ads?*&client=pub-*&output=uds_ads_only$badfilter
 @@||google.gm^*afs/ads?*&client=pub-*&output=uds_ads_only$elemhide,badfilter
+/social-likes.$domain=~animalreader.ru|~bigcinemahd.net|~catalog.onliner.by|~cutur.ru|~films-2019.club|~inosmi.ru|~kinogo-2016-net.ru|~kinomovi.xyz|~kinoo2019.ru|~kinozubr.net|~loungefilm.club|~m24.ru|~megapolisonline.ru|~miuipro.info|~mobnovelty.ru|~netsofta.net|~postila.ru|~sport28.net|~topfile.tj|~vipkinoman.net|~westernfilm.ru|~wfilm.club,badfilter
 @@||google.gp^*adsense/search/*ads.js|$badfilter
 @@||google.gp^*afs/ads?*&client=pub-*&output=uds_ads_only$badfilter
 @@||google.gp^*afs/ads?*&client=pub-*&output=uds_ads_only$elemhide,badfilter
