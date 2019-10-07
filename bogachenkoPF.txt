@@ -8,6 +8,7 @@
 *$beacon,important
 *$font,important,badfilter
 /footer/newsletter$badfilter
+/js/social-$stylesheet,badfilter
 com#@#button:style(cursor: unset !important)
 *$inline-font,important,badfilter
 */*.gif|$document,domain=~github.com|~wikimedia.org|~githubusercontent.com
@@ -15,6 +16,7 @@ com#@#button:style(cursor: unset !important)
 #@#.mh-share-buttons
 #@#.mh-share-button
 #@#a[title="Share on Facebook"]
+||odnoklassniki.ru^$script,domain=~odnoklassniki.ru|~ok.ru,badfilter
 /videojs.ima.js$important,1p,script,badfilter
 #@#a[onclick^="window.open('https://www.facebook.com/sharer.php"]
 #@#a[onclick^="window.open('https://twitter.com/share"]
@@ -5393,7 +5395,7 @@ fakedrivingschool.com###catfish-banner
 flaticon.com##.modal-credit.fi-modal > .modal-fade-screen > .text-center.modal-inner
 fonts.googleapis.com^$important,domain=~google,badfilter
 free.proxy-sale.com##:xpath(//p[@class='copy-buffer'][contains(.,'Скопировать в буфер')])
-freebitco.in##.reveal-modal-bg, #myModal22, #deposit_promo_message_regular > .deposit_promo_message_content
+freebitco.in##.reveal-modal-bg, #myModal22, #deposit_promo_message_regular > .deposit_promo_message_content, .daily_jackpot_main_container_div
 giphy.com#@#div[class^="flash-message"]
 github.com##.border-bottom.hide-sm.hide-md.hide-lg.mt-5.pr-3.col-lg-3.col-md-3.col-12.team-left-column, .border-bottom.hide-sm.hide-md.hide-lg.mt-5.pr-5.col-lg-3.col-md-3.col-12.team-left-column, .js-banner.border-gray-light.border.rounded-1.text-center.p-4.content, .js-notice-dismiss
 github.com#@#.modal-backdrop
