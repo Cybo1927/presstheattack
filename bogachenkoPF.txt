@@ -474,11 +474,17 @@ github.com#@#.timeline-new-comment:style(max-width: none !important)
 /FaceBook_48x$badfilter
 /Facebook-Buttons.$badfilter
 /FacebookFanWidgetFrame.$badfilter
+#@#.facebook
+#@#.twitter
+#@#.vkontakte
 /FacebookiconSMALL_$badfilter
 /Feed_24x$badfilter
 /Feed_48x$badfilter
 /Flickr-Buttons.$badfilter
 /FollowFB-$badfilter
+#@#.icomoon-twitter
+#@#.icomoon-facebook
+#@#.app_btn_share
 /Followtwit-$badfilter
 /Google+48x$badfilter
 /Google-Plus-$badfilter
@@ -520,12 +526,13 @@ adjs*$badfilter
 ads.min$important,script,badfilter
 /^https?:\/\/[^\s]+(\.wasm|\.wsm|\.wa)$/$important,xmlhttprequest,domain=~twitch.tv
 /^https?:\/\/avatars\.mds\.yandex\.net\/get\-[a-z]{2,6}\/[0-9]{5}\/[^\s]{60,}/$image,domain=yandex.ru|~metrika.yandex.ru
-/^https?:\/\/[a-z]{1}([0-9]{1,2})?\./$script,third-party,domain=~viptube.com
+/^https?:\/\/[a-z]{1}([0-9]{1,2})?\./$script,third-party,domain=~viptube.com|~forbes.com
 @@/^https?:\/\/[a-z]{1}([0-9]{1,2})?\.ytimg\.com/$script,third-party
 /^https?:\/\/lh([0-9]{1})\.googleusercontent\.com\/proxy\//$xmlhttprequest,script
 /^https?:\/\/mail\.yandex\.(by|kz|ru|ua)\/[^\s]{200,}/$script,important
 /^https?:\/\/strm\.yandex\.ru\/log/$important
 /^https?:\/\/www\.wp.pl\/[^\s]{470,}\D/$script,domain=wp.pl
+||.tk^$document,domain=~coolcmd.tk|~budterence.tk|~intr0.tk|~google.tk|~transportnews.tk|~unicorncardlist.tk|~c0d3c.tk|~anonytext.tk|~tokelau-info.tk|~fakaofo.tk|~nukunonu.tk|~loljp-wiki.tk|~ninetail.tk|~goshujin.tk|~graph.tk|~haopro.tk|~ Warning displayed due to: It's a top-level domain that allows free website registration; which made it abused by scammers.,badfilter
 /addthis_widget.$badfilter
 /addtogoogle.$badfilter
 wp.pl##+js(cookie-remover.js)
