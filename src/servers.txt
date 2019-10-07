@@ -22,6 +22,10 @@
 ||05a7946eef5d.com^$important
 ||06f24f3d0b.com^$important
 ||0byv9mgbn0.com^$important
+||advertur.ru^$important
+||advarkads.com^$important
+||1bfc228b50a902db.com^$important
+||5vul2bdy.store^$important
 ||0d96a0971a04071.com^$important
 ||1-1ads.com^$important
 ||1.fembed.com^$important
