@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-10-07 06:54:30
-! Version: 20191007065430
+! Last modified: 2019-10-07 22:43:33
+! Version: 20191007224333
 ! Expires: 3 hours
-! Number of filters: 11167
+! Number of filters: 11171
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -96,11 +96,13 @@
 @@||yandex.st/swfobject/*^$script
 @@||yastatic.net/*-player-iframe-api-*/$script,subdocument,xmlhttprequest
 @@||yastatic.net/video-player/$subdocument
+|http*:*.html?clicktag=$important
 |http*:*/?ip=*&zoneid=$important,popup
 |http*:*/adclck.*^$important,popup
 |http*:*/adclick.*^$important,popup
 |http*:*/afu.php?$important
 |http*:*/apu.hh?$important
+|http*:*/clear.gif$image,important
 |http*:*/ezcl.webp?$image,important
 |http*:*/get_geoip?$important,xmlhttprequest
 |http*:*/google-conversion.html$important,subdocument
@@ -115,7 +117,7 @@
 |http*:*/player_ads.html$important,subdocument
 |http*:*/rtrg?$image,important
 |http*:*/setbucket?signature=$important,subdocument
-|http*:*/spacer.gif$image,important
+|http*:*/spacer.gif$image,important,domain=~kinopoisk.ru
 |http*:*/uutils.fcg?$important,script
 |http*:*/www/*&zoneid=$image,important,script,xmlhttprequest
 |http*:*/xti.php^$important,script,xmlhttprequest,domain=facebook.com|facebookcorewwwi.onion
@@ -6854,6 +6856,7 @@
 ||prncfucwvi.bid^$important
 ||prnxtmtbbqs.bid^$important
 ||producebreed.com^$important
+||promotionaldivices.icu^$important
 ||proofpoint.com^$important
 ||propellerclick.com^$important
 ||prophet.heise.de^$important
@@ -8587,6 +8590,7 @@
 ||tsmwdhwvkaz.com^$important
 ||tsnkvlesphbmul.bid^$important
 ||tsptvvyema.bid^$important
+||tssandycateup.com^$important
 ||tssxnbuaxctjn.bid^$important
 ||tsuitufixxlf.com^$important
 ||tsvqrrmq.com^$important

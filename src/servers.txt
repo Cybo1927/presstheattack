@@ -44,8 +44,6 @@
 ||1xbet53.com^$important
 ||1xbet95.com^$important
 ||1xbkbet5.com^$important
-||tssandycateup.com^$important
-||promotionaldivices.icu^$important
 ||1xeemc.host^$important
 ||2013b42f102806.com^$important
 ||21b666055c.com^$important
@@ -6732,6 +6730,7 @@
 ||prncfucwvi.bid^$important
 ||prnxtmtbbqs.bid^$important
 ||producebreed.com^$important
+||promotionaldivices.icu^$important
 ||proofpoint.com^$important
 ||propellerclick.com^$important
 ||prophet.heise.de^$important
@@ -8462,6 +8461,7 @@
 ||tsmwdhwvkaz.com^$important
 ||tsnkvlesphbmul.bid^$important
 ||tsptvvyema.bid^$important
+||tssandycateup.com^$important
 ||tssxnbuaxctjn.bid^$important
 ||tsuitufixxlf.com^$important
 ||tsvqrrmq.com^$important
