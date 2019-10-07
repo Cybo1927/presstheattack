@@ -1,7 +1,7 @@
 /^https?:\/\/[^\s]+[-_/.](fingerprint|fp)([0-9]{1,2})?(\.min)?\.js/$image,important,script,xmlhttprequest
 /^https?:\/\/[^\s]+[-_/.](player|client|csi|gen(erate)?|stream|logs?|live)[-_/.]?204\??/$image,important,other,xmlhttprequest
 /^https?:\/\/[^\s]+[-_/.]?1x1\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|heic|heif|webp|jxr|wdp|dng|cr2|arw|js|html?)/$image,important,script,subdocument
-/^https?:\/\/[^\s]+[-_/.]?pi?xe?l?\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|heic|heif|webp|jxr|wdp|dng|cr2|arw|js|html?)/$image,important,script,subdocument
+/^https?:\/\/[^\s]+[-_/.]?pi?xe?l?\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|heic|heif|webp|jxr|wdp|dng|cr2|arw|js|html?)/$image,important,script,subdocument,xmlhttprequest
 /^https?:\/\/[^\s]+[-_/.]log[-_/.]?(type|event|entry|request)\??/$image,important,other,xmlhttprequest
 /^https?:\/\/[^\s]+\.[A-Za-z]{2,6}\/[A-Za-z]{1}\?tag\=[^\s]+\&site\=[A-Za-z0-9]{1,}\&ads?\=/$important,popup,script
 /^https?:\/\/[^\s]+\/piwik\./$image,important,script
