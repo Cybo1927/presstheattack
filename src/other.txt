@@ -27,6 +27,7 @@
 |http*:*?zone_id=$important
 |http*:*?zoneid=$important
 ||google.*/ads/$important
+|http*:*.html?clicktag=$important
 ||google.*/adsense/$important
 ||google.*/log?$important
 ||google.*/logimpressions?$important
