@@ -1,5 +1,6 @@
 |http*:*/clear.gif$image,important
 |http*:*/ezcl.webp?$image,important
+|http*:*/greenoaks.gif?$image,important
 |http*:*/grstat?$image,important
 |http*:*/hads-ak-prn*/*.png$image,important
 |http*:*/pic.gif?m=$image,important
@@ -8,4 +9,3 @@
 ||mail.yandex.*/monitoring_liza.txt$image,important
 ||yastatic.net/*.gif$image,important,domain=~mail.yandex.by|~mail.yandex.ru|~mail.yandex.ua
 ||youtube.com/ptracking^$image,important
-|http*:*/greenoaks.gif?$image,important
