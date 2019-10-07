@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-10-08 01:26:45
-! Version: 20191008012645
+! Last modified: 2019-10-08 04:08:48
+! Version: 20191008040848
 ! Expires: 3 hours
-! Number of filters: 11171
+! Number of filters: 11172
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -48,7 +48,7 @@
 /^https?:\/\/[^\s]+[-_/.](fingerprint|fp)([0-9]{1,2})?(\.min)?\.js/$image,important,script,xmlhttprequest
 /^https?:\/\/[^\s]+[-_/.](player|client|csi|gen(erate)?|stream|logs?|live)[-_/.]?204\??/$image,important,other,xmlhttprequest
 /^https?:\/\/[^\s]+[-_/.]?1x1\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|heic|heif|webp|jxr|wdp|dng|cr2|arw|js|html?)/$image,important,script,subdocument
-/^https?:\/\/[^\s]+[-_/.]?pi?xe?l?\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|heic|heif|webp|jxr|wdp|dng|cr2|arw|js|html?)/$image,important,script,subdocument
+/^https?:\/\/[^\s]+[-_/.]?pi?xe?l?\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|heic|heif|webp|jxr|wdp|dng|cr2|arw|js|html?)/$image,important,script,subdocument,xmlhttprequest
 /^https?:\/\/[^\s]+[-_/.]log[-_/.]?(type|event|entry|request)\??/$image,important,other,xmlhttprequest
 /^https?:\/\/[^\s]+[-_/.]prebid\./$important,script
 /^https?:\/\/[^\s]+\&refer\=https?/$important,script
@@ -5635,6 +5635,7 @@
 ||moadlbgojatn.com^$important
 ||moatads.com^$important
 ||mob1ledev1ces.com^$important
+||mobileadspopup.com^$important
 ||mobileoffers-a-download.com^$important
 ||modkehkcihvzi.bid^$important
 ||moevideo.biz^$important
