@@ -22,10 +22,6 @@
 ||05a7946eef5d.com^$important
 ||06f24f3d0b.com^$important
 ||0byv9mgbn0.com^$important
-||advertur.ru^$important
-||advarkads.com^$important
-||1bfc228b50a902db.com^$important
-||5vul2bdy.store^$important
 ||0d96a0971a04071.com^$important
 ||1-1ads.com^$important
 ||1.fembed.com^$important
@@ -121,6 +117,7 @@
 ||5nt1gx7o57.com^$important
 ||5ovrmmmoubi71efvatfd.com^$important
 ||5qg9ibt1a6.com^$important
+||5vul2bdy.store^$important
 ||6066bd8aab9d73e3.com^$important
 ||615b68cc9c8528e.com^$important
 ||619de07af53f8.com^$important
@@ -298,10 +295,12 @@
 ||adturtle.biz^$important
 ||adudzlhdjgof.com^$important
 ||aduobooydxr.com^$important
+||advarkads.com^$important
 ||adverline.com^$important
 ||advertising.com^$important
 ||advertnative.com^$important
 ||advertserve.com^$important
+||advertur.ru^$important
 ||advg.agency^$important
 ||advideo.ru^$important
 ||advmaiotg.com^$important
