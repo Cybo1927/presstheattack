@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-10-08 06:29:08
-! Version: 20191008062908
+! Last modified: 2019-10-08 10:54:45
+! Version: 20191008105445
 ! Expires: 3 hours
-! Number of filters: 11427
+! Number of filters: 11523
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -753,6 +753,7 @@
 ||atkkkyhyxemut.bid^$important
 ||atrcoikdyagv.com^$important
 ||atryzvsn.com^$important
+||attleboroarchcape.com^$important
 ||atwola.com^$important
 ||atzrsfweb.bid^$important
 ||aubmolods.com^$important
@@ -770,6 +771,7 @@
 ||avditmiohvtq.bid^$important
 ||avefyjulko.bid^$important
 ||avfymwmwpky.com^$important
+||avingtonkinoulton.com^$important
 ||avjxftprif.com^$important
 ||avkigyhrazah.com^$important
 ||avlysyhuvxebl.bid^$important
@@ -850,6 +852,7 @@
 ||b4e12976c052bbd91c3e.date^$important
 ||b60228e270e363f6.com^$important
 ||b93e1f595c9b.com^$important
+||babblenorah.com^$important
 ||badgmvhtvryg.bid^$important
 ||badsamps.com^$important
 ||badsbads.com^$important
@@ -869,11 +872,15 @@
 ||baommitouduxo.bid^$important
 ||baphruesqm.com^$important
 ||bardogjvsa.com^$important
+||bascomdeary.com^$important
+||baskettellsinore.com^$important
 ||bat.bing.com^$important
 ||batigfkcbwpb.com^$important
 ||bats.video.yahoo.com^$important
 ||bauffnmtou.com^$important
 ||bavftcgoapga.com^$important
+||bayfieldharleysville.com^$important
+||baysidethorntown.com^$important
 ||bbackcssmwam.com^$important
 ||bbbrhcxtdkfui.bid^$important
 ||bbelements.com^$important
@@ -940,6 +947,7 @@
 ||behybmunweid.com^$important
 ||bekiruvppl.com^$important
 ||bektvxxfv.bid^$important
+||bellevillelickingville.com^$important
 ||bemobtrk.com^$important
 ||best2019-games-web1.com^$important
 ||best2019games.com^$important
@@ -1124,6 +1132,7 @@
 ||boizgpgrxvokd.com^$important
 ||bolgooltxygp.com^$important
 ||bomjrcum.bid^$important
+||bonnymansabanaseca.com^$important
 ||bonxsqstn.com^$important
 ||boperc.com^$important
 ||boqdapoiv.com^$important
@@ -1373,6 +1382,7 @@
 ||cdyygbzihdh.com^$important
 ||cdzifdzftkmfof.com^$important
 ||cea9d3d4f74fb831.com^$important
+||cedarlaneblackshear.com^$important
 ||ceetoaho.com^$important
 ||cef5b491241aa0f3.com^$important
 ||ceidxneoogpuh.com^$important
@@ -1414,6 +1424,7 @@
 ||chamsoop.net^$important
 ||chartbeat.com^$important
 ||chatozov.ru^$important
+||chaumontbalko.com^$important
 ||check-now.net^$important
 ||checkaccusefriends.info^$important
 ||chidsimp.com^$important
@@ -1487,6 +1498,7 @@
 ||ckyxscaeockj.bid^$important
 ||clarium.global.ssl.fastly.net^$important
 ||cledghtdrjtb.com^$important
+||cleelumyards.com^$important
 ||clevernt.com^$important
 ||clgyhwaoh.com^$important
 ||clhkbfqzwpst.com^$important
@@ -1543,6 +1555,7 @@
 ||coiphezlzpl.bid^$important
 ||cokfwpfycgzjvn.bid^$important
 ||cokrrmzagaxn.com^$important
+||colerainefaunsdale.com^$important
 ||collamps.com^$important
 ||collector.schibsted.io^$important
 ||com-guard-device.live^$important
@@ -1764,6 +1777,7 @@
 ||daezorwyn.xyz^$important
 ||dagqnyapwql.bid^$important
 ||dahakbkwgvwzb.bid^$important
+||daisettagreybull.com^$important
 ||daiwyihpjhdy.com^$important
 ||daizzagvvnv.com^$important
 ||dajoetsja.com^$important
@@ -1827,6 +1841,7 @@
 ||degitlwfezpe.com^$important
 ||dehyogsjbk.bid^$important
 ||deiqehvcdnntg.com^$important
+||delcomeyersdale.com^$important
 ||delivery.vidible.tv^$important
 ||deloplen.com^$important
 ||deloton.com^$important
@@ -1834,6 +1849,7 @@
 ||demandbase.com^$important
 ||demdex.net^$important
 ||deouvnqbgflv.com^$important
+||depauvillepinson.com^$important
 ||deployads.com^$important
 ||deqrdwsjlpjz.com^$important
 ||deqwas.net^$important
@@ -2096,6 +2112,7 @@
 ||duklamznlrn.com^$important
 ||dulcetcgvcxr.com^$important
 ||dulfweycnqfoka.com^$important
+||dunsmuirdeferiet.com^$important
 ||dupinpu.com^$important
 ||durowueoaxjhd.com^$important
 ||dusgihujnthv.com^$important
@@ -2217,6 +2234,7 @@
 ||eccsyytbe.bid^$important
 ||ecd7735cffdc3.com^$important
 ||ecflhhxp.bid^$important
+||eckelsonmoro.com^$important
 ||ectbduztanog.com^$important
 ||ectxnsxezdg.com^$important
 ||ectysptouy.com^$important
@@ -2352,9 +2370,12 @@
 ||elatsadlux.com^$important
 ||elatumal.xyz^$important
 ||elcolpplwua.com^$important
+||eldersvillewarrenville.com^$important
 ||elfnwncr.com^$important
 ||elimpfdlss.com^$important
+||elizabethtonunionhall.com^$important
 ||eljjyutgjiuh.com^$important
+||ellisvillehillsboro.com^$important
 ||eloumbsyd.com^$important
 ||elsgsgxywj.bid^$important
 ||eluhhfyxx.com^$important
@@ -2368,6 +2389,7 @@
 ||elzmazpsbnwn.com^$important
 ||elzoovmzj.bid^$important
 ||emegbthex.bid^$important
+||emeighglenellen.com^$important
 ||emektdasctwt.bid^$important
 ||emented.pro^$important
 ||emeqnqxd.bid^$important
@@ -2396,6 +2418,7 @@
 ||enhwftpkwvnb.com^$important
 ||ennwwuxijwjgdm.bid^$important
 ||enokjulejktukh.com^$important
+||enolatekoa.com^$important
 ||ensighten.com^$important
 ||entlydazhcmlgx.com^$important
 ||enyayinxiang.com^$important
@@ -2480,6 +2503,7 @@
 ||etkhujhmhjix.com^$important
 ||etmewatuh.com^$important
 ||etoads.net^$important
+||etoileironton.com^$important
 ||etprpfuw.bid^$important
 ||etpsn.com^$important
 ||etreflased.info^$important
@@ -2819,6 +2843,7 @@
 ||fofjazpwccc.com^$important
 ||foguumjql.com^$important
 ||fojgpvkhu.com^$important
+||folkstonelizabethtown.com^$important
 ||foovyagf.com^$important
 ||fophaumpoor.com^$important
 ||forecastpcservice.fun^$important
@@ -2871,12 +2896,14 @@
 ||fqtpulizvvjcf.com^$important
 ||fqufpknrarn.com^$important
 ||franecki.net^$important
+||franksvillereddick.com^$important
 ||frbhjvazapgo.com^$important
 ||frcinpdv.com^$important
 ||frczfzikturw.com^$important
 ||frcznmfu.com^$important
 ||frddujheozns.com^$important
 ||freecontent.date^$important
+||freelandvillalba.com^$important
 ||freephone.best^$important
 ||freeskreen.com^$important
 ||frefxzrmcdxdmi.com^$important
@@ -3051,6 +3078,7 @@
 ||g3938452447.com^$important
 ||g4058683381.com^$important
 ||gaaprokoduuyyn.bid^$important
+||gabrielsmidfield.com^$important
 ||gabsanso.net^$important
 ||gabyuyxwcubwdp.com^$important
 ||gafoswegc.com^$important
@@ -3214,6 +3242,7 @@
 ||glcgytymbp.bid^$important
 ||glcpzwihisagw.bid^$important
 ||gld35wndkn.com^$important
+||glenviewexcello.com^$important
 ||glfiivzom.com^$important
 ||glfnjyzix.bid^$important
 ||glhbjwuovievay.bid^$important
@@ -3223,6 +3252,7 @@
 ||gllkdkxygckb.com^$important
 ||globalentrycard.site^$important
 ||globalintegrativemedicalsolutions.top^$important
+||glorietapedricktown.com^$important
 ||glothouw.link^$important
 ||glslciwwvtxn.com^$important
 ||gltpstgjnyb.com^$important
@@ -3271,6 +3301,7 @@
 ||gojotpbkyqou.bid^$important
 ||gold-eggs.com^$important
 ||golden-tea.com^$important
+||goldendalepremont.com^$important
 ||golkkzpniri.com^$important
 ||gonuuudpdcu.com^$important
 ||goo.gl^document
@@ -3485,6 +3516,7 @@
 ||haezawhdumz.bid^$important
 ||hafbezbemwwd.com^$important
 ||hafksvqiir.com^$important
+||hagarstowndilworth.com^$important
 ||hagiqxizxqf.com^$important
 ||hajcehcnodio.com^$important
 ||hajnoqtsfg.com^$important
@@ -3506,6 +3538,7 @@
 ||haupsoti.net^$important
 ||hauvkkwrbme.com^$important
 ||hayxktgbqpmult.com^$important
+||hazelcrestcoxsackie.com^$important
 ||hbbgrhzqezz.com^$important
 ||hbbxkbjhiiue.bid^$important
 ||hbchwmrqb.bid^$important
@@ -3558,6 +3591,7 @@
 ||hdxeyqvfb.bid^$important
 ||hdxfyoziizy.com^$important
 ||heaaizwhm.com^$important
+||heatonnikolski.com^$important
 ||heawnqbmsi.bid^$important
 ||heefwozhlxgz.com^$important
 ||hefgfqcyfmv.com^$important
@@ -3614,6 +3648,7 @@
 ||hhshbknewaikmj.bid^$important
 ||hhwqfmqyqoks.com^$important
 ||hhzqedgjajvi.com^$important
+||hibbingnakina.com^$important
 ||hibiaygg.com^$important
 ||hibtgsibarfg.bid^$important
 ||higishzxn.com^$important
@@ -3707,6 +3742,7 @@
 ||hnwfj.com^$important
 ||hnztceqkabwm.bid^$important
 ||hobjzsymztzk.com^$important
+||hobsonlucinda.com^$important
 ||hobtkxap.com^$important
 ||hodhrwizh.bid^$important
 ||hoghqjddg.com^$important
@@ -3715,12 +3751,16 @@
 ||hohrnldconk.com^$important
 ||hokehntutt.bid^$important
 ||holexknw.loan^$important
+||hollandaleresaca.com^$important
 ||hook2up8.com^$important
 ||hopafrmwpckj.com^$important
 ||hoqqzlvwukpo.com^$important
+||horshamoronoco.com^$important
 ||horylaht.bid^$important
 ||hosiioyx.com^$important
+||hosmermurdock.com^$important
 ||hosqkmnjt.com^$important
+||hosted.adback.co^$important
 ||hostingcloud.racing^$important
 ||hostingcloud.win^$important
 ||hostpush.info^$important
@@ -3832,6 +3872,7 @@
 ||humcyddkxxm.bid^$important
 ||hunktnva.com^$important
 ||huriylhqkylbo.bid^$important
+||hurlinesswhitchurch.com^$important
 ||husetdmrejiyjy.bid^$important
 ||hutkuzwropgf.com^$important
 ||huvzwmithltjia.com^$important
@@ -4320,6 +4361,7 @@
 ||jakzxxzrymhz.com^$important
 ||jamkkydyiyhx.com^$important
 ||jamvgopociy.bid^$important
+||janesvillelykens.com^$important
 ||janrlobmiroi.com^$important
 ||jareiulyg.bid^$important
 ||jasaiklan.com^$important
@@ -4544,6 +4586,7 @@
 ||jogccrwnpsmliq.bid^$important
 ||jogrgddvb.com^$important
 ||joheeptaicat.com^$important
+||johnsburgclarksville.com^$important
 ||johonmtpyv.com^$important
 ||jollqxplkz.bid^$important
 ||jomys.xyz^$important
@@ -4780,6 +4823,7 @@
 ||kdvcvkwwtbwn.com^$important
 ||kdwygzatplqrao.bid^$important
 ||kdyfsgpa.com^$important
+||keaaudarrington.com^$important
 ||keapeiros.xyz^$important
 ||kecldktirqzk.com^$important
 ||keeedoleeroe.com^$important
@@ -5130,9 +5174,11 @@
 ||lafvopkskbeuj.bid^$important
 ||lajpmujdntg.com^$important
 ||lamwiadakwa.com^$important
+||langtrydelaplaine.com^$important
 ||lanktydm.com^$important
 ||lapbekessbozpx.bid^$important
 ||laqiccblmxfewa.bid^$important
+||laqueyimmaculata.com^$important
 ||lasimakiz.xyz^$important
 ||latchemt.top^$important
 ||latestsocial.com^$important
@@ -5183,6 +5229,7 @@
 ||ledvqaldtf.com^$important
 ||lefopost.com^$important
 ||legkiy-zarabotoki.xyz^$important
+||lenoramanning.com^$important
 ||lepfj.site^$important
 ||lepyhlczldiuja.bid^$important
 ||lesmyjzc.com^$important
@@ -5363,6 +5410,7 @@
 ||lorhamnvukws.bid^$important
 ||lorpidlfpbu.bid^$important
 ||loteumepag.com^$important
+||lothairhansboro.com^$important
 ||lotmentemp.pro^$important
 ||lotterygettoday.club^$important
 ||lovacmar.click^$important
@@ -5531,6 +5579,7 @@
 ||lyifwfhdizcc.com^$important
 ||lyjcpycaufud.com^$important
 ||lykuxkxsvvnxqd.com^$important
+||lynbrookoriska.com^$important
 ||lynsvdabds.com^$important
 ||lyovvtevsu.bid^$important
 ||lyssmgbr.com^$important
@@ -5562,7 +5611,9 @@
 ||mail.yandex.*/monitoring_liza.txt$image,important
 ||makhhvgdkhwn.com^$important
 ||makumuvgxfogq.com^$important
+||malakoffrockholds.com^$important
 ||malgyhuytbnjb.bid^$important
+||maloupperville.com^$important
 ||mament.co^$important
 ||mardjxrw.club^$important
 ||marguvpydbrr.com^$important
@@ -5578,6 +5629,8 @@
 ||mawtykynmhxkjd.bid^$important
 ||maxgirlgames.com^$important
 ||maxonclick.com^$important
+||mayaguezyerington.com^$important
+||mayodanorem.com^$important
 ||maziynjxjdoe.com^$important
 ||mbajaazbqdzc.com^$important
 ||mbezfrwrimjy.bid^$important
@@ -5628,6 +5681,7 @@
 ||mediaoaktree.com^$important
 ||mediatoday.ru^$important
 ||medic-informator-a.ru^$important
+||medonohley.com^$important
 ||medyagundem.com^$important
 ||meeaowsxneps.com^$important
 ||meetrics.net^$important
@@ -5640,6 +5694,7 @@
 ||melqdjqiekcv.com^$important
 ||mengchengbao.com^$important
 ||menjyhvs.bid^$important
+||menomonierolette.com^$important
 ||mercadoclics.com^$important
 ||mercusuar.uzone.id^$important
 ||mesiniklan.andipublisher.com^$important
@@ -5707,6 +5762,7 @@
 ||miltqbfqstsf.com^$important
 ||milyolpn.bid^$important
 ||miovsibmkpy.com^$important
+||miquonearlham.com^$important
 ||miszwaojrn.com^$important
 ||mivrpcxlo.com^$important
 ||mixadvert.com^$important
@@ -5801,6 +5857,7 @@
 ||mohcafpwpldi.com^$important
 ||moisteningl.ga^$important
 ||mojhasmpl.com^$important
+||mokaneroxton.com^$important
 ||molqvpnnlmnb.com^$important
 ||monetate.net^$important
 ||money-slots.net^$important
@@ -5812,6 +5869,7 @@
 ||mookie1.com^$important
 ||moquxotvyuoo.com^$important
 ||mosdqxsgjhes.com^$important
+||moshervillethawville.com^$important
 ||mouseflow.com^$important
 ||mousheen.net^$important
 ||mousvowpfso.com^$important
@@ -5907,11 +5965,13 @@
 ||mtysahmkqqdo.com^$important
 ||muasoctv.com^$important
 ||mukxblrkoaaa.com^$important
+||mulvaneruston.com^$important
 ||munqaasewcla.bid^$important
 ||muoiuxfj.com^$important
 ||muoyeoyymfwwp.bid^$important
 ||muqson0kgr.com^$important
 ||muqyzjkamhpu.bid^$important
+||murrietaullin.com^$important
 ||musighkm.com^$important
 ||muwjxxvovtb.com^$important
 ||muxtpvixahawy.com^$important
@@ -5992,6 +6052,7 @@
 ||nanovisor.io^$important
 ||naohofhbprtx.com^$important
 ||napickmw.com^$important
+||narkadarfur.com^$important
 ||nasfrzhbqvgq.bid^$important
 ||nativespot.com^$important
 ||naucmjbzmymdzr.bid^$important
@@ -6369,6 +6430,7 @@
 ||oabmmdjlmfk.bid^$important
 ||oagudsey.uk^$important
 ||oaibzaqh.com^$important
+||oakfordshiro.com^$important
 ||oalicqudnfhf.com^$important
 ||oalrivax.top^$important
 ||oamhzvwle.com^$important
@@ -6559,6 +6621,7 @@
 ||omwclrjuqilt.bid^$important
 ||omwcywwzun.com^$important
 ||omzieezywqnyxl.com^$important
+||onawaykeeline.com^$important
 ||onclasrv.com^$important
 ||onclicksuper.com^$important
 ||ongkidcasarv.com^$important
@@ -6634,6 +6697,7 @@
 ||ossdqciz.com^$important
 ||osskanger.com^$important
 ||osunrrhwhf.com^$important
+||oswegocanastota.com^$important
 ||oszelwsbb.bid^$important
 ||otarrxci.bid^$important
 ||otcqlckpafizv.bid^$important
@@ -6689,8 +6753,10 @@
 ||owcykhrgovbvhh.bid^$important
 ||owdeuzstq.bid^$important
 ||owdligzikqqh.bid^$important
+||owensborowaltonville.com^$important
 ||owjoflavzaerby.com^$important
 ||owlmjcogunzx.com^$important
+||owlsheadcoalwood.com^$important
 ||owmldgrzsc.bid^$important
 ||ownlocal.com^$important
 ||owodfrquhqui.com^$important
@@ -6744,6 +6810,7 @@
 ||palzblimzpdk.com^$important
 ||paotmlonx.com^$important
 ||parentelement.ml^$important
+||parmelecumbola.com^$important
 ||parumal.com^$important
 ||paruvaubxwwz.bid^$important
 ||pasangiklan.com^$important
@@ -6807,13 +6874,16 @@
 ||pejtviwezfzvo.bid^$important
 ||pejtxefrrlx.com^$important
 ||peltaush.click^$important
+||pembinecastana.com^$important
 ||pemgeccz.com^$important
+||pennvillemuscoda.com^$important
 ||pennzxycrdmw.com^$important
 ||pephirda.link^$important
 ||peqdwnztlzjp.com^$important
 ||performquickintenselyfile.*^$important
 ||performquickintenselyfile.icu^$important
 ||perimeterx.net^$important
+||peterboroughapalachicola.com^$important
 ||petsarlaaafru.com^$important
 ||pewdewgeehc.com^$important
 ||pewgnvqixnhvij.com^$important
@@ -6870,6 +6940,7 @@
 ||piifwkvdil.com^$important
 ||piljbvnykkt.bid^$important
 ||pimygjumeyrtxe.com^$important
+||pinckardpyote.com^$important
 ||pingdom.net^$important
 ||pinpupevent.com^$important
 ||pipe.aria.microsoft.com/collector/$important,xmlhttprequest
@@ -7689,6 +7760,7 @@
 ||relap.io^$important
 ||relnocyyxhpjb.com^$important
 ||remtoaku.net^$important
+||renovosartell.com^$important
 ||repefwairfkx.com^$important
 ||rereegny.net^$important
 ||rereghpaz.com^$important
@@ -7737,6 +7809,7 @@
 ||rgzhrokl.bid^$important
 ||rgzpseubgxho.com^$important
 ||rhhhbdhxpmrral.bid^$important
+||rhinecliffstarkville.com^$important
 ||rhkwkqznmovfl.bid^$important
 ||rhmyiplqmuupmf.com^$important
 ||rhpwhkwzhpy.bid^$important
@@ -7749,6 +7822,8 @@
 ||riaxuuidsnws.bid^$important
 ||rich-birds.com^$important
 ||richplayland.com^$important
+||rickettsharrell.com^$important
+||ridgedaletecopa.com^$important
 ||rieyjzuyhigobg.bid^$important
 ||rifwhwdsqvgw.com^$important
 ||rigoczly.com^$important
@@ -7941,6 +8016,7 @@
 ||russia-lives.icu^$important
 ||rustqlclwuebif.bid^$important
 ||rutarget.ru^$important
+||rutheronwenonah.com^$important
 ||rutrk.org^$important
 ||ruzttiecdedv.com^$important
 ||ruzwwrkgthfobd.com^$important
@@ -8091,6 +8167,7 @@
 ||securedownload.network^$important
 ||securenetsystems.net^$important
 ||securite.01net.com^$important
+||sedalianoctor.com^$important
 ||sedoparking.com^$important
 ||seedtag.com^$important
 ||seiqobwpbofg.com^$important
@@ -8295,6 +8372,7 @@
 ||splityndomets.pro^$important
 ||spomwstrgood.com^$important
 ||spotxchange.com^$important
+||springtownwahiawa.com^$important
 ||spwssohsyqgq.com^$important
 ||sqcqnwykz.bid^$important
 ||sqmeqfffehg.bid^$important
@@ -8348,6 +8426,7 @@
 ||stickredgr.online^$important
 ||stickyadstv.com^$important
 ||stignaud.net^$important
+||stinnettjarratt.com^$important
 ||stipsain.net^$important
 ||stkrwlodjvl.bid^$important
 ||stlbmyezzth.bid^$important
@@ -8738,12 +8817,15 @@
 ||toenwwsmam.com^$important
 ||toflvbkpwxcr.com^$important
 ||togfcqfvarpq.com^$important
+||toomsborogreycliff.com^$important
 ||topclickguru.com^$important
 ||topgadgetlists.com^$important
 ||toponclick.com^$important
+||torringtonguion.com^$important
 ||totalmedia2.ynet.co.il^$important
 ||totvsaexihbe.com^$important
 ||touayfftdwcd.com^$important
+||tougaloocolerain.com^$important
 ||touraadhdnfgsa.com^$important
 ||tovkhtekzrlu.com^$important
 ||toyhxqjgqcjo.com^$important
@@ -8801,8 +8883,10 @@
 ||trfmxt.com^$important
 ||trgdwwhaa.com^$important
 ||tricsdqejmu.com^$important
+||trimontbrewer.com^$important
 ||trjmgercl.com^$important
 ||trourted.pro^$important
+||troutdalebrooks.com^$important
 ||trqbzsxnzxmf.com^$important
 ||trueredirect83.icu^$important
 ||trvposbevwxvo.bid^$important
@@ -9808,15 +9892,19 @@
 ||wafrszmnbshq.com^$important
 ||wajm.icu^$important
 ||walftgaqiemcx.com^$important
+||waltersburgburgoon.adback.co^$important
+||wanchesegarvin.com^$important
 ||wanrtqneiissrb.com^$important
 ||wanuqtwwpvglcr.bid^$important
 ||wapnrjqhtmm.bid^$important
 ||wapoawoo.net^$important
 ||wapvhtyc.bid^$important
 ||wasibial.com ^$important
+||watkinsvillesilerton.com^$important
 ||watunxckibtvfm.bid^$important
 ||watxeoifxbjo.com^$important
 ||waubasou.com^$important
+||wawinamilmay.com^$important
 ||wawlfosfkdy.com^$important
 ||wawyxzfkab.com^$important
 ||waynsnuu.bid^$important
@@ -9871,6 +9959,7 @@
 ||wegbgideb.com^$important
 ||wehtkuhlwsxy.com^$important
 ||wejjmtywsne.com^$important
+||welakaschleswig.com^$important
 ||wellbeing-shop.com^$important
 ||welzgxwtvto.bid^$important
 ||wembbuue.com^$important
@@ -9882,6 +9971,8 @@
 ||weqfcudxrrbwn.com^$important
 ||weqmhzexkepgdb.com^$important
 ||weqpkntrxqzh.com^$important
+||werringtonlasborough.com^$important
+||wetmoremottville.com^$important
 ||wetunfdnruy.com^$important
 ||wfbqjdwwunle.com^$important
 ||wfjdmkjetpbgv.com^$important
@@ -9922,6 +10013,7 @@
 ||whgvyswets.com^$important
 ||whinjxmkugky.com^$important
 ||whirgoom.com^$important
+||whitesboromcbee.com^$important
 ||whjibbprhng.com^$important
 ||whjwcghg.com^$important
 ||whjxqqdhfp.com^$important
@@ -9955,6 +10047,7 @@
 ||wijokroa.net^$important
 ||wiklrrrwqqf.com^$important
 ||wiklweefcuorh.com^$important
+||wilburnkeithsburg.com^$important
 ||willfumyqwnkuq.com^$important
 ||wimxqzilfwkn.bid^$important
 ||win-now.co^$important
@@ -10218,6 +10311,7 @@
 ||wyksoovox.bid^$important
 ||wylnauxhkerp.com^$important
 ||wynather.com^$important
+||wynnewoodmacdoel.com^$important
 ||wypyocogs.bid^$important
 ||wyuakcwxmiunqj.com^$important
 ||wyueivwashc.com^$important
@@ -10647,6 +10741,7 @@
 ||yastatic.net/*.gif$image,important,domain=~mail.yandex.by|~mail.yandex.ru|~mail.yandex.ua
 ||yastatic.net^$important,popup
 ||yattprdmuybn.com^$important
+||yaucoplumerville.com^$important
 ||yaujmwnwurdhm.com^$important
 ||yaxbqjjemnvben.com^$important
 ||yaxdboxgsbgh.com^$important
@@ -11119,6 +11214,7 @@
 ||zeantqrix.bid^$important
 ||zedo.com^$important
 ||zehwjplnopevjt.bid^$important
+||zelienopleprattsville.com^$important
 ||zenpmagn.bid^$important
 ||zeokfeyraxls.com^$important
 ||zeuwuxfzvaoqp.bid^$important
