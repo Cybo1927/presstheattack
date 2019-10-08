@@ -11,9 +11,9 @@
 /^https?:\/\/[^\s]+\/([^\s]{4})?tag\.min\.([a-z0-9]{30,}\.)?js/$important,script
 /^https?:\/\/[^\s]+\/(popundr|punder|pu)\/(script|license|custom)\./$important,script
 /^https?:\/\/[^\s]+\/vast([/-0-9_.]{4,6})?\.js$/$important,script
+/^https?:\/\/[^\s]+\/xmr(\.min)?\.js/$important,script
 /^https?:\/\/[a-z0-9]+\.info\/+[-a-z0-9_?&=]{9,}/$important,script,third-party
 /^https?:\/\/cdn[0-9]{1,2}?\.rocks\/[^\s]{30,}\.js/$important,script
 /^https?:\/\/www\.([a-z]{6,16})\.com\/([a-z]{1,4})\.js$/$important,script,third-party
 |http*:*/metrixEvents.js$important,script
 |http*:*/uutils.fcg?$important,script
-/^https?:\/\/[^\s]+\/xmr(\.min)?\.js/$important,script

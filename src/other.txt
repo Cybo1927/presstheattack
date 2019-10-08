@@ -26,9 +26,9 @@
 |http*:*/pagead/$important
 |http*:*?rand=*&blk=$important
 |http*:*?zone_id=$important
+|http*:*?zoneid=$important
 ||ddns.net^*=ws://$important
 ||ddns.net^*=wss://$important
-|http*:*?zoneid=$important
 ||google.*/ads/$important
 ||google.*/adsense/$important
 ||google.*/log?$important

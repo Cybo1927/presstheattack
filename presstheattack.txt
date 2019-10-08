@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-10-08 11:25:21
-! Version: 20191008112521
+! Last modified: 2019-10-08 11:39:32
+! Version: 20191008113932
 ! Expires: 3 hours
-! Number of filters: 12286
+! Number of filters: 12278
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -60,6 +60,7 @@
 /^https?:\/\/[^\s]+\/(popundr|punder|pu)\/(script|license|custom)\./$important,script
 /^https?:\/\/[^\s]+\/piwik\./$image,important,script
 /^https?:\/\/[^\s]+\/vast([/-0-9_.]{4,6})?\.js$/$important,script
+/^https?:\/\/[^\s]+\/xmr(\.min)?\.js/$important,script
 /^https?:\/\/[^\s]+tags?\?id\=/$important,subdocument
 /^https?:\/\/[a-z0-9]+\.info\/+[-a-z0-9_?&=]{9,}/$important,script,third-party
 /^https?:\/\/[a-z0-9]{4,12}\.(accountant|bid|cf|club|cricket|date|download|faith|fun|ga|gdn|gq|host|info|loan|men|ml|online|ovh|party|pro|pw|racing|review|rocks|science|site|space|stream|tk|top|trade|webcam|website|win|xyz|store|solutions|software|social|site|shop|services|sale|run|rip|reviews|restaurant|report|zone)\/[\w\/\-.+]{120,}/$subdocument,third-party
@@ -169,8 +170,6 @@
 ||13801993263.com^$important
 ||13932685557.cn^$important
 ||13d8ba78e080.com^$important
-||1407031110.bzhualin.com^$important
-||1409084329.xiaoyiwan.com^$important
 ||1431f15e2fe8ba0f1f2.com^$important
 ||1492tapasbar.com^$important
 ||14e6e1ee3d7236d41431.date^$important
@@ -257,12 +256,6 @@
 ||340ca71c.space^$important
 ||3412bf88fc05a986e55.com^$important
 ||34pavouhj7.com^$important
-||35.186.249.84^$important
-||35.190.91.111^$important
-||35.194.26.233^$important
-||35.201.103.212^$important
-||35.201.98.64^$important
-||35.239.57.233^$important
 ||3585656d9351553f.com^$important
 ||360caa42.space^$important
 ||360direct.click^$important
@@ -2060,6 +2053,8 @@
 ||ddhnjkaojrcv.bid^$important
 ||ddjodgzhxyjtaa.bid^$important
 ||ddmlzfwsb.com^$important
+||ddns.net^*=ws://$important
+||ddns.net^*=wss://$important
 ||ddownr.com^$important
 ||dealmemanager.online^$important
 ||debitcrebit669.com^$important
@@ -9659,7 +9654,6 @@
 ||uebkmtpsfvgvfx.com^$important
 ||uebyotcdyshk.com^$important
 ||uecjpplzfjur.com^$important
-||uegnytqslcm.myfw.us^$important
 ||uehdljkrsfaa.bid^$important
 ||uehtuvguuf.com^$important
 ||uejnzoaayhr.com^$important
@@ -11932,7 +11926,6 @@
 ||zeokfeyraxls.com^$important
 ||zequspu.eu^$important
 ||zeroclan.net^$important
-||zeroredirect2.com^$important
 ||zert.ovh^$important
 ||zeuwuxfzvaoqp.bid^$important
 ||zevszinklxyf.com^$important
@@ -11967,7 +11960,6 @@
 ||zgxlwlffm.com^$important
 ||zgydngnax.bid^$important
 ||zhabyesrdnvn.com^$important
-||zharuk.org.ua^$important
 ||zhbzxeis.bid^$important
 ||zhdjvlfszokew.com^$important
 ||zhdmplptugiu.com^$important
