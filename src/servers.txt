@@ -438,7 +438,6 @@
 ||adnetworkperformance.com^$important
 ||adnxs.com^$important
 ||adnz.co^$important
-||adobedtm.com^$important
 ||adofuokjj.bid^$important
 ||adomik.com^$important
 ||adop.cc^$important
