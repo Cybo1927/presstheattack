@@ -56,8 +56,6 @@
 ||13801993263.com^$important
 ||13932685557.cn^$important
 ||13d8ba78e080.com^$important
-||1407031110.bzhualin.com^$important
-||1409084329.xiaoyiwan.com^$important
 ||1431f15e2fe8ba0f1f2.com^$important
 ||1492tapasbar.com^$important
 ||14e6e1ee3d7236d41431.date^$important
@@ -144,12 +142,6 @@
 ||340ca71c.space^$important
 ||3412bf88fc05a986e55.com^$important
 ||34pavouhj7.com^$important
-||35.186.249.84^$important
-||35.190.91.111^$important
-||35.194.26.233^$important
-||35.201.103.212^$important
-||35.201.98.64^$important
-||35.239.57.233^$important
 ||3585656d9351553f.com^$important
 ||360caa42.space^$important
 ||360direct.click^$important
@@ -9526,7 +9518,6 @@
 ||uebkmtpsfvgvfx.com^$important
 ||uebyotcdyshk.com^$important
 ||uecjpplzfjur.com^$important
-||uegnytqslcm.myfw.us^$important
 ||uehdljkrsfaa.bid^$important
 ||uehtuvguuf.com^$important
 ||uejnzoaayhr.com^$important
@@ -11791,7 +11782,6 @@
 ||zeokfeyraxls.com^$important
 ||zequspu.eu^$important
 ||zeroclan.net^$important
-||zeroredirect2.com^$important
 ||zert.ovh^$important
 ||zeuwuxfzvaoqp.bid^$important
 ||zevszinklxyf.com^$important
@@ -11826,7 +11816,6 @@
 ||zgxlwlffm.com^$important
 ||zgydngnax.bid^$important
 ||zhabyesrdnvn.com^$important
-||zharuk.org.ua^$important
 ||zhbzxeis.bid^$important
 ||zhdjvlfszokew.com^$important
 ||zhdmplptugiu.com^$important
