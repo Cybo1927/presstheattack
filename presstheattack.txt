@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-10-08 11:10:44
-! Version: 20191008111044
+! Last modified: 2019-10-08 11:16:16
+! Version: 20191008111616
 ! Expires: 3 hours
-! Number of filters: 12178
+! Number of filters: 12200
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -11702,6 +11702,7 @@
 ||yupidd.com^$important
 ||yupwqyocvvnw.com^$important
 ||yurttitxfyfh.com^$important
+||yusungtech.co.kr^$important
 ||yuywwcizs.com^$important
 ||yvbrgzeu.com^$important
 ||yvdkwgrfatt.com^$important
@@ -11735,6 +11736,7 @@
 ||ywwefdjjc.bid^$important
 ||ywxjbwauqznf.com^$important
 ||ywxnjrkkrnyzc.com^$important
+||ywzjvqssv.myfw.us^$important
 ||ywzutugurhqpvs.bid^$important
 ||yx-ads6.com^$important
 ||yxahzybkggol.com^$important
@@ -11749,6 +11751,7 @@
 ||yxjecoghjycuvm.com^$important
 ||yxjnldaw.bid^$important
 ||yxjvmjlhyfrp.com^$important
+||yxkgtyqmz.myfw.us^$important
 ||yxlibrsxbycm.com^$important
 ||yxllrysme.bid^$important
 ||yxmfjiiwzgrsyg.bid^$important
@@ -11760,6 +11763,7 @@
 ||yxsyvsqrkbdqym.com^$important
 ||yxtdupqc.bid^$important
 ||yxwdppixvzxau.bid^$important
+||yxwnst.best.lt.ua^$important
 ||yy3dhmfd.top^$important
 ||yyajvvjrcigf.com^$important
 ||yybpijyx.bid^$important
@@ -11788,6 +11792,7 @@
 ||yzygkqjhedpw.com^$important
 ||yzysnbqc.com^$important
 ||yzzmcxnlvyymt.com^$important
+||z360.net^$important
 ||z6naousb.com^$important
 ||z6vmw.top^$important
 ||zaaireapylyr.com^$important
@@ -11797,11 +11802,16 @@
 ||zacqkexd.com^$important
 ||zaczpeabsygpdz.bid^$important
 ||zadhrsvmawp.com^$important
+||zaefofin.ru^$important
 ||zafwmwiaqckgmc.bid^$important
 ||zahlmvosqsxmp.com^$important
 ||zaicouwy.net^$important
 ||zajawwgpl.com^$important
+||zamhuxnh.cz.cc^$important
 ||zamjzpwgekeo.com^$important
+||zamponyt.ru^$important
+||zanfo.it^$important
+||zango.com^$important
 ||zansceeifcmm.com^$important
 ||zapvzwydgiwz.com^$important
 ||zatrlsov.com^$important
@@ -11828,6 +11838,8 @@
 ||zbtqpkimkjcr.com^$important
 ||zbutxofdxe.bid^$important
 ||zbvrqrjecs.com^$important
+||zbwp6ghm.com^$important
+||zbwttofskjnc.com^$important
 ||zbwzxxysgs.bid^$important
 ||zbxzcrldzzgv.com^$important
 ||zbzdylsefv.bid^$important
@@ -11919,6 +11931,7 @@
 ||zijkalirgmyzj.bid^$important
 ||zijnobynjmcs.com^$important
 ||zinrora.pw^$important
+||zipshift.com^$important
 ||ziqdunppuzjd.com^$important
 ||zirhuqksdqeyg.com^$important
 ||zisbrygtluib.com^$important
@@ -11930,10 +11943,12 @@
 ||zjdnwisfiin.bid^$important
 ||zjejoxqte.com^$important
 ||zjgbpjmqfaow.com^$important
+||zjgswtl.com^$important
 ||zjgygpdfudfu.com^$important
 ||zjhnmbfqylme.com^$important
 ||zjjcsdfqewqqi.bid^$important
 ||zjkdrqtjowihn.com^$important
+||zjlinkwell.cn^$important
 ||zjncvhnkh.com^$important
 ||zjnmgmidmx.com^$important
 ||zjsbdjkdtjzoxh.com^$important
@@ -11955,6 +11970,7 @@
 ||zkvdsdsftimj.bid^$important
 ||zkzpfpoazfgq.com^$important
 ||zlahmbwm.com^$important
+||zlalictr.cz.cc^$important
 ||zldgcyoxtk.com^$important
 ||zldnbkznfs.bid^$important
 ||zlegojgwg.com^$important
@@ -11963,11 +11979,15 @@
 ||zlgokeby.com^$important
 ||zlkrhsbkdf.bid^$important
 ||zlmbspplqvftur.com^$important
+||zlonearus.info^$important
+||zlp6s.pw^$important
 ||zlrlbfigwz.bid^$important
 ||zltsivah.bid^$important
 ||zlvbqseyjdna.com^$important
+||zlx.com.br^$important
 ||zlxfpawyyoq.com^$important
 ||zlxwasugtn.com^$important
+||zm.shzgjx88.com^$important
 ||zmbrweqglexv.com^$important
 ||zmctrack.net^$important
 ||zmdtxdomsoo.bid^$important
@@ -12193,8 +12213,10 @@
 ||zzkrxder.com^$important
 ||zzmyypjedpfxck.com^$important
 ||zzoxzkpqmklr.com^$important
+||zzpxw.cn^$important
 ||zzqnkezokbegc.bid^$important
 ||zzrdvzryaiwsin.com^$important
+||zzskmmdu.cz.cc^$important
 ||zzvjaqnkq.bid^$important
 ||zzwajufm.com^$important
 ||zzwzjidz.bid^$important
