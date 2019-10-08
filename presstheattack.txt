@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-10-08 11:16:16
-! Version: 20191008111616
+! Last modified: 2019-10-08 11:20:00
+! Version: 20191008112000
 ! Expires: 3 hours
-! Number of filters: 12200
+! Number of filters: 12225
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -11911,6 +11911,7 @@
 ||zhbzxeis.bid^$important
 ||zhdjvlfszokew.com^$important
 ||zhdmplptugiu.com^$important
+||zhizhishe.com^$important
 ||zhkziiaajuad.com^$important
 ||zhlfogiy.com^$important
 ||zhmbxvmyk.com^$important
@@ -11926,10 +11927,14 @@
 ||ziaxamkssw.com^$important
 ||ziayi0e.top^$important
 ||zidqkapwgnsh.com^$important
+||zief.pl^$important
+||ziejpzrv.cz.cc^$important
 ||ziffstatic.com^$important
 ||ziglpcxcxetsi.com^$important
 ||zijkalirgmyzj.bid^$important
 ||zijnobynjmcs.com^$important
+||zimeks.com.mk^$important
+||zinidge.com^$important
 ||zinrora.pw^$important
 ||zipshift.com^$important
 ||ziqdunppuzjd.com^$important
@@ -12020,16 +12025,22 @@
 ||zoagremo.net^$important
 ||zoapsith.com^$important
 ||zodorxfj.bid^$important
+||zoe-fan.com^$important
 ||zog.link^$important
+||zogaguj.eu^$important
+||zogjolga.ru^$important
 ||zohaqnxwkvyt.com^$important
+||zoid.in^$important
 ||zoileyozfexv.com^$important
 ||zoktycom.com^$important
 ||zomsfhgj.com^$important
+||zonement.com^$important
 ||zonhpljclov.com^$important
 ||zoowknbw.com^$important
 ||zospzfvxkshe.com^$important
 ||zostofou.link^$important
 ||zoszujvvlu.com^$important
+||zotasinc.com^$important
 ||zotjktpk.com^$important
 ||zowhxkwzjpta.com^$important
 ||zoyxbjmmlsrc.com^$important
@@ -12061,6 +12072,7 @@
 ||zpxlmtujszhixe.com^$important
 ||zpznbracwdai.com^$important
 ||zpzsdmpvqudhsz.com^$important
+||zqajsv.qhigh.com^$important
 ||zqaxaqqqutrx.com^$important
 ||zqbjcsodjiz.bid^$important
 ||zqddlgcrxjmwbz.bid^$important
@@ -12071,8 +12083,10 @@
 ||zqlkekbqp.com^$important
 ||zqouofoilmqfje.com^$important
 ||zqqyhcqf.com^$important
+||zqruajfsgir.myfw.us^$important
 ||zqskkhcxd.bid^$important
 ||zqswmyzlkcvrtu.com^$important
+||zqtcf.com^$important
 ||zqtk.net^$important
 ||zqxmeahcm.com^$important
 ||zramisxvxmkf.com^$important
@@ -12092,9 +12106,11 @@
 ||zrxgdnxneslb.com^$important
 ||zrzgnzel.com^$important
 ||zsancthhfvqm.com^$important
+||zsaugustowo.pl^$important
 ||zsbifpiosqedn.bid^$important
 ||zsdhypkxyodiw.bid^$important
 ||zsdlyigktdly.bid^$important
+||zseec.com^$important
 ||zsihqvjfwwlk.com^$important
 ||zsikmzoehqw.com^$important
 ||zslembevfypr.com^$important
@@ -12122,6 +12138,7 @@
 ||zudyyulnjdqmn.com^$important
 ||zueqwtbryx.bid^$important
 ||zugnogne.com^$important
+||zuiddorpe.net^$important
 ||zuiiyzgiof.com^$important
 ||zukbmxbrv.com^$important
 ||zukipoayrlh.com^$important
@@ -12136,6 +12153,7 @@
 ||zuwuqxstogbj.com^$important
 ||zuxanrebeceko.com^$important
 ||zuybvpprdoo.com^$important
+||zuzzuna.eu^$important
 ||zvaianux.bid^$important
 ||zvdacnjhetcrq.com^$important
 ||zvdotftdxkfsv.bid^$important
@@ -12149,6 +12167,7 @@
 ||zvsjiigao.com^$important
 ||zvttlvbclihk.com^$important
 ||zvuespzsdgdq.com^$important
+||zw52.ru^$important
 ||zwbiaekgsx.com^$important
 ||zwbyxaojzxc.bid^$important
 ||zwcuvwssfydj.com^$important
@@ -12200,6 +12219,12 @@
 ||zyleqnzmvupg.com^$important
 ||zylokfmgrtzv.com^$important
 ||zymaevtin.bid^$important
+||zymerget.bid^$important
+||zymerget.date^$important
+||zymerget.faith^$important
+||zymerget.party^$important
+||zymerget.stream^$important
+||zymerget.win^$important
 ||zymngxjmm.bid^$important
 ||zyqlfplqdgxu.com^$important
 ||zyxaituruuod.com^$important
