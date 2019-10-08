@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-10-08 11:39:32
-! Version: 20191008113932
+! Last modified: 2019-10-08 11:41:58
+! Version: 20191008114158
 ! Expires: 3 hours
-! Number of filters: 12278
+! Number of filters: 12337
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -179,6 +179,7 @@
 ||197c3b10bab3c1.com^$important
 ||1b8d89551340a.com^$important
 ||1b969cef84d93b43.com^$important
+||1bcde.com^$important
 ||1bfc228b50a902db.com^$important
 ||1cb70f6b7aab4c70819a.date^$important
 ||1ea1sley.com^$important
@@ -481,6 +482,7 @@
 ||ablehed.pro^$important
 ||abodealley.com^$important
 ||abourself.com^$important
+||abserv123.com^$important
 ||abunmrqsbfn.bid^$important
 ||abuuvohpzlcrp.bid^$important
 ||abxlmhllf.com^$important
@@ -491,6 +493,7 @@
 ||acduswfvyjylzq.com^$important
 ||achiname.info^$important
 ||achsijkc.com^$important
+||acidityfoamy.com^$important
 ||acint.net^$important
 ||acknowing.com^$important
 ||aclhagvngkjf.com^$important
@@ -549,7 +552,7 @@
 ||adnetworkperformance.com^$important
 ||adnxs.com^$important
 ||adnz.co^$important
-||adobedtm.com^$third-party
+||adobedtm.com^$important
 ||adofuokjj.bid^$important
 ||adomik.com^$important
 ||adop.cc^$important
@@ -634,6 +637,7 @@
 ||afeeknuueaztxt.com^$important
 ||afeuvqrsswz.com^$important
 ||afgbvhocfvpm.com^$important
+||afgmyvid.com^$important
 ||aflcdijgmr.bid^$important
 ||afnrmofoljod.com^$important
 ||afpisdddjik.bid^$important
@@ -741,6 +745,7 @@
 ||alwqfajh.com^$important
 ||alxetzfhlzekv.bid^$important
 ||am15.net^$important
+||amadagasca.com^$important
 ||amaecylce.com^$important
 ||amaqcgrrmedi.bid^$important
 ||amauzaqp.com^$important
@@ -786,6 +791,7 @@
 ||antinuef.info^$important
 ||anvagsqctxsaz.bid^$important
 ||anvskelwpvvmtg.bid^$important
+||anyonemyth.com^$important
 ||anypbbervqig.com^$important
 ||anyuwksovtwv.com^$important
 ||aodqhrwbaky.com^$important
@@ -1007,6 +1013,7 @@
 ||b60228e270e363f6.com^$important
 ||b93e1f595c9b.com^$important
 ||babblenorah.com^$important
+||babyboomboomads.com^$important
 ||baconaces.pro^$important
 ||badgmvhtvryg.bid^$important
 ||badsamps.com^$important
@@ -1341,12 +1348,15 @@
 ||brfyubakyg.com^$important
 ||brhkraeknmjk.com^$important
 ||brilliantbc9.club^$important
+||brinein.com^$important
 ||briqsnyafmmkxr.com^$important
 ||briqumvlvzshh.com^$important
+||bristlyapace.com^$important
 ||brjbzbxbcqjb.com^$important
 ||brjycsvgpo.bid^$important
 ||brloygpasa.com^$important
 ||brmrwnopuowq.bid^$important
+||broomboxmain.com^$important
 ||browser-ru.site^$important
 ||brqrtgjklary.com^$important
 ||brrxmhuhyokw.bid^$important
@@ -1603,6 +1613,7 @@
 ||cgrvnpkwuytts.com^$important
 ||cgtqfbnviajcx.com^$important
 ||cguvvvdxa.com^$important
+||challengedeprave.com^$important
 ||chamsoop.net^$important
 ||chanicut.com^$important
 ||charmstroy.info^$important
@@ -1762,6 +1773,7 @@
 ||combinaticy.info^$important
 ||comgnnyx.com^$important
 ||comnop.icu^$important
+||completeexecutor.com^$important
 ||comwgi.com^$important
 ||connatix.com^$important
 ||connectad.io^$important
@@ -1772,7 +1784,7 @@
 ||conviva.com^$important
 ||coograma.net^$important
 ||cookie-script.com^$important
-||cookielaw.org^$third-party
+||cookielaw.org^$important
 ||copicvarianuty.info^$important
 ||cortxphssdvc.com^$important
 ||coshfgpgab.com^$important
@@ -1895,6 +1907,7 @@
 ||cuortwomnr.com^$important
 ||cupzwcxgx.com^$important
 ||curaleani.club^$important
+||curriculture.com^$important
 ||cutivecut.info^$important
 ||cuvbcwgenwytrk.bid^$important
 ||cuxsmovh.bid^$important
@@ -2059,6 +2072,7 @@
 ||dealmemanager.online^$important
 ||debitcrebit669.com^$important
 ||debuackedhkvu.bid^$important
+||decademical.com^$important
 ||deebwmbbytr.com^$important
 ||degitlwfezpe.com^$important
 ||dehyogsjbk.bid^$important
@@ -2272,6 +2286,7 @@
 ||doublepimpssl.com^$important,popup
 ||dovltuzibsfs.com^$important
 ||download-for.me^$important
+||downloadgot.com^$important
 ||downloadsdir.com^$important
 ||dpallyihgtgu.com^$important
 ||dpbviawkrumynm.com^$important
@@ -2792,6 +2807,7 @@
 ||euuikdao.com^$important
 ||euwyhbib.com^$important
 ||euxisszoyader.com^$important
+||evenexcite.com^$important
 ||eversely.com^$important
 ||evfatcuv.com^$important
 ||evfwfkwufbjtd.com^$important
@@ -2970,6 +2986,7 @@
 ||fehsnwiem.com^$important
 ||fejbkpidkkwts.com^$important
 ||fembsflungod.com^$important
+||fencemiracle.com^$important
 ||fengrtnoxuwwe.com^$important
 ||fepzygektdt.com^$important
 ||feqlklwaafgc.com^$important
@@ -3131,9 +3148,12 @@
 ||followshipa.info^$important
 ||foovyagf.com^$important
 ||fophaumpoor.com^$important
+||forcedolphin.com^$important
 ||forecastpcservice.fun^$important
+||forexplmdb.com^$important
 ||formaticul.com^$important
 ||forsiteid6346.tech^$important
+||forterradirect.com^$important
 ||fortpush.com^$important
 ||fortunejackpartners.com^$important
 ||forumiklan.com^$important
@@ -3573,6 +3593,7 @@
 ||gmutfgxdvwmtf.com^$important
 ||gmwqmjkggg.com^$important
 ||gmxetthnzmqo.com^$important
+||gmyvids.com^$important
 ||gnadhzstittd.com^$important
 ||gnaizrodp.com^$important
 ||gncfttutoiwwq.com^$important
@@ -3909,6 +3930,7 @@
 ||hehraybryciyls.com^$important
 ||heikwwkqy.com^$important
 ||hellcategy.info^$important
+||helpclause.com^$important
 ||henhemnatorstold.pro^$important
 ||henodmetgjbsas.bid^$important
 ||hepuzqrx.com^$important
@@ -4696,6 +4718,7 @@
 ||izxdpodiowdgp.bid^$important
 ||j9eup6o5os.top^$important
 ||jabcdkwmwnek.com^$important
+||jackettrain.com^$important
 ||jacmnkcusf.com^$important
 ||jacroxrssmme.bid^$important
 ||jaihowgr.com^$important
@@ -5590,6 +5613,7 @@
 ||lesmyjzc.com^$important
 ||lestujzrpeom.bid^$important
 ||letaikay.net^$important
+||letsdoarbitrage.com^$important
 ||leuojmgbkpcl.com^$important
 ||leversions.info^$important
 ||levjirsqbtjhif.bid^$important
@@ -5941,6 +5965,7 @@
 ||lykuxkxsvvnxqd.com^$important
 ||lynbrookoriska.com^$important
 ||lynsvdabds.com^$important
+||lyoniaancony.com^$important
 ||lyovvtevsu.bid^$important
 ||lyssmgbr.com^$important
 ||lytaxbxen.bid^$important
@@ -6048,6 +6073,7 @@
 ||mechangesee.club^$important
 ||mecounxmawn.bid^$important
 ||mecsjjkomehyv.com^$important
+||mediadisclose.com^$important
 ||mediaoaktree.com^$important
 ||mediatoday.ru^$important
 ||medic-informator-a.ru^$important
@@ -6147,6 +6173,7 @@
 ||mixer-1ruplus.ru^$important
 ||mixfyfriqtatz.bid^$important
 ||mixology.pw^$important
+||mixturehopeful.com^$important
 ||mjckfsgogzcd.com^$important
 ||mjlkhnizufhmrt.bid^$important
 ||mjquyspsrgybs.com^$important
@@ -6222,9 +6249,12 @@
 ||moadlbgojatn.com^$important
 ||moatads.com^$important
 ||mob1ledev1ces.com^$important
+||mobdisc.net^$important
+||mobdisc.org^$important
 ||mobibiobi.com^$important
 ||mobileadspopup.com^$important
 ||mobileoffers-a-download.com^$important
+||mobsoftffree.xyz^$important
 ||modkehkcihvzi.bid^$important
 ||moevideo.biz^$important
 ||mofrupteeuqnvc.bid^$important
@@ -6254,6 +6284,7 @@
 ||mousheen.net^$important
 ||mousvowpfso.com^$important
 ||movcpm.com^$important
+||moveadrenaline.com^$important
 ||moxdmkdzvkgxow.bid^$important
 ||moxvufgh.com^$important
 ||moyeluljrail.com^$important
@@ -6355,6 +6386,7 @@
 ||muqyzjkamhpu.bid^$important
 ||murrietaullin.com^$important
 ||musighkm.com^$important
+||mutualvehemence.com^$important
 ||muwjxxvovtb.com^$important
 ||muxtpvixahawy.com^$important
 ||mvdbdtwicgw.bid^$important
@@ -6429,6 +6461,7 @@
 ||naaifqdqsnxtsp.com^$important
 ||naavxddd.com^$important
 ||naetoris.pw^$important
+||naganoadigei.com^$important
 ||nahixtmnmpcz.com^$important
 ||nahvyfyfpffm.com^$important
 ||namjixxurjam.com^$important
@@ -6505,6 +6538,7 @@
 ||nemzdfjnyqy.bid^$important
 ||neopqlhmnow.bid^$important
 ||nepsauss.net^$important
+||nererut.com^$important
 ||neschaypaxkk.com^$important
 ||net-ce49.stream^$important
 ||networkad.net^$important
@@ -6654,6 +6688,7 @@
 ||nnvqabkpa.com^$important
 ||nnzkabsgmfjn.bid^$important
 ||nnztrsuu.com^$important
+||noblemagnition.com^$important
 ||nobosrekns.bid^$important
 ||nobpgppgbucy.com^$important
 ||nocwsbtdiiufa.bid^$important
@@ -7092,6 +7127,7 @@
 ||orgzjdgtjmvzi.bid^$important
 ||ormnduxoewtl.com^$important
 ||orsimqadmhpb.com^$important
+||ortonch.com^$important
 ||orzsaxuicrmr.com^$important
 ||osanmeijvqh.com^$important
 ||osbblnlmwzcr.com^$important
@@ -7452,6 +7488,7 @@
 ||pncbscbuzss.com^$important
 ||pndelfast.com^$important
 ||pndiblukiqdix.bid^$important
+||pnewspages.com^$important
 ||pnfdunvcgl.bid^$important
 ||pnfpithmmrxc.com^$important
 ||pnjeolgxsimj.com^$important
@@ -7481,6 +7518,7 @@
 ||popunders.bid^$important
 ||popzkvfimbox.com^$important
 ||poqqvnychl.com^$important
+||postback.info^$important
 ||postrelease.com^$important
 ||postrsyk.com^$important
 ||potmbbqbaqxwp.com^$important
@@ -7628,6 +7666,8 @@
 ||pushkov.info^$important
 ||pushlinck.com^$important
 ||pushmejs.com^$important
+||pushmenews.com^$important
+||pushmobilenews.com^$important
 ||pushnative.com^$important
 ||pushnews.ru^$important
 ||pushno.com^$important
@@ -7707,6 +7747,7 @@
 ||pymx5.com^$important
 ||pyq6n.com^$important
 ||pyqwtxicjodcij.com^$important
+||pyraming.com^$important
 ||pyscgael.bid^$important
 ||pyubjvvdsrja.com^$important
 ||pzbqocjaphp.com^$important
@@ -8243,6 +8284,7 @@
 ||relnocyyxhpjb.com^$important
 ||remarketingpixel.com^$important
 ||remtoaku.net^$important
+||renaissanto.com^$important
 ||renovosartell.com^$important
 ||repefwairfkx.com^$important
 ||repetitish.com^$important
@@ -8255,6 +8297,7 @@
 ||resultpcservice.fun^$important
 ||reszkzmyzceve.com^$important
 ||retardation.us^$important
+||retiremely.com^$important
 ||revcontent.com^$important
 ||reviewnotifyfriends.info^$important
 ||reyden-x.com^$important
@@ -8313,6 +8356,7 @@
 ||richplayland.com^$important
 ||rickettsharrell.com^$important
 ||ridgedaletecopa.com^$important
+||ridingintractable.com^$important
 ||rieyjzuyhigobg.bid^$important
 ||rifwhwdsqvgw.com^$important
 ||rigoczly.com^$important
@@ -8470,6 +8514,7 @@
 ||rsvxipjqyvfs.com^$important
 ||rswgoccwzs.com^$important
 ||rszzpjttufuw.bid^$important
+||rtbvideobox.com^$important
 ||rtctxxxvdq.com^$important
 ||rtdogcdkovndho.com^$important
 ||rtgngrwtngms.com^$important
@@ -8586,6 +8631,7 @@
 ||s9jp9xogfz.com^$important
 ||saboopiz.net^$important
 ||saenrwiqesp.com^$important
+||safelyawake.com^$important
 ||sagbgtnmlaj.com^$important
 ||sagukjshgifebs.bid^$important
 ||sagulzuyvybu.com^$important
@@ -8823,6 +8869,7 @@
 ||smapohsnoww.com^$important
 ||smartadserver.com^$important
 ||smartphonesbonusoffers.icu^$important
+||smashseek.com^$important
 ||smhqmrxplvnx.com^$important
 ||smhyvyvnpzigir.com^$important
 ||smjdypbxapigu.bid^$important
@@ -8879,6 +8926,7 @@
 ||sozdyrrtsvr.com^$important
 ||spbflxvnheih.com^$important
 ||speeder.biz^$important
+||speedlinkdown.com^$important
 ||spendentaly.info^$important
 ||spfrlpjmvkmq.com^$important
 ||spgjtypydhdxl.com^$important
@@ -8931,6 +8979,7 @@
 ||ssobmhpxnjjp.bid^$important
 ||ssowfsbps.bid^$important
 ||ssp.rambler.ru^$important
+||sspicy.ru^$important
 ||ssqzsdcnoqv.com^$important
 ||ssraju3n.com^$important
 ||sssgao999.com^$important
@@ -8959,9 +9008,13 @@
 ||stoordep.com^$important
 ||storehouse.biz^$important
 ||storoukr.net^$important
+||strainemergency.com^$important
+||strawdense.com^$important
 ||streamango.com/log$important,xmlhttprequest
 ||stremanp.com^$important
 ||stresee.com^$important
+||stringroadway.com^$important
+||strongexplain.com^$important
 ||strpjmp.com^$important
 ||stuthvygifup.com^$important
 ||stvayyokjvxnl.com^$important
@@ -9077,6 +9130,7 @@
 ||tagbucket.cc^$important
 ||tagcommander.com^$important
 ||taijouhe.net^$important
+||tailorcave.com^$important
 ||tailpdulprkp.com^$important
 ||tailtarget.com^$important
 ||take-the-bonus.biz^$important
@@ -9168,6 +9222,7 @@
 ||tewoutrepozv.bid^$important
 ||tewycnrhnv.com^$important
 ||texto.click^$important
+||textreason.com^$important
 ||teyuzyrjmrdi.com^$important
 ||tf16jdhnnc.com^$important
 ||tfbzzigqzbax.com^$important
@@ -9212,11 +9267,13 @@
 ||theadex.com^$important
 ||theforcontentingvideosystems.icu^$important
 ||thegoodcaster.com^$important
+||theirsvendor.com^$important
 ||thermosthahiti.website^$important
 ||thewebsitetofindplayersbest.info^$important
 ||thibzxxtotyqg.bid^$important
 ||thiksikr.com^$important
 ||thirgoad.top^$important
+||thismetric.com^$important
 ||thivsxubn.com^$important
 ||thjlnyagmxrbt.com^$important
 ||thjuvpgdmjj.com^$important
@@ -9486,6 +9543,7 @@
 ||tummiarunzpf.com^$important
 ||tupeodhhlcodt.com^$important
 ||turfmpnpiv.bid^$important
+||turngrind.com^$important
 ||turyvfzreolc.com^$important
 ||tusfzbkirabi.com^$important
 ||tuthokcb.com^$important
@@ -9784,6 +9842,7 @@
 ||umzrccpfbnuu.com^$important
 ||unasgi.club^$important
 ||uncumlzowtkn.com^$important
+||uncyane.com^$important
 ||undedly.com^$important
 ||undef8trust.com^$important
 ||under2given.com^$important
