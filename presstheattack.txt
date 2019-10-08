@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-10-08 11:02:45
-! Version: 20191008110245
+! Last modified: 2019-10-08 11:10:44
+! Version: 20191008111044
 ! Expires: 3 hours
-! Number of filters: 12099
+! Number of filters: 12178
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -623,6 +623,7 @@
 ||ahjljmxfxuet.com^$important
 ||ahkilcrublxn.bid^$important
 ||ahstrelgnh.com^$important
+||ahtarzr.ovh^$important
 ||ahuivddkvrrebo.com^$important
 ||ahumant.com^$important
 ||ahuosyyqprt.com^$important
@@ -1201,6 +1202,7 @@
 ||blaghfpd.com^$important
 ||blcmacswwmqv.com^$important
 ||blgrwhaww.com^$important
+||blhjbepkhmuunbjxmidaq.com^$important
 ||blkivkplpn.com^$important
 ||blnxyqdnsl.bid^$important
 ||blogonewslj.com^$important
@@ -1725,6 +1727,7 @@
 ||connectad.io^$important
 ||content-ad.net^$important
 ||contentsfeed.com^$important
+||contentza.com^$important
 ||contestandgiveaways.xyz^$important
 ||conviva.com^$important
 ||coograma.net^$important
@@ -1877,6 +1880,7 @@
 ||cwvdzcqvg.com^$important
 ||cwvqtapvqbmxfd.com^$important
 ||cwxblalyyvbj.com^$important
+||cwxiazwt.com^$important
 ||cwxkywbndfue.com^$important
 ||cwxmevdteoxqi.com^$important
 ||cwxqufxcqopi.com^$important
@@ -1927,6 +1931,7 @@
 ||czuyzjyxlgirh.bid^$important
 ||czwdzqfnmzw.bid^$important
 ||czx5eyk0exbhwp43ya.biz^$important
+||czxzpabxb.ovh^$important
 ||czzzwuvvc.com^$important
 ||d0f85db8ee56f5c6.com^$important
 ||d0p21g2fep.com^$important
@@ -2557,6 +2562,7 @@
 ||ejurzsax.com^$important
 ||ejwocojjv.bid^$important
 ||ejwxbwzrhihtp.com^$important
+||ejxmyng.ovh^$important
 ||ekbiwwngwig.com^$important
 ||ekdamsibldrg.bid^$important
 ||ekdjdrmqqlc.bid^$important
@@ -2593,6 +2599,7 @@
 ||elwraek.xyz^$important
 ||elwwxuigpk.bid^$important
 ||elxkjyvdo.bid^$important
+||elyrvxljunilzq.com^$important
 ||elzlogcphhka.com^$important
 ||elzmazpsbnwn.com^$important
 ||elzoovmzj.bid^$important
@@ -2959,6 +2966,7 @@
 ||fgnzizhe.com^$important
 ||fgsjjpjhdlfthp.com^$important
 ||fgsmmpazsuqak.com^$important
+||fgudqqluv.com^$important
 ||fgvjjulaegidb.com^$important
 ||fgwsjwiaqtjc.com^$important
 ||fgxgzjeip.bid^$important
@@ -3342,6 +3350,7 @@
 ||gbdxxsjzrechci.bid^$important
 ||gbfnuqois.com^$important
 ||gbgtegzxz.com^$important
+||gbiqlm.com^$important
 ||gbjqfbnxfjx.com^$important
 ||gblogs.top^$important
 ||gbnwjjxb.bid^$important
@@ -3412,6 +3421,7 @@
 ||ggjsegnbriqhnz.com^$important
 ||ggnabmvnwphu.com^$important
 ||ggngbgccubvf.com^$important
+||ggohobe.com^$important
 ||ggprfmbbl.com^$important
 ||ggrjihzgtdxutg.bid^$important
 ||ggscparljuz.com^$important
@@ -5149,6 +5159,7 @@
 ||kfyhxmycgjaqkn.com^$important
 ||kfyksytsx.com^$important
 ||kfypsloqkccvpl.com^$important
+||kfzedelhjtyw.com^$important
 ||kfzimhbhjdqa.com^$important
 ||kgdglkxy.com^$important
 ||kgdmlsbtd.com^$important
@@ -5324,6 +5335,7 @@
 ||ksavagrh.com^$important
 ||ksavfuxjbqx.com^$important
 ||ksbewtjuqitxg.bid^$important
+||ksbnmsxnskx.com^$important
 ||ksevqmggaxtxt.bid^$important
 ||kshysnypina.com^$important
 ||ksihafqopndbq.com^$important
@@ -5491,6 +5503,7 @@
 ||lbdrnmkhwgkpdg.bid^$important
 ||lbfryfttoihl.com^$important
 ||lbjgdskmgsmowy.com^$important
+||lbjuhtxkx.com^$important
 ||lbkprcoosfgk.com^$important
 ||lbpndcvhuqlm.com^$important
 ||lbtcymxcocwh.bid^$important
@@ -5900,6 +5913,7 @@
 ||lzbzwpmozwfy.com^$important
 ||lzfvonzwjzhz.com^$important
 ||lzkuqbptcjqta.com^$important
+||lzmlwmp.ovh^$important
 ||lzopoqzlihfbc.com^$important
 ||lzpqpstowpvz.bid^$important
 ||lzrfxzvfbkay.com^$important
@@ -6055,6 +6069,7 @@
 ||mhaafkoekzax.com^$important
 ||mhbfahukhp.bid^$important
 ||mhcttlcbkwvp.com^$important
+||mheok.com^$important
 ||mhfivsdhbpfgk.com^$important
 ||mhfvtafbraql.com^$important
 ||mhghzpotwnoh.com^$important
@@ -6250,6 +6265,7 @@
 ||mrxvgpzath.bid^$important
 ||mrzpfpgh.com^$important
 ||msbmckzmcu.com^$important
+||msdhydaxm.ovh^$important
 ||mse2v5oglm.com^$important
 ||msiegurhgfyl.com^$important
 ||msigpurubzkm.com^$important
@@ -6353,6 +6369,7 @@
 ||mykpenejaaj.bid^$important
 ||mylhebhwgim.com^$important
 ||mylslrkbn.com^$important
+||mynativeplatform.com^$important
 ||myogwiwjlfrngo.com^$important
 ||myqvhpjyd.com^$important
 ||myvisualiq.net^$important
@@ -7089,11 +7106,13 @@
 ||ovchjqpdh.com^$important
 ||ovckindyf.com^$important
 ||ovcksawwem.com^$important
+||ovcmqf.com^$important
 ||ovczxzkfkfbb.com^$important
 ||overely.com^$important
 ||ovfbwavekglf.com^$important
 ||ovgepsxx.com^$important
 ||ovgzbnjj.com^$important
+||ovhnnz.ovh^$important
 ||ovjlgvapqhmpy.com^$important
 ||ovkihcbxsbfeo.com^$important
 ||ovmeaxabvfor.com^$important
@@ -8046,6 +8065,7 @@
 ||qxmecqgzrgdh.com^$important
 ||qxnniyuuaxhv.com^$important
 ||qxqtejyqkypfz.bid^$important
+||qxqvdkvhdn.com^$important
 ||qxvnvbkcm.com^$important
 ||qxykytqzwagqj.com^$important
 ||qybzvfvqzpmxpu.com^$important
@@ -8813,6 +8833,7 @@
 ||southening.info^$important
 ||sovcbhem.bid^$important
 ||sovqylkbucid.com^$important
+||soyzsnaivas.com^$important
 ||sozdyrrtsvr.com^$important
 ||spbflxvnheih.com^$important
 ||speeder.biz^$important
@@ -9934,6 +9955,7 @@
 ||uzsywcdthqplzv.bid^$important
 ||uzvjymcnwngwau.bid^$important
 ||uzvuhhyymmkc.com^$important
+||uzwcfbi.com^$important
 ||uzwweczttqlayd.com^$important
 ||uzxbnlwauycnp.bid^$important
 ||uzxyqxolrc.com^$important
@@ -10630,6 +10652,7 @@
 ||wl.jd.com^$important
 ||wlcepkuuvawjdj.bid^$important
 ||wlezfkwtv.com^$important
+||wlfolwilg.com^$important
 ||wlhbgwzgep.com^$important
 ||wlhgopaqpmwah.com^$important
 ||wljuxryvolwc.com^$important
@@ -10753,6 +10776,7 @@
 ||wsaijhlcnsqu.com^$important
 ||wscrsmuagezg.com^$important
 ||wscvmnvhanbr.com^$important
+||wsdib.com^$important
 ||wsrjplhhhfmfsx.com^$important
 ||wsscyuyclild.com^$important
 ||wssejwluqthda.com^$important
@@ -11205,6 +11229,7 @@
 ||xvfzxuzvxcv.bid^$important
 ||xvgfmbrifa.com^$important
 ||xvijskugh.com^$important
+||xvika.com^$important
 ||xvjigtcdiogu.bid^$important
 ||xvtbumnuj.com^$important
 ||xvtgouzdsmoeb.com^$important
@@ -11213,6 +11238,7 @@
 ||xwagalbvfkb.com^$important
 ||xwavfvpzg.com^$important
 ||xwavjdqttkum.com^$important
+||xwbearing.com^$important
 ||xwcqrzkle.com^$important
 ||xwdlgzrnuyo.com^$important
 ||xwesxrxyopqyc.com^$important
@@ -11236,8 +11262,10 @@
 ||xxpfoxmvpjoh.bid^$important
 ||xxqriuedmqzs.com^$important
 ||xxrniridsnzr.com^$important
+||xxuz.com^$important
 ||xxwpminhccoq.com^$important
 ||xxxdeducu.bid^$important
+||xxxtoolbar.com^$important
 ||xxxwfoltlusf.bid^$important
 ||xxyafiswqcqz.com^$important
 ||xxypskosek.bid^$important
@@ -11274,25 +11302,37 @@
 ||xzwynraczfcq.com^$important
 ||xzywlbgldmpi.com^$important
 ||xzzcasiospbn.com^$important
+||xzzxjly.com^$important
 ||y1jxiqds7v.com^$important
 ||y2rmo576.top^$important
 ||y6a7tqyr.com^$important
+||ya-googl.ws^$important
+||ya-toptal-tvoyu-dushu.com^$important
 ||yaaqsdteo.com^$important
+||yadr0.com^$important
 ||yadro.ru^$important
 ||yafsixmo.com^$important
 ||yahbdmyvvmjh.com^$important
 ||yahoo-news.co^$important
+||yahoo-statistic.com^$important
+||yahoosite.ru^$important
 ||yahthahm.com^$important
 ||yaifxxudxyns.com^$important
 ||yaikleyabl.com^$important
 ||yairxzsteg.bid^$important
 ||yaizwjvnxctz.com^$important
+||yalovacimenemlak.com^$important
+||yalovasehri.com^$important
 ||yalyuzvlr.bid^$important
 ||yamrxfbkpirt.com^$important
+||yanagi.co.kr^$important
+||yandex-click.net^$important
 ||yandex.ru/clck/clck/$important
 ||yandex.ru/clck/jclck/$important
 ||yandex.st^$domain=~yandex.by|~yandex.ru|~yandex.ua
+||yaoshuo.cn^$important
 ||yaoslgiweccw.com^$important
+||yapboom.com^$important
 ||yaqysxlohdyg.com^$important
 ||yasltdlichfd.com^$important
 ||yasnxwjtjbx.com^$important
@@ -11310,6 +11350,7 @@
 ||ybhgzvkqtocedj.com^$important
 ||ybhpbkyzbihlrk.bid^$important
 ||ybikaghc.bid^$important
+||ybjjr.com^$important
 ||yblileapbnc.com^$important
 ||ybmdgyywbhk.com^$important
 ||ybnj57w4m7.ru^$important
@@ -11346,6 +11387,7 @@
 ||ydeoxwomjpvxoz.com^$important
 ||ydfntydegmdbk.com^$important
 ||ydgjaoes.bid^$important
+||ydhumcew.ru^$important
 ||ydkhkjmefxy.com^$important
 ||ydlrdzlbgs.com^$important
 ||ydoexgadghunl.bid^$important
@@ -11366,12 +11408,17 @@
 ||yecxfxsbkb.com^$important
 ||yefttzzn.com^$important
 ||yehazsnxdevr.com^$important
+||yejfidkdks.ddns.info^$important
 ||yejkuusxijvzz.com^$important
+||yeniyuzyillions.org^$important
 ||yennwmfmbnfz.com^$important
 ||yenrsvttsfmqd.bid^$important
 ||yeonenukejm.bid^$important
 ||yeouakimhubraf.com^$important
 ||yepiafsrxffl.com^$important
+||yes4biz.net^$important
+||yescounter.com^$important
+||yesteam.org.in^$important
 ||yestedun.info^$important
 ||yesubqwrfvepm.bid^$important
 ||yesucplcylxg.com^$important
@@ -11429,8 +11476,10 @@
 ||yincrkvptefw.bid^$important
 ||yinmyar.xyz^$important
 ||yintkfbxaopyb.com^$important
+||yinyuanhotel.net^$important
 ||yioklzvjkaumf.com^$important
 ||yiqyefznxc.com^$important
+||yisouxinxi.com^$important
 ||yisscbyq.com^$important
 ||yivsfcxf.bid^$important
 ||yiyycuqozjwc.com^$important
@@ -11462,6 +11511,7 @@
 ||ykdiojhuy.bid^$important
 ||ykdmtvowoinv.com^$important
 ||ykixjehac.com^$important
+||ykjfdwghjmg.epac.to^$important
 ||yklotwpbrybfl.com^$important
 ||ykmcpykr.bid^$important
 ||ykombouoo.com^$important
@@ -11502,17 +11552,21 @@
 ||ymzrrizntbhde.com^$important
 ||ynbymadjbgoo.bid^$important
 ||ynewcdjtop.com^$important
+||yngxtgj.com^$important
 ||ynhetcoypgnl.com^$important
 ||ynhonjqahrh.com^$important
+||ynjaprur.ru^$important
 ||ynkakgknfljv.com^$important
 ||ynkbueizwqu.com^$important
 ||ynlrfiwj.com^$important
 ||ynlvwynnsstalh.com^$important
 ||ynoiezey.com^$important
 ||ynopkisq.com^$important
+||ynrenai.com^$important
 ||yntwcepykkts.com^$important
 ||ynuyzeqtswtd.com^$important
 ||ynvplyprjr.bid^$important
+||ynwshm.com^$important
 ||ynxrrzgfkuih.com^$important
 ||ynyhiyqybbit.com^$important
 ||ynzdtoawstxvh.com^$important
@@ -11523,17 +11577,34 @@
 ||yofyzgkoktwlc.com^$important
 ||yogkshigsy.com^$important
 ||yojxoefvnyrc.com^$important
+||yololike.space^$important
+||yondental.co.kr^$important
 ||yoorjlleqtquez.bid^$important
 ||yoqvnnkdmqfk.com^$important
 ||yotube.com^$important
+||youaskedthedomain.cn^$important
+||youknownow.ru^$important
+||youngarea.ru^$important
+||youngmarble.com^$important
+||youngorfabric.com^$important
+||youngyear.com^$important
+||youpig.passas.us^$important
 ||your-mobi-security.com^$important
 ||your-server.de^$important
+||yourbestway.cn^$important
+||yourblenderparts.ru^$important
+||yourlitetop.cn^$important
+||yourpic.msk.ru^$important
 ||yoursesdecretary.info^$important
 ||yoursinfo.info^$important
+||yourtagheuer.ru^$important
+||youthfire.com^$important
+||youthsprout.com^$important
 ||youtube.com/api/stats/$image,important,other,xmlhttprequest
 ||youtube.com/get_midroll_info^$important,xmlhttprequest
 ||youtube.com/get_video_info?*el=adunit$important,xmlhttprequest
 ||youtube.com/ptracking^$image,important
+||youxi123.com^$important
 ||yovbkyylqlmkg.bid^$important
 ||yovqbcixogwc.com^$important
 ||yoxlrphhmphq.com^$important
@@ -11552,6 +11623,7 @@
 ||yprnopqzs.com^$important
 ||yptwqjdgikmcqc.com^$important
 ||ypummbggdjex.com^$important
+||ypvudhek.ru^$important
 ||ypyarwgh.com^$important
 ||yqeuu.com^$important
 ||yqhgbmyfiomx.com^$important
@@ -11578,6 +11650,7 @@
 ||yrijcjiclmltxq.bid^$important
 ||yrkozodemantj.com^$important
 ||yrnzxgsjokuv.com^$important
+||yrpdgiti.cz.cc^$important
 ||yrpjklwly.com^$important
 ||yrrcrvoivbv.com^$important
 ||yrtyflmurngv.com^$important
@@ -11588,6 +11661,8 @@
 ||yrzukplqjwxst.bid^$important
 ||ys3e965d.top^$important
 ||ysaloykchjyxg.com^$important
+||ysbbcrypsc.com^$important
+||ysbweb.com^$important
 ||ysdacdbitdy.bid^$important
 ||ysdxcrighudjmw.com^$important
 ||ysexxayb.bid^$important
@@ -11612,9 +11687,11 @@
 ||ytjadaazjjy.bid^$important
 ||ytjocvggodnfbn.com^$important
 ||ytmmpddn.bid^$important
+||ytqihang.com^$important
 ||ytrojdjen.bid^$important
 ||ytskrsravfqyuc.bid^$important
 ||yttvnnvklf.com^$important
+||ytvracu.com^$important
 ||ytwtqabrkfmu.com^$important
 ||yuanaayutyd.com^$important
 ||yuazwfzvdzfc.com^$important
@@ -12046,6 +12123,7 @@
 ||zvhuevqkmv.com^$important
 ||zvicyjvyox.bid^$important
 ||zvovdtomwa.com^$important
+||zvpuoitt.ovh^$important
 ||zvqjjurhikku.com^$important
 ||zvrwttooqgeb.com^$important
 ||zvsjiigao.com^$important
@@ -12094,6 +12172,7 @@
 ||zycvyudt.com^$important
 ||zydfsiuhqkbsqh.com^$important
 ||zyeawuzisttu.com^$important
+||zyerwgu.ovh^$important
 ||zyf03k.xyz^$important
 ||zyfuywrjbxyf.com^$important
 ||zyjjmszszum.bid^$important
