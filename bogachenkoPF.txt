@@ -2485,6 +2485,7 @@ torrent-film.co##[src="/2go.png"]
 @@||cse.google.az^$badfilter
 @@||cse.google.az^$elemhide,badfilter
 @@||cse.google.ba^$badfilter
+||facebook.com/plugins/like.php?href=https%3a%2f%2ffacebook.com%2fimgur&width&layout=button$inline-script,badfilter
 @@||cse.google.ba^$elemhide,badfilter
 ||pornhub.com^$popup,badfilter
 ||yastatic.net/share/$third-party
@@ -2500,6 +2501,7 @@ torrent-film.co##[src="/2go.png"]
 @@||cse.google.bj^$badfilter
 @@||cse.google.bj^$elemhide,badfilter
 @@||cse.google.bs^$badfilter
+||connect.facebook.net^*/fbds.js$third-party,domain=~facebook.com|~fb.com,badfilter
 @@||cse.google.bs^$elemhide,badfilter
 @@||cse.google.bt^$badfilter
 @@||cse.google.bt^$elemhide,badfilter
