@@ -2486,6 +2486,9 @@ torrent-film.co##[src="/2go.png"]
 @@||cse.google.az^$elemhide,badfilter
 @@||cse.google.ba^$badfilter
 @@||cse.google.ba^$elemhide,badfilter
+||pornhub.com^$popup,badfilter
+||yastatic.net/share/$third-party
+||connect.facebook.net^*/fbds.js$third-party,badfilter
 @@||cse.google.be^$badfilter
 @@||cse.google.be^$elemhide,badfilter
 @@||cse.google.bf^$badfilter
