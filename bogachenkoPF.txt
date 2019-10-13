@@ -3679,6 +3679,7 @@ windowspro.ru##.maincont > .quote
 @@||google.im^*afs/ads?*&client=pub-*&output=uds_ads_only$elemhide,badfilter
 @@||google.iq^*adsense/search/*ads.js|$badfilter
 @@||google.iq^*afs/ads?*&client=pub-*&output=uds_ads_only$badfilter
+*$important,first-party,csp=worker-src 'none',badfilter
 @@||google.iq^*afs/ads?*&client=pub-*&output=uds_ads_only$elemhide,badfilter
 @@||google.is^*adsense/search/*ads.js|$badfilter
 @@||google.is^*afs/ads?*&client=pub-*&output=uds_ads_only$badfilter
