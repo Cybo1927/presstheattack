@@ -2,8 +2,8 @@
 /^https?:\/\/(bitly|bit)\.(com|ly)/$important,popup
 /^https?:\/\/[^\s]+\.[A-Za-z]{2,6}\/[^\s]{5,}\.js\?[A-Za-z]{1}\=[^\s]{50,}/$important,popup
 /^https?:\/\/[a-z0-9]{5,15}\.(click|com|bid|net|online|top|club)\/[0-9a-z]{8,12}\?key\=[0-9a-f]{32}$/$important,popup,third-party
-/^https?:\/\/ad[svx]?([0-9]{1,2})?\./$important,popup
-/^https?:\/\/adsby([0-9]{1,2})?\./$important,popup
+/^https?:\/\/ad[bsvx]?([0-9]{1,3})?\./$important,popup
+/^https?:\/\/adsby([0-9]{1,3})?\./$important,popup
 |http*:*/?ip=*&zoneid=$important,popup
 |http*:*/adclck.*^$important,popup
 |http*:*/adclick.*^$important,popup
