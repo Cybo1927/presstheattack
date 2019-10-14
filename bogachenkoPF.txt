@@ -1769,15 +1769,22 @@ track$important,script,badfilter
 #@#a[title^="Follow us on Instagram"]
 #@#img[alt="facebook"]
 /soc_twitter.$badfilter
+#@#.fa-rss
 /soc_twitter_$badfilter
 /soc_youtube_$badfilter
+facebook.com#@#+js(eremove, .home_right_column\, #page_tv_show_playlists\, #pagelet_page_cover\, #page_tv_show_extra_clips\, #page_photos\, .UFIList\, .photoUfiContainer.rhc\, #fb_stories_card_root, .lpwhe18s.alzwoclg.cqf1kptm.cgu29s5g.jcxyg2ei\, .alzwoclg.g4qalytl.oxkhqvkx.r5g9zsuq.nch0832m.hsphh064 > .cgu29s5g:nth-of-type(1))
 /sociables/*$badfilter
+||fili.cc^$badfilter
 /social-16px-$badfilter
 /social-48/*$badfilter
 /social-bookmarks/*$badfilter
 /social-buttons.$badfilter
 /social-facebook-$badfilter
+#@#.social-listing:not(html):not(body)
 /social-facebook.$badfilter
+#@#.block-social-media
+#@#.social-share-menu
+#@##share-button
 /social-fb.$badfilter
 /social-icon-$badfilter
 /social-icon-$~font,badfilter
@@ -2493,7 +2500,6 @@ torrent-film.co##[src="/2go.png"]
 @@||cse.google.ba^$elemhide,badfilter
 ||pornhub.com^$popup,badfilter
 ||yastatic.net/share/$third-party
-||connect.facebook.net^*/fbds.js$third-party,badfilter
 @@||cse.google.be^$badfilter
 @@||cse.google.be^$elemhide,badfilter
 @@||cse.google.bf^$badfilter
@@ -2505,7 +2511,6 @@ torrent-film.co##[src="/2go.png"]
 @@||cse.google.bj^$badfilter
 @@||cse.google.bj^$elemhide,badfilter
 @@||cse.google.bs^$badfilter
-||connect.facebook.net^*/fbds.js$third-party,domain=~facebook.com|~fb.com,badfilter
 @@||cse.google.bs^$elemhide,badfilter
 @@||cse.google.bt^$badfilter
 @@||cse.google.bt^$elemhide,badfilter
@@ -2951,7 +2956,6 @@ com#@#html:style(cursor: unset !important)
 @@||ebay.fr^$elemhide,badfilter
 @@||ebay.ie^$elemhide,badfilter
 @@||ebay.in^$elemhide,badfilter
-||connect.facebook.net^$important,badfilter
 /ad/*$badfilter
 @@||ebay.it^$elemhide,badfilter
 #@#div#disqus_thread
@@ -5897,8 +5901,8 @@ google.com#@#div#tvcap
 |http:*^ad3^$badfilter
 |http:*^ad3_$badfilter
 |http:*^ad4-$badfilter
+*$first-party,csp=worker-src 'none',badfilter
 |http:*^ad4.$badfilter
-||connect.facebook.net^$third-party,domain=~facebook.com|~fb.com,badfilter
 |http:*^ad4^$badfilter
 |http:*^ad4_$badfilter
 |http:*^ad5-$badfilter
@@ -5910,7 +5914,7 @@ google.com#@#div#tvcap
 |http:*^ad6^$badfilter
 |http:*^ad6_$badfilter
 ||chatango.com^$important,badfilter
-||connect.facebook.net^$important,script,badfilter
+||connect.facebook.net^$important
 ||chatango.com^$badfilter
 ||platform.twitter.com/js/button.$important,badfilter
 ||platform.twitter.com/js/button.$important,third-party,badfilter
@@ -6212,7 +6216,6 @@ stats$important,script,badfilter
 ||cloudflare.com/ajax/libs/cookieconsent2/$badfilter
 ||cloudfront.net/*/facebook.png$badfilter
 ||collections.yandex.ru/collections/api^$important
-||connect.facebook.net^$badfilter
 ||consent.truste.com^$badfilter
 ||cse.google.com^$important,badfilter
 ||csp.yandex.net^$important
@@ -6300,7 +6303,6 @@ stats$important,script,badfilter
 ||gravatar.com^$important,third-party,badfilter
 ||gstatic.com/*/cleardot.gif$important,badfilter
 ||gstatic.com/kpui/social/$important,badfilter
-facebook.com#@#+js(eremove, .home_right_column\, #page_tv_show_playlists\, #pagelet_page_cover\, #page_tv_show_extra_clips\, #page_photos\, .UFIList\, .photoUfiContainer.rhc\, #fb_stories_card_root)
 advertisement$important,script,badfilter
 ||gstatic.com/safebrowsing^$important
 ||mp4upload.com^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' *.jwpcdn.com *.googleapis.com www.mp4upload.com,badfilter
