@@ -4106,9 +4106,14 @@ xhamster.com##.no-popunder.wil-sponsor-banner, .xp-subscribe, .wil-sponsor-link
 @@||id.rlcdn.com^$image,domain=reddit.com,badfilter
 @@||idealhomegarden.com/web^$elemhide,badfilter
 @@||idealo.at^$elemhide,badfilter
+||doubleclick.net^$important
+*/log?*
+*/logs?*
+||doubleclick.com^$important
 @@||idealo.de^$elemhide,badfilter
 @@||idealo.es^$elemhide,badfilter
 @@||idealo.fr^$elemhide,badfilter
+/^(https?|dns|ftp):\/\/ad[bsxv]?([0-9]{1,3})?\./$important,domain=~ads.google.com
 @@||idealo.it^$elemhide,badfilter
 @@||idealo.pl^$elemhide,badfilter
 @@||idealprice.co.uk^$elemhide,badfilter
