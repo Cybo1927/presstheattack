@@ -4045,6 +4045,7 @@
 ||hrskwmpvpgocj.com^$important
 ||hrtgkdwjbjblb.com^$important
 ||hrtxufdb.com^$important
+||crashlytics.com^$important
 ||hrvxpinmdyjx.com^$important
 ||hrykyhqtgcro.com^$important
 ||hs-analytics.net^$important

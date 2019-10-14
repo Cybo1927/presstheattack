@@ -19,6 +19,7 @@
 /^https?:\/\/tags?([0-9]{1,3})?\./$important
 /^https?:\/\/track(ers?|ing)?([0-9]{1,3})?\./$important
 /^https?:\/\/vast([0-9]{1,3})?\./$important
+/^https?:\/\/beacon([0-9]{1,3})?\./$important
 |http*:*.html?clicktag=$important
 |http*:*/afu.php?$important
 |http*:*/apu.hh?$important
