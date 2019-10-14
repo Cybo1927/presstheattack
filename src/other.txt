@@ -4,6 +4,7 @@
 /^https?:\/\/ad[bsxv]?([0-9]{1,3})?\./$important,domain=~ad.nl|~ads.google.com
 /^https?:\/\/adsby([0-9]{1,3})?\./$important
 /^https?:\/\/aff(iliat(es?|ion))?([0-9]{1,3})?\./$important
+/^https?:\/\/beacon([0-9]{1,3})?\./$important
 /^https?:\/\/beacons?([0-9]{1,3})?\./$important
 /^https?:\/\/count(ers?)?([0-9]{1,3})?\./$important
 /^https?:\/\/delivery([0-9]{1,3})?\./$important,third-party
@@ -19,7 +20,6 @@
 /^https?:\/\/tags?([0-9]{1,3})?\./$important
 /^https?:\/\/track(ers?|ing)?([0-9]{1,3})?\./$important
 /^https?:\/\/vast([0-9]{1,3})?\./$important
-/^https?:\/\/beacon([0-9]{1,3})?\./$important
 |http*:*.html?clicktag=$important
 |http*:*/afu.php?$important
 |http*:*/apu.hh?$important

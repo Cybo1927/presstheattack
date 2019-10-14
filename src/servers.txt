@@ -1719,6 +1719,7 @@
 ||cqzqdoqsgxyf.com^$important
 ||cracwrddcb.com^$important
 ||craptoke.com^$important
+||crashlytics.com^$important
 ||craydark.pw^$important
 ||crazyegg.com^$important
 ||crcewevoy.com^$important
@@ -4045,7 +4046,6 @@
 ||hrskwmpvpgocj.com^$important
 ||hrtgkdwjbjblb.com^$important
 ||hrtxufdb.com^$important
-||crashlytics.com^$important
 ||hrvxpinmdyjx.com^$important
 ||hrykyhqtgcro.com^$important
 ||hs-analytics.net^$important
