@@ -4258,6 +4258,7 @@ xhamster.com##.no-popunder.wil-sponsor-banner, .xp-subscribe, .wil-sponsor-link
 ||beacon86.$important
 ||beacon87.$important
 ||beacon88.$important
+||safebrowsing.googleapis.com^$important
 ||beacon89.$important
 ||beacon90.$important
 ||beacon91.$important
