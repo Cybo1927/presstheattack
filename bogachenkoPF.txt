@@ -3058,6 +3058,7 @@ pixel.$important,image,badfilter
 @@||findhurtig.dk^$elemhide,badfilter
 @@||findsmarter.com^$elemhide,badfilter
 @@||findsmarter.ru^$elemhide,badfilter
+||addthis.com^$third-party,domain=~civilization.com|~imgur.com|~uploadship.com,badfilter
 @@||finecomb.com^$elemhide,badfilter
 @@||finnerask.com^$elemhide,badfilter
 @@||flights24.com^$elemhide,badfilter
