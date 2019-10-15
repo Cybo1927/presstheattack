@@ -28,6 +28,7 @@
 |http*:*?rand=*&blk=$important
 |http*:*?zone_id=$important
 |http*:*?zoneid=$important
+|http*:*/in.php?*&referer=$important
 ||ddns.net^*=ws://$important
 ||ddns.net^*=wss://$important
 ||google.*/ads/$important
