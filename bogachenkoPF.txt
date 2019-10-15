@@ -5994,11 +5994,14 @@ kissanime.ru#@#+js(abort-on-property-read, InitCloseButton)
 |http:*^ad7_$badfilter
 ||addthis.com^$important,third-party,domain=~missingkids.com|~missingkids.org|~sainsburys.jobs|~sitecore.com|~serialomaniak.pl,badfilter
 |http:*^ad8-$badfilter
+||addthis.com^$badfilter
 |http:*^ad8.$badfilter
 |http:*^ad8^$badfilter
+||kissanime.ru^$subdocument,~third-party,important
 |http:*^ad8_$badfilter
 @@/js/ads.js|$1p,script,domain=~internethaber.com,badfilter
 |http:*^ad9-$badfilter
+rapidvid.to#@#+js(addEventListener-defuser, contextmenu, preventDefault)
 |http:*^ad9.$badfilter
 mp4upload.com#@#+js(set-innerHTML, #cub, <button id="downloadbtn" class="downloadbtn"><span class="bicon"><img class="vanb" src="https://www.mp4upload.com/images/icon_f_btn_download_b.png"><img class="barrow van move-bot" src="https://www.mp4upload.com/images/icon_ardown.png"></span><span class="btext">Download</span></button>)
 mp4upload.com#@#+js(abort-current-inline-script, GoogleAnalyticsObject)
