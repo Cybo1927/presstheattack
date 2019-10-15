@@ -38,7 +38,6 @@ kinogo.*,torrent-filmi.xyz,kinoframe.net,filmitorrent.xyz,hdfilms.zone##body:sty
 #@#a[href^="https://www.facebook.com/sharer.php?"]
 #@#a[href^="https://www.facebook.com/sharer.php"]
 #@#.ytp-share-button
-.*\/video\-js\/vast([0-9]{1})?\/$important
 #@#a[title="Tumblr"]
 #@#.mc-share-toggle
 #@#*[class$="_ad"]
@@ -3977,7 +3976,14 @@ windowspro.ru##.maincont > .quote
 #@#*[id$="-ads"]
 /prebid$important,script,badfilter
 @@.com/ads.js$1p,script,badfilter
+#@##follow_facebook
+#@##follow_twitter
+#@#.follow_twitter
+#@#.share_facebook
+#@#.share_linkedin
+#@#.share_twitter
 @@||homelidays.es^$elemhide,badfilter
+/blank.$important,image,badfilter
 @@||homelidays.fr^$elemhide,badfilter
 @@||homelidays.it^$elemhide,badfilter
 @@||homelidays.nl^$elemhide,badfilter
@@ -5008,7 +5014,7 @@ github.com#@#.is-stuck.gh-header-sticky.top-0.js-sticky-offset-scroll.js-sticky
 ||streamcherry.com/assets/js/script$important,badfilter
 ||streamcherry.com/assets/js/license$important,badfilter
 @@||spardeingeld.de^$elemhide,badfilter
-/^https?:\/\/[^\s]+\/vast([0-9]{1,2})?\//$important
+/^https?:\/\/[^\s]+\/vast([.0-9-]{1,10})?(\/|js)/$important
 @@||sparkfacts.com/?s=$elemhide,badfilter
 @@||sport-king.com^$elemhide,badfilter
 @@||stahuj.centrum.cz^$elemhide,badfilter
@@ -5620,7 +5626,7 @@ freebitco.in##.reveal-modal-bg, #myModal22, #deposit_promo_message_regular > .de
 giphy.com#@#div[class^="flash-message"]
 github.com##.border-bottom.hide-sm.hide-md.hide-lg.mt-5.pr-3.col-lg-3.col-md-3.col-12.team-left-column, .border-bottom.hide-sm.hide-md.hide-lg.mt-5.pr-5.col-lg-3.col-md-3.col-12.team-left-column, .js-banner.border-gray-light.border.rounded-1.text-center.p-4.content, .js-notice-dismiss
 github.com#@#.modal-backdrop
-youtube.com#@#+js(eremove, #watch-action-panels\, #chat\, .ytp-ce-covering-overlay\, .subscribecard-endscreen\, .ytp-ce-element\, #ytd-promoted-video-renderer\, #watch-sidebar-live-chat\, #pla-shelf\, .yt-uix-expander-collapsed.live-chat-expander.yt-uix-expander\, .hats-categorical-style-vertical\, #movie-upsell-card\, .yt-lockup-movie-vertical-poster.yt-lockup-tile.yt-lockup\, .style-default.force-icon-button.ytd-menu-renderer.style-scope\, #sponsor-button\, .ytp-miniplayer-button\, .ytd-metadata-row-header-renderer.style-scope\ .html5-stop-propagation.ytp-drawer\, #masthead-ad\, #ticker.ytd-masthead\, #merch-shelf\, #offer-module\, .ytp-cards-teaser\, .ytp-paid-content-overlay\, .ytp-pause-overlay\, .ytp-title-channel\, #comments)
+youtube.com#@#+js(eremove, #watch-action-panels\, #chat\, .ytp-ce-covering-overlay\, .subscribecard-endscreen\, .ytp-ce-element\, #ytd-promoted-video-renderer\, #watch-sidebar-live-chat\, #pla-shelf\, .yt-uix-expander-collapsed.live-chat-expander.yt-uix-expander\, .hats-categorical-style-vertical\, #movie-upsell-card\, .yt-lockup-movie-vertical-poster.yt-lockup-tile.yt-lockup\, .style-default.force-icon-button.ytd-menu-renderer.style-scope\, #sponsor-button\, .ytp-miniplayer-button\, .ytd-metadata-row-header-renderer.style-scope\ .html5-stop-propagation.ytp-drawer\, #masthead-ad\, #ticker.ytd-masthead\, #merch-shelf\, #offer-module\, .ytp-cards-teaser\, .ytp-paid-content-overlay\, .ytp-pause-overlay\, .ytp-title-channel\, #comments\, ytd-button-renderer.size-default.style-default.force-icon-button.ytd-menu-renderer.style-scope)
 google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 health.mail.ru##.pm-toolbar__separator_last-in-group.pm-toolbar__separator.js-separator
@@ -5628,6 +5634,7 @@ http://ads.*/$domain=~mail.yahoo.com|~docs.yahoo.com|~finance.yahoo.com|~telerad
 infourok.ru###aa-popup
 infourok.ru##+js(addEventListener-defuser.js, focus)
 infourok.ru##+js(addEventListener-defuser.js, focus, trigger)
+#@#.b-footer__social
 ||uptolike.com^$3p,badfilter
 infourok.ru##+js(set-constant.js, monitorFocus, noopFunc)
 infourok.ru,bogachenko.github.io,torrent-filmi.xyz,waaw.tv,123movies.*,ros-met.com,hdfilms.zone,kinohd-online.club,filmy-onlain.net,vio.to,luxfilm.net,xartmanfilms.ru,kinobot.club,kinoangel.net,tvfru.ru,kino-top1.net,lookmix.org,lamafilm.club##+js(mousedef2.js)
