@@ -5910,6 +5910,7 @@ openload.co#@#+js(abort-current-inline-script, $, contextmenu)
 |http:*.ad5.$badfilter
 |http:*.ad5^$badfilter
 ||sharethis.com^$badfilter
+||ws.sharethis.com^$badfilter
 #@#a[title="Pinterest"]
 #@#a[title="Google+"]
 kimcartoon.to#@#+js(setTimeout-defuser, adbWarnContainer)
@@ -5927,6 +5928,8 @@ kimcartoon.to#@#+js(eremove, .w-right\, #hideAds\, .videoAdClose\, .kcAds\, .ale
 |http:*.ad7_$badfilter
 |http:*.ad8-$badfilter
 |http:*.ad8.$badfilter
+||readcomiconline.to^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' disqus.com *.disqus.com *.disquscdn.com data:;frame-src disqus.com,badfilter
+||readcomiconline.to^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.bp.blogspot.com,badfilter
 |http:*.ad8^$badfilter
 |http:*.ad8_$badfilter
 |http:*.ad9-$badfilter
@@ -5936,6 +5939,14 @@ kimcartoon.to#@#+js(eremove, .w-right\, #hideAds\, .videoAdClose\, .kcAds\, .ale
 |http:*^ad0-$badfilter
 |http:*^ad0.$badfilter
 |http:*^ad0^$badfilter
+readcomiconline.to#@#+js(abort-on-property-read, zfgloadednative)
+readcomiconline.to#@#+js(abort-on-property-write, callExo)
+readcomiconline.to#@#+js(setTimeout-defuser, .exo)
+readcomiconline.to#@#+js(setTimeout-defuser, callExo)
+readcomiconline.to#@#+js(set-constant, alb, false)
+readcomiconline.to#@#+js(setTimeout-defuser, innerHTML, 1500)
+readcomiconline.to#@#+js(abort-current-inline-script, atob)
+readcomiconline.to#@#+js(abort-current-inline-script, GoogleAnalyticsObject)
 |http:*^ad0_$badfilter
 |http:*^ad1-$badfilter
 |http:*^ad1.$badfilter
