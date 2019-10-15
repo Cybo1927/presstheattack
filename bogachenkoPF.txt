@@ -5961,7 +5961,6 @@ readcomiconline.to#@#+js(abort-current-inline-script, GoogleAnalyticsObject)
 |http:*^ad3^$badfilter
 |http:*^ad3_$badfilter
 kissanime.ru#@#+js(eremove, #btnShowComments\, strong\, .videoAdClose\, .divCloseBut\, .bigBarContainer div[id^="adsIfrme"]\, .adsPositioning\, [style*="width: 300px; height: 250px"]\, [href*="/ads/"])
-kissanime.ru#@#+js(abort-on-property-read, InitCloseButton)
 |http:*^ad4-$badfilter
 ||ws.sharethis.com^$third-party,badfilter
 *$first-party,csp=worker-src 'none',badfilter
@@ -5969,6 +5968,7 @@ kissanime.ru#@#+js(abort-on-property-read, InitCloseButton)
 |http:*^ad4^$badfilter
 |http:*^ad4_$badfilter
 |http:*^ad5-$badfilter
+||s7.addthis.com^$badfilter
 |http:*^ad5.$badfilter
 ||kissanime.ru^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' disqus.com *.disqus.com *.disquscdn.com data:;frame-src *.rapidvideo.com streamango.com openload.co disqus.com,badfilter
 ||kissanime.ru^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: myanimelist.cdn-dena.com i.imgur.com *.rapidvideo.com *.playercdn.net openload.co oload.cloud *.oloadcdn.net streamango.com *.fruithosted.net *.fbcdn.net *.mp4upload.com *.rapidvid.to *.novelplanet.me;media-src *;upgrade-insecure-requests,badfilter
