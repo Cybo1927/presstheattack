@@ -5909,8 +5909,10 @@ openload.co#@#+js(abort-current-inline-script, $, contextmenu)
 |http:*.ad5-$badfilter
 |http:*.ad5.$badfilter
 |http:*.ad5^$badfilter
+||sharethis.com^$badfilter
 #@#a[title="Pinterest"]
 #@#a[title="Google+"]
+kimcartoon.to#@#+js(setTimeout-defuser, adbWarnContainer)
 |http:*.ad5_$badfilter
 |http:*.ad6-$badfilter
 ||rapidvid.*^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: static.rapidvideo.com *.playercdn.net cdnjs.cloudflare.com;upgrade-insecure-requests,badfilter
