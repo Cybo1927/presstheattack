@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-10-15 10:45:28
-! Version: 20191015104528
+! Last modified: 2019-10-15 18:58:36
+! Version: 20191015185836
 ! Expires: 3 hours
-! Number of filters: 12341
+! Number of filters: 12347
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -112,6 +112,7 @@
 |http*:*/grstat?$image,important
 |http*:*/hads-ak-prn*/*.png$image,important
 |http*:*/iframe.php?spotid=$important,subdocument
+|http*:*/in.php?*&referer=$important
 |http*:*/metrixEvents.js$important,script
 |http*:*/ntfc.php?$important
 |http*:*/pagead/$important
@@ -5346,6 +5347,7 @@
 ||knyqnoozhcvrkc.bid^$important
 ||koamxmikmuhahc.com^$important
 ||kofeereb.com^$important
+||koindut.com^$important
 ||kokqhnybnhdr.bid^$important
 ||kolesojackpot3.com^$important
 ||komfveajdx.bid^$important
@@ -5681,6 +5683,7 @@
 ||lijit.com^$important
 ||lilncsqapikckt.com^$important
 ||linetotime2.agency^$important
+||linkbucksmedia.com^$important
 ||linnates.info^$important
 ||liqbipkfbafq.com^$important
 ||liquorumladiom.info^$important
@@ -6709,6 +6712,7 @@
 ||noonshdnkt.bid^$important
 ||norepeal.org^$important
 ||normygvd.bid^$important
+||norteevu.com^$important
 ||notify-service.com^$important
 ||notify.support^$important
 ||notqlzafzch.bid^$important
@@ -7254,6 +7258,7 @@
 ||ozwtmmcdglos.com^$important
 ||ozyjicurrutehe.bid^$important
 ||ozymwqsycimr.com^$important
+||padsbrown.com^$important
 ||paecbeeavmopbl.com^$important
 ||paegcsvchsdlbj.com^$important
 ||pafovocg.bid^$important
@@ -7676,6 +7681,7 @@
 ||pushno.com^$important
 ||pushofferpro.com^$important
 ||pushpad.xyz^$important
+||pushqwer.com^$important
 ||pushrase.com^$important
 ||pushsar.com^$important
 ||pushtora.com^$important

@@ -23,12 +23,12 @@
 |http*:*.html?clicktag=$important
 |http*:*/afu.php?$important
 |http*:*/apu.hh?$important
+|http*:*/in.php?*&referer=$important
 |http*:*/ntfc.php?$important
 |http*:*/pagead/$important
 |http*:*?rand=*&blk=$important
 |http*:*?zone_id=$important
 |http*:*?zoneid=$important
-|http*:*/in.php?*&referer=$important
 ||ddns.net^*=ws://$important
 ||ddns.net^*=wss://$important
 ||google.*/ads/$important
