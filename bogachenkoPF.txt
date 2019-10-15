@@ -108,6 +108,7 @@ torrentfilm.me##[src="/img/mgt.png"]
 #@#.facebook_share_count
 #@#a[title="Share on Twitter"]
 #@#.cactus-share-and-like
+||sharethis.com^$important,badfilter
 #@#a[href^="whatsapp://send"]
 #@#a[href^="whatsapp://send?text="]
 #@##subFooterSocial
@@ -1273,6 +1274,11 @@ track$important,script,badfilter
 /icons/linkedin_$badfilter
 /icons/myspace_$badfilter
 /icons/newsletter$badfilter
+streamango.com#@#+js(addEventListener-defuser, DOMMouseScroll)
+streamango.com#@#+js(abort-current-inline-script, $, contextmenu)
+streamango.com#@#+js(abort-on-property-write, _0xd959)
+streamango.com#@#+js(abort-current-inline-script, isSandboxed, fruitadblock)
+streamango.com#@#+js(aeld, contextmenu)
 /icons/newsletter/*$badfilter
 /icons/pinterest$badfilter
 /icons/qq_$badfilter
@@ -5698,8 +5704,9 @@ reddit.com#@#._3RPJ8hHnfFohktLZca18J6
 reddit.com#@#div[id^="sidebar-atf-"]
 reddit.com#@#div[id^="sidebar-btf"]
 reddit.com#@#div[id^="sidebar-btf-"]
-streamcherry.com,rapidvideo.com,openload.*,oload.*,openloed.*,oladblock.*,verystream.com,gounlimited.to##+js(addEventListener-defuser, contextmenu)
+streamcherry.com,rapidvideo.com,openload.*,oload.*,openloed.*,oladblock.*,verystream.com,gounlimited.to,streamango.com##+js(addEventListener-defuser, contextmenu)
 translate.ru##.topAdv.row
+kimcartoon.to#@##divContentVideo,#my_video_1:style(width: 1016px !important)
 translate.yandex.ru###collectionsWrapper > .overlay-content, .container_rubber_footer, .button_icon_collections.button_icon.button
 tv.yandex.ru##+js(abort-on-property-read.js, navigator.sendBeacon)
 tv.yandex.ru##:xpath(//div[@class='grid-chunk__column-box'])
@@ -5893,6 +5900,12 @@ google.com#@#div#tvcap
 |http:*.ad4.$badfilter
 |http:*.ad4^$badfilter
 |http:*.ad4_$badfilter
+openload.*#@#+js(abort-on-property-read, popAdsLoaded)
+openload.*#@#+js(addEventListener-defuser, wheel)
+openload.co#@#+js(abort-current-inline-script, atob, decodeURIComponent)
+openload.co#@#+js(nano-setInterval-booster)
+openload.co#@#+js(aeld, contextmenu)
+openload.co#@#+js(abort-current-inline-script, $, contextmenu)
 |http:*.ad5-$badfilter
 |http:*.ad5.$badfilter
 |http:*.ad5^$badfilter
@@ -5900,9 +5913,12 @@ google.com#@#div#tvcap
 #@#a[title="Google+"]
 |http:*.ad5_$badfilter
 |http:*.ad6-$badfilter
+||rapidvid.*^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: static.rapidvideo.com *.playercdn.net cdnjs.cloudflare.com;upgrade-insecure-requests,badfilter
 |http:*.ad6.$badfilter
 |http:*.ad6^$badfilter
 |http:*.ad6_$badfilter
+||kimcartoon.to^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.zencdn.net *.rapidvideo.com *.rapidvideo.is *.playercdn.net openload.co *.oloadcdn.net streamango.com code.jquery.com *.fruithosted.net i.imgur.com *.bp.blogspot.com *.googleusercontent.com *.googlevideo.com upload.wikimedia.org *.fbcdn.net *.apps.fbsbx.com *.luxubu.review,badfilter
+kimcartoon.to#@#+js(eremove, .w-right\, #hideAds\, .videoAdClose\, .kcAds\, .alert-info.alert\, .mb15.full\, #btnShowComments\, #videoAd\, #divComments\, #disqus_thread\, .twitter-follow-button\, [id*="ScriptRoot"]\, #adbWarnContainer\, #msg\, .barContent > div > div[style^="width: 300px; height: 250px; float: left;"])
 |http:*.ad7-$badfilter
 |http:*.ad7.$badfilter
 |http:*.ad7^$badfilter
