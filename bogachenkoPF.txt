@@ -3063,6 +3063,7 @@ pixel.$important,image,badfilter
 @@||finnerask.com^$elemhide,badfilter
 @@||flights24.com^$elemhide,badfilter
 @@||flights24.ie^$elemhide,badfilter
+||gounlimited.to^$badfilter
 @@||fluege.de^$elemhide,badfilter
 @@||flug24.at^$elemhide,badfilter
 @@||flug24.de^$elemhide,badfilter
@@ -6010,6 +6011,11 @@ mp4upload.com#@#+js(abort-current-inline-script, GoogleAnalyticsObject)
 |http:*^ad9_$badfilter
 |http:*_ad0-$badfilter
 |http:*_ad0.$badfilter
+||gounlimited.to^$badfilter
+||yastatic.net^*/widget_ya.js$badfilter
+vivo.sx#@#+js(aeld, , preventDefault)
+vivo.sx#@#+js(abort-on-property-read, WebAssembly)
+||sharethis.com^$third-party,script,badfilter
 |http:*_ad0^$badfilter
 |http:*_ad0_$badfilter
 |http:*_ad1-$badfilter
