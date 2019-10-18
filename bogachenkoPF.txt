@@ -600,6 +600,8 @@ wp.pl#@#body > script + iframe + div:not([id])[class]
 /bookmarkcraze_$badfilter
 /bottom-facebook.$badfilter
 /bottom-twitter.$badfilter
+/^https?:\/\/(www\.)?kinopoisk\.ru\/[^\s]{650,}/$subdocument,~third-party
+@@/^https?:\/\/(www\.)?kinopoisk\.ru\/[^\s]{650,}\?noAd\=/$subdocument,~third-party
 /bt_facebook_$badfilter
 /bt_g_facebook_$badfilter
 /bt_g_twitter_$badfilter
@@ -608,7 +610,6 @@ wp.pl#@#body > script + iframe + div:not([id])[class]
 /btn-email.$badfilter
 /btn-facebook-$badfilter
 /btn-facebook.$badfilter
-/^https?:\/\/bann?ers?([0-9]{1,3})?\./$important
 /btn-googleplus-$badfilter
 /btn-rss-$badfilter
 /btn-rss.$badfilter
@@ -5056,7 +5057,7 @@ github.com#@#.is-stuck.gh-header-sticky.top-0.js-sticky-offset-scroll.js-sticky
 ||streamcherry.com/assets/js/script$important,badfilter
 ||streamcherry.com/assets/js/license$important,badfilter
 @@||spardeingeld.de^$elemhide,badfilter
-/^https?:\/\/[^\s]+\/vast([.0-9-]{1,10})?(\/|js)/$important
+/^https?:\/\/[^\s]+\/vast([.0-9-]{1,10})?([/.-?]|js)/$important
 @@||sparkfacts.com/?s=$elemhide,badfilter
 @@||sport-king.com^$elemhide,badfilter
 @@||stahuj.centrum.cz^$elemhide,badfilter
