@@ -520,13 +520,16 @@ utorrentfilmi.ru##[href^="//vip.utorrentfilmi.ru/"]
 /Twitter_48$badfilter
 #@#[id~=comments-list]
 /Twitter_button$badfilter
+||9anime.*^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.9anime.ru *.9anime.to *.akacdn.ru *.blogspot.com *.googleusercontent.com ajax.googleapis.com ssl.p.jwpcdn.com *.rapidvideo.com rapidvid.to *.playercdn.net openload.co openload.pw oload.stream *.oloadcdn.net mcloud.to *.mcloud.to streamango.com *.fruithosted.net *.mp4upload.com prettyfast.to;upgrade-insecure-requests,badfilter
 /Twitter_social.$badfilter
 /Twittericon_$badfilter
 /Youicon.$badfilter
 /Youtube-Buttons.$badfilter
+||*$csp=worker-src 'none',badfilter
 /^https?:\/\/[^\s]+\/[a-zA-Z0-9]{1}\.js$/$script,image
 /Youtube-icon-$badfilter
 /Youtube-icon_$badfilter
+9anime.*#@#+js(eremove, .popover\, #tags\, .hd-buttons.row\, #comment\, .comment.widget > .widget-title\, .comment.widget > .widget-body\, .socials\, .twitter-follow-button\, .sticky\, .share\, .text-center.crop.widget\, .text-center.widget\, .azlist\, .mb20\, [href*="twitter.com"]\, .alert\, #fb-root)
 adjs*$badfilter
 /\/[-a-zA-Z0-9_]{1}\.gif$/$image,domain=~filmitorrent.xyz,important
 /\.[a-z]{2,4}\/ads\//$image,important
@@ -535,12 +538,16 @@ ads.min$important,script,badfilter
 /^https?:\/\/avatars\.mds\.yandex\.net\/get\-[a-z]{2,6}\/[0-9]{5}\/[^\s]{60,}/$image,domain=yandex.ru|~metrika.yandex.ru
 /^https?:\/\/[a-z]{1}([0-9]{1,2})?\./$script,third-party,domain=~viptube.com|~forbes.com|~speedtest.net|~pinterest.ru|~pinterest.com|~disqus.com
 @@/^https?:\/\/[a-z]{1}([0-9]{1,2})?\.ytimg\.com/$script,third-party
+#@#a[title="RSS"]
+#@#div[id^="vk_group"]
 /^https?:\/\/lh([0-9]{1})\.googleusercontent\.com\/proxy\//$xmlhttprequest,script
 /^https?:\/\/mail\.yandex\.(by|kz|ru|ua)\/[^\s]{200,}/$script,important
 /^https?:\/\/strm\.yandex\.ru\/log/$important
+||9anime.*^$csp=frame-src 'self' *.rapidvideo.com mcloud.to openload.co disqus.com,badfilter
 /^https?:\/\/www\.wp.pl\/[^\s]{470,}\D/$script,domain=wp.pl
 ||.tk^$document,domain=~coolcmd.tk|~budterence.tk|~intr0.tk|~google.tk|~transportnews.tk|~unicorncardlist.tk|~c0d3c.tk|~anonytext.tk|~tokelau-info.tk|~fakaofo.tk|~nukunonu.tk|~loljp-wiki.tk|~ninetail.tk|~goshujin.tk|~graph.tk|~haopro.tk|~ Warning displayed due to: It's a top-level domain that allows free website registration; which made it abused by scammers.,badfilter
 /addthis_widget.$badfilter
+||9anime.*^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' *.jwpcdn.com *.gstatic.com disqus.com *.disqus.com *.disquscdn.com data:,badfilter
 /addtogoogle.$badfilter
 wp.pl##+js(cookie-remover.js)
 wp.pl#@#body > script + iframe + div:not([id])[class]
