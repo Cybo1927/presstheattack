@@ -3,9 +3,8 @@
 /^https?:\/\/(fingerprint|fp)\.([0-9]{1,3})?\./$important
 /^https?:\/\/ad[bsxv]?([0-9]{1,3})?\./$important,domain=~ad.nl|~ads.google.com
 /^https?:\/\/adsby([0-9]{1,3})?\./$important
-/^https?:\/\/aff(iliat(es?|ion))?([0-9]{1,3})?\./$important
+/^https?:\/\/aff(iliat(es?|ion))([0-9]{1,3})?\./$important
 /^https?:\/\/bann?ers?([0-9]{1,3})?\./$important
-/^https?:\/\/beacon([0-9]{1,3})?\./$important
 /^https?:\/\/beacons?([0-9]{1,3})?\./$important
 /^https?:\/\/count(ers?)?([0-9]{1,3})?\./$important
 /^https?:\/\/delivery([0-9]{1,3})?\./$important,third-party
@@ -16,7 +15,7 @@
 /^https?:\/\/partners?([0-9]{1,3})?\./$important
 /^https?:\/\/pi?xe?l?\.([0-9]{1,3})?\./$important
 /^https?:\/\/re[ck]lam(a|s|er)?([0-9]{1,3})?\./$important
-/^https?:\/\/s?metric[as]?([0-9]{1,3})?\./$important,domain=~metrica.yandex.com|~metrica.yandex.ru|~metrika.yandex.com|~metrika.yandex.ru
+/^https?:\/\/([a-z]{1})?metric[as]?([0-9]{1,3})?\./$important,domain=~metrica.yandex.com|~metrica.yandex.ru|~metrika.yandex.com|~metrika.yandex.ru
 /^https?:\/\/stat(s|istics?)?([0-9]{1,3})?\./$important
 /^https?:\/\/tags?([0-9]{1,3})?\./$important
 /^https?:\/\/track(ers?|ing)?([0-9]{1,3})?\./$important
