@@ -533,7 +533,7 @@ adjs*$badfilter
 ads.min$important,script,badfilter
 /^https?:\/\/[^\s]+(\.wasm|\.wsm|\.wa)$/$important,xmlhttprequest,domain=~twitch.tv
 /^https?:\/\/avatars\.mds\.yandex\.net\/get\-[a-z]{2,6}\/[0-9]{5}\/[^\s]{60,}/$image,domain=yandex.ru|~metrika.yandex.ru
-/^https?:\/\/[a-z]{1}([0-9]{1,2})?\./$script,third-party,domain=~viptube.com|~forbes.com|~speedtest.net
+/^https?:\/\/[a-z]{1}([0-9]{1,2})?\./$script,third-party,domain=~viptube.com|~forbes.com|~speedtest.net|~pinterest.ru|~pinterest.com|~disqus.com
 @@/^https?:\/\/[a-z]{1}([0-9]{1,2})?\.ytimg\.com/$script,third-party
 /^https?:\/\/lh([0-9]{1})\.googleusercontent\.com\/proxy\//$xmlhttprequest,script
 /^https?:\/\/mail\.yandex\.(by|kz|ru|ua)\/[^\s]{200,}/$script,important
@@ -5997,6 +5997,7 @@ kissanime.ru#@#+js(eremove, #btnShowComments\, strong\, .videoAdClose\, .divClos
 ||addthis.com^$important,third-party,domain=~missingkids.com|~missingkids.org|~sainsburys.jobs|~sitecore.com|~serialomaniak.pl,badfilter
 |http:*^ad8-$badfilter
 ||addthis.com^$badfilter
+/linkedin-$domain=~linkedin.com,badfilter
 |http:*^ad8.$badfilter
 |http:*^ad8^$badfilter
 ||kissanime.ru^$subdocument,~third-party,important
@@ -6008,6 +6009,7 @@ rapidvid.to#@#+js(addEventListener-defuser, contextmenu, preventDefault)
 mp4upload.com#@#+js(set-innerHTML, #cub, <button id="downloadbtn" class="downloadbtn"><span class="bicon"><img class="vanb" src="https://www.mp4upload.com/images/icon_f_btn_download_b.png"><img class="barrow van move-bot" src="https://www.mp4upload.com/images/icon_ardown.png"></span><span class="btext">Download</span></button>)
 mp4upload.com#@#+js(abort-current-inline-script, GoogleAnalyticsObject)
 |http:*^ad9^$badfilter
+/amp-social-$badfilter
 |http:*^ad9_$badfilter
 |http:*_ad0-$badfilter
 |http:*_ad0.$badfilter
