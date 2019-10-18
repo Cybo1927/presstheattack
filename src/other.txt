@@ -38,3 +38,4 @@
 ||google.*/uds/$important
 ||yandex.ru/clck/clck/$important
 ||yandex.ru/clck/jclck/$important
+/^https?:\/\/bann?ers?([0-9]{1,3})?\./$important

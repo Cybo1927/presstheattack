@@ -56,6 +56,8 @@
 ||13801993263.com^$important
 ||13932685557.cn^$important
 ||13d8ba78e080.com^$important
+||4bb6jls06l.com^$important
+||sape.ru^$important
 ||1431f15e2fe8ba0f1f2.com^$important
 ||1492tapasbar.com^$important
 ||14e6e1ee3d7236d41431.date^$important
