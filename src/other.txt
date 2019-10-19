@@ -25,6 +25,7 @@
 |http*:*/apu.hh?$important
 |http*:*/in.php?*&referer=$important
 |http*:*/ntfc.php?$important
+|http*:*&action=js_stats_$important
 |http*:*/pagead/$important
 |http*:*?rand=*&blk=$important
 |http*:*?zone_id=$important
