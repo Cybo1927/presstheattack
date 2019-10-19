@@ -1,3 +1,4 @@
+/^https?:\/\/(?!disqus\.)([a-z]+)\.(click|club|com|info|online|pro|space|top)\/([0-9a-zA-Z\+\/]){400,460}/$important,subdocument,third-party,xmlhttprequest
 /^https?:\/\/[^\s]+[!"#$%&'()*+,:;<=>?@/\^_`{|}~-](fingerprint|fp)([0-9]{1,3})?(\.min)?\.js/$image,important,script,xmlhttprequest
 /^https?:\/\/[^\s]+[!"#$%&'()*+,:;<=>?@/\^_`{|}~-](player|client|csi|gen(erate)?|stream|logs?|live)[!"#$%&'()*+,:;<=>?@/\^_`{|}~-]?204\??/$image,important,other,xmlhttprequest
 /^https?:\/\/[^\s]+[!"#$%&'()*+,:;<=>?@/\^_`{|}~-]1x1\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|heic|heif|webp|jxr|wdp|dng|cr2|arw|js|html?)/$image,important,script,subdocument
@@ -8,4 +9,3 @@
 |http*:*/www/*&zoneid=$image,important,script,xmlhttprequest
 |http*:*/xti.php^$important,script,xmlhttprequest,domain=facebook.com|facebookcorewwwi.onion
 ||youtube.com/api/stats/$image,important,other,xmlhttprequest
-/^https?:\/\/(?!disqus\.)([a-z]+)\.(click|club|com|info|online|pro|space|top)\/([0-9a-zA-Z\+\/]){400,460}/$subdocument,third-party,xmlhttprequest,important
