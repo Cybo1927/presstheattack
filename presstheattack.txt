@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-10-19 19:13:10
-! Version: 20191019191310
+! Last modified: 2019-10-19 23:12:22
+! Version: 20191019231222
 ! Expires: 3 hours
-! Number of filters: 12359
+! Number of filters: 12361
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -2773,7 +2773,6 @@
 ||esrpxyahzna.bid^$important
 ||estat.com^$important
 ||estcontentdelivery.info^$important
-||estream.to^$important
 ||esundpxbixeqgu.com^$important
 ||esznfpbro.com^$important
 ||eszpmsipks.com^$important
@@ -5940,6 +5939,7 @@
 ||lwfvrhlqzjseyu.com^$important
 ||lwjzsigenxsl.com^$important
 ||lwljmcved.bid^$important
+||lwmwrsfzm.com^$important
 ||lwmxykibvt.bid^$important
 ||lwnpbwds.bid^$important
 ||lwocvazxfnuj.com^$important
@@ -6860,6 +6860,7 @@
 ||nzbtvquutdr.com^$important
 ||nzcpdaboaayv.com^$important
 ||nzkjbazl.com^$important
+||nzlydrgumirn.com^$important
 ||nzssjqjv.bid^$important
 ||nzvbcznobb.com^$important
 ||nzwwrvywcfqmsq.com^$important
@@ -9169,6 +9170,7 @@
 ||taulevoa.com^$important
 ||tauptaup.com^$important
 ||tawiqiauikutwo.com^$important
+||tawk.to^$important
 ||tazvowjqekha.com^$important
 ||tbcn-logistics.com^$important
 ||tbeouuheoyl.com^$important
