@@ -56,9 +56,9 @@ torrent-solid.ru##[src="/2019p/777u.gif"]
 #@#*[class^="ads-"]
 filmitorrentom.net##[src="/img/lkj.png"], [src="/img/dfr.png"]
 */js/plyr.min.js$script,first-party
-/^https?:\/\/[^\s]+\/(([a-z]{3,12})?[!"#$%&'()*+,:;<=>?@/\^_`{|}~-]?)?sw\.js/$important,script
+/^https?:\/\/[^\s]+\/(([_a-z-]{3,12})?[!"#$%&'()*+,:;<=>?@/\^_`{|}~-]?)?sw\.js/$important,script
 /^https?:\/\/[^\s]+\/sw([!"#$%&'()*+,:;<=>?@/\^_`{|}~-]?([_a-z0-9-.]{1,10})?)?\.js/$important,script
-/\/(([_a-z-]{3,9})?[!"#$%&'()*+,:;<=>?@/\^_`{|}~-]?)?worker(.*)?\.js/$important,script,domain=~twitch.tv|~google.com
+/\/(([_a-z-]{3,12})?[!"#$%&'()*+,:;<=>?@/\^_`{|}~-]?)?worker(.*)?\.js/$important,script,domain=~twitch.tv|~google.com
 /^https?:\/\/[^\s]+\/worker([!"#$%&'()*+,:;<=>?@/\^_`{|}~-]?([a-z]{5,6})?)?\.js/$important,script
 |http*:*/yads-async.js$important,script
 #@#.social-icons
@@ -1733,9 +1733,34 @@ onlystream.tv#@#+js(aopr, BetterJsPop)
 /share/facebook.$badfilter
 /share/facebook_$badfilter
 /share/icon_$badfilter
+animepahe.com#@#+js(abort-current-inline-script, _paq)
+animepahe.com#@#+js(abort-current-inline-script, _pop)
+/advert*$badfilter
 /share/js/*$badfilter
+||bato.to^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' *.cloudflare.com *.bato.to disqus.com *.disqus.com *.disquscdn.com data:,badfilter
+||rulu.co^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' s0.wp.com *.jquery.com disqus.com *.disqus.com *.disquscdn.com data:,badfilter
+rulu.co#@#+js(abort-current-inline-script, _stq)
+rulu.co#@#+js(abort-current-inline-script, document.write)
+rulu.co#@#+js(abort-current-inline-script, String.fromCharCode)
+rulu.co#@#+js(setTimeout-defuser, adsBox, 200)
+#@#*[id^="ad_"]
+#@#*[id^="ad7"]
+#@#*[id^="ad0"]
+#@#*[id="ads"]
+#@#*[id^="ad_"]
+#@#*[id^="ad7"]
+#@#*[id^="ad0"]
+#@#*[id="ads"]
 /share/twitter.$badfilter
 /share/twitter_$badfilter
+#@#.nav__item--rss
+#@#.news__share
+#@#.nav--social
+gogoanime.*#@#+js(setTimeout-defuser, o(), 1)
+gogoanime.*#@#+js(abort-current-inline-script, NREUM)
+streamlord.com#@#+js(abort-current-inline-script, $_Tawk_API)
+#@#div.fb-comments
+streamlord.com#@#+js(abort-current-inline-script, GoogleAnalyticsObject)
 /share/youtube_$badfilter
 /shareArrow.$badfilter
 /shareIcons.$badfilter
