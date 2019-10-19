@@ -874,6 +874,10 @@ track$important,script,badfilter
 /fbshare.$badfilter
 /feed2.gif$badfilter
 /feed-16x16.$badfilter
+||hqq.tv/js/video.js/pip/$badfilter
+hqq.tv/js/video.js/airplay/$badfilter
+hqq.tv/js/video.jsshare/$badfilter
+/ads-$domain=~pasteboard.co,badfilter
 /feed-icon-$badfilter
 /feed-rss.$badfilter
 /feed_29.$badfilter
@@ -1598,6 +1602,7 @@ verystream.com#@#+js(abort-on-property-read, adblock)
 /redirect/*$document,badfilter
 hqq.*#@#+js(aopr, adBlockDetected)
 hqq.*#@#+js(aopr, console.clear)
+.sharethis.com/pview?$badfilter
 hqq.*#@#+js(set-constant, sadbl, false)
 hqq.tv#@#+js(setTimeout-defuser, check, 100)
 /retweet-button.$badfilter
