@@ -427,11 +427,21 @@ github.com#@#.col-9:style(width: 100% !important)
 .ads.$document,badfilter
 github.com#@#.u-photo .avatar:style(width: 230px !important)
 github.com#@#.h-card:style(width: 230px; margin-right: 16px)
+/socialicon/*$badfilter
+/stumbleupon.png|$domain=~stumbleupon.com,badfilter
+/images/*linkedin.png$badfilter
+a2zapk.com#@#+js(set-constant, ads, true)
+#@##share-buttons
+#@#.StlyeSocial
+#@#a[href^="https://www.tumblr.com/share/"]
+#@#a[title="Snapchat"]
+unlockapk.com#@#+js(aeld, load, onload)
 github.com#@#.discussion-timeline:style(width: 100% !important)
 github.com#@#.container-xl:style(max-width: none !important)
 github.com#@#.user-profile-sticky-bar
 github.com#@#.commit-desc > .text-small:style(max-width: none !important)
 github.com#@#+js(eremove, .survey-container\, .js-notice-dismiss)
+#@#a[href^="//plus.google.com/share"]
 github.com#@#.repository-content:style(width: 100% !important)
 .ads^$document,badfilter
 .ads_$document,badfilter
@@ -449,14 +459,18 @@ github.com#@#.repository-content:style(width: 100% !important)
 /16x16-newsvine.$badfilter
 github.com#@#.js-discussion:style(width: calc(100vw - 230px) !important)
 github.com#@#.gh-header .sticky-content
+||vk.com/js/api/share.js$third-party,badfilter
 github.com#@#.gh-header .gh-header-shadow.box-shadow
+#@#.social-box
 github.com#@#.repository-content .protip
 github.com#@#.timeline-new-comment:style(max-width: none !important)
 /16x16/facebook_$badfilter
 /16x16/twitter.$badfilter
 /18x18-reddit.$badfilter
+#@#.addthis_sharing_toolbox
 /32-rss.$badfilter
 /32-vk.$badfilter
+piwik$important,script,badfilter
 #@#a.comments-link
 /32_facebook.$badfilter
 /32x32-facebook.$badfilter
