@@ -5035,18 +5035,40 @@ github.com#@#.is-stuck.gh-header-sticky.top-0.js-sticky-offset-scroll.js-sticky
 @@||skyscanner.ru^$elemhide,badfilter
 @@||skyscanner.se^$elemhide,badfilter
 @@||slimvinder.be^$elemhide,badfilter
+#@#.socialbox
+#@#.social-tools-wrapper
+#@#.social-tools
+#@#.social-container
+#@#.googleplus
+#@#.google-plus
+#@#img[alt="Reddit"]
+||kinogo.by/player/*.mp4$media
+#@#img[alt="Pinterest"]
+#@#img[alt="LinkedIn"]
+#@#div[class*="sharebar"]
+#@#a[title="Share via Email"]
+#@#[title="Share on Google Plus"]
 @@||slimvinder.nl^$elemhide,badfilter
 @@||smarter.com/web^$elemhide,badfilter
 @@||smarterdeal.co.uk^$elemhide,badfilter
 @@||smartsearch.de^$elemhide,badfilter
 @@||smartshopping.com^$elemhide,badfilter
+#@#a[title^="Like us on Facebook"]
+#@#a[title^="Follow us on twitter"]
+#@#img[alt="LinkedIn"]
 @@||snapette.com^$elemhide,badfilter
+oload.*#@#+js(std, check)
+oload.*#@#+js(sid, check)
+oload.*#@#+js(abort-current-inline-script, $, contextmenu)
 @@||social.navfox.com^*.cfm?$elemhide,badfilter
 @@||socialwisdomtoday.com/results.php?$elemhide,badfilter
 @@||soeyewear.com/Search/$elemhide,badfilter
 @@||sofree.cc^$elemhide,badfilter
 @@||softc.tw/?s=$elemhide,badfilter
 @@||softonic.cn/s/$elemhide,badfilter
+/light_chat/*$badfilter
+#@#img[title="Facebook"]
+#@#img[title="Twitter"]
 @@||softonic.com.br/s/$elemhide,badfilter
 @@||softonic.com/s/$elemhide,badfilter
 @@||softonic.jp/s/$elemhide,badfilter
@@ -5669,7 +5691,7 @@ freebitco.in##.reveal-modal-bg, #myModal22, #deposit_promo_message_regular > .de
 giphy.com#@#div[class^="flash-message"]
 github.com##.border-bottom.hide-sm.hide-md.hide-lg.mt-5.pr-3.col-lg-3.col-md-3.col-12.team-left-column, .border-bottom.hide-sm.hide-md.hide-lg.mt-5.pr-5.col-lg-3.col-md-3.col-12.team-left-column, .js-banner.border-gray-light.border.rounded-1.text-center.p-4.content, .js-notice-dismiss
 github.com#@#.modal-backdrop
-youtube.com#@#+js(eremove, #watch-action-panels\, #chat\, .ytp-ce-covering-overlay\, .subscribecard-endscreen\, .ytp-ce-element\, #ytd-promoted-video-renderer\, #watch-sidebar-live-chat\, #pla-shelf\, .yt-uix-expander-collapsed.live-chat-expander.yt-uix-expander\, .hats-categorical-style-vertical\, #movie-upsell-card\, .yt-lockup-movie-vertical-poster.yt-lockup-tile.yt-lockup\, .style-default.force-icon-button.ytd-menu-renderer.style-scope\, #sponsor-button\, .ytp-miniplayer-button\, .ytd-metadata-row-header-renderer.style-scope\ .html5-stop-propagation.ytp-drawer\, #masthead-ad\, #ticker.ytd-masthead\, #merch-shelf\, #offer-module\, .ytp-cards-teaser\, .ytp-paid-content-overlay\, .ytp-pause-overlay\, .ytp-title-channel\, #comments\, ytd-button-renderer.size-default.style-default.force-icon-button.ytd-menu-renderer.style-scope)
+youtube.com#@#+js(eremove, #watch-action-panels\, #chat\, .ytp-ce-covering-overlay\, .subscribecard-endscreen\, .ytp-ce-element\, #ytd-promoted-video-renderer\, #watch-sidebar-live-chat\, #pla-shelf\, .yt-uix-expander-collapsed.live-chat-expander.yt-uix-expander\, .hats-categorical-style-vertical\, #movie-upsell-card\, .yt-lockup-movie-vertical-poster.yt-lockup-tile.yt-lockup\, .style-default.force-icon-button.ytd-menu-renderer.style-scope\, #sponsor-button\, .ytp-miniplayer-button\, .ytd-metadata-row-header-renderer.style-scope\ .html5-stop-propagation.ytp-drawer\, #masthead-ad\, #ticker.ytd-masthead\, #merch-shelf\, #offer-module\, .ytp-cards-teaser\, .ytp-paid-content-overlay\, .ytp-pause-overlay\, .ytp-title-channel\, #comments\, ytd-button-renderer.size-default.style-default.force-icon-button.ytd-menu-renderer.style-scope\, .ytd-search-pyv-renderer\, .ytd-promoted-sparkles-text-search-renderer\, .ytd-merch-shelf-renderer\, .ytd-compact-promoted-video-renderer\, .share-panel-services\, .ytp-share-button\, #secondarylinks)
 google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 health.mail.ru##.pm-toolbar__separator_last-in-group.pm-toolbar__separator.js-separator
@@ -6120,8 +6142,11 @@ vivo.sx#@#+js(abort-on-property-read, WebAssembly)
 |https:*.ad0_$badfilter
 |https:*.ad1-$badfilter
 |https:*.ad1.$badfilter
+hxload.*#@#+js(set-constant, iExist, true)
+/plugins/social-$script,badfilter
 |https:*.ad1^$badfilter
 |https:*.ad1_$badfilter
+fembed.com#@#+js(aopr, jwplayer.utils.Timer)
 |https:*.ad2-$badfilter
 |https:*.ad2.$badfilter
 |https:*.ad2^$badfilter
