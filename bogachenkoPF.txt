@@ -455,13 +455,18 @@ github.com#@#.repository-content:style(width: 100% !important)
 .shareaholic-$badfilter
 /16x16-delicious.$badfilter
 /16x16-digg.$badfilter
+#@#button[class*="share-button"]
 /16x16-mixx.$badfilter
 /16x16-newsvine.$badfilter
+||gounlimited.to^$csp=script-src 'self' 'unsafe-eval' 'unsafe-inline' data:,badfilter
+gounlimited.to#@#+js(abort-on-property-read, _0x4aea)
+gounlimited.to#@#+js(acis, $, adb)
 github.com#@#.js-discussion:style(width: calc(100vw - 230px) !important)
 github.com#@#.gh-header .sticky-content
 ||vk.com/js/api/share.js$third-party,badfilter
 github.com#@#.gh-header .gh-header-shadow.box-shadow
 #@#.social-box
+#@#.twitter-link
 github.com#@#.repository-content .protip
 github.com#@#.timeline-new-comment:style(max-width: none !important)
 /16x16/facebook_$badfilter
