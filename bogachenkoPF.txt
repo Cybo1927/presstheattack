@@ -1587,12 +1587,24 @@ streamango.com#@#+js(aeld, contextmenu)
 /red-facebook-$badfilter
 /red-twitter-$badfilter
 /reddit-icon.$badfilter
+||l.sharethis.com^$badfilter
 /reddit.png$badfilter
 /reddit_16.$badfilter
+verystream.com#@#+js(aopr, adblock)
+verystream.com#@#+js(aeld, contextmenu)
+verystream.com#@#+js(nano-setTimeout-booster)
+verystream.com#@#+js(abort-on-property-read, adblock)
 /reddit_32.$badfilter
 /redirect/*$document,badfilter
+hqq.*#@#+js(aopr, adBlockDetected)
+hqq.*#@#+js(aopr, console.clear)
+hqq.*#@#+js(set-constant, sadbl, false)
+hqq.tv#@#+js(setTimeout-defuser, check, 100)
 /retweet-button.$badfilter
 /rrssb.$badfilter
+vidcloud.co#@#+js(set-constant, pop_cnt, 1)
+onlystream.tv#@#+js(acis, Math, zfgloaded)
+onlystream.tv#@#+js(aopr, BetterJsPop)
 /rss1.png$badfilter
 /rss2.gif$badfilter
 /rss2.png$badfilter
