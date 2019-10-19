@@ -31,7 +31,6 @@
 ||0879dbbeb31e0c83d.com^$important
 ||09cd.co.kr^$important
 ||09fee6914d1b6450885.com^$important
-||zap.buzz^$important
 ||0azx1.com^$important
 ||0byv9mgbn0.com^$important
 ||0d96a0971a04071.com^$important
@@ -40,14 +39,6 @@
 ||0n55f9zgy7.com^$important
 ||0oviy0ub.top^$important
 ||0pixl.com^$important
-||aidalbark.site^$important
-||pushbullet.com^$important
-||coinad.com^$important
-||consensu.org^$important
-||stathat.com^$important
-||traffdaq.com^$important
-||gqqdlckj8y.com^$important
-||4bb6jls06l.com^$important
 ||0sywjs4r1x.com^$important
 ||0wner24f.top^$important
 ||0x1f4b0.com^$important
@@ -571,6 +562,7 @@
 ||ahzybvwdwrhi.com^$important
 ||aibcqjlvxxd.com^$important
 ||aicrgbnswhc.bid^$important
+||aidalbark.site^$important
 ||aigysycrmuoetk.com^$important
 ||aiiaqehoqgrj.com^$important
 ||aiiukvzjtsc.com^$important
@@ -1647,6 +1639,7 @@
 ||cofybuwuc.com^$important
 ||cogxsnvqesph.com^$important
 ||cohhcaahxxcf.com^$important
+||coinad.com^$important
 ||coinhive.com^$important
 ||coinmedia.co^$important
 ||cointraffic.io^$important
@@ -1671,6 +1664,7 @@
 ||comwgi.com^$important
 ||connatix.com^$important
 ||connectad.io^$important
+||consensu.org^$important
 ||content-ad.net^$important
 ||contentsfeed.com^$important
 ||contentza.com^$important
@@ -3562,6 +3556,7 @@
 ||gqnotcpintcq.bid^$important
 ||gqorytmpkjdq.com^$important
 ||gqosdcpjxajae.com^$important
+||gqqdlckj8y.com^$important
 ||gqqsqbipuhlzb.com^$important
 ||gqrsxfwxvx.com^$important
 ||gqrwjsjbnoayff.com^$important
@@ -7545,6 +7540,7 @@
 ||pushazam.com^$important
 ||pushbaddy.com^$important
 ||pushbasic.com^$important
+||pushbullet.com^$important
 ||pushdusk.com^$important
 ||pushimer.com^$important
 ||pushkov.info^$important
@@ -8876,6 +8872,7 @@
 ||stalluva.pro^$important
 ||start1999.com^$important
 ||statcounter.com^$important,third-party
+||stathat.com^$important
 ||statsforads.com^$important
 ||steadfastsystem.com^$important
 ||stekcwrdwohbch.com^$important
@@ -9351,6 +9348,7 @@
 ||tracksrv.zdf.de^$important
 ||tradedoubler.com^$important
 ||tradelab.fr^$important
+||traffdaq.com^$important
 ||trafficfactory.biz^$important
 ||traffichaus.com^$important
 ||trafficjunky.com^$important
@@ -11789,6 +11787,7 @@
 ||zanfo.it^$important
 ||zango.com^$important
 ||zansceeifcmm.com^$important
+||zap.buzz^$important
 ||zapvzwydgiwz.com^$important
 ||zatrlsov.com^$important
 ||zavfvuooiqvepj.com^$important

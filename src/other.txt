@@ -20,12 +20,12 @@
 /^https?:\/\/tags?([0-9]{1,3})?\./$important
 /^https?:\/\/track(ers?|ing)?([0-9]{1,3})?\./$important
 /^https?:\/\/vast([0-9]{1,3})?\./$important
+|http*:*&action=js_stats_$important
 |http*:*.html?clicktag=$important
 |http*:*/afu.php?$important
 |http*:*/apu.hh?$important
 |http*:*/in.php?*&referer=$important
 |http*:*/ntfc.php?$important
-|http*:*&action=js_stats_$important
 |http*:*/pagead/$important
 |http*:*?rand=*&blk=$important
 |http*:*?zone_id=$important
