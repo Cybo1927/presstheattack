@@ -22,6 +22,11 @@
 ||024xuyisheng.com^$important
 ||0377shujuhuifu.top^$important
 ||0452jhw.com^$important
+||ads*-adnow.com^$important
+||svwsjxptbsvqo.com^$important
+||dujbubzvrdw.com^$important
+||cndgrpfuuijg.com^$important
+||logger.pw^$important
 ||05a7946eef5d.com^$important
 ||05y2dxmr.top^$important
 ||0632qyw.com^$important
