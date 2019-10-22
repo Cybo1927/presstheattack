@@ -11,6 +11,7 @@
 /js/social-$stylesheet,badfilter
 com#@#button:style(cursor: unset !important)
 *$inline-font,important,badfilter
+#@##share42
 */*.gif|$document,domain=~github.com|~wikimedia.org|~githubusercontent.com
 */CookieCompliance.js$object,domain=live.com
 #@#.mh-share-buttons
@@ -42,6 +43,8 @@ kinogo.*,torrent-filmi.xyz,kinoframe.net,filmitorrent.xyz,hdfilms.zone##body:sty
 #@#.mc-share-toggle
 #@#*[class$="_ad"]
 #@#.mc-share-cnt
+#@#[aria-label="Follow us on Facebook"]
+#@#[aria-label="Follow us on Twitter"]
 #@#.sns-share-icon
 gtorrent.ru##[href="//up.gtorrent.ru/ya_1/"]
 filmitorrentom.org###top-link-block
