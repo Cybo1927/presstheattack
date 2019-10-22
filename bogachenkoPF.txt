@@ -5774,7 +5774,7 @@ oladblock.*,oload.*,openload.*,openloed.*,streamcherry.com##+js(eclick.js, #vide
 otvet.mail.ru##+js(rm-js, adblock)
 passport.yandex.ru###qr-promo-tooltip
 passport.yandex.ru###qr-promo-tooltip-large
-playground.ru,kissasian.*,sourceforge.net,kimcartoon.to,datoporn.co##+js(nano-setTimeout-booster.js)
+playground.ru,kissasian.*,sourceforge.net,kimcartoon.to,datoporn.co,trialnod.com##+js(nano-setTimeout-booster.js)
 playground.ru#@#.adsbygoogle
 #@##socialdiv
 #@#a[href^="http://pinterest.com/pin/create/button/"]
