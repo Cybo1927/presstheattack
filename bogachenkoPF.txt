@@ -5831,7 +5831,7 @@ yandex.ru#@#li[class^="ya-share2"][class$="vkontakte"]
 yandex.ru,~music.yandex.ru,~passport.yandex.ru,~music.yandex.com,~music.yandex.ua,~music.yandex.by##+js(noatob.js)
 yandex.ru,~music.yandex.ru,~music.yandex.com,~music.yandex.ua,~music.yandex.by,~tv.yandex.ru,~market.yandex.ru,~passport.yandex.ru##+js(rm-js, AdvManager)
 widgets.kinopoisk.ru##+js(noeval.js)
-youtube.com##.html5-endscreen.ytp-paid-content-overlay.ytp-ad-progress-list.ytd-compact-promoted-video-renderer.video-ads#player-ads
+youtube.com##.html5-endscreen, .ytp-paid-content-overlay, .ytp-ad-progress-list, .ytd-compact-promoted-video-renderer, .video-ads, #player-ads
 |http*:*^stat_$badfilter
 |http:*-ad0-$badfilter
 #@#a[href^="https://www.twitter.com/share?"]
