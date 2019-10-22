@@ -5864,8 +5864,11 @@ youtube.com#@#ytd-popup-container > .ytd-popup-container > #contentWrapper > .yt
 #@#.social-teasers
 #@#.i-share
 #@#.video-share
+*/js/nocopy.js$script
+@@/social-likes.
 #@#a[title="Instagram"]
 #@#a[title="Facebook"]
+#@#a[onclick*="facebook.com/sharer.php?"]
 #@#.article-social
 |http:*-ad1^$badfilter
 |http:*-ad1_$badfilter
