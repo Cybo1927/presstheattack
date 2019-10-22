@@ -22,11 +22,6 @@
 ||024xuyisheng.com^$important
 ||0377shujuhuifu.top^$important
 ||0452jhw.com^$important
-||ads*-adnow.com^$important
-||svwsjxptbsvqo.com^$important
-||dujbubzvrdw.com^$important
-||cndgrpfuuijg.com^$important
-||logger.pw^$important
 ||05a7946eef5d.com^$important
 ||05y2dxmr.top^$important
 ||0632qyw.com^$important
@@ -458,6 +453,7 @@
 ||adriver.ru^$important
 ||adroll.com^$important
 ||adrtgbebgd.bid^$important
+||ads*-adnow.com^$important
 ||ads-twitter.com^$important
 ||ads.pubmatic.com^$important
 ||ads.vidoomy.com^$important
@@ -1630,6 +1626,7 @@
 ||cmyjgtiihmit.bid^$important
 ||cmyzmrgrtyrkt.com^$important
 ||cnckdochd.com^$important
+||cndgrpfuuijg.com^$important
 ||cnfuhtsefojuk.com^$important
 ||cnjkrbhtbv.com^$important
 ||cnntsmnymvnp.com^$important
@@ -2258,6 +2255,7 @@
 ||dugqbllwslqrlj.com^$important
 ||duhqtjmftpxrmn.bid^$important
 ||duidsdvdbecg.bid^$important
+||dujbubzvrdw.com^$important
 ||duklamznlrn.com^$important
 ||dulcetcgvcxr.com^$important
 ||dulfweycnqfoka.com^$important
@@ -5667,6 +5665,7 @@
 ||locjzfoh.com^$important
 ||lofipgeld.bid^$important
 ||logentries.com^$important
+||logger.pw^$important
 ||logkzudhrg.com^$important
 ||logql.yahoo.co.jp^$important
 ||logsss.com^$important
@@ -8950,6 +8949,7 @@
 ||svntdcuxobohs.com^$important
 ||svpubdwpaam.bid^$important
 ||svrsqqtj.com^$important
+||svwsjxptbsvqo.com^$important
 ||swahobrjdddri.com^$important
 ||swclpfypife.bid^$important
 ||swcuxrfitmjfee.com^$important

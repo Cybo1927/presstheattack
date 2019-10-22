@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-10-22 16:18:27
-! Version: 20191022161827
+! Last modified: 2019-10-22 17:26:18
+! Version: 20191022172618
 ! Expires: 3 hours
-! Number of filters: 12366
+! Number of filters: 12371
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -571,6 +571,7 @@
 ||adriver.ru^$important
 ||adroll.com^$important
 ||adrtgbebgd.bid^$important
+||ads*-adnow.com^$important
 ||ads-twitter.com^$important
 ||ads.pubmatic.com^$important
 ||ads.vidoomy.com^$important
@@ -1743,6 +1744,7 @@
 ||cmyjgtiihmit.bid^$important
 ||cmyzmrgrtyrkt.com^$important
 ||cnckdochd.com^$important
+||cndgrpfuuijg.com^$important
 ||cnfuhtsefojuk.com^$important
 ||cnjkrbhtbv.com^$important
 ||cnntsmnymvnp.com^$important
@@ -2376,6 +2378,7 @@
 ||dugqbllwslqrlj.com^$important
 ||duhqtjmftpxrmn.bid^$important
 ||duidsdvdbecg.bid^$important
+||dujbubzvrdw.com^$important
 ||duklamznlrn.com^$important
 ||dulcetcgvcxr.com^$important
 ||dulfweycnqfoka.com^$important
@@ -5791,6 +5794,7 @@
 ||locjzfoh.com^$important
 ||lofipgeld.bid^$important
 ||logentries.com^$important
+||logger.pw^$important
 ||logkzudhrg.com^$important
 ||logql.yahoo.co.jp^$important
 ||logsss.com^$important
@@ -9082,6 +9086,7 @@
 ||svntdcuxobohs.com^$important
 ||svpubdwpaam.bid^$important
 ||svrsqqtj.com^$important
+||svwsjxptbsvqo.com^$important
 ||swahobrjdddri.com^$important
 ||swclpfypife.bid^$important
 ||swcuxrfitmjfee.com^$important
