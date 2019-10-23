@@ -31,6 +31,7 @@
 |http*:*?zone_id=$important
 |http*:*?zoneid=$important
 ||ddns.net^*=ws://$important
+|http*:*/pview?event$important
 ||ddns.net^*=wss://$important
 ||google.*/ads/$important
 ||google.*/adsense/$important
