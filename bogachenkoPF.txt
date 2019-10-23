@@ -3471,12 +3471,18 @@ pixel.$important,image,badfilter
 @@||google.com.pg^*afs/ads?*&client=pub-*&output=uds_ads_only$badfilter
 @@||google.com.pg^*afs/ads?*&client=pub-*&output=uds_ads_only$elemhide,badfilter
 @@||google.com.ph^*adsense/search/*ads.js|$badfilter
+#@##social
 @@||google.com.ph^*afs/ads?*&client=pub-*&output=uds_ads_only$badfilter
 @@||google.com.ph^*afs/ads?*&client=pub-*&output=uds_ads_only$elemhide,badfilter
+#@##social-share
+||embed.streamx.live^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.googlevideo.com *.openstream.io *.googleapis.com hydrax.net *.hydrax.net iamcdn.net *.iamcdn.net *.hailhydra.org *.googleusercontent.com cdn.jwplayer.com ssl.p.jwpcdn.com *.bighost.be,badfilter
+#@#.sharrre
+embed.streamx.live#@#+js(eremove, [button="share"]\, .afs_ads\, .jw-settings-sharing\, .jw-submenu-sharing)
 @@||google.com.pk^*adsense/search/*ads.js|$badfilter
 #@#a[href^="https://api.whatsapp.com/send?"]
 #@#a[href^="https://api.whatsapp.com/send?text="]
 #@#.social_twitter
+#@#.social-home
 #@#.social_facebook
 #@#a[onclick^="window.open ('http://www.facebook.com/sharer.php"]
 #@#a[onclick^="popUp=window.open('https://plus.google.com/share?"]
@@ -3485,9 +3491,13 @@ pixel.$important,image,badfilter
 @@||google.com.pk^*afs/ads?*&client=pub-*&output=uds_ads_only$badfilter
 @@||google.com.pk^*afs/ads?*&client=pub-*&output=uds_ads_only$elemhide,badfilter
 @@||google.com.pr^*adsense/search/*ads.js|$badfilter
+#@##\5f __plusone_0
+#@#.twitter-tweet-button
 @@||google.com.pr^*afs/ads?*&client=pub-*&output=uds_ads_only$badfilter
 @@||google.com.pr^*afs/ads?*&client=pub-*&output=uds_ads_only$elemhide,badfilter
+/accesspress-social-$badfilter
 @@||google.com.py^*adsense/search/*ads.js|$badfilter
+#@#.twitter-tweet-button
 @@||google.com.py^*afs/ads?*&client=pub-*&output=uds_ads_only$badfilter
 @@||google.com.py^*afs/ads?*&client=pub-*&output=uds_ads_only$elemhide,badfilter
 @@||google.com.qa^*adsense/search/*ads.js|$badfilter
