@@ -3454,6 +3454,7 @@ pixel.$important,image,badfilter
 @@||google.com.om^*afs/ads?*&client=pub-*&output=uds_ads_only$elemhide,badfilter
 @@||google.com.pa^*adsense/search/*ads.js|$badfilter
 @@||google.com.pa^*afs/ads?*&client=pub-*&output=uds_ads_only$badfilter
+#@##fb-like-box
 @@||google.com.pa^*afs/ads?*&client=pub-*&output=uds_ads_only$elemhide,badfilter
 @@||google.com.pe^*adsense/search/*ads.js|$badfilter
 @@||google.com.pe^*afs/ads?*&client=pub-*&output=uds_ads_only$badfilter
