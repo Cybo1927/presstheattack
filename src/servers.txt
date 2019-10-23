@@ -14,7 +14,6 @@
 /^https?:\/\/denis\-[a-z0-9]{7,12}\-[a-z0-9]{7,12}\.com/$important
 /^https?:\/\/yastatic\.net\/[^\s]{500,}/$domain=~vh.yandex.ru
 /^https?:\/\/zmctrack\.(com|net)/$important
-||badsabs.com^$important
 ||0--e.info^$important
 ||00e46b7f53.com^$important
 ||00f31156f051fdf.com^$important
@@ -905,6 +904,7 @@
 ||babyboomboomads.com^$important
 ||baconaces.pro^$important
 ||badgmvhtvryg.bid^$important
+||badsabs.com^$important
 ||badsamps.com^$important
 ||badsbads.com^$important
 ||badskies.com^$important
