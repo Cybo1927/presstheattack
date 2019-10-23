@@ -1664,6 +1664,7 @@
 ||collamps.com^$important
 ||collector.schibsted.io^$important
 ||colleduny.info^$important
+||com-gift-winner-lucky-day.vip^$important
 ||com-guard-device.live^$important
 ||com-mac-booster.live^$important
 ||com-mac-optimizer.xyz^$important
@@ -2168,6 +2169,7 @@
 ||doksfyhdtqmipa.com^$important
 ||doljrizlsem.bid^$important
 ||dolohen.com^$important
+||dolphincdn.xyz^$important
 ||domaintmt.tumejortorrent.com^$important
 ||domaintrp.torrentrapid.com^$important
 ||domdtvbhgg.com^$important
@@ -3041,6 +3043,7 @@
 ||fobjoccwkrkv.com^$important
 ||fodlkf9d1p.com^$important
 ||fofjazpwccc.com^$important
+||fofxjgrn.com^$important
 ||foguumjql.com^$important
 ||fojgpvkhu.com^$important
 ||folkstonelizabethtown.com^$important
@@ -3805,6 +3808,7 @@
 ||hdfsruiqwgjdo.com^$important
 ||hdimfhptnjgm.bid^$important
 ||hdjjksjfgo.com^$important
+||hdmaze.net^$important
 ||hdmxceunntsy.bid^$important
 ||hdnvtfyvyhq.com^$important
 ||hdoabbjyyebca.com^$important
@@ -3914,14 +3918,6 @@
 ||hjihwmtsltqi.com^$important
 ||hjjdmohuzp.com^$important
 ||hjjjsurdhtt.com^$important
-||madslims.com^$important
-||dolphincdn.xyz^$important
-||com-gift-winner-lucky-day.vip^$important
-||snckdjuymeopsc.com^$important
-||ljzsucmiodrro.com^$important
-||fofxjgrn.com^$important
-||sgycfrrkz.com^$important
-||hdmaze.net^$important
 ||hjknszojbbecy.com^$important
 ||hjnekvux.com^$important
 ||hjnfurphlwsui.bid^$important
@@ -5614,6 +5610,7 @@
 ||ljwbfghcggfvv.com^$important
 ||ljyncrypt.bid^$important
 ||ljzhxfurwibo.com^$important
+||ljzsucmiodrro.com^$important
 ||lkaarvdprhzx.com^$important
 ||lkaumkxmzefa.com^$important
 ||lkdlamrwl.com^$important
@@ -5899,6 +5896,7 @@
 ||m-pathy.com^$important
 ||maboflgkaxqn.com^$important
 ||mackeeper.com^$important
+||madslims.com^$important
 ||mafndqbvdgkm.com^$important
 ||magwfymjhils.com^$important
 ||maidlytsnrn.com^$important
@@ -8684,6 +8682,7 @@
 ||sgqmhpqrstwzwd.com^$important
 ||sgrreqyxvigwuh.com^$important
 ||sgxaqysyilwkiu.com^$important
+||sgycfrrkz.com^$important
 ||sgzlmagzrrk.com^$important
 ||sgzsviqlvcxc.com^$important
 ||shacupwelhehqc.com^$important
@@ -8800,6 +8799,7 @@
 ||smzvvqztihof.com^$important
 ||smzxkkyuinecwa.com^$important
 ||snaxbgzg.bid^$important
+||snckdjuymeopsc.com^$important
 ||snetddbbbgbp.com^$important
 ||snfhwcvdqxioj.com^$important
 ||snfqpqyecdrb.com^$important

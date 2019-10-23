@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-10-23 17:41:05
-! Version: 20191023174105
+! Last modified: 2019-10-23 21:48:05
+! Version: 20191023214805
 ! Expires: 3 hours
-! Number of filters: 12392
+! Number of filters: 12401
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -120,6 +120,7 @@
 |http*:*/pi.aspx$important,subdocument
 |http*:*/pic.gif?m=$image,important
 |http*:*/player_ads.html$important,subdocument
+|http*:*/pview?event$important
 |http*:*/rtrg?$image,important
 |http*:*/setbucket?signature=$important,subdocument
 |http*:*/spacer.gif$image,important,domain=~kinopoisk.ru
@@ -1782,6 +1783,7 @@
 ||collamps.com^$important
 ||collector.schibsted.io^$important
 ||colleduny.info^$important
+||com-gift-winner-lucky-day.vip^$important
 ||com-guard-device.live^$important
 ||com-mac-booster.live^$important
 ||com-mac-optimizer.xyz^$important
@@ -2289,6 +2291,7 @@
 ||doksfyhdtqmipa.com^$important
 ||doljrizlsem.bid^$important
 ||dolohen.com^$important
+||dolphincdn.xyz^$important
 ||domaintmt.tumejortorrent.com^$important
 ||domaintrp.torrentrapid.com^$important
 ||domdtvbhgg.com^$important
@@ -3164,6 +3167,7 @@
 ||fobjoccwkrkv.com^$important
 ||fodlkf9d1p.com^$important
 ||fofjazpwccc.com^$important
+||fofxjgrn.com^$important
 ||foguumjql.com^$important
 ||fojgpvkhu.com^$important
 ||folkstonelizabethtown.com^$important
@@ -3933,6 +3937,7 @@
 ||hdfsruiqwgjdo.com^$important
 ||hdimfhptnjgm.bid^$important
 ||hdjjksjfgo.com^$important
+||hdmaze.net^$important
 ||hdmxceunntsy.bid^$important
 ||hdnvtfyvyhq.com^$important
 ||hdoabbjyyebca.com^$important
@@ -5735,6 +5740,7 @@
 ||ljwbfghcggfvv.com^$important
 ||ljyncrypt.bid^$important
 ||ljzhxfurwibo.com^$important
+||ljzsucmiodrro.com^$important
 ||lkaarvdprhzx.com^$important
 ||lkaumkxmzefa.com^$important
 ||lkdlamrwl.com^$important
@@ -6020,6 +6026,7 @@
 ||m-pathy.com^$important
 ||maboflgkaxqn.com^$important
 ||mackeeper.com^$important
+||madslims.com^$important
 ||mafndqbvdgkm.com^$important
 ||magwfymjhils.com^$important
 ||maidlytsnrn.com^$important
@@ -8811,6 +8818,7 @@
 ||sgqmhpqrstwzwd.com^$important
 ||sgrreqyxvigwuh.com^$important
 ||sgxaqysyilwkiu.com^$important
+||sgycfrrkz.com^$important
 ||sgzlmagzrrk.com^$important
 ||sgzsviqlvcxc.com^$important
 ||shacupwelhehqc.com^$important
@@ -8928,6 +8936,7 @@
 ||smzvvqztihof.com^$important
 ||smzxkkyuinecwa.com^$important
 ||snaxbgzg.bid^$important
+||snckdjuymeopsc.com^$important
 ||snetddbbbgbp.com^$important
 ||snfhwcvdqxioj.com^$important
 ||snfqpqyecdrb.com^$important
