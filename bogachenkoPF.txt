@@ -5765,6 +5765,7 @@ mail.ru##+js(nowebrtc.js)
 .top/$badfilter
 ||.gdn^$document,domain=~ Warning displayed due to: It's a topical domain whose sites have an unusally big chance of being fraudulent.,badfilter
 ||vkcdnservice.com^$badfilter
+||fmovies.*^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: *.googleusercontent.com *.akacdn.ru ajax.googleapis.com ssl.p.jwpcdn.com openload.co openload.pw oload.stream oload.biz *.oloadcdn.net mcloud.to *.mcloud.to cdnjs.cloudflare.com prettyfast.to *.bp.blogspot.com;upgrade-insecure-requests,badfilter
 market.yandex.ru##.main > noindex
 market.yandex.ru##a[href^="https://fenek.market.yandex."]
 music.yandex.ru,music.yandex.com,music.yandex.ua,music.yandex.by##.duck__duckling.moving-slider, .multi-auth__plus, .teaser, .sidebar__under, .page-main__line_row.page-main__line_small-margin.page-main__line_personal-playlists.page-main__line, .notify_shown.deco-tooltip_notify, .footer, .metrika-app_shown_yes.metrika-app_js_inited.i-bem.metrika-app_type_desktop.metrika-app_lang_ru.metrika-app, .duck__angry-duck_left.duck__angry-duck.paused-slider, .bar-below_plus.bar-below, .subscription-hint_bottom.deco-pane-popup.popup.local-theme-black.subscription-hint, div.notify > div.deco-tooltip_notify.notify_shown, .overlay_gdpr.overlay_shown.deco-pane-overlay.overlay, .deco-pane-popup.popup.local-icon-theme-white.local-theme-white.gdpr-popup, .bar-below_unavaliable.bar-below, a.teaser__content[href="https://music.yandex.ru/family-plus"] > img.teaser__img, div.page-root.page-root_no-player.deco-pane-back > div[class][data-b="2"][style="display: block;"], .teaser ~ div, .page-root > div[data-b="2"], .sidebar > div > .teaser + div[data-b="18"], .d-track_playing.d-track_inline-meta.d-track_selectable.typo-track.d-track > .d-track__start-column > .d-track__hover.d-track__play > .d-button-play__wrap, .d-track_playing.playlist-filter-suggest__track.d-track_selectable.typo-track.d-track > .d-track__start-column > .d-track__hover.d-track__play > .d-button-play__wrap, .deco-tooltip_to-right.popup_visible.popup_fade.local-theme-black.d-tooltip_min-width.deco-pane-popup.popup.deco-tooltip.d-tooltip
@@ -5773,10 +5774,12 @@ news.yandex.ru##+js(noeuc.js)
 oladblock.*,oload.*,openload.*,openloed.*,streamcherry.com##+js(eclick.js, #videooverlay)
 otvet.mail.ru##+js(rm-js, adblock)
 passport.yandex.ru###qr-promo-tooltip
+#@#[href^="whatsapp://send"]
 passport.yandex.ru###qr-promo-tooltip-large
 playground.ru,kissasian.*,sourceforge.net,kimcartoon.to,datoporn.co,trialnod.com##+js(nano-setTimeout-booster.js)
 playground.ru#@#.adsbygoogle
 #@##socialdiv
+api.pinterest.com/*/count.json$badfilter
 #@#a[href^="http://pinterest.com/pin/create/button/"]
 #@#.twitter-timeline
 /ads.js$important,script,badfilter
