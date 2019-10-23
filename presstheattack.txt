@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-10-23 13:49:57
-! Version: 20191023134957
+! Last modified: 2019-10-23 17:41:05
+! Version: 20191023174105
 ! Expires: 3 hours
-! Number of filters: 12376
+! Number of filters: 12392
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -1613,8 +1613,11 @@
 ||cgbemyws.bid^$important
 ||cgbqzfjf.com^$important
 ||cgdvsvczduzq.bid^$important
+||cgjbizumzm.com^$important
 ||cgjyesqhxzzm.com^$important
+||cgkeasqkzfpepr.com^$important
 ||cgkpwhkgjxo.com^$important
+||cglcdshkqiuic.com^$important
 ||cglpmszvpzzxj.com^$important
 ||cglqqjxaaowb.com^$important
 ||cgmkpdqjnedb.com^$important
@@ -1736,8 +1739,10 @@
 ||cmdjujqlfbts.com^$important
 ||cmdnzbuynnm.com^$important
 ||cmdotgwjhpqf.com^$important
+||cmhomlaipa.com^$important
 ||cmhwwdwfiyx.com^$important
 ||cmjjzwddw.com^$important
+||cmncgeqivmjki.com^$important
 ||cmnhwzdsvr.com^$important
 ||cmpkynhhmkni.com^$important
 ||cmqeojydveotb.bid^$important
@@ -2491,6 +2496,7 @@
 ||eagerse.com^$important
 ||eahkxyuezqvx.com^$important
 ||eaidabmuxbqy.com^$important
+||eaqxjz6bra.com^$important
 ||easmdmxps.com^$important
 ||easnviytengk.com^$important
 ||easygatepr.bid^$important
@@ -4859,6 +4865,7 @@
 ||jheduynirrxkro.com^$important
 ||jheplryxvzvx.com^$important
 ||jhewbownkjobl.bid^$important
+||jhhlhneavuo.com^$important
 ||jhijojlatyvri.com^$important
 ||jhmmbrfsqm.com^$important
 ||jhnteodwqtk.com^$important
@@ -8140,6 +8147,7 @@
 ||quyxxofx.com^$important
 ||qveoxhidesgy.bid^$important
 ||qveuxmbhbhmg.com^$important
+||qvfwckuehf.com^$important
 ||qvgjqhfnbdeur.com^$important
 ||qvilmdus.com^$important
 ||qvivzreleolawc.com^$important
@@ -8289,10 +8297,13 @@
 ||rdvrxbxwxspxd.com^$important
 ||rdwcvesg.com^$important
 ||rdwfotuyp.bid^$important
+||rdwsjnifcemg.com^$important
+||rdxwaydglehog.com^$important
 ||realktalk.xyz^$important
 ||realnwspfbumn.com^$important
 ||realtime-bid.com^$important
 ||reaster.info^$important
+||reauthenticator.com^$important
 ||recreativ.ru^$important
 ||redditmedia.com/gtm/jail?$important,subdocument
 ||redorange.website^$important
@@ -9024,6 +9035,7 @@
 ||statcounter.com^$important,third-party
 ||stathat.com^$important
 ||statsforads.com^$important
+||statsy.net^$important
 ||steadfastsystem.com^$important
 ||stekcwrdwohbch.com^$important
 ||sthtrtvkkt.com^$important
@@ -10449,8 +10461,11 @@
 ||vtcquvxsaosz.com^$important
 ||vtcxhnri.com^$important
 ||vtdvhmbouayj.club^$important
+||vtemaaftwexu.com^$important
 ||vtewggxzbrcv.bid^$important
+||vtgcvsmzxiyoz.com^$important
 ||vtgdjgtwl.com^$important
+||vthhmbfo.com^$important
 ||vtijuhpxlkoq.bid^$important
 ||vtkqdqwnmv.bid^$important
 ||vtmkgqcvzvlsdt.com^$important
@@ -10700,6 +10715,7 @@
 ||whgvyswets.com^$important
 ||whinjxmkugky.com^$important
 ||whirgoom.com^$important
+||whirlclick.com^$important
 ||whitection.com^$important
 ||whitectione.info^$important
 ||whitesboromcbee.com^$important
