@@ -2500,6 +2500,10 @@ torrent-film.co##[src="/2go.png"]
 @@||careers-kw.com^$elemhide,badfilter
 @@||careers-om.com^$elemhide,badfilter
 @@||careers-qa.com^$elemhide,badfilter
+||mradx.net^$important
+||vk-portal.net^$important
+||crashlytics.com^$important
+||sun*-*.userapi.com^$third-party,app=com.vkontakte.android,important
 @@||careers-sa.com^$elemhide,badfilter
 @@||carsgenius.com^$elemhide,badfilter
 @@||cautaangajari.ro^$elemhide,badfilter
