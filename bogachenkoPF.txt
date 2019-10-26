@@ -54,17 +54,22 @@ torrent-solid.ru##[src="/2019p/777u.gif"]
 #@#img[alt="Facebook"]
 ||google.*/async/bgasy?ei=*$important,badfilter
 ||google.*/async/bgasy?*&ei=*$important,badfilter
+#@#*[class*="_ads_"]
 #@#.sharethis-inline-share-buttons
 #@#img[alt="Twitter"]
 #@#*[class^="ads-"]
 filmitorrentom.net##[src="/img/lkj.png"], [src="/img/dfr.png"]
 */js/plyr.min.js$script,first-party
 /^https?:\/\/[^\s]+\/(([_a-z-]{3,12})?[!"#$%&'()*+,:;<=>?@/\^_`{|}~-]?)?sw\.js/$important,script
-/^https?:\/\/[^\s]+\/sw([!"#$%&'()*+,:;<=>?@/\^_`{|}~-]?([_a-z0-9-.]{1,10})?)?\.js/$important,script
-/\/(([_a-z-]{3,12})?[!"#$%&'()*+,:;<=>?@/\^_`{|}~-]?)?worker(.*)?\.js/$important,script,domain=~twitch.tv|~google.com|~z5h64q92x9.net
+/^https?:\/\/[^\s]+\/sw([!"#$%&'()*+,:;<=>?@/\^_`{|}~-]?([_a-z0-9-.]{1,10})?)?\.js/$important,script,domain=~2ch.hk
+/\/(([_a-z-]{3,15})?[!"#$%&'()*+,:;<=>?@/\^_`{|}~-]?)?worker(.*)?\.js/$important,script,domain=~twitch.tv|~google.com|~z5h64q92x9.net
 /^https?:\/\/[^\s]+\/worker([!"#$%&'()*+,:;<=>?@/\^_`{|}~-]?([a-z]{5,6})?)?\.js/$important,script
 |http*:*/yads-async.js$important,script
 #@#.social-icons
+#@#[title^="Share with Twitter"]
+#@#[title^="Share with Facebook"]
+#@#.facebook-modal
+#@#.author-social
 -ad0-$badfilter
 #@#*[id^="adx"]
 -ad0.$badfilter
@@ -3544,7 +3549,10 @@ embed.streamx.live#@#+js(eremove, [button="share"]\, .afs_ads\, .jw-settings-sha
 @@||google.com.ua^*afs/ads?*&client=pub-*&output=uds_ads_only$elemhide,badfilter
 @@||google.com.uy^*adsense/search/*ads.js|$badfilter
 @@||google.com.uy^*afs/ads?*&client=pub-*&output=uds_ads_only$badfilter
+#@##subscribe-email
+#@#.btn-twitter
 @@||google.com.uy^*afs/ads?*&client=pub-*&output=uds_ads_only$elemhide,badfilter
+*starstruck*$badfilter
 @@||google.com.vc^*adsense/search/*ads.js|$badfilter
 @@||google.com.vc^*afs/ads?*&client=pub-*&output=uds_ads_only$badfilter
 @@||google.com.vc^*afs/ads?*&client=pub-*&output=uds_ads_only$elemhide,badfilter
@@ -3566,6 +3574,15 @@ embed.streamx.live#@#+js(eremove, [button="share"]\, .afs_ads\, .jw-settings-sha
 @@||google.com/ads$domain=rambler.ru,badfilter
 @@||google.com/ads$domain=ricardo.ch|olx.ch,badfilter
 @@||google.com/ads$domain=search.yahoo.com,badfilter
+#@##share-wrapper
+#@#.sharethis
+#@#.social-facebook
+#@#.social-instagram
+#@#.social-rss
+#@#.social-twitter
+#@#[title="Share to Facebook"]:not(.wpel-icon-right)
+#@#[title^="Follow Us on "]
+#@#a[title^="Follow Us on Facebook"]
 @@||google.com/ads$domain=skyscanner.ae,badfilter
 @@||google.com/ads$domain=skyscanner.at,badfilter
 @@||google.com/ads$domain=skyscanner.ca,badfilter
