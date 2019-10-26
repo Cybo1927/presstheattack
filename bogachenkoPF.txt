@@ -2502,7 +2502,7 @@ torrent-film.co##[src="/2go.png"]
 @@||careers-qa.com^$elemhide,badfilter
 ||mradx.net^$important
 @@||vk-portal.net^$important,app=com.vkontakte.android
-||crashlytics.com^$important
+||crashlytics.com^$important,app=com.vkontakte.android
 ||mail.ru^$third-party,app=com.vkontakte.android,important
 @@||careers-sa.com^$elemhide,badfilter
 @@||carsgenius.com^$elemhide,badfilter
@@ -6510,8 +6510,8 @@ stats$important,script,badfilter
 ||googlesyndication.com^$important
 ||googletagmanager.com^$badfilter
 ||googletagmanager.com^$important
-||graph.facebook.com^
-||fireremoteconfig.googleapis.com^
+||graph.facebook.com^$important
+||fireremoteconfig.googleapis.com^$important
 ||gravatar.com^$important,third-party,badfilter
 ||gstatic.com/*/cleardot.gif$important,badfilter
 ||gstatic.com/kpui/social/$important,badfilter
