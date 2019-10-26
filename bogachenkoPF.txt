@@ -2508,6 +2508,7 @@ torrent-film.co##[src="/2go.png"]
 @@||carsgenius.com^$elemhide,badfilter
 @@||cautaangajari.ro^$elemhide,badfilter
 @@||cbs.com^*^q=$elemhide,badfilter
+||kaspersky-labs.com^$important
 @@||cbsnews.com/search^$elemhide,badfilter
 @@||ccm.net/s/$elemhide,badfilter
 @@||cdiscount.com^$elemhide,badfilter
