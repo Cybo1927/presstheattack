@@ -23,7 +23,6 @@ com#@#button:style(cursor: unset !important)
 #@#a[onclick^="window.open('https://twitter.com/share"]
 */checkupdate.php^$xmlhttprequest,script
 wikipedia.org###centralNotice
-instagram.com##.Yx5HN.RnEpo
 ||share.pluso.ru^$third-party,badfilter
 accounts.google.com/o/oauth2/$badfilter
 sw.js$1p,script,domain=~mail.google.com,badiflter
@@ -2496,6 +2495,7 @@ torrent-film.co##[src="/2go.png"]
 @@||candofinance.com/topic/^$elemhide,badfilter
 @@||careerboutique.com^$elemhide,badfilter
 @@||careerjob360.com^$elemhide,badfilter
+#@#.social-tooltip
 @@||careers-bh.com^$elemhide,badfilter
 @@||careers-kw.com^$elemhide,badfilter
 @@||careers-om.com^$elemhide,badfilter
@@ -2510,27 +2510,49 @@ torrent-film.co##[src="/2go.png"]
 @@||cbs.com^*^q=$elemhide,badfilter
 ||kaspersky-labs.com^$important
 @@||cbsnews.com/search^$elemhide,badfilter
+||sh.st^$badfilter
+#@##vkontakte
 @@||ccm.net/s/$elemhide,badfilter
+#@#a[aria-label="RSS"]
 @@||cdiscount.com^$elemhide,badfilter
 @@||cdscdn.com/Js/ads/$script,domain=cdiscount.com,badfilter
 @@||centurylink.net/search/$elemhide,badfilter
 @@||char.tw/?s=$elemhide,badfilter
 @@||charter.net^$elemhide,badfilter
+#@#a[href^="http://service.weibo.com/share/share.php"]
+#@#a[href^="https://getpocket.com/save?url="]
+#@#a[href^="https://www.blogger.com/blog-this."]
+#@##ya_share
 @@||cheaperoz.com^$elemhide,badfilter
 @@||cheapfly24.de^$elemhide,badfilter
 @@||cheatsheet.com/search$elemhide,badfilter
 @@||checkfelix.com^$elemhide,badfilter
 @@||checkspeedsearch.com/Home/Search^$elemhide,badfilter
 @@||cheercut.com/?s=$elemhide,badfilter
+#@#*[id^="ads-"]
 @@||chek.com/search/$elemhide,badfilter
 @@||chercheur.be^$elemhide,badfilter
 @@||chevigal.com/?s=$elemhide,badfilter
+#@#*[id^="ads_"]
 @@||chilimovie.com/search^$elemhide,badfilter
 @@||chotot.vn^$elemhide,badfilter
+#@#*[id$="_ad"]
 @@||chowist.com^$elemhide,badfilter
+#@#.et_social_networks
+#@#.et_social_mobile
+#@#.et_social_heading
+#@#.et_social_facebook
+#@#.et_social_icons_container
+#@#.et_social_fadein
+#@#.et_pb_social_media_follow
+#@#.et_social_twitter
+#@#.et_social_pinterest
+#@#.et_social_sidebar_networks
 @@||choyce.tw/?s=$elemhide,badfilter
+#@#[title^="Follow on Facebook"]
 @@||cincinnatibell.net/search/$elemhide,badfilter
 @@||circle01.life/?s=$elemhide,badfilter
+#@#[title^="Follow on Twitter"]
 @@||citypedia.com^$elemhide,badfilter
 @@||classifieds.craigclassifiedads.com/?s=$elemhide,badfilter
 @@||clickme.net/s/$elemhide,badfilter
@@ -2547,11 +2569,15 @@ torrent-film.co##[src="/2go.png"]
 @@||comparer.fr^$elemhide,badfilter
 @@||comparison411.com/search.php^$elemhide,badfilter
 @@||compramelo.co.cr^$elemhide,badfilter
+instagram.com#@#body[style="overflow: hidden;"] > div[class][role="presentation"]:has(a[href="/accounts/emailsignup/"])
+instagram.com#@#.ZUqME.N9d2H
+instagram.com#@#.Yx5HN.RnEpo
 @@||conduit.com^$elemhide,badfilter
 @@||consumersearch.com^$elemhide,badfilter
 @@||control.kochava.com^$image,domain=reddit.com,badfilter
 @@||coolmac.tw^$elemhide,badfilter
 @@||cosmo.hu^$elemhide,badfilter
+#@#.socialb
 @@||crawler.com^$elemhide,badfilter
 @@||crawlercenter.com/search/^$elemhide,badfilter
 @@||cse.google.ac^$badfilter
@@ -5771,7 +5797,7 @@ fakedrivingschool.com###catfish-banner
 flaticon.com##.modal-credit.fi-modal > .modal-fade-screen > .text-center.modal-inner
 fonts.googleapis.com^$important,domain=~google,badfilter
 free.proxy-sale.com##:xpath(//p[@class='copy-buffer'][contains(.,'Скопировать в буфер')])
-freebitco.in##.reveal-modal-bg, #myModal22, #deposit_promo_message_regular > .deposit_promo_message_content, .daily_jackpot_main_container_div
+freebitco.in##.reveal-modal-bg, #myModal22, #deposit_promo_message_regular > .deposit_promo_message_content, .daily_jackpot_main_container_div, .cc_container--open.cc_container.cc_banner
 giphy.com#@#div[class^="flash-message"]
 github.com##.border-bottom.hide-sm.hide-md.hide-lg.mt-5.pr-3.col-lg-3.col-md-3.col-12.team-left-column, .border-bottom.hide-sm.hide-md.hide-lg.mt-5.pr-5.col-lg-3.col-md-3.col-12.team-left-column, .js-banner.border-gray-light.border.rounded-1.text-center.p-4.content, .js-notice-dismiss
 github.com#@#.modal-backdrop
