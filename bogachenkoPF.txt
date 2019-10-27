@@ -1742,10 +1742,6 @@ rulu.co#@#+js(setTimeout-defuser, adsBox, 200)
 #@#*[id^="ad7"]
 #@#*[id^="ad0"]
 #@#*[id="ads"]
-#@#*[id^="ad_"]
-#@#*[id^="ad7"]
-#@#*[id^="ad0"]
-#@#*[id="ads"]
 /share/twitter.$badfilter
 /share/twitter_$badfilter
 #@#.nav__item--rss
@@ -3534,7 +3530,6 @@ embed.streamx.live#@#+js(eremove, [button="share"]\, .afs_ads\, .jw-settings-sha
 @@||google.com.pr^*afs/ads?*&client=pub-*&output=uds_ads_only$elemhide,badfilter
 /accesspress-social-$badfilter
 @@||google.com.py^*adsense/search/*ads.js|$badfilter
-#@#.twitter-tweet-button
 @@||google.com.py^*afs/ads?*&client=pub-*&output=uds_ads_only$badfilter
 @@||google.com.py^*afs/ads?*&client=pub-*&output=uds_ads_only$elemhide,badfilter
 @@||google.com.qa^*adsense/search/*ads.js|$badfilter
@@ -4169,8 +4164,6 @@ xhamster.com##.no-popunder.wil-sponsor-banner, .xp-subscribe, .wil-sponsor-link
 @@||ieatcandy.tw/?s=$elemhide,badfilter
 beacon$important,badfilter
 @@||ifunny.blog/?s=$elemhide,badfilter
-#@#.dashicons-twitter
-#@#.dashicons-facebook
 #@##fblike
 @@||igropark.ru/results.php$elemhide,badfilter
 @@||ikachalife.com/?s=$elemhide,badfilter
@@ -5166,7 +5159,6 @@ github.com#@#.is-stuck.gh-header-sticky.top-0.js-sticky-offset-scroll.js-sticky
 @@||smartshopping.com^$elemhide,badfilter
 #@#a[title^="Like us on Facebook"]
 #@#a[title^="Follow us on twitter"]
-#@#img[alt="LinkedIn"]
 @@||snapette.com^$elemhide,badfilter
 oload.*#@#+js(std, check)
 oload.*#@#+js(sid, check)
@@ -5901,7 +5893,6 @@ youtube.com#@#ytd-popup-container[class="style-scope ytd-app"] > iron-dropdown[f
 youtube.com#@##related
 #@##twitter_timeline-2
 #@#.widget_twitter_timeline
-youtube.com#@#button[class*="share-button"]
 youtube.com#@##watch-action-panels, #chat, .ytp-ce-covering-overlay, .subscribecard-endscreen, .ytp-ce-element, #ytd-promoted-video-renderer, #watch-sidebar-live-chat, #pla-shelf, .yt-uix-expander-collapsed.live-chat-expander.yt-uix-expander, .hats-categorical-style-vertical, #movie-upsell-card, .yt-lockup-movie-vertical-poster.yt-lockup-tile.yt-lockup, .style-default.force-icon-button.ytd-menu-renderer.style-scope, #inline-recs-list-renderer, #sponsor-button, .ytp-miniplayer-button, ytd-button-renderer.size-default.style-default.force-icon-button.ytd-menu-renderer.style-scope, .ytd-metadata-row-header-renderer.style-scope
 youtube.com#@##comments
 /images/socials/*$badfilter
@@ -6169,7 +6160,6 @@ mp4upload.com#@#+js(abort-current-inline-script, GoogleAnalyticsObject)
 |http:*^ad9_$badfilter
 |http:*_ad0-$badfilter
 |http:*_ad0.$badfilter
-||gounlimited.to^$badfilter
 ||yastatic.net^*/widget_ya.js$badfilter
 vivo.sx#@#+js(aeld, , preventDefault)
 vivo.sx#@#+js(abort-on-property-read, WebAssembly)
