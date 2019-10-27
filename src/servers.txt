@@ -17,9 +17,6 @@
 ||0--e.info^$important
 ||00e46b7f53.com^$important
 ||00f31156f051fdf.com^$important
-||xxccdshj.com^$important
-||advmusic.net^$important
-||pushnevis.com^$important
 ||01ced816b84.com^$important
 ||01counter.com^$important
 ||024xuyisheng.com^$important
@@ -496,6 +493,7 @@
 ||advideo.ru^$important
 ||advmaiotg.com^$important
 ||advmaker.su^$important
+||advmusic.net^$important
 ||adwidgets.ru^$important
 ||adxadserv.com^$important
 ||adxpddpc.com^$important
@@ -7585,6 +7583,7 @@
 ||pushmenews.com^$important
 ||pushmobilenews.com^$important
 ||pushnative.com^$important
+||pushnevis.com^$important
 ||pushnews.ru^$important
 ||pushno.com^$important
 ||pushofferpro.com^$important
@@ -11286,6 +11285,7 @@
 ||xwxbiywlavgpm.com^$important
 ||xwzhazcuyf.com^$important
 ||xxamqnqeygbk.com^$important
+||xxccdshj.com^$important
 ||xxdjmuekj.com^$important
 ||xxehantfkywk.com^$important
 ||xxelvfyvgcjo.bid^$important
