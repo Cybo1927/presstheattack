@@ -39,6 +39,7 @@ kinogo.*,torrent-filmi.xyz,kinoframe.net,filmitorrent.xyz,hdfilms.zone##body:sty
 #@#a[href^="https://www.facebook.com/sharer.php"]
 #@#.ytp-share-button
 #@#a[title="Tumblr"]
+||chaturbate.com^$badfilter
 #@#.mc-share-toggle
 #@#*[class$="_ad"]
 #@#.mc-share-cnt
@@ -583,6 +584,7 @@ wp.pl#@#body > script + iframe + div:not([id])[class]
 /ads/*$image,badfilter
 /ads/images/*$badfilter
 /adsense/$badfilter
+*$csp=worker-src 'none',domain=freebitco.in
 /adsense/*$badfilter
 /adsense/*$domain=~analytics.google.com
 /adverts/$badfilter
@@ -2763,11 +2765,19 @@ instagram.com#@#.Yx5HN.RnEpo
 @@||cse.google.com.ni^$elemhide,badfilter
 @@||cse.google.com.np^$badfilter
 @@||cse.google.com.np^$elemhide,badfilter
+#@#.share_tools
+#@#.btnShare
+#@#.addthis_button_print
+#@#.addthis_button_email
+#@#.addthis_32x32_style
 @@||cse.google.com.om^$badfilter
 @@||cse.google.com.om^$elemhide,badfilter
+/sw.js^$first-party,script,badfilter
 @@||cse.google.com.pa^$badfilter
+#@#.socialshare
 @@||cse.google.com.pa^$elemhide,badfilter
 @@||cse.google.com.pe^$badfilter
+#@#a[onclick^="window.open('http"][onclick*="://vk.com/share.php?"]
 @@||cse.google.com.pe^$elemhide,badfilter
 @@||cse.google.com.pg^$badfilter
 @@||cse.google.com.pg^$elemhide,badfilter
