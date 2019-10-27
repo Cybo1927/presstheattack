@@ -60,7 +60,7 @@ torrent-solid.ru##[src="/2019p/777u.gif"]
 #@#*[class^="ads-"]
 filmitorrentom.net##[src="/img/lkj.png"], [src="/img/dfr.png"]
 */js/plyr.min.js$script,first-party
-/^https?:\/\/[^\s]+\/(([_a-z-]{3,12})?[!"#$%&'()*+,:;<=>?@/\^_`{|}~-]?)?sw\.js$/$important,script
+/^https?:\/\/[^\s]+\/(([_a-z-]{3,12})?[!"#$%&'()*+,:;<=>?@/\^_`{|}~-])?sw\.js$/$important,script
 /^https?:\/\/[^\s]+\/sw([!"#$%&'()*+,:;<=>?@/\^_`{|}~-]([_a-z0-9-.]{1,10})?)?\.js$/$important,script
 /\/(([_a-z-]{3,15})?[!"#$%&'()*+,:;<=>?@/\^_`{|}~-]?)?worker(.*)?\.js$/$important,script,domain=~twitch.tv|~google.com|~z5h64q92x9.net
 /^https?:\/\/[^\s]+\/worker([!"#$%&'()*+,:;<=>?@/\^_`{|}~-]?([a-z]{5,6})?)?\.js$/$important,script
@@ -4034,12 +4034,17 @@ windowspro.ru##.maincont > .quote
 @@||gumtree.pl^$elemhide,badfilter
 @@||gumtree.sg^$elemhide,badfilter
 @@||hallar.cl^$elemhide,badfilter
+#@#.share_icons
 @@||hallar.co.ve^$elemhide,badfilter
+torrentz2.*#@#+js(eremove, .alert-danger\, #resultarea\, [href*="/lorem"]\, .downlinks > dl:nth-of-type(1) > dd\, .NonToleratedds\, .downlinksone\, [id*="ScriptRoot"]\, .ads_box)
 @@||hallar.co^$elemhide,badfilter
 @@||hallar.com.do^$elemhide,badfilter
+#@##toTop
 @@||hallar.com.ec^$elemhide,badfilter
 @@||hallar.com.mx^$elemhide,badfilter
 @@||hallar.com.pe^$elemhide,badfilter
+#@#.share-buttons
+#@#.icon-pocket
 @@||hallar.com.py^$elemhide,badfilter
 @@||hallar.com.uy^$elemhide,badfilter
 #@##social-wrapper
