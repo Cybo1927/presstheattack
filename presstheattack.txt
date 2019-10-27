@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-10-27 13:06:39
-! Version: 20191027130639
+! Last modified: 2019-10-27 14:24:36
+! Version: 20191027142436
 ! Expires: 3 hours
-! Number of filters: 12400
+! Number of filters: 12408
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -756,6 +756,7 @@
 ||amaecylce.com^$important
 ||amaqcgrrmedi.bid^$important
 ||amauzaqp.com^$important
+||amavirgin.pro^$important
 ||amazon-adsystem.com^$important
 ||amdhlyqfy.bid^$important
 ||amgkkjgjktml.com^$important
@@ -1516,6 +1517,7 @@
 ||cah9ooy.bid^$important
 ||cahepysgenpb.com^$important
 ||caliente.mx^$important
+||caljqsml.com^$important
 ||callcentercard.world^$important
 ||camrfajedgku.com^$important
 ||capacitly.com^$important
@@ -3724,6 +3726,7 @@
 ||greatedo.com^$important
 ||greatene.com^$important
 ||greatwork.info^$important
+||greedseed.world^$important
 ||greenyourday19.agency^$important
 ||gregnobs.com^$important
 ||grewuxii.bid^$important
@@ -5909,6 +5912,7 @@
 ||ltmdqbrxjaqn.bid^$important
 ||ltnfhltuksarpq.com^$important
 ||ltnjtphbbvigi.bid^$important
+||ltnkbvcm.com^$important
 ||ltsdzcgcystyak.bid^$important
 ||ltsnideak.bid^$important
 ||lttsvesujmry.com^$important
@@ -6581,6 +6585,7 @@
 ||new-mail.support^$important
 ||new-message.support^$important
 ||newadsclicks.com^$important
+||newaprads.com^$important
 ||newgadgetpresents.icu^$important
 ||newinfo.support^$important
 ||newmail.support^$important
@@ -6724,6 +6729,7 @@
 ||nnvqabkpa.com^$important
 ||nnzkabsgmfjn.bid^$important
 ||nnztrsuu.com^$important
+||noamiscience.pro^$important
 ||noblemagnition.com^$important
 ||nobosrekns.bid^$important
 ||nobpgppgbucy.com^$important
@@ -7303,6 +7309,7 @@
 ||parentelement.ml^$important
 ||parmelecumbola.com^$important
 ||partlepool.com^$important
+||partyroots.com^$important
 ||parumal.com^$important
 ||paruvaubxwwz.bid^$important
 ||pasangiklan.com^$important
@@ -9942,6 +9949,7 @@
 ||uorhedemxtni.com^$important
 ||uoxbotvrs.bid^$important
 ||uoypqskiemf.bid^$important
+||up.gtorrent.ru^$important
 ||upckrtagwpwk.com^$important
 ||upcokvzuupn.bid^$important
 ||upgwdilkhlwguz.bid^$important
