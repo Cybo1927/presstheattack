@@ -1,7 +1,7 @@
 /^(https?|wss?):\/\/([0-9a-z\._-]+)\.(accountant|bid|cf|click|club|com|cricket|date|download|faith|fun|ga|gdn|gq|info|link|loan|men|ml|net|network|ovh|party|pro|pw|racing|review|rocks|ru|science|site|space|stream|tk|top|trade|webcam|win|xyz|zone)\.\/(.*)/$important
 /^https:\/\/69([a-z]{1,2})\.([a-z]{4})/$important
 /^https?:\/\/(([a-zA-Z]{1})?[0-9]{1,4})?adserv\./$important
-/^https?:\/\/(.*\.)?(an|awaps|awsync|((rosenberg|report)\.)?appmetrica|bs(\-meta)?|direct|(grade|fenek)\.market|informer|kiks|main\.zdevx|m[csx]|yabs|zen|browser\-updater|bann?ers?(\-slb)?\.mobile|(external\-promo\-|web\-)?metric[as]?|startup(\-slb)?\.mobile|analytic[as]?(\.mobile)?|adfox|jstracer|csp|static\-mon)\.yandex\.[A-Za-z.]{2,7}/$important
+/^https?:\/\/(.*\.)?(an|awaps|awsync|((rosenberg|report|redirect)\.)?appmetrica|bs(\-meta)?|direct|(grade|fenek)\.market|informer|kiks|main\.zdevx|m[csx]|yabs|zen|browser\-updater|bann?ers?(\-slb)?\.mobile|(external\-promo\-|web\-)?metric[as]?|startup(\-slb)?\.mobile|analytic[as]?(\.mobile)?|adfox|jstracer|csp|static\-mon)\.yandex\.[A-Za-z.]{2,7}/$important
 /^https?:\/\/([A-Za-z0-9]{3,}\.)?(([0-9]{1,2})?l\-hit|([0-9]{1,2})?l\-view|rs|staging|(vk|stepan\-fe)\.go|reklama|ads?|recostream\.go|([^\s]{10,}\.)?top([0-9]{1}|\-(fwz([0-9]{1,2})?))?|mediator|[^\s]{3,}\.radar|g?stat|xray|t|fmdata)\.(imgs)?mail\.ru/$important
 /^https?:\/\/([A-Za-z0-9]{3,}\.)?(id|gg|adservice|mobilecrashreporting|imasdk|fundingchoicesmessages|safebrowsing|contributor)\.google(apis)?\.[A-Za-z.]{2,7}/$important
 /^https?:\/\/([A-Za-z0-9]{3,}\.)?google(\-analytics|syndication|adservices|tagservices)\.[A-Za-z.]{2,7}/$important
@@ -17,6 +17,9 @@
 ||0--e.info^$important
 ||00e46b7f53.com^$important
 ||00f31156f051fdf.com^$important
+||xxccdshj.com^$important
+||advmusic.net^$important
+||pushnevis.com^$important
 ||01ced816b84.com^$important
 ||01counter.com^$important
 ||024xuyisheng.com^$important
