@@ -1012,7 +1012,6 @@
 ||bestfreesite2contents.info^$important
 ||bestgadgetoffers.icu^$important
 ||betboom.club^$important
-||betsonsport.ru^$important,third-party
 ||bettilt99.com^$important
 ||betweendigital.com^$important
 ||beufosew.bid^$important
@@ -3301,7 +3300,6 @@
 ||gambigambiwinwin.com^$important
 ||game168.com.tw^$important
 ||gamekeys.gq^$important
-||gamescarousel.com^$important,third-party
 ||gamutely.com^$important
 ||gaqhseuqp.com^$important
 ||gaxafjlxgoqfj.bid^$important
@@ -3309,6 +3307,11 @@
 ||gazogsjsoxty.com^$important
 ||gbakhtzvoguz.com^$important
 ||gbbtziazhn.com^$important
+||ig0nr8hhhb.com^$important
+||zqbnfjpewvnhjj.com^$important
+||dgucunmuibx.com^$important
+||luysvlnrb.com^$important
+||pbfjqmwjmuxywt.com^$important
 ||gbddkzbtczkw.bid^$important
 ||gbdqimygbobtih.bid^$important
 ||gbdxxsjzrechci.bid^$important
@@ -4467,8 +4470,6 @@
 ||ipesdpqmq.com^$important
 ||ipfcvsxisyz.com^$important
 ||iphwttyqzuhucw.bid^$important
-||ipify.org^$important,third-party
-||ipinfo.io^$important,third-party
 ||ipllxfcftp.com^$important
 ||ipluhckk.com^$important
 ||ipncblpgxlhjpc.com^$important
@@ -9842,7 +9843,6 @@
 ||urwvswik.bid^$important
 ||urxdodnj.com^$important
 ||uryvzhvgpulaog.com^$important
-||usabilla.com^$important,third-party
 ||usairguw.com^$important
 ||usaowwbxa.com^$important
 ||usclxdvvvnkdrv.com^$important
