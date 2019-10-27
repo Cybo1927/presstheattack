@@ -6392,7 +6392,7 @@ stats$important,script,badfilter
 |https://$third-party,xmlhttprequest,domain=01fmovies.com,badfilter
 ||2ch.net^$badfilter
 ||8ch.net^$badfilter
-||212.122.5.136$document,1p
+||212.122.5.136^$document,~third-party
 ||ad.mail.ru^$important
 ||addons-media.operacdn.com/media/CACHE^$xmlhttprequest,script
 ||addons.opera.com/themes/api^$xmlhttprequest,script
@@ -6409,6 +6409,12 @@ stats$important,script,badfilter
 ||api.lbs.yandex.ru/json^$important
 ||apis.google.com/js/platform.js$third-party,badfilter
 ||apis.google.com/js/plusone.js$important,third-party,badfilter
+#@#.widget_social_icons
+#@#.social-pinterest
+#@#.social-google-plus
+#@#.social-facebook
+#@#a[title="Back to top"]
+#@#.social-twitter
 ||apis.google.com/js/plusone.js$third-party,badfilter
 ||apis.google.com/js/plusone.js^$third-party,badfilter
 ||app.hubspot.com^$badfilter
@@ -6624,15 +6630,20 @@ mp4upload.com#@#+js(abort-current-inline-script, document.createElement, script)
 ||tools.google.com/service^$xmlhttprequest,script
 ||top100.rambler.ru^$badfilter
 ||top-fwz1.mail.ru^$important
-||torrent-soft.net$inline-script,important
+/^https?:\/\/torrent\-soft\.net\/([0-9]{4}|[a-z0-9]{8,9}\.min)\.js$/$script,important
 ||translate.googleapis.com/translate_a/$xmlhttprequest,script
 ||tumblr.com^$important,third-party,domain=~media.tumblr.com,badfilter
 ||twimg.com^$important,third-party,domain=~twitter.com|~moz-extension-scheme|~about-scheme|~behind-the-scene,badfilter
 ||twitter.com/*/trends$important,badfilter
 ||twitter.com/*statuses/user_timeline/$third-party,badfilter
+#@#.social-likes_visible
 ||twitter.com/account/$third-party,badfilter
+#@#.icon_facebook
+#@#.social-likes__counter
 ||twitter.com/javascripts/$third-party,badfilter
+#@#.social-likes__widget
 ||twitter.com/js/timeline.$script,third-party,badfilter
+#@#.social-likes__icon
 ||twitter.com/widgets.js$domain=hdrezka.tv,badfilter
 ||twitter.com^$important,third-party,badfilter
 ||typekit.net^$badfilter
