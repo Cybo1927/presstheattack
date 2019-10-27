@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-10-23 21:48:05
-! Version: 20191023214805
+! Last modified: 2019-10-27 13:06:39
+! Version: 20191027130639
 ! Expires: 3 hours
-! Number of filters: 12401
+! Number of filters: 12400
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -1131,7 +1131,6 @@
 ||bestfreesite2contents.info^$important
 ||bestgadgetoffers.icu^$important
 ||betboom.club^$important
-||betsonsport.ru^$important,third-party
 ||bettilt99.com^$important
 ||betweendigital.com^$important
 ||beufosew.bid^$important
@@ -2157,6 +2156,7 @@
 ||dgowzelhoaqqb.com^$important
 ||dgqktjmxtlp.com^$important
 ||dgrvnlhz.com^$important
+||dgucunmuibx.com^$important
 ||dgufzszbsk.bid^$important
 ||dgulomuzgkyjhe.bid^$important
 ||dgycvdyncugrd.bid^$important
@@ -3425,7 +3425,6 @@
 ||gambigambiwinwin.com^$important
 ||game168.com.tw^$important
 ||gamekeys.gq^$important
-||gamescarousel.com^$important,third-party
 ||gamutely.com^$important
 ||gaqhseuqp.com^$important
 ||gaxafjlxgoqfj.bid^$important
@@ -4597,8 +4596,6 @@
 ||ipesdpqmq.com^$important
 ||ipfcvsxisyz.com^$important
 ||iphwttyqzuhucw.bid^$important
-||ipify.org^$important,third-party
-||ipinfo.io^$important,third-party
 ||ipllxfcftp.com^$important
 ||ipluhckk.com^$important
 ||ipncblpgxlhjpc.com^$important
@@ -5934,6 +5931,7 @@
 ||luvkkodlpxou.bid^$important
 ||luvstnqpw.com^$important
 ||luxwinner.site^$important
+||luysvlnrb.com^$important
 ||luztinhsbzggvr.com^$important
 ||lvayccwmhdggvi.bid^$important
 ||lvcrcimfmfx.com^$important
@@ -7327,6 +7325,7 @@
 ||pbbutsvpzqza.com^$important
 ||pbcde.com^$important
 ||pbcyvzvdi.bid^$important
+||pbfjqmwjmuxywt.com^$important
 ||pbggemxcuosmhz.bid^$important
 ||pbhletstiooizj.com^$important
 ||pbjnssfvatrhc.com^$important
@@ -9983,7 +9982,6 @@
 ||urwvswik.bid^$important
 ||urxdodnj.com^$important
 ||uryvzhvgpulaog.com^$important
-||usabilla.com^$important,third-party
 ||usairguw.com^$important
 ||usaowwbxa.com^$important
 ||usclxdvvvnkdrv.com^$important
@@ -12251,6 +12249,7 @@
 ||zqajsv.qhigh.com^$important
 ||zqaxaqqqutrx.com^$important
 ||zqbjcsodjiz.bid^$important
+||zqbnfjpewvnhjj.com^$important
 ||zqddlgcrxjmwbz.bid^$important
 ||zqdvdygz.com^$important
 ||zqeskyeg.com^$important
