@@ -1508,10 +1508,12 @@ streamango.com#@#+js(aeld, contextmenu)
 /nav_googleplus.$badfilter
 /nav_twitter.$badfilter
 /navicon-rss_$badfilter
+||google.*/sorry/index?$important,document,badfilter
 /navicon_ap.gif$badfilter
 /navicon_facebook.$badfilter
 /navicon_feeds.$badfilter
 /navicon_twitter.$badfilter
+#@##sharebuttons
 /navicon_youtube.$badfilter
 /newbluerss.$badfilter
 /newrss.$badfilter
