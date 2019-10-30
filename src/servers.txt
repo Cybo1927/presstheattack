@@ -7586,6 +7586,8 @@
 ||pushdusk.com^$important
 ||pushimer.com^$important
 ||pushkov.info^$important
+||pushlat.com^$important
+||pushlaram.com^$important
 ||pushlinck.com^$important
 ||pushmejs.com^$important
 ||pushmenews.com^$important
@@ -8624,6 +8626,7 @@
 ||scxxbyqjslyp.com^$important
 ||sczcxmaizy.com^$important
 ||sdasasyydd.com^$important
+||s2block.com^$important
 ||sdeadbqsjam.com^$important
 ||sdemctwaiazt.com^$important
 ||sdfmxhdj.bid^$important
@@ -8944,6 +8947,7 @@
 ||strainemergency.com^$important
 ||strawdense.com^$important
 ||stremanp.com^$important
+||spearads.com^$important
 ||stresee.com^$important
 ||stringroadway.com^$important
 ||strongexplain.com^$important
@@ -9035,6 +9039,7 @@
 ||syiwwswcbxk.bid^$important
 ||symydvmqjjp.com^$important
 ||sync.rambler.ru^$important
+||superfastcdn.com^$important
 ||syndapop.com^$important
 ||syndicpop.com^$important
 ||syrnujjldljl.com^$important
@@ -9434,6 +9439,7 @@
 ||tskctmvpwjdb.com^$important
 ||tskdngwznw.bid^$important
 ||tslnxwzujrbfp.bid^$important
+||torvind.com^$important
 ||tslomhfys.com^$important
 ||tsmdmunzbtu.com^$important
 ||tsmwdhwvkaz.com^$important
@@ -10989,6 +10995,7 @@
 ||xcgebfplttrdg.com^$important
 ||xcjelwzs.com^$important
 ||xcjoqraqjwmk.com^$important
+||velocecdn.com^$important
 ||xclickers.com^$important
 ||xcmfhdbumademo.bid^$important
 ||xconeeitqrrq.com^$important
