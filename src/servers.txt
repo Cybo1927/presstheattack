@@ -7586,8 +7586,8 @@
 ||pushdusk.com^$important
 ||pushimer.com^$important
 ||pushkov.info^$important
-||pushlat.com^$important
 ||pushlaram.com^$important
+||pushlat.com^$important
 ||pushlinck.com^$important
 ||pushmejs.com^$important
 ||pushmenews.com^$important
@@ -8552,6 +8552,7 @@
 ||rzwzstbiqk.com^$important
 ||s0l8ybzj9u.top^$important
 ||s20dh7e9dh.com^$important
+||s2block.com^$important
 ||s4-megafunn.info^$important
 ||s4block.com^$important
 ||s5prou7ulr.com^$important
@@ -8626,7 +8627,6 @@
 ||scxxbyqjslyp.com^$important
 ||sczcxmaizy.com^$important
 ||sdasasyydd.com^$important
-||s2block.com^$important
 ||sdeadbqsjam.com^$important
 ||sdemctwaiazt.com^$important
 ||sdfmxhdj.bid^$important
@@ -8859,6 +8859,7 @@
 ||soyzsnaivas.com^$important
 ||sozdyrrtsvr.com^$important
 ||spbflxvnheih.com^$important
+||spearads.com^$important
 ||speeder.biz^$important
 ||speedlinkdown.com^$important
 ||spendentaly.info^$important
@@ -8947,7 +8948,6 @@
 ||strainemergency.com^$important
 ||strawdense.com^$important
 ||stremanp.com^$important
-||spearads.com^$important
 ||stresee.com^$important
 ||stringroadway.com^$important
 ||strongexplain.com^$important
@@ -8972,6 +8972,7 @@
 ||sumsmoxssy.com^$important
 ||sumvztfze.com^$important
 ||suonvyzivnfy.com^$important
+||superfastcdn.com^$important
 ||superonclick.com^$important
 ||supersalegiveaways.club^$important
 ||suqufucjzffhay.bid^$important
@@ -9039,7 +9040,6 @@
 ||syiwwswcbxk.bid^$important
 ||symydvmqjjp.com^$important
 ||sync.rambler.ru^$important
-||superfastcdn.com^$important
 ||syndapop.com^$important
 ||syndicpop.com^$important
 ||syrnujjldljl.com^$important
@@ -9357,6 +9357,7 @@
 ||topgadgetlists.com^$important
 ||toponclick.com^$important
 ||torringtonguion.com^$important
+||torvind.com^$important
 ||totalmedia2.ynet.co.il^$important
 ||totvsaexihbe.com^$important
 ||touayfftdwcd.com^$important
@@ -9439,7 +9440,6 @@
 ||tskctmvpwjdb.com^$important
 ||tskdngwznw.bid^$important
 ||tslnxwzujrbfp.bid^$important
-||torvind.com^$important
 ||tslomhfys.com^$important
 ||tsmdmunzbtu.com^$important
 ||tsmwdhwvkaz.com^$important
@@ -10103,6 +10103,7 @@
 ||vejlbuixnknc.com^$important
 ||vejrnvdsrvrbij.bid^$important
 ||velfssiowmyos.com^$important
+||velocecdn.com^$important
 ||velocitycdn.com^$important
 ||velzqrqrucvmqc.com^$important
 ||vemrhavwgchp.com^$important
@@ -10995,7 +10996,6 @@
 ||xcgebfplttrdg.com^$important
 ||xcjelwzs.com^$important
 ||xcjoqraqjwmk.com^$important
-||velocecdn.com^$important
 ||xclickers.com^$important
 ||xcmfhdbumademo.bid^$important
 ||xconeeitqrrq.com^$important
