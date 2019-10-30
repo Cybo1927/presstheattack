@@ -1,6 +1,4 @@
-/^https?:\/\/((www|wap)\.)?metric[as]?([0-9]{1,3})?\./$important,domain=~metrica.yandex.com|~metrica.yandex.ru|~metrika.yandex.com|~metrika.yandex.ru
 /^https?:\/\/((www|wap)\.)?(analysis|analytic[as]?)([0-9]{1,3})?\./$important,domain=~analytics.google.com
-/^https?:\/\/(apps?|best|mobile|prize|reward|sweeps).*\.[a-z]{5,15}.*\.(agency|icu|live)\//$document,important
 /^https?:\/\/((www|wap)\.)?(fingerprint|fp)([0-9]{1,3})?\./$important
 /^https?:\/\/((www|wap)\.)?ad[bsxv]?([0-9]{1,3})?\./$important,domain=~ad.nl|~ads.google.com
 /^https?:\/\/((www|wap)\.)?adsby([0-9]{1,3})?\./$important
@@ -13,6 +11,7 @@
 /^https?:\/\/((www|wap)\.)?geoservice([0-9]{1,3})?\./$important
 /^https?:\/\/((www|wap)\.)?informers?([0-9]{1,3})?\./$important
 /^https?:\/\/((www|wap)\.)?logs?([0-9]{1,3})?\./$important
+/^https?:\/\/((www|wap)\.)?metric[as]?([0-9]{1,3})?\./$important,domain=~metrica.yandex.com|~metrica.yandex.ru|~metrika.yandex.com|~metrika.yandex.ru
 /^https?:\/\/((www|wap)\.)?partners?([0-9]{1,3})?\./$important
 /^https?:\/\/((www|wap)\.)?pi?xe?l?([0-9]{1,3})?\./$important
 /^https?:\/\/((www|wap)\.)?re[ck]lam(a|s|er)?([0-9]{1,3})?\./$important
@@ -20,6 +19,7 @@
 /^https?:\/\/((www|wap)\.)?tags?([0-9]{1,3})?\./$important
 /^https?:\/\/((www|wap)\.)?track(ers?|ing)?([0-9]{1,3})?\./$important
 /^https?:\/\/((www|wap)\.)?vast([0-9]{1,3})?\./$important
+/^https?:\/\/(apps?|best|mobile|prize|reward|sweeps).*\.[a-z]{5,15}.*\.(agency|icu|live)\//$document,important
 |http*:*&action=js_stats_$important
 |http*:*.html?clicktag=$important
 |http*:*/afu.php?$important
