@@ -1604,6 +1604,8 @@
 ||clhkbfqzwpst.com^$important
 ||clhqmynew.bid^$important
 ||click2m.org^$important
+||cap-cap-pop.com^$important
+||clickadilla.com^$important
 ||clickiocdn.com^$important
 ||clickmedia.co.id^$important
 ||clickmon.co.kr^$important
@@ -1987,8 +1989,10 @@
 ||deiqehvcdnntg.com^$important
 ||delcomeyersdale.com^$important
 ||delivery.vidible.tv^$important
+||defpush.com^$important
 ||deloplen.com^$important
 ||deloton.com^$important
+||deloplenn.com^$important
 ||demand.supply^$important
 ||demandbase.com^$important
 ||demdex.net^$important
@@ -2751,6 +2755,7 @@
 ||exbphrqpqukm.com^$important
 ||excqjoor.com^$important
 ||exdcbyzgwfvwa.com^$important
+||exarab.com^$important
 ||exdynsrv.com^$important
 ||exekiksakspujl.com^$important
 ||exelator.com^$important
@@ -6825,6 +6830,8 @@
 ||ocixtsnyxxvyaw.com^$important
 ||ockorrytznnq.bid^$important
 ||ockrsolo.bid^$important
+||muahohanghoa.com^$important
+||newdonate.com^$important
 ||oclasrv.com^$important
 ||ocmvmmwctmto.bid^$important
 ||ocofiyymgfyxx.bid^$important
