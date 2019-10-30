@@ -4009,8 +4009,6 @@
 ||hopafrmwpckj.com^$important
 ||hoqqzlvwukpo.com^$important
 ||horshamoronoco.com^$important
-||propu.sh^$important
-||nativepu.sh^$important
 ||horylaht.bid^$important
 ||hosiioyx.com^$important
 ||hosmermurdock.com^$important
@@ -6384,6 +6382,7 @@
 ||napickmw.com^$important
 ||narkadarfur.com^$important
 ||nasfrzhbqvgq.bid^$important
+||nativepu.sh^$important
 ||nativespot.com^$important
 ||naucmjbzmymdzr.bid^$important
 ||navdmp.com^$important
@@ -7503,6 +7502,7 @@
 ||propellerclick.com^$important
 ||prophet.heise.de^$important
 ||proporing.info^$important
+||propu.sh^$important
 ||prostomers.com^$important
 ||protect-your-privacy-now.com^$important
 ||protovid.com^$important
