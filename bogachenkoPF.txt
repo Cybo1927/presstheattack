@@ -6442,6 +6442,7 @@ stats$important,script,badfilter
 ||autoupdate.geo.opera.com/$important
 ||autoupdate.geo.opera.com/geolocation/$xmlhttprequest,script
 ||awaps.yandex.*^$important
+||appmetrica.yandex.*^$important
 ||awsync.yandex.*^$important
 ||bench.utorrent.com^$xmlhttprequest,script
 ||blockadblock.com^$badfilter
@@ -6456,6 +6457,7 @@ stats$important,script,badfilter
 ||browser-resources.s3.yandex.net^$important
 ||browser.yandex.ru^$important
 ||bs.yandex.*^$important
+||bs-meta.yandex.*^$important
 ||bugsnag.com^$badfilter
 ||captchas.freebitco.in^$badfilter
 ||ccleaner.com/auto^$xmlhttprequest,script
@@ -6616,6 +6618,7 @@ mp4upload.com#@#+js(abort-current-inline-script, document.createElement, script)
 ||playground.ru/img/blank.mp4$media,redirect=noopmp4-1s
 ||pr-cy.ru^$badfilter
 ||r0.mail.ru^$important
+||direct.yandex.*^$important
 ||r3.mail.ru^$important
 ||rambler.ru^$third-party,badfilter
 ||recostream.go.mail.ru^$important
@@ -6631,8 +6634,11 @@ mp4upload.com#@#+js(abort-current-inline-script, document.createElement, script)
 ||share.yandex.*/gpp.xml?url=$badfilter
 ||sharethis.com^$third-party,badfilter
 ||signavatar.com^$third-party,important,badfilter
-||social.yandex.ru^$important
-||sovetnik.market.yandex.ru^$important
+||sovetnik.market.yandex.*^$important
+||fenek.sovetnik.market.yandex.*^$important
+||informer.yandex.*^$important
+||kiks.yandex.*^$important
+||grade.sovetnik.market.yandex.*^$important
 ||speeddials.opera.com/api^$xmlhttprequest,script
 ||start.palemoon.org/$xmlhttprequest,script,document
 ||statcounter.com^$badfilter
@@ -6729,7 +6735,7 @@ kindteenporn.com##.admin-frame-wrap, .vi-br
 ||webvisor.com^$badfilter
 ||webvisor.com^$domain=~metrika.yandex.ru|~metrica.yandex.com|~webvisor.com
 ||xray.mail.ru^$important
-||yabs.yandex.ru^$important
+||yabs.yandex.*^$important
 ||yadro.ru^$important
 ||yahoo.com^$third-party,important
 ||yandex.*/clck/$domain=yandex.ru|yandex.ua|yandex.by
@@ -6773,9 +6779,13 @@ duckduckgo.com##.social.header--aside__item, .header__label.showcase.header--asi
 ||twitch.tv^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' wss: blob: *.jtvnw.net *.ttvnw.net *.twitchcdn.net *.twitch.tv *.facebook.com *.facebook.net recaptcha.net *.google.com *.gstatic.com *.algolia.net;
 ||youtube.com/subscribe_embed?$third-party,badfilter
 ||youtube.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: wss: *.ggpht.com *.googlevideo.com *.ytimg.com *.googleusercontent.com *.youtube.com *.google.com *.gstatic.com local.adguard.org;
-||zdevx.yandex.ru^$important
-||zen-test.yandex.ru^$important
-||zen.yandex.ru^$third-party,important
+||zdevx.yandex.*^$important
+||main.zdevx.yandex.*^$important
+||zen-test.yandex.*^$important
+||mc.yandex.*^$important
+||ms.yandex.*^$important
+||mx.yandex.*^$important
+||zen.yandex.*^$third-party,important
 ||zencdn.net^$badfilter
 ||zencdn.net^$important,badfilter
 ||zergnet.com^$badfilter
