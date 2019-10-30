@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-10-30 13:31:07
-! Version: 20191030133107
+! Last modified: 2019-10-30 22:17:34
+! Version: 20191030221734
 ! Expires: 3 hours
-! Number of filters: 12443
+! Number of filters: 12448
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -925,6 +925,7 @@
 ||audersmi.com^$important
 ||aueceijyp.bid^$important
 ||aufyuiavvkf.bid^$important
+||augheguw.net^$important
 ||aultemeztokc.com^$important
 ||aurbidpos.com^$important
 ||austery.info^$important
@@ -1776,6 +1777,7 @@
 ||cnyblliqyhcs.bid^$important
 ||cnygzgurqpwop.bid^$important
 ||co-aa76.stream^$important
+||coazuthu.net^$important
 ||cobalten.com^$important
 ||cofybuwuc.com^$important
 ||cogxsnvqesph.com^$important
@@ -6428,6 +6430,7 @@
 ||mtveughs.com^$important
 ||mtyqtczr.bid^$important
 ||mtysahmkqqdo.com^$important
+||mtzszlpypbxjm.com^$important
 ||muahohanghoa.com^$important
 ||muasoctv.com^$important
 ||mukxblrkoaaa.com^$important
@@ -8167,6 +8170,7 @@
 ||qualtrics.com^$important
 ||quantcast.mgr.consensu.org^$important
 ||quantserve.com^$important
+||quaruzon.com^$important
 ||quaven.pro^$important
 ||quazhzeih.com^$important
 ||quckoemdypxoiq.bid^$important
@@ -9140,6 +9144,7 @@
 ||svbsvbwci.com^$important
 ||svdmxetbyfyg.com^$important
 ||svdsutdq.com^$important
+||svevbvsjeicl.com^$important
 ||svfqoztfopv.com^$important
 ||svip-center.com^$important
 ||svjloaomrher.com^$important

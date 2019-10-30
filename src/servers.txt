@@ -30,13 +30,6 @@
 ||0879dbbeb31e0c83d.com^$important
 ||09cd.co.kr^$important
 ||09fee6914d1b6450885.com^$important
-||augheguw.net^$important
-||badslads.com^$important
-||coazuthu.net^$important
-||mtzszlpypbxjm.com^$important
-||svevbvsjeicl.com^$important
-||velocecdn.com^$important
-||quaruzon.com^$important
 ||0azx1.com^$important
 ||0byv9mgbn0.com^$important
 ||0d96a0971a04071.com^$important
@@ -812,6 +805,7 @@
 ||audersmi.com^$important
 ||aueceijyp.bid^$important
 ||aufyuiavvkf.bid^$important
+||augheguw.net^$important
 ||aultemeztokc.com^$important
 ||aurbidpos.com^$important
 ||austery.info^$important
@@ -1663,6 +1657,7 @@
 ||cnyblliqyhcs.bid^$important
 ||cnygzgurqpwop.bid^$important
 ||co-aa76.stream^$important
+||coazuthu.net^$important
 ||cobalten.com^$important
 ||cofybuwuc.com^$important
 ||cogxsnvqesph.com^$important
@@ -6303,6 +6298,7 @@
 ||mtveughs.com^$important
 ||mtyqtczr.bid^$important
 ||mtysahmkqqdo.com^$important
+||mtzszlpypbxjm.com^$important
 ||muahohanghoa.com^$important
 ||muasoctv.com^$important
 ||mukxblrkoaaa.com^$important
@@ -8038,6 +8034,7 @@
 ||qualtrics.com^$important
 ||quantcast.mgr.consensu.org^$important
 ||quantserve.com^$important
+||quaruzon.com^$important
 ||quaven.pro^$important
 ||quazhzeih.com^$important
 ||quckoemdypxoiq.bid^$important
@@ -9008,6 +9005,7 @@
 ||svbsvbwci.com^$important
 ||svdmxetbyfyg.com^$important
 ||svdsutdq.com^$important
+||svevbvsjeicl.com^$important
 ||svfqoztfopv.com^$important
 ||svip-center.com^$important
 ||svjloaomrher.com^$important
