@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-10-30 13:09:05
-! Version: 20191030130905
+! Last modified: 2019-10-30 13:13:45
+! Version: 20191030131345
 ! Expires: 3 hours
-! Number of filters: 12420
+! Number of filters: 12423
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -71,6 +71,7 @@
 /^https?:\/\/[^\s]+[!"#$%&'()*+,:;<=>?@/\^_`{|}~-]1x1\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|heic|heif|webp|jxr|wdp|dng|cr2|arw|js|html?)/$image,important,script,subdocument
 /^https?:\/\/[^\s]+[!"#$%&'()*+,:;<=>?@/\^_`{|}~-]log[!"#$%&'()*+,:;<=>?@/\^_`{|}~-]?(type|event|entry|request)\??/$image,important,other,xmlhttprequest
 /^https?:\/\/[^\s]+[!"#$%&'()*+,:;<=>?@/\^_`{|}~-]prebid\./$important,script
+/^https?:\/\/[^\s]+[!"#$%&'()*+,:;<=>?@/\^_`{|}~-]videoad[0-9]{1,3}\.php/$important,script,xmlhttprequest
 /^https?:\/\/[^\s]+\&refer\=https?/$important,script
 /^https?:\/\/[^\s]+\.(cc\/$|club|com|online|ru)/$important,xmlhttprequest,domain=hdgo.cc|vio.to
 /^https?:\/\/[^\s]+\.[A-Za-z]{2,6}\/[^\s]{5,}\.js\?[A-Za-z]{1}\=[^\s]{50,}/$important,popup
@@ -11130,6 +11131,7 @@
 ||xcgebfplttrdg.com^$important
 ||xcjelwzs.com^$important
 ||xcjoqraqjwmk.com^$important
+||xclickers.com^$important
 ||xcmfhdbumademo.bid^$important
 ||xconeeitqrrq.com^$important
 ||xcrruqesggzc.com^$important
@@ -11997,6 +11999,7 @@
 ||zansceeifcmm.com^$important
 ||zap.buzz^$important
 ||zapvzwydgiwz.com^$important
+||zarpop.com^$important
 ||zatrlsov.com^$important
 ||zavfvuooiqvepj.com^$important
 ||zavlamhx.com^$important
