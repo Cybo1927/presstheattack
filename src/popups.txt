@@ -1,4 +1,3 @@
-/^https?:\/\/([A-Za-z0-9]{3,}\.)?(([0-9]{1,2})?l\-hit|([0-9]{1,2})?l\-view|rs|staging|(vk|stepan\-fe)\.go|reklama|ads?|recostream\.go|([^\s]{10,}\.)?top([0-9]{1}|\-(fwz([0-9]{1,2})?))?|mediator|[^\s]{3,}\.radar|g?stat|xray|t|fmdata)\.(imgs)?mail\.ru/$important,popup
 /^https?:\/\/(bitly|bit)\.(com|ly)/$important,popup
 /^https?:\/\/[^\s]+\.[A-Za-z]{2,6}\/[^\s]{5,}\.js\?[A-Za-z]{1}\=[^\s]{50,}/$important,popup
 /^https?:\/\/[a-z0-9]{5,15}\.(click|com|bid|net|online|top|club)\/[0-9a-z]{8,12}\?key\=[0-9a-f]{32}$/$important,popup,third-party
