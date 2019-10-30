@@ -750,7 +750,6 @@
 ||arcfwcxi.com^$important
 ||arcicalonetal.pro^$important
 ||arda0hylt58g4wg0.pro^$important
-||clcknads.pro^$important
 ||areary.com^$important
 ||arfttojxv.com^$important
 ||argetz.fun^$important
@@ -1394,6 +1393,7 @@
 ||caajevalistl.com^$important
 ||caaqyzbpsbtk.com^$important
 ||cabd920a3a9f6514.com^$important
+||cachefly.net^$important
 ||cacpcaizwx.bid^$important
 ||cadulscdfhtcb.bid^$important
 ||cafvzpusl.com^$important
@@ -1530,7 +1530,6 @@
 ||choolslot.info^$important
 ||choov4fa.com^$important
 ||chosenlove.com^$important
-||cachefly.net^$important
 ||chouftak.net^$important
 ||chouphoa.top^$important
 ||chqspuonctkgz.com^$important
@@ -1597,14 +1596,17 @@
 ||clarium.global.ssl.fastly.net^$important
 ||class2deal.com^$important
 ||class64deal.com^$important
+||clcknads.pro^$important
 ||cledghtdrjtb.com^$important
 ||cleelumyards.com^$important
 ||clevernt.com^$important
 ||clgyhwaoh.com^$important
 ||clhkbfqzwpst.com^$important
 ||clhqmynew.bid^$important
+||click2m.org^$important
 ||clickiocdn.com^$important
 ||clickmedia.co.id^$important
+||clickmon.co.kr^$important
 ||clickopop1000.com^$important
 ||clicks.support^$important
 ||clicksgear.com^$important
@@ -1688,14 +1690,12 @@
 ||contentza.com^$important
 ||contestandgiveaways.xyz^$important
 ||conviva.com^$important
-||click2m.org^$important
 ||coograma.net^$important
 ||cookie-script.com^$important
 ||cookielaw.org^$important
 ||copicvarianuty.info^$important
 ||cortxphssdvc.com^$important
 ||coshfgpgab.com^$important
-||clickmon.co.kr^$important
 ||count.taobao.com^$important
 ||covjoecuzyss.com^$important
 ||cowmslkltc.com^$important
@@ -7442,7 +7442,6 @@
 ||postback.info^$important
 ||postrelease.com^$important
 ||postrsyk.com^$important
-||smartclick.net^$important
 ||potmbbqbaqxwp.com^$important
 ||potpourrichordataoscilloscope.com^$important
 ||povqrvsoljy.com^$important
@@ -8798,6 +8797,7 @@
 ||slwclrwmruuxav.com^$important
 ||smapohsnoww.com^$important
 ||smartadserver.com^$important
+||smartclick.net^$important
 ||smartphonesbonusoffers.icu^$important
 ||smashseek.com^$important
 ||smhqmrxplvnx.com^$important
