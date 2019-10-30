@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-10-30 13:24:16
-! Version: 20191030132416
+! Last modified: 2019-10-30 13:31:07
+! Version: 20191030133107
 ! Expires: 3 hours
-! Number of filters: 12436
+! Number of filters: 12443
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -1523,6 +1523,7 @@
 ||caljqsml.com^$important
 ||callcentercard.world^$important
 ||camrfajedgku.com^$important
+||cap-cap-pop.com^$important
 ||capacitly.com^$important
 ||caribanner.bid^$important
 ||carsxardivaf.com^$important
@@ -1724,6 +1725,7 @@
 ||clhkbfqzwpst.com^$important
 ||clhqmynew.bid^$important
 ||click2m.org^$important
+||clickadilla.com^$important
 ||clickiocdn.com^$important
 ||clickmedia.co.id^$important
 ||clickmon.co.kr^$important
@@ -2105,12 +2107,14 @@
 ||debuackedhkvu.bid^$important
 ||decademical.com^$important
 ||deebwmbbytr.com^$important
+||defpush.com^$important
 ||degitlwfezpe.com^$important
 ||dehyogsjbk.bid^$important
 ||deiqehvcdnntg.com^$important
 ||delcomeyersdale.com^$important
 ||delivery.vidible.tv^$important
 ||deloplen.com^$important
+||deloplenn.com^$important
 ||deloton.com^$important
 ||demand.supply^$important
 ||demandbase.com^$important
@@ -2873,6 +2877,7 @@
 ||ewzwkgyrpk.bid^$important
 ||exactag.com^$important
 ||exaorwqrj.bid^$important
+||exarab.com^$important
 ||exbphrqpqukm.com^$important
 ||excqjoor.com^$important
 ||exdcbyzgwfvwa.com^$important
@@ -6423,6 +6428,7 @@
 ||mtveughs.com^$important
 ||mtyqtczr.bid^$important
 ||mtysahmkqqdo.com^$important
+||muahohanghoa.com^$important
 ||muasoctv.com^$important
 ||mukxblrkoaaa.com^$important
 ||multationprop.club^$important
@@ -6596,6 +6602,7 @@
 ||new-message.support^$important
 ||newadsclicks.com^$important
 ||newaprads.com^$important
+||newdonate.com^$important
 ||newgadgetpresents.icu^$important
 ||newinfo.support^$important
 ||newmail.support^$important
