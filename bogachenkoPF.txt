@@ -6635,6 +6635,22 @@ mp4upload.com#@#+js(abort-current-inline-script, document.createElement, script)
 ||static1.freebitco.in^$badfilter
 ||static2.freebitco.in^$badfilter
 ||static3.freebitco.in^$badfilter
+||pornhub.*^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.phncdn.com *.pornhub.com *.nsimg.net,badfilter
+premium^$important,script,domain=pornhub.com,badfilter
+pornhub.com#@#+js(abort-on-property-write, rAb)
+pornhub.com#@#+js(abort-on-property-write, UAParser)
+pornhub.com#@#+js(addEventListener-defuser, DOMContentLoaded, [native code])
+pornhub.*#@#+js(eremove, #under-player-comments\, #welcome\, .abovePlayer\, .clear.hd.jisfhp0w2u\, .adlink2\, .kzpcaw\, .streamatesModelsContainer.sectionWrapper\, #under-player-playlists\, .underplayer-thumbs.videos\, .item-6.menu\, .nf-wrapper > .sectionWrapper\, #pb_template\, .clear.hd\, .fadeInMTubes\, .sniperModeEngaged)
+pornhub.*#@#+js(abort-on-property-read, userABMessage)
+pornhub.*#@#+js(aeld, contextmenu)
+pornhub.com#@#+js(set-constant, atob, trueFunc)
+pornhub.com#@#+js(abort-current-inline-script, Math, createShadowRoot)
+pornhub.com#@#+js(abort-on-property-write, isAdblockOn)
+#@#.socialList
+#@#.twitterIcon
+pornhub.com#@#body > .wrapper + div[class]:has(:scope > .removeAdLink)
+pornhub.com#@#.removeAdsStyle
+#@#.socialIconsWrapper
 ||static4.freebitco.in^$badfilter
 ||static5.freebitco.in^$badfilter
 ||static6.freebitco.in^$badfilter
