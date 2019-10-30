@@ -6983,6 +6983,7 @@
 ||onawaykeeline.com^$important
 ||onclasrv.com^$important
 ||onclicksuper.com^$important
+||onclickmega.com^$important
 ||ongkidcasarv.com^$important
 ||onhxejzm.bid^$important
 ||onjqfyuxprnq.com^$important
@@ -7502,6 +7503,10 @@
 ||promoltd.online^$important
 ||promotionaldivices.icu^$important
 ||proofpoint.com^$important
+||poparya.com^$important
+||popmajor.com^$important
+||pastoupt.com^$important
+||popmyads.com^$important
 ||propellerclick.com^$important
 ||prophet.heise.de^$important
 ||proporing.info^$important
@@ -7593,6 +7598,7 @@
 ||pushmenews.com^$important
 ||pushmobilenews.com^$important
 ||pushnative.com^$important
+||jshosting.loan^$important
 ||pushnevis.com^$important
 ||pushnews.ru^$important
 ||pushno.com^$important
