@@ -6775,7 +6775,7 @@ duckduckgo.com##.social.header--aside__item, .header__label.showcase.header--asi
 ||youtube.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: wss: *.ggpht.com *.googlevideo.com *.ytimg.com *.googleusercontent.com *.youtube.com *.google.com *.gstatic.com local.adguard.org;
 ||zdevx.yandex.ru^$important
 ||zen-test.yandex.ru^$important
-||zen.yandex.ru^$important
+||zen.yandex.ru^$third-party,important
 ||zencdn.net^$badfilter
 ||zencdn.net^$important,badfilter
 ||zergnet.com^$badfilter
