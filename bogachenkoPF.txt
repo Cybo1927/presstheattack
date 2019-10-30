@@ -2725,6 +2725,7 @@
 @@||ask.com^$elemhide,badfilter
 @@||athena77.com/?s=$elemhide,badfilter
 @@||atlanticbb.net/search/$elemhide,badfilter
+||googletagservices.*^$important
 @@||au.search.yahoo.com^$elemhide,badfilter
 @@||auspreiser.at^$elemhide,badfilter
 @@||auspreiser.de^$elemhide,badfilter
@@ -2773,6 +2774,7 @@
 @@||bottomdollar.com^$elemhide,badfilter
 @@||branchster.app.link^$image,domain=reddit.com,badfilter
 @@||browser.start.fyi/search^$elemhide,badfilter
+||browser-updater.yandex.*^$important
 @@||bs.serving-sys.com^$image,domain=reddit.com,badfilter
 @@||buckeyecablesystem.net^$elemhide,badfilter
 @@||buenacuerdo.com.ar^$elemhide,badfilter
@@ -6267,7 +6269,10 @@ youtube.com#@#ytd-popup-container[class="style-scope ytd-app"] > iron-dropdown[f
 ||ads.$badfilter
 ||ads.$important
 ||ads.google.com^$badfilter
-||adservice.google.*^$important,badfilter
+||fundingchoicesmessages.google.*^$important
+||imasdk.googleapis.*^$important
+||mobilecrashreporting.google.*^$important
+||adservice.google.*^$important
 ||aliexpress.com^$badfilter
 ||an.yandex.*^$important
 ||analytics.google.com^$badfilter
@@ -6423,7 +6428,9 @@ youtube.com#@#ytd-popup-container[class="style-scope ytd-app"] > iron-dropdown[f
 ||contributor.google.com/scripts^$badfilter
 ||cse.google.com/cse.js^$important,badfilter
 ||cse.google.com^$important,badfilter
-||csp.yandex.net^$important
+||csp.yandex.*^$important
+||contributor.google.*^$important
+||adfox.yandex.*^$important
 ||cspreport.mail.ru^$important
 ||cy-pr.com^$badfilter
 ||dditscdn.com^*&ispromo=$badfilter
@@ -6530,12 +6537,13 @@ youtube.com#@#ytd-popup-container[class="style-scope ytd-app"] > iron-dropdown[f
 ||google.com/translate_a/element.js?cb=googletranslateelementinit|$badfilter
 ||google.com^*/fastbutton?$third-party,badfilter
 ||googleapis.com/chromewebstore/*/items/verify$xmlhttprequest,script
-||googlesyndication.com^$important
-||googletagmanager.com^$badfilter
-||googletagmanager.com^$important
+||googlesyndication.*^$important
+||googleadservices.*^$important
+||googletagmanager.*^$important
 ||gounlimited.to^$badfilter
 ||gounlimited.to^$csp=script-src 'self' 'unsafe-eval' 'unsafe-inline' data:,badfilter
-||grade.sovetnik.market.yandex.*^$important
+||grade.market.yandex.*^$important
+||sovetnik.market.yandex.*^$important
 ||graph.facebook.com^$important
 ||gravatar.com^$important,badfilter
 ||gravatar.com^$important,third-party,badfilter
@@ -6547,7 +6555,8 @@ youtube.com#@#ytd-popup-container[class="style-scope ytd-app"] > iron-dropdown[f
 ||hit.gemius.pl^$third-party,badfilter
 ||hqq.tv/js/video.js/pip/$badfilter
 ||i1.ytimg.com^$badfilter
-||id.google.*^$important,badfilter
+||id.google.*^$important
+||gg.google.*^$important
 ||imgur.com/min/runslots.js$important,script,badfilter
 ||indishare.*^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.bootstrapcdn.com *.cloudflare.com *.google-analytics.com,badfilter
 ||informer.yandex.*^$important
@@ -6572,7 +6581,6 @@ youtube.com#@#ytd-popup-container[class="style-scope ytd-app"] > iron-dropdown[f
 ||mail.google.com/mail/*/cleardot.gif$important,badfilter
 ||mail.ru^$third-party,app=com.vkontakte.android,important
 ||main.zdevx.yandex.*^$important
-||mc.yandex.*^$important
 ||mc.yandex.*^$important
 ||metrica.yandex.com^$badfilter
 ||metrica.yandex.ru^$badfilter
@@ -6643,7 +6651,7 @@ youtube.com#@#ytd-popup-container[class="style-scope ytd-app"] > iron-dropdown[f
 ||ru/ads/$badfilter
 ||rulu.co^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' s0.wp.com *.jquery.com disqus.com *.disqus.com *.disquscdn.com data:,badfilter
 ||s7.addthis.com^$badfilter
-||safebrowsing.googleapis.com^$important
+||safebrowsing.googleapis.*^$important
 ||sandbox.music.yandex.net^$script,subdocument,domain=music.yandex.ru|music.yandex.com|music.yandex.ua|music.yandex.by
 ||sba.cdn.yandex.net/csd^$important
 ||sba.yandex.net^$important
@@ -6670,7 +6678,7 @@ youtube.com#@#ytd-popup-container[class="style-scope ytd-app"] > iron-dropdown[f
 ||static6.freebitco.in^$badfilter
 ||static7.freebitco.in^$badfilter
 ||static8.freebitco.in^$badfilter
-||static-mon.yandex.net^$important
+||static-mon.yandex.*^$important
 ||storage.ape.yandex.net/get/browser^$xmlhttprequest,script
 ||store.yahoo.net^*/facebook.png$third-party,badfilter
 ||streamango.com/assets/js/license$important,badfilter
