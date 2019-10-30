@@ -4933,6 +4933,7 @@
 ||js-agent.newrelic.com^$important
 ||jsecoin.com^$important
 ||jshjrozmwmyj.com^$important
+||jshosting.loan^$important
 ||jtacrwtaf.com^$important
 ||jtbmxdoadktnm.com^$important
 ||jtmfmeexjet.bid^$important
@@ -6982,8 +6983,8 @@
 ||omzieezywqnyxl.com^$important
 ||onawaykeeline.com^$important
 ||onclasrv.com^$important
-||onclicksuper.com^$important
 ||onclickmega.com^$important
+||onclicksuper.com^$important
 ||ongkidcasarv.com^$important
 ||onhxejzm.bid^$important
 ||onjqfyuxprnq.com^$important
@@ -7195,6 +7196,7 @@
 ||pascal3.science^$important
 ||pascal4.science^$important
 ||pascal5.science^$important
+||pastoupt.com^$important
 ||patuarioahzaen.bid^$important
 ||paujoawa.top^$important
 ||pavlovaks.info^$important
@@ -7436,7 +7438,10 @@
 ||pooxbpxm.com^$important
 ||popads.net^$important
 ||popadscdn.net^$important
+||poparya.com^$important
 ||popcash.net^$important
+||popmajor.com^$important
+||popmyads.com^$important
 ||popunders.bid^$important
 ||popzkvfimbox.com^$important
 ||poqqvnychl.com^$important
@@ -7503,10 +7508,6 @@
 ||promoltd.online^$important
 ||promotionaldivices.icu^$important
 ||proofpoint.com^$important
-||poparya.com^$important
-||popmajor.com^$important
-||pastoupt.com^$important
-||popmyads.com^$important
 ||propellerclick.com^$important
 ||prophet.heise.de^$important
 ||proporing.info^$important
@@ -7598,7 +7599,6 @@
 ||pushmenews.com^$important
 ||pushmobilenews.com^$important
 ||pushnative.com^$important
-||jshosting.loan^$important
 ||pushnevis.com^$important
 ||pushnews.ru^$important
 ||pushno.com^$important

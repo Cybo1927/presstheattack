@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-10-30 13:18:12
-! Version: 20191030131812
+! Last modified: 2019-10-30 13:24:16
+! Version: 20191030132416
 ! Expires: 3 hours
-! Number of filters: 12430
+! Number of filters: 12436
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -5064,6 +5064,7 @@
 ||js-agent.newrelic.com^$important
 ||jsecoin.com^$important
 ||jshjrozmwmyj.com^$important
+||jshosting.loan^$important
 ||jtacrwtaf.com^$important
 ||jtbmxdoadktnm.com^$important
 ||jtmfmeexjet.bid^$important
@@ -7115,6 +7116,7 @@
 ||omzieezywqnyxl.com^$important
 ||onawaykeeline.com^$important
 ||onclasrv.com^$important
+||onclickmega.com^$important
 ||onclicksuper.com^$important
 ||ongkidcasarv.com^$important
 ||onhxejzm.bid^$important
@@ -7327,6 +7329,7 @@
 ||pascal3.science^$important
 ||pascal4.science^$important
 ||pascal5.science^$important
+||pastoupt.com^$important
 ||patuarioahzaen.bid^$important
 ||paujoawa.top^$important
 ||pavlovaks.info^$important
@@ -7570,7 +7573,10 @@
 ||pooxbpxm.com^$important
 ||popads.net^$important
 ||popadscdn.net^$important
+||poparya.com^$important
 ||popcash.net^$important
+||popmajor.com^$important
+||popmyads.com^$important
 ||popunders.bid^$important
 ||popzkvfimbox.com^$important
 ||poqqvnychl.com^$important
