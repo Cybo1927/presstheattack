@@ -2729,6 +2729,8 @@
 @@||au.search.yahoo.com^$elemhide,badfilter
 @@||auspreiser.at^$elemhide,badfilter
 @@||auspreiser.de^$elemhide,badfilter
+||zen.yandex.ru^$important,badfilter
+||zen.yandex.ru^$third-party,important
 @@||auto.co.uk^$elemhide,badfilter
 @@||auto.de^$elemhide,badfilter
 @@||autoblog.com^*^q=$elemhide,badfilter
@@ -6793,7 +6795,6 @@ youtube.com#@#ytd-popup-container[class="style-scope ytd-app"] > iron-dropdown[f
 ||youtube.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: wss: *.ggpht.com *.googlevideo.com *.ytimg.com *.googleusercontent.com *.youtube.com *.google.com *.gstatic.com local.adguard.org;
 ||zdevx.yandex.*^$important
 ||zen-test.yandex.*^$important
-||zen.yandex.*^$third-party,important
 ||zencdn.net^$badfilter
 ||zencdn.net^$important,badfilter
 ||zergnet.com^$badfilter
