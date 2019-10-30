@@ -6601,9 +6601,14 @@ mp4upload.com#@#+js(abort-current-inline-script, document.createElement, script)
 ||platform.tumblr.com^$third-party,badfilter
 ||platform.twitter.com*/widget/$third-party,badfilter
 ||platform.twitter.com*/widgets/$third-party,badfilter
+#@#.social_buttons
 ||platform.twitter.com/anywhere.js$third-party,badfilter
+#@#.instagram.icon
+#@#.follow-icons
+#@#.back-to-top
 ||platform.twitter.com/embed/$~stylesheet,third-party,badfilter
 ||platform.twitter.com/js/button.$badfilter
+#@#.soc_tw
 ||platform.twitter.com/js/button.$third-party,badfilter
 ||platform.twitter.com/widgets.js$badfilter
 ||platform.twitter.com/widgets/widget_iframe$badfilter
