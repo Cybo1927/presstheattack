@@ -14,7 +14,6 @@
 ||00e46b7f53.com^$important
 ||00f31156f051fdf.com^$important
 ||01ced816b84.com^$important
-||partnerfeed.ru^$important
 ||01counter.com^$important
 ||024xuyisheng.com^$important
 ||0377shujuhuifu.top^$important
@@ -7546,6 +7545,7 @@
 ||parmelecumbola.com^$important
 ||parsimoniouspolice.com^$important
 ||partlepool.com^$important
+||partnerfeed.ru^$important
 ||partplanes.com^$important
 ||partyroots.com^$important
 ||parumal.com^$important

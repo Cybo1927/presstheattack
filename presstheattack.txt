@@ -1,7 +1,7 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-10-31 12:33:25
-! Version: 20191031123325
+! Last modified: 2019-10-31 16:44:03
+! Version: 20191031164403
 ! Expires: 3 hours
 ! Number of filters: 13036
 ! Homepage: https://github.com/bogachenko/presstheattack/
@@ -1989,7 +1989,6 @@
 ||crabbychin.com^$important
 ||cracwrddcb.com^$important
 ||craptoke.com^$important
-||crashlytics.com^$important
 ||crawlclocks.com^$important
 ||craydark.pw^$important
 ||crayoncompetition.com^$important
@@ -7678,6 +7677,7 @@
 ||parmelecumbola.com^$important
 ||parsimoniouspolice.com^$important
 ||partlepool.com^$important
+||partnerfeed.ru^$important
 ||partplanes.com^$important
 ||partyroots.com^$important
 ||parumal.com^$important
