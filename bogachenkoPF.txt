@@ -27,13 +27,8 @@ infourok.ru###aa-popup
 ||awsync.yandex.ru^$important
 ||adfox.yandex.ru^$important
 ||yandex.*/clck/click$important
-#@#.social-teasers
-#@#.ya-share2
-#@#.block_social
 *$beacon,important
-*$inline-font,important,badfilter
 ||api.twitch.tv/*/channels/*/extensions^$xmlhttprequest
-*$font,important,badfilter
 ##a[href^="https://bit.ly/"][target="_blank"]
 ||yastatic.net^*/widget_ya.js$badfilter
 */*.gif|$document,domain=~github.com|~wikimedia.org|~githubusercontent.com
@@ -101,65 +96,14 @@ yandex.ru,yandex.ua,yandex.by,yandex.com##.favorites__icon, .head-promo-plus__ic
 ||ads48.
 ||ads49.
 ||ads50.
-||ads51.
-||ads52.
-||ads53.
-||ads54.
 ||graph.facebook.com^
-||ads55.
-||ads56.
 ||appmetrica.yandex.net^$important
-||ads57.
-||ads58.
-||ads59.
-||ads60.
-||ads61.
-||ads62.
-||ads63.
-||ads64.
-||ads65.
-||ads66.
-||ads67.
-||ads68.
-||ads69.
-||ads70.
-||ads71.
-||ads72.
-||ads73.
-||ads74.
-||ads75.
-||ads76.
-||ads77.
-||ads78.
-||ads79.
-||ads80.
-||ads81.
-||ads82.
-||ads83.
-||ads84.
-||ads85.
-||ads86.
-||ads87.
-||ads88.
-||ads89.
-||ads90.
-||ads91.
-||ads92.
-||ads93.
-||ads94.
-||ads95.
-||ads96.
-||ads97.
-||ads98.
-||ads99.
-*$websocket,badfilter
 ||mtalk.google.com^
 ||clients1.google.com^
 ||clients2.google.com^
 ||clients3.google.com^
 ||clients4.google.com^
 ||clients5.google.com^
-||beacon100.
 ||beacon.
 ||beacon0.
 ||beacon1.
@@ -212,63 +156,27 @@ yandex.ru,yandex.ua,yandex.by,yandex.com##.favorites__icon, .head-promo-plus__ic
 ||beacon48.
 ||beacon49.
 ||beacon50.
-||beacon51.
-||beacon52.
-||beacon53.
-||beacon54.
-||beacon55.
-||beacon56.
-||beacon57.
-||beacon58.
-||beacon59.
-||beacon60.
-||beacon61.
-||beacon62.
-||beacon63.
-||beacon64.
-||beacon65.
-||beacon66.
-||beacon67.
-||beacon68.
-||beacon69.
-||beacon70.
-||beacon71.
-||beacon72.
-||beacon73.
-||beacon74.
-||beacon75.
-||beacon76.
-||beacon77.
-||beacon78.
-||beacon79.
-||beacon80.
-||beacon81.
-||beacon82.
-||beacon83.
-||beacon84.
-||beacon85.
-||beacon86.
-||beacon87.
-||beacon88.
-||beacon89.
-||beacon90.
-||beacon91.
-||beacon92.
-||beacon93.
-||beacon94.
 ||alt*-mtalk.google.com^
-||beacon95.
-||beacon96.
-||beacon97.
-||beacon98.
-||beacon99.
-||ads100.
 ||ads.$domain=~ads.google.com
+
+
+
+! SHIT
 net#@#body:style(cursor: unset !important)
 net#@#html:style(cursor: unset !important)
 #@#a[href$="/ads"]
 com#@#html:style(cursor: unset !important)
+*$websocket,badfilter
 com#@#button:style(cursor: unset !important)
 com#@#body:style(cursor: unset !important)
 com#@#a:link:style(cursor: pointer)
 ||youtube.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.ggpht.com *.googlevideo.com *.ytimg.com *.googleusercontent.com www.youtube.com,badfilter
+||9anime.*^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' *.jwpcdn.com *.gstatic.com disqus.com *.disqus.com *.disquscdn.com data:,badfilter
+||9anime.*^$csp=frame-src 'self' *.rapidvideo.com mcloud.to openload.co disqus.com,badfilter
+||9anime.*^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.9anime.ru *.9anime.to *.akacdn.ru *.googleusercontent.com ajax.googleapis.com ssl.p.jwpcdn.com openload.co openload.pw oload.monster *.oloadcdn.net mcloud.to *.mcloud.to streamango.com *.fruithosted.net *.mp4upload.com prettyfast.to cdnjs.cloudflare.com verystream.com *.verystream.net;upgrade-insecure-requests,badfilter
+9anime.*#@#+js(eremove, .popover\, #tags\, .hd-buttons.row\, #comment\, .comment.widget > .widget-title\, .comment.widget > .widget-body\, .socials\, .twitter-follow-button\, .sticky\, .share\, .text-center.crop.widget\, .text-center.widget\, .azlist\, .mb20\, [href*="twitter.com"]\, .alert\, #fb-root)
+#@#.social-teasers
+#@#.ya-share2
+#@#.block_social
+*$font,important,badfilter
+*$inline-font,important,badfilter
