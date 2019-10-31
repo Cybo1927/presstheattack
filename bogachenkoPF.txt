@@ -15,6 +15,26 @@
 /^https?:\/\/[^\s]+\/worker([!"#$%&'()*+,:;<=>?@/\^_`{|}~-]?([a-z]{5,6})?)?\.js$/$important,script
 /^https?:\/\/torrent\-soft\.net\/([0-9]{4}|[a-z0-9]{8,9}\.min)\.js$/$script,important
 infourok.ru###aa-popup
+||mc.yandex.ru^$important
+||googlesyndication.com^$important
+||an.yandex.ru^$important
+||http-check-headers.yandex.ru^$important
+||jstracer.yandex.ru^$important
+||yandex.ru^$third-party,badfilter
+||awsync.yandex.ru^$important
+||adfox.yandex.ru^$important
+||yandex.*/clck/click$important
+#@#.social-teasers
+#@#.ya-share2
+#@#.block_social
+*$beacon,important
+*$inline-font,important,badfilter
+*$font,important,badfilter
+##a[href^="https://bit.ly/"][target="_blank"]
+||yastatic.net^*/widget_ya.js$badfilter
+*/*.gif|$document,domain=~github.com|~wikimedia.org|~githubusercontent.com
+kinogo.*,torrent-filmi.xyz,kinoframe.net,filmitorrent.xyz,hdfilms.zone##body:style(background-image: none !important;)
+playground.ru,kissasian.*,sourceforge.net,kimcartoon.to,datoporn.co,trialnod.com##+js(nano-setTimeout-booster.js)
 infourok.ru##+js(addEventListener-defuser.js, focus)
 infourok.ru##+js(addEventListener-defuser.js, focus, trigger)
 infourok.ru##+js(set-constant.js, monitorFocus, noopFunc)
