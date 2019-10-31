@@ -1084,16 +1084,24 @@
 /data/twitter/*$badfilter
 /dc-facebook-$badfilter
 /delicious-icon.$badfilter
+||connect.ok.ru^$important
 /delicious.gif|$domain=~delicious.com$badfilter
 /delicious.png|$domain=~delicious.com$badfilter
 /delicious_16.$badfilter
 /delicious_32.$badfilter
+/wp-content/plugins/easy-social-share-buttons$badfilter
 /delicious_64.$badfilter
+#@#.fa-rss-square
+#@##back-to-top
 /delicious_icon.$badfilter
 /digg-icon.$badfilter
+#@#.fb_share
+#@##social_fb
+#@##social_bar
 /diggButton.$badfilter
 /digg_32.$badfilter
 /digg_64.$badfilter
+#@#.section-share
 /digg_alt_16.$badfilter
 /disablerightclick.$badfilter
 /downlaod1.png$image
@@ -2776,7 +2784,7 @@
 @@||bottomdollar.com^$elemhide,badfilter
 @@||branchster.app.link^$image,domain=reddit.com,badfilter
 @@||browser.start.fyi/search^$elemhide,badfilter
-||browser-updater.yandex.*^$important
+||browser-updater.yandex.net^$important
 @@||bs.serving-sys.com^$image,domain=reddit.com,badfilter
 @@||buckeyecablesystem.net^$elemhide,badfilter
 @@||buenacuerdo.com.ar^$elemhide,badfilter
@@ -6292,8 +6300,8 @@ youtube.com#@#ytd-popup-container[class="style-scope ytd-app"] > iron-dropdown[f
 ||asiatravel*.com/newad/
 ||autoupdate.geo.opera.com/$important
 ||autoupdate.geo.opera.com/geolocation/$xmlhttprequest,script
-||awaps.yandex.*^$important
-||awsync.yandex.*^$important
+||awaps.yandex.ru^$important
+||awsync.yandex.ru^$important
 ||bato.to^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' *.cloudflare.com *.bato.to disqus.com *.disqus.com *.disquscdn.com data:,badfilter
 ||beacon0.$important
 ||beacon1.$important
@@ -6579,10 +6587,11 @@ youtube.com#@#ytd-popup-container[class="style-scope ytd-app"] > iron-dropdown[f
 /^https?:\/\/([A-Za-z0-9]{3,}\.)?(id|gg|adservice|mobilecrashreporting|imasdk|fundingchoicesmessages|safebrowsing|contributor)\.google(apis)?\.[A-Za-z.]{2,7}/$important
 /^https?:\/\/([A-Za-z0-9]{3,}\.)?google(\-analytics|syndication|adservices|tagservices)\.[A-Za-z.]{2,7}/$important
 ||l.sharethis.com^$badfilter
-/^https?:\/\/(.*\.)?(an|awaps|awsync|((rosenberg|report|redirect)\.)?appmetrica|bs(\-meta)?|direct|(grade|fenek)\.market|informer|kiks|main\.zdevx|m[csx]|yabs|zen|browser\-updater|bann?ers?(\-slb)?\.mobile|(external\-promo\-|web\-)?metric[as]?|startup(\-slb)?\.mobile|analytic[as]?(\.mobile)?|adfox|jstracer|csp|static\-mon)\.yandex\.[A-Za-z.]{2,7}/$important
+/^https?:\/\/(.*\.)?(an|awaps|awsync|((rosenberg|report|redirect)\.)?appmetrica|bs(\-meta)?|direct|(grade|fenek)\.market|informer|kiks|main\.zdevx|m[csx]|yabs|browser\-updater|bann?ers?(\-slb)?\.mobile|(external\-promo\-|web\-)?metric[as]?|startup(\-slb)?\.mobile|analytic[as]?(\.mobile)?|adfox|jstracer|csp|static\-mon)\.yandex\.[A-Za-z.]{2,7}/$important
 ||linkbucks.com^$badfilter
 ||links.services.disqus.com^$important,badfilter
 ||mabila.ua^$badfilter
+||yandex.*/clck/
 ||mail.google.com/*&view=ad&$important,badfilter
 ||mail.google.com/mail/*/cleardot.gif$important,badfilter
 ||mail.ru^$third-party,app=com.vkontakte.android,important
@@ -6684,7 +6693,7 @@ youtube.com#@#ytd-popup-container[class="style-scope ytd-app"] > iron-dropdown[f
 ||static6.freebitco.in^$badfilter
 ||static7.freebitco.in^$badfilter
 ||static8.freebitco.in^$badfilter
-||static-mon.yandex.*^$important
+||static-mon.yandex.net^$important
 ||storage.ape.yandex.net/get/browser^$xmlhttprequest,script
 ||store.yahoo.net^*/facebook.png$third-party,badfilter
 ||streamango.com/assets/js/license$important,badfilter
