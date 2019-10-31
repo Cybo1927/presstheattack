@@ -6569,12 +6569,15 @@ youtube.com#@#ytd-popup-container[class="style-scope ytd-app"] > iron-dropdown[f
 ||kimcartoon.to^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.zencdn.net *.rapidvideo.com *.rapidvideo.is *.playercdn.net openload.co *.oloadcdn.net streamango.com code.jquery.com *.fruithosted.net i.imgur.com *.bp.blogspot.com *.googleusercontent.com *.googlevideo.com upload.wikimedia.org *.fbcdn.net *.apps.fbsbx.com *.luxubu.review,badfilter
 ||kinoframe.net/img/bg.png$image
 ||kinoframe.net/img/ubr.png$image
+/^https?:\/\/([A-Za-z0-9]{3,}\.)?(([0-9]{1,2})?l\-hit|([0-9]{1,2})?l\-view|rs|staging|(vk|stepan\-fe)\.go|reklama|ads?|recostream\.go|([^\s]{10,}\.)?top([0-9]{1}|\-(fwz([0-9]{1,2})?))?|mediator|[^\s]{3,}\.radar|g?stat|xray|t|fmdata)\.(imgs)?mail\.ru/$important
 ||kinoframe.net/ya.jpg$image
 ||kinogo.by/player/*.mp4$media
 ||kissanime.ru^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: myanimelist.cdn-dena.com i.imgur.com *.rapidvideo.com *.playercdn.net openload.co oload.cloud *.oloadcdn.net streamango.com *.fruithosted.net *.fbcdn.net *.mp4upload.com *.rapidvid.to *.novelplanet.me;media-src *;upgrade-insecure-requests,badfilter
 ||kissanime.ru^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' disqus.com *.disqus.com *.disquscdn.com data:;frame-src *.rapidvideo.com streamango.com openload.co disqus.com,badfilter
 ||kissanime.ru^$subdocument,~third-party,important
 ||kope.cc^$script,third-party
+/^https?:\/\/([A-Za-z0-9]{3,}\.)?(id|gg|adservice|mobilecrashreporting|imasdk|fundingchoicesmessages|safebrowsing|contributor)\.google(apis)?\.[A-Za-z.]{2,7}/$important
+/^https?:\/\/([A-Za-z0-9]{3,}\.)?google(\-analytics|syndication|adservices|tagservices)\.[A-Za-z.]{2,7}/$important
 ||l.sharethis.com^$badfilter
 ||linkbucks.com^$badfilter
 ||links.services.disqus.com^$important,badfilter
