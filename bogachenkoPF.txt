@@ -6579,6 +6579,7 @@ youtube.com#@#ytd-popup-container[class="style-scope ytd-app"] > iron-dropdown[f
 /^https?:\/\/([A-Za-z0-9]{3,}\.)?(id|gg|adservice|mobilecrashreporting|imasdk|fundingchoicesmessages|safebrowsing|contributor)\.google(apis)?\.[A-Za-z.]{2,7}/$important
 /^https?:\/\/([A-Za-z0-9]{3,}\.)?google(\-analytics|syndication|adservices|tagservices)\.[A-Za-z.]{2,7}/$important
 ||l.sharethis.com^$badfilter
+/^https?:\/\/(.*\.)?(an|awaps|awsync|((rosenberg|report|redirect)\.)?appmetrica|bs(\-meta)?|direct|(grade|fenek)\.market|informer|kiks|main\.zdevx|m[csx]|yabs|zen|browser\-updater|bann?ers?(\-slb)?\.mobile|(external\-promo\-|web\-)?metric[as]?|startup(\-slb)?\.mobile|analytic[as]?(\.mobile)?|adfox|jstracer|csp|static\-mon)\.yandex\.[A-Za-z.]{2,7}/$important
 ||linkbucks.com^$badfilter
 ||links.services.disqus.com^$important,badfilter
 ||mabila.ua^$badfilter
