@@ -104,8 +104,10 @@ yandex.ru,yandex.ua,yandex.by,yandex.com##.favorites__icon, .head-promo-plus__ic
 ||ads52.$important
 ||ads53.$important
 ||ads54.$important
+||graph.facebook.com^
 ||ads55.$important
 ||ads56.$important
+||appmetrica.yandex.net^$important
 ||ads57.$important
 ||ads58.$important
 ||ads59.$important
@@ -156,11 +158,6 @@ yandex.ru,yandex.ua,yandex.by,yandex.com##.favorites__icon, .head-promo-plus__ic
 ||clients3.google.com^$important
 ||clients4.google.com^$important
 ||clients5.google.com^$important
-||ads100.$important
-||ads.$important,domain=~ads.google.com
-net#@#body:style(cursor: unset !important)
-net#@#html:style(cursor: unset !important)
-#@#a[href$="/ads"]
 ||beacon100.$important
 ||beacon.$important
 ||beacon0.$important
@@ -258,11 +255,17 @@ net#@#html:style(cursor: unset !important)
 ||beacon92.$important
 ||beacon93.$important
 ||beacon94.$important
+||alt*-mtalk.google.com^$important
 ||beacon95.$important
 ||beacon96.$important
 ||beacon97.$important
 ||beacon98.$important
 ||beacon99.$important
+||ads100.$important
+||ads.$important,domain=~ads.google.com
+net#@#body:style(cursor: unset !important)
+net#@#html:style(cursor: unset !important)
+#@#a[href$="/ads"]
 com#@#html:style(cursor: unset !important)
 com#@#button:style(cursor: unset !important)
 com#@#body:style(cursor: unset !important)
