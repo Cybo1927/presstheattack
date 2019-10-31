@@ -149,6 +149,7 @@ yandex.ru,yandex.ua,yandex.by,yandex.com##.favorites__icon, .head-promo-plus__ic
 ||ads97.$important
 ||ads98.$important
 ||ads99.$important
+*$websocket,badfilter
 ||ads100.$important
 ||ads.$important,domain=~ads.google.com
 net#@#body:style(cursor: unset !important)
@@ -158,3 +159,4 @@ com#@#html:style(cursor: unset !important)
 com#@#button:style(cursor: unset !important)
 com#@#body:style(cursor: unset !important)
 com#@#a:link:style(cursor: pointer)
+||youtube.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.ggpht.com *.googlevideo.com *.ytimg.com *.googleusercontent.com www.youtube.com,badfilter
