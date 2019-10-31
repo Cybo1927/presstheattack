@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-10-31 16:44:03
-! Version: 20191031164403
+! Last modified: 2019-10-31 21:27:05
+! Version: 20191031212705
 ! Expires: 3 hours
-! Number of filters: 13036
+! Number of filters: 13048
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -552,6 +552,7 @@
 ||adfoitjumerzge.com^$important
 ||adform.net^$important
 ||adfox.ru^$important
+||adfox.yandex.ru^$important
 ||adfpkxvaqeyj.com^$important
 ||adglare.net^$important
 ||adgsfoxoavmc.com^$important
@@ -804,6 +805,7 @@
 ||amrnhiqy.com^$important
 ||amung.us^$important
 ||amwupsihqfewgr.com^$important
+||an.yandex.ru^$important
 ||anasjdzutdmv.com^$important
 ||andinizaments.com^$important
 ||aneqmscervl.com^$important
@@ -865,6 +867,7 @@
 ||applesarmy.com^$important
 ||applesupportofficial.com^$important
 ||applicalled.club^$important
+||appmetrica.yandex.net^$important
 ||aprddnfuzc.bid^$important
 ||apscxogwydnkx.com^$important
 ||apsntakwzycu.com^$important
@@ -1004,6 +1007,7 @@
 ||awrspmpj.com^$important
 ||awrxkucpfbsq.com^$important
 ||awsatstb.com^$important
+||awsync.yandex.ru^$important
 ||awvuhwqyimgd.com^$important
 ||awxjpkxoqfwaj.bid^$important
 ||awzbijw.com^$important
@@ -1441,6 +1445,7 @@
 ||broaddoor.com^$important
 ||broomboxmain.com^$important
 ||browser-ru.site^$important
+||browser-updater.yandex.net^$important
 ||brqrtgjklary.com^$important
 ||brrxmhuhyokw.bid^$important
 ||brtcmjchfyel.com^$important
@@ -3898,11 +3903,14 @@
 ||goo.gl^document
 ||goo4anywhere.com^$important
 ||goodbookbook.com^$important
+||google-analytics.com^$important
 ||google.*/ads/$important
 ||google.*/adsense/$important
 ||google.*/log?$important
 ||google.*/logimpressions?$important
 ||google.*/uds/$important
+||googlesyndication.com^$important
+||googletagmanager.com^$important
 ||googlo.co^$important
 ||goowurzdotcom.bid^$important
 ||gopamdzgpdrwe.bid^$important
@@ -4509,6 +4517,7 @@
 ||htqyaipwpopyx.com^$important
 ||htrprrrtrwrc.com^$important
 ||httftlckaxj.com^$important
+||http-check-headers.yandex.ru^$important
 ||htvlulpbhtkgr.com^$important
 ||htyazxwc.com^$important
 ||huayucnblhgy.com^$important
@@ -5353,6 +5362,7 @@
 ||jsecoin.com^$important
 ||jshjrozmwmyj.com^$important
 ||jshosting.loan^$important
+||jstracer.yandex.ru^$important
 ||jtacrwtaf.com^$important
 ||jtbmxdoadktnm.com^$important
 ||jtmfmeexjet.bid^$important
@@ -6401,6 +6411,7 @@
 ||mbyponflbv.bid^$important
 ||mbyrgeoizdid.com^$important
 ||mc.webvisor.org^$important
+||mc.yandex.ru^$important
 ||mcagbtdcwklf.com^$important
 ||mcaxqvcu.com^$important
 ||mcaybfrnrqpmv.com^$important
@@ -10049,6 +10060,7 @@
 ||togfcqfvarpq.com^$important
 ||toomsborogreycliff.com^$important
 ||toothbrushnote.com^$important
+||top100.ru^$important
 ||topclickguru.com^$important
 ||topgadgetlists.com^$important
 ||topichawaii.com^$important
