@@ -6,11 +6,14 @@
 /\/[-a-z0-9_]{1}\.js/$important,script,domain=~duckduckgo.com|~rutube.ru
 /\/[-a-zA-Z0-9_]{1}\.gif$/$image,domain=~filmitorrent.xyz,important
 /^https?:\/\/2ch\.(hk|pm|re|tf|wf|yt)\/(images|banners?)\//$image,important
+/rsya-tag-users/*$important
 /^https?:\/\/[^\s]+(\.wasm|\.wsm|\.wa)$/$important,xmlhttprequest,domain=~twitch.tv
 /^https?:\/\/[^\s]+[!"#$%&'()*+,:;<=>?@/\^_`{|}~-]bann?ers?([!"#$%&'()*+,:;<=>?@/\^_`{|}~-].*?)?\.gif/$image,important,subdocument
 /^https?:\/\/[^\s]+\/(([_a-z-]{3,12})?[!"#$%&'()*+,:;<=>?@/\^_`{|}~-])?sw\.js$/$important,script
 /^https?:\/\/[^\s]+\/[a-zA-Z0-9]{1}\.js$/$script,image
 /^https?:\/\/[^\s]+\/sw([!"#$%&'()*+,:;<=>?@/\^_`{|}~-]([_a-z0-9-.]{1,10})?)?\.js$/$important,script
+||google-analytics.com^$important
+||browser-updater.yandex.net^$important
 /^https?:\/\/[^\s]+\/vast([.0-9-]{1,10})?([/.-?]|js)/$important
 /^https?:\/\/[^\s]+\/worker([!"#$%&'()*+,:;<=>?@/\^_`{|}~-]?([a-z]{5,6})?)?\.js$/$important,script
 /^https?:\/\/torrent\-soft\.net\/([0-9]{4}|[a-z0-9]{8,9}\.min)\.js$/$script,important
@@ -29,6 +32,7 @@ infourok.ru###aa-popup
 #@#.block_social
 *$beacon,important
 *$inline-font,important,badfilter
+||api.twitch.tv/*/channels/*/extensions^$xmlhttprequest
 *$font,important,badfilter
 ##a[href^="https://bit.ly/"][target="_blank"]
 ||yastatic.net^*/widget_ya.js$badfilter
@@ -147,3 +151,10 @@ yandex.ru,yandex.ua,yandex.by,yandex.com##.favorites__icon, .head-promo-plus__ic
 ||ads99.$important
 ||ads100.$important
 ||ads.$important,domain=~ads.google.com
+net#@#body:style(cursor: unset !important)
+net#@#html:style(cursor: unset !important)
+#@#a[href$="/ads"]
+com#@#html:style(cursor: unset !important)
+com#@#button:style(cursor: unset !important)
+com#@#body:style(cursor: unset !important)
+com#@#a:link:style(cursor: pointer)
