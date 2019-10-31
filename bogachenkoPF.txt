@@ -65,6 +65,7 @@ yandex.ru,yandex.ua,yandex.by,yandex.com##.favorites__icon, .head-promo-plus__ic
 ||ads13.
 ||ads14.
 ||ads15.
+||mradx.net^
 ||ads16.
 ||ads17.
 ||ads18.
