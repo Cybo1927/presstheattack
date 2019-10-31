@@ -2,6 +2,8 @@
 ! Homepage: https://github.com/bogachenko/presstheattack/tree/personal
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/personal/LICENSE.md
 ! Title: bogachenko's Personal Filters
+
+! ~~~~~~~ My shitty rules ~~~~~~~
 /\/(([_a-z-]{3,15})?[!"#$%&'()*+,:;<=>?@/\^_`{|}~-]?)?worker(.*)?\.js$/$important,script,domain=~twitch.tv|~google.com|~z5h64q92x9.net
 /\/[-a-z0-9_]{1}\.js/$important,script,domain=~duckduckgo.com|~rutube.ru
 /\/[-a-zA-Z0-9_]{1}\.gif$/$image,domain=~filmitorrent.xyz,important
@@ -160,13 +162,16 @@ yandex.ru,yandex.ua,yandex.by,yandex.com##.favorites__icon, .head-promo-plus__ic
 ||alt*-mtalk.google.com^
 ||ads.$domain=~ads.google.com
 
-! SHIT
+! ~~~~~~~ Not my shitty rules ~~~~~~~
 net#@#body:style(cursor: unset !important)
 net#@#html:style(cursor: unset !important)
 #@#a[href$="/ads"]
 com#@#html:style(cursor: unset !important)
 *$websocket,badfilter
+youtube.com#@#.ytp-cards-button
 com#@#button:style(cursor: unset !important)
+||streamango.com^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' *.cloudflare.com,badfilter
+||streamango.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.streamango.com *.fruithosted.net cdnjs.cloudflare.com;upgrade-insecure-requests,badfilter
 com#@#body:style(cursor: unset !important)
 com#@#a:link:style(cursor: pointer)
 ||youtube.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.ggpht.com *.googlevideo.com *.ytimg.com *.googleusercontent.com www.youtube.com,badfilter
@@ -177,8 +182,14 @@ com#@#a:link:style(cursor: pointer)
 youtube.com#@#+js(eremove, #watch-action-panels\, #chat\, .ytp-ce-covering-overlay\, .subscribecard-endscreen\, .ytp-ce-element\, #ytd-promoted-video-renderer\, #watch-sidebar-live-chat\, #pla-shelf\, .yt-uix-expander-collapsed.live-chat-expander.yt-uix-expander\, .hats-categorical-style-vertical\, #movie-upsell-card\, .yt-lockup-movie-vertical-poster.yt-lockup-tile.yt-lockup\, .style-default.force-icon-button.ytd-menu-renderer.style-scope\, #sponsor-button\, .ytp-miniplayer-button\, .ytd-metadata-row-header-renderer.style-scope\ .html5-stop-propagation.ytp-drawer\, #masthead-ad\, #ticker.ytd-masthead\, #merch-shelf\, #offer-module\, .ytp-cards-teaser\, .ytp-paid-content-overlay\, .ytp-pause-overlay\, .ytp-title-channel\, #comments\, ytd-button-renderer.size-default.style-default.force-icon-button.ytd-menu-renderer.style-scope\, .ytd-search-pyv-renderer\, .ytd-promoted-sparkles-text-search-renderer\, .ytd-merch-shelf-renderer\, .ytd-compact-promoted-video-renderer\, .share-panel-services\, .ytp-share-button\, #secondarylinks)
 /log_event$important,badfilter
 #@#.social-teasers
+streamango.com#@#+js(abort-on-property-write, _0xd959)
 #@#a[title="Facebook"]
 #@#.ya-share2
+streamango.com#@#+js(aeld, contextmenu)
+streamango.com#@#+js(addEventListener-defuser, DOMMouseScroll)
+*advert*$important,1p,script,badfilter
+streamango.com#@#+js(abort-current-inline-script, $, contextmenu)
+streamango.com#@#+js(abort-current-inline-script, isSandboxed, fruitadblock)
 #@#.block_social
 *$font,important,badfilter
 *$inline-font,important,badfilter
