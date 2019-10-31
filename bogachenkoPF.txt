@@ -20,14 +20,14 @@
 /^https?:\/\/[^\s]+\/worker([!"#$%&'()*+,:;<=>?@/\^_`{|}~-]?([a-z]{5,6})?)?\.js$/$important,script
 /^https?:\/\/torrent\-soft\.net\/([0-9]{4}|[a-z0-9]{8,9}\.min)\.js$/$script,important
 infourok.ru###aa-popup
-||mc.yandex.ru^$important
-||googlesyndication.com^$important
-||googletagmanager.com^$important
-||an.yandex.ru^$important
-||http-check-headers.yandex.ru^$important
-||jstracer.yandex.ru^$important
-||awsync.yandex.ru^$important
-||adfox.yandex.ru^$important
+||mc.yandex.ru^
+||googlesyndication.com^
+||googletagmanager.com^
+||an.yandex.ru^
+||http-check-headers.yandex.ru^
+||jstracer.yandex.ru^
+||awsync.yandex.ru^
+||adfox.yandex.ru^
 ||yandex.*/clck/click$important
 *$beacon,important
 ||api.twitch.tv/*/channels/*/extensions^$xmlhttprequest
@@ -98,7 +98,7 @@ yandex.ru,yandex.ua,yandex.by,yandex.com##.favorites__icon, .head-promo-plus__ic
 ||ads49.
 ||ads50.
 ||graph.facebook.com^
-||appmetrica.yandex.net^$important
+||appmetrica.yandex.net^
 ||mtalk.google.com^
 ||clients1.google.com^
 ||clients2.google.com^
@@ -175,6 +175,10 @@ com#@#button:style(cursor: unset !important)
 #@#button[class*="share-button"]
 com#@#body:style(cursor: unset !important)
 com#@#a:link:style(cursor: pointer)
+analytics$important,badfilter
+#@#.social-menu
+piwik$important,script,badfilter
+/ua-parser.$badfilter
 ||youtube.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.ggpht.com *.googlevideo.com *.ytimg.com *.googleusercontent.com www.youtube.com,badfilter
 ||9anime.*^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' *.jwpcdn.com *.gstatic.com disqus.com *.disqus.com *.disquscdn.com data:,badfilter
 ||9anime.*^$csp=frame-src 'self' *.rapidvideo.com mcloud.to openload.co disqus.com,badfilter
@@ -189,6 +193,7 @@ streamango.com#@#+js(abort-on-property-write, _0xd959)
 streamango.com#@#+js(aeld, contextmenu)
 streamango.com#@#+js(addEventListener-defuser, DOMMouseScroll)
 ||openload.co/cdn-cgi/apps/head/$badfilter
+streamango.com#@#+js(abort-on-property-write, BetterJsPop)
 *advert*$important,1p,script,badfilter
 streamango.com#@#+js(abort-current-inline-script, $, contextmenu)
 streamango.com#@#+js(abort-current-inline-script, isSandboxed, fruitadblock)
