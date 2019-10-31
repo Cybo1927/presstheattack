@@ -6269,17 +6269,17 @@ youtube.com#@#ytd-popup-container[class="style-scope ytd-app"] > iron-dropdown[f
 ||ads99.$important
 ||ads100.$important
 ||ads.$badfilter
-||ads.$important
+||ads.$important,domain=~ads.google.com
 ||ads.google.com^$badfilter
-||fundingchoicesmessages.google.*^$important
-||imasdk.googleapis.*^$important
-||mobilecrashreporting.google.*^$important
+||fundingchoicesmessages.google.com^$important
+||imasdk.googleapis.com^$important
+||mobilecrashreporting.google.com^$important
 ||adservice.google.*^$important
 ||aliexpress.com^$badfilter
-||an.yandex.*^$important
+||an.yandex.ru^$important
 ||analytics.google.com^$badfilter
 ||analytics.google.com^$third-party
-||api.browser.yandex.*^$important
+||api.browser.yandex.ru^$important
 ||api.lbs.yandex.ru/json^$important
 ||api.twitch.tv/*/channels/*/extensions^$xmlhttprequest
 ||apis.google.com/js/platform.js$third-party,badfilter
@@ -6563,9 +6563,9 @@ youtube.com#@#ytd-popup-container[class="style-scope ytd-app"] > iron-dropdown[f
 ||indishare.*^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.bootstrapcdn.com *.cloudflare.com *.google-analytics.com,badfilter
 ||informer.yandex.*^$important
 ||instagram.com^$important,third-party,domain=~facebook.com,badfilter
-||jstracer.yandex.*^$important
+||jstracer.yandex.ru^$important
 ||kaspersky-labs.com^$important
-||kiks.yandex.*^$important
+||kiks.yandex.ru^$important
 ||kimcartoon.to^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.zencdn.net *.rapidvideo.com *.rapidvideo.is *.playercdn.net openload.co *.oloadcdn.net streamango.com code.jquery.com *.fruithosted.net i.imgur.com *.bp.blogspot.com *.googleusercontent.com *.googlevideo.com upload.wikimedia.org *.fbcdn.net *.apps.fbsbx.com *.luxubu.review,badfilter
 ||kinoframe.net/img/bg.png$image
 ||kinoframe.net/img/ubr.png$image
@@ -6782,6 +6782,7 @@ youtube.com#@#ytd-popup-container[class="style-scope ytd-app"] > iron-dropdown[f
 ||yastatic.net/s3/zen-lib^$important
 ||yastatic.net/share/$third-party
 ||yastatic.net/sovetnik^$important
+||jwpsrv.com^$important,badfilter
 ||yastatic.net^$other
 ||yastatic.net^*/widget_ya.js$badfilter
 ||yimg.*/lib/3pm/$script,badfilter
