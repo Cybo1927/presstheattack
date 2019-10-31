@@ -20,6 +20,7 @@
 infourok.ru###aa-popup
 ||mc.yandex.ru^$important
 ||googlesyndication.com^$important
+||googletagmanager.com^$important
 ||an.yandex.ru^$important
 ||http-check-headers.yandex.ru^$important
 ||jstracer.yandex.ru^$important
@@ -159,8 +160,6 @@ yandex.ru,yandex.ua,yandex.by,yandex.com##.favorites__icon, .head-promo-plus__ic
 ||alt*-mtalk.google.com^
 ||ads.$domain=~ads.google.com
 
-
-
 ! SHIT
 net#@#body:style(cursor: unset !important)
 net#@#html:style(cursor: unset !important)
@@ -175,7 +174,10 @@ com#@#a:link:style(cursor: pointer)
 ||9anime.*^$csp=frame-src 'self' *.rapidvideo.com mcloud.to openload.co disqus.com,badfilter
 ||9anime.*^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.9anime.ru *.9anime.to *.akacdn.ru *.googleusercontent.com ajax.googleapis.com ssl.p.jwpcdn.com openload.co openload.pw oload.monster *.oloadcdn.net mcloud.to *.mcloud.to streamango.com *.fruithosted.net *.mp4upload.com prettyfast.to cdnjs.cloudflare.com verystream.com *.verystream.net;upgrade-insecure-requests,badfilter
 9anime.*#@#+js(eremove, .popover\, #tags\, .hd-buttons.row\, #comment\, .comment.widget > .widget-title\, .comment.widget > .widget-body\, .socials\, .twitter-follow-button\, .sticky\, .share\, .text-center.crop.widget\, .text-center.widget\, .azlist\, .mb20\, [href*="twitter.com"]\, .alert\, #fb-root)
+youtube.com#@#+js(eremove, #watch-action-panels\, #chat\, .ytp-ce-covering-overlay\, .subscribecard-endscreen\, .ytp-ce-element\, #ytd-promoted-video-renderer\, #watch-sidebar-live-chat\, #pla-shelf\, .yt-uix-expander-collapsed.live-chat-expander.yt-uix-expander\, .hats-categorical-style-vertical\, #movie-upsell-card\, .yt-lockup-movie-vertical-poster.yt-lockup-tile.yt-lockup\, .style-default.force-icon-button.ytd-menu-renderer.style-scope\, #sponsor-button\, .ytp-miniplayer-button\, .ytd-metadata-row-header-renderer.style-scope\ .html5-stop-propagation.ytp-drawer\, #masthead-ad\, #ticker.ytd-masthead\, #merch-shelf\, #offer-module\, .ytp-cards-teaser\, .ytp-paid-content-overlay\, .ytp-pause-overlay\, .ytp-title-channel\, #comments\, ytd-button-renderer.size-default.style-default.force-icon-button.ytd-menu-renderer.style-scope\, .ytd-search-pyv-renderer\, .ytd-promoted-sparkles-text-search-renderer\, .ytd-merch-shelf-renderer\, .ytd-compact-promoted-video-renderer\, .share-panel-services\, .ytp-share-button\, #secondarylinks)
+/log_event$important,badfilter
 #@#.social-teasers
+#@#a[title="Facebook"]
 #@#.ya-share2
 #@#.block_social
 *$font,important,badfilter
