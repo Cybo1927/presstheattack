@@ -2725,7 +2725,7 @@
 @@||ask.com^$elemhide,badfilter
 @@||athena77.com/?s=$elemhide,badfilter
 @@||atlanticbb.net/search/$elemhide,badfilter
-||googletagservices.*^$important
+||googletagservices.com^$important
 @@||au.search.yahoo.com^$elemhide,badfilter
 @@||auspreiser.at^$elemhide,badfilter
 @@||auspreiser.de^$elemhide,badfilter
@@ -6401,9 +6401,9 @@ youtube.com#@#ytd-popup-container[class="style-scope ytd-app"] > iron-dropdown[f
 ||blockadblock.com^$badfilter
 ||blogsmithmedia.com^*facebook$image,badfilter
 ||browser-resources.s3.yandex.net^$important
-||browser.yandex.*^$important
-||bs-meta.yandex.*^$important
-||bs.yandex.*^$important
+||browser.yandex.ru^$important
+||bs-meta.yandex.ru^$important
+||bs.yandex.ru^$important
 ||bugsnag.com^$badfilter
 ||captchas.freebitco.in^$badfilter
 ||ccleaner.com/auto^$xmlhttprequest,script
@@ -6539,9 +6539,9 @@ youtube.com#@#ytd-popup-container[class="style-scope ytd-app"] > iron-dropdown[f
 ||google.com/translate_a/element.js?cb=googletranslateelementinit|$badfilter
 ||google.com^*/fastbutton?$third-party,badfilter
 ||googleapis.com/chromewebstore/*/items/verify$xmlhttprequest,script
-||googlesyndication.*^$important
-||googleadservices.*^$important
-||googletagmanager.*^$important
+||googlesyndication.com^$important
+||googleadservices.com^$important
+||googletagmanager.com^$important
 ||gounlimited.to^$badfilter
 ||gounlimited.to^$csp=script-src 'self' 'unsafe-eval' 'unsafe-inline' data:,badfilter
 ||grade.market.yandex.*^$important
@@ -6582,8 +6582,8 @@ youtube.com#@#ytd-popup-container[class="style-scope ytd-app"] > iron-dropdown[f
 ||mail.google.com/*&view=ad&$important,badfilter
 ||mail.google.com/mail/*/cleardot.gif$important,badfilter
 ||mail.ru^$third-party,app=com.vkontakte.android,important
-||main.zdevx.yandex.*^$important
-||mc.yandex.*^$important
+||main.zdevx.yandex.ru^$important
+||mc.yandex.ru^$important
 ||metrica.yandex.com^$badfilter
 ||metrica.yandex.ru^$badfilter
 ||metrika.yandex.$third-party,badfilter
@@ -6595,8 +6595,8 @@ youtube.com#@#ytd-popup-container[class="style-scope ytd-app"] > iron-dropdown[f
 ||mp4upload.com^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' *.jwpcdn.com *.googleapis.com www.mp4upload.com,badfilter
 ||mradx.net^$badfilter
 ||mradx.net^$important
-||ms.yandex.*^$important
-||mx.yandex.*^$important
+||ms.yandex.ru^$important
+||mx.yandex.ru^$important
 ||myanimelist.net^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' cdn.myanimelist.net;img-src *;upgrade-insecure-requests,badfilter
 ||notification.adblockplus.org/notification.json$xmlhttprequest,script
 ||nsimg.net^$badfilter
@@ -6758,7 +6758,7 @@ youtube.com#@#ytd-popup-container[class="style-scope ytd-app"] > iron-dropdown[f
 ||www.linkbucks.com^$badfilter
 ||xray.mail.ru^$important
 ||xyz^$third-party,xmlhttprequest,subdocument,script,domain=~anidub.com|~avtomaty-i-bonusy.com|~crackstreams.com|~csgoreports.com|~cvid.kiev.ua|~estream.to|~funtik.tv|~hentaiz.org|~jokehd.com|~kinobig.me|~kinosklad.biz|~kristinita.ru|~magicfilm.net|~matchat.online|~my.mail.ru|~nccg.ru|~newdeaf.online|~online.animedia.tv|~onmovies.se|~roadhub.ru|~shamancoal.com|~soccer365.ru|~streetbee.io|~streetbee.ru|~vk.com,badfilter
-||yabs.yandex.*^$important
+||yabs.yandex.ru^$important
 ||yadro.ru^$important
 ||yahoo.com^$third-party,important
 ||yandex.*/clck/$domain=yandex.ru|yandex.ua|yandex.by
@@ -6774,6 +6774,8 @@ youtube.com#@#ytd-popup-container[class="style-scope ytd-app"] > iron-dropdown[f
 ||yandex.ru^$third-party,badfilter
 ||yastatic.net,yandex.ru$font,important
 ||yastatic.net/*/zen-lib/$important
+#@#img[alt="twitter"]
+#@#.ig-share-button
 ||yastatic.net/s3/bro-bg-store^$important
 ||yastatic.net/s3/chat-static^$important
 ||yastatic.net/s3/distribution^$important
@@ -6794,7 +6796,7 @@ youtube.com#@#ytd-popup-container[class="style-scope ytd-app"] > iron-dropdown[f
 ||youtube.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.ggpht.com *.googlevideo.com *.ytimg.com *.googleusercontent.com www.youtube.com,badfilter
 ||youtube.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: wss: *.ggpht.com *.googlevideo.com *.ytimg.com *.googleusercontent.com *.youtube.com *.google.com *.gstatic.com local.adguard.org;
 ||zdevx.yandex.*^$important
-||zen-test.yandex.*^$important
+||zen-test.yandex.ru^$important
 ||zencdn.net^$badfilter
 ||zencdn.net^$important,badfilter
 ||zergnet.com^$badfilter
