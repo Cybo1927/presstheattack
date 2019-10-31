@@ -14,8 +14,8 @@
 /^https?:\/\/[^\s]+\/(([_a-z-]{3,12})?[!"#$%&'()*+,:;<=>?@/\^_`{|}~-])?sw\.js$/$important,script
 /^https?:\/\/[^\s]+\/[a-zA-Z0-9]{1}\.js$/$script,image
 /^https?:\/\/[^\s]+\/sw([!"#$%&'()*+,:;<=>?@/\^_`{|}~-]([_a-z0-9-.]{1,10})?)?\.js$/$important,script
-||google-analytics.com^$important
-||browser-updater.yandex.net^$important
+||google-analytics.com^
+||browser-updater.yandex.net^
 /^https?:\/\/[^\s]+\/vast([.0-9-]{1,10})?([/.-?]|js)/$important
 /^https?:\/\/[^\s]+\/worker([!"#$%&'()*+,:;<=>?@/\^_`{|}~-]?([a-z]{5,6})?)?\.js$/$important,script
 /^https?:\/\/torrent\-soft\.net\/([0-9]{4}|[a-z0-9]{8,9}\.min)\.js$/$script,important
