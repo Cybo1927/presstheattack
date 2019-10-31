@@ -6430,9 +6430,9 @@ youtube.com#@#ytd-popup-container[class="style-scope ytd-app"] > iron-dropdown[f
 ||contributor.google.com/scripts^$badfilter
 ||cse.google.com/cse.js^$important,badfilter
 ||cse.google.com^$important,badfilter
-||csp.yandex.*^$important
-||contributor.google.*^$important
-||adfox.yandex.*^$important
+||csp.yandex.net^$important
+||contributor.google.com^$important
+||adfox.yandex.ru^$important
 ||cspreport.mail.ru^$important
 ||cy-pr.com^$badfilter
 ||dditscdn.com^*&ispromo=$badfilter
