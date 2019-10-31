@@ -944,7 +944,6 @@
 /\/[-a-zA-Z0-9_]{1}\.gif$/$image,domain=~filmitorrent.xyz,important
 /\/adv(ert(ise|ising|isement)?)?(?:[0-9]{1,2}|\.min)?\/[A-Za-z-_=&#.,]{4,}\?type\=/$important,script,xmlhttprequest
 /^https?:\/\/2ch\.(hk|pm|re|tf|wf|yt)\/(images|banners?)\//$image,important
-/^https?:\/\/(www\.)?kinopoisk\.ru\/[^\s]{650,}/$subdocument,~third-party
 /^https?:\/\/[^\s]+(\.wasm|\.wsm|\.wa)$/$important,xmlhttprequest,domain=~twitch.tv
 /^https?:\/\/[^\s]+[!"#$%&'()*+,:;<=>?@/\^_`{|}~-]bann?ers?([!"#$%&'()*+,:;<=>?@/\^_`{|}~-].*?)?\.gif/$image,important,subdocument
 /^https?:\/\/[^\s]+[!"#$%&'()*+,:;<=>?@/\^_`{|}~-]track(ers?|ing)\.js/$script
@@ -2647,7 +2646,6 @@
 @@.com/ads.js$1p,script,badfilter
 @@.com/ads.js|$1p,domain=~1ppt.com,badfilter
 @@/\/yandex.*\/search/$generichide,badfilter
-@@/^https?:\/\/(www\.)?kinopoisk\.ru\/[^\s]{650,}\?noAd\=/$subdocument,~third-party
 @@/^https?:\/\/[a-z]{1}([0-9]{1,2})?\.addthis\.com/$third-party,script
 @@/^https?:\/\/[a-z]{1}([0-9]{1,2})?\.ytimg\.com/$script,third-party
 @@/^https?:\/\/avatars\.mds\.yandex\.net\/get\-[a-z]{2,6}\/[0-9]{5}\/[^\s]{60,}(\/(islands|normal))/$image
