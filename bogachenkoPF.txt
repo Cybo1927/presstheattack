@@ -26,14 +26,12 @@ infourok.ru###aa-popup
 ||an.yandex.ru^$important
 ||http-check-headers.yandex.ru^$important
 ||jstracer.yandex.ru^$important
-||yandex.ru^$third-party,badfilter
 ||awsync.yandex.ru^$important
 ||adfox.yandex.ru^$important
 ||yandex.*/clck/click$important
 *$beacon,important
 ||api.twitch.tv/*/channels/*/extensions^$xmlhttprequest
 ##a[href^="https://bit.ly/"][target="_blank"]
-||yastatic.net^*/widget_ya.js$badfilter
 */*.gif|$document,domain=~github.com|~wikimedia.org|~githubusercontent.com
 kinogo.*,torrent-filmi.xyz,kinoframe.net,filmitorrent.xyz,hdfilms.zone##body:style(background-image: none !important;)
 playground.ru,kissasian.*,sourceforge.net,kimcartoon.to,datoporn.co,trialnod.com##+js(nano-setTimeout-booster.js)
@@ -166,12 +164,15 @@ yandex.ru,yandex.ua,yandex.by,yandex.com##.favorites__icon, .head-promo-plus__ic
 net#@#body:style(cursor: unset !important)
 net#@#html:style(cursor: unset !important)
 #@#a[href$="/ads"]
+||yandex.ru^$third-party,badfilter
+||yastatic.net^*/widget_ya.js$badfilter
 com#@#html:style(cursor: unset !important)
 *$websocket,badfilter
 youtube.com#@#.ytp-cards-button
 com#@#button:style(cursor: unset !important)
 ||streamango.com^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' *.cloudflare.com,badfilter
 ||streamango.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.streamango.com *.fruithosted.net cdnjs.cloudflare.com;upgrade-insecure-requests,badfilter
+#@#button[class*="share-button"]
 com#@#body:style(cursor: unset !important)
 com#@#a:link:style(cursor: pointer)
 ||youtube.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.ggpht.com *.googlevideo.com *.ytimg.com *.googleusercontent.com www.youtube.com,badfilter
@@ -187,9 +188,20 @@ streamango.com#@#+js(abort-on-property-write, _0xd959)
 #@#.ya-share2
 streamango.com#@#+js(aeld, contextmenu)
 streamango.com#@#+js(addEventListener-defuser, DOMMouseScroll)
+||openload.co/cdn-cgi/apps/head/$badfilter
 *advert*$important,1p,script,badfilter
 streamango.com#@#+js(abort-current-inline-script, $, contextmenu)
 streamango.com#@#+js(abort-current-inline-script, isSandboxed, fruitadblock)
 #@#.block_social
+openload.*#@#+js(abort-on-property-read, popAdsLoaded)
 *$font,important,badfilter
+openload.*#@#+js(addEventListener-defuser, wheel)
+openload.co#@#+js(aeld, contextmenu)
+openload.co#@#+js(set-constant, sadbl, false)
+openload.co#@#+js(abort-current-inline-script, atob, decodeURIComponent)
+openload.co#@#+js(abort-current-inline-script, $, contextmenu)
+openload.co#@#+js(abort-current-inline-script, adblock, adblock2)
+openload.co#@#+js(nano-setInterval-booster)
+||openload.co^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval',badfilter
+||openload.*^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.openload.co cdnjs.cloudflare.com *.oloadcdn.net *.google.com,badfilter
 *$inline-font,important,badfilter
