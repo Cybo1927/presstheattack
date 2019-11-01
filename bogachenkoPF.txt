@@ -207,6 +207,22 @@ openload.co#@#+js(abort-current-inline-script, atob, decodeURIComponent)
 openload.co#@#+js(abort-current-inline-script, $, contextmenu)
 openload.co#@#+js(abort-current-inline-script, adblock, adblock2)
 openload.co#@#+js(nano-setInterval-booster)
+#@#a[title="Google+"]
+||oload.*^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: cdnjs.cloudflare.com *.oloadcdn.net,badfilter
+||oload.*^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: cdnjs.cloudflare.com  *.oloadcdn.net,badfilter
+#@#a[title="Instagram"]
+#@#a[title="Tumblr"]
+#@#a[title="Twitter"]
+#@#.mc-share-toggle
+oload.*#@#+js(set-constant, sadbl, false)
+oload.*#@#+js(set-constant, adblock2, false)
+oload.*#@#+js(std, check)
+oload.*#@#+js(abort-current-inline-script, $, contextmenu)
+oload.*#@#+js(aeld, contextmenu)
+oload.*#@#+js(eremove, body > div:nth-of-type(2))
+oload.*#@#+js(sid, check)
+oload.*#@#+js(addEventListener-defuser, DOMMouseScroll)
+openload.*#@#+js(addEventListener-defuser, contextmenu)
 ||openload.co^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval',badfilter
 ||openload.*^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.openload.co cdnjs.cloudflare.com *.oloadcdn.net *.google.com,badfilter
 *$inline-font,important,badfilter
