@@ -144,6 +144,8 @@ yandex.ru,yandex.ua,yandex.by,yandex.com##.favorites__icon, .head-promo-plus__ic
 ||beacon35.
 ||beacon36.
 ||beacon37.
+||r3.mail.ru^
+||top-fwz1.mail.ru^
 ||beacon38.
 ||beacon39.
 ||beacon40.
@@ -156,6 +158,7 @@ yandex.ru,yandex.ua,yandex.by,yandex.com##.favorites__icon, .head-promo-plus__ic
 ||beacon47.
 ||beacon48.
 ||beacon49.
+||connect.ok.ru^
 ||beacon50.
 ||alt*-mtalk.google.com^
 ||ads.$domain=~ads.google.com
@@ -186,6 +189,20 @@ stats$important,script,badfilter
 google.*#@#+js(eremove, #prm-pt\, .b2hzT\, .exp-outline\, [id^="ed_"]\, [title*="Share"])
 #@#div[button="share"]
 #@#.jw-settings-sharing
+#@#a[href^="https://connect.ok.ru/offer?url="]
+#@#a[href^="https://vk.com/share.php?"]
+#@#a[href^="https://www.facebook.com/sharer.php?"]
+#@#a[title="facebook"]
+#@#a[title="twitter"]
+#@#a[title="ВКонтакте"]
+#@#div[class^="ya-share"]
+#@#.share__icon
+#@#.share__list
+#@#.footer__socials
+#@#.social-networks
+#@#.ya-share2__link
+#@#.ya-share2__list
+#@#.ya-share2_inited
 ||analytics.google.com^$badfilter
 #@#.share-page
 /analytics/web/*$badfilter
@@ -212,6 +229,11 @@ streamango.com#@#+js(abort-on-property-write, _0xd959)
 streamango.com#@#+js(aeld, contextmenu)
 streamango.com#@#+js(addEventListener-defuser, DOMMouseScroll)
 ||openload.co/cdn-cgi/apps/head/$badfilter
+#@#.js-sharing-popup-facebook
+#@#.js-sharing-popup-linkedin
+#@#.js-sharing-popup-twitter
+||platform.twitter.com^$badfilter
+#@#.Icon--twitter
 streamango.com#@#+js(abort-on-property-write, BetterJsPop)
 *advert*$important,1p,script,badfilter
 streamango.com#@#+js(abort-current-inline-script, $, contextmenu)
