@@ -159,6 +159,8 @@ yandex.ru,yandex.ua,yandex.by,yandex.com##.favorites__icon, .head-promo-plus__ic
 ||beacon50.
 ||alt*-mtalk.google.com^
 ||ads.$domain=~ads.google.com
+/analytics/web/*$domain=~analytics.google.com
+metrika.yandex.ru##div.notification-wrapper_js_inited.i-bem.notification-wrapper
 
 ! ~~~~~~~ Not my shitty rules ~~~~~~~
 net#@#body:style(cursor: unset !important)
@@ -170,6 +172,23 @@ com#@#html:style(cursor: unset !important)
 *$websocket,badfilter
 youtube.com#@#.ytp-cards-button
 com#@#button:style(cursor: unset !important)
+openload.*#@#+js(set-constant, sadbl, false)
+openload.*#@#+js(nano-setInterval-booster)
+openload.*#@#+js(abort-current-inline-script, adblock, adblock2)
+#@#.footer-social
+#@##social-foot
+#@#.footer__social-links
+||metrika.yandex.ru^$badfilter
+#@#.social-links
+#@#.block-social
+#@#.addthis_inline_share_toolbox
+stats$important,script,badfilter
+google.*#@#+js(eremove, #prm-pt\, .b2hzT\, .exp-outline\, [id^="ed_"]\, [title*="Share"])
+#@#div[button="share"]
+#@#.jw-settings-sharing
+||analytics.google.com^$badfilter
+#@#.share-page
+/analytics/web/*$badfilter
 ||streamango.com^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' *.cloudflare.com,badfilter
 ||streamango.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.streamango.com *.fruithosted.net cdnjs.cloudflare.com;upgrade-insecure-requests,badfilter
 #@#button[class*="share-button"]
