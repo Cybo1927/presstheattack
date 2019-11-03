@@ -156,6 +156,7 @@ yandex.ru,yandex.ua,yandex.by,yandex.com##.favorites__icon, .head-promo-plus__ic
 ||beacon45.
 ||beacon46.
 ||beacon47.
+||googletagservices.com^
 ||beacon48.
 ||beacon49.
 ||connect.ok.ru^
@@ -170,6 +171,12 @@ metrika.yandex.ru##div.notification-wrapper_js_inited.i-bem.notification-wrapper
 net#@#body:style(cursor: unset !important)
 net#@#html:style(cursor: unset !important)
 #@#a[href$="/ads"]
+advertisement$important,script,badfilter
+#@#a[title="RSS"]
+#@#.fa-rss
+#@##xb_ScrollUp
+#@#*[id$="_ads"]
+||snack-media.com^$badfilter
 ||yandex.ru^$third-party,badfilter
 ||yastatic.net^*/widget_ya.js$badfilter
 com#@#html:style(cursor: unset !important)
@@ -188,12 +195,27 @@ org#@#html:style(cursor: unset !important)
 org#@#button:style(cursor: unset !important)
 org#@#body:style(cursor: unset !important)
 org#@#a:link:style(cursor: pointer)
+#@#a[href^="https://www.facebook.com/sharer/sharer.php"]
+#@#a[href*="facebook.com/sharer/sharer.php?"]
+#@#.share-btn
+#@#.fa-share-square-o
 #@#.newsletter_form
 #@#.ion-social-twitter
 #@#.ion-social-facebook
 #@#.footer_social
+kissasian.*#@#+js(setInterval-defuser, (), 1000)
+kissasian.*#@#+js(setTimeout-defuser, (), 30000)
+kissasian.*#@#+js(setTimeout-defuser, (), 45000)
+kissasian.*#@#+js(set-constant, check_adblock, true)
+kissasian.*#@#+js(abort-current-inline-script, document.getElementById, padsplayer)
+||realtime.services.disqus.com^$important,badfilter
+||realtime.services.disqus.com^$badfilter
+embed.streamx.live#@#+js(eremove, [button="share"]\, .afs_ads\, .jw-settings-sharing\, .jw-submenu-sharing)
+ads.min$important,script,badfilter
+/videojs.ima.js$important,1p,script,badfilter
+#@#*[class$="_ads"]
+#@#*[class^="ads-"]
 #@#.twitter
-#@#.addthis_button_reddit
 #@#.addthis_button_expanded
 #@#.addthis_button_email
 #@##like-btn
