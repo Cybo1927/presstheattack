@@ -180,6 +180,8 @@ com#@#html:style(cursor: unset !important)
 #@#.addthis_button_tumblr
 #@#.addthis_button_stumbleupon
 #@#.addthis_button_reddit
+||google.com/js/bg/$badfilter
+#@#.twitter
 #@#.addthis_button_reddit
 #@#.addthis_button_expanded
 #@#.addthis_button_email
@@ -214,6 +216,12 @@ google.*#@#+js(eremove, #prm-pt\, .b2hzT\, .exp-outline\, [id^="ed_"]\, [title*=
 #@#a[title="facebook"]
 #@#a[title="twitter"]
 #@#a[title="ВКонтакте"]
+#@#.top-social
+#@#.social
+#@#.facebook
+#@#.fa-facebook-square
+/banner*$badfilter
+#@#*[class*="_ads "]
 #@#div[class^="ya-share"]
 #@#.share__icon
 #@#.share__list
@@ -224,6 +232,7 @@ google.*#@#+js(eremove, #prm-pt\, .b2hzT\, .exp-outline\, [id^="ed_"]\, [title*=
 #@#.ya-share2_inited
 ||analytics.google.com^$badfilter
 #@#.share-page
+yandex.ru#@#body > div[class*="popup"][class*="tooltip_theme_promo"]
 /analytics/web/*$badfilter
 ||streamango.com^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' *.cloudflare.com,badfilter
 ||streamango.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.streamango.com *.fruithosted.net cdnjs.cloudflare.com;upgrade-insecure-requests,badfilter
