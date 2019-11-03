@@ -3031,6 +3031,10 @@
 ||facsowlaufzk.com^$important
 ||fadedprofit.com^$important
 ||fae4b91d8638a798.com^$important
+||fundingchoicesmessages.google.com^$important
+||contributor.google.com^$important
+||adservice.google.com^$important
+||id.google.com^$important
 ||faecbook.com^$important
 ||faegbmhey.com^$important
 ||fafmybvsoj.com^$important
