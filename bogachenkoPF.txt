@@ -181,6 +181,17 @@ com#@#html:style(cursor: unset !important)
 #@#.addthis_button_stumbleupon
 #@#.addthis_button_reddit
 ||google.com/js/bg/$badfilter
+oko.sh#@#+js(abort-on-property-read)
+*ads.js*$important,1p,badfilter
+*/ads.js$script,important,redirect=noopjs,badfilter
+org#@#html:style(cursor: unset !important)
+org#@#button:style(cursor: unset !important)
+org#@#body:style(cursor: unset !important)
+org#@#a:link:style(cursor: pointer)
+#@#.newsletter_form
+#@#.ion-social-twitter
+#@#.ion-social-facebook
+#@#.footer_social
 #@#.twitter
 #@#.addthis_button_reddit
 #@#.addthis_button_expanded
