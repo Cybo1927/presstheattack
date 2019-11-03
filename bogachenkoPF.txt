@@ -235,6 +235,8 @@ youtube.com#@##vat-notice
 oko.sh#@#+js(abort-on-property-read)
 *ads.js*$important,1p,badfilter
 ||captchas.freebitco.in^$badfilter
+#@#.shareblock
+#@#.social-box
 ||fbtc-audio.freebitco.in^$badfilter
 ||static1.freebitco.in^$badfilter
 ||freebitco.in^$badfilter
