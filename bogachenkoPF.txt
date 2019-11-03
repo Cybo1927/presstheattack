@@ -215,8 +215,17 @@ com#@#html:style(cursor: unset !important)
 #@#.addthis_button_stumbleupon
 #@#.addthis_button_reddit
 ||google.com/js/bg/$badfilter
+youtube.com#@##vat-notice
 oko.sh#@#+js(abort-on-property-read)
 *ads.js*$important,1p,badfilter
+||captchas.freebitco.in^$badfilter
+||fbtc-audio.freebitco.in^$badfilter
+||static1.freebitco.in^$badfilter
+||freebitco.in^$badfilter
+freebitco.in##.reveal-modal-bg, .open.reveal-modal, .daily_jackpot_main_container_div, #deposit_promo_message_regular
+*stats*$important,1p,badfilter
+#@##share_button
+#@#*[id*="_ads_"]
 */ads.js$script,important,redirect=noopjs,badfilter
 org#@#html:style(cursor: unset !important)
 org#@#button:style(cursor: unset !important)
