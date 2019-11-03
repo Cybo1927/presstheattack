@@ -17,5 +17,5 @@
 /^https?:\/\/www\.([a-z]{6,16})\.com\/([a-z]{1,4})\.js$/$important,script,third-party
 |http*:*/js/ht.js?$important,script
 |http*:*/metrixEvents.js$important,script
-|http*:*/ph-tracking.js$important,script
+/^https?:\/\/[^\s]+\/(([a-zA-Z]{1,5})?[!"#$%&'()*+,:;<=>?@/\^_`{|}~-])?track(ers?|ing)?([0-9]{1,3})?\.js/$important,script
 |http*:*/uutils.fcg?$important,script
