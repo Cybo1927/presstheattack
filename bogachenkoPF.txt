@@ -37,7 +37,7 @@ kinogo.*,torrent-filmi.xyz,kinoframe.net,filmitorrent.xyz,hdfilms.zone##body:sty
 playground.ru,kissasian.*,sourceforge.net,kimcartoon.to,datoporn.co,trialnod.com##+js(nano-setTimeout-booster.js)
 infourok.ru##+js(addEventListener-defuser.js, focus)
 infourok.ru##+js(addEventListener-defuser.js, focus, trigger)
-@@*$generichide,domain=music.yandex.ru
+@@*$generichide,domain=yandex.ru|yandex.ua|yandex.by|google.com|google.ru
 ||music.yandex.ru^$csp=script-src 'unsafe-inline' 'unsafe-eval' music.yandex.ru; connect-src 'self' data: music.yandex.ru storage.mds.yandex.net; img-src 'self' data: music.yandex.ru avatars.yandex.net yapic.yandex.ru;
 ||sandbox.music.yandex.net/script/gtag.js$script
 infourok.ru##+js(set-constant.js, monitorFocus, noopFunc)
