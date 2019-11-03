@@ -480,6 +480,7 @@
 ||adsco.re^$important
 ||adscpm.site^$important
 ||adsensecustomsearchads.com^$important
+||adservice.google.com^$important
 ||adshost.site^$important
 ||adskeeper.co.uk^$important
 ||adslop.com^$important
@@ -1818,6 +1819,7 @@
 ||contentsfeed.com^$important
 ||contentza.com^$important
 ||contestandgiveaways.xyz^$important
+||contributor.google.com^$important
 ||conviva.com^$important
 ||coograma.net^$important
 ||cookie-script.com^$important
@@ -3031,10 +3033,6 @@
 ||facsowlaufzk.com^$important
 ||fadedprofit.com^$important
 ||fae4b91d8638a798.com^$important
-||fundingchoicesmessages.google.com^$important
-||contributor.google.com^$important
-||adservice.google.com^$important
-||id.google.com^$important
 ||faecbook.com^$important
 ||faegbmhey.com^$important
 ||fafmybvsoj.com^$important
@@ -3431,6 +3429,7 @@
 ||fun520.fun^$important
 ||functionalclam.com^$important
 ||functionalcrown.com^$important
+||fundingchoicesmessages.google.com^$important
 ||funnyairplane.com^$important
 ||funysmile93.agency^$important
 ||fupgvldb.com^$important
@@ -4553,6 +4552,7 @@
 ||icxssspyxquw.bid^$important
 ||icyddcsjbqjxz.bid^$important
 ||icyfqtjj.bid^$important
+||id.google.com^$important
 ||idbjhskxiablsi.com^$important
 ||idbtfwllhogxc.com^$important
 ||idbxnzgmn.com^$important
