@@ -231,8 +231,33 @@ google.*#@#+js(eremove, #prm-pt\, .b2hzT\, .exp-outline\, [id^="ed_"]\, [title*=
 #@#.social
 #@#.facebook
 #@#.fa-facebook-square
+||disqus.com^$important,badfilter
+disqus.com$important,badfilter
+||verystream.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: cdnjs.cloudflare.com *.verystream.net,badfilter
+||disqus.com^$badfilter
+#@#iframe[src*=disqus\.com\/embed\/comments]
+accounts.google.com/o/oauth2/$badfilter
+||links.services.disqus.com^$important,badfilter
+#@##thread-share-bar
+#@#div#disqus_thread
+#@#.share-twitter
+#@#.share-text
+#@#.share-facebook
+#@#.share-bar
+#@#.icon-twitter-circle
+#@#.icon-facebook-circle
+#@#.icon-twitter
+||referrer.disqus.com^$important,badfilter
+#@#.ListSocial
+#@#.icon-google-plus-circle
+#@#.icon-facebook
 /banner*$badfilter
 #@#*[class*="_ads "]
+#@#*[id^="ad-"]
+mirrorace.com#@#+js(addEventListener-defuser, click, _0x)
+#@#a[uk-totop]
+#@#[uk-icon="twitter"]
+#@#[uk-icon="facebook"]
 #@#div[class^="ya-share"]
 #@#.share__icon
 #@#.share__list
