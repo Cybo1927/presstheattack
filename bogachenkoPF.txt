@@ -145,6 +145,7 @@ yandex.ru,yandex.ua,yandex.by,yandex.com##.favorites__icon, .head-promo-plus__ic
 ||beacon36.
 ||beacon37.
 ||r3.mail.ru^
+*/endscreen.js$script,domain=youtube.com
 ||top-fwz1.mail.ru^
 ||beacon38.
 ||beacon39.
@@ -165,6 +166,7 @@ yandex.ru,yandex.ua,yandex.by,yandex.com##.favorites__icon, .head-promo-plus__ic
 ||alt*-mtalk.google.com^
 ||ads.$domain=~ads.google.com
 /analytics/web/*$domain=~analytics.google.com
+*/promo-banner.js$script,domain=pornhub.com
 metrika.yandex.ru##div.notification-wrapper_js_inited.i-bem.notification-wrapper
 github.com##.border-bottom.hide-sm.hide-md.hide-lg.mt-5.pr-3.col-lg-3.col-md-3.col-12.team-left-column
 
@@ -176,6 +178,30 @@ advertisement$important,script,badfilter
 #@#a[title="RSS"]
 #@#.fa-rss
 #@##xb_ScrollUp
+||pornhub.*^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.phncdn.com *.pornhub.com *.nsimg.net,badfilter
+pornhub.*#@#+js(eremove, #under-player-comments\, #welcome\, .abovePlayer\, .clear.hd.jisfhp0w2u\, .adlink2\, .kzpcaw\, .streamatesModelsContainer.sectionWrapper\, #under-player-playlists\, .underplayer-thumbs.videos\, .item-6.menu\, .nf-wrapper > .sectionWrapper\, #pb_template\, .clear.hd\, .fadeInMTubes\, .sniperModeEngaged\, .premiumPromoBanner)
+pornhub.*#@#+js(aeld, contextmenu)
+pornhub.*#@#+js(abort-on-property-read, userABMessage)
+pornhub.com#@#+js(set-constant, atob, trueFunc)
+pornhub.com#@#+js(abort-current-inline-script, Math, createShadowRoot)
+pornhub.com#@#+js(abort-on-property-write, isAdblockOn)
+pornhub.com#@#+js(addEventListener-defuser, DOMContentLoaded, [native code])
+pornhub.com#@#+js(abort-on-property-write, rAb)
+premium^$important,script,domain=pornhub.com,badfilter
+#@#.socialIconsWrapper
+pornhub.com#@#+js(abort-on-property-write, UAParser)
+#@#.shareTrig
+#@#.shareIcons
+#@#.js-triggerShare
+#@#a[href^="https://plus.google.com/share"]
+#@#a[href^="//www.reddit.com/submit?"]
+#@#a[href^="//www.reddit.com/submit"]
+#@#a[href^="//twitter.com/share"]
+#@#[href^="//twitter.com/share"]
+#@#.share-sites-thumbs
+#@#.twitterIcon
+#@#.socialList
+#@#.instagramIcon
 #@#*[id$="_ads"]
 ||snack-media.com^$badfilter
 ||yandex.ru^$third-party,badfilter
@@ -275,6 +301,25 @@ google.*#@#+js(eremove, #prm-pt\, .b2hzT\, .exp-outline\, [id^="ed_"]\, [title*=
 #@#a[title="twitter"]
 #@#a[title="ВКонтакте"]
 #@#.top-social
+youtube.com#@#ytd-popup-container[class="style-scope ytd-app"] > iron-dropdown[force-close-on-outside-click="true"]
+||youtube.com/api/stats$important,badfilter
+youtube.com#@#ytd-popup-container > iron-dropdown .ytd-popup-container[position-type="OPEN_POPUP_POSITION_BOTTOMLEFT"]
+youtube.com#@#ytd-popup-container > .ytd-popup-container > #contentWrapper > .ytd-popup-container[position-type="OPEN_POPUP_POSITION_BOTTOMLEFT"]
+youtube.com#@#ytd-toggle-button-renderer #text
+youtube.com#@#.ytp-paid-content-overlay
+youtube.com#@#.ytp-cards-teaser
+youtube.com#@#.ytp-button.ytp-miniplayer-button
+#@#*[id$="-ads"]
+youtube.com#@##sponsor-button
+youtube.com#@##comments
+youtube.com#@##clarify-box
+youtube.com#@##list-container
+youtube.com#@##sentiment
+youtube.com#@##related
+youtube.com#@##ticker
+youtube.com#@##ticker.ytd-masthead
+youtube.com#@##ticket-shelf
+/generate_204$important,badfilter
 #@#.social
 ||connect.mail.ru^
 #@#.facebook
@@ -365,8 +410,6 @@ openload.co#@#+js(abort-current-inline-script, $, contextmenu)
 openload.co#@#+js(abort-current-inline-script, adblock, adblock2)
 openload.co#@#+js(nano-setInterval-booster)
 #@#a[title="Google+"]
-||oload.*^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: cdnjs.cloudflare.com *.oloadcdn.net,badfilter
-||oload.*^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: cdnjs.cloudflare.com  *.oloadcdn.net,badfilter
 #@#a[title="Instagram"]
 #@#a[title="Tumblr"]
 #@#a[title="Twitter"]
