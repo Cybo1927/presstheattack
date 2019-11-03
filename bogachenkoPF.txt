@@ -166,6 +166,7 @@ yandex.ru,yandex.ua,yandex.by,yandex.com##.favorites__icon, .head-promo-plus__ic
 ||ads.$domain=~ads.google.com
 /analytics/web/*$domain=~analytics.google.com
 metrika.yandex.ru##div.notification-wrapper_js_inited.i-bem.notification-wrapper
+github.com##.border-bottom.hide-sm.hide-md.hide-lg.mt-5.pr-3.col-lg-3.col-md-3.col-12.team-left-column
 
 ! ~~~~~~~ Not my shitty rules ~~~~~~~
 net#@#body:style(cursor: unset !important)
@@ -242,8 +243,11 @@ vk.com#@##system_msg
 #@##like-btn
 #@#a[href="http://twitter.com/share"]
 #@#a[href^="http://twitter.com/share"]
+||addthis.com^$badfilter
 #@#a[href*="/www/delivery/"]
 ||addthis.com^$important,badfilter
+||s7.addthis.com^$badfilter
+||m.addthis.com^$badfilter
 extremetube.com#@#+js(abort-on-property-read, exbl)
 extremetube.com#@#+js(abort-on-property-write, ppAb)
 ||addthis.com^$important,3p,domain=~missingkids.com|~missingkids.org|~sainsburys.jobs|~sitecore.com|~serialomaniak.pl,badfilter
@@ -324,6 +328,9 @@ analytics$important,badfilter
 #@#.social-menu
 piwik$important,script,badfilter
 /ua-parser.$badfilter
+facebook.com#@#+js(eremove, .home_right_column\, #page_tv_show_playlists\, #pagelet_page_cover\, #page_tv_show_extra_clips\, #page_photos\, .UFIList\, .photoUfiContainer.rhc\, #fb_stories_card_root, .lpwhe18s.alzwoclg.cqf1kptm.cgu29s5g.jcxyg2ei\, .alzwoclg.g4qalytl.oxkhqvkx.r5g9zsuq.nch0832m.hsphh064 > .cgu29s5g:nth-of-type(1))
+pixel.$important,image,badfilter
+||facebook.com^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.fbcdn.net,badfilter
 ||youtube.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.ggpht.com *.googlevideo.com *.ytimg.com *.googleusercontent.com www.youtube.com,badfilter
 ||9anime.*^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' *.jwpcdn.com *.gstatic.com disqus.com *.disqus.com *.disquscdn.com data:,badfilter
 ||9anime.*^$csp=frame-src 'self' *.rapidvideo.com mcloud.to openload.co disqus.com,badfilter
