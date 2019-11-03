@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-10-31 21:27:05
-! Version: 20191031212705
+! Last modified: 2019-11-03 15:54:24
+! Version: 20191103155424
 ! Expires: 3 hours
-! Number of filters: 13048
+! Number of filters: 13057
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -1926,6 +1926,7 @@
 ||concernrain.com^$important
 ||conditioncrush.com^$important
 ||connatix.com^$important
+||connect.ok.ru^$important
 ||connectad.io^$important
 ||consciouscabbage.com^$important
 ||consciouschairs.com^$important
@@ -2597,6 +2598,7 @@
 ||dvgvwatnnqsmll.com^$important
 ||dvhznawcuacblo.com^$important
 ||dviavwhykcdp.com^$important
+||dviiocxrl.com^$important
 ||dvlhwokr.bid^$important
 ||dvpgijdm.com^$important
 ||dvprcchlzke.bid^$important
@@ -3911,6 +3913,7 @@
 ||google.*/uds/$important
 ||googlesyndication.com^$important
 ||googletagmanager.com^$important
+||googletagservices.com^$important
 ||googlo.co^$important
 ||goowurzdotcom.bid^$important
 ||gopamdzgpdrwe.bid^$important
@@ -4820,6 +4823,7 @@
 ||ilvibsabwuza.com^$important
 ||ilxwlsnzhzukj.com^$important
 ||imagetopng.club^$important
+||imasdk.googleapis.com^$important
 ||imayjubge.com^$important
 ||imbpmlyhkk.com^$important
 ||imeljiehhwy.com^$important
@@ -7757,6 +7761,7 @@
 ||pegel.pw^$important$image
 ||pegfkacjwjca.com^$important
 ||peggziuzk.bid^$important
+||pegloang.com^$important
 ||pehjaplsxbsfhs.bid^$important
 ||peivdtctdkfpyf.bid^$important
 ||pejhnrurllsq.com^$important
@@ -8653,6 +8658,7 @@
 ||qzpxhebrm.com^$important
 ||qzpzspna.bid^$important
 ||qzwhzahnieipgz.com^$important
+||r3.mail.ru^$important
 ||r5jpkacq.ru^$important
 ||r66at6sf.com^$important
 ||r8mxl.top^$important
@@ -9046,6 +9052,7 @@
 ||rumahgratis.tk^$important
 ||run-syndicate.com^$important
 ||run2anywhere.com^$important
+||runative-syndicate.com^$important
 ||runewslenta.com^$important
 ||runtnc.net^$important
 ||runwtxeisppmt.com^$important
@@ -9485,6 +9492,7 @@
 ||sopzefqypxas.bid^$important
 ||soresneeze.com^$important
 ||sosbyncpkyw.com^$important
+||soska.us^$important
 ||sossxjmotqqs.com^$important
 ||soszgtvox.bid^$important
 ||soujoobafoo.com^$important
@@ -10060,6 +10068,7 @@
 ||togfcqfvarpq.com^$important
 ||toomsborogreycliff.com^$important
 ||toothbrushnote.com^$important
+||top-fwz1.mail.ru^$important
 ||top100.ru^$important
 ||topclickguru.com^$important
 ||topgadgetlists.com^$important
