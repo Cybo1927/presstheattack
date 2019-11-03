@@ -157,6 +157,8 @@ yandex.ru,yandex.ua,yandex.by,yandex.com##.favorites__icon, .head-promo-plus__ic
 ||212.122.5.136^$document
 ||beacon45.
 ||beacon46.
+||fundingchoicesmessages.google.com^
+||contributor.google.com^
 ||beacon47.
 ||googletagservices.com^
 ||beacon48.
@@ -177,7 +179,20 @@ net#@#html:style(cursor: unset !important)
 #@#a[href$="/ads"]
 advertisement$important,script,badfilter
 #@#a[title="RSS"]
+#@#.td-icon-facebook
+#@#.td-icon-instagram
+#@#.td-icon-youtube
+#@#.td-scroll-up
+#@#.td-social-icon-wrap
+#@#a[title="Youtube"]
+#@#.fb-page
+#@#.fb-xfbml-parse-ignore
+#@#.footer-social-wrap
+#@#.td-social-list
+#@#.td_block_social_counter
+#@#.td_social_type
 #@#.fa-rss
+/prebid$important,script,badfilter
 #@##xb_ScrollUp
 ||pornhub.*^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.phncdn.com *.pornhub.com *.nsimg.net,badfilter
 pornhub.*#@#+js(eremove, #under-player-comments\, #welcome\, .abovePlayer\, .clear.hd.jisfhp0w2u\, .adlink2\, .kzpcaw\, .streamatesModelsContainer.sectionWrapper\, #under-player-playlists\, .underplayer-thumbs.videos\, .item-6.menu\, .nf-wrapper > .sectionWrapper\, #pb_template\, .clear.hd\, .fadeInMTubes\, .sniperModeEngaged\, .premiumPromoBanner)
