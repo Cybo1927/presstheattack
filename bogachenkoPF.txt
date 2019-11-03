@@ -159,6 +159,7 @@ yandex.ru,yandex.ua,yandex.by,yandex.com##.favorites__icon, .head-promo-plus__ic
 ||beacon48.
 ||beacon49.
 ||connect.ok.ru^
+||imasdk.googleapis.com^
 ||beacon50.
 ||alt*-mtalk.google.com^
 ||ads.$domain=~ads.google.com
@@ -172,6 +173,24 @@ net#@#html:style(cursor: unset !important)
 ||yandex.ru^$third-party,badfilter
 ||yastatic.net^*/widget_ya.js$badfilter
 com#@#html:style(cursor: unset !important)
+||fonts.googleapis.com^$important,domain=~google.com|~chromium.org,badfilter
+#@#.twitter-share-button
+#@#body .twitter-share-button
+#@#.shareDiv
+#@#.addthis_button_tumblr
+#@#.addthis_button_stumbleupon
+#@#.addthis_button_reddit
+#@#.addthis_button_reddit
+#@#.addthis_button_expanded
+#@#.addthis_button_email
+#@##like-btn
+#@#a[href="http://twitter.com/share"]
+#@#a[href^="http://twitter.com/share"]
+#@#a[href*="/www/delivery/"]
+||addthis.com^$important,badfilter
+extremetube.com#@#+js(abort-on-property-read, exbl)
+extremetube.com#@#+js(abort-on-property-write, ppAb)
+||addthis.com^$important,3p,domain=~missingkids.com|~missingkids.org|~sainsburys.jobs|~sitecore.com|~serialomaniak.pl,badfilter
 *$websocket,badfilter
 youtube.com#@#.ytp-cards-button
 com#@#button:style(cursor: unset !important)
