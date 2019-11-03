@@ -272,7 +272,9 @@ google.*#@#+js(eremove, #prm-pt\, .b2hzT\, .exp-outline\, [id^="ed_"]\, [title*=
 #@#a[title="ВКонтакте"]
 #@#.top-social
 #@#.social
+||connect.mail.ru^
 #@#.facebook
+||connect.facebook.net^
 #@#.fa-facebook-square
 ||disqus.com^$important,badfilter
 disqus.com$important,badfilter
