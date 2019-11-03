@@ -40,3 +40,4 @@
 ||google.*/uds/$important
 ||yandex.ru/clck/clck/$important
 ||yandex.ru/clck/jclck/$important
+|http*:*%22request_id%*%22idzone%$important

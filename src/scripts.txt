@@ -18,3 +18,4 @@
 |http*:*/js/ht.js?$important,script
 |http*:*/metrixEvents.js$important,script
 |http*:*/uutils.fcg?$important,script
+|http*:*/ph-tracking.js$important,script
