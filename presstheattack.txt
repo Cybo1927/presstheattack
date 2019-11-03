@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-11-03 16:01:17
-! Version: 20191103160117
+! Last modified: 2019-11-03 17:51:42
+! Version: 20191103175142
 ! Expires: 3 hours
-! Number of filters: 13061
+! Number of filters: 13065
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -7855,6 +7855,7 @@
 ||piquantpigs.com^$important
 ||piquantstove.com^$important
 ||piqvuvqc.com^$important
+||pirantika.com^$important
 ||pismvlkq.com^$important
 ||pitduougk.com^$important
 ||piuhqbchk.com^$important
@@ -10136,6 +10137,7 @@
 ||trafficjunky.com^$important
 ||trafficjunky.net^$important
 ||trafforsrv.com^$important
+||traneranium.com^$important
 ||tranquilside.com^$important
 ||trappush.com^$important
 ||trbo.com^$important
@@ -10657,6 +10659,7 @@
 ||uuaajohul.com^$important
 ||uuacjdostjloa.bid^$important
 ||uubxhbwnwmfqp.com^$important
+||uuidksinc.net^$important
 ||uuiqhzpvfql.com^$important
 ||uukqjcucva.com^$important
 ||uupjizxqf.bid^$important
@@ -10944,6 +10947,7 @@
 ||viqfxgmgacxv.com^$important
 ||viqmadjqndqkm.com^$important
 ||virgbmkmear.com^$important
+||visitstats.com^$important,third-party
 ||vivcdctagoij.com^$important
 ||vivetivcuggz.com^$important
 ||viwsqbbvfknp.com^$important

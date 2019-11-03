@@ -7719,6 +7719,7 @@
 ||piquantpigs.com^$important
 ||piquantstove.com^$important
 ||piqvuvqc.com^$important
+||pirantika.com^$important
 ||pismvlkq.com^$important
 ||pitduougk.com^$important
 ||piuhqbchk.com^$important
@@ -9451,11 +9452,6 @@
 ||start1999.com^$important
 ||statcounter.com^$important,third-party
 ||stathat.com^$important
-||visitstats.com^$important,third-party
-||uuidksinc.net^$important
-||pirantika.com^$important
-||traneranium.com^$important
-||uuidksinc.net^$important
 ||statsforads.com^$important
 ||statsy.net^$important
 ||steadfastsound.com^$important
@@ -10001,6 +9997,7 @@
 ||trafficjunky.com^$important
 ||trafficjunky.net^$important
 ||trafforsrv.com^$important
+||traneranium.com^$important
 ||tranquilside.com^$important
 ||trappush.com^$important
 ||trbo.com^$important
@@ -10519,6 +10516,7 @@
 ||uuaajohul.com^$important
 ||uuacjdostjloa.bid^$important
 ||uubxhbwnwmfqp.com^$important
+||uuidksinc.net^$important
 ||uuiqhzpvfql.com^$important
 ||uukqjcucva.com^$important
 ||uupjizxqf.bid^$important
@@ -10806,6 +10804,7 @@
 ||viqfxgmgacxv.com^$important
 ||viqmadjqndqkm.com^$important
 ||virgbmkmear.com^$important
+||visitstats.com^$important,third-party
 ||vivcdctagoij.com^$important
 ||vivetivcuggz.com^$important
 ||viwsqbbvfknp.com^$important
