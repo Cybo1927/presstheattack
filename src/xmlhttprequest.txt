@@ -2,6 +2,7 @@
 /^https?:\/\/s3\.amazonaws\.com\/.*[a-f0-9\/]{50,}/$important,third-party,xmlhttprequest,domain=~amazon.com
 |http*:*/get_geoip?$important,xmlhttprequest
 |http*:*?type=pageview&$important,xmlhttprequest
+||google.com^*/viewerimpressions?$important,xmlhttprequest
 ||hqq.tv/cdn-cgi/trace$important,xmlhttprequest
 ||ok.ru/dk?cmd=videostatnew$important,xmlhttprequest
 ||pipe.aria.microsoft.com/collector/$important,xmlhttprequest
@@ -13,4 +14,3 @@
 ||youtube.com/get_endscreen?$important,xmlhttprequest
 ||youtube.com/get_midroll_info^$important,xmlhttprequest
 ||youtube.com/get_video_info?*el=adunit$important,xmlhttprequest
-||google.com^*/viewerimpressions?$important,xmlhttprequest
