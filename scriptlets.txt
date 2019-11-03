@@ -339,6 +339,7 @@ mousedef.js application/javascript
     document.oncopy=null;
     document.onselectstart=null;
     document.ondragstart=null;
+    document.ondrag=null;
 })();
 
 # mouseclick-defuser-2
@@ -366,7 +367,7 @@ function clearEventListeners() {
     document.oncontextmenu = undefined;
     document.body.removeAttribute("oncontextmenu")
 }
-window.addEventListener('load', clearEventListeners, !1)
+window.addEventListener('load', clearEventListeners, false);
 
 # btoa-defuser
 nobtoa.js application/javascript
