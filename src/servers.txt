@@ -9451,6 +9451,11 @@
 ||start1999.com^$important
 ||statcounter.com^$important,third-party
 ||stathat.com^$important
+||visitstats.com^$important,third-party
+||uuidksinc.net^$important
+||pirantika.com^$important
+||traneranium.com^$important
+||uuidksinc.net^$important
 ||statsforads.com^$important
 ||statsy.net^$important
 ||steadfastsound.com^$important
