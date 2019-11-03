@@ -326,7 +326,7 @@ atob-logger.js application/javascript
     }.bind(window);
 })();
 
-# MouseClick-defuser
+# mouseclick-defuser
 mousedef.js application/javascript
 (() => {
     'use strict';
@@ -334,13 +334,14 @@ mousedef.js application/javascript
     document.body.removeAttribute('oncopy');
     document.body.removeAttribute('onselectstart');
     document.body.removeAttribute('ondragstart');
+    document.body.removeAttribute("ondrag");
     document.oncontextmenu=null;
     document.oncopy=null;
     document.onselectstart=null;
     document.ondragstart=null;
 })();
 
-# MouseClick-defuser-2
+# mouseclick-defuser-2
 mousedef2.js application/javascript
 ! function() {
     function e(e) {
@@ -359,20 +360,13 @@ mousedef2.js application/javascript
     } catch (e) {}(t = document.createElement("style")).type = "text/css", t.innerHTML = "* { -webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important; } ", document.head.appendChild(t)
 }();
 
-# Oncontextmenu-defuser
-oncontextmenu.js application/javascript
+# oncontextmenu-defuser
+ocmdef.js application/javascript
 function clearEventListeners() {
     document.oncontextmenu = undefined;
-    document.oncopy = undefined;
-    document.oncut = undefined;
-    document.onpaste = undefined;
-    document.onselectstart = undefined;
-    document.body.removeAttribute("oncopy");
-    document.body.removeAttribute("ondrag");
-    document.body.removeAttribute("oncontextmenu");
-    document.body.removeAttribute("onselectstart");
+    document.body.removeAttribute("oncontextmenu")
 }
-window.addEventListener('load', clearEventListeners, false);
+window.addEventListener('load', clearEventListeners, !1)
 
 # btoa-defuser
 nobtoa.js application/javascript
