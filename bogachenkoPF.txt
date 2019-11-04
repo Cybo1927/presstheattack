@@ -141,7 +141,7 @@ yandex.ru,yandex.ua,yandex.by,yandex.com##.favorites__icon, .head-promo-plus__ic
 ||beacon27.
 ||beacon28.
 ||beacon29.
-/^https?:\/\/yandex\.ru/$csp=script-src data: 'unsafe-inline' 'unsafe-eval' https://yandex.ru http://yandex.ru https://pass.yandex.ru yastatic.net; img-src data: https://yandex.ru http://yandex.ru *.yandex.net *.passport.yandex.ru yastatic.net; connect-src data: https://yandex.ru http://yandex.ru https://cloud-api.yandex.ru https://mail.yandex.ru http://cloud-api.yandex.ru http://mail.yandex.ru;
+/^https?:\/\/yandex\.ru/$csp=script-src data: 'unsafe-inline' 'unsafe-eval' https://yandex.ru http://yandex.ru https://pass.yandex.ru yastatic.net; img-src data: https://yandex.ru http://yandex.ru *.yandex.net *.passport.yandex.ru yastatic.net; connect-src data: https://yandex.ru http://yandex.ru https://cloud-api.yandex.ru https://mail.yandex.ru http://cloud-api.yandex.ru http://mail.yandex.ru *.yastatic.net https://frontend.vh.yandex.ru http://frontend.vh.yandex.ru;
 ||beacon30.
 ||beacon31.
 ||beacon32.
@@ -194,8 +194,10 @@ advertisement$important,script,badfilter
 net#@#button:style(cursor: unset !important)
 #@#.td-scroll-up
 #@#.td-social-icon-wrap
+||disquscdn.com^$badfilter
 #@#a[title="Youtube"]
 #@#.d-share
+@@||disqus.com/embed.js$badfilter
 #@#.fb-page
 #@#.fb-xfbml-parse-ignore
 #@#.footer-social-wrap
