@@ -362,7 +362,7 @@ mousedef2.js application/javascript
 }();
 
 # oncontextmenu-defuser
-ocmdef.js application/javascript
+contextmenudef.js application/javascript
 function clearEventListeners() {
     document.oncontextmenu = undefined;
     document.body.removeAttribute("oncontextmenu")
