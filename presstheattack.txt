@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-11-04 22:05:15
-! Version: 20191104220515
+! Last modified: 2019-11-04 22:51:50
+! Version: 20191104225150
 ! Expires: 3 hours
-! Number of filters: 13087
+! Number of filters: 13097
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -39,6 +39,7 @@
 /^https?:\/\/((www|wap)\.)?informers?([0-9]{1,3})?\./$important
 /^https?:\/\/((www|wap)\.)?logs?([0-9]{1,3})?\./$important
 /^https?:\/\/((www|wap)\.)?metric[as]?([0-9]{1,3})?\./$important,domain=~metrica.yandex.com|~metrica.yandex.ru|~metrika.yandex.com|~metrika.yandex.ru
+/^https?:\/\/((www|wap)\.)?monitor([0-9]{1,3})?\./$important
 /^https?:\/\/((www|wap)\.)?partners?([0-9]{1,3})?\./$important
 /^https?:\/\/((www|wap)\.)?pi?xe?l?([0-9]{1,3})?\./$important
 /^https?:\/\/((www|wap)\.)?re[ck]lam(a|s|er)?([0-9]{1,3})?\./$important
@@ -551,6 +552,7 @@
 ||adcdnx.com^$important
 ||adclear.net^$important
 ||adcloud.net^$important
+||adcolony.com^$important
 ||addesigner.com^$important
 ||addgfxnb.com^$important
 ||addtogether.club^$important
@@ -878,6 +880,7 @@
 ||applesarmy.com^$important
 ||applesupportofficial.com^$important
 ||applicalled.club^$important
+||applovin.com^$important
 ||appmetrica.yandex.net^$important
 ||aprddnfuzc.bid^$important
 ||apscxogwydnkx.com^$important
@@ -1748,6 +1751,7 @@
 ||chanicut.com^$important
 ||charmstroy.info^$important
 ||chartbeat.com^$important
+||chartboost.com^$important
 ||chatozov.ru^$important
 ||chaumontbalko.com^$important
 ||check-now.net^$important
@@ -4872,6 +4876,7 @@
 ||inhtwazkrebui.bid^$important
 ||inisvnawtzevnx.com^$important
 ||initialized902nq.online^$important
+||inmobi.com^$important
 ||inmrjokdxmkh.com^$important
 ||innity.net^$important
 ||innocentwax.com^$important
@@ -8706,6 +8711,7 @@
 ||ravalynn.pw^$important
 ||ravaynore.com^$important
 ||rawybznxrp.bid^$important
+||rayjump.com^$important
 ||rbayzoamcrdg.com^$important
 ||rbbesmzvokpste.com^$important
 ||rbbkqlnnmus.bid^$important
@@ -9608,6 +9614,7 @@
 ||stalluva.pro^$important
 ||standingnest.com^$important
 ||start1999.com^$important
+||startappservice.com^$important
 ||statcounter.com^$important,third-party
 ||stathat.com^$important
 ||statsforads.com^$important
@@ -9797,6 +9804,7 @@
 ||taoclfxgf.com^$important
 ||taodggarfrmd.com^$important
 ||tapjoy.com^$important
+||tapjoyads.com^$important
 ||taqesyqne.com^$important
 ||taqyljgaqsaz.com^$important
 ||target.smi2.net^$important
@@ -10559,6 +10567,7 @@
 ||ungvncbnx.bid^$important
 ||unikmmqybjy.com^$important
 ||unique2lazy.com^$important
+||unityads.unity3d.com^$important
 ||univerba.club^$important
 ||unknowntray.com^$important
 ||unkrokwhwn.com^$important
@@ -11158,6 +11167,7 @@
 ||vukhhjzd.com^$important
 ||vulexmouotod.com^$important
 ||vumzegtucxqmhl.bid^$important
+||vungle.com^$important
 ||vunklcwiwpn.com^$important
 ||vunwzlxfsogj.com^$important
 ||vuoywsri.bid^$important

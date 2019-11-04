@@ -93,18 +93,6 @@
 ||27d6aovb.top^$important
 ||280asnlnr7.com^$important
 ||28f77rd30e.ru^$important
-||vungle.com^$important
-||appbaqend.com^$important
-||tapjoyads.com^$important
-||rayjump.com^$important
-||unityads.unity3d.com^$important
-||moatads.com^$important
-||adcolony.com^$important
-||applovin.com^$important
-||chartboost.com^$important
-||criteo.com^$important
-||inmobi.com^$important
-||startappservice.com^$important
 ||2a12be6140880286.com^$important
 ||2bbb1fdde3f864152.com^$important
 ||2bd3c9da116ed2907.com^$important
@@ -437,6 +425,7 @@
 ||adcdnx.com^$important
 ||adclear.net^$important
 ||adcloud.net^$important
+||adcolony.com^$important
 ||addesigner.com^$important
 ||addgfxnb.com^$important
 ||addtogether.club^$important
@@ -764,6 +753,7 @@
 ||applesarmy.com^$important
 ||applesupportofficial.com^$important
 ||applicalled.club^$important
+||applovin.com^$important
 ||appmetrica.yandex.net^$important
 ||aprddnfuzc.bid^$important
 ||apscxogwydnkx.com^$important
@@ -1634,6 +1624,7 @@
 ||chanicut.com^$important
 ||charmstroy.info^$important
 ||chartbeat.com^$important
+||chartboost.com^$important
 ||chatozov.ru^$important
 ||chaumontbalko.com^$important
 ||check-now.net^$important
@@ -4748,6 +4739,7 @@
 ||inhtwazkrebui.bid^$important
 ||inisvnawtzevnx.com^$important
 ||initialized902nq.online^$important
+||inmobi.com^$important
 ||inmrjokdxmkh.com^$important
 ||innity.net^$important
 ||innocentwax.com^$important
@@ -8577,6 +8569,7 @@
 ||ravalynn.pw^$important
 ||ravaynore.com^$important
 ||rawybznxrp.bid^$important
+||rayjump.com^$important
 ||rbayzoamcrdg.com^$important
 ||rbbesmzvokpste.com^$important
 ||rbbkqlnnmus.bid^$important
@@ -9477,6 +9470,7 @@
 ||stalluva.pro^$important
 ||standingnest.com^$important
 ||start1999.com^$important
+||startappservice.com^$important
 ||statcounter.com^$important,third-party
 ||stathat.com^$important
 ||statsforads.com^$important
@@ -9665,6 +9659,7 @@
 ||taoclfxgf.com^$important
 ||taodggarfrmd.com^$important
 ||tapjoy.com^$important
+||tapjoyads.com^$important
 ||taqesyqne.com^$important
 ||taqyljgaqsaz.com^$important
 ||target.smi2.net^$important
@@ -10424,6 +10419,7 @@
 ||ungvncbnx.bid^$important
 ||unikmmqybjy.com^$important
 ||unique2lazy.com^$important
+||unityads.unity3d.com^$important
 ||univerba.club^$important
 ||unknowntray.com^$important
 ||unkrokwhwn.com^$important
@@ -11023,6 +11019,7 @@
 ||vukhhjzd.com^$important
 ||vulexmouotod.com^$important
 ||vumzegtucxqmhl.bid^$important
+||vungle.com^$important
 ||vunklcwiwpn.com^$important
 ||vunwzlxfsogj.com^$important
 ||vuoywsri.bid^$important
