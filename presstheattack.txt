@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-11-04 15:49:34
-! Version: 20191104154934
+! Last modified: 2019-11-04 17:23:33
+! Version: 20191104172333
 ! Expires: 3 hours
-! Number of filters: 13071
+! Number of filters: 13076
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -101,6 +101,7 @@
 |http*:*/?ip=*&zoneid=$important,popup
 |http*:*/adclck.*^$important,popup
 |http*:*/adclick.*^$important,popup
+|http*:*/adfox/$important
 |http*:*/afu.php?$important
 |http*:*/apu.hh?$important
 |http*:*/clear.gif$image,important
@@ -5731,6 +5732,7 @@
 ||kquthdppub.com^$important
 ||kqvpjbau.com^$important
 ||kqyckxlnll.bid^$important
+||krboeyeq.com^$important
 ||krezqajxv.bid^$important
 ||krghheqkkcght.com^$important
 ||krgxtloi.bid^$important
@@ -8141,6 +8143,7 @@
 ||pushmejs.com^$important
 ||pushmenews.com^$important
 ||pushmobilenews.com^$important
+||pushmono.com^$important
 ||pushnative.com^$important
 ||pushnevis.com^$important
 ||pushnews.ru^$important
@@ -8409,6 +8412,7 @@
 ||qjobvxqp.com^$important
 ||qjoqfapllsbtw.bid^$important
 ||qjpxalhvenbt.com^$important
+||qjrlcrkhnj.com^$important
 ||qjskosdsxanp.com^$important
 ||qjttowndvet.com^$important
 ||qjuzjpkihvya.com^$important
@@ -8773,6 +8777,7 @@
 ||refatxhcuu.com^$important
 ||refdomain3.xyz^$important
 ||referdriving.com^$important
+||referrer.disqus.com^$important
 ||reflectivereward.com^$important
 ||refovodka.ru^$important
 ||regbigltd.bid^$important

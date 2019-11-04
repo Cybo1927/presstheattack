@@ -23,6 +23,7 @@
 |http*:*%22request_id%*%22idzone%$important
 |http*:*&action=js_stats_$important
 |http*:*.html?clicktag=$important
+|http*:*/adfox/$important
 |http*:*/afu.php?$important
 |http*:*/apu.hh?$important
 |http*:*/in.php?*&referer=$important
@@ -31,7 +32,6 @@
 |http*:*/pview?event$important
 |http*:*?rand=*&blk=$important
 |http*:*?zone_id=$important
-|http*:*/adfox/$important
 |http*:*?zoneid=$important
 ||ddns.net^*=ws://$important
 ||ddns.net^*=wss://$important

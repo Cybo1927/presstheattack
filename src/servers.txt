@@ -5597,6 +5597,7 @@
 ||kquthdppub.com^$important
 ||kqvpjbau.com^$important
 ||kqyckxlnll.bid^$important
+||krboeyeq.com^$important
 ||krezqajxv.bid^$important
 ||krghheqkkcght.com^$important
 ||krgxtloi.bid^$important
@@ -6078,13 +6079,9 @@
 ||lqtxnuramh.bid^$important
 ||lquodkeqws.com^$important
 ||lqvckaciozvs.bid^$important
-||pushmono.com^$important
-||krboeyeq.com^$important
-||qjrlcrkhnj.com^$important
 ||lqvmjokehnlffq.bid^$important
 ||lqvuvkmohlktl.bid^$important
 ||lqydjvdrq.bid^$important
-||referrer.disqus.com^$important
 ||lramhnoefoz.bid^$important
 ||lrbllelemsx.com^$important
 ||lrcnshyxwx.bid^$important
@@ -8006,6 +8003,7 @@
 ||pushmejs.com^$important
 ||pushmenews.com^$important
 ||pushmobilenews.com^$important
+||pushmono.com^$important
 ||pushnative.com^$important
 ||pushnevis.com^$important
 ||pushnews.ru^$important
@@ -8274,6 +8272,7 @@
 ||qjobvxqp.com^$important
 ||qjoqfapllsbtw.bid^$important
 ||qjpxalhvenbt.com^$important
+||qjrlcrkhnj.com^$important
 ||qjskosdsxanp.com^$important
 ||qjttowndvet.com^$important
 ||qjuzjpkihvya.com^$important
@@ -8637,6 +8636,7 @@
 ||refatxhcuu.com^$important
 ||refdomain3.xyz^$important
 ||referdriving.com^$important
+||referrer.disqus.com^$important
 ||reflectivereward.com^$important
 ||refovodka.ru^$important
 ||regbigltd.bid^$important
