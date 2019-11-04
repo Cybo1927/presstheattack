@@ -154,9 +154,11 @@ ventax.net##+js(contextmenudef.js)
 ||beacon34.
 ||awaps.yandex.net^
 ||beacon35.
+yandex.ru##div:nth-of-type(6)
 yandex.ru##div:nth-of-type(8)
 ||beacon36.
 ||beacon37.
+/^https?:\/\/yastatic\.net\/[^\s]{120,}/$image
 ||r3.mail.ru^
 */endscreen.js$script,domain=youtube.com
 ||top-fwz1.mail.ru^
