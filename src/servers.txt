@@ -876,6 +876,7 @@
 ||avyrpwvm.com^$important
 ||awaeswvqd.bid^$important
 ||awakebird.com^$important
+||awaps.yandex.net^$important
 ||awcpmsaiv.com^$important
 ||awfjqdhcuftd.com^$important
 ||awgdgpawhwgi.bid^$important
@@ -3787,6 +3788,7 @@
 ||goo4anywhere.com^$important
 ||goodbookbook.com^$important
 ||google-analytics.com^$important
+||googleadservices.com^$important
 ||googlesyndication.com^$important
 ||googletagmanager.com^$important
 ||googletagservices.com^$important
@@ -4489,9 +4491,6 @@
 ||hztjenzlrrwinq.com^$important
 ||hzulgipdcbgwad.com^$important
 ||hzwmcqlmxpdrlp.com^$important
-||yabs.yandex.ru^$important
-||googleadservices.com^$important
-||awaps.yandex.net^$important
 ||hzwxkqnqrdfv.com^$important
 ||hzxtamstwecry.bid^$important
 ||hzyvjghy.bid^$important
@@ -11998,6 +11997,7 @@
 ||ya-googl.ws^$important
 ||ya-toptal-tvoyu-dushu.com^$important
 ||yaaqsdteo.com^$important
+||yabs.yandex.ru^$important
 ||yadr0.com^$important
 ||yadro.ru^$important
 ||yafsixmo.com^$important
