@@ -155,8 +155,6 @@ ventax.net##+js(contextmenudef.js)
 ||beacon34.
 ||awaps.yandex.net^
 ||beacon35.
-yandex.ru##div:nth-of-type(6)
-yandex.ru##div:nth-of-type(8)
 ||beacon36.
 ||beacon37.
 /^https?:\/\/yastatic\.net\/[^\s]{120,}/$image
@@ -204,6 +202,12 @@ advertisement$important,script,badfilter
 net#@#button:style(cursor: unset !important)
 #@#.td-scroll-up
 #@#.td-social-icon-wrap
+my.mail.ru#@#+js(window.open-defuser, , clb670603)
+my.mail.ru#@#+js(abort-on-property-read, AdmanHTML)
+#@#li[class^="ya-share2"][class$="vkontakte"]
+#@#li[class^="ya-share2"][class$="twitter"]
+#@#li[class^="ya-share2"][class$="facebook"]
+#@#li[class^="ya-share2"][class$="odnoklassniki"]
 ||disquscdn.com^$badfilter
 #@#a[title="Youtube"]
 #@#.d-share
