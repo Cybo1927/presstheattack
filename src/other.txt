@@ -31,6 +31,7 @@
 |http*:*/pview?event$important
 |http*:*?rand=*&blk=$important
 |http*:*?zone_id=$important
+|http*:*/adfox/$important
 |http*:*?zoneid=$important
 ||ddns.net^*=ws://$important
 ||ddns.net^*=wss://$important
