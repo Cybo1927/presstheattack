@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-11-04 20:42:48
-! Version: 20191104204249
+! Last modified: 2019-11-04 21:45:20
+! Version: 20191104214520
 ! Expires: 3 hours
-! Number of filters: 13081
+! Number of filters: 13085
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -317,6 +317,7 @@
 ||4d1ee8e427cb5e1866.com^$important
 ||4d2911e5a4e352.com^$important
 ||4dd887ed167b2.com^$important
+||4ee395e5b8a076c7bd8592851ff8cad.com^$important
 ||4ef6b73abc9123.com^$important
 ||4fba771f87a0251.com^$important
 ||4jnzhl0d0.com^$important
@@ -3384,6 +3385,7 @@
 ||fmbjxqvkjfmj.com^$important
 ||fmcwqmwdaubb.com^$important
 ||fmgcaqljz.bid^$important
+||fmgdzqpcaliqs.com^$important
 ||fmoihhvbehopc.com^$important
 ||fmpsrqsib.bid^$important
 ||fmuxugcqucuu.com^$important
@@ -4744,6 +4746,7 @@
 ||igfuvwscradtpu.bid^$important
 ||iggukjfuylwyv.com^$important
 ||igifhnkw.com^$important
+||igmsjgadiz.com^$important
 ||igsxvpghnamnsz.com^$important
 ||igutgembqnw.bid^$important
 ||igvcpjsyk.bid^$important
@@ -6044,6 +6047,7 @@
 ||limpingline.com^$important
 ||linetotime2.agency^$important
 ||linkbucksmedia.com^$important
+||links.services.disqus.com^$important
 ||linnates.info^$important
 ||liqbipkfbafq.com^$important
 ||liquorumladiom.info^$important
