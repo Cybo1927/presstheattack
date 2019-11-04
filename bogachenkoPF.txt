@@ -190,6 +190,7 @@ advertisement$important,script,badfilter
 ||addthis.com^$3p,badfilter
 #@#.td-icon-instagram
 #@#.td-icon-youtube
+net#@#button:style(cursor: unset !important)
 #@#.td-scroll-up
 #@#.td-social-icon-wrap
 #@#a[title="Youtube"]
@@ -198,6 +199,19 @@ advertisement$important,script,badfilter
 #@#.fb-xfbml-parse-ignore
 #@#.footer-social-wrap
 #@#.td-social-list
+@@||translate.google.com^$3p,badfilter
+@@||yastatic.net/share2/share.js$badfilter
+#@#a[title="Pinterest"]
+#@##goToTop
+#@#a[title="LinkedIn"]
+#@#a[href^="https://www.tumblr.com/share/"]
+#@#a[href^="https://www.livejournal.com/update.bml"]
+#@#a[href^="https://www.linkedin.com/shareArticle?"]
+#@#a[href^="https://www.linkedin.com/shareArticle"]
+#@#a[href^="https://www.blogger.com/blog-this."]
+#@#a[href^="https://pinterest.com/pin/create/button/"]
+#@#a[href^="https://pinterest.com/pin/create/"]
+#@#[class^="adv-"]
 #@#.td_block_social_counter
 #@#.td_social_type
 #@#.fa-rss
@@ -236,12 +250,21 @@ vk.com/share.php$badfilter
 #@#a[href^="https://plus.google.com/share"]
 #@#a[href^="//www.reddit.com/submit?"]
 #@#a[href^="//www.reddit.com/submit"]
+@@||disqus.com^$3p,badfilter
+@@||disquscdn.com^$3p,badfilter
+@@||apis.google.com^$3p,badfilter
+@@||www.facebook.com^$3p,badfilter
 #@#a[href^="//twitter.com/share"]
+net#@#a:link:style(cursor: pointer)
+#@#*[id*="advert"]
 #@#[href^="//twitter.com/share"]
 #@#.share-sites-thumbs
 #@#.twitterIcon
+#@#.comment__share
 #@#.socialList
 #@#.instagramIcon
+disqus.com#@#.realtime
+*starstruck*$badfilter
 #@#*[id$="_ads"]
 ||snack-media.com^$badfilter
 ||yandex.ru^$third-party,badfilter
