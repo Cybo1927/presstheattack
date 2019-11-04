@@ -347,6 +347,34 @@ vk.com#@##system_msg
 #@#.addthis_button_email
 #@##like-btn
 #@#a[href="http://twitter.com/share"]
+||fmovies.*^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: *.googleusercontent.com *.akacdn.ru ajax.googleapis.com ssl.p.jwpcdn.com mcloud.to *.mcloud.to cdnjs.cloudflare.com prettyfast.to;upgrade-insecure-requests,badfilter
+fmovies.*#@#+js(eremove, .text\, .widget:nth-of-type(5)\, #tags\, .hidden-sm.widget\, .hd-buttons.row\, .col-right\, .widget:nth-of-type(4)\, [href*="twitter.com"]\, #comment\, .socials\, .twitter-follow-button\, [href*="/redirect"]\, .streamhd\, .stream4k.row\, .home-socials\, .addthis_native_toolbox\, #fb-root\, .alert[data-notify-position="top-right"]\, .notice.alert-default.alert)
+||addthis.com^$3p,domain=~civilization.com|~imgur.com|~uploadship.com,badfilter
+||addthis.com/live/$badfilter
+twitter.com^$important,domain=fmovies.to,badfilter
+||addthis.com/live/$3p,script,badfilter
+@@||twitter.com^$3p,badfilter
+@@||platform.twitter.com^$3p,badfilter
+@@||twimg.com^$3p,badfilter
+||platform.twitter.com/js/button.$3p,badfilter
+@@||platform.twitter.com/widgets.js$badfilter
+/widgets.js$badfilter
+||platform.twitter.com/widgets/follow_button$subdocument,badfilter
+||platform.twitter.com/widgets/follow_button$3p,badfilter
+||syndication.twimg.com/widgets/$3p,badfilter
+||connect.facebook.net^$important,badfilter
+||connect.facebook.net^$important,script,badfilter
+||facebook.net^$badfilter
+||connect.facebook.net^$badfilter
+||connect.facebook.net^$3p,domain=~facebook.com|~fb.com,badfilter
+@@||staticxx.facebook.com^$3p,badfilter
+||facebook.com^$3p,badfilter
+staticxx.facebook.com/connect/xd_arbiter$badfilter
+||facebook.com/connect/$3p,badfilter
+@@||staticf.akacdn.ru^$domain=fmovies.to,badfilter
+/clear.$important,image,badfilter
+@@||s7.addthis.com^*/addthis_widget.js*pubid=$badfilter
+/favicon.ico$3p,image,domain=~winfuture.de|~bt.com|~ebay.com.au|~ebay.com|~ebay.co.uk|~go.com|~github.com|~stackexchange.com|~stackoverflow.com|~askubuntu.com|~reddit.com|~4chan.org|~twitter.com|~live.com|~espn.com|~yahoo.com,badfilter
 #@#a[href^="http://twitter.com/share"]
 ||addthis.com^$badfilter
 #@#a[href*="/www/delivery/"]
