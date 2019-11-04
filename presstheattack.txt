@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-11-04 19:37:12
-! Version: 20191104193712
+! Last modified: 2019-11-04 20:42:48
+! Version: 20191104204249
 ! Expires: 3 hours
-! Number of filters: 13079
+! Number of filters: 13081
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -114,6 +114,7 @@
 |http*:*/in.php?*&referer=$important
 |http*:*/js/ht.js?$important,script
 |http*:*/log?$important
+|http*:*/logging/$important
 |http*:*/logimpressions?$important
 |http*:*/metrixEvents.js$important,script
 |http*:*/ntfc.php?$important
@@ -574,6 +575,7 @@
 ||admarket.network^$important
 ||admatic.com.tr^$important
 ||admessage.support^$important
+||admetric.io^$important
 ||admetrica.ru^$important
 ||admitad.com^$important
 ||admixer.net^$important
@@ -12167,8 +12169,8 @@
 ||yamrxfbkpirt.com^$important
 ||yanagi.co.kr^$important
 ||yandex-click.net^$important
-||yandex.ru/clck/clck/$important
-||yandex.ru/clck/jclck/$important
+||yandex.*/clck/clck$important
+||yandex.*/clck/jclck$important
 ||yandex.st^$domain=~yandex.by|~yandex.ru|~yandex.ua
 ||yaoshuo.cn^$important
 ||yaoslgiweccw.com^$important
