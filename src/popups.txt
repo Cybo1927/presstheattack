@@ -12,4 +12,3 @@
 ||doublepimp.com^$important,popup
 ||doublepimpssl.com^$important,popup
 ||slotsvictory.net^$important,popup
-||yastatic.net^$important,popup
