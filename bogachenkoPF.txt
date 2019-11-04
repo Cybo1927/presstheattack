@@ -138,6 +138,9 @@ ventax.net##+js(contextmenudef.js)
 ||beacon18.
 ||beacon19.
 ||4ee395e5b8a076c7bd8592851ff8cad.com^
+||appbaqend.com^
+||tapjoy.com^
+||3.227.141.231:443^
 ||startup.mobile.yandex.net^$app=game.maddex.jump
 ||dropbox.com^$app=game.maddex.jump
 ||dropboxusercontent.com^$app=game.maddex.jump
