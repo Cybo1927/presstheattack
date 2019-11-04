@@ -140,7 +140,7 @@ ventax.net##+js(contextmenudef.js)
 ||4ee395e5b8a076c7bd8592851ff8cad.com^
 ||appbaqend.com^
 ||tapjoy.com^
-/^(https?:\/\/)?[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}[:/]443/$important,app=game.maddex.jump
+/^https?:\/\/[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}[:/]443/$app=game.maddex.jump
 ||3.227.141.231:443^$app=game.maddex.jump
 ||162.125.80.1:443^$app=game.maddex.jump
 ||startup.mobile.yandex.net^$app=game.maddex.jump
