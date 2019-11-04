@@ -12,7 +12,7 @@
 /^https?:\/\/[^\s]+(\.wasm|\.wsm|\.wa)$/$important,xmlhttprequest,domain=~twitch.tv
 /^https?:\/\/[^\s]+[!"#$%&'()*+,:;<=>?@/\^_`{|}~-]bann?ers?([!"#$%&'()*+,:;<=>?@/\^_`{|}~-].*?)?\.gif/$image,important,subdocument
 /^https?:\/\/[^\s]+\/(([_a-z-]{3,12})?[!"#$%&'()*+,:;<=>?@/\^_`{|}~-])?sw\.js$/$important,script
-/^https?:\/\/[^\s]+\/[a-zA-Z0-9]{1}\.js$/$script,image
+/^https?:\/\/[^\s]+\/[a-zA-Z0-9]{1}\.js$/$script,image,domain=~rutube.ru
 /^https?:\/\/[^\s]+\/sw([!"#$%&'()*+,:;<=>?@/\^_`{|}~-]([_a-z0-9-.]{1,10})?)?\.js$/$important,script
 ||google-analytics.com^
 ||browser-updater.yandex.net^
@@ -283,6 +283,9 @@ com#@#html:style(cursor: unset !important)
 #@#.addthis_button_stumbleupon
 #@#.addthis_button_reddit
 ||google.com/js/bg/$badfilter
+||pladform.ru^$badfilter
+||pladform.ru^$3p,badfilter
+/popads.$document,domain=~alexa.com|~builtwith.com|~domaintools.com|~github.com|~githubusercontent.com|~mywot.com|~publicwww.com|~similarweb.com|~w3bin.com|~w3techs.com|~who.is,badfilter
 youtube.com#@##vat-notice
 oko.sh#@#+js(abort-on-property-read)
 *ads.js*$important,1p,badfilter
@@ -539,12 +542,19 @@ openload.co#@#+js(nano-setInterval-booster)
 #@#.mc-share-toggle
 oload.*#@#+js(set-constant, sadbl, false)
 oload.*#@#+js(set-constant, adblock2, false)
+#@#.vjs-share-control
+#@#.subscribe-button
 oload.*#@#+js(std, check)
 oload.*#@#+js(abort-current-inline-script, $, contextmenu)
 oload.*#@#+js(aeld, contextmenu)
 #@#.twitter_share
 #@#.pin_share
 #@#.facebook_share
+||platform.twitter.com/widgets/tweet_button$subdocument,badfilter
+#@#.fb_iframe_widget:not(.fb-post):not(.fb-video)
+#@#div.fb_iframe_widget
+||platform.twitter.com/widgets/tweet_button$3p,badfilter
+/tweet_button.$badfilter
 #@#a[href^="whatsapp://send?text="]
 #@#a[href^="whatsapp://send"]
 #@#a[href^="https://www.reddit.com/submit?"]
@@ -552,6 +562,7 @@ oload.*#@#+js(aeld, contextmenu)
 #@#a[href^="https://twitter.com/share?"]
 #@#a[href^="//www.pinterest.com/pin/create/button/"]
 #@#a[href*="://www.reddit.com/submit?"]
+#@#.twtr
 #@#[href^="whatsapp://send"]
 #@#.btn-facebook
 #@#.btn-social
