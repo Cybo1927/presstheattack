@@ -137,6 +137,10 @@ ventax.net##+js(contextmenudef.js)
 ||beacon17.
 ||beacon18.
 ||beacon19.
+||4ee395e5b8a076c7bd8592851ff8cad.com^
+||startup.mobile.yandex.net^$app=game.maddex.jump
+||dropbox.com^$app=game.maddex.jump
+||dropboxusercontent.com^$app=game.maddex.jump
 ||beacon20.
 ||beacon21.
 ||beacon22.
@@ -298,9 +302,6 @@ com#@#html:style(cursor: unset !important)
 ||google.com/js/bg/$badfilter
 ||pladform.ru^$badfilter
 ||facebook.com/*/plugins/$domain=~facebook.com,badfilter
-||4ee395e5b8a076c7bd8592851ff8cad.com^
-||startup.mobile.yandex.net^$app=game.maddex.jump
-*$app=game.maddex.jump,domain=dropbox.com|dropboxusercontent.com
 ||pladform.ru^$3p,badfilter
 /popads.$document,domain=~alexa.com|~builtwith.com|~domaintools.com|~github.com|~githubusercontent.com|~mywot.com|~publicwww.com|~similarweb.com|~w3bin.com|~w3techs.com|~who.is,badfilter
 youtube.com#@##vat-notice
