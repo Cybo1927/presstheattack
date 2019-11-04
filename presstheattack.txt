@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-11-04 17:23:33
-! Version: 20191104172333
+! Last modified: 2019-11-04 19:26:20
+! Version: 20191104192620
 ! Expires: 3 hours
-! Number of filters: 13076
+! Number of filters: 13080
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -89,7 +89,6 @@
 /^https?:\/\/denis\-[a-z0-9]{7,12}\-[a-z0-9]{7,12}\.com/$important
 /^https?:\/\/s3\.amazonaws\.com\/.*[a-f0-9\/]{50,}/$important,third-party,xmlhttprequest,domain=~amazon.com
 /^https?:\/\/www\.([a-z]{6,16})\.com\/([a-z]{1,4})\.js$/$important,script,third-party
-/^https?:\/\/yastatic\.net\/[^\s]{500,}/$domain=~vh.yandex.ru
 /^https?:\/\/zmctrack\.(com|net)/$important
 @@*.com/recaptcha/$script
 @@||yandex.st/swfobject/*^$script
@@ -534,6 +533,7 @@
 ||acwswfbyhtsf.com^$important
 ||acwyoynw.com^$important
 ||acxujxzdluum.com^$important
+||ad.mail.ru^$important
 ||ad2bitcoin.com^$important
 ||ad4xh85llhcbfis8.com^$important
 ||adakgpoi.com^$important
@@ -8770,6 +8770,7 @@
 ||receptiveink.com^$important
 ||receptivereaction.com^$important
 ||reconditerake.com^$important
+||recostream.go.mail.ru^$important
 ||recreativ.ru^$important
 ||redditmedia.com/gtm/jail?$important,subdocument
 ||redorange.website^$important
@@ -9021,6 +9022,7 @@
 ||rrvpscehvjuz.com^$important
 ||rryodgeerrvn.com^$important
 ||rryyvhzxikai.bid^$important
+||rs.mail.ru^$important
 ||rsbblrpnjxgsk.com^$important
 ||rscqizsukecevh.com^$important
 ||rsefukvcqy.bid^$important
@@ -11993,6 +11995,7 @@
 ||xqtymopje.com^$important
 ||xqygrmkga.bid^$important
 ||xqzkpmrgcpsw.com^$important
+||xray.mail.ru^$important
 ||xrdutkydekqpxu.bid^$important
 ||xrgqermbslvg.com^$important
 ||xrivpngzagpy.com^$important
@@ -12145,6 +12148,7 @@
 ||ya-toptal-tvoyu-dushu.com^$important
 ||yaaqsdteo.com^$important
 ||yabs.yandex.ru^$important
+||yabs.yandex.ua^$important
 ||yadr0.com^$important
 ||yadro.ru^$important
 ||yafsixmo.com^$important

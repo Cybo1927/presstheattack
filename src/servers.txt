@@ -16,11 +16,6 @@
 ||01counter.com^$important
 ||024xuyisheng.com^$important
 ||0377shujuhuifu.top^$important
-||rs.mail.ru^$important
-||xray.mail.ru^$important
-||recostream.go.mail.ru^$important
-||ad.mail.ru^$important
-||yabs.yandex.ua^$important
 ||0452jhw.com^$important
 ||05a7946eef5d.com^$important
 ||05y2dxmr.top^$important
@@ -415,6 +410,7 @@
 ||acwswfbyhtsf.com^$important
 ||acwyoynw.com^$important
 ||acxujxzdluum.com^$important
+||ad.mail.ru^$important
 ||ad2bitcoin.com^$important
 ||ad4xh85llhcbfis8.com^$important
 ||adakgpoi.com^$important
@@ -8634,6 +8630,7 @@
 ||receptiveink.com^$important
 ||receptivereaction.com^$important
 ||reconditerake.com^$important
+||recostream.go.mail.ru^$important
 ||recreativ.ru^$important
 ||redorange.website^$important
 ||redouwhy.link^$important
@@ -8884,6 +8881,7 @@
 ||rrvpscehvjuz.com^$important
 ||rryodgeerrvn.com^$important
 ||rryyvhzxikai.bid^$important
+||rs.mail.ru^$important
 ||rsbblrpnjxgsk.com^$important
 ||rscqizsukecevh.com^$important
 ||rsefukvcqy.bid^$important
@@ -11851,6 +11849,7 @@
 ||xqtymopje.com^$important
 ||xqygrmkga.bid^$important
 ||xqzkpmrgcpsw.com^$important
+||xray.mail.ru^$important
 ||xrdutkydekqpxu.bid^$important
 ||xrgqermbslvg.com^$important
 ||xrivpngzagpy.com^$important
@@ -12003,6 +12002,7 @@
 ||ya-toptal-tvoyu-dushu.com^$important
 ||yaaqsdteo.com^$important
 ||yabs.yandex.ru^$important
+||yabs.yandex.ua^$important
 ||yadr0.com^$important
 ||yadro.ru^$important
 ||yafsixmo.com^$important
