@@ -1809,9 +1809,6 @@
 ||concernrain.com^$important
 ||conditioncrush.com^$important
 ||connatix.com^$important
-||connect.facebook.net^$important
-||connect.mail.ru^$important
-||connect.ok.ru^$important
 ||connectad.io^$important
 ||consciouscabbage.com^$important
 ||consciouschairs.com^$important
