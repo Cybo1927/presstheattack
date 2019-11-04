@@ -29,8 +29,6 @@
 ||0byv9mgbn0.com^$important
 ||0d96a0971a04071.com^$important
 ||0fees.net^$important
-||appbaqend.com^$important
-||tapjoy.com^$important
 ||0fficial.info^$important
 ||0h6djpk8fn.com^$important
 ||0n55f9zgy7.com^$important
@@ -746,6 +744,7 @@
 ||apmgzzaej.bid^$important
 ||apmkcdsnv.bid^$important
 ||appared.online^$important
+||appbaqend.com^$important
 ||appearch.info^$important
 ||appier.net^$important
 ||apple.com-fasting.live^$important
@@ -9653,6 +9652,7 @@
 ||tangibleteam.com^$important
 ||taoclfxgf.com^$important
 ||taodggarfrmd.com^$important
+||tapjoy.com^$important
 ||taqesyqne.com^$important
 ||taqyljgaqsaz.com^$important
 ||target.smi2.net^$important
