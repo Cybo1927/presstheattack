@@ -542,6 +542,26 @@ oload.*#@#+js(set-constant, adblock2, false)
 oload.*#@#+js(std, check)
 oload.*#@#+js(abort-current-inline-script, $, contextmenu)
 oload.*#@#+js(aeld, contextmenu)
+#@#.twitter_share
+#@#.pin_share
+#@#.facebook_share
+#@#a[href^="whatsapp://send?text="]
+#@#a[href^="whatsapp://send"]
+#@#a[href^="https://www.reddit.com/submit?"]
+#@#a[href^="https://www.reddit.com/submit"]
+#@#a[href^="https://twitter.com/share?"]
+#@#a[href^="//www.pinterest.com/pin/create/button/"]
+#@#a[href*="://www.reddit.com/submit?"]
+#@#[href^="whatsapp://send"]
+#@#.btn-facebook
+#@#.btn-social
+#@#.btn-twitter
+||facebook.com/plugins/$domain=~facebook.com|~freepresets.com,badfilter
+||www.facebook.com/plugins/like.php$subdocument,badfilter
+||facebook.com/plugins/like.php?$3p,badfilter
+||facebook.com*/plugins/like.php?$3p,badfilter
+||facebook.com/plugins/like.php^$3p,badfilter
+||facebook.com/plugins/like$3p,domain=~fb.com,badfilter
 oload.*#@#+js(eremove, body > div:nth-of-type(2))
 oload.*#@#+js(sid, check)
 oload.*#@#+js(addEventListener-defuser, DOMMouseScroll)
