@@ -28,6 +28,7 @@
 |http*:*/apu.hh?$important
 |http*:*/in.php?*&referer=$important
 |http*:*/log?$important
+|http*:*/logging/$important
 |http*:*/logimpressions?$important
 |http*:*/ntfc.php?$important
 |http*:*/pagead/$important
@@ -40,5 +41,5 @@
 ||google.*/ads/$important
 ||google.*/adsense/$important
 ||google.*/uds/$important
-||yandex.ru/clck/clck/$important
-||yandex.ru/clck/jclck/$important
+||yandex.*/clck/clck$important
+||yandex.*/clck/jclck$important
