@@ -146,7 +146,7 @@ ventax.net##+js(contextmenudef.js)
 ||beacon27.
 ||beacon28.
 ||beacon29.
-/^https?:\/\/(www\.)?yandex\.(ru|ua|by|com)/$csp=script-src data: 'unsafe-inline' 'unsafe-eval' https://yandex.ru http://yandex.ru https://pass.yandex.ru yastatic.net *.yandex.sx; img-src data: https://yandex.ru http://yandex.ru *.yandex.net *.passport.yandex.ru yastatic.net *.yandex.sx; connect-src data: https://yandex.ru http://yandex.ru https://cloud-api.yandex.ru https://mail.yandex.ru http://cloud-api.yandex.ru http://mail.yandex.ru yastatic.net https://frontend.vh.yandex.ru http://frontend.vh.yandex.ru; object-src 'none';
+/^https?:\/\/(www\.)?yandex\.(ru|ua|by|com)/$csp=script-src data: 'unsafe-inline' 'unsafe-eval' https://yandex.ru http://yandex.ru https://pass.yandex.ru https://api.passport.yandex.ru https://passport.yandex.ua https://api.passport.yandex.ua https://passport.yandex.by https://api.passport.yandex.by yastatic.net *.yandex.sx https://yandex.ua http://yandex.ua https://yandex.by http://yandex.by; img-src data: https://yandex.ru http://yandex.ru https://yandex.ua http://yandex.ua https://yandex.by http://yandex.by *.yandex.net *.passport.yandex.ru *.passport.yandex.ua *.passport.yandex.by yastatic.net *.yandex.sx; connect-src data: https://yandex.ru http://yandex.ru https://cloud-api.yandex.ru https://mail.yandex.ru http://cloud-api.yandex.ru http://mail.yandex.ru yastatic.net https://frontend.vh.yandex.ru http://frontend.vh.yandex.ru *.yandex.sx https://yandex.ua http://yandex.ua https://pass.yandex.ru https://api.passport.yandex.ru https://passport.yandex.ua https://api.passport.yandex.ua https://passport.yandex.by https://api.passport.yandex.by https://yandex.by http://yandex.by; object-src 'none';
 ||beacon30.
 ||beacon31.
 ||beacon32.
