@@ -37,8 +37,8 @@
 ||ddns.net^*=wss://$important
 ||google.*/ads/$important
 ||google.*/adsense/$important
-||google.*/log?$important
-||google.*/logimpressions?$important
+|http*:*/logimpressions?$important
 ||google.*/uds/$important
 ||yandex.ru/clck/clck/$important
 ||yandex.ru/clck/jclck/$important
+|http*:*/log?$important
