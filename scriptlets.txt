@@ -341,21 +341,11 @@ mousedef2.js application/javascript
 
 # oncontextmenu-defuser
 contextmenudef.js application/javascript
-(() => { 
-	  'use strict';
-	  const clearEventListeners = ev => {
-						    if (ev) { window.removeEventListener(ev.type, clearEventListeners, true); }
-						    try {
-								document.oncontextmenu = undefined;
-								document.body.removeAttribute("oncontextmenu");
-						    } catch { }
-	  };
-	  if (document.readyState === 'loading') {
-	     		window.addEventListener('DOMContentLoaded', clearEventListeners, true);
-	  } else {
-	     		clearEventListeners();
-	  }
-})();
+function clearEventListeners() {
+    document.oncontextmenu = null;
+    document.body.removeAttribute("oncontextmenu")
+}
+window.addEventListener('load', clearEventListeners, false);
 
 # btoa-defuser
 nobtoa.js application/javascript

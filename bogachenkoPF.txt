@@ -38,7 +38,8 @@ infourok.ru###aa-popup
 ||api.twitch.tv/*/channels/*/extensions^$xmlhttprequest
 ##a[href^="https://bit.ly/"][target="_blank"]
 */*.gif|$document,domain=~github.com|~wikimedia.org|~githubusercontent.com
-ventax.net,kinomore.xyz,rutube.ru,salahstream.ml##+js(contextmenudef.js)
+salahstream.ml,syriancivilwarmap.com##+js(addEventListener-defuser.js, contextmenu)
+ventax.net,kinomore.xyz,rutube.ru##+js(contextmenudef.js)
 kinogo.*,torrent-filmi.xyz,kinoframe.net,filmitorrent.xyz,hdfilms.zone,kinomore.xyz,smotrim.online##body:style(background-image: none !important;)
 playground.ru,kissasian.*,sourceforge.net,kimcartoon.to,datoporn.co,trialnod.com##+js(nano-setTimeout-booster.js)
 infourok.ru,bogachenko.github.io,torrent-filmi.xyz,waaw.tv,123movies.*,ros-met.com,hdfilms.zone,kinohd-online.club,filmy-onlain.net,vio.to,luxfilm.net,xartmanfilms.ru,kinobot.club,kinoangel.net,tvfru.ru,kino-top1.net,lookmix.org,lamafilm.club##+js(mousedef2.js)
