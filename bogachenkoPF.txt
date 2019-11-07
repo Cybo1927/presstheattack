@@ -283,6 +283,14 @@ my.mail.ru#@#+js(window.open-defuser, , clb670603)
 my.mail.ru#@#+js(abort-on-property-read, AdmanHTML)
 #@#li[class^="ya-share2"][class$="vkontakte"]
 #@#li[class^="ya-share2"][class$="twitter"]
+#@#.twitter-timeline
+#@#.socialicontd
+#@#.socialicon
+#@#.fa-twitter-square
+#@#.fa-linkedin-square
+#@#.twitter-follow-button
+#@#.Subscribe
+#@#.secArtShare
 #@#li[class^="ya-share2"][class$="facebook"]
 #@#li[class^="ya-share2"][class$="odnoklassniki"]
 ||disquscdn.com^$badfilter
