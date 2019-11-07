@@ -330,12 +330,10 @@ atob-logger.js application/javascript
 mousedef.js application/javascript
 (() => {
     'use strict';
-    document.body.removeAttribute('oncontextmenu');
     document.body.removeAttribute('oncopy');
     document.body.removeAttribute('onselectstart');
     document.body.removeAttribute('ondragstart');
     document.body.removeAttribute("ondrag");
-    document.oncontextmenu=null;
     document.oncopy=null;
     document.onselectstart=null;
     document.ondragstart=null;
@@ -365,13 +363,8 @@ mousedef2.js application/javascript
 contextmenudef.js application/javascript
 function clearEventListeners() {
     document.oncontextmenu = undefined;
-    document.onmousedown = undefined;
-    document.onkeypress = undefined;
-    document.onkeydown = undefined;
+
     document.body.removeAttribute("oncontextmenu")
-	document.body.removeAttribute("onmousedown")
-	document.body.removeAttribute("onkeypress")
-	document.body.removeAttribute("onkeydown")
 }
 window.addEventListener('load', clearEventListeners, false);
 

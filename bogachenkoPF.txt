@@ -331,6 +331,7 @@ pornhub.com#@#+js(set-constant, atob, trueFunc)
 ||.ml^$document,domain=~google.ml|~mobili.ml|~ Warning displayed due to: It's a top-level domain that allows free website registration; which made it abused by scammers.,badfilter
 #@##social-links-toggle
 #@##menu-social-links
+@@||blogger.com^$3p,badfilter
 pornhub.com#@#+js(abort-current-inline-script, Math, createShadowRoot)
 pornhub.com#@#+js(abort-on-property-write, isAdblockOn)
 pornhub.com#@#+js(addEventListener-defuser, DOMContentLoaded, [native code])
