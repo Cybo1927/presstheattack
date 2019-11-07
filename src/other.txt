@@ -42,5 +42,4 @@
 ||google.*/ads/$important
 ||google.*/adsense/$important
 ||google.*/uds/$important
-||yandex.*/clck/clck$important
-||yandex.*/clck/jclck$important
+||yandex.*/clck/$important

@@ -9,3 +9,4 @@
 |http*:*/www/*&zoneid=$image,important,script,xmlhttprequest
 |http*:*/xti.php^$important,script,xmlhttprequest,domain=facebook.com|facebookcorewwwi.onion
 ||youtube.com/api/stats/$image,important,other,xmlhttprequest
+/^https?:\/\/[^\s]+[!"#$%&'()*+,:;<=>?@\/\^_`{|}~-]log[!"#$%&'()*+,:;<=>?@\/\^_`{|}~-]?(type|event|entry|request)\??/$important,xmlhttprequest
