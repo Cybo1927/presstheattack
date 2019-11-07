@@ -313,11 +313,11 @@ mousedef.js application/javascript
     document.body.removeAttribute('oncopy');
     document.body.removeAttribute('onselectstart');
     document.body.removeAttribute('ondragstart');
-    document.body.removeAttribute("ondrag");
+    document.body.removeAttribute('ondrag');
     document.oncopy = null;
     document.onselectstart = null;
     document.ondragstart = null;
-    document.ondrag = null
+    document.ondrag = null;
 })();
 
 # mouseclick-defuser-2
@@ -341,12 +341,20 @@ mousedef2.js application/javascript
 
 # oncontextmenu-defuser
 contextmenudef.js application/javascript
-(() => {
-    'use strict';
-    document.body.removeAttribute("oncontextmenu");
-    document.body.removeAttribute("contextmenu");
-    document.oncontextmenu = null;
-    document.contextmenu = null
+(() => { 
+	  'use strict';
+	  const clearEventListeners = ev => {
+						    if (ev) { window.removeEventListener(ev.type, clearEventListeners, true); }
+						    try {
+								document.oncontextmenu = undefined;
+								document.body.removeAttribute("oncontextmenu");
+						    } catch { }
+	  };
+	  if (document.readyState === 'loading') {
+	     		window.addEventListener('DOMContentLoaded', clearEventListeners, true);
+	  } else {
+	     		clearEventListeners();
+	  }
 })();
 
 # btoa-defuser
