@@ -4641,8 +4641,6 @@
 ||iibcejrrfhxh.com^$important
 ||iiblzgczrrdiqf.bid^$important
 ||iiccrpwaxmxkqm.com^$important
-||wwclicknews.club^$important
-||pbcde.com^$important
 ||iihwyqhxajtn.com^$important
 ||iijmodcvlwfk.com^$important
 ||iikhhkwryiqq.bid^$important
@@ -11547,6 +11545,7 @@
 ||ww2.imgtaxi.com^$important
 ||ww2.imgwallet.com^$important
 ||ww2.thepiratebay.rocks^$important
+||wwclicknews.club^$important
 ||wwfjhzut.bid^$important
 ||wwgjtcge.com^$important
 ||wwgysckwouvzkm.bid^$important
