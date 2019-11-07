@@ -365,7 +365,13 @@ mousedef2.js application/javascript
 contextmenudef.js application/javascript
 function clearEventListeners() {
     document.oncontextmenu = undefined;
+    document.onmousedown = undefined;
+    document.onkeypress = undefined;
+    document.onkeydown = undefined;
     document.body.removeAttribute("oncontextmenu")
+	document.body.removeAttribute("onmousedown")
+	document.body.removeAttribute("onkeypress")
+	document.body.removeAttribute("onkeydown")
 }
 window.addEventListener('load', clearEventListeners, false);
 
