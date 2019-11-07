@@ -23,9 +23,11 @@
 infourok.ru###aa-popup
 ||mc.yandex.ru^
 ||googlesyndication.com^
+*/annotations_module.js$script,domain=youtube.com
 ||googletagmanager.com^
 ||youtube.com/*dQw4w9WgXcQ$document
 ||an.yandex.ru^
+@@||clck.yandex.ru^*/*https://passport.yandex.ru/auth?
 ||http-check-headers.yandex.ru^
 ||yastatic.net^$popup
 ||jstracer.yandex.ru^
@@ -486,6 +488,17 @@ youtube.com#@#.ytp-cards-button
 com#@#button:style(cursor: unset !important)
 openload.*#@#+js(set-constant, sadbl, false)
 openload.*#@#+js(nano-setInterval-booster)
+||facebook.com/*/plugins/page.php$third-party,badfilter
+||connect.ok.ru^$badfilter
+||twitter.com/js/timeline.$third-party,script,badfilter
+#@#.social-buttons-compact
+||connect.ok.ru^$third-party,badfilter
+.ok.ru$badfilter
+||vk.com/share.php$third-party,badfilter
+@@||yastatic.net/share2/share.js$script,badfilter
+||yastatic.net/*/share.js$third-party,domain=~globus.ru|~readovka.news|~possiblegroup.ru|~prcl.ru|~kinopoisk.ru|~alexey-osipov.ru|~avtodispetcher.ru|~fanserials.tv|~yandex.by|~yandex.kz|~yandex.ru|~yandex.ua|~gorod.gov.spb.ru|~sostav.ru,badfilter
+||vk.com/share.php?$third-party,badfilter
+||apis.google.com/js/platform.js$third-party,badfilter
 openload.*#@#+js(abort-current-inline-script, adblock, adblock2)
 #@#.footer-social
 #@##social-foot
