@@ -38,7 +38,7 @@ infourok.ru###aa-popup
 ||api.twitch.tv/*/channels/*/extensions^$xmlhttprequest
 ##a[href^="https://bit.ly/"][target="_blank"]
 */*.gif|$document,domain=~github.com|~wikimedia.org|~githubusercontent.com
-ventax.net,kinomore.xyz##+js(contextmenudef.js)
+ventax.net,kinomore.xyz,rutube.ru##+js(contextmenudef.js)
 kinogo.*,torrent-filmi.xyz,kinoframe.net,filmitorrent.xyz,hdfilms.zone,kinomore.xyz,smotrim.online##body:style(background-image: none !important;)
 playground.ru,kissasian.*,sourceforge.net,kimcartoon.to,datoporn.co,trialnod.com##+js(nano-setTimeout-booster.js)
 infourok.ru,bogachenko.github.io,torrent-filmi.xyz,waaw.tv,123movies.*,ros-met.com,hdfilms.zone,kinohd-online.club,filmy-onlain.net,vio.to,luxfilm.net,xartmanfilms.ru,kinobot.club,kinoangel.net,tvfru.ru,kino-top1.net,lookmix.org,lamafilm.club##+js(mousedef2.js)
@@ -296,6 +296,8 @@ my.mail.ru#@#+js(abort-on-property-read, AdmanHTML)
 @@||translate.google.com^$3p,badfilter
 @@||yastatic.net/share2/share.js$badfilter
 #@#a[title="Pinterest"]
+/social/tw.$badfilter
+/social/fb.$badfilter
 #@##goToTop
 #@#a[title="LinkedIn"]
 #@#a[href^="https://www.tumblr.com/share/"]
@@ -493,6 +495,19 @@ staticxx.facebook.com/connect/xd_arbiter$badfilter
 /favicon.ico$3p,image,domain=~winfuture.de|~bt.com|~ebay.com.au|~ebay.com|~ebay.co.uk|~go.com|~github.com|~stackexchange.com|~stackoverflow.com|~askubuntu.com|~reddit.com|~4chan.org|~twitter.com|~live.com|~espn.com|~yahoo.com,badfilter
 #@#a[href^="http://twitter.com/share"]
 ||addthis.com^$badfilter
+/px.$important,image,badfilter
+#@#.video-share
+#@#.addthis_sharing_toolbox
+#@#a[title="Back to top"]
+||addthisedge.com^$important,badfilter
+track$important,script,badfilter
+||addthisedge.com/live/$badfilter
+||addthisedge.com/live/boost/*/_ate.track$badfilter
+||api-public.addthis.com^$badfilter
+#@#.addthis-smartlayers
+#@#.at-share-btn
+||widgets.pinterest.com/*/urls/count.json$badfilter
+||pinterest.com/v1/urls/count.json$3p,badfilter
 #@#a[href*="/www/delivery/"]
 ||addthis.com^$important,badfilter
 ||s7.addthis.com^$badfilter
