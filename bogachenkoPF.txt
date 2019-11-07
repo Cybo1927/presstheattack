@@ -205,6 +205,7 @@ ventax.net##+js(contextmenudef.js)
 ||chartboost.com^
 ||criteo.com^
 ||inmobi.com^
+kinogo-19.club##[src="/uploads/pley2.jpg"]
 ||startappservice.com^
 ||vungle.com^
 */*.mp4|$media,app=game.maddex.jump
@@ -426,6 +427,16 @@ ads.min$important,script,badfilter
 /icon-facebook-$badfilter
 /icon-twitter-$badfilter
 /wp-content/*facebook.png$badfilter
+#@#a[onclick^="window.open('http://www.facebook.com/share.php?"]
+#@#a[onclick^="window.open('http://vk.com/share.php"]
+#@#a[onclick^="window.open('http"][onclick*="://vk.com/share.php?"]
+#@#a[href^="https://connect.ok.ru/dk?st.cmd=WidgetSharePreview"]
+#@#a[href^="http://www.facebook.com/share.php"]
+#@#a[href^="http://vk.com/share.php?"]
+#@#a[href^="http://vk.com/share.php"]
+#@#a[href*="connect.ok.ru/dk?st.cmd="][href*="share"]
+#@#[onclick^="window.open('https://plus.google.com/share?"]
+#@#[onclick^="window.open('http://twitter.com/share?"]
 #@#a[href="https://twitter.com/share"]
 #@#.social__tw
 #@#.social__fb
@@ -435,6 +446,8 @@ ads.min$important,script,badfilter
 #@##vk_like
 @@||mail.ru^$3p,badfilter
 @@/favicon.ico$badfilter
+#@#.social_buttons
+#@#.social_button
 #@##vk_groups
 #@##fb-root:not(body):not(html)
 ||vk.com/widget_like.php$3p,badfilter
