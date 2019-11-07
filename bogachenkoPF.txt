@@ -486,6 +486,24 @@ extremetube.com#@#+js(abort-on-property-write, ppAb)
 *$websocket,badfilter
 youtube.com#@#.ytp-cards-button
 com#@#button:style(cursor: unset !important)
+@@||wp.com^$third-party,badfilter
+#@#.icons-youtube
+#@#.icons-vimeo
+#@#.icons-twitter
+#@#.icons-stumbleupon
+#@#.icons-rss-feed
+#@#.icons-pinterest
+#@#.icons-instagram
+#@#.icons-googleplus
+#@#.icons-flickr
+#@#.icons-facebook
+#@#.icons-dribbble
+#@##block_social
+#@#.sharedaddy
+#@#.share-icon
+#@#.sd-social
+#@#.sd-sharing
+/sharedaddy/*$script,badfilter
 openload.*#@#+js(set-constant, sadbl, false)
 openload.*#@#+js(nano-setInterval-booster)
 ||facebook.com/*/plugins/page.php$third-party,badfilter
