@@ -13,26 +13,6 @@ eval-logger.js application/javascript
 	}.bind(window);
 })();
 
-# autoplay-blocker
-autoplay-defuser.js application/javascript
-(() => {
-    'use strict';
-    const autoplay = function(ev) {
-        if (ev) {
-            window.removeEventListener(ev.type, autoplay, true);
-        }
-        try {
-            const media = HTMLMediaElement;
-            media.autoplay = 'false';
-        } catch (ex) {}
-    };
-    if (document.readyState === 'loading') {
-        window.addEventListener('DOMContentLoaded', autoplay, true);
-    } else {
-        autoplay();
-    }
-})();
-
 # element-clicker
 eclick.js application/javascript
 (() => {
