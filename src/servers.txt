@@ -453,6 +453,7 @@
 ||admessage.support^$important
 ||admetric.io^$important
 ||admetrica.ru^$important
+||admetricspro.com^$important,third-party
 ||admitad.com^$important
 ||admixer.net^$important
 ||admlqqewbede.com^$important
@@ -11723,7 +11724,6 @@
 ||xgznkebnjme.com^$important
 ||xgzybmbwfmjd.com^$important
 ||xhamsterpremium.*^$important,third-party
-||admetricspro.com^$important,third-party
 ||xhdzcofomosh.com^$important
 ||xhewunoklug.com^$important
 ||xhfosyfia.com^$important
