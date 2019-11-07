@@ -576,6 +576,12 @@ mirrorace.com#@#+js(addEventListener-defuser, click, _0x)
 #@#.footer__socials
 #@#.social-networks
 #@#*[id^="ads-"]
+#@#.pluso
+#@#.g-plusone
+||facebook.net^*/fbevents.js$third-party,badfilter
+#@#a[title="YouTube"]
+#@#.s-social
+#@#*[class$="-ad"]
 #@#img[alt="Youtube"]
 #@#img[alt="Facebook"]
 #@#*[class*="-ads "]
@@ -586,6 +592,10 @@ mirrorace.com#@#+js(addEventListener-defuser, click, _0x)
 *analytics*$important,1p,badfilter
 #@#.ya-share2__link
 #@#.ya-share2__list
+asianrun.com#@#+js(set, allow_ads, true)
+@@.com/ads.js$first-party,script,badfilter
+#@#*[class*=" ads-"]
+#@##back-to-top
 #@#.ya-share2_inited
 ||analytics.google.com^$badfilter
 #@#.share-page
