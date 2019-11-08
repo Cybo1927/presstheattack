@@ -25,6 +25,8 @@
 |http*:*&action=js_stats_$important
 |http*:*-pixel.*?uuid=$important
 |http*:*.html?clicktag=$important
+|http*:*&adformat=$important
+|http*:*/advert/$important
 |http*:*/adfox/$important
 |http*:*/afu.php?$important
 |http*:*/apu.hh?$important
