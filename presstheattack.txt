@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-11-08 20:06:04
-! Version: 20191108200604
+! Last modified: 2019-11-08 22:52:20
+! Version: 20191108225220
 ! Expires: 3 hours
-! Number of filters: 13095
+! Number of filters: 13096
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -78,6 +78,7 @@
 /^https?:\/\/[^\s]+\/([^\s]{4})?tag\.min\.([a-z0-9]{30,}\.)?js/$important,script
 /^https?:\/\/[^\s]+\/(ntfc|afu|apu)\.(hh|php)\?/$important
 /^https?:\/\/[^\s]+\/(popundr|punder|pu)\/(script|license|custom)\./$important,script
+/^https?:\/\/[^\s]+\/adserv[ei](ce|r)?\.php/$important,script,subdocument,xmlhttprequest
 /^https?:\/\/[^\s]+\/log(ging|impressions?)?[?/]/$important
 /^https?:\/\/[^\s]+\/metri(cs?|x)([Ee]vents?|js)?\.js/$important,script
 /^https?:\/\/[^\s]+\/piwik\./$image,important,script
@@ -598,8 +599,8 @@
 ||adrtgbebgd.bid^$important
 ||ads*-adnow.com^$important
 ||ads-twitter.com^$important
-||ads.pubmatic.com^$important
-||ads.vidoomy.com^$important
+||ads1-adnow.com^$important
+||ads2-adnow.com^$important
 ||ads3-adnow.com^$important
 ||adsafeprotected.com^$important
 ||adsco.re^$important

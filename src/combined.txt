@@ -7,9 +7,9 @@
 /^https?:\/\/[^\s]+[!"#$%&'()*+,:;<=>?@\/\^_`{|}~-]log[!"#$%&'()*+,:;<=>?@\/\^_`{|}~-]?(type|event|entry|request)\??/$important,xmlhttprequest
 /^https?:\/\/[^\s]+\.[A-Za-z]{2,6}\/[A-Za-z]{1}\?tag\=[^\s]+\&site\=[A-Za-z0-9]{1,}\&ads?\=/$important,popup,script
 /^https?:\/\/[^\s]+\/(([a-zA-Z]{1,5})?[!"#$%&'()*+,:;<=>?@/\^_`{|}~-])?[a-zA-Z]{1}track(ers?|ing)[?/]/$image,important,other,script,xmlhttprequest
+/^https?:\/\/[^\s]+\/adserv[ei](ce|r)?\.php/$important,script,subdocument,xmlhttprequest
 /^https?:\/\/[^\s]+\/piwik\./$image,important,script
 |http*:*/amp.gif?$image,important,xmlhttprequest
 |http*:*/www/*&zoneid=$image,important,script,xmlhttprequest
 |http*:*/xti.php^$important,script,xmlhttprequest,domain=facebook.com|facebookcorewwwi.onion
 ||youtube.com/api/stats/$image,important,other,xmlhttprequest
-/^https?:\/\/[^\s]+\/adserv[ei](ce|r)?\.php/$script,xmlhttprequest,important,subdocument
