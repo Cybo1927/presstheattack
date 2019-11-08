@@ -23,11 +23,11 @@
 /^https?:\/\/(apps?|best|mobile|prize|reward|sweeps).*\.[a-z]{5,15}.*\.(agency|icu|live)\//$document,important
 |http*:*%22request_id%*%22idzone%$important
 |http*:*&action=js_stats_$important
+|http*:*&adformat=$important
 |http*:*-pixel.*?uuid=$important
 |http*:*.html?clicktag=$important
-|http*:*&adformat=$important
-|http*:*/advert/$important
 |http*:*/adfox/$important
+|http*:*/advert/$important
 |http*:*/afu.php?$important
 |http*:*/apu.hh?$important
 |http*:*/in.php?*&referer=$important
