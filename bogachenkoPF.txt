@@ -12,6 +12,7 @@
 /^https?:\/\/([0-9]{1,3})\.([0-9]{1,3})\.([0-9]{1,3})\.([0-9]{1,3})[:/]443/$network
 !#endif
 ||4ee395e5b8a076c7bd8592851ff8cad.com^
+||uc08ac399b530ffff29c10456694.dl.dropboxusercontent.com^
 ||212.122.5.136^
 ||ad.mail.ru^
 ||adcolony.com^
@@ -62,6 +63,7 @@
 ||xray.mail.ru^
 ||alt*-mtalk.google.com^
 ||yastatic.net^$popup,important
+||dropbox.com^$app=game.maddex.jump,important
 ||sandbox.music.yandex.net^$subdocument,domain=music.yandex.ru
 salahstream.ml,syriancivilwarmap.com##+js(addEventListener-defuser.js, contextmenu)
 ventax.net,kinomore.xyz,rutube.ru##+js(contextmenudef.js)
