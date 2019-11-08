@@ -12043,7 +12043,6 @@
 ||yamrxfbkpirt.com^$important
 ||yanagi.co.kr^$important
 ||yandex-click.net^$important
-||yandex.st^$domain=~yandex.by|~yandex.ru|~yandex.ua
 ||yaoshuo.cn^$important
 ||yaoslgiweccw.com^$important
 ||yapboom.com^$important
