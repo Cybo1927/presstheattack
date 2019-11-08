@@ -17,5 +17,5 @@
 /^https?:\/\/cdn[0-9]{1,3}?\.rocks\/[^\s]{30,}\.js/$important,script
 /^https?:\/\/www\.([a-z]{6,16})\.com\/([a-z]{1,4})\.js$/$important,script,third-party
 |http*:*/js/ht.js?$important,script
-|http*:*/metrixEvents.js$important,script
+/^https?:\/\/[^\s]+\/metri(cs?|x)[Ee]vents?\.js/$important,script
 |http*:*/uutils.fcg?$important,script

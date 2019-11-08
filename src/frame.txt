@@ -1,6 +1,6 @@
 /^https?:\/\/[^\s]+tags?\?id\=/$important,subdocument
 /^https?:\/\/[a-z0-9]{4,12}\.(accountant|bid|cf|club|cricket|date|download|faith|fun|ga|gdn|gq|host|info|loan|men|ml|online|ovh|party|pro|pw|racing|review|rocks|science|site|space|stream|tk|top|trade|webcam|website|win|xyz|store|solutions|software|social|site|shop|services|sale|run|rip|reviews|restaurant|report|zone)\/[\w\/\-.+]{120,}/$subdocument,third-party
-|http*:*/google-conversion.html$important,subdocument
+|http*:*/google-conversion.html|$important,subdocument
 |http*:*/iframe.php?spotid=$important,subdocument
 |http*:*/pi.aspx$important,subdocument
 |http*:*/player_ads.html$important,subdocument
