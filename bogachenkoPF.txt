@@ -8,7 +8,9 @@
 
 @@*$generichide,domain=yandex.ru|yandex.ua|yandex.by|google.com|google.ru
 *$beacon,important
-/^https?:\/\/([0-9]{1,3})\.([0-9]{1,3})\.([0-9]{1,3})\.([0-9]{1,3})[:/]443/$app=game.maddex.jump
+!#if (adguard_app_android && adguard_app_ios)
+/^https?:\/\/([0-9]{1,3})\.([0-9]{1,3})\.([0-9]{1,3})\.([0-9]{1,3})[:/]443/$network
+!#endif
 ||4ee395e5b8a076c7bd8592851ff8cad.com^
 ||212.122.5.136^
 ||ad.mail.ru^
@@ -70,6 +72,8 @@ yandex.by,yandex.ru,yandex.ua,~disk.yandex.by,~disk.yandex.ru,~disk.yandex.ua,~m
 infourok.ru##+js(addEventListener-defuser.js, focus)
 infourok.ru##+js(addEventListener-defuser.js, focus, trigger)
 infourok.ru##+js(set-constant.js, monitorFocus, noopFunc)
+google.*##+js(remove-attr.js, ping, div[class] > a[ping])
+google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 */*.gif|$document,domain=~github.com|~wikimedia.org|~githubusercontent.com
 */*.mp4|$media,app=game.maddex.jump
 ##a[href^="https://bit.ly/"][target="_blank"]
@@ -118,8 +122,6 @@ rutube.ru##.cookie-consent
 ||yastatic.net/*.gif$image,important,domain=~mail.yandex.by|~mail.yandex.ru|~mail.yandex.ua
 @@||clck.yandex.ru^*/*https://passport.yandex.ru/auth?
 /analytics/web/*$domain=~analytics.google.com
-google.*##+js(remove-attr.js, ping, div[class] > a[ping])
-google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||ads0.
 ||ads1.
 ||ads2.
