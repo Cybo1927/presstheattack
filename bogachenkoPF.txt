@@ -526,6 +526,14 @@ staticxx.facebook.com/connect/xd_arbiter$badfilter
 @@||staticf.akacdn.ru^$domain=fmovies.to,badfilter
 /clear.$important,image,badfilter
 @@||s7.addthis.com^*/addthis_widget.js*pubid=$badfilter
+youtube.com#@#ytd-guide-entry-renderer:has(a[href*="feed/guide_builder"])
+youtube.com#@#ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(4)
+youtube.com#@#ytd-guide-entry-renderer:has(a[href*="UClgRkhTL3_hImCAmdLfDE4g"])
+youtube.com#@#ytd-guide-entry-renderer:has(a[href*="UC4R8DWoMoI7CAwX8_LjQHig"])
+youtube.com#@#ytd-guide-entry-renderer:has(a[href*="/gaming"])
+www.youtube.com#@#ytd-guide-signin-promo-renderer.ytd-guide-renderer.style-scope
+youtube.com#@#ytd-guide-entry-renderer:has(a[href="/"])
+youtube.com#@#ytd-guide-entry-renderer:has(a[href*="feed/trending"])
 /favicon.ico$3p,image,domain=~winfuture.de|~bt.com|~ebay.com.au|~ebay.com|~ebay.co.uk|~go.com|~github.com|~stackexchange.com|~stackoverflow.com|~askubuntu.com|~reddit.com|~4chan.org|~twitter.com|~live.com|~espn.com|~yahoo.com,badfilter
 #@#a[href^="http://twitter.com/share"]
 ||addthis.com^$badfilter
