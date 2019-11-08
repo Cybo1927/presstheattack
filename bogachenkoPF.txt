@@ -529,7 +529,15 @@ staticxx.facebook.com/connect/xd_arbiter$badfilter
 youtube.com#@#ytd-guide-entry-renderer:has(a[href*="feed/guide_builder"])
 youtube.com#@#ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(4)
 youtube.com#@#ytd-guide-entry-renderer:has(a[href*="UClgRkhTL3_hImCAmdLfDE4g"])
+#@#.widget_bimber_widget_facebook_page
+#@#.widget_mc4wp_form_widget
+#@#.g1-socials-section
+#@#.g1-socials-item
+#@#.g1-drop-the-socials
+#@#.g1-socials-item
+#@#.g1-back-to-top
 youtube.com#@#ytd-guide-entry-renderer:has(a[href*="UC4R8DWoMoI7CAwX8_LjQHig"])
+||youtube.com/ptracking$important,badfilter
 youtube.com#@#ytd-guide-entry-renderer:has(a[href*="/gaming"])
 www.youtube.com#@#ytd-guide-signin-promo-renderer.ytd-guide-renderer.style-scope
 youtube.com#@#ytd-guide-entry-renderer:has(a[href="/"])
