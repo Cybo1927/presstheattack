@@ -119,6 +119,7 @@ rutube.ru##.cookie-consent
 /^https?:\/\/[^\s]+\/[-a-zA-Z0-9_]{1}\.gif$/$image,domain=~filmitorrent.xyz,important
 /^https?:\/\/2ch\.(hk|pm|re|tf|wf|yt)\/(images|banners?)\//$image,important
 /^https?:\/\/yastatic\.net\/[^\s]{120,}/$image
+||st.kp.yandex.net/images/bnnr/brand/$image
 ||torrentfilm.me/img/bg.jpg$image
 ||kinomore.xyz/templates/*/img/logoface.png$image
 ||yastatic.net/*.gif$image,important,domain=~mail.yandex.by|~mail.yandex.ru|~mail.yandex.ua
@@ -723,6 +724,7 @@ speedtest.net#@#+js(eremove, .high-placeholder.pure-u-1\, .u-c.pure-u-custom-ad-
 *#@#*[class^="banner4"]
 *#@#*[class^="banner5"]
 *#@#*[class^="banner6"]
+||yandex.st^$domain=~yandex.by|~yandex.ru|~yandex.ua,badfilter
 *#@#*[class^="banner7"]
 *#@#*[class^="banner8"]
 *#@#*[class^="banner9"]
