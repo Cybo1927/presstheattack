@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-11-08 12:27:35
-! Version: 20191108122735
+! Last modified: 2019-11-08 14:03:59
+! Version: 20191108140359
 ! Expires: 3 hours
-! Number of filters: 13104
+! Number of filters: 13108
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -106,6 +106,7 @@
 |http*:*/adfox/$important
 |http*:*/advert/$important
 |http*:*/afu.php?$important
+|http*:*/amp.gif?$image,important,xmlhttprequest
 |http*:*/apu.hh?$important
 |http*:*/clear.gif$image,important
 |http*:*/ezcl.webp?$image,important
@@ -6386,6 +6387,7 @@
 ||m-pathy.com^$important
 ||maboflgkaxqn.com^$important
 ||mackeeper.com^$important
+||madsans.com^$important
 ||madslims.com^$important
 ||mafndqbvdgkm.com^$important
 ||magnificentmist.com^$important
@@ -9283,6 +9285,7 @@
 ||sedoparking.com^$important
 ||see-work.info^$important
 ||seedtag.com^$important
+||segment.com^$important
 ||seiqobwpbofg.com^$important
 ||sekajiwqmym.com^$important
 ||sekllcjbujp.bid^$important
@@ -12200,6 +12203,7 @@
 ||yaqysxlohdyg.com^$important
 ||yasltdlichfd.com^$important
 ||yasnxwjtjbx.com^$important
+||yast.rutube.ru^$important
 ||yastatic.net/*.gif$image,important,domain=~mail.yandex.by|~mail.yandex.ru|~mail.yandex.ua
 ||yattprdmuybn.com^$important
 ||yaucoplumerville.com^$important
