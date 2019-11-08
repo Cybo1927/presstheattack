@@ -5,55 +5,225 @@
 ! Title: bogachenko's Personal Filters
 
 ! ~~~~~~~ My shitty rules ~~~~~~~
-/\/(([_a-z-]{3,15})?[!"#$%&'()*+,:;<=>?@/\^_`{|}~-]?)?worker(.*)?\.js$/$important,script,domain=~twitch.tv|~google.com|~z5h64q92x9.net
-/\/[-a-z0-9_]{1}\.js$/$important,script,domain=~duckduckgo.com|~rutube.ru
-/\/[-a-zA-Z0-9_]{1}\.gif$/$image,domain=~filmitorrent.xyz,important
-/^https?:\/\/2ch\.(hk|pm|re|tf|wf|yt)\/(images|banners?)\//$image,important
+
+@@*$generichide,domain=yandex.ru|yandex.ua|yandex.by|google.com|google.ru
+*$beacon,important
+/^https?:\/\/([0-9]{1,3})\.([0-9]{1,3})\.([0-9]{1,3})\.([0-9]{1,3})[:/]443/$app=game.maddex.jump
+||4ee395e5b8a076c7bd8592851ff8cad.com^
+||212.122.5.136^
+||ad.mail.ru^
+||adcolony.com^
+||adfox.yandex.ru^
+||adservice.google.com^
+||an.yandex.ru^
+||appbaqend.com^
+||applovin.com^
+||appmetrica.yandex.net^
+||awaps.yandex.net^
+||awsync.yandex.ru^
+||browser-updater.yandex.net^
+||chartboost.com^
+||clients1.google.com^
+||clients2.google.com^
+||clients3.google.com^
+||clients4.google.com^
+||clients5.google.com^
+||contributor.google.com^
+||criteo.com^
+||fundingchoicesmessages.google.com^
+||google-analytics.com^
+||googlesyndication.com^
+||googletagmanager.com^
+||googletagservices.com^
+||graph.facebook.com^
+||http-check-headers.yandex.ru^
+||id.google.com^
+||imasdk.googleapis.com^
+||inmobi.com^
+||jstracer.yandex.ru^
+||mc.yandex.ru^
+||moatads.com^
+||mradx.net^
+||mtalk.google.com^
+||r3.mail.ru^
+||rayjump.com^
+||recostream.go.mail.ru^
+||rs.mail.ru^
+||startappservice.com^
+||startup.mobile.yandex.net^
+||tapjoy.com^
+||tapjoyads.com^
+||top-fwz1.mail.ru^
+||unityads.unity3d.com^
+||main.zdevx.yandex.ru^
+||vungle.com^
+||xray.mail.ru^
+||alt*-mtalk.google.com^
+||yastatic.net^$popup,important
+||sandbox.music.yandex.net^$subdocument,domain=music.yandex.ru
+salahstream.ml,syriancivilwarmap.com##+js(addEventListener-defuser.js, contextmenu)
+ventax.net,kinomore.xyz,rutube.ru##+js(contextmenudef.js)
+kinogo.*,torrent-filmi.xyz,kinoframe.net,filmitorrent.xyz,hdfilms.zone,kinomore.xyz,smotrim.online##body:style(background-image: none !important;)
+playground.ru,kissasian.*,sourceforge.net,kimcartoon.to,datoporn.co,trialnod.com##+js(nano-setTimeout-booster.js)
+infourok.ru,bogachenko.github.io,torrent-filmi.xyz,waaw.tv,123movies.*,ros-met.com,hdfilms.zone,kinohd-online.club,filmy-onlain.net,vio.to,luxfilm.net,xartmanfilms.ru,kinobot.club,kinoangel.net,tvfru.ru,kino-top1.net,lookmix.org,lamafilm.club##+js(mousedef2.js)
+yandex.by,yandex.ru,yandex.ua,~disk.yandex.by,~disk.yandex.ru,~disk.yandex.ua,~mail.yandex.by,~mail.yandex.ru,~mail.yandex.ua,~market.yandex.by,~market.yandex.ru,~market.yandex.ua,~mobile.yandex.by,~mobile.yandex.ru,~mobile.yandex.ua,~money.yandex.by,~money.yandex.ru,~money.yandex.ua,~music.yandex.by,~music.yandex.ru,~music.yandex.ua,~rabota.yandex.by,~rabota.yandex.ru,~rabota.yandex.ua,~rasp.yandex.by,~rasp.yandex.ru,~rasp.yandex.ua,~realty.yandex.by,~realty.yandex.ru,~realty.yandex.ua,~taxi.yandex.by,~taxi.yandex.ru,~taxi.yandex.ua,~translate.yandex.by,~translate.yandex.ru,~translate.yandex.ua,~tv.yandex.by,~tv.yandex.ru,~tv.yandex.ua##+js(cookie-set.js, my, Yy4BAQA=, 2114785965)
+infourok.ru##+js(addEventListener-defuser.js, focus)
+infourok.ru##+js(addEventListener-defuser.js, focus, trigger)
+infourok.ru##+js(set-constant.js, monitorFocus, noopFunc)
+*/*.gif|$document,domain=~github.com|~wikimedia.org|~githubusercontent.com
+*/*.mp4|$media,app=game.maddex.jump
+##a[href^="https://bit.ly/"][target="_blank"]
+##[src*="://ad.doubleclick.net/"]
+infourok.ru###aa-popup
+ria.ru##.widgets__b-slide, #subscriber, .article__sharebar, .footer__social
+uglegorsk.news##.essb_links_list
+svpressa.ru###cookie-bar
+torrent-filmi.xyz###infoBlockFilm, #infoBlockCont
+twitch.tv###default-player > .player-root > div > .pl-overlay--unmute.player-overlay, .pl-notif, .player-alert, .recommended-channels, .tw-flex-shrink-0.tw-flex-nowrap.tw-flex.tw-align-items-center > .tw-mg-l-1, .tw-mg-b-1.tw-c-background-base.tw-border-t.tw-border-r.tw-border-l.tw-border-b, .tw-pd-y-1.tw-pd-x-1.tw-font-size-6.tw-flex.tw-c-text-overlay.tw-align-items-center.non-live-video-banner__header, .tw-relative.prime-offers, .tw-relative.tw-overflow-hidden.tw-justify-content-center.tw-interactive.tw-inline-flex.tw-core-button--padded.tw-core-button--overlay.tw-core-button--icon.tw-core-button--hollow.tw-core-button--border.tw-core-button.tw-border-top-right-radius-medium.tw-border-top-left-radius-medium.tw-border-bottom-right-radius-medium.tw-border-bottom-left-radius-medium.tw-align-middle.tw-align-items-center, .tw-relative.tw-overflow-hidden.tw-justify-content-center.tw-interactive.tw-inline-flex.tw-core-button--secondary.tw-core-button--padded.tw-core-button--overlay.tw-core-button--icon.tw-core-button--border.tw-core-button.tw-border-top-right-radius-medium.tw-border-top-left-radius-medium.tw-border-bottom-right-radius-medium.tw-border-bottom-left-radius-medium.tw-align-middle.tw-align-items-center, .tw-relative.tw-overflow-hidden.tw-justify-content-center.tw-interactive.tw-inline-flex.tw-full-width.tw-core-button--primary.tw-core-button--padded.tw-core-button--icon.tw-core-button--dropdown.tw-core-button--border.tw-core-button.tw-border-top-right-radius-medium.tw-border-top-left-radius-medium.tw-border-bottom-right-radius-medium.tw-border-bottom-left-radius-medium.tw-align-middle.tw-align-items-center, .tw-top-0.tw-right-0.tw-overflow-hidden.tw-left-0.tw-flex-nowrap.tw-flex-column.tw-flex.tw-bottom-0.tw-absolute > .tw-full-height.tw-flex-nowrap.tw-flex-column.tw-flex > div.tw-flex-shrink-0, .tw-z-default.pinned-cheer-v2, .tw-interactive[href^="https://twitch.amazon.com/"], a[href*="megafon.ru"], a[href*="mercedes-benz.com"], a[href*="mybestcontent.ru"], a[href*="mydota2.net"], a[href*="noblechairs.com"], a[href*="poker"], a[href*="starladder.com"], a[href*="streamfest.ru"], a[href*="suveniry"], a[href*="upskill.ru"], a[href*="vk.cc"]>img, a[href*="&BannerId="], a[href*="&bonus="], a[href*=".click"], a[href*=".com/ad/"], a[href*=".gg"], a[href*=".net/ad/"], a[href*=".org/ad/"], a[href*=".ru/ad/"], a[href*="/?r="], a[href*="/buy/"], a[href*="/go/"], a[href*="/joinchat/"], a[href*="/promo/"], a[href*="/shop/"], a[href*="?AffiliateUserId="], a[href*="?br="], a[href*="?btag="], a[href*="atributika"], a[href*="bet4.pm"], a[href*="betsdota2.c"], a[href*="bit.ly"], a[href*="boostmmr.ru"], a[href*="campaign"], a[href*="casino"], a[href*="clck.ru"], a[href*="col.vg"], a[href*="cutter.li"], a[href*="cyberbetpromo.net"], a[href*="domruchamp.ru"], a[href*="dota2camp.ru"], a[href*="dota.money"], a[href*="dotapl.us"], a[href*="dxracer-europe.com"], a[href*="fragstore.ru"], a[href*="g2a.com"], a[href*="gamefuel.com"], a[href*="garnitura"], a[href*="gearboost.eu"], a[href*="gg.bet"], a[href*="goo.gl"], a[href*="goodgame.pm"], a[href*="gosu.ai"], a[href*="intel.com"], a[href*="invasion.ru"], button.pl-button--icon.pl-button--follow.pl-button, a[href*="is.gd"], a[href*="rusfond.ru"], .pl-single-rec-wrapper.recommendations-overlay.player-overlay, div#root.root > div.tw-absolute.tw-bottom-0.tw-flex.tw-flex-column.tw-flex-nowrap.tw-left-0.tw-overflow-hidden.tw-right-0.tw-top-0 > div.tw-flex.tw-flex-column.tw-flex-nowrap.tw-full-height > nav.top-nav.tw-flex-shrink-0.tw-relative > div.top-nav__menu.tw-align-items-stretch.tw-flex.tw-flex-nowrap.tw-full-height > div.top-nav__nav-items-container.tw-align-items-stretch.tw-flex.tw-flex-grow-1.tw-flex-nowrap.tw-flex-shrink-0 > div.tw-align-items-stretch.tw-flex.tw-flex-nowrap.tw-flex-shrink-0 > div.tw-hide.tw-sm-flex, div#root.root > div.tw-absolute.tw-bottom-0.tw-flex.tw-flex-column.tw-flex-nowrap.tw-left-0.tw-overflow-hidden.tw-right-0.tw-top-0 > div.tw-flex.tw-flex-column.tw-flex-nowrap.tw-full-height > nav.top-nav.tw-flex-shrink-0.tw-relative > div.top-nav__menu.tw-align-items-stretch.tw-flex.tw-flex-nowrap.tw-full-height > div.tw-align-self-center.tw-flex-grow-0.tw-flex-nowrap.tw-flex-shrink-0.tw-mg-x-05 > div.tw-relative, a[href*="myway2win.com"]>img, a[href*="webto.ru"]>img, a[href*="hero.logitech.promo"]>img, .tw-z-above.tw-pd-t-05.tw-absolute.subtember-callout, a[href*="cybertraff.info/"], .tw-z-default.channel-leaderboard, .tw-full-width > .tw-mg-b-2, .tw-transition__fade--enter-done.tw-transition__fade.tw-transition--enter-done.tw-transition--duration-long.tw-transition, .tw-z-default.channel-leaderboard, .tw-z-above.tw-relative.tw-full-width.tw-c-text-base.blue-bar, .tw-z-default.tw-full-width.tw-absolute.chat-room__notifications, .tw-lg-flex.tw-hide > .tw-relative, .tw-pd-x-05.tw-flex.tw-c-text-overlay.tw-c-background-overlay.tw-border-t.tw-border-r.tw-border-l.tw-border-b.tw-absolute.muted-segments-alert, .tw-top-0.tw-right-0.tw-pd-2.tw-bottom-0.tw-absolute.player-overlay-background-sidebar.player-overlay-background--darkness-3.player-overlay-background, a[href*="vsemaykishop.ru"], a[href*="tiny.cc"], .tw-relative.tw-inline > .tw-relative.tw-overflow-hidden.tw-justify-content-center.tw-interactive.tw-inline-flex.tw-core-button.tw-button-icon--secondary.tw-button-icon.tw-border-top-right-radius-medium.tw-border-top-left-radius-medium.tw-border-bottom-right-radius-medium.tw-border-bottom-left-radius-medium.tw-align-middle.tw-align-items-center
+freebitco.in##.reveal-modal-bg, .open.reveal-modal, .daily_jackpot_main_container_div, #deposit_promo_message_regular
+music.yandex.ru,music.yandex.com,music.yandex.ua,music.yandex.by##.duck__duckling.moving-slider, .multi-auth__plus, .teaser, .sidebar__under, .page-main__line_row.page-main__line_small-margin.page-main__line_personal-playlists.page-main__line, .notify_shown.deco-tooltip_notify, .footer, .metrika-app_shown_yes.metrika-app_js_inited.i-bem.metrika-app_type_desktop.metrika-app_lang_ru.metrika-app, .duck__angry-duck_left.duck__angry-duck.paused-slider, .bar-below_plus.bar-below, .subscription-hint_bottom.deco-pane-popup.popup.local-theme-black.subscription-hint, div.notify > div.deco-tooltip_notify.notify_shown, .overlay_gdpr.overlay_shown.deco-pane-overlay.overlay, .deco-pane-popup.popup.local-icon-theme-white.local-theme-white.gdpr-popup, .bar-below_unavaliable.bar-below, a.teaser__content[href="https://music.yandex.ru/family-plus"] > img.teaser__img, div.page-root.page-root_no-player.deco-pane-back > div[class][data-b="2"][style="display: block;"], .teaser ~ div, .page-root > div[data-b="2"], .sidebar > div > .teaser + div[data-b="18"], .d-track_playing.d-track_inline-meta.d-track_selectable.typo-track.d-track > .d-track__start-column > .d-track__hover.d-track__play > .d-button-play__wrap, .d-track_playing.playlist-filter-suggest__track.d-track_selectable.typo-track.d-track > .d-track__start-column > .d-track__hover.d-track__play > .d-button-play__wrap, .deco-tooltip_to-right.popup_visible.popup_fade.local-theme-black.d-tooltip_min-width.deco-pane-popup.popup.deco-tooltip.d-tooltip, .overlay_shown.deco-pane-overlay.overlay, .popup_modal.deco-pane-popup.popup.local-icon-theme-white.local-theme-white.popup_compact.crackdown-popup, .teaser-nonmusic_visible.teaser-nonmusic
+music.yandex.ru,music.yandex.com,music.yandex.ua,music.yandex.by#?#span:contains(Отключить рекламу)
+yandex.ru,yandex.ua,yandex.by,yandex.com##.favorites__icon, .head-promo-plus__icon, .head-promo-plus__title, .home-arrow__bottom, .media-grid__media-content, .media-grid_js_inited.font-regular.i-bem.media-grid_theme_white.media-grid_visible_yes.media-grid, .rows__row_last.rows__row.row, .popup_to_bottom.popup_visibility_visible.popup_js_inited.dist-popup_js_inited.popup_autoclosable_no.popup_theme_ffffff.popup_focusevents_no.popup_animate_yes.popup_adaptive_yes.popup_source_yabs.dist-popup_product_browser.dist-popup_install_download.dist-popup.popup.i-bem, .weather-maps__layer-tranzister, .ya-chat-widget_visible.ya-chat-widget_size_normal.ya-chat-widget_theme_light.ya-chat-widget_desktop.ya-chat-widget, .ya-chat-button__container_size_normal.ya-chat-button__container, .ya-chat-widget_size_normal.ya-chat-widget_theme_light.ya-chat-widget_desktop.ya-chat-widget, .serp-footer__main, .popup_to_bottom.popup_visibility_visible.popup_js_inited.dist-popup_js_inited.popup_autoclosable_no.popup_theme_custom-color.popup_focusevents_no.popup_animate_yes.popup_adaptive_yes.popup_source_yabs.dist-popup_product_browser.dist-popup.popup.i-bem, .dist-popup__content.popup__content, .desk-notif-card_js_inited.i-bem.desk-notif-card_bg_default.desk-notif-card_animated_yes.desk-notif-card_minified_yes.desk-notif-card_actions_yes.desk-notif-card_details_no.desk-notif-card_icon_yes.desk-notif-card_district_yes.desk-notif-card, .desk-notif-card_js_inited.i-bem.desk-notif-card_bg_default.desk-notif-card_animated_yes.desk-notif-card_minified_yes.desk-notif-card_actions_yes.desk-notif-card_details_yes.desk-notif-card_icon_yes.desk-notif-card_stream_channel.desk-notif-card_stream_yes.desk-notif-card, .desk-notif-card_js_inited.i-bem.desk-notif-card_bg_default.desk-notif-card_animated_yes.desk-notif-card_minified_yes.desk-notif-card_actions_yes.desk-notif-card_details_no.desk-notif-card_icon_yes.desk-notif-card_weather_yes.desk-notif-card, .container__line.container__banner.container, div > a[href*="//plus.yandex."], [class*="desk-notif-card"] > a[href*="/plus.yandex"], .yabrowser-promo, .container__banner, div[aria-label="Реклама"], div.page-root.page-root_no-player.deco-pane-back > div[class][data-b="2"][style="display: block;"], .font-regular.i-bem.media-grid_theme_white.media-grid_visible_no.media-grid, .popup2_visible_yes.popup2_direction_bottom-right.popup2_js_inited.i-bem.serp-user__promo-popup.popup2_view_classic.popup2_hiding_yes.popup2_autoclosable_yes.popup2_target_anchor.popup2_theme_normal.popup2, .distr-popup_js_inited.popup2_visible_yes.popup2_js_inited.i-dbn-cookie_js_inited.i-bem.card__colorize.i-dbn-cookie.distr-popup_hide-on-popups_yes.distr-popup_animation_bounce.distr-popup_shadow_yes.distr-popup_motley_dark-blue.distr-popup_type_landing.distr-popup_layout_simple.distr-popup_location_right-only.distr-popup.popup2_view_classic.popup2_direction_bottom-right.popup2_theme_clear.popup2_target_position.popup2, .i-bem.desk-notif-card_bg_default.desk-notif-card_animated_yes.desk-notif-card_minified_yes.desk-notif-card_actions_yes.desk-notif-card_details_no.desk-notif-card_icon_yes.desk-notif-card_district_yes.desk-notif-card, .i-bem.desk-notif-card_bg_default.desk-notif-card_animated_yes.desk-notif-card_minified_yes.desk-notif-card_actions_yes.desk-notif-card_details_yes.desk-notif-card_icon_yes.desk-notif-card_stream_channel.desk-notif-card_stream_yes.desk-notif-card, [class*="desk-notif-card"] > a[href*="/plus.yandex"], .blocks-grid__item_static.blocks-grid__item.pane2__direct-wrapper_type_stripe.pane2__direct-wrapper, .desk-notif-card_zen_yes, .tooltip_shown_yes.popup2_visible_yes.popup2_direction_bottom-right.popup2_js_inited.tooltip_js_inited.nqpJ9Xng.user2__tooltip.tooltip_for_favorites.tooltip_click_no.tooltip_tone_default.tooltip_view_classic.tooltip_theme_promo.tooltip_autoclosable_yes.tooltip.popup2_theme_normal.popup2_view_classic.popup2_autoclosable_yes.popup2_hiding_yes.popup2_target_anchor.popup2, .direct-close-block__confirm-popup, .direct-close-block__close-popup-content-wrapper, .direct-close-block__close-popup, .headline__notifier, .popup2_visible_yes.popup2_direction_bottom-center.popup2_js_inited.i-bem.popup2_region_notification.popup2_theme_normal.popup2_target_anchor.popup2_animate_yes.popup2_adaptive_yes.popup2_autoclosable_yes.popup2, .distr-popup_js_inited.popup2_visible_yes.popup2_direction_bottom-right.popup2_js_inited.i-dbn-cookie_js_inited.i-bem.card__colorize.i-dbn-cookie.distr-popup_animation_fall-show.distr-popup_shadow_yes.distr-popup_motley_light-green.distr-popup_type_landing.distr-popup_layout_simple.distr-popup_location_right-bottom.distr-popup.popup2_view_classic.popup2_theme_clear.popup2_target_position.popup2, .distr-popup_js_inited.popup2_visible_yes.popup2_js_inited.i-dbn-cookie_js_inited.i-bem.card__colorize.i-dbn-cookie.distr-popup_hide-on-popups_yes.distr-popup_animation_bounce.distr-popup_shadow_yes.distr-popup_motley_green.distr-popup_type_landing.distr-popup_layout_simple.distr-popup_location_right-only.distr-popup.popup2_view_classic.popup2_direction_bottom-right.popup2_theme_clear.popup2_target_position.popup2, .tooltip_shown_yes.popup2_visible_yes.popup2_direction_bottom-right.auth-popup_js_inited.popup2_js_inited.tooltip_js_inited.i-bem.auth-popup.tooltip_for_favorites.tooltip_click_no.tooltip_tone_default.tooltip_view_classic.tooltip_theme_promo.tooltip_autoclosable_yes.tooltip.popup2_theme_normal.popup2_view_classic.popup2_autoclosable_yes.popup2_hiding_yes.popup2_target_anchor.popup2, .widgets__col_td_2, .widget_id_teaser, .media-promo, .popup2_visible_yes.popup2_direction_bottom-right.serp-user_js_inited.promo-popup_js_inited._popup2-destructor_js_inited._popup2-destructor.popup2_js_inited.i-bem.serp-user__promo-popup.serp-user.promo-popup_social_yes.promo-popup_type_promo.promo-popup_shadow_yes.promo-popup_theme_ffffff.promo-popup.popup2_view_classic.popup2_hiding_yes.popup2_theme_clear.popup2_target_anchor.popup2, .distr-popup_js_inited.popup2_visible_yes.popup2_direction_bottom-right.popup2_js_inited.i-dbn-cookie_js_inited.i-bem.card__colorize.i-dbn-cookie.distr-popup_animation_fall-show.distr-popup_shadow_yes.distr-popup_motley_light-blue.distr-popup_type_landing.distr-popup_layout_simple.distr-popup_location_right-bottom.distr-popup.popup2_view_classic.popup2_theme_clear.popup2_target_position.popup2, .distr-popup_js_inited.popup2_visible_yes.popup2_js_inited.i-dbn-cookie_js_inited.i-bem.card__colorize.i-dbn-cookie.distr-popup_hide-on-popups_yes.distr-popup_animation_slide-show.distr-popup_shadow_yes.distr-popup_motley_light-blue.distr-popup_type_landing.distr-popup_layout_simple.distr-popup_location_right-only.distr-popup.popup2_view_classic.popup2_direction_bottom-right.popup2_theme_clear.popup2_target_position.popup2, .distr-popup_js_inited.popup2_visible_yes.popup2_direction_bottom-right.popup2_js_inited.i-dbn-cookie_js_inited.i-bem.card__colorize.i-dbn-cookie.distr-popup_animation_slide-show.distr-popup_shadow_yes.distr-popup_motley_grey.distr-popup_type_landing.distr-popup_layout_simple.distr-popup_location_right-bottom.distr-popup.popup2_view_classic.popup2_theme_clear.popup2_target_position.popup2, .notifier__box, .notifier_js_inited.notifier_has-unread_yes.i-bem.serp-header__notifier.notifier_fade_yes.notifier_size_m.notifier_no-login_yes.notifier_header.notifier, .header-favorites-button_js_inited.i-bem.header-favorites-button, .distr-popup__content.popup2__content, .tooltip-api_js_inited.tooltip_shown_yes.popup2_visible_yes.popup2_direction_bottom-right.popup2_js_inited.tooltip_js_inited.i-bem.carousel__yabro-tooltip.tooltip-api_theme_promo.tooltip-api.tooltip_autoclosable_yes.tooltip_align_left.tooltip_view_classic.tooltip_tone_dark.tooltip_size_xs.tooltip_theme_promo.tooltip.popup2_theme_normal.popup2_view_classic.popup2_autoclosable_yes.popup2_hiding_yes.popup2_target_anchor.popup2, .main__carousel_js_inited.serp_js_inited.i-bem.serp.main__carousel > .serp-item
+metrika.yandex.ru##div.notification-wrapper_js_inited.i-bem.notification-wrapper
+github.com##.border-bottom.hide-sm.hide-md.hide-lg.mt-5.pr-3.col-lg-3.col-md-3.col-12.team-left-column
+kinogo-19.club##[src="/uploads/pley2.jpg"], [src="/uploads/cverhu.jpg"]
+torrentfilm.me##[src="/img/mgt.png"]
+rutube.ru##.cookie-consent
+||youtube.com/*dQw4w9WgXcQ$document
+||adguardteam.github.io/AnonymousRedirect/redirect.html$document
+/^https?:\/\/(www\.)?music\.yandex\.(ru|ua|by|com)/$csp=script-src 'unsafe-inline' 'unsafe-eval' music.yandex.ru; connect-src 'self' data: music.yandex.ru storage.mds.yandex.net; img-src 'self' data: music.yandex.ru avatars.yandex.net yapic.yandex.ru;
+/^https?:\/\/(www\.)?yandex\.(ru|ua|by|com)/$csp=script-src data: 'unsafe-inline' 'unsafe-eval' https://yandex.ru http://yandex.ru https://pass.yandex.ru https://api.passport.yandex.ru https://passport.yandex.ua https://api.passport.yandex.ua https://passport.yandex.by https://api.passport.yandex.by yastatic.net *.yandex.sx https://yandex.ua http://yandex.ua https://yandex.by http://yandex.by; img-src data: https://yandex.ru http://yandex.ru https://yandex.ua http://yandex.ua https://yandex.by http://yandex.by *.passport.yandex.ru *.passport.yandex.ua *.passport.yandex.by yastatic.net *.yandex.sx *.yandex.net; connect-src data: https://yandex.ru http://yandex.ru https://cloud-api.yandex.ru https://mail.yandex.ru http://cloud-api.yandex.ru http://mail.yandex.ru yastatic.net https://frontend.vh.yandex.ru http://frontend.vh.yandex.ru *.yandex.sx https://yandex.ua http://yandex.ua https://pass.yandex.ru https://api.passport.yandex.ru https://passport.yandex.ua https://api.passport.yandex.ua https://passport.yandex.by https://api.passport.yandex.by https://yandex.by http://yandex.by; object-src 'none';
+||twitch.tv^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' wss: blob: *.jtvnw.net *.ttvnw.net *.twitchcdn.net *.twitch.tv *.facebook.com *.facebook.net recaptcha.net *.google.com *.gstatic.com *.algolia.net;
+||youtube.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: wss: *.ggpht.com *.googlevideo.com *.ytimg.com *.googleusercontent.com *.youtube.com *.google.com *.gstatic.com;
 */rsya-tag-users/*$important
 /^https?:\/\/[^\s]+(\.wasm|\.wsm|\.wa)$/$important,xmlhttprequest,domain=~twitch.tv
 /^https?:\/\/[^\s]+[!"#$%&'()*+,:;<=>?@/\^_`{|}~-]bann?ers?([!"#$%&'()*+,:;<=>?@/\^_`{|}~-].*?)?\.gif/$image,important,subdocument
 /^https?:\/\/[^\s]+\/(([_a-z-]{3,12})?[!"#$%&'()*+,:;<=>?@/\^_`{|}~-])?sw\.js$/$important,script
 /^https?:\/\/[^\s]+\/[a-zA-Z0-9]{1}\.js$/$script,image,domain=~rutube.ru
 /^https?:\/\/[^\s]+\/sw([!"#$%&'()*+,:;<=>?@/\^_`{|}~-]([_a-z0-9-.]{1,10})?)?\.js$/$important,script
-||google-analytics.com^
-||browser-updater.yandex.net^
-/^https?:\/\/[^\s]+\/vast([.0-9-]{1,10})?([/.-?]|js)/$important
 /^https?:\/\/[^\s]+\/worker([!"#$%&'()*+,:;<=>?@/\^_`{|}~-]?([a-z]{5,6})?)?\.js$/$important,script
 /^https?:\/\/torrent\-soft\.net\/([0-9]{4}|[a-z0-9]{8,9}\.min)\.js$/$script,important
-infourok.ru###aa-popup
-||mc.yandex.ru^
-||googlesyndication.com^
-*/annotations_module.js$script,domain=youtube.com
-||googletagmanager.com^
-||youtube.com/*dQw4w9WgXcQ$document
-||an.yandex.ru^
+/^https?:\/\/[^\s]+\/(([_a-z-]{3,15})?[!"#$%&'()*+,:;<=>?@/\^_`{|}~-]?)?worker(.*)?\.js$/$important,script,domain=~twitch.tv|~google.com|~z5h64q92x9.net
+/^https?:\/\/[^\s]+\/[-a-z0-9_]{1}\.js$/$important,script,domain=~duckduckgo.com|~rutube.ru
+*/annotations_module.js|$script,domain=youtube.com,important
+*/gtag.js|$script,important
+*/promo-banner.js|$script,domain=pornhub.com
+*/endscreen.js|$script,domain=youtube.com
+*/channels/*/extensions$xmlhttprequest,domain=twitch.tv
+/\/[-a-zA-Z0-9_]{1}\.gif$/$image,domain=~filmitorrent.xyz,important
+/^https?:\/\/2ch\.(hk|pm|re|tf|wf|yt)\/(images|banners?)\//$image,important
+/^https?:\/\/yastatic\.net\/[^\s]{120,}/$image
+||torrentfilm.me/img/bg.jpg$image
+||kinomore.xyz/templates/kinogo-2016-net/img/logoface.png$image
+||yastatic.net/*.gif$image,important,domain=~mail.yandex.by|~mail.yandex.ru|~mail.yandex.ua
 @@||clck.yandex.ru^*/*https://passport.yandex.ru/auth?
-||http-check-headers.yandex.ru^
-||yastatic.net^$popup
-||jstracer.yandex.ru^
-||awsync.yandex.ru^
-||adfox.yandex.ru^
-||yandex.*/clck/click$important
-*$beacon,important
-||api.twitch.tv/*/channels/*/extensions^$xmlhttprequest
-##a[href^="https://bit.ly/"][target="_blank"]
-*/*.gif|$document,domain=~github.com|~wikimedia.org|~githubusercontent.com
-salahstream.ml,syriancivilwarmap.com##+js(addEventListener-defuser.js, contextmenu)
-ventax.net,kinomore.xyz,rutube.ru##+js(contextmenudef.js)
-kinogo.*,torrent-filmi.xyz,kinoframe.net,filmitorrent.xyz,hdfilms.zone,kinomore.xyz,smotrim.online##body:style(background-image: none !important;)
-playground.ru,kissasian.*,sourceforge.net,kimcartoon.to,datoporn.co,trialnod.com##+js(nano-setTimeout-booster.js)
-infourok.ru,bogachenko.github.io,torrent-filmi.xyz,waaw.tv,123movies.*,ros-met.com,hdfilms.zone,kinohd-online.club,filmy-onlain.net,vio.to,luxfilm.net,xartmanfilms.ru,kinobot.club,kinoangel.net,tvfru.ru,kino-top1.net,lookmix.org,lamafilm.club##+js(mousedef2.js)
-infourok.ru##+js(addEventListener-defuser.js, focus)
-infourok.ru##+js(addEventListener-defuser.js, focus, trigger)
-@@*$generichide,domain=yandex.ru|yandex.ua|yandex.by|google.com|google.ru
-/^https?:\/\/(www\.)?music\.yandex\.(ru|ua|by|com)/$csp=script-src 'unsafe-inline' 'unsafe-eval' music.yandex.ru; connect-src 'self' data: music.yandex.ru storage.mds.yandex.net; img-src 'self' data: music.yandex.ru avatars.yandex.net yapic.yandex.ru;
-||sandbox.music.yandex.net/script/gtag.js$script
-infourok.ru##+js(set-constant.js, monitorFocus, noopFunc)
-music.yandex.ru,music.yandex.com,music.yandex.ua,music.yandex.by##.duck__duckling.moving-slider, .multi-auth__plus, .teaser, .sidebar__under, .page-main__line_row.page-main__line_small-margin.page-main__line_personal-playlists.page-main__line, .notify_shown.deco-tooltip_notify, .footer, .metrika-app_shown_yes.metrika-app_js_inited.i-bem.metrika-app_type_desktop.metrika-app_lang_ru.metrika-app, .duck__angry-duck_left.duck__angry-duck.paused-slider, .bar-below_plus.bar-below, .subscription-hint_bottom.deco-pane-popup.popup.local-theme-black.subscription-hint, div.notify > div.deco-tooltip_notify.notify_shown, .overlay_gdpr.overlay_shown.deco-pane-overlay.overlay, .deco-pane-popup.popup.local-icon-theme-white.local-theme-white.gdpr-popup, .bar-below_unavaliable.bar-below, a.teaser__content[href="https://music.yandex.ru/family-plus"] > img.teaser__img, div.page-root.page-root_no-player.deco-pane-back > div[class][data-b="2"][style="display: block;"], .teaser ~ div, .page-root > div[data-b="2"], .sidebar > div > .teaser + div[data-b="18"], .d-track_playing.d-track_inline-meta.d-track_selectable.typo-track.d-track > .d-track__start-column > .d-track__hover.d-track__play > .d-button-play__wrap, .d-track_playing.playlist-filter-suggest__track.d-track_selectable.typo-track.d-track > .d-track__start-column > .d-track__hover.d-track__play > .d-button-play__wrap, .deco-tooltip_to-right.popup_visible.popup_fade.local-theme-black.d-tooltip_min-width.deco-pane-popup.popup.deco-tooltip.d-tooltip, .overlay_shown.deco-pane-overlay.overlay, .popup_modal.deco-pane-popup.popup.local-icon-theme-white.local-theme-white.popup_compact.crackdown-popup, .teaser-nonmusic_visible.teaser-nonmusic
-music.yandex.ru,music.yandex.com,music.yandex.ua,music.yandex.by#?#span:contains(Отключить рекламу)
-twitch.tv###default-player > .player-root > div > .pl-overlay--unmute.player-overlay, .pl-notif, .player-alert, .recommended-channels, .tw-flex-shrink-0.tw-flex-nowrap.tw-flex.tw-align-items-center > .tw-mg-l-1, .tw-mg-b-1.tw-c-background-base.tw-border-t.tw-border-r.tw-border-l.tw-border-b, .tw-pd-y-1.tw-pd-x-1.tw-font-size-6.tw-flex.tw-c-text-overlay.tw-align-items-center.non-live-video-banner__header, .tw-relative.prime-offers, .tw-relative.tw-overflow-hidden.tw-justify-content-center.tw-interactive.tw-inline-flex.tw-core-button--padded.tw-core-button--overlay.tw-core-button--icon.tw-core-button--hollow.tw-core-button--border.tw-core-button.tw-border-top-right-radius-medium.tw-border-top-left-radius-medium.tw-border-bottom-right-radius-medium.tw-border-bottom-left-radius-medium.tw-align-middle.tw-align-items-center, .tw-relative.tw-overflow-hidden.tw-justify-content-center.tw-interactive.tw-inline-flex.tw-core-button--secondary.tw-core-button--padded.tw-core-button--overlay.tw-core-button--icon.tw-core-button--border.tw-core-button.tw-border-top-right-radius-medium.tw-border-top-left-radius-medium.tw-border-bottom-right-radius-medium.tw-border-bottom-left-radius-medium.tw-align-middle.tw-align-items-center, .tw-relative.tw-overflow-hidden.tw-justify-content-center.tw-interactive.tw-inline-flex.tw-full-width.tw-core-button--primary.tw-core-button--padded.tw-core-button--icon.tw-core-button--dropdown.tw-core-button--border.tw-core-button.tw-border-top-right-radius-medium.tw-border-top-left-radius-medium.tw-border-bottom-right-radius-medium.tw-border-bottom-left-radius-medium.tw-align-middle.tw-align-items-center, .tw-top-0.tw-right-0.tw-overflow-hidden.tw-left-0.tw-flex-nowrap.tw-flex-column.tw-flex.tw-bottom-0.tw-absolute > .tw-full-height.tw-flex-nowrap.tw-flex-column.tw-flex > div.tw-flex-shrink-0, .tw-z-default.pinned-cheer-v2, .tw-interactive[href^="https://twitch.amazon.com/"], a[href*="megafon.ru"], a[href*="mercedes-benz.com"], a[href*="mybestcontent.ru"], a[href*="mydota2.net"], a[href*="noblechairs.com"], a[href*="poker"], a[href*="starladder.com"], a[href*="streamfest.ru"], a[href*="suveniry"], a[href*="upskill.ru"], a[href*="vk.cc"]>img, a[href*="&BannerId="], a[href*="&bonus="], a[href*=".click"], a[href*=".com/ad/"], a[href*=".gg"], a[href*=".net/ad/"], a[href*=".org/ad/"], a[href*=".ru/ad/"], a[href*="/?r="], a[href*="/buy/"], a[href*="/go/"], a[href*="/joinchat/"], a[href*="/promo/"], a[href*="/shop/"], a[href*="?AffiliateUserId="], a[href*="?br="], a[href*="?btag="], a[href*="atributika"], a[href*="bet4.pm"], a[href*="betsdota2.c"], a[href*="bit.ly"], a[href*="boostmmr.ru"], a[href*="campaign"], a[href*="casino"], a[href*="clck.ru"], a[href*="col.vg"], a[href*="cutter.li"], a[href*="cyberbetpromo.net"], a[href*="domruchamp.ru"], a[href*="dota2camp.ru"], a[href*="dota.money"], a[href*="dotapl.us"], a[href*="dxracer-europe.com"], a[href*="fragstore.ru"], a[href*="g2a.com"], a[href*="gamefuel.com"], a[href*="garnitura"], a[href*="gearboost.eu"], a[href*="gg.bet"], a[href*="goo.gl"], a[href*="goodgame.pm"], a[href*="gosu.ai"], a[href*="intel.com"], a[href*="invasion.ru"], button.pl-button--icon.pl-button--follow.pl-button, a[href*="is.gd"], a[href*="rusfond.ru"], .pl-single-rec-wrapper.recommendations-overlay.player-overlay, div#root.root > div.tw-absolute.tw-bottom-0.tw-flex.tw-flex-column.tw-flex-nowrap.tw-left-0.tw-overflow-hidden.tw-right-0.tw-top-0 > div.tw-flex.tw-flex-column.tw-flex-nowrap.tw-full-height > nav.top-nav.tw-flex-shrink-0.tw-relative > div.top-nav__menu.tw-align-items-stretch.tw-flex.tw-flex-nowrap.tw-full-height > div.top-nav__nav-items-container.tw-align-items-stretch.tw-flex.tw-flex-grow-1.tw-flex-nowrap.tw-flex-shrink-0 > div.tw-align-items-stretch.tw-flex.tw-flex-nowrap.tw-flex-shrink-0 > div.tw-hide.tw-sm-flex, div#root.root > div.tw-absolute.tw-bottom-0.tw-flex.tw-flex-column.tw-flex-nowrap.tw-left-0.tw-overflow-hidden.tw-right-0.tw-top-0 > div.tw-flex.tw-flex-column.tw-flex-nowrap.tw-full-height > nav.top-nav.tw-flex-shrink-0.tw-relative > div.top-nav__menu.tw-align-items-stretch.tw-flex.tw-flex-nowrap.tw-full-height > div.tw-align-self-center.tw-flex-grow-0.tw-flex-nowrap.tw-flex-shrink-0.tw-mg-x-05 > div.tw-relative, a[href*="myway2win.com"]>img, a[href*="webto.ru"]>img, a[href*="hero.logitech.promo"]>img, .tw-z-above.tw-pd-t-05.tw-absolute.subtember-callout, a[href*="cybertraff.info/"], .tw-z-default.channel-leaderboard, .tw-full-width > .tw-mg-b-2, .tw-transition__fade--enter-done.tw-transition__fade.tw-transition--enter-done.tw-transition--duration-long.tw-transition, .tw-z-default.channel-leaderboard, .tw-z-above.tw-relative.tw-full-width.tw-c-text-base.blue-bar, .tw-z-default.tw-full-width.tw-absolute.chat-room__notifications, .tw-lg-flex.tw-hide > .tw-relative, .tw-pd-x-05.tw-flex.tw-c-text-overlay.tw-c-background-overlay.tw-border-t.tw-border-r.tw-border-l.tw-border-b.tw-absolute.muted-segments-alert, .tw-top-0.tw-right-0.tw-pd-2.tw-bottom-0.tw-absolute.player-overlay-background-sidebar.player-overlay-background--darkness-3.player-overlay-background, a[href*="vsemaykishop.ru"], a[href*="tiny.cc"], .tw-relative.tw-inline > .tw-relative.tw-overflow-hidden.tw-justify-content-center.tw-interactive.tw-inline-flex.tw-core-button.tw-button-icon--secondary.tw-button-icon.tw-border-top-right-radius-medium.tw-border-top-left-radius-medium.tw-border-bottom-right-radius-medium.tw-border-bottom-left-radius-medium.tw-align-middle.tw-align-items-center
-yandex.by,yandex.ru,yandex.ua,~disk.yandex.by,~disk.yandex.ru,~disk.yandex.ua,~mail.yandex.by,~mail.yandex.ru,~mail.yandex.ua,~market.yandex.by,~market.yandex.ru,~market.yandex.ua,~mobile.yandex.by,~mobile.yandex.ru,~mobile.yandex.ua,~money.yandex.by,~money.yandex.ru,~money.yandex.ua,~music.yandex.by,~music.yandex.ru,~music.yandex.ua,~rabota.yandex.by,~rabota.yandex.ru,~rabota.yandex.ua,~rasp.yandex.by,~rasp.yandex.ru,~rasp.yandex.ua,~realty.yandex.by,~realty.yandex.ru,~realty.yandex.ua,~taxi.yandex.by,~taxi.yandex.ru,~taxi.yandex.ua,~translate.yandex.by,~translate.yandex.ru,~translate.yandex.ua,~tv.yandex.by,~tv.yandex.ru,~tv.yandex.ua##+js(cookie-set.js, my, Yy4BAQA=, 2114785965)
-||main.zdevx.yandex.ru^
+/analytics/web/*$domain=~analytics.google.com
+google.*##+js(remove-attr.js, ping, div[class] > a[ping])
+google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
+||ads0.
+||ads1.
+||ads2.
+||ads3.
+||ads4.
+||ads5.
+||ads6.
+||ads7.
+||ads8.
+||ads9.
+||ads10.
+||ads11.
+||ads12.
+||ads13.
+||ads14.
+||ads15.
+||ads16.
+||ads17.
+||ads18.
+||ads19.
+||ads20.
+||ads21.
+||ads22.
+||ads23.
+||ads24.
+||ads25.
+||ads26.
+||ads27.
+||ads28.
+||ads29.
+||ads30.
+||ads31.
+||ads32.
+||ads33.
+||ads34.
+||ads35.
+||ads36.
+||ads37.
+||ads38.
+||ads39.
+||ads40.
+||ads41.
+||ads42.
+||ads43.
+||ads44.
+||ads45.
+||ads46.
+||ads47.
+||ads48.
+||ads49.
+||ads50.
+||ads.$domain=~ads.google.com
+||beacon0.
+||beacon1.
+||beacon2.
+||beacon3.
+||beacon4.
+||beacon5.
+||beacon6.
+||beacon7.
+||beacon8.
+||beacon9.
+||beacon10.
+||beacon11.
+||beacon12.
+||beacon13.
+||beacon14.
+||beacon15.
+||beacon16.
+||beacon17.
+||beacon18.
+||beacon19.
+||beacon20.
+||beacon21.
+||beacon22.
+||beacon23.
+||beacon24.
+||beacon25.
+||beacon26.
+||beacon27.
+||beacon28.
+||beacon29.
+||beacon30.
+||beacon31.
+||beacon32.
+||beacon33.
+||beacon34.
+||beacon35.
+||beacon36.
+||beacon37.
+||beacon38.
+||beacon39.
+||beacon40.
+||beacon41.
+||beacon42.
+||beacon43.
+||beacon44.
+||beacon45.
+||beacon46.
+||beacon47.
+||beacon48.
+||beacon49.
+||beacon50.
+||beacon.
 ||monitor0.
 ||monitor1.
 ||monitor2.
@@ -106,166 +276,6 @@ yandex.by,yandex.ru,yandex.ua,~disk.yandex.by,~disk.yandex.ru,~disk.yandex.ua,~m
 ||monitor49.
 ||monitor50.
 ||monitor.
-||kinomore.xyz/templates/kinogo-2016-net/img/logoface.png$image
-yandex.ru,yandex.ua,yandex.by,yandex.com##.favorites__icon, .head-promo-plus__icon, .head-promo-plus__title, .home-arrow__bottom, .media-grid__media-content, .media-grid_js_inited.font-regular.i-bem.media-grid_theme_white.media-grid_visible_yes.media-grid, .rows__row_last.rows__row.row, .popup_to_bottom.popup_visibility_visible.popup_js_inited.dist-popup_js_inited.popup_autoclosable_no.popup_theme_ffffff.popup_focusevents_no.popup_animate_yes.popup_adaptive_yes.popup_source_yabs.dist-popup_product_browser.dist-popup_install_download.dist-popup.popup.i-bem, .weather-maps__layer-tranzister, .ya-chat-widget_visible.ya-chat-widget_size_normal.ya-chat-widget_theme_light.ya-chat-widget_desktop.ya-chat-widget, .ya-chat-button__container_size_normal.ya-chat-button__container, .ya-chat-widget_size_normal.ya-chat-widget_theme_light.ya-chat-widget_desktop.ya-chat-widget, .serp-footer__main, .popup_to_bottom.popup_visibility_visible.popup_js_inited.dist-popup_js_inited.popup_autoclosable_no.popup_theme_custom-color.popup_focusevents_no.popup_animate_yes.popup_adaptive_yes.popup_source_yabs.dist-popup_product_browser.dist-popup.popup.i-bem, .dist-popup__content.popup__content, .desk-notif-card_js_inited.i-bem.desk-notif-card_bg_default.desk-notif-card_animated_yes.desk-notif-card_minified_yes.desk-notif-card_actions_yes.desk-notif-card_details_no.desk-notif-card_icon_yes.desk-notif-card_district_yes.desk-notif-card, .desk-notif-card_js_inited.i-bem.desk-notif-card_bg_default.desk-notif-card_animated_yes.desk-notif-card_minified_yes.desk-notif-card_actions_yes.desk-notif-card_details_yes.desk-notif-card_icon_yes.desk-notif-card_stream_channel.desk-notif-card_stream_yes.desk-notif-card, .desk-notif-card_js_inited.i-bem.desk-notif-card_bg_default.desk-notif-card_animated_yes.desk-notif-card_minified_yes.desk-notif-card_actions_yes.desk-notif-card_details_no.desk-notif-card_icon_yes.desk-notif-card_weather_yes.desk-notif-card, .container__line.container__banner.container, div > a[href*="//plus.yandex."], [class*="desk-notif-card"] > a[href*="/plus.yandex"], .yabrowser-promo, .container__banner, div[aria-label="Реклама"], div.page-root.page-root_no-player.deco-pane-back > div[class][data-b="2"][style="display: block;"], .font-regular.i-bem.media-grid_theme_white.media-grid_visible_no.media-grid, .popup2_visible_yes.popup2_direction_bottom-right.popup2_js_inited.i-bem.serp-user__promo-popup.popup2_view_classic.popup2_hiding_yes.popup2_autoclosable_yes.popup2_target_anchor.popup2_theme_normal.popup2, .distr-popup_js_inited.popup2_visible_yes.popup2_js_inited.i-dbn-cookie_js_inited.i-bem.card__colorize.i-dbn-cookie.distr-popup_hide-on-popups_yes.distr-popup_animation_bounce.distr-popup_shadow_yes.distr-popup_motley_dark-blue.distr-popup_type_landing.distr-popup_layout_simple.distr-popup_location_right-only.distr-popup.popup2_view_classic.popup2_direction_bottom-right.popup2_theme_clear.popup2_target_position.popup2, .i-bem.desk-notif-card_bg_default.desk-notif-card_animated_yes.desk-notif-card_minified_yes.desk-notif-card_actions_yes.desk-notif-card_details_no.desk-notif-card_icon_yes.desk-notif-card_district_yes.desk-notif-card, .i-bem.desk-notif-card_bg_default.desk-notif-card_animated_yes.desk-notif-card_minified_yes.desk-notif-card_actions_yes.desk-notif-card_details_yes.desk-notif-card_icon_yes.desk-notif-card_stream_channel.desk-notif-card_stream_yes.desk-notif-card, [class*="desk-notif-card"] > a[href*="/plus.yandex"], .blocks-grid__item_static.blocks-grid__item.pane2__direct-wrapper_type_stripe.pane2__direct-wrapper, .desk-notif-card_zen_yes, .tooltip_shown_yes.popup2_visible_yes.popup2_direction_bottom-right.popup2_js_inited.tooltip_js_inited.nqpJ9Xng.user2__tooltip.tooltip_for_favorites.tooltip_click_no.tooltip_tone_default.tooltip_view_classic.tooltip_theme_promo.tooltip_autoclosable_yes.tooltip.popup2_theme_normal.popup2_view_classic.popup2_autoclosable_yes.popup2_hiding_yes.popup2_target_anchor.popup2, .direct-close-block__confirm-popup, .direct-close-block__close-popup-content-wrapper, .direct-close-block__close-popup, .headline__notifier, .popup2_visible_yes.popup2_direction_bottom-center.popup2_js_inited.i-bem.popup2_region_notification.popup2_theme_normal.popup2_target_anchor.popup2_animate_yes.popup2_adaptive_yes.popup2_autoclosable_yes.popup2, .distr-popup_js_inited.popup2_visible_yes.popup2_direction_bottom-right.popup2_js_inited.i-dbn-cookie_js_inited.i-bem.card__colorize.i-dbn-cookie.distr-popup_animation_fall-show.distr-popup_shadow_yes.distr-popup_motley_light-green.distr-popup_type_landing.distr-popup_layout_simple.distr-popup_location_right-bottom.distr-popup.popup2_view_classic.popup2_theme_clear.popup2_target_position.popup2, .distr-popup_js_inited.popup2_visible_yes.popup2_js_inited.i-dbn-cookie_js_inited.i-bem.card__colorize.i-dbn-cookie.distr-popup_hide-on-popups_yes.distr-popup_animation_bounce.distr-popup_shadow_yes.distr-popup_motley_green.distr-popup_type_landing.distr-popup_layout_simple.distr-popup_location_right-only.distr-popup.popup2_view_classic.popup2_direction_bottom-right.popup2_theme_clear.popup2_target_position.popup2, .tooltip_shown_yes.popup2_visible_yes.popup2_direction_bottom-right.auth-popup_js_inited.popup2_js_inited.tooltip_js_inited.i-bem.auth-popup.tooltip_for_favorites.tooltip_click_no.tooltip_tone_default.tooltip_view_classic.tooltip_theme_promo.tooltip_autoclosable_yes.tooltip.popup2_theme_normal.popup2_view_classic.popup2_autoclosable_yes.popup2_hiding_yes.popup2_target_anchor.popup2, .widgets__col_td_2, .widget_id_teaser, .media-promo, .popup2_visible_yes.popup2_direction_bottom-right.serp-user_js_inited.promo-popup_js_inited._popup2-destructor_js_inited._popup2-destructor.popup2_js_inited.i-bem.serp-user__promo-popup.serp-user.promo-popup_social_yes.promo-popup_type_promo.promo-popup_shadow_yes.promo-popup_theme_ffffff.promo-popup.popup2_view_classic.popup2_hiding_yes.popup2_theme_clear.popup2_target_anchor.popup2, .distr-popup_js_inited.popup2_visible_yes.popup2_direction_bottom-right.popup2_js_inited.i-dbn-cookie_js_inited.i-bem.card__colorize.i-dbn-cookie.distr-popup_animation_fall-show.distr-popup_shadow_yes.distr-popup_motley_light-blue.distr-popup_type_landing.distr-popup_layout_simple.distr-popup_location_right-bottom.distr-popup.popup2_view_classic.popup2_theme_clear.popup2_target_position.popup2, .distr-popup_js_inited.popup2_visible_yes.popup2_js_inited.i-dbn-cookie_js_inited.i-bem.card__colorize.i-dbn-cookie.distr-popup_hide-on-popups_yes.distr-popup_animation_slide-show.distr-popup_shadow_yes.distr-popup_motley_light-blue.distr-popup_type_landing.distr-popup_layout_simple.distr-popup_location_right-only.distr-popup.popup2_view_classic.popup2_direction_bottom-right.popup2_theme_clear.popup2_target_position.popup2, .distr-popup_js_inited.popup2_visible_yes.popup2_direction_bottom-right.popup2_js_inited.i-dbn-cookie_js_inited.i-bem.card__colorize.i-dbn-cookie.distr-popup_animation_slide-show.distr-popup_shadow_yes.distr-popup_motley_grey.distr-popup_type_landing.distr-popup_layout_simple.distr-popup_location_right-bottom.distr-popup.popup2_view_classic.popup2_theme_clear.popup2_target_position.popup2, .notifier__box, .notifier_js_inited.notifier_has-unread_yes.i-bem.serp-header__notifier.notifier_fade_yes.notifier_size_m.notifier_no-login_yes.notifier_header.notifier, .header-favorites-button_js_inited.i-bem.header-favorites-button, .distr-popup__content.popup2__content, .tooltip-api_js_inited.tooltip_shown_yes.popup2_visible_yes.popup2_direction_bottom-right.popup2_js_inited.tooltip_js_inited.i-bem.carousel__yabro-tooltip.tooltip-api_theme_promo.tooltip-api.tooltip_autoclosable_yes.tooltip_align_left.tooltip_view_classic.tooltip_tone_dark.tooltip_size_xs.tooltip_theme_promo.tooltip.popup2_theme_normal.popup2_view_classic.popup2_autoclosable_yes.popup2_hiding_yes.popup2_target_anchor.popup2, .main__carousel_js_inited.serp_js_inited.i-bem.serp.main__carousel > .serp-item
-||adguardteam.github.io/AnonymousRedirect/redirect.html$document
-||ads0.
-||rs.mail.ru^
-||xray.mail.ru^
-||recostream.go.mail.ru^
-||ad.mail.ru^
-||ads1.
-||ads2.
-||ads3.
-||ads4.
-||ads5.
-||ads6.
-||ads7.
-||ads8.
-||ads9.
-||ads10.
-||ads11.
-||ads12.
-||ads13.
-||ads14.
-||ads15.
-||mradx.net^
-||ads16.
-||ads17.
-||ads18.
-||ads19.
-||ads20.
-||ads21.
-||ads22.
-||ads23.
-||ads24.
-||ads25.
-||ads26.
-||ads27.
-||ads28.
-||ads29.
-||ads30.
-||ads31.
-||ads32.
-||ads33.
-||ads34.
-||ads35.
-||ads36.
-||ads37.
-||ads38.
-||ads39.
-||ads40.
-||ads41.
-||ads42.
-||ads43.
-||ads44.
-||ads45.
-||ads46.
-||ads47.
-||ads48.
-||ads49.
-||ads50.
-||graph.facebook.com^
-||appmetrica.yandex.net^
-||mtalk.google.com^
-||clients1.google.com^
-||clients2.google.com^
-||clients3.google.com^
-||clients4.google.com^
-||clients5.google.com^
-||beacon.
-||beacon0.
-||beacon1.
-||beacon2.
-||beacon3.
-||beacon4.
-rutube.ru##.cookie-consent
-||sandbox.music.yandex.net^$subdocument,domain=music.yandex.ru
-||beacon5.
-||beacon6.
-||beacon7.
-||beacon8.
-||beacon9.
-||beacon10.
-||beacon11.
-||beacon12.
-||beacon13.
-||beacon14.
-||beacon15.
-||beacon16.
-||beacon17.
-||beacon18.
-||beacon19.
-||4ee395e5b8a076c7bd8592851ff8cad.com^
-||appbaqend.com^
-||tapjoy.com^
-||tapjoyads.com^
-||rayjump.com^
-||unityads.unity3d.com^
-||moatads.com^
-||adcolony.com^
-||applovin.com^
-||chartboost.com^
-||criteo.com^
-||inmobi.com^
-kinogo-19.club##[src="/uploads/pley2.jpg"], [src="/uploads/cverhu.jpg"]
-||startappservice.com^
-||vungle.com^
-*/*.mp4|$media,app=game.maddex.jump
-/^https?:\/\/([0-9]{1,3})\.([0-9]{1,3})\.([0-9]{1,3})\.([0-9]{1,3})[:/]443/$app=game.maddex.jump
-||startup.mobile.yandex.net^
-||beacon20.
-||beacon21.
-||beacon22.
-||beacon23.
-||beacon24.
-||beacon25.
-||beacon26.
-||beacon27.
-||beacon28.
-||beacon29.
-/^https?:\/\/(www\.)?yandex\.(ru|ua|by|com)/$csp=script-src data: 'unsafe-inline' 'unsafe-eval' https://yandex.ru http://yandex.ru https://pass.yandex.ru https://api.passport.yandex.ru https://passport.yandex.ua https://api.passport.yandex.ua https://passport.yandex.by https://api.passport.yandex.by yastatic.net *.yandex.sx https://yandex.ua http://yandex.ua https://yandex.by http://yandex.by; img-src data: https://yandex.ru http://yandex.ru https://yandex.ua http://yandex.ua https://yandex.by http://yandex.by *.passport.yandex.ru *.passport.yandex.ua *.passport.yandex.by yastatic.net *.yandex.sx *.yandex.net; connect-src data: https://yandex.ru http://yandex.ru https://cloud-api.yandex.ru https://mail.yandex.ru http://cloud-api.yandex.ru http://mail.yandex.ru yastatic.net https://frontend.vh.yandex.ru http://frontend.vh.yandex.ru *.yandex.sx https://yandex.ua http://yandex.ua https://pass.yandex.ru https://api.passport.yandex.ru https://passport.yandex.ua https://api.passport.yandex.ua https://passport.yandex.by https://api.passport.yandex.by https://yandex.by http://yandex.by; object-src 'none';
-||twitch.tv^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' wss: blob: *.jtvnw.net *.ttvnw.net *.twitchcdn.net *.twitch.tv *.facebook.com *.facebook.net recaptcha.net *.google.com *.gstatic.com *.algolia.net;
-||youtube.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: wss: *.ggpht.com *.googlevideo.com *.ytimg.com *.googleusercontent.com *.youtube.com *.google.com *.gstatic.com;
-||beacon30.
-||beacon31.
-||beacon32.
-||beacon33.
-||beacon34.
-||awaps.yandex.net^
-||beacon35.
-||beacon36.
-||beacon37.
-/^https?:\/\/yastatic\.net\/[^\s]{120,}/$image
-||r3.mail.ru^
-*/endscreen.js$script,domain=youtube.com
-||top-fwz1.mail.ru^
-||beacon38.
-||beacon39.
-||beacon40.
-||beacon41.
-||beacon42.
-||beacon43.
-||beacon44.
-||212.122.5.136^
-||beacon45.
-||beacon46.
-||fundingchoicesmessages.google.com^
-||contributor.google.com^
-||beacon47.
-||googletagservices.com^
-||beacon48.
-||beacon49.
-||imasdk.googleapis.com^
-||beacon50.
-||alt*-mtalk.google.com^
-||ads.$domain=~ads.google.com
-||adservice.google.com^
-||id.google.com^
-/analytics/web/*$domain=~analytics.google.com
-*/promo-banner.js$script,domain=pornhub.com
-metrika.yandex.ru##div.notification-wrapper_js_inited.i-bem.notification-wrapper
-github.com##.border-bottom.hide-sm.hide-md.hide-lg.mt-5.pr-3.col-lg-3.col-md-3.col-12.team-left-column
 
 ! ~~~~~~~ Not my shitty rules ~~~~~~~
 net#@#body:style(cursor: unset !important)
@@ -345,7 +355,6 @@ pornhub.com#@#+js(abort-on-property-write, UAParser)
 #@#.shareTrig
 #@#.shareIcons
 #@#.js-triggerShare
-.top/$badfilter
 .club/$badfilter
 /share2/*$subdocument,script,badfilter
 #@#a[href^="viber://forward?text="]
@@ -403,7 +412,6 @@ oko.sh#@#+js(abort-on-property-read)
 ||fbtc-audio.freebitco.in^$badfilter
 ||static1.freebitco.in^$badfilter
 ||freebitco.in^$badfilter
-freebitco.in##.reveal-modal-bg, .open.reveal-modal, .daily_jackpot_main_container_div, #deposit_promo_message_regular
 *stats*$important,1p,badfilter
 #@##share_button
 #@#*[id*="_ads_"]
@@ -557,10 +565,14 @@ cnn.com#@#.m-truste, #new-tos-privacy, #js-tos-prompt, head + div, .user-msg, #n
 *#@#*[id^="ad_"]
 *#@#*[id^="ad0"]
 *#@#*[id^="ad1"]
+speedtest.net#@#+js(set-constant, isBlocked, false)
 *#@#*[id^="ad2"]
+speedtest.net#@#+js(abort-on-property-read, _sp_)
 *#@#*[id^="ad3"]
 *#@#*[id^="ad4"]
+||speedtest.net^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: www.speedtest.net *.cdnst.net;connect-src *,badfilter
 *#@#*[id^="ad5"]
+speedtest.net#@#+js(eremove, .high-placeholder.pure-u-1\, .u-c.pure-u-custom-ad-rectangle\, .u-c.pure-u-custom-ad-skyscraper\, .eot-mini-survey\, .top-placeholder.pure-u-1\, .eot-info-audience.u-c.pure-u-1-2\, .u-c.pure-u-1-4:nth-of-type(1) > ul.menu-footer:nth-of-type(2))
 *#@#*[id^="ad6"]
 *#@#*[id^="ad7"]
 *#@#*[id^="ad8"]
@@ -1037,6 +1049,9 @@ youtube.com#@#+js(eremove, #watch-action-panels\, #chat\, .ytp-ce-covering-overl
 #@#.social-teasers
 streamango.com#@#+js(abort-on-property-write, _0xd959)
 #@#a[title="Facebook"]
+.top/$badfilter
+||.gdn^$document,domain=~ Warning displayed due to: It's a topical domain whose sites have an unusally big chance of being fraudulent.,badfilter
+||vkcdnservice.com^$badfilter
 #@#.ya-share2
 streamango.com#@#+js(aeld, contextmenu)
 streamango.com#@#+js(addEventListener-defuser, DOMMouseScroll)
