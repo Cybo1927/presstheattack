@@ -539,6 +539,28 @@ com#@#button:style(cursor: unset !important)
 #@#.icons-vimeo
 #@#.icons-twitter
 #@#.icons-stumbleupon
+#@#*[class^="ad "]
+#@#*[class^="advert"]
+@@||akamaihd.net^$3p,badfilter
+#@#.amp-facebook
+||foxnewsplayer-a.akamaihd.net^$badfilter
+#@#.social-icons
+@@||fncstatic.com^*/ads.js$badfilter
+@@||akamaized.net^$3p,badfilter
+/ads/*$important,1p,badfilter
+optimizely$important,script,badfilter
+cnn.com#@#.m-truste, #new-tos-privacy, #js-tos-prompt, head + div, .user-msg, #notification-legal, .popup_tosEdition
+.*/ads$badfilter
+#@#*[id^="ad_"]
+#@#*[class*="-ads-"]
+.*/ads/$badfilter
+#@#.m-share
+#@#.js-share-bar
+#@#.gig-share-bar-container
+-sharebar.$badfilter
+#@#.gig-share-button-container
+#@#.fb-send-to-messenger
+@@||fastly.net^$3p,badfilter
 #@#a[href^="https://wa.me/?text="]
 #@#a[href^="http://www.facebook.com/sharer.php?"]
 #@#a[href^="http://www.facebook.com/sharer.php"]
