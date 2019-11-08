@@ -477,8 +477,8 @@
 ||adrtgbebgd.bid^$important
 ||ads*-adnow.com^$important
 ||ads-twitter.com^$important
-||ads.pubmatic.com^$important
-||ads.vidoomy.com^$important
+||ads1-adnow.com^$important
+||ads2-adnow.com^$important
 ||ads3-adnow.com^$important
 ||adsafeprotected.com^$important
 ||adsco.re^$important
