@@ -11,3 +11,4 @@
 |http*:*/www/*&zoneid=$image,important,script,xmlhttprequest
 |http*:*/xti.php^$important,script,xmlhttprequest,domain=facebook.com|facebookcorewwwi.onion
 ||youtube.com/api/stats/$image,important,other,xmlhttprequest
+/^https?:\/\/[^\s]+\/(([a-zA-Z]{1,5})?[!"#$%&'()*+,:;<=>?@/\^_`{|}~-])?[a-zA-Z]{1}track(ers?|ing)[?/]/$important,script,xmlhttprequest,other,image
