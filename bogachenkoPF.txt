@@ -501,8 +501,13 @@ twitter.com^$important,domain=fmovies.to,badfilter
 ||addthis.com/live/$3p,script,badfilter
 @@||twitter.com^$3p,badfilter
 @@||platform.twitter.com^$3p,badfilter
+#@#.social-shared
+@@||content.jwplatform.com^$3p,badfilter
+gravatar.com$important,badfilter
+#@#.share__button
 @@||twimg.com^$3p,badfilter
 ||platform.twitter.com/js/button.$3p,badfilter
+/gen_204$important,badfilter
 @@||platform.twitter.com/widgets.js$badfilter
 /widgets.js$badfilter
 ||platform.twitter.com/widgets/follow_button$subdocument,badfilter
