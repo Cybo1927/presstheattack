@@ -549,6 +549,8 @@ com#@#button:style(cursor: unset !important)
 #@#.icons-pinterest
 #@#.icons-instagram
 #@#.icons-googleplus
+||popupmaker.com^$3p,important,badfilter
+/ultimate-popunder/*$1p,script,badfilter
 #@#.icons-flickr
 #@#.icons-facebook
 #@#.icons-dribbble
