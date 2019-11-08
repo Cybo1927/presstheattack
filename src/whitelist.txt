@@ -1,3 +1,0 @@
-@@||yandex.st/swfobject/*^$script
-@@||yastatic.net/*-player-iframe-api-*/$script,subdocument,xmlhttprequest
-@@||yastatic.net/video-player/$subdocument
