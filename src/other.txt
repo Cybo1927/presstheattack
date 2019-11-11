@@ -30,6 +30,7 @@
 |http*:*-pixel.*?uuid=$important
 |http*:*.html?clicktag=$important
 |http*:*/in.php?*&referer=$important
+|http*:*/www/delivery/$important
 |http*:*/pagead/$important
 |http*:*/pview?event$important
 |http*:*?rand=*&blk=$important
