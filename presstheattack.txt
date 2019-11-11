@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-11-11 14:01:23
-! Version: 20191111140123
+! Last modified: 2019-11-11 16:06:42
+! Version: 20191111160642
 ! Expires: 3 hours
-! Number of filters: 13098
+! Number of filters: 13102
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -126,6 +126,7 @@
 |http*:*/spacer.gif$image,important,domain=~kinopoisk.ru
 |http*:*/uutils.fcg?$important,script
 |http*:*/www/*&zoneid=$image,important,script,xmlhttprequest
+|http*:*/www/delivery/$important
 |http*:*/xti.php^$important,script,xmlhttprequest,domain=facebook.com|facebookcorewwwi.onion
 |http*:*?*&lp=*id=$popup
 |http*:*?lp=*id=$popup
@@ -3652,6 +3653,7 @@
 ||fzcyyqvrbrpk.com^$important
 ||fzgitqrqrsyyiv.com^$important
 ||fzhwvlpnqg.bid^$important
+||fzorwhus.com^$important
 ||fzpseyhkanhopd.com^$important
 ||fzqxefkbjzwiqa.com^$important
 ||fzrcalpbcu.com^$important
@@ -4465,6 +4467,7 @@
 ||hpqxznpb.bid^$important
 ||hpsthxyqxqae.com^$important
 ||hpufwccrmiwz.com^$important
+||hpuknttzl.com^$important
 ||hpvxmmttf.bid^$important
 ||hpwsosviqyjem.com^$important
 ||hpxbifcd.com^$important
@@ -12517,6 +12520,7 @@
 ||yrxhmallcirx.com^$important
 ||yrxrbha.com^$important
 ||yrzukplqjwxst.bid^$important
+||ys1s.xyz^$important
 ||ys3e965d.top^$important
 ||ysaloykchjyxg.com^$important
 ||ysbbcrypsc.com^$important
