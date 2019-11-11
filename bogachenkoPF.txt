@@ -1098,6 +1098,8 @@ asianrun.com#@#+js(set, allow_ads, true)
 #@#.share-page
 #@#.fb-share
 #@#.facebook-share
+||kissanime.ac^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: static.animecdn.xyz embed.streamx.live,badfilter
+||embed.streamx.live^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.googlevideo.com *.openstream.io *.googleapis.com hydrax.net *.hydrax.net iamcdn.net *.iamcdn.net *.hailhydra.org *.googleusercontent.com cdn.jwplayer.com ssl.p.jwpcdn.com *.bighost.be,badfilter
 yandex.ru#@#body > div[class*="popup"][class*="tooltip_theme_promo"]
 /analytics/web/*$badfilter
 ||streamango.com^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' *.cloudflare.com,badfilter
@@ -1108,6 +1110,7 @@ com#@#body:style(cursor: unset !important)
 com#@#a:link:style(cursor: pointer)
 analytics$important,badfilter
 #@#.social-icon
+kissanime.ac#@#+js(eremove, #divComments\, .full.barTitle\, .related_news\, .footer_watching_link)
 #@#.social-menu
 piwik$important,script,badfilter
 ovagames.com#@#+js(abort-on-property-write, document.oncontextmenu)
