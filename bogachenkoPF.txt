@@ -122,6 +122,8 @@ rutube.ru##.cookie-consent
 ||st.kp.yandex.net/images/bnnr/brand/$image
 ||torrentfilm.me/img/bg.jpg$image
 ||kinomore.xyz/templates/*/img/logoface.png$image
+/^https?:\/\/dota2\.ru\/img\/regardbrand(header|mobile)?\.jpg/$image,important
+||dota2.ru/img/gor72q.jpg$image
 ||yastatic.net/*.gif$image,important,domain=~mail.yandex.by|~mail.yandex.ru|~mail.yandex.ua
 @@||clck.yandex.ru^*/*https://passport.yandex.ru/auth?
 /analytics/web/*$domain=~analytics.google.com
