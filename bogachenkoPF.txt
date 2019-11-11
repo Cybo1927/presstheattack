@@ -673,8 +673,6 @@ instagram.com#@#+js(eremove, .Yx5HN.RnEpo)
 *#@#*[id*="TopBanner"]
 *#@#*[id$=" ads"]
 *#@#*[id$="-ad"]
-vivo.sx#@#+js(aeld, , preventDefault)
-vivo.sx#@#+js(abort-on-property-read, WebAssembly)
 ||facebook.com/*/plugins/like.php$subdocument,badfilter
 ||sharethis.com^$important,badfilter
 ||facebook.com^*/plugins/like.php?$3p,badfilter
@@ -1098,6 +1096,8 @@ asianrun.com#@#+js(set, allow_ads, true)
 #@#.share-page
 #@#.fb-share
 #@#.facebook-share
+||connect.facebook.net/en_us/fbadnw*-tag.js^$badfilter
+||facebook.com/plugins/comments.php?$badfilter
 ||kissanime.ac^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: static.animecdn.xyz embed.streamx.live,badfilter
 ||embed.streamx.live^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.googlevideo.com *.openstream.io *.googleapis.com hydrax.net *.hydrax.net iamcdn.net *.iamcdn.net *.hailhydra.org *.googleusercontent.com cdn.jwplayer.com ssl.p.jwpcdn.com *.bighost.be,badfilter
 yandex.ru#@#body > div[class*="popup"][class*="tooltip_theme_promo"]
@@ -1199,6 +1199,7 @@ oload.*#@#+js(aeld, contextmenu)
 ||www.facebook.com/plugins/like.php$subdocument,badfilter
 ||facebook.com/plugins/like.php?$3p,badfilter
 ||facebook.com*/plugins/like.php?$3p,badfilter
+||sharethis.com^$3p,script,badfilter
 ||facebook.com/plugins/like.php^$3p,badfilter
 ||facebook.com/plugins/like$3p,domain=~fb.com,badfilter
 oload.*#@#+js(eremove, body > div:nth-of-type(2))
