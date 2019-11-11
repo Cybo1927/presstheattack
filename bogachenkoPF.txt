@@ -66,7 +66,7 @@
 ||dropbox.com^$app=game.maddex.jump,important
 ||sandbox.music.yandex.net^$subdocument,domain=music.yandex.ru
 salahstream.ml,syriancivilwarmap.com##+js(addEventListener-defuser.js, contextmenu)
-ventax.net,kinomore.xyz,rutube.ru##+js(contextmenudef.js)
+ventax.net,kinomore.xyz,rutube.ru,ovagames.com##+js(contextmenudef.js)
 kinogo.*,torrent-filmi.xyz,kinoframe.net,filmitorrent.xyz,hdfilms.zone,kinomore.xyz,smotrim.online##body:style(background-image: none !important;)
 playground.ru,kissasian.*,sourceforge.net,kimcartoon.to,datoporn.co,trialnod.com##+js(nano-setTimeout-booster.js)
 infourok.ru,bogachenko.github.io,torrent-filmi.xyz,waaw.tv,123movies.*,ros-met.com,hdfilms.zone,kinohd-online.club,filmy-onlain.net,vio.to,luxfilm.net,xartmanfilms.ru,kinobot.club,kinoangel.net,tvfru.ru,kino-top1.net,lookmix.org,lamafilm.club##+js(mousedef2.js)
@@ -663,10 +663,18 @@ speedtest.net#@#+js(eremove, .high-placeholder.pure-u-1\, .u-c.pure-u-custom-ad-
 *#@#*[id*="TopBanner"]
 *#@#*[id$=" ads"]
 *#@#*[id$="-ad"]
+vivo.sx#@#+js(aeld, , preventDefault)
+vivo.sx#@#+js(abort-on-property-read, WebAssembly)
+||facebook.com/*/plugins/like.php$subdocument,badfilter
+||sharethis.com^$important,badfilter
+||facebook.com^*/plugins/like.php?$3p,badfilter
+||sharethis.com^$badfilter
+||sharethis.com^$3p,badfilter
 *#@#*[id$="-ads"]
 *#@#*[id$="_ad"]
 *#@#*[id$="_ads"]
 *#@#*[id$="0ad"]
+||googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication_adsbygoogle.js,badfilter
 *#@#*[id$="1ad"]
 *#@#*[id$="2ad"]
 *#@#*[id$="3ad"]
@@ -798,6 +806,7 @@ speedtest.net#@#+js(eremove, .high-placeholder.pure-u-1\, .u-c.pure-u-custom-ad-
 *#@#*[class*="fix_ad "]
 *#@#*[class*="headbanners"]
 *#@#*[class*="itemAds"]
+||apis.google.com/js/plusone.js$badfilter
 *#@#*[class*="LeftAds-"]
 *#@#*[class*="mobile-ad "]
 *#@#*[class*="mobile-ad_"]
@@ -1064,8 +1073,10 @@ analytics$important,badfilter
 #@#.social-icon
 #@#.social-menu
 piwik$important,script,badfilter
+ovagames.com#@#+js(abort-on-property-write, document.oncontextmenu)
 /ua-parser.$badfilter
-facebook.com#@#+js(eremove, .home_right_column\, #page_tv_show_playlists\, #pagelet_page_cover\, #page_tv_show_extra_clips\, #page_photos\, .UFIList\, .photoUfiContainer.rhc\, #fb_stories_card_root, .lpwhe18s.alzwoclg.cqf1kptm.cgu29s5g.jcxyg2ei\, .alzwoclg.g4qalytl.oxkhqvkx.r5g9zsuq.nch0832m.hsphh064 > .cgu29s5g:nth-of-type(1))
+ovagames.com#@#+js(abort-current-inline-script, disableSelection, reEnable)
+facebook.com#@#+js(eremove, .home_right_column\, #page_tv_show_playlists\, #pagelet_page_cover\, #page_tv_show_extra_clips\, #page_photos\, .UFIList\, .photoUfiContainer.rhc\, #fb_stories_card_root)
 pixel.$important,image,badfilter
 ||facebook.com^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.fbcdn.net,badfilter
 ||youtube.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.ggpht.com *.googlevideo.com *.ytimg.com *.googleusercontent.com www.youtube.com,badfilter
