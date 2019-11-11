@@ -77,10 +77,6 @@
 ||1xeemc.host^$important
 ||2013b42f102806.com^$important
 ||2013sh.com^$important
-||adtrue.com^$important
-||wikbpyexkw.com^$important
-||ghdccdtxvnpo.com^$important
-||6zw2rcfd.com^$important
 ||2060d16de8167ebba1f.com^$important
 ||210189.com^$important
 ||21b666055c.com^$important
@@ -506,6 +502,7 @@
 ||adtm.chip.de^$important
 ||adtng.com^$important
 ||adtrack.adleadevent.com^$important
+||adtrue.com^$important
 ||adturtle.biz^$important
 ||adudzlhdjgof.com^$important
 ||aduobooydxr.com^$important
@@ -3663,6 +3660,7 @@
 ||ggyrnhdbqxufh.com^$important
 ||ggzvlwrf.com^$important
 ||ghaszdguvrtnb.com^$important
+||ghdccdtxvnpo.com^$important
 ||ghizipjlsi.bid^$important
 ||ghjlhnbc.com^$important
 ||ghjwogfexch.com^$important
@@ -11306,6 +11304,7 @@
 ||wijczxvihjyu.com^$important
 ||wijjidqydgsxas.com^$important
 ||wijokroa.net^$important
+||wikbpyexkw.com^$important
 ||wiklrrrwqqf.com^$important
 ||wiklweefcuorh.com^$important
 ||wilburnkeithsburg.com^$important
