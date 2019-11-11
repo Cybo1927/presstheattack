@@ -822,6 +822,8 @@ vivo.sx#@#+js(abort-on-property-read, WebAssembly)
 *#@#*[class*="-ads-"]
 *#@#*[class*="-ads_"]
 *#@#*[class*="-adv-box"]
+||apis.google.com/js/plusone.js^$3p,badfilter
+||count-server.sharethis.com^$badfilter
 *#@#*[class*="-e3lanat "]
 *#@#*[class*="-e3lanat-"]
 *#@#*[class*="_AdRotator"]
