@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-11-11 20:26:00
-! Version: 20191111202600
+! Last modified: 2019-11-11 21:02:40
+! Version: 20191111210240
 ! Expires: 3 hours
-! Number of filters: 13105
+! Number of filters: 13109
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -3306,6 +3306,7 @@
 ||fhsohqtif.com^$important
 ||fhsxhewkajqwgf.bid^$important
 ||fhtlyoqzyjjof.com^$important
+||fhtoxxda.com^$important
 ||fhxmqthpjswm.bid^$important
 ||fhylnqzxwsbo.com^$important
 ||fhzgapsfnlsvx.bid^$important
@@ -8089,6 +8090,7 @@
 ||pshcqtizgdlm.com^$important
 ||psmlgjalddqu.com^$important
 ||psourdat.com^$important
+||psozoult.net^$important
 ||psrbrytujuxv.com^$important
 ||psughooy.com^$important
 ||psvdblzcgnjj.com^$important
@@ -10806,6 +10808,7 @@
 ||vaksyrgpkz.com^$important
 ||valshara.com^$important
 ||vamuglchdpte.com^$important
+||vanderebony.pro^$important
 ||vanfireworks.com^$important
 ||vanibwlu.bid^$important
 ||vaoajrwmjzxp.com^$important
@@ -11745,6 +11748,7 @@
 ||wypyocogs.bid^$important
 ||wyuakcwxmiunqj.com^$important
 ||wyueivwashc.com^$important
+||wyvyikcnalvil.com^$important
 ||wywrettqmke.com^$important
 ||wyycgfyum.com^$important
 ||wyyrjymqewhulr.com^$important

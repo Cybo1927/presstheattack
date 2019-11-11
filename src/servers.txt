@@ -157,10 +157,6 @@
 ||3b26cbed75120f.com^$important
 ||3b9eb5ed04721bef.com^$important
 ||3ba87e4828c5a95.com^$important
-||wyvyikcnalvil.com^$important
-||fhtoxxda.com^$important
-||psozoult.net^$important
-||vanderebony.pro^$important
 ||3c06b86c4147745b.com^$important
 ||3d745b2a9ce52.com^$important
 ||3da86d9fe797f228.com^$important
@@ -3182,6 +3178,7 @@
 ||fhsohqtif.com^$important
 ||fhsxhewkajqwgf.bid^$important
 ||fhtlyoqzyjjof.com^$important
+||fhtoxxda.com^$important
 ||fhxmqthpjswm.bid^$important
 ||fhylnqzxwsbo.com^$important
 ||fhzgapsfnlsvx.bid^$important
@@ -7955,6 +7952,7 @@
 ||pshcqtizgdlm.com^$important
 ||psmlgjalddqu.com^$important
 ||psourdat.com^$important
+||psozoult.net^$important
 ||psrbrytujuxv.com^$important
 ||psughooy.com^$important
 ||psvdblzcgnjj.com^$important
@@ -10666,6 +10664,7 @@
 ||vaksyrgpkz.com^$important
 ||valshara.com^$important
 ||vamuglchdpte.com^$important
+||vanderebony.pro^$important
 ||vanfireworks.com^$important
 ||vanibwlu.bid^$important
 ||vaoajrwmjzxp.com^$important
@@ -11605,6 +11604,7 @@
 ||wypyocogs.bid^$important
 ||wyuakcwxmiunqj.com^$important
 ||wyueivwashc.com^$important
+||wyvyikcnalvil.com^$important
 ||wywrettqmke.com^$important
 ||wyycgfyum.com^$important
 ||wyyrjymqewhulr.com^$important
