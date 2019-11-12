@@ -62,6 +62,7 @@
 ||vungle.com^
 ||xray.mail.ru^
 ||alt*-mtalk.google.com^
+||bit.ly/*^$important
 ||yastatic.net^$popup,important
 ||dropbox.com^$app=game.maddex.jump,important
 ||sandbox.music.yandex.net^$subdocument,domain=music.yandex.ru
@@ -70,6 +71,7 @@ ventax.net,kinomore.xyz,rutube.ru,ovagames.com##+js(contextmenudef.js)
 kinogo.*,torrent-filmi.xyz,kinoframe.net,filmitorrent.xyz,hdfilms.zone,kinomore.xyz,smotrim.online##body:style(background-image: none !important;)
 playground.ru,kissasian.*,sourceforge.net,kimcartoon.to,datoporn.co,trialnod.com##+js(nano-setTimeout-booster.js)
 infourok.ru,bogachenko.github.io,torrent-filmi.xyz,waaw.tv,123movies.*,ros-met.com,hdfilms.zone,kinohd-online.club,filmy-onlain.net,vio.to,luxfilm.net,xartmanfilms.ru,kinobot.club,kinoangel.net,tvfru.ru,kino-top1.net,lookmix.org,lamafilm.club##+js(mousedef2.js)
+peserialehd.us##+js(mousedef.js)
 yandex.by,yandex.ru,yandex.ua,~disk.yandex.by,~disk.yandex.ru,~disk.yandex.ua,~mail.yandex.by,~mail.yandex.ru,~mail.yandex.ua,~market.yandex.by,~market.yandex.ru,~market.yandex.ua,~mobile.yandex.by,~mobile.yandex.ru,~mobile.yandex.ua,~money.yandex.by,~money.yandex.ru,~money.yandex.ua,~music.yandex.by,~music.yandex.ru,~music.yandex.ua,~rabota.yandex.by,~rabota.yandex.ru,~rabota.yandex.ua,~rasp.yandex.by,~rasp.yandex.ru,~rasp.yandex.ua,~realty.yandex.by,~realty.yandex.ru,~realty.yandex.ua,~taxi.yandex.by,~taxi.yandex.ru,~taxi.yandex.ua,~translate.yandex.by,~translate.yandex.ru,~translate.yandex.ua,~tv.yandex.by,~tv.yandex.ru,~tv.yandex.ua##+js(cookie-set.js, my, Yy4BAQA=, 2114785965)
 infourok.ru##+js(addEventListener-defuser.js, focus)
 infourok.ru##+js(addEventListener-defuser.js, focus, trigger)
@@ -510,6 +512,14 @@ twitter.com^$important,domain=fmovies.to,badfilter
 gravatar.com$important,badfilter
 #@#.share__button
 @@||twimg.com^$3p,badfilter
+#@#a[href^="http://www.reddit.com/submit"]
+#@#a[href^="http://digg.com/submit?"]
+hqq.*#@#+js(aopr, adBlockDetected)
+hqq.*#@#+js(aopr, console.clear)
+hqq.*#@#+js(set-constant, sadbl, false)
+hqq.tv#@#+js(setTimeout-defuser, check, 100)
+#@#a[title="StumbleUpon"]
+||www.blogger.com/comment-iframe.g$subdocument,badfilter
 ||platform.twitter.com/js/button.$3p,badfilter
 /gen_204$important,badfilter
 @@||platform.twitter.com/widgets.js$badfilter
