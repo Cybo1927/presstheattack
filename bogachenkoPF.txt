@@ -68,7 +68,7 @@
 ||dropbox.com^$app=game.maddex.jump,important
 ||sandbox.music.yandex.net^$subdocument,domain=music.yandex.ru
 salahstream.ml,syriancivilwarmap.com##+js(addEventListener-defuser.js, contextmenu)
-ventax.net,kinomore.xyz,rutube.ru,ovagames.com##+js(contextmenudef.js)
+ventax.net,kinomore.xyz,rutube.ru,ovagames.com,hindipix.*##+js(contextmenudef.js)
 kinogo.*,torrent-filmi.xyz,kinoframe.net,filmitorrent.xyz,hdfilms.zone,kinomore.xyz,smotrim.online##body:style(background-image: none !important;)
 playground.ru,kissasian.*,sourceforge.net,kimcartoon.to,datoporn.co,trialnod.com##+js(nano-setTimeout-booster.js)
 infourok.ru,bogachenko.github.io,torrent-filmi.xyz,waaw.tv,123movies.*,ros-met.com,hdfilms.zone,kinohd-online.club,filmy-onlain.net,vio.to,luxfilm.net,xartmanfilms.ru,kinobot.club,kinoangel.net,tvfru.ru,kino-top1.net,lookmix.org,lamafilm.club##+js(mousedef2.js)
@@ -601,6 +601,12 @@ track$important,script,badfilter
 ||s7.addthis.com^$badfilter
 ||m.addthis.com^$badfilter
 extremetube.com#@#+js(abort-on-property-read, exbl)
+@@/fuckadblock.$1p,script,badfilter
+#@##\5f __plus_0
+/adv/*$badfilter
+/js/adv/*$badfilter
+.*/adv/$badfilter
+/fuckadblock.js$badfilter
 extremetube.com#@#+js(abort-on-property-write, ppAb)
 ||addthis.com^$important,3p,domain=~missingkids.com|~missingkids.org|~sainsburys.jobs|~sitecore.com|~serialomaniak.pl,badfilter
 *$websocket,badfilter
