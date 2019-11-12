@@ -576,6 +576,9 @@ youtube.com#@#ytd-guide-entry-renderer:has(a[href*="UClgRkhTL3_hImCAmdLfDE4g"])
 #@#.widget_mc4wp_form_widget
 #@#.g1-socials-section
 #@#.g1-socials-item
+/wp-content/*instagram.png$badfilter
+/fb-like.$badfilter
+||addtoany.com^$important,badfilter
 #@#.g1-drop-the-socials
 #@#.g1-socials-item
 #@#.g1-back-to-top
