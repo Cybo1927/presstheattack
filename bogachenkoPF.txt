@@ -72,7 +72,7 @@ ventax.net,kinomore.xyz,rutube.ru,ovagames.com##+js(contextmenudef.js)
 kinogo.*,torrent-filmi.xyz,kinoframe.net,filmitorrent.xyz,hdfilms.zone,kinomore.xyz,smotrim.online##body:style(background-image: none !important;)
 playground.ru,kissasian.*,sourceforge.net,kimcartoon.to,datoporn.co,trialnod.com##+js(nano-setTimeout-booster.js)
 infourok.ru,bogachenko.github.io,torrent-filmi.xyz,waaw.tv,123movies.*,ros-met.com,hdfilms.zone,kinohd-online.club,filmy-onlain.net,vio.to,luxfilm.net,xartmanfilms.ru,kinobot.club,kinoangel.net,tvfru.ru,kino-top1.net,lookmix.org,lamafilm.club##+js(mousedef2.js)
-peserialehd.us##+js(mousedef.js)
+peserialehd.us,europixhd.*##+js(mousedef.js)
 yandex.by,yandex.ru,yandex.ua,~disk.yandex.by,~disk.yandex.ru,~disk.yandex.ua,~mail.yandex.by,~mail.yandex.ru,~mail.yandex.ua,~market.yandex.by,~market.yandex.ru,~market.yandex.ua,~mobile.yandex.by,~mobile.yandex.ru,~mobile.yandex.ua,~money.yandex.by,~money.yandex.ru,~money.yandex.ua,~music.yandex.by,~music.yandex.ru,~music.yandex.ua,~rabota.yandex.by,~rabota.yandex.ru,~rabota.yandex.ua,~rasp.yandex.by,~rasp.yandex.ru,~rasp.yandex.ua,~realty.yandex.by,~realty.yandex.ru,~realty.yandex.ua,~taxi.yandex.by,~taxi.yandex.ru,~taxi.yandex.ua,~translate.yandex.by,~translate.yandex.ru,~translate.yandex.ua,~tv.yandex.by,~tv.yandex.ru,~tv.yandex.ua##+js(cookie-set.js, my, Yy4BAQA=, 2114785965)
 infourok.ru##+js(addEventListener-defuser.js, focus)
 infourok.ru##+js(addEventListener-defuser.js, focus, trigger)
@@ -1235,6 +1235,9 @@ oload.*#@#+js(aeld, contextmenu)
 ||facebook.com/plugins/like.php?$3p,badfilter
 ||facebook.com*/plugins/like.php?$3p,badfilter
 ||sharethis.com^$3p,script,badfilter
+europixhd.*#@#+js(abort-current-inline-script, document.oncontextmenu)
+europixhd.*#@#+js(abort-current-inline-script, document.onkeydown)
+#@#.fb-share-button
 ||facebook.com/plugins/like.php^$3p,badfilter
 ||facebook.com/plugins/like$3p,domain=~fb.com,badfilter
 oload.*#@#+js(eremove, body > div:nth-of-type(2))
