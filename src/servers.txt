@@ -13,9 +13,6 @@
 ||00e46b7f53.com^$important
 ||00f31156f051fdf.com^$important
 ||01ced816b84.com^$important
-||vkcdnservice.com^$important
-||referrer.disqus.com^$important
-||adspyglass.com^$important
 ||01counter.com^$important
 ||024xuyisheng.com^$important
 ||0377shujuhuifu.top^$important
@@ -492,6 +489,7 @@
 ||adskeeper.co.uk^$important
 ||adslop.com^$important
 ||adspsp.com^$important
+||adspyglass.com^$important
 ||adsrv.eacdn.com^$important
 ||adsrvr.org^$important
 ||adstarsmedia.co.id^$important
@@ -10877,6 +10875,7 @@
 ||vk-portal.net^$important
 ||vkarvfrrlhmv.com^$important
 ||vkasuqsswc.com^$important
+||vkcdnservice.com^$important
 ||vkdbvgcawubn.com^$important
 ||vkhrnisuky.com^$important
 ||vkqfzlpowalv.com^$important
