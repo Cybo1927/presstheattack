@@ -817,9 +817,16 @@ vivo.sx#@#+js(abort-on-property-read, WebAssembly)
 *#@#*[class*="-ads5"]
 *#@#*[class*="-ads6"]
 *#@#*[class*="-ads7"]
+#@#a[href^="http://www.linkedin.com/shareArticle?"]
+#@#a[href^="http://www.linkedin.com/shareArticle"]
+#@#a[title="Scroll to Top"]
+#@#.icons-gplus
+#@#.icons-linkedin
+#@#.item-share
 *#@#*[class*="-ads8"]
 *#@#*[class*="-ads9"]
 *#@#*[class*="-ads-"]
+/fuckadblock.js^$1p,important,script,badfilter
 *#@#*[class*="-ads_"]
 *#@#*[class*="-adv-box"]
 ||apis.google.com/js/plusone.js^$3p,badfilter
