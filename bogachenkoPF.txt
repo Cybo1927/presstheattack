@@ -33,6 +33,7 @@
 ||clients5.google.com^
 ||contributor.google.com^
 ||criteo.com^
+||googleadservices.com^
 ||fundingchoicesmessages.google.com^
 ||google-analytics.com^
 ||googlesyndication.com^
@@ -531,6 +532,16 @@ hqq.tv#@#+js(setTimeout-defuser, check, 100)
 ||connect.facebook.net^$important,script,badfilter
 ||facebook.net^$badfilter
 ||connect.facebook.net^$badfilter
+#@##share-post
+#@#[title="Share to Facebook"]:not(.wpel-icon-right)
+#@#.rdsocial
+#@#.f_social
+#@#.social_m
+#@#a[href^="http://www.twitter.com/share"]
+#@#a[href^="http://www.twitter.com/share?"]
+#@#a[onclick*="facebook.com/sharer.php?"]
+#@#a[onclick^="window.open ('http://www.facebook.com/sharer.php"]
+#@#a[onclick^="window.open ('http://www.twitter.com/share?url="]
 ||connect.facebook.net^$3p,domain=~facebook.com|~fb.com,badfilter
 @@||staticxx.facebook.com^$3p,badfilter
 ||facebook.com^$3p,badfilter
@@ -667,6 +678,7 @@ speedtest.net#@#+js(eremove, .high-placeholder.pure-u-1\, .u-c.pure-u-custom-ad-
 *#@#*[id*="Adv8"]
 *#@#*[id*="Adv9"]
 *#@#*[id*="Advert"]
+||cse.google.com^$important,badfilter
 *#@#*[id*="LeftAds-"]
 /ss-social-$badfilter
 /youtube.png$badfilter
