@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-11-12 15:49:11
-! Version: 20191112154911
+! Last modified: 2019-11-12 18:06:46
+! Version: 20191112180647
 ! Expires: 3 hours
-! Number of filters: 13115
+! Number of filters: 13120
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -122,6 +122,7 @@
 |http*:*/player_ads.html$important,subdocument
 |http*:*/pview?event$important
 |http*:*/rtrg?$image,important
+|http*:*/sbbi/?sbbpg=sbbshell&$important
 |http*:*/setbucket?signature=$important,subdocument
 |http*:*/spacer.gif$image,important,domain=~kinopoisk.ru
 |http*:*/uutils.fcg?$important,script
@@ -5917,6 +5918,7 @@
 ||lacrxqvydzlan.bid^$important
 ||ladhyjqqgerr.com^$important
 ||ladsbrown.com^$important
+||ladslims.com^$important
 ||lafvopkskbeuj.bid^$important
 ||lagoonolivia.com^$important
 ||lajpmujdntg.com^$important
@@ -6194,6 +6196,7 @@
 ||lovechats.org^$important
 ||lovnxkrszlsb.com^$important
 ||lovvznyhujf.com^$important
+||lowaosan.com^$important
 ||lowgraveleron.com^$important
 ||lowqnzsxtmvb.bid^$important
 ||loxmetwdjrmh.com^$important
@@ -6934,6 +6937,7 @@
 ||ncsirrabtlant.bid^$important
 ||ncspvnslmmbv.com^$important
 ||ncsyyeabk.com^$important
+||ncvperjurh.com^$important
 ||ncwjhywskph.com^$important
 ||nczlhwsguwc.com^$important
 ||ndemlviibdyc.com^$important
@@ -8171,6 +8175,7 @@
 ||pushnews.ru^$important
 ||pushno.com^$important
 ||pushofferpro.com^$important
+||pushosub.com^$important
 ||pushpad.xyz^$important
 ||pushqwer.com^$important
 ||pushrase.com^$important
