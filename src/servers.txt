@@ -194,9 +194,6 @@
 ||4ee395e5b8a076c7bd8592851ff8cad.com^$important
 ||4ef6b73abc9123.com^$important
 ||4fba771f87a0251.com^$important
-||googleadservices.com^$important
-||altadefinizone.click^$important
-||madsecs.com^$important
 ||4jnzhl0d0.com^$important
 ||4ojwnsgub2.com^$important
 ||4onqfs7iv4.com^$important
@@ -663,6 +660,7 @@
 ||almeusciu.site^$important
 ||alnisdrmhs.bid^$important
 ||aloofmetal.com^$important
+||altadefinizone.click^$important
 ||alvdtjrb.com^$important
 ||alwqfajh.com^$important
 ||alxetzfhlzekv.bid^$important
@@ -6256,6 +6254,7 @@
 ||maboflgkaxqn.com^$important
 ||mackeeper.com^$important
 ||madsans.com^$important
+||madsecs.com^$important
 ||madslims.com^$important
 ||mafndqbvdgkm.com^$important
 ||magnificentmist.com^$important
