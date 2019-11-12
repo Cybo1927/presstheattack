@@ -29,6 +29,7 @@
 |http*:*&adformat=$important
 |http*:*-pixel.*?uuid=$important
 |http*:*.html?clicktag=$important
+|http*:*/sbbi/?sbbpg=sbbshell&$important
 |http*:*/in.php?*&referer=$important
 |http*:*/pagead/$important
 |http*:*/pview?event$important
