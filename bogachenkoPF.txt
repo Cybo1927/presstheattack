@@ -926,6 +926,12 @@ vivo.sx#@#+js(abort-on-property-read, WebAssembly)
 *#@#*[class$="0banner"]
 *#@#*[class$="1ad"]
 *#@#*[class$="1ads"]
+taboola$script,badfilter
+||sh.st^$badfilter
+||adf.ly^$important,badfilter
+||adf.ly^$badfilter
+mega.nz#@#+js(eremove, .ads-left-block\, .ads-right-block\, .active.top-login-warning\, .red.download-button.button\, .checkbox-bl.download)
+#@#.socials
 *#@#*[class$="1banner"]
 *#@#*[class$="2ad"]
 *#@#*[class$="2ads"]
