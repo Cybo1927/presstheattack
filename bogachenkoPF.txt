@@ -921,8 +921,22 @@ vivo.sx#@#+js(abort-on-property-read, WebAssembly)
 *#@#*[class$=" fixedadv"]
 *#@#*[class$="-ad"]
 *#@#*[class$="_ad"]
+#@#img[alt="facebook"]
+#@#.post-share-box
+#@#.sharethis-inline-share-buttons
+#@#.icon-youtube
+#@#.icon-vk
+#@#.icon-telegram
+#@#.essb_share
+#@#.essb_links_list
+#@#.essb_links
+#@#.essb_link_twitter
+#@##go-top
+#@#.go-top
+#@#.essb_item
 *#@#*[class$="0ad"]
 *#@#*[class$="0ads"]
+#@#img[alt="facebook"]
 *#@#*[class$="0banner"]
 *#@#*[class$="1ad"]
 *#@#*[class$="1ads"]
