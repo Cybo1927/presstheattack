@@ -45,6 +45,8 @@
 ||123sheying.com^$important
 ||125jia.cn^$important
 ||129ji7ymdw.com^$important
+||arearmark.club^$important
+||syyycc.com^$important
 ||12dc71b7cb820f2a.com^$important
 ||12directions.com^$important
 ||1300invention.com.au^$important
