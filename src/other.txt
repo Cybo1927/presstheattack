@@ -28,6 +28,7 @@
 |http*:*&action=js_stats_$important
 |http*:*&adformat=$important
 |http*:*-pixel.*?uuid=$important
+|http*:*&action=js_stats&$important
 |http*:*.html?clicktag=$important
 |http*:*/in.php?*&referer=$important
 |http*:*/pagead/$important
