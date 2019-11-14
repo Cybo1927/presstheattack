@@ -25,10 +25,10 @@
 /^https?:\/\/[^\s]+\/log(ging|impressions?)?[?/]/$important
 /^https?:\/\/[^\s]+\?zone[-_]?id\=/$important
 |http*:*%22request_id%*%22idzone%$important
+|http*:*&action=js_stats&$important
 |http*:*&action=js_stats_$important
 |http*:*&adformat=$important
 |http*:*-pixel.*?uuid=$important
-|http*:*&action=js_stats&$important
 |http*:*.html?clicktag=$important
 |http*:*/in.php?*&referer=$important
 |http*:*/pagead/$important
