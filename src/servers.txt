@@ -18,6 +18,7 @@
 ||0377shujuhuifu.top^$important
 ||0452jhw.com^$important
 ||05a7946eef5d.com^$important
+/^https?:\/\/(www\.)?[a-zA-Z0-9]+\.(club|pro|info|bid|tk|to|site|xyz|app|pet|win|cc|is|zone|ga|review|agency|live|world|website|email|life|today|rock|space|company|nf|mobi|be|cm|gq|rocks|art|link|cricket|ad|ninja)$/$third-party,important
 ||05y2dxmr.top^$important
 ||0632qyw.com^$important
 ||06f24f3d0b.com^$important

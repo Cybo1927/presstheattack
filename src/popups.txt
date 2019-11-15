@@ -12,3 +12,4 @@
 ||doublepimp.com^$important,popup
 ||doublepimpssl.com^$important,popup
 ||slotsvictory.net^$important,popup
+/^https?:\/\/(www\.)?[a-zA-Z0-9]+\.(club|pro|info|bid|tk|to|site|xyz|app|pet|win|cc|is|zone|ga|review|agency|live|world|website|email|life|today|rock|space|company|nf|mobi|be|cm|gq|rocks|art|link|cricket|ad|ninja)$/$third-party,popup,important
