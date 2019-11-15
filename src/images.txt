@@ -1,4 +1,5 @@
 |http*:*/clear.gif$image,important
+|http*:*/drstat?$image,important
 |http*:*/ezcl.webp?$image,important
 |http*:*/greenoaks.gif?$image,important
 |http*:*/grstat?$image,important
@@ -7,4 +8,3 @@
 |http*:*/rtrg?$image,important
 |http*:*/spacer.gif$image,important,domain=~kinopoisk.ru
 ||mail.yandex.*/monitoring_liza.txt$image,important
-|http*:*/drstat?$important,image
