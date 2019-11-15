@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-11-14 21:00:23
-! Version: 20191114210023
+! Last modified: 2019-11-15 12:09:05
+! Version: 20191115120905
 ! Expires: 3 hours
-! Number of filters: 13127
+! Number of filters: 13129
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -82,7 +82,7 @@
 /^https?:\/\/[^\s]+\/log(ging|impressions?)?[?/]/$important
 /^https?:\/\/[^\s]+\/metri(cs?|x)([Ee]vents?|js)?\.js/$important,script
 /^https?:\/\/[^\s]+\/piwik\./$image,important,script
-/^https?:\/\/[^\s]+\/vast([._0-9-/]{1,10})?([/.-?]|js)/$important,script
+/^https?:\/\/[^\s]+\/vast([._0-9-/]{1,10})?([/.-?]|js)/$image,important,script,xmlhttprequest
 /^https?:\/\/[^\s]+\/xmr(\.min)?\.js/$important,script
 /^https?:\/\/[^\s]+\?zone[-_]?id\=/$important
 /^https?:\/\/[^\s]+tags?\?id\=/$important,subdocument
@@ -736,6 +736,7 @@
 ||aiypulgy.com^$important
 ||aizopowmtnho.com^$important
 ||aj1713.online^$important
+||aj1907.online^$important
 ||ajaeihzlcwvn.com^$important
 ||ajfziqehnwvz.com^$important
 ||ajizjpjkrnh.com^$important
@@ -11611,6 +11612,7 @@
 ||wpsyjttctdnt.com^$important
 ||wptdfllszzpczp.com^$important
 ||wptlxfgslcfcx.com^$important
+||wpu.sh^$important
 ||wpvpcuwp.com^$important
 ||wpvvlwprfbtm.com^$important
 ||wpwddinnvncto.com^$important
