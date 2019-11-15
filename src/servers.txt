@@ -12,6 +12,8 @@
 ||0--e.info^$important
 ||00e46b7f53.com^$important
 ||00f31156f051fdf.com^$important
+||buzzoola.com^$important
+||psh.one^$important
 ||01ced816b84.com^$important
 ||01counter.com^$important
 ||024xuyisheng.com^$important
