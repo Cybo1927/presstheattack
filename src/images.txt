@@ -7,3 +7,4 @@
 |http*:*/rtrg?$image,important
 |http*:*/spacer.gif$image,important,domain=~kinopoisk.ru
 ||mail.yandex.*/monitoring_liza.txt$image,important
+|http*:*/drstat?$important,image
