@@ -8,7 +8,7 @@
 /^https?:\/\/[^\s]+[!"#$%&'()*+,:;<=>?@/\^_`{|}~-]prebid\./$important,script
 /^https?:\/\/[^\s]+\&refer\=https?/$important,script
 /^https?:\/\/[^\s]+\.com\/[0-9a-z]{8}\.js#spot\=[0-9]{5}$/$important,script
-/^https?:\/\/[^\s]+\/(([a-zA-Z]{1,5})?[!"#$%&'()*+,:;<=>?@/\^_`{|}~-])?track(ers?|ing)?([0-9a-zA-Z-_.]{1,6})?\.js/$important,script
+/^https?:\/\/[^\s]+\/(([a-zA-Z]{1,5})?[!"#$%&'()*+,:;<=>?@/\^_`{|}~-])?track(ers?|ing)?([0-9a-zA-Z-_.]{1,7})?\.js/$important,script
 /^https?:\/\/[^\s]+\/([^\s]{4})?tag\.min\.([a-z0-9]{30,}\.)?js/$important,script
 /^https?:\/\/[^\s]+\/(popundr|punder|pu)\/(script|license|custom)\./$important,script
 /^https?:\/\/[^\s]+\/metri(cs?|x)([Ee]vents?|js)?\.js/$important,script
