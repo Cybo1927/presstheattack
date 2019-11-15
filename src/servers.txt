@@ -160,8 +160,6 @@
 ||3ba87e4828c5a95.com^$important
 ||3c06b86c4147745b.com^$important
 ||3d745b2a9ce52.com^$important
-||ads.com^$important
-||pjstat.com^$important
 ||3da86d9fe797f228.com^$important
 ||3lift.com^$important
 ||3m7zwoqc.top^$important
@@ -481,6 +479,7 @@
 ||adrtgbebgd.bid^$important
 ||ads*-adnow.com^$important
 ||ads-twitter.com^$important
+||ads.com^$important
 ||ads1-adnow.com^$important
 ||ads2-adnow.com^$important
 ||ads3-adnow.com^$important
@@ -7772,6 +7771,7 @@
 ||pjnrwznmzguc.com^$important
 ||pjnudrgy.com^$important
 ||pjrlztgwix.com^$important
+||pjstat.com^$important
 ||pjtycinmerhb.com^$important
 ||pjydgizqsldqj.bid^$important
 ||pjyuftrh.com^$important
