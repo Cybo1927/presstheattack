@@ -972,6 +972,7 @@
 ||badsabs.com^$important
 ||badsamps.com^$important
 ||badsbads.com^$important
+||badshores.com^$important
 ||badskies.com^$important
 ||badskis.com^$important
 ||badslads.com^$important
@@ -2666,15 +2667,11 @@
 ||effectivemeasure.net^$important
 ||efficaciouscactus.com^$important
 ||efhevptuqxpr.bid^$important
-||badshores.com^$important
-||fzorwhus.com^$important
-||kkdvvaonvkmll.com^$important
 ||efjucmgdzexeab.com^$important
 ||efkxhoeoqsv.bid^$important
 ||efluqmlyzi.com^$important
 ||efmpejbybupe.bid^$important
 ||efnypuzqni.com^$important
-||kiks.yandex.ru^$important
 ||efotdwuui.bid^$important
 ||efsjxinbtzirs.bid^$important
 ||efukznkfmrck.com^$important
@@ -5501,6 +5498,7 @@
 ||kihxncfpkimfx.bid^$important
 ||kiinvgntnnw.com^$important
 ||kiixmhyrlawz.com^$important
+||kiks.yandex.ru^$important
 ||kiobmbncsrwc.com^$important
 ||kiochlocj.bid^$important
 ||kiodudldzmzwr.com^$important
@@ -5524,6 +5522,7 @@
 ||kjsedplonmifbe.com^$important
 ||kjtcdiyzd.com^$important
 ||kkawxvjeluwc.com^$important
+||kkdvvaonvkmll.com^$important
 ||kknvwhcmqoet.com^$important
 ||kknwvfdzyqzj.com^$important
 ||kksoyysmpp.com^$important

@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-11-15 13:51:25
-! Version: 20191115135125
+! Last modified: 2019-11-15 20:47:02
+! Version: 20191115204702
 ! Expires: 3 hours
-! Number of filters: 13133
+! Number of filters: 13136
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -76,7 +76,7 @@
 /^https?:\/\/[^\s]+\.[A-Za-z]{2,6}\/[A-Za-z]{1}\?tag\=[^\s]+\&site\=[A-Za-z0-9]{1,}\&ads?\=/$important,popup,script
 /^https?:\/\/[^\s]+\.com\/[0-9a-z]{8}\.js#spot\=[0-9]{5}$/$important,script
 /^https?:\/\/[^\s]+\/(([a-zA-Z]{1,5})?[!"#$%&'()*+,:;<=>?@/\^_`{|}~-])?[a-zA-Z]{1}track(ers?|ing)[?/]/$image,important,other,script,xmlhttprequest
-/^https?:\/\/[^\s]+\/(([a-zA-Z]{1,5})?[!"#$%&'()*+,:;<=>?@/\^_`{|}~-])?track(ers?|ing)?([0-9a-zA-Z-_.]{1,6})?\.js/$important,script
+/^https?:\/\/[^\s]+\/(([a-zA-Z]{1,5})?[!"#$%&'()*+,:;<=>?@/\^_`{|}~-])?track(ers?|ing)?([0-9a-zA-Z-_.]{1,7})?\.js/$important,script
 /^https?:\/\/[^\s]+\/([^\s]{4})?tag\.min\.([a-z0-9]{30,}\.)?js/$important,script
 /^https?:\/\/[^\s]+\/(ntfc|afu|apu)\.(hh|php)\?/$important
 /^https?:\/\/[^\s]+\/(popundr|punder|pu)\/(script|license|custom)\./$important,script
@@ -1098,6 +1098,7 @@
 ||badsabs.com^$important
 ||badsamps.com^$important
 ||badsbads.com^$important
+||badshores.com^$important
 ||badskies.com^$important
 ||badskis.com^$important
 ||badslads.com^$important
@@ -5633,6 +5634,7 @@
 ||kihxncfpkimfx.bid^$important
 ||kiinvgntnnw.com^$important
 ||kiixmhyrlawz.com^$important
+||kiks.yandex.ru^$important
 ||kiobmbncsrwc.com^$important
 ||kiochlocj.bid^$important
 ||kiodudldzmzwr.com^$important
@@ -5656,6 +5658,7 @@
 ||kjsedplonmifbe.com^$important
 ||kjtcdiyzd.com^$important
 ||kkawxvjeluwc.com^$important
+||kkdvvaonvkmll.com^$important
 ||kknvwhcmqoet.com^$important
 ||kknwvfdzyqzj.com^$important
 ||kksoyysmpp.com^$important
