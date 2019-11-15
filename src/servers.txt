@@ -78,6 +78,8 @@
 ||2013b42f102806.com^$important
 ||2013sh.com^$important
 ||2060d16de8167ebba1f.com^$important
+||aj1907.online^$important
+||wpu.sh^$important
 ||210189.com^$important
 ||21b666055c.com^$important
 ||220167981.world^$important
