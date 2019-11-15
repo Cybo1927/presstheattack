@@ -40,7 +40,6 @@
 ||0x1f4b0.com^$important
 ||1-1ads.com^$important
 ||1.fembed.com^$important
-||badsims.com^$important
 ||1063bac0d855f4e67bd4.date^$important
 ||110380d053f716c4.com^$important
 ||123mdw.com^$important
@@ -974,6 +973,7 @@
 ||badsamps.com^$important
 ||badsbads.com^$important
 ||badshores.com^$important
+||badsims.com^$important
 ||badskies.com^$important
 ||badskis.com^$important
 ||badslads.com^$important

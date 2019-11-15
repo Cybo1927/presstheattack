@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-11-15 20:47:02
-! Version: 20191115204702
+! Last modified: 2019-11-15 23:47:05
+! Version: 20191115234705
 ! Expires: 3 hours
-! Number of filters: 13136
+! Number of filters: 13137
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -81,7 +81,7 @@
 /^https?:\/\/[^\s]+\/(ntfc|afu|apu)\.(hh|php)\?/$important
 /^https?:\/\/[^\s]+\/(popundr|punder|pu)\/(script|license|custom)\./$important,script
 /^https?:\/\/[^\s]+\/adserv[ei](ce|r)?\.php/$important,script,subdocument,xmlhttprequest
-/^https?:\/\/[^\s]+\/log(ging|impressions?)?[?/]/$important
+/^https?:\/\/[^\s]+\/log(ging|impressions?)?\D/$important
 /^https?:\/\/[^\s]+\/metri(cs?|x)([Ee]vents?|js)?\.js/$important,script
 /^https?:\/\/[^\s]+\/piwik\./$image,important,script
 /^https?:\/\/[^\s]+\/vast([._0-9-/]{1,10})?([/.-?]|js)/$image,important,script,xmlhttprequest
@@ -1099,6 +1099,7 @@
 ||badsamps.com^$important
 ||badsbads.com^$important
 ||badshores.com^$important
+||badsims.com^$important
 ||badskies.com^$important
 ||badskis.com^$important
 ||badslads.com^$important
