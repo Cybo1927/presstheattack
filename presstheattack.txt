@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-11-16 01:13:37
-! Version: 20191116011337
+! Last modified: 2019-11-16 14:35:27
+! Version: 20191116143527
 ! Expires: 3 hours
-! Number of filters: 13139
+! Number of filters: 13142
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -5597,6 +5597,7 @@
 ||kfpwayrztgjj.com^$important
 ||kftbvzlrqkakfo.com^$important
 ||kftmmtuxdtmsv.bid^$important
+||kfutdsjwtcvnpx.com^$important
 ||kfuwxxspanifp.bid^$important
 ||kfwhcwoc.com^$important
 ||kfwpyyctzmpk.com^$important
@@ -7724,6 +7725,7 @@
 ||ozymwqsycimr.com^$important
 ||paddleangle.com^$important
 ||padsbrown.com^$important
+||padsips.com^$important
 ||paecbeeavmopbl.com^$important
 ||paegcsvchsdlbj.com^$important
 ||pafovocg.bid^$important
@@ -10650,6 +10652,7 @@
 ||uprbleorptdghy.com^$important
 ||upzpyrsvvxpoey.com^$important
 ||uqbxjdeeq.com^$important
+||uqelijcu.com^$important
 ||uqemcyylvcdrgs.com^$important
 ||uqgloylf.com^$important
 ||uqhqcoezkn.com^$important
