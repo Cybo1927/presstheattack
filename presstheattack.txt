@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-11-16 15:48:40
-! Version: 20191116154840
+! Last modified: 2019-11-16 21:43:46
+! Version: 20191116214346
 ! Expires: 3 hours
-! Number of filters: 13170
+! Number of filters: 13174
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -2925,6 +2925,7 @@
 ||elzlogcphhka.com^$important
 ||elzmazpsbnwn.com^$important
 ||elzoovmzj.bid^$important
+||embraceable-venom.eu^$important
 ||emegbthex.bid^$important
 ||emeighglenellen.com^$important
 ||emektdasctwt.bid^$important
@@ -4923,6 +4924,7 @@
 ||interedy.info^$important
 ||intergi.com^$important
 ||internetuzerindenis.com^$important
+||intrepid-badger.eu^$important
 ||inventionpassenger.com^$important
 ||invgsoqwtkvxs.bid^$important
 ||inviterabbits.com^$important
@@ -7746,6 +7748,7 @@
 ||ozyjicurrutehe.bid^$important
 ||ozymwqsycimr.com^$important
 ||paddleangle.com^$important
+||padsats.com^$important
 ||padsbrown.com^$important
 ||padsips.com^$important
 ||paecbeeavmopbl.com^$important
@@ -12499,6 +12502,7 @@
 ||ynxrrzgfkuih.com^$important
 ||ynyhiyqybbit.com^$important
 ||ynzdtoawstxvh.com^$important
+||yoads.network^$important
 ||yobxvotn.bid^$important
 ||yocnxozede.bid^$important
 ||yocsprvjl.com^$important

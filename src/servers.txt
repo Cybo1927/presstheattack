@@ -38,10 +38,6 @@
 ||0sywjs4r1x.com^$important
 ||0wner24f.top^$important
 ||0x1f4b0.com^$important
-||yoads.network^$important
-||padsats.com^$important
-||intrepid-badger.eu^$important
-||embraceable-venom.eu^$important
 ||1-1ads.com^$important
 ||1.fembed.com^$important
 ||1063bac0d855f4e67bd4.date^$important
@@ -2796,6 +2792,7 @@
 ||elzlogcphhka.com^$important
 ||elzmazpsbnwn.com^$important
 ||elzoovmzj.bid^$important
+||embraceable-venom.eu^$important
 ||emegbthex.bid^$important
 ||emeighglenellen.com^$important
 ||emektdasctwt.bid^$important
@@ -4789,6 +4786,7 @@
 ||interedy.info^$important
 ||intergi.com^$important
 ||internetuzerindenis.com^$important
+||intrepid-badger.eu^$important
 ||inventionpassenger.com^$important
 ||invgsoqwtkvxs.bid^$important
 ||inviterabbits.com^$important
@@ -7610,6 +7608,7 @@
 ||ozyjicurrutehe.bid^$important
 ||ozymwqsycimr.com^$important
 ||paddleangle.com^$important
+||padsats.com^$important
 ||padsbrown.com^$important
 ||padsips.com^$important
 ||paecbeeavmopbl.com^$important
@@ -12353,6 +12352,7 @@
 ||ynxrrzgfkuih.com^$important
 ||ynyhiyqybbit.com^$important
 ||ynzdtoawstxvh.com^$important
+||yoads.network^$important
 ||yobxvotn.bid^$important
 ||yocnxozede.bid^$important
 ||yocsprvjl.com^$important
