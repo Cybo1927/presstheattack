@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-11-16 14:35:27
-! Version: 20191116143527
+! Last modified: 2019-11-16 15:48:40
+! Version: 20191116154840
 ! Expires: 3 hours
-! Number of filters: 13142
+! Number of filters: 13170
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -267,6 +267,10 @@
 ||340ca71c.space^$important
 ||3412bf88fc05a986e55.com^$important
 ||34pavouhj7.com^$important
+||35.186.249.84^$important
+||35.190.91.111^$important
+||35.201.103.212^$important
+||35.201.98.64^$important
 ||3585656d9351553f.com^$important
 ||360caa42.space^$important
 ||360direct.click^$important
@@ -522,6 +526,7 @@
 ||achiname.info^$important
 ||achsijkc.com^$important
 ||acidityfoamy.com^$important
+||acidpigs.com^$important
 ||acint.net^$important
 ||acknowing.com^$important
 ||aclhagvngkjf.com^$important
@@ -790,6 +795,7 @@
 ||aljsuubo.com^$important
 ||alkagrkgvltzlk.com^$important
 ||alleged.world^$important
+||alleyarm.com^$important
 ||allnvbtrtpku.com^$important
 ||almeusciu.site^$important
 ||alnisdrmhs.bid^$important
@@ -841,6 +847,7 @@
 ||ankcnflupb.com^$important
 ||anleqthwxxns.com^$important
 ||anluecyopslm.com^$important
+||annoyedfifth.com^$important
 ||anogjkubvdfe.com^$important
 ||anothinga.com^$important
 ||anoufpjmkled.com^$important
@@ -987,6 +994,7 @@
 ||aubrythgmge.bid^$important
 ||aud3g.com^$important
 ||audersmi.com^$important
+||audioarctic.com^$important
 ||aueceijyp.bid^$important
 ||aufyuiavvkf.bid^$important
 ||augheguw.net^$important
@@ -1214,6 +1222,7 @@
 ||bektvxxfv.bid^$important
 ||bellevillelickingville.com^$important
 ||bemobtrk.com^$important
+||benthose.com^$important
 ||best2019-games-web1.com^$important
 ||best2019games.com^$important
 ||bestboundary.com^$important
@@ -1650,6 +1659,7 @@
 ||captainbicycle.com^$important
 ||caribanner.bid^$important
 ||caringzinc.com^$important
+||carpentercomparison.com^$important
 ||carscannon.com^$important
 ||carsxardivaf.com^$important
 ||casalemedia.com^$important
@@ -1795,6 +1805,7 @@
 ||chqulqxfghdz.com^$important
 ||christingel.com^$important
 ||chtpcjezorlo.com^$important
+||chunkycactus.com^$important
 ||chuvzwxbpf.bid^$important
 ||chvwtxtzmzbggo.com^$important
 ||chxwlqtvgrw.com^$important
@@ -2956,6 +2967,7 @@
 ||enteder.com^$important
 ||enthusiasticdad.com^$important
 ||entlydazhcmlgx.com^$important
+||enviousshape.com^$important
 ||enviousthread.com^$important
 ||enyayinxiang.com^$important
 ||enynwkvdb.com^$important
@@ -3197,11 +3209,13 @@
 ||famousquarter.com^$important
 ||famztplbta.bid^$important
 ||fanaticalfly.com^$important
+||fantasticsmash.com^$important
 ||faoxietqwbmu.com^$important
 ||faptitans.com^$important
 ||farethief.com^$important
 ||faridabadflexpack.live^$important
 ||farmergoldfish.com^$important
+||farshake.com^$important
 ||fascinatedfeather.com^$important
 ||fastclick.net^$important
 ||fastly-insights.com^$important
@@ -3259,6 +3273,7 @@
 ||fdzylxffu.com^$important
 ||fe8abdee64d5ea.com^$important
 ||feacamnliz.bid^$important
+||fearfulfish.com^$important
 ||febalwby.com^$important
 ||feebleshock.com^$important
 ||fefzohgedqp.com^$important
@@ -3439,6 +3454,7 @@
 ||fophaumpoor.com^$important
 ||forcedolphin.com^$important
 ||forecastpcservice.fun^$important
+||forecasttiger.com^$important
 ||foregoingfowl.com^$important
 ||forexplmdb.com^$important
 ||forgetfulflowers.com^$important
@@ -4902,6 +4918,7 @@
 ||insbrvwfrcgb.com^$important
 ||instreamatic.com^$important
 ||instrumentsponge.com^$important
+||intelligentscissors.com^$important
 ||intellitxt.com^$important
 ||interedy.info^$important
 ||intergi.com^$important
@@ -5998,6 +6015,7 @@
 ||lebskmaewbhm.bid^$important
 ||ledvqaldtf.com^$important
 ||lefopost.com^$important
+||leftliquid.com^$important
 ||legistrike.pro^$important
 ||legkiy-zarabotoki.xyz^$important
 ||lenoramanning.com^$important
@@ -6009,6 +6027,7 @@
 ||letsdoarbitrage.com^$important
 ||lettucelimit.com^$important
 ||leuojmgbkpcl.com^$important
+||levelbehavior.com^$important
 ||leversions.info^$important
 ||levjirsqbtjhif.bid^$important
 ||lexcyehlniruu.bid^$important
@@ -6211,6 +6230,7 @@
 ||lovvznyhujf.com^$important
 ||lowaosan.com^$important
 ||lowgraveleron.com^$important
+||lowlocket.com^$important
 ||lowqnzsxtmvb.bid^$important
 ||loxmetwdjrmh.com^$important
 ||lp3tdqle.com^$important
@@ -6302,6 +6322,7 @@
 ||luhqeqaypvmc.com^$important
 ||luihhjhe.bid^$important
 ||lujkgrvheh.com^$important
+||lumberamount.com^$important
 ||lumpyleaf.com^$important
 ||lumzvjur.com^$important
 ||lunkydkokpg.bid^$important
@@ -6495,6 +6516,7 @@
 ||mdurqeiydegwzy.com^$important
 ||mdvrxmzofurvkm.com^$important
 ||meagjivconqt.com^$important
+||meatydime.com^$important
 ||mechangesee.club^$important
 ||mecounxmawn.bid^$important
 ||mecsjjkomehyv.com^$important
@@ -8808,6 +8830,7 @@
 ||readymoon.com^$important
 ||readysnails.com^$important
 ||realizerecess.com^$important
+||realizevacation.com^$important
 ||realktalk.xyz^$important
 ||realnwspfbumn.com^$important
 ||realtime-bid.com^$important
@@ -9391,6 +9414,7 @@
 ||sharppatch.com^$important
 ||shasnvadkustw.com^$important
 ||shelterstraw.com^$important
+||shesubscriptions.com^$important
 ||shgvuhvf.com^$important
 ||shhngaasah.com^$important
 ||shhrbeffgz.com^$important
@@ -9405,6 +9429,7 @@
 ||shmpdqwucl.com^$important
 ||shnmhrlcredd.com^$important
 ||shnoadlvpylf.com^$important
+||shockinggrass.com^$important
 ||shockingswing.com^$important
 ||shohabiymgjxdb.com^$important
 ||shongcheng.com^$important
@@ -9558,6 +9583,7 @@
 ||soonyou123.com^$important
 ||sopzefqypxas.bid^$important
 ||soresneeze.com^$important
+||sortsummer.com^$important
 ||sosbyncpkyw.com^$important
 ||soska.us^$important
 ||sossxjmotqqs.com^$important
@@ -9568,6 +9594,7 @@
 ||sovqylkbucid.com^$important
 ||soyzsnaivas.com^$important
 ||sozdyrrtsvr.com^$important
+||sparklingnumber.com^$important
 ||spbflxvnheih.com^$important
 ||spearads.com^$important
 ||spectacularsnail.com^$important
@@ -10930,6 +10957,7 @@
 ||velzqrqrucvmqc.com^$important
 ||vemrhavwgchp.com^$important
 ||veningew.info^$important
+||venusgloria.com^$important
 ||veoujrnenng.com^$important
 ||vepatyei.com^$important
 ||vepcsswlpolz.com^$important
