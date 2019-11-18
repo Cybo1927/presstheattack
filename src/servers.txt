@@ -1762,6 +1762,7 @@
 ||cloisteredhydrant.com^$important
 ||clomggnzxsyf.bid^$important
 ||clonsvyhy.bid^$important
+||cloudflareinsights.com^$important
 ||cloudsdestruction.com^$important
 ||clouxtnxsmxdva.com^$important
 ||clsvugmivpf.com^$important
@@ -3867,6 +3868,7 @@
 ||gptoleeekac.bid^$important
 ||gpudqmly.com^$important
 ||gpuulhuupfinoq.com^$important
+||gpxtxzzxoph.com^$important
 ||gpzywrsrcr.com^$important
 ||gqekfxgdaxoau.com^$important
 ||gqlaoeyczxsvk.com^$important
@@ -3954,8 +3956,6 @@
 ||gtxfafvoohbc.com^$important
 ||gtynpoepber.com^$important
 ||gtzyfaro.bid^$important
-||gpxtxzzxoph.com^$important
-||cloudflareinsights.com^$important
 ||guangtui1999.com^$important
 ||guardedgovernor.com^$important
 ||guardedschool.com^$important
