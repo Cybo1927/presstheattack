@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-11-17 19:42:26
-! Version: 20191117194226
+! Last modified: 2019-11-18 20:20:32
+! Version: 20191118202032
 ! Expires: 3 hours
-! Number of filters: 13175
+! Number of filters: 13181
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -2645,6 +2645,7 @@
 ||dvsrlrnpyxwv.com^$important
 ||dvzyppnmfgtr.com^$important
 ||dwabissw.com^$important
+||dwaceiiywjwcyf.com^$important
 ||dwbqmlvjpvv.com^$important
 ||dwhvkier.com^$important
 ||dwopbruzifg.com^$important
@@ -4899,6 +4900,7 @@
 ||incdjkjbyhlttx.com^$important
 ||incrediblesugar.com^$important
 ||indexww.com^$important
+||indlzxgptf.com^$important
 ||inewoioxxdbm.com^$important
 ||influads.com^$important
 ||info.web.de^$important
@@ -5291,6 +5293,7 @@
 ||jkpdxsqpyl.bid^$important
 ||jkuuoecpgecwla.com^$important
 ||jkvkhgztow.com^$important
+||jkxyxiwqdl.com^$important
 ||jkxzawjvp.bid^$important
 ||jkywbooyc.com^$important
 ||jlarmqbypyku.com^$important
@@ -7184,6 +7187,7 @@
 ||nondescriptsmile.com^$important
 ||nondescriptstocking.com^$important
 ||noonshdnkt.bid^$important
+||noproblfr.com^$important
 ||norepeal.org^$important
 ||normygvd.bid^$important
 ||norteevu.com^$important
@@ -9871,6 +9875,7 @@
 ||tangibleteam.com^$important
 ||taoclfxgf.com^$important
 ||taodggarfrmd.com^$important
+||taozgpkjzpdtgr.com^$important
 ||tapjoy.com^$important
 ||tapjoyads.com^$important
 ||taqesyqne.com^$important
@@ -10521,6 +10526,7 @@
 ||ugwctmus.bid^$important
 ||ugwkyqdbmpwbbi.com^$important
 ||ugxqfkslreop.bid^$important
+||ugyuyuccjgrtht.com^$important
 ||ugyymqcxyoi.bid^$important
 ||ugzpvflxa.com^$important
 ||uh3ye6ux.com^$important
