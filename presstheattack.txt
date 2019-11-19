@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-11-19 15:43:51
-! Version: 20191119154351
+! Last modified: 2019-11-19 19:55:37
+! Version: 20191119195537
 ! Expires: 3 hours
-! Number of filters: 13194
+! Number of filters: 13197
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -42,6 +42,7 @@
 /^https?:\/\/((www|wap)\.)?monitor([0-9]{1,3})?\./$important
 /^https?:\/\/((www|wap)\.)?partners?([0-9]{1,3})?\./$important
 /^https?:\/\/((www|wap)\.)?pi?xe?l?([0-9]{1,3})?\./$important
+/^https?:\/\/((www|wap)\.)?piwik([0-9]{1,3})?\./$important
 /^https?:\/\/((www|wap)\.)?re[ck]lam(a|s|er)?([0-9]{1,3})?\./$important
 /^https?:\/\/((www|wap)\.)?stat(s|istics?)?([0-9]{1,3})?\./$important
 /^https?:\/\/((www|wap)\.)?tags?([0-9]{1,3})?\./$important
@@ -67,7 +68,7 @@
 /^https?:\/\/[^\s]+[!"#$%&'()*+,:;<=>?@/\^_`{|}~-](fingerprint|fp)([0-9]{1,3})?(\.min)?\.js/$image,important,script,xmlhttprequest
 /^https?:\/\/[^\s]+[!"#$%&'()*+,:;<=>?@/\^_`{|}~-](player|client|csi|gen(erate)?|stream|logs?|live)[!"#$%&'()*+,:;<=>?@/\^_`{|}~-]?204\??/$image,important,other,xmlhttprequest
 /^https?:\/\/[^\s]+[!"#$%&'()*+,:;<=>?@/\^_`{|}~-]1x1\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|heic|heif|webp|jxr|wdp|dng|cr2|arw|js|html?)/$image,important,script,subdocument
-/^https?:\/\/[^\s]+[!"#$%&'()*+,:;<=>?@/\^_`{|}~-]prebid\./$important,script
+/^https?:\/\/[^\s]+[!"#$%&'()*+,:;<=>?@/\^_`{|}~-]prebid([0-9]{1,3})?\./$important,script
 /^https?:\/\/[^\s]+[!"#$%&'()*+,:;<=>?@/\^_`{|}~-]videoads?[0-9]{1,3}\.php/$important,script,xmlhttprequest
 /^https?:\/\/[^\s]+[!"#$%&'()*+,:;<=>?@\/\^_`{|}~-]log[!"#$%&'()*+,:;<=>?@\/\^_`{|}~-]?(type|event|entry|request)\??/$important,xmlhttprequest
 /^https?:\/\/[^\s]+\&refer\=https?/$important,script
@@ -9171,6 +9172,7 @@
 ||rupstration.club^$important
 ||ruqckzdjsoe.bid^$important
 ||rurjxaovebr.bid^$important
+||rushhips.com^$important
 ||russia-lives.icu^$important
 ||rustqlclwuebif.bid^$important
 ||rutarget.ru^$important
@@ -10949,6 +10951,7 @@
 ||vdldsjqxppi.com^$important
 ||vdlvaqsbaiok.com^$important
 ||vdnwtglxprwx.com^$important
+||vdo.ai^$important
 ||vdojdljult.bid^$important
 ||vdpybqqnewhbb.bid^$important
 ||vdpyueivvsuc.com^$important
