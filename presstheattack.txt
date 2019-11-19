@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-11-18 23:17:39
-! Version: 20191118231739
+! Last modified: 2019-11-19 15:43:51
+! Version: 20191119154351
 ! Expires: 3 hours
-! Number of filters: 13186
+! Number of filters: 13194
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -109,6 +109,7 @@
 |http*:*/adclck.*^$important,popup
 |http*:*/adclick.*^$important,popup
 |http*:*/amp.gif?$image,important,xmlhttprequest
+|http*:*/atrk.js$important,script
 |http*:*/clear.gif$image,important
 |http*:*/drstat?$image,important
 |http*:*/ezcl.webp?$image,important
@@ -513,6 +514,7 @@
 ||abserv123.com^$important
 ||absorbingband.com^$important
 ||absorbingcorn.com^$important
+||absorbingprison.com^$important
 ||absurdapple.com^$important
 ||absurdwater.com^$important
 ||abunmrqsbfn.bid^$important
@@ -523,6 +525,7 @@
 ||accesstrade.co.id^$important
 ||acdektqffm.com^$important
 ||acduswfvyjylzq.com^$important
+||ace2three.com^$important
 ||achiname.info^$important
 ||achsijkc.com^$important
 ||acidityfoamy.com^$important
@@ -4531,6 +4534,7 @@
 ||hqwlpexoywbc.com^$important
 ||hqxtsqwpvort.com^$important
 ||hqyenmzgxk.com^$important
+||hrahdmon.com^$important
 ||hraowdzgs.com^$important
 ||hrarjpeqtcsge.com^$important
 ||hrcqeghr.com^$important
@@ -4892,6 +4896,7 @@
 ||immensehoney.com^$important
 ||immgnzenbixuzd.bid^$important
 ||imnsmvmjrdiwwr.com^$important
+||impactserving.com^$important
 ||importedincrease.com^$important
 ||importlocate.com^$important
 ||impossibleexpansion.com^$important
@@ -7186,6 +7191,7 @@
 ||nolzqbzxiq.com^$important
 ||nomlxyhfgeny.com^$important
 ||nomzkqffqsz.com^$important
+||nonamekgb64.live^$important
 ||nonceynp.com^$important
 ||nondescriptcrowd.com^$important
 ||nondescriptsmile.com^$important
@@ -7841,6 +7847,7 @@
 ||peacepowder.com^$important
 ||pebed.dm-event.net^$important
 ||pedbkepupj.bid^$important
+||pedropanther.com^$important
 ||peevopoy.com^$important
 ||peewuranpdwo.com^$important
 ||pegel.pw^$important$image
@@ -8376,6 +8383,7 @@
 ||qcxhpohiwawnmo.bid^$important
 ||qcyqimny.com^$important
 ||qczvjjdbaj.com^$important
+||qd3u5eeuos.com^$important
 ||qdajmhpwzdmaji.com^$important
 ||qdcoqejn.com^$important
 ||qddgbaux.com^$important
