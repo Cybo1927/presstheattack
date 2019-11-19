@@ -12,6 +12,7 @@
 /^https?:\/\/((www|wap)\.)?informers?([0-9]{1,3})?\./$important
 /^https?:\/\/((www|wap)\.)?logs?([0-9]{1,3})?\./$important
 /^https?:\/\/((www|wap)\.)?metric?[asx]?([0-9]{1,3})?\./$important,domain=~metrica.yandex.com|~metrica.yandex.ru|~metrika.yandex.com|~metrika.yandex.ru
+/^https?:\/\/((www|wap)\.)?piwik([0-9]{1,3})?\./$important
 /^https?:\/\/((www|wap)\.)?monitor([0-9]{1,3})?\./$important
 /^https?:\/\/((www|wap)\.)?partners?([0-9]{1,3})?\./$important
 /^https?:\/\/((www|wap)\.)?pi?xe?l?([0-9]{1,3})?\./$important
