@@ -14,3 +14,4 @@
 |http*:*/www/*&zoneid=$image,important,script,xmlhttprequest
 |http*:*/xti.php^$important,script,xmlhttprequest,domain=facebook.com|facebookcorewwwi.onion
 ||youtube.com/api/stats/$image,important,other,xmlhttprequest
+/^https?:\/\/turbobit\.net\/(ajax\/fdlogger|pus\/|.*\/js\/brinpopup\.js)/$script,xmlhttprequest,important
