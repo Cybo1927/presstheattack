@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-11-19 19:55:37
-! Version: 20191119195537
+! Last modified: 2019-11-20 17:52:52
+! Version: 20191120175252
 ! Expires: 3 hours
-! Number of filters: 13197
+! Number of filters: 13203
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -28,6 +28,7 @@
 /^https?:\/\/((www|wap)\.)?(analysis|analytic?[asx]?)([0-9]{1,3})?\./$important,domain=~analytics.google.com
 /^https?:\/\/((www|wap)\.)?(fingerprint|fp)([0-9]{1,3})?\./$important
 /^https?:\/\/((www|wap)\.)?ad[bsxv]?([0-9]{1,3})?\./$important,domain=~ad.nl|~ads.google.com
+/^https?:\/\/((www|wap)\.)?adsbb([0-9]{1,3})?\./$important
 /^https?:\/\/((www|wap)\.)?adsby([0-9]{1,3})?\./$important
 /^https?:\/\/((www|wap)\.)?aff(iliat(es?|ion))([0-9]{1,3})?\./$important
 /^https?:\/\/((www|wap)\.)?bann?ers?([0-9]{1,3})?\./$important
@@ -98,6 +99,7 @@
 /^https?:\/\/cdn[0-9]{1,3}?\.rocks\/[^\s]{30,}\.js/$important,script
 /^https?:\/\/denis\-[a-z0-9]{7,12}\-[a-z0-9]{7,12}\.com/$important
 /^https?:\/\/s3\.amazonaws\.com\/.*[a-f0-9\/]{50,}/$important,third-party,xmlhttprequest,domain=~amazon.com
+/^https?:\/\/turbobit\.net\/(ajax\/fdlogger|pus\/|.*\/js\/brinpopup\.js)/$important,script,xmlhttprequest
 /^https?:\/\/www\.([a-z]{6,16})\.com\/([a-z]{1,4})\.js$/$important,script,third-party
 /^https?:\/\/zmctrack\.(com|net)/$important
 |http*:*%22request_id%*%22idzone%$important
@@ -326,6 +328,7 @@
 ||4d1ee8e427cb5e1866.com^$important
 ||4d2911e5a4e352.com^$important
 ||4dd887ed167b2.com^$important
+||4dsply.com^$important
 ||4ee395e5b8a076c7bd8592851ff8cad.com^$important
 ||4ef6b73abc9123.com^$important
 ||4fba771f87a0251.com^$important
@@ -1360,6 +1363,7 @@
 ||bkxkodsmrnqd.com^$important
 ||bl0uxepb4o.com^$important
 ||blaghfpd.com^$important
+||blandernova.com^$important
 ||blcmacswwmqv.com^$important
 ||blgrwhaww.com^$important
 ||blhjbepkhmuunbjxmidaq.com^$important
@@ -3369,6 +3373,7 @@
 ||fisqwkxyvsrtnz.bid^$important
 ||fiuazbmlycese.com^$important
 ||fiunfrafi.bid^$important
+||fivskvc6ccgtrnl.ru^$important
 ||fixfuturetype-restclicks.icu^$important
 ||fixingit.solutions^$important
 ||fjeqkpblfb.com^$important
@@ -6465,6 +6470,7 @@
 ||marisingly.com^$important
 ||markedcrayon.com^$important
 ||markedpail.com^$important
+||market-place.su^$important
 ||marketgid.com^$important
 ||marketing.dropbox.com^$important
 ||mascqybw.com^$important

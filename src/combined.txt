@@ -10,8 +10,8 @@
 /^https?:\/\/[^\s]+\/adserv[ei](ce|r)?\.php/$important,script,subdocument,xmlhttprequest
 /^https?:\/\/[^\s]+\/piwik\./$image,important,script
 /^https?:\/\/[^\s]+\/vast([._0-9-/]{1,10})?([/.-?]|js)/$image,important,script,xmlhttprequest
+/^https?:\/\/turbobit\.net\/(ajax\/fdlogger|pus\/|.*\/js\/brinpopup\.js)/$important,script,xmlhttprequest
 |http*:*/amp.gif?$image,important,xmlhttprequest
 |http*:*/www/*&zoneid=$image,important,script,xmlhttprequest
 |http*:*/xti.php^$important,script,xmlhttprequest,domain=facebook.com|facebookcorewwwi.onion
 ||youtube.com/api/stats/$image,important,other,xmlhttprequest
-/^https?:\/\/turbobit\.net\/(ajax\/fdlogger|pus\/|.*\/js\/brinpopup\.js)/$script,xmlhttprequest,important
