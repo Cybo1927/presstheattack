@@ -12,10 +12,6 @@
 /^https?:\/\/zmctrack\.(com|net)/$important
 ||0--e.info^$important
 ||00e46b7f53.com^$important
-||foxpush.net^$important
-||nsxawdatuetbq.com^$important
-||qttbfdygj.com^$important
-||cadsabs.com^$important
 ||00f31156f051fdf.com^$important
 ||01ced816b84.com^$important
 ||01counter.com^$important
@@ -1519,6 +1515,7 @@
 ||cabd920a3a9f6514.com^$important
 ||cachefly.net^$important
 ||cacpcaizwx.bid^$important
+||cadsabs.com^$important
 ||cadulscdfhtcb.bid^$important
 ||cafvzpusl.com^$important
 ||cah9ooy.bid^$important
@@ -3351,6 +3348,7 @@
 ||founehie.com^$important
 ||fourarithmetic.com^$important
 ||fourtesy.info^$important
+||foxpush.net^$important
 ||fpbmjwoebzby.com^$important
 ||fpcptdqmjlnlu.com^$important
 ||fpdsavexteno.com^$important
@@ -7128,6 +7126,7 @@
 ||nsqitedrzv.bid^$important
 ||nstjenxcpvm.com^$important
 ||nswnseld.com^$important
+||nsxawdatuetbq.com^$important
 ||ntbftkhrsrh.com^$important
 ||ntduattgboduk.com^$important
 ||ntejdhcom.bid^$important
@@ -8519,6 +8518,7 @@
 ||qtjxalkllc.com^$important
 ||qtkluwmebrtbrt.com^$important
 ||qtsyxyakun.com^$important
+||qttbfdygj.com^$important
 ||qttmjwno.com^$important
 ||qtuckpvttvikd.com^$important
 ||qtvnesozf.com^$important

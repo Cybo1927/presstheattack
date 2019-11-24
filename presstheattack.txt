@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-11-23 14:36:01
-! Version: 20191123143601
+! Last modified: 2019-11-24 14:30:32
+! Version: 20191124143032
 ! Expires: 3 hours
-! Number of filters: 13212
+! Number of filters: 13216
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -1646,6 +1646,7 @@
 ||cabd920a3a9f6514.com^$important
 ||cachefly.net^$important
 ||cacpcaizwx.bid^$important
+||cadsabs.com^$important
 ||cadulscdfhtcb.bid^$important
 ||cafvzpusl.com^$important
 ||cah9ooy.bid^$important
@@ -3483,6 +3484,7 @@
 ||founehie.com^$important
 ||fourarithmetic.com^$important
 ||fourtesy.info^$important
+||foxpush.net^$important
 ||fpbmjwoebzby.com^$important
 ||fpcptdqmjlnlu.com^$important
 ||fpdsavexteno.com^$important
@@ -7266,6 +7268,7 @@
 ||nsqitedrzv.bid^$important
 ||nstjenxcpvm.com^$important
 ||nswnseld.com^$important
+||nsxawdatuetbq.com^$important
 ||ntbftkhrsrh.com^$important
 ||ntduattgboduk.com^$important
 ||ntejdhcom.bid^$important
@@ -8661,6 +8664,7 @@
 ||qtjxalkllc.com^$important
 ||qtkluwmebrtbrt.com^$important
 ||qtsyxyakun.com^$important
+||qttbfdygj.com^$important
 ||qttmjwno.com^$important
 ||qtuckpvttvikd.com^$important
 ||qtvnesozf.com^$important
