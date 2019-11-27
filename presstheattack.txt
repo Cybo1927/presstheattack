@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-11-24 14:30:32
-! Version: 20191124143032
+! Last modified: 2019-11-27 11:18:52
+! Version: 20191127111852
 ! Expires: 3 hours
-! Number of filters: 13216
+! Number of filters: 13220
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -7138,6 +7138,7 @@
 ||nksfmnvmngxzr.bid^$important
 ||nkxdyorwbt.com^$important
 ||nlcfowfz.com^$important
+||nlcriuncacyys.com^$important
 ||nlduyricoemfc.bid^$important
 ||nlfqbfwbfovt.com^$important
 ||nlhayvlqar.bid^$important
@@ -7582,6 +7583,7 @@
 ||onclasrv.com^$important
 ||onclickmega.com^$important
 ||onclicksuper.com^$important
+||onesignal.com^$important
 ||ongkidcasarv.com^$important
 ||onhxejzm.bid^$important
 ||onjqfyuxprnq.com^$important
@@ -7659,6 +7661,7 @@
 ||osewuwcdgfb.bid^$important
 ||osfipdgo.bid^$important
 ||osfxxqoy.com^$important
+||osnbddsrm.com^$important
 ||osny2p7a0k.com^$important
 ||osprmnv.com^$important
 ||ossdqciz.com^$important
@@ -8776,6 +8779,7 @@
 ||qzpxhebrm.com^$important
 ||qzpzspna.bid^$important
 ||qzwhzahnieipgz.com^$important
+||r0.mail.ru^$important
 ||r3.mail.ru^$important
 ||r5jpkacq.ru^$important
 ||r66at6sf.com^$important
