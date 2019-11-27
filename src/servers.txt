@@ -1525,6 +1525,11 @@
 ||calculatorcamera.com^$important
 ||caliente.mx^$important
 ||caljqsml.com^$important
+||r0.mail.ru^$important
+||nlcriuncacyys.com^$important
+||osnbddsrm.com^$important
+||onesignal.com^$important
+||ziffstatic.com^$important
 ||callcentercard.world^$important
 ||callousbrake.com^$important
 ||calmfoot.com^$important
