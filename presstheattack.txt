@@ -1,9 +1,9 @@
 ! Title: Press the Attack
 ! Description: Filters for ad blocking, tracking, crypto mining, and more!
-! Last modified: 2019-11-27 11:18:52
-! Version: 20191127111852
+! Last modified: 2019-11-27 16:06:52
+! Version: 20191127160653
 ! Expires: 3 hours
-! Number of filters: 13220
+! Number of filters: 13226
 ! Homepage: https://github.com/bogachenko/presstheattack/
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 !
@@ -2344,6 +2344,7 @@
 ||detectdinner.com^$important
 ||detectdiscovery.com^$important
 ||dev-mobile-techie-fresh.pw^$important
+||develenius.com^$important
 ||deviceoffergiveaways.icu
 ||dewltdgzgtt.com^$important
 ||dexxxrggi.com^$important
@@ -6348,6 +6349,7 @@
 ||lujkgrvheh.com^$important
 ||lumberamount.com^$important
 ||lumpyleaf.com^$important
+||lumpylumber.com^$important
 ||lumzvjur.com^$important
 ||lunkydkokpg.bid^$important
 ||luqnpzexna.bid^$important
@@ -6954,6 +6956,7 @@
 ||nahixtmnmpcz.com^$important
 ||nahvyfyfpffm.com^$important
 ||namjixxurjam.com^$important
+||nanoadexchange.com^$important
 ||nanovisor.io^$important
 ||naohofhbprtx.com^$important
 ||napickmw.com^$important
@@ -10321,6 +10324,7 @@
 ||tsuitufixxlf.com^$important
 ||tsvqrrmq.com^$important
 ||tswhwnkcjvxf.com^$important
+||tswxyvxm.com^$important
 ||tsybqlldfsstw.bid^$important
 ||tsyndicate.com^$important
 ||tsyndolls.com^$important
@@ -10910,6 +10914,7 @@
 ||vajiyqbb.com^$important
 ||vak345.com^$important
 ||vaksyrgpkz.com^$important
+||valkirum.com^$important
 ||valshara.com^$important
 ||vamuglchdpte.com^$important
 ||vanderebony.pro^$important
@@ -11160,6 +11165,7 @@
 ||vmqbifesgqs.com^$important
 ||vmrsmnrvzh.com^$important
 ||vmtaqxsf.bid^$important
+||vmtjybwfb.com^$important
 ||vmtwnkpskok.com^$important
 ||vmvhmwppcsvd.com^$important
 ||vmyvsltb.com^$important
