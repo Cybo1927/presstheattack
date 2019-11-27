@@ -59,8 +59,8 @@
 /^https?:\/\/(syndication|analytics)\.twitter\.com/$important
 /^https?:\/\/(www\.)?(client\-event\-reporter|countess|mp|polyfill|sentinel|spade|trowel|fan)\.twitch(svc)?\.(com|net|tv)/$important
 /^https?:\/\/(www\.)?(facebookcorewwwi|facebook)\.(com|net|onion)\/tr\D/$important
-/^https?:\/\/(www\.)?[a-zA-Z0-9]+\.(club|pro|info|bid|tk|to|site|xyz|app|pet|win|cc|is|zone|ga|review|agency|live|world|website|email|life|today|rock|space|company|nf|mobi|be|cm|gq|rocks|art|link|cricket|ad|ninja)$/$important,popup,third-party
-/^https?:\/\/(www\.)?[a-zA-Z0-9]+\.(club|pro|info|bid|tk|to|site|xyz|app|pet|win|cc|is|zone|ga|review|agency|live|world|website|email|life|today|rock|space|company|nf|mobi|be|cm|gq|rocks|art|link|cricket|ad|ninja)$/$important,third-party
+/^https?:\/\/(www\.)?[a-zA-Z0-9]+\.(club|pro|info|bid|tk|to|site|xyz|app|pet|win|cc|is|zone|ga|review|agency|live|world|website|email|life|today|rock|space|company|nf|mobi|be|cm|gq|rocks|art|link|cricket|ad|ninja)/$important,popup,third-party
+/^https?:\/\/(www\.)?[a-zA-Z0-9]+\.(club|pro|info|bid|tk|to|site|xyz|app|pet|win|cc|is|zone|ga|review|agency|live|world|website|email|life|today|rock|space|company|nf|mobi|be|cm|gq|rocks|art|link|cricket|ad|ninja)/$important,third-party
 /^https?:\/\/(www\.)?dyncdn\.me\/static\/[0-9]{1,2}\/js\/expla[0-9]{1,2}\.js/$important,script
 /^https?:\/\/1x[a-z]{3}\.world/$important
 /^https?:\/\/[^/]+\/[a-z0-9]{15,}(\?hope=.*)?$/$important,script
